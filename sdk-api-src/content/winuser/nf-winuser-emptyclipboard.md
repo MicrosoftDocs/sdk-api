@@ -7,7 +7,7 @@ old-location: dataxchg\emptyclipboard.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\emptyclipboard.htm
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: EmptyClipboard, EmptyClipboard function [Data Exchange], _win32_EmptyClipboard, _win32_emptyclipboard_cpp, dataxchg.emptyclipboard, winui._win32_emptyclipboard, winuser/EmptyClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

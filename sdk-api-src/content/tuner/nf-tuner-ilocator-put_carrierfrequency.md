@@ -4,10 +4,10 @@ title: ILocator::put_CarrierFrequency
 author: windows-sdk-content
 description: The put_CarrierFrequency method sets the frequency of the RF signal.
 old-location: mstv\ilocator_put_carrierfrequency.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 74617c08-dabc-48d7-a9da-d1631d7df961
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],put_CarrierFrequency method, ILocator.put_CarrierFrequency, ILocator::put_CarrierFrequency, ILocatorput_CarrierFrequency, mstv.ilocator_put_carrierfrequency, put_CarrierFrequency, put_CarrierFrequency method [Microsoft TV Technologies], put_CarrierFrequency method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_CarrierFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

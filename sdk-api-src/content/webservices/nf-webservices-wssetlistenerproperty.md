@@ -7,7 +7,7 @@ old-location: wsw\wssetlistenerproperty.htm
 tech.root: wsw
 ms.assetid: 5c494651-3944-4424-8cd4-a6e14c239e80
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsSetListenerProperty, WsSetListenerProperty function [Web Services for Windows], webservices/WsSetListenerProperty, wsw.wssetlistenerproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

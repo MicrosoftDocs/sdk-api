@@ -4,10 +4,10 @@ title: IX509Extensions::Add
 author: windows-sdk-content
 description: Adds an IX509Extension object to the collection.
 old-location: security\ix509extensions_add_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 08109828-44d9-4b8f-a57c-bbedfc82fbbb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509Extensions interface, IX509Extensions interface [Security],Add method, IX509Extensions.Add, IX509Extensions::Add, certenroll/IX509Extensions::Add, security.ix509extensions_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

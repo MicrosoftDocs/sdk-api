@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_SetAcceleratorMenu.htm
 tech.root: shell
 ms.assetid: 64c7ce89-c3c5-4a09-aff2-57103ade671a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],SetAcceleratorMenu method, IBrowserService2.SetAcceleratorMenu, IBrowserService2::SetAcceleratorMenu, SetAcceleratorMenu, SetAcceleratorMenu method [Windows Shell], SetAcceleratorMenu method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetAcceleratorMenu, shell.IBrowserService2_SetAcceleratorMenu, zone_IBrowserService2_SetAcceleratorMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

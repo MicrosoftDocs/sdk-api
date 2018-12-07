@@ -4,13 +4,13 @@ title: tagOFFLINEFILES_ITEM_COPY
 author: windows-sdk-content
 description: Specifies whether the local, remote, or original copy of an item is being queried.
 old-location: of\offlinefiles_item_copy.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: b956f186-962b-457e-9c03-ffd1a7f937ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: OFFLINEFILES_ITEM_COPY, OFFLINEFILES_ITEM_COPY enumeration [Offline Files], OFFLINEFILES_ITEM_COPY_LOCAL, OFFLINEFILES_ITEM_COPY_ORIGINAL, OFFLINEFILES_ITEM_COPY_REMOTE, cscobj/OFFLINEFILES_ITEM_COPY, cscobj/OFFLINEFILES_ITEM_COPY_LOCAL, cscobj/OFFLINEFILES_ITEM_COPY_ORIGINAL, cscobj/OFFLINEFILES_ITEM_COPY_REMOTE, of.offlinefiles_item_copy, tagOFFLINEFILES_ITEM_COPY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 

@@ -2,7 +2,7 @@
 UID: NA:oledlg
 ms.assetid: 81c9c2f7-b96d-35c7-8dff-6f9d55ca81e4
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

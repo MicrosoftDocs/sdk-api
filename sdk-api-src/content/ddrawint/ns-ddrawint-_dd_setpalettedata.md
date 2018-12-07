@@ -7,10 +7,10 @@ old-location: display\dd_setpalettedata.htm
 tech.root: display
 ms.assetid: 943af430-19b2-481a-9cac-cd4cb767d96a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDD_SETPALETTEDATA, DD_SETPALETTEDATA, DD_SETPALETTEDATA structure [Display Devices], _DD_SETPALETTEDATA, ddrawint/DD_SETPALETTEDATA, ddstrcts_254301f1-b163-4402-92b2-70a2632f5ebc.xml, display.dd_setpalettedata"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

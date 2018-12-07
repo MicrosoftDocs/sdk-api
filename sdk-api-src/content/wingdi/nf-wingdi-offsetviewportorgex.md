@@ -7,7 +7,7 @@ old-location: gdi\offsetviewportorgex.htm
 tech.root: gdi
 ms.assetid: 54311cbe-1c54-4193-8991-891dbd0856bf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: OffsetViewportOrgEx, OffsetViewportOrgEx function [Windows GDI], _win32_OffsetViewportOrgEx, gdi.offsetviewportorgex, wingdi/OffsetViewportOrgEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

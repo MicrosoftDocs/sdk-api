@@ -4,13 +4,13 @@ title: IBDA_EthernetFilter
 author: windows-sdk-content
 description: The IBDA_EthernetFilter interface is implemented on a Network Provider.
 old-location: mstv\ibda_ethernetfilter.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f4f9d6c0-0acf-416b-adb3-643ac0167d0a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_EthernetFilter, IBDA_EthernetFilter interface [Microsoft TV Technologies], IBDA_EthernetFilter interface [Microsoft TV Technologies],described, IBDA_EthernetFilterInterface, bdaiface/IBDA_EthernetFilter, mstv.ibda_ethernetfilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

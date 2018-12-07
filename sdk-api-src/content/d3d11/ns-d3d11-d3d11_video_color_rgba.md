@@ -7,10 +7,10 @@ old-location: mf\d3d11_video_color_rgba.htm
 tech.root: medfound
 ms.assetid: DDD587DC-BB17-407D-9E9E-47015950A504
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_VIDEO_COLOR_RGBA, D3D11_VIDEO_COLOR_RGBA structure [Media Foundation], d3d11/D3D11_VIDEO_COLOR_RGBA, mf.d3d11_video_color_rgba
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: ReadUrlCacheEntryStream function
 author: windows-sdk-content
 description: Reads the cached data from a stream that has been opened using the RetrieveUrlCacheEntryStream function.
 old-location: wininet\readurlcacheentrystream.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 8cfd0c64-25ca-4f08-b9b3-2743ded18030
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ReadUrlCacheEntryStream, ReadUrlCacheEntryStream function [WinINet], _inet_readurlcacheentrystream_function, wininet.readurlcacheentrystream, wininet/ReadUrlCacheEntryStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

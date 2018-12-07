@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3ddisassembleregion.htm
 tech.root: direct3dhlsl
 ms.assetid: 4813FF62-42FA-425D-9C24-9E472F04E35B
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3DDisassembleRegion, D3DDisassembleRegion function [HLSL], d3dcompiler/D3DDisassembleRegion, direct3dhlsl.d3ddisassembleregion
 ms.prod: windows-hardware
 ms.technology: windows-devices

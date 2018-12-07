@@ -4,10 +4,10 @@ title: IRdcLibrary::CreateGenerator
 author: windows-sdk-content
 description: Creates a signature generator that will generate the specified levels of signatures.
 old-location: rdc\irdclibrary_creategenerator.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 9cd64c3f-acd7-4e59-916f-90e90f452e12
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateGenerator, CreateGenerator method [Remote Differential Compression], CreateGenerator method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateGenerator method, IRdcLibrary.CreateGenerator, IRdcLibrary::CreateGenerator, fs.irdclibrary_creategenerator, msrdc/IRdcLibrary::CreateGenerator, rdc.irdclibrary_creategenerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

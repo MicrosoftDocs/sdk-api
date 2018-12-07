@@ -7,7 +7,7 @@ old-location: security\ienroll4_enumcontainerswstr.htm
 tech.root: seccrypto
 ms.assetid: a08d97c9-8ee9-464e-862e-18c335695927
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IEnroll interface [Security],enumContainersWStr method, IEnroll.enumContainersWStr, IEnroll::enumContainersWStr, enumContainersWStr, enumContainersWStr method [Security], enumContainersWStr method [Security],IEnroll interface, security.ienroll4_enumcontainerswstr, xenroll/IEnroll::enumContainersWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>enumContainersWStr</b> method retrieves the names of containers for the <
 Specifies the ordinal position of the container whose name will be retrieved. Specify zero for the first container.
 
 
-### -param pbstr
-
-TBD
-
-
-
-
-#### - ppwsz [out]
+### -param pbstr [out]
 
 A pointer to a <b>LPWSTR</b> variable that receives the name of the container.
 

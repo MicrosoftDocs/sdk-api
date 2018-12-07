@@ -7,7 +7,7 @@ old-location: tapi3\imcastaddressallocation_get_scopes.htm
 tech.root: tapi
 ms.assetid: 4fe824fa-2fcb-4f6b-b3de-15dcfc79575c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],get_Scopes method, IMcastAddressAllocation.get_Scopes, IMcastAddressAllocation::get_Scopes, _tapi3_imcastaddressallocation_get_scopes, get_Scopes, get_Scopes method [TAPI 2.2], get_Scopes method [TAPI 2.2],IMcastAddressAllocation interface, mdhcp/IMcastAddressAllocation::get_Scopes, tapi3.imcastaddressallocation_get_scopes
 ms.prod: windows-hardware
 ms.technology: windows-devices

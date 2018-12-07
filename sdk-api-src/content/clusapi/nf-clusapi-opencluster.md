@@ -7,7 +7,7 @@ old-location: mscs\opencluster.htm
 tech.root: mscs
 ms.assetid: b2ee2575-cc1e-4696-8e95-9798fb556c58
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: OpenCluster, OpenCluster function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER, PCLUSAPI_OPEN_CLUSTER function [Failover Cluster], _wolf_opencluster, clusapi/OpenCluster, clusapi/PCLUSAPI_OPEN_CLUSTER, mscs.opencluster
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,6 +81,27 @@ Specifies one of the following values:
 
 If the operation was successful, <b>OpenCluster</b> returns 
        a cluster handle.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULL</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the function 
+         <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

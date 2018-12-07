@@ -7,10 +7,10 @@ old-location: tsf\itfedittransactionsink.htm
 tech.root: TSF
 ms.assetid: d5393459-8bd6-4daf-830a-aa08d76c6347
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: ITfEditTransactionSink, ITfEditTransactionSink interface [Text Services Framework], ITfEditTransactionSink interface [Text Services Framework],described, _tsf_itfedittransactionsink_ref, msctf/ITfEditTransactionSink, tsf.itfedittransactionsink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

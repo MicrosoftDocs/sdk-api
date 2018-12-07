@@ -4,13 +4,13 @@ title: "_MI_ContextFT"
 author: windows-sdk-content
 description: A support structure used in the MI_Context structure. Use the functions with the name prefix &#0034;MI_Context_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_contextft.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: a5a3003f-9343-415d-b30f-32b479232db8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ContextFT, MI_ContextFT structure [Windows Management Infrastructure (MI)], _MI_ContextFT, mi/MI_ContextFT, wmi_v2.mi_contextft
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

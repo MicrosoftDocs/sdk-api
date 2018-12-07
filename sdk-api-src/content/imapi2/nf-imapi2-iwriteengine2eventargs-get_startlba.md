@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2eventargs_get_startlba.htm
 tech.root: imapi
 ms.assetid: 1c2d1a1f-04b7-4453-af52-4f96e5536ad2
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_StartLba method, IWriteEngine2EventArgs.get_StartLba, IWriteEngine2EventArgs::get_StartLba, get_StartLba, get_StartLba method [IMAPI], get_StartLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_startlba, imapi2/IWriteEngine2EventArgs::get_StartLba
 ms.prod: windows-hardware
 ms.technology: windows-devices

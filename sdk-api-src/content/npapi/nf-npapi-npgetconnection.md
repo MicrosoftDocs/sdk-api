@@ -7,7 +7,7 @@ old-location: security\npgetconnection.htm
 tech.root: secauthn
 ms.assetid: 3f52bbff-998d-4e11-877f-478085207e6b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: NPGetConnection, NPGetConnection function [Security], _mnp_npgetconnection, npapi/NPGetConnection, security.npgetconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

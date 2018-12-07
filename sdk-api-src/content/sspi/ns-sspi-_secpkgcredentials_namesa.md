@@ -7,10 +7,10 @@ old-location: security\secpkgcredentials_names.htm
 tech.root: secauthn
 ms.assetid: 38123a10-72a4-46eb-974b-3c01142dfc74
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSecPkgCredentials_NamesA, PSecPkgCredentials_Names, PSecPkgCredentials_Names structure pointer [Security], SecPkgCredentials_Names, SecPkgCredentials_Names structure [Security], SecPkgCredentials_NamesA, SecPkgCredentials_NamesW, _SecPkgCredentials_NamesA, _ssp_secpkgcredentials_names, security.secpkgcredentials_names, sspi/PSecPkgCredentials_Names, sspi/SecPkgCredentials_Names, sspi/SecPkgCredentials_NamesA, sspi/SecPkgCredentials_NamesW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

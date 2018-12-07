@@ -7,10 +7,10 @@ old-location: dshow\am_dvdkaraokedata.htm
 tech.root: DirectShow
 ms.assetid: 9fef2dd9-0a56-4e51-a64b-7f12c8f9a966
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: AM_DvdKaraokeData, AM_DvdKaraokeData structure [DirectShow], dshow.am_dvdkaraokedata, dvdmedia/AM_DvdKaraokeData, tagAM_DvdKaraokeData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

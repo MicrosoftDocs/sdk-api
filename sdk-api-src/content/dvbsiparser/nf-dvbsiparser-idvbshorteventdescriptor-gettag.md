@@ -4,10 +4,10 @@ title: IDvbShortEventDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor_gettag.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4cf7a327-6646-4cea-95ab-125450f013b6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbShortEventDescriptor.GetTag, IDvbShortEventDescriptor::GetTag, dvbsiparser/IDvbShortEventDescriptor::GetTag, mstv.idvbshorteventdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

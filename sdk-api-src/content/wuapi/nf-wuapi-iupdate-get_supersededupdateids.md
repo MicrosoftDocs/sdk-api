@@ -4,10 +4,10 @@ title: IUpdate::get_SupersededUpdateIDs
 author: windows-sdk-content
 description: Gets a collection of update identifiers. This collection of identifiers specifies the updates that are superseded by the update.
 old-location: wua\iupdate_supersededupdateids.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: b819e321-3f8d-4d8f-8f6d-16792af990e5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SupersededUpdateIDs property, IUpdate.SupersededUpdateIDs, IUpdate.get_SupersededUpdateIDs, IUpdate::SupersededUpdateIDs, IUpdate::get_SupersededUpdateIDs, SupersededUpdateIDs property [Windows Update Agent], SupersededUpdateIDs property [Windows Update Agent],IUpdate interface, get_SupersededUpdateIDs, wua.iupdate_supercededupdateids, wua.iupdate_supersededupdateids, wuapi/IUpdate::SupersededUpdateIDs, wuapi/IUpdate::get_SupersededUpdateIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices

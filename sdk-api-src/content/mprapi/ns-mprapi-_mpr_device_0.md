@@ -7,10 +7,10 @@ old-location: rras\mpr_device_0.htm
 tech.root: rras
 ms.assetid: 1814c428-1a3c-45f3-8b15-182e1eceff7b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMPR_DEVICE_0, MPR_DEVICE_0, MPR_DEVICE_0 structure [RAS], PMPR_DEVICE_0, PMPR_DEVICE_0 structure pointer [RAS], _MPR_DEVICE_0, _mpr_mpr_device_0, mprapi/MPR_DEVICE_0, mprapi/PMPR_DEVICE_0, rras.mpr_device_0"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

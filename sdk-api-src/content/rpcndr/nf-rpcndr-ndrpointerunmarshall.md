@@ -7,7 +7,7 @@ old-location: rpc\ndrpointerunmarshall.htm
 tech.root: rpc
 ms.assetid: 6e4b0085-34bd-4f63-beea-a944ff0f853e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: NdrPointerUnmarshall, NdrPointerUnmarshall function [RPC], rpc.ndrpointerunmarshall, rpcndr/NdrPointerUnmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

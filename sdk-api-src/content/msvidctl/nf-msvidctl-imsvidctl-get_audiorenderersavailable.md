@@ -4,10 +4,10 @@ title: IMSVidCtl::get_AudioRenderersAvailable
 author: windows-sdk-content
 description: The get_AudioRenderersAvailable method retrieves the available audio renderers.
 old-location: mstv\imsvidctl_get_audiorenderersavailable.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 6ab81536-2701-408e-be3a-f44375ef8193
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AudioRenderersAvailable method, IMSVidCtl.get_AudioRenderersAvailable, IMSVidCtl::get_AudioRenderersAvailable, IMSVidCtlget_AudioRenderersAvailable, get_AudioRenderersAvailable, get_AudioRenderersAvailable method [Microsoft TV Technologies], get_AudioRenderersAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_audiorenderersavailable, msvidctl/IMSVidCtl::get_AudioRenderersAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_AudioRenderersAvailable</b> method retrieves the available audio rend
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppVal [out]
+### -param pVal [out]
 
 Receives an <a href="https://msdn.microsoft.com/2cf03260-7abe-4602-8364-447d076a4f76">IMSVidAudioRendererDevices</a> interface pointer. The caller must release the interface.
 

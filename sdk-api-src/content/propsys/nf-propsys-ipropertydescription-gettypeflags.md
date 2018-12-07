@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetTypeFlags.htm
 tech.root: properties
 ms.assetid: 20ff02c1-72de-479f-afd8-29ec580bbfcb
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GetTypeFlags, GetTypeFlags method [Windows Properties], GetTypeFlags method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetTypeFlags method, IPropertyDescription.GetTypeFlags, IPropertyDescription::GetTypeFlags, properties.IPropertyDescription_GetTypeFlags, propsys/IPropertyDescription::GetTypeFlags, shell.IPropertyDescription_GetTypeFlags, shell_IPropertyDescription_GetTypeFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ A mask that specifies which type flags to retrieve. A combination of values foun
 
 
 
-### -param ppdtFlags
-
-TBD
-
-
-
-
-#### - ppdtfFlags [out]
+### -param ppdtFlags [out]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762527(v=VS.85).aspx">PROPDESC_TYPE_FLAGS</a>*</b>
 

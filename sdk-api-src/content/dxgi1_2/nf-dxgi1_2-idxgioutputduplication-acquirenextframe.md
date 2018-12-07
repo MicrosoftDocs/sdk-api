@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication_acquirenextframe.htm
 tech.root: direct3ddxgi
 ms.assetid: C4F8C462-C8D8-4418-9543-7C8C32CE9498
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: AcquireNextFrame, AcquireNextFrame method [DXGI], AcquireNextFrame method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],AcquireNextFrame method, IDXGIOutputDuplication.AcquireNextFrame, IDXGIOutputDuplication::AcquireNextFrame, direct3ddxgi.idxgioutputduplication_acquirenextframe, dxgi1_2/IDXGIOutputDuplication::AcquireNextFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

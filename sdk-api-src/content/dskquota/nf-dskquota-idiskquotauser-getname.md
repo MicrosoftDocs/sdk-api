@@ -7,7 +7,7 @@ old-location: fs\idiskquotauser_getname.htm
 tech.root: fileio
 ms.assetid: d47e064a-d121-41c3-b713-f81ff7052abf
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [Files], GetName method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetName method, IDiskQuotaUser.GetName, IDiskQuotaUser::GetName, _win32_idiskquotauser_getname, base.idiskquotauser_getname, dskquota/IDiskQuotaUser::GetName, fs.idiskquotauser_getname
 ms.prod: windows-hardware
 ms.technology: windows-devices

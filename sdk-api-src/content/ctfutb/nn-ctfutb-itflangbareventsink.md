@@ -7,10 +7,10 @@ old-location: tsf\itflangbareventsink.htm
 tech.root: TSF
 ms.assetid: 2ef8b8ff-6549-41f8-baf3-3c5b8e2411a3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: ITfLangBarEventSink, ITfLangBarEventSink interface [Text Services Framework], ITfLangBarEventSink interface [Text Services Framework],described, _tsf_itflangbareventsink_ref, ctfutb/ITfLangBarEventSink, tsf.itflangbareventsink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 

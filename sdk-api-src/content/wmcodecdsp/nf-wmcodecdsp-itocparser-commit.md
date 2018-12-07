@@ -7,7 +7,7 @@ old-location: mf\itocparser_commit.htm
 tech.root: medfound
 ms.assetid: 549c170e-2e4d-4edb-b84e-178bfbb13fed
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Commit, Commit method [Media Foundation], Commit method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],Commit method, ITocParser.Commit, ITocParser::Commit, codecapi.itocparser_commit, mf.itocparser_commit, wmcodecdsp/ITocParser::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

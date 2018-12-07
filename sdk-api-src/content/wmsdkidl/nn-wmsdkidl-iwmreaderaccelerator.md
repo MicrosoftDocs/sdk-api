@@ -7,10 +7,10 @@ old-location: wmformat\iwmreaderaccelerator.htm
 tech.root: wmformat
 ms.assetid: cf783b70-4d19-4006-ad0e-e1f883f00b0b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMReaderAccelerator, IWMReaderAccelerator interface [windows Media Format], IWMReaderAccelerator interface [windows Media Format],described, IWMReaderAcceleratorInterface, wmformat.iwmreaderaccelerator, wmsdkidl/IWMReaderAccelerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: shell\EXPCMDSTATE.htm
 tech.root: shell
 ms.assetid: 41e76b6e-9294-40b3-bb8b-bbfe487fd023
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ECS_CHECKBOX, ECS_CHECKED, ECS_DISABLED, ECS_ENABLED, ECS_HIDDEN, ECS_RADIOCHECK, EXPCMDSTATE, EXPCMDSTATE enumeration [Windows Shell], _EXPCMDSTATE, _shell_EXPCMDSTATE, shell.EXPCMDSTATE, shobjidl_core/ECS_CHECKBOX, shobjidl_core/ECS_CHECKED, shobjidl_core/ECS_DISABLED, shobjidl_core/ECS_ENABLED, shobjidl_core/ECS_HIDDEN, shobjidl_core/ECS_RADIOCHECK, shobjidl_core/EXPCMDSTATE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

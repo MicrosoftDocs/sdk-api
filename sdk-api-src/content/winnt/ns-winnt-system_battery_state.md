@@ -9,8 +9,8 @@ ms.assetid: 6eed7c93-48bd-4142-b639-df6d71b114f9
 ms.author: windowssdkdev
 ms.date: 10/05/2018
 ms.keywords: "*PSYSTEM_BATTERY_STATE, PSYSTEM_BATTERY_STATE, PSYSTEM_BATTERY_STATE structure pointer, SYSTEM_BATTERY_STATE, SYSTEM_BATTERY_STATE structure, _win32_system_battery_state_str, base.system_battery_state_str, winnt/PSYSTEM_BATTERY_STATE, winnt/SYSTEM_BATTERY_STATE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

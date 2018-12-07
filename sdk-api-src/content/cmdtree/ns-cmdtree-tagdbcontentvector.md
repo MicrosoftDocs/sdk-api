@@ -9,8 +9,8 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_0coi.htm
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: DBCONTENTVECTOR, DBCONTENTVECTOR structure [Indexing Service], _idxs_DBCONTENTVECTOR, cmdtree/DBCONTENTVECTOR, indexsrv.dbcontentvector, tagDBCONTENTVECTOR
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: IVssComponent::GetBackupMetadata
 author: windows-sdk-content
 description: The GetBackupMetadata method retrieves private, writer-specific backup metadata that might have been set during a PrepareForBackup event by CVssWriter::OnPrepareBackup using IVssComponent::SetBackupMetadata.
 old-location: base\ivsscomponent_getbackupmetadata.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 638b8909-0aef-4066-ade7-4ee6d96b309e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetBackupMetadata, GetBackupMetadata method [VSS], GetBackupMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupMetadata method, IVssComponent.GetBackupMetadata, IVssComponent::GetBackupMetadata, _win32_ivsscomponent_getbackupmetadata, base.ivsscomponent_getbackupmetadata, vswriter/IVssComponent::GetBackupMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Only a writer can call this method.
 
 
 
-### -param pbstrData
-
-TBD
-
-
-
-
-#### - pbstrMetadata [out]
+### -param pbstrData [out]
 
 The address of a caller-allocated variable that receives a string containing the backup metadata that was added during an 
       <a href="https://msdn.microsoft.com/4e88d92b-48f3-42f9-bf66-61337a745902">OnPrepareBackup</a> event.

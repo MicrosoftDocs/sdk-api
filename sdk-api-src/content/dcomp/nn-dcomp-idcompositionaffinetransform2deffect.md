@@ -7,10 +7,10 @@ old-location: directcomp\idcompositionaffinetransform2deffect.htm
 tech.root: directcomp
 ms.assetid: 1B693705-1118-4B9B-A7B7-E8811AE881AC
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionAffineTransform2DEffect, IDCompositionAffineTransform2DEffect interface [DirectComposition], IDCompositionAffineTransform2DEffect interface [DirectComposition],described, dcomp/IDCompositionAffineTransform2DEffect, directcomp.idcompositionaffinetransform2deffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: dshow\iqueuecommand_invokeatstreamtime.htm
 tech.root: DirectShow
 ms.assetid: 350b6842-207c-47db-a3f8-9e2784d9da67
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IQueueCommand interface [DirectShow],InvokeAtStreamTime method, IQueueCommand.InvokeAtStreamTime, IQueueCommand::InvokeAtStreamTime, IQueueCommandInvokeAtStreamTime, InvokeAtStreamTime, InvokeAtStreamTime method [DirectShow], InvokeAtStreamTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtStreamTime, dshow.iqueuecommand_invokeatstreamtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,9 +77,9 @@ Time at which to invoke the command.
 Pointer to the interface identifier (IID) of interface.
 
 
-### -param dispidMethod
+### -param dispidMethod [in]
 
-TBD
+Dispatch identifier (DISPID) of a method or property on the interface. Equivalent to the <i>dispIdMember</i> parameter of the <b>IDispatch::Invoke</b> method.
 
 
 ### -param wFlags [in]
@@ -105,11 +105,6 @@ Pointer to a VARIANT that receives the result. Equivalent to the <i>pVarResult</
 ### -param puArgErr [out]
 
 Pointer to a variable that receives the index of the first argument that has an error. Equivalent to the <i>puArgErr</i> parameter of the <b>IDispatch::Invoke</b> method.
-
-
-#### - dispidMember [in]
-
-Dispatch identifier (DISPID) of a method or property on the interface. Equivalent to the <i>dispIdMember</i> parameter of the <b>IDispatch::Invoke</b> method.
 
 
 ## -returns

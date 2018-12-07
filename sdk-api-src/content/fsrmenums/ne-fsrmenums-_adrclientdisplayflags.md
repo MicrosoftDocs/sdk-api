@@ -4,13 +4,13 @@ title: "_AdrClientDisplayFlags"
 author: windows-sdk-content
 description: Describes the possible types of access denied remediation (ADR) client display flags.
 old-location: fsrm\adrclientdisplayflags.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 939ecb44-e59b-452d-901f-72207a6ae89a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AdrClientDisplayFlags, AdrClientDisplayFlags enumeration [File Server Resource Manager], AdrClientDisplayFlags_AllowEmailRequests, AdrClientDisplayFlags_ShowDeviceTroubleshooting, _AdrClientDisplayFlags, fs.adrclientdisplayflags, fsrm.adrclientdisplayflags, fsrmenums/AdrClientDisplayFlags, fsrmenums/AdrClientDisplayFlags_AllowEmailRequests, fsrmenums/AdrClientDisplayFlags_ShowDeviceTroubleshooting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -2,26 +2,26 @@
 UID: NF:shobjidl.IAccessibilityDockingService.UndockWindow
 title: IAccessibilityDockingService::UndockWindow
 author: windows-sdk-content
-description: Undocks a currently docked accessibility app window from the bottom of the screen.
-old-location: shell\IAccessibilityDockingService_UndockWindow.htm
-tech.root: shell
-ms.assetid: C3032B15-F5E1-48ef-919D-970603716F68
+description: Undocks the specified window handle if it is currently docked.
+old-location: com\iaccessibilitydockingservice_undockwindow.htm
+tech.root: com
+ms.assetid: 8A88D02C-E542-49F0-B423-771E755D506D
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: IAccessibilityDockingService interface [Windows Shell],UndockWindow method, IAccessibilityDockingService.UndockWindow, IAccessibilityDockingService::UndockWindow, UndockWindow, UndockWindow method [Windows Shell], UndockWindow method [Windows Shell],IAccessibilityDockingService interface, shell.IAccessibilityDockingService_UndockWindow, shobjidl/IAccessibilityDockingService::UndockWindow
+ms.date: 12/5/2018
+ms.keywords: IAccessibilityDockingService interface [COM],UndockWindow method, IAccessibilityDockingService.UndockWindow, IAccessibilityDockingService::UndockWindow, UndockWindow, UndockWindow method [COM], UndockWindow method [COM],IAccessibilityDockingService interface, com.iaccessibilitydockingservice_undockwindow, shobjidl/IAccessibilityDockingService::UndockWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shobjidl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -35,7 +35,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - Shobjidl.h
+ - shobjidl.h
 api_name:
  - IAccessibilityDockingService.UndockWindow
 product: Windows
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Undocks a currently docked accessibility app window from the bottom of the screen.
+Undocks the specified window handle if it is currently docked.
 
 
 ## -parameters
@@ -58,20 +58,23 @@ Undocks a currently docked accessibility app window from the bottom of the scree
 
 
 
-### -param hwnd [in]
+### -param hwnd
 
-Type: <b>HWND</b>
+TBD
 
-The handle of the window to undock.
+
+
+
+#### - hWnd [in]
+
+Specifies the window that will be undocked.
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
-
-Returns a standard return value, including the following:
+This method can return one of these values.
 
 <table>
 <tr>
@@ -85,7 +88,7 @@ Returns a standard return value, including the following:
 </dl>
 </td>
 <td width="60%">
-The method succeeded.
+Success.
 
 </td>
 </tr>
@@ -96,7 +99,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The specified window does not belong to the calling process.
+The window does not belong to the calling process.
 
 </td>
 </tr>
@@ -107,7 +110,7 @@ The specified window does not belong to the calling process.
 </dl>
 </td>
 <td width="60%">
-The specified window is not docked.
+The window is not docked.
 
 </td>
 </tr>
@@ -132,10 +135,7 @@ This method can only be used to undock windows that belong to the calling proces
 </tr>
 <tr>
 <td>
-<pre>
-
-
-class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallback
+<pre>class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallback
 {
 
     ....
@@ -148,8 +148,7 @@ class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallb
 
     IAccessibilityDockingService *_pDockingService;
     HWND _hwndMyApplication;
-}
-</pre>
+}</pre>
 </td>
 </tr>
 </table></span></div>
@@ -161,7 +160,7 @@ class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallb
 
 
 
-<a href="https://msdn.microsoft.com/EB66604E-4665-4d62-878C-7777C1C042F3">IAccessibilityDockingService</a>
+<a href="https://msdn.microsoft.com/DBAFE260-0AC6-4801-8590-DE058667C9A6">IAccessibilityDockingService</a>
  
 
  

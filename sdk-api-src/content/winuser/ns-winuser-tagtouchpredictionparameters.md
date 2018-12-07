@@ -7,10 +7,10 @@ old-location: inputmsg\touchpredictionparameters_struct.htm
 tech.root: InputMsg
 ms.assetid: 4F7F2B51-B65E-4699-A0FF-55A9A3AF4B61
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTOUCHPREDICTIONPARAMETERS, PTouchPredictionParameters, PTouchPredictionParameters structure pointer [Input Messages and Notifications], TOUCHPREDICTIONPARAMETERS, TouchPredictionParameters, TouchPredictionParameters structure [Input Messages and Notifications], _TouchPredictionParameters, inputmsg.touchpredictionparameters_struct, tagTouchPredictionParameters, winuser/PTouchPredictionParameters, winuser/TouchPredictionParameters"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::get_UsingOverlay
 author: windows-sdk-content
 description: The get_UsingOverlay method queries whether the Video Mixing Renderer (VMR) is using the hardware overlay.
 old-location: mstv\imsvidvideorenderer_get_usingoverlay.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: bd41cbcc-b8a8-4b08-9b25-399e366614ce
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_UsingOverlay method, IMSVidVideoRenderer.get_UsingOverlay, IMSVidVideoRenderer::get_UsingOverlay, IMSVidVideoRendererget_UsingOverlay, get_UsingOverlay, get_UsingOverlay method [Microsoft TV Technologies], get_UsingOverlay method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_usingoverlay, segment/IMSVidVideoRenderer::get_UsingOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_UsingOverlay</b> method queries whether the Video Mixing Renderer (VM
 
 
 
-### -param UseOverlayVal
-
-TBD
-
-
-
-
-#### - pUseOverlayVal [out]
+### -param UseOverlayVal [out]
 
 Receives one of the following values.
             

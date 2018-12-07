@@ -4,10 +4,10 @@ title: IVdsAdmin::RegisterProvider
 author: windows-sdk-content
 description: Registers the specified hardware provider with VDS. Hardware providers call this method.
 old-location: base\ivdsadmin_registerprovider.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: bb6e0037-7f44-418d-897c-12bf15224841
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsAdmin interface [VDS],RegisterProvider method, IVdsAdmin.RegisterProvider, IVdsAdmin::RegisterProvider, RegisterProvider, RegisterProvider method [VDS], RegisterProvider method [VDS],IVdsAdmin interface, base.ivdsadmin_registerprovider, vdshwprv/IVdsAdmin::RegisterProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

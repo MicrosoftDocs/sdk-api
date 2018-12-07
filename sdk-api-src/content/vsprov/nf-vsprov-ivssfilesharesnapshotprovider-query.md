@@ -4,10 +4,10 @@ title: IVssFileShareSnapshotProvider::Query
 author: windows-sdk-content
 description: Gets an enumeration of VSS_SNAPSHOT_PROP structures for all file share snapshots that are available to the application server.
 old-location: base\ivssfilesharesnapshotprovider_query.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 686d2104-f657-4c3b-967b-d6fb9137be17
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],Query method, IVssFileShareSnapshotProvider.Query, IVssFileShareSnapshotProvider::Query, Query, Query method [VSS], Query method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_query, vsprov/IVssFileShareSnapshotProvider::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices

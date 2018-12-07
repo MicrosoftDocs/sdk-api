@@ -4,13 +4,13 @@ title: DNS_OPT_DATA
 author: windows-sdk-content
 description: Represents a DNS Option (OPT) resource record (RR) as specified in section 4 of RFC 2671.
 old-location: dns\dns_opt_data.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: a8e23127-a625-4206-abe8-0787b4ac0f30
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_OPT_DATA, DNS_OPT_DATA, DNS_OPT_DATA structure [DNS], PDNS_OPT_DATA, PDNS_OPT_DATA structure pointer [DNS], dns.dns_opt_data, windns/DNS_OPT_DATA, windns/PDNS_OPT_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

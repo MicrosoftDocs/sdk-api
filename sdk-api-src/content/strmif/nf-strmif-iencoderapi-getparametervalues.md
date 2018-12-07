@@ -4,10 +4,10 @@ title: IEncoderAPI::GetParameterValues
 author: windows-sdk-content
 description: The GetParameterValues method retrieves the list of values supported by the given parameter.
 old-location: mstv\iencoderapi_getparametervalues.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 406316b5-1de0-4a89-b1bc-2f3b63ab0739
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetParameterValues, GetParameterValues method [Microsoft TV Technologies], GetParameterValues method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterValues method, IEncoderAPI.GetParameterValues, IEncoderAPI::GetParameterValues, IEncoderAPIGetParameterValues, mstv.iencoderapi_getparametervalues, strmif/IEncoderAPI::GetParameterValues
 ms.prod: windows-hardware
 ms.technology: windows-devices

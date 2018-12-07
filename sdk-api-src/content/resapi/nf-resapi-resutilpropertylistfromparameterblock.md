@@ -7,7 +7,7 @@ old-location: mscs\resutilpropertylistfromparameterblock.htm
 tech.root: mscs
 ms.assetid: 6993e279-07c7-4444-b1b9-0d25360e43e3
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK function [Failover Cluster], ResUtilPropertyListFromParameterBlock, ResUtilPropertyListFromParameterBlock function [Failover Cluster], _wolf_resutilpropertylistfromparameterblock, mscs.resutilpropertylistfromparameterblock, resapi/PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, resapi/ResUtilPropertyListFromParameterBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,6 +101,47 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 If the operation fails, the function returns a 
        <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error 
        codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The output buffer is too small to contain the resulting property list.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_ARGUMENTS</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the input parameters were invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+There was an error allocating memory.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

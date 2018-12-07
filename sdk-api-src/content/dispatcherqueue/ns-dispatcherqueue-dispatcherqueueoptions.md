@@ -7,10 +7,10 @@ old-location: base\dispatcherqueueoptions.htm
 tech.root: procthread
 ms.assetid: F9AF7DDE-13EB-43DB-BAD5-61A6ABD9307D
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DispatcherQueueOptions, DispatcherQueueOptions structure, base.dispatcherqueueoptions, dispatcherqueue/DispatcherQueueOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dispatcherqueue.h
 req.include-header: 

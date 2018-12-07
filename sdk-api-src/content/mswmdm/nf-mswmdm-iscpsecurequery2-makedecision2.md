@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecurequery2_makedecision2.htm
 tech.root: WMDM
 ms.assetid: a3031585-7a56-49d9-ad4b-d2f9e687dd6b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISCPSecureQuery2 interface [windows Media Device Manager],MakeDecision2 method, ISCPSecureQuery2.MakeDecision2, ISCPSecureQuery2::MakeDecision2, ISCPSecureQuery2MakeDecision2, MakeDecision2, MakeDecision2 method [windows Media Device Manager], MakeDecision2 method [windows Media Device Manager],ISCPSecureQuery2 interface, mswmdm/ISCPSecureQuery2::MakeDecision2, wmdm.iscpsecurequery2_makedecision2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -195,14 +195,7 @@ Pointer to an unknown interface from the application.
 Pointer to an exchange object that receives the exchange interface.
 
 
-### -param abMac
-
-TBD
-
-
-
-
-#### - abMac[WMDM_MAC_LENGTH] [in, out]
+### -param abMac [in, out]
 
 Array of eight bytes containing the message authentication code for the parameter data of this method. (WMDM_MAC_LENGTH is defined as 8.)
 

@@ -7,7 +7,7 @@ old-location: shell\IShellFolder2_GetDefaultColumn.htm
 tech.root: shell
 ms.assetid: 5d1a1273-be67-4bb3-b549-8adacea0cb5f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDefaultColumn, GetDefaultColumn method [Windows Shell], GetDefaultColumn method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDefaultColumn method, IShellFolder2.GetDefaultColumn, IShellFolder2::GetDefaultColumn, _win32_IShellFolder2_GetDefaultColumn, shell.IShellFolder2_GetDefaultColumn, shobjidl_core/IShellFolder2::GetDefaultColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Gets the default sorting and display columns.
 
 
 
-### -param dwRes
+### -param dwRes [in]
 
-TBD
+Type: <b>DWORD</b>
+
+Reserved. Set to zero.
 
 
 ### -param pSort [out]
@@ -75,13 +77,6 @@ A pointer to a value that receives the index of the default sorted column.
 Type: <b>ULONG*</b>
 
 A pointer to a value that receives the index of the default display column.
-
-
-#### - dwReserved [in]
-
-Type: <b>DWORD</b>
-
-Reserved. Set to zero.
 
 
 ## -returns

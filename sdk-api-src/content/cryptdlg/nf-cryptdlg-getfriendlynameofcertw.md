@@ -7,7 +7,7 @@ old-location: security\getfriendlynameofcert.htm
 tech.root: seccrypto
 ms.assetid: a66a8573-b234-4d5d-bd38-72a3a44a0419
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetFriendlyNameOfCert, GetFriendlyNameOfCert function [Security], GetFriendlyNameOfCertA, GetFriendlyNameOfCertW, cryptdlg/GetFriendlyNameOfCert, cryptdlg/GetFriendlyNameOfCertA, cryptdlg/GetFriendlyNameOfCertW, security.getfriendlynameofcert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,26 @@ The <b>GetFriendlyNameOfCert</b> function retrieves the display name for a certi
 A pointer to the certificate context whose display name is being retrieved.
 
 
-#### - pwch [out]
+### -param pwch
 
-A pointer to a character string that receives the display name for the certificate.
+TBD
 
 
-#### - cwch [in]
+### -param cwch
+
+TBD
+
+
+
+
+#### - cch [in]
 
 Number of characters allocated for <i>pchBuffer</i>, including the terminating <b>NULL</b> character.
+
+
+#### - pch [out]
+
+A pointer to a character string that receives the display name for the certificate.
 
 
 ## -returns

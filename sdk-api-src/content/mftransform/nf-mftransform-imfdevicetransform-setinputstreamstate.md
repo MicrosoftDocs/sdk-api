@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_setinputstreamstate.htm
 tech.root: stream
 ms.assetid: 010E482E-7464-45AE-80B6-9456864E1C96
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],SetInputStreamState method, IMFDeviceTransform.SetInputStreamState, IMFDeviceTransform::SetInputStreamState, SetInputStreamState, SetInputStreamState method [Streaming Media Devices], SetInputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::SetInputStreamState, stream.imfdevicetransform_setinputstreamstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,24 +68,12 @@ Stream ID of the input stream where the state and media type needs to be changed
 Preferred media type for the input stream is passed in through this parameter. Device MFT should change the media type only if the incoming media type is different from the current media type.
 
 
-### -param value
-
-TBD
-
-
-### -param dwFlags
-
-TBD
-
-
-
-
-#### - deviceStreamState [in]
+### -param value [in]
 
 Specifies the  <b>DeviceStreamState</b> which the input stream should transition to.
 
 
-#### - dwStatus [in]
+### -param dwFlags [in]
 
 When  <b>S_OK</b> is returned, perform the state change operation. Otherwise, this contains an error that occurred while setting the media type on the devproxy  output pin. In this case, propagate the error appropriately.
 

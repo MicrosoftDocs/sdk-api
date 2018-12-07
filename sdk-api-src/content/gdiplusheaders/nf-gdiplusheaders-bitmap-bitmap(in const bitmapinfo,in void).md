@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_gdiBitmapInfo_gdiBitmapData_.
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_30gdibitmapinfo_gdibitmapdata.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IN const BITMAPINFO,IN VOID), Bitmap.Bitmap(const BITMAPINFO*,VOID*), Bitmap::Bitmap, Bitmap::Bitmap(IN const BITMAPINFO,IN VOID), _gdiplus_CLASS_Bitmap_Bitmap_gdiBitmapInfo_gdiBitmapData_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_gdiBitmapInfo_gdiBitmapData_
 ms.prod: windows-hardware
 ms.technology: windows-devices

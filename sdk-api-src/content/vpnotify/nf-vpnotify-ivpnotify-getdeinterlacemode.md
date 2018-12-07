@@ -7,7 +7,7 @@ old-location: dshow\ivpnotify_getdeinterlacemode.htm
 tech.root: DirectShow
 ms.assetid: 08d28857-5460-407d-a169-8568b2c381e6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVPNotify interface, IVPNotify interface [DirectShow],GetDeinterlaceMode method, IVPNotify.GetDeinterlaceMode, IVPNotify::GetDeinterlaceMode, IVPNotifyGetDeinterlaceMode, dshow.ivpnotify_getdeinterlacemode, vpnotify/IVPNotify::GetDeinterlaceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,7 @@ This method is not currently implemented and returns E_NOTIMPL.
 
 
 
-### -param pMode
-
-TBD
-
-
-
-
-#### - pmode [out]
+### -param pMode [out]
 
 Pointer to the retrieved mode. This value is a member of the <a href="https://msdn.microsoft.com/73d63ca2-17fb-4e27-9ea5-62686117254a">AMVP_MODE</a> enumerated data type.
 

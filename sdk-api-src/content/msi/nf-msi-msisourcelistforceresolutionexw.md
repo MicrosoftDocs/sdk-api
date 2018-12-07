@@ -7,7 +7,7 @@ old-location: setup\msisourcelistforceresolutionex.htm
 tech.root: msi
 ms.assetid: 8eb140bb-79c4-454a-9004-71905e430811
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListForceResolutionEx, MsiSourceListForceResolutionEx function, MsiSourceListForceResolutionExA, MsiSourceListForceResolutionExW, msi/MsiSourceListForceResolutionEx, msi/MsiSourceListForceResolutionExA, msi/MsiSourceListForceResolutionExW, setup.msisourcelistforceresolutionex
 ms.prod: windows-hardware
 ms.technology: windows-devices

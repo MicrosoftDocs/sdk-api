@@ -7,7 +7,7 @@ old-location: rras\rtmmarkdestforchangenotification.htm
 tech.root: rras
 ms.assetid: b7db8664-2775-4f96-8e5b-5062a8abcfe0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: RtmMarkDestForChangeNotification, RtmMarkDestForChangeNotification function [RAS], _rtmv2ref_rtmmarkdestforchangenotification, rras.rtmmarkdestforchangenotification, rtmv2/RtmMarkDestForChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

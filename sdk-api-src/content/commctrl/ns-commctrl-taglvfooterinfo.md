@@ -7,10 +7,10 @@ old-location: controls\LVFOOTERINFO.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooterinfo.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPLVFOOTERINFO, LPLVFOOTERINFO, LPLVFOOTERINFO structure pointer [Windows Controls], LVFOOTERINFO, LVFOOTERINFO structure [Windows Controls], _shell_LVFOOTERINFO, _shell_LVFOOTERINFO_cpp, commctrl/LPLVFOOTERINFO, commctrl/LVFOOTERINFO, controls.LVFOOTERINFO, controls._shell_LVFOOTERINFO, tagLVFOOTERINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

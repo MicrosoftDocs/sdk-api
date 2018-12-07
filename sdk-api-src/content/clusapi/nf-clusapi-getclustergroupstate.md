@@ -7,7 +7,7 @@ old-location: mscs\getclustergroupstate.htm
 tech.root: mscs
 ms.assetid: 5f794dee-aeee-4906-ba63-c154bfda4d17
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: GetClusterGroupState, GetClusterGroupState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_GROUP_STATE, PCLUSAPI_GET_CLUSTER_GROUP_STATE function [Failover Cluster], _wolf_getclustergroupstate, clusapi/GetClusterGroupState, clusapi/PCLUSAPI_GET_CLUSTER_GROUP_STATE, mscs.getclustergroupstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,6 +86,91 @@ Pointer to the size of the <i>lpszNodeName</i> buffer as a count of characters. 
 
 <b>GetClusterGroupState</b> returns the current 
        state of the group, which is represented by one of the following values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterGroupStateUnknown</b></dt>
+<dt>-1</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the function 
+         <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterGroupOnline</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+All of the resources in the group are <a href="o_gly.htm">online</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterGroupOffline</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+All of the resources in the group are <a href="o_gly.htm">offline</a> or 
+         there are no resources in the group.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterGroupFailed</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+At least one <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> in the group has failed (set a state 
+         of <b>ClusterResourceFailed</b> from the <a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a> enumeration).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterGroupPartialOnline</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+At least one resource in the group is online. No resources are 
+         <a href="p_gly.htm">pending</a> or 
+         <a href="f_gly.htm">failed</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterGroupPending</b></dt>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+At least one resource in the group is in a pending state. There are no failed resources.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

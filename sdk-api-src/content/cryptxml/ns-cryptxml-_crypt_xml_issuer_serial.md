@@ -7,10 +7,10 @@ old-location: security\crypt_xml_issuer_serial.htm
 tech.root: seccrypto
 ms.assetid: 8d74e119-c7ea-4c7c-9d2a-e81f7ae40310
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CRYPT_XML_ISSUER_SERIAL, CRYPT_XML_ISSUER_SERIAL structure [Security], _CRYPT_XML_ISSUER_SERIAL, cryptxml/CRYPT_XML_ISSUER_SERIAL, security.crypt_xml_issuer_serial
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_hasrestrictedfonts.htm
 tech.root: printdocs
 ms.assetid: 721dffd7-a15f-4028-be9e-854a4445d76d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: FALSE, HasRestrictedFonts, HasRestrictedFonts method [XPS Documents and Packaging], HasRestrictedFonts method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],HasRestrictedFonts method, IXpsOMPageReference.HasRestrictedFonts, IXpsOMPageReference::HasRestrictedFonts, TRUE, xps.ixpsompagereference_hasrestrictedfonts, xpsobjectmodel/IXpsOMPageReference::HasRestrictedFonts
 ms.prod: windows-hardware
 ms.technology: windows-devices

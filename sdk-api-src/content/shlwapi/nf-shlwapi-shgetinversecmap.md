@@ -7,7 +7,7 @@ old-location: shell\SHGetInverseCMAP.htm
 tech.root: shell
 ms.assetid: 46d5ccd2-3c5d-431b-b27b-6a7a95043e0a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SHGetInverseCMAP, SHGetInverseCMAP function [Windows Shell], _shell_SHGetInverseCMAP, shell.SHGetInverseCMAP, shlwapi/SHGetInverseCMAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,17 +115,10 @@ For example, the method for determining a color in the halftone palette that is 
 
                         
 
-<div class="code"><span codelanguage=""><table>
-                        <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>((red / 8) &lt;&lt; 10) + ((blue / 8) &lt;&lt; 5) + (green / 8)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+((red / 8) << 10) + ((blue / 8) << 5) + (green / 8)
+```
 
 
 In this example, the value in 555 format is ((0x30 / 8) &lt;&lt; 10) + ((0x60 / 8) &lt;&lt; 5) + (0x40 / 8) = 6536.

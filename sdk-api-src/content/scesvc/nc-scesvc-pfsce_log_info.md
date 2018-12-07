@@ -7,10 +7,10 @@ old-location: security\pfsce_log_info.htm
 tech.root: secmgmt
 ms.assetid: 8960b0c0-abde-4ea1-bbe4-7409a848d81b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: PFSCE_LOG_INFO, PFSCE_LOG_INFO callback, PFSCE_LOG_INFO callback function [Security], SCE_LOG_LEVEL_ALWAYS, SCE_LOG_LEVEL_DEBUG, SCE_LOG_LEVEL_DETAIL, SCE_LOG_LEVEL_ERROR, _config_pfsce_log_info, scesvc/PFSCE_LOG_INFO, security.pfsce_log_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: scesvc.h
 req.include-header: 

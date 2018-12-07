@@ -4,10 +4,10 @@ title: IFsrmFileConditionProperty::get_Operator
 author: windows-sdk-content
 description: Specifies the comparison operator, as enumerated by the FsrmPropertyConditionType enumeration.
 old-location: fsrm\ifsrmfileconditionproperty_operator.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: b04b238b-55df-4467-809f-dbbc4ebd5595
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],Operator property, IFsrmFileConditionProperty.Operator, IFsrmFileConditionProperty.get_Operator, IFsrmFileConditionProperty::Operator, IFsrmFileConditionProperty::get_Operator, IFsrmFileConditionProperty::put_Operator, Operator property [File Server Resource Manager], Operator property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_operator, fsrm.ifsrmfileconditionproperty_operator, fsrmreports/IFsrmFileConditionProperty::Operator, fsrmreports/IFsrmFileConditionProperty::get_Operator, fsrmreports/IFsrmFileConditionProperty::put_Operator, get_Operator
 ms.prod: windows-hardware
 ms.technology: windows-devices

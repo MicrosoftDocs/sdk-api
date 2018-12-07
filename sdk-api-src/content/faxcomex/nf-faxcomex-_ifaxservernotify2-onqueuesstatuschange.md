@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onqueuesstatuschange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onqueuesstatuschange.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnQueuesStatusChange method, IFaxServerNotify2.OnQueuesStatusChange, IFaxServerNotify2::OnQueuesStatusChange, OnQueuesStatusChange, OnQueuesStatusChange method [Fax Service], OnQueuesStatusChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnQueuesStatusChange, _IFaxServerNotify2::OnQueuesStatusChange, _mfax_ifaxservernotify2_onqueuesstatuschange, fax._mfax_ifaxservernotify2_onqueuesstatuschange, faxcomex/IFaxServerNotify2::OnQueuesStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,9 @@ The fax service calls the <b>IFaxServerNotify2::OnQueuesStatusChange</b> method 
 
 ### -param pFaxServer
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
+
+A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ### -param bOutgoingQueueBlocked
@@ -85,13 +87,6 @@ Specifies a Boolean value that indicates whether the job queue for outgoing faxe
 Type: <b>VARIANT_BOOL</b>
 
 Specifies a Boolean value that indicates whether the job queue for incoming faxes is blocked. If this parameter is equal to <b>TRUE</b>, the inbound job queue is blocked and the fax service is not answering incoming fax calls. If this parameter is equal to <b>FALSE</b>, the queue is not blocked.
-
-
-#### - pFaxServer2
-
-Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
-
-A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IDvbDataBroadcastIDDescriptor::GetDataBroadcastID
 author: windows-sdk-content
 description: Gets the identifier that identifies the network broadcast from a Digital Video Broadcast (DVB) data broadcast descriptor.
 old-location: mstv\idvbdatabroadcastiddescriptor_getdatabroadcastid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2addfb2b-80ab-47a7-81dd-f660e5fe1138
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetDataBroadcastID, GetDataBroadcastID method [Microsoft TV Technologies], GetDataBroadcastID method [Microsoft TV Technologies],IDvbDataBroadcastIDDescriptor interface, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],GetDataBroadcastID method, IDvbDataBroadcastIDDescriptor.GetDataBroadcastID, IDvbDataBroadcastIDDescriptor::GetDataBroadcastID, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetDataBroadcastID, mstv.idvbdatabroadcastiddescriptor_getdatabroadcastid
 ms.prod: windows-hardware
 ms.technology: windows-devices

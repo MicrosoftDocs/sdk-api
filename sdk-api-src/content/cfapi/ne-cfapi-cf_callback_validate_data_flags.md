@@ -7,10 +7,10 @@ old-location: cloudapi\cf_callback_validate_data_flags.htm
 tech.root: cfApi
 ms.assetid: D5BEAEAA-318E-4BA5-8DC5-EDD24E2C26EF
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CF_CALLBACK_VALIDATE_DATA_FLAGS, CF_CALLBACK_VALIDATE_DATA_FLAGS enumeration, CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION, CF_CALLBACK_VALIDATE_DATA_FLAG_NONE, cfapi/ CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION, cfapi/CF_CALLBACK_VALIDATE_DATA_FLAGS, cfapi/CF_CALLBACK_VALIDATE_DATA_FLAG_NONE, cloudApi.cf_callback_validate_data_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

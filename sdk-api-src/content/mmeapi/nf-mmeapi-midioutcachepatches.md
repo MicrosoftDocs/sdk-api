@@ -7,7 +7,7 @@ old-location: multimedia\midioutcachepatches.htm
 tech.root: Multimedia
 ms.assetid: 58d0c73b-46a4-498d-bcef-f5b8aaf52392
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutCachePatches, midiOutCachePatches, midiOutCachePatches function [Windows Multimedia], mmeapi/midiOutCachePatches, multimedia.midioutcachepatches"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,32 +70,15 @@ Handle to the opened MIDI output device. This device must be an internal MIDI sy
 
 ### -param uBank
 
-TBD
+Bank of patches that should be used. This parameter should be set to zero to cache the default patch bank.
 
 
 ### -param pwpa
 
-TBD
-
-
-### -param fuCache
-
-TBD
-
-
-
-
-#### - lpPatchArray
-
 Pointer to a <a href="https://msdn.microsoft.com/f48ee0d2-224a-4530-ac28-ae63160316cc">PATCHARRAY</a> array indicating the patches to be cached or uncached.
 
 
-#### - wBank
-
-Bank of patches that should be used. This parameter should be set to zero to cache the default patch bank.
-
-
-#### - wFlags
+### -param fuCache
 
 Options for the cache operation. It can be one of the following flags.
 

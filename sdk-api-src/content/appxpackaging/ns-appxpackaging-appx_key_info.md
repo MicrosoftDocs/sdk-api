@@ -7,10 +7,10 @@ old-location: appxpkg\appx_key_info.htm
 tech.root: appxpkg
 ms.assetid: 16D21F7E-0F98-47F3-BB96-0E2D263B249B
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: APPX_KEY_INFO, APPX_KEY_INFO structure [App packaging and management], PAPPX_KEY_INFO, PAPPX_KEY_INFO structure pointer [App packaging and management], appxpackaging/APPX_KEY_INFO, appxpackaging/PAPPX_KEY_INFO, appxpkg.appx_key_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: appxpackaging.h
 req.include-header: 

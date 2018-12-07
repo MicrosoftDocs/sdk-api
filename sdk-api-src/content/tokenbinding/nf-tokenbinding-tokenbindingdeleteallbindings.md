@@ -7,7 +7,7 @@ old-location: security\tokenbindingdeleteallbindings.htm
 tech.root: seccng
 ms.assetid: 0446F62F-96B4-4F4B-9789-0CD12173E601
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: TokenBindingDeleteAllBindings, TokenBindingDeleteAllBindings function [Security], security.tokenbindingdeleteallbindings, tokenbinding/TokenBindingDeleteAllBindings
 ms.prod: windows-hardware
 ms.technology: windows-devices

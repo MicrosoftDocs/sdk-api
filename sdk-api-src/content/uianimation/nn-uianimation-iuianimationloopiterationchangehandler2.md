@@ -7,10 +7,10 @@ old-location: uianimation\iuianimationloopiterationchangehandler2.htm
 tech.root: UIAnimation
 ms.assetid: DB3995BA-856F-407D-AA89-247D84C3F7A1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAnimationLoopIterationChangeHandler2, IUIAnimationLoopIterationChangeHandler2 interface [Windows Animation], IUIAnimationLoopIterationChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationloopiterationchangehandler2, uianimation/IUIAnimationLoopIterationChangeHandler2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

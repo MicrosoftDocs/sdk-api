@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_getcertificateset.htm
 tech.root: printdocs
 ms.assetid: 40e96263-03dd-4fbe-8383-0c0bf1abd8c4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [XPS Documents and Packaging], GetCertificateSet method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCertificateSet method, IXpsSigningOptions.GetCertificateSet, IXpsSigningOptions::GetCertificateSet, xps.ixpssigningoptions_getcertificateset, xpsdigitalsignature/IXpsSigningOptions::GetCertificateSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

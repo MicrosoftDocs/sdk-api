@@ -7,7 +7,7 @@ old-location: shell\ITransferSource_LinkItem.htm
 tech.root: shell
 ms.assetid: e373c790-5366-4bff-a08d-817b0c566b1d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITransferSource interface [Windows Shell],LinkItem method, ITransferSource.LinkItem, ITransferSource::LinkItem, LinkItem, LinkItem method [Windows Shell], LinkItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_LinkItem, shell.ITransferSource_LinkItem, shobjidl_core/ITransferSource::LinkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,9 +79,11 @@ Type: <b>LPCWSTR</b>
 A pointer to a null-terminated, Unicode string containing the name for the link.
 
 
-### -param flags
+### -param flags [in]
 
-TBD
+Type: <b>DWORD</b>
+
+The flags that control the file operation. Value is one or more of the <a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param ppsiNewDest [out]
@@ -89,13 +91,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>**</b>
 
 When the method returns, contains the address of a pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> of the link.
-
-
-#### - dwLinkFlags [in]
-
-Type: <b>DWORD</b>
-
-The flags that control the file operation. Value is one or more of the <a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ## -returns

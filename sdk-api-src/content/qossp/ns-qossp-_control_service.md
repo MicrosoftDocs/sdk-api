@@ -7,10 +7,10 @@ old-location: qos\control_service.htm
 tech.root: QOS
 ms.assetid: 604d7be8-955b-40a3-9cb4-6cbfbeeaa105
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPCONTROL_SERVICE, *LPCONTROL_SERVICE structure [QOS], CONTROL_SERVICE, CONTROL_SERVICE structure [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILABLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, _CONTROL_SERVICE, qos.control_service, qossp/*LPCONTROL_SERVICE, qossp/CONTROL_SERVICE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

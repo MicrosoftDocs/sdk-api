@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getactivityreportbydevicename.htm
 tech.root: medfound
 ms.assetid: 66FDBCE0-E3F3-43A4-B34A-7FE6C7F3F918
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetActivityReportByDeviceName, GetActivityReportByDeviceName method [Media Foundation], GetActivityReportByDeviceName method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetActivityReportByDeviceName method, IMFSensorActivitiesReport.GetActivityReportByDeviceName, IMFSensorActivitiesReport::GetActivityReportByDeviceName, mf.imfsensoractivityreport_getactivityreportbydevicename, mfidl/IMFSensorActivitiesReport::GetActivityReportByDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,17 +63,12 @@ Retrieves an <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DE
 
 ### -param SymbolicName
 
-TBD
+The symbolic name of the sensor for which the <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DEA27D0">IMFSensorActivityReport</a> is retrieved. 
 
 
 ### -param sensorActivityReport [out]
 
 A pointer to the  <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DEA27D0">IMFSensorActivityReport</a> associated with the sensor with the specified symbolic name.
-
-
-#### - symbolicName
-
-The symbolic name of the sensor for which the <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DEA27D0">IMFSensorActivityReport</a> is retrieved. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: tapi3\itsubstreamcontrol_removesubstream.htm
 tech.root: tapi
 ms.assetid: 1a1be17c-2cae-4eea-a20a-3344915c5234
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITSubStreamControl interface [TAPI 2.2],RemoveSubStream method, ITSubStreamControl.RemoveSubStream, ITSubStreamControl::RemoveSubStream, RemoveSubStream, RemoveSubStream method [TAPI 2.2], RemoveSubStream method [TAPI 2.2],ITSubStreamControl interface, _tapi3_itsubstreamcontrol_removesubstream, tapi3.itsubstreamcontrol_removesubstream, tapi3if/ITSubStreamControl::RemoveSubStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

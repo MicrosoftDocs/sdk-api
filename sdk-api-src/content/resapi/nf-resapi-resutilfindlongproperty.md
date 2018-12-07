@@ -7,7 +7,7 @@ old-location: mscs\resutilfindlongproperty.htm
 tech.root: mscs
 ms.assetid: 6f75be85-37ef-4e2b-a588-bc1238cd8760
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_FIND_LONG_PROPERTY, PRESUTIL_FIND_LONG_PROPERTY function [Failover Cluster], ResUtilFindLongProperty, ResUtilFindLongProperty function [Failover Cluster], _wolf_resutilfindlongproperty, mscs.resutilfindlongproperty, resapi/PRESUTIL_FIND_LONG_PROPERTY, resapi/ResUtilFindLongProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,6 +86,36 @@ If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The data is in an incorrect format.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_FILE_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property could not be located in the property list.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -7,10 +7,10 @@ old-location: direct3d10\d3d10_feature_level1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_feature_level1.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 31af56cc-826c-6632-ae68-1b2e713c38ad, D3D10_FEATURE_LEVEL1, D3D10_FEATURE_LEVEL1 enumeration [Direct3D 10], D3D10_FEATURE_LEVEL_10_0, D3D10_FEATURE_LEVEL_10_1, D3D10_FEATURE_LEVEL_9_1, D3D10_FEATURE_LEVEL_9_2, D3D10_FEATURE_LEVEL_9_3, d3d10_1/D3D10_FEATURE_LEVEL1, d3d10_1/D3D10_FEATURE_LEVEL_10_0, d3d10_1/D3D10_FEATURE_LEVEL_10_1, d3d10_1/D3D10_FEATURE_LEVEL_9_1, d3d10_1/D3D10_FEATURE_LEVEL_9_2, d3d10_1/D3D10_FEATURE_LEVEL_9_3, direct3d10.d3d10_feature_level1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d10_1.h
 req.include-header: 

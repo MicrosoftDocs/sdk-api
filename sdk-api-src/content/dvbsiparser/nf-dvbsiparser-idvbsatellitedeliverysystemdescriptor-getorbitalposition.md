@@ -4,10 +4,10 @@ title: IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getorbitalposition.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1fc3f934-5a9f-4e76-ae1c-e74ea332e8e6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetOrbitalPosition, GetOrbitalPosition method [Microsoft TV Technologies], GetOrbitalPosition method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetOrbitalPosition method, IDvbSatelliteDeliverySystemDescriptor.GetOrbitalPosition, IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition, IDvbSatelliteDeliverySystemDescriptorGetOrbitalPosition, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition, mstv.idvbsatellitedeliverysystemdescriptor_getorbitalposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

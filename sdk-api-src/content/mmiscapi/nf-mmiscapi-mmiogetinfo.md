@@ -7,7 +7,7 @@ old-location: multimedia\mmiogetinfo.htm
 tech.root: Multimedia
 ms.assetid: 9ca58586-8cd6-4d74-9cef-f0ae41b24fe3
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_mmioGetInfo, mmioGetInfo, mmioGetInfo function [Windows Multimedia], mmsystem/mmioGetInfo, multimedia.mmiogetinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,22 +71,10 @@ File handle of the file.
 
 ### -param pmmioinfo
 
-TBD
-
-
-### -param fuInfo
-
-TBD
-
-
-
-
-#### - lpmmioinfo
-
 Pointer to a buffer that receives an <a href="https://msdn.microsoft.com/44a46d1c-9c9c-42ee-8a2b-ac5b1bc19560">MMIOINFO</a> structure that <b>mmioGetInfo</b> fills with information about the file.
 
 
-#### - wFlags
+### -param fuInfo
 
 Reserved; must be zero.
 

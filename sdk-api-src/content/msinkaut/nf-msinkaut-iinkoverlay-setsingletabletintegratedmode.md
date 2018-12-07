@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_setsingletabletintegratedmode.htm
 tech.root: tablet
 ms.assetid: 2d2cc966-6f3f-4195-9113-8b0cf4603eb1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: 96787996-c0fd-455f-952e-90ddc8640253, IInkOverlay interface [Tablet PC],SetSingleTabletIntegratedMode method, IInkOverlay.SetSingleTabletIntegratedMode, IInkOverlay::SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode method [Tablet PC], SetSingleTabletIntegratedMode method [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::SetSingleTabletIntegratedMode, tablet.inkoverlay_setsingletabletintegratedmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ Allows the ink collector  (<a href="https://msdn.microsoft.com/189f430e-9d00-4e2
 
 
 
-### -param Tablet
-
-TBD
-
-
-
-
-#### - tablet [in]
+### -param Tablet [in]
 
 The tablet on which ink is collected, or drawn.
 

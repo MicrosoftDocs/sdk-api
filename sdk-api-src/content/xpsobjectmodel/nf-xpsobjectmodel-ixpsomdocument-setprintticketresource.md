@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocument_setprintticketresource.htm
 tech.root: printdocs
 ms.assetid: 009c2124-c855-4043-9a23-c0313b504853
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMDocument interface [XPS Documents and Packaging],SetPrintTicketResource method, IXpsOMDocument.SetPrintTicketResource, IXpsOMDocument::SetPrintTicketResource, SetPrintTicketResource, SetPrintTicketResource method [XPS Documents and Packaging], SetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocument interface, xps.ixpsomdocument_setprintticketresource, xpsobjectmodel/IXpsOMDocument::SetPrintTicketResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

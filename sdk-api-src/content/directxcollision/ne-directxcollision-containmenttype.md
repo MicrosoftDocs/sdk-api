@@ -7,10 +7,10 @@ old-location: dxmath\containmenttype.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.ContainmentType
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CONTAINS, ContainmentType, ContainmentType enumeration [DirectX Math Support APIs], DISJOINT, INTERSECTS, directxcollision/CONTAINS, directxcollision/ContainmentType, directxcollision/DISJOINT, directxcollision/INTERSECTS, dxmath.containmenttype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: directxcollision.h
 req.include-header: 

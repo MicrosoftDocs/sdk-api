@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionanimation_addcubic.htm
 tech.root: directcomp
 ms.assetid: d80ab2db-0d88-46ed-a40d-4408bf315a85
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddCubic, AddCubic method [DirectComposition], AddCubic method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],AddCubic method, IDCompositionAnimation.AddCubic, IDCompositionAnimation::AddCubic, dcompanimation/IDCompositionAnimation::AddCubic, directcomp.idcompositionanimation_addcubic
 ms.prod: windows-hardware
 ms.technology: windows-devices

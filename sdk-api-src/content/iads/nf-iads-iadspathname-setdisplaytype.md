@@ -4,10 +4,10 @@ title: IADsPathname::SetDisplayType
 author: windows-sdk-content
 description: Specifies how to display the path of an object.
 old-location: adsi\iadspathname_setdisplaytype.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 2d975482-74f6-4ffa-a243-baa5f6a8d200
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPathname interface [ADSI],SetDisplayType method, IADsPathname.SetDisplayType, IADsPathname::SetDisplayType, SetDisplayType, SetDisplayType method [ADSI], SetDisplayType method [ADSI],IADsPathname interface, _ds_iadspathname_setdisplaytype, adsi.iadspathname__setdisplaytype, adsi.iadspathname_setdisplaytype, iads/IADsPathname::SetDisplayType
 ms.prod: windows-hardware
 ms.technology: windows-devices

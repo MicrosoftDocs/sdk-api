@@ -4,10 +4,10 @@ title: IADsPathname::GetElement
 author: windows-sdk-content
 description: Retrieves an element of a directory path.
 old-location: adsi\iadspathname_getelement.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 6fc027c7-6645-4596-b438-99795f9e66fc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetElement, GetElement method [ADSI], GetElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetElement method, IADsPathname.GetElement, IADsPathname::GetElement, _ds_iadspathname_getelement, adsi.iadspathname__getelement, adsi.iadspathname_getelement, iads/IADsPathname::GetElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

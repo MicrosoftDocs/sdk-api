@@ -7,7 +7,7 @@ old-location: tapi3\itcallinfo_put_callinfobuffer.htm
 tech.root: tapi
 ms.assetid: 4404ec08-2443-4d1a-8f94-5eb1b3315169
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],put_CallInfoBuffer method, ITCallInfo.put_CallInfoBuffer, ITCallInfo::put_CallInfoBuffer, _tapi3_itcallinfo_put_callinfobuffer, put_CallInfoBuffer, put_CallInfoBuffer method [TAPI 2.2], put_CallInfoBuffer method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_put_callinfobuffer, tapi3if/ITCallInfo::put_CallInfoBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

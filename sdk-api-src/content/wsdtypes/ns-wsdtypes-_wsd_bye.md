@@ -4,13 +4,13 @@ title: "_WSD_BYE"
 author: windows-sdk-content
 description: Represents a Bye message.
 old-location: ncd\wsd_bye_struct.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: b0eb67e1-1408-45ab-b7a7-ecde6619a277
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_BYE, WSD_BYE structure, _WSD_BYE, ncd.wsd_bye_struct, wsdtypes/WSD_BYE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

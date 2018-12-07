@@ -9,8 +9,8 @@ ms.assetid: D629FA42-B501-4A0E-9B53-6D70E580B687
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PSS_PROCESS_INFORMATION, PSS_PROCESS_INFORMATION structure, proc_snap.pss_process_information, processsnapshot/PSS_PROCESS_INFORMATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

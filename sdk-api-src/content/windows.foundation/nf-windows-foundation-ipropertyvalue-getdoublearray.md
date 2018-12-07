@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getdoublearray.htm
 tech.root: WinRT
 ms.assetid: 197a3626-e349-4027-913c-e8203dad4fc1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDoubleArray, GetDoubleArray method [Windows Runtime], GetDoubleArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDoubleArray method, IPropertyValue.GetDoubleArray, IPropertyValue.IPropertyValue, IPropertyValue::GetDoubleArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDoubleArray, winrt.ipropertyvalue_getdoublearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Gets the array of 64-bit floating point values that is stored in the current <a 
 
 
 
-### -param __valueSize
+### -param __valueSize [out]
 
-TBD
+Type: <b>UINT32*</b>
+
+The number of values in the array.
 
 
 ### -param value [out]
@@ -70,13 +72,6 @@ Type: <b>DOUBLE**</b>
 The array of 64-bit floating point values.
 
 The returned pointer must be freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
-
-
-#### - length [out]
-
-Type: <b>UINT32*</b>
-
-The number of values in the array.
 
 
 ## -returns

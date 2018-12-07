@@ -7,10 +7,10 @@ old-location: direct2d\id2d1properties.htm
 tech.root: direct2d
 ms.assetid: c38bfcc0-c696-41cc-9531-7c8f15c0b512
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1Properties, ID2D1Properties interface [Direct2D], ID2D1Properties interface [Direct2D],described, d2d1_1/ID2D1Properties, direct2d.id2d1properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_1.h
 req.include-header: 
@@ -185,37 +185,23 @@ The interface is intentionally designed to avoid dependencies on a run-time basi
 
 The interface is primarily based upon an index-based access model, and it supports nested sub-properties within properties. Unlike a directory structure, the property itself has a value and a type and might optionally support sub-properties (directories are not files). These are normally metadata that describe the property, but, this is also used to specify arrays of objects. In order to simplify accessing sub-properties and to allow name-based access, two helper methods – <a href="https://msdn.microsoft.com/3faedf5e-9329-4502-a1c9-162fd7b00319">SetValueByName</a> and <a href="https://msdn.microsoft.com/2dc60fad-9ce2-4951-85ea-647a828420a1">GetValueByName</a> – are defined. These use a "dotted" notation in order to allow sub-properties to be directly specified, for example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-The interface is primarily based upon an index-based access model, and it supports nested sub-properties within properties. Unlike a directory structure, the property itself has a value and a type and might optionally support sub-properties (directories are not files). These are normally metadata that describe the property, but, this is also used to specify arrays of objects. In order to simplify accessing sub-properties and to allow name-based access, two helper methods – <a href="https://msdn.microsoft.com/3faedf5e-9329-4502-a1c9-162fd7b00319">SetValueByName</a> and <a href="https://msdn.microsoft.com/2dc60fad-9ce2-4951-85ea-647a828420a1">GetValueByName</a> – are defined. These use a "dotted" notation in order to allow sub-properties to be directly specified, for example:<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>alphaMode = pEffect-&gt;GetValueByName&lt;UINT32&gt;(L"Inputs.0.AlphaMode");</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+alphaMode = pEffect->GetValueByName<UINT32>(L"Inputs.0.AlphaMode");
+```
 
 
 
 
 Or:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-Or:<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pEffect-&gt;SetValueByName&lt;UINT32&gt;(
+
+```cpp
+pEffect->SetValueByName<UINT32>(
 		    L"Inputs.0.AlphaMode", 
 		    DXGI_ALPHA_MODE_PREMULTIPLIED);
-		</pre>
-</td>
-</tr>
-</table></span></div>
+		
+```
 
 
 

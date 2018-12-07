@@ -7,7 +7,7 @@ old-location: shell\PathGetShortPath.htm
 tech.root: shell
 ms.assetid: f374a575-3fbf-4bed-aa76-76ed81e01d60
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: PathGetShortPath, PathGetShortPath function [Windows Shell], _win32_PathGetShortPath, shell.PathGetShortPath, shlobj_core/PathGetShortPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

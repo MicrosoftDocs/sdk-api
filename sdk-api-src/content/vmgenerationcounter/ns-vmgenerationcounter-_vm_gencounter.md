@@ -7,10 +7,10 @@ old-location: hyperv\vm_gencounter.htm
 tech.root: HyperV_v2
 ms.assetid: F1F2C867-2607-40AD-92B7-E7C07304D885
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVM_GENCOUNTER, PVM_GENCOUNTER, PVM_GENCOUNTER structure pointer, VM_GENCOUNTER, VM_GENCOUNTER structure, _VM_GENCOUNTER, hyperv.vm_gencounter, vmgenerationcounter/PVM_GENCOUNTER, vmgenerationcounter/VM_GENCOUNTER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vmgenerationcounter.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: IVdsVolumeMF::GetFileSystemProperties
 author: windows-sdk-content
 description: Returns property details about the file system on the current volume.
 old-location: base\ivdsvolumemf_getfilesystemproperties.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 43f5495c-5a60-44fd-b217-16464c4693a4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetFileSystemProperties, GetFileSystemProperties method [VDS], GetFileSystemProperties method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],GetFileSystemProperties method, IVdsVolumeMF.GetFileSystemProperties, IVdsVolumeMF::GetFileSystemProperties, base.ivdsvolumemf_getfilesystemproperties, vds/IVdsVolumeMF::GetFileSystemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

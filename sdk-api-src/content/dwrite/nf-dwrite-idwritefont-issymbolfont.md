@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFont_IsSymbolFont.htm
 tech.root: DirectWrite
 ms.assetid: 08fcbf51-6a88-4d92-848e-dc159d94d1d1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteFont interface [Direct Write],IsSymbolFont method, IDWriteFont.IsSymbolFont, IDWriteFont::IsSymbolFont, IsSymbolFont, IsSymbolFont method [Direct Write], IsSymbolFont method [Direct Write],IDWriteFont interface, directwrite.IDWriteFont_IsSymbolFont, dwrite/IDWriteFont::IsSymbolFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

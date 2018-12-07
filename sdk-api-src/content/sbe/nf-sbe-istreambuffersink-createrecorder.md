@@ -4,10 +4,10 @@ title: IStreamBufferSink::CreateRecorder
 author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 1 or later.
 old-location: mstv\istreambuffersink_createrecorder.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a9f3b7e1-4f54-4802-af24-4b791ee646fc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateRecorder, CreateRecorder method [Microsoft TV Technologies], CreateRecorder method [Microsoft TV Technologies],IStreamBufferSink interface, IStreamBufferSink interface [Microsoft TV Technologies],CreateRecorder method, IStreamBufferSink.CreateRecorder, IStreamBufferSink::CreateRecorder, IStreamBufferSinkCreateRecorder, mstv.istreambuffersink_createrecorder, sbe/IStreamBufferSink::CreateRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,17 +69,7 @@ The <b>CreateRecorder</b> method creates a new Recording object. Recording objec
 Pointer to a null-terminated wide-character string that contains the file name for the recording.
 
 
-### -param dwRecordType
-
-TBD
-
-
-### -param pRecordingIUnknown [out]
-
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/717a3b99-d998-4e64-aab6-6b06e18991da">Recording</a> object's <b>IUnknown</b> interface.
-
-
-#### - dwType [in]
+### -param dwRecordType [in]
 
 Indicates the type of recording to create, either a reference recording or a content recording. Specify one of the following values.
 
@@ -100,6 +90,11 @@ Indicates the type of recording to create, either a reference recording or a con
 </tr>
 </table>
  
+
+
+### -param pRecordingIUnknown [out]
+
+Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/717a3b99-d998-4e64-aab6-6b06e18991da">Recording</a> object's <b>IUnknown</b> interface.
 
 
 ## -returns

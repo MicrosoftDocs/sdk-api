@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_OnViewWindowActive.htm
 tech.root: shell
 ms.assetid: bd320262-f383-453b-9028-4e93f0b3761a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IShellBrowser interface [Windows Shell],OnViewWindowActive method, IShellBrowser.OnViewWindowActive, IShellBrowser::OnViewWindowActive, OnViewWindowActive, OnViewWindowActive method [Windows Shell], OnViewWindowActive method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_OnViewWindowActive, shell.IShellBrowser_OnViewWindowActive, shobjidl_core/IShellBrowser::OnViewWindowActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,13 +59,6 @@ Called by the Shell view when the view window or one of its child windows gets t
 
 
 ### -param pshv
-
-TBD
-
-
-
-
-#### - ppshv
 
 Type: <b><a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>*</b>
 

@@ -4,10 +4,10 @@ title: HeapSetInformation function
 author: windows-sdk-content
 description: Enables features for a specified heap.
 old-location: base\heapsetinformation.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 33c262ca-5093-4f44-a8c6-09045bc90f60
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, HeapOptimizeResources, HeapSetInformation, HeapSetInformation function, _win32_heapsetinformation, base.heapsetinformation, heapapi/HeapSetInformation, winbase/HeapSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

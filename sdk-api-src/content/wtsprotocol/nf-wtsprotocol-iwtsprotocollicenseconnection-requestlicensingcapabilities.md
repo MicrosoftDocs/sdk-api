@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollicenseconnection_requestlicensingcapabilitie
 tech.root: termserv
 ms.assetid: ff6123f6-4d78-41d1-8093-916f01de09ef
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestLicensingCapabilities method, IWTSProtocolLicenseConnection.RequestLicensingCapabilities, IWTSProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWTSProtocolLicenseConnection::RequestLicensingCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,19 +60,14 @@ Requests license capabilities from the client.
 
 
 
-### -param ppLicenseCapabilities
+### -param ppLicenseCapabilities [out]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/975a534e-03f1-4c8f-9de1-42144e31c8cb">WTS_LICENSE_CAPABILITIES</a> structure that contains information about the client license capabilities.
 
 
 ### -param pcbLicenseCapabilities [in, out]
 
 A pointer to an integer that contains the size of the structure specified by the <i>ppLicensingCapabilities</i> parameter.
-
-
-#### - ppLicensingCapabilities [out]
-
-A pointer to a <a href="https://msdn.microsoft.com/975a534e-03f1-4c8f-9de1-42144e31c8cb">WTS_LICENSE_CAPABILITIES</a> structure that contains information about the client license capabilities.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage3_probespecificfilesystem.htm
 tech.root: imapi
 ms.assetid: 0594c2e4-30ba-4d02-948e-09ec6a4ec352
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IFileSystemImage3 interface [IMAPI],ProbeSpecificFileSystem method, IFileSystemImage3.ProbeSpecificFileSystem, IFileSystemImage3::ProbeSpecificFileSystem, ProbeSpecificFileSystem, ProbeSpecificFileSystem method [IMAPI], ProbeSpecificFileSystem method [IMAPI],IFileSystemImage3 interface, imapi.ifilesystemimage3_probespecificfilesystem, imapi2fs/IFileSystemImage3::ProbeSpecificFileSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

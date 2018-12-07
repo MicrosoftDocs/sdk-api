@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__acchittest.htm
 tech.root: WinAuto
 ms.assetid: 87327086-a8f3-4d1c-ab4d-8f5aba00c61a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accHitTest method, IAccessible.accHitTest, IAccessible::accHitTest, _msaa_IAccessible_accHitTest, accHitTest, accHitTest method [Windows Accessibility], accHitTest method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acchittest, oleacc/IAccessible::accHitTest, winauto.iaccessible_iaccessible__acchittest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ Type: <b>long</b>
 Specifies the screen coordinates of the point that is hit tested. The y-coordinates increase from top to bottom. Note that when screen coordinates are used, the origin is the upper-left corner of the screen.
 
 
-### -param pvarChild
-
-TBD
-
-
-
-
-#### - pvarID [out, retval]
+### -param pvarChild [out, retval]
 
 Type: <b>VARIANT*</b>
 

@@ -7,7 +7,7 @@ old-location: imapi\ifsiitem_put_lastmodifiedtime.htm
 tech.root: imapi
 ms.assetid: 11491b16-0bdc-41a6-a99d-0543cdc3bb64
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IFsiItem interface [IMAPI],put_LastModifiedTime method, IFsiItem.put_LastModifiedTime, IFsiItem::put_LastModifiedTime, imapi.ifsiitem_put_lastmodifiedtime, imapi2fs/IFsiItem::put_LastModifiedTime, put_LastModifiedTime, put_LastModifiedTime method [IMAPI], put_LastModifiedTime method [IMAPI],IFsiItem interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

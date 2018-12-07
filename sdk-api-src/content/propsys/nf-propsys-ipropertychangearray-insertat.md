@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_InsertAt.htm
 tech.root: properties
 ms.assetid: e50a0642-ff01-4cf7-940e-0241b3dc8604
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],InsertAt method, IPropertyChangeArray.InsertAt, IPropertyChangeArray::InsertAt, InsertAt, InsertAt method [Windows Properties], InsertAt method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_InsertAt, properties.IPropertyChangeArray_InsertAt, propsys/IPropertyChangeArray::InsertAt, shell.IPropertyChangeArray_InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

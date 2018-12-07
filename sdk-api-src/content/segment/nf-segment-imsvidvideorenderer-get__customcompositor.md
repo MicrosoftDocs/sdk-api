@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::get__CustomCompositor
 author: windows-sdk-content
 description: The get__CustomCompositor method retrieves the Video Mixing Renderer's current image compositor.
 old-location: mstv\imsvidvideorenderer_get__customcompositor.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: cafdc512-2994-4374-9396-b0bb946bc490
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get__CustomCompositor method, IMSVidVideoRenderer.get__CustomCompositor, IMSVidVideoRenderer::get__CustomCompositor, IMSVidVideoRendererget__CustomCompositor, get__CustomCompositor, get__CustomCompositor method [Microsoft TV Technologies], get__CustomCompositor method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get__customcompositor, segment/IMSVidVideoRenderer::get__CustomCompositor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get__CustomCompositor</b> method retrieves the Video Mixing Renderer's cu
 
 
 
-### -param Compositor
-
-TBD
-
-
-
-
-#### - ppCompositor [out]
+### -param Compositor [out]
 
 Receives an <a href="https://msdn.microsoft.com/d905e871-c156-4140-bb3f-a19fa0cd79be">IVMRImageCompositor</a> interface pointer .
 

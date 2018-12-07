@@ -4,10 +4,10 @@ title: AdjustTokenGroups function
 author: windows-sdk-content
 description: Enables or disables groups already present in the specified access token. Access to TOKEN_ADJUST_GROUPS is required to enable or disable groups in an access token.
 old-location: security\adjusttokengroups.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 839c4b58-4c61-4f72-8337-1e3dfa267ee5
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: AdjustTokenGroups, AdjustTokenGroups function [Security], _win32_adjusttokengroups, security.adjusttokengroups, securitybaseapi/AdjustTokenGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

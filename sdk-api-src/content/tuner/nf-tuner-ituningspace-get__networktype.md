@@ -4,10 +4,10 @@ title: ITuningSpace::get__NetworkType
 author: windows-sdk-content
 description: The get_NetworkType method retrieves the network type for this tuning space.
 old-location: mstv\ituningspace_get__networktype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 54cf0c5b-03fb-4419-976c-acc821dfc7e8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get__NetworkType method, ITuningSpace.get__NetworkType, ITuningSpace::get__NetworkType, ITuningSpaceget__NetworkType, get__NetworkType, get__NetworkType method [Microsoft TV Technologies], get__NetworkType method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get__networktype, tuner/ITuningSpace::get__NetworkType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_NetworkType</b> method retrieves the network type for this tuning spa
 
 
 
-### -param NetworkTypeGuid
-
-TBD
-
-
-
-
-#### - pNetworkTypeGuid [out]
+### -param NetworkTypeGuid [out]
 
 Pointer to a variable that receives the network type GUID. This GUID corresponds to the CLSID of the Network Provider for the tuning space. For some tuning spaces, the network type is GUID_NULL, which means the tuning space does not use a Network Provider filter.
 

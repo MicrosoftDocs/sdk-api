@@ -4,10 +4,10 @@ title: IADsNameTranslate::Set
 author: windows-sdk-content
 description: Directs the directory service to set up a specified object for name translation.
 old-location: adsi\iadsnametranslate_set.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 1c126333-3d5c-4ba3-8c66-de778e26488f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsNameTranslate interface [ADSI],Set method, IADsNameTranslate.Set, IADsNameTranslate::Set, Set, Set method [ADSI], Set method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_set, adsi.iadsnametranslate__set, adsi.iadsnametranslate_set, iads/IADsNameTranslate::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices

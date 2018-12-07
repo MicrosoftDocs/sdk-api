@@ -9,8 +9,8 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_1zs5.htm
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: DBCONTENTTABLE, DBCONTENTTABLE structure [Indexing Service], _idxs_DBCONTENTTABLE, cmdtree/DBCONTENTTABLE, indexsrv.dbcontenttable, tagDBCONTENTTABLE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 

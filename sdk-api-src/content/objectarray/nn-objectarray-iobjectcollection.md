@@ -7,10 +7,10 @@ old-location: shell\IObjectCollection.htm
 tech.root: shell
 ms.assetid: d7665b26-5839-4b08-a099-ef25a68c65db
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IObjectCollection, IObjectCollection interface [Windows Shell], IObjectCollection interface [Windows Shell],described, _shell_IObjectCollection, objectarray/IObjectCollection, shell.IObjectCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objectarray.h
 req.include-header: Shobjidl.h

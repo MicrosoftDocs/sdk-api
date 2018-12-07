@@ -7,10 +7,10 @@ old-location: rras\mpr_credentialsex_1.htm
 tech.root: rras
 ms.assetid: b37b9589-5c25-44ac-954a-c9fb2c2ee503
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMPR_CREDENTIALSEX_1, MPR_CREDENTIALSEX_1, MPR_CREDENTIALSEX_1 structure [RAS], PMPR_CREDENTIALSEX_1, PMPR_CREDENTIALSEX_1 structure pointer [RAS], _MPR_CREDENTIALSEX_1, _mpr_mpr_credentialsex_1, mprapi/MPR_CREDENTIALSEX_1, mprapi/PMPR_CREDENTIALSEX_1, rras.mpr_credentialsex_1"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

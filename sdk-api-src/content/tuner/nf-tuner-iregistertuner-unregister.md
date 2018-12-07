@@ -4,10 +4,10 @@ title: IRegisterTuner::Unregister
 author: windows-sdk-content
 description: This feature is expected to be available on a future version of the Windows operating system.
 old-location: mstv\iregistertuner_unregister.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4aa616a6-ffaf-4f7e-8eba-eb11f5b55601
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IRegisterTuner interface [Microsoft TV Technologies],Unregister method, IRegisterTuner.Unregister, IRegisterTuner::Unregister, IRegisterTunerUnregister, Unregister, Unregister method [Microsoft TV Technologies], Unregister method [Microsoft TV Technologies],IRegisterTuner interface, mstv.iregistertuner_unregister, tuner/IRegisterTuner::Unregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

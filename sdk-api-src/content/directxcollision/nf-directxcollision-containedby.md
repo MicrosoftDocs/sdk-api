@@ -7,7 +7,7 @@ old-location: dxmath\containedby.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.TriangleTests.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ContainedBy, ContainedBy method [DirectX Math Support APIs], DirectX::TriangleTests.ContainedBy, dxmath.containedby
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,17 +58,17 @@ Tests whether a triangle is contained within six planes (typically a frustum).
 
 
 
-#### - V0
+### -param V0
 
 A vector defining the triangle.
 
 
-#### - V1
+### -param V1
 
 A vector defining the triangle.
 
 
-#### - V2
+### -param V2
 
 A vector defining the triangle.
 

@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsetspeed.htm
 tech.root: Multimedia
 ms.assetid: aaf45d2f-3f6c-4b87-82fe-3fca3f36f57d
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: MCIWndSetSpeed, MCIWndSetSpeed macro [Windows Multimedia], _win32_MCIWndSetSpeed, multimedia.mciwndsetspeed, vfw/MCIWndSetSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_ClearClientData.htm
 tech.root: shell
 ms.assetid: bedb6fc8-7db7-4d29-a223-a9997b57c8a3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ClearClientData, ClearClientData method [Windows Shell], ClearClientData method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],ClearClientData method, IFileDialog.ClearClientData, IFileDialog::ClearClientData, shell.IFileDialog_ClearClientData, shell_IFileDialog_ClearClientData, shobjidl_core/IFileDialog::ClearClientData
 ms.prod: windows-hardware
 ms.technology: windows-devices

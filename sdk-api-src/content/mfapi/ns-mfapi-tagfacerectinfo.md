@@ -7,10 +7,10 @@ old-location: stream\facerectinfo.htm
 tech.root: stream
 ms.assetid: 63F31CDC-CB44-4ED8-BDA0-89F7DCF77965
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/16/2018
 ms.keywords: FaceRectInfo, FaceRectInfo structure [Streaming Media Devices], mfapi/FaceRectInfo, stream.facerectinfo, tagFaceRectInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

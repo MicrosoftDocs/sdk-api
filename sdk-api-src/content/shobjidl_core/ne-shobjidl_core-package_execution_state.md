@@ -7,10 +7,10 @@ old-location: shell\PACKAGE_EXECUTION_STATE.htm
 tech.root: shell
 ms.assetid: 8BE433AC-34E6-42D7-9F8B-63AECAC96996
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: PACKAGE_EXECUTION_STATE, PACKAGE_EXECUTION_STATE enumeration [Windows Shell], PES_RUNNING, PES_SUSPENDED, PES_SUSPENDING, PES_TERMINATED, PES_UNKNOWN, shell.PACKAGE_EXECUTION_STATE, shobjidl_core/PACKAGE_EXECUTION_STATE, shobjidl_core/PES_RUNNING, shobjidl_core/PES_SUSPENDED, shobjidl_core/PES_SUSPENDING, shobjidl_core/PES_TERMINATED, shobjidl_core/PES_UNKNOWN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

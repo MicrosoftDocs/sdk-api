@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetMiterLimit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getmiterlimit.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetMiterLimit, GetMiterLimit method [GDI+], GetMiterLimit method [GDI+],Pen class, Pen class [GDI+],GetMiterLimit method, Pen.GetMiterLimit, Pen::GetMiterLimit, _gdiplus_CLASS_Pen_GetMiterLimit_, gdiplus._gdiplus_CLASS_Pen_GetMiterLimit_
 ms.prod: windows-hardware
 ms.technology: windows-devices

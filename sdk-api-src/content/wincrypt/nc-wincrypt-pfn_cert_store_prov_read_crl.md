@@ -7,10 +7,10 @@ old-location: security\certstoreprovreadcrlcallback.htm
 tech.root: seccrypto
 ms.assetid: 9644c200-1b55-4287-8d98-27b5a8d38c90
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CertStoreProvReadCRLCallback, PFN_CERT_STORE_PROV_READ_CRL, PFN_CERT_STORE_PROV_READ_CRL callback, PFN_CERT_STORE_PROV_READ_CRL callback function [Security], _crypto2_certstoreprovreadcrlcallback, security.certstoreprovreadcrlcallback, wincrypt/PFN_CERT_STORE_PROV_READ_CRL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

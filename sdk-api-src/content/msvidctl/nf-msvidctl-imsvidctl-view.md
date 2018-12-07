@@ -4,10 +4,10 @@ title: IMSVidCtl::View
 author: windows-sdk-content
 description: The View method configures the Video Control to view an input source, which can be a tune request, a DVD, or a media file.
 old-location: mstv\imsvidctl_view.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ec0e2a88-13c0-42f3-ba7d-8ebff1234b86
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],View method, IMSVidCtl.View, IMSVidCtl::View, IMSVidCtlView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_view, msvidctl/IMSVidCtl::View
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>View</b> method configures the Video Control to view an input source, whi
 
 
 
-### -param v
-
-TBD
-
-
-
-
-#### - pv [in]
+### -param v [in]
 
 Pointer to the input source as a <b>VARIANT</b> type. This parameter must be one of the following:<ul>
 <li>A pointer to a valid tune request object that supports the <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface. The tune request must be initialized with all the tuning information required for the particular network type.</li>

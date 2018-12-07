@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1GeometryGroup_GetFillMode.htm
 tech.root: direct2d
 ms.assetid: e248d28e-861b-49b9-a3f7-789604f8eedf
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetFillMode, GetFillMode method [Direct2D], GetFillMode method [Direct2D],ID2D1GeometryGroup interface, ID2D1GeometryGroup interface [Direct2D],GetFillMode method, ID2D1GeometryGroup.GetFillMode, ID2D1GeometryGroup::GetFillMode, d2d1/ID2D1GeometryGroup::GetFillMode, direct2d.ID2D1GeometryGroup_GetFillMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

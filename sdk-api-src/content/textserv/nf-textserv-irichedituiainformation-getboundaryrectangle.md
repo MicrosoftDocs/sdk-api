@@ -7,7 +7,7 @@ old-location: controls\irichedituiainformation_getboundaryrectangle.htm
 tech.root: controls
 ms.assetid: DCDE0730-25C4-4856-AC20-36C36E20AFB1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetBoundaryRectangle, GetBoundaryRectangle method [Windows Controls], GetBoundaryRectangle method [Windows Controls],IRichEditUiaInformation interface, IRichEditUiaInformation interface [Windows Controls],GetBoundaryRectangle method, IRichEditUiaInformation.GetBoundaryRectangle, IRichEditUiaInformation::GetBoundaryRectangle, controls.irichedituiainformation_getboundaryrectangle, textserv/IRichEditUiaInformation::GetBoundaryRectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,13 +59,6 @@ Retrieves the bounding rectangle of a windowless rich edit control.
 
 
 ### -param pUiaRect
-
-TBD
-
-
-
-
-#### - UiaRect
 
 Type: <b>UiaRect*</b>
 

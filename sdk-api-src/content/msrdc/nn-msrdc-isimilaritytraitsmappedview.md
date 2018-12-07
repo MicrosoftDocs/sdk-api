@@ -4,13 +4,13 @@ title: ISimilarityTraitsMappedView
 author: windows-sdk-content
 description: Provides methods that an RDC application can implement for manipulating a mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 48d6d4a0-fbf1-476a-b30f-83176c51cb48
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISimilarityTraitsMappedView, ISimilarityTraitsMappedView interface [Remote Differential Compression], ISimilarityTraitsMappedView interface [Remote Differential Compression],described, fs.isimilaritytraitsmappedview, msrdc/ISimilarityTraitsMappedView, rdc.isimilaritytraitsmappedview
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

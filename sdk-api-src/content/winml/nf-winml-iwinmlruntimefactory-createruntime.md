@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlruntimefactory_createruntime.htm
 tech.root: MachineLearning
 ms.assetid: 06EE4008-597D-4DA8-A7CD-E70784A2ADC3
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: CreateRuntime, CreateRuntime method, CreateRuntime method,IWinMLRuntimeFactory interface, IWinMLRuntimeFactory interface,CreateRuntime method, IWinMLRuntimeFactory.CreateRuntime, IWinMLRuntimeFactory::CreateRuntime, MachineLearning.iwinmlruntimefactory_createruntime, winml/IWinMLRuntimeFactory::CreateRuntime
 ms.prod: windows-hardware
 ms.technology: windows-devices

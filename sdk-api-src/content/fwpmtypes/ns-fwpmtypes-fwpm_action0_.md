@@ -9,8 +9,8 @@ ms.assetid: 070e1324-d41d-4001-bf26-97465bf87f98
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_ACTION0, FWPM_ACTION0 structure [Filtering], FWPM_ACTION0_, FWP_ACTION_BLOCK, FWP_ACTION_CALLOUT_INSPECTION, FWP_ACTION_CALLOUT_TERMINATING, FWP_ACTION_CALLOUT_UNKNOWN, FWP_ACTION_PERMIT, fwp.fwpm_action0_struct, fwpmtypes/FWPM_ACTION0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

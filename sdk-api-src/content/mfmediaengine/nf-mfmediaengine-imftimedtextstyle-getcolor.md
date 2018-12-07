@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getcolor.htm
 tech.root: medfound
 ms.assetid: 262A89EC-7025-4037-B09A-87C9CEE1DF76
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetColor, GetColor method [Media Foundation], GetColor method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetColor method, IMFTimedTextStyle.GetColor, IMFTimedTextStyle::GetColor, mf.imftimedtextstyle_getcolor, mfmediaengine/IMFTimedTextStyle::GetColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Gets the color of the timed-text style.
 
 
 
-### -param color
-
-TBD
-
-
-
-
-#### - pColor [out]
+### -param color [out]
 
 Type: <b><a href="https://msdn.microsoft.com/ce7ac174-9f00-42a4-9b48-ed86b406d83e">MFARGB</a>*</b>
 

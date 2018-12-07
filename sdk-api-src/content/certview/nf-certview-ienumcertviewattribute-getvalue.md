@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_getvalue.htm
 tech.root: seccrypto
 ms.assetid: a03a6da4-d286-487e-a292-8a02626325a8
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],GetValue method, IEnumCERTVIEWATTRIBUTE.GetValue, IEnumCERTVIEWATTRIBUTE::GetValue, _certsrv_ienumcertviewattribute_getvalue, certview/IEnumCERTVIEWATTRIBUTE::GetValue, security.ienumcertviewattribute_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

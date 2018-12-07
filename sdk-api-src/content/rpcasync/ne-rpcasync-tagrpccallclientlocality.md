@@ -7,10 +7,10 @@ old-location: rpc\rpccallclientlocality.htm
 tech.root: rpc
 ms.assetid: bdb60917-575e-47d1-a5a7-42159aac2d35
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: RpcCallClientLocality, RpcCallClientLocality enumeration [RPC], rcclClientUnknownLocality, rcclInvalid, rcclLocal, rcclRemote, rpc.rpccallclientlocality, rpcasync/RpcCallClientLocality, rpcasync/rcclClientUnknownLocality, rpcasync/rcclInvalid, rpcasync/rcclLocal, rpcasync/rcclRemote, tagRpcCallClientLocality
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: 

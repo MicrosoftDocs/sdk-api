@@ -4,10 +4,10 @@ title: IBDA_SignalStatistics::get_SignalQuality
 author: windows-sdk-content
 description: The get_SignalQuality method retrieves a value from 1 to 100 indicating the quality of the signal.
 old-location: mstv\ibda_signalstatistics_get_signalquality.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2472a539-e8ee-4501-b7ab-e7e1fce7cea0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalQuality method, IBDA_SignalStatistics.get_SignalQuality, IBDA_SignalStatistics::get_SignalQuality, IBDA_SignalStatisticsget_SignalQuality, bdaiface/IBDA_SignalStatistics::get_SignalQuality, get_SignalQuality, get_SignalQuality method [Microsoft TV Technologies], get_SignalQuality method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signalquality
 ms.prod: windows-hardware
 ms.technology: windows-devices

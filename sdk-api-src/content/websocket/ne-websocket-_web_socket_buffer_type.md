@@ -7,10 +7,10 @@ old-location: websock\web_socket_buffer_type.htm
 tech.root: WebSock
 ms.assetid: a6657b51-ac16-4637-8dfd-e3dade951385
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE, WEB_SOCKET_BUFFER_TYPE, WEB_SOCKET_BUFFER_TYPE enumeration [Websocket Protocol Component API], WEB_SOCKET_CLOSE_BUFFER_TYPE, WEB_SOCKET_PING_PONG_BUFFER_TYPE, WEB_SOCKET_UNSOLICITED_PONG_BUFFER_TYPE, WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE, WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE, _WEB_SOCKET_BUFFER_TYPE, websock.web_socket_buffer_type, websocket/WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, websocket/WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE, websocket/WEB_SOCKET_BUFFER_TYPE, websocket/WEB_SOCKET_CLOSE_BUFFER_TYPE, websocket/WEB_SOCKET_PING_PONG_BUFFER_TYPE, websocket/WEB_SOCKET_UNSOLICITED_PONG_BUFFER_TYPE, websocket/WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE, websocket/WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: websocket.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: security\lsafreememory.htm
 tech.root: secmgmt
 ms.assetid: 6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: LsaFreeMemory, LsaFreeMemory function [Security], _lsa_lsafreememory, ntsecapi/LsaFreeMemory, security.lsafreememory
 ms.prod: windows-hardware
 ms.technology: windows-devices

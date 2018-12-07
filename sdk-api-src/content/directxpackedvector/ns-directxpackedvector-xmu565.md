@@ -7,10 +7,10 @@ old-location: dxmath\xmu565.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMU565
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: XMU565, XMU565 structure [DirectX Math Support APIs], directxpackedvector/XMU565, dxmath.xmu565
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -81,6 +81,23 @@ For a list of more functionality such as constructors and operators that are ava
 
 Unsigned short representing the 3D vector.
 		    
+
+
+### -field XMU565
+
+TBD 
+
+
+### -field operator uint16_t
+
+TBD 
+
+
+### -field operator=
+
+TBD 
+
+
 
 
 #### - x : 5

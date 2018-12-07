@@ -4,10 +4,10 @@ title: IX509EndorsementKey::ExportPublicKey
 author: windows-sdk-content
 description: Exports the endorsement public key.
 old-location: security\ix509endorsementkey_exportpublickey.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: b38c6421-2918-4d0e-81ed-d9d575817efa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ExportPublicKey, ExportPublicKey method [Security], ExportPublicKey method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],ExportPublicKey method, IX509EndorsementKey.ExportPublicKey, IX509EndorsementKey::ExportPublicKey, certenroll/IX509EndorsementKey::ExportPublicKey, security.ix509endorsementkey_exportpublickey
 ms.prod: windows-hardware
 ms.technology: windows-devices

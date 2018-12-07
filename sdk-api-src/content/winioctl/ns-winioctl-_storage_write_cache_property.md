@@ -7,10 +7,10 @@ old-location: fs\storage_write_cache_property.htm
 tech.root: fileio
 ms.assetid: 5248be70-229d-42e6-923a-5a6ffd5268b1
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Files], STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY structure [Files], WriteCacheChangeUnknown, WriteCacheChangeable, WriteCacheDisabled, WriteCacheEnableUnknown, WriteCacheEnabled, WriteCacheNotChangeable, WriteCacheTypeNone, WriteCacheTypeUnknown, WriteCacheTypeWriteBack, WriteCacheTypeWriteThrough, WriteThroughNotSupported, WriteThroughSupported, WriteThroughUnknown, _STORAGE_WRITE_CACHE_PROPERTY, fs.storage_write_cache_property, winioctl/PSTORAGE_WRITE_CACHE_PROPERTY, winioctl/STORAGE_WRITE_CACHE_PROPERTY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

@@ -7,7 +7,7 @@ old-location: ad\dsreplicaadd.htm
 tech.root: ad
 ms.assetid: 33bd1b61-b9ed-479f-a128-fb7ddbb5e9af
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: DS_REPADD_ASYNCHRONOUS_OPERATION, DS_REPADD_ASYNCHRONOUS_REPLICA, DS_REPADD_DISABLE_NOTIFICATION, DS_REPADD_DISABLE_PERIODIC, DS_REPADD_INITIAL, DS_REPADD_INTERSITE_MESSAGING, DS_REPADD_NEVER_NOTIFY, DS_REPADD_PERIODIC, DS_REPADD_USE_COMPRESSION, DS_REPADD_WRITEABLE, DsReplicaAdd, DsReplicaAdd function [Active Directory], DsReplicaAddA, DsReplicaAddW, _glines_dsreplicaadd, ad.dsreplicaadd, ntdsapi/DsReplicaAdd, ntdsapi/DsReplicaAddA, ntdsapi/DsReplicaAddW
 ms.prod: windows-hardware
 ms.technology: windows-devices

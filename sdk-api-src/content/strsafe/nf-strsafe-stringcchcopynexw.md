@@ -7,7 +7,7 @@ old-location: menurc\stringcchcopynex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopynex.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCopyNEx, StringCchCopyNEx function [Menus and Other Resources], StringCchCopyNExA, StringCchCopyNExW, _shell_StringCchCopyNEx, _shell_stringcchcopynex_cpp, menurc.stringcchcopynex, strsafe/StringCchCopyNEx, strsafe/StringCchCopyNExA, strsafe/StringCchCopyNExW, winui._shell_stringcchcopynex
 ms.prod: windows-hardware
 ms.technology: windows-devices

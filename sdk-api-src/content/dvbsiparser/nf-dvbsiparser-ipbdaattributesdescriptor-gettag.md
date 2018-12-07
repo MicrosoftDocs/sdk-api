@@ -4,10 +4,10 @@ title: IPBDAAttributesDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that uniquely identifies an attributes descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaattributesdescriptor_gettag.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 397e76b6-83f2-4d0c-87a0-0575aa746020
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IPBDAAttributesDescriptor interface, IPBDAAttributesDescriptor interface [Microsoft TV Technologies],GetTag method, IPBDAAttributesDescriptor.GetTag, IPBDAAttributesDescriptor::GetTag, dvbsiparser/IPBDAAttributesDescriptor::GetTag, mstv.ipbdaattributesdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

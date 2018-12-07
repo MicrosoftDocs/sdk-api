@@ -1,16 +1,16 @@
 ---
 UID: NS:winldap.ldap
-title: ldap
+title: LDAP
 author: windows-sdk-content
 description: Represents an LDAP session.
 old-location: ldap\ldap.htm
 tech.root: ldap
 ms.assetid: 844093e1-daba-494d-91b3-67455ff2e456
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: "*PLDAP, LDAP, LDAP structure [LDAP], PLDAP, PLDAP structure pointer [LDAP], _ldap_ldap, ldap, ldap.ldap, winldap/LDAP, winldap/PLDAP"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 12/5/2018
+ms.keywords: "*PLDAP, LDAP, LDAP structure [LDAP], PLDAP, PLDAP structure pointer [LDAP], _ldap_ldap, ldap.ldap, winldap/LDAP, winldap/PLDAP"
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 
@@ -44,7 +44,7 @@ req.typenames: LDAP, *PLDAP
 req.redist: 
 ---
 
-# ldap structure
+# LDAP structure
 
 
 ## -description

@@ -4,10 +4,10 @@ title: IBackgroundCopyFile::GetProgress
 author: windows-sdk-content
 description: Retrieves information on the progress of the file transfer.
 old-location: bits\ibackgroundcopyfile_getprogress.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: e72ec5af-7c21-48f8-b027-76a6c9e67f5e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetProgress method, IBackgroundCopyFile.GetProgress, IBackgroundCopyFile::GetProgress, _drz_ibackgroundcopyfile_getprogress, bits.ibackgroundcopyfile_getprogress, bits/IBackgroundCopyFile::GetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Retrieves information on the progress of the file transfer.
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - pProgress [out]
+### -param pVal [out]
 
 Structure whose members indicate the progress of the file transfer. For details on the type of progress information available, see the 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362801(v=VS.85).aspx">BG_FILE_PROGRESS</a> structure. 

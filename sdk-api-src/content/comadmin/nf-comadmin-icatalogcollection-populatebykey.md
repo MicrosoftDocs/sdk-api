@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_populatebykey.htm
 tech.root: cossdk
 ms.assetid: 57329c32-2852-47ff-bf8c-dbb63f69841f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICatalogCollection interface [COM+],PopulateByKey method, ICatalogCollection.PopulateByKey, ICatalogCollection::PopulateByKey, PopulateByKey, PopulateByKey method [COM+], PopulateByKey method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_PopulateByKey, comadmin/ICatalogCollection::PopulateByKey, cos.icatalogcollection_populatebykey
 ms.prod: windows-hardware
 ms.technology: windows-devices

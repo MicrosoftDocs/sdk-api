@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_RawViewWalker.htm
 tech.root: WinAuto
 ms.assetid: 1c76140d-50da-41d6-a997-926396f37a36
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RawViewWalker property, IUIAutomation.RawViewWalker, IUIAutomation.get_RawViewWalker, IUIAutomation::RawViewWalker, IUIAutomation::get_RawViewWalker, RawViewWalker property [Windows Accessibility], RawViewWalker property [Windows Accessibility],IUIAutomation interface, get_RawViewWalker, uiauto.uiauto_IUIAutomation_RawViewWalker, uiauto_IUIAutomation_RawViewWalker, uiautomationclient/IUIAutomation::RawViewWalker, uiautomationclient/IUIAutomation::get_RawViewWalker, winauto.uiauto_IUIAutomation_RawViewWalker
 ms.prod: windows-hardware
 ms.technology: windows-devices

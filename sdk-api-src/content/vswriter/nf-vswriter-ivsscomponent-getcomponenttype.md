@@ -4,10 +4,10 @@ title: IVssComponent::GetComponentType
 author: windows-sdk-content
 description: The GetComponentType method returns the type of this component in terms of the VSS_COMPONENT_TYPE enumeration.
 old-location: base\ivsscomponent_getcomponenttype.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 89675df6-dcfd-4167-aa6f-5c88e619ef1c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetComponentType, GetComponentType method [VSS], GetComponentType method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentType method, IVssComponent.GetComponentType, IVssComponent::GetComponentType, _win32_ivsscomponent_getcomponenttype, base.ivsscomponent_getcomponenttype, vswriter/IVssComponent::GetComponentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ Either a writer or a requester can call this method.
 
 
 
-### -param pct
-
-TBD
-
-
-
-
-#### - pType [out]
+### -param pct [out]
 
 The address of a caller-allocated variable that receives a 
 <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> enumeration value that specifies the type of the component.

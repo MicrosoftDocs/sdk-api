@@ -7,7 +7,7 @@ old-location: security\certgetissuercertificatefromstore.htm
 tech.root: seccrypto
 ms.assetid: b57982d0-cba8-43cd-a544-3635fdf599e2
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CERT_STORE_NO_CRL_FLAG, CERT_STORE_NO_ISSUER_FLAG, CERT_STORE_REVOCATION_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertGetIssuerCertificateFromStore, CertGetIssuerCertificateFromStore function [Security], _crypto2_certgetissuercertificatefromstore, security.certgetissuercertificatefromstore, wincrypt/CertGetIssuerCertificateFromStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

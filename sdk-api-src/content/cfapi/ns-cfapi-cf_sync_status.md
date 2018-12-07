@@ -7,10 +7,10 @@ old-location: cloudapi\cf_sync_status.htm
 tech.root: cfApi
 ms.assetid: F80CBBAE-605B-4C1E-BDA5-A4B155F9D079
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CF_SYNC_STATUS, CF_SYNC_STATUS structure, PCF_SYNC_STATUS, PCF_SYNC_STATUS structure pointer, cfapi/CF_SYNC_STATUS, cfapi/PCF_SYNC_STATUS, cloudApi.cf_sync_status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

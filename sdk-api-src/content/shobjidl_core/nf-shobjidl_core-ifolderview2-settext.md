@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_SetText.htm
 tech.root: shell
 ms.assetid: 72528831-ec5d-417e-94dd-7345b5fd7de6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: FVST_EMPTYTEXT, IFolderView2 interface [Windows Shell],SetText method, IFolderView2.SetText, IFolderView2::SetText, SetText, SetText method [Windows Shell], SetText method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetText, shell.IFolderView2_SetText, shobjidl_core/IFolderView2::SetText
 ms.prod: windows-hardware
 ms.technology: windows-devices

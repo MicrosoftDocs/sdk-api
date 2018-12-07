@@ -7,7 +7,7 @@ old-location: cos\imtsevents_get_fireevents.htm
 tech.root: cossdk
 ms.assetid: fad889d2-412e-4dc7-8380-408bda456037
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMtsEvents interface [COM+],get_FireEvents method, IMtsEvents.get_FireEvents, IMtsEvents::get_FireEvents, _dtc_IMtsEvents_get_FireEvents, comsvcs/IMtsEvents::get_FireEvents, cos.imtsevents_get_fireevents, get_FireEvents, get_FireEvents method [COM+], get_FireEvents method [COM+],IMtsEvents interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

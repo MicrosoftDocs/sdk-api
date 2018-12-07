@@ -4,13 +4,13 @@ title: "_FsrmPropertyDefinitionAppliesTo"
 author: windows-sdk-content
 description: Flags that indicate what a FSRM classification property can be applied to.
 old-location: fsrm\fsrmpropertydefinitionappliesto.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: deca10b5-fd5f-446f-ab88-1731402a550c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FsrmPropertyDefinitionAppliesTo, FsrmPropertyDefinitionAppliesTo enumeration [File Server Resource Manager], FsrmPropertyDefinitionAppliesTo_Files, FsrmPropertyDefinitionAppliesTo_Folders, _FsrmPropertyDefinitionAppliesTo, fs.fsrmpropertydefinitionappliesto, fsrm.fsrmpropertydefinitionappliesto, fsrmenums/FsrmPropertyDefinitionAppliesTo, fsrmenums/FsrmPropertyDefinitionAppliesTo_Files, fsrmenums/FsrmPropertyDefinitionAppliesTo_Folders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

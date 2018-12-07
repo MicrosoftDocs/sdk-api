@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_GetViewProperty.htm
 tech.root: shell
 ms.assetid: 26749aa8-9c5d-4b6b-b5af-bf52d4e8c8ce
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetViewProperty, GetViewProperty method [Windows Shell], GetViewProperty method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetViewProperty method, IFolderView2.GetViewProperty, IFolderView2::GetViewProperty, _shell_IFolderView2_GetViewProperty, shell.IFolderView2_GetViewProperty, shobjidl_core/IFolderView2::GetViewProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

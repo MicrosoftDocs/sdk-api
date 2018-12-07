@@ -7,7 +7,7 @@ old-location: wcs\wcsgetdefaultcolorprofilesize.htm
 tech.root: WCS
 ms.assetid: 68f589ac-15e0-4d13-a2fa-e3f74d7d3d19
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: WcsGetDefaultColorProfileSize, WcsGetDefaultColorProfileSize function [Windows Color System], _color_WcsGetDefaultColorProfileSize, icm/WcsGetDefaultColorProfileSize, wcs.wcsgetdefaultcolorprofilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WcsGetDefaultColorProfileSize
+: 
 ---
 
 # WcsGetDefaultColorProfileSize function
@@ -58,9 +64,9 @@ Returns the size, in bytes, of the default color profile name (including the <b>
 
 
 
-### -param scope
+### -param scope [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
 
 
 ### -param pDeviceName [in, optional]
@@ -86,11 +92,6 @@ The ID of the color space that the color profile represents.
 ### -param pcbProfileName [out]
 
 A pointer to a location that receives the size, in bytes, of the path name of the default color profile, including the <b>NULL</b> terminator.
-
-
-#### - profileManagementScope [in]
-
-A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
 
 
 ## -returns

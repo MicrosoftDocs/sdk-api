@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setallsettings.htm
 tech.root: DirectShow
 ms.assetid: 1148e380-a4fc-4392-861e-8ea695060032
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettings method, ICodecAPI.SetAllSettings, ICodecAPI::SetAllSettings, ICodecAPISetAllSettings, SetAllSettings, SetAllSettings method [DirectShow], SetAllSettings method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettings, strmif/ICodecAPI::SetAllSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ The <b>SetAllSettings</b> method reads codec properties from a stream and sets t
 
 
 
-### -param __MIDL__ICodecAPI0001
-
-TBD
-
-
-
-
-#### - pStream [in]
+### -param __MIDL__ICodecAPI0001 [in]
 
 Pointer to the <b>IStream</b> interface of the stream.
           

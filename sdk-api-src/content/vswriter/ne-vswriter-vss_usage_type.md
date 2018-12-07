@@ -4,13 +4,13 @@ title: VSS_USAGE_TYPE
 author: windows-sdk-content
 description: Specifies how the host system uses the data managed by a writer involved in a VSS operation.
 old-location: base\vss_usage_type.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 31997417-d993-4f28-b108-ce1dd8239650
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: VSS_USAGE_TYPE, VSS_USAGE_TYPE enumeration [VSS], VSS_UT_BOOTABLESYSTEMSTATE, VSS_UT_OTHER, VSS_UT_SYSTEMSERVICE, VSS_UT_UNDEFINED, VSS_UT_USERDATA, _win32_vss_usage_type, base.vss_usage_type, enumeration [VSS], vswriter/VSS_USAGE_TYPE, vswriter/VSS_UT_BOOTABLESYSTEMSTATE, vswriter/VSS_UT_OTHER, vswriter/VSS_UT_SYSTEMSERVICE, vswriter/VSS_UT_UNDEFINED, vswriter/VSS_UT_USERDATA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 

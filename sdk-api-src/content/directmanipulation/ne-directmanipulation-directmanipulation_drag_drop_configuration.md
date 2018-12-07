@@ -7,10 +7,10 @@ old-location: directmanipulation\directmanipulation_drag_drop_configuration.htm
 tech.root: directmanipulation
 ms.assetid: F41BD870-002B-4627-85EA-8064B156611D
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION, DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION enumeration [Direct Manipulation], DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HOLD_DRAG, DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HORIZONTAL, DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_DRAG, DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_ONLY, DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_VERTICAL, directmanipulation.directmanipulation_drag_drop_configuration, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HOLD_DRAG, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_HORIZONTAL, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_DRAG, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_SELECT_ONLY, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION_VERTICAL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

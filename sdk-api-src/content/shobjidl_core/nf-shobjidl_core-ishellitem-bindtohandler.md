@@ -7,7 +7,7 @@ old-location: shell\IShellItem_BindToHandler.htm
 tech.root: shell
 ms.assetid: fadd70cd-5018-4b71-af7b-d9c780ebddc5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_EnumAssocHandlers, BHID_EnumItems, BHID_FilePlaceholder, BHID_Filter, BHID_LinkTargetItem, BHID_PropertyStore, BHID_RandomAccessStream, BHID_SFObject, BHID_SFUIObject, BHID_SFViewObject, BHID_Storage, BHID_StorageEnum, BHID_Stream, BHID_ThumbnailHandler, BHID_Transfer, BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],BindToHandler method, IShellItem.BindToHandler, IShellItem::BindToHandler, _win32_IShellItem_BindToHandler, shell.IShellItem_BindToHandler, shobjidl_core/IShellItem::BindToHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,32 +66,6 @@ A pointer to an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbf
 
 
 ### -param bhid
-
-TBD
-
-
-### -param riid
-
-Type: <b>REFIID</b>
-
-IID of the object type to retrieve.
-
-
-### -param ppv
-
-TBD
-
-
-
-
-#### - ppvOut
-
-Type: <b>void**</b>
-
-When this method returns, contains a pointer of type <i>riid</i> that is returned by the handler specified by <i>rbhid</i>.
-
-
-#### - rbhid
 
 Type: <b>REFGUID</b>
 
@@ -198,6 +172,20 @@ If the item is a folder, gets an <a href="https://msdn.microsoft.com/07aed597-35
 #### BHID_FilePlaceholder
 
 <b>Introduced in Windows 8.1</b>: Gets an object used to provide placeholder file functionality.
+
+
+### -param riid
+
+Type: <b>REFIID</b>
+
+IID of the object type to retrieve.
+
+
+### -param ppv
+
+Type: <b>void**</b>
+
+When this method returns, contains a pointer of type <i>riid</i> that is returned by the handler specified by <i>rbhid</i>.
 
 
 ## -returns

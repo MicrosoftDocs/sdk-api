@@ -4,10 +4,10 @@ title: IRDPSRAPIVirtualChannel::SendData
 author: windows-sdk-content
 description: Sends data on the channel.
 old-location: rdp\irdpsrapivirtualchannel_senddata.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: d861de01-70e3-49b0-91b3-01f6b0051823
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CHANNEL_FLAGS_UNCOMPRESSED, IRDPSRAPIVirtualChannel interface [RDP],SendData method, IRDPSRAPIVirtualChannel.SendData, IRDPSRAPIVirtualChannel::SendData, SendData, SendData method [RDP], SendData method [RDP],IRDPSRAPIVirtualChannel interface, rdp.irdpsrapivirtualchannel_senddata, rdpencomapi/IRDPSRAPIVirtualChannel::SendData
 ms.prod: windows-hardware
 ms.technology: windows-devices

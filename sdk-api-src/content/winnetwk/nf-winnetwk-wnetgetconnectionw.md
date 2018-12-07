@@ -7,7 +7,7 @@ old-location: wnet\wnetgetconnection.htm
 tech.root: WNet
 ms.assetid: 72d84752-4e64-4c16-872b-cb892dffbf9a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WNetGetConnection, WNetGetConnection function [Windows Networking (WNet)], WNetGetConnectionA, WNetGetConnectionW, _win32_wnetgetconnection, winnetwk/WNetGetConnection, winnetwk/WNetGetConnectionA, winnetwk/WNetGetConnectionW, wnet.wnetgetconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IRDPSRAPIAudioStream::FreeBuffer
 author: windows-sdk-content
 description: Releases the hold on the buffer after the GetBuffer method is called.
 old-location: rdp\irdpsrapiaudiostream_freebuffer.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 03926ABF-D5D0-4D13-B081-0085EC698E9F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPIAudioStream interface, IRDPSRAPIAudioStream interface [RDP],FreeBuffer method, IRDPSRAPIAudioStream.FreeBuffer, IRDPSRAPIAudioStream::FreeBuffer, rdp.irdpsrapiaudiostream_freebuffer, rdpencomapi/IRDPSRAPIAudioStream::FreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: coreaudio\icontrolinterface.htm
 tech.root: CoreAudio
 ms.assetid: fdd91f65-e45c-4f14-a55c-a44be1661950
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IControlInterface, IControlInterface interface [Core Audio], IControlInterface interface [Core Audio],described, coreaudio.icontrolinterface, devicetopology/IControlInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

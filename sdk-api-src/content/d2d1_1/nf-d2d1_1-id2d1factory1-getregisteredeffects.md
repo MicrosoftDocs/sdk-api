@@ -7,7 +7,7 @@ old-location: direct2d\id2d1factory1_getregisteredeffects.htm
 tech.root: direct2d
 ms.assetid: c3363411-908f-4b02-b77e-ca563094f9a5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetRegisteredEffects, GetRegisteredEffects method [Direct2D], GetRegisteredEffects method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],GetRegisteredEffects method, ID2D1Factory1.GetRegisteredEffects, ID2D1Factory1::GetRegisteredEffects, d2d1_1/ID2D1Factory1::GetRegisteredEffects, direct2d.id2d1factory1_getregisteredeffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,9 @@ When this method returns, contains an array of effects. <b>NULL</b> if no effect
 
 ### -param effectsCount
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/dcb864f2-f162-41ca-b3ef-5b592a311299">UINT32</a></b>
+
+The capacity of the <i>effects</i> array.
 
 
 ### -param effectsReturned [out]
@@ -82,13 +84,6 @@ When this method returns, contains the  number of effects copied into <i>effects
 Type: <b><a href="https://msdn.microsoft.com/dcb864f2-f162-41ca-b3ef-5b592a311299">UINT32</a>*</b>
 
 When this method returns, contains the number of effects currently registered in the system.
-
-
-#### - effectCount
-
-Type: <b><a href="https://msdn.microsoft.com/dcb864f2-f162-41ca-b3ef-5b592a311299">UINT32</a></b>
-
-The capacity of the <i>effects</i> array.
 
 
 ## -returns

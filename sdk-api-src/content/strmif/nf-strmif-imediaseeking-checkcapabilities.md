@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_checkcapabilities.htm
 tech.root: DirectShow
 ms.assetid: d0062f66-213d-4f91-9f73-780be39ee432
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CheckCapabilities, CheckCapabilities method [DirectShow], CheckCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],CheckCapabilities method, IMediaSeeking.CheckCapabilities, IMediaSeeking::CheckCapabilities, IMediaSeekingCheckCapabilities, dshow.imediaseeking_checkcapabilities, strmif/IMediaSeeking::CheckCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

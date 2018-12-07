@@ -7,10 +7,10 @@ old-location: intl\ispellcheckerchangedeventhandler.htm
 tech.root: Intl
 ms.assetid: 9dd1f768-a901-4682-9530-019fe1dfbf0b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ISpellCheckerChangedEventHandler, ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications], ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications],described, intl.ispellcheckerchangedeventhandler, spellcheck/ISpellCheckerChangedEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: spellcheck.h
 req.include-header: 

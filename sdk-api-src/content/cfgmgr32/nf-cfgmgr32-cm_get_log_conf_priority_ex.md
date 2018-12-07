@@ -7,7 +7,7 @@ old-location: devinst\cm_get_log_conf_priority_ex.htm
 tech.root: devinst
 ms.assetid: e02e8885-b459-4a70-9f0d-7765603e9dc4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CM_Get_Log_Conf_Priority_Ex, CM_Get_Log_Conf_Priority_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Log_Conf_Priority_Ex, cfgmgrfn_f4e7d475-18c7-4854-bff1-a484014f07ac.xml, devinst.cm_get_log_conf_priority_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

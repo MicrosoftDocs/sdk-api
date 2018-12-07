@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getsizearray.htm
 tech.root: WinRT
 ms.assetid: f378c4d0-c3a2-4611-a471-0c77746602f6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetSizeArray, GetSizeArray method [Windows Runtime], GetSizeArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSizeArray method, IPropertyValue.GetSizeArray, IPropertyValue.IPropertyValue, IPropertyValue::GetSizeArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSizeArray, winrt.ipropertyvalue_getsizearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Gets the array of <a href="https://msdn.microsoft.com/8705adcb-a657-4b47-94ba-63
 
 
 
-### -param __valueSize
+### -param __valueSize [out]
 
-TBD
+Type: <b>UINT32*</b>
+
+The number of values in the array.
 
 
 ### -param value [out]
@@ -70,13 +72,6 @@ Type: <b><a href="https://msdn.microsoft.com/8705adcb-a657-4b47-94ba-632bfb3779b
 The array of <a href="https://msdn.microsoft.com/8705adcb-a657-4b47-94ba-632bfb3779be">Size</a> values.
 
 The returned pointer must be freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
-
-
-#### - length [out]
-
-Type: <b>UINT32*</b>
-
-The number of values in the array.
 
 
 ## -returns

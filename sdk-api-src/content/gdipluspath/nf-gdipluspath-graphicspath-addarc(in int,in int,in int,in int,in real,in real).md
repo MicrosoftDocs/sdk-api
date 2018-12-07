@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddArc_INT_x_INT_y_INT_width_I
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddarcmethods\addarc_35intx_inty_intwidth_intheight_realstart.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: AddArc, AddArc method [GDI+], AddArc method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddArc method, GraphicsPath.AddArc, GraphicsPath.AddArc(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), GraphicsPath.AddArc(INT,INT,INT,INT,REAL,REAL), GraphicsPath::AddArc, GraphicsPath::AddArc(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddArc_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_GraphicsPath_AddArc_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_
 ms.prod: windows-hardware
 ms.technology: windows-devices

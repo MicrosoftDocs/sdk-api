@@ -7,7 +7,7 @@ old-location: base\interlockedcompareexchange.htm
 tech.root: sync
 ms.assetid: c0da780c-5fd0-4c88-a283-8d057db812ac
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange function, _win32_interlockedcompareexchange, base.interlockedcompareexchange, winnt/InterlockedCompareExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,19 +72,14 @@ To operate on 64-bit values, use the <a href="https://msdn.microsoft.com/b0799de
  A pointer to the destination value.
 
 
-### -param ExChange
+### -param ExChange [in]
 
-TBD
+The exchange value.
 
 
 ### -param Comperand [in]
 
 The value to compare to <i>Destination</i>.
-
-
-#### - Exchange [in]
-
-The exchange value.
 
 
 ## -returns

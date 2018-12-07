@@ -4,10 +4,10 @@ title: ITuneRequestInfo::GetNextProgram
 author: windows-sdk-content
 description: The GetNextProgram method creates a new tune request with channel or program locator information for the next service.
 old-location: mstv\itunerequestinfo_getnextprogram.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ed1c5a30-19fb-46a8-b521-017da56d85c8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetNextProgram, GetNextProgram method [Microsoft TV Technologies], GetNextProgram method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetNextProgram method, ITuneRequestInfo.GetNextProgram, ITuneRequestInfo::GetNextProgram, ITuneRequestInfoGetNextProgram, bdatif/ITuneRequestInfo::GetNextProgram, mstv.itunerequestinfo_getnextprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,24 +61,12 @@ The <b>GetNextProgram</b> method creates a new tune request with channel or prog
 
 
 
-### -param CurrentRequest
-
-TBD
-
-
-### -param TuneRequest
-
-TBD
-
-
-
-
-#### - pCurrentRequest [in]
+### -param CurrentRequest [in]
 
 Specifies the <a href="https://msdn.microsoft.com/en-us/library/Dd694997(v=VS.85).aspx">ITuneRequest</a> interface of the current request.
 
 
-#### - ppTuneRequest [out]
+### -param TuneRequest [out]
 
 Pointer to a variable that will receive a tune request for the next service on the transport stream.
 

@@ -4,10 +4,10 @@ title: ILocator::Clone
 author: windows-sdk-content
 description: The Clone method creates a copy of the Locator.
 old-location: mstv\ilocator_clone.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 9a1fd730-80b9-439b-aab2-069710aa3dfa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ILocator interface, ILocator interface [Microsoft TV Technologies],Clone method, ILocator.Clone, ILocator::Clone, ILocatorClone, mstv.ilocator_clone, tuner/ILocator::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>Clone</b> method creates a copy of the Locator.
 
 
 
-### -param NewLocator
-
-TBD
-
-
-
-
-#### - ppNewLocator [out]
+### -param NewLocator [out]
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/1d6c18f0-e7f1-4a1c-9edb-e4b66297becf">ILocator</a> interface. The caller must release the interface.
 

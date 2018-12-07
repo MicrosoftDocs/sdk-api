@@ -7,10 +7,10 @@ old-location: tapi2\linecallparams_str.htm
 tech.root: tapi
 ms.assetid: e7bc5604-20eb-48d8-a857-df8962c6b2ae
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPLINECALLPARAMS, LINECALLPARAMS, LINECALLPARAMS structure [TAPI 2.2], LPLINECALLPARAMS, LPLINECALLPARAMS structure pointer [TAPI 2.2], _tapi2_linecallparams_str, linecallparams_tag, tapi/LINECALLPARAMS, tapi/LPLINECALLPARAMS, tapi2.linecallparams_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

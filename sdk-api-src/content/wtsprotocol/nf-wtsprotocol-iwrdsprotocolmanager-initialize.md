@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolmanager_initialize.htm
 tech.root: termserv
 ms.assetid: c63c794c-41a0-4f07-be93-ba24dc156ca2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Initialize method, IWRdsProtocolManager.Initialize, IWRdsProtocolManager::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_initialize, wtsprotocol/IWRdsProtocolManager::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

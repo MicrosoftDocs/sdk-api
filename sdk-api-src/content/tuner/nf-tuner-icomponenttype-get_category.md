@@ -4,10 +4,10 @@ title: IComponentType::get_Category
 author: windows-sdk-content
 description: The get_Category method retrieves the component category.
 old-location: mstv\icomponenttype_get_category.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: e0a61359-a15a-47f6-8388-90368867e945
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_Category method, IComponentType.get_Category, IComponentType::get_Category, IComponentTypeget_Category, get_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_category, tuner/IComponentType::get_Category
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_Category</b> method retrieves the component category.
 
 
 
-### -param Category
-
-TBD
-
-
-
-
-#### - pCategory [out]
+### -param Category [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/20fe32fa-c8a5-4073-bcf3-7dde171d7ad4">ComponentCategory</a> data type that will receive the category.
 

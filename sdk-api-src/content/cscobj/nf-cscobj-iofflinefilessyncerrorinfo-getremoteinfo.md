@@ -4,10 +4,10 @@ title: IOfflineFilesSyncErrorInfo::GetRemoteInfo
 author: windows-sdk-content
 description: Retrieves an instance of the IOfflineFilesSyncErrorItemInfo interface containing the file times, size, and attributes of the remote copy of the item involved in the synchronization.
 old-location: of\iofflinefilessyncerrorinfo_getremoteinfo.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 8b036680-b74c-485f-adae-88e59fc5e84c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetRemoteInfo, GetRemoteInfo method [Offline Files], GetRemoteInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetRemoteInfo method, IOfflineFilesSyncErrorInfo.GetRemoteInfo, IOfflineFilesSyncErrorInfo::GetRemoteInfo, cscobj/IOfflineFilesSyncErrorInfo::GetRemoteInfo, of.iofflinefilessyncerrorinfo_getremoteinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

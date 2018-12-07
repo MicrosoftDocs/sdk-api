@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadataEx2::GetVersion
 author: windows-sdk-content
 description: Obtains the version information for a writer application.
 old-location: base\ivssexaminewritermetadataex2_getversion.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: d702263e-0ea5-428c-bbd6-1ab8a7334a92
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetVersion, GetVersion method, GetVersion method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetVersion method, IVssExamineWriterMetadataEx2.GetVersion, IVssExamineWriterMetadataEx2::GetVersion, base.ivssexaminewritermetadataex2_getversion, vsbackup/IVssExamineWriterMetadataEx2::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

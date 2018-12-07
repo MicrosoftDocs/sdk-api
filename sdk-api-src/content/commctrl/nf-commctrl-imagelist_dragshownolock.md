@@ -7,7 +7,7 @@ old-location: controls\ImageList_DragShowNolock.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragshownolock.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ImageList_DragShowNolock, ImageList_DragShowNolock function [Windows Controls], _win32_ImageList_DragShowNolock, _win32_ImageList_DragShowNolock_cpp, commctrl/ImageList_DragShowNolock, controls.ImageList_DragShowNolock, controls._win32_ImageList_DragShowNolock
 ms.prod: windows-hardware
 ms.technology: windows-devices

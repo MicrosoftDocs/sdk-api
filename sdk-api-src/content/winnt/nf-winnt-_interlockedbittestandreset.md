@@ -7,7 +7,7 @@ old-location: base\interlockedbittestandreset.htm
 tech.root: sync
 ms.assetid: 620bc56b-e85a-403f-94b8-14c838f046f0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedBitTestAndReset, InterlockedBitTestAndReset function, _interlockedbittestandreset, base.interlockedbittestandreset, winnt/InterlockedBitTestAndReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ Tests the specified bit of the specified <b>LONG</b> value and sets it to 0. The
 A pointer to a variable.
 
 
-### -param Offset
-
-TBD
-
-
-
-
-#### - Bit [in]
+### -param Offset [in]
 
 The bit position to be tested.
 

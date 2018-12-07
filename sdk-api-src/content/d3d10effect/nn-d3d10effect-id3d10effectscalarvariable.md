@@ -7,10 +7,10 @@ old-location: direct3d10\id3d10effectscalarvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 0954ac9f-acd1-fb91-e361-0b5644656816, ID3D10EffectScalarVariable, ID3D10EffectScalarVariable interface [Direct3D 10], ID3D10EffectScalarVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectScalarVariable, direct3d10.id3d10effectscalarvariable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

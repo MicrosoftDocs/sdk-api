@@ -7,7 +7,7 @@ old-location: dxmath\xmloadint4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt4(const VOID)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadInt4, XMLoadInt4, XMLoadInt4 method [DirectX Math Support APIs], dxmath.xmloadint4
 ms.prod: windows-hardware
 ms.technology: windows-devices

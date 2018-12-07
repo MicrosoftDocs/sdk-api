@@ -7,7 +7,7 @@ old-location: shell\citemidfactory_isdelegatefolder.htm
 tech.root: shell
 ms.assetid: 269DFCDF-A5F7-4367-8B08-3A5015BB04FE
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],IsDelegateFolder method, CItemIDFactory.IsDelegateFolder, CItemIDFactory::IsDelegateFolder, IsDelegateFolder, IsDelegateFolder method [Windows Shell], IsDelegateFolder method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_isdelegatefolder, shidfact/CItemIDFactory::IsDelegateFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

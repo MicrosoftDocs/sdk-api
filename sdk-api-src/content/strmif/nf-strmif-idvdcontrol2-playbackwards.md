@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playbackwards.htm
 tech.root: DirectShow
 ms.assetid: d195956b-a4e5-493f-a804-9095e3bba4e2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayBackwards method, IDvdControl2.PlayBackwards, IDvdControl2::PlayBackwards, IDvdControl2PlayBackwards, PlayBackwards, PlayBackwards method [DirectShow], PlayBackwards method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playbackwards, strmif/IDvdControl2::PlayBackwards
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,9 +62,9 @@ The <code>PlayBackwards</code> method plays backward at the specified speed from
 
 
 
-### -param dSpeed
+### -param dSpeed [in]
 
-TBD
+Value that specifies the speed of backward play. This value is a multiplier, where 1.0 is the authored speed. So, a value of 2.5 plays backward at two and one-half times the authored speed, while a value of 0.5 plays backward at half the authored speed. The actual speed of playback depends on the video decoder's capabilities and might differ from the specified rate. For reverse play, audio is muted and no subpicture is displayed. Any speed below 0.00001 is converted to 0.00001.
 
 
 ### -param dwFlags [in]
@@ -75,11 +75,6 @@ Bitwise <b>OR</b> of one or more flags from the <a href="https://msdn.microsoft.
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="https://msdn.microsoft.com/85f9b208-ddc2-4d9c-a30b-b666c81a49d2">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/37e8f940-617d-43f6-92bd-aadccafe0059">Synchronizing DVD Commands</a>.
-
-
-#### - dwSpeed [in]
-
-Value that specifies the speed of backward play. This value is a multiplier, where 1.0 is the authored speed. So, a value of 2.5 plays backward at two and one-half times the authored speed, while a value of 0.5 plays backward at half the authored speed. The actual speed of playback depends on the video decoder's capabilities and might differ from the specified rate. For reverse play, audio is muted and no subpicture is displayed. Any speed below 0.00001 is converted to 0.00001.
 
 
 ## -returns

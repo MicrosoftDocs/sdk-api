@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation6_CoalesceEvents.htm
 tech.root: WinAuto
 ms.assetid: 44BBBE06-6A41-4DE7-8C1B-E277D3FCB545
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CoalesceEvents property [Windows Accessibility], CoalesceEvents property [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],CoalesceEvents property, IUIAutomation6.CoalesceEvents, IUIAutomation6.put_CoalesceEvents, IUIAutomation6::CoalesceEvents, IUIAutomation6::get_CoalesceEvents, IUIAutomation6::put_CoalesceEvents, put_CoalesceEvents, uiautomationclient/IUIAutomation6::CoalesceEvents, uiautomationclient/IUIAutomation6::get_CoalesceEvents, uiautomationclient/IUIAutomation6::put_CoalesceEvents, winauto.uiauto_IUIAutomation6_CoalesceEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

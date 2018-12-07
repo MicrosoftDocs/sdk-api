@@ -7,10 +7,10 @@ old-location: base\minidumpcallback.htm
 tech.root: debug
 ms.assetid: 8dc95b0a-6aee-4c38-ab25-a800153bbe91
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MINIDUMP_CALLBACK_ROUTINE, MiniDumpCallback, MiniDumpCallback callback, MiniDumpCallback callback function, _win32_minidumpcallback, base.minidumpcallback, minidumpapiset/MiniDumpCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

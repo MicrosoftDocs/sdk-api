@@ -7,10 +7,10 @@ old-location: gdi\emrextselectcliprgn.htm
 tech.root: gdi
 ms.assetid: fcfa0ae1-06e0-4313-9140-496aa4eec9da
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*PEMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN structure [Windows GDI], PEMREXTSELECTCLIPRGN, PEMREXTSELECTCLIPRGN structure pointer [Windows GDI], _win32_EMREXTSELECTCLIPRGN_str, gdi.emrextselectcliprgn, tagEMREXTSELECTCLIPRGN, wingdi/EMREXTSELECTCLIPRGN, wingdi/PEMREXTSELECTCLIPRGN"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

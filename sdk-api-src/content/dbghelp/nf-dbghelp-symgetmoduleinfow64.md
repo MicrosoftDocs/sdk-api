@@ -7,7 +7,7 @@ old-location: base\symgetmoduleinfo64.htm
 tech.root: debug
 ms.assetid: e8057cb5-3331-4460-b07c-4338a57024be
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: SymGetModuleInfo, SymGetModuleInfo function, SymGetModuleInfo64, SymGetModuleInfo64 function, SymGetModuleInfoW, SymGetModuleInfoW64, _win32_symgetmoduleinfo64, base.symgetmoduleinfo64, dbghelp/SymGetModuleInfo, dbghelp/SymGetModuleInfo64, dbghelp/SymGetModuleInfoW, dbghelp/SymGetModuleInfoW64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,10 +68,9 @@ A handle to the process that was originally passed to the
 <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
-#### - qwAddr [in]
+### -param qwAddr
 
-The virtual address that is contained in one of the modules loaded by the 
-<a href="https://msdn.microsoft.com/be50588b-066b-42ab-ba81-7537c811676f">SymLoadModule64</a> function
+TBD
 
 
 ### -param ModuleInfo [out]
@@ -79,6 +78,12 @@ The virtual address that is contained in one of the modules loaded by the
 A pointer to an 
 <a href="https://msdn.microsoft.com/3cc7a678-561b-4af8-8cf0-5cf6ebc0cb26">IMAGEHLP_MODULE64</a> structure. The <b>SizeOfStruct</b> member must be set to the size of the 
 <b>IMAGEHLP_MODULE64</b> structure. An invalid value will result in an error.
+
+
+#### - dwAddr [in]
+
+The virtual address that is contained in one of the modules loaded by the 
+<a href="https://msdn.microsoft.com/be50588b-066b-42ab-ba81-7537c811676f">SymLoadModule64</a> function
 
 
 ## -returns

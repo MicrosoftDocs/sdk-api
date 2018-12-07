@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextAnalyzer_GetGlyphPlacements.htm
 tech.root: DirectWrite
 ms.assetid: 72e9af97-6fd2-4dd0-befc-2e9f809c12a2
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetGlyphPlacements, GetGlyphPlacements method [Direct Write], GetGlyphPlacements method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],GetGlyphPlacements method, IDWriteTextAnalyzer.GetGlyphPlacements, IDWriteTextAnalyzer::GetGlyphPlacements, directwrite.IDWriteTextAnalyzer_GetGlyphPlacements, dwrite/IDWriteTextAnalyzer::GetGlyphPlacements
 ms.prod: windows-hardware
 ms.technology: windows-devices

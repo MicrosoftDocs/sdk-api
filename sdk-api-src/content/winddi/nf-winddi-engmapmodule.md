@@ -7,7 +7,7 @@ old-location: display\engmapmodule.htm
 tech.root: display
 ms.assetid: f8bd9b2c-11a3-454f-a4ce-cbda28115564
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EngMapModule, EngMapModule function [Display Devices], display.engmapmodule, gdifncs_c3731e1a-e853-403b-958b-370494e79ae7.xml, winddi/EngMapModule
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\openclustergroupex.htm
 tech.root: mscs
 ms.assetid: 240defbb-b9e9-4455-b863-c9b2192f12b7
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: OpenClusterGroupEx, OpenClusterGroupEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP_EX, PCLUSAPI_OPEN_CLUSTER_GROUP_EX function [Failover Cluster], clusapi/OpenClusterGroupEx, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_EX, mscs.openclustergroupex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,6 +92,30 @@ Optional parameter that contains the address of a <b>DWORD</b> that will receive
 
 If the operation was successful, 
       <b>OpenClusterGroupEx</b> returns a group handle.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the 
+        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. If the target server does not 
+        support the <a href="https://msdn.microsoft.com/240defbb-b9e9-4455-b863-c9b2192f12b7">OpenClusterGroupEx</a> function (for 
+        example if the target server is running Windows Server 2008 or earlier) then the 
+        <b>GetLastError</b> function will return 
+        <b>RPC_S_PROCNUM_OUT_OF_RANGE</b> (1745).
+
+</td>
+</tr>
+</table>
+ 
 
 
 

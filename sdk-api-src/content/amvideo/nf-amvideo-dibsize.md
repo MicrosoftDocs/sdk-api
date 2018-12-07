@@ -7,7 +7,7 @@ old-location: dshow\dibsize.htm
 tech.root: DirectShow
 ms.assetid: a1feaa57-f403-46d0-b9a4-56e94ff2ceee
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DIBSIZE, DIBSIZE macro [DirectShow], amvideo/DIBSIZE, dshow.dibsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

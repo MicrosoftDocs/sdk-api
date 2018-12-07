@@ -7,7 +7,7 @@ old-location: shell\IShellLink_GetWorkingDirectory.htm
 tech.root: shell
 ms.assetid: cae6b2fd-362b-43a2-b0cb-b42bd103f359
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetWorkingDirectory, GetWorkingDirectory method [Windows Shell], GetWorkingDirectory method [Windows Shell],IShellLink interface, GetWorkingDirectory method [Windows Shell],IShellLinkA interface, GetWorkingDirectory method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetWorkingDirectory method, IShellLink::GetWorkingDirectory, IShellLinkA interface [Windows Shell],GetWorkingDirectory method, IShellLinkA.GetWorkingDirectory, IShellLinkA::GetWorkingDirectory, IShellLinkW interface [Windows Shell],GetWorkingDirectory method, IShellLinkW::GetWorkingDirectory, _win32_IShellLink_GetWorkingDirectory, shell.IShellLink_GetWorkingDirectory, shobjidl_core/IShellLink::GetWorkingDirectory, shobjidl_core/IShellLinkA::GetWorkingDirectory, shobjidl_core/IShellLinkW::GetWorkingDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,13 +68,6 @@ The address of a buffer that receives the name of the working directory.
 
 
 ### -param cch
-
-TBD
-
-
-
-
-#### - cchMaxPath
 
 Type: <b>int</b>
 

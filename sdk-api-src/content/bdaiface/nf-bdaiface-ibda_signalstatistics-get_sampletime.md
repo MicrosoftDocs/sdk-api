@@ -4,10 +4,10 @@ title: IBDA_SignalStatistics::get_SampleTime
 author: windows-sdk-content
 description: The get_SampleTime method retrieves the sample time used to measure the signal.
 old-location: mstv\ibda_signalstatistics_get_sampletime.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 9651e393-224b-4276-b8a6-f841f9e04d48
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SampleTime method, IBDA_SignalStatistics.get_SampleTime, IBDA_SignalStatistics::get_SampleTime, IBDA_SignalStatisticsget_SampleTime, bdaiface/IBDA_SignalStatistics::get_SampleTime, get_SampleTime, get_SampleTime method [Microsoft TV Technologies], get_SampleTime method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_sampletime
 ms.prod: windows-hardware
 ms.technology: windows-devices

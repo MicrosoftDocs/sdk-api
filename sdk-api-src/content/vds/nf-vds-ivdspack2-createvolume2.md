@@ -4,10 +4,10 @@ title: IVdsPack2::CreateVolume2
 author: windows-sdk-content
 description: Creates a volume in a disk pack with an optional alignment parameter.
 old-location: base\ivdspack2_createvolume2.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: cc7de88b-af6c-4d39-9297-49e33810466a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateVolume2, CreateVolume2 method, CreateVolume2 method,IVdsPack2 interface, IVdsPack2 interface,CreateVolume2 method, IVdsPack2.CreateVolume2, IVdsPack2::CreateVolume2, base.ivdspack2_createvolume2, vds/IVdsPack2::CreateVolume2
 ms.prod: windows-hardware
 ms.technology: windows-devices

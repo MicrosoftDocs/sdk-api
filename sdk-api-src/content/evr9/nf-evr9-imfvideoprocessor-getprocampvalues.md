@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_getprocampvalues.htm
 tech.root: medfound
 ms.assetid: d1d6f6a4-fe3b-4acf-a004-d02ece41a302
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetProcAmpValues, GetProcAmpValues method [Media Foundation], GetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetProcAmpValues method, IMFVideoProcessor.GetProcAmpValues, IMFVideoProcessor::GetProcAmpValues, d1d6f6a4-fe3b-4acf-a004-d02ece41a302, evr9/IMFVideoProcessor::GetProcAmpValues, mf.imfvideoprocessor_getprocampvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ Retrieves the current settings for one or more color adjustment (ProcAmp) settin
 Bitwise <b>OR</b> of one or more flags, specifying which operations to query. For a list of flags, see <a href="https://msdn.microsoft.com/60d97b9e-d77c-4e53-94ea-ebd59c2601df">ProcAmp Settings</a>.
 
 
-### -param Values
-
-TBD
-
-
-
-
-#### - pValues [out]
+### -param Values [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/c84acd34-e922-46bb-9913-0f94c7c47155">DXVA2_ProcAmpValues</a> structure. The method fills the structure with the current value of each operation specified in <i>dwFlags</i>.
 

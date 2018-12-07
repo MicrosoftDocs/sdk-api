@@ -7,10 +7,10 @@ old-location: mf\mfcreatevideomixer.htm
 tech.root: medfound
 ms.assetid: fd817e1b-6f11-4cdc-aa21-e4ecda16bf1e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MFCreateVideoMixer, MFCreateVideoMixer callback, MFCreateVideoMixer callback function [Media Foundation], evr/MFCreateVideoMixer, fd817e1b-6f11-4cdc-aa21-e4ecda16bf1e, mf.mfcreatevideomixer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: evr.h
 req.include-header: 

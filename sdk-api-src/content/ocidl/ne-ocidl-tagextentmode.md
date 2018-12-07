@@ -7,10 +7,10 @@ old-location: com\dvextentmode.htm
 tech.root: com
 ms.assetid: 5848c26d-d185-4ad9-8841-bb8b622364ee
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: DVEXTENTMODE, DVEXTENTMODE enumeration [COM], DVEXTENT_CONTENT, DVEXTENT_INTEGRAL, _ole_DVEXTENTMODE, com.dvextentmode, ocidl/DVEXTENTMODE, ocidl/DVEXTENT_CONTENT, ocidl/DVEXTENT_INTEGRAL, tagExtentMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 

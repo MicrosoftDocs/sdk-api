@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_rotate.htm
 tech.root: tablet
 ms.assetid: d198215d-9504-4c87-addb-63d863a6ede3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c, IInkStrokes interface [Tablet PC],Rotate method, IInkStrokes.Rotate, IInkStrokes::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::Rotate, tablet.inkstrokes_rotate
 ms.prod: windows-hardware
 ms.technology: windows-devices

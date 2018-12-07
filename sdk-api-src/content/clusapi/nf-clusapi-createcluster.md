@@ -7,7 +7,7 @@ old-location: mscs\createcluster.htm
 tech.root: mscs
 ms.assetid: 672a1573-63e5-4321-a049-25bdafc1b5e0
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: CreateCluster, CreateCluster function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER, PCLUSAPI_CREATE_CLUSTER function [Failover Cluster], clusapi/CreateCluster, clusapi/PCLUSAPI_CREATE_CLUSTER, mscs.createcluster
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,6 +92,26 @@ Handle to the newly created cluster or <b>NULL</b>. A non <b>NULL</b>
       <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">Network Name</a> resources may have been created. The parameters 
       passed to the function pointed to by the <i>pfnProgressCallback</i> parameter should be 
       checked.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><b>NULL</b></b></dt>
+</dl>
+</td>
+<td width="60%">
+Less than a majority of nodes were successfully created. For more information about the error, call the 
+        function <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

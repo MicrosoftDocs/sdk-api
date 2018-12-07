@@ -2,7 +2,7 @@
 UID: NA:ctffunc
 ms.assetid: 544f4680-8139-360e-a028-49b65c7f5c93
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

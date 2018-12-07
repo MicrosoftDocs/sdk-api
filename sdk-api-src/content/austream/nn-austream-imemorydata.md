@@ -7,10 +7,10 @@ old-location: dshow\imemorydata.htm
 tech.root: DirectShow
 ms.assetid: 0e809ae7-381c-4ada-8940-5d42bf5c03da
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IMemoryData, IMemoryData interface [DirectShow], IMemoryData interface [DirectShow],described, IMemoryDataInterface, austream/IMemoryData, dshow.imemorydata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: austream.h
 req.include-header: 

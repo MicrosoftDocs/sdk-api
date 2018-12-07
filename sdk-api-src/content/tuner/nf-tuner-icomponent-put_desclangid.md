@@ -4,10 +4,10 @@ title: IComponent::put_DescLangID
 author: windows-sdk-content
 description: The put_DescLangID method sets the language for presentation of the description.
 old-location: mstv\icomponent_put_desclangid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0f914835-e097-4a02-80fe-371154c9d95a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_DescLangID method, IComponent.put_DescLangID, IComponent::put_DescLangID, IComponentput_DescLangID, mstv.icomponent_put_desclangid, put_DescLangID, put_DescLangID method [Microsoft TV Technologies], put_DescLangID method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_DescLangID
 ms.prod: windows-hardware
 ms.technology: windows-devices

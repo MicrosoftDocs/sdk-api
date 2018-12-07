@@ -7,10 +7,10 @@ old-location: mf\mf_quality_advise_flags.htm
 tech.root: medfound
 ms.assetid: 93cf5585-fcb4-480a-b482-241376e8ec73
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MF_QUALITY_ADVISE_FLAGS, MF_QUALITY_ADVISE_FLAGS enumeration [Media Foundation], MF_QUALITY_CANNOT_KEEP_UP, _MF_QUALITY_ADVISE_FLAGS, mf.mf_quality_advise_flags, mfidl/MF_QUALITY_ADVISE_FLAGS, mfidl/MF_QUALITY_CANNOT_KEEP_UP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

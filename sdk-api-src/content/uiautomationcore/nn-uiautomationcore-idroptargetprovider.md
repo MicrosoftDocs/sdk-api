@@ -7,10 +7,10 @@ old-location: winauto\uiauto_idroptargetprovider.htm
 tech.root: WinAuto
 ms.assetid: ECCDC429-4829-46E0-AE77-270024E2DA48
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IDropTargetProvider, IDropTargetProvider interface [Windows Accessibility], IDropTargetProvider interface [Windows Accessibility],described, uiautomationcore/IDropTargetProvider, winauto.uiauto_idroptargetprovider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

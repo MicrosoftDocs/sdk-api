@@ -7,10 +7,10 @@ old-location: base\ar_state.htm
 tech.root: procthread
 ms.assetid: 55BCB2EB-524D-478A-8DCE-53E59DD0822D
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/23/2018
 ms.keywords: "*PAR_STATE, AR_DISABLED, AR_DOCKED, AR_ENABLED, AR_LAPTOP, AR_MULTIMON, AR_NOSENSOR, AR_NOT_SUPPORTED, AR_REMOTESESSION, AR_STATE, AR_STATE enumeration, AR_SUPPRESSED, PAR_STATE, PAR_STATE enumeration pointer, base.ar_state, tagAR_STATE, winuser/AR_DISABLED, winuser/AR_DOCKED, winuser/AR_ENABLED, winuser/AR_LAPTOP, winuser/AR_MULTIMON, winuser/AR_NOSENSOR, winuser/AR_NOT_SUPPORTED, winuser/AR_REMOTESESSION, winuser/AR_STATE, winuser/AR_SUPPRESSED, winuser/PAR_STATE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winuser.h
 req.include-header: 

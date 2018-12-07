@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonesetgain.htm
 tech.root: tapi
 ms.assetid: c7eb459d-6b59-4bc1-8f2b-c3c03a0a5bd9
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_phoneSetGain, TSPI_phoneSetGain function [TAPI 2.2], _tspi_tspi_phonesetgain, tspi.tspi_phonesetgain, tspi/TSPI_phoneSetGain
 ms.prod: windows-hardware
 ms.technology: windows-devices

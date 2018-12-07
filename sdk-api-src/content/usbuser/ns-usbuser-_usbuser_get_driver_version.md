@@ -7,10 +7,10 @@ old-location: buses\usbuser_get_driver_version.htm
 tech.root: usbref
 ms.assetid: 415eefbb-e39a-43fa-9fff-49799f74fbd6
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 12/5/2018
 ms.keywords: "*PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION structure pointer [Buses], USBUSER_GET_DRIVER_VERSION, USBUSER_GET_DRIVER_VERSION structure [Buses], _USBUSER_GET_DRIVER_VERSION, buses.usbuser_get_driver_version, usbstrct_adb61812-7474-4eae-bf31-9b2c9a03962f.xml, usbuser/PUSBUSER_GET_DRIVER_VERSION, usbuser/USBUSER_GET_DRIVER_VERSION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h

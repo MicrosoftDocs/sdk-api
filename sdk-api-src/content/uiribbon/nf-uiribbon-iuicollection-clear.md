@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicollection_clear.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\clear.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Windows Ribbon], Clear method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],Clear method, IUICollection.Clear, IUICollection::Clear, scenicintent_IUICollection_Clear, uiribbon/IUICollection::Clear, windowsribbon.windowsribbon_iuicollection_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

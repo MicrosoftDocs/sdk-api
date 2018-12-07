@@ -7,7 +7,7 @@ old-location: xaudio2\xapoalloc.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapo.XAPOAlloc(ULONG)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: XAPOAlloc, XAPOAlloc macro [XAudio2 Audio Mixing APIs], xapo/XAPOAlloc, xaudio2.xapoalloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

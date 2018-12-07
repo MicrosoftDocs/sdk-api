@@ -7,10 +7,10 @@ old-location: rpc\rpc_async_event.htm
 tech.root: rpc
 ms.assetid: 6b173ec8-2b58-4a99-87cd-cdf1f92a35ad
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RPC_ASYNC_EVENT, RPC_ASYNC_EVENT enumeration [RPC], RpcCallComplete, RpcClientCancel, RpcClientDisconnect, RpcReceiveComplete, RpcSendComplete, _RPC_ASYNC_EVENT, _rpc_rpc_async_event, rpc.rpc_async_event, rpcasync/RPC_ASYNC_EVENT, rpcasync/RpcCallComplete, rpcasync/RpcClientCancel, rpcasync/RpcClientDisconnect, rpcasync/RpcReceiveComplete, rpcasync/RpcSendComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: Rpc.h

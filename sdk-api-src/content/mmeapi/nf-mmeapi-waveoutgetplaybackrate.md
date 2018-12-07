@@ -7,7 +7,7 @@ old-location: multimedia\waveoutgetplaybackrate.htm
 tech.root: Multimedia
 ms.assetid: 43d660c6-fc12-4158-9687-dfe9f41a22c0
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_waveOutGetPlaybackRate, mmeapi/waveOutGetPlaybackRate, multimedia.waveoutgetplaybackrate, waveOutGetPlaybackRate, waveOutGetPlaybackRate function [Windows Multimedia]"
 ms.prod: windows-hardware
 ms.technology: windows-devices

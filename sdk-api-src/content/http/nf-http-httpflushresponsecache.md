@@ -4,10 +4,10 @@ title: HttpFlushResponseCache function
 author: windows-sdk-content
 description: Removes from the HTTP Server API cache associated with a given request queue all response fragments that have a name whose site portion matches a specified UrlPrefix.
 old-location: http\httpflushresponsecache.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 5b7377cf-b4a9-45c7-8456-72a52c3778a0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: HttpFlushResponseCache, HttpFlushResponseCache function [HTTP], _http_httpflushresponsecache, http.httpflushresponsecache, http/HttpFlushResponseCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,14 +88,7 @@ This parameter can contain the following flag:
 Causes response fragments that have names in which the site portion is a hierarchical descendant of the specified UrlPrefix to be removed from the fragment cache, in addition to those fragments having site portions that directly match.
 
 
-### -param Overlapped
-
-TBD
-
-
-
-
-#### - pOverlapped [in]
+### -param Overlapped [in]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure, or for synchronous calls, set it to <b>NULL</b>. 

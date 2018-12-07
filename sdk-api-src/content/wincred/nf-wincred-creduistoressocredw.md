@@ -7,7 +7,7 @@ old-location: security\creduistoressocredw.htm
 tech.root: secauthn
 ms.assetid: 2c57c943-bcf7-405c-be0a-a3d1991f3004
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CredUIStoreSSOCredW, CredUIStoreSSOCredW function [Security], security.creduistoressocredw, wincred/CredUIStoreSSOCredW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflectionconstantbuffer_getvariablebyname.
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionconstantbuffer_getvariablebyname.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 684b47bc-14a8-01c4-053a-ee1a44d0861c, GetVariableByName, GetVariableByName method [Direct3D 10], GetVariableByName method [Direct3D 10],ID3D10ShaderReflectionConstantBuffer interface, ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10],GetVariableByName method, ID3D10ShaderReflectionConstantBuffer.GetVariableByName, ID3D10ShaderReflectionConstantBuffer::GetVariableByName, d3d10shader/ID3D10ShaderReflectionConstantBuffer::GetVariableByName, direct3d10.id3d10shaderreflectionconstantbuffer_getvariablebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

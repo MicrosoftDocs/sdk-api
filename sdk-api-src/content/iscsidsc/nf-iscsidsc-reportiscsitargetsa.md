@@ -7,7 +7,7 @@ old-location: iscsidisc\reportiscsitargets.htm
 tech.root: iSCSIDisc
 ms.assetid: c4b2bcc4-d9d3-4fd3-bbca-03b13670054f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ReportIScsiTargetsA, ReportIscsiTargets, ReportIscsiTargets function [iSCSI Discovery Library API], ReportIscsiTargetsA, ReportIscsiTargetsW, iscsidisc.reportiscsitargets, iscsidsc/ReportIscsiTargets, iscsidsc/ReportIscsiTargetsA, iscsidsc/ReportIscsiTargetsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

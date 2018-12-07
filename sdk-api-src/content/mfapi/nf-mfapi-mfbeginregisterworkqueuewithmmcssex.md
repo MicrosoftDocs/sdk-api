@@ -7,7 +7,7 @@ old-location: mf\mfbeginregisterworkqueuewithmmcssex.htm
 tech.root: medfound
 ms.assetid: D27E2B51-857D-48E5-8D25-A26917FCF959
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MFBeginRegisterWorkQueueWithMMCSSEx, MFBeginRegisterWorkQueueWithMMCSSEx function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcssex, mfapi/MFBeginRegisterWorkQueueWithMMCSSEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

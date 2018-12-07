@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getbuttonatposition.htm
 tech.root: DirectShow
 ms.assetid: f9c506b3-c9d9-4dc2-b318-f987ab8636dc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetButtonAtPosition, GetButtonAtPosition method [DirectShow], GetButtonAtPosition method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetButtonAtPosition method, IDvdInfo2.GetButtonAtPosition, IDvdInfo2::GetButtonAtPosition, IDvdInfo2GetButtonAtPosition, dshow.idvdinfo2_getbuttonatposition, strmif/IDvdInfo2::GetButtonAtPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ The <code>GetButtonAtPosition</code> method retrieves the button located at the 
 Current mouse pointer position as retrieved through the Win32 WM_MOUSEMOVE message.
 
 
-### -param pulButtonIndex
-
-TBD
-
-
-
-
-#### - puButtonIndex [out]
+### -param pulButtonIndex [out]
 
 Receives the index (from 1 through 36) of the button at the current mouse pointer position.
 

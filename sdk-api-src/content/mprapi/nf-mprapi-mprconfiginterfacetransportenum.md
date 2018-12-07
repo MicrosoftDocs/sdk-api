@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacetransportenum.htm
 tech.root: rras
 ms.assetid: ae395eb8-8019-432c-bf96-b602c8e34f12
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: MprConfigInterfaceTransportEnum, MprConfigInterfaceTransportEnum function [RAS], _mpr_mprconfiginterfacetransportenum, mprapi/MprConfigInterfaceTransportEnum, rras.mprconfiginterfacetransportenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

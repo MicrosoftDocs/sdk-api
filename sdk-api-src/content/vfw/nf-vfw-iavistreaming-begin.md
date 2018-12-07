@@ -7,7 +7,7 @@ old-location: multimedia\iavistreaming_begin.htm
 tech.root: Multimedia
 ms.assetid: 9bd76fc3-6c31-4e29-b482-82ee0a505656
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],Begin method, IAVIStreaming.Begin, IAVIStreaming::Begin, _win32_IAVIStreaming_Begin, multimedia.iavistreaming_begin, vfw/IAVIStreaming::Begin
 ms.prod: windows-hardware
 ms.technology: windows-devices

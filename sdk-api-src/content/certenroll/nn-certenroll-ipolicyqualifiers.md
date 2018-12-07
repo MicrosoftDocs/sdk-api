@@ -4,13 +4,13 @@ title: IPolicyQualifiers
 author: windows-sdk-content
 description: Defines methods and properties that enable you to manage a collection of IPolicyQualifier objects.
 old-location: security\ipolicyqualifiers.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: da8b6289-379e-4dff-b15a-b0967f245c3d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IPolicyQualifiers, IPolicyQualifiers interface [Security], IPolicyQualifiers interface [Security],described, certenroll/IPolicyQualifiers, security.ipolicyqualifiers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: inputdev\unregisterhotkey.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\unregisterhotkey.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: UnregisterHotKey, UnregisterHotKey function [Keyboard and Mouse Input], _win32_UnregisterHotKey, _win32_unregisterhotkey_cpp, inputdev.unregisterhotkey, winui._win32_unregisterhotkey, winuser/UnregisterHotKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

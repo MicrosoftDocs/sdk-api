@@ -4,10 +4,10 @@ title: ITaskFolder::CreateFolder
 author: windows-sdk-content
 description: Creates a folder for related tasks.
 old-location: taskschd\itaskfolder_createfolder.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: da0f2420-b1a0-4359-aa05-ddf1f2a35118
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateFolder, CreateFolder method [Task Scheduler], CreateFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],CreateFolder method, ITaskFolder.CreateFolder, ITaskFolder::CreateFolder, taskschd.itaskfolder_createfolder, taskschd/ITaskFolder::CreateFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,10 @@ Creates a folder for related tasks.
 
 
 
-### -param subFolderName
+### -param subFolderName [in]
 
-TBD
+The name used to identify the folder. If "FolderName\SubFolder1\SubFolder2" is specified, the entire folder tree will be created if the folders do not exist. This parameter can be a relative path to the current <a href="https://msdn.microsoft.com/da0cc808-b284-4d10-be61-d96c5e07d0a8">ITaskFolder</a> instance. The root task folder is specified with a backslash (\). An example of a task folder path, under the root task folder,
+ is \MyTaskFolder. The '.' character  cannot be used to specify the current task folder  and the '..' characters cannot be used to specify the parent task folder in the path.
 
 
 ### -param sddl [in]
@@ -73,12 +74,6 @@ The security descriptor associated with the folder, in the form of a VT_BSTR in 
 An <a href="https://msdn.microsoft.com/da0cc808-b284-4d10-be61-d96c5e07d0a8">ITaskFolder</a> interface that represents the new subfolder.
 
 Pass in a reference to a <b>NULL</b> <a href="https://msdn.microsoft.com/da0cc808-b284-4d10-be61-d96c5e07d0a8">ITaskFolder</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
-
-
-#### - folderName [in]
-
-The name used to identify the folder. If "FolderName\SubFolder1\SubFolder2" is specified, the entire folder tree will be created if the folders do not exist. This parameter can be a relative path to the current <a href="https://msdn.microsoft.com/da0cc808-b284-4d10-be61-d96c5e07d0a8">ITaskFolder</a> instance. The root task folder is specified with a backslash (\). An example of a task folder path, under the root task folder,
- is \MyTaskFolder. The '.' character  cannot be used to specify the current task folder  and the '..' characters cannot be used to specify the parent task folder in the path.
 
 
 ## -returns

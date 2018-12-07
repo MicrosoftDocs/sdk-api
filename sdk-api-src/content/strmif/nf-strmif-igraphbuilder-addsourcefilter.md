@@ -7,7 +7,7 @@ old-location: dshow\igraphbuilder_addsourcefilter.htm
 tech.root: DirectShow
 ms.assetid: ed4d7fc6-558b-474f-ae8d-58aa8479b4d2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AddSourceFilter, AddSourceFilter method [DirectShow], AddSourceFilter method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],AddSourceFilter method, IGraphBuilder.AddSourceFilter, IGraphBuilder::AddSourceFilter, IGraphBuilderAddSourceFilter, dshow.igraphbuilder_addsourcefilter, strmif/IGraphBuilder::AddSourceFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,29 +62,19 @@ The <code>AddSourceFilter</code> method adds a source filter for a specified fil
 
 
 
-### -param lpcwstrFileName
+### -param lpcwstrFileName [in]
 
-TBD
+Specifies the name of the file to load.
 
 
-### -param lpcwstrFilterName
+### -param lpcwstrFilterName [in]
 
-TBD
+Specifies a name for the source filter.
 
 
 ### -param ppFilter [out]
 
 Receives a pointer to the filter's <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> interface. The caller must release the interface.
-
-
-#### - lpwstrFileName [in]
-
-Specifies the name of the file to load.
-
-
-#### - lpwstrFilterName [in]
-
-Specifies a name for the source filter.
 
 
 ## -returns

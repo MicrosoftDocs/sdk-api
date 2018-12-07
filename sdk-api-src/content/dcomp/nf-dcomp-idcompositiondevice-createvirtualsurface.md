@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_createvirtualsurface.htm
 tech.root: directcomp
 ms.assetid: 85619C69-F5AE-4F07-AE56-7305BBECD58F
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateVirtualSurface, CreateVirtualSurface method [DirectComposition], CreateVirtualSurface method [DirectComposition],IDCompositionDevice interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice interface [DirectComposition],CreateVirtualSurface method, IDCompositionDevice.CreateVirtualSurface, IDCompositionDevice::CreateVirtualSurface, dcomp/IDCompositionDevice::CreateVirtualSurface, directcomp.idcompositiondevice_createvirtualsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,9 @@ req.redist:
 ## -description
 
 
-Creates a sparsely populated surface that can be associated with one or more visuals for composition.
+
+        Creates a sparsely populated surface that can be associated with one or more visuals for composition.
+      
 
 
 ## -parameters
@@ -125,14 +127,7 @@ The alpha channel should be ignored and the bitmap should be rendered opaquely.
  
 
 
-### -param virtualSurface
-
-TBD
-
-
-
-
-#### - surface [out]
+### -param virtualSurface [out]
 
 Type: <b><a href="https://msdn.microsoft.com/51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC">IDCompositionVirtualSurface</a>**</b>
 

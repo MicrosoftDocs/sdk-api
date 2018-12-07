@@ -4,10 +4,10 @@ title: IUPnPDescriptionDocument::LoadAsync
 author: windows-sdk-content
 description: The LoadAsync method loads a document asynchronously. This method returns control to the caller immediately, and uses the specified callback to notify the caller when the operation is complete.
 old-location: upnp\iupnpdescriptiondocument_loadasync.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: bfb1d833-13e8-4ffe-832d-f6640a42055a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],LoadAsync method, IUPnPDescriptionDocument.LoadAsync, IUPnPDescriptionDocument::LoadAsync, LoadAsync, LoadAsync method [UPnP APIs], LoadAsync method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_loadasync, upnp.iupnpdescriptiondocument_loadasync, upnp/IUPnPDescriptionDocument::LoadAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

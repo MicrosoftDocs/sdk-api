@@ -4,10 +4,10 @@ title: IIsdbCAServiceDescriptor::GetMessageControl
 author: windows-sdk-content
 description: Gets the delay time, in days, before the automatic entitlement management message (EMM) is displayed from a conditional access (CA) service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getmessagecontrol.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0a911c5e-a026-4d35-a6a2-e33ba53f3057
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetMessageControl, GetMessageControl method [Microsoft TV Technologies], GetMessageControl method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetMessageControl method, IIsdbCAServiceDescriptor.GetMessageControl, IIsdbCAServiceDescriptor::GetMessageControl, dvbsiparser/IIsdbCAServiceDescriptor::GetMessageControl, mstv.iisdbcaservicedescriptor_getmessagecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

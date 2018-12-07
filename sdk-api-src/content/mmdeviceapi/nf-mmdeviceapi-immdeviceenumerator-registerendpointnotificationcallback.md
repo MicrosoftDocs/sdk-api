@@ -7,7 +7,7 @@ old-location: coreaudio\immdeviceenumerator_registerendpointnotificationcallback
 tech.root: CoreAudio
 ms.assetid: 2c524f64-0b35-4433-9768-582dcb580a74
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IMMDeviceEnumerator interface [Core Audio],RegisterEndpointNotificationCallback method, IMMDeviceEnumerator.RegisterEndpointNotificationCallback, IMMDeviceEnumerator::RegisterEndpointNotificationCallback, IMMDeviceEnumeratorRegisterEndpointNotificationCal, RegisterEndpointNotificationCallback, RegisterEndpointNotificationCallback method [Core Audio], RegisterEndpointNotificationCallback method [Core Audio],IMMDeviceEnumerator interface, coreaudio.immdeviceenumerator_registerendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::RegisterEndpointNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>RegisterEndpointNotificationCallback</b> method registers a client's noti
 
 
 
-### -param pClient
-
-TBD
-
-
-
-
-#### - pNotify [in]
+### -param pClient [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/76d3cd52-30bd-48b0-8adc-c23991a60d1b">IMMNotificationClient</a> interface that the client is registering for notification callbacks. 
 

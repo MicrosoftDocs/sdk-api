@@ -7,13 +7,13 @@ old-location: intl\immdisabletextframeservice.htm
 tech.root: Intl
 ms.assetid: ce294f9e-ba0b-460d-8685-85371af8a7e6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ImmDisableTextFrameService, ImmDisableTextFrameService function [Internationalization for Windows Applications], _win32_ImmDisableTextFrameService, imm/ImmDisableTextFrameService, intl.immdisabletextframeservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
-req.include-header: Windows.h
+req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

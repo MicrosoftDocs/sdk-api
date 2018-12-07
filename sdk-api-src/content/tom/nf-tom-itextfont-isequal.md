@@ -7,7 +7,7 @@ old-location: controls\ITextFont_IsEqual.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontisequal.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],IsEqual method, ITextFont.IsEqual, ITextFont::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextFont interface, _win32_ITextFont_IsEqual, _win32_ITextFont_IsEqual_cpp, controls.ITextFont_IsEqual, controls._win32_ITextFont_IsEqual, tom/ITextFont::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,13 +66,6 @@ The text font object to compare against.
 
 
 ### -param pValue
-
-TBD
-
-
-
-
-#### - pB
 
 Type: <b>long*</b>
 

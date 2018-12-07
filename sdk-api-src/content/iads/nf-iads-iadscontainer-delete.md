@@ -4,10 +4,10 @@ title: IADsContainer::Delete
 author: windows-sdk-content
 description: Deletes a specified directory object from this container.
 old-location: adsi\iadscontainer_delete.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 2f3873e0-376e-4212-a28d-bd9bc112f6cf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Delete, Delete method [ADSI], Delete method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Delete method, IADsContainer.Delete, IADsContainer::Delete, _ds_iadscontainer_delete, adsi.iadscontainer__delete, adsi.iadscontainer_delete, iads/IADsContainer::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,14 @@ The <b>IADsContainer::Delete</b> method deletes a specified directory object fro
 
 
 
-### -param bstrClassName
+### -param bstrClassName [in]
 
-TBD
+The schema class object to delete. The name is that returned from the  <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs::get_Class</a> method. Also, <b>NULL</b> is a valid option for this parameter.   Providing <b>NULL</b> for this parameter is the only way to deal with defunct schema classes. If an instance was created before the class became defunct, the only way to  delete the instance of the defunct class is to call <b>IADsContainer::Delete</b> and provide <b>NULL</b> for this parameter.
 
 
 ### -param bstrRelativeName [in]
 
 Name of the object as it is known in the underlying directory and identical to the name retrieved with the  <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs::get_Name</a> method.
-
-
-#### - bstrClass [in]
-
-The schema class object to delete. The name is that returned from the  <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs::get_Class</a> method. Also, <b>NULL</b> is a valid option for this parameter.   Providing <b>NULL</b> for this parameter is the only way to deal with defunct schema classes. If an instance was created before the class became defunct, the only way to  delete the instance of the defunct class is to call <b>IADsContainer::Delete</b> and provide <b>NULL</b> for this parameter.
 
 
 ## -returns

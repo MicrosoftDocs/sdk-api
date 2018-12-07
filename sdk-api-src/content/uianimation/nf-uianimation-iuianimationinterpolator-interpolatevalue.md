@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator_interpolatevalue.htm
 tech.root: UIAnimation
 ms.assetid: 5f1cccd7-8b22-47a3-9704-0f22a1431c99
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],InterpolateValue method, IUIAnimationInterpolator.InterpolateValue, IUIAnimationInterpolator::InterpolateValue, InterpolateValue, InterpolateValue method [Windows Animation], InterpolateValue method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_interpolatevalue, uianimation/IUIAnimationInterpolator::InterpolateValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

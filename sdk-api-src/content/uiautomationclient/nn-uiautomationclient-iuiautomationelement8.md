@@ -7,10 +7,10 @@ old-location: winauto\uiauto_IUIAutomationElement8.htm
 tech.root: WinAuto
 ms.assetid: EEADC0FE-279C-4CA1-A812-5D7C37A48AEE
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAutomationElement8, IUIAutomationElement8 interface [Windows Accessibility], IUIAutomationElement8 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement8, winauto.uiauto_IUIAutomationElement8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

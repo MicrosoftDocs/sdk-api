@@ -4,13 +4,13 @@ title: "_MI_DatetimeAField"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_datetimeafield.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 8a43678d-1dc0-4b62-9bde-6c6df6e04080
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_DatetimeAField, MI_DatetimeAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_DatetimeAField, mi/MI_DatetimeAField, wmi._mi_datetimeafield, wmi_v2.mi_datetimeafield
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: dshow\iamvideocontrol_setmode.htm
 tech.root: DirectShow
 ms.assetid: 09fe5d3f-41d8-4a60-a770-64c628a6b82d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAMVideoControl interface [DirectShow],SetMode method, IAMVideoControl.SetMode, IAMVideoControl::SetMode, IAMVideoControlSetMode, SetMode, SetMode method [DirectShow], SetMode method [DirectShow],IAMVideoControl interface, dshow.iamvideocontrol_setmode, strmif/IAMVideoControl::SetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

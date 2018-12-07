@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_hasnullsourceorigin.htm
 tech.root: medfound
 ms.assetid: D83F079F-605A-4F62-B037-3C5D0487D778
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: HasNullSourceOrigin, HasNullSourceOrigin method [Media Foundation], HasNullSourceOrigin method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],HasNullSourceOrigin method, IMFHttpDownloadRequest.HasNullSourceOrigin, IMFHttpDownloadRequest::HasNullSourceOrigin, mf.imfhttpdownloadrequest_hasnullsourceorigin, mfidl/IMFHttpDownloadRequest::HasNullSourceOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ Invoked by Microsoft Media Foundation to detect the case when a HTTP or HTTPS re
 
 
 
-### -param pfNullSourceOrigin
-
-TBD
-
-
-
-
-#### - pfNullSOurceOrigin [out]
+### -param pfNullSourceOrigin [out]
 
 Set to TRUE if the current request has a “null” source origin. The source origin would become “null” if the HTTP request was redirected from one server to another, and the two servers have different origins.
 

@@ -4,10 +4,10 @@ title: ISCTE_EAS::GetVersionNumber
 author: windows-sdk-content
 description: The GetVersionNumber method returns the version number for the EAS table.
 old-location: mstv\iscte_eas_getversionnumber.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: b2108435-37ef-404c-b735-a5100acfa8a4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetVersionNumber method, ISCTE_EAS.GetVersionNumber, ISCTE_EAS::GetVersionNumber, ISCTE_EASGetVersionNumber, atscpsipparser/ISCTE_EAS::GetVersionNumber, mstv.iscte_eas_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

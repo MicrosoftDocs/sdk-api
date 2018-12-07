@@ -4,13 +4,13 @@ title: "_NET_INTERFACE_CONTEXT"
 author: windows-sdk-content
 description: The interface context that is part of the NET_INTERFACE_CONTEXT_TABLE structure.
 old-location: nla\net_interface_context.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 71342454-5AEF-4C96-8914-ED8859BD9D81
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: NET_INTERFACE_CONTEXT, NET_INTERFACE_CONTEXT structure [Network Awareness], PNET_INTERFACE_CONTEXT, PNET_INTERFACE_CONTEXT structure pointer [Network Awareness], _NET_INTERFACE_CONTEXT, nla.net_interface_context, ondemandconnroutehelper/NET_INTERFACE_CONTEXT, ondemandconnroutehelper/PNET_INTERFACE_CONTEXT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ondemandconnroutehelper.h
 req.include-header: 

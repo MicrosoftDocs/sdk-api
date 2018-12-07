@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorLUT_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutmethods\setparameters.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ColorLUT class [GDI+],SetParameters method, ColorLUT.SetParameters, ColorLUT::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],ColorLUT class, _gdiplus_CLASS_ColorLUT_SetParameters_, gdiplus._gdiplus_CLASS_ColorLUT_SetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ The <b>ColorLUT::SetParameters</b> method sets the parameters of this <a href="h
 
 
 
-### -param lut
-
-TBD
-
-
-
-
-#### - parameters [in]
+### -param lut [in]
 
 Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534061(v=VS.85).aspx">ColorLUTParams</a>*</b>
 

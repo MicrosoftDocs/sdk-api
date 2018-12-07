@@ -7,7 +7,7 @@ old-location: termserv\wtsvirtualchannelpurgeoutput.htm
 tech.root: termserv
 ms.assetid: 9edd06d1-3f5a-4d83-8c3c-16b761ce4c60
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: WTSVirtualChannelPurgeOutput, WTSVirtualChannelPurgeOutput function [Remote Desktop Services], _win32_wtsvirtualchannelpurgeoutput, termserv.wtsvirtualchannelpurgeoutput, wtsapi32/WTSVirtualChannelPurgeOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

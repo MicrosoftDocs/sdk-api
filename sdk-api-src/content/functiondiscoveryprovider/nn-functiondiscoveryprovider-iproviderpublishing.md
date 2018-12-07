@@ -7,10 +7,10 @@ old-location: ncd\iproviderpublishing.htm
 tech.root: fundisc
 ms.assetid: 7647db1b-88c8-44f3-b2af-a61dad4790f6
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IProviderPublishing, IProviderPublishing interface, IProviderPublishing interface,described, functiondiscoveryprovider/IProviderPublishing, ncd.iproviderpublishing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 

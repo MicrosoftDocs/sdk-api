@@ -7,7 +7,7 @@ old-location: rpc\ndrasyncclientcall.htm
 tech.root: rpc
 ms.assetid: 591f56de-6ceb-46d7-9720-cd2213605ef2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: NdrAsyncClientCall, NdrAsyncClientCall function [RPC], rpc.ndrasyncclientcall, rpcndr/NdrAsyncClientCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>NdrAsyncClientCall</b> function is the asynchronous client-side entry point for the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oi</a> and <b>/Oic</b> mode stub.
+The <b>NdrAsyncClientCall</b> function is the asynchronous client-side entry point for the <a href="https://msdn.microsoft.com/">/Oi</a> and <b>/Oic</b> mode stub.
 
 
 ## -parameters

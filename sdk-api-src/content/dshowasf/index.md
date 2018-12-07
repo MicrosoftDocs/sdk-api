@@ -2,7 +2,7 @@
 UID: NA:dshowasf
 ms.assetid: 0bef98a9-18ff-3bb1-9977-b14a468dc24e
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

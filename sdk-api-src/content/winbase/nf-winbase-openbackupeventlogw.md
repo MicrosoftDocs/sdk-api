@@ -7,7 +7,7 @@ old-location: base\openbackupeventlog.htm
 tech.root: EventLog
 ms.assetid: cfef0912-9d35-44aa-a1d3-f9bb37213ce0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: OpenBackupEventLog, OpenBackupEventLog function, OpenBackupEventLogA, OpenBackupEventLogW, _win32_openbackupeventlog, base.openbackupeventlog, winbase/OpenBackupEventLog, winbase/OpenBackupEventLogA, winbase/OpenBackupEventLogW
 ms.prod: windows-hardware
 ms.technology: windows-devices

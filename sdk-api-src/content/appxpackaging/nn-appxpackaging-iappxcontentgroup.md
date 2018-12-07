@@ -7,10 +7,10 @@ old-location: appxpkg\iappxcontentgroup.htm
 tech.root: appxpkg
 ms.assetid: 3FB070C7-EAEA-461B-8A68-B29822D0560E
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: IAppxContentGroup, IAppxContentGroup interface [App packaging and management], IAppxContentGroup interface [App packaging and management],described, appxpackaging/IAppxContentGroup, appxpkg.iappxcontentgroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

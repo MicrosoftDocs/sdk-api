@@ -1,16 +1,16 @@
 ---
 UID: NS:ipexport.tcp_reserve_port_range
-title: tcp_reserve_port_range
+title: TCP_RESERVE_PORT_RANGE
 author: windows-sdk-content
 description: The TCP_RESERVE_PORT_RANGE structure specifies a TCP port range to reserve.
 old-location: iphlp\tcp_reserve_port_range.htm
 tech.root: IpHlp
 ms.assetid: 3a64000b-9862-4958-888c-2114c124a9d5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: "*PTCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE structure [IP Helper], ipexport/TCP_RESERVE_PORT_RANGE, iphlp.tcp_reserve_port_range, tcp_reserve_port_range"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 12/5/2018
+ms.keywords: "*PTCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE structure [IP Helper], ipexport/TCP_RESERVE_PORT_RANGE, iphlp.tcp_reserve_port_range"
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: 
@@ -44,7 +44,7 @@ req.typenames: TCP_RESERVE_PORT_RANGE, *PTCP_RESERVE_PORT_RANGE
 req.redist: 
 ---
 
-# tcp_reserve_port_range structure
+# TCP_RESERVE_PORT_RANGE structure
 
 
 ## -description

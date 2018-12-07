@@ -7,10 +7,10 @@ old-location: direct3d11\d3d11_rasterizer_desc2.htm
 tech.root: direct3d11
 ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CD3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2 structure [Direct3D 11], d3d11_3/D3D11_RASTERIZER_DESC2, direct3d11.d3d11_rasterizer_desc2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
@@ -56,6 +56,21 @@ Describes rasterizer state.
 ## -struct-fields
 
 
+
+
+### -field CD3D11_RASTERIZER_DESC2
+
+TBD 
+
+
+### -field ~CD3D11_RASTERIZER_DESC2
+
+TBD 
+
+
+### -field operator const D3D11_RASTERIZER_DESC2&
+
+TBD 
 
 
 ### -field D3D11_RASTERIZER_DESC2

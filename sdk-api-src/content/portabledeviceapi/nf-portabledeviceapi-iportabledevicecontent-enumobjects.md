@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_enumobjects.htm
 tech.root: wpd_sdk
 ms.assetid: 72526019-58c9-4a18-a925-e0a900f3e35a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EnumObjects, EnumObjects method [Windows Portable Devices SDK], EnumObjects method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],EnumObjects method, IPortableDeviceContent.EnumObjects, IPortableDeviceContent::EnumObjects, IPortableDeviceContentEnumObjects, portabledeviceapi/IPortableDeviceContent::EnumObjects, wpdsdk.iportabledevicecontent_enumobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

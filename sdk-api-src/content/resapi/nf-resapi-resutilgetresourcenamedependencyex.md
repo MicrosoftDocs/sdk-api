@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcenamedependencyex.htm
 tech.root: mscs
 ms.assetid: 3A57C19C-F0A2-4183-ACA6-0CEF2F2FF23E
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX, PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX function [Failover Cluster], ResUtilGetResourceNameDependencyEx, ResUtilGetResourceNameDependencyEx function [Failover Cluster], mscs.resutilgetresourcenamedependencyex, resapi/PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX, resapi/ResUtilGetResourceNameDependencyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

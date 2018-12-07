@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage4_getspecifiedmetadata.htm
 tech.root: WMDM
 ms.assetid: 0f7b3a68-97b3-4470-8ca8-e8eb8a5f83b7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetSpecifiedMetadata, GetSpecifiedMetadata method [windows Media Device Manager], GetSpecifiedMetadata method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],GetSpecifiedMetadata method, IMDSPStorage4.GetSpecifiedMetadata, IMDSPStorage4::GetSpecifiedMetadata, IMDSPStorage4GetSpecifiedMetadata, mswmdm/IMDSPStorage4::GetSpecifiedMetadata, wmdm.imdspstorage4_getspecifiedmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ Count of properties to be retrieved.
 Array that contains the property names to be retrieved. The size of this array should be equal to <i>cProperties</i>.
 
 
-### -param pMetadata
-
-TBD
-
-
-
-
-#### - ppMetadata [out]
+### -param pMetadata [out]
 
 Pointer to the returned <b>IWMDMMetaData</b> interface pointer.
 

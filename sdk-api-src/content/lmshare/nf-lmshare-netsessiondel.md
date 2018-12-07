@@ -7,7 +7,7 @@ old-location: fs\netsessiondel.htm
 tech.root: NetShare
 ms.assetid: a1360f5d-9fd0-44af-b9f5-ab9bc057dfe6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NetSessionDel, NetSessionDel function [Files], _win32_netsessiondel, fs.netsessiondel, lmshare/NetSessionDel, netmgmt.netsessiondel
 ms.prod: windows-hardware
 ms.technology: windows-devices

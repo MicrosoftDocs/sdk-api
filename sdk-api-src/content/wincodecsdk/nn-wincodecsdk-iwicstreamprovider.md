@@ -7,10 +7,10 @@ old-location: wic\_wic_codec_iwicstreamprovider.htm
 tech.root: wic
 ms.assetid: fdcaf668-a5c3-4852-8bc9-5535f0756592
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWICStreamProvider, IWICStreamProvider interface [Windows Imaging Component], IWICStreamProvider interface [Windows Imaging Component],described, _wic_codec_iwicstreamprovider, wic._wic_codec_iwicstreamprovider, wincodecsdk/IWICStreamProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 

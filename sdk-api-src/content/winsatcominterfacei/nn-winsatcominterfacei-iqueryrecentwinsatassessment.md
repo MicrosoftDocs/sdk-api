@@ -7,10 +7,10 @@ old-location: winsat\iqueryrecentwinsatassessment.htm
 tech.root: WinSAT
 ms.assetid: 6849d8b6-d192-4520-a737-39e22e14a70f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IQueryRecentWinSATAssessment, IQueryRecentWinSATAssessment interface [WinSAT], IQueryRecentWinSATAssessment interface [WinSAT],described, winsat.iqueryrecentwinsatassessment, winsatcominterfacei/IQueryRecentWinSATAssessment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: winsatcominterfacei.h
 req.include-header: 

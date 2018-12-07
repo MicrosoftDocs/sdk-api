@@ -4,13 +4,13 @@ title: IWSDDeviceHost
 author: windows-sdk-content
 description: Represents a DPWS-compliant device.
 old-location: ncd\iwsddevicehost.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 497d0331-c88d-4381-8990-94227a9b9659
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, IWSDDeviceHost interface,described, ncd.iwsddevicehost, wsdhost/IWSDDeviceHost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

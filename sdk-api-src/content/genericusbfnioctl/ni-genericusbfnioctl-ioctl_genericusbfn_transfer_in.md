@@ -7,10 +7,10 @@ old-location: buses\ioctl_genericusbfn_transfer_in.htm
 tech.root: usbref
 ms.assetid: 70F78F02-6413-445F-9B5A-F70ADA741889
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_GENERICUSBFN_TRANSFER_IN, IOCTL_GENERICUSBFN_TRANSFER_IN control, IOCTL_GENERICUSBFN_TRANSFER_IN control code [Buses], buses.ioctl_genericusbfn_transfer_in, genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_IN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h

@@ -7,10 +7,10 @@ old-location: shell\IFileOperationProgressSink.htm
 tech.root: shell
 ms.assetid: 24b20e05-d8be-4060-a966-7b32d9225403
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IFileOperationProgressSink, IFileOperationProgressSink interface [Windows Shell], IFileOperationProgressSink interface [Windows Shell],described, _shell_IFileOperationProgressSink, shell.IFileOperationProgressSink, shobjidl_core/IFileOperationProgressSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

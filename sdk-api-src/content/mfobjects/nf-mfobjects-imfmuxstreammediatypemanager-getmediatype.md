@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_getmediatype.htm
 tech.root: medfound
 ms.assetid: F8A65783-7FD8-46C2-87B0-BC540E1F187F
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetMediaType method, IMFMuxStreamMediaTypeManager.GetMediaType, IMFMuxStreamMediaTypeManager::GetMediaType, mf.imfmuxstreammediatypemanager_getmediatype, mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,18 +61,14 @@ Gets the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c0
 
 
 
-### -param dwMuxStreamIndex [out]
+### -param dwMuxStreamIndex [in]
 
 The index of the substream for which the media type is retrieved.
 
+
+### -param ppMediaType [out]
+
 The media type of the substream with the specified index.
-
-
-### -param ppMediaType
-
-TBD
-
-
 
 
 ## -returns

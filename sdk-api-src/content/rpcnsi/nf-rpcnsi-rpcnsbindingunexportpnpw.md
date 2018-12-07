@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindingunexportpnp.htm
 tech.root: rpc
 ms.assetid: b19d9c18-b2fa-45da-b55f-583483c4d540
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RpcNsBindingUnexportPnP, RpcNsBindingUnexportPnP function [RPC], RpcNsBindingUnexportPnPA, RpcNsBindingUnexportPnPW, _rpc_rpcnsbindingunexportpnp, rpc.rpcnsbindingunexportpnp, rpcnsi/RpcNsBindingUnexportPnP, rpcnsi/RpcNsBindingUnexportPnPA, rpcnsi/RpcNsBindingUnexportPnPW
 ms.prod: windows-hardware
 ms.technology: windows-devices

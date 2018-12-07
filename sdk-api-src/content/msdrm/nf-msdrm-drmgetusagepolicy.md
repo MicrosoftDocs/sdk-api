@@ -7,7 +7,7 @@ old-location: rm\drmgetusagepolicy.htm
 tech.root: AdRms_Sdk
 ms.assetid: 135ed2d0-17a9-46a2-9495-4102115f7bad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMGetUsagePolicy, DRMGetUsagePolicy function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUsagePolicy, rm.drmgetusagepolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\iswapchainbackgroundpanelnative_setswapchain.htm
 tech.root: WinRT
 ms.assetid: EDAEA67F-78CD-49F8-84FC-A7037629239A
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISwapChainBackgroundPanelNative interface [Windows Runtime],SetSwapChain method, ISwapChainBackgroundPanelNative.SetSwapChain, ISwapChainBackgroundPanelNative.xaml, ISwapChainBackgroundPanelNative::SetSwapChain, ISwapChainBackgroundPanelNative::xaml, SetSwapChain, SetSwapChain method [Windows Runtime], SetSwapChain method [Windows Runtime],ISwapChainBackgroundPanelNative interface, windows/ISwapChainBackgroundPanelNative::SetSwapChain, winrt.iswapchainbackgroundpanelnative_setswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Sets the DirectX swap chain for <a href="https://msdn.microsoft.com/2f47fd2c-a0f
 
 
 
-### -param swapChain
-
-TBD
-
-
-
-
-#### - pSwapChain [in]
+### -param swapChain [in]
 
 A configured <a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>.
 

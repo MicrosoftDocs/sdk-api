@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_c
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5ysl.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: CountryCode property [Fax Service], CountryCode property [Fax Service],IFaxOutboundRoutingRule interface, IFaxOutboundRoutingRule interface [Fax Service],CountryCode property, IFaxOutboundRoutingRule.CountryCode, IFaxOutboundRoutingRule.get_CountryCode, IFaxOutboundRoutingRule::CountryCode, IFaxOutboundRoutingRule::get_CountryCode, _mfax_faxoutboundroutingrule.countrycode, fax._mfax_faxoutboundroutingrule_countrycode, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_countrycode_cpp, faxcomex/IFaxOutboundRoutingRule::CountryCode, faxcomex/IFaxOutboundRoutingRule::get_CountryCode, get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

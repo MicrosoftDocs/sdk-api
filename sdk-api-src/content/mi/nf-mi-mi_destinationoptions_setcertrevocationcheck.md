@@ -4,10 +4,10 @@ title: MI_DestinationOptions_SetCertRevocationCheck function
 author: windows-sdk-content
 description: Enables or disables the certificate revocation when communicating over SSL.
 old-location: wmi_v2\mi_destinationoptions_setcertrevocationcheck.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 941d1649-a4b1-4160-9917-a94afe0b8cd6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_SetCertRevocationCheck, MI_DestinationOptions_SetCertRevocationCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetCertRevocationCheck, wmi_v2.mi_destinationoptions_setcertrevocationcheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

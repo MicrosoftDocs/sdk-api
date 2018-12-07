@@ -4,10 +4,10 @@ title: HttpAddFragmentToCache function
 author: windows-sdk-content
 description: The HttpAddFragmentToCache function caches a data fragment with a specified name by which it can be retrieved, or updates data cached under a specified name.
 old-location: http\httpaddfragmenttocache.htm
-tech.root: Http
+tech.root: http
 ms.assetid: caef2e93-39cd-4282-97d9-870f8236d8c4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: HttpAddFragmentToCache, HttpAddFragmentToCache function [HTTP], _http_httpaddfragmenttocache, http.httpaddfragmenttocache, http/HttpAddFragmentToCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,14 +87,7 @@ Pointer to an
 <a href="https://msdn.microsoft.com/91fcbf35-ef8b-4f70-9c31-3f741c0e2f6e">HTTP_CACHE_POLICY</a> structure that specifies how this data fragment should be cached.
 
 
-### -param Overlapped
-
-TBD
-
-
-
-
-#### - pOverlapped [in, optional]
+### -param Overlapped [in, optional]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure, or for synchronous calls, set it to <b>NULL</b>. 

@@ -7,10 +7,10 @@ old-location: winrt\ipropertyvalue.htm
 tech.root: WinRT
 ms.assetid: 447625BA-F982-4155-9B05-E478E1229443
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IPropertyValue, IPropertyValue interface [Windows Runtime], IPropertyValue interface [Windows Runtime],described, windows/IPropertyValue, winrt.ipropertyvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.foundation.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: ncd\ifunctioninstance_getproviderinstanceid_method.htm
 tech.root: fundisc
 ms.assetid: fad5e3f0-a440-4b09-ba8c-04bae2d14a2a
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GetProviderInstanceID, GetProviderInstanceID method, GetProviderInstanceID method,IFunctionInstance interface, IFunctionInstance interface,GetProviderInstanceID method, IFunctionInstance.GetProviderInstanceID, IFunctionInstance::GetProviderInstanceID, functiondiscoveryapi/IFunctionInstance::GetProviderInstanceID, ncd.ifunctioninstance_getproviderinstanceid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,7 @@ Gets the identifier string for the provider instance. This string is the unique 
 
 
 
-### -param ppszCoMemProviderInstanceIdentity
-
-TBD
-
-
-
-
-#### - ppszCoMemProviderInstanceID [out]
+### -param ppszCoMemProviderInstanceIdentity [out]
 
 The provider instance identifier string. For root devices, this string has the same value as PKEY_PNPX_GlobalIdentity.
 

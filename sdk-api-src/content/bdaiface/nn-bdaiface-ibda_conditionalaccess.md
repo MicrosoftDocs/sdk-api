@@ -4,13 +4,13 @@ title: IBDA_ConditionalAccess
 author: windows-sdk-content
 description: The IBDA_ConditionalAccess interface provides conditional access to program content.
 old-location: mstv\ibda_conditionalaccess.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 93bd3c38-2591-4d36-b296-5ad939487277
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft TV Technologies], IBDA_ConditionalAccess interface [Microsoft TV Technologies],described, IBDA_ConditionalAccessInterface, bdaiface/IBDA_ConditionalAccess, mstv.ibda_conditionalaccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

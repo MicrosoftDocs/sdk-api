@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_setvideoclippingwindow.htm
 tech.root: DirectShow
 ms.assetid: 82589745-8f79-4e0e-b28c-5a395390ba64
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetVideoClippingWindow method, IVMRWindowlessControl.SetVideoClippingWindow, IVMRWindowlessControl::SetVideoClippingWindow, IVMRWindowlessControlSetVideoClippingWindow, SetVideoClippingWindow, SetVideoClippingWindow method [DirectShow], SetVideoClippingWindow method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setvideoclippingwindow, strmif/IVMRWindowlessControl::SetVideoClippingWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

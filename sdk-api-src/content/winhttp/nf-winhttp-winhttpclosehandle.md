@@ -7,7 +7,7 @@ old-location: http\winhttpclosehandle.htm
 tech.root: WinHttp
 ms.assetid: 78215141-dfe8-4f0a-ba1a-a63fa257db6f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinHttpCloseHandle, WinHttpCloseHandle function [WinHTTP], http.winhttpclosehandle, winhttp.winhttpclosehandle, winhttp/WinHttpCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

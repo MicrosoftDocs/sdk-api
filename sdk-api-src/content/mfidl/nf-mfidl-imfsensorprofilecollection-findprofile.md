@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofilecollection_findprofile.htm
 tech.root: medfound
 ms.assetid: 3EC77F69-717F-404F-9C8C-F420F360CB83
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: FindProfile, FindProfile method [Media Foundation], FindProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],FindProfile method, IMFSensorProfileCollection.FindProfile, IMFSensorProfileCollection::FindProfile, mf.imfsensorprofilecollection_findprofile, mfidl/IMFSensorProfileCollection::FindProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

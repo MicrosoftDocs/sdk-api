@@ -7,10 +7,10 @@ old-location: mscs\clres_function_table.htm
 tech.root: mscs
 ms.assetid: fa27076f-393c-415a-9301-91cfe770fb3c
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCLRES_FUNCTION_TABLE, CLRES_FUNCTION_TABLE, CLRES_FUNCTION_TABLE structure [Failover Cluster], CLRES_V1_FUNCTION_SIZE, CLRES_V2_FUNCTION_SIZE, CLRES_V3_FUNCTION_SIZE, CLRES_VERSION_V1_00, CLRES_VERSION_V2_00, CLRES_VERSION_V3_00, PCLRES_FUNCTION_TABLE, PCLRES_FUNCTION_TABLE structure pointer [Failover Cluster], _wolf_clres_function_table, mscs.clres_function_table, resapi/CLRES_FUNCTION_TABLE, resapi/PCLRES_FUNCTION_TABLE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

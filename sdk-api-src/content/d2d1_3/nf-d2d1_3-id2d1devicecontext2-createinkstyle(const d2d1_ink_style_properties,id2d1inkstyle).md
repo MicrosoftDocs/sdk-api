@@ -4,10 +4,10 @@ title: ID2D1DeviceContext2::CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES,ID2D1
 author: windows-sdk-content
 description: Creates a new ID2D1InkStyle object, for use with ink rendering methods such as DrawInk.
 old-location: direct2d\id2d1devicecontext2_createinkstyle2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 167cd3d8-3a10-7af8-c181-1cbc4ec32b46
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CreateInkStyle, CreateInkStyle method [Direct2D], CreateInkStyle method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateInkStyle method, ID2D1DeviceContext2.CreateInkStyle, ID2D1DeviceContext2.CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES,ID2D1InkStyle), ID2D1DeviceContext2::CreateInkStyle, ID2D1DeviceContext2::CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES,ID2D1InkStyle), d2d1_3/ID2D1DeviceContext2::CreateInkStyle, direct2d.id2d1devicecontext2_createinkstyle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_3.h
+: 
+- ID2D1DeviceContext2.CreateInkStyle
+: 
 ---
 
 # ID2D1DeviceContext2::CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES,ID2D1InkStyle)

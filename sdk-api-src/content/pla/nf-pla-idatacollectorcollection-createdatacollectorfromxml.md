@@ -4,10 +4,10 @@ title: IDataCollectorCollection::CreateDataCollectorFromXml
 author: windows-sdk-content
 description: Creates a data collector using the specified XML.
 old-location: pla\idatacollectorcollection_createdatacollectorfromxml.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 32a1aba6-24f4-416a-b2ba-9be264fce3fc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: CreateDataCollectorFromXml, CreateDataCollectorFromXml method [PLA], CreateDataCollectorFromXml method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollectorFromXml method, IDataCollectorCollection.CreateDataCollectorFromXml, IDataCollectorCollection::CreateDataCollectorFromXml, pla.idatacollectorcollection_createdatacollectorfromxml, pla/IDataCollectorCollection::CreateDataCollectorFromXml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,36 +58,19 @@ Creates a data collector using the specified XML.
 
 
 
-### -param bstrXml
+### -param bstrXml [in]
 
-TBD
-
-
-### -param pValidation
-
-TBD
+A string that contains the XML of the data collector to create. For details on specifying the XML string, see the Remarks section of the data collector that you want to create.
 
 
-### -param pCollector
-
-TBD
-
-
-
-
-#### - Collector [out]
-
-An <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a> interface of the newly created data collector. To get the actual data collector interface requested, call the <b>QueryInterface</b> method.
-
-
-#### - Validation [out]
+### -param pValidation [out]
 
 An <a href="https://msdn.microsoft.com/a7134395-91c6-4ea1-8b76-63830048289f">IValueMap</a> interface that you use to retrieve the validation error of each property whose value is not valid. The <a href="https://msdn.microsoft.com/990b48d8-357f-4157-a3d2-1ea1c80e1887">IValueMap::Count</a> property is zero if there were no errors.
 
 
-#### - Xml [in]
+### -param pCollector [out]
 
-A string that contains the XML of the data collector to create. For details on specifying the XML string, see the Remarks section of the data collector that you want to create.
+An <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a> interface of the newly created data collector. To get the actual data collector interface requested, call the <b>QueryInterface</b> method.
 
 
 ## -returns

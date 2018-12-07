@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_getserialnumber.htm
 tech.root: WMDM
 ms.assetid: 42765429-c230-4fa1-9e2e-e21c71e49ae0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetSerialNumber method, IMDSPStorageGlobals.GetSerialNumber, IMDSPStorageGlobals::GetSerialNumber, IMDSPStorageGlobalsGetSerialNumber, mswmdm/IMDSPStorageGlobals::GetSerialNumber, wmdm.imdspstorageglobals_getserialnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The <b>GetSerialNumber</b> method retrieves a serial number uniquely identifying
 Pointer to a <b>WMDMID</b> structure containing the serial number information. This parameter is included in the output message authentication code.
 
 
-### -param abMac
-
-TBD
-
-
-
-
-#### - abMac[WMDM_MAC_LENGTH] [in, out]
+### -param abMac [in, out]
 
 Array of eight bytes containing the message authentication code for the parameter data of this method. (WMDM_MAC_LENGTH is defined as 8.)
 

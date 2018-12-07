@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4enumpolicies.htm
 tech.root: DHCP
 ms.assetid: c3915699-f60d-495c-81df-85dc6fe2657c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DhcpV4EnumPolicies, DhcpV4EnumPolicies function [DHCP], dhcp.dhcpv4enumpolicies, dhcpsapi/DhcpV4EnumPolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices

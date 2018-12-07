@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizecallback_synchronizecompleted.htm
 tech.root: shell
 ms.assetid: df0f0e20-6b84-4ff1-badb-40006a4b8e2c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],SynchronizeCompleted method, ISyncMgrSynchronizeCallback.SynchronizeCompleted, ISyncMgrSynchronizeCallback::SynchronizeCompleted, SynchronizeCompleted, SynchronizeCompleted method [Windows Shell], SynchronizeCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::SynchronizeCompleted, shell.syncmgr_isyncmgrsynchronizecallback_synchronizecompleted, syncmgr.isyncmgrsynchronizecallback_synchronizecompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

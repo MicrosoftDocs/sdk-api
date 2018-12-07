@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientsettings_getrdpproperty.htm
 tech.root: termserv
 ms.assetid: e172098a-d3c1-46cc-8c46-cdf14c46b43a
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRdpProperty, GetRdpProperty method [Remote Desktop Services], GetRdpProperty method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],GetRdpProperty method, IRemoteDesktopClientSettings.GetRdpProperty, IRemoteDesktopClientSettings::GetRdpProperty, rdpappcontainerclient/IRemoteDesktopClientSettings::GetRdpProperty, termserv.iremotedesktopclientsettings_getrdpproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ Retrieves a single named RDP property value. If the specified property has not b
 ### -param propertyName [in]
 
 
-### -param value
-
-TBD
-
-
-
-
-#### - Value [out, retval]
+### -param value [out, retval]
 
 
 ## -returns

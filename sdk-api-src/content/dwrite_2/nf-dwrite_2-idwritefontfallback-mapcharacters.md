@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontfallback_mapcharacters.htm
 tech.root: DirectWrite
 ms.assetid: 9D3DBBF7-72D4-473D-A321-E64BC94493D5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteFontFallback interface [Direct Write],MapCharacters method, IDWriteFontFallback.MapCharacters, IDWriteFontFallback::MapCharacters, MapCharacters, MapCharacters method [Direct Write], MapCharacters method [Direct Write],IDWriteFontFallback interface, directwrite.idwritefontfallback_mapcharacters, dwrite_2/IDWriteFontFallback::MapCharacters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,9 @@ Determines an appropriate font to use to render the beginning range of text.
 
 ### -param analysisSource
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/7e2a523d-9191-4f99-9e73-a7955c432126">IDWriteTextAnalysisSource</a>*</b>
+
+The text source implementation holds the text and locale.
 
 
 ### -param textPosition
@@ -133,13 +135,6 @@ The font that should be used to render the first <i>mappedLength</i>     charact
 Type: <b>FLOAT*</b>
 
 Scale factor to multiply the em size of the returned font by.
-
-
-#### - source
-
-Type: <b><a href="https://msdn.microsoft.com/7e2a523d-9191-4f99-9e73-a7955c432126">IDWriteTextAnalysisSource</a>*</b>
-
-The text source implementation holds the text and locale.
 
 
 ## -returns

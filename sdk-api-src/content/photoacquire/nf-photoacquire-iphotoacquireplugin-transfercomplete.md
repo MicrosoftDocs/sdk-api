@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquireplugin_transfercomplete.htm
 tech.root: acquisition
 ms.assetid: 915e676a-4aaa-4b10-b913-51b856c61dba
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],TransferComplete method, IPhotoAcquirePlugin.TransferComplete, IPhotoAcquirePlugin::TransferComplete, IPhotoAcquirePluginTransferComplete, TransferComplete, TransferComplete method [Picture Acquisition], TransferComplete method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::TransferComplete, picacq.iphotoacquireplugin_transfercomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ Provides extended functionality when a transfer session is completed. The applic
 
 
 
-### -param hr
-
-TBD
-
-
-
-
-#### - hrTransfer [in]
+### -param hr [in]
 
 Specifies the result of the transfer operation.
 

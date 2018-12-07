@@ -7,7 +7,7 @@ old-location: base\symsetparentwindow.htm
 tech.root: debug
 ms.assetid: 6c4532cd-695c-45a0-b8ea-3aed47308db1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: SymSetParentWindow, SymSetParentWindow function, _win32_symsetparentwindow, base.symsetparentwindow, dbghelp/SymSetParentWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IDvbSubtitlingDescriptor::GetRecordCompositionPageID
 author: windows-sdk-content
 description: Gets the composition page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordcompositionpageid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 108f431a-e3c3-42d5-ad27-b7a54029051f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordCompositionPageID, GetRecordCompositionPageID method [Microsoft TV Technologies], GetRecordCompositionPageID method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordCompositionPageID method, IDvbSubtitlingDescriptor.GetRecordCompositionPageID, IDvbSubtitlingDescriptor::GetRecordCompositionPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordCompositionPageID, mstv.idvbsubtitlingdescriptor_getrecordcompositionpageid
 ms.prod: windows-hardware
 ms.technology: windows-devices

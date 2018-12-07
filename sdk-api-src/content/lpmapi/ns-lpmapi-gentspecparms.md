@@ -9,8 +9,8 @@ ms.assetid: 8a702e7c-0dfd-48f5-8612-d64d19f2a55c
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GenTspecParms, GenTspecParms structure [QOS], lpmapi/GenTspecParms, qos.gentspecparms
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

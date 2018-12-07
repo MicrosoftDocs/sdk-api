@@ -7,10 +7,10 @@ old-location: dhcp\dhcpaddressofferhook.htm
 tech.root: DHCP
 ms.assetid: 1c122657-a92a-4232-879a-12105dc967e1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DHCP_CLIENT_BOOTP, DHCP_CLIENT_DHCP, DhcpAddressOfferHook, DhcpAddressOfferHook callback function [DHCP], LPDHCP_GIVE_ADDRESS, LPDHCP_GIVE_ADDRESS callback, _dhcp_dhcpaddressofferhook, dhcp.dhcpaddressofferhook, dhcpssdk/DhcpAddressOfferHook
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dhcpssdk.h
 req.include-header: 

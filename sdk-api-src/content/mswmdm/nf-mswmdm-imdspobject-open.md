@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_open.htm
 tech.root: WMDM
 ms.assetid: 9e54bcbd-4f14-49e0-8211-2f79f024c80a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Open method, IMDSPObject.Open, IMDSPObject::Open, IMDSPObjectOpen, Open, Open method [windows Media Device Manager], Open method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Open, wmdm.imdspobject_open
 ms.prod: windows-hardware
 ms.technology: windows-devices

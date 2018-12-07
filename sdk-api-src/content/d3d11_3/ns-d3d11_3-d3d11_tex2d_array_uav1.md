@@ -7,10 +7,10 @@ old-location: direct3d11\d3d11_tex2d_array_uav1.htm
 tech.root: direct3d11
 ms.assetid: 369301BB-2B3E-43B2-A379-BFA03712A529
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_TEX2D_ARRAY_UAV1, D3D11_TEX2D_ARRAY_UAV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_ARRAY_UAV1, direct3d11.d3d11_tex2d_array_uav1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 

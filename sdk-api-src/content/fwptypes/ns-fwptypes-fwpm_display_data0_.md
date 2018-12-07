@@ -9,8 +9,8 @@ ms.assetid: b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_DISPLAY_DATA0, FWPM_DISPLAY_DATA0 structure [Filtering], FWPM_DISPLAY_DATA0_, fwp.fwpm_display_data0_struct, fwptypes/FWPM_DISPLAY_DATA0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 

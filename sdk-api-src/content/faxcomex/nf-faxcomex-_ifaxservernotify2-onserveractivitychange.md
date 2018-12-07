@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onserveractivitychange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onserveractivitychange.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnServerActivityChange method, IFaxServerNotify2.OnServerActivityChange, IFaxServerNotify2::OnServerActivityChange, OnServerActivityChange, OnServerActivityChange method [Fax Service], OnServerActivityChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnServerActivityChange, _IFaxServerNotify2::OnServerActivityChange, _mfax_ifaxservernotify2_onserveractivitychange, fax._mfax_ifaxservernotify2_onserveractivitychange, faxcomex/IFaxServerNotify2::OnServerActivityChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,9 @@ The fax service calls the <b>IFaxServerNotify2::OnServerActivityChange</b> metho
 
 ### -param pFaxServer
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
+
+A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ### -param lIncomingMessages
@@ -90,13 +92,6 @@ Long value that indicates the total number of incoming fax jobs that the fax ser
 Type: <b>long</b>
 
 Long value that indicates the total number of fax jobs in the fax queue. 
-
-
-#### - pFaxServer2
-
-Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
-
-A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ## -returns

@@ -7,10 +7,10 @@ old-location: shell\ISyncMgrConflictFolder.htm
 tech.root: shell
 ms.assetid: de4bb2b2-ebb2-4ab8-afba-3f00a69d51a8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncMgrConflictFolder, ISyncMgrConflictFolder interface [Windows Shell], ISyncMgrConflictFolder interface [Windows Shell],described, _shell_ISyncMgrConflictFolder, shell.ISyncMgrConflictFolder, syncmgr/ISyncMgrConflictFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

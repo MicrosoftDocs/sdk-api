@@ -7,10 +7,10 @@ old-location: com\ifilebasedloginit.htm
 tech.root: com
 ms.assetid: c499f32b-3897-4c61-b9c1-d660648aab76
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IFileBasedLogInit, IFileBasedLogInit interface [COM], IFileBasedLogInit interface [COM],described, _com_ifilebasedloginit, com.ifilebasedloginit, txlogpub/IFileBasedLogInit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: txlogpub.h
 req.include-header: 

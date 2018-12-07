@@ -7,7 +7,7 @@ old-location: fs\reserveandappendlogaligned.htm
 tech.root: Clfs
 ms.assetid: fce678e3-3b30-4bb9-ab61-d7c8b24fd1d7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CLFS_FLAG_FORCE_APPEND, CLFS_FLAG_FORCE_FLUSH, CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, ReserveAndAppendLogAligned, ReserveAndAppendLogAligned function [Files], clfsw32/ReserveAndAppendLogAligned, fs.reserveandappendlogaligned
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -172,14 +172,7 @@ Assigns no flags.
 A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that receives the LSN  of the appended record.
 
 
-### -param pOverlapped
-
-TBD
-
-
-
-
-#### - overlapped [in, out, optional]
+### -param pOverlapped [in, out, optional]
 
 A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a> structure. 
 

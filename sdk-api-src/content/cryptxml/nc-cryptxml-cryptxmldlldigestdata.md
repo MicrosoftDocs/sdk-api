@@ -7,10 +7,10 @@ old-location: security\cryptxmldlldigestdata.htm
 tech.root: seccrypto
 ms.assetid: b18a6e96-f5ed-4e48-af8c-4599c1864bf4
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CryptXmlDllDigestData, CryptXmlDllDigestData callback, CryptXmlDllDigestData callback function [Security], cryptxml/CryptXmlDllDigestData, security.cryptxmldlldigestdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

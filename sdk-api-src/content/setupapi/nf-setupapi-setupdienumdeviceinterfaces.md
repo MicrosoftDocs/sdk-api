@@ -7,7 +7,7 @@ old-location: devinst\setupdienumdeviceinterfaces.htm
 tech.root: devinst
 ms.assetid: 5095404d-2447-407e-99e2-dd3ef3c3b905
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupDiEnumDeviceInterfaces, SetupDiEnumDeviceInterfaces function [Device and Driver Installation], devinst.setupdienumdeviceinterfaces, di-rtns_1fd59eb7-0934-4747-9a0e-81dac96c23ef.xml, setupapi/SetupDiEnumDeviceInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

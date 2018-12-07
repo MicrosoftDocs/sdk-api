@@ -7,10 +7,10 @@ old-location: dedup\ddp_file_extent.htm
 tech.root: dedup
 ms.assetid: B4AB7297-6FFE-4B93-ABDE-C15D7C90FA5B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DDP_FILE_EXTENT, DDP_FILE_EXTENT structure [Data Deduplication API], PDDP_FILE_EXTENT, PDDP_FILE_EXTENT structure pointer [Data Deduplication API], _DDP_FILE_EXTENT, ddpbackup/DDP_FILE_EXTENT, ddpbackup/PDDP_FILE_EXTENT, dedup.ddp_file_extent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddpbackup.h
 req.include-header: 

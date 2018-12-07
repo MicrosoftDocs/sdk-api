@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accchild.htm
 tech.root: WinAuto
 ms.assetid: 64b0c24d-778a-4f13-8c70-6be3436a98cd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChild method, IAccessible.get_accChild, IAccessible::get_accChild, _msaa_IAccessible_get_accChild, get_accChild, get_accChild method [Windows Accessibility], get_accChild method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchild, oleacc/IAccessible::get_accChild, winauto.iaccessible_iaccessible__get_accchild
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ The <b>IAccessible::get_accChild</b> method retrieves an <a href="https://msdn.m
 
 
 
-### -param varChild
+### -param varChild [in]
 
-TBD
+Type: <b>VARIANT</b>
+
+Identifies the child whose <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface is retrieved. For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
 
 
 ### -param ppdispChild [out, retval]
@@ -68,13 +70,6 @@ TBD
 Type: <b>IDispatch**</b>
 
 [out, retval] Receives the address of the child object's <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface.
-
-
-#### - varChildID [in]
-
-Type: <b>VARIANT</b>
-
-Identifies the child whose <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface is retrieved. For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
 
 
 ## -returns

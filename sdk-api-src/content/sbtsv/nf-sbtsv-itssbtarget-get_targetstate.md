@@ -7,7 +7,7 @@ old-location: termserv\itssbtarget_targetstate.htm
 tech.root: termserv
 ms.assetid: 0913e997-d3f0-44a3-977f-eb760489c43b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetState property, ITsSbTarget.TargetState, ITsSbTarget.get_TargetState, ITsSbTarget::TargetState, ITsSbTarget::get_TargetState, ITsSbTarget::put_TargetState, ITsSbTargetEx interface [Remote Desktop Services],TargetState property, ITsSbTargetEx.TargetState, ITsSbTargetEx::get_TargetState, ITsSbTargetEx::put_TargetState, TargetState property [Remote Desktop Services], TargetState property [Remote Desktop Services],ITsSbTarget interface, TargetState property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetState, sbtsv/ITsSbTarget::TargetState, sbtsv/ITsSbTarget::get_TargetState, sbtsv/ITsSbTarget::put_TargetState, sbtsv/ITsSbTargetEx::TargetState, sbtsv/ITsSbTargetEx::get_TargetState, sbtsv/ITsSbTargetEx::put_TargetState, termserv.itssbtarget_targetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

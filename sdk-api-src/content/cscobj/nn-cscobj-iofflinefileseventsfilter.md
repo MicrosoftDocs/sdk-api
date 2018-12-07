@@ -4,13 +4,13 @@ title: IOfflineFilesEventsFilter
 author: windows-sdk-content
 description: Provides a mechanism for recipients of published events to restrict the number of event instances they receive.
 old-location: of\iofflinefileseventsfilter.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 8c2c793e-c91c-4ca7-a03c-e349de00de6c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesEventsFilter, IOfflineFilesEventsFilter interface [Offline Files], IOfflineFilesEventsFilter interface [Offline Files],described, cscobj/IOfflineFilesEventsFilter, of.iofflinefileseventsfilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

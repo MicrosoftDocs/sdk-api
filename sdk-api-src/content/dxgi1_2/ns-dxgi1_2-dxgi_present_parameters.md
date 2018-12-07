@@ -7,10 +7,10 @@ old-location: direct3ddxgi\dxgi_present_parameters.htm
 tech.root: direct3ddxgi
 ms.assetid: C2C69457-5415-4CAA-901B-A3A8591C6CB0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: DXGI_PRESENT_PARAMETERS, DXGI_PRESENT_PARAMETERS structure [DXGI], direct3ddxgi.dxgi_present_parameters, dxgi1_2/DXGI_PRESENT_PARAMETERS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 

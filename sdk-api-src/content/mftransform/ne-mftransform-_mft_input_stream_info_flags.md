@@ -7,10 +7,10 @@ old-location: mf\_mft_input_stream_info_flags.htm
 tech.root: medfound
 ms.assetid: d9a05a0f-56a7-4a91-93dc-a5079e51deac
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MFT_INPUT_STREAM_DOES_NOT_ADDREF, MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE, MFT_INPUT_STREAM_HOLDS_BUFFERS, MFT_INPUT_STREAM_OPTIONAL, MFT_INPUT_STREAM_PROCESSES_IN_PLACE, MFT_INPUT_STREAM_REMOVABLE, MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER, MFT_INPUT_STREAM_WHOLE_SAMPLES, _MFT_INPUT_STREAM_INFO_FLAGS, _MFT_INPUT_STREAM_INFO_FLAGS enumeration [Media Foundation], d9a05a0f-56a7-4a91-93dc-a5079e51deac, mf._mft_input_stream_info_flags, mftransform/MFT_INPUT_STREAM_DOES_NOT_ADDREF, mftransform/MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE, mftransform/MFT_INPUT_STREAM_HOLDS_BUFFERS, mftransform/MFT_INPUT_STREAM_OPTIONAL, mftransform/MFT_INPUT_STREAM_PROCESSES_IN_PLACE, mftransform/MFT_INPUT_STREAM_REMOVABLE, mftransform/MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER, mftransform/MFT_INPUT_STREAM_WHOLE_SAMPLES, mftransform/_MFT_INPUT_STREAM_INFO_FLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mftransform.h
 req.include-header: 

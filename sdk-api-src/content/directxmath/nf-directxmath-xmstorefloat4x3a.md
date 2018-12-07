@@ -7,7 +7,7 @@ old-location: dxmath\xmstorefloat4x3a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4x3A(XMFLOAT4X3A@,XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreFloat4x3A, XMStoreFloat4x3A, XMStoreFloat4x3A method [DirectX Math Support APIs], dxmath.xmstorefloat4x3a
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,34 +85,27 @@ None.
 <a href="https://msdn.microsoft.com/2629d6a4-74d4-499c-b442-1c52c5818e75">XMFLOAT4X3A</a> is a row-major matrix form. This function cannot be used 
    to write out column-major data since it assumes the last column is 
 
-<div class="code"><span codelanguage=""><table>
-   to write out column-major data since it assumes the last column is <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>assert(pDestination);
-assert(((uint32_t_PTR)pDestination &amp; 0xF) == 0);
 
-pDestination-&gt;m[0][0] = M.r[0].v[0];
-pDestination-&gt;m[0][1] = M.r[0].v[1];
-pDestination-&gt;m[0][2] = M.r[0].v[2];
+```
+assert(pDestination);
+assert(((uint32_t_PTR)pDestination & 0xF) == 0);
 
-pDestination-&gt;m[1][0] = M.r[1].v[0];
-pDestination-&gt;m[1][1] = M.r[1].v[1];
-pDestination-&gt;m[1][2] = M.r[1].v[2];
+pDestination->m[0][0] = M.r[0].v[0];
+pDestination->m[0][1] = M.r[0].v[1];
+pDestination->m[0][2] = M.r[0].v[2];
 
-pDestination-&gt;m[2][0] = M.r[2].v[0];
-pDestination-&gt;m[2][1] = M.r[2].v[1];
-pDestination-&gt;m[2][2] = M.r[2].v[2];
+pDestination->m[1][0] = M.r[1].v[0];
+pDestination->m[1][1] = M.r[1].v[1];
+pDestination->m[1][2] = M.r[1].v[2];
 
-pDestination-&gt;m[3][0] = M.r[3].v[0];
-pDestination-&gt;m[3][1] = M.r[3].v[1];
-pDestination-&gt;m[3][2] = M.r[3].v[2];</pre>
-</td>
-</tr>
-</table></span></div>
+pDestination->m[2][0] = M.r[2].v[0];
+pDestination->m[2][1] = M.r[2].v[1];
+pDestination->m[2][2] = M.r[2].v[2];
+
+pDestination->m[3][0] = M.r[3].v[0];
+pDestination->m[3][1] = M.r[3].v[1];
+pDestination->m[3][2] = M.r[3].v[2];
+```
 
 .
 

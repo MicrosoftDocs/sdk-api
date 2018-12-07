@@ -7,10 +7,10 @@ old-location: eaphost\eaphostpeermethodresultreason.htm
 tech.root: eaphost
 ms.assetid: f43d2883-d23f-455b-bde0-244a88630d25
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/16/2018
 ms.keywords: EapHostPeerMethodResultAltSuccessReceived, EapHostPeerMethodResultFromMethod, EapHostPeerMethodResultReason, EapHostPeerMethodResultReason enumeration [EAPHost], EapHostPeerMethodResultTimeout, eaphost.eaphostpeermethodresultreason, eaphostpeertypes/EapHostPeerMethodResultAltSuccessReceived, eaphostpeertypes/EapHostPeerMethodResultFromMethod, eaphostpeertypes/EapHostPeerMethodResultReason, eaphostpeertypes/EapHostPeerMethodResultTimeout, tagEapHostPeerMethodResultReason
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: eaphostpeertypes.h
 req.include-header: 

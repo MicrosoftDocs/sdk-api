@@ -7,7 +7,7 @@ old-location: controls\DSA_SetItem.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_setitem.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DSA_SetItem, DSA_SetItem function [Windows Controls], _shell_DSA_SetItem, _shell_DSA_SetItem_cpp, controls.DSA_SetItem, controls._shell_DSA_SetItem, dpa_dsa/DSA_SetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

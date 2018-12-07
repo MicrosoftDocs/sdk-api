@@ -4,13 +4,13 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0001"
 author: windows-sdk-content
 description: Defines the level of control that an attendee has on a session.
 old-location: rdp\ctrl_level.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: f97b0493-82bf-487e-adc1-2dc40eeeb36c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CTRL_LEVEL, CTRL_LEVEL enumeration [RDP], CTRL_LEVEL_INTERACTIVE, CTRL_LEVEL_INVALID, CTRL_LEVEL_MAX, CTRL_LEVEL_MIN, CTRL_LEVEL_NONE, CTRL_LEVEL_REQCTRL_INTERACTIVE, CTRL_LEVEL_REQCTRL_VIEW, CTRL_LEVEL_VIEW, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0001, rdp.ctrl_level, rdpencomapi/CTRL_LEVEL, rdpencomapi/CTRL_LEVEL_INTERACTIVE, rdpencomapi/CTRL_LEVEL_INVALID, rdpencomapi/CTRL_LEVEL_MAX, rdpencomapi/CTRL_LEVEL_MIN, rdpencomapi/CTRL_LEVEL_NONE, rdpencomapi/CTRL_LEVEL_REQCTRL_INTERACTIVE, rdpencomapi/CTRL_LEVEL_REQCTRL_VIEW, rdpencomapi/CTRL_LEVEL_VIEW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 

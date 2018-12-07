@@ -7,7 +7,7 @@ old-location: dshow\iamstreamconfig_getformat.htm
 tech.root: DirectShow
 ms.assetid: 5443141b-eb2c-412c-8bd1-7175e724b602
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetFormat method, IAMStreamConfig.GetFormat, IAMStreamConfig::GetFormat, IAMStreamConfigGetFormat, dshow.iamstreamconfig_getformat, strmif/IAMStreamConfig::GetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ The <code>GetFormat</code> method retrieves the current or preferred output form
 
 
 
-### -param ppmt
-
-TBD
-
-
-
-
-#### - pmt [out]
+### -param ppmt [out]
 
 Address of a pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure.
 

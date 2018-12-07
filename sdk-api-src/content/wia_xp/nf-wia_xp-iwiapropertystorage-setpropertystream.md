@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaPropertyStorage_SetPropertyStream.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\setpropertystream.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWiaPropertyStorage interface [WIA],SetPropertyStream method, IWiaPropertyStorage.SetPropertyStream, IWiaPropertyStorage::SetPropertyStream, SetPropertyStream, SetPropertyStream method [WIA], SetPropertyStream method [WIA],IWiaPropertyStorage interface, _wia_IWiaPropertyStorage_SetPropertyStream, wia._wia_IWiaPropertyStorage_SetPropertyStream, wia_xp/IWiaPropertyStorage::SetPropertyStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ The <b>IWiaPropertyStorage::SetPropertyStream</b> sets the property stream of an
 
 
 
-### -param pCompatibilityId
+### -param pCompatibilityId [in]
 
-TBD
+Type: <b>GUID*</b>
+
+Specifies a unique identifier for a set of property values.
 
 
 ### -param pIStream [in]
@@ -68,13 +70,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
 
 Pointer to the property stream that is used to set the current item's property stream.
-
-
-#### - pCompatibilityID [in]
-
-Type: <b>GUID*</b>
-
-Specifies a unique identifier for a set of property values.
 
 
 ## -returns

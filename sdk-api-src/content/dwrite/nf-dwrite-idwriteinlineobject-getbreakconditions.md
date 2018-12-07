@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteInlineObject_GetBreakConditions.htm
 tech.root: DirectWrite
 ms.assetid: c46614a6-2b48-46db-a1e2-73383d6386c5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetBreakConditions, GetBreakConditions method [Direct Write], GetBreakConditions method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],GetBreakConditions method, IDWriteInlineObject.GetBreakConditions, IDWriteInlineObject::GetBreakConditions, directwrite.IDWriteInlineObject_GetBreakConditions, dwrite/IDWriteInlineObject::GetBreakConditions
 ms.prod: windows-hardware
 ms.technology: windows-devices

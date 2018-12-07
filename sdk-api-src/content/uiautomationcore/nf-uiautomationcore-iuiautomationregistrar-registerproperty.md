@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterProperty.htm
 tech.root: WinAuto
 ms.assetid: 225bbbec-5910-4711-b713-3409c9925be2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterProperty method, IUIAutomationRegistrar.RegisterProperty, IUIAutomationRegistrar::RegisterProperty, RegisterProperty, RegisterProperty method [Windows Accessibility], RegisterProperty method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterProperty, uiauto_IUIAutomationRegistrar_RegisterProperty, uiautomationcore/IUIAutomationRegistrar::RegisterProperty, winauto.uiauto_IUIAutomationRegistrar_RegisterProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,26 +58,14 @@ Registers a third-party property.
 
 
 
-### -param property
-
-TBD
-
-
-### -param propertyId
-
-TBD
-
-
-
-
-#### - Property [in]
+### -param property [in]
 
 Type: <b><a href="https://msdn.microsoft.com/ea5b4cbe-5a39-407c-9c61-8e9ac4f3398f">UIAutomationPropertyInfo</a>*</b>
 
 A pointer to a structure that contains information about the property to register.
 
 
-#### - PropertyId [out]
+### -param propertyId [out]
 
 Type: <b>PropertyID*</b>
 

@@ -4,10 +4,10 @@ title: WSDXMLCreateContext function
 author: windows-sdk-content
 description: Creates a new IWSDXMLContext object.
 old-location: ncd\wsdxmlcreatecontext.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: fb0d8c28-1dc3-43be-a1cf-c00de6c1f43e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WSDXMLCreateContext, WSDXMLCreateContext function, ncd.wsdxmlcreatecontext, wsdxml/WSDXMLCreateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

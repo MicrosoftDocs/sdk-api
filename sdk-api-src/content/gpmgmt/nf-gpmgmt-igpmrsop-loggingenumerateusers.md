@@ -4,10 +4,10 @@ title: IGPMRSOP::LoggingEnumerateUsers
 author: windows-sdk-content
 description: Enumerates all users who have logging mode data on a specific computer.
 old-location: gpmc\igpmrsop_loggingenumerateusers.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 7cc794e6-1a8d-4e31-9bea-4ebc4cf51602
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GPMRSOP class [GPMC],LoggingEnumerateUsers method, IGPMRSOP interface [GPMC],LoggingEnumerateUsers method, IGPMRSOP.LoggingEnumerateUsers, IGPMRSOP::LoggingEnumerateUsers, LoggingEnumerateUsers, LoggingEnumerateUsers method [GPMC], LoggingEnumerateUsers method [GPMC],GPMRSOP class, LoggingEnumerateUsers method [GPMC],IGPMRSOP interface, _win32_igpmrsop_loggingenumerateusers, gpmc.igpmrsop_loggingenumerateusers, gpmgmt/IGPMRSOP::LoggingEnumerateUsers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ Enumerates all users who have logging mode data on a specific computer.
 
 
 
-### -param varVal
-
-TBD
-
-
-
-
-#### - pvarVal [out]
+### -param varVal [out]
 
 Pointer to a SAFEARRAY containing VARIANT members. Each VARIANT contains a Dispatch pointer to  the 
 <a href="https://msdn.microsoft.com/f9c24fe6-58c7-4e82-9ac0-1157ed8fffeb">IGPMTrustee</a> interface.

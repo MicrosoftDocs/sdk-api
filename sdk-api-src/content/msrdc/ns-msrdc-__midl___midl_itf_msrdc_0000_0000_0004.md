@@ -4,13 +4,13 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0004"
 author: windows-sdk-content
 description: Contains information about a chunk that is required to synchronize two sets of data.
 old-location: rdc\rdcneed.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 086e82f1-b033-48e2-b648-895c04751cc9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RdcNeed, RdcNeed structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0004, fs.rdcneed, msrdc/RdcNeed, rdc.rdcneed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 

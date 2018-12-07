@@ -4,10 +4,10 @@ title: IMSVidDevice::get_ClassID
 author: windows-sdk-content
 description: The get_ClassID method retrieves the device's class identifier (CLSID) as a BSTR.
 old-location: mstv\imsviddevice_get_classid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 78910e3d-bd00-48c5-b1be-504dc92280a0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_ClassID method, IMSVidDevice.get_ClassID, IMSVidDevice::get_ClassID, IMSVidDeviceget_ClassID, get_ClassID, get_ClassID method [Microsoft TV Technologies], get_ClassID method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_classid, segment/IMSVidDevice::get_ClassID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_ClassID</b> method retrieves the device's class identifier (CLSID) as
 
 
 
-### -param Clsid
-
-TBD
-
-
-
-
-#### - pClsid [out]
+### -param Clsid [out]
 
 Pointer to a variable that receives a string representation of the CLSID.
 

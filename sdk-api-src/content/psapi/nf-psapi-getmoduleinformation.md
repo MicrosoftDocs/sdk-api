@@ -7,7 +7,7 @@ old-location: psapi\getmoduleinformation.htm
 tech.root: psapi
 ms.assetid: afb9f4c8-c8ae-4497-96c1-b559cfa2cedf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetModuleInformation, GetModuleInformation function [PSAPI], K32GetModuleInformation, _win32_getmoduleinformation, base.getmoduleinformation, psapi.getmoduleinformation, psapi/GetModuleInformation, psapi/K32GetModuleInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

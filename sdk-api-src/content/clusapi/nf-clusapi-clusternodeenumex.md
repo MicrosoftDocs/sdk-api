@@ -7,7 +7,7 @@ old-location: mscs\clusternodeenumex.htm
 tech.root: mscs
 ms.assetid: 1F3DFD5C-978B-4943-B4D8-81A7F9D7A3AF
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterNodeEnumEx, ClusterNodeEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_ENUM_EX, PCLUSAPI_CLUSTER_NODE_ENUM_EX function [Failover Cluster], clusapi/ClusterNodeEnumEx, clusapi/PCLUSAPI_CLUSTER_NODE_ENUM_EX, mscs.clusternodeenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,46 @@ On output, either the required size in bytes of the buffer if the buffer is too 
 
 
 
-This function returns DWORD.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+</dl>
+</td>
+<td width="60%">
+<i>dwIndex</i> is larger than the number of items in the enumeration.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer is too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer was filled successfully.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

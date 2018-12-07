@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_GetItemRect.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemrect.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: TabCtrl_GetItemRect, TabCtrl_GetItemRect macro [Windows Controls], _win32_TabCtrl_GetItemRect, _win32_TabCtrl_GetItemRect_cpp, commctrl/TabCtrl_GetItemRect, controls.TabCtrl_GetItemRect, controls._win32_TabCtrl_GetItemRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

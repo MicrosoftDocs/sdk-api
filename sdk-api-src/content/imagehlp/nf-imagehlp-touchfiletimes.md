@@ -7,7 +7,7 @@ old-location: base\touchfiletimes.htm
 tech.root: debug
 ms.assetid: add84ca7-2497-4859-bc69-270ad493a08a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: TouchFileTimes, TouchFileTimes function, _win32_touchfiletimes, base.touchfiletimes, imagehlp/TouchFileTimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getdvdtextstringasunicode.htm
 tech.root: DirectShow
 ms.assetid: e13d4212-0e4a-40cf-89c7-f0c22f5a5cb9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDVDTextStringAsUnicode, GetDVDTextStringAsUnicode method [DirectShow], GetDVDTextStringAsUnicode method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextStringAsUnicode method, IDvdInfo2.GetDVDTextStringAsUnicode, IDvdInfo2::GetDVDTextStringAsUnicode, IDvdInfo2GetDVDTextStringAsUnicode, dshow.idvdinfo2_getdvdtextstringasunicode, strmif/IDvdInfo2::GetDVDTextStringAsUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,9 @@ Zero-based index of the language. To find the number of text-string languages on
 Zero-based index of the string to retrieve. To find the number of strings for a given language, call <a href="https://msdn.microsoft.com/af8662af-f306-4142-b563-3b40a98b7fbe">IDvdInfo2::GetDVDTextLanguageInfo</a>.
 
 
-### -param pchwBuffer
+### -param pchwBuffer [out]
 
-TBD
+Pointer to a buffer that receives the text string. If <i>pchBuffer</i> is <b>NULL</b>, this method returns the size of the string in <i>pulActualSize</i>.
 
 
 ### -param ulMaxBufferSize [in]
@@ -90,11 +90,6 @@ Receives the actual length of the string in characters, including the terminatin
 ### -param arg6 [out]
 
 Receives a member of the <a href="https://msdn.microsoft.com/e8308432-a9a1-40d5-abec-aa6f86af9e5b">DVD_TextStringType</a> enumeration. The value indicates the type of text string, such as movie title or song name. This parameter can also receive values that are not defined in the <b>DVD_TextStringType</b> enumeration.
-
-
-#### - pchBuffer [out]
-
-Pointer to a buffer that receives the text string. If <i>pchBuffer</i> is <b>NULL</b>, this method returns the size of the string in <i>pulActualSize</i>.
 
 
 ## -returns

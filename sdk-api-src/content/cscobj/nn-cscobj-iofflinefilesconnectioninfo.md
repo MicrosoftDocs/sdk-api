@@ -4,13 +4,13 @@ title: IOfflineFilesConnectionInfo
 author: windows-sdk-content
 description: Presents query and action capabilities associated with the online-offline transition behavior of Offline Files.
 old-location: of\iofflinefilesconnectioninfo.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 923c5657-67e7-498a-a46b-97d44368cf3b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesConnectionInfo, IOfflineFilesConnectionInfo interface [Offline Files], IOfflineFilesConnectionInfo interface [Offline Files],described, cscobj/IOfflineFilesConnectionInfo, of.iofflinefilesconnectioninfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

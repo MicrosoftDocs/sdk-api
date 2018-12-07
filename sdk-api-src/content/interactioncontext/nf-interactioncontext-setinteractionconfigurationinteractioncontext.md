@@ -7,7 +7,7 @@ old-location: input_intcontext\setinteractionconfigurationinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: e792e7bc-1c7f-4fa1-810d-97391cbcf797
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetInteractionConfigurationInteractionContext, SetInteractionConfigurationInteractionContext function, input_intcontext.setinteractionconfigurationinteractioncontext, interactioncontext.setinteractionconfigurationinteractioncontext, interactioncontext/SetInteractionConfigurationInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

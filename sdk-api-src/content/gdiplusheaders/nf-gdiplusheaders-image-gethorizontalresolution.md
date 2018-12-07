@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetHorizontalResolution_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\gethorizontalresolution.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetHorizontalResolution, GetHorizontalResolution method [GDI+], GetHorizontalResolution method [GDI+],Image class, Image class [GDI+],GetHorizontalResolution method, Image.GetHorizontalResolution, Image::GetHorizontalResolution, _gdiplus_CLASS_Image_GetHorizontalResolution_, gdiplus._gdiplus_CLASS_Image_GetHorizontalResolution_
 ms.prod: windows-hardware
 ms.technology: windows-devices

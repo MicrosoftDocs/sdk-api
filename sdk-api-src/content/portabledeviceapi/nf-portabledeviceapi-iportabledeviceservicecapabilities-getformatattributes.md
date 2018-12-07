@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicecapabilities_getformatattributes.htm
 tech.root: wpd_sdk
 ms.assetid: 9fecc9e8-cc5c-4a5f-b5b4-71c63631948d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetFormatAttributes, GetFormatAttributes method [Windows Portable Devices SDK], GetFormatAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetFormatAttributes method, IPortableDeviceServiceCapabilities.GetFormatAttributes, IPortableDeviceServiceCapabilities::GetFormatAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatAttributes, wpdsdk.iportabledeviceservicecapabilities_getformatattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IShellFolder_SetNameOf.htm
 tech.root: shell
 ms.assetid: b975df89-9289-4344-9c55-f11ee83229dd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IShellFolder interface [Windows Shell],SetNameOf method, IShellFolder.SetNameOf, IShellFolder2 interface [Windows Shell],SetNameOf method, IShellFolder2::SetNameOf, IShellFolder::SetNameOf, SetNameOf, SetNameOf method [Windows Shell], SetNameOf method [Windows Shell],IShellFolder interface, SetNameOf method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder_SetNameOf, shell.IShellFolder_SetNameOf, shobjidl_core/IShellFolder2::SetNameOf, shobjidl_core/IShellFolder::SetNameOf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,9 +59,11 @@ Sets the display name of a file object or subfolder, changing the item identifie
 
 
 
-### -param hwnd
+### -param hwnd [in]
 
-TBD
+Type: <b>HWND</b>
+
+A handle to the owner window of any dialog or message box that the client displays.
 
 
 ### -param pidl [in]
@@ -90,13 +92,6 @@ Flags that indicate the type of name specified by the <i>pszName</i> parameter. 
 Type: <b>PITEMID_CHILD*</b>
 
 Optional. If specified, the address of a pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure that receives the <b>ITEMIDLIST</b> of the renamed item. The caller requests this value by passing a non-null <i>ppidlOut</i>. Implementations of <b>IShellFolder::SetNameOf</b> must return a pointer to the new <b>ITEMIDLIST</b> in the <i>ppidlOut</i> parameter.
-
-
-#### - hwndOwner [in]
-
-Type: <b>HWND</b>
-
-A handle to the owner window of any dialog or message box that the client displays.
 
 
 ## -returns

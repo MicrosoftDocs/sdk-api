@@ -7,7 +7,7 @@ old-location: winsync\ichangeunitexception_getclockvector.htm
 tech.root: winsync
 ms.assetid: 1cf95acf-23ab-49c8-bd63-7aff9bad8f25
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetClockVector method, IChangeUnitException.GetClockVector, IChangeUnitException::GetClockVector, winsync.ichangeunitexception_getclockvector, winsync/IChangeUnitException::GetClockVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

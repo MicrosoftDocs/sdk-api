@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSource::get_RecordingAttribute
 author: windows-sdk-content
 description: The get_RecordingAttribute method retrieves the Stream Buffer Source filter that this object manages.
 old-location: mstv\imsvidstreambuffersource_get_recordingattribute.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 9e7020c8-778d-4a24-ae29-3e66d4ac165a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_RecordingAttribute method, IMSVidStreamBufferSource.get_RecordingAttribute, IMSVidStreamBufferSource::get_RecordingAttribute, IMSVidStreamBufferSourceget_RecordingAttribute, get_RecordingAttribute, get_RecordingAttribute method [Microsoft TV Technologies], get_RecordingAttribute method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_recordingattribute, segment/IMSVidStreamBufferSource::get_RecordingAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

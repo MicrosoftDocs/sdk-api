@@ -4,10 +4,10 @@ title: WSDCreateUdpAddress function
 author: windows-sdk-content
 description: Creates an IWSDUdpAddress object.
 old-location: ncd\wsdcreateudpaddress.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 84610d5f-9b90-4830-b6d3-7b5622709668
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WSDCreateUdpAddress, WSDCreateUdpAddress function, ncd.wsdcreateudpaddress, wsdbase/WSDCreateUdpAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

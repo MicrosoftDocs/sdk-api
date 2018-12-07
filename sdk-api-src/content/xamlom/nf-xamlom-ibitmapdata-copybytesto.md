@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ibitmapdata_copybytesto.htm
 tech.root: xaml_diagnostics
 ms.assetid: 8E8CB014-D394-4457-8AC7-773A87EE2643
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CopyBytesTo, CopyBytesTo method, CopyBytesTo method,IBitmapData interface, IBitmapData interface,CopyBytesTo method, IBitmapData.CopyBytesTo, IBitmapData::CopyBytesTo, xaml_diagnostics.ibitmapdata_copybytesto, xamlom/IBitmapData::CopyBytesTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

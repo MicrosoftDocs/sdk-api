@@ -7,7 +7,7 @@ old-location: tspi\tspi_linegetdevconfig.htm
 tech.root: tapi
 ms.assetid: 87307bc6-0c0e-41d0-bc88-2d806214c13e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetDevConfig, TSPI_lineGetDevConfig function [TAPI 2.2], _tspi_tspi_linegetdevconfig, tspi.tspi_linegetdevconfig, tspi/TSPI_lineGetDevConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

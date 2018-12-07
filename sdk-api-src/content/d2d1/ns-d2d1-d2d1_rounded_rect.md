@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_ROUNDED_RECT.htm
 tech.root: direct2d
 ms.assetid: 7069ca65-170e-42fc-8c1a-849a2f25c36f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_ROUNDED_RECT, D2D1_ROUNDED_RECT structure [Direct2D], d2d1/D2D1_ROUNDED_RECT, direct2d.D2D1_ROUNDED_RECT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 

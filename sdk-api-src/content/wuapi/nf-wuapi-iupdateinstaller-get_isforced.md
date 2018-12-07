@@ -4,10 +4,10 @@ title: IUpdateInstaller::get_IsForced
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates whether to forcibly install or uninstall an update.
 old-location: wua\iupdateinstaller_isforced.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 80a30a21-9369-44bb-984a-2fdf2c1810e4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],IsForced property, IUpdateInstaller.IsForced, IUpdateInstaller.get_IsForced, IUpdateInstaller::IsForced, IUpdateInstaller::get_IsForced, IUpdateInstaller::put_IsForced, IsForced property [Windows Update Agent], IsForced property [Windows Update Agent],IUpdateInstaller interface, get_IsForced, wua.iupdateinstaller_isforced, wuapi/IUpdateInstaller::IsForced, wuapi/IUpdateInstaller::get_IsForced, wuapi/IUpdateInstaller::put_IsForced
 ms.prod: windows-hardware
 ms.technology: windows-devices

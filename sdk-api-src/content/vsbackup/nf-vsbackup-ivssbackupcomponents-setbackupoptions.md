@@ -4,10 +4,10 @@ title: IVssBackupComponents::SetBackupOptions
 author: windows-sdk-content
 description: The SetBackupOptions method sets a string of private, or writer-dependent, backup parameters for a component.
 old-location: base\ivssbackupcomponents_setbackupoptions.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 2b9a64b2-2bc9-441b-97f7-a72fd7579126
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupOptions method, IVssBackupComponents.SetBackupOptions, IVssBackupComponents::SetBackupOptions, SetBackupOptions, SetBackupOptions method [VSS], SetBackupOptions method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupoptions, base.ivssbackupcomponents_setbackupoptions, vsbackup/IVssBackupComponents::SetBackupOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,9 +65,10 @@ The
 Writer identifier.
 
 
-### -param ct
+### -param ct [in]
 
-TBD
+Type of the component. See 
+<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for the possible values.
 
 
 ### -param wszLogicalPath [in]
@@ -99,12 +100,6 @@ The string containing the name cannot be <b>NULL</b> and should contain the same
 ### -param wszBackupOptions [in]
 
 <b>Null</b>-terminated wide character string containing the backup parameters to be set.
-
-
-#### - componentType [in]
-
-Type of the component. See 
-<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> for the possible values.
 
 
 ## -returns

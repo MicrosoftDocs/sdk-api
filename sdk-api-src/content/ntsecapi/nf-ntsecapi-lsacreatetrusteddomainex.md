@@ -7,7 +7,7 @@ old-location: security\lsacreatetrusteddomainex.htm
 tech.root: secmgmt
 ms.assetid: 2f458098-9498-4f08-bd13-ac572678d734
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: LsaCreateTrustedDomainEx, LsaCreateTrustedDomainEx function [Security], _lsa_lsacreatetrusteddomainex, ntsecapi/LsaCreateTrustedDomainEx, security.lsacreatetrusteddomainex
 ms.prod: windows-hardware
 ms.technology: windows-devices

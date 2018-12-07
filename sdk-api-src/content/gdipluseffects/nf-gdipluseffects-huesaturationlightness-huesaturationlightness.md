@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_HueSaturationLightne
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightnessclass\huesaturationlightnessconstructors\huesaturationlightness.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: HueSaturationLightness, HueSaturationLightness class [GDI+],HueSaturationLightness constructor, HueSaturationLightness constructor [GDI+], HueSaturationLightness constructor [GDI+],HueSaturationLightness class, HueSaturationLightness.HueSaturationLightness, HueSaturationLightness::HueSaturationLightness, _gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_, gdiplus._gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_
 ms.prod: windows-hardware
 ms.technology: windows-devices

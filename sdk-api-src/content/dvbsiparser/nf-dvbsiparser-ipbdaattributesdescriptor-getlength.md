@@ -4,10 +4,10 @@ title: IPBDAAttributesDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the length of a Protected Broadcast Driver Architecture (PBDA) attributes descriptor from a Protected Broadcast Device Architecture (PBDA) transport stream, in bytes.
 old-location: mstv\ipbdaattributesdescriptor_getlength.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: b18ebaa1-aca4-4d21-adb7-d233e18cd320
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IPBDAAttributesDescriptor interface, IPBDAAttributesDescriptor interface [Microsoft TV Technologies],GetLength method, IPBDAAttributesDescriptor.GetLength, IPBDAAttributesDescriptor::GetLength, dvbsiparser/IPBDAAttributesDescriptor::GetLength, mstv.ipbdaattributesdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

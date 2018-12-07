@@ -4,10 +4,10 @@ title: IESEvents::OnESEventReceived
 author: windows-sdk-content
 description: Defines a handler for an event that is derived from the IESEvent interface.
 old-location: mstv\iesevents_oneseventreceived.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d715f598-0dd5-4c8c-9f5b-3aaa65768600
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IESEvents interface [Microsoft TV Technologies],OnESEventReceived method, IESEvents.OnESEventReceived, IESEvents::OnESEventReceived, OnESEventReceived, OnESEventReceived method [Microsoft TV Technologies], OnESEventReceived method [Microsoft TV Technologies],IESEvents interface, mstv.iesevents_oneseventreceived, tuner/IESEvents::OnESEventReceived
 ms.prod: windows-hardware
 ms.technology: windows-devices

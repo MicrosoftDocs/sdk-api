@@ -7,10 +7,10 @@ old-location: dshow\vmr9videodesc.htm
 tech.root: DirectShow
 ms.assetid: af4bf46a-fae7-4485-b5fb-3fd1857f383f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VMR9VideoDesc, VMR9VideoDesc structure [DirectShow], VMR9VideoDescStructure, _VMR9VideoDesc, dshow.vmr9videodesc, vmr9/VMR9VideoDesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

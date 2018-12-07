@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_raytracing_geometry_aabbs_desc.htm
 tech.root: direct3d12
 ms.assetid: A9FA270E-2B97-4DAC-891F-0DF83F8F9522
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_RAYTRACING_GEOMETRY_AABBS_DESC, D3D12_RAYTRACING_GEOMETRY_AABBS_DESC structure, PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC, PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC structure pointer, d3d12/D3D12_RAYTRACING_GEOMETRY_AABBS_DESC, d3d12/PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC, direct3d12.d3d12_raytracing_geometry_aabbs_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

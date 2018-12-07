@@ -1,0 +1,152 @@
+---
+UID: NS:iscsidsc.__unnamed_struct_21
+title: ISCSI_DEVICE_ON_SESSIONA
+author: windows-sdk-content
+description: ISCSI_DEVICE_ON_SESSION structure specifies multiple methods for identifying a device associated with an iSCSI login session.
+old-location: iscsidisc\iscsi_device_on_session.htm
+tech.root: iSCSIDisc
+ms.assetid: ea5d01ee-64c7-43bb-8945-af38d06de36c
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PISCSI_DEVICE_ON_SESSIONA, ISCSI_DEVICE_ON_SESSION, ISCSI_DEVICE_ON_SESSION structure [iSCSI Discovery Library API], ISCSI_DEVICE_ON_SESSIONA, ISCSI_DEVICE_ON_SESSIONW, PISCSI_DEVICE_ON_SESSION, PISCSI_DEVICE_ON_SESSION structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_device_on_session, iscsidsc/ISCSI_DEVICE_ON_SESSION, iscsidsc/ISCSI_DEVICE_ON_SESSIONA, iscsidsc/ISCSI_DEVICE_ON_SESSIONW, iscsidsc/PISCSI_DEVICE_ON_SESSION"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: iscsidsc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: ISCSI_DEVICE_ON_SESSIONW (Unicode) and ISCSI_DEVICE_ON_SESSIONA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iscsidsc.h
+api_name:
+ - ISCSI_DEVICE_ON_SESSION
+ - ISCSI_DEVICE_ON_SESSIONA
+ - ISCSI_DEVICE_ON_SESSIONW
+product: Windows
+targetos: Windows
+req.typenames: ISCSI_DEVICE_ON_SESSIONA, *PISCSI_DEVICE_ON_SESSIONA
+req.redist: 
+---
+
+# ISCSI_DEVICE_ON_SESSIONA structure
+
+
+## -description
+
+
+The <b>ISCSI_DEVICE_ON_SESSION</b> structure specifies multiple methods for identifying a device associated with an iSCSI login session.
+
+
+## -struct-fields
+
+
+
+
+### -field InitiatorName
+
+A string that indicates the initiator name.
+
+
+### -field TargetName
+
+A string that indicates the target name.
+
+
+### -field ScsiAddress
+
+A SCSI_ADDRESS structure that contains the SCSI address of the device.
+
+
+### -field DeviceInterfaceType
+
+A GUID that specifies the device interface class associated with the device. Device interface class GUIDs include, but are not limited to, the following:
+
+<table>
+<tr>
+<th>GUID</th>
+<th>Type of Device</th>
+</tr>
+<tr>
+<td>GUID_DEVINTERFACE_DISK</td>
+<td>Disk</td>
+</tr>
+<tr>
+<td>GUID_DEVINTERFACE_TAPE</td>
+<td>Tape</td>
+</tr>
+<tr>
+<td>GUID_DEVINTERFACE_CDROM</td>
+<td>CD-ROM</td>
+</tr>
+<tr>
+<td>GUID_DEVINTERFACE_WRITEONCEDISK</td>
+<td>Write Once Disk</td>
+</tr>
+<tr>
+<td>GUID_DEVINTERFACE_CDCHANGER</td>
+<td>CD Changer</td>
+</tr>
+<tr>
+<td>GUID_DEVINTERFACE_MEDIUMCHANGER</td>
+<td>Medium Changer</td>
+</tr>
+<tr>
+<td>GUID_DEVINTERFACE_FLOPPY</td>
+<td>Floppy</td>
+</tr>
+</table>
+ 
+
+
+### -field DeviceInterfaceName
+
+A string that specifies the name of the device interface class.
+
+
+### -field LegacyName
+
+A string that specifies the legacy device name.
+
+
+### -field StorageDeviceNumber
+
+A <b>STORAGE_DEVICE_NUMBER</b> structure containing the storage device number.
+
+
+### -field DeviceInstance
+
+A handle to the instance of the device in the devnode tree. For information on the cfgmgr32Xxx functions that utilize this handle, see PnP Configuration Manager Functions.
+
+
+## -see-also
+
+
+
+
+<b>SCSI_ADDRESS</b>
+
+
+
+<b>STORAGE_DEVICE_NUMBER</b>
+ 
+
+ 
+

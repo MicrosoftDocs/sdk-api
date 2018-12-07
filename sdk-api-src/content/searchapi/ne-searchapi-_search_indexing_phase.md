@@ -7,10 +7,10 @@ old-location: search\_search_SEARCH_INDEXING_PHASE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_indexing_phase.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: SEARCH_INDEXING_PHASE, SEARCH_INDEXING_PHASE enumeration [search], SEARCH_INDEXING_PHASE_GATHERER, SEARCH_INDEXING_PHASE_PERSISTED, SEARCH_INDEXING_PHASE_QUERYABLE, _SEARCH_INDEXING_PHASE, _search_SEARCH_INDEXING_PHASE, search._search_SEARCH_INDEXING_PHASE, searchapi/SEARCH_INDEXING_PHASE, searchapi/SEARCH_INDEXING_PHASE_GATHERER, searchapi/SEARCH_INDEXING_PHASE_PERSISTED, searchapi/SEARCH_INDEXING_PHASE_QUERYABLE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 

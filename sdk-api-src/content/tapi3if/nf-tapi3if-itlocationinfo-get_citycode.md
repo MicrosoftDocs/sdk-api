@@ -7,7 +7,7 @@ old-location: tapi3\itlocationinfo_get_citycode.htm
 tech.root: tapi
 ms.assetid: ab8aee25-84b8-4913-876f-dd01bca5e3b0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CityCode method, ITLocationInfo.get_CityCode, ITLocationInfo::get_CityCode, _tapi3_itlocationinfo_get_citycode, get_CityCode, get_CityCode method [TAPI 2.2], get_CityCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_citycode, tapi3if/ITLocationInfo::get_CityCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

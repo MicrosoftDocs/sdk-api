@@ -4,10 +4,10 @@ title: NetUserSetInfo function
 author: windows-sdk-content
 description: The NetUserSetInfo function sets the parameters of a user account.
 old-location: netmgmt\netusersetinfo.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: ffe49d4b-e7e8-4982-8087-59bb7534b257
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 0, 1, 1003, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1014, 1017, 1020, 1024, 1051, 1052, 1053, 2, 21, 22, 3, 4, NetUserSetInfo, NetUserSetInfo function [Network Management], _win32_netusersetinfo, lmaccess/NetUserSetInfo, netmgmt.netusersetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

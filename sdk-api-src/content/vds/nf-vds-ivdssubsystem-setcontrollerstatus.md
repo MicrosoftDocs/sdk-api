@@ -4,10 +4,10 @@ title: IVdsSubSystem::SetControllerStatus
 author: windows-sdk-content
 description: Sets the status (either online or offline) of the controllers in the subsystem.
 old-location: base\ivdssubsystem_setcontrollerstatus.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 080a48a5-1c25-440a-ad3c-528cdaef40e9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsSubSystem interface [VDS],SetControllerStatus method, IVdsSubSystem.SetControllerStatus, IVdsSubSystem::SetControllerStatus, SetControllerStatus, SetControllerStatus method [VDS], SetControllerStatus method [VDS],IVdsSubSystem interface, base.ivdssubsystem_setcontrollerstatus, vds/IVdsSubSystem::SetControllerStatus, vdshwprv/IVdsSubSystem::SetControllerStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

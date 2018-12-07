@@ -7,10 +7,10 @@ old-location: controls\NMHDFILTERBTNCLICK.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmhdfilterbtnclick.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPNMHDFILTERBTNCLICK, LPNMHDFILTERBTNCLICK, LPNMHDFILTERBTNCLICK structure pointer [Windows Controls], NMHDFILTERBTNCLICK, NMHDFILTERBTNCLICK structure [Windows Controls], _win32_NMHDFILTERBTNCLICK_Structure, _win32_NMHDFILTERBTNCLICK_Structure_cpp, commctrl/LPNMHDFILTERBTNCLICK, commctrl/NMHDFILTERBTNCLICK, controls.NMHDFILTERBTNCLICK, controls._win32_NMHDFILTERBTNCLICK_Structure, tagNMHDFILTERBTNCLICK"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

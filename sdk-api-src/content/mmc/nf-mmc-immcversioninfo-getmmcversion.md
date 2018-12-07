@@ -7,7 +7,7 @@ old-location: mmc\immcversioninfo_getmmcversion.htm
 tech.root: mmc
 ms.assetid: 64b8cdfe-e65e-48c6-bc7a-2349140867a4
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GetMMCVersion, GetMMCVersion method [MMC], GetMMCVersion method [MMC],IMMCVersionInfo interface, IMMCVersionInfo interface [MMC],GetMMCVersion method, IMMCVersionInfo.GetMMCVersion, IMMCVersionInfo::GetMMCVersion, _slate_immcversioninfo_getmmcversion, mmc.immcversioninfo_getmmcversion, mmc/IMMCVersionInfo::GetMMCVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

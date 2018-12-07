@@ -7,10 +7,10 @@ old-location: rras\ppp_ipcp_info2.htm
 tech.root: rras
 ms.assetid: e12cde70-51af-484b-a700-f3976a3abc4a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: PPP_IPCP_INFO2, PPP_IPCP_INFO2 structure [RAS], _PPP_IPCP_INFO2, _mpr_ppp_ipcp_info2, mprapi/PPP_IPCP_INFO2, rras.ppp_ipcp_info2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

@@ -9,8 +9,8 @@ ms.assetid: FF3E14E4-5521-42F9-BC60-39128A93814F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: "*PBATTERY_TAG_CHANGE, BATTERY_TAG_CHANGE, BATTERY_TAG_CHANGE structure [Battery Devices], PBATTERY_TAG_CHANGE, PBATTERY_TAG_CHANGE structure pointer [Battery Devices], _BATTERY_TAG_CHANGE, batclass/BATTERY_TAG_CHANGE, batclass/PBATTERY_TAG_CHANGE, battery.battery_tag_change"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: batclass.h
 req.include-header: 

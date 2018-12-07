@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_getnames.htm
 tech.root: WmiSdk
 ms.assetid: fc75fb17-52a2-40dd-b333-fcd01cae1430
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GetNames, GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetNames method, IWbemClassObject.GetNames, IWbemClassObject::GetNames, _hmm_iwbemclassobject_getnames, wbemcli/IWbemClassObject::GetNames, wmi.iwbemclassobject_getnames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,24 +81,12 @@ A parameter that can be <b>NULL</b>. If not <b>NULL</b>, it must point to a vali
 For more information, see Remarks.
 
 
-### -param pQualifierVal
-
-TBD
-
-
-### -param pNames
-
-TBD
-
-
-
-
-#### - pQualifierValue [in]
+### -param pQualifierVal [in]
 
 A parameter that can be <b>NULL</b>. If not <b>NULL</b>, it must point to a valid <b>VARIANT</b> structure initialized to a filter value. This <b>VARIANT</b> is handled as read-only by the method. Thus, the caller must call <b>VariantClear</b> on it, if required. For more information, see Remarks.
 
 
-#### - pstrNames [out]
+### -param pNames [out]
 
 A parameter that cannot be <b>NULL</b>, but on entry this parameter must point to <b>NULL</b>. A new <b>SAFEARRAY</b> structure is always allocated, and the pointer is set to point to it. The returned array can have 0 elements, but is always allocated when <b>WBEM_S_NO_ERROR</b> returns. On error, a new <b>SAFEARRAY</b> structure is not returned.
 

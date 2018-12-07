@@ -7,10 +7,10 @@ old-location: ad\ds_repl_attr_meta_data_blob.htm
 tech.root: ad
 ms.assetid: eee12de1-287a-4e76-9a9c-37e6b967971f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: DS_REPL_ATTR_META_DATA_BLOB, DS_REPL_ATTR_META_DATA_BLOB structure [Active Directory], _DS_REPL_ATTR_META_DATA_BLOB, ad.ds_repl_attr_meta_data_blob, ntdsapi/DS_REPL_ATTR_META_DATA_BLOB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

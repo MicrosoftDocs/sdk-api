@@ -9,8 +9,8 @@ ms.assetid: fa8b8d96-6642-4f5a-b65c-0c7470340251
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PIRQ_DES_64, IRQ_DES, IRQ_DES structure [Device and Driver Installation], IRQ_DES_64, IRQ_Des_64_s, PIRQ_DES, PIRQ_DES structure pointer [Device and Driver Installation], cfgmgr32/IRQ_DES, cfgmgr32/PIRQ_DES, cfgmgrst_039f414c-eefc-46f0-acbe-a94d09406d92.xml, devinst.irq_des"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
@@ -213,14 +213,14 @@ A bitmask representing the processor affinity of the IRQ line that is allocated 
 <i>Not used.</i>
 
 
-##### - IRQD_Affinity.For a resource list:
+##### - IRQD_Count.For a resource list:
 
-A bitmask representing the processor affinity of the IRQ line that is allocated to the device. Bit zero represents the first processor, bit two the second, and so on. Set this value to -1 to represent all processors. 
+Zero.
 
 
-##### - IRQD_Affinity.For a resource requirements list:
+##### - IRQD_Count.For a resource requirements list:
 
-<i>Not used.</i>
+The number of elements in the <a href="https://msdn.microsoft.com/973834cc-0798-414f-a937-5ab14c214559">IRQ_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/448298d1-2583-47d5-b393-e6c8e59da64e">IRQ_RESOURCE</a> structure.
 
 
 ##### - IRQD_Alloc_Num.For a resource list:
@@ -233,14 +233,14 @@ The number of the IRQ line that is allocated to the device.
 <i>Not used.</i>
 
 
-##### - IRQD_Count.For a resource list:
+##### - IRQD_Affinity.For a resource list:
 
-Zero.
+A bitmask representing the processor affinity of the IRQ line that is allocated to the device. Bit zero represents the first processor, bit two the second, and so on. Set this value to -1 to represent all processors. 
 
 
-##### - IRQD_Count.For a resource requirements list:
+##### - IRQD_Affinity.For a resource requirements list:
 
-The number of elements in the <a href="https://msdn.microsoft.com/973834cc-0798-414f-a937-5ab14c214559">IRQ_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/448298d1-2583-47d5-b393-e6c8e59da64e">IRQ_RESOURCE</a> structure.
+<i>Not used.</i>
 
 
 ## -see-also

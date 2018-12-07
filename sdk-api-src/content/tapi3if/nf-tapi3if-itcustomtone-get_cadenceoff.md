@@ -7,7 +7,7 @@ old-location: tapi3\itcustomtone_get_cadenceoff.htm
 tech.root: tapi
 ms.assetid: 0d561ab6-fc38-4058-9443-d7825eae2dc5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],get_CadenceOff method, ITCustomTone.get_CadenceOff, ITCustomTone::get_CadenceOff, _tapi3_itcustomtone_get_cadenceoff, get_CadenceOff, get_CadenceOff method [TAPI 2.2], get_CadenceOff method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_cadenceoff, tapi3if/ITCustomTone::get_CadenceOff
 ms.prod: windows-hardware
 ms.technology: windows-devices

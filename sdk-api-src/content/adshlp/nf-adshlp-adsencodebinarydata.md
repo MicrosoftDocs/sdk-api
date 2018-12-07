@@ -4,10 +4,10 @@ title: ADsEncodeBinaryData function
 author: windows-sdk-content
 description: The ADsEncodeBinaryData function converts a binary large object (BLOB) to the Unicode format suitable to be embedded in a search filter.
 old-location: adsi\adsencodebinarydata.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: b7bdf16c-7533-4db6-9bc4-06bc57d864ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADsEncodeBinaryData, ADsEncodeBinaryData function [ADSI], _ds_adsencodebinarydata, adshlp/ADsEncodeBinaryData, adsi.adsencodebinarydata
 ms.prod: windows-hardware
 ms.technology: windows-devices

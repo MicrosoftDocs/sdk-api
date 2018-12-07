@@ -7,10 +7,10 @@ old-location: dfs\dfs_info_106.htm
 tech.root: Dfs
 ms.assetid: 12c114e4-f978-4423-85a8-ec0cf9c9e8c5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDFS_INFO_106, *PDFS_INFO_106, DFS_INFO_106, DFS_INFO_106 structure [Distributed File System], DFS_STORAGE_STATES, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, LPDFS_INFO_106, LPDFS_INFO_106 structure pointer [Distributed File System], PDFS_INFO_106, PDFS_INFO_106 structure pointer [Distributed File System], _DFS_INFO_106, dfs.dfs_info_106, fs.dfs_info_106, lmdfs/DFS_INFO_106, lmdfs/LPDFS_INFO_106, lmdfs/PDFS_INFO_106, netmgmt.dfs_info_106"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

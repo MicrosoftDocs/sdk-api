@@ -7,7 +7,7 @@ old-location: mscs\closeclusterresource.htm
 tech.root: mscs
 ms.assetid: dbefd7f9-3499-45b3-a5c8-d0000632f61c
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: CloseClusterResource, CloseClusterResource function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_RESOURCE, PCLUSAPI_CLOSE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_closeclusterresource, clusapi/CloseClusterResource, clusapi/PCLUSAPI_CLOSE_CLUSTER_RESOURCE, mscs.closeclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,7 +70,35 @@ Handle to the resource to be closed.
 
 
 
-This function returns BOOL.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For information about the error, call the function  <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

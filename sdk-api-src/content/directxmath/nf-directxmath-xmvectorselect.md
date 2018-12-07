@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorselect.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSelect(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSelect, XMVectorSelect, XMVectorSelect method [DirectX Math Support APIs], dxmath.xmvectorselect
 ms.prod: windows-hardware
 ms.technology: windows-devices

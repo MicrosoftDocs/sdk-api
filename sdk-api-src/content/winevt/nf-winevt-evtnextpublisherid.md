@@ -7,7 +7,7 @@ old-location: wes\evtnextpublisherid.htm
 tech.root: wes
 ms.assetid: e6cea6de-79f3-416b-9501-8d86f2579aa8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: EvtNextPublisherId, EvtNextPublisherId function [EventLog], wes.evtnextpublisherid, winevt/EvtNextPublisherId
 ms.prod: windows-hardware
 ms.technology: windows-devices

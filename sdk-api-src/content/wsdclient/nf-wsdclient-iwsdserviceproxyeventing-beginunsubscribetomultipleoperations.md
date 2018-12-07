@@ -4,10 +4,10 @@ title: IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations
 author: windows-sdk-content
 description: Initializes an asynchronous cancelation request for a subscription to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_beginunsubscribetomultipleoperations.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: a8a3dd48-89a2-4d7b-98e0-3dcb3c32cb2b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: BeginUnsubscribeToMultipleOperations, BeginUnsubscribeToMultipleOperations method, BeginUnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations, IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

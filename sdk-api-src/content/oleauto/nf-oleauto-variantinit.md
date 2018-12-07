@@ -7,7 +7,7 @@ old-location: automat\variantinit.htm
 tech.root: automat
 ms.assetid: 96aeb671-5528-4d3c-8e70-313716550b42
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VariantInit, VariantInit function [Automation], _oa96_VariantInit, automat.variantinit, oleauto/VariantInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

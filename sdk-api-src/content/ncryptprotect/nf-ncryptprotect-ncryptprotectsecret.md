@@ -7,7 +7,7 @@ old-location: security\ncryptprotectsecret.htm
 tech.root: seccng
 ms.assetid: 8726F92B-34D5-4696-8803-3D7F50F1006D
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptProtectSecret, NCryptProtectSecret function [Security], ncryptprotect/NCryptProtectSecret, security.ncryptprotectsecret
 ms.prod: windows-hardware
 ms.technology: windows-devices

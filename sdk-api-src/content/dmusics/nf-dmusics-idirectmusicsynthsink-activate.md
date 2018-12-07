@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynthsink_activate.htm
 tech.root: audio
 ms.assetid: 49b66410-23bd-4c4d-929c-b7e82fb45a9c
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynthSink interface, IDirectMusicSynthSink interface [Audio Devices],Activate method, IDirectMusicSynthSink.Activate, IDirectMusicSynthSink::Activate, audio.idirectmusicsynthsink_activate, audmp-routines_8a2d5dd7-92f1-4341-a5f3-68fd1215fc06.xml, dmusics/IDirectMusicSynthSink::Activate
 ms.prod: windows-hardware
 ms.technology: windows-devices

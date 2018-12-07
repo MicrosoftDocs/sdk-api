@@ -4,10 +4,10 @@ title: IBitsPeerCacheRecord::GetId
 author: windows-sdk-content
 description: Gets the identifier that uniquely identifies the record in the cache.
 old-location: bits\ibitspeercacherecord_getid.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetId, GetId method [BITS], GetId method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetId method, IBitsPeerCacheRecord.GetId, IBitsPeerCacheRecord::GetId, bits.ibitspeercacherecord_getid, bits3_0/IBitsPeerCacheRecord::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ Gets the identifier that uniquely identifies the record in the cache.
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - Id [out]
+### -param pVal [out]
 
 Identifier that uniquely identifies the record in the cache.
 

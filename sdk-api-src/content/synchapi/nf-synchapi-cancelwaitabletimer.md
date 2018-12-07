@@ -7,7 +7,7 @@ old-location: base\cancelwaitabletimer.htm
 tech.root: sync
 ms.assetid: 614a237b-71b3-4091-975d-4c0b3cd6ec69
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CancelWaitableTimer, CancelWaitableTimer function, _win32_cancelwaitabletimer, base.cancelwaitabletimer, synchapi/CancelWaitableTimer, winbase/CancelWaitableTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

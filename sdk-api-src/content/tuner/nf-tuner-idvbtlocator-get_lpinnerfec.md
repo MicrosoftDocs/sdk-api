@@ -4,10 +4,10 @@ title: IDVBTLocator::get_LPInnerFEC
 author: windows-sdk-content
 description: The get_LPInnerFEC method retrieves the inner FEC type of the low-priority stream.
 old-location: mstv\idvbtlocator_get_lpinnerfec.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 069904ad-5faa-4ac4-bf30-538284de2de8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_LPInnerFEC method, IDVBTLocator.get_LPInnerFEC, IDVBTLocator::get_LPInnerFEC, IDVBTLocatorget_LPInnerFEC, get_LPInnerFEC, get_LPInnerFEC method [Microsoft TV Technologies], get_LPInnerFEC method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_lpinnerfec, tuner/IDVBTLocator::get_LPInnerFEC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_LPInnerFEC</b> method retrieves the inner FEC type of the low-priorit
 
 
 
-### -param FEC
-
-TBD
-
-
-
-
-#### - pFEC [out]
+### -param FEC [out]
 
 Receives a member of the <a href="https://msdn.microsoft.com/6910c51d-4176-49a3-be6b-6b072ad03fc1">FECMethod</a> enumeration.
 

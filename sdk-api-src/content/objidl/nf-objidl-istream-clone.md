@@ -4,10 +4,10 @@ title: IStream::Clone
 author: windows-sdk-content
 description: The Clone method creates a new stream object with its own seek pointer that references the same bytes as the original stream.
 old-location: stg\istream_clone.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 677c37fb-598f-4bb0-b5d6-600e0befc722
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IStream interface, IStream interface [Structured Storage],Clone method, IStream.Clone, IStream::Clone, _stg_istream_clone, objidl/IStream::Clone, stg.istream_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

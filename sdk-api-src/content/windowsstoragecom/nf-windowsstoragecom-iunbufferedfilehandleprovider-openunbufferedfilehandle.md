@@ -7,7 +7,7 @@ old-location: winrt\iunbufferedfilehandleprovider_openunbufferedfilehandle.htm
 tech.root: WinRT
 ms.assetid: D001CD90-A621-403C-B9BD-BE79471AF18F
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IUnbufferedFileHandleProvider interface [Windows Runtime],OpenUnbufferedFileHandle method, IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle, IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle, OpenUnbufferedFileHandle, OpenUnbufferedFileHandle method [Windows Runtime], OpenUnbufferedFileHandle method [Windows Runtime],IUnbufferedFileHandleProvider interface, windowsstoragecom/IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle, winrt.iunbufferedfilehandleprovider_openunbufferedfilehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

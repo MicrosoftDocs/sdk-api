@@ -7,7 +7,7 @@ old-location: controls\itextrow_setproperty.htm
 tech.root: controls
 ms.assetid: d43172b9-c717-41b2-ba22-aa164a595140
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITextRow interface [Windows Controls],SetProperty method, ITextRow.SetProperty, ITextRow::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextRow interface, controls.itextrow_setproperty, tom/ITextRow::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

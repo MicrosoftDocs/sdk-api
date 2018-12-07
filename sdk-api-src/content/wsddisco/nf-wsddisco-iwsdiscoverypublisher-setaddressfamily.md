@@ -4,10 +4,10 @@ title: IWSDiscoveryPublisher::SetAddressFamily
 author: windows-sdk-content
 description: Specifies the IP address family (IPv4, IPv6, or both) over which the host will be published.
 old-location: ncd\iwsdiscoverypublisher_setaddressfamily.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 01d16205-ca4c-44bb-865c-7fc9fb1db2e1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryPublisher interface,SetAddressFamily method, IWSDiscoveryPublisher.SetAddressFamily, IWSDiscoveryPublisher::SetAddressFamily, SetAddressFamily, SetAddressFamily method, SetAddressFamily method,IWSDiscoveryPublisher interface, WSDAPI_ADDRESSFAMILY_IPV4, WSDAPI_ADDRESSFAMILY_IPV4 | WSDAPI_ADDRESSFAMILY_IPV6, WSDAPI_ADDRESSFAMILY_IPV6, ncd.iwsdiscoverypublisher_setaddressfamily, wsddisco/IWSDiscoveryPublisher::SetAddressFamily
 ms.prod: windows-hardware
 ms.technology: windows-devices

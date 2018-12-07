@@ -7,10 +7,10 @@ old-location: dfs\dfs_info_50.htm
 tech.root: Dfs
 ms.assetid: 1af2866c-fe83-43fc-b4cc-9976157fb269
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDFS_INFO_50, *PDFS_INFO_50, DFS_INFO_50, DFS_INFO_50 structure [Distributed File System], DFS_NAMESPACE_CAPABILITY_ABDE, PDFS_INFO_50, PDFS_INFO_50 structure pointer [Distributed File System], _DFS_INFO_50, dfs.dfs_info_50, fs.dfs_info_50, lmdfs/DFS_INFO_50, lmdfs/PDFS_INFO_50"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

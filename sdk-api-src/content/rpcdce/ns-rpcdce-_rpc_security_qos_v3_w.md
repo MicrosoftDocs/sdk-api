@@ -7,10 +7,10 @@ old-location: rpc\rpc_security_qos_v3.htm
 tech.root: rpc
 ms.assetid: 56366edf-55af-4827-8986-7b5f8b1c878b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PRPC_SECURITY_QOS_V3_W, 0, PRPC_SECURITY_QOS_V3, PRPC_SECURITY_QOS_V3 structure pointer [RPC], RPC_C_AUTHN_INFO_TYPE_HTTP, RPC_C_IMP_LEVEL_ANONYMOUS, RPC_C_IMP_LEVEL_DEFAULT, RPC_C_IMP_LEVEL_DELEGATE, RPC_C_IMP_LEVEL_IDENTIFY, RPC_C_IMP_LEVEL_IMPERSONATE, RPC_C_QOS_CAPABILITIES_ANY_AUTHORITY, RPC_C_QOS_CAPABILITIES_DEFAULT, RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE, RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT, RPC_C_QOS_CAPABILITIES_MAKE_FULLSIC, RPC_C_QOS_CAPABILITIES_MUTUAL_AUTH, RPC_C_QOS_IDENTITY_DYNAMIC, RPC_C_QOS_IDENTITY_STATIC, RPC_SECURITY_QOS_V3, RPC_SECURITY_QOS_V3 structure [RPC], RPC_SECURITY_QOS_V3_W, _RPC_SECURITY_QOS_V3_A, _RPC_SECURITY_QOS_V3_W, rpc.rpc_security_qos_v3, rpcdce/PRPC_SECURITY_QOS_V3, rpcdce/RPC_SECURITY_QOS_V3"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -269,7 +269,7 @@ No additional credentials are passed in the <b>u</b> union.
 </dl>
 </td>
 <td width="60%">
-The <b>HttpCredentials</b> member of the <b>u</b> union points to a <a href="https://msdn.microsoft.com/fdb7f42a-e545-4965-a44a-70d4631f1723">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. This value can be used only when the protocol sequence is <a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>. Any other protocol sequence returns RPC_S_INVALID_ARG.
+The <b>HttpCredentials</b> member of the <b>u</b> union points to a <a href="https://msdn.microsoft.com/fdb7f42a-e545-4965-a44a-70d4631f1723">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. This value can be used only when the protocol sequence is <a href="https://msdn.microsoft.com/">ncacn_http</a>. Any other protocol sequence returns RPC_S_INVALID_ARG.
 
 </td>
 </tr>

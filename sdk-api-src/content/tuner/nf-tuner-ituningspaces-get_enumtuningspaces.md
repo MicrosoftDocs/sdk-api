@@ -4,10 +4,10 @@ title: ITuningSpaces::get_EnumTuningSpaces
 author: windows-sdk-content
 description: The get_EnumTuningSpaces method returns an enumerator for the collection.
 old-location: mstv\ituningspaces_get_enumtuningspaces.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0d3fb395-191c-4862-8eba-07b5502dc5d4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuningSpaces interface [Microsoft TV Technologies],get_EnumTuningSpaces method, ITuningSpaces.get_EnumTuningSpaces, ITuningSpaces::get_EnumTuningSpaces, ITuningSpacesget_EnumTuningSpaces, get_EnumTuningSpaces, get_EnumTuningSpaces method [Microsoft TV Technologies], get_EnumTuningSpaces method [Microsoft TV Technologies],ITuningSpaces interface, mstv.ituningspaces_get_enumtuningspaces, tuner/ITuningSpaces::get_EnumTuningSpaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_EnumTuningSpaces</b> method returns an enumerator for the collection.
 
 
 
-### -param NewEnum
-
-TBD
-
-
-
-
-#### - ppNewEnum [out]
+### -param NewEnum [out]
 
 Pointer to a variable that receives an <a href="https://msdn.microsoft.com/9b64a48f-ebab-46af-a89d-b8bc488d85da">IEnumTuningSpaces</a> interface pointer. Use this interface to iterate through the collection. The caller must release the interface.
 

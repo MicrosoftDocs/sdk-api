@@ -7,10 +7,10 @@ old-location: ad\idsobjectpicker.htm
 tech.root: ad
 ms.assetid: f2f9da7d-7a09-4b49-a750-078a4573e213
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], IDsObjectPicker interface [Active Directory],described, _glines_idsobjectpicker, ad.idsobjectpicker, objsel/IDsObjectPicker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: objsel.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: wcs\installcolorprofile.htm
 tech.root: WCS
 ms.assetid: 494b2080-a0a8-4fda-bc12-3bf196a6840c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: InstallColorProfile, InstallColorProfile function [Windows Color System], InstallColorProfileA, InstallColorProfileW, _color_InstallColorProfile, icm/InstallColorProfile, icm/InstallColorProfileA, icm/InstallColorProfileW, wcs.installcolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- InstallColorProfileW
+: 
 ---
 
 # InstallColorProfileW function

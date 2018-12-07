@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapblocksenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: CDF8C336-CFF8-41FE-AC3E-48988209850E
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: IAppxBlockMapBlocksEnumerator interface [App packaging and management],MoveNext method, IAppxBlockMapBlocksEnumerator.MoveNext, IAppxBlockMapBlocksEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBlockMapBlocksEnumerator interface, appxpackaging/IAppxBlockMapBlocksEnumerator::MoveNext, appxpkg.iappxblockmapblocksenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: netbios\action_header.htm
 tech.root: NetBIOS
 ms.assetid: f2bbf394-972a-4e96-8cc6-9f230359cbfc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PACTION_HEADER, ACTION_HEADER, ACTION_HEADER structure [NetBIOS], MABF, MNBF, MOOO, MXNS, PACTION_HEADER, PACTION_HEADER structure pointer [NetBIOS], _ACTION_HEADER, nb30/ACTION_HEADER, nb30/PACTION_HEADER, netbios.action_header"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

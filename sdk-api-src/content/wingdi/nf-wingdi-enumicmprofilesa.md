@@ -7,7 +7,7 @@ old-location: wcs\enumicmprofiles.htm
 tech.root: WCS
 ms.assetid: a93e6239-b6c7-4e37-9f06-03790a3ed53f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: EnumICMProfiles, EnumICMProfiles function [Windows Color System], EnumICMProfilesA, EnumICMProfilesW, _color_EnumICMProfiles, wcs.enumicmprofiles, wingdi/EnumICMProfiles, wingdi/EnumICMProfilesA, wingdi/EnumICMProfilesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

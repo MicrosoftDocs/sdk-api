@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSource2::get_AudioCounter
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersource2_get_audiocounter.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 310e59e1-afde-45ed-b2d1-eecf59319935
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],get_AudioCounter method, IMSVidStreamBufferSource2.get_AudioCounter, IMSVidStreamBufferSource2::get_AudioCounter, IMSVidStreamBufferSource2get_AudioCounter, get_AudioCounter, get_AudioCounter method [Microsoft TV Technologies], get_AudioCounter method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, mstv.imsvidstreambuffersource2_get_audiocounter, segment/IMSVidStreamBufferSource2::get_AudioCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

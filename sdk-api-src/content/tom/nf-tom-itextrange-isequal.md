@@ -7,7 +7,7 @@ old-location: controls\ITextRange_IsEqual.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange\itextrangeisequal.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITextRange interface [Windows Controls],IsEqual method, ITextRange.IsEqual, ITextRange::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextRange interface, _win32_ITextRange_IsEqual, _win32_ITextRange_IsEqual_cpp, controls.ITextRange_IsEqual, controls._win32_ITextRange_IsEqual, tom/ITextRange::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,13 +66,6 @@ The <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">IT
 
 
 ### -param pValue
-
-TBD
-
-
-
-
-#### - pB
 
 Type: <b>long*</b>
 

@@ -7,10 +7,10 @@ old-location: direct3ddxgi\dxgi_outdupl_pointer_shape_info.htm
 tech.root: direct3ddxgi
 ms.assetid: 8C270C30-01B8-467C-939F-7F4B82B9ED15
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: DXGI_OUTDUPL_POINTER_SHAPE_INFO, DXGI_OUTDUPL_POINTER_SHAPE_INFO structure [DXGI], direct3ddxgi.dxgi_outdupl_pointer_shape_info, dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 

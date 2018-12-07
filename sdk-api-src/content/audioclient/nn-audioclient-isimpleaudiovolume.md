@@ -7,10 +7,10 @@ old-location: coreaudio\isimpleaudiovolume.htm
 tech.root: CoreAudio
 ms.assetid: 360211f2-de82-4ff5-896c-dee1d60cb7b7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: ISimpleAudioVolume, ISimpleAudioVolume interface [Core Audio], ISimpleAudioVolume interface [Core Audio],described, audioclient/ISimpleAudioVolume, coreaudio.isimpleaudiovolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 

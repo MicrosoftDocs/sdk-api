@@ -7,10 +7,10 @@ old-location: xaudio2\fxecho_initdata.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXECHO_INITDATA
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FXECHO_INITDATA, FXECHO_INITDATA structure [XAudio2 Audio Mixing APIs], xapofx/FXECHO_INITDATA, xaudio2.fxecho_initdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: xapofx.h
 req.include-header: 

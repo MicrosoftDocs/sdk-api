@@ -7,10 +7,10 @@ old-location: wmformat\wmt_drmla_trust.htm
 tech.root: wmformat
 ms.assetid: 48c62532-1cb5-4073-8fa9-cab5a8355bc3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: WMT_DRMLA_TAMPERED, WMT_DRMLA_TRUST, WMT_DRMLA_TRUST enumeration [windows Media Format], WMT_DRMLA_TRUSTED, WMT_DRMLA_UNTRUSTED, tagWMT_DRMLA_TRUST, wmformat.wmt_drmla_trust, wmsdkidl/WMT_DRMLA_TAMPERED, wmsdkidl/WMT_DRMLA_TRUST, wmsdkidl/WMT_DRMLA_TRUSTED, wmsdkidl/WMT_DRMLA_UNTRUSTED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

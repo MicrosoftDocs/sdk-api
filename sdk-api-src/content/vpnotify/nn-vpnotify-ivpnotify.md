@@ -7,10 +7,10 @@ old-location: dshow\ivpnotify.htm
 tech.root: DirectShow
 ms.assetid: 6b40ba9e-8562-4d31-beaf-e4d4858bf145
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IVPNotify, IVPNotify interface [DirectShow], IVPNotify interface [DirectShow],described, IVPNotifyInterface, dshow.ivpnotify, vpnotify/IVPNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vpnotify.h
 req.include-header: 

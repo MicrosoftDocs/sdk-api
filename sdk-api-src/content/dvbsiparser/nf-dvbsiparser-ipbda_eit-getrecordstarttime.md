@@ -4,10 +4,10 @@ title: IPBDA_EIT::GetRecordStartTime
 author: windows-sdk-content
 description: Gets the start time from an event record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecordstarttime.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 7022ac7c-b0ea-4ca1-931f-b09906f67df7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordStartTime, GetRecordStartTime method [Microsoft TV Technologies], GetRecordStartTime method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordStartTime method, IPBDA_EIT.GetRecordStartTime, IPBDA_EIT::GetRecordStartTime, dvbsiparser/IPBDA_EIT::GetRecordStartTime, mstv.ipbda_eit_getrecordstarttime
 ms.prod: windows-hardware
 ms.technology: windows-devices

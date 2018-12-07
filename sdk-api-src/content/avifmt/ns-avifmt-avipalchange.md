@@ -1,5 +1,5 @@
 ---
-UID: NS:avifmt.AVIPALCHANGE
+UID: NS:avifmt.__unnamed_struct_3
 title: AVIPALCHANGE
 author: windows-sdk-content
 description: The AVIPALCHANGE structure defines a palette change in an AVI file.
@@ -7,10 +7,10 @@ old-location: dshow\avipalchange.htm
 tech.root: DirectShow
 ms.assetid: f8f38fe0-f506-4cf8-9a6d-381cf46b51a4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AVIPALCHANGE, AVIPALCHANGE structure [DirectShow], AVIPALCHANGEStructure, _AVIPALchange, avifmt/AVIPALCHANGE, dshow.avipalchange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: avifmt.h
 req.include-header: Vfw.h

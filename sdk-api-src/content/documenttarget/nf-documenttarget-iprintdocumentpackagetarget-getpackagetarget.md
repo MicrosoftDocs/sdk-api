@@ -7,7 +7,7 @@ old-location: xps\iprintdocumentpackagetarget_getpackagetarget.htm
 tech.root: printdocs
 ms.assetid: 7D9A749D-954E-43BA-A522-98CBAD79D18C
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetPackageTarget, GetPackageTarget method [XPS Documents and Packaging], GetPackageTarget method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],GetPackageTarget method, IPrintDocumentPackageTarget.GetPackageTarget, IPrintDocumentPackageTarget::GetPackageTarget, documenttarget/IPrintDocumentPackageTarget::GetPackageTarget, xps.iprintdocumentpackagetarget_getpackagetarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

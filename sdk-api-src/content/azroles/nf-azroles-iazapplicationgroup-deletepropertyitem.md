@@ -4,10 +4,10 @@ title: IAzApplicationGroup::DeletePropertyItem
 author: windows-sdk-content
 description: Removes the specified entity from the specified list.
 old-location: security\iazapplicationgroup_deletepropertyitem.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 63ed036a-ad1d-47a8-a4c7-f23fc060c2db
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AzApplicationGroup object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzApplicationGroup object, DeletePropertyItem method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeletePropertyItem method, IAzApplicationGroup.DeletePropertyItem, IAzApplicationGroup::DeletePropertyItem, azroles/IAzApplicationGroup::DeletePropertyItem, security.iazapplicationgroup_deletepropertyitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice_createtranslatetransform.htm
 tech.root: directcomp
 ms.assetid: 15b16ff7-cf7e-455e-beb7-737f2cc21f9d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateTranslateTransform, CreateTranslateTransform method [DirectComposition], CreateTranslateTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTranslateTransform method, IDCompositionDevice.CreateTranslateTransform, IDCompositionDevice::CreateTranslateTransform, dcomp/IDCompositionDevice::CreateTranslateTransform, directcomp.idcompositiondevice_createtranslatetransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

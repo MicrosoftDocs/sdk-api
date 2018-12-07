@@ -7,10 +7,10 @@ old-location: com\oleuipastespecial_struct.htm
 tech.root: com
 ms.assetid: bb346fa7-03ae-458d-8488-64db7a9c48e1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPOLEUIPASTESPECIALW, *POLEUIPASTESPECIALW, HIDECHANGEICON, LPOLEUIPASTESPECIAL, LPOLEUIPASTESPECIAL structure pointer [COM], NOREFRESHDATAOBJECT, OLEUIPASTESPECIAL, OLEUIPASTESPECIAL structure [COM], OLEUIPASTESPECIALA, OLEUIPASTESPECIALW, POLEUIPASTESPECIAL, POLEUIPASTESPECIAL structure pointer [COM], PSF_CHECKDISPLAYASICON, PSF_DISABLEDISPLAYASICON, PSF_SELECTPASTE, PSF_SELECTPASTELINK, PSF_SHOWHELP, STAYONCLIPBOARDCHANGE, _ole_OLEUIPASTESPECIAL_str, com.oleuipastespecial_struct, oledlg/LPOLEUIPASTESPECIAL, oledlg/OLEUIPASTESPECIAL, oledlg/OLEUIPASTESPECIALA, oledlg/OLEUIPASTESPECIALW, oledlg/POLEUIPASTESPECIAL, tagOLEUIPASTESPECIALW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

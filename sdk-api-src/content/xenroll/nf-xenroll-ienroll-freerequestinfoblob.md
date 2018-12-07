@@ -7,7 +7,7 @@ old-location: security\ienroll4_freerequestinfoblob.htm
 tech.root: seccrypto
 ms.assetid: 7c89de98-51b6-44c2-acd2-879d1d4e7f29
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IEnroll interface [Security],freeRequestInfoBlob method, IEnroll.freeRequestInfoBlob, IEnroll::freeRequestInfoBlob, freeRequestInfoBlob, freeRequestInfoBlob method [Security], freeRequestInfoBlob method [Security],IEnroll interface, security.ienroll4_freerequestinfoblob, xenroll/IEnroll::freeRequestInfoBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,7 @@ The <b>freeRequestInfoBlob</b> method deletes a certificate context. This method
 
 
 
-### -param pkcs7OrPkcs10
-
-TBD
-
-
-
-
-#### - PKCS7OrPKCS10 [in]
+### -param pkcs7OrPkcs10 [in]
 
 A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that specifies the session information whose context is being deleted.
 

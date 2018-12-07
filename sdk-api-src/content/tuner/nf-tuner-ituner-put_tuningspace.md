@@ -4,10 +4,10 @@ title: ITuner::put_TuningSpace
 author: windows-sdk-content
 description: The put_TuningSpace method sets the tuning space for the Network Provider.
 old-location: mstv\ituner_put_tuningspace.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ae764317-3441-4abb-90e8-f7720cdfd957
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],put_TuningSpace method, ITuner.put_TuningSpace, ITuner::put_TuningSpace, ITunerput_TuningSpace, mstv.ituner_put_tuningspace, put_TuningSpace, put_TuningSpace method [Microsoft TV Technologies], put_TuningSpace method [Microsoft TV Technologies],ITuner interface, tuner/ITuner::put_TuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>put_TuningSpace</b> method sets the tuning space for the Network Provider
 
 
 
-### -param TuningSpace
-
-TBD
-
-
-
-
-#### - pTuningSpace [in]
+### -param TuningSpace [in]
 
 Pointer to the tuning space that will be set in the Network Provider.
 

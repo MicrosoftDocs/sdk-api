@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2ipdef.group_filter
-title: group_filter
+title: GROUP_FILTER
 author: windows-sdk-content
 description: Provides multicast filtering parameters for multicast IPv6 or IPv4 addresses.
 old-location: winsock\group_filter.htm
 tech.root: winsock
 ms.assetid: 09aa1f67-c858-4bef-9a98-ce25ebcc1d4e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: "*PGROUP_FILTER, GROUP_FILTER, GROUP_FILTER structure [Winsock], MCAST_EXCLUDE, MCAST_INCLUDE, PGROUP_FILTER, PGROUP_FILTER structure pointer [Winsock], group_filter, winsock.group_filter, ws2ipdef/GROUP_FILTER, ws2ipdef/PGROUP_FILTER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 12/5/2018
+ms.keywords: "*PGROUP_FILTER, GROUP_FILTER, GROUP_FILTER structure [Winsock], MCAST_EXCLUDE, MCAST_INCLUDE, PGROUP_FILTER, PGROUP_FILTER structure pointer [Winsock], winsock.group_filter, ws2ipdef/GROUP_FILTER, ws2ipdef/PGROUP_FILTER"
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
@@ -44,7 +44,7 @@ req.typenames: GROUP_FILTER, *PGROUP_FILTER
 req.redist: 
 ---
 
-# group_filter structure
+# GROUP_FILTER structure
 
 
 ## -description

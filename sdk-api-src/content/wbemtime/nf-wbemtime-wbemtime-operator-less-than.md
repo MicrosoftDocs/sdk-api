@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_comparison_operators_lessthan.htm
 tech.root: WmiSdk
 ms.assetid: 9541f141-b1ec-4e99-b3a1-5806a14be7b6
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator< method, WBEMTime.operator-less-than, WBEMTime.operator<, WBEMTime::operator-less-than, WBEMTime::operator<, operator<, operator< method [Windows Management Instrumentation], operator< method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator<, wmi.wbemtime_comparison_operators_lessthan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,14 +65,7 @@ The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WB
 
 
 
-### -param a
-
-TBD
-
-
-
-
-#### - uTarget [ref]
+### -param a [ref]
 
 Reference to the <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> object whose time is compared to this one.
 

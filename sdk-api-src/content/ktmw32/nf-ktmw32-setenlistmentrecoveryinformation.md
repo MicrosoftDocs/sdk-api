@@ -4,10 +4,10 @@ title: SetEnlistmentRecoveryInformation function
 author: windows-sdk-content
 description: Sets an opaque, user-defined structure of recovery data from KTM.
 old-location: fs\setenlistmentrecoveryinformation.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 54e7526f-57f0-40cd-9624-fce0644a0884
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetEnlistmentRecoveryInformation, SetEnlistmentRecoveryInformation function [Files], fs.setenlistmentrecoveryinformation, ktmw32/SetEnlistmentRecoveryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

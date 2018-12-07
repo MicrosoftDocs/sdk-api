@@ -7,10 +7,10 @@ old-location: winsock\wsabuf_2.htm
 tech.root: winsock
 ms.assetid: a012c3ba-67fd-4fcf-84d1-85e9d495c29c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPWSABUF, LPWSABUF, LPWSABUF structure pointer [Winsock], WSABUF, WSABUF structure [Winsock], WSABUFA, _WSABUF, _win32_wsabuf_2, winsock.wsabuf_2, ws2def/LPWSABUF, ws2def/WSABUF"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Winsock2.h

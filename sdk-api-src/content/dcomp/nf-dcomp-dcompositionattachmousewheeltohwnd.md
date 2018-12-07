@@ -7,7 +7,7 @@ old-location: directcomp\dcompositionattachmousewheeltohwnd.htm
 tech.root: directcomp
 ms.assetid: 0a047702-e707-8df7-7660-0759a94b21af
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousewheeltohwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

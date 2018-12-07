@@ -7,10 +7,10 @@ old-location: uianimation\ui_animation_timer_client_status.htm
 tech.root: UIAnimation
 ms.assetid: 45a445d1-cbe2-4588-a184-7d7bab6bc1ee
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: UI_ANIMATION_TIMER_CLIENT_BUSY, UI_ANIMATION_TIMER_CLIENT_IDLE, UI_ANIMATION_TIMER_CLIENT_STATUS, UI_ANIMATION_TIMER_CLIENT_STATUS enumeration [Windows Animation], __MIDL___MIDL_itf_UIAnimation_0000_0014_0001, uianimation.ui_animation_timer_client_status, uianimation/UI_ANIMATION_TIMER_CLIENT_BUSY, uianimation/UI_ANIMATION_TIMER_CLIENT_IDLE, uianimation/UI_ANIMATION_TIMER_CLIENT_STATUS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 

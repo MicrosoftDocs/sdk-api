@@ -4,13 +4,13 @@ title: NLM_INTERNET_CONNECTIVITY
 author: windows-sdk-content
 description: The NLM_INTERNET_CONNECTIVITY enumeration defines a set of flags that provide additional data for IPv4 or IPv6 network connectivity.
 old-location: nla\nlm_internet_connectivity.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 5B1DB4D5-6F69-4628-AEAF-E280E9B4E71C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: NLM_INTERNET_CONNECTIVITY, NLM_INTERNET_CONNECTIVITY enumeration [Network Awareness], NLM_INTERNET_CONNECTIVITY_CORPORATE, NLM_INTERNET_CONNECTIVITY_PROXIED, NLM_INTERNET_CONNECTIVITY_WEBHIJACK, netlistmgr/NLM_INTERNET_CONNECTIVITY, netlistmgr/NLM_INTERNET_CONNECTIVITY_CORPORATE, netlistmgr/NLM_INTERNET_CONNECTIVITY_PROXIED, netlistmgr/NLM_INTERNET_CONNECTIVITY_WEBHIJACK, nla.nlm_internet_connectivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 

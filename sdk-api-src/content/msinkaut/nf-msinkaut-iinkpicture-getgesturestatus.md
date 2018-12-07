@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_getgesturestatus.htm
 tech.root: tablet
 ms.assetid: b4ccc35d-35b5-4633-acc9-efd4c7eb05e3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],GetGestureStatus method, IInkPicture.GetGestureStatus, IInkPicture::GetGestureStatus, b4ccc35d-35b5-4633-acc9-efd4c7eb05e3, msinkaut/IInkPicture::GetGestureStatus, tablet.inkpicture_getgesturestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ Retrieves a value that indicates whether the <a href="https://msdn.microsoft.com
 The gesture that you want the status of.
 
 
-### -param Listening
-
-TBD
-
-
-
-
-#### - Listen [out, retval]
+### -param Listening [out, retval]
 
 <b>VARIANT_TRUE</b> if the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a> control has interest in the gesture and the <a href="https://msdn.microsoft.com/a20f2d78-6cfe-4755-968e-91369021db1b">Gesture Event</a> fires when the gesture is recognized. <b>VARIANT_FALSE</b> if the InkPicture control has no interest in the gesture, and the strokes that were recognized as a gesture remain as <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> objects.
 

@@ -9,8 +9,8 @@ ms.assetid: e8faffdc-2fd4-4d7a-ae9f-fd93932b8c10
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DHCP_POL_LOGIC_OPER, DHCP_POL_LOGIC_OPER enumeration [DHCP], DhcpLogicalAnd, DhcpLogicalOr, dhcp.dhcp_pol_logic_oper, dhcpsapi/DHCP_POL_LOGIC_OPER, dhcpsapi/DhcpLogicalAnd, dhcpsapi/DhcpLogicalOr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 

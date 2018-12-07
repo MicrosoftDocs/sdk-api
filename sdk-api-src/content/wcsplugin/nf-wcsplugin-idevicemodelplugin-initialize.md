@@ -7,7 +7,7 @@ old-location: wcs\IDeviceModelPlugIn_Initialize.htm
 tech.root: WCS
 ms.assetid: ae47dcc5-f771-4586-9086-b4ab1600c1bc
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDeviceModelPlugIn interface [Windows Color System],Initialize method, IDeviceModelPlugIn.Initialize, IDeviceModelPlugIn::Initialize, Initialize, Initialize method [Windows Color System], Initialize method [Windows Color System],IDeviceModelPlugIn interface, _color_IDeviceModelPlugIn::Initialize, wcs.IDeviceModelPlugIn_Initialize, wcsplugin/IDeviceModelPlugIn::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ A string that contains the BSTR XML device model plug-in profile. This parameter
 The number of total models in the transform sequence.
 
 
-### -param iModelPosition
-
-TBD
-
-
-
-
-#### - uiModelPosition [in]
+### -param iModelPosition [in]
 
 The one-based model position of the other device model in the workflow of <i>uiNumModels</i> as provided in the <b>Initialize</b> function.
 

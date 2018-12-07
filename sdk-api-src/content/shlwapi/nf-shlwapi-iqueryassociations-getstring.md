@@ -7,7 +7,7 @@ old-location: shell\IQueryAssociations_GetString.htm
 tech.root: shell
 ms.assetid: 72463664-783b-4375-a6ba-43633a82ec7e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetString, GetString method [Windows Shell], GetString method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetString method, IQueryAssociations.GetString, IQueryAssociations::GetString, _win32_IQueryAssociations_GetString, shell.IQueryAssociations_GetString, shlwapi/IQueryAssociations::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,14 +94,18 @@ Type: <b><a href="https://msdn.microsoft.com/b5fd3d25-3630-4dd8-acd2-d2e4ed57160
 An <a href="https://msdn.microsoft.com/b5fd3d25-3630-4dd8-acd2-d2e4ed571604">ASSOCSTR</a> value that specifies the type of string that is to be returned.
 
 
-### -param pszExtra
+### -param pszExtra [in, optional]
 
-TBD
+Type: <b>LPCWSTR</b>
+
+A pointer to an optional, null-terminated Unicode string with information about the location of the string. It is typically set to a Shell verb such as <b>open</b>. Set this parameter to <b>NULL</b> if it is not used.
 
 
-### -param pszOut
+### -param pszOut [out, optional]
 
-TBD
+Type: <b>LPWSTR</b>
+
+A pointer to a null-terminated Unicode string used to return the requested string. Set this parameter to <b>NULL</b> to retrieve the required buffer size.
 
 
 ### -param pcchOut [in, out]
@@ -113,20 +117,6 @@ A pointer to a value that, on entry, is set to the number of characters in the <
 If the <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pwszOut</i> is too small, the function returns E_POINTER and <i>pcchOut</i> points to the required size of the buffer.
 
 If <i>pwszOut</i> is <b>NULL</b>, the function returns S_FALSE and <i>pcchOut</i> points to the required size of the buffer.
-
-
-#### - pwszExtra [in, optional]
-
-Type: <b>LPCWSTR</b>
-
-A pointer to an optional, null-terminated Unicode string with information about the location of the string. It is typically set to a Shell verb such as <b>open</b>. Set this parameter to <b>NULL</b> if it is not used.
-
-
-#### - pwszOut [out, optional]
-
-Type: <b>LPWSTR</b>
-
-A pointer to a null-terminated Unicode string used to return the requested string. Set this parameter to <b>NULL</b> to retrieve the required buffer size.
 
 
 ## -returns

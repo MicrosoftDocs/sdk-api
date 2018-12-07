@@ -9,8 +9,8 @@ ms.assetid: 79f81e8e-a105-4cc9-b175-8a364648f3a6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IsolationState, IsolationState enumeration [NAP], isolationStateInProbation, isolationStateNotRestricted, isolationStateRestrictedAccess, nap.isolationstate_enum, naptypes/IsolationState, naptypes/isolationStateInProbation, naptypes/isolationStateNotRestricted, naptypes/isolationStateRestrictedAccess, tagIsolationState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: naptypes.h
 req.include-header: 

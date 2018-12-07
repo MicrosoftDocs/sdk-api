@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorversio
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_992m.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],MajorVersion property, IFaxDeviceProvider.MajorVersion, IFaxDeviceProvider.get_MajorVersion, IFaxDeviceProvider::MajorVersion, IFaxDeviceProvider::get_MajorVersion, MajorVersion property [Fax Service], MajorVersion property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.majorversion, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorversion_cpp, fax._mfax_faxdeviceprovider_majorversion, faxcomex/IFaxDeviceProvider::MajorVersion, faxcomex/IFaxDeviceProvider::get_MajorVersion, get_MajorVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,13 +4,13 @@ title: IFolderActionCollection
 author: windows-sdk-content
 description: Manages a collection of FolderAction objects.To get this interface, access the IDataManager::FolderActions property.
 old-location: pla\ifolderactioncollection.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 9b0ab26f-7e91-4d7a-9fd7-73332601dd7b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IFolderActionCollection, IFolderActionCollection interface [PLA], IFolderActionCollection interface [PLA],described, base.ifolderactioncollection, pla.ifolderactioncollection, pla/IFolderActionCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

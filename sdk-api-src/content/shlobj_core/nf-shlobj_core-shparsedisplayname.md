@@ -7,7 +7,7 @@ old-location: shell\SHParseDisplayName.htm
 tech.root: shell
 ms.assetid: 7bdfeed5-dcd0-40f6-a9d0-08ce816ee055
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SHParseDisplayName, SHParseDisplayName function [Windows Shell], _shell_SHParseDisplayName, shell.SHParseDisplayName, shlobj_core/SHParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

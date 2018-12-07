@@ -7,7 +7,7 @@ old-location: wcs\getps2colorrenderingdictionary.htm
 tech.root: WCS
 ms.assetid: 0dc10487-7b60-4f5d-a5b7-0dd8a6d1c0c5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetPS2ColorRenderingDictionary, GetPS2ColorRenderingDictionary function [Windows Color System], _color_GetPS2ColorRenderingDictionary, icm/GetPS2ColorRenderingDictionary, wcs.getps2colorrenderingdictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetPS2ColorRenderingDictionary
+: 
 ---
 
 # GetPS2ColorRenderingDictionary function
@@ -74,27 +80,17 @@ For more information, see <a href="https://msdn.microsoft.com/c980f3ea-daff-491a
 
 ### -param pPS2ColorRenderingDictionary
 
-TBD
+Pointer to a buffer in which the color rendering dictionary is to be placed. If the <i>pBuffer</i> pointer is set to <b>NULL</b>, the required buffer size is returned in <i>*pcbSize</i>.
 
 
 ### -param pcbPS2ColorRenderingDictionary
 
-TBD
+Pointer to a variable containing the size of the buffer in bytes. On return, the variable contains the number of bytes actually copied.
 
 
 ### -param pbBinary
 
 Pointer to a Boolean variable. If <b>TRUE</b>, the color rendering dictionary could be copied in binary form. If <b>FALSE</b>, the dictionary will be encoded in ASCII85 form. On return, this Boolean variable indicates whether the dictionary was actually binary (<b>TRUE</b>) or ASCII85 (<b>FALSE</b>).
-
-
-#### - pBuffer
-
-Pointer to a buffer in which the color rendering dictionary is to be placed. If the <i>pBuffer</i> pointer is set to <b>NULL</b>, the required buffer size is returned in <i>*pcbSize</i>.
-
-
-#### - pcbSize
-
-Pointer to a variable containing the size of the buffer in bytes. On return, the variable contains the number of bytes actually copied.
 
 
 ## -returns

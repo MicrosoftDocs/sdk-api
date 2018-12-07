@@ -7,7 +7,7 @@ old-location: shell\IUnknown_QueryService.htm
 tech.root: shell
 ms.assetid: 3e3f3ed0-ad36-40ef-b30c-8c85ff159f21
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IUnknown_QueryService, IUnknown_QueryService function [Windows Shell], _shell_IUnknown_QueryService, shell.IUnknown_QueryService, shlwapi/IUnknown_QueryService
 ms.prod: windows-hardware
 ms.technology: windows-devices

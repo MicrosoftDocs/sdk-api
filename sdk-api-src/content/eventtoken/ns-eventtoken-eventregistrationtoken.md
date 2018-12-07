@@ -7,10 +7,10 @@ old-location: winrt\eventregistrationtoken.htm
 tech.root: WinRT
 ms.assetid: A98FE485-B3D8-4CD5-950F-765939F4672B
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EventRegistrationToken, EventRegistrationToken structure [Windows Runtime], eventtoken/EventRegistrationToken, winrt.eventregistrationtoken
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eventtoken.h
 req.include-header: 

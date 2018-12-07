@@ -7,10 +7,10 @@ old-location: shell\ithumbnailstreamcache.htm
 tech.root: shell
 ms.assetid: 9D2C01E7-2B0B-462F-98A3-12ACBC40F6E7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IThumbnailStreamCache, IThumbnailStreamCache interface [Windows Shell], IThumbnailStreamCache interface [Windows Shell],described, shell.ithumbnailstreamcache, thumbnailstreamcache/IThumbnailStreamCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: thumbnailstreamcache.h
 req.include-header: 

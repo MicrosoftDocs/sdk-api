@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getkaraokeattributes.htm
 tech.root: DirectShow
 ms.assetid: c69ea1e0-8d8a-4cd3-86a4-a2d481160a2e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetKaraokeAttributes, GetKaraokeAttributes method [DirectShow], GetKaraokeAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetKaraokeAttributes method, IDvdInfo2.GetKaraokeAttributes, IDvdInfo2::GetKaraokeAttributes, IDvdInfo2GetKaraokeAttributes, dshow.idvdinfo2_getkaraokeattributes, strmif/IDvdInfo2::GetKaraokeAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ The <code>GetKaraokeAttributes</code> method retrieves the karaoke attributes of
 Specifies the index of the audio stream whose attributes you want to query. See Remarks.
 
 
-### -param pAttributes
-
-TBD
-
-
-
-
-#### - pATR [out]
+### -param pAttributes [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/dffb0b0e-edce-47e7-b9c0-983fdd2c4746">DVD_KaraokeAttributes</a> structure that is filled with the karaoke attributes.
 

@@ -7,10 +7,10 @@ old-location: tapi2\phonecallbackfunc.htm
 tech.root: tapi
 ms.assetid: 169ac08a-7584-4d43-abb3-eb83eeb48406
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: PHONECALLBACK, PHONECALLBACK callback function [TAPI 2.2], _tapi2_phonecallbackfunc, phoneCallback, phoneCallback callback, tapi/PHONECALLBACK, tapi2.phonecallbackfunc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: tapi.h
 req.include-header: 

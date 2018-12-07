@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createpartresources.htm
 tech.root: printdocs
 ms.assetid: f525139b-a94f-41ee-966f-408079a9e676
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: CreatePartResources, CreatePartResources method [XPS Documents and Packaging], CreatePartResources method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartResources method, IXpsOMObjectFactory.CreatePartResources, IXpsOMObjectFactory::CreatePartResources, xps.ixpsomobjectfactory_createpartresources, xpsobjectmodel/IXpsOMObjectFactory::CreatePartResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: eaphost\eaphostpeerauthparams.htm
 tech.root: eaphost
 ms.assetid: adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/16/2018
 ms.keywords: EapHostNapInfo, EapHostPeerAuthParams, EapHostPeerAuthParams enumeration [EAPHost], EapHostPeerAuthStatus, EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeerauthparams, eaphostpeertypes/EapHostNapInfo, eaphostpeertypes/EapHostPeerAuthParams, eaphostpeertypes/EapHostPeerAuthStatus, eaphostpeertypes/EapHostPeerIdentity, eaphostpeertypes/EapHostPeerIdentityExtendedInfo, tagEapHostPeerAuthParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: eaphostpeertypes.h
 req.include-header: 

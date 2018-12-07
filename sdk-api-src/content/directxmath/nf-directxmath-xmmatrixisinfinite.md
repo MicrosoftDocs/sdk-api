@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixisinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixIsInfinite(XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMMatrixIsInfinite, XMMatrixIsInfinite, XMMatrixIsInfinite method [DirectX Math Support APIs], dxmath.xmmatrixisinfinite
 ms.prod: windows-hardware
 ms.technology: windows-devices

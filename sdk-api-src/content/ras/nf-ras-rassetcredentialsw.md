@@ -7,7 +7,7 @@ old-location: rras\rassetcredentials.htm
 tech.root: rras
 ms.assetid: 5ebfffb7-9158-4414-982c-e187600aa1ab
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: RasSetCredentials, RasSetCredentials function [RAS], RasSetCredentialsA, RasSetCredentialsW, _ras_rassetcredentials, ras/RasSetCredentials, ras/RasSetCredentialsA, ras/RasSetCredentialsW, rras.rassetcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

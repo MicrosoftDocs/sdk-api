@@ -7,7 +7,7 @@ old-location: tapi2\phonesetlamp.htm
 tech.root: tapi
 ms.assetid: 2e21ef29-9c40-4463-8678-028a8772a494
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonesetlamp, phoneSetLamp, phoneSetLamp function [TAPI 2.2], tapi/phoneSetLamp, tapi2.phonesetlamp"
 ms.prod: windows-hardware
 ms.technology: windows-devices

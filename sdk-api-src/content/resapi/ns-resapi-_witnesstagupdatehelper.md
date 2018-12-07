@@ -7,10 +7,10 @@ old-location: mscs\witnesstagupdatehelper.htm
 tech.root: mscs
 ms.assetid: 4737A2B0-E295-49B6-8A84-D38BC317011B
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: WitnessTagUpdateHelper, WitnessTagUpdateHelper structure [Failover Cluster], _WitnessTagUpdateHelper, mscs.witnesstagupdatehelper, resapi/WitnessTagUpdateHelper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

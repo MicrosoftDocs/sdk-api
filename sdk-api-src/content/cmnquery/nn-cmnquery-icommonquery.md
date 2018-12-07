@@ -7,10 +7,10 @@ old-location: ad\icommonquery.htm
 tech.root: ad
 ms.assetid: 56d05afb-6e5e-41be-bc10-61192c1c1312
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: ICommonQuery, ICommonQuery interface [Active Directory], ICommonQuery interface [Active Directory],described, _glines_icommonquery, ad.icommonquery, cmnquery/ICommonQuery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cmnquery.h
 req.include-header: 

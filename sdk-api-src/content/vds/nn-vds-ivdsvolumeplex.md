@@ -4,13 +4,13 @@ title: IVdsVolumePlex
 author: windows-sdk-content
 description: Provides methods for maintaining volume plexes.
 old-location: base\ivdsvolumeplex.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 91970f8b-2b19-4054-8aa2-28e1ea74b3f6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsVolumePlex, IVdsVolumePlex interface [VDS], IVdsVolumePlex interface [VDS],described, base.ivdsvolumeplex, vds/IVdsVolumePlex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: mscs\openclusternetinterface.htm
 tech.root: mscs
 ms.assetid: 1198ad57-ea47-428f-8867-061afbfc7709
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: OpenClusterNetInterface, OpenClusterNetInterface function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE, PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE function [Failover Cluster], _wolf_openclusternetinterface, clusapi/OpenClusterNetInterface, clusapi/PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE, mscs.openclusternetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,6 +76,26 @@ Pointer to a null-terminated Unicode string containing the name of the network i
 If the operation was successful, 
        <b>OpenClusterNetInterface</b> returns an open 
        handle to the specified network interface.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the function 
+        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

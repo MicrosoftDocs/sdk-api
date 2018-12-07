@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_ink_style_properties.htm
 tech.root: direct2d
 ms.assetid: 81B9E108-D0A6-4F7E-8BE9-76A570B1D050
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_INK_STYLE_PROPERTIES, D2D1_INK_STYLE_PROPERTIES structure [Direct2D], d2d1_3/D2D1_INK_STYLE_PROPERTIES, direct2d.d2d1_ink_style_properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1_3.h
 req.include-header: 

@@ -4,13 +4,13 @@ title: ITuneRequestInfo
 author: windows-sdk-content
 description: The ITuneRequestInfo interface is implemented on the BDA MPEG2 Transport Information Filter (TIF) and is used by the Network Provider.
 old-location: mstv\itunerequestinfo.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: e5cb1a15-29c4-4e0f-aed2-eafe12ea007a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], ITuneRequestInfo interface [Microsoft TV Technologies],described, ITuneRequestInfoInterface, bdatif/ITuneRequestInfo, mstv.itunerequestinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 

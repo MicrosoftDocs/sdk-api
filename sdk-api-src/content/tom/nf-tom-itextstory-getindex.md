@@ -7,7 +7,7 @@ old-location: controls\itextstory_getindex.htm
 tech.root: controls
 ms.assetid: ef7f4714-6887-429c-8f65-77c14d55a5c4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetIndex, GetIndex method [Windows Controls], GetIndex method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetIndex method, ITextStory.GetIndex, ITextStory::GetIndex, controls.itextstory_getindex, tom/ITextStory::GetIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

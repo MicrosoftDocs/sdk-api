@@ -7,10 +7,10 @@ old-location: direct3d12\id3d12debugcommandlist.htm
 tech.root: direct3d12
 ms.assetid: EDE527F0-4091-4B03-9030-6F693FE901BE
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D12DebugCommandList, ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,described, d3d12sdklayers/ID3D12DebugCommandList, direct3d12.id3d12debugcommandlist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: 

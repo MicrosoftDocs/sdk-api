@@ -7,7 +7,7 @@ old-location: direct2d\id2d1effect_setinputeffect.htm
 tech.root: direct2d
 ms.assetid: 361B0644-7437-47DA-A34C-0234EE4E92C3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1Effect interface [Direct2D],SetInputEffect method, ID2D1Effect.SetInputEffect, ID2D1Effect::SetInputEffect, SetInputEffect, SetInputEffect method [Direct2D], SetInputEffect method [Direct2D],ID2D1Effect interface, d2d1_1/ID2D1Effect::SetInputEffect, direct2d.id2d1effect_setinputeffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,19 +65,14 @@ This method gets the output of the given effect and then passes the output image
 The index of the input to set.
 
 
-### -param inputEffect
+### -param inputEffect [in, optional]
 
-TBD
+The input effect to set.
 
 
 ### -param invalidate
 
 Whether to invalidate the graph at the location of the effect input
-
-
-#### - input [in, optional]
-
-The input effect to set.
 
 
 ## -returns

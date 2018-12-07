@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper_enummatchingfilters.htm
 tech.root: DirectShow
 ms.assetid: 602a7568-f5f8-4705-a2bc-6b9408bbbe54
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EnumMatchingFilters, EnumMatchingFilters method [DirectShow], EnumMatchingFilters method [DirectShow],IFilterMapper interface, IFilterMapper interface [DirectShow],EnumMatchingFilters method, IFilterMapper.EnumMatchingFilters, IFilterMapper::EnumMatchingFilters, IFilterMapperEnumMatchingFilters, dshow.ifiltermapper_enummatchingfilters, strmif/IFilterMapper::EnumMatchingFilters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,9 +93,9 @@ Input subtype required. Set to GUID_NULL if you do not care.
 Flag that specifies whether the filter must render the input; <b>TRUE</b> means that it must.
 
 
-### -param bOututNeeded
+### -param bOututNeeded [in]
 
-TBD
+Value indicating whether there must be at least one output pin; <b>TRUE</b> indicates at least one output pin is required.
 
 
 ### -param clsOutMaj [in]
@@ -106,11 +106,6 @@ Output major type required. Set to GUID_NULL if you do not care.
 ### -param clsOutSub [in]
 
 Output subtype required. Set to GUID_NULL if you do not care.
-
-
-#### - bOutputNeeded [in]
-
-Value indicating whether there must be at least one output pin; <b>TRUE</b> indicates at least one output pin is required.
 
 
 ## -returns

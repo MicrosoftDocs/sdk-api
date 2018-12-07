@@ -7,10 +7,10 @@ old-location: fs\retrieval_pointers_buffer_str.htm
 tech.root: fileio
 ms.assetid: ce6ac9c7-6fce-4019-83cf-2f0250d12339
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PRETRIEVAL_POINTERS_BUFFER, PRETRIEVAL_POINTERS_BUFFER, PRETRIEVAL_POINTERS_BUFFER structure pointer [Files], RETRIEVAL_POINTERS_BUFFER, RETRIEVAL_POINTERS_BUFFER structure [Files], _win32_retrieval_pointers_buffer_str, base.retrieval_pointers_buffer_str, fs.retrieval_pointers_buffer_str, winioctl/PRETRIEVAL_POINTERS_BUFFER, winioctl/RETRIEVAL_POINTERS_BUFFER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

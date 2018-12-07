@@ -4,13 +4,13 @@ title: "_MI_SubscriptionDeliveryType"
 author: windows-sdk-content
 description: Differentiates between a push or pull subscription delivery type. This is not supported when using the DCOM protocol.
 old-location: wmi_v2\mi_subscriptiondeliverytype.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 3e1eb580-8f36-4ddb-8d65-7c7e65dd08bb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_SubscriptionDeliveryType, MI_SubscriptionDeliveryType enumeration [Windows Management Infrastructure (MI)], MI_SubscriptionDeliveryType_Pull, MI_SubscriptionDeliveryType_Push, _MI_SubscriptionDeliveryType, mi/MI_SubscriptionDeliveryType, mi/MI_SubscriptionDeliveryType_Pull, mi/MI_SubscriptionDeliveryType_Push, wmi._mi_subscriptiondeliverytype, wmi_v2.mi_subscriptiondeliverytype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mi.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: multimedia\mixercaps.htm
 tech.root: Multimedia
 ms.assetid: 4a4220cb-fdb1-4afe-821f-27f5adb51530
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPMIXERCAPS, *PMIXERCAPS, MIXERCAPS, MIXERCAPS structure [Windows Multimedia], _win32_MIXERCAPS_str, mmeapi/MIXERCAPS, multimedia.mixercaps, tMIXERCAPS, tagMIXERCAPSA, tagMIXERCAPSW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: 

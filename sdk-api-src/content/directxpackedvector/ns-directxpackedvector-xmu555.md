@@ -7,10 +7,10 @@ old-location: dxmath\xmu555.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMU555
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: XMU555, XMU555 structure [DirectX Math Support APIs], directxpackedvector/XMU555, dxmath.xmu555
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -89,6 +89,23 @@ For a list of additional functionality such as constructors and operators that a
 
 Unsigned short representing the 4D vector.
 			
+
+
+### -field XMU555
+
+TBD 
+
+
+### -field operator uint16_t
+
+TBD 
+
+
+### -field operator=
+
+TBD 
+
+
 
 
 #### - w : 1

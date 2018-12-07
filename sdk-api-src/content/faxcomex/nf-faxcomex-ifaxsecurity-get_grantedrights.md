@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsecurity_cpp_mfax_faxsecurity_grantedrights_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4wab.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: GrantedRights property [Fax Service], GrantedRights property [Fax Service],IFaxSecurity interface, IFaxSecurity interface [Fax Service],GrantedRights property, IFaxSecurity.GrantedRights, IFaxSecurity.get_GrantedRights, IFaxSecurity::GrantedRights, IFaxSecurity::get_GrantedRights, _mfax_faxsecurity.grantedrights, fax._mfax_faxsecurity_cpp_mfax_faxsecurity_grantedrights_cpp, fax._mfax_faxsecurity_grantedrights, faxcomex/IFaxSecurity::GrantedRights, faxcomex/IFaxSecurity::get_GrantedRights, get_GrantedRights
 ms.prod: windows-hardware
 ms.technology: windows-devices

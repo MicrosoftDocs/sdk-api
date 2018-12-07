@@ -9,8 +9,8 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PLASTINPUTINFO, LASTINPUTINFO, LASTINPUTINFO structure [Keyboard and Mouse Input], PLASTINPUTINFO, PLASTINPUTINFO structure pointer [Keyboard and Mouse Input], _win32_LASTINPUTINFO_str, _win32_lastinputinfo_str_cpp, inputdev.lastinputinfo, tagLASTINPUTINFO, winui._win32_lastinputinfo_str, winuser/LASTINPUTINFO, winuser/PLASTINPUTINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

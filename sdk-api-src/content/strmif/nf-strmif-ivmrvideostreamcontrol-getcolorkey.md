@@ -7,7 +7,7 @@ old-location: dshow\ivmrvideostreamcontrol_getcolorkey.htm
 tech.root: DirectShow
 ms.assetid: 2075ac12-c799-4716-994f-46ff6928e670
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IVMRVideoStreamControl interface, IVMRVideoStreamControl interface [DirectShow],GetColorKey method, IVMRVideoStreamControl.GetColorKey, IVMRVideoStreamControl::GetColorKey, IVMRVideoStreamControlGetColorKey, dshow.ivmrvideostreamcontrol_getcolorkey, strmif/IVMRVideoStreamControl::GetColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ The <code>GetColorKey</code> method retrieves the source color key currently set
 
 
 
-### -param lpClrKey
-
-TBD
-
-
-
-
-#### - pclr [out]
+### -param lpClrKey [out]
 
 Address of a <a href="https://msdn.microsoft.com/bd360860-94e3-4f91-a455-5fdb227368b3">DDCOLORKEY</a> structure that receives the source color key.
 

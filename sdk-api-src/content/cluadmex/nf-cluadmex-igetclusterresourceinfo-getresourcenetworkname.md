@@ -7,7 +7,7 @@ old-location: mscs\igetclusterresourceinfo_getresourcenetworkname.htm
 tech.root: mscs
 ms.assetid: 5c4a16ab-b71c-49f6-95cb-8627eaffb8d6
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: GetResourceNetworkName, GetResourceNetworkName method [Failover Cluster], GetResourceNetworkName method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceNetworkName method, IGetClusterResourceInfo.GetResourceNetworkName, IGetClusterResourceInfo::GetResourceNetworkName, _wolf_igetclusterresourceinfo_getresourcenetworkname, cluadmex/IGetClusterResourceInfo::GetResourceNetworkName, mscs.igetclusterresourceinfo_getresourcenetworkname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,41 @@ Pointer to the maximum count in characters of the buffer pointed to by <i>lpszNe
 
 
 
-This method returns BOOL.
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUE</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The resource indexed by <i>lObjIndex</i> has a 
+         <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependency</a> on a 
+         <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">Network Name</a> resource, and the name of the 
+         network was successfully returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FALSE</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The resource indexed by <i>lObjIndex</i> does not have a dependency on a Network Name 
+         resource.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

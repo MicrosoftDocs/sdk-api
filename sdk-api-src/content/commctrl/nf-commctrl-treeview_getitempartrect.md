@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetItemPartRect.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitempartrect.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: TreeView_GetItemPartRect, TreeView_GetItemPartRect macro [Windows Controls], _shell_TreeView_GetItemPartRect, _shell_TreeView_GetItemPartRect_cpp, commctrl/TreeView_GetItemPartRect, controls.TreeView_GetItemPartRect, controls._shell_TreeView_GetItemPartRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

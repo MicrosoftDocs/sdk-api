@@ -4,13 +4,13 @@ title: IInstallationAgent
 author: windows-sdk-content
 description: Records the result for an update.
 old-location: wua\iinstallationagent.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: B24B527C-D92B-4BEB-ADCC-5E2BA684A478
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IInstallationAgent, IInstallationAgent interface [Windows Update Agent], IInstallationAgent interface [Windows Update Agent],described, wua.iinstallationagent, wuapi/IInstallationAgent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

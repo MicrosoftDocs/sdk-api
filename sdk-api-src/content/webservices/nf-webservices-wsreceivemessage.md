@@ -7,7 +7,7 @@ old-location: wsw\wsreceivemessage.htm
 tech.root: wsw
 ms.assetid: 3976c02c-d052-4eae-b675-edd317ac6464
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WsReceiveMessage, WsReceiveMessage function [Web Services for Windows], webservices/WsReceiveMessage, wsw.wsreceivemessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

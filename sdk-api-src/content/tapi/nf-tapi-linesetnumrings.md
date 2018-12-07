@@ -7,7 +7,7 @@ old-location: tapi2\linesetnumrings.htm
 tech.root: tapi
 ms.assetid: d600fd39-4e58-421c-81bf-1555f5745f5e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_linesetnumrings, lineSetNumRings, lineSetNumRings function [TAPI 2.2], tapi/lineSetNumRings, tapi2.linesetnumrings"
 ms.prod: windows-hardware
 ms.technology: windows-devices

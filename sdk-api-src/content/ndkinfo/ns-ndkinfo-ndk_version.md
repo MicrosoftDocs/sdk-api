@@ -9,8 +9,8 @@ ms.assetid: 10A5A3E6-7257-4560-8452-607EC7C54397
 ms.author: windowssdkdev
 ms.date: 09/27/2018
 ms.keywords: NDK_VERSION, NDK_VERSION structure [Network Drivers Starting with Windows Vista], ndkinfo/NDK_VERSION, netvista.ndk_version
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ndkinfo.h
 req.include-header: 

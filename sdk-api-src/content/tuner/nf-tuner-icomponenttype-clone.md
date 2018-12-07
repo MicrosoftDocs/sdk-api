@@ -4,10 +4,10 @@ title: IComponentType::Clone
 author: windows-sdk-content
 description: The Clone method creates a new copy of this component type.
 old-location: mstv\icomponenttype_clone.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 34cab0cb-8b38-4d03-be2a-ef14bd9505f2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IComponentType interface, IComponentType interface [Microsoft TV Technologies],Clone method, IComponentType.Clone, IComponentType::Clone, IComponentTypeClone, mstv.icomponenttype_clone, tuner/IComponentType::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>Clone</b> method creates a new copy of this component type.
 
 
 
-### -param NewCT
-
-TBD
-
-
-
-
-#### - ppNewCT [out]
+### -param NewCT [out]
 
 Address of the <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a> interface pointer that will be set to the returned interface.
 

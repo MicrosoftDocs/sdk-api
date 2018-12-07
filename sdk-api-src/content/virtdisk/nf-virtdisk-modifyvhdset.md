@@ -7,7 +7,7 @@ old-location: vhd\modifyvhdset.htm
 tech.root: VStor
 ms.assetid: C0BDAF45-8F87-4EF5-81F3-F15E7E575EA1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ModifyVhdSet, ModifyVhdSet function [VHD], vdssys/ModifyVhdSet, vhd.modifyvhdset, virtdisk/ModifyVhdSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Modifies the internal contents of a virtual disk file. Can be used to set the ac
 
 
 
-### -param VirtualDiskHandle
+### -param VirtualDiskHandle [in]
 
-TBD
+A handle to the open virtual disk. This must be a VHD Set file.
 
 
 ### -param Parameters [in]
@@ -71,8 +71,6 @@ A pointer to a valid <a href="https://msdn.microsoft.com/558323D6-2D97-40C8-9CAF
 
 
 ### -param Flags [in]
-
-A handle to the open virtual disk. This must be a VHD Set file.
 
 Modification flags, which must be a valid combination of the <a href="https://msdn.microsoft.com/E983A928-CE3A-4B68-BDB5-CC21CB2BCC6F">MODIFY_VHDSET_FLAG</a> enumeration.
 

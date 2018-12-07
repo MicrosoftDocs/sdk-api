@@ -4,13 +4,13 @@ title: IFsrmPropertyDefinition2
 author: windows-sdk-content
 description: Defines a property that you want to use to classify files.
 old-location: fsrm\ifsrmpropertydefinition2.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: b16e1d43-1d7d-4e6c-b0e7-60386ba9c2b5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyDefinition2, IFsrmPropertyDefinition2 interface [File Server Resource Manager], IFsrmPropertyDefinition2 interface [File Server Resource Manager],described, fs.ifsrmpropertydefinition2, fsrm.ifsrmpropertydefinition2, fsrmpipeline/IFsrmPropertyDefinition2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: 

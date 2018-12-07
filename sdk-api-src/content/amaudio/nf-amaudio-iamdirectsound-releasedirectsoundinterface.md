@@ -7,7 +7,7 @@ old-location: dshow\iamdirectsound_releasedirectsoundinterface.htm
 tech.root: DirectShow
 ms.assetid: fa02546b-7306-46ef-82a3-c6c1d89423e5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseDirectSoundInterface method, IAMDirectSound.ReleaseDirectSoundInterface, IAMDirectSound::ReleaseDirectSoundInterface, IAMDirectSoundReleaseDirectSoundInterface, ReleaseDirectSoundInterface, ReleaseDirectSoundInterface method [DirectShow], ReleaseDirectSoundInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseDirectSoundInterface, dshow.iamdirectsound_releasedirectsoundinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

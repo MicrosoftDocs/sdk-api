@@ -7,10 +7,10 @@ old-location: dshow\amvauncompdatainfo.htm
 tech.root: DirectShow
 ms.assetid: 920f88bb-c671-4ab9-b482-b03505cca118
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPAMVAUncompDataInfo, AMVAUncompDataInfo, AMVAUncompDataInfo structure [DirectShow], AMVAUncompDataInfoStructure, LPAMVAUncompDataInfo, LPAMVAUncompDataInfo structure pointer [DirectShow], _tag_AMVAUncompDataInfo, amva/AMVAUncompDataInfo, amva/LPAMVAUncompDataInfo, dshow.amvauncompdatainfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h

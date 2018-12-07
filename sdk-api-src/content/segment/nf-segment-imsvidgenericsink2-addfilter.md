@@ -4,10 +4,10 @@ title: IMSVidGenericSink2::AddFilter
 author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 old-location: mstv\imsvidgenericsink2_addfilter.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: b0044995-5bca-4f49-a22b-00df8f73b47f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddFilter, AddFilter method [Microsoft TV Technologies], AddFilter method [Microsoft TV Technologies],IMSVidGenericSink2 interface, IMSVidGenericSink2 interface [Microsoft TV Technologies],AddFilter method, IMSVidGenericSink2.AddFilter, IMSVidGenericSink2::AddFilter, IMSVidGenericSink2AddFilter, mstv.imsvidgenericsink2_addfilter, segment/IMSVidGenericSink2::AddFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,13 +67,6 @@ The <b>AddFilter</b> method specifies a DirectShow filter that is added to the g
 
 
 ### -param bstrName
-
-TBD
-
-
-
-
-#### - bstrCLSID
 
 <b>BSTR</b> that contains the CLSID of the filter. The <b>BSTR</b> must use the following format: <code>{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}</code>
 

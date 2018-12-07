@@ -4,10 +4,10 @@ title: IVssBackupComponents::GatherWriterMetadata
 author: windows-sdk-content
 description: The GatherWriterMetadata method prompts each writer to send the metadata they have collected. The method will generate an Identify event to communicate with writers.
 old-location: base\ivssbackupcomponents_gatherwritermetadata.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 44f19c10-c966-4ab6-98dd-865d535955db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GatherWriterMetadata, GatherWriterMetadata method [VSS], GatherWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterMetadata method, IVssBackupComponents.GatherWriterMetadata, IVssBackupComponents::GatherWriterMetadata, _win32_ivssbackupcomponents_gatherwritermetadata, base.ivssbackupcomponents_gatherwritermetadata, vsbackup/IVssBackupComponents::GatherWriterMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,7 @@ The
 
 
 
-### -param pAsync
-
-TBD
-
-
-
-
-#### - ppAsync [out]
+### -param pAsync [out]
 
 Doubly indirect pointer to an 
 <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> object containing the writer metadata.

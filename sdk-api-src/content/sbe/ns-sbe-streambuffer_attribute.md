@@ -4,13 +4,13 @@ title: STREAMBUFFER_ATTRIBUTE
 author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 1 or later. The STREAMBUFFER_ATTRIBUTE structure describes an attribute on a stream buffer file.
 old-location: mstv\streambuffer_attribute.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2b17626a-9268-4192-8acf-ed46bf632163
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: STREAMBUFFER_ATTRIBUTE, STREAMBUFFER_ATTRIBUTE structure [Microsoft TV Technologies], STREAMBUFFER_ATTRIBUTEStructure, mstv.streambuffer_attribute, sbe/STREAMBUFFER_ATTRIBUTE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: sbe.h
 req.include-header: 

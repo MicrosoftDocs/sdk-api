@@ -4,10 +4,10 @@ title: IBDAComparable::HashExactIncremental
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_hashexactincremental.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4ddf2545-83a6-4b5d-94ba-7034aed61f08
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: HashExactIncremental, HashExactIncremental method [Microsoft TV Technologies], HashExactIncremental method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashExactIncremental method, IBDAComparable.HashExactIncremental, IBDAComparable::HashExactIncremental, IBDAComparableHashExactIncremental, mstv.ibdacomparable_hashexactincremental, tuner/IBDAComparable::HashExactIncremental
 ms.prod: windows-hardware
 ms.technology: windows-devices

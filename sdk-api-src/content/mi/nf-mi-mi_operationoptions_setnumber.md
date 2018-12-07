@@ -4,10 +4,10 @@ title: MI_OperationOptions_SetNumber function
 author: windows-sdk-content
 description: Sets a custom number option value.
 old-location: wmi_v2\mi_operationoptions_setnumber.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 2f357a9c-7e61-4f78-b4cc-2dd0a8259c3d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_SetNumber, MI_OperationOptions_SetNumber function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetNumber, wmi_v2.mi_operationoptions_setnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

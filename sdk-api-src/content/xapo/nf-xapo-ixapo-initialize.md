@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo_interface_initialize.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Initialize(const void,UINT32)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Initialize method, IXAPO.Initialize, IXAPO::Initialize, Initialize, Initialize method [XAudio2 Audio Mixing APIs], Initialize method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Initialize, xaudio2.ixapo_interface_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

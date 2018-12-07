@@ -7,7 +7,7 @@ old-location: devinst\setupdiopenclassregkey.htm
 tech.root: devinst
 ms.assetid: 22afdbd4-91fc-44c6-ad16-0c3c1adf8c70
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupDiOpenClassRegKey, SetupDiOpenClassRegKey function [Device and Driver Installation], devinst.setupdiopenclassregkey, di-rtns_2bdb6a33-58be-4799-af21-40f807a9fab8.xml, setupapi/SetupDiOpenClassRegKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

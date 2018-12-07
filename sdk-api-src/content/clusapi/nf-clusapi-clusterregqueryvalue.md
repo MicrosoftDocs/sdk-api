@@ -7,7 +7,7 @@ old-location: mscs\clusterregqueryvalue.htm
 tech.root: mscs
 ms.assetid: 78ea27da-2b95-46df-b01e-4a3717276859
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterRegQueryValue, ClusterRegQueryValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregqueryvalue, clusapi/ClusterRegQueryValue, mscs.clusterregqueryvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,6 +156,40 @@ The <i>lpbData</i> parameter can be <b>NULL</b> only if
 
 
 The function returns one of the following values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0 (0x0)</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by <i>lpbData</i> is not large enough to hold the data for the 
+         value. <a href="https://msdn.microsoft.com/78ea27da-2b95-46df-b01e-4a3717276859">ClusterRegQueryValue</a> stores the 
+         required size in the content of <i>lpbData</i>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\resutilgetpropertiestoparameterblock.htm
 tech.root: mscs
 ms.assetid: 38d368ac-b212-4539-8faa-d7cd744da226
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK function [Failover Cluster], ResUtilGetPropertiesToParameterBlock, ResUtilGetPropertiesToParameterBlock function [Failover Cluster], _wolf_resutilgetpropertiestoparameterblock, mscs.resutilgetpropertiestoparameterblock, resapi/PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, resapi/ResUtilGetPropertiesToParameterBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,6 +91,36 @@ If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_ARGUMENTS</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the input parameters were invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+There was an error allocating memory.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

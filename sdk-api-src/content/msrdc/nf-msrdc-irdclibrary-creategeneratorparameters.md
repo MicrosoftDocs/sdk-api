@@ -4,10 +4,10 @@ title: IRdcLibrary::CreateGeneratorParameters
 author: windows-sdk-content
 description: Returns an IRdcGeneratorParameters interface pointer initialized with the parameters necessary for a signature generator.
 old-location: rdc\irdclibrary_creategeneratorparameters.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: a39e26bc-7493-4def-af6d-cf3620ec8a9f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateGeneratorParameters, CreateGeneratorParameters method [Remote Differential Compression], CreateGeneratorParameters method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateGeneratorParameters method, IRdcLibrary.CreateGeneratorParameters, IRdcLibrary::CreateGeneratorParameters, fs.irdclibrary_creategeneratorparameters, msrdc/IRdcLibrary::CreateGeneratorParameters, rdc.irdclibrary_creategeneratorparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

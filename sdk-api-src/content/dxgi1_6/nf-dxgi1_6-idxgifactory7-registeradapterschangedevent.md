@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory7_registeradapterschangedevent.htm
 tech.root: direct3ddxgi
 ms.assetid: B0A5C04B-B081-4BDD-8952-6CC9116123E0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDXGIFactory7 interface [DXGI],RegisterAdaptersChangedEvent method, IDXGIFactory7.RegisterAdaptersChangedEvent, IDXGIFactory7::RegisterAdaptersChangedEvent, RegisterAdaptersChangedEvent, RegisterAdaptersChangedEvent method [DXGI], RegisterAdaptersChangedEvent method [DXGI],IDXGIFactory7 interface, direct3ddxgi.idxgifactory7_registeradapterschangedevent, dxgi1_6/IDXGIFactory7::RegisterAdaptersChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

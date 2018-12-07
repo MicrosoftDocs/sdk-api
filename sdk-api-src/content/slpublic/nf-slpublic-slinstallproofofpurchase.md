@@ -7,7 +7,7 @@ old-location: security\slinstallproofofpurchase.htm
 tech.root: SecSLApi
 ms.assetid: ea9efcf0-5146-4ede-8ec3-dc8617e34156
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLInstallProofOfPurchase, SLInstallProofOfPurchase function [Security], security.slinstallproofofpurchase, slpublic/SLInstallProofOfPurchase
 ms.prod: windows-hardware
 ms.technology: windows-devices

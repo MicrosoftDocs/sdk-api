@@ -4,13 +4,13 @@ title: IADsSession
 author: windows-sdk-content
 description: The IADsSession interface is a dual interface that inherits from IADs. It is designed to represent an active session for file service across a network.
 old-location: adsi\iadssession.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 54621f0d-7478-4a6f-a96f-f3f93e64b281
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsSession, IADsSession interface [ADSI], IADsSession interface [ADSI],described, _ds_iadssession, adsi.iadssession, iads/IADsSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextformattedtext_getsubformatting.htm
 tech.root: medfound
 ms.assetid: EC6F41A4-BB07-419B-BE03-8D82709D9A24
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetSubformatting, GetSubformatting method [Media Foundation], GetSubformatting method [Media Foundation],IMFTimedTextFormattedText interface, IMFTimedTextFormattedText interface [Media Foundation],GetSubformatting method, IMFTimedTextFormattedText.GetSubformatting, IMFTimedTextFormattedText::GetSubformatting, mf.imftimedtextformattedtext_getsubformatting, mfmediaengine/IMFTimedTextFormattedText::GetSubformatting
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,45 +58,14 @@ Gets a subformat in the formatted timed-text object.
 
 
 
-### -param index
-
-TBD
-
-
-### -param firstChar
-
-TBD
-
-
-### -param charLength
-
-TBD
-
-
-### -param style
-
-TBD
-
-
-
-
-#### - nIndex [in]
+### -param index [in]
 
 Type: <b>DWORD</b>
 
 The index of the subformat in the formatted timed-text object.
 
 
-#### - pcchCharLength [out]
-
-Type: <b>DWORD*</b>
-
-A pointer to a variable that receives the length, in characters, of the subformat.
-
-
-
-
-#### - pnFirstChar [out]
+### -param firstChar [out]
 
 Type: <b>DWORD*</b>
 
@@ -105,7 +74,16 @@ A pointer to a variable that receives the first character of the subformat.
 
 
 
-#### - ppStyle [out]
+### -param charLength [out]
+
+Type: <b>DWORD*</b>
+
+A pointer to a variable that receives the length, in characters, of the subformat.
+
+
+
+
+### -param style [out]
 
 Type: <b><a href="https://msdn.microsoft.com/ED358A36-BEEF-491E-8984-938F71472F26">IMFTimedTextStyle</a>**</b>
 

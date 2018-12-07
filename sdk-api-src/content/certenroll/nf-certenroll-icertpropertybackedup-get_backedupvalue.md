@@ -4,10 +4,10 @@ title: ICertPropertyBackedUp::get_BackedUpValue
 author: windows-sdk-content
 description: Retrieves a Boolean value that identifies whether the certificate was backed up.
 old-location: security\icertpropertybackedup_backedupvalue_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 206ef65a-93c5-4c0d-b673-42a0b065225c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: BackedUpValue property [Security], BackedUpValue property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpValue property, ICertPropertyBackedUp.BackedUpValue, ICertPropertyBackedUp.get_BackedUpValue, ICertPropertyBackedUp::BackedUpValue, ICertPropertyBackedUp::get_BackedUpValue, certenroll/ICertPropertyBackedUp::BackedUpValue, certenroll/ICertPropertyBackedUp::get_BackedUpValue, get_BackedUpValue, security.icertpropertybackedup_backedupvalue_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

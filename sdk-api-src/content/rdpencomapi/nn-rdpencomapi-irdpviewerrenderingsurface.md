@@ -4,13 +4,13 @@ title: IRDPViewerRenderingSurface
 author: windows-sdk-content
 description: Manages the rendering surface for the viewer.
 old-location: rdp\irdpviewerrenderingsurface.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 24d818ec-f58d-4bf1-adf8-c15560595147
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPViewerRenderingSurface, IRDPViewerRenderingSurface interface [RDP], IRDPViewerRenderingSurface interface [RDP],described, rdp.irdpviewerrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

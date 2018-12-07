@@ -9,8 +9,8 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_0vxf.htm
 ms.author: windowssdkdev
 ms.date: 10/02/2018
 ms.keywords: DBPROBABILISTIC, DBPROBABILISTIC structure [Indexing Service], _idxs_DBPROBABILISTIC, cmdtree/DBPROBABILISTIC, indexsrv.dbprobabilistic, tagDBPROBABILISTIC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 

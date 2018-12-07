@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemoryallocator_getdevmemoryobject.htm
 tech.root: DirectShow
 ms.assetid: d7ca361a-1ce6-449f-9d81-fbfe39f0f9f0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDevMemoryObject, GetDevMemoryObject method [DirectShow], GetDevMemoryObject method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],GetDevMemoryObject method, IAMDevMemoryAllocator.GetDevMemoryObject, IAMDevMemoryAllocator::GetDevMemoryObject, IAMDevMemoryAllocatorGetDevMemoryObject, dshow.iamdevmemoryallocator_getdevmemoryobject, strmif/IAMDevMemoryAllocator::GetDevMemoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,19 +63,14 @@ Retrieves an <b>IUnknown</b> interface pointer to a device memory control object
 
 
 
-### -param ppUnkInnner
+### -param ppUnkInnner [out]
 
-TBD
+Address of a pointer to the newly created control object's own <b>IUnknown</b>. This inner <b>IUnknown</b> interface should be released when the outer object is destroyed. The custom allocator should call the <b>QueryInterface</b> method on this pointer to obtain the <a href="https://msdn.microsoft.com/9945bffb-6748-4c7d-ba14-91470cf6c651">IAMDevMemoryControl</a> interface.
 
 
 ### -param pUnkOuter [in]
 
 Pointer to the custom allocator's own <b>IUnknown</b> interface. This interface aggregates the device memory control object inside the custom allocator.
-
-
-#### - ppUnkInner [out]
-
-Address of a pointer to the newly created control object's own <b>IUnknown</b>. This inner <b>IUnknown</b> interface should be released when the outer object is destroyed. The custom allocator should call the <b>QueryInterface</b> method on this pointer to obtain the <a href="https://msdn.microsoft.com/9945bffb-6748-4c7d-ba14-91470cf6c651">IAMDevMemoryControl</a> interface.
 
 
 ## -returns

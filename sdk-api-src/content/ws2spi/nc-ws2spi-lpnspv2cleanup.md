@@ -7,10 +7,10 @@ old-location: winsock\nspv2cleanup.htm
 tech.root: winsock
 ms.assetid: 36064c0e-c83c-4819-a3e4-c89df50eb659
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: LPNSPV2CLEANUP, NSPv2Cleanup, NSPv2Cleanup function [Winsock], winsock.nspv2cleanup, ws2spi/NSPv2Cleanup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

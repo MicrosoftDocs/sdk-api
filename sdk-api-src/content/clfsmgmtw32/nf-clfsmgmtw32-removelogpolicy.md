@@ -7,7 +7,7 @@ old-location: fs\removelogpolicy.htm
 tech.root: Clfs
 ms.assetid: 06e8c1bf-f190-4f3d-a588-5c8dd2e99f43
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RemoveLogPolicy, RemoveLogPolicy function [Files], clfsmgmtw32/RemoveLogPolicy, fs.removelogpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

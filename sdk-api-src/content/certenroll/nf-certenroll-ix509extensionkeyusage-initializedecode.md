@@ -4,10 +4,10 @@ title: IX509ExtensionKeyUsage::InitializeDecode
 author: windows-sdk-content
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensionkeyusage_initializedecode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 5e51a148-0a76-4f38-b92f-fd5209e0b497
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IX509ExtensionKeyUsage interface [Security],InitializeDecode method, IX509ExtensionKeyUsage.InitializeDecode, IX509ExtensionKeyUsage::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionKeyUsage interface, certenroll/IX509ExtensionKeyUsage::InitializeDecode, security.ix509extensionkeyusage_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

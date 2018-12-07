@@ -7,7 +7,7 @@ old-location: wmformat\iwmreader_resume.htm
 tech.root: wmformat
 ms.assetid: 4af00d1f-c78a-4f43-be2d-9561e3c7cf36
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMReader interface [windows Media Format],Resume method, IWMReader.Resume, IWMReader::Resume, IWMReaderResume, Resume, Resume method [windows Media Format], Resume method [windows Media Format],IWMReader interface, wmformat.iwmreader_resume, wmsdkidl/IWMReader::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices

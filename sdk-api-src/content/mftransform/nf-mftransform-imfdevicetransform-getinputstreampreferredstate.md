@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getinputstreampreferredstate.htm
 tech.root: stream
 ms.assetid: 56334B73-DCBC-4999-9685-2489D6C15E2E
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetInputStreamPreferredState, GetInputStreamPreferredState method [Streaming Media Devices], GetInputStreamPreferredState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputStreamPreferredState method, IMFDeviceTransform.GetInputStreamPreferredState, IMFDeviceTransform::GetInputStreamPreferredState, mftransform/IMFDeviceTransform::GetInputStreamPreferredState, stream.imfdevicetransform_getinputstreampreferredstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,19 +63,14 @@ The <b>GetInputStreamPreferredState</b> method gets a Device MFT input stream’
 Stream ID of the input stream whose state needs to be retrieved.
 
 
-### -param value
+### -param value [out]
 
-TBD
+Specifies the current <b>DeviceStreamState</b> of the specified input Device MFT stream. 
 
 
 ### -param ppMediaType [out]
 
 Preferred media type for the input stream is passed in through this parameter.
-
-
-#### - deviceStreamState [out]
-
-Specifies the current <b>DeviceStreamState</b> of the specified input Device MFT stream. 
 
 
 ## -returns

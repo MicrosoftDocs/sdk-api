@@ -7,7 +7,7 @@ old-location: secbiomet\winbioacquirefocus.htm
 tech.root: SecBioMet
 ms.assetid: ad8bdcc9-0317-4d35-a587-9a2f3a4144ae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioAcquireFocus, WinBioAcquireFocus function [Windows Biometric Framework API], secbiomet.winbioacquirefocus, winbio/WinBioAcquireFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

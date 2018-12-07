@@ -7,7 +7,7 @@ old-location: winsock\wsaunadvertiseprovider.htm
 tech.root: winsock
 ms.assetid: 5975b496-53a7-4f8a-8efc-27ef447596c2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WSAUnadvertiseProvider, WSAUnadvertiseProvider function [Winsock], winsock.wsaunadvertiseprovider, ws2spi/WSAUnadvertiseProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IOfflineFilesEventsFilter::GetPathFilter
 author: windows-sdk-content
 description: Retrieves a UNC path string and a scope indicator describing which path-based events should be delivered to this event sink.
 old-location: of\iofflinefileseventsfilter_getpathfilter.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 0b9d8339-3daa-4f0c-8a52-59e06b663163
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetPathFilter, GetPathFilter method [Offline Files], GetPathFilter method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetPathFilter method, IOfflineFilesEventsFilter.GetPathFilter, IOfflineFilesEventsFilter::GetPathFilter, cscobj/IOfflineFilesEventsFilter::GetPathFilter, of.iofflinefileseventsfilter_getpathfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

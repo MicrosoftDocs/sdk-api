@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext4_drawsvgglyphrun.htm
 tech.root: direct2d
 ms.assetid: 20E9047F-3671-4C6D-8A46-C3F77E16BC1C
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: DrawSvgGlyphRun, DrawSvgGlyphRun method [Direct2D], DrawSvgGlyphRun method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],DrawSvgGlyphRun method, ID2D1DeviceContext4.DrawSvgGlyphRun, ID2D1DeviceContext4::DrawSvgGlyphRun, d2d1_3/ID2D1DeviceContext4::DrawSvgGlyphRun, direct2d.id2d1devicecontext4_drawsvgglyphrun
 ms.prod: windows-hardware
 ms.technology: windows-devices

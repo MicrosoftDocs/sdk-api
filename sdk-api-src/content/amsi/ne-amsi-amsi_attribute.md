@@ -7,10 +7,10 @@ old-location: amsi\amsi_attribute.htm
 tech.root: AMSI
 ms.assetid: 19DD293C-71FF-4E40-A2B7-12B4A2D00DBD
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AMSI_ATTRIBUTE, AMSI_ATTRIBUTE enumeration [Antimalware Scan Interface], AMSI_ATTRIBUTE_APP_NAME, AMSI_ATTRIBUTE_CONTENT_ADDRESS, AMSI_ATTRIBUTE_CONTENT_NAME, AMSI_ATTRIBUTE_CONTENT_SIZE, AMSI_ATTRIBUTE_SESSION, amsi.amsi_attribute, amsi/AMSI_ATTRIBUTE, amsi/AMSI_ATTRIBUTE_APP_NAME, amsi/AMSI_ATTRIBUTE_CONTENT_ADDRESS, amsi/AMSI_ATTRIBUTE_CONTENT_NAME, amsi/AMSI_ATTRIBUTE_CONTENT_SIZE, amsi/AMSI_ATTRIBUTE_SESSION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: amsi.h
 req.include-header: 

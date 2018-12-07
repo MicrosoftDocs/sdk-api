@@ -7,7 +7,7 @@ old-location: shell\IExtractImage_Extract.htm
 tech.root: shell
 ms.assetid: 7c40e2cf-c706-4a4a-819f-a416d6846158
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Extract, Extract method [Windows Shell], Extract method [Windows Shell],IExtractImage interface, IExtractImage interface [Windows Shell],Extract method, IExtractImage.Extract, IExtractImage::Extract, _win32_IExtractImage_Extract, shell.IExtractImage_Extract, shobjidl_core/IExtractImage::Extract
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Requests an image from an object, such as an item in a Shell folder.
 
 
 
-### -param phBmpThumbnail
-
-TBD
-
-
-
-
-#### - phBmpImage [out]
+### -param phBmpThumbnail [out]
 
 Type: <b>HBITMAP*</b>
 

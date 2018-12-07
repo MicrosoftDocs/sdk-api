@@ -7,7 +7,7 @@ old-location: tapi3\ienummcastscope_next.htm
 tech.root: tapi
 ms.assetid: f7618414-c2fc-46c8-8f9d-c1ad217c8d94
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumMcastScope interface [TAPI 2.2],Next method, IEnumMcastScope.Next, IEnumMcastScope::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumMcastScope interface, _tapi3_ienummcastscope_next, mdhcp/IEnumMcastScope::Next, tapi3.ienummcastscope_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

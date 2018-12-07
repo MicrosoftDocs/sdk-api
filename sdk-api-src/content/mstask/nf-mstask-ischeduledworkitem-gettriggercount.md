@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetTriggerCount
 author: windows-sdk-content
 description: Retrieves the number of triggers for the current work item.
 old-location: taskschd\ischeduledworkitem_gettriggercount.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: db1c98db-c4c1-45af-baba-097ee8dc6abf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTriggerCount, GetTriggerCount method [Task Scheduler], GetTriggerCount method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerCount method, IScheduledWorkItem.GetTriggerCount, IScheduledWorkItem::GetTriggerCount, _msb_ischeduledworkitem_gettriggercount, mstask/IScheduledWorkItem::GetTriggerCount, taskschd.ischeduledworkitem_gettriggercount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,7 @@ Retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa3825
 
 
 
-### -param pwCount
-
-TBD
-
-
-
-
-#### - plCount [out]
+### -param pwCount [out]
 
 A pointer to a <b>WORD</b> that will contain the number of triggers associated with the work item.
 

@@ -4,13 +4,13 @@ title: IBDA_UserActivityService
 author: windows-sdk-content
 description: Defines methods that detect user activity in a Protected Broadcast Driver Architecture (PBDA) media graph.
 old-location: mstv\ibda_useractivityservice.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d2c8f14e-11d7-4385-a6c8-31b086ec1286
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_UserActivityService, IBDA_UserActivityService interface [Microsoft TV Technologies], IBDA_UserActivityService interface [Microsoft TV Technologies],described, bdaiface/IBDA_UserActivityService, mstv.ibda_useractivityservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

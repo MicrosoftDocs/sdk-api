@@ -7,10 +7,10 @@ old-location: wds\wdstransport_slow_client_handling_type.htm
 tech.root: wds
 ms.assetid: e15e67c3-ad39-4504-bd38-1b291082d196
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE enumeration [Windows Deployment Services], WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE enumeration [Windows Deployment Services], WdsTptSlowClientHandlingAutoDisconnect, WdsTptSlowClientHandlingMultistream, WdsTptSlowClientHandlingNone, WdsTptSlowClientHandlingUnknown, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0010, wds.wdstransport_slow_client_handling_type, wdstptmgmt/WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, wdstptmgmt/WdsTptSlowClientHandlingAutoDisconnect, wdstptmgmt/WdsTptSlowClientHandlingMultistream, wdstptmgmt/WdsTptSlowClientHandlingNone, wdstptmgmt/WdsTptSlowClientHandlingUnknown"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wdstptmgmt.h
 req.include-header: 

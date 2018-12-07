@@ -7,10 +7,10 @@ old-location: directcomp\idcompositionbrightnesseffect.htm
 tech.root: directcomp
 ms.assetid: 22503D7B-A359-4877-A437-6A97D8835BC7
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionBrightnessEffect, IDCompositionBrightnessEffect interface [DirectComposition], IDCompositionBrightnessEffect interface [DirectComposition],described, dcomp/IDCompositionBrightnessEffect, directcomp.idcompositionbrightnesseffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 

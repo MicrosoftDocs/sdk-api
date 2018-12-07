@@ -7,7 +7,7 @@ old-location: snmp\snmputiloctetsncmp.htm
 tech.root: SNMP
 ms.assetid: bba13c41-1c0f-4a54-9a93-8115ef77c086
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpUtilOctetsNCmp, SnmpUtilOctetsNCmp function [SNMP], _snmp_snmputiloctetsncmp, snmp.snmputiloctetsncmp, snmp/SnmpUtilOctetsNCmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

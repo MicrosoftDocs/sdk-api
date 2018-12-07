@@ -7,10 +7,10 @@ old-location: security\iocspadmin.htm
 tech.root: seccrypto
 ms.assetid: cf76e934-07a2-46de-b2cf-7f6d3e274d71
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], IOCSPAdmin interface [Security],described, OCSPAdmin object, certadm/IOCSPAdmin, security.iocspadmin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certadm.h
 req.include-header: 

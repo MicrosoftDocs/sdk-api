@@ -7,7 +7,7 @@ old-location: winrt\isurfaceimagesourcenativewithd2d_setdevice.htm
 tech.root: WinRT
 ms.assetid: FBBF0A5E-68FF-4143-A874-0C1100100428
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],SetDevice method, ISurfaceImageSourceNativeWithD2D.SetDevice, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::SetDevice, ISurfaceImageSourceNativeWithD2D::xaml, SetDevice, SetDevice method [Windows Runtime], SetDevice method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::SetDevice, winrt.isurfaceimagesourcenativewithd2d_setdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Sets the Microsoft DirectX Graphics Infrastructure (DXGI) or Direct2D device, cr
 
 
 
-### -param device
-
-TBD
-
-
-
-
-#### - pDevice [in]
+### -param device [in]
 
 Pointer to the DXGI device interface. You can pass an <a href="https://msdn.microsoft.com/21f77c38-c115-4fdf-b294-570577a29201">ID2D1Device</a> to signal that this surface participates in Direct2D batching to improve performance when updating Direct2D content across multiple surfaces.  The device must have multithreading supported enabled if the app draws to the surface from a background thread. 
 

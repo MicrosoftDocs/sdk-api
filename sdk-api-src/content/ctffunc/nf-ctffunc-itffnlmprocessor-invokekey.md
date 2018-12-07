@@ -7,7 +7,7 @@ old-location: tsf\itffnlmprocessor_invokekey.htm
 tech.root: TSF
 ms.assetid: 0611dd1e-6f79-4397-b523-e4fb278725f7
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],InvokeKey method, ITfFnLMProcessor.InvokeKey, ITfFnLMProcessor::InvokeKey, InvokeKey, InvokeKey method [Text Services Framework], InvokeKey method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_invokekey_ref, ctffunc/ITfFnLMProcessor::InvokeKey, tsf.itffnlmprocessor_invokekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

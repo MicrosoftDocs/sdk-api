@@ -7,10 +7,10 @@ old-location: ad\ds_repl_attr_meta_data.htm
 tech.root: ad
 ms.assetid: 27ccc1c9-03d7-4d13-b9ec-65d6b8bdfd37
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: DS_REPL_ATTR_META_DATA, DS_REPL_ATTR_META_DATA structure [Active Directory], _DS_REPL_ATTR_META_DATA, _glines_ds_repl_attr_meta_data, ad.ds__repl__attr__meta__data, ad.ds_repl_attr_meta_data, ntdsapi/DS_REPL_ATTR_META_DATA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

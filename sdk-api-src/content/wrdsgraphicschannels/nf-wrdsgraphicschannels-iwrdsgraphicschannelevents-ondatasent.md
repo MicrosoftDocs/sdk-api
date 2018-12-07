@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannelevents_ondatasent.htm
 tech.root: termserv
 ms.assetid: eb5af337-a412-4bda-862f-7e12705d0446
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnDataSent method, IWRdsGraphicsChannelEvents.OnDataSent, IWRdsGraphicsChannelEvents::OnDataSent, OnDataSent, OnDataSent method [Remote Desktop Services], OnDataSent method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_ondatasent, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataSent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,9 +63,9 @@ Called when the <a href="https://msdn.microsoft.com/6ce627d8-078d-427a-b732-473d
 A user-defined interface pointer that is passed as the <i>pContext</i> parameter in the <a href="https://msdn.microsoft.com/6ce627d8-078d-427a-b732-473d4f44f719">IWRdsGraphicsChannel::Write</a> method.
 
 
-### -param bCancelled
+### -param bCancelled [in]
 
-TBD
+Contains <b>TRUE</b> if the connection was dropped during the write, or <b>FALSE</b> otherwise.
 
 
 ### -param pBuffer [in]
@@ -76,11 +76,6 @@ A pointer to a buffer that contains the data that was sent. The <i>cbBuffer</i> 
 ### -param cbBuffer [in]
 
 The length, in bytes, of the data in <i>pBuffer</i>.
-
-
-#### - bCanceled [in]
-
-Contains <b>TRUE</b> if the connection was dropped during the write, or <b>FALSE</b> otherwise.
 
 
 ## -returns

@@ -7,10 +7,10 @@ old-location: mf\opm_random_number.htm
 tech.root: medfound
 ms.assetid: d3a5be4b-39d1-43da-b87e-ab4dd7815262
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: OPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER structure [Media Foundation], _OPM_RANDOM_NUMBER, ksopmapi/OPM_RANDOM_NUMBER, mf.opm_random_number
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: Opmapi.h

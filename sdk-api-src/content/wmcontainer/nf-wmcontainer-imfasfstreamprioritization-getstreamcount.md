@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamprioritization_getstreamcount.htm
 tech.root: medfound
 ms.assetid: 8c9dacbb-a952-411e-82df-0c8768d0b3fe
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 8c9dacbb-a952-411e-82df-0c8768d0b3fe, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],GetStreamCount method, IMFASFStreamPrioritization.GetStreamCount, IMFASFStreamPrioritization::GetStreamCount, mf.imfasfstreamprioritization_getstreamcount, wmcontainer/IMFASFStreamPrioritization::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,7 @@ Retrieves the number of entries in the stream priority list.
 
 
 
-### -param pdwStreamCount
-
-TBD
-
-
-
-
-#### - dwStreamIndex [out]
+### -param pdwStreamCount [out]
 
 Receives the number of streams in the stream priority list.
 

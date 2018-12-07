@@ -4,10 +4,10 @@ title: ITaskScheduler::Enum
 author: windows-sdk-content
 description: The Enum method retrieves a pointer to an OLE enumerator object that enumerates the tasks in the current task folder.
 old-location: taskschd\itaskscheduler_enum.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: aca750e3-89b0-47f2-a9b9-49fe5db7f234
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Enum, Enum method [Task Scheduler], Enum method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Enum method, ITaskScheduler.Enum, ITaskScheduler::Enum, _msb_itaskscheduler_enum, mstask/ITaskScheduler::Enum, taskschd.itaskscheduler_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The
 
 
 
-### -param ppEnumWorkItems
-
-TBD
-
-
-
-
-#### - ppEnumTasks [out]
+### -param ppEnumWorkItems [out]
 
 A pointer to a pointer to an 
 <a href="https://msdn.microsoft.com/1af162e5-8ba1-4d2e-9451-39c80ac0eecf">IEnumWorkItems</a> interface. This interface contains the enumeration context of the current task(s).

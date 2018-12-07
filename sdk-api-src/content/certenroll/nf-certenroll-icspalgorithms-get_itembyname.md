@@ -4,10 +4,10 @@ title: ICspAlgorithms::get_ItemByName
 author: windows-sdk-content
 description: Retrieves an ICspAlgorithm object from the collection by name.
 old-location: security\icspalgorithms_itembyname_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a5984d8a-3199-4976-ac0f-95917843f473
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICspAlgorithms interface [Security],ItemByName property, ICspAlgorithms.ItemByName, ICspAlgorithms.get_ItemByName, ICspAlgorithms::ItemByName, ICspAlgorithms::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByName, certenroll/ICspAlgorithms::get_ItemByName, get_ItemByName, security.icspalgorithms_itembyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

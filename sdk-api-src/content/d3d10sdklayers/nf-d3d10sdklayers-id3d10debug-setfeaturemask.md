@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10debug_setfeaturemask.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_setfeaturemask.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 663f3b21-bce6-d627-ee2d-e5e129eee88d, ID3D10Debug interface [Direct3D 10],SetFeatureMask method, ID3D10Debug.SetFeatureMask, ID3D10Debug::SetFeatureMask, SetFeatureMask, SetFeatureMask method [Direct3D 10], SetFeatureMask method [Direct3D 10],ID3D10Debug interface, d3d10sdklayers/ID3D10Debug::SetFeatureMask, direct3d10.id3d10debug_setfeaturemask
 ms.prod: windows-hardware
 ms.technology: windows-devices

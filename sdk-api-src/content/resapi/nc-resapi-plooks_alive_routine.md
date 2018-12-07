@@ -7,10 +7,10 @@ old-location: mscs\looksalive.htm
 tech.root: mscs
 ms.assetid: cfc57325-847d-4f59-bee8-6a02b0a2ef32
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: LooksAlive, LooksAlive callback, LooksAlive callback function [Failover Cluster], PLOOKS_ALIVE_ROUTINE, PLOOKS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_looksalive, mscs.looksalive, resapi/LooksAlive, resapi/PLOOKS_ALIVE_ROUTINE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
@@ -69,11 +69,37 @@ Resource identifier for the resource to poll.
 
 
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUE</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is probably online and available for use.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FALSE</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The resource may not be functioning properly.
 
-Returns BOOL that ...
-
-
+</td>
+</tr>
+</table>
+ 
 
 
 

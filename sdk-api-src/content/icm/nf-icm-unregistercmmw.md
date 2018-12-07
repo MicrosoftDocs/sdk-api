@@ -7,7 +7,7 @@ old-location: wcs\unregistercmm.htm
 tech.root: WCS
 ms.assetid: b965db49-6131-4146-b298-77455b80972d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: UnregisterCMM, UnregisterCMM function [Windows Color System], UnregisterCMMA, UnregisterCMMW, _color_UnregisterCMM, icm/UnregisterCMM, icm/UnregisterCMMA, icm/UnregisterCMMW, wcs.unregistercmm
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- UnregisterCMMW
+: 
 ---
 
 # UnregisterCMMW function

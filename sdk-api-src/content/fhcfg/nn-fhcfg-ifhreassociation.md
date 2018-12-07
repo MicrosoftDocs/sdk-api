@@ -7,10 +7,10 @@ old-location: winprog\ifhreassociation.htm
 tech.root: devnotes
 ms.assetid: B1CBD7DD-5B4D-4B3E-BE7D-B6497ABFB588
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IFhReassociation, IFhReassociation interface [Windows API], IFhReassociation interface [Windows API],described, fhcfg/IFhReassociation, winprog.ifhreassociation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fhcfg.h
 req.include-header: 

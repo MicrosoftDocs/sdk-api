@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties_SetDate.htm
 tech.root: wincontacts
 ms.assetid: bbe0a788-7291-48f7-a36a-88e5b6b971dc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetDate method, IContactProperties.SetDate, IContactProperties::SetDate, SetDate, SetDate method [Windows Contacts], SetDate method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetDate, icontact/IContactProperties::SetDate, wincontacts._wincontacts_IContactProperties_SetDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

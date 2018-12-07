@@ -4,13 +4,13 @@ title: "_MI_Real64A"
 author: windows-sdk-content
 description: Represents an array of MI_Real64 types.
 old-location: wmi_v2\mi_real64a.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: fbcab0cf-ae1d-4f0b-a315-c1936e53c49f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Real64A, MI_Real64A structure [Windows Management Infrastructure (MI)], _MI_Real64A, mi/MI_Real64A, wmi._mi_real64a, wmi_v2.mi_real64a
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

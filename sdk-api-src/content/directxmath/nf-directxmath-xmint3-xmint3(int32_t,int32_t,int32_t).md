@@ -2,13 +2,13 @@
 UID: NF:directxmath.XMINT3.XMINT3(int32_t,int32_t,int32_t)
 title: XMINT3 function
 author: windows-sdk-content
-description: Constructors exposed by XMINT3.
-old-location: dxmath\xmint3_ctor.htm
+description: Initializes a new instance of XMINT3 from three int32_t arguments.
+old-location: dxmath\xmint3_ctor_2.htm
 tech.root: dxmath
-ms.assetid: Overload:Microsoft.directx_sdk.reference.XMINT3.#ctor
+ms.assetid: M:Microsoft.directx_sdk.reference.XMINT3.#ctor(int32_t,int32_t,int32_t)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: XMINT3, XMINT3 Constructors, XMINT3 Constructors constructors [DirectX Math Support APIs], directxmath/XMINT3 Constructors, dxmath.xmint3_ctor
+ms.date: 11/15/2018
+ms.keywords: XMINT3 constructor [DirectX Math Support APIs], XMINT3 constructor [DirectX Math Support APIs],XMINT3 structure, XMINT3 structure [DirectX Math Support APIs],XMINT3 constructor, XMINT3.XMINT3(int32_t,int32_t,int32_t), dxmath.xmint3_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: 
+req.namespace: Use DirectX.
 req.assembly: 
 req.type-library: 
 req.lib: 
@@ -33,15 +33,21 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - directxmath.h
+ - DirectXMath.h
 api_name:
- - XMINT3
+ - XMINT3.XMINT3
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMINT3
+: 
 ---
 
 # XMINT3 function
@@ -50,59 +56,59 @@ req.redist:
 ## -description
 
 
-<span>Constructors exposed by <code>XMINT3</code>.
-
-Constructs instances of the <a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a> structure.
-
-<div class="alert"><b>Note</b>  The constructors listed here are only available under C++.</div>
-<div> </div></span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6826a22b-8250-4089-8f50-049bac192f39">XMINT3 (const int32_t*)</a>
-</td>
-<td align="left" width="63%">
-Initializes a new instance of <code>XMINT3</code> from a three element <code>int32_t</code> array argument.
-
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a> from a from a three element
-  <code>int32_t</code> array argument.
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aac16c54-bc94-4c3c-9b65-c96763d44448">XMINT3 (int32_t,int32_t,int32_t)</a>
-</td>
-<td align="left" width="63%">
 Initializes a new instance of <code>XMINT3</code> from three <code>int32_t</code> arguments.
 
 This constructor initializes a new instance of <a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a> from three <code>int32_t</code> arguments.
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2027649f-b6c6-4fbb-8d3b-d56b61630390">XMINT3 ()</a>
-</td>
-<td align="left" width="63%">
-Default constructor for <code>XMINT3</code>.
-
-Default constructor for <a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a>.
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
-<div> </div>
-</td>
-</tr>
-</table>
+<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
+
+
+
+
+### -param _x
+
+Value to be stored in the x-component (the <b>x</b> member) of the new instance of
+	    <code>XMINT3</code>.
+	
+
+
+### -param _y
+
+Value to be stored in the y-component (the <b>y</b> member) of the new instance of
+	    <code>XMINT3</code>.
+	
+
+
+### -param _z
+
+Value to be stored in the z-component (the <b>z</b> member) of the new instance of
+	    <code>XMINT3</code>.
+	
+
+
+## -remarks
+
+
+
+The following pseudocode demonstrates the operation of this constructor:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+	XMINT3 instance;
+	instance.x =  _x;
+	instance.y =  _y;
+	instance.z =  _z;
+    </pre>
+</td>
+</tr>
+</table></span></div>
+
 
 
 ## -see-also
@@ -118,7 +124,7 @@ Default constructor for <a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-a
 
 
 
-<a href="https://msdn.microsoft.com/b1903568-6563-4304-a778-9574f08a5eec">XMINT3 Extensions</a>
+<a href="https://msdn.microsoft.com/69eb08b8-a533-40cc-8efb-ccb9106e0e24">XMINT3 Constructors</a>
  
 
  

@@ -4,10 +4,10 @@ title: IVssBackupComponents::RevertToSnapshot
 author: windows-sdk-content
 description: Reverts a volume to a previous shadow copy.
 old-location: base\ivssbackupcomponents_reverttosnapshot.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 9976195e-3448-4b0e-82b2-1ae061c75b17
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVssBackupComponents interface [VSS],RevertToSnapshot method, IVssBackupComponents.RevertToSnapshot, IVssBackupComponents::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method [VSS], RevertToSnapshot method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_reverttosnapshot, base.ivssbackupcomponents_reverttosnapshot, vsbackup/IVssBackupComponents::RevertToSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices

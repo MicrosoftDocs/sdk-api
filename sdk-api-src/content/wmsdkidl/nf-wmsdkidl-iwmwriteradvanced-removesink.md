@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced_removesink.htm
 tech.root: wmformat
 ms.assetid: e2fc7f82-981a-4f69-b99d-71514ed2c6ae
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],RemoveSink method, IWMWriterAdvanced.RemoveSink, IWMWriterAdvanced::RemoveSink, IWMWriterAdvancedRemoveSink, RemoveSink, RemoveSink method [windows Media Format], RemoveSink method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_removesink, wmsdkidl/IWMWriterAdvanced::RemoveSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

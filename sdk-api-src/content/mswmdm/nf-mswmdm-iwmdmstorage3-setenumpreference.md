@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage3_setenumpreference.htm
 tech.root: WMDM
 ms.assetid: 74916098-07d2-4dc9-932d-b174a10032dd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWMDMStorage3 interface [windows Media Device Manager],SetEnumPreference method, IWMDMStorage3.SetEnumPreference, IWMDMStorage3::SetEnumPreference, IWMDMStorage3SetEnumPreference, SetEnumPreference, SetEnumPreference method [windows Media Device Manager], SetEnumPreference method [windows Media Device Manager],IWMDMStorage3 interface, mswmdm/IWMDMStorage3::SetEnumPreference, wmdm.iwmdmstorage3_setenumpreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,14 +78,7 @@ If the value of <i>pMode</i> is ENUM_MODE_METADATA_VIEWS or if the value of <i>p
 If the value of <i>nViews</i> is 0, <i>ppViews</i> must be <b>NULL</b>. If the value of <i>nViews</i> is not 0, <i>ppViews</i> must point to an array of <a href="https://msdn.microsoft.com/787d2295-d433-451d-a1fc-6f73585e10d6">WMDMMetadataView</a> structures with <i>nViews</i> elements.
 
 
-### -param pViews
-
-TBD
-
-
-
-
-#### - ppViews [in]
+### -param pViews [in]
 
 Array of view definitions. The length of the array must be equal to <i>nViews</i>.
 

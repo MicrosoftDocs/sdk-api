@@ -9,8 +9,8 @@ ms.assetid: d8e9b1b9-70b7-41b3-bbf0-7cd04ebabf55
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_TARGET, WS_HTTP_HEADER_AUTH_TARGET enumeration [Web Services for Windows], WS_HTTP_HEADER_AUTH_TARGET_PROXY, WS_HTTP_HEADER_AUTH_TARGET_SERVICE, webservices/WS_HTTP_HEADER_AUTH_TARGET, webservices/WS_HTTP_HEADER_AUTH_TARGET_PROXY, webservices/WS_HTTP_HEADER_AUTH_TARGET_SERVICE, wsw.ws_http_header_auth_target
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

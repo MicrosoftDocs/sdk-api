@@ -4,10 +4,10 @@ title: IGPMBackupDirEx::SearchBackups
 author: windows-sdk-content
 description: Executes a search for a GPMBackup object or an IGPMStarterGPOBackup interface according to the specified criteria, and returns a GPMBackupCollection or GPMStarterGPOBackupCollection object.
 old-location: gpmc\igpmbackupdirex_searchbackups.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: e45f012e-ce88-4baf-88a2-bd61e365b291
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GPMBackupDirEx object [GPMC],SearchBackups method, IGPMBackupDirEx interface [GPMC],SearchBackups method, IGPMBackupDirEx.SearchBackups, IGPMBackupDirEx::SearchBackups, SearchBackups, SearchBackups method [GPMC], SearchBackups method [GPMC],GPMBackupDirEx object, SearchBackups method [GPMC],IGPMBackupDirEx interface, backupMostRecent, gpmc.igpmbackupdirex_searchbackups, gpmgmt/IGPMBackupDirEx::SearchBackups, gpoDisplayName, gpoDomain, gpoID
 ms.prod: windows-hardware
 ms.technology: windows-devices

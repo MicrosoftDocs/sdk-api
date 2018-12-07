@@ -7,7 +7,7 @@ old-location: wds\wdstransportprovidershutdown.htm
 tech.root: wds
 ms.assetid: 89f563e1-8dbd-4660-8cec-506f708ae310
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsTransportProviderShutdown, WdsTransportProviderShutdown callback, WdsTransportProviderShutdown callback function [Windows Deployment Services], wds.wdstransportprovidershutdown, wdstpdi/WdsTransportProviderShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getinstancebypath.htm
 tech.root: WmiSdk
 ms.assetid: 788b5f5f-b300-4c86-afbd-416b938f21c1
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: "?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z, ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetInstanceByPath method, CWbemProviderGlue.GetInstanceByPath, CWbemProviderGlue.GetInstanceByPath(LPCWSTR,CInstance,MethodContext), CWbemProviderGlue::GetInstanceByPath, CWbemProviderGlue::GetInstanceByPath(LPCWSTR,CInstance,MethodContext), GetInstanceByPath, GetInstanceByPath method [Windows Management Instrumentation], GetInstanceByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancebypath, wbemglue/CWbemProviderGlue::GetInstanceByPath, wmi.cwbemproviderglue_getinstancebypath"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,7 +71,7 @@ The <b>GetInstanceByPath</b> method
 
 ### -param pszObjectPath
 
-TBD
+An object path to the instance to be returned.
 
 
 ### -param ppInstance
@@ -88,11 +88,6 @@ A pointer to the current context. A context must be provided to prevent deadlock
       <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">Provider::ExecQuery</a>, or else obtain it from the 
       instance using <a href="https://msdn.microsoft.com/a2033754-4fd0-405f-9ad9-737eb8931016">CInstance::GetMethodContext</a>. 
       This parameter must not be <b>NULL</b>.
-
-
-#### - pszInstancePath
-
-An object path to the instance to be returned.
 
 
 ## -returns

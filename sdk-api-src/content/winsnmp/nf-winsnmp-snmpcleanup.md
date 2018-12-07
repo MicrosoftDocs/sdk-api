@@ -7,7 +7,7 @@ old-location: snmp\snmpcleanup.htm
 tech.root: SNMP
 ms.assetid: 348f06e6-b408-4962-a0bc-8ff3e2ee21fa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpCleanup, SnmpCleanup function [SNMP], _snmp_snmpcleanup, snmp.snmpcleanup, winsnmp/SnmpCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices

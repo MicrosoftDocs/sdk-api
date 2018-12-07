@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_getvolumestepinfo.htm
 tech.root: CoreAudio
 ms.assetid: 895f5dd1-73f5-464e-9498-b3832edf4dc7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GetVolumeStepInfo, GetVolumeStepInfo method [Core Audio], GetVolumeStepInfo method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetVolumeStepInfo method, IAudioEndpointVolume.GetVolumeStepInfo, IAudioEndpointVolume::GetVolumeStepInfo, IAudioEndpointVolumeGetVolumeStepInfo, coreaudio.iaudioendpointvolume_getvolumestepinfo, endpointvolume/IAudioEndpointVolume::GetVolumeStepInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

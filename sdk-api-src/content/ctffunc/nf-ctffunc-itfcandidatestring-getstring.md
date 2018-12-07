@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatestring_getstring.htm
 tech.root: TSF
 ms.assetid: 157dc848-858c-462f-8e41-78d6bfe20705
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetString method, ITfCandidateString.GetString, ITfCandidateString::GetString, _tsf_itfcandidatestring_getstring_ref, ctffunc/ITfCandidateString::GetString, tsf.itfcandidatestring_getstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

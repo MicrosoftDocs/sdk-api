@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voicecallback_interface_onbufferend.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnBufferEnd(void)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnBufferEnd method, IXAudio2VoiceCallback.OnBufferEnd, IXAudio2VoiceCallback::OnBufferEnd, OnBufferEnd, OnBufferEnd method [XAudio2 Audio Mixing APIs], OnBufferEnd method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onbufferend, xaudio2/IXAudio2VoiceCallback::OnBufferEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

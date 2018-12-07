@@ -7,10 +7,10 @@ old-location: input_pointerdevice\pointer_device_cursor_info.htm
 tech.root: Input_PointerDevice
 ms.assetid: 5d71e5b4-95eb-453e-9164-e7659ef4059e
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 11/30/2018
 ms.keywords: POINTER_DEVICE_CURSOR_INFO, POINTER_DEVICE_CURSOR_INFO structure, input_pointerdevice.pointer_device_cursor_info, tagPOINTER_DEVICE_CURSOR_INFO, unifiedinputstack.pointer_device_cursor_info, winuser/POINTER_DEVICE_CURSOR_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: 

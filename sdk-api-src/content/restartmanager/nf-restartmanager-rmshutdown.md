@@ -7,7 +7,7 @@ old-location: rstmgr\rmshutdown.htm
 tech.root: rstmgr
 ms.assetid: cdbc3bb7-0b3c-4fbc-8023-45a309c65bae
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: RmForceShutdown, RmShutdown, RmShutdown function [Restart Mgr], RmShutdownOnlyRegistered, restartmanager/RmShutdown, rstmgr.rmshutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

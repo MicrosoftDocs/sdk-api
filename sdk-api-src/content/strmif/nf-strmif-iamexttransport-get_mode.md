@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_get_mode.htm
 tech.root: DirectShow
 ms.assetid: ee08cca0-a2ea-4a7c-8714-f22d5cd62fe8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_Mode method, IAMExtTransport.get_Mode, IAMExtTransport::get_Mode, IAMExtTransportget_Mode, dshow.iamexttransport_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_Mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: wmi\wbem_query_flag_type.htm
 tech.root: WmiSdk
 ms.assetid: D0F53F94-682A-432D-8FBA-8EC05C6B69BF
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: WBEM_FLAG_DEEP, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_SHALLOW, WBEM_QUERY_FLAG_TYPE, WBEM_QUERY_FLAG_TYPE enumeration [Windows Management Instrumentation], tag_WBEM_QUERY_FLAG_TYPE, wbemcli/WBEM_FLAG_DEEP, wbemcli/WBEM_FLAG_PROTOTYPE, wbemcli/WBEM_FLAG_SHALLOW, wbemcli/WBEM_QUERY_FLAG_TYPE, wmi.wbem_query_flag_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 

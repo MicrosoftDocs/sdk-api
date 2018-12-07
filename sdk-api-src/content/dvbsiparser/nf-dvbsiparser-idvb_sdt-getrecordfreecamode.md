@@ -4,10 +4,10 @@ title: IDVB_SDT::GetRecordFreeCAMode
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getrecordfreecamode.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 95dfb36b-e6bc-4cfe-bff1-08763a8e245d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordFreeCAMode, GetRecordFreeCAMode method [Microsoft TV Technologies], GetRecordFreeCAMode method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordFreeCAMode method, IDVB_SDT.GetRecordFreeCAMode, IDVB_SDT::GetRecordFreeCAMode, IDVB_SDTGetRecordFreeCAMode, dvbsiparser/IDVB_SDT::GetRecordFreeCAMode, mstv.idvb_sdt_getrecordfreecamode
 ms.prod: windows-hardware
 ms.technology: windows-devices

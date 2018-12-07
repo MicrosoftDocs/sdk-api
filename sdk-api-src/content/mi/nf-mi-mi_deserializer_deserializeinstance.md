@@ -4,10 +4,10 @@ title: MI_Deserializer_DeserializeInstance function
 author: windows-sdk-content
 description: Deserializes a serialized buffer into a MI_Instance object.
 old-location: wmi_v2\mi_deserializer_deserializeinstance.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 54b24a50-f700-4369-b6dc-8406000a5b30
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Deserializer_DeserializeInstance, MI_Deserializer_DeserializeInstance function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_DeserializeInstance, wmi_v2.mi_deserializer_deserializeinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IPropertyStorage::DeletePropertyNames
 author: windows-sdk-content
 description: The DeletePropertyNames method deletes specified string names from the current property set.
 old-location: stg\ipropertystorage_deletepropertynames.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: fedeb7fb-b84a-44a4-82d8-3a365296af69
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DeletePropertyNames, DeletePropertyNames method [Structured Storage], DeletePropertyNames method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],DeletePropertyNames, IPropertyStorage interface [Structured Storage],DeletePropertyNames method, IPropertyStorage.DeletePropertyNames, IPropertyStorage::DeletePropertyNames, _stg_ipropertystorage_deletepropertynames, propidl/IPropertyStorage::DeletePropertyNames, stg.ipropertystorage_deletepropertynames
 ms.prod: windows-hardware
 ms.technology: windows-devices

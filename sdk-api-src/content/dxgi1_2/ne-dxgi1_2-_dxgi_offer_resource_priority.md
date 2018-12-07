@@ -7,10 +7,10 @@ old-location: direct3ddxgi\_dxgi_offer_resource_priority.htm
 tech.root: direct3ddxgi
 ms.assetid: BDC0AAA3-2B72-4732-82CE-458C14B0D993
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: DXGI_OFFER_RESOURCE_PRIORITY, DXGI_OFFER_RESOURCE_PRIORITY enumeration [DXGI], DXGI_OFFER_RESOURCE_PRIORITY_HIGH, DXGI_OFFER_RESOURCE_PRIORITY_LOW, DXGI_OFFER_RESOURCE_PRIORITY_NORMAL, _DXGI_OFFER_RESOURCE_PRIORITY, direct3ddxgi._dxgi_offer_resource_priority, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_HIGH, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_LOW, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_NORMAL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dxgi1_2.h
 req.include-header: 

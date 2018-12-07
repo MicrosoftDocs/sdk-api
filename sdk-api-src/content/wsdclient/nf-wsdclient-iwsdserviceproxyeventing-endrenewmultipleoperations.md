@@ -4,10 +4,10 @@ title: IWSDServiceProxyEventing::EndRenewMultipleOperations
 author: windows-sdk-content
 description: Completes an asynchronous operation that renews a collection of existing notification subscriptions by submitting a new duration.
 old-location: ncd\iwsdserviceproxyeventing_endrenewmultipleoperations.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: fb5be204-a775-4abb-af5b-9a829b69fa14
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EndRenewMultipleOperations, EndRenewMultipleOperations method, EndRenewMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndRenewMultipleOperations method, IWSDServiceProxyEventing.EndRenewMultipleOperations, IWSDServiceProxyEventing::EndRenewMultipleOperations, ncd.iwsdserviceproxyeventing_endrenewmultipleoperations, wsdclient/IWSDServiceProxyEventing::EndRenewMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ Completes an asynchronous operation that renews a collection of existing notific
 
 
 
-### -param pOperations
+### -param pOperations [in]
 
-TBD
+Pointer to an array of references to <a href="https://msdn.microsoft.com/fcd4895d-5357-4b73-90b9-e506e3d7f16e">WSD_OPERATION</a> structures that specify the operation subscriptions to renew.
 
 
 ### -param dwOperationCount [in]
@@ -81,11 +81,6 @@ Pointer to a pointer to a <a href="https://msdn.microsoft.com/728eacdb-3c27-4884
 ### -param ppAny [out]
 
 Extensible data that the remote device can add to the subscription response. This allows services to provide additional customization of event subscriptions. When done, call  <a href="https://msdn.microsoft.com/8fe6f586-a262-4248-9650-dec0fae8cd74">WSDFreeLinkedMemory</a> to free the memory. For details, see <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a>.  This parameter is optional.
-
-
-#### - WSD_OPERATION [in]
-
-Pointer to an array of references to <a href="https://msdn.microsoft.com/fcd4895d-5357-4b73-90b9-e506e3d7f16e">WSD_OPERATION</a> structures that specify the operation subscriptions to renew.
 
 
 ## -returns

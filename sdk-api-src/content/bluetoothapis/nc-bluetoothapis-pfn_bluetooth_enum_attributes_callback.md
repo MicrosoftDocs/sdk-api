@@ -7,10 +7,10 @@ old-location: bluetooth\pfn_bluetooth_enum_attributes_callback.htm
 tech.root: Bluetooth
 ms.assetid: 4d728467-1866-428f-9e66-a45b597a226a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK, PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback, PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback function [Bluetooth], bluetooth.pfn_bluetooth_enum_attributes_callback, bluetoothapis/PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

@@ -4,10 +4,10 @@ title: MI_Application_NewDeserializer function
 author: windows-sdk-content
 description: Creates a deserializer object that can then be used to convert a serialized object back into a class or instance.
 old-location: wmi_v2\mi_application_newdeserializer.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: e58c69ce-032a-4024-9023-53cd1776b7f3
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Application_NewDeserializer, MI_Application_NewDeserializer function [Windows Management Infrastructure (MI)], mi/MI_Application_NewDeserializer, wmi_v2.mi_application_newdeserializer
 ms.prod: windows-hardware
 ms.technology: windows-devices

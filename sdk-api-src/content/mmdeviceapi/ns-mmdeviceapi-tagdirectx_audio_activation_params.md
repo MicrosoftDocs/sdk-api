@@ -7,10 +7,10 @@ old-location: coreaudio\directx_audio_activation_params.htm
 tech.root: CoreAudio
 ms.assetid: d8d16c1c-5306-42a7-885b-4e1c5ee7634d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/16/2018
 ms.keywords: "*PDIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS structure [Core Audio], PDIRECTX_AUDIO_ACTIVATION_PARAMS, PDIRECTX_AUDIO_ACTIVATION_PARAMS structure pointer [Core Audio], coreaudio.directx_audio_activation_params, mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS, mmdeviceapi/PDIRECTX_AUDIO_ACTIVATION_PARAMS, tagDIRECTX_AUDIO_ACTIVATION_PARAMS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmdeviceapi.h
 req.include-header: 

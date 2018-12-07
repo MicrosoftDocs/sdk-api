@@ -7,7 +7,7 @@ old-location: cos\ienumnames_skip.htm
 tech.root: cossdk
 ms.assetid: e45da100-688a-421e-a8cd-19fede5aac83
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumNames interface [COM+],Skip method, IEnumNames.Skip, IEnumNames::Skip, Skip, Skip method [COM+], Skip method [COM+],IEnumNames interface, _cos_IEnumNames_Skip, comsvcs/IEnumNames::Skip, cos.ienumnames_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

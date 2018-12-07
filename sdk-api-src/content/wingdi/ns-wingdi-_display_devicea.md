@@ -7,10 +7,10 @@ old-location: gdi\display_device.htm
 tech.root: gdi
 ms.assetid: 9a7813fe-358a-44eb-99da-c63f98d055c3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDISPLAY_DEVICEA, *PDISPLAY_DEVICEA, DISPLAY_DEVICE, DISPLAY_DEVICE structure [Windows GDI], DISPLAY_DEVICEA, DISPLAY_DEVICEW, PDISPLAY_DEVICE, PDISPLAY_DEVICE structure pointer [Windows GDI], _DISPLAY_DEVICEA, _DISPLAY_DEVICEW, _win32_DISPLAY_DEVICE_str, gdi.display_device, wingdi/DISPLAY_DEVICE, wingdi/DISPLAY_DEVICEA, wingdi/DISPLAY_DEVICEW, wingdi/PDISPLAY_DEVICE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

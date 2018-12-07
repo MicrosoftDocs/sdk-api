@@ -7,10 +7,10 @@ old-location: stream\histogramheader.htm
 tech.root: stream
 ms.assetid: C41EC25A-98EF-4C35-9E5A-954C80B29DA6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/16/2018
 ms.keywords: HistogramHeader, HistogramHeader structure [Streaming Media Devices], mfapi/HistogramHeader, stream.histogramheader, tagHistogramHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

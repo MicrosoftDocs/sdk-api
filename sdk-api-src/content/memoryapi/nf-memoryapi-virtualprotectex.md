@@ -4,10 +4,10 @@ title: VirtualProtectEx function
 author: windows-sdk-content
 description: Changes the protection on a region of committed pages in the virtual address space of a specified process.
 old-location: base\virtualprotectex.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 6afd7ae6-e4c5-483c-a638-c85781674c7b
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: VirtualProtectEx, VirtualProtectEx function, _win32_virtualprotectex, base.virtualprotectex, winbase/VirtualProtectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

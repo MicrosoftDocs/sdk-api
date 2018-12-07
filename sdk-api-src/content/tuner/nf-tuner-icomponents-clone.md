@@ -4,10 +4,10 @@ title: IComponents::Clone
 author: windows-sdk-content
 description: The Clone method creates a new copy of the collection.
 old-location: mstv\icomponents_clone.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5a98e265-8bef-4978-a257-1519006e9124
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],Clone method, IComponents.Clone, IComponents::Clone, IComponentsClone, mstv.icomponents_clone, tuner/IComponents::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>Clone</b> method creates a new copy of the collection.
 
 
 
-### -param NewList
-
-TBD
-
-
-
-
-#### - ppNewList [out]
+### -param NewList [out]
 
 Address of an <a href="https://msdn.microsoft.com/670b47ba-bcbd-4281-95e3-a5d784f0610b">IComponents</a> interface pointer that will be set to the new <b>Components</b> object.
 

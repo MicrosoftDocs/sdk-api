@@ -4,10 +4,10 @@ title: IValueMap::Add
 author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: pla\ivaluemap_add.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 4a6f074d-8d18-44ea-bbbc-8d3a7f6c033a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IValueMap interface, IValueMap interface [PLA],Add method, IValueMap.Add, IValueMap::Add, base.ivaluemap_add, pla.ivaluemap_add, pla/IValueMap::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Adds an item to the collection.
 
 
 
-### -param value
-
-TBD
-
-
-
-
-#### - vValue [in]
+### -param value [in]
 
 An <b>IDispatch</b> interface of the <a href="https://msdn.microsoft.com/5fab2a62-d974-49f7-ac81-c704d9d8624c">IValueMapItem</a> interface to add to the collection. The variant type is VT_DISPATCH. 
 

@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage_getrights.htm
 tech.root: WMDM
 ms.assetid: b4fb3ace-ebb5-4d95-8fce-780b5dc8e21a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRights, GetRights method [windows Media Device Manager], GetRights method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetRights method, IMDSPStorage.GetRights, IMDSPStorage::GetRights, IMDSPStorageGetRights, mswmdm/IMDSPStorage::GetRights, wmdm.imdspstorage_getrights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ Pointer to an array of <b>WMDMRIGHTS</b> structures that contain the storage obj
 Pointer to the number of <b>WMDMRIGHTS</b> structures in the <i>ppRights</i> array. This parameter is included in the output message authentication code.
 
 
-### -param abMac
-
-TBD
-
-
-
-
-#### - abMac[WMDM_MAC_LENGTH] [in, out]
+### -param abMac [in, out]
 
 Array of eight bytes containing the message authentication code for the parameter data of this method. (WMDM_MAC_LENGTH is defined as 8.)
 

@@ -7,10 +7,10 @@ old-location: wds\wds_transportprovider_settings.htm
 tech.root: wds
 ms.assetid: 334e86f2-97fa-4f64-93a4-b6aed6212eb1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWDS_TRANSPORTPROVIDER_SETTINGS, PWDS_TRANSPORTPROVIDER_SETTINGS, PWDS_TRANSPORTPROVIDER_SETTINGS structure pointer [Windows Deployment Services], WDS_TRANSPORTPROVIDER_SETTINGS, WDS_TRANSPORTPROVIDER_SETTINGS structure [Windows Deployment Services], _WDS_TRANSPORTPROVIDER_SETTINGS, wds.wds_transportprovider_settings, wdstpdi/PWDS_TRANSPORTPROVIDER_SETTINGS, wdstpdi/WDS_TRANSPORTPROVIDER_SETTINGS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wdstpdi.h
 req.include-header: 

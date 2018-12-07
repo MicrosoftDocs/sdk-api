@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_tex1d_array_srv.htm
 tech.root: direct3d12
 ms.assetid: 12931858-3E3C-4D4E-9459-7C15A73A485B
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_TEX1D_ARRAY_SRV, D3D12_TEX1D_ARRAY_SRV structure, d3d12/D3D12_TEX1D_ARRAY_SRV, direct3d12.d3d12_tex1d_array_srv
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

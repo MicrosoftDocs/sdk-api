@@ -7,7 +7,7 @@ old-location: security\slconsumeright.htm
 tech.root: SecSLApi
 ms.assetid: d61ec4ec-c552-4963-8f4e-a1540081e747
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLConsumeRight, SLConsumeRight function [Security], security.slconsumeright, slpublic/SLConsumeRight
 ms.prod: windows-hardware
 ms.technology: windows-devices

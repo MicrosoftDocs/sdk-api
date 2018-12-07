@@ -4,13 +4,13 @@ title: "_MI_UsernamePasswordCreds"
 author: windows-sdk-content
 description: A username/password combination used for subscription operations.
 old-location: wmi_v2\mi_usernamepasswordcreds.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 1cbbe6b0-d6db-4ca4-9529-701ec4993cb1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_UsernamePasswordCreds, MI_UsernamePasswordCreds structure [Windows Management Infrastructure (MI)], _MI_UsernamePasswordCreds, mi/MI_UsernamePasswordCreds, wmi._mi_usernamepasswordcreds, wmi_v2.mi_usernamepasswordcreds
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

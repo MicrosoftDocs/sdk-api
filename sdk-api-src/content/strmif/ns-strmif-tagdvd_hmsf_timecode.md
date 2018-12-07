@@ -7,10 +7,10 @@ old-location: dshow\dvd_hmsf_timecode.htm
 tech.root: DirectShow
 ms.assetid: 8f2990f6-a8f5-4b16-ae30-d51ea55496ea
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DVD_HMSF_TIMECODE, DVD_HMSF_TIMECODE structure [DirectShow], DVD_HMSF_TIMECODEStructure, dshow.dvd_hmsf_timecode, strmif/DVD_HMSF_TIMECODE, tagDVD_HMSF_TIMECODE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

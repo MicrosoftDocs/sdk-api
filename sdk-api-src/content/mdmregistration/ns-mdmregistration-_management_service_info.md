@@ -7,10 +7,10 @@ old-location: mdmreg\management_service_info.htm
 tech.root: MDMReg
 ms.assetid: 6be4540b-e74b-41f3-aef4-f613f2a79bab
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMANAGEMENT_SERVICE_INFO, MANAGEMENT_SERVICE_INFO, MANAGEMENT_SERVICE_INFO structure [MDM Registration], PMANAGEMENT_SERVICE_INFO, PMANAGEMENT_SERVICE_INFO structure pointer [MDM Registration], _MANAGEMENT_SERVICE_INFO, mdmreg.management_service_info, mdmregistration/MANAGEMENT_SERVICE_INFO, mdmregistration/PMANAGEMENT_SERVICE_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mdmregistration.h
 req.include-header: 

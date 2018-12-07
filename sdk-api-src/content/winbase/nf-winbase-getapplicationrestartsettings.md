@@ -7,7 +7,7 @@ old-location: recovery\getapplicationrestartsettings.htm
 tech.root: Recovery
 ms.assetid: bf35437a-9252-4efd-aa3c-be487dafa86e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetApplicationRestartSettings, GetApplicationRestartSettings function [Recovery], recovery.getapplicationrestartsettings, winbase/GetApplicationRestartSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

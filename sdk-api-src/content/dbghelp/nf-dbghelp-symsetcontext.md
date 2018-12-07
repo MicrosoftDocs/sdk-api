@@ -7,7 +7,7 @@ old-location: base\symsetcontext.htm
 tech.root: debug
 ms.assetid: 0a9c6bfe-5e60-48c4-af98-b910df3032d5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: SymSetContext, SymSetContext function, _win32_symsetcontext, base.symsetcontext, dbghelp/SymSetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

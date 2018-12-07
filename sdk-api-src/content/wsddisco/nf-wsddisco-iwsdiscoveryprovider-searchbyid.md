@@ -4,10 +4,10 @@ title: IWSDiscoveryProvider::SearchById
 author: windows-sdk-content
 description: Initializes a search for WS-Discovery hosts by device identifier.
 old-location: ncd\iwsdiscoveryprovider_searchbyid.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 78ae714a-1ee3-46eb-b3d6-ff46bf8974ab
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchById method, IWSDiscoveryProvider.SearchById, IWSDiscoveryProvider::SearchById, SearchById, SearchById method, SearchById method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyid, wsddisco/IWSDiscoveryProvider::SearchById
 ms.prod: windows-hardware
 ms.technology: windows-devices

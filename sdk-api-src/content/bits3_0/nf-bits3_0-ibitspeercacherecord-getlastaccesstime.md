@@ -4,10 +4,10 @@ title: IBitsPeerCacheRecord::GetLastAccessTime
 author: windows-sdk-content
 description: Gets the date and time that the file was last accessed.
 old-location: bits\ibitspeercacherecord_getlastaccesstime.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: f4443db2-3d4f-497f-b2e3-d969d8271d6f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetLastAccessTime, GetLastAccessTime method [BITS], GetLastAccessTime method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetLastAccessTime method, IBitsPeerCacheRecord.GetLastAccessTime, IBitsPeerCacheRecord::GetLastAccessTime, bits.ibitspeercacherecord_getlastaccesstime, bits3_0/IBitsPeerCacheRecord::GetLastAccessTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ Gets the date and time that the file was last accessed.
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - pAccessTime [out]
+### -param pVal [out]
 
 Date and time that the file was last accessed. The time is specified as 
 <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.

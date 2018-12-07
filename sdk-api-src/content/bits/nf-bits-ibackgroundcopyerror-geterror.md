@@ -4,10 +4,10 @@ title: IBackgroundCopyError::GetError
 author: windows-sdk-content
 description: Retrieves the error code and identify the context in which the error occurred.
 old-location: bits\ibackgroundcopyerror_geterror.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: abdf115d-3ff2-4664-b053-f55872ad24ab
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetError method, IBackgroundCopyError.GetError, IBackgroundCopyError::GetError, _drz_ibackgroundcopyerror_geterror, bits.ibackgroundcopyerror_geterror, bits/IBackgroundCopyError::GetError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,7 @@ Context in which the error occurred. For a list of context values, see the
 <a href="https://msdn.microsoft.com/en-us/library/Aa362798(v=VS.85).aspx">BG_ERROR_CONTEXT</a> enumeration.
 
 
-### -param pCode
-
-TBD
-
-
-
-
-#### - pErrorCode [out]
+### -param pCode [out]
 
 Error code of the error that occurred.
 

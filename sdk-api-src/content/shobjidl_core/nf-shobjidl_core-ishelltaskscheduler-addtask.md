@@ -7,7 +7,7 @@ old-location: shell\IShellTaskScheduler_AddTask.htm
 tech.root: shell
 ms.assetid: 227b5013-a550-46cc-bae2-af60776cba22
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AddTask, AddTask method [Windows Shell], AddTask method [Windows Shell],IShellTaskScheduler interface, IShellTaskScheduler interface [Windows Shell],AddTask method, IShellTaskScheduler.AddTask, IShellTaskScheduler::AddTask, ITSAT_DEFAULT_PRIORITY, ITSAT_MAX_PRIORITY, ITSAT_MIN_PRIORITY, _win32_IShellTaskScheduler_AddTask, shell.IShellTaskScheduler_AddTask, shobjidl_core/IShellTaskScheduler::AddTask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Adds a task to the scheduler's background queue.
 
 
 
-### -param prt
+### -param prt [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/158a6688-949b-4075-a790-fd6efb88792c">IRunnableTask</a>*</b>
+
+A pointer to an instance of an <a href="https://msdn.microsoft.com/158a6688-949b-4075-a790-fd6efb88792c">IRunnableTask</a> interface representing the task to add to the queue.
 
 
 ### -param rtoid [in]
@@ -100,13 +102,6 @@ High priority.
 #### ITSAT_MIN_PRIORITY
 
 Low priority.
-
-
-#### - pTask [in]
-
-Type: <b><a href="https://msdn.microsoft.com/158a6688-949b-4075-a790-fd6efb88792c">IRunnableTask</a>*</b>
-
-A pointer to an instance of an <a href="https://msdn.microsoft.com/158a6688-949b-4075-a790-fd6efb88792c">IRunnableTask</a> interface representing the task to add to the queue.
 
 
 ## -returns

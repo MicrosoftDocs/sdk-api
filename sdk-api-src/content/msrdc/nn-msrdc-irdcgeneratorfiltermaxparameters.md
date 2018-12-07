@@ -4,13 +4,13 @@ title: IRdcGeneratorFilterMaxParameters
 author: windows-sdk-content
 description: Sets and retrieves parameters used by the FilterMax generator.
 old-location: rdc\irdcgeneratorfiltermaxparameters.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 6767ab24-2bb6-48bf-8f12-794d8b22e2b7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IRdcGeneratorFilterMaxParameters, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression], IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],described, fs.irdcgeneratorfiltermaxparameters, msrdc/IRdcGeneratorFilterMaxParameters, rdc.irdcgeneratorfiltermaxparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

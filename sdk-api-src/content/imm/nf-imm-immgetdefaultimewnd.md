@@ -7,13 +7,13 @@ old-location: intl\immgetdefaultimewnd.htm
 tech.root: Intl
 ms.assetid: fc3cdfc2-fcdc-4682-b391-83ea4bb1571f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ImmGetDefaultIMEWnd, ImmGetDefaultIMEWnd function [Internationalization for Windows Applications], _win32_ImmGetDefaultIMEWnd, imm/ImmGetDefaultIMEWnd, intl.immgetdefaultimewnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
-req.include-header: Windows.h
+req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

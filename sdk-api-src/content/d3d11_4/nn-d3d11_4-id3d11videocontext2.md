@@ -7,10 +7,10 @@ old-location: mf\id3d11videocontext2.htm
 tech.root: medfound
 ms.assetid: E3FB5478-31CD-4AE3-BEA0-18823C4A4D3E
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11VideoContext2, ID3D11VideoContext2 interface [Media Foundation], ID3D11VideoContext2 interface [Media Foundation],described, d3d11_4/ID3D11VideoContext2, mf.id3d11videocontext2, mf.id3dvideocontext2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11_4.h
 req.include-header: 

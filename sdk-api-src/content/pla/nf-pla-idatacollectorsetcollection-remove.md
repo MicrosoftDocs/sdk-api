@@ -4,10 +4,10 @@ title: IDataCollectorSetCollection::Remove
 author: windows-sdk-content
 description: Removes a data collector set from the collection.
 old-location: pla\idatacollectorsetcollection_remove.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 6200dac0-8817-4d59-9456-67921bcf15ae
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IDataCollectorSetCollection interface [PLA],Remove method, IDataCollectorSetCollection.Remove, IDataCollectorSetCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IDataCollectorSetCollection interface, base.idatacollectorsetcollection_remove, pla.idatacollectorsetcollection_remove, pla/IDataCollectorSetCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Removes a data collector set from the collection.
 
 
 
-### -param set
-
-TBD
-
-
-
-
-#### - vSet [in]
+### -param set [in]
 
 The zero-based index of the data collector set to remove from the collection. The variant type can be VT_I4, VT_UI4, or VT_DISPATCH.
 

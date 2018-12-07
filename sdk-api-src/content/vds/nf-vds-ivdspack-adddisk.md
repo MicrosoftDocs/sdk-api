@@ -4,10 +4,10 @@ title: IVdsPack::AddDisk
 author: windows-sdk-content
 description: Adds a disk to an online pack.
 old-location: base\ivdspack_adddisk.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: e64e3891-74c6-4014-9909-24f75f69e06d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddDisk, AddDisk method [VDS], AddDisk method [VDS],IVdsPack interface, IVdsPack interface [VDS],AddDisk method, IVdsPack.AddDisk, IVdsPack::AddDisk, base.ivdspack_adddisk, vds/IVdsPack::AddDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_descriptor_range_type.htm
 tech.root: direct3d12
 ms.assetid: A72AAEA7-D812-41D0-B9AD-8A219EC9A88A
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_DESCRIPTOR_RANGE_TYPE, D3D12_DESCRIPTOR_RANGE_TYPE enumeration, D3D12_DESCRIPTOR_RANGE_TYPE_CBV, D3D12_DESCRIPTOR_RANGE_TYPE_SAMPLER, D3D12_DESCRIPTOR_RANGE_TYPE_SRV, D3D12_DESCRIPTOR_RANGE_TYPE_UAV, d3d12/D3D12_DESCRIPTOR_RANGE_TYPE, d3d12/D3D12_DESCRIPTOR_RANGE_TYPE_CBV, d3d12/D3D12_DESCRIPTOR_RANGE_TYPE_SAMPLER, d3d12/D3D12_DESCRIPTOR_RANGE_TYPE_SRV, d3d12/D3D12_DESCRIPTOR_RANGE_TYPE_UAV, direct3d12.d3d12_descriptor_range_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

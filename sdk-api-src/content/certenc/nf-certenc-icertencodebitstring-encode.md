@@ -7,7 +7,7 @@ old-location: security\icertencodebitstring_encode.htm
 tech.root: seccrypto
 ms.assetid: 2dc74ab4-8f40-4e0d-a18e-ba9c99d5bf94
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CCertEncodeBitString object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeBitString object, Encode method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],Encode method, ICertEncodeBitString.Encode, ICertEncodeBitString::Encode, _certsrv_icertencodebitstring_encode, certenc/ICertEncodeBitString::Encode, security.icertencodebitstring_encode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ The number of bits in <i>strBitString</i>.
 The bit string to encode.
 
 
-### -param pstrBinary
-
-TBD
-
-
-
-
-#### - pbstrBinary [out]
+### -param pstrBinary [out]
 
 A pointer to a <b>BSTR</b> that will contain the encoded bit string. When you have finished using this <b>BSTR</b>, call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to free <i>pbstrBinary</i>.
 

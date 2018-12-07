@@ -4,10 +4,10 @@ title: INetFwRule::put_IcmpTypesAndCodes
 author: windows-sdk-content
 description: Specifies the list of ICMP types and codes for this rule.
 old-location: ics\inetfwrule_icmptypesandcodes.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 5b1e2e50-7ca1-4a96-a1c3-1f55f51a6a4f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwRule interface [ICS/ICF],IcmpTypesAndCodes property, INetFwRule.IcmpTypesAndCodes, INetFwRule.put_IcmpTypesAndCodes, INetFwRule::IcmpTypesAndCodes, INetFwRule::get_IcmpTypesAndCodes, INetFwRule::put_IcmpTypesAndCodes, IcmpTypesAndCodes property [ICS/ICF], IcmpTypesAndCodes property [ICS/ICF],INetFwRule interface, ics.inetfwrule_icmptypesandcodes, netfw/INetFwRule::IcmpTypesAndCodes, netfw/INetFwRule::get_IcmpTypesAndCodes, netfw/INetFwRule::put_IcmpTypesAndCodes, put_IcmpTypesAndCodes
 ms.prod: windows-hardware
 ms.technology: windows-devices

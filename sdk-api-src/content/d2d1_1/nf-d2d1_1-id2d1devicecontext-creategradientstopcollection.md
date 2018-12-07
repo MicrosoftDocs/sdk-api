@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_creategradientstopcollection.htm
 tech.root: direct2d
 ms.assetid: 6374fc62-1f54-4112-8ba3-9c1167bf8685
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection method [Direct2D], CreateGradientStopCollection method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateGradientStopCollection method, ID2D1DeviceContext.CreateGradientStopCollection, ID2D1DeviceContext::CreateGradientStopCollection, d2d1_1/ID2D1DeviceContext::CreateGradientStopCollection, direct2d.id2d1devicecontext_creategradientstopcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,12 +60,16 @@ Creates a gradient stop collection, enabling the gradient to contain color chann
 
 ### -param straightAlphaGradientStops
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/f6798542-382a-4074-bbe1-707bc00b3575">D2D1_GRADIENT_STOP</a>*</b>
+
+An array of color values and offsets.
 
 
 ### -param straightAlphaGradientStopsCount
 
-TBD
+Type: <b>UINT</b>
+
+The number of elements in the <i>gradientStops</i> array.
 
 
 ### -param preInterpolationSpace
@@ -106,32 +110,11 @@ Type: <b><a href="https://msdn.microsoft.com/E3E9FB4C-5E77-451B-ABED-39D9C7AE567
 Defines how colors are interpolated.  D2D1_COLOR_INTERPOLATION_MODE_PREMULTIPLIED is the default, see Remarks for more info.
 
 
-### -param gradientStopCollection1
-
-TBD
-
-
-
-
-#### - gradientStopCollection [out]
+### -param gradientStopCollection1 [out]
 
 Type: <b><a href="https://msdn.microsoft.com/aa423e18-c6b5-4587-b044-deda00a84615">ID2D1GradientStopCollection1</a>**</b>
 
 The new gradient stop collection.
-
-
-#### - gradientStops
-
-Type: <b>const <a href="https://msdn.microsoft.com/f6798542-382a-4074-bbe1-707bc00b3575">D2D1_GRADIENT_STOP</a>*</b>
-
-An array of color values and offsets.
-
-
-#### - gradientStopsCount
-
-Type: <b>UINT</b>
-
-The number of elements in the <i>gradientStops</i> array.
 
 
 ## -returns

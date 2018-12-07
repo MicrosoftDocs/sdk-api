@@ -7,7 +7,7 @@ old-location: multimedia\midiinmessage.htm
 tech.root: Multimedia
 ms.assetid: c58a5800-df2e-43bd-9798-66d7cb9f3a19
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiInMessage, midiInMessage, midiInMessage function [Windows Multimedia], mmeapi/midiInMessage, multimedia.midiinmessage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,12 +65,12 @@ The <b>midiInMessage</b> function sends a message to the MIDI device driver.
 
 ### -param hmi
 
-TBD
+Identifier of the MIDI device that receives the message. You must cast the device ID to the <b>HMIDIIN</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
 
 
 ### -param uMsg
 
-TBD
+Message to send.
 
 
 ### -param dw1
@@ -81,16 +81,6 @@ Message parameter.
 ### -param dw2
 
 Message parameter.
-
-
-#### - deviceID
-
-Identifier of the MIDI device that receives the message. You must cast the device ID to the <b>HMIDIIN</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
-
-
-#### - msg
-
-Message to send.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IVdsVolumeShrink::Shrink
 author: windows-sdk-content
 description: Shrinks the volume and all plexes and returns the released extents.
 old-location: base\ivdsvolumeshrink_shrink.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: a6d91cb0-b9a4-4a5f-94bc-824b1691bcd7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsVolumeShrink interface,Shrink method, IVdsVolumeShrink.Shrink, IVdsVolumeShrink::Shrink, Shrink, Shrink method, Shrink method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_shrink, vds/IVdsVolumeShrink::Shrink
 ms.prod: windows-hardware
 ms.technology: windows-devices

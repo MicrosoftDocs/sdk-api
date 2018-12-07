@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateCompoundFromArray.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createcompoundfromarray.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: CreateCompoundFromArray, CreateCompoundFromArray method [search], CreateCompoundFromArray method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateCompoundFromArray method, IConditionFactory2.CreateCompoundFromArray, IConditionFactory2::CreateCompoundFromArray, _search_IConditionFactory2_CreateCompoundFromArray, search._search_IConditionFactory2_CreateCompoundFromArray, structuredquery/IConditionFactory2::CreateCompoundFromArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,9 +65,11 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965692(v=VS.85).asp
 A <a href="https://msdn.microsoft.com/en-us/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a> enumeration that must be set to either the <i>CT_AND_CONDITION</i> or <i>CT_OR_CONDITION</i> flag.
 
 
-### -param ppcondSubs
+### -param ppcondSubs [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>**</b>
+
+Each element of the <i>ppCondSubs</i> parameter must implement <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>. 
 
 
 ### -param cSubs [in]
@@ -96,13 +98,6 @@ The desired IID of the enumerating interface: either <a href="https://msdn.micro
 Type: <b>void**</b>
 
 A collection of zero or more <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a> objects.
-
-
-#### - ppCondSubs [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>**</b>
-
-Each element of the <i>ppCondSubs</i> parameter must implement <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>. 
 
 
 ## -returns

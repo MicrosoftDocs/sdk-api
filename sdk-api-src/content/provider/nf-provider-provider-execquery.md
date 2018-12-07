@@ -7,7 +7,7 @@ old-location: wmi\provider_execquery.htm
 tech.root: WmiSdk
 ms.assetid: 94d5c8ee-2d61-42af-9a22-cc0df423b245
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: ExecQuery, ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],ExecQuery method, Provider.ExecQuery, Provider::ExecQuery, _hmm_provider_execquery, provider/Provider::ExecQuery, wmi.provider_execquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,9 +70,9 @@ The <b>ExecQuery</b> method is called by WMI to process a WMI Query Language (WQ
 Pointer to the context object for this call. This value contains any <a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> properties specified by the client. Also, this pointer must be used as a parameter to any calls back into WMI.
 
 
-### -param cQuery
+### -param cQuery [ref]
 
-TBD
+Pointer to a query that has already been parsed by the provider framework.
 
 
 ### -param lFlags
@@ -89,11 +89,6 @@ The following flags are handled by (and filtered out) by WMI:
 <li><b>WBEM_FLAG_RETURN_IMMEDIATELY</b></li>
 <li><b>WBEM_FLAG_PROTOTYPE</b></li>
 </ul>
-
-#### - Query [ref]
-
-Pointer to a query that has already been parsed by the provider framework.
-
 
 ## -returns
 

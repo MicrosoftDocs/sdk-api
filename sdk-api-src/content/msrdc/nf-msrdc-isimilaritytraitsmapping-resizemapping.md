@@ -4,10 +4,10 @@ title: ISimilarityTraitsMapping::ResizeMapping
 author: windows-sdk-content
 description: Resizes the file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_resizemapping.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: ea4fe3f9-7422-4673-90e4-4907fb8dd690
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],ResizeMapping method, ISimilarityTraitsMapping.ResizeMapping, ISimilarityTraitsMapping::ResizeMapping, ResizeMapping, ResizeMapping method [Remote Differential Compression], ResizeMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_resizemapping, msrdc/ISimilarityTraitsMapping::ResizeMapping, rdc.isimilaritytraitsmapping_resizemapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

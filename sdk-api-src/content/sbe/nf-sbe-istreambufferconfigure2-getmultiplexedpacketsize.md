@@ -4,10 +4,10 @@ title: IStreamBufferConfigure2::GetMultiplexedPacketSize
 author: windows-sdk-content
 description: The GetMultiplexedPacketSize method returns the size of the multiplexed packets in the backing files for the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_getmultiplexedpacketsize.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 36b5cd06-ba6a-4546-98b6-4c8b47f7f62b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetMultiplexedPacketSize, GetMultiplexedPacketSize method [Microsoft TV Technologies], GetMultiplexedPacketSize method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, IStreamBufferConfigure2 interface [Microsoft TV Technologies],GetMultiplexedPacketSize method, IStreamBufferConfigure2.GetMultiplexedPacketSize, IStreamBufferConfigure2::GetMultiplexedPacketSize, IStreamBufferConfigure2GetMultiplexedPacketSize, mstv.istreambufferconfigure2_getmultiplexedpacketsize, sbe/IStreamBufferConfigure2::GetMultiplexedPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

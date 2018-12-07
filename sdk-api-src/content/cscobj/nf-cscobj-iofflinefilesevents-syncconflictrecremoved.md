@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::SyncConflictRecRemoved
 author: windows-sdk-content
 description: Reports that a sync conflict no longer exists and that its record has been removed from the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecremoved.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: ccdd7b74-3e00-4a3d-9632-eac48d790f23
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecRemoved method, IOfflineFilesEvents.SyncConflictRecRemoved, IOfflineFilesEvents::SyncConflictRecRemoved, SyncConflictRecRemoved, SyncConflictRecRemoved method [Offline Files], SyncConflictRecRemoved method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecRemoved, of.iofflinefilesevents_syncconflictrecremoved
 ms.prod: windows-hardware
 ms.technology: windows-devices

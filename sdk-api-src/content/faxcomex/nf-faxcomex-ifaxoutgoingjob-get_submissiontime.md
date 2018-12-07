@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissiontime_cp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2exx.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],SubmissionTime property, IFaxOutgoingJob.SubmissionTime, IFaxOutgoingJob.get_SubmissionTime, IFaxOutgoingJob::SubmissionTime, IFaxOutgoingJob::get_SubmissionTime, SubmissionTime property [Fax Service], SubmissionTime property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.submissiontime, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissiontime_cpp, fax._mfax_faxoutgoingjob_submissiontime, faxcomex/IFaxOutgoingJob::SubmissionTime, faxcomex/IFaxOutgoingJob::get_SubmissionTime, get_SubmissionTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

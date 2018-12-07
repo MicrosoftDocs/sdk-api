@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_onvideostreamtick.htm
 tech.root: medfound
 ms.assetid: EC06D3D6-F103-4932-96C1-B55A59CD5E34
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],OnVideoStreamTick method, IMFMediaEngine.OnVideoStreamTick, IMFMediaEngine::OnVideoStreamTick, OnVideoStreamTick, OnVideoStreamTick method [Media Foundation], OnVideoStreamTick method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_onvideostreamtick, mfmediaengine/IMFMediaEngine::OnVideoStreamTick
 ms.prod: windows-hardware
 ms.technology: windows-devices

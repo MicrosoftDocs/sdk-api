@@ -7,7 +7,7 @@ old-location: cos\itransactionproxy_getisolationlevel.htm
 tech.root: cossdk
 ms.assetid: a2b0e99a-0d35-4103-b7a0-407d09a2746e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetIsolationLevel, GetIsolationLevel method [COM+], GetIsolationLevel method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIsolationLevel method, ITransactionProxy.GetIsolationLevel, ITransactionProxy::GetIsolationLevel, comsvcs/ITransactionProxy::GetIsolationLevel, cos.itransactionproxy_getisolationlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Retrieves the isolation level of the non-DTC transaction.
 
 
 
-### -param __MIDL__ITransactionProxy0000
-
-TBD
-
-
-
-
-#### - pIsolationLevel [out, retval]
+### -param __MIDL__ITransactionProxy0000 [out, retval]
 
 A pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=148531">ISOLATIONLEVEL</a> value that specifies the isolation level of the non-DTC transaction.
 

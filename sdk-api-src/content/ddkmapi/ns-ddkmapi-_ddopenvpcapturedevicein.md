@@ -7,10 +7,10 @@ old-location: display\ddopenvpcapturedevicein.htm
 tech.root: display
 ms.assetid: 75a2eaf7-a40f-4554-8dcf-f786d5771d43
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDDOPENVPCAPTUREDEVICEIN, DDOPENVPCAPTUREDEVICEIN, DDOPENVPCAPTUREDEVICEIN structure [Display Devices], LPDDOPENVPCAPTUREDEVICEIN, LPDDOPENVPCAPTUREDEVICEIN structure pointer [Display Devices], _DDOPENVPCAPTUREDEVICEIN, ddkmapi/DDOPENVPCAPTUREDEVICEIN, ddkmapi/LPDDOPENVPCAPTUREDEVICEIN, ddstrcts_51a84e0d-3e5a-4ccc-93f1-bf3edfb29760.xml, display.ddopenvpcapturedevicein"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

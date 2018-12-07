@@ -7,10 +7,10 @@ old-location: winprog\_win32_imestruct.htm
 tech.root: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\imestruct.htm
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPIMESTRUCT, *NPIMESTRUCT, *PIMESTRUCT, IMESTRUCT, IMESTRUCT structure [Windows API], IME_ENTERWORDREGISTERMODE, IME_GETCONVERSIONMODE, IME_GET_MODE, IME_MOVECONVERTWINDOW, IME_SETCONVERSIONFONTEX, IME_SETCONVERSIONMODE, IME_SETCONVERSIONWINDOW, IME_SETLEVEL, IME_SETOPEN, IME_SET_MODEK, PIMESTRUCT, PIMESTRUCT structure pointer [Windows API], _win32_IMESTRUCT, ime/IMESTRUCT, ime/PIMESTRUCT, tagIMESTRUCT, winprog._win32_imestruct, winui._win32_imestruct"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ime.h
 req.include-header: 

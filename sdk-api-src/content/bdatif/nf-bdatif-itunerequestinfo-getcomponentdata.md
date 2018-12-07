@@ -4,10 +4,10 @@ title: ITuneRequestInfo::GetComponentData
 author: windows-sdk-content
 description: The GetComponentData method fills in all network-specific component data for the existing Components collection on the specified tune request.
 old-location: mstv\itunerequestinfo_getcomponentdata.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 769d112e-4df7-451c-ac12-440b16c33e88
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetComponentData, GetComponentData method [Microsoft TV Technologies], GetComponentData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetComponentData method, ITuneRequestInfo.GetComponentData, ITuneRequestInfo::GetComponentData, ITuneRequestInfoGetComponentData, bdatif/ITuneRequestInfo::GetComponentData, mstv.itunerequestinfo_getcomponentdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>GetComponentData</b> method fills in all network-specific component data 
 
 
 
-### -param CurrentRequest
-
-TBD
-
-
-
-
-#### - pCurrentRequest [in]
+### -param CurrentRequest [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694997(v=VS.85).aspx">ITuneRequest</a> interface on the tune request.
 

@@ -4,10 +4,10 @@ title: IComponentType::get__MediaFormatType
 author: windows-sdk-content
 description: The get__MediaFormatType method retrieves the DirectShow media format type as a GUID.
 old-location: mstv\icomponenttype_get__mediaformattype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 21dccb42-8430-4fa0-a549-98dd3d1a4d4c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaFormatType method, IComponentType.get__MediaFormatType, IComponentType::get__MediaFormatType, IComponentTypeget__MediaFormatType, get__MediaFormatType, get__MediaFormatType method [Microsoft TV Technologies], get__MediaFormatType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediaformattype, tuner/IComponentType::get__MediaFormatType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get__MediaFormatType</b> method retrieves the DirectShow media format typ
 
 
 
-### -param MediaFormatTypeGuid
-
-TBD
-
-
-
-
-#### - pMediaFormatType [out]
+### -param MediaFormatTypeGuid [out]
 
 Pointer to a GUID that will receive the format type.
 

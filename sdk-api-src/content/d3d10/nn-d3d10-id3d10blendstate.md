@@ -7,10 +7,10 @@ old-location: direct3d10\id3d10blendstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10blendstate.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D10BlendState, ID3D10BlendState interface [Direct3D 10], ID3D10BlendState interface [Direct3D 10],described, d3d10/ID3D10BlendState, direct3d10.id3d10blendstate, e7edf841-099a-0302-cacb-da34c915ac4c
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 

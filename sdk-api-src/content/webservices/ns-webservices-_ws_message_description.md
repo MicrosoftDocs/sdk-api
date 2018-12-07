@@ -7,10 +7,10 @@ old-location: wsw\ws_message_description.htm
 tech.root: wsw
 ms.assetid: 399b3363-004b-499a-9726-0b2513826f43
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_MESSAGE_DESCRIPTION, WS_MESSAGE_DESCRIPTION structure [Web Services for Windows], _WS_MESSAGE_DESCRIPTION, webservices/WS_MESSAGE_DESCRIPTION, wsw.ws_message_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

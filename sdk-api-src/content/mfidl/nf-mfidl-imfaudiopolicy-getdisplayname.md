@@ -7,7 +7,7 @@ old-location: mf\imfaudiopolicy_getdisplayname.htm
 tech.root: medfound
 ms.assetid: 7826b4a1-5887-46a5-b312-91159596ccf5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 7826b4a1-5887-46a5-b312-91159596ccf5, GetDisplayName, GetDisplayName method [Media Foundation], GetDisplayName method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetDisplayName method, IMFAudioPolicy.GetDisplayName, IMFAudioPolicy::GetDisplayName, mf.imfaudiopolicy_getdisplayname, mfidl/IMFAudioPolicy::GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ Retrieves the display name of the audio session. The Windows volume control disp
 
 
 
-### -param pszName
-
-TBD
-
-
-
-
-#### - pbstrName [out]
+### -param pszName [out]
 
 Receives a pointer to the display name string. The caller must free the memory allocated for the string by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
 

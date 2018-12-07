@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiondevice2_createrotatetransform.htm
 tech.root: directcomp
 ms.assetid: C4F0187C-FB3C-447A-AD1E-5094004273F5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateRotateTransform, CreateRotateTransform method [DirectComposition], CreateRotateTransform method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateRotateTransform method, IDCompositionDevice2.CreateRotateTransform, IDCompositionDevice2::CreateRotateTransform, dcomp/IDCompositionDevice2::CreateRotateTransform, directcomp.idcompositiondevice2_createrotatetransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

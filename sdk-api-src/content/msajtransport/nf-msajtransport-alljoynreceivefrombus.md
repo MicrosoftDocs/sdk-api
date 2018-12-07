@@ -7,7 +7,7 @@ old-location: alljoyn\alljoynreceivefrombus.htm
 tech.root: AllJoyn
 ms.assetid: 5E11BCDC-319C-4C53-914E-73B2FEC4747E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AllJoynReceiveFromBus, AllJoynReceiveFromBus function [AllJoyn API], alljoyn.alljoynreceivefrombus, msajtransport/AllJoynReceiveFromBus
 ms.prod: windows-hardware
 ms.technology: windows-devices

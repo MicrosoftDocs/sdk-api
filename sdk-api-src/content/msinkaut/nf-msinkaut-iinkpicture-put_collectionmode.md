@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_collectionmode.htm
 tech.root: tablet
 ms.assetid: fe3d1158-b99b-4ae1-a509-c6f34b42615f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: CollectionMode property [Tablet PC], CollectionMode property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],CollectionMode property, IInkPicture.CollectionMode, IInkPicture.put_CollectionMode, IInkPicture::CollectionMode, IInkPicture::get_CollectionMode, IInkPicture::put_CollectionMode, InkPicture.get_CollectionMode, InkPicture.put_CollectionMode, fe3d1158-b99b-4ae1-a509-c6f34b42615f, msinkaut/IInkPicture::CollectionMode, msinkaut/IInkPicture::get_CollectionMode, msinkaut/IInkPicture::put_CollectionMode, put_CollectionMode, tablet.inkpicture_collectionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

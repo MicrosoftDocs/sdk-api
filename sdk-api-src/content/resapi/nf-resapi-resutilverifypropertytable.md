@@ -7,7 +7,7 @@ old-location: mscs\resutilverifypropertytable.htm
 tech.root: mscs
 ms.assetid: 5a079081-c11a-4f85-89d4-09a5e7fab29f
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_VERIFY_PROPERTY_TABLE, PRESUTIL_VERIFY_PROPERTY_TABLE function [Failover Cluster], ResUtilVerifyPropertyTable, ResUtilVerifyPropertyTable function [Failover Cluster], _wolf_resutilverifypropertytable, mscs.resutilverifypropertytable, resapi/PRESUTIL_VERIFY_PROPERTY_TABLE, resapi/ResUtilVerifyPropertyTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,6 +97,47 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INSUFFICIENT_BUFFER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property list buffer is larger than reported by the <i>cbInPropertyListSize</i> parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+No property list buffer was specified, or the property list is formatted incorrectly
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property list is formatted incorrectly. If <i>bAllowUnknownProperties</i> is set to <b>FALSE</b>, the property list may contain properties that are not present in the property table.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -7,10 +7,10 @@ old-location: coreaudio\audclnt_sharemode.htm
 tech.root: CoreAudio
 ms.assetid: f4870d0f-85d1-48ad-afe0-2f5a960c08fb
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/16/2018
 ms.keywords: AUDCLNT_SHAREMODE, AUDCLNT_SHAREMODE , AUDCLNT_SHAREMODE enumeration [Core Audio], AUDCLNT_SHAREMODE_EXCLUSIVE, AUDCLNT_SHAREMODE_SHARED, _AUDCLNT_SHAREMODE, audiosessiontypes/AUDCLNT_SHAREMODE, audiosessiontypes/AUDCLNT_SHAREMODE_EXCLUSIVE, audiosessiontypes/AUDCLNT_SHAREMODE_SHARED, coreaudio.audclnt_sharemode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: audiosessiontypes.h
 req.include-header: 

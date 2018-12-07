@@ -4,10 +4,10 @@ title: IWSDOutboundAttachment::Write
 author: windows-sdk-content
 description: Sends attachment data to the remote host using a MIME container.
 old-location: ncd\iwsdoutboundattachment_write_method.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 5bd24e7c-f2f4-4cc4-abc0-176ed024fa43
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDOutboundAttachment interface,Write method, IWSDOutboundAttachment.Write, IWSDOutboundAttachment::Write, Write, Write method, Write method,IWSDOutboundAttachment interface, ncd.iwsdoutboundattachment_write_method, wsdattachment/IWSDOutboundAttachment::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ Pointer to a buffer containing the output data. The application program is respo
 Number of bytes to send to the remote host from <i>pBuffer</i>.
 
 
-### -param pdwNumberOfBytesWritten
-
-TBD
-
-
-
-
-#### - pdwNumberofBytesWritten [out]
+### -param pdwNumberOfBytesWritten [out]
 
 Pointer to a <b>DWORD</b> containing the number of bytes of data actually sent to the remote host.
 

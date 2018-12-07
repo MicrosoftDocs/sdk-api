@@ -7,10 +7,10 @@ old-location: security\domain_password_information.htm
 tech.root: secauthn
 ms.assetid: 7dceaf70-d8de-47c0-b940-f0d6a0cca101
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDOMAIN_PASSWORD_INFORMATION, DOMAIN_LOCKOUT_ADMINS, DOMAIN_PASSWORD_COMPLEX, DOMAIN_PASSWORD_INFORMATION, DOMAIN_PASSWORD_INFORMATION structure [Security], DOMAIN_PASSWORD_NO_ANON_CHANGE, DOMAIN_PASSWORD_NO_CLEAR_CHANGE, DOMAIN_PASSWORD_STORE_CLEARTEXT, DOMAIN_REFUSE_PASSWORD_CHANGE, PDOMAIN_PASSWORD_INFORMATION, PDOMAIN_PASSWORD_INFORMATION structure pointer [Security], _DOMAIN_PASSWORD_INFORMATION, _lsa_domain_password_information, ntsecapi/DOMAIN_PASSWORD_INFORMATION, ntsecapi/PDOMAIN_PASSWORD_INFORMATION, security.domain_password_information"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

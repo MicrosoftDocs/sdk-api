@@ -7,7 +7,7 @@ old-location: fs\isreparsetagnamesurrogate.htm
 tech.root: fileio
 ms.assetid: 6d79527a-0c78-42d2-b079-3eb487de295f
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IsReparseTagNameSurrogate, IsReparseTagNameSurrogate macro [Files], _win32_isreparsetagnamesurrogate, base.isreparsetagnamesurrogate, fs.isreparsetagnamesurrogate, winnt/IsReparseTagNameSurrogate
 ms.prod: windows-hardware
 ms.technology: windows-devices

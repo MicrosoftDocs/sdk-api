@@ -7,10 +7,10 @@ old-location: mib\mib_anycastipaddress_table.htm
 tech.root: MIB
 ms.assetid: 46b99759-eb9a-4f91-a6b6-40e6e9f55038
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMIB_ANYCASTIPADDRESS_TABLE, MIB_ANYCASTIPADDRESS_TABLE, MIB_ANYCASTIPADDRESS_TABLE structure [MIB], PMIB_ANYCASTIPADDRESS_TABLE, PMIB_ANYCASTIPADDRESS_TABLE structure pointer [MIB], _MIB_ANYCASTIPADDRESS_TABLE, mib.mib_anycastipaddress_table, netioapi/MIB_ANYCASTIPADDRESS_TABLE, netioapi/PMIB_ANYCASTIPADDRESS_TABLE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacesetinfo.htm
 tech.root: rras
 ms.assetid: 2cf31e4b-7c58-43b8-b30a-e98402a656a3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceSetInfo, MprAdminInterfaceSetInfo function [RAS], _mpr_mpradmininterfacesetinfo, mprapi/MprAdminInterfaceSetInfo, rras.mpradmininterfacesetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: fs\storage_miniport_descriptor.htm
 tech.root: fileio
 ms.assetid: b962666d-60ae-4e0b-813e-7b22e1670644
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Files], STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Files], StoragePortCodeSetReserved, StoragePortCodeSetSCSIport, StoragePortCodeSetStorport, _STORAGE_MINIPORT_DESCRIPTOR, fs.storage_miniport_descriptor, winioctl/PSTORAGE_MINIPORT_DESCRIPTOR, winioctl/STORAGE_MINIPORT_DESCRIPTOR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

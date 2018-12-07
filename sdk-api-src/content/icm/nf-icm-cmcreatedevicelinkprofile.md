@@ -7,7 +7,7 @@ old-location: wcs\cmcreatedevicelinkprofile.htm
 tech.root: WCS
 ms.assetid: 54f46d2c-ddcb-4597-9816-172e507a7fa2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMCreateDeviceLinkProfile, CMCreateDeviceLinkProfile function [Windows Color System], _color_CMCreateDeviceLinkProfile, icm/CMCreateDeviceLinkProfile, wcs.cmcreatedevicelinkprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CMCreateDeviceLinkProfile
+: 
 ---
 
 # CMCreateDeviceLinkProfile function
@@ -60,7 +66,7 @@ The <b>CMCreateDeviceLinkProfile</b> function creates a <a href="d.htm">device l
 
 ### -param pahProfiles
 
-TBD
+Pointer to an array of profile handles.
 
 
 ### -param nProfiles
@@ -86,11 +92,6 @@ Specifies flags to used control creation of the transform. For details, see <a h
 ### -param lpProfileData
 
 Pointer to a pointer to a buffer. If successful the function allocates and fills this buffer. The calling application must free this buffer when it is no longer needed. Use the <b>GlobalFree</b> function to free this buffer.
-
-
-#### - lpahProfiles
-
-Pointer to an array of profile handles.
 
 
 ## -returns

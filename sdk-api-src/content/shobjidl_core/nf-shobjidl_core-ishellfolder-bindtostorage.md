@@ -7,7 +7,7 @@ old-location: shell\IShellFolder_BindToStorage.htm
 tech.root: shell
 ms.assetid: 6abd12bb-5c85-4f3b-a6ad-a7c05ce02ce3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: BindToStorage, BindToStorage method [Windows Shell], BindToStorage method [Windows Shell],IShellFolder interface, BindToStorage method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],BindToStorage method, IShellFolder.BindToStorage, IShellFolder2 interface [Windows Shell],BindToStorage method, IShellFolder2::BindToStorage, IShellFolder::BindToStorage, _win32_IShellFolder_BindToStorage, shell.IShellFolder_BindToStorage, shobjidl_core/IShellFolder2::BindToStorage, shobjidl_core/IShellFolder::BindToStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,14 +81,7 @@ Type: <b>REFIID</b>
 The IID of the requested storage interface. To retrieve an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>, <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>, or <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface pointer, set <i>riid</i> to <b>IID_IStream</b>, <b>IID_IStorage</b>, or <b>IID_IPropertySetStorage</b>, respectively.
 
 
-### -param ppv
-
-TBD
-
-
-
-
-#### - ppvOut [out]
+### -param ppv [out]
 
 Type: <b>void**</b>
 

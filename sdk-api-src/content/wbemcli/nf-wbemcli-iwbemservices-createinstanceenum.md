@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_createinstanceenum.htm
 tech.root: WmiSdk
 ms.assetid: 47671b9b-a2ff-4375-b2a4-7e8599f1fb69
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: CreateInstanceEnum, CreateInstanceEnum method [Windows Management Instrumentation], CreateInstanceEnum method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateInstanceEnum method, IWbemServices.CreateInstanceEnum, IWbemServices::CreateInstanceEnum, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createinstanceenum, wbemcli/IWbemServices::CreateInstanceEnum, wmi.iwbemservices_createinstanceenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,9 +74,9 @@ The
 
 
 
-### -param strFilter
+### -param strFilter [in]
 
-TBD
+Valid <b>BSTR</b> containing the name of the class for which instances are desired. This parameter cannot be <b>NULL</b>.
 
 
 ### -param lFlags [in]
@@ -139,11 +139,6 @@ Typically <b>NULL</b>. Otherwise, this is a pointer to an
 ### -param ppEnum [out]
 
 Receives the pointer to the enumerator, which has a positive reference count. The caller must call <b>IUnknown::Release</b> on the pointer after it is no longer required.
-
-
-#### - strClass [in]
-
-Valid <b>BSTR</b> containing the name of the class for which instances are desired. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

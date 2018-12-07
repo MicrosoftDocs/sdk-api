@@ -4,10 +4,10 @@ title: ISignerCertificate::get_UIContextMessage
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains user interface text associated with the signing certificate.
 old-location: security\isignercertificate_uicontextmessage_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 0fd874b0-9093-4c1b-94a0-a2aaad19010e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISignerCertificate interface [Security],UIContextMessage property, ISignerCertificate.UIContextMessage, ISignerCertificate.get_UIContextMessage, ISignerCertificate::UIContextMessage, ISignerCertificate::get_UIContextMessage, ISignerCertificate::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::UIContextMessage, certenroll/ISignerCertificate::get_UIContextMessage, certenroll/ISignerCertificate::put_UIContextMessage, get_UIContextMessage, security.isignercertificate_uicontextmessage_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

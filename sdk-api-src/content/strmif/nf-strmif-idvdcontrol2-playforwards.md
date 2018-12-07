@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playforwards.htm
 tech.root: DirectShow
 ms.assetid: bf57e2fd-c85f-430d-a1fa-5b59f7bfb8af
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayForwards method, IDvdControl2.PlayForwards, IDvdControl2::PlayForwards, IDvdControl2PlayForwards, PlayForwards, PlayForwards method [DirectShow], PlayForwards method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playforwards, strmif/IDvdControl2::PlayForwards
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,9 +62,9 @@ The <code>PlayForwards</code> method plays forward at the specified speed from t
 
 
 
-### -param dSpeed
+### -param dSpeed [in]
 
-TBD
+Value that specifies the playback speed. This value is a multiplier, where 1.0 is the authored speed, so a value of 2.5 plays at two and one-half times the authored speed, while a value of 0.5 plays at half the authored speed. The actual speed of playback depends on the capabilities of the video decoder. Values below 0.00001 are converted to 0.00001.
 
 
 ### -param dwFlags [in]
@@ -75,11 +75,6 @@ Bitwise OR of one or more flags from the <a href="https://msdn.microsoft.com/05e
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="https://msdn.microsoft.com/85f9b208-ddc2-4d9c-a30b-b666c81a49d2">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/37e8f940-617d-43f6-92bd-aadccafe0059">Synchronizing DVD Commands</a>.
-
-
-#### - dwSpeed [in]
-
-Value that specifies the playback speed. This value is a multiplier, where 1.0 is the authored speed, so a value of 2.5 plays at two and one-half times the authored speed, while a value of 0.5 plays at half the authored speed. The actual speed of playback depends on the capabilities of the video decoder. Values below 0.00001 are converted to 0.00001.
 
 
 ## -returns

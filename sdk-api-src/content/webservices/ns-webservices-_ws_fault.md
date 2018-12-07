@@ -7,10 +7,10 @@ old-location: wsw\ws_fault.htm
 tech.root: wsw
 ms.assetid: 7fe0b142-04a1-4a92-99ca-523412f7c94e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_FAULT, WS_FAULT structure [Web Services for Windows], _WS_FAULT, webservices/WS_FAULT, wsw.ws_fault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

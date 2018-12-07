@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetIncludeFile
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivssexaminewritermetadata_getincludefile.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 1a47dbe9-f27d-4f84-bccd-6c7d46e9238b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetIncludeFile, GetIncludeFile method [VSS], GetIncludeFile method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetIncludeFile method, IVssExamineWriterMetadata.GetIncludeFile, IVssExamineWriterMetadata::GetIncludeFile, _win32_ivssexaminewritermetadata_getincludefile, base.ivssexaminewritermetadata_getincludefile, vsbackup/IVssExamineWriterMetadata::GetIncludeFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

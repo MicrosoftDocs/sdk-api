@@ -4,10 +4,10 @@ title: INetSharingEveryConnectionCollection::get_Count
 author: windows-sdk-content
 description: The get__Count method retrieves the number of items in the connections collection.
 old-location: ics\inetsharingeveryconnectioncollection_get_count.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: c387ab2c-7edd-4975-a735-d555dd7191cf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: INetSharingEveryConnectionCollection interface [ICS/ICF],get_Count method, INetSharingEveryConnectionCollection.get_Count, INetSharingEveryConnectionCollection::get_Count, _ics_inetsharingeveryconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingEveryConnectionCollection interface, ics.inetsharingeveryconnectioncollection_get_count, netcon/INetSharingEveryConnectionCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

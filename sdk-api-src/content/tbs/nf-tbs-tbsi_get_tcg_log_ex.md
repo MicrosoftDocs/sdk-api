@@ -7,7 +7,7 @@ old-location: tbs\tbsi_get_tcg_log_ex.htm
 tech.root: TBS
 ms.assetid: 7895D501-97A7-4813-B997-B7D8C6F7C0C6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TBS_TCGLOG_DRTM_CURRENT, TBS_TCGLOG_SRTM_BOOT, TBS_TCGLOG_SRTM_CURRENT, TBS_TCGLOG_SRTM_RESUME, Tbsi_Get_TCG_Log_Ex, Tbsi_Get_TCG_Log_Ex function [TBS], tbs.tbsi_get_tcg_log_ex, tbs/Tbsi_Get_TCG_Log_Ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -339,23 +339,16 @@ The log format that is compatible with different hashing algorithms allows the p
 
 The Windows-defined events in the TCG event log are a tuple of {Type, Length, Value}. You can parse the log using the following TCG_PCR_EVENT structure from the <a href="http://www.trustedcomputinggroup.org/developers/pc_client/specifications/">TCG PC Client spec</a>. You can create a correlation between lists of log events using the information in the <a href="http://research.microsoft.com/en-us/downloads/74c45746-24ad-4cb7-ba4b-0c6df2f92d5d/">TPM PCP Toolkit</a> and the <a href="http://www.trustedcomputinggroup.org/resources/tpm_main_specification">TPM Main Specification</a>. 
 
-<div class="code"><span codelanguage=""><table>
-The Windows-defined events in the TCG event log are a tuple of {Type, Length, Value}. You can parse the log using the following TCG_PCR_EVENT structure from the <a href="http://www.trustedcomputinggroup.org/developers/pc_client/specifications/">TCG PC Client spec</a>. You can create a correlation between lists of log events using the information in the <a href="http://research.microsoft.com/en-us/downloads/74c45746-24ad-4cb7-ba4b-0c6df2f92d5d/">TPM PCP Toolkit</a> and the <a href="http://www.trustedcomputinggroup.org/resources/tpm_main_specification">TPM Main Specification</a>. <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct {
+
+```
+typedef struct {
   TCG_PCRINDEX PCRIndex;
   TCG_EVENTTYPE EventType;
   TCG_DIGEST Digest;
   UINT32 EventSize;
   UINT8 Event[EventSize];
-} TCG_PCR_EVENT;</pre>
-</td>
-</tr>
-</table></span></div>
+} TCG_PCR_EVENT;
+```
 
 
 

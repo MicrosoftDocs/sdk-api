@@ -7,7 +7,7 @@ old-location: shell\StrStrI.htm
 tech.root: shell
 ms.assetid: b0281641-1375-4815-a707-03e1ce7e5a29
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: StrStrI, StrStrI function [Windows Shell], StrStrIA, StrStrIW, _win32_StrStrI, shell.StrStrI, shlwapi/StrStrI, shlwapi/StrStrIA, shlwapi/StrStrIW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: windowsribbon\ui_eventparams_command_.htm
 tech.root: windowsribbon
 ms.assetid: 7B1E92E2-DFFE-4B4F-87F1-1BFBD8E06D08
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PUI_EVENTPARAMS_COMMAND, PUI_EVENTPARAMS_COMMAND structure pointer [Windows Ribbon], UI_EVENTPARAMS_COMMAND, UI_EVENTPARAMS_COMMAND , UI_EVENTPARAMS_COMMAND structure [Windows Ribbon], _UI_EVENTPARAMS_COMMAND, uiribbon/PUI_EVENTPARAMS_COMMAND, uiribbon/UI_EVENTPARAMS_COMMAND, windowsribbon.ui_eventparams_command_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: uiribbon.h
 req.include-header: 

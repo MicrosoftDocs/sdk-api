@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_enabled.htm
 tech.root: tablet
 ms.assetid: c376bf02-ddef-45e5-b041-b7f4b437bb27
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],Enabled property, IInkOverlay.Enabled, IInkOverlay.put_Enabled, IInkOverlay::Enabled, IInkOverlay::get_Enabled, IInkOverlay::put_Enabled, InkOverlay.get_Enabled, InkOverlay.put_Enabled, msinkaut/IInkOverlay::Enabled, msinkaut/IInkOverlay::get_Enabled, msinkaut/IInkOverlay::put_Enabled, put_Enabled, tablet.inkoverlay_enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

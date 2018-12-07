@@ -7,7 +7,7 @@ old-location: wmi\chstring_reversefind.htm
 tech.root: WmiSdk
 ms.assetid: 941c9eb3-a5b8-42b7-bb9f-732eaf1faa24
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],ReverseFind method, CHString.ReverseFind, CHString::ReverseFind, ReverseFind, ReverseFind method [Windows Management Instrumentation], ReverseFind method [Windows Management Instrumentation],CHString interface, _hmm_chstring_reversefind, chstring/CHString::ReverseFind, wmi.chstring_reversefind
 ms.prod: windows-hardware
 ms.technology: windows-devices

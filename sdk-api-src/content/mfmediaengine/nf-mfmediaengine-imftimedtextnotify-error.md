@@ -7,7 +7,7 @@ old-location: mf\imftimedtextnotify_error.htm
 tech.root: medfound
 ms.assetid: 3658EE26-497D-4D33-BE68-572BCE1B28B1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Error, Error method [Media Foundation], Error method [Media Foundation],IMFTimedTextNotify interface, IMFTimedTextNotify interface [Media Foundation],Error method, IMFTimedTextNotify.Error, IMFTimedTextNotify::Error, mf.imftimedtextnotify_error, mfmediaengine/IMFTimedTextNotify::Error
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,9 +65,11 @@ Type: <b><a href="https://msdn.microsoft.com/D59B2063-5632-4115-BA8C-503181B5DF0
 An MF_TIMED_TEXT_ERROR_CODE representing the last error.
 
 
-### -param extendedErrorCode
+### -param extendedErrorCode [in]
 
-TBD
+Type: <b>extendedErrorCode</b>
+
+The extended error code for the last error.
 
 
 ### -param sourceTrackId [in]
@@ -75,13 +77,6 @@ TBD
 Type: <b>extendedErrorCode</b>
 
 The identifier of the track on which the error occurred.
-
-
-#### - HRESULT [in]
-
-Type: <b>extendedErrorCode</b>
-
-The extended error code for the last error.
 
 
 ## -returns

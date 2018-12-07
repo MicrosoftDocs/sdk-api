@@ -7,7 +7,7 @@ old-location: wmdm\iwmdevicemanager3_setdeviceenumpreference.htm
 tech.root: WMDM
 ms.assetid: a39aaa62-6f23-4fe0-9231-1781ce74b090
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWMDeviceManager3 interface [windows Media Device Manager],SetDeviceEnumPreference method, IWMDeviceManager3.SetDeviceEnumPreference, IWMDeviceManager3::SetDeviceEnumPreference, IWMDeviceManager3SetDeviceEnumPreference, SetDeviceEnumPreference, SetDeviceEnumPreference method [windows Media Device Manager], SetDeviceEnumPreference method [windows Media Device Manager],IWMDeviceManager3 interface, mswmdm/IWMDeviceManager3::SetDeviceEnumPreference, wmdm.iwmdevicemanager3_setdeviceenumpreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>SetDeviceEnumPreference</b> method sets the device enumeration preference
 
 
 
-### -param dwEnumPref
-
-TBD
-
-
-
-
-#### - fuPrefs [in]
+### -param dwEnumPref [in]
 
 Specifies a bitwise <b>OR</b> combination of one or more of the following bit values that specify enumeration preference. Each set bit enables the corresponding extended behavior, whereas the absence of that bit disables the extended behavior and specifies the default, backward-compatible enumeration behavior. The possible values for <i>fuPrefs</i> are provided in the following table.
 

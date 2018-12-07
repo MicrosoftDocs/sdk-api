@@ -7,10 +7,10 @@ old-location: tsf\tflbiclick.htm
 tech.root: TSF
 ms.assetid: 7fd151dd-e4be-4ec8-b373-2115717d5ef4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: TF_LBI_CLK_LEFT, TF_LBI_CLK_RIGHT, TfLBIClick, TfLBIClick enumeration [Text Services Framework], __MIDL___MIDL_itf_ctfutb_0000_0010_0001, _tsf_tflbiclick_ref, ctfutb/TF_LBI_CLK_LEFT, ctfutb/TF_LBI_CLK_RIGHT, ctfutb/TfLBIClick, tsf.tflbiclick
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: ctfutb.h
 req.include-header: 

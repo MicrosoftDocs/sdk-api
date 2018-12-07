@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enummemberrefs.htm
 tech.root: WinRT
 ms.assetid: 900777d4-14fc-4d64-a01c-395f5fafe5e4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EnumMemberRefs, EnumMemberRefs method [Windows Runtime], EnumMemberRefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMemberRefs method, IMetaDataImport.EnumMemberRefs, IMetaDataImport::EnumMemberRefs, rometadataapi/IMetaDataImport::EnumMemberRefs, winrt.imetadataimport_enummemberrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

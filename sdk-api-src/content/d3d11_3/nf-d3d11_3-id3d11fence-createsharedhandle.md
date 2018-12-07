@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11fence_createsharedhandle.htm
 tech.root: direct3d11
 ms.assetid: 07447C9A-8F69-4FCA-B75C-D7015292F25D
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method [Direct3D 11], CreateSharedHandle method [Direct3D 11],ID3D11Fence interface, ID3D11Fence interface [Direct3D 11],CreateSharedHandle method, ID3D11Fence.CreateSharedHandle, ID3D11Fence::CreateSharedHandle, d3d11_3/ID3D11Fence::CreateSharedHandle, direct3d11.id3d11fence_createsharedhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,31 +84,12 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
 
 ### -param dwAccess
 
-TBD
-
-
-### -param lpName
-
-TBD
-
-
-### -param pHandle [out]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HANDLE</a>*</b>
-
-A pointer to a variable that receives the NT HANDLE value to the resource to share.
-            You can use this handle in calls to access the resource.
-          
-
-
-#### - Access
-
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 Currently the only value this parameter accepts is GENERIC_ALL.
 
 
-#### - Name [in, optional]
+### -param lpName [in, optional]
 
 Type: <b>LPCWSTR</b>
 
@@ -132,6 +113,15 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the object
 The object can be created in a private namespace.
               For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms684295(v=VS.85).aspx">Object Namespaces</a>.
             
+
+
+### -param pHandle [out]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HANDLE</a>*</b>
+
+A pointer to a variable that receives the NT HANDLE value to the resource to share.
+            You can use this handle in calls to access the resource.
+          
 
 
 ## -returns

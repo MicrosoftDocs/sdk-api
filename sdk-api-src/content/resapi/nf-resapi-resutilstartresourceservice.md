@@ -7,7 +7,7 @@ old-location: mscs\resutilstartresourceservice.htm
 tech.root: mscs
 ms.assetid: 0c8a80d7-0291-4ed5-af44-67c0c251dc84
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_START_RESOURCE_SERVICE, PRESUTIL_START_RESOURCE_SERVICE function [Failover Cluster], ResUtilStartResourceService, ResUtilStartResourceService function [Failover Cluster], _wolf_resutilstartresourceservice, mscs.resutilstartresourceservice, resapi/PRESUTIL_START_RESOURCE_SERVICE, resapi/ResUtilStartResourceService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,6 +76,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error code.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SERVICE_NEVER_STARTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The service was not started.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

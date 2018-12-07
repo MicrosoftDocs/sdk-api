@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromVariantArrayElem.htm
 tech.root: properties
 ms.assetid: 531731a5-7a13-49be-8512-5cf25c96ee35
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: InitVariantFromVariantArrayElem, InitVariantFromVariantArrayElem function [Windows Properties], _shell_InitVariantFromVariantArrayElem, properties.InitVariantFromVariantArrayElem, propvarutil/InitVariantFromVariantArrayElem, shell.InitVariantFromVariantArrayElem
 ms.prod: windows-hardware
 ms.technology: windows-devices

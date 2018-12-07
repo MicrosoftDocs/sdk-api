@@ -7,7 +7,7 @@ old-location: ldap\ber_printf.htm
 tech.root: ldap
 ms.assetid: 6bae449b-eb75-4598-aacc-65567de67997
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ber_printf, ber_printf, ber_printf function [LDAP], ldap.ber__printf, ldap.ber_printf, winber/ber_printf"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ A pointer to the encoded <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-
 An encoding format string. For more information, see Remarks.
 
 
-### -param arg3
-
-TBD
-
-
-
-
-#### - param [in]
+### -param arg3 [in]
 
 The values to be encoded as specified by the <i>fmt</i> argument.
 

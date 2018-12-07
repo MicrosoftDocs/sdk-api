@@ -7,7 +7,7 @@ old-location: shell\SHRegOpenUSKey.htm
 tech.root: shell
 ms.assetid: 756430a9-a495-412e-95c3-a93222bc467a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SHRegOpenUSKey, SHRegOpenUSKey function [Windows Shell], SHRegOpenUSKeyA, SHRegOpenUSKeyW, _win32_SHRegOpenUSKey, shell.SHRegOpenUSKey, shlwapi/SHRegOpenUSKey, shlwapi/SHRegOpenUSKeyA, shlwapi/SHRegOpenUSKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,11 +64,9 @@ Opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LO
 
 
 
-#### - pwzPath [in]
+### -param pwzPath
 
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string with the name of the subkey.
+TBD
 
 
 ### -param samDesired [in]
@@ -97,6 +95,13 @@ A pointer to the handle of the opened key.
 Type: <b>BOOL</b>
 
 The variable that specifies which key to look under. When set to <b>TRUE</b>, <b>SHRegOpenUSKey</b> ignores <b>HKEY_CURRENT_USER</b> and returns a value from <b>HKEY_LOCAL_MACHINE</b>.
+
+
+#### - pszPath [in]
+
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string with the name of the subkey.
 
 
 ## -returns

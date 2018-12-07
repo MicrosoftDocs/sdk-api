@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_clear.htm
 tech.root: direct2d
 ms.assetid: d91bb6b2-ecc8-4c16-95fc-c0cb7bbe80e3
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],Clear method, ID2D1CommandSink.Clear, ID2D1CommandSink::Clear, d2d1_1/ID2D1CommandSink::Clear, direct2d.id2d1commandsink_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,7 @@ Clears the drawing area to the specified color.
 
 
 
-### -param color
-
-TBD
-
-
-
-
-#### - clearColor [in, optional]
+### -param color [in, optional]
 
 Type: <b>const <a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a>*</b>
 

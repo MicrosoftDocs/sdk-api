@@ -7,7 +7,7 @@ old-location: shell\ICategorizer_GetCategory.htm
 tech.root: shell
 ms.assetid: e3756e9e-7d68-4e30-92d4-1fddccf66ba5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetCategory, GetCategory method [Windows Shell], GetCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],GetCategory method, ICategorizer.GetCategory, ICategorizer::GetCategory, inet_ICategorizer_GetCategory, shell.ICategorizer_GetCategory, shobjidl_core/ICategorizer::GetCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

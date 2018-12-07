@@ -4,10 +4,10 @@ title: IDataCollectorSet::Delete
 author: windows-sdk-content
 description: Deletes the persisted copy of the data collector set if the set is not running.
 old-location: pla\idatacollectorset_delete.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 35e95d41-0d6c-428a-a167-6667275d4fb7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: Delete, Delete method [PLA], Delete method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Delete method, IDataCollectorSet.Delete, IDataCollectorSet::Delete, base.idatacollectorset_delete, pla.idatacollectorset_delete, pla/IDataCollectorSet::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

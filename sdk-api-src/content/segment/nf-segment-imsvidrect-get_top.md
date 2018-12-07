@@ -4,10 +4,10 @@ title: IMSVidRect::get_Top
 author: windows-sdk-content
 description: The get_Top method retrieves the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_get_top.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 3596141c-e359-4ea5-8d6a-9ec374c1f854
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Top method, IMSVidRect.get_Top, IMSVidRect::get_Top, IMSVidRectget_Top, get_Top, get_Top method [Microsoft TV Technologies], get_Top method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_top, segment/IMSVidRect::get_Top
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_Top</b> method retrieves the top y-coordinate of the rectangle. This 
 
 
 
-### -param TopVal
-
-TBD
-
-
-
-
-#### - pTopVal [out]
+### -param TopVal [out]
 
 Pointer to a variable that receives the top y-coordinate, in pixels.
 

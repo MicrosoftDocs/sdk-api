@@ -7,7 +7,7 @@ old-location: multimedia\mmiorename.htm
 tech.root: Multimedia
 ms.assetid: f47ef581-b3c8-409b-9edf-cbc8cfa04036
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_mmioRename, mmioRename, mmioRename function [Windows Multimedia], mmioRenameA, mmioRenameW, mmsystem/mmioRename, mmsystem/mmioRenameA, mmsystem/mmioRenameW, multimedia.mmiorename"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,44 +68,22 @@ The <b>mmioRename</b> function renames the specified file.
 
 ### -param pszFileName
 
-TBD
+Pointer to a string containing the file name of the file to rename.
 
 
 ### -param pszNewFileName
 
-TBD
+Pointer to a string containing the new file name.
 
 
 ### -param pmmioinfo
 
-TBD
+Pointer to an <a href="https://msdn.microsoft.com/44a46d1c-9c9c-42ee-8a2b-ac5b1bc19560">MMIOINFO</a> structure containing extra parameters used by <b>mmioRename</b>. If this parameter is not <b>NULL</b>, all unused members of the <b>MMIOINFO</b> structure it references must be set to zero, including the reserved members.
 
 
 ### -param fdwRename
 
-TBD
-
-
-
-
-#### - dwRenameFlags
-
 Flags for the rename operation. This parameter should be set to zero.
-
-
-#### - lpmmioinfo
-
-Pointer to an <a href="https://msdn.microsoft.com/44a46d1c-9c9c-42ee-8a2b-ac5b1bc19560">MMIOINFO</a> structure containing extra parameters used by <b>mmioRename</b>. If this parameter is not <b>NULL</b>, all unused members of the <b>MMIOINFO</b> structure it references must be set to zero, including the reserved members.
-
-
-#### - szFilename
-
-Pointer to a string containing the file name of the file to rename.
-
-
-#### - szNewFilename
-
-Pointer to a string containing the new file name.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_chapterplay.htm
 tech.root: DirectShow
 ms.assetid: c51524d0-5935-4e14-bcaf-4739fd0f21bb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ChapterPlay, ChapterPlay method [DirectShow], ChapterPlay method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterPlay method, IDvdControl.ChapterPlay, IDvdControl::ChapterPlay, IDvdControlChapterPlay, dshow.idvdcontrol_chapterplay, strmif/IDvdControl::ChapterPlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,26 +63,14 @@ Plays the media file with the specified title index and chapter value.
 
 
 
-### -param ulTitle
-
-TBD
-
-
-### -param ulChapter
-
-TBD
-
-
-
-
-#### - uiChapter [in]
-
-Value that specifies the chapter within the specified title where DirectShow will start playback; this value must be from 1 through 999.
-
-
-#### - uiTitle [in]
+### -param ulTitle [in]
 
 Value that specifies the title number DirectShow will play back; this value must be from 1 through 99.
+
+
+### -param ulChapter [in]
+
+Value that specifies the chapter within the specified title where DirectShow will start playback; this value must be from 1 through 999.
 
 
 ## -returns

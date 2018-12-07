@@ -7,7 +7,7 @@ old-location: controls\ITextPara_IsEqual.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparaisequal.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITextPara interface [Windows Controls],IsEqual method, ITextPara.IsEqual, ITextPara::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextPara interface, _win32_ITextPara_IsEqual, _win32_ITextPara_IsEqual_cpp, controls.ITextPara_IsEqual, controls._win32_ITextPara_IsEqual, tom/ITextPara::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,13 +66,6 @@ The <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">IT
 
 
 ### -param pValue
-
-TBD
-
-
-
-
-#### - pB
 
 Type: <b>long*</b>
 

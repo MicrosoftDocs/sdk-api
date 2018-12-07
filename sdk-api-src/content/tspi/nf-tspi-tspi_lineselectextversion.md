@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineselectextversion.htm
 tech.root: tapi
 ms.assetid: 8c083afc-2e15-4260-ba67-84125c777cbf
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineSelectExtVersion, TSPI_lineSelectExtVersion function [TAPI 2.2], _tspi_tspi_lineselectextversion, tspi.tspi_lineselectextversion, tspi/TSPI_lineSelectExtVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_get_dependencies.htm
 tech.root: msi
 ms.assetid: 0e59ac31-647e-4dd2-8f56-993eb4c59ab2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmMerge interface,get_Dependencies method, IMsmMerge.get_Dependencies, IMsmMerge::get_Dependencies, _msi_get_dependencies_function, get_Dependencies, get_Dependencies method, get_Dependencies method,IMsmMerge interface, mergemod/IMsmMerge::get_Dependencies, setup.imsmmerge_get_dependencies
 ms.prod: windows-hardware
 ms.technology: windows-devices

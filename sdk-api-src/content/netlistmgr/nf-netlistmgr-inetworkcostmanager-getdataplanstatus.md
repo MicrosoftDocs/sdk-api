@@ -4,10 +4,10 @@ title: INetworkCostManager::GetDataPlanStatus
 author: windows-sdk-content
 description: GetDataPlanStatus retrieves the data plan status for either a machine-wide internet connection , or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager_getdataplanstatus.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 82B4FF65-5D45-4D79-8F11-EA4CF4760EE2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetDataPlanStatus method, INetworkCostManager.GetDataPlanStatus, INetworkCostManager::GetDataPlanStatus, netlistmgr/INetworkCostManager::GetDataPlanStatus, nla.inetworkcostmanager_getdataplanstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ The <b>GetDataPlanStatus</b> retrieves the data plan status for either a machine
 Pointer to an <a href="https://msdn.microsoft.com/49774150-FD7E-4541-95DF-C848247A6A9C">NLM_DATAPLAN_STATUS</a> structure that describes the data plan status associated with a connection used to route to a destination. If <i>destIPAddr</i> specifies a tunnel address, the first available data plan status in the interface stack is returned.
 
 
-### -param pDestIPAddr
-
-TBD
-
-
-
-
-#### - destIPAddr [in]
+### -param pDestIPAddr [in]
 
 An <a href="https://msdn.microsoft.com/BEAF672C-F9B3-4544-878B-BBCF96F502C6">NLM_SOCKADDR</a> structure containing the destination IPv4/IPv6 or tunnel address. If   NULL, this method returns the cost associated with the preferred connection used for machine Internet connectivity.
 

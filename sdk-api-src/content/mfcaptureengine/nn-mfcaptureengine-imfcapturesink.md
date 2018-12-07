@@ -7,10 +7,10 @@ old-location: mf\imfcapturesink.htm
 tech.root: medfound
 ms.assetid: FBC85FEC-9CD1-45C8-8A2A-04E7BEC483DE
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IMFCaptureSink, IMFCaptureSink interface [Media Foundation], IMFCaptureSink interface [Media Foundation],described, mf.imfcapturesink, mfcaptureengine/IMFCaptureSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 

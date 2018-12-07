@@ -4,10 +4,10 @@ title: ITaskSettings::put_StartWhenAvailable
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler can start the task at any time after its scheduled time has passed.
 old-location: taskschd\itasksettings_startwhenavailable.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 93002ed0-4d85-491c-9111-6bb5d62ebac2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],StartWhenAvailable property, ITaskSettings.StartWhenAvailable, ITaskSettings.put_StartWhenAvailable, ITaskSettings::StartWhenAvailable, ITaskSettings::get_StartWhenAvailable, ITaskSettings::put_StartWhenAvailable, StartWhenAvailable property [Task Scheduler], StartWhenAvailable property [Task Scheduler],ITaskSettings interface, put_StartWhenAvailable, taskschd.itasksettings_startwhenavailable, taskschd/ITaskSettings::StartWhenAvailable, taskschd/ITaskSettings::get_StartWhenAvailable, taskschd/ITaskSettings::put_StartWhenAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

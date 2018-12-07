@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voice_interface_setoutputvoices.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetOutputVoices(const XAUDIO2_VOICE_SENDS)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetOutputVoices method, IXAudio2Voice.SetOutputVoices, IXAudio2Voice::SetOutputVoices, SetOutputVoices, SetOutputVoices method [XAudio2 Audio Mixing APIs], SetOutputVoices method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setoutputvoices, xaudio2/IXAudio2Voice::SetOutputVoices
 ms.prod: windows-hardware
 ms.technology: windows-devices

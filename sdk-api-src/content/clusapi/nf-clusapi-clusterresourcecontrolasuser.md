@@ -7,7 +7,7 @@ old-location: mscs\clusterresourcecontrolasuser.htm
 tech.root: mscs
 ms.assetid: D8CA1B1C-7061-4EAD-B4A0-8468B503D96D
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterResourceControlAsUser, ClusterResourceControlAsUser function [Failover Cluster], clusapi/ClusterResourceControlAsUser, mscs.clusterresourcecontrolasuser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,6 +113,89 @@ Returns the actual size (in bytes) of the data resulting from the operation. If 
 
 
 The function returns one of the following values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful. If the operation required an output buffer, 
+         <i>lpBytesReturned</i> (if not <b>NULL</b> on input) points to the 
+         actual size of the data returned in the buffer.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+The output buffer pointed to by <i>lpOutBuffer</i> was not large enough to hold the data 
+         resulting from the operation. The <i>lpBytesReturned</i> parameter (if not 
+         <b>NULL</b> on input) points to the size required for the output buffer. Only operations 
+         requiring an output buffer return <b>ERROR_MORE_DATA</b>. If the 
+         <i>lpOutBuffer</i> parameter is <b>NULL</b> and the 
+         <i>cbOutBufferSize</i> parameter is zero, then <b>ERROR_SUCCESS</b> may 
+         be returned, not <b>ERROR_MORE_DATA</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_PROPERTIES_STORED</b></dt>
+<dt>5024 (0x13A0)</dt>
+</dl>
+</td>
+<td width="60%">
+Applies only to 
+         <a href="https://msdn.microsoft.com/016ca8bf-b5e4-4e7e-9ffd-14120146eedd">CLUSCTL_RESOURCE_SET_COMMON_PROPERTIES</a> 
+         and 
+         <a href="https://msdn.microsoft.com/fdf7f7c3-fdaf-4c8e-8b57-8eab4256d5eb">CLUSCTL_RESOURCE_SET_PRIVATE_PROPERTIES</a>. 
+         Indicates that the properties were successfully stored but have not yet been applied to the resource. The new 
+         properties will take effect after the resource is taken offline and brought online again.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_HOST_NODE_NOT_RESOURCE_OWNER</b></dt>
+<dt>5015 (0x1397)</dt>
+</dl>
+</td>
+<td width="60%">
+The node specified by the <i>hNode</i> parameter is not the node that owns the resource 
+         specified by <i>hResource</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System error code</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. If the operation required an output buffer, the value specified by 
+         <i>lpBytesReturned</i> (if not <b>NULL</b> on input) is 
+         unreliable.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

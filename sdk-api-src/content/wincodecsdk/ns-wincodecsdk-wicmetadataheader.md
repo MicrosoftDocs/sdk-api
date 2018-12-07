@@ -7,10 +7,10 @@ old-location: wic\_wic_codec_wicmetadataheader.htm
 tech.root: wic
 ms.assetid: f643b163-55b2-4691-a4eb-fc162949e936
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: WICMetadataHeader, WICMetadataHeader structure [Windows Imaging Component], _wic_codec_wicmetadataheader, wic._wic_codec_wicmetadataheader, wincodecsdk/WICMetadataHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincodecsdk.h
 req.include-header: 

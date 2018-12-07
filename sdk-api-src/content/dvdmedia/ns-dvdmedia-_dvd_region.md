@@ -7,10 +7,10 @@ old-location: dshow\dvd_region.htm
 tech.root: DirectShow
 ms.assetid: 2a555f98-5037-4a99-a1b7-bea36527309b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDVD_REGION, DVD_REGION, DVD_REGION structure [DirectShow], DVD_REGIONStructure, PDVD_REGION, PDVD_REGION structure pointer [DirectShow], _DVD_REGION, dshow.dvd_region, dvdmedia/DVD_REGION, dvdmedia/PDVD_REGION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

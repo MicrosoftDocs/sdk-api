@@ -4,10 +4,10 @@ title: ICspAlgorithm::get_DefaultLength
 author: windows-sdk-content
 description: Retrieves the default length of a key.
 old-location: security\icspalgorithm_defaultlength_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 03a487e0-5ba4-4065-86e9-bed667db6ff9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DefaultLength property [Security], DefaultLength property [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],DefaultLength property, ICspAlgorithm.DefaultLength, ICspAlgorithm.get_DefaultLength, ICspAlgorithm::DefaultLength, ICspAlgorithm::get_DefaultLength, certenroll/ICspAlgorithm::DefaultLength, certenroll/ICspAlgorithm::get_DefaultLength, get_DefaultLength, security.icspalgorithm_defaultlength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\startdoc.htm
 tech.root: printdocs
 ms.assetid: 53143463-b9fc-4378-aea9-da6c73a7cd03
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: StartDoc, StartDoc function [Windows GDI], StartDocA, StartDocW, _win32_StartDoc, gdi.startdoc, wingdi/StartDoc, wingdi/StartDocA, wingdi/StartDocW
 ms.prod: windows-hardware
 ms.technology: windows-devices

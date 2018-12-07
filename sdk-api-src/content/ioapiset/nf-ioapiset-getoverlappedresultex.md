@@ -7,7 +7,7 @@ old-location: base\getoverlappedresultex.htm
 tech.root: sync
 ms.assetid: 2f77f7fe-bdde-4c52-8571-fe0ab533aa7f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetOverlappedResultEx, GetOverlappedResultEx function, base.getoverlappedresultex, ioapiset/GetOverlappedResultEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\iweextendwizard_createwizardpages.htm
 tech.root: mscs
 ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: CreateWizardPages, CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster],IWEExtendWizard interface, IWEExtendWizard interface [Failover Cluster],CreateWizardPages method, IWEExtendWizard.CreateWizardPages, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,6 +115,51 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa370517(v=VS.85
 
 Return one of the following values or any <b>HRESULT</b> that describes the results of 
        the operation.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+At least one of the parameters is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+<dt>0x80004001</dt>
+</dl>
+</td>
+<td width="60%">
+The extension does not support adding a property page to the Create Group Wizard or Create Resource 
+         Wizard.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

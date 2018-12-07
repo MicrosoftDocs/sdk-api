@@ -7,10 +7,10 @@ old-location: mbn\mbn_context.htm
 tech.root: mbn
 ms.assetid: 949b1bb3-8cad-45b4-81b7-1f70a76b6c8c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: MBN_CONTEXT, MBN_CONTEXT structure [Microsoft Broadband Networks], mbn.mbn_context, mbnapi/MBN_CONTEXT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: winauto\accnotifytouchinteraction.htm
 tech.root: WinAuto
 ms.assetid: CB533913-95A7-45D5-B0D3-E931E4F73B2E
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AccNotifyTouchInteraction, AccNotifyTouchInteraction function [Windows Accessibility], oleacc/AccNotifyTouchInteraction, winauto.accnotifytouchinteraction
 ms.prod: windows-hardware
 ms.technology: windows-devices

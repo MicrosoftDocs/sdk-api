@@ -7,10 +7,10 @@ old-location: audio\uncompressedauudioformat.htm
 tech.root: audio
 ms.assetid: b1d35067-7ef3-4c29-8b16-642300485695
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.keywords: UNCOMPRESSEDAUDIOFORMAT, UNCOMPRESSEDAUDIOFORMAT structure [Audio Devices], _UNCOMPRESSEDAUDIOFORMAT, aud-prop_077921c9-89ee-44ca-a585-d87e4d025c16.xml, audio.uncompressedauudioformat, audiomediatype/UNCOMPRESSEDAUUDIOFORMAT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h

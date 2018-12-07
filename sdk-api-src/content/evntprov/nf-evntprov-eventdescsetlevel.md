@@ -7,7 +7,7 @@ old-location: etw\eventdescsetlevel_func.htm
 tech.root: etw
 ms.assetid: a4fe3b0e-6ca5-401c-a669-752e2955cc52
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EventDescSetLevel, EventDescSetLevel function [ETW], base.eventdescsetlevel_func, etw.eventdescsetlevel_func, evntprov/EventDescSetLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

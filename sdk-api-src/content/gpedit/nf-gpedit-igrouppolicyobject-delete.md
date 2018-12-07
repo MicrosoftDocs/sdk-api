@@ -4,10 +4,10 @@ title: IGroupPolicyObject::Delete
 author: windows-sdk-content
 description: The Delete method deletes the GPO.
 old-location: policy\igrouppolicyobject_delete.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: 34afb04e-47f9-4d7c-9fa6-9d76188d7e05
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: Delete, Delete method [Group Policy], Delete method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],Delete method, IGroupPolicyObject.Delete, IGroupPolicyObject::Delete, _win32_igrouppolicyobject_delete, gpedit/IGroupPolicyObject::Delete, policy.igrouppolicyobject_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

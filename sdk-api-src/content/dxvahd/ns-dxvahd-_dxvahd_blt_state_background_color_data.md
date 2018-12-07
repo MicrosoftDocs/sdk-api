@@ -7,10 +7,10 @@ old-location: mf\dxvahd_blt_state_background_color_data.htm
 tech.root: medfound
 ms.assetid: 34b8c29e-a183-4e68-bd46-802c43d554f7
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA, DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA structure [Media Foundation], _DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA, dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA, mf.dxvahd_blt_state_background_color_data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

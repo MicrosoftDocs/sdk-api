@@ -4,13 +4,13 @@ title: IX509ExtensionSmimeCapabilities
 author: windows-sdk-content
 description: Can be used to report the decryption capabilities of an email recipient to an email sender so that the sender can choose the most secure algorithm supported by both parties.
 old-location: security\ix509extensionsmimecapabilities.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 06dca62d-282b-4bdd-bc8d-4d2e6eb226b5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IX509ExtensionSmimeCapabilities, IX509ExtensionSmimeCapabilities interface [Security], IX509ExtensionSmimeCapabilities interface [Security],described, certenroll/IX509ExtensionSmimeCapabilities, security.ix509extensionsmimecapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

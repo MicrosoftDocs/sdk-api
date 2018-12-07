@@ -7,7 +7,7 @@ old-location: security\slgetlicenseinformation.htm
 tech.root: SecSLApi
 ms.assetid: d573bf38-590c-4f8e-a465-9322cbe2b7c4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLGetLicenseInformation, SLGetLicenseInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_DESCRIPTION, SL_INFO_KEY_LICENSE_TYPE, SL_INFO_KEY_VERSION, security.slgetlicenseinformation, slpublic/SLGetLicenseInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9__checkdevicetype.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdevicetype.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: 74a3aa81-9498-9ce0-0ae8-0bc9d18d553b, CheckDeviceType, CheckDeviceType method [Direct3D 9], CheckDeviceType method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceType method, IDirect3D9.CheckDeviceType, IDirect3D9::CheckDeviceType, d3d9helper/IDirect3D9::CheckDeviceType, direct3d9.idirect3d9__checkdevicetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,16 +64,16 @@ Verifies whether a hardware accelerated device type can be used on this adapter.
 TBD
 
 
-### -param DevType
+### -param DevType [in]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a></b>
+
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a> enumerated type, indicating the device type to check. 
+
+
+### -param DisplayFormat
 
 TBD
-
-
-#### - DisplayFormat [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
-
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type, indicating the format of the adapter display mode for which the device type is to be checked. For example, some devices will operate only in 16-bits-per-pixel modes. 
 
 
 ### -param BackBufferFormat [in]
@@ -89,11 +89,11 @@ Back buffer format. For more information about formats, see <a href="https://msd
  D3DFMT_UNKNOWN is allowed for windowed mode.
 
 
-### -param bWindowed
+### -param bWindowed [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-
+Value indicating whether the device type will be used in full-screen or windowed mode. If set to <b>TRUE</b>, the query is performed for windowed applications; otherwise, this value should be set <b>FALSE</b>. 
 
 
 #### - Adapter [in]
@@ -103,18 +103,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Ordinal number denoting the display adapter to enumerate. D3DADAPTER_DEFAULT is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system. 
 
 
-#### - DeviceType [in]
+#### - AdapterFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a> enumerated type, indicating the device type to check. 
-
-
-#### - Windowed [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
-
-Value indicating whether the device type will be used in full-screen or windowed mode. If set to <b>TRUE</b>, the query is performed for windowed applications; otherwise, this value should be set <b>FALSE</b>. 
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type, indicating the format of the adapter display mode for which the device type is to be checked. For example, some devices will operate only in 16-bits-per-pixel modes. 
 
 
 ## -returns

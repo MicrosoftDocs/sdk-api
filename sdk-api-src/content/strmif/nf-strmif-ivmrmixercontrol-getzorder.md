@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_getzorder.htm
 tech.root: DirectShow
 ms.assetid: 76f84c77-e528-4059-8f40-5e49db9ec567
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetZOrder, GetZOrder method [DirectShow], GetZOrder method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetZOrder method, IVMRMixerControl.GetZOrder, IVMRMixerControl::GetZOrder, IVMRMixerControlGetZOrder, dshow.ivmrmixercontrol_getzorder, strmif/IVMRMixerControl::GetZOrder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ The <code>GetZOrder</code> method retrieves this video stream's position in the 
 Specifies the input stream.
 
 
-### -param pZ
-
-TBD
-
-
-
-
-#### - pZOrder [out]
+### -param pZ [out]
 
 Pointer to a DWORD that receives the current position in the Z-order.
 

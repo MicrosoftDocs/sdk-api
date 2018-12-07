@@ -7,7 +7,7 @@ old-location: tsf\ienumtfranges_skip.htm
 tech.root: TSF
 ms.assetid: f13ec6c2-379f-42e1-af92-62c4a8d8d922
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Skip method, IEnumTfRanges.Skip, IEnumTfRanges::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_skip_ref, msctf/IEnumTfRanges::Skip, tsf.ienumtfranges_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

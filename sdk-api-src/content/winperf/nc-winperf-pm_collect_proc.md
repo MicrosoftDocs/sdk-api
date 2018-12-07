@@ -9,8 +9,8 @@ ms.assetid: 9903eb4b-017b-47df-81c5-98c4e1ac697d
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: CollectPerformanceData, CollectPerformanceData callback function [Perf], PM_COLLECT_PROC, PM_COLLECT_PROC callback, base.collectperformancedata, perf.collectperformancedata, winperf/CollectPerformanceData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winperf.h
 req.include-header: 

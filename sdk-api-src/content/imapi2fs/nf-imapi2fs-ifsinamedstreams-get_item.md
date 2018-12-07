@@ -7,7 +7,7 @@ old-location: imapi\ifsinamedstreams_get_item.htm
 tech.root: imapi
 ms.assetid: e5ab97cc-cc5a-4fc5-b79a-f1e0a8647c77
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get_Item method, IFsiNamedStreams.get_Item, IFsiNamedStreams::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_item, imapi2fs/IFsiNamedStreams::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

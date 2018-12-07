@@ -7,7 +7,7 @@ old-location: mscs\getclusternetinterface.htm
 tech.root: mscs
 ms.assetid: b9bca010-7401-4a2f-95df-a5d0ef3dbfae
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: GetClusterNetInterface, GetClusterNetInterface function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NET_INTERFACE, PCLUSAPI_GET_CLUSTER_NET_INTERFACE function [Failover Cluster], _wolf_getclusternetinterface, clusapi/GetClusterNetInterface, clusapi/PCLUSAPI_GET_CLUSTER_NET_INTERFACE, mscs.getclusternetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,6 +91,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is one of the possible values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by <i>lpszInterfaceName</i> is not big enough to hold the result. The <i>lpcchInterfaceName</i> parameter returns the number of characters in the result, excluding the terminating <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

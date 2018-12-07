@@ -7,10 +7,10 @@ old-location: dshow\vmr9normalizedrect.htm
 tech.root: DirectShow
 ms.assetid: 226b685c-92da-45c3-b99a-6c1e732f8dc6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VMR9NormalizedRect, VMR9NormalizedRect structure [DirectShow], VMR9NormalizedRectStructure, _VMR9NormalizedRect, dshow.vmr9normalizedrect, vmr9/VMR9NormalizedRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: wsw\ws_write_message_start_callback.htm
 tech.root: wsw
 ms.assetid: 55a9a297-1a6e-41cf-a605-02c4cfef8ed0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_WRITE_MESSAGE_START_CALLBACK, WS_WRITE_MESSAGE_START_CALLBACK callback, WS_WRITE_MESSAGE_START_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_MESSAGE_START_CALLBACK, wsw.ws_write_message_start_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

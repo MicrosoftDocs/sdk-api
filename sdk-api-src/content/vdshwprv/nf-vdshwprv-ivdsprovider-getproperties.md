@@ -4,10 +4,10 @@ title: IVdsProvider::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a provider.
 old-location: base\ivdsprovider_getproperties.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: a4cb18c5-2cda-4d0a-9be0-4a548ec2f6eb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsProvider interface, IVdsProvider interface [VDS],GetProperties method, IVdsProvider.GetProperties, IVdsProvider::GetProperties, base.ivdsprovider_getproperties, vds/IVdsProvider::GetProperties, vdshwprv/IVdsProvider::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

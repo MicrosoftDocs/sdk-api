@@ -4,10 +4,10 @@ title: IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize
 author: windows-sdk-content
 description: Updates the shadow copy storage area maximum size for a certain volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_changediffareamaximumsize.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: c7773fa8-6b43-46bf-b644-0016b261c080
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ChangeDiffAreaMaximumSize, ChangeDiffAreaMaximumSize method [VSS], ChangeDiffAreaMaximumSize method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, IVssDifferentialSoftwareSnapshotMgmt interface [VSS],ChangeDiffAreaMaximumSize method, IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize, IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize, base.ivssdifferentialsoftwaresnapshotmgmt_changediffareamaximumsize, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

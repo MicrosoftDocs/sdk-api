@@ -7,7 +7,7 @@ old-location: rpc\ndrconvert.htm
 tech.root: rpc
 ms.assetid: ee9952c3-04e1-4fc0-a1fb-d50bc60e87f6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: NdrConvert, NdrConvert
 , NdrConvert function [RPC], rpc.ndrconvert, rpcndr/NdrConvert
 ms.prod: windows-hardware
@@ -102,7 +102,7 @@ This function has no return values. If an error occurs, the function throws one 
 
 
 
-The <b>NdrConvert</b> function is used by all <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oi</a>, <b>/Oic</b>, and <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/Os</a> mode  stubs. 
+The <b>NdrConvert</b> function is used by all <a href="https://msdn.microsoft.com/">/Oi</a>, <b>/Oic</b>, and <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/Os</a> mode  stubs. 
 
 
 

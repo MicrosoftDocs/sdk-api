@@ -4,10 +4,10 @@ title: IObjectIds::Remove
 author: windows-sdk-content
 description: Removes an IObjectId object from the collection by index value.
 old-location: security\iobjectids_remove_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: c8b9508d-f64a-453f-a336-0da47b2ccdec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IObjectIds interface [Security],Remove method, IObjectIds.Remove, IObjectIds::Remove, Remove, Remove method [Security], Remove method [Security],IObjectIds interface, certenroll/IObjectIds::Remove, security.iobjectids_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateitems.htm
 tech.root: shell
 ms.assetid: 7a646d11-a84c-44c1-b52b-ffd364cc2ac3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateItems method, ISyncMgrSynchronizeInvoke.UpdateItems, ISyncMgrSynchronizeInvoke::UpdateItems, UpdateItems, UpdateItems method [Windows Shell], UpdateItems method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateItems, shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems, syncmgr.isyncmgrsynchronizeinvoke_updateitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,9 +65,11 @@ Type: <b>DWORD</b>
 Specifies how an item should be invoked using the <a href="https://msdn.microsoft.com/6526e048-b7a8-4822-afd7-30f04a3039eb">SYNCMGRINVOKEFLAGS</a> enumeration values.
 
 
-### -param clsid
+### -param clsid [in]
 
-TBD
+Type: <b>REFCLSID</b>
+
+The CLSID of a registered application to be invoked for an update.
 
 
 ### -param cbCookie [in]
@@ -82,13 +84,6 @@ The size of <i>pCookie</i> data, in bytes.
 Type: <b>const BYTE*</b>
 
 A pointer to a private token that identifies an application. The token is passed in the <a href="https://msdn.microsoft.com/4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10">Initialize</a> method.
-
-
-#### - CLSID [in]
-
-Type: <b>REFCLSID</b>
-
-The CLSID of a registered application to be invoked for an update.
 
 
 ## -returns

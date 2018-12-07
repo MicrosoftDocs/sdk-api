@@ -7,10 +7,10 @@ old-location: winauto\uiauto_extendedproperty.htm
 tech.root: WinAuto
 ms.assetid: 3d0037f5-cff7-4502-b648-a2a60127eaff
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ExtendedProperty, ExtendedProperty structure [Windows Accessibility], uiautomationclient/ExtendedProperty, winauto.uiauto_extendedproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

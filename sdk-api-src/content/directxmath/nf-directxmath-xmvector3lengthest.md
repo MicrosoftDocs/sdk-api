@@ -7,7 +7,7 @@ old-location: dxmath\xmvector3lengthest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3LengthEst(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3LengthEst, XMVector3LengthEst, XMVector3LengthEst method [DirectX Math Support APIs], dxmath.xmvector3lengthest
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getline.htm
 tech.root: medfound
 ms.assetid: CD29A63D-8D40-43E6-972C-7050E63EA7D3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetLine, GetLine method [Media Foundation], GetLine method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetLine method, IMFTimedTextCue.GetLine, IMFTimedTextCue::GetLine, mf.imftimedtextcue_getline, mfmediaengine/IMFTimedTextCue::GetLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,7 @@ Gets a line of text in the cue from the index of the line.
 
 
 
-### -param index
-
-TBD
-
-
-### -param line
-
-TBD
-
-
-
-
-#### - nIndex [in]
+### -param index [in]
 
 Type: <b>DWORD</b>
 
@@ -79,7 +67,7 @@ The index of the line of text in the cue to retrieve.
 
 
 
-#### - ppLine [out]
+### -param line [out]
 
 Type: <b><a href="https://msdn.microsoft.com/98327CA2-21C4-481F-B979-12C31AA1E7B2">IMFTimedTextFormattedText</a>**</b>
 

@@ -9,8 +9,8 @@ ms.assetid: 474d3c0d-ae14-448a-a56d-25abc7e5de88
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: "*PBCryptBuffer, BCryptBuffer, KDF_ALGORITHMID, KDF_HASH_ALGORITHM, KDF_HMAC_KEY, KDF_PARTYUINFO, KDF_PARTYVINFO, KDF_SECRET_APPEND, KDF_SECRET_HANDLE, KDF_SECRET_PREPEND, KDF_SUPPPRIVINFO, KDF_SUPPPUBINFO, KDF_TLS_PRF_LABEL, KDF_TLS_PRF_PROTOCOL, KDF_TLS_PRF_SEED, NCRYPTBUFFER_CERT_BLOB, NCRYPTBUFFER_PKCS_ALG_ID, NCRYPTBUFFER_PKCS_ALG_OID, NCRYPTBUFFER_PKCS_ALG_PARAM, NCRYPTBUFFER_PKCS_ATTRS, NCRYPTBUFFER_PKCS_KEY_NAME, NCRYPTBUFFER_PKCS_OID, NCRYPTBUFFER_PKCS_SECRET, NCRYPTBUFFER_SSL_CLEAR_KEY, NCRYPTBUFFER_SSL_CLIENT_RANDOM, NCRYPTBUFFER_SSL_HIGHEST_VERSION, NCRYPTBUFFER_SSL_KEY_ARG_DATA, NCRYPTBUFFER_SSL_SERVER_RANDOM, NCryptBuffer, NCryptBuffer structure [Security], PNCryptBuffer, PNCryptBuffer structure pointer [Security], _BCryptBuffer, bcrypt/NCryptBuffer, bcrypt/PNCryptBuffer, security.ncryptbuffer_struct"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

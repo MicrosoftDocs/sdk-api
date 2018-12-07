@@ -4,10 +4,10 @@ title: IIsdbCAServiceDescriptor::GetCABroadcasterGroupId
 author: windows-sdk-content
 description: Gets the conditional access (CA) broadcaster group identifier from a CA service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getcabroadcastergroupid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: cc783e34-3544-4bcf-9e76-cb098c89cd65
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetCABroadcasterGroupId, GetCABroadcasterGroupId method [Microsoft TV Technologies], GetCABroadcasterGroupId method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetCABroadcasterGroupId method, IIsdbCAServiceDescriptor.GetCABroadcasterGroupId, IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, dvbsiparser/IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, mstv.iisdbcaservicedescriptor_getcabroadcastergroupid
 ms.prod: windows-hardware
 ms.technology: windows-devices

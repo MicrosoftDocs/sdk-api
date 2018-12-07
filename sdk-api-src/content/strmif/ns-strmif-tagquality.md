@@ -7,10 +7,10 @@ old-location: dshow\quality.htm
 tech.root: DirectShow
 ms.assetid: 2ab7fcde-0e44-4d60-acf5-3638efbe15f7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Quality, Quality structure [DirectShow], QualityStructure, dshow.quality, strmif/Quality, tagQuality
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

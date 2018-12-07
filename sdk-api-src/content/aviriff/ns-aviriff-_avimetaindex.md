@@ -7,10 +7,10 @@ old-location: dshow\avimetaindex.htm
 tech.root: DirectShow
 ms.assetid: d27b2b14-55a1-4992-ad85-75244369accc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: AVIMETAINDEX, AVIMETAINDEX structure [DirectShow], AVI_INDEX_IS_DATA, AVI_INDEX_OF_CHUNKS, AVI_INDEX_OF_INDEXES, _avimetaindex, aviriff/AVIMETAINDEX, dshow.avimetaindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 

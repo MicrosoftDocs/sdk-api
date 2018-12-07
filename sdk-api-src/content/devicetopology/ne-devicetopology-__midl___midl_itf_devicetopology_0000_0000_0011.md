@@ -7,10 +7,10 @@ old-location: coreaudio\dataflow.htm
 tech.root: CoreAudio
 ms.assetid: bdc2336c-5609-43f2-9b65-d8806f0fc63b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: DataFlow, DataFlow , DataFlow enumeration [Core Audio], In, Out, __MIDL___MIDL_itf_devicetopology_0000_0000_0011, coreaudio.dataflow, devicetopology/DataFlow, devicetopology/In, devicetopology/Out
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: devicetopology.h
 req.include-header: 

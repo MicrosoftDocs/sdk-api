@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_createbitmap.htm
 tech.root: direct2d
 ms.assetid: 8292da6b-8232-4ef0-967d-a53d586aa9a9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateBitmap, CreateBitmap method [Direct2D], CreateBitmap method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmap method, ID2D1DeviceContext.CreateBitmap, ID2D1DeviceContext.CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmap, ID2D1DeviceContext::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), d2d1_1/ID2D1DeviceContext::CreateBitmap, direct2d.id2d1devicecontext_createbitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,9 +65,11 @@ Type: <b><a href="https://msdn.microsoft.com/e28da5ee-7d68-4ec5-b477-c6ead0c725e
 The pixel size of the bitmap to be created.
 
 
-### -param sourceData
+### -param sourceData [in, optional]
 
-TBD
+Type: <b>const void*</b>
+
+The initial data that will be loaded into the bitmap.
 
 
 ### -param pitch
@@ -89,13 +91,6 @@ The properties of the bitmap to be created.
 Type: <b><a href="https://msdn.microsoft.com/669a9377-248c-4a86-b447-ed117fff43a6">ID2D1Bitmap1</a>**</b>
 
 When this method returns, contains the address of a pointer to a new bitmap object.
-
-
-#### - srcData [in, optional]
-
-Type: <b>const void*</b>
-
-The initial data that will be loaded into the bitmap.
 
 
 ## -returns

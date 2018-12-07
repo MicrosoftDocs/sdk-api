@@ -7,10 +7,10 @@ old-location: winsock\connectex_2.htm
 tech.root: winsock
 ms.assetid: a4552366-eafa-4f24-b6c2-e6a7edc4b021
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: LPFN_CONNECTEX, LPFN_CONNECTEX callback, LPFN_CONNECTEX callback function [Winsock], _win32_connectex_2, mswsock/LPFN_CONNECTEX, winsock.connectex_2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: mswsock.h
 req.include-header: 

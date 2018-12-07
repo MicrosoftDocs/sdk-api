@@ -4,10 +4,10 @@ title: MI_SubscriptionDeliveryOptions_GetMaximumLatency function
 author: windows-sdk-content
 description: Gets the maximum amount of time that the server will hold a result before delivering it to the client.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getmaximumlatency.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 899fa8d5-0d39-44ea-994b-b13d4dc9b117
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetMaximumLatency, MI_SubscriptionDeliveryOptions_GetMaximumLatency function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetMaximumLatency, wmi_v2.mi_subscriptiondeliveryoptions_getmaximumlatency
 ms.prod: windows-hardware
 ms.technology: windows-devices

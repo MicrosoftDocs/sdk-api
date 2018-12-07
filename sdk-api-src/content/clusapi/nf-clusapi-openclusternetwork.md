@@ -7,7 +7,7 @@ old-location: mscs\openclusternetwork.htm
 tech.root: mscs
 ms.assetid: a888ca91-e56f-42bc-81c5-9235c6fd5172
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: OpenClusterNetwork, OpenClusterNetwork function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETWORK, PCLUSAPI_OPEN_CLUSTER_NETWORK function [Failover Cluster], _wolf_openclusternetwork, clusapi/OpenClusterNetwork, clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK, mscs.openclusternetwork
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,6 +72,26 @@ Pointer to the name of an existing network.
 ## -returns
 
 
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the function 
+        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 If the operation was successful, 
        <b>OpenClusterNetwork</b> returns a network handle.

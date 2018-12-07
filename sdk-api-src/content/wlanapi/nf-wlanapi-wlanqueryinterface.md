@@ -7,7 +7,7 @@ old-location: nwifi\wlanqueryinterface.htm
 tech.root: NativeWiFi
 ms.assetid: e20eb9a3-5824-48ee-b13e-b0252bbf495e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WlanQueryInterface, WlanQueryInterface function [NativeWIFI], nwifi.wlanqueryinterface, wlanapi/WlanQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

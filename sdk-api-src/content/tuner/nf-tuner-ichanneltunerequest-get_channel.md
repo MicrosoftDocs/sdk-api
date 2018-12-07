@@ -4,10 +4,10 @@ title: IChannelTuneRequest::get_Channel
 author: windows-sdk-content
 description: The get_Channel method gets the channel to be tuned.
 old-location: mstv\ichanneltunerequest_get_channel.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1a529416-9b7a-41f4-961a-741b1a581d5f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],get_Channel method, IChannelTuneRequest.get_Channel, IChannelTuneRequest::get_Channel, IChannelTuneRequestget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, mstv.ichanneltunerequest_get_channel, tuner/IChannelTuneRequest::get_Channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ The <b>get_Channel</b> method gets the channel to be tuned.
 
 
 
-### -param Channel
-
-TBD
-
-
-
-
-#### - pChannel [out]
+### -param Channel [out]
 
 Pointer to a variable of type <b>long</b> that receives the current channel.
           

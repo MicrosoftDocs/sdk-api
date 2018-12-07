@@ -7,10 +7,10 @@ old-location: security\pfn_cmsg_import_key_agree.htm
 tech.root: seccrypto
 ms.assetid: 1ce0fc46-c175-44cf-a553-a8366dca188f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: PFN_CMSG_IMPORT_KEY_AGREE, PFN_CMSG_IMPORT_KEY_AGREE callback, PFN_CMSG_IMPORT_KEY_AGREE callback function [Security], security.pfn_cmsg_import_key_agree, wincrypt/PFN_CMSG_IMPORT_KEY_AGREE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

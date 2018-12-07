@@ -4,10 +4,10 @@ title: IDataManager::get_Rules
 author: windows-sdk-content
 description: Retrieves or sets the rules to apply to the report.
 old-location: pla\idatamanager_rules.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 17403e57-2eea-4a2b-a75c-66f486622078
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IDataManager interface [PLA],Rules property, IDataManager.Rules, IDataManager.get_Rules, IDataManager::Rules, IDataManager::get_Rules, IDataManager::put_Rules, Rules property [PLA], Rules property [PLA],IDataManager interface, base.idatamanager_rules, get_Rules, pla.idatamanager_rules, pla/IDataManager::Rules, pla/IDataManager::get_Rules, pla/IDataManager::put_Rules
 ms.prod: windows-hardware
 ms.technology: windows-devices

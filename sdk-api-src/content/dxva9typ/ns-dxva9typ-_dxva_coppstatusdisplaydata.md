@@ -7,10 +7,10 @@ old-location: dshow\dxva_coppstatusdisplaydata.htm
 tech.root: DirectShow
 ms.assetid: 51a119a0-d5de-4df0-9c2b-c776e9af8c60
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [DirectShow], DXVA_COPPStatusDisplayDataStructure, _DXVA_COPPStatusDisplayData, dshow.dxva_coppstatusdisplaydata, dxva9typ/DXVA_COPPStatusDisplayData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h

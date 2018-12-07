@@ -7,10 +7,10 @@ old-location: dfs\dfs_info_105.htm
 tech.root: Dfs
 ms.assetid: b9ad9e41-d5b4-446f-ac99-a51808344f77
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDFS_INFO_105, *PDFS_INFO_105, DFS_INFO_105, DFS_INFO_105 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, Default, LPDFS_INFO_105, LPDFS_INFO_105 structure pointer [Distributed File System], PDFS_INFO_105, PDFS_INFO_105 structure pointer [Distributed File System], _DFS_INFO_105, dfs.dfs_info_105, fs.dfs_info_105, lmdfs/DFS_INFO_105, lmdfs/LPDFS_INFO_105, lmdfs/PDFS_INFO_105, netmgmt.dfs_info_105"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

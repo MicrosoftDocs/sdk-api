@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfile_getcompressionoption.htm
 tech.root: appxpkg
 ms.assetid: E2F33ED4-EAD3-44AE-B646-3AB875FA7606
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: GetCompressionOption, GetCompressionOption method [App packaging and management], GetCompressionOption method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetCompressionOption method, IAppxFile.GetCompressionOption, IAppxFile::GetCompressionOption, appxpackaging/IAppxFile::GetCompressionOption, appxpkg.iappxfile_getcompressionoption
 ms.prod: windows-hardware
 ms.technology: windows-devices

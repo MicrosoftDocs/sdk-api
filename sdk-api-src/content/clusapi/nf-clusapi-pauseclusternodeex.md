@@ -7,7 +7,7 @@ old-location: mscs\pauseclusternodeex.htm
 tech.root: mscs
 ms.assetid: 632C26C2-ED12-40DC-9615-4A09A7E2F7CB
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE_EX, PCLUSAPI_PAUSE_CLUSTER_NODE_EX function [Failover Cluster], PauseClusterNodeEx, PauseClusterNodeEx function [Failover Cluster], clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE_EX, clusapi/PauseClusterNodeEx, mscs.pauseclusternodeex
 ms.prod: windows-hardware
 ms.technology: windows-devices

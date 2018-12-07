@@ -4,13 +4,13 @@ title: IX509EnrollmentPolicyServer
 author: windows-sdk-content
 description: The IX509EnrollmentPolicyServer interface represents a certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: e39d40fd-3d43-4cdc-b41a-07a87a11bfad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], IX509EnrollmentPolicyServer interface [Security],described, certenroll/IX509EnrollmentPolicyServer, security.ix509enrollmentpolicyserver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

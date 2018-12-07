@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_windowstyle.htm
 tech.root: DirectShow
 ms.assetid: ae4ae516-743f-4a27-90d5-108ca26aadd4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyle method, IVideoWindow.get_WindowStyle, IVideoWindow::get_WindowStyle, IVideoWindowget_WindowStyle, control/IVideoWindow::get_WindowStyle, dshow.ivideowindow_get_windowstyle, get_WindowStyle, get_WindowStyle method [DirectShow], get_WindowStyle method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ The <code>get_WindowStyle</code> method retrieves the window styles on the video
 
 
 
-### -param WindowStyle
-
-TBD
-
-
-
-
-#### - pWindowStyle [out]
+### -param WindowStyle [out]
 
 Receives the window style flags.
           

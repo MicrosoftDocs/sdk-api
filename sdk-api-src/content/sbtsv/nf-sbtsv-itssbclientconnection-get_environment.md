@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_environment.htm
 tech.root: termserv
 ms.assetid: 97fe4851-96a9-4b23-8ad7-f42b87c655d0
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: Environment property [Remote Desktop Services], Environment property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],Environment property, ITsSbClientConnection.Environment, ITsSbClientConnection.get_Environment, ITsSbClientConnection::Environment, ITsSbClientConnection::get_Environment, get_Environment, sbtsv/ITsSbClientConnection::Environment, sbtsv/ITsSbClientConnection::get_Environment, termserv.itssbclientconnection_environment
 ms.prod: windows-hardware
 ms.technology: windows-devices

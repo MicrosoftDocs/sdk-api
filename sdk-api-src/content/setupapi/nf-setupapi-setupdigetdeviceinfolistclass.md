@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinfolistclass.htm
 tech.root: devinst
 ms.assetid: 332945dc-9edc-4fbf-a4fa-533a00352553
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetupDiGetDeviceInfoListClass, SetupDiGetDeviceInfoListClass function [Device and Driver Installation], devinst.setupdigetdeviceinfolistclass, di-rtns_219b6225-e6f3-40b4-8127-709c425a0cad.xml, setupapi/SetupDiGetDeviceInfoListClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

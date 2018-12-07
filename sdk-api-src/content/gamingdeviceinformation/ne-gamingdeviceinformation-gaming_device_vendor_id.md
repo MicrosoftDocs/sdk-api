@@ -7,10 +7,10 @@ old-location: gamingdvcinfo\gaming_device_vendor_id.htm
 tech.root: gamingdvcinfo
 ms.assetid: 0A74E610-9853-4299-A278-41C3B7F47D9C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GAMING_DEVICE_VENDOR_ID, GAMING_DEVICE_VENDOR_ID enumeration, GAMING_DEVICE_VENDOR_ID_MICROSOFT, GAMING_DEVICE_VENDOR_ID_NONE, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID_MICROSOFT, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID_NONE, gamingdvcinfo.gaming_device_vendor_id
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gamingdeviceinformation.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertySystem.htm
 tech.root: properties
 ms.assetid: ddbf7cea-b22f-4cf9-8b5f-804640086466
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: PSGetPropertySystem, PSGetPropertySystem function [Windows Properties], properties.PSGetPropertySystem, propsys/PSGetPropertySystem, shell.PSGetPropertySystem, shell_PSGetPropertySystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

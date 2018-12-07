@@ -4,10 +4,10 @@ title: AuthzOpenObjectAudit function
 author: windows-sdk-content
 description: Reads the system access control list (SACL) of the specified security descriptor and generates any appropriate audits specified by that SACL.
 old-location: security\authzopenobjectaudit.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 39c6f0bc-72bf-4a82-b417-c0c5b2626344
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: AuthzOpenObjectAudit, AuthzOpenObjectAudit function [Security], _win32_authzopenobjectaudit, authz/AuthzOpenObjectAudit, security.authzopenobjectaudit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,9 +85,9 @@ A pointer to the
 <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure for the object.
 
 
-### -param OptionalSecurityDescriptorArray
+### -param OptionalSecurityDescriptorArray [in]
 
-TBD
+A pointer to an array of <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structures.
 
 
 ### -param OptionalSecurityDescriptorCount [in]
@@ -101,11 +101,6 @@ The number of elements in <i>SecurityDescriptorArray</i>.
 
 A pointer to an 
 <a href="https://msdn.microsoft.com/7162bf80-3730-46d7-a603-2a55b969c9ba">AUTHZ_ACCESS_REPLY</a> structure.
-
-
-#### - SecurityDescriptorArray [in]
-
-A pointer to an array of <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structures.
 
 
 ## -returns

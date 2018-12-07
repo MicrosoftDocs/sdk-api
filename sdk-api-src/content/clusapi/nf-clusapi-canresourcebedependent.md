@@ -7,7 +7,7 @@ old-location: mscs\canresourcebedependent.htm
 tech.root: mscs
 ms.assetid: 974ec036-3dd3-4453-9ce5-029f58d99d81
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: CanResourceBeDependent, CanResourceBeDependent function [Failover Cluster], PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT, PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT function [Failover Cluster], _wolf_canresourcebedependent, clusapi/CanResourceBeDependent, clusapi/PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT, mscs.canresourcebedependent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,7 +73,35 @@ Handle to the resource upon which the resource identified by <i>hResource</i> ma
 
 
 
-This function returns BOOL.
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The resource identified by <i>hResource</i> can depend on the resource identified by <i>hResourceDependent</i>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The resource identified by <i>hResource</i> cannot depend on the resource identified by <i>hResourceDependent</i>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

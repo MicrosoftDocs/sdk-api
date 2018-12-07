@@ -7,7 +7,7 @@ old-location: multimedia\midistreamopen.htm
 tech.root: Multimedia
 ms.assetid: 355cf034-e1d7-4530-b117-4c505ad0aac6
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiStreamOpen, midiStreamOpen, midiStreamOpen function [Windows Multimedia], mmeapi/midiStreamOpen, multimedia.midistreamopen"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,8 @@ The <b>midiStreamOpen</b> function opens a MIDI stream for output. By default, t
 
 ### -param phms
 
-TBD
+Pointer to a variable to contain the stream handle when the function returns.
+          
 
 
 ### -param puDeviceID
@@ -124,12 +125,6 @@ Callback flag for opening the device. One of the following callback flags must b
 </tr>
 </table>
  
-
-
-#### - lphStream
-
-Pointer to a variable to contain the stream handle when the function returns.
-          
 
 
 ## -returns

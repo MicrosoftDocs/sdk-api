@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_setalltabletsmode.htm
 tech.root: tablet
 ms.assetid: 33c659af-ffa1-4fd8-8f85-feb22a6e58fe
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IInkOverlay interface [Tablet PC],SetAllTabletsMode method, IInkOverlay.SetAllTabletsMode, IInkOverlay::SetAllTabletsMode, SetAllTabletsMode, SetAllTabletsMode method [Tablet PC], SetAllTabletsMode method [Tablet PC],IInkOverlay interface, cb41bc4c-c8fe-4cd6-8049-8cb44a2716a8, msinkaut/IInkOverlay::SetAllTabletsMode, tablet.inkoverlay_setalltabletsmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ Allows an ink collector  (<a href="https://msdn.microsoft.com/189f430e-9d00-4e29
 
 
 
-### -param UseMouseForInput
-
-TBD
-
-
-
-
-#### - useMouse [in, optional]
+### -param UseMouseForInput [in, optional]
 
 Optional. <b>VARIANT_TRUE</b> to use the mouse as an input device; otherwise, <b>VARIANT_FALSE</b>. The default value is <b>VARIANT_TRUE</b>.
 

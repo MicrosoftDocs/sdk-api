@@ -4,10 +4,10 @@ title: ITuneRequest::get_Components
 author: windows-sdk-content
 description: The get_Components method retrieves the components contained in this tune request.
 old-location: mstv\itunerequest_get_components.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f15ef4f6-ca36-4d46-93c7-26f1fbcb21cd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],get_Components method, ITuneRequest.get_Components, ITuneRequest::get_Components, ITuneRequestget_Components, get_Components, get_Components method [Microsoft TV Technologies], get_Components method [Microsoft TV Technologies],ITuneRequest interface, mstv.itunerequest_get_components, tuner/ITuneRequest::get_Components
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_Components</b> method retrieves the components contained in this tune
 
 
 
-### -param Components
-
-TBD
-
-
-
-
-#### - ppComponents [out]
+### -param Components [out]
 
 Receives an <a href="https://msdn.microsoft.com/670b47ba-bcbd-4281-95e3-a5d784f0610b">IComponents</a> interface pointer. The caller must release the interface.
 

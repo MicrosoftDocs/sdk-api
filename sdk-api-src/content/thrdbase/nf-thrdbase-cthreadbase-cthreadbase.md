@@ -7,7 +7,7 @@ old-location: wmi\cthreadbase_cthreadbase.htm
 tech.root: WmiSdk
 ms.assetid: 43909501-0a65-4728-9a26-30b8391a33c5
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: "??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z, CThreadBase, CThreadBase interface [Windows Management Instrumentation],CThreadBase method, CThreadBase method [Windows Management Instrumentation], CThreadBase method [Windows Management Instrumentation],CThreadBase interface, CThreadBase.CThreadBase, CThreadBase::CThreadBase, thrdbase/CThreadBase::CThreadBase, wmi.cthreadbase_cthreadbase"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,13 +67,6 @@ The <b>CThreadBase::CThreadBase</b>  constructor initializes a new instance of <
 
 
 ### -param etsm
-
-TBD
-
-
-
-
-#### - etsm = etsmSerialized
 
 The thread safety mechanism. The possible values are:
 

@@ -7,10 +7,10 @@ old-location: dshow\avistdindex_entry.htm
 tech.root: DirectShow
 ms.assetid: 4e408858-b0cb-45dc-a299-a2e35aa6a000
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: AVISTDINDEX_ENTRY, AVISTDINDEX_ENTRY structure [DirectShow], _avistdindex_entry, aviriff/AVISTDINDEX_ENTRY, dshow.avistdindex_entry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 

@@ -4,13 +4,13 @@ title: IDvbShortEventDescriptor
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 039ae2e1-1dad-4a70-a054-bd95b0b500fb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDvbShortEventDescriptor, IDvbShortEventDescriptor interface [Microsoft TV Technologies], IDvbShortEventDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbShortEventDescriptor, mstv.idvbshorteventdescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

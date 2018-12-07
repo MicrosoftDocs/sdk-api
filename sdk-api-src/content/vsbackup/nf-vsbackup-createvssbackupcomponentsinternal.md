@@ -4,10 +4,10 @@ title: CreateVssBackupComponentsInternal function
 author: windows-sdk-content
 description: The CreateVssBackupComponents function creates an IVssBackupComponents interface object and returns a pointer to it.
 old-location: base\createvssbackupcomponents.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 5531e57a-49e0-42e9-abf0-e8a4849ccac6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateVssBackupComponents, CreateVssBackupComponents function [VSS], CreateVssBackupComponentsInternal, _win32_createvssbackupcomponents, base.createvssbackupcomponents, vsbackup/CreateVssBackupComponents, vsbackup/CreateVssBackupComponentsInternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

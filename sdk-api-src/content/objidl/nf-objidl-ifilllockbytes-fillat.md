@@ -4,10 +4,10 @@ title: IFillLockBytes::FillAt
 author: windows-sdk-content
 description: The FillAt method writes a new block of data to a specified location in the byte array.
 old-location: stg\ifilllockbytes_fillat.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: d378d87b-e081-4950-b87b-9b1ad6dfb29d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FillAt, FillAt method [Structured Storage], FillAt method [Structured Storage],IFillLockBytes interface, IFillLockBytes interface [Structured Storage],FillAt method, IFillLockBytes.FillAt, IFillLockBytes::FillAt, _stg_ifilllockbytes_fillat, objidl/IFillLockBytes::FillAt, stg.ifilllockbytes_fillat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,9 +59,9 @@ The
 
 
 
-### -param ulOffset
+### -param ulOffset [in]
 
-TBD
+The offset, expressed in number of bytes, from the first element of the byte array.
 
 
 ### -param pv [in]
@@ -77,11 +77,6 @@ Size of <i>pv</i> in bytes.
 ### -param pcbWritten [out]
 
 Number of bytes that were successfully written.
-
-
-#### - uIOffset [in]
-
-The offset, expressed in number of bytes, from the first element of the byte array.
 
 
 ## -returns

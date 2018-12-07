@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_simple_color_profile.htm
 tech.root: direct2d
 ms.assetid: B48A7333-AC8B-4965-9D78-6FFC3B0F01A9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_SIMPLE_COLOR_PROFILE, D2D1_SIMPLE_COLOR_PROFILE structure [Direct2D], d2d1_3/D2D1_SIMPLE_COLOR_PROFILE, direct2d.d2d1_simple_color_profile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1_3.h
 req.include-header: 

@@ -4,13 +4,13 @@ title: IADsGroup
 author: windows-sdk-content
 description: Manages group membership data in a directory service.
 old-location: adsi\iadsgroup.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: dbf0c424-e906-4a72-a369-81bf96275bbc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsGroup, IADsGroup interface [ADSI], IADsGroup interface [ADSI],described, _ds_iadsgroup, adsi.iadsgroup, iads/IADsGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

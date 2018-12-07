@@ -7,7 +7,7 @@ old-location: base\getprocessshutdownparameters.htm
 tech.root: procthread
 ms.assetid: 68b48e67-c7e0-4434-bef5-b2aaebb343ff
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetProcessShutdownParameters, GetProcessShutdownParameters function, SHUTDOWN_NORETRY, _win32_getprocessshutdownparameters, base.getprocessshutdownparameters, processthreadsapi/GetProcessShutdownParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

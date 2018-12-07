@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateHandler.htm
 tech.root: shell
 ms.assetid: d961aef7-c559-4caa-894e-e86836b142c0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateHandler method, ISyncMgrControl.UpdateHandler, ISyncMgrControl::UpdateHandler, UpdateHandler, UpdateHandler method [Windows Shell], UpdateHandler method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateHandler, shell.ISyncMgrControl_UpdateHandler, syncmgr/ISyncMgrControl::UpdateHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

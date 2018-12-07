@@ -7,7 +7,7 @@ old-location: mbn\imbnvendorspecificevents_oneventnotification.htm
 tech.root: mbn
 ms.assetid: c3d10e9c-b60f-42e8-adaa-2c0ba3c77718
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],OnEventNotification method, IMbnVendorSpecificEvents.OnEventNotification, IMbnVendorSpecificEvents::OnEventNotification, OnEventNotification, OnEventNotification method [Microsoft Broadband Networks], OnEventNotification method [Microsoft Broadband Networks],IMbnVendorSpecificEvents interface, mbn.imbnvendorspecificevents_oneventnotification, mbnapi/IMbnVendorSpecificEvents::OnEventNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

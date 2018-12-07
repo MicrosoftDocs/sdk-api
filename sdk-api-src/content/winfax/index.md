@@ -2,7 +2,7 @@
 UID: NA:winfax
 ms.assetid: 1d8372da-bf53-3345-882f-8adc98f7fe8d
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

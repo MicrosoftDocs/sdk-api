@@ -7,7 +7,7 @@ old-location: wcs\setcolorprofileelementsize.htm
 tech.root: WCS
 ms.assetid: 59552ca3-5b53-465c-9634-a1cc68bb7c3e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: SetColorProfileElementSize, SetColorProfileElementSize function [Windows Color System], _color_SetColorProfileElementSize, icm/SetColorProfileElementSize, wcs.setcolorprofileelementsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetColorProfileElementSize
+: 
 ---
 
 # SetColorProfileElementSize function
@@ -65,24 +71,12 @@ Specifies a handle to the ICC color profile in question.
 
 ### -param tagType
 
-TBD
+Identifies the tagged element.
 
 
 ### -param pcbElement
 
-TBD
-
-
-
-
-#### - cbSize
-
 Specifies the size to set the tagged element to. If <i>cbSize</i> is zero, this function deletes the specified tagged element. If the tag is a reference, only the tag table entry is deleted, not the data.
-
-
-#### - tag
-
-Identifies the tagged element.
 
 
 ## -returns

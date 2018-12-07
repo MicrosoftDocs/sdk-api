@@ -9,8 +9,8 @@ ms.assetid: 8b7f22e0-586e-4950-94fe-868b3fc91ffa
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: DRMID, DRMID structure [Active Directory Rights Management Services SDK 1.0], _DRMID, msdrmdefs/DRMID, rm.drmid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 

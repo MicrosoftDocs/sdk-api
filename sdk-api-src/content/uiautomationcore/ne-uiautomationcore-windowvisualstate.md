@@ -7,10 +7,10 @@ old-location: winauto\uiauto_WindowVisualStateEnum.htm
 tech.root: WinAuto
 ms.assetid: 5912551c-2745-434b-98de-bf24212f7eef
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WindowVisualState, WindowVisualState enumeration [Windows Accessibility], WindowVisualState_Maximized, WindowVisualState_Minimized, WindowVisualState_Normal, uiauto.uiauto_WindowVisualStateEnum, uiauto_WindowVisualStateEnum, uiautomationcore/WindowVisualState, uiautomationcore/WindowVisualState_Maximized, uiautomationcore/WindowVisualState_Minimized, uiautomationcore/WindowVisualState_Normal, winauto.uiauto_WindowVisualStateEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_comparison_operators_equal.htm
 tech.root: WmiSdk
 ms.assetid: 9060553a-db93-44c3-ae64-1e14c5087485
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator== method, WBEMTime.operator-equal-equal-to, WBEMTime.operator==, WBEMTime::operator-equal-equal-to, WBEMTime::operator==, _hmm_wbemtime_comparison_operators, operator==, operator== method [Windows Management Instrumentation], operator== method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator==, wmi.wbemtime_comparison_operators, wmi.wbemtime_comparison_operators_equal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,14 +65,7 @@ The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WB
 
 
 
-### -param a
-
-TBD
-
-
-
-
-#### - uTarget [ref]
+### -param a [ref]
 
 Reference to the <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> object whose time is compared to this one.
 

@@ -7,10 +7,10 @@ old-location: display\ddgetautoflipin.htm
 tech.root: display
 ms.assetid: aca9f7e4-3ec4-4575-9d2b-f2486ed50a53
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDDGETAUTOFLIPIN, DDGETAUTOFLIPIN, DDGETAUTOFLIPIN structure [Display Devices], LPDDGETAUTOFLIPIN, LPDDGETAUTOFLIPIN structure pointer [Display Devices], _DDGETAUTOFLIPIN, ddkmapi/DDGETAUTOFLIPIN, ddkmapi/LPDDGETAUTOFLIPIN, ddstrcts_7b504e9b-7380-42de-ac8f-ca7186a46354.xml, display.ddgetautoflipin"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

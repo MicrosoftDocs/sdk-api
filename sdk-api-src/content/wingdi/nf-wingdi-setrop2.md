@@ -7,7 +7,7 @@ old-location: gdi\setrop2.htm
 tech.root: gdi
 ms.assetid: a462a03d-e2c8-403e-aab4-ae03fb96f06f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: R2_BLACK, R2_COPYPEN, R2_MASKNOTPEN, R2_MASKPEN, R2_MASKPENNOT, R2_MERGENOTPEN, R2_MERGEPEN, R2_MERGEPENNOT, R2_NOP, R2_NOT, R2_NOTCOPYPEN, R2_NOTMASKPEN, R2_NOTMERGEPEN, R2_NOTXORPEN, R2_WHITE, R2_XORPEN, SetROP2, SetROP2 function [Windows GDI], _win32_SetROP2, gdi.setrop2, wingdi/SetROP2
 ms.prod: windows-hardware
 ms.technology: windows-devices

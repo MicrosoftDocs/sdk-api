@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_MetafileType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\metafiletype.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MetafileType, MetafileType enumeration [GDI+], MetafileTypeEmf, MetafileTypeEmfPlusDual, MetafileTypeEmfPlusOnly, MetafileTypeInvalid, MetafileTypeWmf, MetafileTypeWmfPlaceable, _gdiplus_ENUM_MetafileType, gdiplus._gdiplus_ENUM_MetafileType, gdiplusenums/MetafileType, gdiplusenums/MetafileTypeEmf, gdiplusenums/MetafileTypeEmfPlusDual, gdiplusenums/MetafileTypeEmfPlusOnly, gdiplusenums/MetafileTypeInvalid, gdiplusenums/MetafileTypeWmf, gdiplusenums/MetafileTypeWmfPlaceable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

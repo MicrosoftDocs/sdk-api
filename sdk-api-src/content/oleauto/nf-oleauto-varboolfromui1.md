@@ -7,7 +7,7 @@ old-location: automat\varboolfromui1.htm
 tech.root: automat
 ms.assetid: 50f27808-ab41-4883-9c0f-abb04a0d2d34
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarBoolFromUI1, VarBoolFromUI1 function [Automation], _oa96_VarBoolFromUI1, automat.varboolfromui1, oleauto/VarBoolFromUI1
 ms.prod: windows-hardware
 ms.technology: windows-devices

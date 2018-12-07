@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchanges_skip.htm
 tech.root: winsync
 ms.assetid: 2b2828a1-f69c-465a-ad16-236d0709d763
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumSyncChanges interface [Windows Sync],Skip method, IEnumSyncChanges.Skip, IEnumSyncChanges::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncChanges interface, winsync.ienumsyncchanges_skip, winsync/IEnumSyncChanges::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

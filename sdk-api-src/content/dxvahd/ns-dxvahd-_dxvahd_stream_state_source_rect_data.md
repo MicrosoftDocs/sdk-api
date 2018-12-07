@@ -7,10 +7,10 @@ old-location: mf\dxvahd_stream_state_source_rect_data.htm
 tech.root: medfound
 ms.assetid: 51f2cfe6-722b-4273-abf6-e1b8fdec9808
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, DXVAHD_STREAM_STATE_SOURCE_RECT_DATA structure [Media Foundation], FALSE, TRUE, _DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, mf.dxvahd_stream_state_source_rect_data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

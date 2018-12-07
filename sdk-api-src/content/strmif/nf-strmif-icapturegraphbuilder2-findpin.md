@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder2_findpin.htm
 tech.root: DirectShow
 ms.assetid: f74e55d4-2d51-47a9-aca8-dd4e616a6253
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: FindPin, FindPin method [DirectShow], FindPin method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],FindPin method, ICaptureGraphBuilder2.FindPin, ICaptureGraphBuilder2::FindPin, ICaptureGraphBuilder2FindPin, dshow.icapturegraphbuilder2_findpin, strmif/ICaptureGraphBuilder2::FindPin
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ListView_GetInsertMarkColor.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkcolor.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ListView_GetInsertMarkColor, ListView_GetInsertMarkColor macro [Windows Controls], _win32_ListView_GetInsertMarkColor, _win32_ListView_GetInsertMarkColor_cpp, commctrl/ListView_GetInsertMarkColor, controls.ListView_GetInsertMarkColor, controls._win32_ListView_GetInsertMarkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

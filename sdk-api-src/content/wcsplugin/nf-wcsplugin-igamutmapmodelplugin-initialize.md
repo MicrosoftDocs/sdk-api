@@ -7,7 +7,7 @@ old-location: wcs\IGamutMapModelPlugIn_Initialize.htm
 tech.root: WCS
 ms.assetid: 86fb0f6b-d293-44de-ad1d-724436403535
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],Initialize method, IGamutMapModelPlugIn.Initialize, IGamutMapModelPlugIn::Initialize, Initialize, Initialize method [Windows Color System], Initialize method [Windows Color System],IGamutMapModelPlugIn interface, _color_IGamutMapModelPlugIn::Initialize, wcs.IGamutMapModelPlugIn_Initialize, wcsplugin/IGamutMapModelPlugIn::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

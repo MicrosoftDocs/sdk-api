@@ -7,10 +7,10 @@ old-location: imapi\idiscmaster.htm
 tech.root: imapi
 ms.assetid: 1473e79e-a13a-4bc5-b80d-d8921fdc9952
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], IDiscMaster interface [IMAPI],described, _win32_idiscmaster, base.idiscmaster, imapi.idiscmaster, imapi/IDiscMaster
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi.h
 req.include-header: 

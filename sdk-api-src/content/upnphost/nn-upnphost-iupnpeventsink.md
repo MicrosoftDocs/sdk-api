@@ -4,13 +4,13 @@ title: IUPnPEventSink
 author: windows-sdk-content
 description: The IUPnPEventSink interface allows a hosted service to send event notifications to the device host.
 old-location: upnp\iupnpeventsink.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 431423c9-2873-422d-a28c-c4ef23109114
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPEventSink, IUPnPEventSink interface [UPnP APIs], IUPnPEventSink interface [UPnP APIs],described, _upnp_iupnpeventsink, upnp.iupnpeventsink, upnphost/IUPnPEventSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_PIXEL_FORMAT.htm
 tech.root: direct2d
 ms.assetid: e95afd9c-5793-4cb7-bcb8-aae4d28b6532
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_PIXEL_FORMAT, D2D1_PIXEL_FORMAT structure [Direct2D], dcommon/D2D1_PIXEL_FORMAT, direct2d.D2D1_PIXEL_FORMAT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: D2d1.h

@@ -4,10 +4,10 @@ title: IMSVidAudioRenderer::get_Balance
 author: windows-sdk-content
 description: "."
 old-location: mstv\imsvidaudiorenderer_get_balance.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 59def393-ab3d-41a8-968a-cd22429874a0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],get_Balance method, IMSVidAudioRenderer.get_Balance, IMSVidAudioRenderer::get_Balance, IMSVidAudioRendererget_Balance, get_Balance, get_Balance method [Microsoft TV Technologies], get_Balance method [Microsoft TV Technologies],IMSVidAudioRenderer interface, mstv.imsvidaudiorenderer_get_balance, segment/IMSVidAudioRenderer::get_Balance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,7 @@ The <b>get_Balance</b> method retrieves the audio renderer's balance level.
 
 
 
-### -param lBal
-
-TBD
-
-
-
-
-#### - plBal [out]
+### -param lBal [out]
 
 Pointer to a variable that receives the balance level.
 

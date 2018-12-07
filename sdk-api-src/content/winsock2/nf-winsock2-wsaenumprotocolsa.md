@@ -7,7 +7,7 @@ old-location: winsock\wsaenumprotocols_2.htm
 tech.root: winsock
 ms.assetid: 928b6937-41a3-4268-a3bc-14c9e04870e4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WSAEnumProtocols, WSAEnumProtocols function [Winsock], WSAEnumProtocolsA, WSAEnumProtocolsW, _win32_wsaenumprotocols_2, winsock.wsaenumprotocols_2, winsock2/WSAEnumProtocols, winsock2/WSAEnumProtocolsA, winsock2/WSAEnumProtocolsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IVdsServiceLoader::LoadService
 author: windows-sdk-content
 description: Launches VDS on the specified computer and returns a pointer to the service object.
 old-location: base\ivdsserviceloader_loadservice.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 26bb0a1f-37ad-4bb0-af6c-1063c5ccdc0f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsServiceLoader interface [VDS],LoadService method, IVdsServiceLoader.LoadService, IVdsServiceLoader::LoadService, LoadService, LoadService method [VDS], LoadService method [VDS],IVdsServiceLoader interface, base.ivdsserviceloader_loadservice, vds/IVdsServiceLoader::LoadService
 ms.prod: windows-hardware
 ms.technology: windows-devices

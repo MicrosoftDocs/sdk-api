@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionevents_onchannelvolumechanged.htm
 tech.root: CoreAudio
 ms.assetid: cdd3ec9b-cf72-4c2e-b874-60370d41447d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnChannelVolumeChanged method, IAudioSessionEvents.OnChannelVolumeChanged, IAudioSessionEvents::OnChannelVolumeChanged, IAudioSessionEventsOnChannelVolumeChanged, OnChannelVolumeChanged, OnChannelVolumeChanged method [Core Audio], OnChannelVolumeChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnChannelVolumeChanged, coreaudio.iaudiosessionevents_onchannelvolumechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ The <b>OnChannelVolumeChanged</b> method notifies the client that the volume lev
 The channel count. This parameter specifies the number of audio channels in the session submix.
 
 
-### -param NewChannelVolumeArray
+### -param NewChannelVolumeArray [in]
 
-TBD
+Pointer to an array of volume levels. Each element is a value of type <b>float</b> that specifies the volume level for a particular channel. Each volume level is a value in the range 0.0 to 1.0, where 0.0 is silence and 1.0 is full volume (no attenuation). The number of elements in the array is specified by the <i>ChannelCount</i> parameter. If an audio stream contains <i>n</i> channels, the channels are numbered from 0 to <i>n</i>– 1. The array element whose index matches the channel number, contains the volume level for that channel. Assume that the array remains valid only for the duration of the call.
 
 
 ### -param ChangedChannel [in]
@@ -79,11 +79,6 @@ The number of the channel whose volume level changed. Use this value as an index
 ### -param EventContext [in]
 
 The event context value. This is the same value that the caller passed to the <a href="https://msdn.microsoft.com/b7baeebf-01d3-4dec-a674-73a84bbf7a66">IChannelAudioVolume::SetChannelVolume</a> or <b>IChannelAudioVolume::SetAllVolumes</b> method in the call that initiated the change in volume level of the channel. For more information, see Remarks.
-
-
-#### - NewChannelVolumeArray[] [in]
-
-Pointer to an array of volume levels. Each element is a value of type <b>float</b> that specifies the volume level for a particular channel. Each volume level is a value in the range 0.0 to 1.0, where 0.0 is silence and 1.0 is full volume (no attenuation). The number of elements in the array is specified by the <i>ChannelCount</i> parameter. If an audio stream contains <i>n</i> channels, the channels are numbered from 0 to <i>n</i>– 1. The array element whose index matches the channel number, contains the volume level for that channel. Assume that the array remains valid only for the duration of the call.
 
 
 ## -returns

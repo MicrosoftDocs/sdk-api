@@ -4,10 +4,10 @@ title: IPAT::GetVersionNumber
 author: windows-sdk-content
 description: The GetVersionNumber method returns the version number for the PAT.
 old-location: mstv\ipat_getversionnumber.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1398a1b9-e9b9-4f30-ba93-0a08a0994cf9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetVersionNumber method, IPAT.GetVersionNumber, IPAT::GetVersionNumber, IPATGetVersionNumber, mpeg2psiparser/IPAT::GetVersionNumber, mstv.ipat_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

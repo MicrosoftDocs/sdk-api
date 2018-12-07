@@ -4,13 +4,13 @@ title: IDVBTuneRequest
 author: windows-sdk-content
 description: The IDVBTuneRequest interface is implemented on the DVBTuneRequest object.
 old-location: mstv\idvbtunerequest.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4d519bbc-38e1-47ce-bd73-a3eb1ea399d6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBTuneRequest, IDVBTuneRequest interface [Microsoft TV Technologies], IDVBTuneRequest interface [Microsoft TV Technologies],described, IDVBTuneRequestInterface, mstv.idvbtunerequest, tuner/IDVBTuneRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

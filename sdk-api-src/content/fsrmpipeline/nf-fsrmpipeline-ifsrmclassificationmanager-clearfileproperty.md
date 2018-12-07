@@ -4,10 +4,10 @@ title: IFsrmClassificationManager::ClearFileProperty
 author: windows-sdk-content
 description: Attempts to remove the specified property from the file or folder.
 old-location: fsrm\ifsrmclassificationmanager_clearfileproperty.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: bac42416-0757-462f-8869-339655f48587
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ClearFileProperty, ClearFileProperty method [File Server Resource Manager], ClearFileProperty method [File Server Resource Manager],FsrmClassificationManager class, ClearFileProperty method [File Server Resource Manager],IFsrmClassificationManager interface, ClearFileProperty method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClearFileProperty method, IFsrmClassificationManager interface [File Server Resource Manager],ClearFileProperty method, IFsrmClassificationManager.ClearFileProperty, IFsrmClassificationManager2 interface [File Server Resource Manager],ClearFileProperty method, IFsrmClassificationManager2::ClearFileProperty, IFsrmClassificationManager::ClearFileProperty, fs.ifsrmclassificationmanager_clearfileproperty, fsrm.ifsrmclassificationmanager_clearfileproperty, fsrmpipeline/IFsrmClassificationManager2::ClearFileProperty, fsrmpipeline/IFsrmClassificationManager::ClearFileProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ The file that contains the property that you want to remove. You must specify an
       You cannot specify a file share.
 
 
-### -param property
-
-TBD
-
-
-
-
-#### - propertyName [in]
+### -param property [in]
 
 The name of the property to remove from the file.
 

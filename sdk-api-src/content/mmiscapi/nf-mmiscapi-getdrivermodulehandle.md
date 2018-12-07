@@ -7,7 +7,7 @@ old-location: multimedia\getdrivermodulehandle.htm
 tech.root: Multimedia
 ms.assetid: 13395864-f14f-4193-a451-4ac5f9830242
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: GetDriverModuleHandle, GetDriverModuleHandle function [Windows Multimedia], _win32_GetDriverModuleHandle, mmsystem/GetDriverModuleHandle, multimedia.getdrivermodulehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ Retrieves the instance handle of the module that contains the installable driver
 
 
 
-### -param hDriver
-
-TBD
-
-
-
-
-#### - hdrvr [in]
+### -param hDriver [in]
 
 Handle of the installable driver instance. The handle must have been previously created by using the <a href="https://msdn.microsoft.com/882146f7-cd42-45fd-8a5f-7078b64c7ea8">OpenDriver</a> function.
 

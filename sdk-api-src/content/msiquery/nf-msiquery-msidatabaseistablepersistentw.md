@@ -7,7 +7,7 @@ old-location: setup\msidatabaseistablepersistent.htm
 tech.root: msi
 ms.assetid: 78c9d95a-8e36-40a4-afbb-4d0bf5f6f350
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: MsiDatabaseIsTablePersistent, MsiDatabaseIsTablePersistent function, MsiDatabaseIsTablePersistentA, MsiDatabaseIsTablePersistentW, _msi_msidatabaseistablepersistent, msiquery/MsiDatabaseIsTablePersistent, msiquery/MsiDatabaseIsTablePersistentA, msiquery/MsiDatabaseIsTablePersistentW, setup.msidatabaseistablepersistent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: security\ienroll2.htm
 tech.root: seccrypto
 ms.assetid: 60a28944-35de-4ea2-8523-5634685ac224
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IEnroll2, IEnroll2 interface [Security], IEnroll2 interface [Security],described, security.ienroll2, xenroll/IEnroll2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xenroll.h
 req.include-header: 

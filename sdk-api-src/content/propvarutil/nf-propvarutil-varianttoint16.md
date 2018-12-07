@@ -7,7 +7,7 @@ old-location: properties\VariantToInt16.htm
 tech.root: properties
 ms.assetid: 5a0d22c1-4295-405d-a503-2b9fdd6eaa81
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToInt16, VariantToInt16 function [Windows Properties], _shell_VariantToInt16, properties.VariantToInt16, propvarutil/VariantToInt16, shell.VariantToInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices

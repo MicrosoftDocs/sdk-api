@@ -7,10 +7,10 @@ old-location: direct3ddxgi\idxgidevice3.htm
 tech.root: direct3ddxgi
 ms.assetid: 3D6A0173-456D-4783-943D-35F335F358BE
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDXGIDevice3, IDXGIDevice3 interface [DXGI], IDXGIDevice3 interface [DXGI],described, direct3ddxgi.idxgidevice3, dxgi1_3/IDXGIDevice3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 

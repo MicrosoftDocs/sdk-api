@@ -4,10 +4,10 @@ title: IOfflineFilesCache::ProcessAdminPinPolicy
 author: windows-sdk-content
 description: Causes Offline Files to process the &#0034;administratively assigned offline files&#0034; group policy.
 old-location: of\iofflinefilescache_processadminpinpolicy.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 25ee4586-3031-4815-9a35-ce57cf9366d7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],ProcessAdminPinPolicy method, IOfflineFilesCache.ProcessAdminPinPolicy, IOfflineFilesCache::ProcessAdminPinPolicy, ProcessAdminPinPolicy, ProcessAdminPinPolicy method [Offline Files], ProcessAdminPinPolicy method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::ProcessAdminPinPolicy, of.iofflinefilescache_processadminpinpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

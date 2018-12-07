@@ -9,8 +9,8 @@ ms.assetid: a49a21c9-5668-4709-b52a-f6cacd944845
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: BCRYPT_ALGORITHM_IDENTIFIER, BCRYPT_ALGORITHM_IDENTIFIER structure [Security], _BCRYPT_ALGORITHM_IDENTIFIER, bcrypt/BCRYPT_ALGORITHM_IDENTIFIER, security.bcrypt_algorithm_identifier_struct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

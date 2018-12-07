@@ -7,10 +7,10 @@ old-location: tablet\inkeditstatus.htm
 tech.root: tablet
 ms.assetid: 94c3a863-4c8a-4471-be1b-b4d5f8ded374
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: 94c3a863-4c8a-4471-be1b-b4d5f8ded374, IES_Collecting, IES_Idle, IES_Recognizing, InkEditStatus, InkEditStatus enumeration [Tablet PC], inked/IES_Collecting, inked/IES_Idle, inked/IES_Recognizing, inked/InkEditStatus, tablet.inkeditstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

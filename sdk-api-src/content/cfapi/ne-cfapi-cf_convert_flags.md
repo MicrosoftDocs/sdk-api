@@ -7,10 +7,10 @@ old-location: cloudapi\cf_convert_flags.htm
 tech.root: cfApi
 ms.assetid: 0342BF0B-509A-4F8D-9557-54E534A3DDFE
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CF_CONVERT_FLAGS, CF_CONVERT_FLAGS enumeration, CF_CONVERT_FLAG_DEHYDRATE, CF_CONVERT_FLAG_ENABLE_ON_DEMAND_POPULATION, CF_CONVERT_FLAG_MARK_IN_SYNC, CF_CONVERT_FLAG_NONE, cfapi/CF_CONVERT_FLAGS, cfapi/CF_CONVERT_FLAG_DEHYDRATE, cfapi/CF_CONVERT_FLAG_ENABLE_ON_DEMAND_POPULATION, cfapi/CF_CONVERT_FLAG_MARK_IN_SYNC, cfapi/CF_CONVERT_FLAG_NONE, cloudApi.cf_convert_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

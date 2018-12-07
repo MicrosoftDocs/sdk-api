@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_GetRed_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getred.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Color class [GDI+],GetRed method, Color.GetRed, Color::GetRed, GetRed, GetRed method [GDI+], GetRed method [GDI+],Color class, _gdiplus_CLASS_Color_GetRed_, gdiplus._gdiplus_CLASS_Color_GetRed_
 ms.prod: windows-hardware
 ms.technology: windows-devices

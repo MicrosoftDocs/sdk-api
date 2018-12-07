@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_anglechange.htm
 tech.root: DirectShow
 ms.assetid: 4a91f05d-1ded-4ecb-8850-5ee7faad134d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AngleChange, AngleChange method [DirectShow], AngleChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AngleChange method, IDvdControl.AngleChange, IDvdControl::AngleChange, IDvdControlAngleChange, dshow.idvdcontrol_anglechange, strmif/IDvdControl::AngleChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IOfflineFilesEvents2::BackgroundSyncBegin
 author: windows-sdk-content
 description: Reports that the Offline Files service is beginning to perform a background synchronization pass.
 old-location: of\iofflinefilesevents2_backgroundsyncbegin.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 84b71228-904a-4042-8d13-422ae77f7ba5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: BackgroundSyncBegin, BackgroundSyncBegin method [Offline Files], BackgroundSyncBegin method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],BackgroundSyncBegin method, IOfflineFilesEvents2.BackgroundSyncBegin, IOfflineFilesEvents2::BackgroundSyncBegin, cscobj/IOfflineFilesEvents2::BackgroundSyncBegin, of.iofflinefilesevents2_backgroundsyncbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices

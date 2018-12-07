@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_getqueryclassname.htm
 tech.root: WmiSdk
 ms.assetid: 6cb3da43-dab1-4049-9793-d62f027efe1c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetQueryClassName method, CFrameworkQuery.GetQueryClassName, CFrameworkQuery::GetQueryClassName, GetQueryClassName, GetQueryClassName method [Windows Management Instrumentation], GetQueryClassName method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getqueryclassname, frquery/CFrameworkQuery::GetQueryClassName, wmi.cframeworkquery_getqueryclassname
 ms.prod: windows-hardware
 ms.technology: windows-devices

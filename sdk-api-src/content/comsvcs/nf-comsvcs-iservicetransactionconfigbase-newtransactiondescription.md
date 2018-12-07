@@ -7,7 +7,7 @@ old-location: cos\iservicetransactionconfigbase_newtransactiondescription.htm
 tech.root: cossdk
 ms.assetid: ecdc160b-168d-48f4-bbe3-46d654ee8607
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],NewTransactionDescription method, IServiceTransactionConfigBase.NewTransactionDescription, IServiceTransactionConfigBase::NewTransactionDescription, NewTransactionDescription, NewTransactionDescription method [COM+], NewTransactionDescription method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_NewTransactionDescription, comsvcs/IServiceTransactionConfigBase::NewTransactionDescription, cos.iservicetransactionconfigbase_newtransactiondescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

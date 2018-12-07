@@ -4,10 +4,10 @@ title: MI_Context_NewDynamicInstance function
 author: windows-sdk-content
 description: Creates a new dynamic instance (weakly typed instance without a class declaration) of a class.
 old-location: wmi_v2\mi_context_newdynamicinstance.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 05415945-c804-4056-b4bf-673995c1d6e4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Context_NewDynamicInstance, MI_Context_NewDynamicInstance function [Windows Management Infrastructure (MI)], mi/MI_Context_NewDynamicInstance, wmi.mi_newdynamicinstance, wmi_v2.mi_context_newdynamicinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: OnDemandRegisterNotification function
 author: windows-sdk-content
 description: The OnDemandRegisterNotification function allows an application to register to be notified when the Route Requests cache is modified.
 old-location: nla\ondemandregisternotification.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 1C9BB656-B1A7-49A6-97B9-414946BF9BE0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: OnDemandRegisterNotification, OnDemandRegisterNotification function [Network Awareness], nla.ondemandregisternotification, ondemandconnroutehelper/OnDemandRegisterNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

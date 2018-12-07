@@ -7,10 +7,10 @@ old-location: com\icontextcallback.htm
 tech.root: com
 ms.assetid: 47af7b80-3419-4a40-8932-a5a27f297dc9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IContextCallback, IContextCallback interface [COM], IContextCallback interface [COM],described, _com_icontextcallback, com.icontextcallback, ctxtcall/IContextCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ctxtcall.h
 req.include-header: 

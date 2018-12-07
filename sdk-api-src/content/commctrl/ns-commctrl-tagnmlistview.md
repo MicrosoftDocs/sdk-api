@@ -7,10 +7,10 @@ old-location: controls\NMLISTVIEW.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlistview.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPNMLISTVIEW, LPNMLISTVIEW, LPNMLISTVIEW structure pointer [Windows Controls], NMLISTVIEW, NMLISTVIEW structure [Windows Controls], _win32_NMLISTVIEW, _win32_NMLISTVIEW_cpp, commctrl/LPNMLISTVIEW, commctrl/NMLISTVIEW, controls.NMLISTVIEW, controls._win32_NMLISTVIEW, tagNMLISTVIEW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: ITuningSpace::get_DefaultPreferredComponentTypes
 author: windows-sdk-content
 description: The get_DefaultPreferredComponentTypes method returns an list of the default preferred component types for this tuning space.
 old-location: mstv\ituningspace_get_defaultpreferredcomponenttypes.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a633a94c-e514-46b1-9982-7526ffa89b74
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_DefaultPreferredComponentTypes method, ITuningSpace.get_DefaultPreferredComponentTypes, ITuningSpace::get_DefaultPreferredComponentTypes, ITuningSpaceget_DefaultPreferredComponentTypes, get_DefaultPreferredComponentTypes, get_DefaultPreferredComponentTypes method [Microsoft TV Technologies], get_DefaultPreferredComponentTypes method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_defaultpreferredcomponenttypes, tuner/ITuningSpace::get_DefaultPreferredComponentTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_DefaultPreferredComponentTypes</b> method returns an list of the defa
 
 
 
-### -param ComponentTypes
-
-TBD
-
-
-
-
-#### - ppComponentTypes [out]
+### -param ComponentTypes [out]
 
 Address of a variable that receives an <a href="https://msdn.microsoft.com/47c3837b-1348-4359-ad3d-3d82c5fe3781">IComponentTypes</a> interface pointer. Use this interface to enumerate the component types. The caller must release the interface.
 

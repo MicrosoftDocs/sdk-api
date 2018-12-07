@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionsurfacefactory_createvirtualsurface.htm
 tech.root: directcomp
 ms.assetid: 0C74CDA5-4491-4D16-B972-C9C54007A2FB
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateVirtualSurface, CreateVirtualSurface method [DirectComposition], CreateVirtualSurface method [DirectComposition],IDCompositionSurfaceFactory interface, IDCompositionSurfaceFactory interface [DirectComposition],CreateVirtualSurface method, IDCompositionSurfaceFactory.CreateVirtualSurface, IDCompositionSurfaceFactory::CreateVirtualSurface, dcomp/IDCompositionSurfaceFactory::CreateVirtualSurface, directcomp.idcompositionsurfacefactory_createvirtualsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,14 +81,7 @@ The format of the alpha channel, if an alpha channel is included in the pixel fo
 
 
 
-### -param virtualSurface
-
-TBD
-
-
-
-
-#### - surface [out]
+### -param virtualSurface [out]
 
 The newly created virtual surface object. This parameter must not be NULL.
 

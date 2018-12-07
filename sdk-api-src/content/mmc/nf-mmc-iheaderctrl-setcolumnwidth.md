@@ -7,7 +7,7 @@ old-location: mmc\iheaderctrl_setcolumnwidth.htm
 tech.root: mmc
 ms.assetid: E704FF35-3859-4313-B42D-77A114AA6E78
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnWidth method, IHeaderCtrl.SetColumnWidth, IHeaderCtrl::SetColumnWidth, MMCLV_AUTO, SetColumnWidth, SetColumnWidth method [MMC], SetColumnWidth method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumnwidth, mmc/IHeaderCtrl::SetColumnWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

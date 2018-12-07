@@ -7,7 +7,7 @@ old-location: mscs\onlineclustergroup.htm
 tech.root: mscs
 ms.assetid: 33b4f435-f394-41fc-846f-8e9206c76aa1
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: OnlineClusterGroup, OnlineClusterGroup function [Failover Cluster], PCLUSAPI_ONLINE_CLUSTER_GROUP, PCLUSAPI_ONLINE_CLUSTER_GROUP function [Failover Cluster], _wolf_onlineclustergroup, clusapi/OnlineClusterGroup, clusapi/PCLUSAPI_ONLINE_CLUSTER_GROUP, mscs.onlineclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,6 +76,36 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following are possible error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_HOST_NODE_NOT_AVAILABLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+A suitable host node was not available.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_IO_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation is in progress.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

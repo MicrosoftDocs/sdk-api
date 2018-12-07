@@ -7,7 +7,7 @@ old-location: gdi\enummetafile.htm
 tech.root: gdi
 ms.assetid: b11c7467-64a9-442b-8dee-26e15f64a26b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EnumMetaFile, EnumMetaFile function [Windows GDI], _win32_EnumMetaFile, gdi.enummetafile, wingdi/EnumMetaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

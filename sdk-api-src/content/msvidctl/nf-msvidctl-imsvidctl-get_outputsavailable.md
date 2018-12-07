@@ -4,10 +4,10 @@ title: IMSVidCtl::get_OutputsAvailable
 author: windows-sdk-content
 description: The get_OutputsAvailable method retrieves the output devices that are available in a specified category.
 old-location: mstv\imsvidctl_get_outputsavailable.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: f45b752c-6b7f-4803-93fe-92ec44cd9509
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_OutputsAvailable method, IMSVidCtl.get_OutputsAvailable, IMSVidCtl::get_OutputsAvailable, IMSVidCtlget_OutputsAvailable, get_OutputsAvailable, get_OutputsAvailable method [Microsoft TV Technologies], get_OutputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_outputsavailable, msvidctl/IMSVidCtl::get_OutputsAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ The <b>get_OutputsAvailable</b> method retrieves the output devices that are ava
 <b>BSTR</b> that specifies the GUID of the category to enumerate
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppVal [out]
+### -param pVal [out]
 
 Receives an <a href="https://msdn.microsoft.com/54776225-ad60-450b-99b4-851cae60ffa7">IMSVidOutputDevices</a> interface pointer. The caller must release the interface.
 

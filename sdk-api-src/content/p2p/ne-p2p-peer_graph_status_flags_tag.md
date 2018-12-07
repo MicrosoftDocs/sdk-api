@@ -9,8 +9,8 @@ ms.assetid: 71910437-4ebd-4fcc-977c-0a56c5f26d61
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PEER_GRAPH_STATUS_FLAGS, PEER_GRAPH_STATUS_FLAGS enumeration [Peer Networking], PEER_GRAPH_STATUS_HAS_CONNECTIONS, PEER_GRAPH_STATUS_LISTENING, PEER_GRAPH_STATUS_SYNCHRONIZED, p2p.peer_graph_status_flags, p2p/PEER_GRAPH_STATUS_FLAGS, p2p/PEER_GRAPH_STATUS_HAS_CONNECTIONS, p2p/PEER_GRAPH_STATUS_LISTENING, p2p/PEER_GRAPH_STATUS_SYNCHRONIZED, peer_graph_status_flags_tag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

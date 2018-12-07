@@ -7,7 +7,7 @@ old-location: mf\imfattributes_setuint32.htm
 tech.root: medfound
 ms.assetid: 9c30fd56-719f-4831-8fbf-cefcf9d72709
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 9c30fd56-719f-4831-8fbf-cefcf9d72709, IMFAttributes interface [Media Foundation],SetUINT32 method, IMFAttributes.SetUINT32, IMFAttributes::SetUINT32, SetUINT32, SetUINT32 method [Media Foundation], SetUINT32 method [Media Foundation],IMFAttributes interface, mf.imfattributes_setuint32, mfobjects/IMFAttributes::SetUINT32
 ms.prod: windows-hardware
 ms.technology: windows-devices

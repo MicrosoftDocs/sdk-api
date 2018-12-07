@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_closetray.htm
 tech.root: imapi
 ms.assetid: 0a30f3bb-68fc-45d5-826d-79ed9209f391
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: CloseTray, CloseTray method [IMAPI], CloseTray method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],CloseTray method, IDiscRecorder2.CloseTray, IDiscRecorder2::CloseTray, imapi.idiscrecorder2_closetray, imapi2/IDiscRecorder2::CloseTray
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidGenericSink::SetSinkFilter
 author: windows-sdk-content
 description: The SetSinkFilter method sets the filter for the sink.
 old-location: mstv\imsvidgenericsink_setsinkfilter.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 51a26dc5-a551-4f97-9dd4-6522a14989a8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],SetSinkFilter method, IMSVidGenericSink.SetSinkFilter, IMSVidGenericSink::SetSinkFilter, IMSVidGenericSinkSetSinkFilter, SetSinkFilter, SetSinkFilter method [Microsoft TV Technologies], SetSinkFilter method [Microsoft TV Technologies],IMSVidGenericSink interface, mstv.imsvidgenericsink_setsinkfilter, segment/IMSVidGenericSink::SetSinkFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,7 @@ The <b>SetSinkFilter</b> method sets the filter for the sink.
 
 
 
-### -param bstrName
-
-TBD
-
-
-
-
-#### - bstrCLSID [in]
+### -param bstrName [in]
 
 <b>BSTR</b> that contains the CLSID of the sink filter. The <b>BSTR</b> must use the following format: <code>{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}</code>.
 

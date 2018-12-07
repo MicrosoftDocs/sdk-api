@@ -4,10 +4,10 @@ title: IDvbExtendedEventDescriptor::GetConcatenatedTextW
 author: windows-sdk-content
 description: Gets the concatenation of the text description in the current item with the text description in the next item (both in Unicode format) of a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getconcatenatedtextw.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d8cbfe2c-db33-449d-991c-5fb50d8d974f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetConcatenatedTextW, GetConcatenatedTextW method [Microsoft TV Technologies], GetConcatenatedTextW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetConcatenatedTextW method, IDvbExtendedEventDescriptor.GetConcatenatedTextW, IDvbExtendedEventDescriptor::GetConcatenatedTextW, dvbsiparser/IDvbExtendedEventDescriptor::GetConcatenatedTextW, mstv.idvbextendedeventdescriptor_getconcatenatedtextw
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itagent_get_totalacdcalltime.htm
 tech.root: tapi
 ms.assetid: 432e22b7-16c3-447d-bbec-59ab7713039c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalACDCallTime method, ITAgent.get_TotalACDCallTime, ITAgent::get_TotalACDCallTime, _tapi3_itagent_get_totalacdcalltime, get_TotalACDCallTime, get_TotalACDCallTime method [TAPI 2.2], get_TotalACDCallTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalacdcalltime, tapi3cc/ITAgent::get_TotalACDCallTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

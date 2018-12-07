@@ -7,7 +7,7 @@ old-location: mscs\getclusternodestate.htm
 tech.root: mscs
 ms.assetid: 94c83582-3d99-4a20-ad58-1af4e8190781
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: GetClusterNodeState, GetClusterNodeState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NODE_STATE, PCLUSAPI_GET_CLUSTER_NODE_STATE function [Failover Cluster], _wolf_getclusternodestate, clusapi/GetClusterNodeState, clusapi/PCLUSAPI_GET_CLUSTER_NODE_STATE, mscs.getclusternodestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,6 +79,76 @@ The returned values are from the
        <a href="https://msdn.microsoft.com/en-us/library/Bb309157(v=VS.85).aspx">CLUSTER_NODE_STATE</a> enumeration.
 
 
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterNodeUp</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The node is physically plugged in, turned on, booted, and capable of executing programs.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterNodeDown</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The node is turned off or not operational.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterNodeJoining</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+The node is in the process of joining a 
+        <a href="c_gly.htm">cluster</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterNodePaused</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+The node is running but not participating in cluster operations.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterNodeStateUnknown</b></dt>
+<dt>-1</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the function 
+        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

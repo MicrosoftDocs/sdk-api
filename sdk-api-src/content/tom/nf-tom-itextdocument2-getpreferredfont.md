@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getpreferredfont.htm
 tech.root: controls
 ms.assetid: d07c3093-8050-4c62-8e90-3b09cdb10700
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetPreferredFont, GetPreferredFont method [Windows Controls], GetPreferredFont method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetPreferredFont method, ITextDocument2.GetPreferredFont, ITextDocument2::GetPreferredFont, controls.itextdocument2_getpreferredfont, tom/ITextDocument2::GetPreferredFont, tomAboriginal, tomAnsi, tomArabic, tomArmenian, tomBIG5, tomBaltic, tomBengali, tomBraille, tomCherokee, tomCyrillic, tomDefaultCharRep, tomDevanagari, tomEastEurope, tomEmoji, tomEthiopic, tomGB2312, tomGeorgian, tomGetHeightOnly, tomGreek, tomGujarati, tomGurmukhi, tomHangul, tomHebrew, tomIgnoreCurrentFont, tomJamo, tomKannada, tomKayahli, tomKharoshthi, tomKhmer, tomLao, tomLimbu, tomMac, tomMalayalam, tomMatchAscii, tomMatchCharRep, tomMatchFontSignature, tomMatchMathFont, tomMongolian, tomMyanmar, tomNewTaiLu, tomOEM, tomOgham, tomOriya, tomPC437, tomRunic, tomShiftJIS, tomSinhala, tomSylotinagr, tomSymbol, tomSyriac, tomTaiLe, tomTamil, tomTelugu, tomThaana, tomThai, tomTibetan, tomTurkish, tomUsymbol, tomVietnamese, tomYi
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -501,9 +501,11 @@ The preferred font options. The low-order word can be a combination of the follo
 If the high-order word of <i>Options</i> is <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUseTwips</a>, the font heights are given in twips.
 
 
-### -param curCharRep
+### -param curCharRep [in]
 
-TBD
+Type: <b>long</b>
+
+The index of the current character repertoire.
 
 
 ### -param curFontSize [in]
@@ -532,13 +534,6 @@ The font pitch and family.
 Type: <b>long*</b>
 
 The new font size.
-
-
-#### - charRepCur [in]
-
-Type: <b>long</b>
-
-The index of the current character repertoire.
 
 
 ## -returns

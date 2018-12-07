@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_inheritsfrom.htm
 tech.root: WmiSdk
 ms.assetid: 05431e05-440e-4241-bde9-0dbd32039921
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],InheritsFrom method, IWbemClassObject.InheritsFrom, IWbemClassObject::InheritsFrom, InheritsFrom, InheritsFrom method [Windows Management Instrumentation], InheritsFrom method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_inheritsfrom, wbemcli/IWbemClassObject::InheritsFrom, wmi.iwbemclassobject_inheritsfrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ The
 
 
 
-### -param strAncestor
-
-TBD
-
-
-
-
-#### - wszAncestor [in]
+### -param strAncestor [in]
 
 Cannot be <b>NULL</b>. It contains the class name that is being tested. If the current object has this class for one of its ancestor classes, <b>WBEM_S_NO_ERROR</b> returns. This must point to a valid <b>LPCWSTR</b>, which is treated as read-only.
 

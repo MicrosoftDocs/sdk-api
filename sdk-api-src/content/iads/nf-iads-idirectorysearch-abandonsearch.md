@@ -4,10 +4,10 @@ title: IDirectorySearch::AbandonSearch
 author: windows-sdk-content
 description: The IDirectorySearch::AbandonSearch method abandons a search initiated by an earlier call to the ExecuteSearch method.
 old-location: adsi\idirectorysearch_abandonsearch.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: cf220625-0aac-42ce-a15f-c44766693cf8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AbandonSearch, AbandonSearch method [ADSI], AbandonSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],AbandonSearch method, IDirectorySearch.AbandonSearch, IDirectorySearch::AbandonSearch, _ds_idirectorysearch_abandonsearch, adsi.idirectorysearch__abandonsearch, adsi.idirectorysearch_abandonsearch, iads/IDirectorySearch::AbandonSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,7 @@ The <b>IDirectorySearch::AbandonSearch</b> method abandons a search initiated by
 
 
 
-### -param phSearchResult
-
-TBD
-
-
-
-
-#### - hSearchHandle [in]
+### -param phSearchResult [in]
 
 Provides a handle to the search context.
 

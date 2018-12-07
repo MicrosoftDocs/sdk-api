@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader_beginflush.htm
 tech.root: DirectShow
 ms.assetid: 29153592-dbc1-42b4-bd4e-2f1aef8d4c19
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IAsyncReader interface, IAsyncReader interface [DirectShow],BeginFlush method, IAsyncReader.BeginFlush, IAsyncReader::BeginFlush, IAsyncReaderBeginFlush, dshow.iasyncreader_beginflush, strmif/IAsyncReader::BeginFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2_get_endingsectorspersecond.htm
 tech.root: imapi
 ms.assetid: 7e6a5f41-328d-47b3-ba43-900e524cf51a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_EndingSectorsPerSecond method, IWriteEngine2.get_EndingSectorsPerSecond, IWriteEngine2::get_EndingSectorsPerSecond, get_EndingSectorsPerSecond, get_EndingSectorsPerSecond method [IMAPI], get_EndingSectorsPerSecond method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_endingsectorspersecond, imapi2/IWriteEngine2::get_EndingSectorsPerSecond
 ms.prod: windows-hardware
 ms.technology: windows-devices

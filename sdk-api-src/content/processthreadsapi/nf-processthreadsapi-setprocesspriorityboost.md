@@ -7,7 +7,7 @@ old-location: base\setprocesspriorityboost.htm
 tech.root: procthread
 ms.assetid: 211069cb-4b4c-49bc-ad3c-1be184999670
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetProcessPriorityBoost, SetProcessPriorityBoost function, _win32_setprocesspriorityboost, base.setprocesspriorityboost, processthreadsapi/SetProcessPriorityBoost
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ A handle to the process. This handle must have the PROCESS_SET_INFORMATION acces
 <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
 
 
-### -param bDisablePriorityBoost
-
-TBD
-
-
-
-
-#### - DisablePriorityBoost [in]
+### -param bDisablePriorityBoost [in]
 
 If this parameter is TRUE, dynamic boosting is disabled. If the parameter is FALSE, dynamic boosting is enabled.
 

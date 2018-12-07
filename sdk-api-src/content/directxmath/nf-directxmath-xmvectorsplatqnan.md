@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsplatqnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatQNaN
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSplatQNaN, XMVectorSplatQNaN, XMVectorSplatQNaN method [DirectX Math Support APIs], dxmath.xmvectorsplatqnan
 ms.prod: windows-hardware
 ms.technology: windows-devices

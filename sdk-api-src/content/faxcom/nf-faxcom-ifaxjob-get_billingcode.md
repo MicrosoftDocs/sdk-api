@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_billingcode_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2ov9.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],IFaxJob interface, IFaxJob interface [Fax Service],BillingCode property, IFaxJob.BillingCode, IFaxJob.get_BillingCode, IFaxJob::BillingCode, IFaxJob::get_BillingCode, _mfax_ifaxjob_get_billingcode, fax._mfax_ifaxjob_get_billingcode, fax._mfax_ifaxjob_mfax_ifaxjob_get_billingcode_cpp, faxcom/IFaxJob::BillingCode, faxcom/IFaxJob::get_BillingCode, get_BillingCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

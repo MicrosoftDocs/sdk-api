@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher_addobjectbytemplate.htm
 tech.root: WmiSdk
 ms.assetid: c3f25484-7c6c-4625-9d26-1c01d15b10c4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: AddObjectByTemplate, AddObjectByTemplate method [Windows Management Instrumentation], AddObjectByTemplate method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByTemplate method, IWbemConfigureRefresher.AddObjectByTemplate, IWbemConfigureRefresher::AddObjectByTemplate, _hmm_iwbemconfigurerefresher_addobjectbytemplate, wbemcli/IWbemConfigureRefresher::AddObjectByTemplate, wmi.iwbemconfigurerefresher_addobjectbytemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,9 +79,11 @@ Pointer to a
 Bitmask of flags that modify the behavior of this method. If this parameter is set to <b>WBEM_FLAG_USE_AMENDED_QUALIFIERS</b>, the returned instance will contain localized qualifiers if available.
 
 
-### -param pContext
+### -param pContext [in]
 
-TBD
+Typically <b>NULL</b>; otherwise, a pointer to an 
+<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object that is required by one or more dynamic class providers. The values in the context object must be specified in the specific provider documentation. For more information about this parameter, see 
+<a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>.
 
 
 ### -param ppRefreshable [out]
@@ -90,21 +92,7 @@ Pointer to hold the reference to a
 <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, which will contain the refreshable instance object. The client must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the returned object when it is no longer required.
 
 
-### -param plId
-
-TBD
-
-
-
-
-#### - pCtx [in]
-
-Typically <b>NULL</b>; otherwise, a pointer to an 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object that is required by one or more dynamic class providers. The values in the context object must be specified in the specific provider documentation. For more information about this parameter, see 
-<a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>.
-
-
-#### - plid [out]
+### -param plId [out]
 
 Pointer to an integer returned by the provider that uniquely identifies this refreshable object.
 

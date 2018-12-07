@@ -4,10 +4,10 @@ title: IDvbDataBroadcastDescriptor::GetSelectorBytes
 author: windows-sdk-content
 description: Gets the data from the selector in a Digital Video Broadcast (DVB) data broadcast descriptor. The selector is defined by the broadcast standard for the network.
 old-location: mstv\idvbdatabroadcastdescriptor_getselectorbytes.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 72fca5a8-2ea5-4000-8b00-dbd408cba602
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetSelectorBytes, GetSelectorBytes method [Microsoft TV Technologies], GetSelectorBytes method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetSelectorBytes method, IDvbDataBroadcastDescriptor.GetSelectorBytes, IDvbDataBroadcastDescriptor::GetSelectorBytes, dvbsiparser/IDvbDataBroadcastDescriptor::GetSelectorBytes, mstv.idvbdatabroadcastdescriptor_getselectorbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

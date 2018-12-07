@@ -4,10 +4,10 @@ title: GetVersionExA function
 author: windows-sdk-content
 description: With the release of Windows 8.1, the behavior of the GetVersionEx API has changed in the value it will return for the operating system version. The value returned by the GetVersionEx function now depends on how the application is manifested.
 old-location: base\getversionex.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 8e3ab4d6-bacd-4bc5-b8f6-dd49289354de
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: GetVersionEx, GetVersionEx function, GetVersionExA, GetVersionExW, _win32_getversionex, base.getversionex, sysinfoapi/GetVersionEx, sysinfoapi/GetVersionExA, sysinfoapi/GetVersionExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ Applications not manifested for Windows 8.1 or Windows 10 will return the Wind
 
 
 
-### -param lpVersionInformation
-
-TBD
-
-
-
-
-#### - lpVersionInfo [in, out]
+### -param lpVersionInformation [in, out]
 
 An 
 <a href="https://msdn.microsoft.com/a173df17-dad2-4330-aa66-4ff789fd7cc2">OSVERSIONINFO</a> or <a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure that receives the operating system information. 

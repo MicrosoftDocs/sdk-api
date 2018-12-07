@@ -7,7 +7,7 @@ old-location: controls\DPA_FastDeleteLastPtr.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_fastdeletelastptr.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DPA_FastDeleteLastPtr, DPA_FastDeleteLastPtr macro [Windows Controls], _shell_DPA_FastDeleteLastPtr, _shell_DPA_FastDeleteLastPtr_cpp, controls.DPA_FastDeleteLastPtr, controls._shell_DPA_FastDeleteLastPtr, dpa_dsa/DPA_FastDeleteLastPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: etw\enabletrace.htm
 tech.root: etw
 ms.assetid: d75f18e1-e5fa-4039-bb74-76dea334b0fd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EnableTrace, EnableTrace function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, _evt_enabletrace, base.enabletrace, etw.enabletrace, evntrace/EnableTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,14 +153,7 @@ Detailed trace events
 GUID of the event trace provider that you want to enable or disable.
 
 
-### -param TraceHandle
-
-TBD
-
-
-
-
-#### - SessionHandle [in]
+### -param TraceHandle [in]
 
 Handle of the event tracing session to which you want to enable, disable, or change the logging level of the provider. The 
 <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function returns this handle.

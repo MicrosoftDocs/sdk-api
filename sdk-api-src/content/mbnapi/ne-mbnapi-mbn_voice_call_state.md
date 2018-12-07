@@ -7,10 +7,10 @@ old-location: mbn\mbn_voice_call_state.htm
 tech.root: mbn
 ms.assetid: 1b94b210-e50f-4d7b-a738-9c372364c4f8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: MBN_VOICE_CALL_STATE, MBN_VOICE_CALL_STATE enumeration [Microsoft Broadband Networks], MBN_VOICE_CALL_STATE_HANGUP, MBN_VOICE_CALL_STATE_IN_PROGRESS, MBN_VOICE_CALL_STATE_NONE, mbn.mbn_voice_call_state, mbnapi/MBN_VOICE_CALL_STATE, mbnapi/MBN_VOICE_CALL_STATE_HANGUP, mbnapi/MBN_VOICE_CALL_STATE_IN_PROGRESS, mbnapi/MBN_VOICE_CALL_STATE_NONE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

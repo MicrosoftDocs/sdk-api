@@ -4,13 +4,13 @@ title: INetFwRemoteAdminSettings
 author: windows-sdk-content
 description: The INetFwRemoteAdminSettings interface provides access to the settings that control remote administration.
 old-location: ics\inetfwremoteadminsettings.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 35f34a53-e73b-48be-ac79-9b7ab825c6ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], INetFwRemoteAdminSettings interface [ICS/ICF],described, ics.inetfwremoteadminsettings, netfw/INetFwRemoteAdminSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

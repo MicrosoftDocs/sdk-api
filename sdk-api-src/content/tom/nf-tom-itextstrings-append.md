@@ -7,7 +7,7 @@ old-location: controls\itextstrings_append.htm
 tech.root: controls
 ms.assetid: e280008b-b41e-43e3-9f16-6fe1f88e10ea
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Append, Append method [Windows Controls], Append method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Append method, ITextStrings.Append, ITextStrings::Append, controls.itextstrings_append, tom/ITextStrings::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices

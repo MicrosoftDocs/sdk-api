@@ -7,10 +7,10 @@ old-location: winsock\fd_set_2.htm
 tech.root: winsock
 ms.assetid: 2af5d69d-190e-4814-8d8b-438431808625
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPFD_SET, *PFD_SET, FD_SET, _win32_fd_set_2, fd_set, fd_set structure [Winsock], winsock.fd_set_2, winsock/fd_set"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h

@@ -4,10 +4,10 @@ title: IBDA_DigitalDemodulator2::put_Pilot
 author: windows-sdk-content
 description: Sets the current pilot mode for Digital Video Broadcasting-S2 (DVB-S2).
 old-location: mstv\ibda_digitaldemodulator2_put_pilot.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 05a29e8a-88f1-4e79-9f6c-ed3798b94c1f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_Pilot method, IBDA_DigitalDemodulator2.put_Pilot, IBDA_DigitalDemodulator2::put_Pilot, bdaiface/IBDA_DigitalDemodulator2::put_Pilot, mstv.ibda_digitaldemodulator2_put_pilot, put_Pilot, put_Pilot method [Microsoft TV Technologies], put_Pilot method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

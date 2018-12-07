@@ -4,10 +4,10 @@ title: ITrigger::put_Repetition
 author: windows-sdk-content
 description: Gets or sets a value that indicates how often the task is run and how long the repetition pattern is repeated after the task is started.
 old-location: taskschd\itrigger_repetition.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 8c3c5cc8-64aa-4706-a00a-0218fc1ae62b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITrigger interface [Task Scheduler],Repetition property, ITrigger.Repetition, ITrigger.put_Repetition, ITrigger::Repetition, ITrigger::get_Repetition, ITrigger::put_Repetition, Repetition property [Task Scheduler], Repetition property [Task Scheduler],ITrigger interface, put_Repetition, taskschd.itrigger_repetition, taskschd/ITrigger::Repetition, taskschd/ITrigger::get_Repetition, taskschd/ITrigger::put_Repetition
 ms.prod: windows-hardware
 ms.technology: windows-devices

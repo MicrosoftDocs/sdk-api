@@ -7,10 +7,10 @@ old-location: com\olecmd.htm
 tech.root: com
 ms.assetid: a75ca136-ed6a-43c5-b775-a50535431f1d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: OLECMD, OLECMD structure [COM], _ole_OLECMD, _tagOLECMD, com.olecmd, docobj/OLECMD
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: docobj.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: fs\storage_property_id.htm
 tech.root: fileio
 ms.assetid: 9747be01-7c70-4697-97f7-e3830b54ba0a
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_PROPERTY_ID, PSTORAGE_PROPERTY_ID, PSTORAGE_PROPERTY_ID enumeration pointer [Files], STORAGE_PROPERTY_ID, STORAGE_PROPERTY_ID enumeration [Files], StorageAccessAlignmentProperty, StorageAdapterPhysicalTopologyProperty, StorageAdapterProperty, StorageAdapterProtocolSpecificProperty, StorageAdapterTemperatureProperty, StorageDeviceAttributesProperty, StorageDeviceCopyOffloadProperty, StorageDeviceDeviceTelemetryProperty, StorageDeviceIdProperty, StorageDeviceIoCapabilityProperty, StorageDeviceLBProvisioningProperty, StorageDeviceMediumProductType, StorageDevicePhysicalTopologyProperty, StorageDevicePowerProperty, StorageDeviceProperty, StorageDeviceProtocolSpecificProperty, StorageDeviceResiliencyProperty, StorageDeviceSeekPenaltyProperty, StorageDeviceTemperatureProperty, StorageDeviceTrimProperty, StorageDeviceUniqueIdProperty, StorageDeviceWriteAggregationProperty, StorageDeviceWriteCacheProperty, StorageMiniportProperty, _STORAGE_PROPERTY_ID, fs.storage_property_id, winioctl/PSTORAGE_PROPERTY_ID, winioctl/STORAGE_PROPERTY_ID, winioctl/StorageAccessAlignmentProperty, winioctl/StorageAdapterPhysicalTopologyProperty, winioctl/StorageAdapterProperty, winioctl/StorageAdapterProtocolSpecificProperty, winioctl/StorageAdapterTemperatureProperty, winioctl/StorageDeviceAttributesProperty, winioctl/StorageDeviceCopyOffloadProperty, winioctl/StorageDeviceDeviceTelemetryProperty, winioctl/StorageDeviceIdProperty, winioctl/StorageDeviceIoCapabilityProperty, winioctl/StorageDeviceLBProvisioningProperty, winioctl/StorageDeviceMediumProductType, winioctl/StorageDevicePhysicalTopologyProperty, winioctl/StorageDevicePowerProperty, winioctl/StorageDeviceProperty, winioctl/StorageDeviceProtocolSpecificProperty, winioctl/StorageDeviceResiliencyProperty, winioctl/StorageDeviceSeekPenaltyProperty, winioctl/StorageDeviceTemperatureProperty, winioctl/StorageDeviceTrimProperty, winioctl/StorageDeviceUniqueIdProperty, winioctl/StorageDeviceWriteAggregationProperty, winioctl/StorageDeviceWriteCacheProperty, winioctl/StorageMiniportProperty"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: 

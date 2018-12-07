@@ -7,7 +7,7 @@ old-location: xps\ixpsomstoryfragmentsresource_getowner.htm
 tech.root: printdocs
 ms.assetid: 8dc44277-d296-4747-8dd7-8901a94b5213
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMStoryFragmentsResource interface, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],GetOwner method, IXpsOMStoryFragmentsResource.GetOwner, IXpsOMStoryFragmentsResource::GetOwner, xps.ixpsomstoryfragmentsresource_getowner, xpsobjectmodel/IXpsOMStoryFragmentsResource::GetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices

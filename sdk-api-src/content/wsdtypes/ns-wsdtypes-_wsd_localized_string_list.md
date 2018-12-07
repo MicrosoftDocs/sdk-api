@@ -4,13 +4,13 @@ title: "_WSD_LOCALIZED_STRING_LIST"
 author: windows-sdk-content
 description: Represents a node in a single-linked list of localized strings.
 old-location: ncd\wsd_localized_string_list_struct.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 4941885c-d349-4e43-838f-b60c3cdc32ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_LOCALIZED_STRING_LIST, WSD_LOCALIZED_STRING_LIST structure, _WSD_LOCALIZED_STRING_LIST, ncd.wsd_localized_string_list_struct, wsdtypes/WSD_LOCALIZED_STRING_LIST
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

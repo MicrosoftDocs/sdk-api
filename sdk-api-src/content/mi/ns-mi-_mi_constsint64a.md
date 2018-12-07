@@ -4,13 +4,13 @@ title: "_MI_ConstSint64A"
 author: windows-sdk-content
 description: Represents an array of MI_Sint64 types.
 old-location: wmi_v2\mi_constsint64a.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 0d2a5539-3730-4d36-8bce-3a5893a4bdd4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ConstSint64A, MI_ConstSint64A structure [Windows Management Infrastructure (MI)], _MI_ConstSint64A, mi/MI_ConstSint64A, wmi._mi_constsint64a, wmi_v2.mi_constsint64a
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

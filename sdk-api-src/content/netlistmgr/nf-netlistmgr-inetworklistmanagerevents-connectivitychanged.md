@@ -4,10 +4,10 @@ title: INetworkListManagerEvents::ConnectivityChanged
 author: windows-sdk-content
 description: The NetworkConnectivityChanged method is called when network connectivity related changes occur.
 old-location: nla\inetworklistmanagerevents_connectivitychanged.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 12e15b56-61cd-4fc8-bc0c-9942d40bb2da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: ConnectivityChanged, ConnectivityChanged method [Network Awareness], ConnectivityChanged method [Network Awareness],INetworkListManagerEvents interface, INetworkListManagerEvents interface [Network Awareness],ConnectivityChanged method, INetworkListManagerEvents.ConnectivityChanged, INetworkListManagerEvents::ConnectivityChanged, netlistmgr/INetworkListManagerEvents::ConnectivityChanged, nla.inetworklistmanagerevents_connectivitychanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>NetworkConnectivityChanged</b> method is called when network connectivity
 
 
 
-### -param newConnectivity
-
-TBD
-
-
-
-
-#### - NewConnectivity [in]
+### -param newConnectivity [in]
 
 An <a href="https://msdn.microsoft.com/72d1f049-3c8d-4332-9bf1-9f49b47cd315">NLM_CONNECTIVITY</a> enumeration value that contains the new connectivity settings of the machine.
 

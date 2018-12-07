@@ -7,10 +7,10 @@ old-location: ncd\ifunctioninstancequery.htm
 tech.root: fundisc
 ms.assetid: 03343d85-c0db-436d-bedc-c001b1886173
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IFunctionInstanceQuery, IFunctionInstanceQuery interface, IFunctionInstanceQuery interface,described, functiondiscoveryapi/IFunctionInstanceQuery, ncd.ifunctioninstancequery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: functiondiscoveryapi.h
 req.include-header: 

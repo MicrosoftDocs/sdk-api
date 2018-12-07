@@ -7,10 +7,10 @@ old-location: shell\FVSHOWINFO.htm
 tech.root: shell
 ms.assetid: 8f399964-1ce4-4a9c-8cea-650a698783d3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPFVSHOWINFO, FVSHOWINFO, FVSHOWINFO structure [Windows Shell], FVSIF_CANVIEWIT, FVSIF_NEWFAILED, FVSIF_NEWFILE, FVSIF_PINNED, FVSIF_RECT, LPFVSHOWINFO, LPFVSHOWINFO structure pointer [Windows Shell], _win32_FVSHOWINFO, shell.FVSHOWINFO, shlobj/FVSHOWINFO, shlobj/LPFVSHOWINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 

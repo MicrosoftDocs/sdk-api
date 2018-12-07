@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_operator_equal_const_bstr_.htm
 tech.root: WmiSdk
 ms.assetid: 04036a21-6933-4f26-8b92-8c19a45e1e8e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: "??4WBEMTime@@QAEABV0@QAG@Z, ??4WBEMTime@@QEAAAEBV0@QEAG@Z, WBEMTime interface [Windows Management Instrumentation],operator= method, WBEMTime.operator-assign(const tm &), WBEMTime.operator=, WBEMTime::operator-assign(const tm &), WBEMTime::operator=, WBEMTime::operator=(const BSTR&), _hmm_wbemtime_operator_equal, operator=, operator= method [Windows Management Instrumentation], operator= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator=, wmi.wbemtime_operator_equal, wmi.wbemtime_operator_equal_const_bstr_"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WB
 
 
 
-### -param tmin
-
-TBD
-
-
-
-
-#### - bstrDMTFormat [ref]
+#### - tmin [ref]
 
 <b>BSTR</b> in <a href="https://msdn.microsoft.com/be239bf8-88a3-47bc-ae4f-49a5195e7a7d">Date and Time Format</a>.
 

@@ -4,10 +4,10 @@ title: MI_DestinationOptions_SetHttpUrlPrefix function
 author: windows-sdk-content
 description: Set the default HTTP URL prefix for transports that go over HTTP and HTTPS.
 old-location: wmi_v2\mi_destinationoptions_sethttpurlprefix.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: fc5b6dd8-3243-49b4-a8da-8351a9c3f209
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_SetHttpUrlPrefix, MI_DestinationOptions_SetHttpUrlPrefix function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetHttpUrlPrefix, wmi_v2.mi_destinationoptions_sethttpurlprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices

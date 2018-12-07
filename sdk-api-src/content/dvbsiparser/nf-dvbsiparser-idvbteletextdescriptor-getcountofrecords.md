@@ -4,10 +4,10 @@ title: IDvbTeletextDescriptor::GetCountOfRecords
 author: windows-sdk-content
 description: Gets the number of service records in a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getcountofrecords.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a802c685-9d7a-446a-a29c-4fc3e9ad3dc4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbTeletextDescriptor.GetCountOfRecords, IDvbTeletextDescriptor::GetCountOfRecords, dvbsiparser/IDvbTeletextDescriptor::GetCountOfRecords, mstv.idvbteletextdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

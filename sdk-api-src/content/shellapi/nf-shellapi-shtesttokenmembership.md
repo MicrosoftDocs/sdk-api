@@ -7,7 +7,7 @@ old-location: shell\SHTestTokenMembership.htm
 tech.root: shell
 ms.assetid: ac2d591a-f431-4da7-aa9f-0476634ec9cf
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SHTestTokenMembership, SHTestTokenMembership function [Windows Shell], _win32_SHTestTokenMembership, shell.SHTestTokenMembership, shellapi/SHTestTokenMembership
 ms.prod: windows-hardware
 ms.technology: windows-devices

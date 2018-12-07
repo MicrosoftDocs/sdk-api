@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_onoutgoingmessageremoved.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingmessageremoved.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutgoingMessageRemoved method, IFaxServerNotify2.OnOutgoingMessageRemoved, IFaxServerNotify2::OnOutgoingMessageRemoved, OnOutgoingMessageRemoved, OnOutgoingMessageRemoved method [Fax Service], OnOutgoingMessageRemoved method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutgoingMessageRemoved, _IFaxServerNotify2::OnOutgoingMessageRemoved, _mfax_ifaxservernotify2_onoutgoingmessageremoved, fax._mfax_ifaxservernotify2_onoutgoingmessageremoved, faxcomex/IFaxServerNotify2::OnOutgoingMessageRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,28 +61,16 @@ The fax service calls the <b>IFaxServerNotify2::OnOutgoingMessageRemoved</b> met
 
 ### -param pFaxServer
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
+
+A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ### -param bstrMessageId
 
-TBD
-
-
-
-
-#### - bstrJobId
-
 Type: <b>BSTR</b>
 
 Null-terminated string that contains the ID of the message removed from the outbound fax archive.
-
-
-#### - pFaxServer2
-
-Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
-
-A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ## -returns

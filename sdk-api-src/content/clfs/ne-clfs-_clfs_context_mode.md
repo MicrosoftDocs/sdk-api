@@ -7,10 +7,10 @@ old-location: fs\clfs_context_mode.htm
 tech.root: Clfs
 ms.assetid: d71c18c3-42d5-4606-9915-8ea491e8b78f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE enumeration [Files], ClfsContextForward, ClfsContextNone, ClfsContextPrevious, ClfsContextUndoNext, PCLFS_CONTEXT_MODE, PCLFS_CONTEXT_MODE enumeration pointer [Files], PPCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE enumeration pointer [Files], _CLFS_CONTEXT_MODE, clfs/CLFS_CONTEXT_MODE, clfs/ClfsContextForward, clfs/ClfsContextNone, clfs/ClfsContextPrevious, clfs/ClfsContextUndoNext, clfs/PCLFS_CONTEXT_MODE, clfs/PPCLFS_CONTEXT_MODE, fs.clfs_context_mode"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: clfs.h
 req.include-header: Clfsw32.h

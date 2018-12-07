@@ -4,10 +4,10 @@ title: INetworkListManager::GetNetworks
 author: windows-sdk-content
 description: The GetNetworks method retrieves the list of networks available on the local machine.
 old-location: nla\inetworklistmanager_getnetworks.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 547ab687-b323-4fd7-8c08-80a79352a626
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetNetworks, GetNetworks method [Network Awareness], GetNetworks method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworks method, INetworkListManager.GetNetworks, INetworkListManager::GetNetworks, netlistmgr/INetworkListManager::GetNetworks, nla.inetworklistmanager_getnetworks
 ms.prod: windows-hardware
 ms.technology: windows-devices

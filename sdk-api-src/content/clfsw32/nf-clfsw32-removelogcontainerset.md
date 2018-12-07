@@ -7,7 +7,7 @@ old-location: fs\removelogcontainerset.htm
 tech.root: Clfs
 ms.assetid: adc35813-7368-4d8c-ad2b-1bb0824ad019
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RemoveLogContainerSet, RemoveLogContainerSet function [Files], clfsw32/RemoveLogContainerSet, fs.removelogcontainerset
 ms.prod: windows-hardware
 ms.technology: windows-devices

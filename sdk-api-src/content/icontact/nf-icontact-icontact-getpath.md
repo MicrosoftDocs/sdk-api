@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContact_GetPath.htm
 tech.root: wincontacts
 ms.assetid: 4b037961-f2a4-4e75-a664-d70257bed426
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetPath, GetPath method [Windows Contacts], GetPath method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],GetPath method, IContact.GetPath, IContact::GetPath, _wincontacts_IContact_GetPath, icontact/IContact::GetPath, wincontacts._wincontacts_IContact_GetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,9 +65,11 @@ Type: <b>LPWSTR</b>
 User-allocated buffer to store the contact ID.
 
 
-### -param cchPath
+### -param cchPath [in]
 
-TBD
+Type: <b>DWORD</b>
+
+Specifies the allocated buffer size in characters. 
 
 
 ### -param pdwcchPathRequired [in, out]
@@ -75,13 +77,6 @@ TBD
 Type: <b>DWORD*</b>
 
 Upon failure due to insufficient buffer, contains the required size for <i>pszPath</i>. 
-
-
-#### - cchContactID [in]
-
-Type: <b>DWORD</b>
-
-Specifies the allocated buffer size in characters. 
 
 
 ## -returns

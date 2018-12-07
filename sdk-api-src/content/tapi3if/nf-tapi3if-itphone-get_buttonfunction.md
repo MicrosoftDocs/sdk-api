@@ -7,7 +7,7 @@ old-location: tapi3\itphone_get_buttonfunction.htm
 tech.root: tapi
 ms.assetid: a884c0b4-141a-4f04-8cfb-7ae6b1ec11b3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonFunction method, ITPhone.get_ButtonFunction, ITPhone::get_ButtonFunction, _tapi3_itphone_get_buttonfunction, get_ButtonFunction, get_ButtonFunction method [TAPI 2.2], get_ButtonFunction method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttonfunction, tapi3if/ITPhone::get_ButtonFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_RotateTransform_angle_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\rotatetransform.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Graphics class [GDI+],RotateTransform method, Graphics.RotateTransform, Graphics::RotateTransform, RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_Graphics_RotateTransform_angle_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: xps\printdocumentpackagecompletion.htm
 tech.root: printdocs
 ms.assetid: E8E1F5D3-8CA2-406A-B969-7F5C6F13E064
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: PrintDocumentPackageCompletion, PrintDocumentPackageCompletion enumeration [XPS Documents and Packaging], PrintDocumentPackageCompletion_Canceled, PrintDocumentPackageCompletion_Completed, PrintDocumentPackageCompletion_Failed, PrintDocumentPackageCompletion_InProgress, documenttarget/PrintDocumentPackageCompletion, documenttarget/PrintDocumentPackageCompletion_Canceled, documenttarget/PrintDocumentPackageCompletion_Completed, documenttarget/PrintDocumentPackageCompletion_Failed, documenttarget/PrintDocumentPackageCompletion_InProgress, xps.printdocumentpackagecompletion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: documenttarget.h
 req.include-header: 

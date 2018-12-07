@@ -7,10 +7,10 @@ old-location: mscs\isalive.htm
 tech.root: mscs
 ms.assetid: ff7661af-0a24-4a2e-bb31-c967845a4ff4
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: IsAlive, IsAlive callback, IsAlive callback function [Failover Cluster], PIS_ALIVE_ROUTINE, PIS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_isalive, mscs.isalive, resapi/IsAlive, resapi/PIS_ALIVE_ROUTINE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
@@ -68,11 +68,37 @@ Resource identifier for the resource to poll.
 
 
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUE</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is online and functioning properly.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FALSE</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is not functioning properly.
 
-Returns BOOL that ...
-
-
+</td>
+</tr>
+</table>
+ 
 
 
 

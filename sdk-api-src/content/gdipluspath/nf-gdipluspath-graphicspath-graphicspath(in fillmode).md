@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathconstructors\graphicspath_97fillmode.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GraphicsPath, GraphicsPath class [GDI+],GraphicsPath constructor, GraphicsPath constructor [GDI+], GraphicsPath constructor [GDI+],GraphicsPath class, GraphicsPath.GraphicsPath, GraphicsPath.GraphicsPath(FillMode), GraphicsPath.GraphicsPath(IN FillMode), GraphicsPath::GraphicsPath, GraphicsPath::GraphicsPath(IN FillMode), _gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_, gdiplus._gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

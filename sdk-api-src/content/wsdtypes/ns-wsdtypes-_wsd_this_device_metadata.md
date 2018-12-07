@@ -4,13 +4,13 @@ title: "_WSD_THIS_DEVICE_METADATA"
 author: windows-sdk-content
 description: Specifies metadata that is unique to a specific device.
 old-location: ncd\wsd_this_device_metadata_struct.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 7b9d063f-f0d5-4333-a5d8-e9a6d2d9af88
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_THIS_DEVICE_METADATA, WSD_THIS_DEVICE_METADATA structure, _WSD_THIS_DEVICE_METADATA, ncd.wsd_this_device_metadata_struct, wsdtypes/WSD_THIS_DEVICE_METADATA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

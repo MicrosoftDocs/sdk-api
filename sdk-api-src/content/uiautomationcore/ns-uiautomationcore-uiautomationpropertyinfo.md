@@ -7,10 +7,10 @@ old-location: winauto\uiauto_UIAutomationPropertyInfoStruct.htm
 tech.root: WinAuto
 ms.assetid: ea5b4cbe-5a39-407c-9c61-8e9ac4f3398f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: UIAutomationPropertyInfo, UIAutomationPropertyInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationPropertyInfoStruct, uiauto_UIAutomationPropertyInfoStruct, uiautomationcore/UIAutomationPropertyInfo, winauto.uiauto_UIAutomationPropertyInfoStruct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

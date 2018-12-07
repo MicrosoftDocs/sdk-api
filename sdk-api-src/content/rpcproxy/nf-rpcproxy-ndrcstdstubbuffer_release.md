@@ -7,7 +7,7 @@ old-location: rpc\ndrcstdstubbuffer_release.htm
 tech.root: rpc
 ms.assetid: 6d178a86-270d-4323-bc9e-5e87f60b3bf9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: NdrCStdStubBuffer_Release, NdrCStdStubBuffer_Release function [RPC], rpc.ndrcstdstubbuffer_release, rpcproxy/NdrCStdStubBuffer_Release
 ms.prod: windows-hardware
 ms.technology: windows-devices

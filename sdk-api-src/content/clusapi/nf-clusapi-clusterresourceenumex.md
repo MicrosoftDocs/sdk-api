@@ -7,7 +7,7 @@ old-location: mscs\clusterresourceenumex.htm
 tech.root: mscs
 ms.assetid: 9B5C03DF-84BB-4B3A-8404-94C64F192305
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterResourceEnumEx, ClusterResourceEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX function [Failover Cluster], clusapi/ClusterResourceEnumEx, clusapi/PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, mscs.clusterresourceenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,6 +91,64 @@ On output, either the required size in bytes of the buffer if the buffer is too 
 
 
 The function returns one of the following values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation finished  successfully, or the <i>lpszName</i> parameter is 
+         <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+The buffer to which   the <i>lpszName</i> parameter points is not big enough to hold the 
+         result. The <i>lpcchName</i> parameter returns the number of characters in the result, 
+         excluding the terminating null character.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+<dt>259 (0x103)</dt>
+</dl>
+</td>
+<td width="60%">
+There are no more objects to be returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System error code</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+Any other returned error code indicates that the operation failed.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

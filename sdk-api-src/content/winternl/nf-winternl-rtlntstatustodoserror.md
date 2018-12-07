@@ -7,7 +7,7 @@ old-location: base\rtlntstatustodoserror.htm
 tech.root: debug
 ms.assetid: 4a28be1f-28b9-45a4-8ac7-58e43452558a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError function, base.rtlntstatustodoserror, winternl/RtlNtStatusToDosError
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\rtwqunregisterplatformevents.htm
 tech.root: procthread
 ms.assetid: C1AB42C4-745B-46D6-9A1C-B5FD2443F48B
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RtwqUnregisterPlatformEvents, RtwqUnregisterPlatformEvents function, base.rtwqunregisterplatformevents, rtworkq/RtwqUnregisterPlatformEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

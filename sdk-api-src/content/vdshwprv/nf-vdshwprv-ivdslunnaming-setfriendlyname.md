@@ -4,10 +4,10 @@ title: IVdsLunNaming::SetFriendlyName
 author: windows-sdk-content
 description: Sets the friendly name of a LUN.
 old-location: base\ivdslunnaming_setfriendlyname.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 233b19f6-dd0e-4033-a03d-0f1f597287a1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsLunNaming interface [VDS],SetFriendlyName method, IVdsLunNaming.SetFriendlyName, IVdsLunNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsLunNaming interface, base.ivdslunnaming_setfriendlyname, vds/IVdsLunNaming::SetFriendlyName, vdshwprv/IVdsLunNaming::SetFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,13 +62,6 @@ Sets the friendly name of a LUN.
 
 
 ### -param pwszFriendlyName
-
-TBD
-
-
-
-
-#### - pwszName
 
 A pointer to a null-terminated string specifying the name to assign to the LUN.
 

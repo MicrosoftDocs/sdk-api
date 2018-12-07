@@ -7,10 +7,10 @@ old-location: winrt\icoreinputinterop.htm
 tech.root: WinRT
 ms.assetid: F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ICoreInputInterop, ICoreInputInterop interface [Windows Runtime], ICoreInputInterop interface [Windows Runtime],described, corewindow/ICoreInputInterop, winrt.icoreinputinterop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: corewindow.h
 req.include-header: 

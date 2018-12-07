@@ -7,10 +7,10 @@ old-location: tsf\tf_da_color.htm
 tech.root: TSF
 ms.assetid: 0ce8f941-c187-437f-8bad-f882e63b8421
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: TF_DA_COLOR, TF_DA_COLOR structure [Text Services Framework], _tsf_tf_da_color_ref, msctf/TF_DA_COLOR, tsf.tf_da_color
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

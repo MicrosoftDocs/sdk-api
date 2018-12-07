@@ -4,10 +4,10 @@ title: InternetAttemptConnect function
 author: windows-sdk-content
 description: Attempts to make a connection to the Internet.
 old-location: wininet\internetattemptconnect.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: a6f22704-f7ca-4c4d-91c3-304b592db6ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: InternetAttemptConnect, InternetAttemptConnect function [WinINet], _inet_internetattemptconnect_function, wininet.internetattemptconnect, wininet/InternetAttemptConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

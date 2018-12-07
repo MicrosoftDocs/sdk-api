@@ -7,7 +7,7 @@ old-location: mscs\clusterregbatchaddcommand.htm
 tech.root: mscs
 ms.assetid: 3d59e68a-deb3-443f-9d8f-281cdb15e8b6
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_SET_VALUE, ClusterRegBatchAddCommand, ClusterRegBatchAddCommand function [Failover Cluster], PCLUSTER_REG_BATCH_ADD_COMMAND, clusapi/ClusterRegBatchAddCommand, mscs.clusterregbatchaddcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,6 +139,89 @@ The count, in bytes, of the data relative to the command issued by <i>dwCommand<
 
 The function returns one of the following 
        <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_FUNCTION</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Incorrect function.  This value is returned if <i>dwCommand</i> takes any command other 
+         than the commands described in the previous section.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+The handle is not valid. This value is returned if the <i>hRegBatch</i> parameter is 
+         <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_OUTOFMEMORY</b></dt>
+<dt>14 (0xE)</dt>
+</dl>
+</td>
+<td width="60%">
+Not enough storage is available to complete this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_GEN_FAILURE</b></dt>
+<dt>31 (0x1F)</dt>
+</dl>
+</td>
+<td width="60%">
+A device attached to the system is not functioning.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+<dt>87 (0x57)</dt>
+</dl>
+</td>
+<td width="60%">
+The parameter is incorrect. This value will be returned if the cluster registry key that the batch is 
+         attempting to execute commands on is not the current key.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

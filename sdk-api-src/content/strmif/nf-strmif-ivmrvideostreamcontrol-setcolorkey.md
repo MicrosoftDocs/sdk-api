@@ -7,7 +7,7 @@ old-location: dshow\ivmrvideostreamcontrol_setcolorkey.htm
 tech.root: DirectShow
 ms.assetid: 30a4009c-5da0-4a07-9d4b-7c9047fb6dd8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IVMRVideoStreamControl interface [DirectShow],SetColorKey method, IVMRVideoStreamControl.SetColorKey, IVMRVideoStreamControl::SetColorKey, IVMRVideoStreamControlSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IVMRVideoStreamControl interface, dshow.ivmrvideostreamcontrol_setcolorkey, strmif/IVMRVideoStreamControl::SetColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ The <code>SetColorKey</code> method sets the source color key that the VMR will 
 
 
 
-### -param lpClrKey
-
-TBD
-
-
-
-
-#### - clr [in]
+### -param lpClrKey [in]
 
 Specifies the source color key as a <a href="https://msdn.microsoft.com/bd360860-94e3-4f91-a455-5fdb227368b3">DDCOLORKEY</a> type.
 

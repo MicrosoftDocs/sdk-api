@@ -4,13 +4,13 @@ title: IProofOfPossessionCookieInfoManager
 author: windows-sdk-content
 description: Supports the creation of proof of possession cookies.
 old-location: wininet\iproofofpossessioncookieinfomanager.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: b8b89e48-e47d-4089-a8b6-04d53227767a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IProofOfPossessionCookieInfoManager, IProofOfPossessionCookieInfoManager interface [WinINet], IProofOfPossessionCookieInfoManager interface [WinINet],described, proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager, wininet.iproofofpossessioncookieinfomanager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: proofofpossessioncookieinfo.h
 req.include-header: 

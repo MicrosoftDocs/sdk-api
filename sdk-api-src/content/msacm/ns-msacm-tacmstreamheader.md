@@ -7,10 +7,10 @@ old-location: multimedia\acmstreamheader.htm
 tech.root: Multimedia
 ms.assetid: 723e96d8-f098-4e08-862a-a9fea8d2fbe3
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPACMSTREAMHEADER, *PACMSTREAMHEADER, ACMSTREAMHEADER, ACMSTREAMHEADER structure [Windows Multimedia], ACMSTREAMHEADER_STATUSF_DONE, ACMSTREAMHEADER_STATUSF_INQUEUE, ACMSTREAMHEADER_STATUSF_PREPARED, _win32_ACMSTREAMHEADER_str, msacm/ACMSTREAMHEADER, multimedia.acmstreamheader, tACMSTREAMHEADER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msacm.h
 req.include-header: 

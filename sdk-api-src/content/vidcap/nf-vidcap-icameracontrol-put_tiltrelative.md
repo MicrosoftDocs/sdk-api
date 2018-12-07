@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_tiltrelative.htm
 tech.root: DirectShow
 ms.assetid: 69aa7ecf-4816-460b-b4f8-480c0d4f8331
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],put_TiltRelative method, ICameraControl.put_TiltRelative, ICameraControl::put_TiltRelative, ICameraControlput_TiltRelative, dshow.icameracontrol_put_tiltrelative, put_TiltRelative, put_TiltRelative method [DirectShow], put_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_TiltRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

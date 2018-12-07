@@ -7,10 +7,10 @@ old-location: direct3d11\d3d11_resource_dimension.htm
 tech.root: direct3d11
 ms.assetid: 56f138a2-9f2b-4f3b-8619-d9f394704b8a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 6d57af93-82b7-a916-56c4-587636f7f9c4, D3D11_RESOURCE_DIMENSION, D3D11_RESOURCE_DIMENSION enumeration [Direct3D 11], D3D11_RESOURCE_DIMENSION_BUFFER, D3D11_RESOURCE_DIMENSION_TEXTURE1D, D3D11_RESOURCE_DIMENSION_TEXTURE2D, D3D11_RESOURCE_DIMENSION_TEXTURE3D, D3D11_RESOURCE_DIMENSION_UNKNOWN, d3d11/D3D11_RESOURCE_DIMENSION, d3d11/D3D11_RESOURCE_DIMENSION_BUFFER, d3d11/D3D11_RESOURCE_DIMENSION_TEXTURE1D, d3d11/D3D11_RESOURCE_DIMENSION_TEXTURE2D, d3d11/D3D11_RESOURCE_DIMENSION_TEXTURE3D, d3d11/D3D11_RESOURCE_DIMENSION_UNKNOWN, direct3d11.d3d11_resource_dimension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

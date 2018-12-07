@@ -7,10 +7,10 @@ old-location: wmformat\iwmsinternaladminnetsource3.htm
 tech.root: wmformat
 ms.assetid: b4ca08a4-6e2d-4646-b101-67bac67300b1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMSInternalAdminNetSource3, IWMSInternalAdminNetSource3 interface [windows Media Format], IWMSInternalAdminNetSource3 interface [windows Media Format],described, IWMSInternalAdminNetSource3Interface, wmformat.iwmsinternaladminnetsource3, wmsinternaladminnetsource/IWMSInternalAdminNetSource3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsinternaladminnetsource.h
 req.include-header: 

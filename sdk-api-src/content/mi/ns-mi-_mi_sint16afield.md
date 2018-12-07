@@ -4,13 +4,13 @@ title: "_MI_Sint16AField"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_sint16afield.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 458e2821-bce6-4ceb-957c-680adedd5300
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint16AField, MI_Sint16AField structure [Windows Management Infrastructure (MI)], _MI_Sint16AField, mi/MI_Sint16AField, wmi._mi_sint16afield, wmi_v2.mi_sint16afield
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

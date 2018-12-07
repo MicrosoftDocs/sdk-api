@@ -7,7 +7,7 @@ old-location: nwifi\wlansetinterface.htm
 tech.root: NativeWiFi
 ms.assetid: 114a2a71-babd-4cd7-860a-fea523bcc865
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WlanSetInterface, WlanSetInterface function [NativeWIFI], nwifi.wlansetinterface, wlanapi/WlanSetInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: wic\_wic_codec_wicgifapplicationextensionproperties.htm
 tech.root: wic
 ms.assetid: e60da197-2510-4a13-91e3-896d6027ee57
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: WICGifApplicationExtensionApplication, WICGifApplicationExtensionData, WICGifApplicationExtensionProperties, WICGifApplicationExtensionProperties enumeration [Windows Imaging Component], _wic_codec_wicgifapplicationextensionproperties, wic._wic_codec_wicgifapplicationextensionproperties, wincodec/WICGifApplicationExtensionApplication, wincodec/WICGifApplicationExtensionData, wincodec/WICGifApplicationExtensionProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

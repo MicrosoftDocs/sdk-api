@@ -4,10 +4,10 @@ title: ITuner::put_TuneRequest
 author: windows-sdk-content
 description: The put_TuneRequest method sets the tune request currently in effect for the Network Provider.
 old-location: mstv\ituner_put_tunerequest.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 69f71855-86d0-4ef9-a168-14e79461ec98
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],put_TuneRequest method, ITuner.put_TuneRequest, ITuner::put_TuneRequest, ITunerput_TuneRequest, mstv.ituner_put_tunerequest, put_TuneRequest, put_TuneRequest method [Microsoft TV Technologies], put_TuneRequest method [Microsoft TV Technologies],ITuner interface, tuner/ITuner::put_TuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>put_TuneRequest</b> method sets the tune request currently in effect for 
 
 
 
-### -param TuneRequest
-
-TBD
-
-
-
-
-#### - pTuneRequest [in]
+### -param TuneRequest [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> object that will be used to set the Network Provider.
 

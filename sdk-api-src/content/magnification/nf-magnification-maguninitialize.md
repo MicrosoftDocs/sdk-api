@@ -7,7 +7,7 @@ old-location: magapi\magapi_MagUninitialize.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maguninitialize.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: MagUninitialize, MagUninitialize function [Magnification API], magapi.magapi_MagUninitialize, magapi_MagUninitialize, magnification/MagUninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

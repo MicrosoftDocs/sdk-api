@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getstylussyncplugin.htm
 tech.root: tablet
 ms.assetid: ec587954-cf7c-4f2d-a20d-b401011f7140
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetStylusSyncPlugin, GetStylusSyncPlugin method [Tablet PC], GetStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusSyncPlugin method, IRealTimeStylus.GetStylusSyncPlugin, IRealTimeStylus::GetStylusSyncPlugin, ec587954-cf7c-4f2d-a20d-b401011f7140, rtscom/IRealTimeStylus::GetStylusSyncPlugin, tablet.irealtimestylus_getstylussyncplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Retrieves the plug-in at the specified index in the synchronous plug-in collecti
 The index for the plug-in that is in the synchronous plug-in collection.
 
 
-### -param ppiPlugin
-
-TBD
-
-
-
-
-#### - piPlugin [out]
+### -param ppiPlugin [out]
 
 A pointer to  the plug-in.
 

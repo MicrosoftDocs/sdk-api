@@ -4,10 +4,10 @@ title: IDownloadCompletedCallback::Invoke
 author: windows-sdk-content
 description: Notifies the caller that the download is complete.
 old-location: wua\idownloadcompletedcallback_invoke.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 87334ff3-bfb0-48cb-b2e1-ea6d4617638d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IDownloadCompletedCallback interface [Windows Update Agent],Invoke method, IDownloadCompletedCallback.Invoke, IDownloadCompletedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IDownloadCompletedCallback interface, wua.idownloadcompletedcallback_invoke, wuapi/IDownloadCompletedCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,14 @@ Notifies the caller that the download is complete.
 
 
 
-### -param downloadJob
+### -param downloadJob [in]
 
-TBD
+An <a href="https://msdn.microsoft.com/0157acab-53b6-43f9-a358-81cd5108c531">IDownloadJob</a> interface that contains download information.
 
 
 ### -param callbackArgs [in]
 
 This parameter is reserved for future use and can be ignored.
-
-
-#### - searchJob [in]
-
-An <a href="https://msdn.microsoft.com/0157acab-53b6-43f9-a358-81cd5108c531">IDownloadJob</a> interface that contains download information.
 
 
 ## -returns

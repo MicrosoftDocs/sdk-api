@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagetrackinfo_put_audiohaspreemphasis.htm
 tech.root: imapi
 ms.assetid: 60b1d577-2eb7-4767-94ee-03df465234e9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],put_AudioHasPreemphasis method, IRawCDImageTrackInfo.put_AudioHasPreemphasis, IRawCDImageTrackInfo::put_AudioHasPreemphasis, imapi.irawcdimagetrackinfo_put_audiohaspreemphasis, imapi2/IRawCDImageTrackInfo::put_AudioHasPreemphasis, put_AudioHasPreemphasis, put_AudioHasPreemphasis method [IMAPI], put_AudioHasPreemphasis method [IMAPI],IRawCDImageTrackInfo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

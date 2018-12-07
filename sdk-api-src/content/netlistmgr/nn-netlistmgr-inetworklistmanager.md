@@ -4,13 +4,13 @@ title: INetworkListManager
 author: windows-sdk-content
 description: The INetworkListManager interface provides a set of methods to perform network list management functions.
 old-location: nla\inetworklistmanager.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: a9f76b6a-ea15-47b7-a4ef-14ea60b7810d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: INetworkListManager, INetworkListManager interface [Network Awareness], INetworkListManager interface [Network Awareness],described, netlistmgr/INetworkListManager, nla.inetworklistmanager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

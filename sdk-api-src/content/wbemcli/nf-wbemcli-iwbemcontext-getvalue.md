@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext_getvalue.htm
 tech.root: WmiSdk
 ms.assetid: e11fff37-aeb7-41c5-8639-ca0a7a144263
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GetValue, GetValue method [Windows Management Instrumentation], GetValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],GetValue method, IWbemContext.GetValue, IWbemContext::GetValue, _hmm_iwbemcontext_getvalue, wbemcli/IWbemContext::GetValue, wmi.iwbemcontext_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,9 @@ The
 
 
 
-### -param wszName
+### -param wszName [in]
 
-TBD
+Name for which the value is to be retrieved. This must point to a valid <b>BSTR</b>. The pointer is treated as read-only.
 
 
 ### -param lFlags [in]
@@ -83,11 +83,6 @@ This parameter cannot be <b>NULL</b> and must point to an uninitialized <b>VARIA
 It is possible that an entire 
 <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object can be returned inside the <b>VARIANT</b>. If that is the case, then <b>VT_UNKNOWN</b> is the <b>VARIANT</b> type. The caller can take the <b>IUnknown</b> pointer and execute <b>QueryInterface</b> to obtain the 
 <b>IWbemClassObject</b> pointer.
-
-
-#### - strName [in]
-
-Name for which the value is to be retrieved. This must point to a valid <b>BSTR</b>. The pointer is treated as read-only.
 
 
 ## -returns

@@ -7,10 +7,10 @@ old-location: fs\ntmsobjectstypes.htm
 tech.root: Rsm
 ms.assetid: 598e7cb1-f463-4252-9bdf-ccb98f36f4da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NTMS_CHANGER, NTMS_CHANGER_TYPE, NTMS_COMPUTER, NTMS_DRIVE, NTMS_DRIVE_TYPE, NTMS_IEDOOR, NTMS_IEPORT, NTMS_LIBRARY, NTMS_LIBREQUEST, NTMS_LOGICAL_MEDIA, NTMS_MEDIA_POOL, NTMS_MEDIA_TYPE, NTMS_OBJECT, NTMS_OPREQUEST, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_STORAGESLOT, NTMS_UI_DESTINATION, NTMS_UNKNOWN, NtmsObjectsTypes, NtmsObjectsTypes enumeration [Files], _zaw_ntmsobjectstypes, base.ntmsobjectstypes, fs.ntmsobjectstypes, ntmsapi/NTMS_CHANGER, ntmsapi/NTMS_CHANGER_TYPE, ntmsapi/NTMS_COMPUTER, ntmsapi/NTMS_DRIVE, ntmsapi/NTMS_DRIVE_TYPE, ntmsapi/NTMS_IEDOOR, ntmsapi/NTMS_IEPORT, ntmsapi/NTMS_LIBRARY, ntmsapi/NTMS_LIBREQUEST, ntmsapi/NTMS_LOGICAL_MEDIA, ntmsapi/NTMS_MEDIA_POOL, ntmsapi/NTMS_MEDIA_TYPE, ntmsapi/NTMS_OBJECT, ntmsapi/NTMS_OPREQUEST, ntmsapi/NTMS_PARTITION, ntmsapi/NTMS_PHYSICAL_MEDIA, ntmsapi/NTMS_STORAGESLOT, ntmsapi/NTMS_UI_DESTINATION, ntmsapi/NTMS_UNKNOWN, ntmsapi/NtmsObjectsTypes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: ntmsapi.h
 req.include-header: 

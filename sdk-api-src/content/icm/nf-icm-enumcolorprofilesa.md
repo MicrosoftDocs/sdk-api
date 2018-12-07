@@ -7,7 +7,7 @@ old-location: wcs\enumcolorprofiles.htm
 tech.root: WCS
 ms.assetid: 92d38155-e950-4c96-94e9-b66dbf090fca
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: EnumColorProfiles, EnumColorProfiles function [Windows Color System], EnumColorProfilesA, EnumColorProfilesW, _color_EnumColorProfiles, icm/EnumColorProfiles, icm/EnumColorProfilesA, icm/EnumColorProfilesW, wcs.enumcolorprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- EnumColorProfilesA
+: 
 ---
 
 # EnumColorProfilesA function
@@ -72,27 +78,17 @@ Pointer to a structure specifying the enumeration criteria.
 
 ### -param pEnumerationBuffer
 
-TBD
+Pointer to a buffer in which the profiles are to be enumerated. A MULTI_SZ string of profile names satisfying the criteria specified in <i>*pEnumRecord</i> will be placed in this buffer.
 
 
 ### -param pdwSizeOfEnumerationBuffer
 
-TBD
+Pointer to a variable containing the size of the buffer pointed to by <i>pBuffer</i>. On return, <i>*pdwSize</i> contains the size of buffer actually used or needed.
 
 
 ### -param pnProfiles
 
 Pointer to a variable that will contain, on return, the number of profile names actually copied to the buffer.
-
-
-#### - pBuffer
-
-Pointer to a buffer in which the profiles are to be enumerated. A MULTI_SZ string of profile names satisfying the criteria specified in <i>*pEnumRecord</i> will be placed in this buffer.
-
-
-#### - pdwSize
-
-Pointer to a variable containing the size of the buffer pointed to by <i>pBuffer</i>. On return, <i>*pdwSize</i> contains the size of buffer actually used or needed.
 
 
 ## -returns

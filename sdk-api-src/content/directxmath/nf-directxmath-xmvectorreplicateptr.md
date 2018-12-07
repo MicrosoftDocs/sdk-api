@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorreplicateptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicatePtr(Const float)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorReplicatePtr, XMVectorReplicatePtr, XMVectorReplicatePtr method [DirectX Math Support APIs], dxmath.xmvectorreplicateptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Replicates a floating-point value referenced by pointer into all four components
 
 
 
-### -param pValue
-
-TBD
-
-
-
-
-#### - Value [in]
+### -param pValue [in]
 
 Value to replicate.
 

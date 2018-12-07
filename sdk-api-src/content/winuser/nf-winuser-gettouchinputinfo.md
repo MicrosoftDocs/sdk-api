@@ -7,7 +7,7 @@ old-location: wintouch\gettouchinputinfo.htm
 tech.root: wintouch
 ms.assetid: 18caab11-9c22-46ac-b89f-dd3e662bea1e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTouchInputInfo, GetTouchInputInfo function [Windows Touch], wintouch.gettouchinputinfo, winuser/GetTouchInputInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

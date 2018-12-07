@@ -7,10 +7,10 @@ old-location: cos\crmlogrecordread.htm
 tech.root: cossdk
 ms.assetid: 0af0eba5-6e8c-4b1d-aec4-f9a1ffe7bce6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: CrmLogRecordRead, CrmLogRecordRead structure [COM+], _cos_CrmLogRecordRead, comsvcs/CrmLogRecordRead, cos.crmlogrecordread, tagCrmLogRecordRead
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

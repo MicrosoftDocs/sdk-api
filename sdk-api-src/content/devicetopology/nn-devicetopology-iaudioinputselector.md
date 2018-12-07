@@ -7,10 +7,10 @@ old-location: coreaudio\iaudioinputselector.htm
 tech.root: CoreAudio
 ms.assetid: 6f5ce9c0-39e4-4fab-910c-9a11b90fcde7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IAudioInputSelector, IAudioInputSelector interface [Core Audio], IAudioInputSelector interface [Core Audio],described, coreaudio.iaudioinputselector, devicetopology/IAudioInputSelector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

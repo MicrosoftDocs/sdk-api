@@ -7,7 +7,7 @@ old-location: winrt\iweakreference_resolve.htm
 tech.root: WinRT
 ms.assetid: 642e44f1-7090-4391-b56c-9ba203c30e37
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IWeakReference interface [Windows Runtime],Resolve method, IWeakReference.Resolve, IWeakReference.Resolve(T,), IWeakReference::Resolve, IWeakReference::Resolve(T,), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IWeakReference interface, weakreference/IWeakReference::Resolve, winrt.iweakreference_resolve
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,25 +58,18 @@ Resolves a weak reference by returning a strong reference to the specified objec
 
 
 
-### -param objectReference [out, retval]
-
-Type: <b><a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>**</b>
-
-The strong reference to the specified object.
-
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - riid [in]
+### -param objectReference [in]
 
 Type: <b>REFIID</b>
 
 The reference ID of the specified object.
+
+
+#### - arg2 [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>**</b>
+
+The strong reference to the specified object.
 
 
 ## -returns

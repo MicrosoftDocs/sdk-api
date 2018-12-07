@@ -4,10 +4,10 @@ title: RecoverEnlistment function
 author: windows-sdk-content
 description: Recovers an enlistment's state.
 old-location: fs\recoverenlistment.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 5c36732f-bf4f-4071-959e-3359be0b2363
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RecoverEnlistment, RecoverEnlistment function [Files], fs.recoverenlistment, ktmw32/RecoverEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

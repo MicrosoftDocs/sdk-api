@@ -4,10 +4,10 @@ title: ITuningSpaces::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method returns an enumerator for the collection.
 old-location: mstv\ituningspaces_get__newenum.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 9f0aec7a-954d-4399-8d15-5869c5353677
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuningSpaces interface [Microsoft TV Technologies],get__NewEnum method, ITuningSpaces.get__NewEnum, ITuningSpaces::get__NewEnum, ITuningSpacesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],ITuningSpaces interface, mstv.ituningspaces_get__newenum, tuner/ITuningSpaces::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ This method is provided to enable scripting and Visual Basic applications to ite
 
 
 
-### -param NewEnum
-
-TBD
-
-
-
-
-#### - ppNewEnum [out]
+### -param NewEnum [out]
 
 Pointer to a variable that receives an <b>IEnumVARIANT</b> interface pointer. The caller must release the interface.
 

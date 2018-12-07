@@ -4,13 +4,13 @@ title: IRDPSRAPIAttendeeDisconnectInfo
 author: windows-sdk-content
 description: Contains information about the reason an attendee disconnected.
 old-location: rdp\irdpsrapiattendeedisconnectinfo.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 849c4fbe-b9c4-4601-b93f-13efd1014a50
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIAttendeeDisconnectInfo, IRDPSRAPIAttendeeDisconnectInfo interface [RDP], IRDPSRAPIAttendeeDisconnectInfo interface [RDP],described, rdp.irdpsrapiattendeedisconnectinfo, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

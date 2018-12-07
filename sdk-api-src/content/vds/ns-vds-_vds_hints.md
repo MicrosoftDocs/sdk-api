@@ -4,13 +4,13 @@ title: "_VDS_HINTS"
 author: windows-sdk-content
 description: Defines the automagic hints for a LUN or LUN plex.
 old-location: base\vds_hints.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 2c9f04bb-a014-401e-9656-affbac11f810
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVDS_HINTS, PVDS_HINTS, PVDS_HINTS structure pointer [VDS], VDS_HINTS, VDS_HINTS structure [VDS], VDS_HINT_FASTCRASHRECOVERYREQUIRED, VDS_HINT_HARDWARECHECKSUMENABLED, VDS_HINT_ISYANKABLE, VDS_HINT_MOSTLYREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES, VDS_HINT_READBACKVERIFYENABLED, VDS_HINT_REMAPENABLED, VDS_HINT_WRITETHROUGHCACHINGENABLED, _VDS_HINTS, base.vds_hints, vds/PVDS_HINTS, vds/_VDS_HINTS, vdshwprv/PVDS_HINTS, vdshwprv/_VDS_HINTS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: base\device_data_set_repair_parameters.htm
 tech.root: devio
 ms.assetid: 95bc892c-9bb7-464c-8084-7cc6e643fa28
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDEVICE_DATA_SET_REPAIR_PARAMETERS, *PDEVICE_DSM_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS structure, DEVICE_DSM_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS structure pointer, _DEVICE_DATA_SET_REPAIR_PARAMETERS, base.device_data_set_repair_parameters, winioctl/DEVICE_DATA_SET_REPAIR_PARAMETERS, winioctl/PDEVICE_DATA_SET_REPAIR_PARAMETERS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

@@ -7,7 +7,7 @@ old-location: mscs\clusterregclosereadbatch.htm
 tech.root: mscs
 ms.assetid: A164EB9F-290E-446E-98E9-95C6C3C3D00C
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterRegCloseReadBatch, ClusterRegCloseReadBatch function [Failover Cluster], PCLUSTER_REG_CLOSE_READ_BATCH, PCLUSTER_REG_CLOSE_READ_BATCH function [Failover Cluster], clusapi/ClusterRegCloseReadBatch, clusapi/PCLUSTER_REG_CLOSE_READ_BATCH, mscs.clusterregclosereadbatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,6 +77,50 @@ A pointer to the handle of the created read batch result. You must close this ha
 
 The function returns one of the following 
        <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_OUTOFMEMORY</b></dt>
+<dt>14</dt>
+</dl>
+</td>
+<td width="60%">
+Not enough storage is available to complete this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+<i>hRegReadBatch</i> is <b>NULL</b> or not valid.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

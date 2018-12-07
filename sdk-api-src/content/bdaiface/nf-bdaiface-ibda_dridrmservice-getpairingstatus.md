@@ -4,10 +4,10 @@ title: IBDA_DRIDRMService::GetPairingStatus
 author: windows-sdk-content
 description: The GetPairingStatus method gets the Digital Rights Management (DRM) pairing status for a Media Transform Device (MTD) in a graph under the Protected Broadcast Driver Architecture (PBDA).
 old-location: mstv\ibda_dridrmservice_getpairingstatus.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 01918e99-17e6-4c24-bb85-ba71cf68cf09
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ""Green", "Orange", "Red", GetPairingStatus, GetPairingStatus method [DirectShow], GetPairingStatus method [DirectShow],IBDA_DRIDRMService interface, IBDA_DRIDRMService interface [DirectShow],GetPairingStatus method, IBDA_DRIDRMService.GetPairingStatus, IBDA_DRIDRMService::GetPairingStatus, bdaiface/IBDA_DRIDRMService::GetPairingStatus, mstv.ibda_dridrmservice_getpairingstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices

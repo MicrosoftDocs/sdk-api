@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9ex_setconvolutionmonokernel.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_setconvolutionmonokernel.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: 901624bb-e4a4-a7b5-0f2f-bf89649a1105, IDirect3DDevice9Ex interface [Direct3D 9],SetConvolutionMonoKernel method, IDirect3DDevice9Ex.SetConvolutionMonoKernel, IDirect3DDevice9Ex::SetConvolutionMonoKernel, SetConvolutionMonoKernel, SetConvolutionMonoKernel method [Direct3D 9], SetConvolutionMonoKernel method [Direct3D 9],IDirect3DDevice9Ex interface, d3d9/IDirect3DDevice9Ex::SetConvolutionMonoKernel, direct3d9.idirect3ddevice9ex_setconvolutionmonokernel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,54 +59,32 @@ Prepare the texture sampler for monochrome convolution filtering on a single-col
 
 
 
-### -param width
+### -param width [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-### -param height
-
-TBD
+The width of the filter kernel; ranging from 1 - <a href="https://msdn.microsoft.com/en-us/library/Bb509548(v=VS.85).aspx">D3DCONVOLUTIONMONO_MAXWIDTH</a>. The default value is 1.
 
 
-### -param rows
-
-TBD
-
-
-### -param columns
-
-TBD
-
-
-
-
-#### - ColumnWeights [in]
-
-Type: <b>float*</b>
-
-An array of weights, one weight for each kernel sub-element in the height. This parameter must be <b>NULL</b>, which will set the weights equal to the default value.
-
-
-#### - Height [in]
+### -param height [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The height of the filter kernel; ranging from 1 - <a href="https://msdn.microsoft.com/en-us/library/Bb509548(v=VS.85).aspx">D3DCONVOLUTIONMONO_MAXHEIGHT</a>. The default value is 1.
 
 
-#### - RowWeights [in]
+### -param rows [in]
 
 Type: <b>float*</b>
 
 An array of weights, one weight for each kernel sub-element in the width. This parameter must be <b>NULL</b>, which will set the weights equal to the default value.
 
 
-#### - Width [in]
+### -param columns [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b>float*</b>
 
-The width of the filter kernel; ranging from 1 - <a href="https://msdn.microsoft.com/en-us/library/Bb509548(v=VS.85).aspx">D3DCONVOLUTIONMONO_MAXWIDTH</a>. The default value is 1.
+An array of weights, one weight for each kernel sub-element in the height. This parameter must be <b>NULL</b>, which will set the weights equal to the default value.
 
 
 ## -returns

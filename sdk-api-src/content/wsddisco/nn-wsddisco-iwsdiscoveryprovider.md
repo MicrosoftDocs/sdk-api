@@ -4,13 +4,13 @@ title: IWSDiscoveryProvider
 author: windows-sdk-content
 description: Used to discover services on the network advertised by WS-Discovery.
 old-location: ncd\iwsdiscoveryprovider.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: e3d3acc2-914b-40bd-9e1e-a3a612821ab7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryProvider, IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,described, ncd.iwsdiscoveryprovider, wsddisco/IWSDiscoveryProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

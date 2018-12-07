@@ -7,7 +7,7 @@ old-location: mscs\openclusternode.htm
 tech.root: mscs
 ms.assetid: 7658a030-d4b2-407c-829f-61491b5907e6
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: OpenClusterNode, OpenClusterNode function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NODE, PCLUSAPI_OPEN_CLUSTER_NODE function [Failover Cluster], _wolf_openclusternode, clusapi/OpenClusterNode, clusapi/PCLUSAPI_OPEN_CLUSTER_NODE, mscs.openclusternode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,6 +82,26 @@ Pointer to the NetBIOS name of an existing node. If the DNS name of the node is 
 
 If the operation was successful, <b>OpenClusterNode</b> 
        returns a node handle.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the function 
+      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

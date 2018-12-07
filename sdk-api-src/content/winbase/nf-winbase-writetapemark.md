@@ -7,7 +7,7 @@ old-location: backup\writetapemark.htm
 tech.root: Backup
 ms.assetid: 74effd3b-693d-4808-9d80-6c70e2aef7fb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TAPE_FILEMARKS, TAPE_LONG_FILEMARKS, TAPE_SETMARKS, TAPE_SHORT_FILEMARKS, WriteTapemark, WriteTapemark function [Backup], _win32_writetapemark, backup.writetapemark, base.writetapemark, winbase/WriteTapemark
 ms.prod: windows-hardware
 ms.technology: windows-devices

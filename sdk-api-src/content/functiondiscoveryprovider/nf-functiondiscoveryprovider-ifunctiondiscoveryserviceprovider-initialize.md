@@ -7,7 +7,7 @@ old-location: ncd\ifunctiondiscoveryserviceprovider_initialize_method.htm
 tech.root: fundisc
 ms.assetid: 339f6d42-20ea-4fd3-b03c-0cf34330baa0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IFunctionDiscoveryServiceProvider interface,Initialize method, IFunctionDiscoveryServiceProvider.Initialize, IFunctionDiscoveryServiceProvider::Initialize, Initialize, Initialize method, Initialize method,IFunctionDiscoveryServiceProvider interface, functiondiscoveryprovider/IFunctionDiscoveryServiceProvider::Initialize, ncd.ifunctiondiscoveryserviceprovider_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Initializes an object that provides a specific interface that has been bound to 
 
 
 
-### -param pIFunctionInstance
+### -param pIFunctionInstance [in]
 
-TBD
+A pointer to an <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface that represents the underlying resource.
 
 
 ### -param riid [in]
@@ -73,11 +73,6 @@ A reference to the identifier of the interface to be used to communicate with th
 ### -param ppv [out]
 
 The interface pointer requested in <i>riid</i>. Upon successful return, <i>*ppv</i> contains the requested interface pointer. Upon failure, <i>*ppv</i> contains <b>NULL</b>.
-
-
-#### - pFunctionInstance [in]
-
-A pointer to an <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface that represents the underlying resource.
 
 
 ## -returns

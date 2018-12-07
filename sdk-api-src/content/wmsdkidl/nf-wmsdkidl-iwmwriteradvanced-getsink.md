@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced_getsink.htm
 tech.root: wmformat
 ms.assetid: 6775eb89-a3af-42d2-b1e3-197abb1fce61
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetSink, GetSink method [windows Media Format], GetSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSink method, IWMWriterAdvanced.GetSink, IWMWriterAdvanced::GetSink, IWMWriterAdvancedGetSink, wmformat.iwmwriteradvanced_getsink, wmsdkidl/IWMWriterAdvanced::GetSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

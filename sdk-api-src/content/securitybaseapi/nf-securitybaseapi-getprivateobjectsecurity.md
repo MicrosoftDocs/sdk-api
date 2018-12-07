@@ -4,10 +4,10 @@ title: GetPrivateObjectSecurity function
 author: windows-sdk-content
 description: Retrieves information from a private object's security descriptor.
 old-location: security\getprivateobjectsecurity.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 3e93c0a0-e449-4df1-812b-c3fb0dfe9c19
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: GetPrivateObjectSecurity, GetPrivateObjectSecurity function [Security], _win32_getprivateobjectsecurity, security.getprivateobjectsecurity, securitybaseapi/GetPrivateObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

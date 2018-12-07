@@ -7,10 +7,10 @@ old-location: hid\mouse_attributes.htm
 tech.root: hid
 ms.assetid: e1054d4c-e149-4ebd-9336-2a1060e1e53d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMOUSE_ATTRIBUTES, MOUSE_ATTRIBUTES, MOUSE_ATTRIBUTES structure [Human Input Devices], PMOUSE_ATTRIBUTES, PMOUSE_ATTRIBUTES structure pointer [Human Input Devices], _MOUSE_ATTRIBUTES, hid.mouse_attributes, mref_22017a48-dbf7-430b-ad42-908dc16fbaff.xml, ntddmou/MOUSE_ATTRIBUTES, ntddmou/PMOUSE_ATTRIBUTES"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddmou.h
 req.include-header: Ntddmou.h

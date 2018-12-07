@@ -7,10 +7,10 @@ old-location: lwef\iadesktopp2.htm
 tech.root: lwef
 ms.assetid: f67cc6c0-183c-4da2-9648-68a86dccfd78
 ms.author: windowssdkdev
-ms.date: 10/31/2018
+ms.date: 12/5/2018
 ms.keywords: IADesktopP2, IADesktopP2 interface [Legacy Windows Environment Features], IADesktopP2 interface [Legacy Windows Environment Features],described, _win32_IADesktopP2, lwef.iadesktopp2, shell.iadesktopp2, shlobj/IADesktopP2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 

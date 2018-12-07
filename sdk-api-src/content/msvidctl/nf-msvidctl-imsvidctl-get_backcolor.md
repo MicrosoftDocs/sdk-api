@@ -4,10 +4,10 @@ title: IMSVidCtl::get_BackColor
 author: windows-sdk-content
 description: The get_BackColor method retrieves the background color of the Video Control.
 old-location: mstv\imsvidctl_get_backcolor.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1f67f1f9-e4e1-47fc-a92d-b6dfb65e7ec9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_BackColor method, IMSVidCtl.get_BackColor, IMSVidCtl::get_BackColor, IMSVidCtlget_BackColor, get_BackColor, get_BackColor method [Microsoft TV Technologies], get_BackColor method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_backcolor, msvidctl/IMSVidCtl::get_BackColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_BackColor</b> method retrieves the background color of the Video Cont
 
 
 
-### -param backcolor
-
-TBD
-
-
-
-
-#### - pbackcolor [out]
+### -param backcolor [out]
 
 Receives an <b>OLE_COLOR</b> value.
 

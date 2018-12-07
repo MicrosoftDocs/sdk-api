@@ -7,10 +7,10 @@ old-location: rras\mibgetfirst.htm
 tech.root: rras
 ms.assetid: 3aef09e2-6314-4de8-a9dd-e02c13e0145c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: MibGetFirst, MibGetFirst callback function [RAS], PMIB_GET_FIRST, PMIB_GET_FIRST callback, _mpr_mibgetfirst, routprot/MibGetFirst, rras.mibgetfirst
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

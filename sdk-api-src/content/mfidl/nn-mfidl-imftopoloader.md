@@ -7,10 +7,10 @@ old-location: mf\imftopoloader.htm
 tech.root: medfound
 ms.assetid: 5ebf117c-e60a-40f2-a24b-c4f9dbdae942
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 5ebf117c-e60a-40f2-a24b-c4f9dbdae942, IMFTopoLoader, IMFTopoLoader interface [Media Foundation], IMFTopoLoader interface [Media Foundation],described, mf.imftopoloader, mfidl/IMFTopoLoader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

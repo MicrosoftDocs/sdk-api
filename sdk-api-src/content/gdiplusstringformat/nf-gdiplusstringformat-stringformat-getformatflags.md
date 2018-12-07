@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetFormatFlags_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getformatflags.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetFormatFlags, GetFormatFlags method [GDI+], GetFormatFlags method [GDI+],StringFormat class, StringFormat class [GDI+],GetFormatFlags method, StringFormat.GetFormatFlags, StringFormat::GetFormatFlags, _gdiplus_CLASS_StringFormat_GetFormatFlags_, gdiplus._gdiplus_CLASS_StringFormat_GetFormatFlags_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: dshow\avistreamheader.htm
 tech.root: DirectShow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "'auds', 'mids', 'txts', 'vids', AVISF_DISABLED, AVISF_VIDEO_PALCHANGES, AVISTREAMHEADER, AVISTREAMHEADER structure [DirectShow], AVISTREAMHEADERStructure, _avistreamheader, avifmt/AVISTREAMHEADER, dshow.avistreamheader"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: Aviriff.h

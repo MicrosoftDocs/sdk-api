@@ -4,10 +4,10 @@ title: IMSVidPlayback::Run
 author: windows-sdk-content
 description: The Run method runs the playback device.
 old-location: mstv\imsvidplayback_run.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 58374819-82dd-4ffe-8cd7-ad51ea0d7207
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Run method, IMSVidPlayback.Run, IMSVidPlayback::Run, IMSVidPlaybackRun, Run, Run method [Microsoft TV Technologies], Run method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_run, segment/IMSVidPlayback::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices

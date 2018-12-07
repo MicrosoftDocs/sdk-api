@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2ipdef.group_source_req
-title: group_source_req
+title: GROUP_SOURCE_REQ
 author: windows-sdk-content
 description: Provides multicast group information for IPv6 or IPv4 addresses that includes the source IP address.
 old-location: winsock\group_source_req.htm
 tech.root: winsock
 ms.assetid: c8f442e0-e7c3-4421-a664-3f4e31a68eb9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: "*PGROUP_SOURCE_REQ, GROUP_SOURCE_REQ, GROUP_SOURCE_REQ structure [Winsock], PGROUP_SOURCE_REQ, PGROUP_SOURCE_REQ structure pointer [Winsock], group_source_req, winsock.group_source_req, ws2ipdef/GROUP_SOURCE_REQ, ws2ipdef/PGROUP_SOURCE_REQ"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 12/5/2018
+ms.keywords: "*PGROUP_SOURCE_REQ, GROUP_SOURCE_REQ, GROUP_SOURCE_REQ structure [Winsock], PGROUP_SOURCE_REQ, PGROUP_SOURCE_REQ structure pointer [Winsock], winsock.group_source_req, ws2ipdef/GROUP_SOURCE_REQ, ws2ipdef/PGROUP_SOURCE_REQ"
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
@@ -44,7 +44,7 @@ req.typenames: GROUP_SOURCE_REQ, *PGROUP_SOURCE_REQ
 req.redist: 
 ---
 
-# group_source_req structure
+# GROUP_SOURCE_REQ structure
 
 
 ## -description

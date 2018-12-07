@@ -4,10 +4,10 @@ title: NetFreeAadJoinInformation function
 author: windows-sdk-content
 description: Frees the memory allocated for the specified DSREG_JOIN_INFO structure, which contains join information for a tenant and which you retrieved by calling the NetGetAadJoinInformation function.
 old-location: netmgmt\netfreeaadjoininformation.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: BDFB6179-4B8C-43E3-8D34-A2B470EA0D0B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NetFreeAadJoinInformation, NetFreeAadJoinInformation function [Network Management], lmjoin/NetFreeAadJoinInformation, netmgmt.netfreeaadjoininformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\senddrivermessage.htm
 tech.root: Multimedia
 ms.assetid: 4787ccb7-3a32-4d55-9a3b-183e2f70735a
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: DRV_CONFIGURE, DRV_INSTALL, DRV_QUERYCONFIGURE, DRV_REMOVE, ISendDriverMessage, SendDriverMessage, SendDriverMessage function [Windows Multimedia], _win32_SendDriverMessage, mmsystem/SendDriverMessage, multimedia.senddrivermessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,32 +61,12 @@ Sends the specified message to the installable driver.
 
 
 
-### -param hDriver
-
-TBD
-
-
-### -param message
-
-TBD
-
-
-### -param lParam1 [in, out]
-
-32-bit message-dependent information.
-
-
-### -param lParam2 [in, out]
-
-32-bit message-dependent information.
-
-
-#### - hdrvr [in]
+### -param hDriver [in]
 
 Handle of the installable driver instance. The handle must been previously created by using the <a href="https://msdn.microsoft.com/882146f7-cd42-45fd-8a5f-7078b64c7ea8">OpenDriver</a> function.
 
 
-#### - msg [in]
+### -param message [in]
 
 Driver message value. It can be a custom message value or one of these standard message values.
 
@@ -137,6 +117,16 @@ Notifies an installable driver that it is about to be removed from the system.
 </tr>
 </table>
  
+
+
+### -param lParam1 [in, out]
+
+32-bit message-dependent information.
+
+
+### -param lParam2 [in, out]
+
+32-bit message-dependent information.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mmc\icomponent2_querydispatch.htm
 tech.root: mmc
 ms.assetid: 42c43111-7d65-4cfc-bb14-6a5d06f694e7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, IComponent2 interface [MMC],QueryDispatch method, IComponent2.QueryDispatch, IComponent2::QueryDispatch, QueryDispatch, QueryDispatch method [MMC], QueryDispatch method [MMC],IComponent2 interface, _slate_icomponent2_querydispatch, mmc.icomponent2_querydispatch, mmc/IComponent2::QueryDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MI_SubscriptionDeliveryOptions_Clone function
 author: windows-sdk-content
 description: Creates a copy of a MI_SubscriptionDeliveryOptions structure.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_clone.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 34374907-bbb6-4d22-81ac-2d662efaf119
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_Clone, MI_SubscriptionDeliveryOptions_Clone function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_Clone, wmi_v2.mi_subscriptiondeliveryoptions_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

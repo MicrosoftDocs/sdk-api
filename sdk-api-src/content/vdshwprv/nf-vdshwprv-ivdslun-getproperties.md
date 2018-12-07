@@ -4,10 +4,10 @@ title: IVdsLun::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a LUN object.
 old-location: base\ivdslun_getproperties.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 1fec1c8d-7ac9-4b77-830c-930908aac6ef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetProperties method, IVdsLun.GetProperties, IVdsLun::GetProperties, base.ivdslun_getproperties, vds/IVdsLun::GetProperties, vdshwprv/IVdsLun::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

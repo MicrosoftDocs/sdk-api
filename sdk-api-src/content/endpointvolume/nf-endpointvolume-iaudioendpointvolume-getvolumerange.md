@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_getvolumerange.htm
 tech.root: CoreAudio
 ms.assetid: a0e98ed8-36e2-4abc-aa83-008cc89e3a56
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GetVolumeRange, GetVolumeRange method [Core Audio], GetVolumeRange method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetVolumeRange method, IAudioEndpointVolume.GetVolumeRange, IAudioEndpointVolume::GetVolumeRange, IAudioEndpointVolumeGetVolumeRange, coreaudio.iaudioendpointvolume_getvolumerange, endpointvolume/IAudioEndpointVolume::GetVolumeRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,34 +61,17 @@ The <b>GetVolumeRange</b> method gets the volume range, in decibels, of the audi
 
 
 
-### -param pflVolumeMindB
-
-TBD
-
-
-### -param pflVolumeMaxdB
-
-TBD
-
-
-### -param pflVolumeIncrementdB
-
-TBD
-
-
-
-
-#### - pfLevelMaxDB [out]
-
-Pointer to the maximum volume level. This parameter points to a <b>float</b> variable into which the method writes the maximum volume level in decibels. This value remains constant for the lifetime of the <b>IAudioEndpointVolume</b> interface instance.
-
-
-#### - pfLevelMinDB [out]
+### -param pflVolumeMindB [out]
 
 Pointer to the minimum volume level. This parameter points to a <b>float</b> variable into which the method writes the minimum volume level in decibels. This value remains constant for the lifetime of the <a href="https://msdn.microsoft.com/5e3e7ffc-8822-4b1b-b9af-206ec1e767e2">IAudioEndpointVolume</a> interface instance.
 
 
-#### - pfVolumeIncrementDB [out]
+### -param pflVolumeMaxdB [out]
+
+Pointer to the maximum volume level. This parameter points to a <b>float</b> variable into which the method writes the maximum volume level in decibels. This value remains constant for the lifetime of the <b>IAudioEndpointVolume</b> interface instance.
+
+
+### -param pflVolumeIncrementdB [out]
 
 Pointer to the volume increment. This parameter points to a <b>float</b> variable into which the method writes the volume increment in decibels. This increment remains constant for the lifetime of the <b>IAudioEndpointVolume</b> interface instance.
 

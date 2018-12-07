@@ -4,10 +4,10 @@ title: IWSDHttpAuthParameters::GetClientAccessToken
 author: windows-sdk-content
 description: GetClientAccessToken method retrieves the client access token that can be used to either authenticate or impersonate the client.
 old-location: ncd\iwsdhttpauthparameters_getclientaccesstoken.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 8E214497-151C-486B-8FE9-7B481AD403F9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetClientAccessToken, GetClientAccessToken method, GetClientAccessToken method,IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,GetClientAccessToken method, IWSDHttpAuthParameters.GetClientAccessToken, IWSDHttpAuthParameters::GetClientAccessToken, ncd.iwsdhttpauthparameters_getclientaccesstoken, wsdbase/IWSDHttpAuthParameters::GetClientAccessToken
 ms.prod: windows-hardware
 ms.technology: windows-devices

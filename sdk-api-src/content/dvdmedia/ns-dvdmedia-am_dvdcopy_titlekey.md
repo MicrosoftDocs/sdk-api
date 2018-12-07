@@ -7,10 +7,10 @@ old-location: dshow\am_dvdcopy_titlekey.htm
 tech.root: DirectShow
 ms.assetid: 14460ad8-4c7b-4566-b1ac-9a35fd20f3f3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PAM_DVDCOPY_TITLEKEY, AM_DVDCOPY_TITLEKEY, AM_DVDCOPY_TITLEKEY structure [DirectShow], PAM_DVDCOPY_TITLEKEY, PAM_DVDCOPY_TITLEKEY structure pointer [DirectShow], dshow.am_dvdcopy_titlekey, dvdmedia/AM_DVDCOPY_TITLEKEY, dvdmedia/PAM_DVDCOPY_TITLEKEY"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

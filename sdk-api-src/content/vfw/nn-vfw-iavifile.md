@@ -8,10 +8,10 @@ old-location: multimedia\iavifile.htm
 tech.root: Multimedia
 ms.assetid: 401db941-cbf6-452b-84e2-605fafac8a6d
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: IAVIFile, IAVIFile interface [Windows Multimedia], IAVIFile interface [Windows Multimedia],described, _win32_IAVIFile, multimedia.iavifile, vfw/IAVIFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vfw.h
 req.include-header: 

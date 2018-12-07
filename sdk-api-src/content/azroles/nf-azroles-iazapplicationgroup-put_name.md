@@ -4,10 +4,10 @@ title: IAzApplicationGroup::put_Name
 author: windows-sdk-content
 description: Sets or retrieves the name of the application group.
 old-location: security\iazapplicationgroup_name.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: a42fb625-d04e-4884-b644-2007f6dc52ba
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: AzApplicationGroup object [Security],Name property, IAzApplicationGroup interface [Security],Name property, IAzApplicationGroup.Name, IAzApplicationGroup.put_Name, IAzApplicationGroup::Name, IAzApplicationGroup::get_Name, IAzApplicationGroup::put_Name, Name property [Security], Name property [Security],AzApplicationGroup object, Name property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Name, azroles/IAzApplicationGroup::get_Name, azroles/IAzApplicationGroup::put_Name, put_Name, security.iazapplicationgroup_name
 ms.prod: windows-hardware
 ms.technology: windows-devices

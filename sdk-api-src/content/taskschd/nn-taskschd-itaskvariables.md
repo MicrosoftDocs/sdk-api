@@ -4,13 +4,13 @@ title: ITaskVariables
 author: windows-sdk-content
 description: Defines task variables that can be passed as parameters to task handlers and external executables that are launched by tasks.
 old-location: taskschd\itaskvariables.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 4f7a9dd3-0bf4-4c23-acdb-a5e0389120cc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskVariables, ITaskVariables interface [Task Scheduler], ITaskVariables interface [Task Scheduler],described, taskschd.itaskvariables, taskschd/ITaskVariables
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

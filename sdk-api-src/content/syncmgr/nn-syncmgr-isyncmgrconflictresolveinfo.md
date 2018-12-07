@@ -7,10 +7,10 @@ old-location: shell\ISyncMgrConflictResolveInfo.htm
 tech.root: shell
 ms.assetid: c47d533f-7307-4db3-a025-961f3419203e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncMgrConflictResolveInfo, ISyncMgrConflictResolveInfo interface [Windows Shell], ISyncMgrConflictResolveInfo interface [Windows Shell],described, _shell_ISyncMgrConflictResolveInfo, shell.ISyncMgrConflictResolveInfo, syncmgr/ISyncMgrConflictResolveInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

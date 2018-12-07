@@ -4,13 +4,13 @@ title: IGPMSitesContainer
 author: windows-sdk-content
 description: The IGPMSitesContainer interface provides the methods required to access the scope of management (SOM) objects that represent sites in a forest.
 old-location: gpmc\igpmsitescontainer.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: e3fdfd44-9e90-4206-b7e9-97d4ed6eb8af
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GPMSitesContainer, IGPMSitesContainer, IGPMSitesContainer interface [GPMC], IGPMSitesContainer interface [GPMC],described, _win32_igpmsitescontainer, gpmc.igpmsitescontainer, gpmgmt/IGPMSitesContainer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

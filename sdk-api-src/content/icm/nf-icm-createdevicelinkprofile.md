@@ -7,7 +7,7 @@ old-location: wcs\createdevicelinkprofile.htm
 tech.root: WCS
 ms.assetid: 6b47e190-ff8a-411e-9c6e-9a421a0f25ef
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CreateDeviceLinkProfile, CreateDeviceLinkProfile function [Windows Color System], _color_CreateDeviceLinkProfile, icm/CreateDeviceLinkProfile, wcs.createdevicelinkprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CreateDeviceLinkProfile
+: 
 ---
 
 # CreateDeviceLinkProfile function
@@ -60,7 +66,7 @@ The <a href="https://msdn.microsoft.com/54f46d2c-ddcb-4597-9816-172e507a7fa2">Cr
 
 ### -param hProfile
 
-TBD
+Pointer to an array of handles of the color profiles to be used. The function determines whether the HPROFILEs contain ICC profile information and, if so, it processes them appropriately. 
 
 
 ### -param nProfiles
@@ -91,11 +97,6 @@ Pointer to a pointer to a buffer. If successful, this function allocates the buf
 ### -param indexPreferredCMM
 
 Specifies the one-based index of the color profile that indicates what color management module (CMM) to use. The application developer may allow Windows to choose the CMM by setting this parameter to INDEX_DONT_CARE. See <a href="https://msdn.microsoft.com/df119e1a-b6f5-40a3-8852-8a57b21483d0">Using Color Management Modules (CMM)</a>. 
-
-
-#### - pahProfiles
-
-Pointer to an array of handles of the color profiles to be used. The function determines whether the HPROFILEs contain ICC profile information and, if so, it processes them appropriately. 
 
 
 ## -returns

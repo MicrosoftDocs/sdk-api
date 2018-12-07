@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder_querymediainfo.htm
 tech.root: imapi
 ms.assetid: 5e97d5e5-1a10-4ef2-b083-427d4070283f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscRecorder interface [IMAPI],QueryMediaInfo method, IDiscRecorder.QueryMediaInfo, IDiscRecorder::QueryMediaInfo, QueryMediaInfo, QueryMediaInfo method [IMAPI], QueryMediaInfo method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_querymediainfo, base.idiscrecorder_querymediainfo, imapi.idiscrecorder_querymediainfo, imapi/IDiscRecorder::QueryMediaInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,56 +58,29 @@ Retrieves information about the currently mounted media, such as the total numbe
 
 
 
-### -param pbSessions
-
-TBD
-
-
-### -param pbLastTrack
-
-TBD
-
-
-### -param ulStartAddress
-
-TBD
-
-
-### -param ulNextWritable
-
-TBD
-
-
-### -param ulFreeBlocks
-
-TBD
-
-
-
-
-#### - pblasttrack [out]
-
-Track number of the last track of the previous session.
-
-
-#### - pbsessions [out]
+### -param pbSessions [out]
 
 Number of sessions on the disc.
 
 
-#### - ulfreeblocks [out]
+### -param pbLastTrack [out]
 
-Number of blocks available for writing.
+Track number of the last track of the previous session.
 
 
-#### - ulnextwritable [out]
+### -param ulStartAddress [out]
+
+Start address of the last track of the previous session.
+
+
+### -param ulNextWritable [out]
 
 Address at which writing is to begin.
 
 
-#### - ulstartaddress [out]
+### -param ulFreeBlocks [out]
 
-Start address of the last track of the previous session.
+Number of blocks available for writing.
 
 
 ## -returns

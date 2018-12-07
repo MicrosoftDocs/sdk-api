@@ -7,7 +7,7 @@ old-location: mscs\clusworkerterminateex.htm
 tech.root: mscs
 ms.assetid: e2dda7c0-01d4-49e5-bc57-3fa07495d536
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusWorkerTerminateEx, ClusWorkerTerminateEx function [Failover Cluster], mscs.clusworkerterminateex, resapi/ClusWorkerTerminateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,37 @@ If set <b>TRUE</b>, the function will wait for up to specified timeout without s
 
 
 
-Returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> on failure.
+Returns a system error code on failure.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+All worker threads are terminated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WAIT_TIMEOUT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The worker thread is not terminated within the specified timeout.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

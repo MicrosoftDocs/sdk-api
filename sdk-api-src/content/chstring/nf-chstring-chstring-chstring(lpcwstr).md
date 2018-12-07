@@ -7,7 +7,7 @@ old-location: wmi\chstring_chstring_lpcwstr_.htm
 tech.root: WmiSdk
 ms.assetid: 11780ce1-b7d8-4a79-89fc-656ea5d71048
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: "??0CHString@@QAE@PBG@Z, ??0CHString@@QEAA@PEBG@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(LPCWSTR), CHString::CHString, CHString::CHString(LPCWSTR), chstring/CHString::CHString, wmi.chstring_chstring_lpcwstr_"
 ms.prod: windows-hardware
 ms.technology: windows-devices

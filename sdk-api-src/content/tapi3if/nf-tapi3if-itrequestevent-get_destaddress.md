@@ -7,7 +7,7 @@ old-location: tapi3\itrequestevent_get_destaddress.htm
 tech.root: tapi
 ms.assetid: b3cf5a48-6d9f-4c66-91eb-c18a29d71ff9
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_DestAddress method, ITRequestEvent.get_DestAddress, ITRequestEvent::get_DestAddress, _tapi3_itrequestevent_get_destaddress, get_DestAddress, get_DestAddress method [TAPI 2.2], get_DestAddress method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_destaddress, tapi3if/ITRequestEvent::get_DestAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

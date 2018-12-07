@@ -7,10 +7,10 @@ old-location: enstor\ienumenhancedstorageact.htm
 tech.root: enstor
 ms.assetid: 807834cc-0f52-43f6-a3b3-06591ba68c15
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumEnhancedStorageACT, IEnumEnhancedStorageACT interface [Enhanced Storage], IEnumEnhancedStorageACT interface [Enhanced Storage],described, ehstorapi/IEnumEnhancedStorageACT, enstor.ienumenhancedstorageact
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ehstorapi.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: base\controlserviceex.htm
 tech.root: services
 ms.assetid: de249903-7545-4fb6-925a-aa647f862f93
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: ControlServiceEx, ControlServiceEx function, ControlServiceExA, ControlServiceExW, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_STOP, base.controlserviceex, winsvc/ControlServiceEx, winsvc/ControlServiceExA, winsvc/ControlServiceExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

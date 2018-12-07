@@ -7,7 +7,7 @@ old-location: rpc\ndrclientcall4.htm
 tech.root: rpc
 ms.assetid: AD2B9995-B092-498E-8D54-204B213D555D
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: NdrClientCall4, NdrClientCall4 function [RPC], rpc.ndrclientcall4, rpcndr/NdrClientCall4
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IBDACreateTuneRequestEx::CreateTuneRequestEx
 author: windows-sdk-content
 description: Creates a new tuning request for a tuning space. This method enables the caller to specify a particular type of tuning request.
 old-location: mstv\ibdacreatetunerequestex_createtunerequestex.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: bf378da2-be79-484e-84c6-bf1669b50218
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateTuneRequestEx, CreateTuneRequestEx method [Microsoft TV Technologies], CreateTuneRequestEx method [Microsoft TV Technologies],IBDACreateTuneRequestEx interface, IBDACreateTuneRequestEx interface [Microsoft TV Technologies],CreateTuneRequestEx method, IBDACreateTuneRequestEx.CreateTuneRequestEx, IBDACreateTuneRequestEx::CreateTuneRequestEx, mstv.ibdacreatetunerequestex_createtunerequestex, tuner/IBDACreateTuneRequestEx::CreateTuneRequestEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,7 @@ GUID that identifies the type of <a href="https://msdn.microsoft.com/34077b45-32
           
 
 
-### -param TuneRequest
-
-TBD
-
-
-
-
-#### - ppTuneRequest [out]
+### -param TuneRequest [out]
 
 Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface of the new tuning request object. The caller must release the interface. If the <i>TuneRequestIID</i> argument is <b>NULL</b>, this address is set to <b>NULL</b> also.
           

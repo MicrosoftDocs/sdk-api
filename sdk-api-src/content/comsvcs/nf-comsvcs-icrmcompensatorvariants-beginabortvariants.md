@@ -7,7 +7,7 @@ old-location: cos\icrmcompensatorvariants_beginabortvariants.htm
 tech.root: cossdk
 ms.assetid: 485170e3-c69b-446a-af93-a0ed4f25c84a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: BeginAbortVariants, BeginAbortVariants method [COM+], BeginAbortVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],BeginAbortVariants method, ICrmCompensatorVariants.BeginAbortVariants, ICrmCompensatorVariants::BeginAbortVariants, _dtc_ICrmCompensatorVariants_BeginAbortVariants, comsvcs/ICrmCompensatorVariants::BeginAbortVariants, cos.icrmcompensatorvariants_beginabortvariants
 ms.prod: windows-hardware
 ms.technology: windows-devices

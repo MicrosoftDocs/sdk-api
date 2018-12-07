@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gsgetshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetshader.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GSGetShader, GSGetShader method [Direct3D 10], GSGetShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSGetShader method, ID3D10Device.GSGetShader, ID3D10Device::GSGetShader, cdbac92b-f473-124b-66e8-4af3395c926a, d3d10/ID3D10Device::GSGetShader, direct3d10.id3d10device_gsgetshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

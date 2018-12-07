@@ -7,7 +7,7 @@ old-location: cos\icrmcompensator_preparerecord.htm
 tech.root: cossdk
 ms.assetid: 12b4d0d5-29f3-4fbb-8091-1b7d5ba0adb4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICrmCompensator interface [COM+],PrepareRecord method, ICrmCompensator.PrepareRecord, ICrmCompensator::PrepareRecord, PrepareRecord, PrepareRecord method [COM+], PrepareRecord method [COM+],ICrmCompensator interface, _dtc_ICrmCompensator_PrepareRecord, comsvcs/ICrmCompensator::PrepareRecord, cos.icrmcompensator_preparerecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

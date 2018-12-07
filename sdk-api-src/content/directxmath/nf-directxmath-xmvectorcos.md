@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorcos.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorCos(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorCos, XMVectorCos, XMVectorCos method [DirectX Math Support APIs], dxmath.xmvectorcos
 ms.prod: windows-hardware
 ms.technology: windows-devices

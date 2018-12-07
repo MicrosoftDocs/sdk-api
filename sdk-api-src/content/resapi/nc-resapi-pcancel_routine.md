@@ -7,10 +7,10 @@ old-location: mscs\cancel.htm
 tech.root: mscs
 ms.assetid: F2A22C00-5B25-48F7-BB25-9C351A47B770
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: Cancel, Cancel callback, Cancel callback function [Failover Cluster], PCANCEL_ROUTINE, PCANCEL_ROUTINE callback function [Failover Cluster], mscs.cancel, resapi/Cancel, resapi/PCANCEL_ROUTINE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
@@ -72,11 +72,36 @@ Reserved.
 
 
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The quorum resource was successfully released and is no longer being defended.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="https://msdn.microsoft.com/A02E4F40-5231-46F3-9BFB-0B4DFCD7AE30">Error code</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successfully canceled.
 
-Returns DWORD that ...
-
-
+</td>
+</tr>
+</table>
+ 
 
 
 

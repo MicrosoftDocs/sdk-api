@@ -4,10 +4,10 @@ title: IDataCollectorSet::get_Segment
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether PLA creates new logs if the maximum size or segment duration is reached before the data collector set is stopped.
 old-location: pla\idatacollectorset_get_segment.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 5ecac3dd-0cd1-4563-a6b3-1b98e29fe769
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IDataCollectorSet interface [PLA],Segment property, IDataCollectorSet.Segment, IDataCollectorSet.get_Segment, IDataCollectorSet::Segment, IDataCollectorSet::get_Segment, IDataCollectorSet::put_Segment, Segment property [PLA], Segment property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_segment, get_Segment, pla.idatacollectorset_get_segment, pla/IDataCollectorSet::Segment, pla/IDataCollectorSet::get_Segment, pla/IDataCollectorSet::put_Segment
 ms.prod: windows-hardware
 ms.technology: windows-devices

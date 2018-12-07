@@ -7,7 +7,7 @@ old-location: winsock\wsacreateevent_2.htm
 tech.root: winsock
 ms.assetid: cff3bc31-f34c-4bb2-9004-5ec31d0a704a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WSACreateEvent, WSACreateEvent function [Winsock], _win32_wsacreateevent_2, winsock.wsacreateevent_2, winsock2/WSACreateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

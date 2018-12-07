@@ -7,7 +7,7 @@ old-location: coreaudio\immnotificationclient_onpropertyvaluechanged.htm
 tech.root: CoreAudio
 ms.assetid: 194aa7d1-4885-49c4-b9c3-2c47468c139f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnPropertyValueChanged method, IMMNotificationClient.OnPropertyValueChanged, IMMNotificationClient::OnPropertyValueChanged, IMMNotificationClientOnPropertyValueChanged, OnPropertyValueChanged, OnPropertyValueChanged method [Core Audio], OnPropertyValueChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_onpropertyvaluechanged, mmdeviceapi/IMMNotificationClient::OnPropertyValueChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: DnsCancelQuery function
 author: windows-sdk-content
 description: The DnsCancelQuery function can be used to cancel a pending query to the DNS namespace.
 old-location: dns\dnscancelquery.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: E5F422AA-D4E6-4F9F-A57C-608CE9317658
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DnsCancelQuery, DnsCancelQuery function [DNS], dns.dnscancelquery, windns/DnsCancelQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

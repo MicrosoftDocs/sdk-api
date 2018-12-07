@@ -4,10 +4,10 @@ title: ITaskSettings::put_RunOnlyIfIdle
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will run the task only if the computer is in an idle condition.
 old-location: taskschd\itasksettings_runonlyifidle.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 2ea0b2bd-793b-427f-9177-c8d124e5ae25
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],RunOnlyIfIdle property, ITaskSettings.RunOnlyIfIdle, ITaskSettings.put_RunOnlyIfIdle, ITaskSettings::RunOnlyIfIdle, ITaskSettings::get_RunOnlyIfIdle, ITaskSettings::put_RunOnlyIfIdle, RunOnlyIfIdle property [Task Scheduler], RunOnlyIfIdle property [Task Scheduler],ITaskSettings interface, put_RunOnlyIfIdle, taskschd.itasksettings_runonlyifidle, taskschd/ITaskSettings::RunOnlyIfIdle, taskschd/ITaskSettings::get_RunOnlyIfIdle, taskschd/ITaskSettings::put_RunOnlyIfIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices

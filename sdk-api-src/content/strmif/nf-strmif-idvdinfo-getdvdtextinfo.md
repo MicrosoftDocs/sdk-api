@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getdvdtextinfo.htm
 tech.root: DirectShow
 ms.assetid: e58fcd07-682a-4c41-9501-d55ba092a150
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDVDTextInfo, GetDVDTextInfo method [DirectShow], GetDVDTextInfo method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetDVDTextInfo method, IDvdInfo.GetDVDTextInfo, IDvdInfo::GetDVDTextInfo, IDvdInfoGetDVDTextInfo, dshow.idvdinfo_getdvdtextinfo, strmif/IDvdInfo::GetDVDTextInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,24 +68,12 @@ Retrieves the <b>TXTDT_MG</b> structure, which can contain text descriptions for
 Pointer to the retrieved text manager.
 
 
-### -param ulBufSize
-
-TBD
-
-
-### -param pulActualSize
-
-TBD
-
-
-
-
-#### - cbBufSize [in]
+### -param ulBufSize [in]
 
 Size of the buffer for <i>pTextManager</i>, in bytes.
 
 
-#### - pcbActualSize [out]
+### -param pulActualSize [out]
 
 Pointer to a value containing the number of bytes of data returned.
 

@@ -7,10 +7,10 @@ old-location: eaphost\eappeermethodresult.htm
 tech.root: eaphost
 ms.assetid: ed6a3560-53a8-4ead-8c6b-8e65c72dafe1
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/16/2018
 ms.keywords: EapPeerMethodResult, EapPeerMethodResult structure [EAPHost], eaphost.eappeermethodresult, eapmethodpeerapis/EapPeerMethodResult, tagEapPeerMethodResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eapmethodpeerapis.h
 req.include-header: 

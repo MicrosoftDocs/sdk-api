@@ -4,13 +4,13 @@ title: X509CertificateTemplateGeneralFlag
 author: windows-sdk-content
 description: Contains use and modification information about templates and associated certificates.
 old-location: security\x509certificatetemplategeneralflag.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 0211dd53-39b7-49fb-8acd-e4d02a226904
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GeneralCA, GeneralCrossCA, GeneralDefault, GeneralDonotPersist, GeneralMachineType, GeneralModified, X509CertificateTemplateGeneralFlag, X509CertificateTemplateGeneralFlag enumeration [Security], certenroll/GeneralCA, certenroll/GeneralCrossCA, certenroll/GeneralDefault, certenroll/GeneralDonotPersist, certenroll/GeneralMachineType, certenroll/GeneralModified, certenroll/X509CertificateTemplateGeneralFlag, security.x509certificatetemplategeneralflag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

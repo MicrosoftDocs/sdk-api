@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSink::get_SBESink
 author: windows-sdk-content
 description: The get_SBESink method retrieves a pointer to the Stream Buffer Sink filter.
 old-location: mstv\imsvidstreambuffersink_get_sbesink.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ea911a70-1926-4ba8-b9dd-1188debee00a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_SBESink method, IMSVidStreamBufferSink.get_SBESink, IMSVidStreamBufferSink::get_SBESink, IMSVidStreamBufferSinkget_DVRConfigure, get_SBESink, get_SBESink method [Microsoft TV Technologies], get_SBESink method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_sbesink, segment/IMSVidStreamBufferSink::get_SBESink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_SBESink</b> method retrieves a pointer to the <a href="https://msdn.m
 
 
 
-### -param sbeConfig
-
-TBD
-
-
-
-
-#### - ppUnk [out]
+### -param sbeConfig [out]
 
 Receives a pointer to the filter's <b>IUnknown</b> interface.
           

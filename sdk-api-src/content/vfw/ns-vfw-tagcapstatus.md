@@ -7,10 +7,10 @@ old-location: multimedia\capstatus.htm
 tech.root: Multimedia
 ms.assetid: 65ad6e33-c601-4026-a5a4-2c68576d7ab7
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPCAPSTATUS, *PCAPSTATUS, CAPSTATUS, CAPSTATUS structure [Windows Multimedia], _win32_CAPSTATUS_str, multimedia.capstatus, tagCapStatus, vfw/CAPSTATUS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

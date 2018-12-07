@@ -7,7 +7,7 @@ old-location: wmi\chstring_chstring_const_unsigned_char__.htm
 tech.root: WmiSdk
 ms.assetid: aa1cf180-bc7c-40ba-91ab-091018790b39
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: "??0CHString@@QAE@PBE@Z, ??0CHString@@QEAA@PEBE@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(const unsigned char), CHString::CHString, CHString::CHString(const unsigned char), CHString::CHString(const unsigned char*), chstring/CHString::CHString, wmi.chstring_chstring_const_unsigned_char__"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,6 +45,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- chstring.h
+: 
+- CHString.CHString
+: 
 ---
 
 # CHString::CHString(const unsigned char)
@@ -68,13 +76,6 @@ Each of these constructors initializes a new <a href="https://msdn.microsoft.com
 
 
 ### -param lpsz
-
-TBD
-
-
-
-
-#### - psz
 
 A <b>NULL</b>-terminated string that is copied into this <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> object.
 

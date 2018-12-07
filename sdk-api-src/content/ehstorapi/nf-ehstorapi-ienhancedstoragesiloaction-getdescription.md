@@ -7,7 +7,7 @@ old-location: enstor\ienhancedstoragesiloaction_getdescription.htm
 tech.root: enstor
 ms.assetid: 1eb94182-520e-40a6-87e6-6ead2ab2e188
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetDescription, GetDescription method [Enhanced Storage], GetDescription method [Enhanced Storage],IEnhancedStorageSiloAction interface, IEnhancedStorageSiloAction interface [Enhanced Storage],GetDescription method, IEnhancedStorageSiloAction.GetDescription, IEnhancedStorageSiloAction::GetDescription, ehstorapi/IEnhancedStorageSiloAction::GetDescription, enstor.ienhancedstoragesiloaction_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Returns a descriptive string for the action specified by the <a href="https://ms
 
 
 
-### -param ppwszActionDescription
-
-TBD
-
-
-
-
-#### - ppwszDescription [out]
+### -param ppwszActionDescription [out]
 
 Pointer to a string that describes the silo action.
 

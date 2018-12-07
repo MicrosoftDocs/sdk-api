@@ -7,10 +7,10 @@ old-location: tablet\stylusinfo.htm
 tech.root: tablet
 ms.assetid: d2642082-e18c-4f91-b08c-e25aa388a2a3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: StylusInfo, StylusInfo structure [Tablet PC], d2642082-e18c-4f91-b08c-e25aa388a2a3, rtscom/StylusInfo, tablet.stylusinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: rtscom.h
 req.include-header: 

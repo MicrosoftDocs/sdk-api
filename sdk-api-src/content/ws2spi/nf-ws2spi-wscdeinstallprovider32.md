@@ -7,7 +7,7 @@ old-location: winsock\wscdeinstallprovider32.htm
 tech.root: winsock
 ms.assetid: 3de74059-dbfb-49b9-830b-7b2f81f8b68c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WSCDeinstallProvider32, WSCDeinstallProvider32 function [Winsock], winsock.wscdeinstallprovider32, ws2spi/WSCDeinstallProvider32
 ms.prod: windows-hardware
 ms.technology: windows-devices

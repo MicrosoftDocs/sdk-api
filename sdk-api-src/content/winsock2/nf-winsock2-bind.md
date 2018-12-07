@@ -7,7 +7,7 @@ old-location: winsock\bind_2.htm
 tech.root: winsock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_bind_2, bind, bind function [Winsock], winsock.bind_2, winsock/bind"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,19 +64,14 @@ The
 A descriptor identifying an unbound socket.
 
 
-### -param name
+#### - name [in]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure of the local address to assign to the bound socket .
 
 
 ### -param namelen [in]
 
 The length, in bytes, of the value pointed to by the <i>name</i> parameter.
-
-
-#### - addr [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure of the local address to assign to the bound socket .
 
 
 ## -returns

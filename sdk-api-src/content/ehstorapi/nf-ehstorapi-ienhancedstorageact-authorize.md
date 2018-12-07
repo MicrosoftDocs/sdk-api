@@ -7,7 +7,7 @@ old-location: enstor\ienhancedstorageact_authorize.htm
 tech.root: enstor
 ms.assetid: 77141891-9adc-4cd9-b682-8f5b8e842f4c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Authorize, Authorize method [Enhanced Storage], Authorize method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],Authorize method, IEnhancedStorageACT.Authorize, IEnhancedStorageACT::Authorize, ehstorapi/IEnhancedStorageACT::Authorize, enstor.ienhancedstorageact_authorize
 ms.prod: windows-hardware
 ms.technology: windows-devices

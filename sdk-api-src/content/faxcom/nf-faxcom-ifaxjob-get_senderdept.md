@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_senderdept_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_71mc.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxJob interface [Fax Service],SenderDept property, IFaxJob.SenderDept, IFaxJob.get_SenderDept, IFaxJob::SenderDept, IFaxJob::get_SenderDept, SenderDept property [Fax Service], SenderDept property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_senderdept, fax._mfax_ifaxjob_get_senderdept, fax._mfax_ifaxjob_mfax_ifaxjob_get_senderdept_cpp, faxcom/IFaxJob::SenderDept, faxcom/IFaxJob::get_SenderDept, get_SenderDept
 ms.prod: windows-hardware
 ms.technology: windows-devices

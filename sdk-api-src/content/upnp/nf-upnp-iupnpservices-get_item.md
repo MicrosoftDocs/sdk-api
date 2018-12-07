@@ -4,10 +4,10 @@ title: IUPnPServices::get_Item
 author: windows-sdk-content
 description: The Item property specifies the IUPnPService interface for a service, identified by the service ID, in the collection.
 old-location: upnp\iupnpservices_item.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: e59e9b9c-986d-46de-9ce7-19eaad824953
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get_Item method, IUPnPServices.get_Item, IUPnPServices::get_Item, _upnp_iupnpservices_item, get_Item, get_Item method [UPnP APIs], get_Item method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices_item, upnp/IUPnPServices::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,20 +60,15 @@ The
 
 
 
-### -param bstrServiceId
+### -param bstrServiceId [in]
 
-TBD
+Specifies a service in the collection.
 
 
 ### -param ppService [out]
 
 Receives a reference to an 
 <a href="https://msdn.microsoft.com/48b20b03-62a4-4dcd-8eda-f1bfef1eef38">IUPnPService</a> interface for the specified service.
-
-
-#### - bstrServiceID [in]
-
-Specifies a service in the collection.
 
 
 ## -returns

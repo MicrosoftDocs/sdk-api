@@ -7,7 +7,7 @@ old-location: hid\idirectinputeffectdriver_starteffect.htm
 tech.root: hid
 ms.assetid: 2c1865c2-ded4-47ce-a743-8ac48986dc5f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],StartEffect method, IDirectInputEffectDriver.StartEffect, IDirectInputEffectDriver::StartEffect, StartEffect, StartEffect method [Human Input Devices], StartEffect method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_f30aed74-b4e3-41da-b5c7-f153d6f30b40.xml, dinputd/IDirectInputEffectDriver::StartEffect, hid.idirectinputeffectdriver_starteffect
 ms.prod: windows-hardware
 ms.technology: windows-devices

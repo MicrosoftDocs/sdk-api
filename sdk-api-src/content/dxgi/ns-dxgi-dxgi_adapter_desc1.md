@@ -7,10 +7,10 @@ old-location: direct3ddxgi\dxgi_adapter_desc1.htm
 tech.root: direct3ddxgi
 ms.assetid: 0ae3bdb1-b122-439a-8f62-c831a9dd87e2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: 44e46590-c7af-e371-28b4-890028cf955b, DXGI_ADAPTER_DESC1, DXGI_ADAPTER_DESC1 structure [DXGI], direct3ddxgi.dxgi_adapter_desc1, dxgi/DXGI_ADAPTER_DESC1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 

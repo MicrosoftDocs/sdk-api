@@ -7,13 +7,13 @@ old-location: intl\immconfigureime.htm
 tech.root: Intl
 ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IME_CONFIG_GENERAL, IME_CONFIG_REGISTERWORD, IME_CONFIG_SELECTDICTIONARY, ImmConfigureIME, ImmConfigureIME function [Internationalization for Windows Applications], ImmConfigureIMEA, ImmConfigureIMEW, _win32_ImmConfigureIME, imm/ImmConfigureIME, imm/ImmConfigureIMEA, imm/ImmConfigureIMEW, intl.immconfigureime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
-req.include-header: Windows.h
+req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

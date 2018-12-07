@@ -7,7 +7,7 @@ old-location: wmformat\iwmreader_getoutputprops.htm
 tech.root: wmformat
 ms.assetid: 8958abd0-cc2b-4d02-a831-c998d468fb06
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetOutputProps, GetOutputProps method [windows Media Format], GetOutputProps method [windows Media Format],IWMReader interface, IWMReader interface [windows Media Format],GetOutputProps method, IWMReader.GetOutputProps, IWMReader::GetOutputProps, IWMReaderGetOutputProps, wmformat.iwmreader_getoutputprops, wmsdkidl/IWMReader::GetOutputProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

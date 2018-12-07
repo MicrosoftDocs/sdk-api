@@ -4,13 +4,13 @@ title: IPBDA_Services
 author: windows-sdk-content
 description: Implements methods that initialize or retrieve Protected Broadcast Driver Architecture (PBDA) service records from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8d2d62cd-9f62-45d3-8b98-74bb8863c6d6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IPBDA_Services, IPBDA_Services interface [Microsoft TV Technologies], IPBDA_Services interface [Microsoft TV Technologies],described, dvbsiparser/IPBDA_Services, mstv.ipbda_services
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

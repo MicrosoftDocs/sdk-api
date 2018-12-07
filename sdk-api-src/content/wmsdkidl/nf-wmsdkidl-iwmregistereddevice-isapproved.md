@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice_isapproved.htm
 tech.root: wmformat
 ms.assetid: ab90468e-743f-4367-a49b-d494bf9be28f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsApproved method, IWMRegisteredDevice.IsApproved, IWMRegisteredDevice::IsApproved, IWMRegisteredDeviceIsApproved, IsApproved, IsApproved method [windows Media Format], IsApproved method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isapproved, wmsdkidl/IWMRegisteredDevice::IsApproved
 ms.prod: windows-hardware
 ms.technology: windows-devices

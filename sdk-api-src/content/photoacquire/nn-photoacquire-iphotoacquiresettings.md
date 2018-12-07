@@ -7,10 +7,10 @@ old-location: picacq\iphotoacquiresettings.htm
 tech.root: acquisition
 ms.assetid: c86d0c97-f9ef-4a73-865b-8aea7972193b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IPhotoAcquireSettings, IPhotoAcquireSettings interface [Picture Acquisition], IPhotoAcquireSettings interface [Picture Acquisition],described, IPhotoAcquireSettingsInterface, photoacquire/IPhotoAcquireSettings, picacq.iphotoacquiresettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 

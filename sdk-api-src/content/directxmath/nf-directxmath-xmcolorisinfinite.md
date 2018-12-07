@@ -7,7 +7,7 @@ old-location: dxmath\xmcolorisinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorIsInfinite(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMColorIsInfinite, XMColorIsInfinite, XMColorIsInfinite method [DirectX Math Support APIs], dxmath.xmcolorisinfinite
 ms.prod: windows-hardware
 ms.technology: windows-devices

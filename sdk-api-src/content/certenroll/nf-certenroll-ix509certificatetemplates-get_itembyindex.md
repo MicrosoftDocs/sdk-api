@@ -4,10 +4,10 @@ title: IX509CertificateTemplates::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an IX509CertificateTemplate object from the collection by index number.
 old-location: security\ix509certificatetemplates_itembyindex.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 1d7ddfd8-89f4-485a-ba90-83f2331168d2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IX509CertificateTemplates interface [Security],ItemByIndex property, IX509CertificateTemplates.ItemByIndex, IX509CertificateTemplates.get_ItemByIndex, IX509CertificateTemplates::ItemByIndex, IX509CertificateTemplates::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByIndex, certenroll/IX509CertificateTemplates::get_ItemByIndex, get_ItemByIndex, security.ix509certificatetemplates_itembyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

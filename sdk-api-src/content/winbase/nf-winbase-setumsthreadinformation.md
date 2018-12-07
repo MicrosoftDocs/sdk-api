@@ -7,7 +7,7 @@ old-location: base\setumsthreadinformation.htm
 tech.root: procthread
 ms.assetid: 19f190fd-1f78-4bb6-93eb-73a5c522b44d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetUmsThreadInformation, SetUmsThreadInformation function, base.setumsthreadinformation, winbase/SetUmsThreadInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

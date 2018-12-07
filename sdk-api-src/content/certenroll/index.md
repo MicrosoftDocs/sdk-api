@@ -2,7 +2,7 @@
 UID: NA:certenroll
 ms.assetid: 2c29fb54-8abc-346a-b0f7-836fe2c5489a
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: snmp\snmputiloidncmp.htm
 tech.root: SNMP
 ms.assetid: a23df516-9559-4209-bf2d-8268737d1dfb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpUtilOidNCmp, SnmpUtilOidNCmp function [SNMP], _snmp_snmputiloidncmp, snmp.snmputiloidncmp, snmp/SnmpUtilOidNCmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

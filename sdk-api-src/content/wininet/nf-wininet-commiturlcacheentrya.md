@@ -4,10 +4,10 @@ title: CommitUrlCacheEntryA function
 author: windows-sdk-content
 description: Stores data in the specified file in the Internet cache and associates it with the specified URL.
 old-location: wininet\commiturlcacheentrya.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 4bd21b30-cac5-482b-9826-b5a4ffeeebe9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CommitUrlCacheEntryA, CommitUrlCacheEntryA function [WinINet], wininet.commiturlcacheentrya, wininet/CommitUrlCacheEntryA
 ms.prod: windows-hardware
 ms.technology: windows-devices

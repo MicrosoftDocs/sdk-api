@@ -7,7 +7,7 @@ old-location: tapi3\itdetecttone_put_frequency.htm
 tech.root: tapi
 ms.assetid: 83895e55-61ab-464b-bb85-e81d15dd96e1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],put_Frequency method, ITDetectTone.put_Frequency, ITDetectTone::put_Frequency, _tapi3_itdetecttone_put_frequency, put_Frequency, put_Frequency method [TAPI 2.2], put_Frequency method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_put_frequency, tapi3if/ITDetectTone::put_Frequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

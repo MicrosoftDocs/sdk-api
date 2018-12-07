@@ -7,10 +7,10 @@ old-location: dhcp\dhcpv6capi_classid.htm
 tech.root: DHCP
 ms.assetid: 90dbc386-02d9-4631-8af3-edd34537fefc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDHCPV6CAPI_CLASSID, *PDHCPV6CAPI_CLASSID, DHCPV6CAPI_CLASSID, DHCPV6CAPI_CLASSID structure [DHCP], LPDHCPV6CAPI_CLASSID, LPDHCPV6CAPI_CLASSID structure pointer [DHCP], PDHCPV6CAPI_CLASSID, PDHCPV6CAPI_CLASSID structure pointer [DHCP], _DHCPV6CAPI_CLASSID, dhcp.dhcpv6capi_classid, dhcpv6csdk/DHCPV6CAPI_CLASSID, dhcpv6csdk/LPDHCPV6CAPI_CLASSID, dhcpv6csdk/PDHCPV6CAPI_CLASSID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpv6csdk.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_make_opentype_tag.htm
 tech.root: DirectWrite
 ms.assetid: fe93a24a-5f3d-4e73-87ac-b33357c838e3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: DWRITE_MAKE_OPENTYPE_TAG, DWRITE_MAKE_OPENTYPE_TAG macro [Direct Write], directwrite.dwrite_make_opentype_tag, dwrite/DWRITE_MAKE_OPENTYPE_TAG
 ms.prod: windows-hardware
 ms.technology: windows-devices

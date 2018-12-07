@@ -4,10 +4,10 @@ title: IFsrmQuotaTemplate::get_Name
 author: windows-sdk-content
 description: Retrieves and sets the name of the quota template.
 old-location: fsrm\ifsrmquotatemplate_name.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 77a38b03-eb47-4298-ac13-44ffbd649752
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmQuotaTemplate interface [File Server Resource Manager],Name property, IFsrmQuotaTemplate.Name, IFsrmQuotaTemplate.get_Name, IFsrmQuotaTemplate::Name, IFsrmQuotaTemplate::get_Name, IFsrmQuotaTemplate::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmQuotaTemplate interface, fs.ifsrmquotatemplate_name, fsrm.ifsrmquotatemplate_name, fsrmquota/IFsrmQuotaTemplate::Name, fsrmquota/IFsrmQuotaTemplate::get_Name, fsrmquota/IFsrmQuotaTemplate::put_Name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

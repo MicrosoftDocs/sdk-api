@@ -7,7 +7,7 @@ old-location: wintouch\imanpiulationprocessor_processupwithtime.htm
 tech.root: wintouch
 ms.assetid: fafea353-9126-454d-9311-4859e5ae5712
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessUpWithTime method, IManipulationProcessor.ProcessUpWithTime, IManipulationProcessor::ProcessUpWithTime, ProcessUpWithTime, ProcessUpWithTime method [Windows Touch], ProcessUpWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessUpWithTime, wintouch.imanpiulationprocessor_processupwithtime
 ms.prod: windows-hardware
 ms.technology: windows-devices

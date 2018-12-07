@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcedependentipaddressprops.htm
 tech.root: mscs
 ms.assetid: 283b0086-1dbf-45dc-9651-93af9a9ff6d0
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS, PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS function [Failover Cluster], ResUtilGetResourceDependentIPAddressProps, ResUtilGetResourceDependentIPAddressProps function [Failover Cluster], _wolf_resutilgetresourcedependentipaddressprops, mscs.resutilgetresourcedependentipaddressprops, resapi/PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS, resapi/ResUtilGetResourceDependentIPAddressProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,6 +115,50 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 If the operation fails, the function returns a 
        <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error 
        codes.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+<dt>259 (0x103)</dt>
+</dl>
+</td>
+<td width="60%">
+No IP Address dependency was found in the specified resource's list of dependencies.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_NOT_PRESENT</b></dt>
+<dt>4316 (0x10DC)</dt>
+</dl>
+</td>
+<td width="60%">
+No IP Address dependency was found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+The size of one of the buffers was too small to hold the resulting data.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

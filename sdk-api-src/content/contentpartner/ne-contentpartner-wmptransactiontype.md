@@ -7,10 +7,10 @@ old-location: wmp\wmptransactiontype.htm
 tech.root: WMP
 ms.assetid: b3dc35d8-098a-464d-957e-3746447156d0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: WMPTransactionType, WMPTransactionType enumeration [Windows Media Player], contentpartner/WMPTransactionType, contentpartner/wmpttBuy, contentpartner/wmpttDownload, contentpartner/wmpttNoTransaction, enumeration [Windows Media Player], wmp.wmptransactiontype, wmpttBuy, wmpttDownload, wmpttNoTransaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 

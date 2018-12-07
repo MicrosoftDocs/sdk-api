@@ -7,7 +7,7 @@ old-location: mscs\setclusternetworkpriorityorder.htm
 tech.root: mscs
 ms.assetid: 538e5024-6c51-4b11-a5ff-9df6aa7a4606
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER function [Failover Cluster], SetClusterNetworkPriorityOrder, SetClusterNetworkPriorityOrder function [Failover Cluster], _wolf_setclusternetworkpriorityorder, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, clusapi/SetClusterNetworkPriorityOrder, mscs.setclusternetworkpriorityorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,6 +89,26 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 If the operation fails, the function returns a 
        <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error 
        codes.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+<dt>87 (0x57)</dt>
+</dl>
+</td>
+<td width="60%">
+There was a duplicate network in <i>NetworkList</i>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

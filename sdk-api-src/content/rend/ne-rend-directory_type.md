@@ -7,10 +7,10 @@ old-location: tapi3\directory_type.htm
 tech.root: tapi
 ms.assetid: dd4292f0-ca76-4464-b0fb-288ce5813a40
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: DIRECTORY_TYPE, DIRECTORY_TYPE enumeration [TAPI 2.2], DT_ILS, DT_NTDS, _tapi3_directory_type, rend/DIRECTORY_TYPE, rend/DT_ILS, rend/DT_NTDS, tapi3.directory_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: rend.h
 req.include-header: 

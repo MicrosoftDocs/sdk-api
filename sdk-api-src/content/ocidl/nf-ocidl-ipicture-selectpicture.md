@@ -7,7 +7,7 @@ old-location: com\ipicture_selectpicture.htm
 tech.root: com
 ms.assetid: 4168dbf7-ccc3-49ee-9b04-b0370eb389af
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IPicture interface [COM],SelectPicture method, IPicture.SelectPicture, IPicture::SelectPicture, SelectPicture, SelectPicture method [COM], SelectPicture method [COM],IPicture interface, _ctrl_ipicture_selectpicture, com.ipicture_selectpicture, ocidl/IPicture::SelectPicture
 ms.prod: windows-hardware
 ms.technology: windows-devices

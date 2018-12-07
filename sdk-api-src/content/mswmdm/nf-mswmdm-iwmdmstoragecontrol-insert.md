@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_insert.htm
 tech.root: WMDM
 ms.assetid: 909b94fd-99de-4e26-87d6-d074a6eb5da3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Insert method, IWMDMStorageControl.Insert, IWMDMStorageControl::Insert, IWMDMStorageControlInsert, Insert, Insert method [windows Media Device Manager], Insert method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Insert, wmdm.iwmdmstoragecontrol_insert
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: fs\storage_access_alignment_descriptor.htm
 tech.root: fileio
 ms.assetid: 99f33d12-5da0-4ed9-a20f-5e808a610545
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure pointer [Files], STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure [Files], _STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, fs.storage_access_alignment_descriptor, winioctl/PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, winioctl/STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

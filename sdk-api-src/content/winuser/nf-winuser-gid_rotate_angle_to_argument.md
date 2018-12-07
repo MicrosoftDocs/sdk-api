@@ -7,7 +7,7 @@ old-location: wintouch\gci_rotate_angle_to_argument.htm
 tech.root: wintouch
 ms.assetid: 058c914e-82c7-40f9-8d0d-2a6a8e77cee0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GID_ROTATE_ANGLE_TO_ARGUMENT, GID_ROTATE_ANGLE_TO_ARGUMENT macro [Windows Touch], wintouch.gci_rotate_angle_to_argument, winuser/GID_ROTATE_ANGLE_TO_ARGUMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

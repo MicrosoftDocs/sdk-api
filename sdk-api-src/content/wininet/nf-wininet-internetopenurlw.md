@@ -4,10 +4,10 @@ title: InternetOpenUrlW function
 author: windows-sdk-content
 description: Opens a resource specified by a complete FTP or HTTP URL.
 old-location: wininet\internetopenurl.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 73f969c3-3fa7-43f5-88c5-ba78e59a8d1c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: InternetOpenUrl, InternetOpenUrl function [WinINet], InternetOpenUrlA, InternetOpenUrlW, _inet_internetopenurl_function, wininet.internetopenurl, wininet/InternetOpenUrl, wininet/InternetOpenUrlA, wininet/InternetOpenUrlW
 ms.prod: windows-hardware
 ms.technology: windows-devices

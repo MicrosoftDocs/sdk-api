@@ -7,7 +7,7 @@ old-location: winsync\iknowledgesyncprovider_processfullenumerationchangebatch.h
 tech.root: winsync
 ms.assetid: 7d34bc48-377c-4249-a26e-0802dee0b53c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IKnowledgeSyncProvider interface [Windows Sync],ProcessFullEnumerationChangeBatch method, IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch, IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch, ProcessFullEnumerationChangeBatch, ProcessFullEnumerationChangeBatch method [Windows Sync], ProcessFullEnumerationChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, winsync.iknowledgesyncprovider_processfullenumerationchangebatch, winsync/IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

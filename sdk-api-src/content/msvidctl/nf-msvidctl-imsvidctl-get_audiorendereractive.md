@@ -4,10 +4,10 @@ title: IMSVidCtl::get_AudioRendererActive
 author: windows-sdk-content
 description: The get_AudioRendererActive method retrieves the audio renderer that is currently active.
 old-location: mstv\imsvidctl_get_audiorendereractive.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4ac78904-18ca-4bcb-9c0e-15595a756ecd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AudioRendererActive method, IMSVidCtl.get_AudioRendererActive, IMSVidCtl::get_AudioRendererActive, IMSVidCtlget_AudioRendererActive, get_AudioRendererActive, get_AudioRendererActive method [Microsoft TV Technologies], get_AudioRendererActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_audiorendereractive, msvidctl/IMSVidCtl::get_AudioRendererActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_AudioRendererActive</b> method retrieves the audio renderer that is c
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppVal [out]
+### -param pVal [out]
 
 Receives an <a href="https://msdn.microsoft.com/f822b5a6-c88e-48c9-91f4-611a3f147fe0">IMSVidAudioRenderer</a> interface pointer. The caller must release the interface. If no audio renderer is active, this parameter receives the value <b>NULL</b>.
 

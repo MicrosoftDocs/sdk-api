@@ -4,10 +4,10 @@ title: IDVBTuningSpace::get_SystemType
 author: windows-sdk-content
 description: The get_SystemType method retrieves the system type.
 old-location: mstv\idvbtuningspace_get_systemtype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4e08d142-6ae3-4da7-ba3c-59fdf07a2f10
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBTuningSpace interface [Microsoft TV Technologies],get_SystemType method, IDVBTuningSpace.get_SystemType, IDVBTuningSpace::get_SystemType, IDVBTuningSpaceget_SystemType, get_SystemType, get_SystemType method [Microsoft TV Technologies], get_SystemType method [Microsoft TV Technologies],IDVBTuningSpace interface, mstv.idvbtuningspace_get_systemtype, tuner/IDVBTuningSpace::get_SystemType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_SystemType</b> method retrieves the system type.
 
 
 
-### -param SysType
-
-TBD
-
-
-
-
-#### - pSysType [out]
+### -param SysType [out]
 
 Pointer to a variable of type <a href="https://msdn.microsoft.com/b547ace8-5c6d-43c1-bfa8-2dd162227730">DVBSystemType</a> that receives the system type.
 

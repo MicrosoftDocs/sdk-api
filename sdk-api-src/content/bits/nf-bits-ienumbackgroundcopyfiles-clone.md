@@ -4,10 +4,10 @@ title: IEnumBackgroundCopyFiles::Clone
 author: windows-sdk-content
 description: Creates another IEnumBackgroundCopyFiles enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopyfiles_clone.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: ea2d2f76-7cd9-4e48-8a2c-3dd367afdee7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyFiles interface, IEnumBackgroundCopyFiles interface [BITS],Clone method, IEnumBackgroundCopyFiles.Clone, IEnumBackgroundCopyFiles::Clone, _drz_ienumbackgroundcopyfiles_clone, bits.ienumbackgroundcopyfiles_clone, bits/IEnumBackgroundCopyFiles::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ Using this method, a client can record a particular point in the enumeration seq
 
 
 
-### -param ppenum
-
-TBD
-
-
-
-
-#### - ppEnumFiles [out]
+### -param ppenum [out]
 
 Receives the interface pointer to the enumeration object. If the method is unsuccessful, the value of this output variable is undefined. You must release <i>ppEnumFiles</i> when done.
 

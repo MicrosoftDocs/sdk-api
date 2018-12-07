@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::get_PropertyConditions
 author: windows-sdk-content
 description: A list of property conditions specified for the job.
 old-location: fsrm\ifsrmfilemanagementjob_propertyconditions.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 49435c4b-211e-4aae-a6b3-ad40de811526
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],PropertyConditions property, IFsrmFileManagementJob.PropertyConditions, IFsrmFileManagementJob.get_PropertyConditions, IFsrmFileManagementJob::PropertyConditions, IFsrmFileManagementJob::get_PropertyConditions, PropertyConditions property [File Server Resource Manager], PropertyConditions property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_propertyconditions, fsrm.ifsrmfilemanagementjob_propertyconditions, fsrmreports/IFsrmFileManagementJob::PropertyConditions, fsrmreports/IFsrmFileManagementJob::get_PropertyConditions, get_PropertyConditions
 ms.prod: windows-hardware
 ms.technology: windows-devices

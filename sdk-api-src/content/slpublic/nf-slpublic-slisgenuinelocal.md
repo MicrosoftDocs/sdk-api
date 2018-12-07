@@ -7,7 +7,7 @@ old-location: security\slisgenuinelocal.htm
 tech.root: SecSLApi
 ms.assetid: e1983777-13c1-4bf5-834d-471db3bfa0f6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLIsGenuineLocal, SLIsGenuineLocal function [Security], security.slisgenuinelocal, slpublic/SLIsGenuineLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices

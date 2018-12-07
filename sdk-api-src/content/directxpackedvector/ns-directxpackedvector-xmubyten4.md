@@ -7,10 +7,10 @@ old-location: dxmath\xmubyten4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTEN4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: XMUBYTEN4, XMUBYTEN4 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTEN4, dxmath.xmubyten4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -96,6 +96,18 @@ Unsigned 8-bit integer value in the range [0, 255] describing the w-coordinate
 
 Unsigned 32-bit integer representing the 4D vector.
 		    
+
+
+### -field XMUBYTEN4
+
+TBD 
+
+
+### -field operator=
+
+TBD 
+
+
 
 
 ## -remarks

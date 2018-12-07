@@ -7,7 +7,7 @@ old-location: imapi\ienumprogressitems_next.htm
 tech.root: imapi
 ms.assetid: 9a6b4838-921b-444d-8ac2-f26d9762d9ce
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Next method, IEnumProgressItems.Next, IEnumProgressItems::Next, Next, Next method [IMAPI], Next method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_next, imapi2fs/IEnumProgressItems::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

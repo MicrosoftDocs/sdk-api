@@ -7,10 +7,10 @@ old-location: termserv\iworkspace2.htm
 tech.root: termserv
 ms.assetid: 8155cd78-4c6b-47a9-a2c7-f9fffc95f700
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWorkspace2, IWorkspace2 interface [Remote Desktop Services], IWorkspace2 interface [Remote Desktop Services],described, termserv.iworkspace2, workspaceruntime/IWorkspace2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h

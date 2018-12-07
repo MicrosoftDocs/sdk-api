@@ -4,10 +4,10 @@ title: ICspStatus::Initialize
 author: windows-sdk-content
 description: Initializes the object from a cryptographic provider and an associated algorithm.
 old-location: security\icspstatus_initialize.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: dc5f92e8-29fe-474c-bf1d-c6d7716abce1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICspStatus interface [Security],Initialize method, ICspStatus.Initialize, ICspStatus::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICspStatus interface, certenroll/ICspStatus::Initialize, security.icspstatus_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

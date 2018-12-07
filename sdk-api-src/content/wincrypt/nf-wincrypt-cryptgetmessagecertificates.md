@@ -7,7 +7,7 @@ old-location: security\cryptgetmessagecertificates.htm
 tech.root: seccrypto
 ms.assetid: d890f91f-bb45-463b-b7c0-56acc9367571
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CryptGetMessageCertificates, CryptGetMessageCertificates function [Security], _crypto2_cryptgetmessagecertificates, security.cryptgetmessagecertificates, wincrypt/CryptGetMessageCertificates
 ms.prod: windows-hardware
 ms.technology: windows-devices

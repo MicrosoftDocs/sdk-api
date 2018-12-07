@@ -7,7 +7,7 @@ old-location: dxmath\xmplanedot.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneDot(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMPlaneDot, XMPlaneDot, XMPlaneDot method [DirectX Math Support APIs], dxmath.xmplanedot
 ms.prod: windows-hardware
 ms.technology: windows-devices

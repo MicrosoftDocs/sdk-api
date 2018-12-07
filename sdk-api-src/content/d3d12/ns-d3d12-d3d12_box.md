@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_box.htm
 tech.root: direct3d12
 ms.assetid: DD3973CC-043E-486E-9403-B46D8B7DE644
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_BOX, D3D12_BOX structure, d3d12/D3D12_BOX, direct3d12.d3d12_box
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

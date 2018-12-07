@@ -7,7 +7,7 @@ old-location: controls\itextrow_setcellwidth.htm
 tech.root: controls
 ms.assetid: 321c5255-9cd5-46ea-a592-165d288bc452
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellWidth method, ITextRow.SetCellWidth, ITextRow::SetCellWidth, SetCellWidth, SetCellWidth method [Windows Controls], SetCellWidth method [Windows Controls],ITextRow interface, controls.itextrow_setcellwidth, tom/ITextRow::SetCellWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

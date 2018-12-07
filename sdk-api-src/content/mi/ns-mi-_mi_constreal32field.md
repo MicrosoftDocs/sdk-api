@@ -4,13 +4,13 @@ title: "_MI_ConstReal32Field"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constreal32field.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 3bf3a9fb-215c-44c2-9aa6-40c3af82c949
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ConstReal32Field, MI_ConstReal32Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstReal32Field, mi/MI_ConstReal32Field, wmi._mi_constreal32field, wmi_v2.mi_constreal32field
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

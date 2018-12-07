@@ -7,7 +7,7 @@ old-location: winprog\shiftright128.htm
 tech.root: WinProg
 ms.assetid: 36DF1BEE-A3C4-46A4-B512-0A8FC9F80EDE
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ShiftRight128, ShiftRight128 function [Windows API], winnt/ShiftRight128, winprog.shiftright128
 ms.prod: windows-hardware
 ms.technology: windows-devices

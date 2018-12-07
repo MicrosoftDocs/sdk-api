@@ -7,13 +7,13 @@ old-location: intl\immgetcandidatewindow.htm
 tech.root: Intl
 ms.assetid: 39800693-0eb5-4807-94b2-d11e6f98ba2c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ImmGetCandidateWindow, ImmGetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmGetCandidateWindow, imm/ImmGetCandidateWindow, intl.immgetcandidatewindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
-req.include-header: Windows.h
+req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

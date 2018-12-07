@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getnumstoredmessages.htm
 tech.root: direct3d12
 ms.assetid: 1574582B-312A-4775-A09A-8489C0FA3EDC
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: GetNumStoredMessages, GetNumStoredMessages method, GetNumStoredMessages method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumStoredMessages method, ID3D12InfoQueue.GetNumStoredMessages, ID3D12InfoQueue::GetNumStoredMessages, d3d12sdklayers/ID3D12InfoQueue::GetNumStoredMessages, direct3d12.id3d12infoqueue_getnumstoredmessages
 ms.prod: windows-hardware
 ms.technology: windows-devices

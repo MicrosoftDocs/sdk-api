@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetInsertMarkColor.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setinsertmarkcolor.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: TreeView_SetInsertMarkColor, TreeView_SetInsertMarkColor macro [Windows Controls], _win32_TreeView_SetInsertMarkColor, _win32_TreeView_SetInsertMarkColor_cpp, commctrl/TreeView_SetInsertMarkColor, controls.TreeView_SetInsertMarkColor, controls._win32_TreeView_SetInsertMarkColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

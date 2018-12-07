@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_userestrictedcharacterset.htm
 tech.root: imapi
 ms.assetid: 106615e8-f1d4-4ac9-b96a-bcda204f5e2c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UseRestrictedCharacterSet method, IFileSystemImage.get_UseRestrictedCharacterSet, IFileSystemImage::get_UseRestrictedCharacterSet, get_UseRestrictedCharacterSet, get_UseRestrictedCharacterSet method [IMAPI], get_UseRestrictedCharacterSet method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_userestrictedcharacterset, imapi2fs/IFileSystemImage::get_UseRestrictedCharacterSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

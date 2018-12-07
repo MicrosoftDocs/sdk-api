@@ -4,10 +4,10 @@ title: IStreamBufferDataCounters::GetData
 author: windows-sdk-content
 description: The GetData method returns performance data for the Stream Buffer Engine.
 old-location: mstv\istreambufferdatacounters_getdata.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 15895ff3-37e5-4f89-bcce-3b9f060c0746
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IStreamBufferDataCounters interface, IStreamBufferDataCounters interface [Microsoft TV Technologies],GetData method, IStreamBufferDataCounters.GetData, IStreamBufferDataCounters::GetData, IStreamBufferDataCountersGetData, mstv.istreambufferdatacounters_getdata, sbe/IStreamBufferDataCounters::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

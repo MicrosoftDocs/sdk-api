@@ -7,7 +7,7 @@ old-location: multimedia\midiingetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: c3104427-69a9-434f-9f4e-780c96940c21
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiInGetDevCaps, midiInGetDevCaps, midiInGetDevCaps function [Windows Multimedia], midiInGetDevCapsA, midiInGetDevCapsW, mmeapi/midiInGetDevCaps, mmeapi/midiInGetDevCapsA, mmeapi/midiInGetDevCapsW, multimedia.midiingetdevcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,24 +72,12 @@ Identifier of the MIDI input device. The device identifier varies from zero to o
 
 ### -param pmic
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/358f0d4e-afdd-4a20-9572-ebb6e0000780">MIDIINCAPS</a> structure that is filled with information about the capabilities of the device.
 
 
 ### -param cbmic
 
-TBD
-
-
-
-
-#### - cbMidiInCaps
-
 Size, in bytes, of the <a href="https://msdn.microsoft.com/358f0d4e-afdd-4a20-9572-ebb6e0000780">MIDIINCAPS</a> structure. Only <i>cbMidiInCaps</i> bytes (or less) of information is copied to the location pointed to by <i>lpMidiInCaps</i>. If <i>cbMidiInCaps</i> is zero, nothing is copied, and the function returns MMSYSERR_NOERROR.
-
-
-#### - lpMidiInCaps
-
-Pointer to a <a href="https://msdn.microsoft.com/358f0d4e-afdd-4a20-9572-ebb6e0000780">MIDIINCAPS</a> structure that is filled with information about the capabilities of the device.
 
 
 ## -returns

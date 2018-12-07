@@ -7,10 +7,10 @@ old-location: gdi\outlinetextmetric.htm
 tech.root: gdi
 ms.assetid: 79d77df0-193a-49a8-b93d-4ef5807c3c9b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPOUTLINETEXTMETRICA, *NPOUTLINETEXTMETRICA, *POUTLINETEXTMETRICA, OUTLINETEXTMETRIC, OUTLINETEXTMETRIC structure [Windows GDI], OUTLINETEXTMETRICA, OUTLINETEXTMETRICW, POUTLINETEXTMETRIC, POUTLINETEXTMETRIC structure pointer [Windows GDI], _OUTLINETEXTMETRICA, _win32_OUTLINETEXTMETRIC_str, gdi.outlinetextmetric, wingdi/OUTLINETEXTMETRIC, wingdi/OUTLINETEXTMETRICA, wingdi/OUTLINETEXTMETRICW, wingdi/POUTLINETEXTMETRIC"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

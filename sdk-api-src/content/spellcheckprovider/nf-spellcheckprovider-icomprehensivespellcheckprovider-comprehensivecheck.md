@@ -7,7 +7,7 @@ old-location: intl\icomprehensivespellcheckprovider_comprehensivecheck.htm
 tech.root: Intl
 ms.assetid: BD334EB8-4E14-478D-AB2A-E7F863C4BE0F
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications],IComprehensiveSpellCheckProvider interface, IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications],ComprehensiveCheck method, IComprehensiveSpellCheckProvider.ComprehensiveCheck, IComprehensiveSpellCheckProvider::ComprehensiveCheck, intl.icomprehensivespellcheckprovider_comprehensivecheck, spellcheckprovider/IComprehensiveSpellCheckProvider::ComprehensiveCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ Spell-check the provider text in a more thorough manner than <a href="https://ms
 The text to check.
 
 
-### -param value
-
-TBD
-
-
-
-
-#### - result [out]
+### -param value [out]
 
 The result of checking this text, as an enumeration of spelling errors (<a href="https://msdn.microsoft.com/bd284569-cafe-4993-a832-0683212c8b92">IEnumSpellingError</a>), if any.
 

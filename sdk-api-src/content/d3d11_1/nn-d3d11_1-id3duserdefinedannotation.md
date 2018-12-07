@@ -7,10 +7,10 @@ old-location: direct3d11\id3duserdefinedannotation.htm
 tech.root: direct3d11
 ms.assetid: 255DE24B-3D6D-49D9-B6A8-D296AB99B4C9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ID3DUserDefinedAnnotation, ID3DUserDefinedAnnotation interface [Direct3D 11], ID3DUserDefinedAnnotation interface [Direct3D 11],described, d3d11_1/ID3DUserDefinedAnnotation, direct3d11.id3duserdefinedannotation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11_1.h
 req.include-header: 

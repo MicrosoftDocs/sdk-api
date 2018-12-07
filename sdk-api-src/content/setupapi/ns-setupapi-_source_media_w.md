@@ -7,10 +7,10 @@ old-location: setup\source_media_str.htm
 tech.root: SetupApi
 ms.assetid: 93a72ec8-b979-4e61-bb06-eed1a6432f16
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSOURCE_MEDIA_W, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [Setup API], SOURCE_MEDIA, SOURCE_MEDIA structure [Setup API], SOURCE_MEDIA_W, _SOURCE_MEDIA_W, _setupapi_source_media_str, setup.source_media_str, setupapi/PSOURCE_MEDIA, setupapi/SOURCE_MEDIA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 

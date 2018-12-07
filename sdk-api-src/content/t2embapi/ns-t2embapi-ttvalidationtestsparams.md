@@ -7,10 +7,10 @@ old-location: gdi\ttvalidationtestparams.htm
 tech.root: gdi
 ms.assetid: 901fd8e5-1602-4e20-9269-d0c3fe661e45
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: TTVALIDATIONTESTSPARAMS, TTVALIDATIONTESTSPARAMS structure [Windows GDI], _win32_TTVALIDATIONTESTPARAMS, gdi.ttvalidationtestparams, t2embapi/TTVALIDATIONTESTSPARAMS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: t2embapi.h
 req.include-header: 

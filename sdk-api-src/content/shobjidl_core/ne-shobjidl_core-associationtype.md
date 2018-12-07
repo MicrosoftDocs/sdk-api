@@ -7,10 +7,10 @@ old-location: shell\ASSOCIATIONTYPE.htm
 tech.root: shell
 ms.assetid: 3dbbe748-5e83-4103-932a-b51a2a55f9fd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ASSOCIATIONTYPE, ASSOCIATIONTYPE enumeration [Windows Shell], AT_FILEEXTENSION, AT_MIMETYPE, AT_STARTMENUCLIENT, AT_URLPROTOCOL, _shell_ASSOCIATIONTYPE, shell.ASSOCIATIONTYPE, shobjidl_core/ASSOCIATIONTYPE, shobjidl_core/AT_FILEEXTENSION, shobjidl_core/AT_MIMETYPE, shobjidl_core/AT_STARTMENUCLIENT, shobjidl_core/AT_URLPROTOCOL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

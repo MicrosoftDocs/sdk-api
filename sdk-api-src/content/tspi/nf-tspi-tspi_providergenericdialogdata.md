@@ -7,7 +7,7 @@ old-location: tspi\tspi_providergenericdialogdata.htm
 tech.root: tapi
 ms.assetid: f48d1995-c775-4ae6-9af8-5f5f5c4f4ebe
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_providerGenericDialogData, TSPI_providerGenericDialogData function [TAPI 2.2], _tspi_tspi_providergenericdialogdata, tspi.tspi_providergenericdialogdata, tspi/TSPI_providerGenericDialogData
 ms.prod: windows-hardware
 ms.technology: windows-devices

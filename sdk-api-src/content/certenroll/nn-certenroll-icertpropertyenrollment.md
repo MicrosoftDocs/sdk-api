@@ -4,13 +4,13 @@ title: ICertPropertyEnrollment
 author: windows-sdk-content
 description: Represents a certificate property that contains certificate and certification authority (CA) information created when the client calls the Enroll method on the IX509Enrollment interface.
 old-location: security\icertpropertyenrollment.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 7530998b-b59c-426b-a74a-ead4bca55c3b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICertPropertyEnrollment, ICertPropertyEnrollment interface [Security], ICertPropertyEnrollment interface [Security],described, certenroll/ICertPropertyEnrollment, security.icertpropertyenrollment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -4,13 +4,13 @@ title: IOfflineFilesSuspend
 author: windows-sdk-content
 description: Suspends or releases a share root or directory tree in the Offline Files cache.
 old-location: of\iofflinefilessuspend.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 697018c4-7cce-480a-b078-993cdac32bf5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesSuspend, IOfflineFilesSuspend interface [Offline Files], IOfflineFilesSuspend interface [Offline Files],described, cscobj/IOfflineFilesSuspend, of.iofflinefilessuspend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

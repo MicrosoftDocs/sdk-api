@@ -7,10 +7,10 @@ old-location: security\wlx_dispatch_version_1_2.htm
 tech.root: secauthn
 ms.assetid: d6b3444f-ee74-40b3-a729-304c8e50195b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWLX_DISPATCH_VERSION_1_2, PWLX_DISPATCH_VERSION_1_2, PWLX_DISPATCH_VERSION_1_2 structure pointer [Security], WLX_DISPATCH_VERSION_1_2, WLX_DISPATCH_VERSION_1_2 structure [Security], _WLX_DISPATCH_VERSION_1_2, _gina_wlx_dispatch_version_1_2, security.wlx_dispatch_version_1_2, winwlx/PWLX_DISPATCH_VERSION_1_2, winwlx/WLX_DISPATCH_VERSION_1_2"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: cos\idispensermanager_registerdispenser.htm
 tech.root: cossdk
 ms.assetid: 18633c7f-d589-4e38-82e7-7cdae3fbf1ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDispenserManager interface [COM+],RegisterDispenser method, IDispenserManager.RegisterDispenser, IDispenserManager::RegisterDispenser, RegisterDispenser, RegisterDispenser method [COM+], RegisterDispenser method [COM+],IDispenserManager interface, _dtc_IDispenserManager_RegisterDispenser, comsvcs/IDispenserManager::RegisterDispenser, cos.idispensermanager_registerdispenser
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ Registers the resource dispenser with the dispenser manager.
 
 
 
-### -param __MIDL__IDispenserManager0000
+### -param __MIDL__IDispenserManager0000 [in]
 
-TBD
+The <a href="https://msdn.microsoft.com/dba9c616-031d-48a7-b3e3-eb28b95a573a">IDispenserDriver</a> interface the Resource Dispenser offers to the Dispenser Manager to use later to notify the Resource Dispenser.
 
 
 ### -param szDispenserName [in]
@@ -68,19 +68,7 @@ TBD
 A friendly name of the Resource Dispenser for administrator display.
 
 
-### -param __MIDL__IDispenserManager0001
-
-TBD
-
-
-
-
-#### - pDispenserDriver [in]
-
-The <a href="https://msdn.microsoft.com/dba9c616-031d-48a7-b3e3-eb28b95a573a">IDispenserDriver</a> interface the Resource Dispenser offers to the Dispenser Manager to use later to notify the Resource Dispenser.
-
-
-#### - ppIHolder [out]
+### -param __MIDL__IDispenserManager0001 [out]
 
 The <a href="https://msdn.microsoft.com/3c852e72-2fdc-4fd0-b523-f5601154da2a">IHolder</a> interface that has been instantiated for the resource dispenser.
 

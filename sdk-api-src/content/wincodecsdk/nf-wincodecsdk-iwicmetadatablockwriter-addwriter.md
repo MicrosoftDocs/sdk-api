@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatablockwriter_addwriter.htm
 tech.root: wic
 ms.assetid: 25a0e662-a249-4218-a77e-37b11e0f8536
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: AddWriter, AddWriter method [Windows Imaging Component], AddWriter method [Windows Imaging Component],IWICMetadataBlockWriter interface, IWICMetadataBlockWriter interface [Windows Imaging Component],AddWriter method, IWICMetadataBlockWriter.AddWriter, IWICMetadataBlockWriter::AddWriter, _wic_codec_iwicmetadatablockwriter_addwriter, wic._wic_codec_iwicmetadatablockwriter_addwriter, wincodecsdk/IWICMetadataBlockWriter::AddWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

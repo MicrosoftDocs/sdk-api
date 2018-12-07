@@ -1,16 +1,16 @@
 ---
 UID: NS:ipexport.ip_option_information32
-title: ip_option_information32
+title: IP_OPTION_INFORMATION32
 author: windows-sdk-content
 description: Describes the options to be included in the header of an IP packet on a 64-bit platform.
 old-location: iphlp\ip_option_information32.htm
 tech.root: IpHlp
 ms.assetid: 3924230d-ff10-43ac-981c-81273bce6896
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: "*PIP_OPTION_INFORMATION32, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION32, IP_OPTION_INFORMATION32 structure [IP Helper], PIP_OPTION_INFORMATION32, PIP_OPTION_INFORMATION32 structure pointer [IP Helper], ip_option_information32, ipexport/IP_OPTION_INFORMATION32, ipexport/PIP_OPTION_INFORMATION32, iphlp.ip_option_information32"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 12/5/2018
+ms.keywords: "*PIP_OPTION_INFORMATION32, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION32, IP_OPTION_INFORMATION32 structure [IP Helper], PIP_OPTION_INFORMATION32, PIP_OPTION_INFORMATION32 structure pointer [IP Helper], ipexport/IP_OPTION_INFORMATION32, ipexport/PIP_OPTION_INFORMATION32, iphlp.ip_option_information32"
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
@@ -44,7 +44,7 @@ req.typenames: IP_OPTION_INFORMATION32, *PIP_OPTION_INFORMATION32
 req.redist: 
 ---
 
-# ip_option_information32 structure
+# IP_OPTION_INFORMATION32 structure
 
 
 ## -description

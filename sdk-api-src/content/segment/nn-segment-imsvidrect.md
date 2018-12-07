@@ -4,13 +4,13 @@ title: IMSVidRect
 author: windows-sdk-content
 description: The IMSVidRect interface represents a rectangle with an associated window handle.
 old-location: mstv\imsvidrect.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0b3cf31b-e0cc-4208-a128-b77460fc0f1b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], IMSVidRect interface [Microsoft TV Technologies],described, IMSVidRectInterface, mstv.imsvidrect, segment/IMSVidRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

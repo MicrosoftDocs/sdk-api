@@ -7,10 +7,10 @@ old-location: mbn\mbn_radio.htm
 tech.root: mbn
 ms.assetid: 4655b909-7c30-4781-8171-7d7ba0e934ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: MBN_RADIO, MBN_RADIO enumeration [Microsoft Broadband Networks], MBN_RADIO_OFF, MBN_RADIO_ON, mbn.mbn_radio, mbnapi/MBN_RADIO, mbnapi/MBN_RADIO_OFF, mbnapi/MBN_RADIO_ON
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

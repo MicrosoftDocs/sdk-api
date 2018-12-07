@@ -7,10 +7,10 @@ old-location: wsw\ws_service_security_callback.htm
 tech.root: wsw
 ms.assetid: 0fa127ea-a715-4f21-8b49-3c2705c2bf5d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_SERVICE_SECURITY_CALLBACK, WS_SERVICE_SECURITY_CALLBACK callback, WS_SERVICE_SECURITY_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_SECURITY_CALLBACK, wsw.ws_service_security_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

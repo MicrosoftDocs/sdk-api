@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getwindow.htm
 tech.root: controls
 ms.assetid: 4bf5e644-292e-4847-8dad-71e8ccf86205
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetWindow, GetWindow method [Windows Controls], GetWindow method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetWindow method, ITextDocument2.GetWindow, ITextDocument2::GetWindow, controls.itextdocument2_getwindow, tom/ITextDocument2::GetWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

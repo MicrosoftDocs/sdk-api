@@ -7,7 +7,7 @@ old-location: dxmath\xmplanedotnormal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneDotNormal(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMPlaneDotNormal, XMPlaneDotNormal, XMPlaneDotNormal method [DirectX Math Support APIs], dxmath.xmplanedotnormal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,24 +62,17 @@ Calculates the dot product between the normal vector of a plane and a 3D vector.
 
 <b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation 
 
-<div class="code"><span codelanguage=""><table>
-<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR vectorOut;
+
+```
+XMVECTOR vectorOut;
 
 vectorOut.x = P.x * V.x + P.y * V.y + P.z * V.z;
 vectorOut.y = P.x * V.x + P.y * V.y + P.z * V.z;
 vectorOut.z = P.x * V.x + P.y * V.y + P.z * V.z;
 vectorOut.w = P.x * V.x + P.y * V.y + P.z * V.z;
 
-return vectorOut;</pre>
-</td>
-</tr>
-</table></span></div>
+return vectorOut;
+```
 
 .
 

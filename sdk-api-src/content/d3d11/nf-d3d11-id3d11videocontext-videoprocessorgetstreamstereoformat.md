@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamstereoformat.htm
 tech.root: medfound
 ms.assetid: FCEE6C95-C631-4268-9B06-686B8AC7D80C
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: FALSE, ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamStereoFormat method, ID3D11VideoContext.VideoProcessorGetStreamStereoFormat, ID3D11VideoContext::VideoProcessorGetStreamStereoFormat, TRUE, VideoProcessorGetStreamStereoFormat, VideoProcessorGetStreamStereoFormat method [Media Foundation], VideoProcessorGetStreamStereoFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamStereoFormat, mf.id3d11videocontext_videoprocessorgetstreamstereoformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,9 +68,9 @@ A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDF
 The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://msdn.microsoft.com/BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
 
 
-### -param pEnable
+### -param pEnable [out]
 
-TBD
+Receives the value <b>TRUE</b> if stereo 3D is enabled for this stream, or <b>FALSE</b> otherwise. If the value is <b>FALSE</b>, ignore the remaining parameters.
 
 
 ### -param pFormat [out]
@@ -153,11 +153,6 @@ Receives a <a href="https://msdn.microsoft.com/2BCC3190-BD27-465D-B9D6-346FAD5E0
 ### -param MonoOffset [out]
 
 Receives the pixel offset used for <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b> format. This parameter is ignored for other stereo formats.
-
-
-#### - pEnabled [out]
-
-Receives the value <b>TRUE</b> if stereo 3D is enabled for this stream, or <b>FALSE</b> otherwise. If the value is <b>FALSE</b>, ignore the remaining parameters.
 
 
 ## -returns

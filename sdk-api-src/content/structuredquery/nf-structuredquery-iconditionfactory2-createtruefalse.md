@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateTrueFalse.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createtruefalse.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: CreateTrueFalse, CreateTrueFalse method [search], CreateTrueFalse method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateTrueFalse method, IConditionFactory2.CreateTrueFalse, IConditionFactory2::CreateTrueFalse, _search_IConditionFactory2_CreateTrueFalse, search._search_IConditionFactory2_CreateTrueFalse, structuredquery/IConditionFactory2::CreateTrueFalse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,9 +59,11 @@ Creates a search condition that is either <b>TRUE</b> or <b>FALSE</b>. The retur
 
 
 
-### -param fVal
+### -param fVal [in]
 
-TBD
+Type: <b>BOOL</b>
+
+The value of the search condition to use. <i>fValue</i> should typically be set to VARIANT_FALSE.
 
 
 ### -param cco [in]
@@ -83,13 +85,6 @@ The desired IID of the enumerating interface: either <a href="https://msdn.micro
 Type: <b>void**</b>
 
 Receives a pointer to zero or more <a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a> objects.
-
-
-#### - fValue [in]
-
-Type: <b>BOOL</b>
-
-The value of the search condition to use. <i>fValue</i> should typically be set to VARIANT_FALSE.
 
 
 ## -returns

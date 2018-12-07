@@ -4,13 +4,13 @@ title: IBackgroundCopyCallback1
 author: windows-sdk-content
 description: Implement the IBackgroundCopyCallback1 interface to receive notification when events occur.
 old-location: bits\ibackgroundcopycallback1.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: d5d22cf6-d9b5-4001-a0ac-f67d59dde779
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyCallback1, IBackgroundCopyCallback1 interface [BITS], IBackgroundCopyCallback1 interface [BITS],described, bits.ibackgroundcopycallback1, qmgr/IBackgroundCopyCallback1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: qmgr.h
 req.include-header: 

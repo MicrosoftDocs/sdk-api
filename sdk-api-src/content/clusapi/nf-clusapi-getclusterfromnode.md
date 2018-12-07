@@ -7,7 +7,7 @@ old-location: mscs\getclusterfromnode.htm
 tech.root: mscs
 ms.assetid: 8cc0f881-fbf2-452c-a044-58939f4e01ea
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: GetClusterFromNode, GetClusterFromNode function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_NODE, PCLUSAPI_GET_CLUSTER_FROM_NODE function [Failover Cluster], _wolf_getclusterfromnode, clusapi/GetClusterFromNode, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NODE, mscs.getclusterfromnode
 ms.prod: windows-hardware
 ms.technology: windows-devices

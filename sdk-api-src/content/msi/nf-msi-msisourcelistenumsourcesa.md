@@ -7,7 +7,7 @@ old-location: setup\msisourcelistenumsources.htm
 tech.root: msi
 ms.assetid: 30a5efae-ebb5-4ff3-880a-4eed1bc8eed4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListEnumSources, MsiSourceListEnumSources function, MsiSourceListEnumSourcesA, MsiSourceListEnumSourcesW, NULL, User SID, msi/MsiSourceListEnumSources, msi/MsiSourceListEnumSourcesA, msi/MsiSourceListEnumSourcesW, s-1-1-0, setup.msisourcelistenumsources
 ms.prod: windows-hardware
 ms.technology: windows-devices

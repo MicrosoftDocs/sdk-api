@@ -4,10 +4,10 @@ title: MI_Session_Subscribe function
 author: windows-sdk-content
 description: Subscribes to an indication on the server represented by the session.
 old-location: wmi_v2\mi_session_subscribe.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: fed64a7a-ef16-4e9b-91b4-7ecede099585
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Session_Subscribe, MI_Session_Subscribe function [Windows Management Infrastructure (MI)], mi/MI_Session_Subscribe, wmi_v2.mi_session_subscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices

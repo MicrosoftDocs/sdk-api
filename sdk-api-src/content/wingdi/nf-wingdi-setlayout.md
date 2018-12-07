@@ -7,7 +7,7 @@ old-location: gdi\setlayout.htm
 tech.root: gdi
 ms.assetid: 81c6dccd-cfb1-486f-8c25-f46ba7c3ff8d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: LAYOUT_BITMAPORIENTATIONPRESERVED, LAYOUT_RTL, SetLayout, SetLayout function [Windows GDI], _win32_SetLayout, gdi.setlayout, wingdi/SetLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

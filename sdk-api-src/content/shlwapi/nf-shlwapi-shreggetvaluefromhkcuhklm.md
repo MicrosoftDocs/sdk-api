@@ -7,7 +7,7 @@ old-location: shell\SHRegGetValueFromHKCUHKLM.htm
 tech.root: shell
 ms.assetid: 5c4b13f4-0dd8-476e-9e89-ace23d541389
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SHRegGetValueFromHKCUHKLM, SHRegGetValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetValueFromHKCUHKLM, shell.SHRegGetValueFromHKCUHKLM, shlwapi/SHRegGetValueFromHKCUHKLM
 ms.prod: windows-hardware
 ms.technology: windows-devices

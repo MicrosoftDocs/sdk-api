@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContact_GetContactID.htm
 tech.root: wincontacts
 ms.assetid: 25daa44f-2042-4116-b0dd-4f16857cbb0b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetContactID, GetContactID method [Windows Contacts], GetContactID method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],GetContactID method, IContact.GetContactID, IContact::GetContactID, _wincontacts_IContact_GetContactID, icontact/IContact::GetContactID, wincontacts._wincontacts_IContact_GetContactID
 ms.prod: windows-hardware
 ms.technology: windows-devices

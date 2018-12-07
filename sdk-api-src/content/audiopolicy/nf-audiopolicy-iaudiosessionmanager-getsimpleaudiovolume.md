@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager_getsimpleaudiovolume.htm
 tech.root: CoreAudio
 ms.assetid: 2f3c5a40-308f-48b4-b35c-aebd0cc6b849
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GetSimpleAudioVolume, GetSimpleAudioVolume method [Core Audio], GetSimpleAudioVolume method [Core Audio],IAudioSessionManager interface, IAudioSessionManager interface [Core Audio],GetSimpleAudioVolume method, IAudioSessionManager.GetSimpleAudioVolume, IAudioSessionManager::GetSimpleAudioVolume, IAudioSessionManagerGetSimpleAudioVolume, audiopolicy/IAudioSessionManager::GetSimpleAudioVolume, coreaudio.iaudiosessionmanager_getsimpleaudiovolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,19 +66,14 @@ The <b>GetSimpleAudioVolume</b> method retrieves a simple audio volume control.
 Pointer to a session GUID. If the GUID does not identify a session that has been previously opened, the call opens a new but empty session. The Sndvol program does not display a volume-level control for a session unless it contains one or more active streams. If this parameter is <b>NULL</b> or points to the value GUID_NULL, the method assigns the stream to the default session.
 
 
-### -param StreamFlags
+### -param StreamFlags [in]
 
-TBD
+Specifies whether the request is for a cross-process session. Set to <b>TRUE</b> if the session is cross-process. Set to <b>FALSE</b> if the session is not cross-process.
 
 
 ### -param AudioVolume [out]
 
 Pointer to a pointer variable into which the method writes a pointer to the <a href="https://msdn.microsoft.com/360211f2-de82-4ff5-896c-dee1d60cb7b7">ISimpleAudioVolume</a> interface of the audio volume control object. This interface represents the simple audio volume control for the current process. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>Activate</b> call fails, <i>*AudioVolume</i> is <b>NULL</b>.
-
-
-#### - CrossProcessSession [in]
-
-Specifies whether the request is for a cross-process session. Set to <b>TRUE</b> if the session is cross-process. Set to <b>FALSE</b> if the session is not cross-process.
 
 
 ## -returns

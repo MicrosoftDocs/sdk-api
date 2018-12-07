@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::EnumFiles
 author: windows-sdk-content
 description: Retrieves an IEnumBackgroundCopyFiles interface pointer that you use to enumerate the files in a job.
 old-location: bits\ibackgroundcopyjob_enumfiles.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: c6b8ef69-9c67-447f-9f90-b6905a5a5a19
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EnumFiles, EnumFiles method [BITS], EnumFiles method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],EnumFiles method, IBackgroundCopyJob.EnumFiles, IBackgroundCopyJob::EnumFiles, _drz_ibackgroundcopyjob_enumfiles, bits.ibackgroundcopyjob_enumfiles, bits/IBackgroundCopyJob::EnumFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,7 @@ Retrieves an
 
 
 
-### -param pEnum
-
-TBD
-
-
-
-
-#### - ppEnumFiles [out]
+### -param pEnum [out]
 
 
 <a href="https://msdn.microsoft.com/en-us/library/Aa363097(v=VS.85).aspx">IEnumBackgroundCopyFiles</a> interface pointer that you use to enumerate the files in the job. Release <i>ppEnumFiles</i> when done.

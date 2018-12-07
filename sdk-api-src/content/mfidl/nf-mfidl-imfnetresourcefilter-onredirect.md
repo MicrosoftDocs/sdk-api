@@ -7,7 +7,7 @@ old-location: mf\imfnetresourcefilter_onredirect.htm
 tech.root: medfound
 ms.assetid: 418EA3E0-9732-43B7-BF80-A85ECB7A9485
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnRedirect method, IMFNetResourceFilter.OnRedirect, IMFNetResourceFilter::OnRedirect, OnRedirect, OnRedirect method [Media Foundation], OnRedirect method [Media Foundation],IMFNetResourceFilter interface, mf.imfnetresourcefilter_onredirect, mfidl/IMFNetResourceFilter::OnRedirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,14 @@ Called when the byte stream redirects to a URL.
 
 
 
-### -param pszUrl
+### -param pszUrl [in]
 
-TBD
+The URL to which the connection has been redirected.
 
 
 ### -param pvbCancel [out]
 
 To cancel the redirection, set this parameter to <b>VARIANT_TRUE</b>. To allow the redirection, set this parameter to <b>VARIANT_FALSE</b>.
-
-
-#### - [in]
-
-The URL to which the connection has been redirected.
 
 
 ## -returns

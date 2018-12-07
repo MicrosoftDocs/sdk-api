@@ -4,10 +4,10 @@ title: IOfflineFilesEventsFilter::GetExcludedEvents
 author: windows-sdk-content
 description: Retrieves an array of OFFLINEFILES_EVENTS enumeration values describing which events should not be received by the event sink.
 old-location: of\iofflinefileseventsfilter_getexcludedevents.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 40e388b2-b051-4b0a-b96e-7a73b521758e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetExcludedEvents, GetExcludedEvents method [Offline Files], GetExcludedEvents method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetExcludedEvents method, IOfflineFilesEventsFilter.GetExcludedEvents, IOfflineFilesEventsFilter::GetExcludedEvents, cscobj/IOfflineFilesEventsFilter::GetExcludedEvents, of.iofflinefileseventsfilter_getexcludedevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

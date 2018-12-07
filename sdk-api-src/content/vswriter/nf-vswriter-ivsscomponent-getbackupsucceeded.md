@@ -4,10 +4,10 @@ title: IVssComponent::GetBackupSucceeded
 author: windows-sdk-content
 description: The GetBackupSucceeded method returns the status of a complete attempt at backing up all the files of a selected component or component set as a VSS_FILE_RESTORE_STATUS enumeration.
 old-location: base\ivsscomponent_getbackupsucceeded.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 9b2dce08-a4ab-4e55-aeef-819f71ddf9d2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetBackupSucceeded, GetBackupSucceeded method [VSS], GetBackupSucceeded method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupSucceeded method, IVssComponent.GetBackupSucceeded, IVssComponent::GetBackupSucceeded, _win32_ivsscomponent_getbackupsucceeded, base.ivsscomponent_getbackupsucceeded, vswriter/IVssComponent::GetBackupSucceeded
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\openclusterresourceex.htm
 tech.root: mscs
 ms.assetid: bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: OpenClusterResourceEx, OpenClusterResourceEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX function [Failover Cluster], clusapi/OpenClusterResourceEx, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, mscs.openclusterresourceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,6 +97,30 @@ Optional parameter that contains the address of a <b>DWORD</b> that will receive
 If the operation was successful, 
       <b>OpenClusterResourceEx</b> returns a handle to the 
       opened resource.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the 
+        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. If the target server does not 
+        support the <a href="https://msdn.microsoft.com/bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a">OpenClusterResourceEx</a> function 
+        (for example if the target server is running Windows Server 2008 or earlier) then the 
+        <b>GetLastError</b> function will return 
+        <b>RPC_S_PROCNUM_OUT_OF_RANGE</b> (1745).
+
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -7,7 +7,7 @@ old-location: dxmath\xmloaduint3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUInt3(const XMUINT3)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadUInt3, XMLoadUInt3, XMLoadUInt3 method [DirectX Math Support APIs], dxmath.xmloaduint3
 ms.prod: windows-hardware
 ms.technology: windows-devices

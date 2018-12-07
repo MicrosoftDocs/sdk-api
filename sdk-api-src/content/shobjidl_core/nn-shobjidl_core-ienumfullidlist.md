@@ -7,10 +7,10 @@ old-location: shell\IEnumFullIDList.htm
 tech.root: shell
 ms.assetid: 1350e914-7935-42dd-b1b0-e447589dfb12
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumFullIDList, IEnumFullIDList interface [Windows Shell], IEnumFullIDList interface [Windows Shell],described, _shell_IEnumFullIDList, shell.IEnumFullIDList, shobjidl_core/IEnumFullIDList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -4,10 +4,10 @@ title: IDvbLinkageDescriptor::GetPrivateData
 author: windows-sdk-content
 description: Gets the private data from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getprivatedata.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 959aeb87-b661-4567-a6fd-2d28be6b0a02
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Microsoft TV Technologies], GetPrivateData method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetPrivateData method, IDvbLinkageDescriptor.GetPrivateData, IDvbLinkageDescriptor::GetPrivateData, dvbsiparser/IDvbLinkageDescriptor::GetPrivateData, mstv.idvblinkagedescriptor_getprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

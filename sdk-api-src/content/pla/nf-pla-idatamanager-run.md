@@ -4,10 +4,10 @@ title: IDataManager::Run
 author: windows-sdk-content
 description: Manually runs the data manager.
 old-location: pla\idatamanager_run.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: a1016784-8841-485f-885e-3719bdb0ae05
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IDataManager interface [PLA],Run method, IDataManager.Run, IDataManager::Run, Run, Run method [PLA], Run method [PLA],IDataManager interface, base.idatamanager_run, pla.idatamanager_run, pla/IDataManager::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IADsPathname::GetNumElements
 author: windows-sdk-content
 description: Retrieves the number of elements in the path.
 old-location: adsi\iadspathname_getnumelements.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: ad6518c8-d379-4062-888f-cbf84995fc39
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetNumElements, GetNumElements method [ADSI], GetNumElements method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetNumElements method, IADsPathname.GetNumElements, IADsPathname::GetNumElements, _ds_iadspathname_getnumelements, adsi.iadspathname__getnumelements, adsi.iadspathname_getnumelements, iads/IADsPathname::GetNumElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>IADsPathname::GetNumElements</b> method retrieves the number of elements 
 
 
 
-### -param plnNumPathElements
-
-TBD
-
-
-
-
-#### - dwNumPathElements [out]
+### -param plnNumPathElements [out]
 
 The number of elements in the path.
 

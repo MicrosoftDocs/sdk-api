@@ -4,13 +4,13 @@ title: "_USER_INFO_1052"
 author: windows-sdk-content
 description: The USER_INFO_1052 structure contains the path to a network user's profile. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1052_str.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 55ec6819-8558-413a-9a79-c2d59993163d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPUSER_INFO_1052, *PUSER_INFO_1052, LPUSER_INFO_1052, LPUSER_INFO_1052 structure pointer [Network Management], PUSER_INFO_1052, PUSER_INFO_1052 structure pointer [Network Management], USER_INFO_1052, USER_INFO_1052 structure [Network Management], _USER_INFO_1052, _win32_user_info_1052_str, lmaccess/LPUSER_INFO_1052, lmaccess/PUSER_INFO_1052, lmaccess/USER_INFO_1052, netmgmt.user_info_1052_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

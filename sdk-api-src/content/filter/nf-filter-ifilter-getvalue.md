@@ -7,7 +7,7 @@ old-location: indexsrv\ifilter_getvalue.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1cpx.htm
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetValue, GetValue method [Indexing Service], GetValue method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetValue method, IFilter.GetValue, IFilter::GetValue, _idxs_IFilter_GetValue, filter/IFilter::GetValue, indexsrv.ifilter_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

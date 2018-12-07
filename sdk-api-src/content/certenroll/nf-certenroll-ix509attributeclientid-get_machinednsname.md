@@ -4,10 +4,10 @@ title: IX509AttributeClientId::get_MachineDnsName
 author: windows-sdk-content
 description: Retrieves the Domain Name System (DNS) name of the computer that generated the request.
 old-location: security\ix509attributeclientid_machinednsname_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 596682fc-aaf4-4247-a44b-34001cf7aecb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IX509AttributeClientId interface [Security],MachineDnsName property, IX509AttributeClientId.MachineDnsName, IX509AttributeClientId.get_MachineDnsName, IX509AttributeClientId::MachineDnsName, IX509AttributeClientId::get_MachineDnsName, MachineDnsName property [Security], MachineDnsName property [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::MachineDnsName, certenroll/IX509AttributeClientId::get_MachineDnsName, get_MachineDnsName, security.ix509attributeclientid_machinednsname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__mousedown.htm
 tech.root: WMP
 ms.assetid: 4fbf1fdf-3d15-4d43-b319-5c83712e7f2f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MouseDown method, IWMPEvents.MouseDown, IWMPEvents::MouseDown, IWMPEventsMouseDown, MouseDown, MouseDown method [Windows Media Player], MouseDown method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mousedown, wmp/IWMPEvents::MouseDown
 ms.prod: windows-hardware
 ms.technology: windows-devices

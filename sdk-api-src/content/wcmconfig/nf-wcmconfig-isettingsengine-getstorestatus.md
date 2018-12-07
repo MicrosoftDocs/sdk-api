@@ -7,7 +7,7 @@ old-location: smi\isettingsengine_getstorestatus.htm
 tech.root: SMI
 ms.assetid: 212299b4-d7b3-4a11-b75e-7e752bb91932
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetStoreStatus, GetStoreStatus method [SMI], GetStoreStatus method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetStoreStatus method, ISettingsEngine.GetStoreStatus, ISettingsEngine::GetStoreStatus, smi.isettingsengine_getstorestatus, wcmconfig/ISettingsEngine::GetStoreStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

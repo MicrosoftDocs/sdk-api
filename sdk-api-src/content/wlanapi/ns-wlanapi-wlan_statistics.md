@@ -7,10 +7,10 @@ old-location: nwifi\wlan_statistics.htm
 tech.root: NativeWiFi
 ms.assetid: d66d89f1-bb12-4c2e-8c7a-a4eba008955d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWLAN_STATISTICS, PWLAN_STATISTICS, PWLAN_STATISTICS structure pointer [NativeWIFI], WLAN_STATISTICS, WLAN_STATISTICS structure [NativeWIFI], nwifi.wlan_statistics, wlanapi/PWLAN_STATISTICS, wlanapi/WLAN_STATISTICS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

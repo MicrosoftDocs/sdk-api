@@ -7,10 +7,10 @@ old-location: termserv\iworkspacerestyperegistry.htm
 tech.root: termserv
 ms.assetid: bea617a0-cd64-4c77-af27-b418178e3dad
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWorkspaceResTypeRegistry, IWorkspaceResTypeRegistry interface [Remote Desktop Services], IWorkspaceResTypeRegistry interface [Remote Desktop Services],described, termserv.iworkspacerestyperegistry, workspaceax/IWorkspaceResTypeRegistry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: workspaceax.h
 req.include-header: 

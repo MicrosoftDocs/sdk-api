@@ -7,13 +7,13 @@ old-location: intl\immgetcontext.htm
 tech.root: Intl
 ms.assetid: 2b7502ac-fa1e-4104-a7ad-051303131a73
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ImmGetContext, ImmGetContext function [Internationalization for Windows Applications], _win32_ImmGetContext, imm/ImmGetContext, intl.immgetcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
-req.include-header: Windows.h
+req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

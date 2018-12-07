@@ -7,10 +7,10 @@ old-location: mscs\resutil_filetime_data.htm
 tech.root: mscs
 ms.assetid: 47009cac-fcfe-43f5-9676-4e5db863c909
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: "*PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA structure pointer [Failover Cluster], RESUTIL_FILETIME_DATA, RESUTIL_FILETIME_DATA structure [Failover Cluster], mscs.resutil_filetime_data, resapi/PRESUTIL_FILETIME_DATA, resapi/RESUTIL_FILETIME_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

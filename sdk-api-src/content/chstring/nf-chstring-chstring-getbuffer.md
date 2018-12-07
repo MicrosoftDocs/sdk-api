@@ -7,7 +7,7 @@ old-location: wmi\chstring_getbuffer.htm
 tech.root: WmiSdk
 ms.assetid: 07fa7cae-8af6-491b-a561-8947afde47ab
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: "?GetBuffer@CHString@@QAEPAGH@Z, ?GetBuffer@CHString@@QEAAPEAGH@Z, CHString interface [Windows Management Instrumentation],GetBuffer method, CHString.GetBuffer, CHString::GetBuffer, GetBuffer, GetBuffer method [Windows Management Instrumentation], GetBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getbuffer, chstring/CHString::GetBuffer, wmi.chstring_getbuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices

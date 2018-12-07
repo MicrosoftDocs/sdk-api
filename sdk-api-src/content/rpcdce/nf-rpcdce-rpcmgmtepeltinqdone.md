@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtepeltinqdone.htm
 tech.root: rpc
 ms.assetid: 7a0aac99-8829-4720-a388-da88d015d596
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RpcMgmtEpEltInqDone, RpcMgmtEpEltInqDone function [RPC], _rpc_rpcmgmtepeltinqdone, rpc.rpcmgmtepeltinqdone, rpcdce/RpcMgmtEpEltInqDone
 ms.prod: windows-hardware
 ms.technology: windows-devices

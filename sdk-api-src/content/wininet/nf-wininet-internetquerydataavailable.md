@@ -4,10 +4,10 @@ title: InternetQueryDataAvailable function
 author: windows-sdk-content
 description: Queries the server to determine the amount of data available.
 old-location: wininet\internetquerydataavailable.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: fea8250d-f260-421f-b4dd-14b8685e8dac
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: InternetQueryDataAvailable, InternetQueryDataAvailable function [WinINet], _inet_internetquerydataavailable_function, wininet.internetquerydataavailable, wininet/InternetQueryDataAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: tablet\irealtimestylus3.htm
 tech.root: tablet
 ms.assetid: 93eabb45-0b0e-495f-9b64-43ad8060b958
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IRealTimeStylus3, IRealTimeStylus3 interface [Tablet PC], IRealTimeStylus3 interface [Tablet PC],described, rtscom/IRealTimeStylus3, tablet.irealtimestylus3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 

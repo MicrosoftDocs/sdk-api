@@ -7,10 +7,10 @@ old-location: wsw\ws_xml_comment_node.htm
 tech.root: wsw
 ms.assetid: e1a0b493-4537-465b-93bb-64672bc5b3d9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_XML_COMMENT_NODE, WS_XML_COMMENT_NODE structure [Web Services for Windows], _WS_XML_COMMENT_NODE, webservices/WS_XML_COMMENT_NODE, wsw.ws_xml_comment_node
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

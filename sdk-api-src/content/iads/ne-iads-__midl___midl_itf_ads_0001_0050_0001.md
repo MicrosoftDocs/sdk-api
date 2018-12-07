@@ -4,13 +4,13 @@ title: "__MIDL___MIDL_itf_ads_0001_0050_0001"
 author: windows-sdk-content
 description: Specifies the formats used for representing distinguished names.
 old-location: adsi\ads_name_type_enum.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 8c5e8f2a-e805-463e-9583-96732d70b209
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADS_NAME_TYPE_1779, ADS_NAME_TYPE_CANONICAL, ADS_NAME_TYPE_CANONICAL_EX, ADS_NAME_TYPE_DISPLAY, ADS_NAME_TYPE_DOMAIN_SIMPLE, ADS_NAME_TYPE_ENTERPRISE_SIMPLE, ADS_NAME_TYPE_ENUM, ADS_NAME_TYPE_ENUM enumeration [ADSI], ADS_NAME_TYPE_GUID, ADS_NAME_TYPE_NT4, ADS_NAME_TYPE_SERVICE_PRINCIPAL_NAME, ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME, ADS_NAME_TYPE_UNKNOWN, ADS_NAME_TYPE_USER_PRINCIPAL_NAME, __MIDL___MIDL_itf_ads_0001_0050_0001, _ds_ads_name_type_enum, adsi.ads__name__type__enum, adsi.ads_name_type_enum, iads/ADS_NAME_TYPE_1779, iads/ADS_NAME_TYPE_CANONICAL, iads/ADS_NAME_TYPE_CANONICAL_EX, iads/ADS_NAME_TYPE_DISPLAY, iads/ADS_NAME_TYPE_DOMAIN_SIMPLE, iads/ADS_NAME_TYPE_ENTERPRISE_SIMPLE, iads/ADS_NAME_TYPE_ENUM, iads/ADS_NAME_TYPE_GUID, iads/ADS_NAME_TYPE_NT4, iads/ADS_NAME_TYPE_SERVICE_PRINCIPAL_NAME, iads/ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME, iads/ADS_NAME_TYPE_UNKNOWN, iads/ADS_NAME_TYPE_USER_PRINCIPAL_NAME
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

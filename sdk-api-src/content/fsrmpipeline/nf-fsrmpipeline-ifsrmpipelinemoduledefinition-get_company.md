@@ -4,10 +4,10 @@ title: IFsrmPipelineModuleDefinition::get_Company
 author: windows-sdk-content
 description: The name of the company that created the classification or storage module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_company.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 0e09569c-b090-4006-81e5-6d34d43ce7b6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Company property [File Server Resource Manager], Company property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Company property, IFsrmPipelineModuleDefinition.Company, IFsrmPipelineModuleDefinition.get_Company, IFsrmPipelineModuleDefinition::Company, IFsrmPipelineModuleDefinition::get_Company, IFsrmPipelineModuleDefinition::put_Company, fs.ifsrmpipelinemoduledefinition_company, fsrm.ifsrmpipelinemoduledefinition_company, fsrmpipeline/IFsrmPipelineModuleDefinition::Company, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Company, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Company, get_Company
 ms.prod: windows-hardware
 ms.technology: windows-devices

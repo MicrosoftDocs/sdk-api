@@ -4,10 +4,10 @@ title: IVdsLunMpio::GetPathInfo
 author: windows-sdk-content
 description: Returns an array of VDS_PATH_INFO structures, one for each path to the LUN.
 old-location: base\ivdslunmpio_getpathinfo.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: c7cc1abf-c7f2-4260-b9d2-f70128276e1e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetPathInfo, GetPathInfo method [VDS], GetPathInfo method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetPathInfo method, IVdsLunMpio.GetPathInfo, IVdsLunMpio::GetPathInfo, base.ivdslunmpio_getpathinfo, vds/IVdsLunMpio::GetPathInfo, vdshwprv/IVdsLunMpio::GetPathInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

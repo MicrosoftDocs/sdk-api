@@ -4,10 +4,10 @@ title: IADsPropertyValue2::PutObjectProperty
 author: windows-sdk-content
 description: Sets an attribute value.
 old-location: adsi\iadspropertyvalue2_putobjectproperty.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 53dad13f-7df7-4c1d-8c8a-946c291b20c6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPropertyValue2 interface [ADSI],PutObjectProperty method, IADsPropertyValue2.PutObjectProperty, IADsPropertyValue2::PutObjectProperty, PutObjectProperty, PutObjectProperty method [ADSI], PutObjectProperty method [ADSI],IADsPropertyValue2 interface, _ds_iadspropertyvalue2_putobjectproperty, adsi.iadspropertyvalue2__putobjectproperty, adsi.iadspropertyvalue2_putobjectproperty, iads/IADsPropertyValue2::PutObjectProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ The <b>IADsPropertyValue2::PutObjectProperty</b> method sets an attribute value.
 Contains one of the <a href="https://msdn.microsoft.com/e601bae5-80bf-43f5-846f-11327889419a">ADSTYPEENUM</a> values that specifies the data format of the value set. This value must correspond to the <i>pvProp</i> variant type. For more information and a list of the <i>lnADsType</i> values and corresponding <i>pvProp</i> variant types, see <a href="https://msdn.microsoft.com/57a3b413-f658-4793-abad-358455b5b9f4">IADsPropertyValue2</a>.
 
 
-### -param vProp
-
-TBD
-
-
-
-
-#### - pvProp [in]
+### -param vProp [in]
 
 Pointer to a <b>VARIANT</b> that contains the new attribute value. The variant type of this data must correspond to the value in <i>lnADsType</i>. For more information and a list of the <i>lnADsType</i> values and corresponding <i>pvProp</i> variant types, see <a href="https://msdn.microsoft.com/57a3b413-f658-4793-abad-358455b5b9f4">IADsPropertyValue2</a>.
 

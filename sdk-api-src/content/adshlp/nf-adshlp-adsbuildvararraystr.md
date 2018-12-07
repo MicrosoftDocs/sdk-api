@@ -4,10 +4,10 @@ title: ADsBuildVarArrayStr function
 author: windows-sdk-content
 description: The ADsBuildVarArrayStr function builds a variant array from an array of Unicode strings.
 old-location: adsi\adsbuildvararraystr.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 7258a840-691a-4d9b-ab33-bcdf30fd1331
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADsBuildVarArrayStr, ADsBuildVarArrayStr function [ADSI], _ds_adsbuildvararraystr, adshlp/ADsBuildVarArrayStr, adsi.adsbuildvararraystr
 ms.prod: windows-hardware
 ms.technology: windows-devices

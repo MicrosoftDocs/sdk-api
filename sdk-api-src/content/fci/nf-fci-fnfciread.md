@@ -7,7 +7,7 @@ old-location: winprog\fnfciread.htm
 tech.root: devnotes
 ms.assetid: dd4e97ff-efbc-462b-b954-bc3260fa1513
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: FNFCIREAD, FNFCIREAD macro [Windows API], fci/FNFCIREAD, winprog.fnfciread
 ms.prod: windows-hardware
 ms.technology: windows-devices

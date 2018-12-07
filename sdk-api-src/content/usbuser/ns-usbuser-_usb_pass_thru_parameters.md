@@ -7,10 +7,10 @@ old-location: buses\usb_pass_thru_parameters.htm
 tech.root: usbref
 ms.assetid: 04a29463-af7b-44a4-aac1-20f386c7dd20
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 12/5/2018
 ms.keywords: "*PUSB_PASS_THRU_PARAMETERS, PUSB_PASS_THRU_PARAMETERS, PUSB_PASS_THRU_PARAMETERS structure pointer [Buses], USB_PASS_THRU_PARAMETERS, USB_PASS_THRU_PARAMETERS structure [Buses], _USB_PASS_THRU_PARAMETERS, buses.usb_pass_thru_parameters, usbstrct_1e8e5d21-ea79-4617-80c6-4f66f149d16a.xml, usbuser/PUSB_PASS_THRU_PARAMETERS, usbuser/USB_PASS_THRU_PARAMETERS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h

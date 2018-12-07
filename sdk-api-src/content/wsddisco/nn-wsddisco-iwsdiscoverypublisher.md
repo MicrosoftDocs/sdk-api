@@ -4,13 +4,13 @@ title: IWSDiscoveryPublisher
 author: windows-sdk-content
 description: Provides methods for announcing hosts and managing incoming queries to hosts.
 old-location: ncd\iwsdiscoverypublisher.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 4fff1328-d315-4a26-b7d8-43a273133e08
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,described, ncd.iwsdiscoverypublisher, wsddisco/IWSDiscoveryPublisher
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

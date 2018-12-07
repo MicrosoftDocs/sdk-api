@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetNextSelected.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextselected.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: TreeView_GetNextSelected, TreeView_GetNextSelected macro [Windows Controls], _shell_TreeView_GetNextSelected, _shell_TreeView_GetNextSelected_cpp, commctrl/TreeView_GetNextSelected, controls.TreeView_GetNextSelected, controls._shell_TreeView_GetNextSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices

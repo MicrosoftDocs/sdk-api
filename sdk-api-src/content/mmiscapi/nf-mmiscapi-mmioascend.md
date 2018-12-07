@@ -7,7 +7,7 @@ old-location: multimedia\mmioascend.htm
 tech.root: Multimedia
 ms.assetid: 33da4c65-8ce1-44cf-9d5f-f5626620b420
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_mmioAscend, mmioAscend, mmioAscend function [Windows Multimedia], mmsystem/mmioAscend, multimedia.mmioascend"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,22 +71,10 @@ File handle of an open RIFF file.
 
 ### -param pmmcki
 
-TBD
-
-
-### -param fuAscend
-
-TBD
-
-
-
-
-#### - lpck
-
 Pointer to an application-defined <a href="https://msdn.microsoft.com/5ea2569f-a15b-47f4-8d86-0bc005019984">MMCKINFO</a> structure previously filled by the <a href="https://msdn.microsoft.com/7ec730fc-3286-4b83-88ac-d59bda85a6ae">mmioDescend</a> or <a href="https://msdn.microsoft.com/45b03f8c-1b79-4004-b5e1-e739138375c2">mmioCreateChunk</a> function.
 
 
-#### - wFlags
+### -param fuAscend
 
 Reserved; must be zero.
 

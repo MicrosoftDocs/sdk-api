@@ -7,7 +7,7 @@ old-location: security\icertconfig2_getfield.htm
 tech.root: seccrypto
 ms.assetid: 8e477fa7-d0e7-43f3-98b5-79c924a1a29c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Authority, CCertConfig object [Security],GetField method, CommonName, Config, Country, Description, ExchangeCertificate, Flags, GetField, GetField method [Security], GetField method [Security],CCertConfig object, GetField method [Security],ICertConfig interface, GetField method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetField method, ICertConfig.GetField, ICertConfig2 interface [Security],GetField method, ICertConfig2::GetField, ICertConfig::GetField, Locality, OrgUnit, Organization, SanitizedName, SanitizedShortName, Server, ShortName, SignatureCertificate, State, WebEnrollmentServers, _certsrv_icertconfig_getfield, certcli/ICertConfig2::GetField, certcli/ICertConfig::GetField, security.icertconfig2_getfield
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -248,14 +248,7 @@ An array of certificate enrollment Web service URLs for a specific CA configurat
  
 
 
-### -param pstrOut
-
-TBD
-
-
-
-
-#### - pbstrOut [out, retval]
+### -param pstrOut [out, retval]
 
 A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 

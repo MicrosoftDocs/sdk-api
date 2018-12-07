@@ -7,7 +7,7 @@ old-location: indexsrv\icommandtree_freecommandtree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_1v39.htm
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 12/5/2018
 ms.keywords: FreeCommandTree, FreeCommandTree method [Indexing Service], FreeCommandTree method [Indexing Service],ICommandTree interface, ICommandTree interface [Indexing Service],FreeCommandTree method, ICommandTree.FreeCommandTree, ICommandTree::FreeCommandTree, _idxs_ICommandTree_FreeCommandTree, cmdtree/ICommandTree::FreeCommandTree, indexsrv.icommandtree_freecommandtree
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: winsync\sync_registration_event.htm
 tech.root: winsync
 ms.assetid: c8fb3de0-0f2e-4926-b37f-3043fcc2efb3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SRE_CONFIGUI_ADDED, SRE_CONFIGUI_REMOVED, SRE_CONFIGUI_UPDATED, SRE_PROVIDER_ADDED, SRE_PROVIDER_REMOVED, SRE_PROVIDER_STATE_CHANGED, SRE_PROVIDER_UPDATED, SYNC_REGISTRATION_EVENT, SYNC_REGISTRATION_EVENT enumeration [Windows Sync], __MIDL___MIDL_itf_syncregistration_0000_0007_0001, syncregistration/SRE_CONFIGUI_ADDED, syncregistration/SRE_CONFIGUI_REMOVED, syncregistration/SRE_CONFIGUI_UPDATED, syncregistration/SRE_PROVIDER_ADDED, syncregistration/SRE_PROVIDER_REMOVED, syncregistration/SRE_PROVIDER_STATE_CHANGED, syncregistration/SRE_PROVIDER_UPDATED, syncregistration/SYNC_REGISTRATION_EVENT, winsync.sync_registration_event
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: syncregistration.h
 req.include-header: 

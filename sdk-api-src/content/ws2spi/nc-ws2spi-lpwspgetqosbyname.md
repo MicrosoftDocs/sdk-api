@@ -7,10 +7,10 @@ old-location: winsock\wspgetqosbyname_2.htm
 tech.root: winsock
 ms.assetid: 2e218a9b-6db5-4c5a-94e1-207886c401a5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: LPWSPGETQOSBYNAME, WSPGetQOSByName, WSPGetQOSByName function [Winsock], _win32_wspgetqosbyname_2, winsock.wspgetqosbyname_2, ws2spi/WSPGetQOSByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

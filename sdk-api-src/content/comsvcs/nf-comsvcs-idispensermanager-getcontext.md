@@ -7,7 +7,7 @@ old-location: cos\idispensermanager_getcontext.htm
 tech.root: cossdk
 ms.assetid: cc3095a3-df4c-4112-a3cb-308e8962b51f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetContext, GetContext method [COM+], GetContext method [COM+],IDispenserManager interface, IDispenserManager interface [COM+],GetContext method, IDispenserManager.GetContext, IDispenserManager::GetContext, _dtc_IDispenserManager_GetContext, comsvcs/IDispenserManager::GetContext, cos.idispensermanager_getcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ Determines the current context.
 
 
 
-### -param __MIDL__IDispenserManager0002
-
-TBD
-
-
-### -param __MIDL__IDispenserManager0003
-
-TBD
-
-
-
-
-#### - pInstId [out]
+### -param __MIDL__IDispenserManager0002 [out]
 
 An internal unique identifier of the current object, or 0 if no current object. This may not be interpreted as an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer to the current object.
 
 
-#### - pTransId [out]
+### -param __MIDL__IDispenserManager0003 [out]
 
 The transaction that the current object is running in, or 0 if none. This value may be cast to <b>ITransaction *</b>.
 

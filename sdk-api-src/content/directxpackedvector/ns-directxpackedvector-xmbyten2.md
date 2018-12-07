@@ -7,10 +7,10 @@ old-location: dxmath\xmbyten2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTEN2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: XMBYTEN2, XMBYTEN2 structure [DirectX Math Support APIs], directxpackedvector/XMBYTEN2, dxmath.xmbyten2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -78,6 +78,16 @@ Signed 8-bit integer value in the range [-127, 127] describing the y-coordinate 
 ### -field v
 
  
+
+
+### -field XMBYTEN2
+
+TBD 
+
+
+### -field operator=
+
+TBD 
 
 
 

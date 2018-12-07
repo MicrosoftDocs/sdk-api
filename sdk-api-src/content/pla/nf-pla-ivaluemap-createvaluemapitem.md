@@ -4,10 +4,10 @@ title: IValueMap::CreateValueMapItem
 author: windows-sdk-content
 description: Creates a value map item.
 old-location: pla\ivaluemap_createvaluemapitem.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 619b54a0-7015-4453-a09e-ac199eb1c581
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: CreateValueMapItem, CreateValueMapItem method [PLA], CreateValueMapItem method [PLA],IValueMap interface, IValueMap interface [PLA],CreateValueMapItem method, IValueMap.CreateValueMapItem, IValueMap::CreateValueMapItem, pla.ivaluemap_createvaluemapitem, pla/IValueMap::CreateValueMapItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

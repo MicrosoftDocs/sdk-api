@@ -4,10 +4,10 @@ title: IMSVidRect::get_Left
 author: windows-sdk-content
 description: The get_Left method retrieves the left x-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_get_left.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 9e64e560-033b-475a-a281-57af5f893e65
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Left method, IMSVidRect.get_Left, IMSVidRect::get_Left, IMSVidRectget_Left, get_Left, get_Left method [Microsoft TV Technologies], get_Left method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_left, segment/IMSVidRect::get_Left
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_Left</b> method retrieves the left x-coordinate of the rectangle. Thi
 
 
 
-### -param LeftVal
-
-TBD
-
-
-
-
-#### - pLeftVal [out]
+### -param LeftVal [out]
 
 Pointer to a variable that receives the left x-coordinate, in pixels.
 

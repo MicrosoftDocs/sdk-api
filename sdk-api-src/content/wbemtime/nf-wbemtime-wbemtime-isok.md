@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_isok.htm
 tech.root: WmiSdk
 ms.assetid: e2d53db3-b247-40ac-9a8f-c6fef9f4e0d3
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IsOk, IsOk method [Windows Management Instrumentation], IsOk method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],IsOk method, WBEMTime.IsOk, WBEMTime::IsOk, _hmm_wbemtime_isok, wbemtime/WBEMTime::IsOk, wmi.wbemtime_isok
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,13 +4,13 @@ title: tagNETCON_STATUS
 author: windows-sdk-content
 description: The NETCON_STATUS type enumerates possible status conditions for a network connection.
 old-location: ics\netcon_status.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: feb0aa60-b873-4536-8ec2-2dce4d355fdb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: NCS_AUTHENTICATING, NCS_AUTHENTICATION_FAILED, NCS_AUTHENTICATION_SUCCEEDED, NCS_CONNECTED, NCS_CONNECTING, NCS_CREDENTIALS_REQUIRED, NCS_DISCONNECTED, NCS_DISCONNECTING, NCS_HARDWARE_DISABLED, NCS_HARDWARE_MALFUNCTION, NCS_HARDWARE_NOT_PRESENT, NCS_INVALID_ADDRESS, NCS_MEDIA_DISCONNECTED, NETCON_STATUS, NETCON_STATUS enumeration [ICS/ICF], _ics_netcon_status, ics.netcon_status, netcon/NCS_AUTHENTICATING, netcon/NCS_AUTHENTICATION_FAILED, netcon/NCS_AUTHENTICATION_SUCCEEDED, netcon/NCS_CONNECTED, netcon/NCS_CONNECTING, netcon/NCS_CREDENTIALS_REQUIRED, netcon/NCS_DISCONNECTED, netcon/NCS_DISCONNECTING, netcon/NCS_HARDWARE_DISABLED, netcon/NCS_HARDWARE_MALFUNCTION, netcon/NCS_HARDWARE_NOT_PRESENT, netcon/NCS_INVALID_ADDRESS, netcon/NCS_MEDIA_DISCONNECTED, netcon/NETCON_STATUS, tagNETCON_STATUS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: netcon.h
 req.include-header: 

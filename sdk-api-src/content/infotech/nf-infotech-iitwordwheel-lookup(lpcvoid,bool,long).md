@@ -7,7 +7,7 @@ old-location: htmlhelp\iitwordwheel_lookup1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheellookupbuffer.htm
 ms.author: windowssdkdev
-ms.date: 10/22/2018
+ms.date: 12/5/2018
 ms.keywords: IITWordWheel interface [HTML Help Workshop],Lookup method, IITWordWheel.Lookup, IITWordWheel.Lookup(LPCVOID,BOOL,LONG), IITWordWheel::Lookup, IITWordWheel::Lookup(LONG,LPVOID,DWORD), IITWordWheel::Lookup(LPCVOID,BOOL,LONG), Lookup, Lookup method [HTML Help Workshop], Lookup method [HTML Help Workshop],IITWordWheel interface, htmlhelp.iitwordwheel_lookup1, infotech/IITWordWheel::Lookup, refIITWordWheelLookupBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,40 +60,23 @@ Looks up an entry and returns contents in a buffer.
 
 
 
-### -param lpcvPrefix
-
-TBD
-
-
-### -param fExactMatch
-
-TBD
-
-
-### -param plEntry
-
-TBD
-
-
-
-
-#### - cbKeyBuf [in]
-
-Buffer size in number of bytes.
-
-
-
-
-#### - lEntry [in]
+#### - lpcvPrefix [in]
 
 Entry to look up.
 
 
 
 
-#### - lpvKeyBuf [out]
+#### - fExactMatch [out]
 
 Buffer to return entry.
+
+
+
+
+#### - plEntry [in]
+
+Buffer size in number of bytes.
 
 
 

@@ -7,7 +7,7 @@ old-location: wcs\getcmminfo.htm
 tech.root: WCS
 ms.assetid: 60fe282c-ed52-45c8-ac64-03c2c684679c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMM_DLL_VERSION, CMM_IDENT, CMM_WIN_VERSION, GetCMMInfo, GetCMMInfo function [Windows Color System], _color_GetCMMInfo, icm/GetCMMInfo, wcs.getcmminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetCMMInfo
+: 
 ---
 
 # GetCMMInfo function

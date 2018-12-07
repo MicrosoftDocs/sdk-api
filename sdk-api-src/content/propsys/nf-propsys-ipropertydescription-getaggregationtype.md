@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetAggregationType.htm
 tech.root: properties
 ms.assetid: d8507f19-1778-42b1-bd40-12fec45cd03e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GetAggregationType, GetAggregationType method [Windows Properties], GetAggregationType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetAggregationType method, IPropertyDescription.GetAggregationType, IPropertyDescription::GetAggregationType, properties.IPropertyDescription_GetAggregationType, propsys/IPropertyDescription::GetAggregationType, shell.IPropertyDescription_GetAggregationType, shell_IPropertyDescription_GetAggregationType
 ms.prod: windows-hardware
 ms.technology: windows-devices

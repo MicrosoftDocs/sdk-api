@@ -7,10 +7,10 @@ old-location: display\ddkernelcaps.htm
 tech.root: display
 ms.assetid: d02d26f5-34cf-4a3c-b67c-0f9191bb854b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDDKERNELCAPS, DDKERNELCAPS, DDKERNELCAPS structure [Display Devices], LPDDKERNELCAPS, LPDDKERNELCAPS structure pointer [Display Devices], _DDKERNELCAPS, ddkernel/DDKERNELCAPS, ddkernel/LPDDKERNELCAPS, ddstrcts_efe32a57-5435-4e15-a17f-880870d70c85.xml, display.ddkernelcaps"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddkernel.h
 req.include-header: Ddkernel.h

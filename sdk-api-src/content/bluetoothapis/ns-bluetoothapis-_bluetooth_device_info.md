@@ -9,8 +9,8 @@ ms.assetid: 41b14980-8217-4948-b084-1f44051d12f7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: BLUETOOTH_DEVICE_INFO, BLUETOOTH_DEVICE_INFO structure [Bluetooth], BLUETOOTH_DEVICE_INFO_STRUCT, _BLUETOOTH_DEVICE_INFO, _bth_bluetooth_device_info, bluetooth.bluetooth_device_info, bluetoothapis/BLUETOOTH_DEVICE_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

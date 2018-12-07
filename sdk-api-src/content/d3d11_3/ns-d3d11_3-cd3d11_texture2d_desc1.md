@@ -7,10 +7,10 @@ old-location: direct3d11\d3d11_texture2d_desc1.htm
 tech.root: direct3d11
 ms.assetid: DADDC12C-CF1E-48B4-B8C0-3029EC6B711B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CD3D11_TEXTURE2D_DESC1, D3D11_TEXTURE2D_DESC1, D3D11_TEXTURE2D_DESC1 structure [Direct3D 11], d3d11_3/D3D11_TEXTURE2D_DESC1, direct3d11.d3d11_texture2d_desc1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
@@ -56,6 +56,21 @@ Describes a 2D texture.
 ## -struct-fields
 
 
+
+
+### -field CD3D11_TEXTURE2D_DESC1
+
+TBD 
+
+
+### -field ~CD3D11_TEXTURE2D_DESC1
+
+TBD 
+
+
+### -field operator const D3D11_TEXTURE2D_DESC1&
+
+TBD 
 
 
 ### -field D3D11_TEXTURE2D_DESC1

@@ -4,13 +4,13 @@ title: "__MIDL___MIDL_itf_pla_0001_0043_0007"
 author: windows-sdk-content
 description: Defines the action to take when committing changes to the data collector set.
 old-location: pla\commitmode.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 3c485b4d-ba0b-456a-b942-27829371d7fb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: CommitMode, CommitMode enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0007, base.commitmode, pla.commitmode, pla/CommitMode, pla/plaCreateNew, pla/plaCreateOrModify, pla/plaFlushTrace, pla/plaModify, pla/plaUpdateRunningInstance, pla/plaValidateOnly, plaCreateNew, plaCreateOrModify, plaFlushTrace, plaModify, plaUpdateRunningInstance, plaValidateOnly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

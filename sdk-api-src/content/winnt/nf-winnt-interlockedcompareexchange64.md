@@ -7,7 +7,7 @@ old-location: base\interlockedcompareexchange64.htm
 tech.root: sync
 ms.assetid: b0799de3-49f9-4eef-9c14-d145f42ce57b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: InterlockedCompareExchange64, InterlockedCompareExchange64 function, base.interlockedcompareexchange64, winnt/InterlockedCompareExchange64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,26 +67,14 @@ Performs an atomic compare-and-exchange operation on the specified values. The f
 A pointer to the destination value.
 
 
-### -param ExChange
-
-TBD
-
-
-### -param Comperand
-
-TBD
-
-
-
-
-#### - Comparand [in]
-
-The value to compare to <i>Destination</i>.
-
-
-#### - Exchange [in]
+### -param ExChange [in]
 
 The exchange value.
+
+
+### -param Comperand [in]
+
+The value to compare to <i>Destination</i>.
 
 
 ## -returns

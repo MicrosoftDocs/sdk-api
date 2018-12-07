@@ -7,10 +7,10 @@ old-location: eaphost\eap_method_property_array.htm
 tech.root: eaphost
 ms.assetid: 1dfe2fb2-a4e5-4c14-8cde-083e45134f7b
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: EAP_METHOD_PROPERTY_ARRAY, EAP_METHOD_PROPERTY_ARRAY structure [EAPHost], PEAP_METHOD_PROPERTY_ARRAY, PEAP_METHOD_PROPERTY_ARRAY structure pointer [EAPHost], _EAP_METHOD_PROPERTY_ARRAY, eaphost.eap_method_property_array, eaptypes/EAP_METHOD_PROPERTY_ARRAY, eaptypes/PEAP_METHOD_PROPERTY_ARRAY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

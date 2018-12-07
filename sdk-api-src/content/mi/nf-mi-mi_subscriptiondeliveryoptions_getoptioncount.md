@@ -4,10 +4,10 @@ title: MI_SubscriptionDeliveryOptions_GetOptionCount function
 author: windows-sdk-content
 description: Gets the number of previously set options.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getoptioncount.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 695a4ec8-4e6b-4a3d-800b-fa0edfab5ca2
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetOptionCount, MI_SubscriptionDeliveryOptions_GetOptionCount function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetOptionCount, wmi_v2.mi_subscriptiondeliveryoptions_getoptioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices

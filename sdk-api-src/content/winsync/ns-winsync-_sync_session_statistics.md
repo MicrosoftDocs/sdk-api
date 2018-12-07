@@ -7,10 +7,10 @@ old-location: winsync\sync_session_statistics.htm
 tech.root: winsync
 ms.assetid: e6d1fe9e-6cf2-414a-9be6-b444af2c7525
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SYNC_SESSION_STATISTICS, SYNC_SESSION_STATISTICS structure [Windows Sync], _SYNC_SESSION_STATISTICS, winsync.sync_session_statistics, winsync/SYNC_SESSION_STATISTICS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 

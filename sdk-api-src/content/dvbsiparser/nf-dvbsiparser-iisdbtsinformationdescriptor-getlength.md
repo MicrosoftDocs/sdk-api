@@ -4,10 +4,10 @@ title: IIsdbTSInformationDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getlength.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 17c74b77-0754-47de-97f8-db1c15707276
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbTSInformationDescriptor.GetLength, IIsdbTSInformationDescriptor::GetLength, dvbsiparser/IIsdbTSInformationDescriptor::GetLength, mstv.iisdbtsinformationdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

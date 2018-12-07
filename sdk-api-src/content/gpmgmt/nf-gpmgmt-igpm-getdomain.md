@@ -4,10 +4,10 @@ title: IGPM::GetDomain
 author: windows-sdk-content
 description: Creates and returns a GPMDomain object that corresponds to the specified domain.
 old-location: gpmc\igpm_getdomain.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 32aee72f-96fa-4ebd-9ff7-643972b82cf6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GPM object [GPMC],GetDomain method, GetDomain, GetDomain method [GPMC], GetDomain method [GPMC],GPM object, GetDomain method [GPMC],IGPM interface, IGPM interface [GPMC],GetDomain method, IGPM.GetDomain, IGPM::GetDomain, _win32_igpm_getdomain, gpmc.igpm_getdomain, gpmgmt/IGPM::GetDomain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,14 +85,7 @@ Flags to use to locate the domain controller for the domain. You can specify <b>
 If this parameter is set to zero, and a <i>bstrDomainController</i> is specified, the method uses the specified <i>bstrDomainController</i>. Otherwise, the method uses the PDC.
 
 
-### -param pIGPMDomain
-
-TBD
-
-
-
-
-#### - plIGPMDomain [out]
+### -param pIGPMDomain [out]
 
 Address of a pointer to the 
 <a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">IGPMDomain</a> interface.

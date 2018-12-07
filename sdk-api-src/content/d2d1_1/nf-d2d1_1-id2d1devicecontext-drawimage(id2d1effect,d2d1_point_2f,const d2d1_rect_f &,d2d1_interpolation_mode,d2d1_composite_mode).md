@@ -7,7 +7,7 @@ old-location: direct2d\id2d1devicecontext_drawimage8.htm
 tech.root: direct2d
 ms.assetid: 223BB90B-1AC4-4D11-8C63-D6C887D377E7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawImage method, ID2D1DeviceContext.DrawImage, ID2D1DeviceContext.DrawImage(ID2D1Effect,D2D1_POINT_2F,const D2D1_RECT_F &,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), ID2D1DeviceContext::DrawImage, ID2D1DeviceContext::DrawImage(ID2D1Effect,D2D1_POINT_2F,const D2D1_RECT_F &,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), d2d1_1/ID2D1DeviceContext::DrawImage, direct2d.id2d1devicecontext_drawimage8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Draws an image to the device context.
 
 
 
-### -param effect
+### -param effect [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>*</b>
+
+The image to be drawn to the device context.
 
 
 ### -param targetOffset [in, optional]
@@ -89,13 +91,6 @@ The interpolation mode that will be used to scale the image if necessary.
 Type: <b><a href="https://msdn.microsoft.com/4f01e805-aed7-4bfc-9793-42a9fdde3473">D2D1_COMPOSITE_MODE</a></b>
 
 The composite mode that will be applied to the limits of the currently selected clip. The default value is <b>D2D1_COMPOSITE_MODE_SOURCE_OVER</b>
-
-
-#### - image [in]
-
-Type: <b><a href="https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d">ID2D1Image</a>*</b>
-
-The image to be drawn to the device context.
 
 
 ## -returns

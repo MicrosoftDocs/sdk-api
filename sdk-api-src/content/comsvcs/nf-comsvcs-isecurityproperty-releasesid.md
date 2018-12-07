@@ -7,7 +7,7 @@ old-location: cos\isecurityproperty_releasesid.htm
 tech.root: cossdk
 ms.assetid: 572bf3fd-eb85-40de-b607-26b77b9d9cf8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISecurityProperty interface [COM+],ReleaseSID method, ISecurityProperty.ReleaseSID, ISecurityProperty::ReleaseSID, ReleaseSID, ReleaseSID method [COM+], ReleaseSID method [COM+],ISecurityProperty interface, _cos_ISecurityProperty_ReleaseSID, comsvcs/ISecurityProperty::ReleaseSID, cos.isecurityproperty_releasesid
 ms.prod: windows-hardware
 ms.technology: windows-devices

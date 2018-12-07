@@ -4,10 +4,10 @@ title: SetSecurityInfo function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a specified object. The caller identifies the object by a handle.
 old-location: security\setsecurityinfo.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: f1781ba9-81eb-46f9-b530-c390b67d65de
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: SetSecurityInfo, SetSecurityInfo function [Security], _win32_setsecurityinfo, aclapi/SetSecurityInfo, security.setsecurityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

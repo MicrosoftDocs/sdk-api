@@ -7,10 +7,10 @@ old-location: wsw\ws_read_callback.htm
 tech.root: wsw
 ms.assetid: 2a5ebe4a-e97d-4744-9ec9-da6da892e4c5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_READ_CALLBACK, WS_READ_CALLBACK callback, WS_READ_CALLBACK callback function [Web Services for Windows], webservices/WS_READ_CALLBACK, wsw.ws_read_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: mscs\resource_failure_info_buffer.htm
 tech.root: mscs
 ms.assetid: 131EEF4A-DB1E-4FF7-8329-4AA422AB83B0
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: "*PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_FAILURE_INFO_BUFFER, RESOURCE_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_FAILURE_INFO_BUFFER, clusapi/RESOURCE_FAILURE_INFO_BUFFER, msclus/PRESOURCE_FAILURE_INFO_BUFFER, msclus/RESOURCE_FAILURE_INFO_BUFFER, mscs.resource_failure_info_buffer"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msclus.h
 req.include-header: 

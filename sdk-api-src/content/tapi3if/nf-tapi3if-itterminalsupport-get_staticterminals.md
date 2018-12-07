@@ -7,7 +7,7 @@ old-location: tapi3\itterminalsupport_get_staticterminals.htm
 tech.root: tapi
 ms.assetid: f4cdd3f5-ca8c-4660-b37c-c38779a516dd
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITTerminalSupport interface [TAPI 2.2],get_StaticTerminals method, ITTerminalSupport.get_StaticTerminals, ITTerminalSupport::get_StaticTerminals, _tapi3_itterminalsupport_get_staticterminals, get_StaticTerminals, get_StaticTerminals method [TAPI 2.2], get_StaticTerminals method [TAPI 2.2],ITTerminalSupport interface, tapi3.itterminalsupport_get_staticterminals, tapi3if/ITTerminalSupport::get_StaticTerminals
 ms.prod: windows-hardware
 ms.technology: windows-devices

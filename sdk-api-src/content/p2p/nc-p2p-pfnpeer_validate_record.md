@@ -9,8 +9,8 @@ ms.assetid: 5d81f09b-e46b-43e6-b0a8-ed7c236f2968
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PFNPEER_VALIDATE_RECORD, PFNPEER_VALIDATE_RECORD callback, PFNPEER_VALIDATE_RECORD callback function [Peer Networking], p2p.pfnpeer_validate_record, p2p/PFNPEER_VALIDATE_RECORD
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: p2p.h
 req.include-header: 

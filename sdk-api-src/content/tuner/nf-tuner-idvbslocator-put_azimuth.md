@@ -4,10 +4,10 @@ title: IDVBSLocator::put_Azimuth
 author: windows-sdk-content
 description: The put_Azimuth method adjusts the azimuth setting used for positioning the satellite dish.
 old-location: mstv\idvbslocator_put_azimuth.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4923fa80-77f7-4d2e-9a15-ce7608888e02
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_Azimuth method, IDVBSLocator.put_Azimuth, IDVBSLocator::put_Azimuth, IDVBSLocatorput_Azimuth, mstv.idvbslocator_put_azimuth, put_Azimuth, put_Azimuth method [Microsoft TV Technologies], put_Azimuth method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_Azimuth
 ms.prod: windows-hardware
 ms.technology: windows-devices

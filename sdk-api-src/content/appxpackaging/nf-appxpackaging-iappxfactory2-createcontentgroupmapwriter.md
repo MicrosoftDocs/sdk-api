@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfactory2_createcontentgroupmapwriter.htm
 tech.root: appxpkg
 ms.assetid: 4BFF656D-4B89-4D05-9A41-44400F75E8BC
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CreateContentGroupMapWriter, CreateContentGroupMapWriter method [App packaging and management], CreateContentGroupMapWriter method [App packaging and management],IAppxFactory2 interface, IAppxFactory2 interface [App packaging and management],CreateContentGroupMapWriter method, IAppxFactory2.CreateContentGroupMapWriter, IAppxFactory2::CreateContentGroupMapWriter, appxpackaging/IAppxFactory2::CreateContentGroupMapWriter, appxpkg.iappxfactory2_createcontentgroupmapwriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,12 @@ Creates an <a href="https://msdn.microsoft.com/A9B3992C-D3D1-4190-9314-A21E388E8
 
 ### -param stream
 
-TBD
+The stream that receives the content group map.
 
 
 ### -param contentGroupMapWriter [out, retval]
 
 Provides a write-only object model for a content group map.
-
-
 
 
 ## -returns

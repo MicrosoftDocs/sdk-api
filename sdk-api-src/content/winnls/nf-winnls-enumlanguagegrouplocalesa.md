@@ -7,7 +7,7 @@ old-location: intl\enumlanguagegrouplocales.htm
 tech.root: Intl
 ms.assetid: 5a85c6bd-0362-46ff-80be-a198b1259482
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: EnumLanguageGroupLocales, EnumLanguageGroupLocales function [Internationalization for Windows Applications], EnumLanguageGroupLocalesA, EnumLanguageGroupLocalesW, _win32_EnumLanguageGroupLocales, intl.enumlanguagegrouplocales, winnls/EnumLanguageGroupLocales, winnls/EnumLanguageGroupLocalesA, winnls/EnumLanguageGroupLocalesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

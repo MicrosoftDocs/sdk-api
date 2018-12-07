@@ -7,7 +7,7 @@ old-location: controls\ListView_GetFooterItemRect.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooteritemrect.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ListView_GetFooterItemRect, ListView_GetFooterItemRect macro [Windows Controls], _shell_ListView_GetFooterItemRect, _shell_ListView_GetFooterItemRect_cpp, commctrl/ListView_GetFooterItemRect, controls.ListView_GetFooterItemRect, controls._shell_ListView_GetFooterItemRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

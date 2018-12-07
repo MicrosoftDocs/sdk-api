@@ -9,8 +9,8 @@ ms.assetid: a31ae199-8f4a-4d1f-891c-f1dc11a4edde
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PMEM_RANGE, MEM_RANGE, MEM_RANGE structure [Device and Driver Installation], Mem_Range_s, PMEM_RANGE, PMEM_RANGE structure pointer [Device and Driver Installation], cfgmgr32/MEM_RANGE, cfgmgr32/PMEM_RANGE, cfgmgrst_f2ac1f4b-c29b-41fd-bacb-e7a8f4bc6f45.xml, devinst.mem_range"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor2_GetDisplayUrl.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\getdisplayurl.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetDisplayUrl, GetDisplayUrl method [search], GetDisplayUrl method [search],IUrlAccessor2 interface, GetDisplayUrl method [search],IUrlAccessor4 interface, IUrlAccessor2 interface [search],GetDisplayUrl method, IUrlAccessor2.GetDisplayUrl, IUrlAccessor2::GetDisplayUrl, IUrlAccessor4 interface [search],GetDisplayUrl method, IUrlAccessor4::GetDisplayUrl, _search_IUrlAccessor2_GetDisplayUrl, search._search_IUrlAccessor2_GetDisplayUrl, searchapi/IUrlAccessor2::GetDisplayUrl, searchapi/IUrlAccessor4::GetDisplayUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

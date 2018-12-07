@@ -4,10 +4,10 @@ title: IADsPropertyList::GetPropertyItem
 author: windows-sdk-content
 description: Retrieves the item that matches the name from the list.
 old-location: adsi\iadspropertylist_getpropertyitem.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 1de86caa-c14c-4dc0-bf56-5fa33279e30a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetPropertyItem, GetPropertyItem method [ADSI], GetPropertyItem method [ADSI],IADsPropertyList interface, IADsPropertyList interface [ADSI],GetPropertyItem method, IADsPropertyList.GetPropertyItem, IADsPropertyList::GetPropertyItem, _ds_iadspropertylist_getpropertyitem, adsi.iadspropertylist__getpropertyitem, adsi.iadspropertylist_getpropertyitem, iads/IADsPropertyList::GetPropertyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

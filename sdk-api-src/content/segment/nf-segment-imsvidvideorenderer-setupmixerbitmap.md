@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::SetupMixerBitmap
 author: windows-sdk-content
 description: The SetupMixerBitmap method configures the Video Mixing Renderer (VMR) to display an alpha-blended bitmap on top of the video.
 old-location: mstv\imsvidvideorenderer_setupmixerbitmap.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a91561e3-469b-412a-b5ab-af2a5a0855a6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],SetupMixerBitmap method, IMSVidVideoRenderer.SetupMixerBitmap, IMSVidVideoRenderer::SetupMixerBitmap, IMSVidVideoRendererSetupMixerBitmap, SetupMixerBitmap, SetupMixerBitmap method [Microsoft TV Technologies], SetupMixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_setupmixerbitmap, segment/IMSVidVideoRenderer::SetupMixerBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ The <b>SetupMixerBitmap</b> method configures the Video Mixing Renderer (VMR) to
 
 
 
-### -param MixerPictureDisp
+### -param MixerPictureDisp [in]
 
-TBD
+Pointer to an <b>IPictureDisp</b> interface that specifies the bitmap.
 
 
 ### -param Opacity [in]
@@ -68,19 +68,7 @@ TBD
 Specifies the opacity of the bitmap, as an integer from 0 (transparent) to 100 (opaque).
 
 
-### -param rDest
-
-TBD
-
-
-
-
-#### - pMixerPictureDisp [in]
-
-Pointer to an <b>IPictureDisp</b> interface that specifies the bitmap.
-
-
-#### - prDest [in]
+### -param rDest [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460fc0f1b">IMSVidRect</a> interface that specifies the position of the bitmap, relative to the video window.
 

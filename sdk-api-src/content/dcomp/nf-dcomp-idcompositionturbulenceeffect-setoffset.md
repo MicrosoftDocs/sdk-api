@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionturbulenceeffect_setoffset.htm
 tech.root: directcomp
 ms.assetid: 6C27C707-93CE-4EAD-ACFB-2DA36EFB1FB5
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetOffset method, IDCompositionTurbulenceEffect.SetOffset, IDCompositionTurbulenceEffect::SetOffset, SetOffset, SetOffset method [DirectComposition], SetOffset method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetOffset, directcomp.idcompositionturbulenceeffect_setoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

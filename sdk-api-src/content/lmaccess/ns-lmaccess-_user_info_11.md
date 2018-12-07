@@ -4,13 +4,13 @@ title: "_USER_INFO_11"
 author: windows-sdk-content
 description: The USER_INFO_11 structure contains information about a user account, including the account name, privilege level, the path to the user's home directory, and other user-related network statistics.
 old-location: netmgmt\user_info_11_str.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 718e7143-a6df-4912-954c-cc63bb490044
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPUSER_INFO_11, *PUSER_INFO_11, AF_OP_ACCOUNTS, AF_OP_COMM, AF_OP_PRINT, AF_OP_SERVER, LPUSER_INFO_11, LPUSER_INFO_11 structure pointer [Network Management], PUSER_INFO_11, PUSER_INFO_11 structure pointer [Network Management], USER_INFO_11, USER_INFO_11 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _USER_INFO_11, _win32_user_info_11_str, lmaccess/LPUSER_INFO_11, lmaccess/PUSER_INFO_11, lmaccess/USER_INFO_11, netmgmt.user_info_11_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

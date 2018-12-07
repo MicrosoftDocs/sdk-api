@@ -7,7 +7,7 @@ old-location: tapi3\itdigitsgatheredevent_get_gathertermination.htm
 tech.root: tapi
 ms.assetid: 97c123b9-4497-43f3-b747-660d3f9f5848
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_GatherTermination method, ITDigitsGatheredEvent.get_GatherTermination, ITDigitsGatheredEvent::get_GatherTermination, _tapi3_itdigitsgatheredevent_get_gathertermination, get_GatherTermination, get_GatherTermination method [TAPI 2.2], get_GatherTermination method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_gathertermination, tapi3if/ITDigitsGatheredEvent::get_GatherTermination
 ms.prod: windows-hardware
 ms.technology: windows-devices

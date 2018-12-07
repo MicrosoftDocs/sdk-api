@@ -4,13 +4,13 @@ title: IStreamBufferConfigure2
 author: windows-sdk-content
 description: The IStreamBufferConfigure2 interface is exposed by the StreamBufferConfig object.
 old-location: mstv\istreambufferconfigure2.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: df71783c-1ff3-46b0-bae2-61d12f4d70d0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IStreamBufferConfigure2, IStreamBufferConfigure2 interface [Microsoft TV Technologies], IStreamBufferConfigure2 interface [Microsoft TV Technologies],described, IStreamBufferConfigure2Interface, mstv.istreambufferconfigure2, sbe/IStreamBufferConfigure2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

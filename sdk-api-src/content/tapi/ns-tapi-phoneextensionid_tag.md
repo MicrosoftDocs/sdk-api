@@ -7,10 +7,10 @@ old-location: tapi2\phoneextensionid_str.htm
 tech.root: tapi
 ms.assetid: 61f376fd-2287-4425-9445-163f71aebf04
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPPHONEEXTENSIONID, LPPHONEEXTENSIONID, LPPHONEEXTENSIONID structure pointer [TAPI 2.2], PHONEEXTENSIONID, PHONEEXTENSIONID structure [TAPI 2.2], _tapi2_phoneextensionid_str, phoneextensionid_tag, tapi/LPPHONEEXTENSIONID, tapi/PHONEEXTENSIONID, tapi2.phoneextensionid_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

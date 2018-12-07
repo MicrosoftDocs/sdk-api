@@ -7,7 +7,7 @@ old-location: security\icenroll4_mystoreflags.htm
 tech.root: seccrypto
 ms.assetid: 0616c666-9cfc-48f9-93a2-91d51d8dff04
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CEnroll object [Security],MyStoreFlags property, ICEnroll interface [Security],MyStoreFlags property, ICEnroll.MyStoreFlags, ICEnroll.put_MyStoreFlags, ICEnroll2 interface [Security],MyStoreFlags property, ICEnroll2.MyStoreFlags, ICEnroll2::get_MyStoreFlags, ICEnroll2::put_MyStoreFlags, ICEnroll3 interface [Security],MyStoreFlags property, ICEnroll3.MyStoreFlags, ICEnroll3::get_MyStoreFlags, ICEnroll3::put_MyStoreFlags, ICEnroll4 interface [Security],MyStoreFlags property, ICEnroll4.MyStoreFlags, ICEnroll4::MyStoreFlags, ICEnroll4::get_MyStoreFlags, ICEnroll4::put_MyStoreFlags, ICEnroll::get_MyStoreFlags, ICEnroll::put_MyStoreFlags, MyStoreFlags property [Security], MyStoreFlags property [Security],CEnroll object, MyStoreFlags property [Security],ICEnroll interface, MyStoreFlags property [Security],ICEnroll2 interface, MyStoreFlags property [Security],ICEnroll3 interface, MyStoreFlags property [Security],ICEnroll4 interface, put_MyStoreFlags, security.icenroll4_mystoreflags, xenroll/ICEnroll2::MyStoreFlags, xenroll/ICEnroll2::get_MyStoreFlags, xenroll/ICEnroll2::put_MyStoreFlags, xenroll/ICEnroll3::MyStoreFlags, xenroll/ICEnroll3::get_MyStoreFlags, xenroll/ICEnroll3::put_MyStoreFlags, xenroll/ICEnroll4::MyStoreFlags, xenroll/ICEnroll4::get_MyStoreFlags, xenroll/ICEnroll4::put_MyStoreFlags, xenroll/ICEnroll::MyStoreFlags, xenroll/ICEnroll::get_MyStoreFlags, xenroll/ICEnroll::put_MyStoreFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

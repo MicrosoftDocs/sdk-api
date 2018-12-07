@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getoutputstreamattributes.htm
 tech.root: stream
 ms.assetid: ABC8699B-0DFB-401B-9DB2-F3EBA5A64C8B
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Streaming Media Devices], GetOutputStreamAttributes method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputStreamAttributes method, IMFDeviceTransform.GetOutputStreamAttributes, IMFDeviceTransform::GetOutputStreamAttributes, mftransform/IMFDeviceTransform::GetOutputStreamAttributes, stream.imfdevicetransform_getoutputstreamattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,17 +60,12 @@ The <b>GetOutputStreamAttributes</b> method gets the attribute store for an outp
 
 ### -param dwOutputStreamID
 
-TBD
+The Stream ID of the output stream whose state needs to be retrieved.
 
 
 ### -param ppAttributes
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. The caller must release the interface.
-
-
-#### - dwStreamID
-
-The Stream ID of the output stream whose state needs to be retrieved.
 
 
 ## -returns

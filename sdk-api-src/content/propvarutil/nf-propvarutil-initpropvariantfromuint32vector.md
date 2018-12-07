@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromUInt32Vector.htm
 tech.root: properties
 ms.assetid: 807793fc-c679-4749-816c-005a77a37f08
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: InitPropVariantFromUInt32Vector, InitPropVariantFromUInt32Vector function [Windows Properties], properties.InitPropVariantFromUInt32Vector, propvarutil/InitPropVariantFromUInt32Vector, shell.InitPropVariantFromUInt32Vector, shell_InitPropVariantFromUInt32Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices

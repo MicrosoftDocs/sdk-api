@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_getoutputformat.htm
 tech.root: wmformat
 ms.assetid: 7faac9e7-ad5f-42a4-ba6e-562ae973f81b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [windows Media Format], GetOutputFormat method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputFormat method, IWMSyncReader.GetOutputFormat, IWMSyncReader::GetOutputFormat, IWMSyncReaderGetOutputFormat, wmformat.iwmsyncreader_getoutputformat, wmsdkidl/IWMSyncReader::GetOutputFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,29 +64,19 @@ The <b>GetOutputFormat</b> method retrieves the supported formats for a specifie
 
 
 
-### -param dwOutputNum
+### -param dwOutputNum [in]
 
-TBD
+<b>DWORD</b> containing the output number.
 
 
-### -param dwFormatNum
+### -param dwFormatNum [in]
 
-TBD
+<b>DWORD</b> containing the format number.
 
 
 ### -param ppProps [out]
 
 Pointer to a pointer to an <a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps</a> interface. This object is created by a successful call to this method.
-
-
-#### - dwFormatNumber [in]
-
-<b>DWORD</b> containing the format number.
-
-
-#### - dwOutputNumber [in]
-
-<b>DWORD</b> containing the output number.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IX509ExtensionBasicConstraints::InitializeDecode
 author: windows-sdk-content
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensionbasicconstraints_initializedecode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 3b0b5547-6871-412a-8463-889af3b1302b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IX509ExtensionBasicConstraints interface [Security],InitializeDecode method, IX509ExtensionBasicConstraints.InitializeDecode, IX509ExtensionBasicConstraints::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionBasicConstraints interface, certenroll/IX509ExtensionBasicConstraints::InitializeDecode, security.ix509extensionbasicconstraints_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

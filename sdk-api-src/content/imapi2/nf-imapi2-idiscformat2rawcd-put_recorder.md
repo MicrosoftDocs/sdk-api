@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcd_put_recorder.htm
 tech.root: imapi
 ms.assetid: d3deefa8-40be-4cdc-aae1-e5fbe508f16f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_Recorder method, IDiscFormat2RawCD.put_Recorder, IDiscFormat2RawCD::put_Recorder, imapi.idiscformat2rawcd_put_recorder, imapi2/IDiscFormat2RawCD::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IDiscFormat2RawCD interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

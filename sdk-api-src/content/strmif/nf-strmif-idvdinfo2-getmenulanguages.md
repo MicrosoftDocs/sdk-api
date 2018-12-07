@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getmenulanguages.htm
 tech.root: DirectShow
 ms.assetid: 97c95208-e2fc-4c9a-b8ba-61419b96aec9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetMenuLanguages, GetMenuLanguages method [DirectShow], GetMenuLanguages method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetMenuLanguages method, IDvdInfo2.GetMenuLanguages, IDvdInfo2::GetMenuLanguages, IDvdInfo2GetMenuLanguages, dshow.idvdinfo2_getmenulanguages, strmif/IDvdInfo2::GetMenuLanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ Pointer to an <b>LCID</b> array that receives the languages returned. To retriev
 Maximum number of languages to retrieve.
 
 
-### -param pulActualLanguages
-
-TBD
-
-
-
-
-#### - puActualLanguages [out]
+### -param pulActualLanguages [out]
 
 Receives the actual number of languages retrieved.
 

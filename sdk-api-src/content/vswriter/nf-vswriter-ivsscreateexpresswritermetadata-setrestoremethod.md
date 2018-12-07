@@ -4,10 +4,10 @@ title: IVssCreateExpressWriterMetadata::SetRestoreMethod
 author: windows-sdk-content
 description: Specifies how an express writer's data is to be restored.
 old-location: base\ivsscreateexpresswritermetadata_setrestoremethod.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 220e399b-aafd-4b72-bef4-abc3f39f202f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SetRestoreMethod method, IVssCreateExpressWriterMetadata.SetRestoreMethod, IVssCreateExpressWriterMetadata::SetRestoreMethod, SetRestoreMethod, SetRestoreMethod method, SetRestoreMethod method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setrestoremethod, vswriter/IVssCreateExpressWriterMetadata::SetRestoreMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,19 +79,14 @@ If the value of <i>method</i> is not <b>VSS_RME_STOP_RESTORE_START</b> or <b>VSS
 Reserved for future use. The value of this parameter should always be set to <b>NULL</b>.
 
 
-### -param writerRestore
+### -param writerRestore [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/a3e45d52-4d9a-4bdf-a8e5-622939be6f2c">VSS_WRITERRESTORE_ENUM</a> enumeration value specifying whether the writer will be involved in restoring its data. This parameter must be set to <b>VSS_WRE_NEVER</b>.
 
 
 ### -param bRebootRequired [in]
 
 A Boolean value indicating whether a reboot will be required after the restore operation is complete.
-
-
-#### - wreWriterRestore [in]
-
-A <a href="https://msdn.microsoft.com/a3e45d52-4d9a-4bdf-a8e5-622939be6f2c">VSS_WRITERRESTORE_ENUM</a> enumeration value specifying whether the writer will be involved in restoring its data. This parameter must be set to <b>VSS_WRE_NEVER</b>.
 
 
 ## -returns

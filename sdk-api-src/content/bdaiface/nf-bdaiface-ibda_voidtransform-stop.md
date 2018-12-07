@@ -4,10 +4,10 @@ title: IBDA_VoidTransform::Stop
 author: windows-sdk-content
 description: The Stop method stops data flow through a control node.
 old-location: mstv\ibda_voidtransform_stop.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ff061aef-1058-4d1d-802e-89e7f4ebfe3c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_VoidTransform interface [Microsoft TV Technologies],Stop method, IBDA_VoidTransform.Stop, IBDA_VoidTransform::Stop, IBDA_VoidTransformStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IBDA_VoidTransform interface, bdaiface/IBDA_VoidTransform::Stop, mstv.ibda_voidtransform_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

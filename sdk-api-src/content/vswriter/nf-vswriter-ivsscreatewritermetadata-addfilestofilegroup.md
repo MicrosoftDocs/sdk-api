@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddFilesToFileGroup
 author: windows-sdk-content
 description: The AddFilesToFileGroup method adds a file set (a specified file or files) to a specified file group component.
 old-location: base\ivsscreatewritermetadata_addfilestofilegroup.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 5d5a0155-467c-4c42-876e-a1b245cf6f8e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method [VSS], AddFilesToFileGroup method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddFilesToFileGroup method, IVssCreateWriterMetadata.AddFilesToFileGroup, IVssCreateWriterMetadata::AddFilesToFileGroup, _win32_ivsscreatewritermetadata_addfilestofilegroup, base.ivsscreatewritermetadata_addfilestofilegroup, vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,9 +107,17 @@ For information on traversing over mounted folders, see
 <a href="https://msdn.microsoft.com/d0e08598-a8a2-489b-9cb2-e989bed1ce53">Working with Mounted Folders and Reparse Points</a>.
 
 
-### -param wszAlternateLocation
+### -param wszAlternateLocation [in]
 
-TBD
+Pointer to a <b>null</b>-terminated wide character string containing the alternate path, which actually contains the files to be backed up with this component.
+
+ The directory can be a local directory on the VSS machine, or it can be a file share directory on a remote file server.
+
+UNC paths are supported.
+
+Specifying an alternate path is optional; if no alternate path is needed, <i>wszAlternatePath</i> should be <b>NULL</b>.
+
+An alternate path should not be confused with an alternate location mapping.
 
 
 ### -param dwBackupTypeMask [in]
@@ -121,19 +129,6 @@ A bitmask of
 
 
 The default value for this argument is (VSS_FSBT_ALL_BACKUP_REQUIRED | VSS_FSBT_ALL_SNAPSHOT_REQUIRED).
-
-
-#### - wszAlternatePath [in]
-
-Pointer to a <b>null</b>-terminated wide character string containing the alternate path, which actually contains the files to be backed up with this component.
-
- The directory can be a local directory on the VSS machine, or it can be a file share directory on a remote file server.
-
-UNC paths are supported.
-
-Specifying an alternate path is optional; if no alternate path is needed, <i>wszAlternatePath</i> should be <b>NULL</b>.
-
-An alternate path should not be confused with an alternate location mapping.
 
 
 ## -returns

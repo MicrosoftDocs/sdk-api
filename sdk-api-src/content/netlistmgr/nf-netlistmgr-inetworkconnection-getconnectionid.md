@@ -4,10 +4,10 @@ title: INetworkConnection::GetConnectionId
 author: windows-sdk-content
 description: The GetConnectionID method returns the Connection ID associated with this network connection.
 old-location: nla\inetworkconnection_getconnectionid.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: c8619fd1-2764-4f20-a258-fb4368e448b7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetConnectionId, GetConnectionId method [Network Awareness], GetConnectionId method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetConnectionId method, INetworkConnection.GetConnectionId, INetworkConnection::GetConnectionId, netlistmgr/INetworkConnection::GetConnectionId, nla.inetworkconnection_getconnectionid
 ms.prod: windows-hardware
 ms.technology: windows-devices

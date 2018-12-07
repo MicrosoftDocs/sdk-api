@@ -7,10 +7,10 @@ old-location: termserv\wtssbx_session_info.htm
 tech.root: termserv
 ms.assetid: d0c142a9-2495-46e6-b53b-0c415bddb0b2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: WTSSBX_SESSION_INFO, WTSSBX_SESSION_INFO structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0009, termserv.wtssbx_session_info, tssbx/WTSSBX_SESSION_INFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tssbx.h
 req.include-header: 

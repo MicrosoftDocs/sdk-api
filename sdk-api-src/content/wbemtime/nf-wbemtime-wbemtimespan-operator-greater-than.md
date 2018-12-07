@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_comparison_operators_greaterthan.htm
 tech.root: WmiSdk
 ms.assetid: 579e0041-0e33-4367-923d-15b59eee4cae
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: "??OWBEMTimeSpan@@QBEHABV0@@Z, WBEMTimeSpan interface [Windows Management Instrumentation],operator> method, WBEMTimeSpan.operator-greater-than, WBEMTimeSpan.operator>, WBEMTimeSpan::operator-greater-than, WBEMTimeSpan::operator>, operator>, operator> method [Windows Management Instrumentation], operator> method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator>, wmi.wbemtimespan_comparison_operators_greaterthan"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Compares two <a href="https://msdn.microsoft.com/bcec87c1-32ba-451b-92bb-80c8a50
 
 
 
-### -param a
-
-TBD
-
-
-
-
-#### - uTarget [ref]
+### -param a [ref]
 
 Reference to the <a href="https://msdn.microsoft.com/bcec87c1-32ba-451b-92bb-80c8a5007adb">WBEMTimeSpan</a> object, whose time span is compared to this one.
 

@@ -9,8 +9,8 @@ ms.assetid: 4e15b094-4250-4699-b66e-6734cf37cbb6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: QualAppFlowSpec, QualAppFlowSpec structure [QOS], lpmapi/QualAppFlowSpec, qos.qualappflowspec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

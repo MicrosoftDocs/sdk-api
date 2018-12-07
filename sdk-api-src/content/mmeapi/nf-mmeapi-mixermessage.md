@@ -7,7 +7,7 @@ old-location: multimedia\mixermessage.htm
 tech.root: Multimedia
 ms.assetid: 021669bb-144b-4107-955c-c4cc9cd53c00
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_mixerMessage, mixerMessage, mixerMessage function [Windows Multimedia], mmeapi/mixerMessage, multimedia.mixermessage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The <b>mixerMessage</b> function sends a custom mixer driver message directly to
 
 ### -param hmx
 
-TBD
+Identifier of the mixer that receives the message. You must cast the device ID to the <b>HMIXER</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
 
 
 ### -param uMsg
@@ -81,11 +81,6 @@ Parameter associated with the message being sent.
 ### -param dwParam2
 
 Parameter associated with the message being sent.
-
-
-#### - driverID
-
-Identifier of the mixer that receives the message. You must cast the device ID to the <b>HMIXER</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
 
 
 ## -returns

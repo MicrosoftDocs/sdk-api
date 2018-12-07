@@ -4,13 +4,13 @@ title: "_WSD_SCOPES"
 author: windows-sdk-content
 description: A collection of scopes used in WS-Discovery messaging.
 old-location: ncd\wsd_scopes_struct.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 3415fef0-dbf4-4ece-bad0-6cd6831404db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WSD_SCOPES, WSD_SCOPES structure, _WSD_SCOPES, ncd.wsd_scopes_struct, wsdtypes/WSD_SCOPES
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

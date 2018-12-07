@@ -7,10 +7,10 @@ old-location: eaphost\eap_method_property_value.htm
 tech.root: eaphost
 ms.assetid: 298b59d3-245f-4a29-b8a1-2265d65d30e6
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE, EAP_METHOD_PROPERTY_VALUE union [EAPHost], _EAP_METHOD_PROPERTY_VALUE, eaphost.eap_method_property_value, eaptypes/EAP_METHOD_PROPERTY_VALUE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

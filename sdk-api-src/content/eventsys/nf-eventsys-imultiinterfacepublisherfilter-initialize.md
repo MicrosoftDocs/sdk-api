@@ -7,7 +7,7 @@ old-location: cos\imultiinterfacepublisherfilter_initialize.htm
 tech.root: cossdk
 ms.assetid: d69075a3-7b5a-4c99-9e51-d07a3dde511a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMultiInterfacePublisherFilter interface [COM+],Initialize method, IMultiInterfacePublisherFilter.Initialize, IMultiInterfacePublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IMultiInterfacePublisherFilter interface, _cos_IMultiInterfacePublisherFilter_Initialize, cos.imultiinterfacepublisherfilter_initialize, eventsys/IMultiInterfacePublisherFilter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Associates an event class with a publisher filter.
 
 
 
-### -param pEIC
-
-TBD
-
-
-
-
-#### - pIEC [in]
+### -param pEIC [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/e603f68a-881c-468d-a3d3-738f43400e01">IMultiInterfaceEventControl</a> interface on an event class object.
 

@@ -4,10 +4,10 @@ title: CVssWriter::SetWriterFailure
 author: windows-sdk-content
 description: The SetWriterFailure method indicates that this writer has encountered an error condition and sets an error condition.
 old-location: base\cvsswriter_setwriterfailure.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 9fef9d77-dc0d-4ba0-a317-5c62355458f7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],SetWriterFailure method, CVssWriter.SetWriterFailure, CVssWriter::SetWriterFailure, SetWriterFailure, SetWriterFailure method [VSS], SetWriterFailure method [VSS],CVssWriter interface, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, _win32_cvsswriter_setwriterfailure, base.cvsswriter_setwriterfailure, vswriter/CVssWriter::SetWriterFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices

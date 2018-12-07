@@ -4,10 +4,10 @@ title: ISCTE_EAS::GetDuration
 author: windows-sdk-content
 description: The GetDuration method returns the expected duration of the alert.
 old-location: mstv\iscte_eas_getduration.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: de644588-6247-44d2-9d19-53272af8529b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetDuration, GetDuration method [Microsoft TV Technologies], GetDuration method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDuration method, ISCTE_EAS.GetDuration, ISCTE_EAS::GetDuration, ISCTE_EASGetDuration, atscpsipparser/ISCTE_EAS::GetDuration, mstv.iscte_eas_getduration
 ms.prod: windows-hardware
 ms.technology: windows-devices

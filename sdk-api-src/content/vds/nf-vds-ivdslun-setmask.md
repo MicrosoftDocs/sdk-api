@@ -4,10 +4,10 @@ title: IVdsLun::SetMask
 author: windows-sdk-content
 description: Specifies the unmasking list, which is the list of computers to be granted access to the LUN.
 old-location: base\ivdslun_setmask.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: b7e841cc-95b4-452f-ac14-d7063fe6a694
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsLun interface [VDS],SetMask method, IVdsLun.SetMask, IVdsLun::SetMask, SetMask, SetMask method [VDS], SetMask method [VDS],IVdsLun interface, base.ivdslun_setmask, vds/IVdsLun::SetMask, vdshwprv/IVdsLun::SetMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

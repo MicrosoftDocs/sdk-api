@@ -4,10 +4,10 @@ title: IFsrmRule::get_RuleType
 author: windows-sdk-content
 description: The type of the rule.
 old-location: fsrm\ifsrmrule_ruletype.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: a1aa2c94-b2f0-4620-8589-27360f5bdf05
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],RuleType property, IFsrmRule.RuleType, IFsrmRule.get_RuleType, IFsrmRule::RuleType, IFsrmRule::get_RuleType, RuleType property [File Server Resource Manager], RuleType property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_ruletype, fsrm.ifsrmrule_ruletype, fsrmpipeline/IFsrmRule::RuleType, fsrmpipeline/IFsrmRule::get_RuleType, get_RuleType
 ms.prod: windows-hardware
 ms.technology: windows-devices

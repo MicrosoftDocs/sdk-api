@@ -7,10 +7,10 @@ old-location: winprog\ipaddrentry.htm
 tech.root: devnotes
 ms.assetid: c48453e8-05f1-49d8-bae6-fad0681bdf7e
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IPAddrEntry, IPAddrEntry structure [Windows API], tcpioctl/IPAddrEntry, winprog.ipaddrentry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tcpioctl.h
 req.include-header: 

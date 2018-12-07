@@ -7,7 +7,7 @@ old-location: controls\MAKEIPADDRESS.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeipaddress.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: MAKEIPADDRESS, MAKEIPADDRESS macro [Windows Controls], _win32_MAKEIPADDRESS, _win32_MAKEIPADDRESS_cpp, commctrl/MAKEIPADDRESS, controls.MAKEIPADDRESS, controls._win32_MAKEIPADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,19 +62,21 @@ Packs four byte-values into a single LPARAM suitable for use with the <a href="h
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
-The field 1 address. 
+The field 0 address. 
 
 
 ### -param b2
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
-The field 2 address. 
+The field 1 address. 
 
 
 ### -param b3
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
+
+The field 2 address. 
 
 
 ### -param b4
@@ -82,11 +84,4 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 The field 3 address. 
-
-
-#### - b0
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
-
-The field 0 address. 
 

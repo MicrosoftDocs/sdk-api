@@ -7,10 +7,10 @@ old-location: dshow\eavdecaacdownmixmode.htm
 tech.root: DirectShow
 ms.assetid: d0a62f4a-6b0a-4a77-8d5e-cb40dc1364c7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: codecapi/eAVDecAACDownmixMode, codecapi/eAVDecAACUseARIBDownmix, codecapi/eAVDecAACUseISODownmix, dshow.eavdecaacdownmixmode, eAVDecAACDownmixMode, eAVDecAACDownmixMode enumeration [DirectShow], eAVDecAACUseARIBDownmix, eAVDecAACUseISODownmix
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

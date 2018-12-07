@@ -4,13 +4,13 @@ title: AlgorithmFlags
 author: windows-sdk-content
 description: Contains flags that can be used to refine the search for a cryptographic algorithm.
 old-location: security\algorithmflags_enum.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 0f067687-ae92-4500-af19-80f537620bb9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AlgorithmFlags, AlgorithmFlags enumeration [Security], AlgorithmFlagsNone, AlgorithmFlagsWrap, certenroll/AlgorithmFlags, certenroll/AlgorithmFlagsNone, certenroll/AlgorithmFlagsWrap, security.algorithmflags_enum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_getacpfrompoint.htm
 tech.root: TSF
 ms.assetid: 2907cd34-6ebe-45b4-afd6-8062212c3dc9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetACPFromPoint method, ITextStoreACP2.GetACPFromPoint, ITextStoreACP2::GetACPFromPoint, textstor/ITextStoreACP2::GetACPFromPoint, tsf.itextstoreacp2_getacpfrompoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

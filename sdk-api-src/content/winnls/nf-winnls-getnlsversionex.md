@@ -7,7 +7,7 @@ old-location: intl\getnlsversionex.htm
 tech.root: Intl
 ms.assetid: 255e6774-eb70-41db-a372-8796166ee8d6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetNLSVersionEx, GetNLSVersionEx function [Internationalization for Windows Applications], _win32_GetNLSVersionEx, intl.getnlsversionex, winnls/GetNLSVersionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

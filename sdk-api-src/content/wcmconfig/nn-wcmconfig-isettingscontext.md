@@ -7,10 +7,10 @@ old-location: smi\isettingscontext.htm
 tech.root: SMI
 ms.assetid: 29f43c3f-57bf-4208-a0bf-9b4414795a59
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISettingsContext, ISettingsContext interface [SMI], ISettingsContext interface [SMI],described, smi.isettingscontext, wcmconfig/ISettingsContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 

@@ -4,13 +4,13 @@ title: DNS_A_DATA
 author: windows-sdk-content
 description: The DNS_A_DATA structure represents a DNS address (A) record as specified in section 3.4.1 of RFC 1035.
 old-location: dns\dns_a_data.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 0fd21930-1319-4ae7-b46f-2b744f4faae9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_A_DATA, DNS_A_DATA, DNS_A_DATA structure [DNS], PDNS_A_DATA, PDNS_A_DATA structure pointer [DNS], _dns_dns_a_data, dns.dns_a_data, windns/DNS_A_DATA, windns/PDNS_A_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

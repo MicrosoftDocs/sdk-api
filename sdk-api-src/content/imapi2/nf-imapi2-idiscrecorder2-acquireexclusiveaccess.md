@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_acquireexclusiveaccess.htm
 tech.root: imapi
 ms.assetid: 58cb5efa-74bc-4444-aa05-be41a6c63b3a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: AcquireExclusiveAccess, AcquireExclusiveAccess method [IMAPI], AcquireExclusiveAccess method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],AcquireExclusiveAccess method, IDiscRecorder2.AcquireExclusiveAccess, IDiscRecorder2::AcquireExclusiveAccess, imapi.idiscrecorder2_acquireexclusiveaccess, imapi2/IDiscRecorder2::AcquireExclusiveAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ Acquires exclusive access to the device.
 Set to VARIANT_TRUE to gain exclusive access to the volume whether the file system volume can or cannot be dismounted. If VARIANT_FALSE, this method  gains exclusive access only when there is no file system mounted on the volume.
 
 
-### -param __MIDL__IDiscRecorder20000
-
-TBD
-
-
-
-
-#### - ClientName [in]
+### -param __MIDL__IDiscRecorder20000 [in]
 
 String that contains the friendly name of the client application requesting exclusive access. Cannot be <b>NULL</b> or a zero-length string. The string must conform to the restrictions for the IOCTL_CDROM_EXCLUSIVE_ACCESS control code found in the DDK.
 

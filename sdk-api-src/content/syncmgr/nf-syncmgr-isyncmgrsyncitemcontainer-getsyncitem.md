@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemContainer_GetSyncItem.htm
 tech.root: shell
 ms.assetid: 27cdfcfe-d419-4232-b1cc-b9e7b8b2d315
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetSyncItem, GetSyncItem method [Windows Shell], GetSyncItem method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItem method, ISyncMgrSyncItemContainer.GetSyncItem, ISyncMgrSyncItemContainer::GetSyncItem, _shell_ISyncMgrSyncItemContainer_GetSyncItem, shell.ISyncMgrSyncItemContainer_GetSyncItem, syncmgr/ISyncMgrSyncItemContainer::GetSyncItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Gets a specified sync item.
 
 
 
-### -param pszItemID
+### -param pszItemID [in]
 
-TBD
+Type: <b>LPCWSTR*</b>
+
+A pointer to a buffer containing the item ID representing the desired item. The ID is of maximum length MAX_SYNCMGR_ID including the terminating <b>null</b> character.
 
 
 ### -param ppItem [out]
@@ -68,13 +70,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/322c2ebe-f1ab-4de4-b8d5-2fba1e69ddda">ISyncMgrSyncItem</a>**</b>
 
 When this method returns, contains the address of a pointer to an <a href="https://msdn.microsoft.com/322c2ebe-f1ab-4de4-b8d5-2fba1e69ddda">ISyncMgrSyncItem</a> instance representing the sync item.
-
-
-#### - ppszItemID [in]
-
-Type: <b>LPCWSTR*</b>
-
-A pointer to a buffer containing the item ID representing the desired item. The ID is of maximum length MAX_SYNCMGR_ID including the terminating <b>null</b> character.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_gettitleparentallevels.htm
 tech.root: DirectShow
 ms.assetid: 1a843346-9e24-4321-971f-07e4eed3fc72
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetTitleParentalLevels, GetTitleParentalLevels method [DirectShow], GetTitleParentalLevels method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleParentalLevels method, IDvdInfo.GetTitleParentalLevels, IDvdInfo::GetTitleParentalLevels, IDvdInfoGetTitleParentalLevels, dshow.idvdinfo_gettitleparentallevels, strmif/IDvdInfo::GetTitleParentalLevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ Retrieves the parental levels that are defined for a particular title.
 Title for which parental levels are requested.
 
 
-### -param pulParentalLevels
-
-TBD
-
-
-
-
-#### - pParentalLevels [out]
+### -param pulParentalLevels [out]
 
 Pointer to a logical OR combination of the parental levels defined for the title. A higher setting will block out more content than a lower setting. Valid parental levels are the following:
 

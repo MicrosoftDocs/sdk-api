@@ -4,10 +4,10 @@ title: IBDA_IPV4Filter::GetMulticastList
 author: windows-sdk-content
 description: The GetMulticastList method retrieves the list of multicast addresses on the Network Provider.
 old-location: mstv\ibda_ipv4filter_getmulticastlist.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 020a4053-76ba-4e67-afa8-27abcf70c456
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPV4Filter.GetMulticastList, IBDA_IPV4Filter::GetMulticastList, IBDA_IPV4FilterGetMulticastList, bdaiface/IBDA_IPV4Filter::GetMulticastList, mstv.ibda_ipv4filter_getmulticastlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,19 +61,14 @@ The <b>GetMulticastList</b> method retrieves the list of multicast addresses on 
 
 
 
-### -param pulcbAddresses
+### -param pulcbAddresses [in, out]
 
-TBD
+On input, specifies the maximum number of addresses to retrieve, multiplied by the number of bytes per address. On output, receives the actual number of bytes retrieved.
 
 
 ### -param pAddressList [out]
 
 Pointer that receives an array of addresses whose size in bytes is equal to <i>ulcbAddresses</i>.
-
-
-#### - ulcbAddresses [in, out]
-
-On input, specifies the maximum number of addresses to retrieve, multiplied by the number of bytes per address. On output, receives the actual number of bytes retrieved.
 
 
 ## -returns

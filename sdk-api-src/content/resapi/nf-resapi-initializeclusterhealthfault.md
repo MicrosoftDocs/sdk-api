@@ -7,7 +7,7 @@ old-location: mscs\initializeclusterhealthfault.htm
 tech.root: mscs
 ms.assetid: 4631df2f-8fde-446c-9fbc-f7e88bc6d4e6
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: InitializeClusterHealthFault, InitializeClusterHealthFault function [Failover Cluster], mscs.initializeclusterhealthfault, resapi/InitializeClusterHealthFault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ TBD
 
 
 
-### -param clusterHealthFault [in, out] [in, out]
+### -param clusterHealthFault [in, out]
 
 TBD
 

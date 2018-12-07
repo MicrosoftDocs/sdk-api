@@ -7,7 +7,7 @@ old-location: security\credunpackauthenticationbuffer.htm
 tech.root: secauthn
 ms.assetid: c87f0b11-59c2-4450-ad63-398cdb15016f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CredUnPackAuthenticationBuffer, CredUnPackAuthenticationBuffer function [Security], CredUnPackAuthenticationBufferA, CredUnPackAuthenticationBufferW, security.credunpackauthenticationbuffer, wincred/CredUnPackAuthenticationBuffer, wincred/CredUnPackAuthenticationBufferA, wincred/CredUnPackAuthenticationBufferW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,9 +99,9 @@ A pointer to a null-terminated string that receives the user name.
 This string can be a marshaled credential. See Remarks.
 
 
-### -param pcchlMaxUserName
+### -param pcchlMaxUserName [in, out]
 
-TBD
+A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszUserName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszUserName</i> buffer. The size includes terminating null character.
 
 
 ### -param pszDomainName [out]
@@ -124,11 +124,6 @@ A pointer to a null-terminated string that receives the password.
 A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszPassword</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszPassword</i> buffer. The size includes the terminating null character.  
 
 This string can be a marshaled credential. See Remarks.
-
-
-#### - pcchMaxUserName [in, out]
-
-A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszUserName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszUserName</i> buffer. The size includes terminating null character.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_syncdisplaytransfor
 tech.root: directmanipulation
 ms.assetid: 0af63d1e-026e-4083-a1b2-56ba31653434
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SyncDisplayTransform method, IDirectManipulationViewport.SyncDisplayTransform, IDirectManipulationViewport::SyncDisplayTransform, SyncDisplayTransform, SyncDisplayTransform method [Direct Manipulation], SyncDisplayTransform method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_syncdisplaytransform, directmanipulation/IDirectManipulationViewport::SyncDisplayTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

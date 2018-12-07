@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput3_checkoverlaysupport.htm
 tech.root: direct3ddxgi
 ms.assetid: D7B90FF5-5E8B-4F9E-A442-B44449438388
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: CheckOverlaySupport, CheckOverlaySupport method [DXGI], CheckOverlaySupport method [DXGI],IDXGIOutput3 interface, IDXGIOutput3 interface [DXGI],CheckOverlaySupport method, IDXGIOutput3.CheckOverlaySupport, IDXGIOutput3::CheckOverlaySupport, direct3ddxgi.idxgioutput3_checkoverlaysupport, dxgi1_3/IDXGIOutput3::CheckOverlaySupport
 ms.prod: windows-hardware
 ms.technology: windows-devices

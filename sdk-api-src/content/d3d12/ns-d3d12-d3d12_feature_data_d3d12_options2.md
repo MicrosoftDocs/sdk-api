@@ -2,15 +2,15 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS2
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS2
 author: windows-sdk-content
-description: Details the adapter's support for certain optional features of Direct3D 12.
+description: Indicates the level of support that the adapter provides for depth-bounds tests and programmable sample positions.
 old-location: direct3d12\d3d12_feature_data_d3d12_options2.htm
 tech.root: direct3d12
 ms.assetid: E45DA471-E0A9-47BF-8AE5-4B8BA4B38337
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS2, D3D12_FEATURE_DATA_D3D12_OPTIONS2 structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS2, direct3d12.d3d12_feature_data_d3d12_options2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Details the adapter's support for certain optional features of Direct3D 12.
+Indicates the level of support that the adapter provides for depth-bounds tests and programmable sample positions.
 
 
 ## -struct-fields
@@ -89,6 +89,10 @@ See the enumeration constant D3D12_FEATURE_D3D12_OPTIONS2 in the <a href="https:
 
 
 <a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/Dn770363(v=VS.85).aspx">D3D12_FEATURE</a>
  
 
  

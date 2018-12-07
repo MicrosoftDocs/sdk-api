@@ -2,13 +2,13 @@
 UID: NF:directxmath.XMUINT2.XMUINT2(uint32_t,uint32_t)
 title: XMUINT2 function
 author: windows-sdk-content
-description: Constructors exposed by XMUINT2.
-old-location: dxmath\xmuint2_ctor.htm
+description: Initializes a new instance of XMUINT2 from two uint32_t arguments.
+old-location: dxmath\xmuint2_ctor_2.htm
 tech.root: dxmath
-ms.assetid: Overload:Microsoft.directx_sdk.reference.XMUINT2.#ctor
+ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT2.#ctor(uint32_t,uint32_t)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: XMUINT2, XMUINT2 Constructors, XMUINT2 Constructors constructors [DirectX Math Support APIs], directxmath/XMUINT2 Constructors, dxmath.xmuint2_ctor
+ms.date: 11/15/2018
+ms.keywords: XMUINT2 constructor [DirectX Math Support APIs], XMUINT2 constructor [DirectX Math Support APIs],XMUINT2 structure, XMUINT2 structure [DirectX Math Support APIs],XMUINT2 constructor, XMUINT2.XMUINT2(uint32_t,uint32_t), dxmath.xmuint2_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: 
+req.namespace: Use DirectX.
 req.assembly: 
 req.type-library: 
 req.lib: 
@@ -33,15 +33,21 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - directxmath.h
+ - DirectXMath.h
 api_name:
- - XMUINT2
+ - XMUINT2.XMUINT2
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMUINT2
+: 
 ---
 
 # XMUINT2 function
@@ -50,62 +56,57 @@ req.redist:
 ## -description
 
 
-<span>Constructors exposed by <code>XMUINT2</code>.
-
-Constructs instances of the <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a> structure.
-
-<div class="alert"><b>Note</b>  The constructors listed here are only available under C++.</div>
-<div> </div></span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc7f4f21-e468-44dc-ab9c-38adc7dbbc54">XMUINT2 ()</a>
-</td>
-<td align="left" width="63%">
-Default constructor for <code>XMUINT2</code>.
-
-Default constructor for <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a>.
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/412fe549-c4b1-48c7-bbaf-a914d7c1e0a1">XMUINT2 (const uint32_t*)</a>
-</td>
-<td align="left" width="63%">
-Initializes a new instance of <code>XMUINT2</code> from a two element <code>uint32_t</code> array
-	argument.
-
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a> from a from
-	a two element <code>uint32_t</code> array argument.
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1005a474-54bc-4046-a8fb-825e82b118d2">XMUINT2 (uint32_t,uint32_t)</a>
-</td>
-<td align="left" width="63%">
 Initializes a new instance of <code>XMUINT2</code> from two <code>uint32_t</code> arguments.
+    
 
 This constructor initializes a new instance of <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a> from two
 	<code>uint32_t</code> arguments.
-
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div>
-<div> </div>
-</td>
-</tr>
-</table>
+    </div><div> </div>
 
 ## -parameters
+
+
+
+
+### -param _x
+
+Value of the x-coordinate of the vector, the <b>x</b> member of the new
+		    <code>XMUINT2</code> instance.
+		
+
+
+### -param _y
+
+Value of the y-coordinate of the vector, the <b>y</b> member of the new
+		    <code>XMUINT2</code> instance.
+		
+
+
+## -remarks
+
+
+
+The following pseudocode demonstrates the operation of this constructor:
+	
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+	XMUINT2 instance;
+
+	instance.x = _x;
+	instance.y = _y;
+
+    </pre>
+</td>
+</tr>
+</table></span></div>
+
 
 
 ## -see-also
@@ -121,7 +122,7 @@ This constructor initializes a new instance of <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/563e5026-1746-483b-80b0-fb931bcf057a">XMUINT2 Extensions</a>
+<a href="https://msdn.microsoft.com/296d8eb0-a39f-494e-8524-5bf360dd1160">XMUINT2 Constructors</a>
  
 
  

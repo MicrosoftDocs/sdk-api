@@ -4,10 +4,10 @@ title: IUPnPDeviceFinderCallback::SearchComplete
 author: windows-sdk-content
 description: The SearchComplete method is invoked by the UPnP framework to notify the application that the initial search for network devices has been completed.
 old-location: upnp\iupnpdevicefindercallback_searchcomplete.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 6fcce487-1cfb-47ec-9ea1-7df04985d506
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDeviceFinderCallback interface [UPnP APIs],SearchComplete method, IUPnPDeviceFinderCallback.SearchComplete, IUPnPDeviceFinderCallback::SearchComplete, SearchComplete, SearchComplete method [UPnP APIs], SearchComplete method [UPnP APIs],IUPnPDeviceFinderCallback interface, _upnp_iupnpdevicefindercallback_searchcomplete, upnp.iupnpdevicefindercallback_searchcomplete, upnp/IUPnPDeviceFinderCallback::SearchComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

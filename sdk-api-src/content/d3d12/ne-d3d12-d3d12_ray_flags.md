@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_ray_flags.htm
 tech.root: direct3d12
 ms.assetid: AD2494F6-AF2E-46E8-9140-2E91BD2BA3EB
 ms.author: windowssdkdev
-ms.date: 11/12/2018
-ms.keywords: D3D12_RAY_FLAGS, D3D12_RAY_FLAGS enumeration, RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH, RAY_FLAG_CULL_BACK_FACING_TRIANGLES, RAY_FLAG_CULL_FRONT_FACING_TRIANGLES, RAY_FLAG_CULL_NON_OPAQUE, RAY_FLAG_CULL_OPAQUE, RAY_FLAG_FORCE_NON_OPAQUE, RAY_FLAG_FORCE_OPAQUE, RAY_FLAG_NONE, RAY_FLAG_SKIP_CLOSEST_HIT_SHADER, d3d12/D3D12_RAY_FLAGS, d3d12/RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH, d3d12/RAY_FLAG_CULL_BACK_FACING_TRIANGLES, d3d12/RAY_FLAG_CULL_FRONT_FACING_TRIANGLES, d3d12/RAY_FLAG_CULL_NON_OPAQUE, d3d12/RAY_FLAG_CULL_OPAQUE, d3d12/RAY_FLAG_FORCE_NON_OPAQUE, d3d12/RAY_FLAG_FORCE_OPAQUE, d3d12/RAY_FLAG_NONE, d3d12/RAY_FLAG_SKIP_CLOSEST_HIT_SHADER, direct3d12.d3d12_ray_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 12/5/2018
+ms.keywords: D3D12_RAY_FLAGS, D3D12_RAY_FLAGS enumeration, D3D12_RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH, D3D12_RAY_FLAG_CULL_BACK_FACING_TRIANGLES, D3D12_RAY_FLAG_CULL_FRONT_FACING_TRIANGLES, D3D12_RAY_FLAG_CULL_NON_OPAQUE, D3D12_RAY_FLAG_CULL_OPAQUE, D3D12_RAY_FLAG_FORCE_NON_OPAQUE, D3D12_RAY_FLAG_FORCE_OPAQUE, D3D12_RAY_FLAG_NONE, D3D12_RAY_FLAG_SKIP_CLOSEST_HIT_SHADER, d3d12/D3D12_RAY_FLAGS, d3d12/D3D12_RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH, d3d12/D3D12_RAY_FLAG_CULL_BACK_FACING_TRIANGLES, d3d12/D3D12_RAY_FLAG_CULL_FRONT_FACING_TRIANGLES, d3d12/D3D12_RAY_FLAG_CULL_NON_OPAQUE, d3d12/D3D12_RAY_FLAG_CULL_OPAQUE, d3d12/D3D12_RAY_FLAG_FORCE_NON_OPAQUE, d3d12/D3D12_RAY_FLAG_FORCE_OPAQUE, d3d12/D3D12_RAY_FLAG_NONE, d3d12/D3D12_RAY_FLAG_SKIP_CLOSEST_HIT_SHADER, direct3d12.d3d12_ray_flags
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
@@ -60,34 +60,22 @@ Flags passed to the <a href="https://docs.microsoft.com/en-us/windows/desktop/di
 
 ### -field D3D12_RAY_FLAG_NONE
 
+No options selected.
+
 
 ### -field D3D12_RAY_FLAG_FORCE_OPAQUE
+
+All ray-primitive intersections encountered in a raytrace are treated as opaque. So no any hit shaders will be executed regardless of whether or not the hit geometry specifies D3D12_RAYTRACING_GEOMETRY_FLAG_OPAQUE, and regardless of the instance flags on the instance that was hit.
+
+This flag is mutually exclusive with RAY_FLAG_FORCE_NON_OPAQUE, RAY_FLAG_CULL_OPAQUE and RAY_FLAG_CULL_NON_OPAQUE.
 
 
 ### -field D3D12_RAY_FLAG_FORCE_NON_OPAQUE
 
+All ray-primitive intersections encountered in a raytrace are treated as non-opaque. So any hit shaders, if present, will be executed regardless of whether or not the hit geometry specifies D3D12_RAYTRACING_GEOMETRY_FLAG_OPAQUE, and regardless of the instance flags on the instance that was hit. This flag is mutually exclusive with RAY_FLAG_FORCE_\OPAQUE, RAY_FLAG_CULL_OPAQUE and RAY_FLAG_CULL_NON_OPAQUE.
+
 
 ### -field D3D12_RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH
-
-
-### -field D3D12_RAY_FLAG_SKIP_CLOSEST_HIT_SHADER
-
-
-### -field D3D12_RAY_FLAG_CULL_BACK_FACING_TRIANGLES
-
-
-### -field D3D12_RAY_FLAG_CULL_FRONT_FACING_TRIANGLES
-
-
-### -field D3D12_RAY_FLAG_CULL_OPAQUE
-
-
-### -field D3D12_RAY_FLAG_CULL_NON_OPAQUE
-
-
-
-
-#### - RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH
 
 The first ray-primitive intersection encountered in a raytrace automatically causes <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/accepthitandendsearch-function">AcceptHitAndEndSearch</a> to be called immediately after the any hit shader, including if there is no any hit shader.
 
@@ -98,7 +86,12 @@ If a closest hit shader is present at the first hit, it gets invoked unless RAY_
 A typical use for this flag is for shadows, where only a single hit needs to be found.
 
 
-#### - RAY_FLAG_CULL_BACK_FACING_TRIANGLES
+### -field D3D12_RAY_FLAG_SKIP_CLOSEST_HIT_SHADER
+
+Even if at least one hit has been committed, and the hit group for the closest hit contains a closest hit shader, skip execution of that shader.
+
+
+### -field D3D12_RAY_FLAG_CULL_BACK_FACING_TRIANGLES
 
 Enables culling of back facing triangles. See <a href="https://msdn.microsoft.com/418D1EF1-FC41-4BEF-914E-A9C82E78567A">D3D12_RAYTRACING_INSTANCE_FLAGS</a> for selecting which triangles are back facing, per-instance.
 
@@ -109,7 +102,7 @@ On geometry types other than D3D12_RAYTRACING_GEOMETRY_TYPE_TRIANGLES, this flag
 This flag is mutually exclusive with RAY_FLAG_CULL_FRONT_FACING_TRIANGLES.
 
 
-#### - RAY_FLAG_CULL_FRONT_FACING_TRIANGLES
+### -field D3D12_RAY_FLAG_CULL_FRONT_FACING_TRIANGLES
 
 Enables culling of front facing triangles. See <a href="https://msdn.microsoft.com/418D1EF1-FC41-4BEF-914E-A9C82E78567A">D3D12_RAYTRACING_INSTANCE_FLAGS</a> for selecting which triangles are back facing, per-instance.
 
@@ -120,38 +113,16 @@ On geometry types other than D3D12_RAYTRACING_GEOMETRY_TYPE_TRIANGLES, this flag
 This flag is mutually exclusive with RAY_FLAG_CULL_FRONT_FACING_TRIANGLES.
 
 
-#### - RAY_FLAG_CULL_NON_OPAQUE
-
-Culls all primitives that are considered non-opaque based on their geometry and instance flags.
-
-This flag is mutually exclusive with RAY_FLAG_FORCE_OPAQUE, RAY_FLAG_FORCE_NON_OPAQUE, and RAY_FLAG_CULL_OPAQUE.
-
-
-#### - RAY_FLAG_CULL_OPAQUE
+### -field D3D12_RAY_FLAG_CULL_OPAQUE
 
 Culls all primitives that are considered opaque based on their geometry and instance flags.
 
 This flag is mutually exclusive with RAY_FLAG_FORCE_OPAQUE, RAY_FLAG_FORCE_NON_OPAQUE, and RAY_FLAG_CULL_NON_OPAQUE.
 
 
-#### - RAY_FLAG_FORCE_NON_OPAQUE
+### -field D3D12_RAY_FLAG_CULL_NON_OPAQUE
 
-All ray-primitive intersections encountered in a raytrace are treated as non-opaque. So any hit shaders, if present, will be executed regardless of whether or not the hit geometry specifies D3D12_RAYTRACING_GEOMETRY_FLAG_OPAQUE, and regardless of the instance flags on the instance that was hit. This flag is mutually exclusive with RAY_FLAG_FORCE_\OPAQUE, RAY_FLAG_CULL_OPAQUE and RAY_FLAG_CULL_NON_OPAQUE.
+Culls all primitives that are considered non-opaque based on their geometry and instance flags.
 
-
-#### - RAY_FLAG_FORCE_OPAQUE
-
-All ray-primitive intersections encountered in a raytrace are treated as opaque. So no any hit shaders will be executed regardless of whether or not the hit geometry specifies D3D12_RAYTRACING_GEOMETRY_FLAG_OPAQUE, and regardless of the instance flags on the instance that was hit.
-
-This flag is mutually exclusive with RAY_FLAG_FORCE_NON_OPAQUE, RAY_FLAG_CULL_OPAQUE and RAY_FLAG_CULL_NON_OPAQUE.
-
-
-#### - RAY_FLAG_NONE
-
-No options selected.
-
-
-#### - RAY_FLAG_SKIP_CLOSEST_HIT_SHADER
-
-Even if at least one hit has been committed, and the hit group for the closest hit contains a closest hit shader, skip execution of that shader.
+This flag is mutually exclusive with RAY_FLAG_FORCE_OPAQUE, RAY_FLAG_FORCE_NON_OPAQUE, and RAY_FLAG_CULL_OPAQUE.
 

@@ -7,10 +7,10 @@ old-location: ad\bffcallback.htm
 tech.root: ad
 ms.assetid: 91cfef29-3e0a-4dd0-be1a-215827c23143
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: BFFCALLBACK, BFFCALLBACK callback function [Active Directory], BFFCallBack, BFFCallBack callback, BFFCallBack callback function [Active Directory], BFFM_ENABLEOK, BFFM_INITIALIZED, BFFM_SELCHANGED, BFFM_SETSELECTION, DSBM_CHANGEIMAGESTATE, DSBM_CONTEXTMENU, DSBM_HELP, DSBM_QUERYINSERT, _glines_bffcallback, ad.bffcallback, shlobj_core/BFFCallBack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: shlobj_core.h
 req.include-header: 

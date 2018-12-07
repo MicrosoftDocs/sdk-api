@@ -4,13 +4,13 @@ title: "_VDS_DISK_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of disk events.
 old-location: base\vds_disk_notification.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: ff0069ce-611f-4ad4-9b67-adb7dc0f7abc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_DISK_NOTIFICATION, VDS_DISK_NOTIFICATION structure [VDS], VDS_NF_DISK_ARRIVE, VDS_NF_DISK_DEPART, VDS_NF_DISK_MODIFY, _VDS_DISK_NOTIFICATION, base.vds_disk_notification, vds/_VDS_DISK_NOTIFICATION, vdshwprv/_VDS_DISK_NOTIFICATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

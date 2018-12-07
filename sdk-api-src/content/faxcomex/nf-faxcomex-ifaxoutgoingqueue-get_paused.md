@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_paused_cpp.ht
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_81b8.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingQueue interface [Fax Service],Paused property, IFaxOutgoingQueue.Paused, IFaxOutgoingQueue.get_Paused, IFaxOutgoingQueue.put_Paused, IFaxOutgoingQueue::Paused, IFaxOutgoingQueue::get_Paused, IFaxOutgoingQueue::put_Paused, Paused property [Fax Service], Paused property [Fax Service],IFaxOutgoingQueue interface, _mfax_faxoutgoingqueue.paused, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_paused_cpp, fax._mfax_faxoutgoingqueue_paused, faxcomex/IFaxOutgoingQueue::Paused, faxcomex/IFaxOutgoingQueue::get_Paused, faxcomex/IFaxOutgoingQueue::put_Paused, get_Paused
 ms.prod: windows-hardware
 ms.technology: windows-devices

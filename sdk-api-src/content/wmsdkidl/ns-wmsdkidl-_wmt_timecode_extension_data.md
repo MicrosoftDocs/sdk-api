@@ -7,10 +7,10 @@ old-location: wmformat\wmt_timecode_extension_data.htm
 tech.root: wmformat
 ms.assetid: 039c352c-d1f0-443f-acef-f730e949725c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: WMT_TIMECODE_EXTENSION_DATA, WMT_TIMECODE_EXTENSION_DATA structure [windows Media Format], _WMT_TIMECODE_EXTENSION_DATA, structure [windows Media Format], wmformat.wmt_timecode_extension_data, wmsdkidl/WMT_TIMECODE_EXTENSION_DATA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

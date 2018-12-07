@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_contrast.htm
 tech.root: DirectShow
 ms.assetid: a03ab735-2258-49c6-a66a-fabe38f88532
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Contrast method, IVideoProcAmp.put_Contrast, IVideoProcAmp::put_Contrast, IVideoProcAmpput_Contrast, dshow.ivideoprocamp_put_contrast, put_Contrast, put_Contrast method [DirectShow], put_Contrast method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Contrast
 ms.prod: windows-hardware
 ms.technology: windows-devices

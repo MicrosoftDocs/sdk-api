@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapscaler_initialize.htm
 tech.root: wic
 ms.assetid: e783389e-4702-4774-a501-b86ec4bc6cbe
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWICBitmapScaler interface [Windows Imaging Component],Initialize method, IWICBitmapScaler.Initialize, IWICBitmapScaler::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapScaler interface, _wic_codec_iwicbitmapscaler_initialize, wic._wic_codec_iwicbitmapscaler_initialize, wincodec/IWICBitmapScaler::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

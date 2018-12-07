@@ -4,13 +4,13 @@ title: VSS_FILE_RESTORE_STATUS
 author: windows-sdk-content
 description: Defines the set of statuses of a file restore operation.
 old-location: base\vss_file_restore_status.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: e1754fad-8da1-4a3e-a70a-ada37dde1c5d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: VSS_FILE_RESTORE_STATUS, VSS_FILE_RESTORE_STATUS enumeration [VSS], VSS_RS_ALL, VSS_RS_FAILED, VSS_RS_NONE, VSS_RS_UNDEFINED, _win32_vss_file_restore_status, base.vss_file_restore_status, enumeration [VSS], vswriter/VSS_FILE_RESTORE_STATUS, vswriter/VSS_RS_ALL, vswriter/VSS_RS_FAILED, vswriter/VSS_RS_NONE, vswriter/VSS_RS_UNDEFINED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 

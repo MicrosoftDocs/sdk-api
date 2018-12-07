@@ -7,10 +7,10 @@ old-location: com\icontinuecallback.htm
 tech.root: com
 ms.assetid: 55c960be-48e3-42e1-b459-49227be62171
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IContinueCallback, IContinueCallback interface [COM], IContinueCallback interface [COM],described, _com_icontinuecallback, com.icontinuecallback, docobj/IContinueCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 

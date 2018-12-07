@@ -7,7 +7,7 @@ old-location: winsock\gethostbyaddr_2.htm
 tech.root: winsock
 ms.assetid: 303023e1-a486-4457-80f6-8aa80f6b2c79
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyaddr, gethostbyaddr function [Winsock], winsock.gethostbyaddr_2, wsipv6ok/gethostbyaddr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,17 +61,36 @@ The
 
 
 
-#### - a [in]
+### -param a
+
+TBD
+
+
+### -param b
+
+TBD
+
+
+### -param c
+
+TBD
+
+
+
+
+
+
+#### - addr [in]
 
 A pointer to an address in network byte order.
 
 
-#### - b [in]
+#### - len [in]
 
 The length, in bytes, of the address.
 
 
-#### - c [in]
+#### - type [in]
 
 The type of the address, such as the AF_INET address family type (used with TCP, UDP, and other associated Internet protocols). Possible values for the address family are defined in the Winsock2.h header file. 
 

@@ -2,15 +2,15 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS5
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS5
 author: windows-sdk-content
-description: Used to indicate the level of support that the adapter provides for optional features of Direct3D 12.
+description: Indicates the level of support that the adapter provides for render passes, ray tracing, and shader-resource view tier 3 tiled resources.
 old-location: direct3d12\d3d12_feature_data_d3d12_options5.htm
 tech.root: direct3d12
 ms.assetid: 7B786C22-56C1-44A0-BE67-DE04EB367FD2
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS5, D3D12_FEATURE_DATA_D3D12_OPTIONS5 structure, PD3D12_FEATURE_DATA_D3D12_OPTIONS5, PD3D12_FEATURE_DATA_D3D12_OPTIONS5 structure pointer, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS5, d3d12/PD3D12_FEATURE_DATA_D3D12_OPTIONS5, direct3d12.d3d12_feature_data_d3d12_options5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Used to indicate the level of support that the adapter provides for optional features of Direct3D 12.
+Indicates the level of support that the adapter provides for render passes, ray tracing, and shader-resource view tier 3 tiled resources.
 
 
 ## -struct-fields
@@ -65,13 +65,13 @@ A boolean value indicating whether the options require shader-resource view tier
 
 ### -field RenderPassesTier
 
-The extent to which a UMD/HW efficiently supports render passes.
+The extent to which a device driver and/or the hardware efficiently supports render passes.
 
 
 
 #### RaytracingTier
 
-Specifies the level of raytracing support on the graphics device.
+Specifies the level of ray tracing support on the graphics device.
 
 
 ### -field RaytracingTier
@@ -79,4 +79,28 @@ Specifies the level of raytracing support on the graphics device.
  
 
 
+
+
+## -remarks
+
+
+
+Pass <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_D3D12_OPTIONS5</a> to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> to retrieve a <b>D3D12_FEATURE_DATA_D3D12_OPTIONS5</b> structure.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>
+ 
+
+ 
 

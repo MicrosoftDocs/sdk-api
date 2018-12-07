@@ -4,10 +4,10 @@ title: IBackgroundCopyJob1::GetStatus
 author: windows-sdk-content
 description: Use the GetStatus method to retrieve the state of the job.
 old-location: bits\ibackgroundcopyjob1_getstatus.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 6a4530fd-6b8e-4f31-a16e-5ed40adb4957
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [BITS], GetStatus method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetStatus method, IBackgroundCopyJob1.GetStatus, IBackgroundCopyJob1::GetStatus, QM_STATUS_JOB_COMPLETE, QM_STATUS_JOB_ERROR, QM_STATUS_JOB_FOREGROUND, QM_STATUS_JOB_INCOMPLETE, bits.ibackgroundcopyjob1_getstatus, qmgr/IBackgroundCopyJob1::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,14 +123,7 @@ Win32 error code. Valid only if the QM_STATUS_JOB_ERROR <i>dwStatus</i> flag is 
 HTTP error code. Valid only if the QM_STATUS_JOB_ERROR <i>dwStatus</i> flag is set.
 
 
-### -param pdwNumOfRetries
-
-TBD
-
-
-
-
-#### - pdwNumofRetries [out]
+### -param pdwNumOfRetries [out]
 
 Number of times QMGR tried to download the job after an error occurs. Valid only if the QM_STATUS_GROUP_ERROR <i>dwStatus</i> flag is set. 
 

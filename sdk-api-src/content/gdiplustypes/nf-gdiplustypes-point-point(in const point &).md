@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Point_Point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_14.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(), Point.Point(IN const Point &), Point::Point, Point::Point(IN const Point &), _gdiplus_CLASS_Point_Point_, gdiplus._gdiplus_CLASS_Point_Point_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- gdiplustypes.h
+: 
+- Point.Point
+: 
 req.product: GDI+ 1.0
 ---
 

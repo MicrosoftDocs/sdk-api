@@ -7,7 +7,7 @@ old-location: xaudio2\cxapobase_cxapobase.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.CXAPOBase(const XAPO_REGISTRATION_PROPERTIES)
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CXAPOBase, CXAPOBase interface [XAudio2 Audio Mixing APIs],CXAPOBase method, CXAPOBase method [XAudio2 Audio Mixing APIs], CXAPOBase method [XAudio2 Audio Mixing APIs],CXAPOBase interface, CXAPOBase.CXAPOBase, CXAPOBase::CXAPOBase, xapobase/CXAPOBase::CXAPOBase, xaudio2.cxapobase_cxapobase
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,13 +60,6 @@ Creates an instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee4
 
 
 ### -param pRegistrationProperties
-
-TBD
-
-
-
-
-#### - pRegProperties
 
 Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419210(v=VS.85).aspx">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties for the XAPO. 
 

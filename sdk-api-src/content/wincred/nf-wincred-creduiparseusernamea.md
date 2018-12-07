@@ -7,7 +7,7 @@ old-location: security\creduiparseusername.htm
 tech.root: secauthn
 ms.assetid: 4a7fb207-f940-4610-a740-7bf5d58fb285
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredUIParseUserNameA, CredUIParseUserNameW, _cred_creduiparseusername, security.creduiparseusername, wincred/CredUIParseUserName, wincred/CredUIParseUserNameA, wincred/CredUIParseUserNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,9 +62,11 @@ The <b>CredUIParseUserName</b> function extracts the domain and user account nam
 
 
 
-### -param userName
+### -param userName [in]
 
-TBD
+Pointer to a <b>null</b>-terminated string that contains the user name to be parsed. The name must be in UPN or down-level format, or a certificate. Typically, <i>pszUserName</i> is received from the 
+<a href="https://msdn.microsoft.com/97a8e750-3e63-4e6f-a875-1e5c49c30dd4">CredUIPromptForCredentials</a> or 
+<a href="https://msdn.microsoft.com/5b5bfe87-8f31-4228-931e-50cfc399b66b">CredUICmdLinePromptForCredentials</a>.
 
 
 ### -param user [out]
@@ -96,13 +98,6 @@ Maximum number of characters to write to the <i>pszDomain</i> string including t
 
 <div class="alert"><b>Note</b>  CREDUI_MAX_DOMAIN_TARGET_LENGTH does NOT include the terminating <b>null</b> character.</div>
 <div> </div>
-
-#### - UserName [in]
-
-Pointer to a <b>null</b>-terminated string that contains the user name to be parsed. The name must be in UPN or down-level format, or a certificate. Typically, <i>pszUserName</i> is received from the 
-<a href="https://msdn.microsoft.com/97a8e750-3e63-4e6f-a875-1e5c49c30dd4">CredUIPromptForCredentials</a> or 
-<a href="https://msdn.microsoft.com/5b5bfe87-8f31-4228-931e-50cfc399b66b">CredUICmdLinePromptForCredentials</a>.
-
 
 ## -returns
 

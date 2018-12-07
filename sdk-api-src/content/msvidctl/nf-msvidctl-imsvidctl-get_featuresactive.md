@@ -4,10 +4,10 @@ title: IMSVidCtl::get_FeaturesActive
 author: windows-sdk-content
 description: The get_FeaturesActive method retrieves the features that are currently active.
 old-location: mstv\imsvidctl_get_featuresactive.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 33832fe2-e8ef-4e37-9af9-90f566feb559
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_FeaturesActive method, IMSVidCtl.get_FeaturesActive, IMSVidCtl::get_FeaturesActive, IMSVidCtlget_FeaturesActive, get_FeaturesActive, get_FeaturesActive method [Microsoft TV Technologies], get_FeaturesActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_featuresactive, msvidctl/IMSVidCtl::get_FeaturesActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_FeaturesActive</b> method retrieves the features that are currently a
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppVal [out]
+### -param pVal [out]
 
 Receives an <a href="https://msdn.microsoft.com/19790fab-0530-4a17-8a3c-a50576fea9ca">IMSVidFeatures</a> interface pointer. The caller must release the interface.
 

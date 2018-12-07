@@ -7,7 +7,7 @@ old-location: mscs\onlineclusterresource.htm
 tech.root: mscs
 ms.assetid: 8ea8d741-f6f7-48eb-9678-bbb53f76a9ec
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: OnlineClusterResource, OnlineClusterResource function [Failover Cluster], PCLUSAPI_ONLINE_CLUSTER_RESOURCE, PCLUSAPI_ONLINE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_onlineclusterresource, clusapi/OnlineClusterResource, clusapi/PCLUSAPI_ONLINE_CLUSTER_RESOURCE, mscs.onlineclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,6 +74,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is a possible error code.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_IO_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The resource or one of the resources it depends on has returned <b>ERROR_IO_PENDING</b> from its  <a href="https://msdn.microsoft.com/en-us/library/Aa371770(v=VS.85).aspx">Online</a> entry point function.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

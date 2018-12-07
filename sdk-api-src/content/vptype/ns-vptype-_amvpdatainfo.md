@@ -7,10 +7,10 @@ old-location: dshow\amvpdatainfo.htm
 tech.root: DirectShow
 ms.assetid: b71fc468-b0ba-4c75-b1db-b7802e598e96
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPAMVPDATAINFO, AMVPDATAINFO, AMVPDATAINFO structure [DirectShow], AMVPDATAINFOStructure, LPAMVPDATAINFO, LPAMVPDATAINFO structure pointer [DirectShow], _AMVPDATAINFO, dshow.amvpdatainfo, vptype/AMVPDATAINFO, vptype/LPAMVPDATAINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vptype.h
 req.include-header: 

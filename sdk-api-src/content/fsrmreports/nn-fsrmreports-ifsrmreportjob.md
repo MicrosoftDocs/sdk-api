@@ -4,13 +4,13 @@ title: IFsrmReportJob
 author: windows-sdk-content
 description: Used to configure a report job.
 old-location: fsrm\ifsrmreportjob.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], IFsrmReportJob interface [File Server Resource Manager],described, fs.ifsrmreportjob, fsrm.ifsrmreportjob, fsrm/IFsrmReportJob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

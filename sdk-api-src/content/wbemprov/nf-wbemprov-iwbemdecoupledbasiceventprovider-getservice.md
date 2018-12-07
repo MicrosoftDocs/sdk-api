@@ -7,7 +7,7 @@ old-location: wmi\iwbemdecoupledbasiceventprovider_getservice.htm
 tech.root: WmiSdk
 ms.assetid: d9ce6d1b-4e4a-4d36-8957-85471fff3c69
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GetService, GetService method [Windows Management Instrumentation], GetService method [Windows Management Instrumentation],IWbemDecoupledBasicEventProvider interface, GetService method [Windows Management Instrumentation],WbemDecoupledBasicEventProvider object, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation],GetService method, IWbemDecoupledBasicEventProvider.GetService, IWbemDecoupledBasicEventProvider::GetService, WbemDecoupledBasicEventProvider object [Windows Management Instrumentation],GetService method, _hmm_iwbemdecoupledbasiceventprovider_getservice, wbemprov/IWbemDecoupledBasicEventProvider::GetService, wmi.iwbemdecoupledbasiceventprovider_getservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,34 +60,17 @@ The
 
 
 
-### -param a_Flags
-
-TBD
-
-
-### -param a_Context
-
-TBD
-
-
-### -param a_Service
-
-TBD
-
-
-
-
-#### - lFlags [in]
+### -param a_Flags [in]
 
 Reserved for future use.
 
 
-#### - pContext [in]
+### -param a_Context [in]
 
 Reserved for future use.
 
 
-#### - pService [out]
+### -param a_Service [out]
 
 Pointer to an <b>IWbemService</b> object that can be used to retrieve information from WMI.
 

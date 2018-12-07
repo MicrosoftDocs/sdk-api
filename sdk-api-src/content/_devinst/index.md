@@ -2,7 +2,7 @@
 UID: TP:devinst
 ms.assetid: a4a2af86-b619-3628-9589-89ded9b021bd
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

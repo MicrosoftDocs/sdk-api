@@ -4,10 +4,10 @@ title: IAnalogTVTuningSpace::get_MaxChannel
 author: windows-sdk-content
 description: The get_MaxChannel method gets the highest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_get_maxchannel.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: e6ac3789-1989-4331-ad00-6720f4503bb7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_MaxChannel method, IAnalogTVTuningSpace.get_MaxChannel, IAnalogTVTuningSpace::get_MaxChannel, IAnalogTVTuningSpaceget_MaxChannel, get_MaxChannel, get_MaxChannel method [Microsoft TV Technologies], get_MaxChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_maxchannel, tuner/IAnalogTVTuningSpace::get_MaxChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_MaxChannel</b> method gets the highest channel number for this tuning
 
 
 
-### -param MaxChannelVal
-
-TBD
-
-
-
-
-#### - pMaxChannelVal [out]
+### -param MaxChannelVal [out]
 
 Receives the highest channel.
 

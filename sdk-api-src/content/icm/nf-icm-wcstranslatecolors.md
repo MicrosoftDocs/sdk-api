@@ -7,7 +7,7 @@ old-location: wcs\wcstranslatecolors.htm
 tech.root: WCS
 ms.assetid: e7053c70-5b32-4d33-983c-a4c9c14a0d1b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: WcsTranslateColors, WcsTranslateColors function [Windows Color System], _color_WcsTranslateColors, icm/WcsTranslateColors, wcs.wcstranslatecolors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WcsTranslateColors
+: 
 ---
 
 # WcsTranslateColors function

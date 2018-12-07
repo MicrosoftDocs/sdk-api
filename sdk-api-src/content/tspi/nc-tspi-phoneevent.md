@@ -7,10 +7,10 @@ old-location: tspi\phone_event_tspi.htm
 tech.root: tapi
 ms.assetid: 0b5745a4-7652-48ce-9e8a-eef52c09455f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: PHONEEVENT, PHONEEVENT callback, Phone_Event, Phone_Event callback function [TAPI 2.2], _tspi_phoneevent, tspi.phone_event_tspi, tspi.phoneevent, tspi/Phone_Event
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: tspi.h
 req.include-header: 

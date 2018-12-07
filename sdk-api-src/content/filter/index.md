@@ -2,7 +2,7 @@
 UID: NA:filter
 ms.assetid: 36c4774d-6d67-38f1-b4e4-5888f68fe2b7
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

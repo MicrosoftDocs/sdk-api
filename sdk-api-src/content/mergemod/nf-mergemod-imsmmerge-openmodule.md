@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_openmodule.htm
 tech.root: msi
 ms.assetid: 37225e61-c24f-4a44-8fdf-673590a6e09d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmMerge interface,OpenModule method, IMsmMerge.OpenModule, IMsmMerge::OpenModule, OpenModule, OpenModule method, OpenModule method,IMsmMerge interface, _msi_openmodule_function, mergemod/IMsmMerge::OpenModule, setup.imsmmerge_openmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,19 +64,14 @@ The
 
 
 
-### -param Path
+### -param Path [in]
 
-TBD
+Fully qualified file name that points to a merge module. A <b>LPCWSTR</b> can be used in place of a <b>BSTR</b>.
 
 
 ### -param Language [in]
 
 A language identifier (<b>LANGID</b>).
-
-
-#### - FileName [in]
-
-Fully qualified file name that points to a merge module. A <b>LPCWSTR</b> can be used in place of a <b>BSTR</b>.
 
 
 ## -returns

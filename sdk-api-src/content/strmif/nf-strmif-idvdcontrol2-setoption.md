@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_setoption.htm
 tech.root: DirectShow
 ms.assetid: b3b28da8-b0cb-4d76-8184-93572e4b6d06
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetOption method, IDvdControl2.SetOption, IDvdControl2::SetOption, IDvdControl2SetOption, SetOption, SetOption method [DirectShow], SetOption method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setoption, strmif/IDvdControl2::SetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ The <b>SetOption</b> method enables or disables an internal behavior flag on the
 Specifies which behavior to modify, as a member of the <a href="https://msdn.microsoft.com/29e75f58-58f3-4b3f-a3ba-e3451d3a0cae">DVD_OPTION_FLAG</a> enumeration type. 
 
 
-### -param fState
-
-TBD
-
-
-
-
-#### - bEnable [in]
+### -param fState [in]
 
 Specifies the new value of the option given in the <i>flag</i> parameter.
 

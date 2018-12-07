@@ -7,10 +7,10 @@ old-location: wmp\wmpsubscriptionserviceevent.htm
 tech.root: WMP
 ms.assetid: 9d04e534-083b-4227-82aa-4f7e50a492df
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: WMPSubscriptionServiceEvent, WMPSubscriptionServiceEvent enumeration [Windows Media Player], enumeration [Windows Media Player], subscriptionservices/WMPSubscriptionServiceEvent, subscriptionservices/wmpsseCurrentBegin, subscriptionservices/wmpsseCurrentEnd, subscriptionservices/wmpsseFullBegin, subscriptionservices/wmpsseFullEnd, wmp.wmpsubscriptionserviceevent, wmpsseCurrentBegin, wmpsseCurrentEnd, wmpsseFullBegin, wmpsseFullEnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: subscriptionservices.h
 req.include-header: 

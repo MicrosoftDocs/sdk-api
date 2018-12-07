@@ -4,10 +4,10 @@ title: IVssWMComponent::GetDatabaseFile
 author: windows-sdk-content
 description: The GetDatabaseFile method obtains an IVssWMFiledesc object containing information about the specified database backup component file.
 old-location: base\ivsswmcomponent_getdatabasefile.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: adb2d6f7-592c-403d-92c0-6b99e2180a6b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetDatabaseFile, GetDatabaseFile method [VSS], GetDatabaseFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDatabaseFile method, IVssWMComponent.GetDatabaseFile, IVssWMComponent::GetDatabaseFile, _win32_ivsswmcomponent_getdatabasefile, base.ivsswmcomponent_getdatabasefile, vsbackup/IVssWMComponent::GetDatabaseFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,22 +61,17 @@ The
 
 
 
-### -param iDBFile
+### -param iDBFile [in]
 
-TBD
+Offset between 0 and <i>n</i>-1, where <i>n</i> is the number of database files as specified by the <b>cDatabases</b> member of the 
+<a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a> object returned by 
+<a href="https://msdn.microsoft.com/ac01bfea-e60f-4f50-a865-5bb7e372fbf2">IVssWMComponent::GetComponentInfo</a>.
 
 
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to an 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object containing the returned file descriptor information.
-
-
-#### - iFile [in]
-
-Offset between 0 and <i>n</i>-1, where <i>n</i> is the number of database files as specified by the <b>cDatabases</b> member of the 
-<a href="https://msdn.microsoft.com/9723e90e-cd5e-4815-843b-8ed8632ebe45">VSS_COMPONENTINFO</a> object returned by 
-<a href="https://msdn.microsoft.com/ac01bfea-e60f-4f50-a865-5bb7e372fbf2">IVssWMComponent::GetComponentInfo</a>.
 
 
 ## -returns

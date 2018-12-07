@@ -7,7 +7,7 @@ old-location: security\netenumerateserviceaccounts.htm
 tech.root: secmgmt
 ms.assetid: 048116b6-1bae-4dcc-9bd0-a466c395e5d8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: NetEnumerateServiceAccounts, NetEnumerateServiceAccounts function [Security], lmaccess/NetEnumerateServiceAccounts, security.netenumerateserviceaccounts
 ms.prod: windows-hardware
 ms.technology: windows-devices

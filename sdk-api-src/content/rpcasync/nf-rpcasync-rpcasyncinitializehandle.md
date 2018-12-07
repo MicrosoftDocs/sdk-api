@@ -7,7 +7,7 @@ old-location: rpc\rpcasyncinitializehandle.htm
 tech.root: rpc
 ms.assetid: 97121e6c-af5c-4da8-ad28-24b961c105d2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RpcAsyncInitializeHandle, RpcAsyncInitializeHandle function [RPC], _rpc_rpcasyncinitializehandle, rpc.rpcasyncinitializehandle, rpcasync/RpcAsyncInitializeHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclock_adviseperiodic.htm
 tech.root: DirectShow
 ms.assetid: c8e2545b-ea3c-441c-8721-e7dec09d100e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AdvisePeriodic, AdvisePeriodic method [DirectShow], AdvisePeriodic method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdvisePeriodic method, IReferenceClock.AdvisePeriodic, IReferenceClock::AdvisePeriodic, IReferenceClockAdvisePeriodic, dshow.ireferenceclock_adviseperiodic, strmif/IReferenceClock::AdvisePeriodic
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,14 @@ The <code>AdvisePeriodic</code> method creates a periodic advise request.
 
 
 
-### -param startTime
+### -param startTime [in]
 
-TBD
+Time of the first notification, in 100-nanosecond units. Must be greater than zero and less than MAX_TIME.
 
 
-### -param periodTime
+### -param periodTime [in]
 
-TBD
+Time between notifications, in 100-nanosecond units. Must be greater than zero.
 
 
 ### -param hSemaphore [in]
@@ -80,16 +80,6 @@ Handle to a semaphore, created by the caller.
 ### -param pdwAdviseCookie [out]
 
 Pointer to a variable that receives an identifier for the advise request.
-
-
-#### - rtPeriodTime [in]
-
-Time between notifications, in 100-nanosecond units. Must be greater than zero.
-
-
-#### - rtStartTime [in]
-
-Time of the first notification, in 100-nanosecond units. Must be greater than zero and less than MAX_TIME.
 
 
 ## -returns

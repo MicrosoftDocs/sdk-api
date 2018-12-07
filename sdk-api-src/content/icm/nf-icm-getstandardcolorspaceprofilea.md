@@ -7,7 +7,7 @@ old-location: wcs\getstandardcolorspaceprofile.htm
 tech.root: WCS
 ms.assetid: b00f5c5c-f536-4d88-b61f-d2bdd0b180a0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetStandardColorSpaceProfile, GetStandardColorSpaceProfile function [Windows Color System], GetStandardColorSpaceProfileA, GetStandardColorSpaceProfileW, _color_GetStandardColorSpaceProfile, icm/GetStandardColorSpaceProfile, icm/GetStandardColorSpaceProfileA, icm/GetStandardColorSpaceProfileW, wcs.getstandardcolorspaceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- GetStandardColorSpaceProfileA
+: 
 ---
 
 # GetStandardColorSpaceProfileA function
@@ -67,32 +73,15 @@ Reserved. Must be <b>NULL</b>. This parameter is intended to point to the name o
 
 ### -param dwSCS
 
-TBD
+Specifies the ID value of the standard color space for which to retrieve the profile. The only valid values for this parameter are LCS_sRGB and LCS_WINDOWS_COLOR_SPACE.
 
 
 ### -param pBuffer
 
-TBD
-
-
-### -param pcbSize
-
-TBD
-
-
-
-
-#### - dwProfileID
-
-Specifies the ID value of the standard color space for which to retrieve the profile. The only valid values for this parameter are LCS_sRGB and LCS_WINDOWS_COLOR_SPACE.
-
-
-#### - pProfileName
-
 Pointer to the buffer in which the name of the profile is to be placed. If <b>NULL</b>, the call will return <b>TRUE</b> and the required size of the buffer is placed in <i>pdwSize.</i>
 
 
-#### - pdwSize
+### -param pcbSize
 
 Pointer to a variable containing the size in bytes of the buffer pointed to by <i>pProfileName</i>. On return, the variable contains the size of the buffer actually used or needed.
 

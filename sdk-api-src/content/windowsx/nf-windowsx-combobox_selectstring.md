@@ -7,7 +7,7 @@ old-location: controls\ComboBox_SelectString.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_selectstring.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ComboBox_SelectString, ComboBox_SelectString macro [Windows Controls], _win32_ComboBox_SelectString, _win32_ComboBox_SelectString_cpp, controls.ComboBox_SelectString, controls._win32_ComboBox_SelectString, windowsx/ComboBox_SelectString
 ms.prod: windows-hardware
 ms.technology: windows-devices

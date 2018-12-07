@@ -7,7 +7,7 @@ old-location: mmc\iextendtaskpad_enumtasks.htm
 tech.root: mmc
 ms.assetid: 5faced6f-68aa-453e-b5da-99b79e9c8e15
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: EnumTasks, EnumTasks method [MMC], EnumTasks method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],EnumTasks method, IExtendTaskPad.EnumTasks, IExtendTaskPad::EnumTasks, _slate_iextendtaskpad_enumtasks, mmc.iextendtaskpad_enumtasks, mmc/IExtendTaskPad::EnumTasks
 ms.prod: windows-hardware
 ms.technology: windows-devices

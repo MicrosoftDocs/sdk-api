@@ -7,10 +7,10 @@ old-location: mf\mfvideoalphabitmapflags.htm
 tech.root: medfound
 ms.assetid: d9989c44-8a3c-4f8b-a63d-e39e26797935
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MFVideoAlphaBitmapFlags, MFVideoAlphaBitmapFlags enumeration [Media Foundation], MFVideoAlphaBitmap_Alpha, MFVideoAlphaBitmap_BitMask, MFVideoAlphaBitmap_DestRect, MFVideoAlphaBitmap_EntireDDS, MFVideoAlphaBitmap_FilterMode, MFVideoAlphaBitmap_SrcColorKey, MFVideoAlphaBitmap_SrcRect, __MIDL___MIDL_itf_evr9_0000_0002_0002, d9989c44-8a3c-4f8b-a63d-e39e26797935, evr9/MFVideoAlphaBitmapFlags, evr9/MFVideoAlphaBitmap_Alpha, evr9/MFVideoAlphaBitmap_BitMask, evr9/MFVideoAlphaBitmap_DestRect, evr9/MFVideoAlphaBitmap_EntireDDS, evr9/MFVideoAlphaBitmap_FilterMode, evr9/MFVideoAlphaBitmap_SrcColorKey, evr9/MFVideoAlphaBitmap_SrcRect, mf.mfvideoalphabitmapflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: evr9.h
 req.include-header: 

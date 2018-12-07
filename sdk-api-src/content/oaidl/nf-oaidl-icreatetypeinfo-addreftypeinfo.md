@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo_addreftypeinfo.htm
 tech.root: automat
 ms.assetid: cb7f41f1-81a6-406f-916f-d1d1a8c093b5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AddRefTypeInfo, AddRefTypeInfo method [Automation], AddRefTypeInfo method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddRefTypeInfo method, ICreateTypeInfo.AddRefTypeInfo, ICreateTypeInfo::AddRefTypeInfo, _oa96_ICreateTypeInfo_AddRefTypeInfo, automat.icreatetypeinfo_addreftypeinfo, oaidl/ICreateTypeInfo::AddRefTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

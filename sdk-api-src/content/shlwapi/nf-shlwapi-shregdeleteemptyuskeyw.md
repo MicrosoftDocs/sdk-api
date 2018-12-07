@@ -7,7 +7,7 @@ old-location: shell\SHRegDeleteEmptyUSKey.htm
 tech.root: shell
 ms.assetid: adb09a2b-674c-472d-9f16-8e150476f1f5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SHRegDeleteEmptyUSKey, SHRegDeleteEmptyUSKey function [Windows Shell], SHRegDeleteEmptyUSKeyA, SHRegDeleteEmptyUSKeyW, _win32_SHRegDeleteEmptyUSKey, shell.SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKeyA, shlwapi/SHRegDeleteEmptyUSKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,11 +73,9 @@ A handle to a currently open registry subkey. The subkey must have been opened w
 This handle can be obtained through the <a href="https://msdn.microsoft.com/756430a9-a495-412e-95c3-a93222bc467a">SHRegOpenUSKey</a> function.
 
 
-#### - pwzSubKey [in]
+### -param pwzSubKey
 
-Type: <b>LPCSTR</b>
-
-A pointer to  the null-terminated string that specifies the empty user-defined registry subkey to be deleted.
+TBD
 
 
 ### -param delRegFlags [in]
@@ -85,6 +83,13 @@ A pointer to  the null-terminated string that specifies the empty user-defined r
 Type: <b><a href="https://msdn.microsoft.com/90a8bf22-f62b-4027-8219-7a5ead6577da">SHREGDEL_FLAGS</a></b>
 
 One of the <a href="https://msdn.microsoft.com/90a8bf22-f62b-4027-8219-7a5ead6577da">SHREGDEL_FLAGS</a> that specifies from which base key the subkey will be deleted.
+
+
+#### - pszSubKey [in]
+
+Type: <b>LPCSTR</b>
+
+A pointer to  the null-terminated string that specifies the empty user-defined registry subkey to be deleted.
 
 
 ## -returns

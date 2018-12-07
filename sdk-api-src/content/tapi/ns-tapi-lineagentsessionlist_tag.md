@@ -7,10 +7,10 @@ old-location: tapi2\lineagentsessionlist_str.htm
 tech.root: tapi
 ms.assetid: b14df70c-1630-46e7-a675-feb5c71dcd14
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPLINEAGENTSESSIONLIST, LINEAGENTSESSIONLIST, LINEAGENTSESSIONLIST structure [TAPI 2.2], LPLINEAGENTSESSIONLIST, LPLINEAGENTSESSIONLIST structure pointer [TAPI 2.2], _tapi2_lineagentsessionlist_str, lineagentsessionlist_tag, tapi/LINEAGENTSESSIONLIST, tapi/LPLINEAGENTSESSIONLIST, tapi2.lineagentsessionlist_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

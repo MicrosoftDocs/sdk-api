@@ -4,10 +4,10 @@ title: ICertPropertyBackedUp::get_BackedUpTime
 author: windows-sdk-content
 description: Retrieves the date and time at which the certificate was backed up.
 old-location: security\icertpropertybackedup_backeduptime_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 5515fbd5-a711-421d-b80d-3e77c83f7549
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: BackedUpTime property [Security], BackedUpTime property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpTime property, ICertPropertyBackedUp.BackedUpTime, ICertPropertyBackedUp.get_BackedUpTime, ICertPropertyBackedUp::BackedUpTime, ICertPropertyBackedUp::get_BackedUpTime, certenroll/ICertPropertyBackedUp::BackedUpTime, certenroll/ICertPropertyBackedUp::get_BackedUpTime, get_BackedUpTime, security.icertpropertybackedup_backeduptime_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

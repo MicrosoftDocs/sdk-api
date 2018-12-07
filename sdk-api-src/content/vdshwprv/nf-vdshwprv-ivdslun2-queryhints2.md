@@ -4,10 +4,10 @@ title: IVdsLun2::QueryHints2
 author: windows-sdk-content
 description: Returns the hints currently applied to the LUN. This method is identical to the IVdsLun::QueryHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure.
 old-location: base\ivdslun2_queryhints2.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 077d200a-2eab-4dbe-b7b9-873061fa2c4b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsLun2 interface,QueryHints2 method, IVdsLun2.QueryHints2, IVdsLun2::QueryHints2, QueryHints2, QueryHints2 method, QueryHints2 method,IVdsLun2 interface, base.ivdslun2_queryhints2, vds/IVdsLun2::QueryHints2, vdshwprv/IVdsLun2::QueryHints2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ Returns the hints
 
 
 
-### -param pHints2
-
-TBD
-
-
-
-
-#### - pHints [out]
+### -param pHints2 [out]
 
 A pointer to the returned LUN hints. See the 
       <a href="https://msdn.microsoft.com/e24935ac-17c8-4338-99cb-2408ca61da8a">VDS_HINTS2</a> structure.

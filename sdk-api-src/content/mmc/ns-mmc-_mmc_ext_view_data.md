@@ -7,10 +7,10 @@ old-location: mmc\mmc_ext_view_data.htm
 tech.root: mmc
 ms.assetid: 8396e786-a0ea-4ff8-b899-a23e6552aa92
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMMC_EXT_VIEW_DATA, MMC_EXT_VIEW_DATA, MMC_EXT_VIEW_DATA structure [MMC], PMMC_EXT_VIEW_DATA, PMMC_EXT_VIEW_DATA structure pointer [MMC], _MMC_EXT_VIEW_DATA, _slate_mmc_ext_view_data, mmc.mmc_ext_view_data, mmc/MMC_EXT_VIEW_DATA, mmc/PMMC_EXT_VIEW_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

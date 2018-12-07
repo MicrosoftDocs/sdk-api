@@ -2,40 +2,41 @@
 UID: NF:propsys.IPropertyStore.GetCount
 title: IPropertyStore::GetCount
 author: windows-sdk-content
-description: Gets the number of properties attached to the file.
-old-location: properties\IPropertyStore_GetCount.htm
-tech.root: properties
-ms.assetid: d7e125ef-01f0-410b-a24b-6e86c1df25c5
+description: This method returns a count of the number of properties that are attached to the file.
+old-location: audio\ipropertystore_getcount.htm
+tech.root: audio
+ms.assetid: 23f7b982-29db-4960-9a1d-2f9e033ebf61
 ms.author: windowssdkdev
-ms.date: 10/19/2018
-ms.keywords: GetCount, GetCount method [Windows Properties], GetCount method [Windows Properties],IPropertyStore interface, IPropertyStore interface [Windows Properties],GetCount method, IPropertyStore.GetCount, IPropertyStore::GetCount, properties.IPropertyStore_GetCount, propsys/IPropertyStore::GetCount, shell.IPropertyStore_GetCount, shell_IPropertyStore_GetCount
+ms.date: 12/5/2018
+ms.keywords: GetCount, GetCount (IPropertyStore), GetCount method [Audio Devices], GetCount method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],GetCount method, IPropertyStore.GetCount, IPropertyStore::GetCount, audio.ipropertystore_getcount, audio_syseffects_r_2670eef9-2f2a-4e3d-8a43-d8d61a9ebce5.xml, propsys/IPropertyStore::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
+req.target-type: Universal
+req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Propsys.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Propsys.idl
 req.dll: 
-req.irql: 
+req.irql: All levels
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
  - COM
 api_location:
- - Propsys.h
+ - Propsys.idl
+ - Propsys.idl.dll
 api_name:
  - IPropertyStore.GetCount
 product: Windows
@@ -50,7 +51,7 @@ req.redist:
 ## -description
 
 
-Gets the number of properties attached to the file.
+This method returns a count of the number of properties that are attached to the file.
 
 
 ## -parameters
@@ -58,21 +59,16 @@ Gets the number of properties attached to the file.
 
 
 
-### -param cProps [out]
+### -param cProps
 
-Type: <b>DWORD*</b>
-
-When this method returns, contains the property count.
+A pointer to a value that indicates the property count.
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
-
-
-<a href="shell.IPropertyStore_GetCount">IPropertyStore::GetCount</a> returns <b>S_OK</b> on success, even if the file has no properties.
+The <code>IpropertyStore::GetCount</code> method returns a value of S_OK when the call is successful, even if the file has no properties attached. Any other code returned is an error code.
 
 
 
@@ -81,13 +77,26 @@ Type: <b>HRESULT</b>
 
 
 
-IPropertyStore provides an abstraction over an array of property keys via the <a href="shell.IPropertyStore_GetCount">IPropertyStore::GetCount</a> and <a href="shell.IPropertyStore_GetAt">IPropertyStore::GetAt</a> methods. The property keys in this array represent the properties currently stored by the <a href="shell.IPropertyStore">IPropertyStore</a>.
+<b>IPropertyStore</b> provides an abstraction over an array of property keys via the <code>IPropertyStore::GetCount</code> and <a href="https://msdn.microsoft.com/4f93949a-d5d5-4fbf-8538-6171861e5884">IPropertyStore::GetAt</a> methods. The property keys in this array represent the properties that are currently stored by the <b>IPropertyStore</b>.
 
-When GetCount succeeds, the value pointed to by pcProps is a count of property keys in the array. The caller can expect calls to <a href="shell.IPropertyStore_GetAt">IPropertyStore::GetAt</a> to succeed for values of <i>iProp</i> less than <i>pcProps</i>.
+When <code>GetCount</code> succeeds, the value pointed to by cProps is a count of property keys in the array. The caller can expect calls to <b>IPropertyStore::GetAt</b> to succeed for values of iProp less than cProps.
 
-<b>Calling applicatons:</b> GetCount and GetAt may not return the full set of properties that are supported by a particular property store.  In some cases, the property store is capable of storing any property key, and thus only enumerates the keys already in the store.  Some callers may find property lists useful for determining a list of properties that users find useful for a particular file type.
-
-<b>Implementers:</b> In the case of failures such as E_OUTOFMEMORY, you should set <i>cProps</i> to zero.  It is preferable that errors are discovered during creation or initialization of the property store.
+In the case of failures such as E_OUTOFMEMORY, you should set cProps to zero. It is preferable that errors are discovered during creation or initialization of the property store.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/4f93949a-d5d5-4fbf-8538-6171861e5884">IPropertyStore::GetAt</a>
+ 
+
+ 
 

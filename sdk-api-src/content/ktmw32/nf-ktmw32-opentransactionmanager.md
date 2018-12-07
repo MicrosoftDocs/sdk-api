@@ -4,10 +4,10 @@ title: OpenTransactionManager function
 author: windows-sdk-content
 description: Opens an existing transaction manager.
 old-location: fs\opentransactionmanager.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 6b53609a-b956-441c-b5b5-9a8e6aa489c9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: OpenTransactionManager, OpenTransactionManager function [Files], fs.opentransactionmanager, ktmw32/OpenTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

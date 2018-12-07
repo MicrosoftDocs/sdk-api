@@ -4,13 +4,13 @@ title: EnrollmentPolicyServerPropertyFlags
 author: windows-sdk-content
 description: Specifies the default policy server.
 old-location: security\enrollmentpolicyserverpropertyflags.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 531502ac-8e89-46ee-a426-86e22a9dbe8d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, EnrollmentPolicyServerPropertyFlags, EnrollmentPolicyServerPropertyFlags enumeration [Security], certenroll/DefaultNone, certenroll/DefaultPolicyServer, certenroll/EnrollmentPolicyServerPropertyFlags, security.enrollmentpolicyserverpropertyflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

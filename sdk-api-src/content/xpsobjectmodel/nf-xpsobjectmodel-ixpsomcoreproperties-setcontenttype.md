@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_setcontenttype.htm
 tech.root: printdocs
 ms.assetid: 97ddb1a2-67b2-4891-86b6-bdd38e609229
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetContentType method, IXpsOMCoreProperties.SetContentType, IXpsOMCoreProperties::SetContentType, SetContentType, SetContentType method [XPS Documents and Packaging], SetContentType method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcontenttype, xpsobjectmodel/IXpsOMCoreProperties::SetContentType
 ms.prod: windows-hardware
 ms.technology: windows-devices

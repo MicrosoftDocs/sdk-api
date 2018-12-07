@@ -7,7 +7,7 @@ old-location: hcp\readthreadprofilingdata.htm
 tech.root: hcp
 ms.assetid: e7335caf-d89b-45b4-831d-9ead4448a6a3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: READ_THREAD_PROFILING_FLAG_DISPATCHING, READ_THREAD_PROFILING_FLAG_HARDWARE_COUNTERS, ReadThreadProfilingData, ReadThreadProfilingData function [Hardware Counter Profiling], hcp.readthreadprofilingdata, winbase/ReadThreadProfilingData
 ms.prod: windows-hardware
 ms.technology: windows-devices

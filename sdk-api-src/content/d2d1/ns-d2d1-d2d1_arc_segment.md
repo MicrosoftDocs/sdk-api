@@ -7,10 +7,10 @@ old-location: direct2d\D2D1_ARC_SEGMENT.htm
 tech.root: direct2d
 ms.assetid: 3f391265-20b4-4897-aa0b-d14b71cd5f0a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_ARC_SEGMENT, D2D1_ARC_SEGMENT structure [Direct2D], d2d1/D2D1_ARC_SEGMENT, direct2d.D2D1_ARC_SEGMENT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 

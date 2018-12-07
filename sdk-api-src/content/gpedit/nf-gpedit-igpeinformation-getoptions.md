@@ -4,10 +4,10 @@ title: IGPEInformation::GetOptions
 author: windows-sdk-content
 description: The GetOptions method retrieves the options the user has selected for the Group Policy Object Editor.
 old-location: policy\igpeinformation_getoptions.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: 22c90ec4-b4cc-4a95-becd-29c2ce6e3c29
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetOptions, GetOptions method [Group Policy], GetOptions method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetOptions method, IGPEInformation.GetOptions, IGPEInformation::GetOptions, _win32_igpeinformation_getoptions, gpedit/IGPEInformation::GetOptions, policy.igpeinformation_getoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

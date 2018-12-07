@@ -7,7 +7,7 @@ old-location: direct2d\ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_ptr_ID2D1Te
 tech.root: direct2d
 ms.assetid: b4694be0-2085-4f0e-a38c-f449c03a878c
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1Geometry interface [Direct2D],Tessellate method, ID2D1Geometry.Tessellate, ID2D1Geometry.Tessellate(const D2D1_MATRIX_3X2_F &,ID2D1TessellationSink), ID2D1Geometry::Tessellate, ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F &,ID2D1TessellationSink), Tessellate, Tessellate method [Direct2D], Tessellate method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::Tessellate, direct2d.ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_ptr_ID2D1TessellationSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

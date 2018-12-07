@@ -7,7 +7,7 @@ old-location: tapi3\itphone_put_lampmode.htm
 tech.root: tapi
 ms.assetid: 0445cf2c-1b00-4136-bdab-3c6e0669ef11
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_LampMode method, ITPhone.put_LampMode, ITPhone::put_LampMode, _tapi3_itphone_put_lampmode, put_LampMode, put_LampMode method [TAPI 2.2], put_LampMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_lampmode, tapi3if/ITPhone::put_LampMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

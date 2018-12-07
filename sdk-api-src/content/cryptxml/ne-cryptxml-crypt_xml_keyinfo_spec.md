@@ -4,13 +4,13 @@ title: CRYPT_XML_KEYINFO_SPEC
 author: windows-sdk-content
 description: Specifies values for the dwKeyInfoSpec parameter in the CryptXmlSign function.
 old-location: security\crypt_xml_keyinfo_spec.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 83467875-1ccf-4c02-9b0a-6faf7305950e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/15/2018
 ms.keywords: CRYPT_XML_KEYINFO_SPEC, CRYPT_XML_KEYINFO_SPEC enumeration [Security], CRYPT_XML_KEYINFO_SPEC_ENCODED, CRYPT_XML_KEYINFO_SPEC_NONE, CRYPT_XML_KEYINFO_SPEC_PARAM, cryptxml/CRYPT_XML_KEYINFO_SPEC, cryptxml/CRYPT_XML_KEYINFO_SPEC_ENCODED, cryptxml/CRYPT_XML_KEYINFO_SPEC_NONE, cryptxml/CRYPT_XML_KEYINFO_SPEC_PARAM, security.crypt_xml_keyinfo_spec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: cryptxml.h
 req.include-header: 

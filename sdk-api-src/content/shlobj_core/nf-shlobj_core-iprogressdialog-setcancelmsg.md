@@ -7,7 +7,7 @@ old-location: shell\IProgressDialog_SetCancelMsg.htm
 tech.root: shell
 ms.assetid: 520e11c0-f356-45e1-a300-cc14e88eb42e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetCancelMsg method, IProgressDialog.SetCancelMsg, IProgressDialog::SetCancelMsg, SetCancelMsg, SetCancelMsg method [Windows Shell], SetCancelMsg method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetCancelMsg, shell.IProgressDialog_SetCancelMsg, shlobj_core/IProgressDialog::SetCancelMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,13 +66,6 @@ A pointer to a null-terminated Unicode string that contains the message to be di
 
 
 ### -param pvResevered
-
-TBD
-
-
-
-
-#### - pvReserved
 
 Type: <b>LPCVOID</b>
 

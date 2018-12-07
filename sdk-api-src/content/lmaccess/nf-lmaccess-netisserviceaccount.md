@@ -7,7 +7,7 @@ old-location: security\netisserviceaccount.htm
 tech.root: secmgmt
 ms.assetid: 975e7c0d-d803-4d78-99ed-d07369341674
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: NetIsServiceAccount, NetIsServiceAccount function [Security], lmaccess/NetIsServiceAccount, security.netisserviceaccount
 ms.prod: windows-hardware
 ms.technology: windows-devices

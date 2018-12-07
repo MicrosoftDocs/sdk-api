@@ -4,10 +4,10 @@ title: MI_Instance_SetElementAt function
 author: windows-sdk-content
 description: Set the value of the element at the given index of an instance.
 old-location: wmi_v2\mi_instance_setelementat.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 4070af24-b7f9-4484-ab13-d3a52c9e55a0
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NULL, MI_Instance_SetElementAt, MI_Instance_SetElementAt function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetElementAt, wmi_v2.mi_instance_setelementat
 ms.prod: windows-hardware
 ms.technology: windows-devices

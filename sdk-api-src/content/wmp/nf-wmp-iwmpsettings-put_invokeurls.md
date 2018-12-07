@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_put_invokeurls.htm
 tech.root: WMP
 ms.assetid: 4c62ba8e-8fca-4cfe-9a52-6b6ac2c7c0de
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_invokeURLs method, IWMPSettings.put_invokeURLs, IWMPSettings::put_invokeURLs, IWMPSettingsput_invokeURLs, put_invokeURLs, put_invokeURLs method [Windows Media Player], put_invokeURLs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_invokeurls, wmp/IWMPSettings::put_invokeURLs
 ms.prod: windows-hardware
 ms.technology: windows-devices

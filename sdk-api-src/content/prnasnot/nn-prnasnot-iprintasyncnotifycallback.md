@@ -7,10 +7,10 @@ old-location: gdi\iprintasyncnotifycallback.htm
 tech.root: printdocs
 ms.assetid: e2b021cd-1cfd-42b7-b6e4-7f8671b013f6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IPrintAsyncNotifyCallback, IPrintAsyncNotifyCallback interface [Windows GDI], IPrintAsyncNotifyCallback interface [Windows GDI],described, _win32_IPrintAsyncNotifyCallback, gdi.iprintasyncnotifycallback, prnasnot/IPrintAsyncNotifyCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: prnasnot.h
 req.include-header: 

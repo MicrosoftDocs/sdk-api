@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_setactualdatalength.htm
 tech.root: DirectShow
 ms.assetid: 158a1761-7d42-4611-9667-9e717b23a2da
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetActualDataLength method, IAMMediaTypeSample.SetActualDataLength, IAMMediaTypeSample::SetActualDataLength, IAMMediaTypeSampleSetActualDataLength, SetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetActualDataLength, dshow.iammediatypesample_setactualdatalength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,13 +64,6 @@ The <code>SetActualDataLength</code> method sets the sample's data length.
 
 
 ### -param __MIDL__IAMMediaTypeSample0000
-
-TBD
-
-
-
-
-#### - lActual
 
 Length of the data in the media sample, in bytes.
 

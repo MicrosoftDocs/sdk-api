@@ -4,10 +4,10 @@ title: SystemTimeToTzSpecificLocalTime function
 author: windows-sdk-content
 description: Converts a time in Coordinated Universal Time (UTC) to a specified time zone's corresponding local time.
 old-location: base\systemtimetotzspecificlocaltime.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: f3a87ec2-67a0-418f-af6e-6c0b5547cffb
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: SystemTimeToTzSpecificLocalTime, SystemTimeToTzSpecificLocalTime function, _win32_systemtimetotzspecificlocaltime, base.systemtimetotzspecificlocaltime, timezoneapi/SystemTimeToTzSpecificLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,9 +63,15 @@ Converts a time in Coordinated Universal Time (UTC) to a specified time zone's c
 
 
 
-### -param lpTimeZoneInformation
+### -param lpTimeZoneInformation [in, optional]
 
-TBD
+A pointer to a 
+<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a> structure that specifies the time zone of interest. 
+
+
+
+
+If <i>lpTimeZone</i> is <b>NULL</b>, the function uses the currently active time zone.
 
 
 ### -param lpUniversalTime [in]
@@ -78,17 +84,6 @@ A pointer to a
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that receives the local time.
-
-
-#### - lpTimeZone [in, optional]
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a> structure that specifies the time zone of interest. 
-
-
-
-
-If <i>lpTimeZone</i> is <b>NULL</b>, the function uses the currently active time zone.
 
 
 ## -returns

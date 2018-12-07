@@ -7,7 +7,7 @@ old-location: wcs\cmtranslatergbs.htm
 tech.root: WCS
 ms.assetid: a9dc34ed-b12d-460e-ba74-51ed681d8484
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMS_BACKWARD, CMS_FORWARD, CMTranslateRGBs, CMTranslateRGBs function [Windows Color System], _color_CMTranslateRGBs, icm/CMTranslateRGBs, wcs.cmtranslatergbs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CMTranslateRGBs
+: 
 ---
 
 # CMTranslateRGBs function

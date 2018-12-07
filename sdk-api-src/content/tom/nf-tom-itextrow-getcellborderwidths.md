@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellborderwidths.htm
 tech.root: controls
 ms.assetid: e0ab26ca-ffb6-4f75-846b-e267e4ad6572
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetCellBorderWidths, GetCellBorderWidths method [Windows Controls], GetCellBorderWidths method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellBorderWidths method, ITextRow.GetCellBorderWidths, ITextRow::GetCellBorderWidths, controls.itextrow_getcellborderwidths, tom/ITextRow::GetCellBorderWidths
 ms.prod: windows-hardware
 ms.technology: windows-devices

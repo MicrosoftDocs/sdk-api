@@ -7,10 +7,10 @@ old-location: winauto\uiauto_IScrollItemProvider.htm
 tech.root: WinAuto
 ms.assetid: d8a8384e-d57b-4614-a643-b5ba3a63224d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IScrollItemProvider, IScrollItemProvider interface [Windows Accessibility], IScrollItemProvider interface [Windows Accessibility],described, uiauto.uiauto_IScrollItemProvider, uiauto_IScrollItemProvider, uiautomationcore/IScrollItemProvider, winauto.uiauto_IScrollItemProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -7,7 +7,7 @@ old-location: tsf\itfuielementmgr_getuielement.htm
 tech.root: TSF
 ms.assetid: e3a2a7ae-1ca2-4c1e-83af-207821966147
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GetUIElement, GetUIElement method [Text Services Framework], GetUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],GetUIElement method, ITfUIElementMgr.GetUIElement, ITfUIElementMgr::GetUIElement, msctf/ITfUIElementMgr::GetUIElement, tsf.itfuielementmgr_getuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,14 @@ The <b>ITfUIElementMgr::GetUIElement</b> method gets the <a href="https://msdn.m
 
 
 
-### -param dwUIELementId
+### -param dwUIELementId [in]
 
-TBD
+[in] The element id to get the <a href="https://msdn.microsoft.com/651c3ca1-5e5b-4978-80d2-2183bd158610">ITfUIElement</a> interface.
 
 
 ### -param ppElement [out]
 
 [out] A pointer to receive <a href="https://msdn.microsoft.com/651c3ca1-5e5b-4978-80d2-2183bd158610">ITfUIElement</a> interface.
-
-
-#### - dwUIElementId [in]
-
-[in] The element id to get the <a href="https://msdn.microsoft.com/651c3ca1-5e5b-4978-80d2-2183bd158610">ITfUIElement</a> interface.
 
 
 ## -returns

@@ -4,13 +4,13 @@ title: IFsrmQuotaTemplateImported
 author: windows-sdk-content
 description: Used to modify and save imported quota templates.
 old-location: fsrm\ifsrmquotatemplateimported.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 0349a772-9862-4131-b3be-96eec8e41b01
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmQuotaTemplateImported, IFsrmQuotaTemplateImported interface [File Server Resource Manager], IFsrmQuotaTemplateImported interface [File Server Resource Manager],described, fs.ifsrmquotatemplateimported, fsrm.ifsrmquotatemplateimported, fsrm/IFsrmQuotaTemplateImported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -4,10 +4,10 @@ title: IMSVidAudioRendererDevices::get_Item
 author: windows-sdk-content
 description: The get_Item method retrieves the specified item from the collection.
 old-location: mstv\imsvidaudiorendererdevices_get_item.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ba6e9161-0881-4f95-9507-acf2a01e05e6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],get_Item method, IMSVidAudioRendererDevices.get_Item, IMSVidAudioRendererDevices::get_Item, IMSVidAudioRendererDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_get_item, segment/IMSVidAudioRendererDevices::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ The <b>get_Item</b> method retrieves the specified item from the collection.
 <b>VARIANT</b> that specifies the index of the item to retrieve.
 
 
-### -param pDB
-
-TBD
-
-
-
-
-#### - ppDB [out]
+### -param pDB [out]
 
 Address of a variable that receives an <a href="https://msdn.microsoft.com/f822b5a6-c88e-48c9-91f4-611a3f147fe0">IMSVidAudioRenderer</a> interface pointer.
 

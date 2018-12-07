@@ -7,10 +7,10 @@ old-location: dshow\eavencddproductionroomtype.htm
 tech.root: DirectShow
 ms.assetid: b0ea78b9-cfd8-4c32-9444-b30c1fa102fd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncDDProductionRoomType, codecapi/eAVEncDDProductionRoomType_Large, codecapi/eAVEncDDProductionRoomType_NotIndicated, codecapi/eAVEncDDProductionRoomType_Small, dshow.eavencddproductionroomtype, eAVEncDDProductionRoomType, eAVEncDDProductionRoomType enumeration [DirectShow], eAVEncDDProductionRoomTypeEnumeration, eAVEncDDProductionRoomType_Large, eAVEncDDProductionRoomType_NotIndicated, eAVEncDDProductionRoomType_Small
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

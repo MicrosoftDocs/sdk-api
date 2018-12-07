@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderregistration_registerforevent.htm
 tech.root: winsync
 ms.assetid: b636a3b4-2ac2-4400-b8ed-4430f598db7b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],RegisterForEvent method, ISyncProviderRegistration.RegisterForEvent, ISyncProviderRegistration::RegisterForEvent, RegisterForEvent, RegisterForEvent method [Windows Sync], RegisterForEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RegisterForEvent, winsync.isyncproviderregistration_registerforevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

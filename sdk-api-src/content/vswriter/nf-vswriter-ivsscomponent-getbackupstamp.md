@@ -4,10 +4,10 @@ title: IVssComponent::GetBackupStamp
 author: windows-sdk-content
 description: The GetBackupStamp method returns the backup stamp string stored by a writer for a given component.
 old-location: base\ivsscomponent_getbackupstamp.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: a8f272d8-4024-46bf-a0e6-77d870615fc0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetBackupStamp, GetBackupStamp method [VSS], GetBackupStamp method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupStamp method, IVssComponent.GetBackupStamp, IVssComponent::GetBackupStamp, _win32_ivsscomponent_getbackupstamp, base.ivsscomponent_getbackupstamp, vswriter/IVssComponent::GetBackupStamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

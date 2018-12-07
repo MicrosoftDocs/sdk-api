@@ -7,7 +7,7 @@ old-location: tablet\getrightseparator.htm
 tech.root: tablet
 ms.assetid: 1fc11447-3125-4853-bba6-2784e69d033e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRightSeparator, GetRightSeparator function [Tablet PC], recapis/GetRightSeparator, tablet.getrightseparator
 ms.prod: windows-hardware
 ms.technology: windows-devices

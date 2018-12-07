@@ -7,7 +7,7 @@ old-location: etw\ievent_setproviderid.htm
 tech.root: etw
 ms.assetid: dc61ff9e-2af9-4428-82df-84635313ddc6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITraceEvent interface [ETW],SetProviderId method, ITraceEvent.SetProviderId, ITraceEvent::SetProviderId, SetProviderId, SetProviderId method [ETW], SetProviderId method [ETW],ITraceEvent interface, etw.ievent_setproviderid, relogger/ITraceEvent::SetProviderId
 ms.prod: windows-hardware
 ms.technology: windows-devices

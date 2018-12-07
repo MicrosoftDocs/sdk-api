@@ -7,7 +7,7 @@ old-location: security\lsalookupsids2.htm
 tech.root: secmgmt
 ms.assetid: 6B30D1FF-35DC-44E8-A765-36A5761EC0CE
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: LSA_LOOKUP_DISALLOW_CONNECTED_ACCOUNT_INTERNET_SID, LSA_LOOKUP_PREFER_INTERNET_NAMES, LSA_LOOKUP_RETURN_LOCAL_NAMES, LsaLookupSids2, LsaLookupSids2 function [Security], ntsecapi/LsaLookupSids2, security.lsalookupsids2
 ms.prod: windows-hardware
 ms.technology: windows-devices

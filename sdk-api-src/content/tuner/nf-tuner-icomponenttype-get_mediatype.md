@@ -4,10 +4,10 @@ title: IComponentType::get_MediaType
 author: windows-sdk-content
 description: The get_MediaType method retrieves the DirectShow AM_MEDIA_TYPE structure for the component.
 old-location: mstv\icomponenttype_get_mediatype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ca13cfc0-3e51-41cd-9405-aaa96927a35c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaType method, IComponentType.get_MediaType, IComponentType::get_MediaType, IComponentTypeget_MediaType, get_MediaType, get_MediaType method [Microsoft TV Technologies], get_MediaType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediatype, tuner/IComponentType::get_MediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_MediaType</b> method retrieves the DirectShow <a href="https://msdn.m
 
 
 
-### -param MediaType
-
-TBD
-
-
-
-
-#### - pMediaType [out]
+### -param MediaType [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that will be filled in with the values associated with the current <a href="https://msdn.microsoft.com/d5d8af25-4d39-4327-bd6d-8984ae9e6a78">ComponentType</a>.
 

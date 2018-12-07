@@ -7,7 +7,7 @@ old-location: multimedia\midiingeterrortext.htm
 tech.root: Multimedia
 ms.assetid: 0e653d6d-4d34-45c0-8ec9-975b885a5ef8
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiInGetErrorText, midiInGetErrorText, midiInGetErrorText function [Windows Multimedia], midiInGetErrorTextA, midiInGetErrorTextW, mmeapi/midiInGetErrorText, mmeapi/midiInGetErrorTextA, mmeapi/midiInGetErrorTextW, multimedia.midiingeterrortext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,27 +67,17 @@ The <b>midiInGetErrorText</b> function retrieves a textual description for an er
 
 ### -param mmrError
 
-TBD
+Error code.
 
 
 ### -param pszText
 
-TBD
+Pointer to the buffer to be filled with the textual error description.
 
 
 ### -param cchText
 
 Length, in characters, of the buffer pointed to by <i>lpText</i>.
-
-
-#### - lpText
-
-Pointer to the buffer to be filled with the textual error description.
-
-
-#### - wError
-
-Error code.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: winsync\isyncsessionstate_onprogress.htm
 tech.root: winsync
 ms.assetid: a2983f9c-ed2d-47b4-bec7-b00dc4d75f3f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],OnProgress method, ISyncSessionState.OnProgress, ISyncSessionState::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_onprogress, winsync/ISyncSessionState::OnProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

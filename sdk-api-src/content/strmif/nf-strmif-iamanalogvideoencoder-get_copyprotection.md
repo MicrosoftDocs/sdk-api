@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideoencoder_get_copyprotection.htm
 tech.root: DirectShow
 ms.assetid: 3eedb123-c70e-4a9a-98a9-abf7ccad32dc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_CopyProtection method, IAMAnalogVideoEncoder.get_CopyProtection, IAMAnalogVideoEncoder::get_CopyProtection, IAMAnalogVideoEncoderget_CopyProtection, dshow.iamanalogvideoencoder_get_copyprotection, get_CopyProtection, get_CopyProtection method [DirectShow], get_CopyProtection method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_CopyProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices

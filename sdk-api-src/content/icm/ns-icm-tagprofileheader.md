@@ -7,10 +7,10 @@ old-location: wcs\profileheader.htm
 tech.root: WCS
 ms.assetid: bf17bd8a-6ab5-45f8-89c3-797dd090dd6f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: "*PPROFILEHEADER, PROFILEHEADER, PROFILEHEADER structure [Windows Color System], _color_PROFILEHEADER_str, icm/PROFILEHEADER, tagPROFILEHEADER, wcs.profileheader"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: icm.h
 req.include-header: 

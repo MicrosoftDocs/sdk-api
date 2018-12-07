@@ -7,7 +7,7 @@ old-location: cos\iholder_untrackresource.htm
 tech.root: cossdk
 ms.assetid: 380b09ad-08d6-4d25-8d80-0e56d4295b8f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IHolder interface [COM+],UntrackResource method, IHolder.UntrackResource, IHolder::UntrackResource, UntrackResource, UntrackResource method [COM+], UntrackResource method [COM+],IHolder interface, _dtc_IHolder_UntrackResource, comsvcs/IHolder::UntrackResource, cos.iholder_untrackresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,24 +58,12 @@ Stops tracking a resource.
 
 
 
-### -param __MIDL__IHolder0005
-
-TBD
-
-
-### -param __MIDL__IHolder0006
-
-TBD
-
-
-
-
-#### - ResId [in]
+### -param __MIDL__IHolder0005 [in]
 
 The handle of the resource to stop tracking.
 
 
-#### - fDestroy [in]
+### -param __MIDL__IHolder0006 [in]
 
 If <b>TRUE</b>, caller is requesting that the resource be destroyed, by calling <a href="https://msdn.microsoft.com/94e3e340-7dde-4b7f-82a9-83cd2400bde5">IDispenserDriver::DestroyResource</a>. If <b>FALSE</b>, caller destroys the resource.
 

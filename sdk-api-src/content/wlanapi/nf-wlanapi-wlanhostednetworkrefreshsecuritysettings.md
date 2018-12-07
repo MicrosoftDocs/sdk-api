@@ -7,7 +7,7 @@ old-location: nwifi\wlanhostednetworkrefreshsecuritysettings.htm
 tech.root: NativeWiFi
 ms.assetid: 9589e3a6-6e7a-4186-bfd0-a942a39ecafb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WlanHostedNetworkRefreshSecuritySettings, WlanHostedNetworkRefreshSecuritySettings function [NativeWIFI], nwifi.wlanhostednetworkrefreshsecuritysettings, wlanapi/WlanHostedNetworkRefreshSecuritySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

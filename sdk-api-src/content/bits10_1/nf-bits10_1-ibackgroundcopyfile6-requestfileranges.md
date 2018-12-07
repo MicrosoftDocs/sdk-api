@@ -4,10 +4,10 @@ title: IBackgroundCopyFile6::RequestFileRanges
 author: windows-sdk-content
 description: Adds a new set of file ranges to be prioritized for download.
 old-location: bits\ibackgroundcopyfile6_requestfileranges.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: C36BDE94-03AC-4F06-B17B-B8729226F8AC
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyFile6 interface [BITS],RequestFileRanges method, IBackgroundCopyFile6.RequestFileRanges, IBackgroundCopyFile6::RequestFileRanges, RequestFileRanges, RequestFileRanges method [BITS], RequestFileRanges method [BITS],IBackgroundCopyFile6 interface, bits.ibackgroundcopyfile6_requestfileranges, bits10_1/IBackgroundCopyFile6::RequestFileRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,24 +59,12 @@ Adds a new set of file ranges to be prioritized for download.
 
 
 
-### -param rangeCount
-
-TBD
-
-
-### -param ranges
-
-TBD
-
-
-
-
-#### - RangeCount [in]
+### -param rangeCount [in]
 
 Specifies the size of the <i>Ranges</i> array.
 
 
-#### - Ranges [in]
+### -param ranges [in]
 
 An array of file ranges to be downloaded. Requested ranges are allowed to overlap previously downloaded (or pending) ranges. Ranges are automatically split into non-overlapping ranges. 
 

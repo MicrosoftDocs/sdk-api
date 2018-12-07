@@ -4,10 +4,10 @@ title: IDvbPrivateDataSpecifierDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) private data descriptor.
 old-location: mstv\idvbprivatedataspecifierdescriptor_gettag.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: bccca68c-d480-47d0-a0db-7a7d3f8376c2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbPrivateDataSpecifierDescriptor interface, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbPrivateDataSpecifierDescriptor.GetTag, IDvbPrivateDataSpecifierDescriptor::GetTag, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetTag, mstv.idvbprivatedataspecifierdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

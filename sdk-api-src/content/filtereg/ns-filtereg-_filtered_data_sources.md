@@ -7,10 +7,10 @@ old-location: search\filtered_data_sources.htm
 tech.root: search
 ms.assetid: 5baae290-aead-4986-a7d4-0302931e0104
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: FILTERED_DATA_SOURCES, FILTERED_DATA_SOURCES structure [search], _FILTERED_DATA_SOURCES, filtereg/FILTERED_DATA_SOURCES, search.filtered_data_sources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: filtereg.h
 req.include-header: 

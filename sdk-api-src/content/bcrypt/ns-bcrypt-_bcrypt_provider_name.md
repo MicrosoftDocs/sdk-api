@@ -9,8 +9,8 @@ ms.assetid: 0c57aa3f-1d9a-4bb2-b142-bce9c054e658
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: BCRYPT_PROVIDER_NAME, BCRYPT_PROVIDER_NAME structure [Security], _BCRYPT_PROVIDER_NAME, bcrypt/BCRYPT_PROVIDER_NAME, security.bcrypt_provider_name_struct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

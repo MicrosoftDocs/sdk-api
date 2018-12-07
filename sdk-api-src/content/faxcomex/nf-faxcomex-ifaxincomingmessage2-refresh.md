@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_refresh_
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\refresh.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Refresh method, IFaxIncomingMessage2.Refresh, IFaxIncomingMessage2::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.refresh, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_refresh_cpp, fax._mfax_faxincomingmessage_refresh, faxcomex/IFaxIncomingMessage2::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

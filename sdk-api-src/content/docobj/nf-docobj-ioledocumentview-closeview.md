@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_closeview.htm
 tech.root: com
 ms.assetid: d2f443de-929e-4bd4-bfb3-2a28c119c176
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CloseView, CloseView method [COM], CloseView method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],CloseView method, IOleDocumentView.CloseView, IOleDocumentView::CloseView, _ole_ioledocumentview_closeview, com.ioledocumentview_closeview, docobj/IOleDocumentView::CloseView
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: display\dd_getdriverstatedata.htm
 tech.root: display
 ms.assetid: a8b02b56-1733-467b-bd11-0185e6778d34
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA structure [Display Devices], _DD_GETDRIVERSTATEDATA, d3dstrct_a7ee9601-b71c-4ff4-8ac5-37b62608d463.xml, ddrawint/DD_GETDRIVERSTATEDATA, display.dd_getdriverstatedata"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h D3dhal.h, D3dtypes.h

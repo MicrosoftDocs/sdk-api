@@ -7,7 +7,7 @@ old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__getfocused.htm
 tech.root: WinAuto
 ms.assetid: 102a511b-43ad-48c1-8953-647482fa452b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetFocused, GetFocused method [Windows Accessibility], GetFocused method [Windows Accessibility],IAccClientDocMgr interface, IAccClientDocMgr interface [Windows Accessibility],GetFocused method, IAccClientDocMgr.GetFocused, IAccClientDocMgr::GetFocused, _msaa_IAccClientDocMgr_GetFocused, msaa.iaccclientdocmgr_iaccclientdocmgr__getfocused, msaatext/IAccClientDocMgr::GetFocused, winauto.iaccclientdocmgr_iaccclientdocmgr__getfocused
 ms.prod: windows-hardware
 ms.technology: windows-devices

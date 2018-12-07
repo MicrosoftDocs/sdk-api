@@ -7,7 +7,7 @@ old-location: imapi\istreampseudorandombased_get_seed.htm
 tech.root: imapi
 ms.assetid: c5362760-84c6-4e93-b3cd-2ce568b13102
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],get_Seed method, IStreamPseudoRandomBased.get_Seed, IStreamPseudoRandomBased::get_Seed, get_Seed, get_Seed method [IMAPI], get_Seed method [IMAPI],IStreamPseudoRandomBased interface, imapi.istreampseudorandombased_get_seed, imapi2/IStreamPseudoRandomBased::get_Seed
 ms.prod: windows-hardware
 ms.technology: windows-devices

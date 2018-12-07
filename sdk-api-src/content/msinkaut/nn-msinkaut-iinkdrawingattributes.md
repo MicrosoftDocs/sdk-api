@@ -7,10 +7,10 @@ old-location: tablet\iinkdrawingattributes.htm
 tech.root: tablet
 ms.assetid: 47106C55-FA03-4996-BCFA-D00A51AF55EE
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IInkDrawingAttributes, IInkDrawingAttributes interface [Tablet PC], IInkDrawingAttributes interface [Tablet PC],described, msinkaut/IInkDrawingAttributes, tablet.iinkdrawingattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

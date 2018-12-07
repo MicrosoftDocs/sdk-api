@@ -4,10 +4,10 @@ title: IGuideData::GetGuideProgramIDs
 author: windows-sdk-content
 description: The GetGuideProgramIDs method returns a list of unique identifiers for all of the programs contained in all transport streams.
 old-location: mstv\iguidedata_getguideprogramids.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d182057a-096b-4286-8174-a3ce25c1c86f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetGuideProgramIDs, GetGuideProgramIDs method [Microsoft TV Technologies], GetGuideProgramIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetGuideProgramIDs method, IGuideData.GetGuideProgramIDs, IGuideData::GetGuideProgramIDs, IGuideDataGetGuideProgramIDs, bdatif/IGuideData::GetGuideProgramIDs, mstv.iguidedata_getguideprogramids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>GetGuideProgramIDs</b> method returns a list of unique identifiers for al
 
 
 
-### -param pEnumPrograms
-
-TBD
-
-
-
-
-#### - ppEnumPrograms [out]
+### -param pEnumPrograms [out]
 
 Receives a pointer to the <b>IEnumVARIANT</b> interface. Use this interface to enumerate the collection. The caller must release the interface.
 

@@ -7,7 +7,7 @@ old-location: gdi\createfontindirectex.htm
 tech.root: gdi
 ms.assetid: 1161b79e-f9c8-4073-97c4-1ccc1a78279b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CreateFontIndirectEx, CreateFontIndirectEx function [Windows GDI], CreateFontIndirectExA, CreateFontIndirectExW, _win32_CreateFontIndirectEx, gdi.createfontindirectex, wingdi/CreateFontIndirectEx, wingdi/CreateFontIndirectExA, wingdi/CreateFontIndirectExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ The <b>CreateFontIndirectEx</b> function specifies a logical font that has the c
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - ENUMLOGFONTEXDVW [in]
+### -param Arg1 [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/8d483f52-250e-4c4f-83cf-ff952bb84fd3">ENUMLOGFONTEXDV</a> structure that defines the characteristics of a multiple master font.
 

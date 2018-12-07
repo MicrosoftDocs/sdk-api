@@ -9,8 +9,8 @@ ms.assetid: 09af7e56-2174-4a82-b45b-59f4180e4aab
 ms.author: windowssdkdev
 ms.date: 10/26/2018
 ms.keywords: AllocateMemory, AllocateMemory callback function [Perf], PERF_MEM_ALLOC, PERF_MEM_ALLOC callback, perf.allocatememory, perflib/AllocateMemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: perflib.h
 req.include-header: 

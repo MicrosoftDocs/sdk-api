@@ -7,7 +7,7 @@ old-location: security\lsastoreprivatedata.htm
 tech.root: secmgmt
 ms.assetid: 95d6cf30-fd08-473e-b0b3-3f7ca5e85357
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: LsaStorePrivateData, LsaStorePrivateData function [Security], _lsa_lsastoreprivatedata, ntsecapi/LsaStorePrivateData, security.lsastoreprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedbundlewriter3_addpayloadpackageencrypted.htm
 tech.root: appxpkg
 ms.assetid: DB20D7FE-BB30-4E66-9617-BDDF1E00BB6A
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: AddPayloadPackageEncrypted, AddPayloadPackageEncrypted method [App packaging and management], AddPayloadPackageEncrypted method [App packaging and management],IAppxEncryptedBundleWriter3 interface, IAppxEncryptedBundleWriter3 interface [App packaging and management],AddPayloadPackageEncrypted method, IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted, IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted, appxpackaging/IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted, appxpkg.iappxencryptedbundlewriter3_addpayloadpackageencrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,19 +63,14 @@ Encrypts a new payload package to the bundle.
 The name of the payload file. The file name path must be relative to the root of the package.
 
 
-### -param packageStream
+### -param packageStream [in]
 
-TBD
+An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> that provides the contents of <i>fileName</i>.
 
 
 ### -param isDefaultApplicablePackage [in]
 
 A flag for whether this package is a default applicable package.
-
-
-#### - inputStream [in]
-
-An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> that provides the contents of <i>fileName</i>.
 
 
 ## -returns

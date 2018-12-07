@@ -7,7 +7,7 @@ old-location: etw\itracerelogger_createeventinstance.htm
 tech.root: etw
 ms.assetid: 1a000e38-018d-4077-bf4c-0bfec6cdb676
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CreateEventInstance, CreateEventInstance method [ETW], CreateEventInstance method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],CreateEventInstance method, ITraceRelogger.CreateEventInstance, ITraceRelogger::CreateEventInstance, etw.itracerelogger_createeventinstance, relogger/ITraceRelogger::CreateEventInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

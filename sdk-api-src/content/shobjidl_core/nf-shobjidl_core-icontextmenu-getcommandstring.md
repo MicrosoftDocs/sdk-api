@@ -7,7 +7,7 @@ old-location: shell\IContextMenu_GetCommandString.htm
 tech.root: shell
 ms.assetid: efa60153-7635-4aef-bd9e-f51fe4ecc234
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GCS_HELPTEXTA, GCS_HELPTEXTW, GCS_VALIDATEA, GCS_VALIDATEW, GCS_VERBA, GCS_VERBW, GetCommandString, GetCommandString method [Windows Shell], GetCommandString method [Windows Shell],IContextMenu interface, IContextMenu interface [Windows Shell],GetCommandString method, IContextMenu.GetCommandString, IContextMenu::GetCommandString, _win32_IContextMenu_GetCommandString, _win32_icontextmenu_win32_icontextmenu_getcommandstring_cpp, shell.IContextMenu_GetCommandString, shobjidl_core/IContextMenu::GetCommandString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,37 +67,6 @@ Menu command identifier offset.
 
 ### -param uType
 
-TBD
-
-
-### -param pReserved
-
-TBD
-
-
-### -param pszName
-
-Type: <b>LPSTR</b>
-
-The address of the buffer to receive the null-terminated string being retrieved.
-
-
-### -param cchMax
-
-Type: <b>UINT</b>
-
-Size of the buffer, in characters, to receive the null-terminated string.
-
-
-#### - pwReserved
-
-Type: <b>UINT*</b>
-
-Reserved. Applications must specify <b>NULL</b> when calling this method and handlers must ignore this parameter when called.
-
-
-#### - uFlags
-
 Type: <b>UINT</b>
 
 Flags specifying the information to return. This parameter can have one of the following values.
@@ -137,6 +106,27 @@ Sets <i>pszName</i> to an ANSI string containing the language-independent comman
 #### GCS_VERBW
 
 Sets <i>pszName</i> to a Unicode string containing the language-independent command name for the menu item.
+
+
+### -param pReserved
+
+Type: <b>UINT*</b>
+
+Reserved. Applications must specify <b>NULL</b> when calling this method and handlers must ignore this parameter when called.
+
+
+### -param pszName
+
+Type: <b>LPSTR</b>
+
+The address of the buffer to receive the null-terminated string being retrieved.
+
+
+### -param cchMax
+
+Type: <b>UINT</b>
+
+Size of the buffer, in characters, to receive the null-terminated string.
 
 
 ## -returns

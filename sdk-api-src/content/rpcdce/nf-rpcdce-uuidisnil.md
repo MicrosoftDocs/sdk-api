@@ -7,7 +7,7 @@ old-location: rpc\uuidisnil.htm
 tech.root: rpc
 ms.assetid: 0b764eca-552b-4431-812b-93fa0c03179e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: UuidIsNil, UuidIsNil function [RPC], _rpc_uuidisnil, rpc.uuidisnil, rpcdce/UuidIsNil
 ms.prod: windows-hardware
 ms.technology: windows-devices

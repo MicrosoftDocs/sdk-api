@@ -7,10 +7,10 @@ old-location: automat\typedesc.htm
 tech.root: automat
 ms.assetid: 45a8c5bf-c776-49da-8517-29055a5e74bc
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: TYPEDESC, TYPEDESC structure [Automation], _oa96_TYPEDESC, automat.typedesc, oaidl/TYPEDESC, tagTYPEDESC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

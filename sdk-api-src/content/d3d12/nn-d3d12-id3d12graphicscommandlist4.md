@@ -2,15 +2,15 @@
 UID: NN:d3d12.ID3D12GraphicsCommandList4
 title: ID3D12GraphicsCommandList4
 author: windows-sdk-content
-description: Represents a virtual adapter. This interface extends ID3D12Device3 to support additional features, including raytracing.
+description: Encapsulates a list of graphics commands for rendering, extending the interface to support ray tracing and render passes.
 old-location: direct3d12\id3d12graphicscommandlist4.htm
 tech.root: direct3d12
 ms.assetid: 2385E66F-CD42-4826-B508-3EF6144179BD
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList4, ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,described, d3d12/ID3D12GraphicsCommandList4, direct3d12.id3d12graphicscommandlist4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 
@@ -50,12 +50,12 @@ req.redist:
 ## -description
 
 
-Represents a virtual adapter. This interface extends <b>ID3D12Device3</b> to  support additional features, including raytracing.
+Encapsulates a list of graphics commands for rendering, extending the interface to support ray tracing and render passes.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList4</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12GraphicsCommandList4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList4</b> interface inherits from <a href="direct3d12.id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>. <b>ID3D12GraphicsCommandList4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -67,6 +67,15 @@ The <b>ID3D12GraphicsCommandList4</b> interface has these methods.
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="direct3d12.id3d12graphicscommandlist4_beginrenderpass">BeginRenderPass</a>
+</td>
+<td align="left" width="63%">
+Marks the beginning of a render pass by binding a set of output resources for the duration of the render pass. These bindings are to one or more render target views (RTVs), and/or to a depth stencil view (DSV).
+
+</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
@@ -106,6 +115,15 @@ Emits post-build properties for a set of acceleration structures.  This enables 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="direct3d12.id3d12graphicscommandlist4_endrenderpass">EndRenderPass</a>
+</td>
+<td align="left" width="63%">
+Marks the ending of a render pass.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/CD408074-2B2A-461C-9CA8-DC967BC61067">SetPipelineState1</a>
 </td>
 <td align="left" width="63%">
@@ -114,4 +132,15 @@ Sets a state object on the command list.
 </td>
 </tr>
 </table> 
+
+
+## -see-also
+
+
+
+
+<a href="direct3d12.id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
+ 
+
+ 
 

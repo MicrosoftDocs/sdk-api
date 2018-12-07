@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframedecode_getachuffmantable.htm
 tech.root: wic
 ms.assetid: 6063E147-70A4-46F8-940E-42DBD87A500F
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetAcHuffmanTable, GetAcHuffmanTable method [Windows Imaging Component], GetAcHuffmanTable method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetAcHuffmanTable method, IWICJpegFrameDecode.GetAcHuffmanTable, IWICJpegFrameDecode::GetAcHuffmanTable, wic.iwicjpegframedecode_getachuffmantable, wincodec/IWICJpegFrameDecode::GetAcHuffmanTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_expandtarget.htm
 tech.root: SMI
 ms.assetid: c9c757f4-ad71-42d7-864a-26f3d1e8000b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ExpandTarget, ExpandTarget method [SMI], ExpandTarget method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],ExpandTarget method, ITargetInfo.ExpandTarget, ITargetInfo::ExpandTarget, smi.itargetinfo_expandtarget, wcmconfig/ITargetInfo::ExpandTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

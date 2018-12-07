@@ -7,7 +7,7 @@ old-location: tapi3\itcallinfo_releaseuseruserinfo.htm
 tech.root: tapi
 ms.assetid: 019823a3-e70d-4b0c-b996-07a13f2bd5f3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],ReleaseUserUserInfo method, ITCallInfo.ReleaseUserUserInfo, ITCallInfo::ReleaseUserUserInfo, ReleaseUserUserInfo, ReleaseUserUserInfo method [TAPI 2.2], ReleaseUserUserInfo method [TAPI 2.2],ITCallInfo interface, _tapi3_itcallinfo_releaseuseruserinfo, tapi3.itcallinfo_releaseuseruserinfo, tapi3if/ITCallInfo::ReleaseUserUserInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

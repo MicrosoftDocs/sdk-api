@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextformat2_setlinespacing.htm
 tech.root: DirectWrite
 ms.assetid: 71d8c6c4-920f-a1b5-5a13-9985a7aca41e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteTextFormat2 interface [Direct Write],SetLineSpacing method, IDWriteTextFormat2.SetLineSpacing, IDWriteTextFormat2::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Direct Write], SetLineSpacing method [Direct Write],IDWriteTextFormat2 interface, directwrite.idwritetextformat2_setlinespacing, dwrite_3/IDWriteTextFormat2::SetLineSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices

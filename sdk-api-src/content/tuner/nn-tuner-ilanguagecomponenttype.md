@@ -4,13 +4,13 @@ title: ILanguageComponentType
 author: windows-sdk-content
 description: The ILanguageComponentType interface is implemented on LanguageComponentType objects. It provides methods that define the language of the stream content. Not all streams have a language component.
 old-location: mstv\ilanguagecomponenttype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 775b5e8d-d9ed-4371-a651-bfeed6fa0ad5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ILanguageComponentType, ILanguageComponentType interface [Microsoft TV Technologies], ILanguageComponentType interface [Microsoft TV Technologies],described, ILanguageComponentTypeInterface, mstv.ilanguagecomponenttype, tuner/ILanguageComponentType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

@@ -4,13 +4,13 @@ title: ICertPropertyAutoEnroll
 author: windows-sdk-content
 description: Represents a certificate property that identifies a template that has been configured to enable autoenrollment of the certificate.
 old-location: security\icertpropertyautoenroll.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 25eab0e9-4980-49ad-9d3b-35ad47c20bcb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICertPropertyAutoEnroll, ICertPropertyAutoEnroll interface [Security], ICertPropertyAutoEnroll interface [Security],described, certenroll/ICertPropertyAutoEnroll, security.icertpropertyautoenroll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

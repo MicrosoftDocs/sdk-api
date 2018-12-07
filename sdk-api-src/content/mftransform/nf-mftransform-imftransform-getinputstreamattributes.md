@@ -7,7 +7,7 @@ old-location: mf\imftransform_getinputstreamattributes.htm
 tech.root: medfound
 ms.assetid: 2698da30-6913-41a9-9d98-f124cf31e591
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 2698da30-6913-41a9-9d98-f124cf31e591, GetInputStreamAttributes, GetInputStreamAttributes method [Media Foundation], GetInputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamAttributes method, IMFTransform.GetInputStreamAttributes, IMFTransform::GetInputStreamAttributes, mf.imftransform_getinputstreamattributes, mftransform/IMFTransform::GetInputStreamAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ Input stream identifier. To get the list of stream identifiers, call <a href="ht
           
 
 
-### -param pAttributes
-
-TBD
-
-
-
-
-#### - ppAttributes [out]
+### -param pAttributes [out]
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> interface. The caller must release the interface.
           

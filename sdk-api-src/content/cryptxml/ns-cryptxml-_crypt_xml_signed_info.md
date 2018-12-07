@@ -7,10 +7,10 @@ old-location: security\crypt_xml_signed_info.htm
 tech.root: seccrypto
 ms.assetid: 34f7f3be-8bf8-4863-9c94-79ee14a7ebea
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_XML_SIGNED_INFO, CRYPT_XML_SIGNED_INFO, CRYPT_XML_SIGNED_INFO structure [Security], PCRYPT_XML_SIGNED_INFO, PCRYPT_XML_SIGNED_INFO structure pointer [Security], _CRYPT_XML_SIGNED_INFO, cryptxml/CRYPT_XML_SIGNED_INFO, cryptxml/PCRYPT_XML_SIGNED_INFO, security.crypt_xml_signed_info"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

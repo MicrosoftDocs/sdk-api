@@ -4,10 +4,10 @@ title: IVssBackupComponents::GetWriterComponents
 author: windows-sdk-content
 description: The GetWriterComponents method is used to return information about those components of a given writer that have been stored in a requester's Backup Components Document.
 old-location: base\ivssbackupcomponents_getwritercomponents.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: b99e7e41-1c88-462c-b6d8-734f7a6e24d4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetWriterComponents, GetWriterComponents method [VSS], GetWriterComponents method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponents method, IVssBackupComponents.GetWriterComponents, IVssBackupComponents::GetWriterComponents, _win32_ivssbackupcomponents_getwritercomponents, base.ivssbackupcomponents_getwritercomponents, vsbackup/IVssBackupComponents::GetWriterComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The index of the writer being queried. It is a number between 0 and <i>n</i>-1, 
 <a href="https://msdn.microsoft.com/39ab6179-2828-46dc-bfcd-0dd62c34ce95">IVssBackupComponents::GetWriterComponentsCount</a>.
 
 
-### -param ppWriter
-
-TBD
-
-
-
-
-#### - pWriterComponents [out]
+### -param ppWriter [out]
 
 Doubly indirect pointer to an 
 <a href="https://msdn.microsoft.com/29772c1f-1cc4-4ee7-8e1d-f1a6cbebf470">IVssWriterComponentsExt</a> interface object that will receive the returned component information.

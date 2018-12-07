@@ -7,10 +7,10 @@ old-location: dshow\vmr9aspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: 745e7aad-a598-4be6-b28b-bb5969ef0c77
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VMR9ARMode_LetterBox, VMR9ARMode_None, VMR9AspectRatioMode, VMR9AspectRatioMode , VMR9AspectRatioMode enumeration [DirectShow], VMR9AspectRatioModeEnumeration, __MIDL___MIDL_itf_vmr9_0000_0004_0001, dshow.vmr9aspectratiomode, vmr9/VMR9ARMode_LetterBox, vmr9/VMR9ARMode_None, vmr9/VMR9AspectRatioMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 

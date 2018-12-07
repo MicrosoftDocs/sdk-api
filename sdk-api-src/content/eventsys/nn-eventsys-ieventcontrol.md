@@ -7,10 +7,10 @@ old-location: cos\ieventcontrol.htm
 tech.root: cossdk
 ms.assetid: 8b2fba30-3ede-466f-ad3b-2de2175a088b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IEventControl, IEventControl interface [COM+], IEventControl interface [COM+],described, _cos_IEventControl, cos.ieventcontrol, eventsys/IEventControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

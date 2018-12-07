@@ -7,7 +7,7 @@ old-location: dxmath\xmcoloradjustsaturation.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorAdjustSaturation(XMVECTOR,float)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMColorAdjustSaturation, XMColorAdjustSaturation, XMColorAdjustSaturation method [DirectX Math Support APIs], dxmath.xmcoloradjustsaturation
 ms.prod: windows-hardware
 ms.technology: windows-devices

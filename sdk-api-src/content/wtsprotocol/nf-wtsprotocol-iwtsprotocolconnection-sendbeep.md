@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_sendbeep.htm
 tech.root: termserv
 ms.assetid: 4665917d-4bc3-4017-9b69-3eb95e70337f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SendBeep method, IWTSProtocolConnection.SendBeep, IWTSProtocolConnection::SendBeep, SendBeep, SendBeep method [Remote Desktop Services], SendBeep method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_sendbeep, wtsprotocol/IWTSProtocolConnection::SendBeep
 ms.prod: windows-hardware
 ms.technology: windows-devices

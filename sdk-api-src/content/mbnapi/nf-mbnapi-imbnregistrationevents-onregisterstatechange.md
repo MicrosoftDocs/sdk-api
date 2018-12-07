@@ -7,7 +7,7 @@ old-location: mbn\imbnregistrationevents_onregisterstatechange.htm
 tech.root: mbn
 ms.assetid: 62393a9b-70e5-4819-8df1-59b94c1b6922
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnRegisterStateChange method, IMbnRegistrationEvents.OnRegisterStateChange, IMbnRegistrationEvents::OnRegisterStateChange, OnRegisterStateChange, OnRegisterStateChange method [Microsoft Broadband Networks], OnRegisterStateChange method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, mbn.imbnregistrationevents_onregisterstatechange, mbnapi/IMbnRegistrationEvents::OnRegisterStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

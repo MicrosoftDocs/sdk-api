@@ -7,7 +7,7 @@ old-location: input_intcontext\getinertiaparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: e3ae71e2-be61-49c1-82a1-2fa82fe9a7ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetInertiaParameterInteractionContext, GetInertiaParameterInteractionContext function, input_intcontext.getinertiaparameterinteractioncontext, interactioncontext.getinertiaparameterinteractioncontext, interactioncontext/GetInertiaParameterInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

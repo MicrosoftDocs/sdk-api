@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorabs.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorAbs(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorAbs, XMVectorAbs, XMVectorAbs method [DirectX Math Support APIs], dxmath.xmvectorabs
 ms.prod: windows-hardware
 ms.technology: windows-devices

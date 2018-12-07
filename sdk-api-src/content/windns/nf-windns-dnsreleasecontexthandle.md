@@ -4,10 +4,10 @@ title: DnsReleaseContextHandle function
 author: windows-sdk-content
 description: The DnsReleaseContextHandle function releases memory used to store the credentials of a specific account.
 old-location: dns\dnsreleasecontexthandle.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 08a5fa73-4583-4e87-bddb-09bfbfe1b36f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DnsReleaseContextHandle, DnsReleaseContextHandle function [DNS], _dns_dnsreleasecontexthandle, dns.dnsreleasecontexthandle, windns/DnsReleaseContextHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

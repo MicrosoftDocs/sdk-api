@@ -4,13 +4,13 @@ title: "_HTTP_LISTEN_ENDPOINT_INFO"
 author: windows-sdk-content
 description: Controls whether IP-based URLs should listen on the specific IP address or on a wildcard.
 old-location: http\http_listen_endpoint_info.htm
-tech.root: Http
+tech.root: http
 ms.assetid: ad6553ba-4272-44af-af77-2bf1a4102b60
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_LISTEN_ENDPOINT_INFO, HTTP_LISTEN_ENDPOINT_INFO, HTTP_LISTEN_ENDPOINT_INFO structure [HTTP], PHTTP_LISTEN_ENDPOINT_INFO, PHTTP_LISTEN_ENDPOINT_INFO structure pointer [HTTP], _HTTP_LISTEN_ENDPOINT_INFO, http.http_listen_endpoint_info, http/HTTP_LISTEN_ENDPOINT_INFO, http/PHTTP_LISTEN_ENDPOINT_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

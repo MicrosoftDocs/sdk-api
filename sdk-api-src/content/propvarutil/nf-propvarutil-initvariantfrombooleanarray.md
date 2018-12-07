@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromBooleanArray.htm
 tech.root: properties
 ms.assetid: 50780131-c0ed-443b-86e8-deb996a5c98e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: InitVariantFromBooleanArray, InitVariantFromBooleanArray function [Windows Properties], _shell_InitVariantFromBooleanArray, properties.InitVariantFromBooleanArray, propvarutil/InitVariantFromBooleanArray, shell.InitVariantFromBooleanArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

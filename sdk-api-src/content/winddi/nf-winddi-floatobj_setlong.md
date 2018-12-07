@@ -7,7 +7,7 @@ old-location: display\floatobj_setlong.htm
 tech.root: display
 ms.assetid: 4fa1b8a6-8172-4047-9ee2-fe00f0924487
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: FLOATOBJ_SetLong, FLOATOBJ_SetLong function [Display Devices], display.floatobj_setlong, gdifncs_b0a076a3-766b-42fb-a04d-5da69177656b.xml, winddi/FLOATOBJ_SetLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

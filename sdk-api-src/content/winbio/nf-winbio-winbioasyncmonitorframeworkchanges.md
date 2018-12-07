@@ -7,7 +7,7 @@ old-location: secbiomet\winbioasyncmonitorframeworkchanges.htm
 tech.root: SecBioMet
 ms.assetid: 4BA91B17-DA7D-456C-A815-ED25A3C5D74A
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WINBIO_FRAMEWORK_CHANGE_UNIT, WinBioAsyncMonitorFrameworkChanges, WinBioAsyncMonitorFrameworkChanges function [Windows Biometric Framework API], secbiomet.winbioasyncmonitorframeworkchanges, winbio/WinBioAsyncMonitorFrameworkChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

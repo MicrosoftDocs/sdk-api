@@ -7,7 +7,7 @@ old-location: wmformat\iwmbackuprestoreprops_removeallprops.htm
 tech.root: wmformat
 ms.assetid: 2c67eb68-1623-4aaa-abde-8481b77bd568
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],RemoveAllProps method, IWMBackupRestoreProps.RemoveAllProps, IWMBackupRestoreProps::RemoveAllProps, IWMBackupRestorePropsRemoveAllProps, RemoveAllProps, RemoveAllProps method [windows Media Format], RemoveAllProps method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_removeallprops, wmsdkidl/IWMBackupRestoreProps::RemoveAllProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

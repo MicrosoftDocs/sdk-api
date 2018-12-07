@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster_progressunadvise.htm
 tech.root: imapi
 ms.assetid: b2729ff7-aefb-40cf-ae7b-9451fbe10bbb
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscMaster interface [IMAPI],ProgressUnadvise method, IDiscMaster.ProgressUnadvise, IDiscMaster::ProgressUnadvise, ProgressUnadvise, ProgressUnadvise method [IMAPI], ProgressUnadvise method [IMAPI],IDiscMaster interface, _win32_idiscmaster_progressunadvise, base.idiscmaster_progressunadvise, imapi.idiscmaster_progressunadvise, imapi/IDiscMaster::ProgressUnadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Cancels progress notifications for an application.
 
 
 
-### -param vCookie
-
-TBD
-
-
-
-
-#### - nCookie [in]
+### -param vCookie [in]
 
 Value returned by a previous call to the 
 <a href="https://msdn.microsoft.com/64966230-2042-46cb-9974-adbe382723a1">ProgressAdvise</a> method.

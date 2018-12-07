@@ -7,10 +7,10 @@ old-location: mf\eavencvideocontenttype.htm
 tech.root: medfound
 ms.assetid: 24670733-18F8-489A-AE43-E59F444F8340
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncVideoContentType, codecapi/eAVEncVideoContentType_FixedCameraAngle, codecapi/eAVEncVideoContentType_Unknown, eAVEncVideoContentType, eAVEncVideoContentType enumeration [Media Foundation], eAVEncVideoContentType_FixedCameraAngle, eAVEncVideoContentType_Unknown, mf.eavencvideocontenttype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

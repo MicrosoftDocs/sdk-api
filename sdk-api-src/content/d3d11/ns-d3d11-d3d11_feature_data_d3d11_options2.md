@@ -7,10 +7,10 @@ old-location: direct3d11\d3d11_feature_data_d3d11_options2.htm
 tech.root: direct3d11
 ms.assetid: D0CD9245-D8BC-48E5-A69B-0DB9B87E56A4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS2, D3D11_FEATURE_DATA_D3D11_OPTIONS2 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS2, direct3d11.d3d11_feature_data_d3d11_options2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

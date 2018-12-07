@@ -7,7 +7,7 @@ old-location: security\iscesvcattachmentdata_closehandle.htm
 tech.root: secmgmt
 ms.assetid: e50f5acf-06ef-49bb-bcf1-1fadeb4b808a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CloseHandle, CloseHandle method [Security], CloseHandle method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],CloseHandle method, ISceSvcAttachmentData.CloseHandle, ISceSvcAttachmentData::CloseHandle, _config_iscesvcattachmentdata_closehandle, scesvc/ISceSvcAttachmentData::CloseHandle, security.iscesvcattachmentdata_closehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ The <b>CloseHandle</b> method closes a handle opened during a previous call to
 
 
 
-### -param scesvcHandle
-
-TBD
-
-
-
-
-#### - sceHandle [in]
+### -param scesvcHandle [in]
 
 The 
 <a href="https://msdn.microsoft.com/478d7d4b-7983-4247-b8be-2e2cd3327533">SCESVC_HANDLE</a> to close.

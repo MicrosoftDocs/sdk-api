@@ -7,10 +7,10 @@ old-location: mf\pdxvahdsw_proposevideoprivateformat.htm
 tech.root: medfound
 ms.assetid: b543f05f-40fc-4bdf-ae53-9a451d3bdf2a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: PDXVAHDSW_ProposeVideoPrivateFormat, PDXVAHDSW_ProposeVideoPrivateFormat callback, PDXVAHDSW_ProposeVideoPrivateFormat callback function [Media Foundation], dxvahd/PDXVAHDSW_ProposeVideoPrivateFormat, mf.pdxvahdsw_proposevideoprivateformat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dxvahd.h
 req.include-header: 

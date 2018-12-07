@@ -4,13 +4,13 @@ title: "__MIDL___MIDL_itf_pla_0001_0043_0001"
 author: windows-sdk-content
 description: Defines the data collector types.
 old-location: pla\datacollectortype.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 535b17a9-2e71-4513-83be-56a93ab87627
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: DataCollectorType, DataCollectorType enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0001, base.datacollectortype, pla.datacollectortype, pla/DataCollectorType, pla/plaAlert, pla/plaApiTrace, pla/plaConfiguration, pla/plaPerformanceCounter, pla/plaTrace, plaAlert, plaApiTrace, plaConfiguration, plaPerformanceCounter, plaTrace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

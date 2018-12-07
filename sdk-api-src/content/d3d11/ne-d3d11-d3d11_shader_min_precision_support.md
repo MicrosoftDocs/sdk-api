@@ -7,10 +7,10 @@ old-location: direct3d11\d3d11_shader_min_precision_support.htm
 tech.root: direct3d11
 ms.assetid: 5D6C605C-079E-4487-8C58-78301520356F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_SHADER_MIN_PRECISION_10_BIT, D3D11_SHADER_MIN_PRECISION_16_BIT, D3D11_SHADER_MIN_PRECISION_SUPPORT, D3D11_SHADER_MIN_PRECISION_SUPPORT enumeration [Direct3D 11], d3d11/D3D11_SHADER_MIN_PRECISION_10_BIT, d3d11/D3D11_SHADER_MIN_PRECISION_16_BIT, d3d11/D3D11_SHADER_MIN_PRECISION_SUPPORT, direct3d11.d3d11_shader_min_precision_support
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

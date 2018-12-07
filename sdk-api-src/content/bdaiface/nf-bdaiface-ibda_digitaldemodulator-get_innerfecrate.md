@@ -4,10 +4,10 @@ title: IBDA_DigitalDemodulator::get_InnerFECRate
 author: windows-sdk-content
 description: The get_InnerFECRate method retrieves the inner forward error correction rate being used on the signal.
 old-location: mstv\ibda_digitaldemodulator_get_innerfecrate.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 56fb0c34-8c28-4eff-a1dd-d82c31b0e430
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_InnerFECRate method, IBDA_DigitalDemodulator.get_InnerFECRate, IBDA_DigitalDemodulator::get_InnerFECRate, IBDA_DigitalDemodulatorget_InnerFECRate, bdaiface/IBDA_DigitalDemodulator::get_InnerFECRate, get_InnerFECRate, get_InnerFECRate method [Microsoft TV Technologies], get_InnerFECRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_innerfecrate
 ms.prod: windows-hardware
 ms.technology: windows-devices

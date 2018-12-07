@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_ondevicestatuschange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_ondevicestatuschange.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnDeviceStatusChange method, IFaxServerNotify2.OnDeviceStatusChange, IFaxServerNotify2::OnDeviceStatusChange, OnDeviceStatusChange, OnDeviceStatusChange method [Fax Service], OnDeviceStatusChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnDeviceStatusChange, _IFaxServerNotify2::OnDeviceStatusChange, _mfax_ifaxservernotify2_ondevicestatuschange, fax._mfax_ifaxservernotify2_ondevicestatuschange, faxcomex/IFaxServerNotify2::OnDeviceStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,9 @@ The fax service calls the <b>IFaxServerNotify2::OnDeviceStatusChange</b> method 
 
 ### -param pFaxServer
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
+
+A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ### -param lDeviceId
@@ -97,13 +99,6 @@ Boolean value. If this parameter is equal to <b>TRUE</b>, the fax device is rece
 Type: <b>VARIANT_BOOL</b>
 
 Boolean value. If this parameter is equal to <b>TRUE</b>, the fax device is ringing. If this parameter is equal to <b>FALSE</b>, the fax device is not ringing.
-
-
-#### - pFaxServer2
-
-Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
-
-A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 
 ## -returns

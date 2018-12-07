@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadGUID.htm
 tech.root: properties
 ms.assetid: BCC6E830-CF05-42c1-874F-CCC97E58A4BC
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_ReadGUID, PSPropertyBag_ReadGUID function [Windows Properties], properties.PSPropertyBag_ReadGUID, propsys/PSPropertyBag_ReadGUID, shell.PSPropertyBag_ReadGUID, shell_PSPropertyBag_ReadGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices

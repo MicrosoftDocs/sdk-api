@@ -7,10 +7,10 @@ old-location: intl\filemuiinfo.htm
 tech.root: Intl
 ms.assetid: 4c757d19-ac66-4ba4-a691-f575f61961be
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PFILEMUIINFO, FILEMUIINFO, FILEMUIINFO structure [Internationalization for Windows Applications], PFILEMUIINFO, PFILEMUIINFO structure pointer [Internationalization for Windows Applications], _FILEMUIINFO, _win32_FILEMUIINFO, intl.filemuiinfo, winnls/FILEMUIINFO, winnls/PFILEMUIINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h

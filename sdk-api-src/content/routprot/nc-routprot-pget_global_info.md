@@ -7,10 +7,10 @@ old-location: rras\getglobalinfo.htm
 tech.root: rras
 ms.assetid: 89d4ca42-8f78-40bd-96f0-ad10181cb2d4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetGlobalInfo, GetGlobalInfo callback function [RAS], PGET_GLOBAL_INFO, PGET_GLOBAL_INFO callback, _mpr_getglobalinfo, routprot/GetGlobalInfo, rras.getglobalinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: shell\IHandlerActivationHost_BeforeCreateProcess.htm
 tech.root: shell
 ms.assetid: aa0ea3cb-7fe3-498c-a105-b78492166f65
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: BeforeCreateProcess, BeforeCreateProcess method [Windows Shell], BeforeCreateProcess method [Windows Shell],IHandlerActivationHost interface, IHandlerActivationHost interface [Windows Shell],BeforeCreateProcess method, IHandlerActivationHost.BeforeCreateProcess, IHandlerActivationHost::BeforeCreateProcess, shell.IHandlerActivationHost_BeforeCreateProcess, shobjidl_core/IHandlerActivationHost::BeforeCreateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

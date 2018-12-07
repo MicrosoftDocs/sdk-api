@@ -7,10 +7,10 @@ old-location: mib\mib_mfe_table.htm
 tech.root: MIB
 ms.assetid: 2567e899-760d-41dd-8347-634c1a0e5764
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMIB_MFE_TABLE, MIB_MFE_TABLE, MIB_MFE_TABLE structure [MIB], PMIB_MFE_TABLE, PMIB_MFE_TABLE structure pointer [MIB], _MIB_MFE_TABLE, _mpr_mib_mfe_table, ipmib/MIB_MFE_TABLE, ipmib/PMIB_MFE_TABLE, iprtrmib/MIB_MFE_TABLE, iprtrmib/PMIB_MFE_TABLE, mib.mib_mfe_table, rras.mib_mfe_table"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

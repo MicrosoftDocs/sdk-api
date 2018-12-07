@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_realtimestylusenabled.htm
 tech.root: tablet
 ms.assetid: bd5689c1-32e2-4a37-8dd2-4525b16f4662
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],RealTimeStylusEnabled method, IStylusPlugin.RealTimeStylusEnabled, IStylusPlugin::RealTimeStylusEnabled, RealTimeStylusEnabled, RealTimeStylusEnabled method [Tablet PC], RealTimeStylusEnabled method [Tablet PC],IStylusPlugin interface, bd5689c1-32e2-4a37-8dd2-4525b16f4662, rtscom/IStylusPlugin::RealTimeStylusEnabled, tablet.istylusplugin_realtimestylusenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

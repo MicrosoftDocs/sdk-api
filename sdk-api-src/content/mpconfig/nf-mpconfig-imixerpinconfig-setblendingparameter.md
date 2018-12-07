@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_setblendingparameter.htm
 tech.root: DirectShow
 ms.assetid: 262814eb-386b-409e-b22c-48f9f2a845b4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetBlendingParameter method, IMixerPinConfig.SetBlendingParameter, IMixerPinConfig::SetBlendingParameter, IMixerPinConfigSetBlendingParameter, SetBlendingParameter, SetBlendingParameter method [DirectShow], SetBlendingParameter method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setblendingparameter, mpconfig/IMixerPinConfig::SetBlendingParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices

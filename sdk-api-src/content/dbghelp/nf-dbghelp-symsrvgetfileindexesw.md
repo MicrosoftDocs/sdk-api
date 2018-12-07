@@ -7,7 +7,7 @@ old-location: base\symsrvgetfileindexes.htm
 tech.root: debug
 ms.assetid: 9a6c6949-1ba2-4ed9-a038-68c57560454a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: SymSrvGetFileIndexes, SymSrvGetFileIndexes function, SymSrvGetFileIndexesW, base.symsrvgetfileindexes, dbghelp/SymSrvGetFileIndexes, dbghelp/SymSrvGetFileIndexesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IVdsStoragePool::QueryAllocatedLuns
 author: windows-sdk-content
 description: Returns an object that enumerates the allocated LUNs for a storage pool.
 old-location: base\ivdsstoragepool_queryallocatedluns.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 348472ac-1b8b-4943-9b80-813616861e01
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsStoragePool interface,QueryAllocatedLuns method, IVdsStoragePool.QueryAllocatedLuns, IVdsStoragePool::QueryAllocatedLuns, QueryAllocatedLuns, QueryAllocatedLuns method, QueryAllocatedLuns method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedluns, vds/IVdsStoragePool::QueryAllocatedLuns, vdshwprv/IVdsStoragePool::QueryAllocatedLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices

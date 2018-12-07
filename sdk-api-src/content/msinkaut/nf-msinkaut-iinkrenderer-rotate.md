@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_rotate.htm
 tech.root: tablet
 ms.assetid: 1928c81a-c618-4afd-b0eb-06e7b8b80431
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: 1928c81a-c618-4afd-b0eb-06e7b8b80431, IInkRenderer interface [Tablet PC],Rotate method, IInkRenderer.Rotate, IInkRenderer::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::Rotate, tablet.inkrenderer_rotate
 ms.prod: windows-hardware
 ms.technology: windows-devices

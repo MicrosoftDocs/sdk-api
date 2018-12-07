@@ -4,10 +4,10 @@ title: IWSDiscoveryPublisher::UnPublish
 author: windows-sdk-content
 description: Announces the departure of a network host by sending a Bye message.
 old-location: ncd\iwsdiscoverypublisher_unpublish_method.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: ef403d31-769c-499b-a199-089100725ef9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnPublish method, IWSDiscoveryPublisher.UnPublish, IWSDiscoveryPublisher::UnPublish, UnPublish, UnPublish method, UnPublish method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unpublish_method, wsddisco/IWSDiscoveryPublisher::UnPublish
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ Announces the departure of a network host by sending a <a href="https://msdn.mic
 
 
 
-### -param pszId
+### -param pszId [in]
 
-TBD
+The logical or physical address of the device, which is used as the device endpoint address. A logical address is of the form <code>urn:uuid:{guid}</code>. A physical address can be a URI prefixed by http or https, or simply a URI prefixed by <code>uri</code>. Whenever possible, use a logical address.
 
 
 ### -param ullInstanceId [in]
@@ -87,11 +87,6 @@ This parameter may be <b>NULL</b>.
 ### -param pAny [in, optional]
 
 Pointer to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that contains an XML element  to be inserted in the "ANY" section of the message body.
-
-
-#### - pszDeviceId [in]
-
-The logical or physical address of the device, which is used as the device endpoint address. A logical address is of the form <code>urn:uuid:{guid}</code>. A physical address can be a URI prefixed by http or https, or simply a URI prefixed by <code>uri</code>. Whenever possible, use a logical address.
 
 
 ## -returns

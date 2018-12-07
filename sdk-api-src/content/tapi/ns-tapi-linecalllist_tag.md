@@ -7,10 +7,10 @@ old-location: tapi2\linecalllist_str.htm
 tech.root: tapi
 ms.assetid: b715dd07-74bd-4267-91fe-cfc0cd1e6aa4
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPLINECALLLIST, LINECALLLIST, LINECALLLIST structure [TAPI 2.2], LPLINECALLLIST, LPLINECALLLIST structure pointer [TAPI 2.2], _tapi2_linecalllist_str, linecalllist_tag, tapi/LINECALLLIST, tapi/LPLINECALLLIST, tapi2.linecalllist_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

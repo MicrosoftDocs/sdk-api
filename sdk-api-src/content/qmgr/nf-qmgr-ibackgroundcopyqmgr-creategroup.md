@@ -4,10 +4,10 @@ title: IBackgroundCopyQMgr::CreateGroup
 author: windows-sdk-content
 description: Use the CreateGroup method to create a new group and add it to the download queue.
 old-location: bits\ibackgroundcopyqmgr_creategroup.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: d64fec33-3781-428e-af9d-4a08836760d2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateGroup, CreateGroup method [BITS], CreateGroup method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],CreateGroup method, IBackgroundCopyQMgr.CreateGroup, IBackgroundCopyQMgr::CreateGroup, bits.ibackgroundcopyqmgr_creategroup, qmgr/IBackgroundCopyQMgr::CreateGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,19 +60,14 @@ Use the <b>CreateGroup</b> method to create a new group and add it to the downlo
 
 
 
-### -param guidGroupID
+### -param guidGroupID [in]
 
-TBD
+GUID that uniquely identifies the group in the download queue.
 
 
 ### -param ppGroup [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/51ddd89a-489a-4b83-ad45-838809a6d2e8">IBackgroundCopyGroup</a> interface pointer. Use this interface to manage the group. For example, add a job to the group and set the properties of the group. 
-
-
-#### - guidGroupId [in]
-
-GUID that uniquely identifies the group in the download queue.
 
 
 ## -returns

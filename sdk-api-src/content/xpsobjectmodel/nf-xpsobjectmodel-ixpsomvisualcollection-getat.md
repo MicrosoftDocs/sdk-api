@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisualcollection_getat.htm
 tech.root: printdocs
 ms.assetid: 8bd54fab-64e8-42a5-ac9d-fa19328b1acb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMVisualCollection.GetAt, IXpsOMVisualCollection::GetAt, xps.ixpsomvisualcollection_getat, xpsobjectmodel/IXpsOMVisualCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

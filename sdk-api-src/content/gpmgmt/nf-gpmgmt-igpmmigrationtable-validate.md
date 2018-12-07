@@ -4,10 +4,10 @@ title: IGPMMigrationTable::Validate
 author: windows-sdk-content
 description: Validates the migration table.
 old-location: gpmc\igpmmigrationtable_validate.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 1b442155-3dd7-4a74-ad33-db79114459ac
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GPMMigrationTable class [GPMC],Validate method, IGPMMigrationTable interface [GPMC],Validate method, IGPMMigrationTable.Validate, IGPMMigrationTable::Validate, Validate, Validate method [GPMC], Validate method [GPMC],GPMMigrationTable class, Validate method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_validate, gpmgmt/IGPMMigrationTable::Validate
 ms.prod: windows-hardware
 ms.technology: windows-devices

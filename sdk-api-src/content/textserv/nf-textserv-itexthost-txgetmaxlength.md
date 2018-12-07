@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxGetMaxLength.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetmaxlength.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetMaxLength method, ITextHost.TxGetMaxLength, ITextHost::TxGetMaxLength, TxGetMaxLength, TxGetMaxLength method [Windows Controls], TxGetMaxLength method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetMaxLength, _win32_ITextHost_TxGetMaxLength_cpp, controls.ITextHost_TxGetMaxLength, controls._win32_ITextHost_TxGetMaxLength, textserv/ITextHost::TxGetMaxLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,13 +59,6 @@ Gets the text host's maximum allowed length for the text.
 
 
 ### -param plength
-
-TBD
-
-
-
-
-#### - pLength
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
 

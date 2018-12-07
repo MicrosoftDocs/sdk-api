@@ -4,13 +4,13 @@ title: tagUpdateServiceRegistrationState
 author: windows-sdk-content
 description: Defines the possible states for an update service.
 old-location: wua\updateserviceregistrationstate.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 798d1392-a8dc-4063-b33d-159a507161f1
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: UpdateServiceRegistrationState, UpdateServiceRegistrationState enumeration [Windows Update Agent], tagUpdateServiceRegistrationState, usrsNotRegistered, usrsRegistered, usrsRegistrationPending, wua.updateserviceregistrationstate, wuapi/UpdateServiceRegistrationState, wuapi/usrsNotRegistered, wuapi/usrsRegistered, wuapi/usrsRegistrationPending
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

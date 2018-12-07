@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_SetSelectedControlItem.htm
 tech.root: shell
 ms.assetid: ff0287db-fdd8-415c-9c78-607ec79b5e2d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetSelectedControlItem method, IFileDialogCustomize.SetSelectedControlItem, IFileDialogCustomize::SetSelectedControlItem, SetSelectedControlItem, SetSelectedControlItem method [Windows Shell], SetSelectedControlItem method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetSelectedControlItem, shell_IFileDialogCustomize_SetSelectedControlItem, shobjidl_core/IFileDialogCustomize::SetSelectedControlItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

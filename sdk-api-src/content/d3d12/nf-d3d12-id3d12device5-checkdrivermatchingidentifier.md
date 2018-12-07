@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device5_checkdrivermatchingidentifier.htm
 tech.root: direct3d12
 ms.assetid: 765714D4-5133-4CCA-A09F-EDE650B06905
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: CheckDriverMatchingIdentifier, CheckDriverMatchingIdentifier method, CheckDriverMatchingIdentifier method,ID3D12Device5 interface, ID3D12Device5 interface,CheckDriverMatchingIdentifier method, ID3D12Device5.CheckDriverMatchingIdentifier, ID3D12Device5::CheckDriverMatchingIdentifier, d3d12/ID3D12Device5::CheckDriverMatchingIdentifier, direct3d12.id3d12device5_checkdrivermatchingidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

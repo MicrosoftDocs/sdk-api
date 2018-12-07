@@ -4,10 +4,10 @@ title: INetworkConnectionEvents::NetworkConnectionPropertyChanged
 author: windows-sdk-content
 description: The NetworkConnectionPropertyChanged method notifies a client when property change events related to a specific network connection occur.
 old-location: nla\inetworkconnectionevents_networkconnectionpropertychange.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 38c6a422-9291-4136-ac81-b634040138b3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: INetworkConnectionEvents interface [Network Awareness],NetworkConnectionPropertyChanged method, INetworkConnectionEvents.NetworkConnectionPropertyChanged, INetworkConnectionEvents::NetworkConnectionPropertyChanged, NetworkConnectionPropertyChanged, NetworkConnectionPropertyChanged method [Network Awareness], NetworkConnectionPropertyChanged method [Network Awareness],INetworkConnectionEvents interface, netlistmgr/INetworkConnectionEvents::NetworkConnectionPropertyChanged, nla.inetworkconnectionevents_networkconnectionpropertychange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ The <b>NetworkConnectionPropertyChanged</b> method notifies a client when proper
 A GUID that identifies the network connection  on which the event occurred.
 
 
-### -param flags
-
-TBD
-
-
-
-
-#### - fFlags [in]
+### -param flags [in]
 
 The <a href="https://msdn.microsoft.com/75cc1876-e6e0-4c39-a0af-5c47e7501c98">NLM_CONNECTION_PROPERTY_CHANGE</a> flags for this connection.
 

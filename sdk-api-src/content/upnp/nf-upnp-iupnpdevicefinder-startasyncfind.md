@@ -4,10 +4,10 @@ title: IUPnPDeviceFinder::StartAsyncFind
 author: windows-sdk-content
 description: The StartAsyncFind method starts an asynchronous search operation.
 old-location: upnp\iupnpdevicefinder_startasyncfind.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 3189ea47-8cb3-4b95-b88d-7ff72b776e56
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDeviceFinder interface [UPnP APIs],StartAsyncFind method, IUPnPDeviceFinder.StartAsyncFind, IUPnPDeviceFinder::StartAsyncFind, StartAsyncFind, StartAsyncFind method [UPnP APIs], StartAsyncFind method [UPnP APIs],IUPnPDeviceFinder interface, _upnp_iupnpdevicefinder_startasyncfind, upnp.iupnpdevicefinder_startasyncfind, upnp/IUPnPDeviceFinder::StartAsyncFind
 ms.prod: windows-hardware
 ms.technology: windows-devices

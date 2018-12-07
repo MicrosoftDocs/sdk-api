@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_getcollection.htm
 tech.root: cossdk
 ms.assetid: 4198f456-97fa-45b2-aa79-29ac506a8618
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetCollection, GetCollection method [COM+], GetCollection method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],GetCollection method, ICatalogCollection.GetCollection, ICatalogCollection::GetCollection, _cos_ICatalogCollection_GetCollection, comadmin/ICatalogCollection::GetCollection, cos.icatalogcollection_getcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

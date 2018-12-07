@@ -4,10 +4,10 @@ title: IX509Attribute::get_ObjectId
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) for the attribute.
 old-location: security\ix509attribute_objectid_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: a65c7989-5e6e-4253-8ddc-1d1207fecaf8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IX509Attribute interface [Security],ObjectId property, IX509Attribute.ObjectId, IX509Attribute.get_ObjectId, IX509Attribute::ObjectId, IX509Attribute::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IX509Attribute interface, certenroll/IX509Attribute::ObjectId, certenroll/IX509Attribute::get_ObjectId, get_ObjectId, security.ix509attribute_objectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

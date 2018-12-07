@@ -8,10 +8,10 @@ old-location: multimedia\iavieditstream.htm
 tech.root: Multimedia
 ms.assetid: d32dc386-05cf-4f7b-9785-a38586a09402
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: IAVIEditStream, IAVIEditStream interface [Windows Multimedia], IAVIEditStream interface [Windows Multimedia],described, _win32_IAVIEditStream, multimedia.iavieditstream, vfw/IAVIEditStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vfw.h
 req.include-header: 

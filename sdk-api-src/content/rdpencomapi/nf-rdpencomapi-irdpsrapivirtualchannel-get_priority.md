@@ -4,10 +4,10 @@ title: IRDPSRAPIVirtualChannel::get_Priority
 author: windows-sdk-content
 description: The channel priority.
 old-location: rdp\irdpsrapivirtualchannel_priority.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 34addc3d-5541-48c9-a749-256114e0c2aa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, IRDPSRAPIVirtualChannel interface [RDP],Priority property, IRDPSRAPIVirtualChannel.Priority, IRDPSRAPIVirtualChannel.get_Priority, IRDPSRAPIVirtualChannel::Priority, IRDPSRAPIVirtualChannel::get_Priority, Priority property [RDP], Priority property [RDP],IRDPSRAPIVirtualChannel interface, Priority property [RDP],RDPSRAPIVirtualChannel object, RDPSRAPIVirtualChannel object [RDP],Priority property, get_Priority, rdp.irdpsrapivirtualchannel_priority, rdpencomapi/IRDPSRAPIVirtualChannel::Priority, rdpencomapi/IRDPSRAPIVirtualChannel::get_Priority
 ms.prod: windows-hardware
 ms.technology: windows-devices

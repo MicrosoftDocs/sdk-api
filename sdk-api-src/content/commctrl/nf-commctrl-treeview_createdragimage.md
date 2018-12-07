@@ -7,7 +7,7 @@ old-location: controls\TreeView_CreateDragImage.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_createdragimage.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: TreeView_CreateDragImage, TreeView_CreateDragImage macro [Windows Controls], _win32_TreeView_CreateDragImage, _win32_TreeView_CreateDragImage_cpp, commctrl/TreeView_CreateDragImage, controls.TreeView_CreateDragImage, controls._win32_TreeView_CreateDragImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

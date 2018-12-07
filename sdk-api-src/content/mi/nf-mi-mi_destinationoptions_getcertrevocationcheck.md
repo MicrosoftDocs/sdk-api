@@ -4,10 +4,10 @@ title: MI_DestinationOptions_GetCertRevocationCheck function
 author: windows-sdk-content
 description: Gets the server certificate's revocation check value.
 old-location: wmi_v2\mi_destinationoptions_getcertrevocationcheck.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 85af8514-a448-44c4-b1ad-f0a6b5c4a8a4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_GetCertRevocationCheck, MI_DestinationOptions_GetCertRevocationCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCertRevocationCheck, wmi_v2.mi_destinationoptions_getcertrevocationcheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

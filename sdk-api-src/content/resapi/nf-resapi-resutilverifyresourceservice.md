@@ -7,7 +7,7 @@ old-location: mscs\resutilverifyresourceservice.htm
 tech.root: mscs
 ms.assetid: 452f4e83-74a6-4830-b244-599e9dc5c854
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_VERIFY_RESOURCE_SERVICE, PRESUTIL_VERIFY_RESOURCE_SERVICE function [Failover Cluster], ResUtilVerifyResourceService, ResUtilVerifyResourceService function [Failover Cluster], _wolf_resutilverifyresourceservice, mscs.resutilverifyresourceservice, resapi/PRESUTIL_VERIFY_RESOURCE_SERVICE, resapi/ResUtilVerifyResourceService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,6 +71,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error code.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SERVICE_NOT_ACTIVE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The service is not operational.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

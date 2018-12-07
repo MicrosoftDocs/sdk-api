@@ -7,10 +7,10 @@ old-location: base\ioctl_storage_mcn_control.htm
 tech.root: devio
 ms.assetid: 1122f27f-c1a6-49a9-b09a-5b33c451e1cc
 ms.author: windowssdkdev
-ms.date: 10/02/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_STORAGE_MCN_CONTROL, IOCTL_STORAGE_MCN_CONTROL control, IOCTL_STORAGE_MCN_CONTROL control code, _win32_ioctl_storage_mcn_control, base.ioctl_storage_mcn_control, winioctl/IOCTL_STORAGE_MCN_CONTROL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

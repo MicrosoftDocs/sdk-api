@@ -4,10 +4,10 @@ title: IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml
 author: windows-sdk-content
 description: Gets service information from an XML tune request.
 old-location: mstv\ibda_guidedatadeliveryservice_getserviceinfofromtunexml.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8084e4dd-a5d5-48a0-a052-24310a79df78
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetServiceInfoFromTuneXml, GetServiceInfoFromTuneXml method [Microsoft TV Technologies], GetServiceInfoFromTuneXml method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServiceInfoFromTuneXml method, IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml, IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, bdaiface/IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, mstv.ibda_guidedatadeliveryservice_getserviceinfofromtunexml
 ms.prod: windows-hardware
 ms.technology: windows-devices

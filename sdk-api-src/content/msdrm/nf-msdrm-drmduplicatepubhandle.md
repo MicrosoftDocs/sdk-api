@@ -7,7 +7,7 @@ old-location: rm\drmduplicatepubhandle.htm
 tech.root: AdRms_Sdk
 ms.assetid: 6bf94d17-ce09-492e-9b47-88cd54719d3e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMDuplicatePubHandle, DRMDuplicatePubHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicatePubHandle, rm.drmduplicatepubhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

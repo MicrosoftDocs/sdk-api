@@ -7,10 +7,10 @@ old-location: controls\NMCUSTOMTEXT.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmcustomtext.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPNMCUSTOMTEXT, LPNMCUSTOMTEXT, LPNMCUSTOMTEXT structure pointer [Windows Controls], NMCUSTOMTEXT, NMCUSTOMTEXT structure [Windows Controls], _shell_NMCUSTOMTEXT, _shell_NMCUSTOMTEXT_cpp, commctrl/LPNMCUSTOMTEXT, commctrl/NMCUSTOMTEXT, controls.NMCUSTOMTEXT, controls._shell_NMCUSTOMTEXT, tagNMCUSTOMTEXT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

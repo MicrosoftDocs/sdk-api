@@ -4,10 +4,10 @@ title: IX509Attributes::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an IX509Attribute object from the collection by index number.
 old-location: security\ix509attributes_itembyindex_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 2bcf46d9-93b5-4fbe-9be8-004b3653902e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IX509Attributes interface [Security],ItemByIndex property, IX509Attributes.ItemByIndex, IX509Attributes.get_ItemByIndex, IX509Attributes::ItemByIndex, IX509Attributes::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509Attributes interface, certenroll/IX509Attributes::ItemByIndex, certenroll/IX509Attributes::get_ItemByIndex, get_ItemByIndex, security.ix509attributes_itembyindex_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

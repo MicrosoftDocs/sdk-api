@@ -4,10 +4,10 @@ title: IBDA_FDC::GetTableSection
 author: windows-sdk-content
 description: Gets the latest table section.
 old-location: mstv\ibda_fdc_gettablesection.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 77c83234-c752-4f94-a3f1-cc62a5da894a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTableSection, GetTableSection method [Microsoft TV Technologies], GetTableSection method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],GetTableSection method, IBDA_FDC.GetTableSection, IBDA_FDC::GetTableSection, bdaiface/IBDA_FDC::GetTableSection, mstv.ibda_fdc_gettablesection
 ms.prod: windows-hardware
 ms.technology: windows-devices

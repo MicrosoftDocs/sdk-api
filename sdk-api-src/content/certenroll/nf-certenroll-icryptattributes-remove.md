@@ -4,10 +4,10 @@ title: ICryptAttributes::Remove
 author: windows-sdk-content
 description: Removes an ICryptAttribute object from the collection by index number.
 old-location: security\icryptattributes_remove_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 6e5767e0-41e8-4081-a814-263397a9faf9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICryptAttributes interface [Security],Remove method, ICryptAttributes.Remove, ICryptAttributes::Remove, Remove, Remove method [Security], Remove method [Security],ICryptAttributes interface, certenroll/ICryptAttributes::Remove, security.icryptattributes_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

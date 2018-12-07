@@ -4,10 +4,10 @@ title: IBackgroundCopyQMgr::GetGroup
 author: windows-sdk-content
 description: Use the GetGroup method to retrieve a group from the download queue.
 old-location: bits\ibackgroundcopyqmgr_getgroup.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 36836fe5-4858-4c6e-8ce8-1bb71c8e9f5a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetGroup, GetGroup method [BITS], GetGroup method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],GetGroup method, IBackgroundCopyQMgr.GetGroup, IBackgroundCopyQMgr::GetGroup, bits.ibackgroundcopyqmgr_getgroup, qmgr/IBackgroundCopyQMgr::GetGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,19 +60,14 @@ Use the <b>GetGroup</b> method to retrieve a group from the download queue. The 
 
 
 
-### -param groupID
+### -param groupID [in]
 
-TBD
+GUID that uniquely identifies the group in the download queue.
 
 
 ### -param ppGroup [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/51ddd89a-489a-4b83-ad45-838809a6d2e8">IBackgroundCopyGroup</a> interface pointer. Use this interface to manage the group. For example, add a job to the group and set the properties of the group. 
-
-
-#### - guidGroupId [in]
-
-GUID that uniquely identifies the group in the download queue.
 
 
 ## -returns

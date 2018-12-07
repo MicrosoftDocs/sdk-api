@@ -4,13 +4,13 @@ title: "_USE_INFO_0"
 author: windows-sdk-content
 description: The USE_INFO_0 structure contains the name of a shared resource and the local device redirected to it.
 old-location: netmgmt\use_info_0_str.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 86db3f19-84c5-4e89-82cb-f01d17dcf4ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPUSE_INFO_0, *PUSE_INFO_0, LPUSE_INFO_0, LPUSE_INFO_0 structure pointer [Network Management], PUSE_INFO_0, PUSE_INFO_0 structure pointer [Network Management], USE_INFO_0, USE_INFO_0 structure [Network Management], _USE_INFO_0, _win32_use_info_0_str, lmuse/LPUSE_INFO_0, lmuse/PUSE_INFO_0, lmuse/USE_INFO_0, netmgmt.use_info_0_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmuse.h
 req.include-header: Lm.h

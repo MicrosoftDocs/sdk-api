@@ -7,7 +7,7 @@ old-location: battery\batteryclassquerywmidatablock.htm
 tech.root: battery
 ms.assetid: 2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: BatteryClassQueryWmiDataBlock, BatteryClassQueryWmiDataBlock routine [Battery Devices], bat-rtn_da940bf9-529c-4fd7-a02f-b1d9ee8ea28f.xml, batclass/BatteryClassQueryWmiDataBlock, battery.batteryclassquerywmidatablock
 ms.prod: windows-hardware
 ms.technology: windows-devices

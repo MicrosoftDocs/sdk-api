@@ -7,10 +7,10 @@ old-location: controls\irichedituiainformation.htm
 tech.root: controls
 ms.assetid: BEED428C-6C88-45A8-948C-77288B817C49
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IRichEditUiaInformation, IRichEditUiaInformation interface [Windows Controls], IRichEditUiaInformation interface [Windows Controls],described, controls.irichedituiainformation, textserv/IRichEditUiaInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: textserv.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_containschange.htm
 tech.root: winsync
 ms.assetid: 4c304d76-f27a-4382-99ad-1d158da93de6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ContainsChange, ContainsChange method [Windows Sync], ContainsChange method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsChange method, ISyncKnowledge.ContainsChange, ISyncKnowledge::ContainsChange, winsync.isyncknowledge_containschange, winsync/ISyncKnowledge::ContainsChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

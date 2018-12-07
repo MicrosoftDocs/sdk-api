@@ -4,13 +4,13 @@ title: IVdsSubSystemNaming
 author: windows-sdk-content
 description: Provides a method to name subsystems for a class implementing the IVdsSubSystem interface.
 old-location: base\ivdssubsystemnaming.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 1f507c6c-8eae-4c32-805f-5dbc7ba4a81e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsSubSystemNaming, IVdsSubSystemNaming interface [VDS], IVdsSubSystemNaming interface [VDS],described, base.ivdssubsystemnaming, vds/IVdsSubSystemNaming, vdshwprv/IVdsSubSystemNaming
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

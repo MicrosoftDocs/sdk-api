@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderplaylistburn_initplaylistburn.htm
 tech.root: wmformat
 ms.assetid: a20a70af-49bc-408f-8c64-779525436f8d
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMReaderPlaylistBurn interface [windows Media Format],InitPlaylistBurn method, IWMReaderPlaylistBurn.InitPlaylistBurn, IWMReaderPlaylistBurn::InitPlaylistBurn, IWMReaderPlaylistBurnInitPlaylistBurn, InitPlaylistBurn, InitPlaylistBurn method [windows Media Format], InitPlaylistBurn method [windows Media Format],IWMReaderPlaylistBurn interface, wmformat.iwmreaderplaylistburn_initplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::InitPlaylistBurn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,9 +69,9 @@ The <b>InitPlaylistBurn</b> method initiates the playlist burning process, by ch
 Number of files in the playlist. This is also the number of members in the array of file names referenced by <i>pwszFilenames</i>.
 
 
-### -param ppwszFilenames
+### -param ppwszFilenames [in]
 
-TBD
+Address of an array of <b>WCHAR</b> strings. Each string contains the name of a file in the playlist. You must maintain the file order exactly as it exists in the playlist.
 
 
 ### -param pCallback [in]
@@ -82,11 +82,6 @@ Address of the <b>IWMStatusCallback</b> implementation that will receive the WMT
 ### -param pvContext [in]
 
 Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback.
-
-
-#### - pwszFilenames [in]
-
-Address of an array of <b>WCHAR</b> strings. Each string contains the name of a file in the playlist. You must maintain the file order exactly as it exists in the playlist.
 
 
 ## -returns

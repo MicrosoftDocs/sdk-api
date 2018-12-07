@@ -4,10 +4,10 @@ title: WSManCreateShell function
 author: windows-sdk-content
 description: Creates a shell object.
 old-location: winrm\wsmancreateshell.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 901c0a2d-d25f-451c-8d6c-83662f1f1061
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: WSManCreateShell, WSManCreateShell function [Windows Remote Management], winrm.wsmancreateshell, wsman/WSManCreateShell
 ms.prod: windows-hardware
 ms.technology: windows-devices

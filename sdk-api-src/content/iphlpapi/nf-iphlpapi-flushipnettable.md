@@ -7,7 +7,7 @@ old-location: iphlp\flushipnettable.htm
 tech.root: IpHlp
 ms.assetid: cf4dea10-552d-4730-a452-9302ef3761ff
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FlushIpNetTable, FlushIpNetTable function [IP Helper], _iphlp_flushipnettable, iphlp.flushipnettable, iphlpapi/FlushIpNetTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

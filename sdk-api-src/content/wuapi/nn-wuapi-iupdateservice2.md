@@ -4,13 +4,13 @@ title: IUpdateService2
 author: windows-sdk-content
 description: Contains information about a service that is registered with Windows Update Agent (WUA) or with Automatic Updates.
 old-location: wua\iupdateservice2.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 6cd3d3a1-c50c-4d8e-ae13-c3ea99671cbf
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdateService2, IUpdateService2 interface [Windows Update Agent], IUpdateService2 interface [Windows Update Agent],described, wua.iupdateservice2, wuapi/IUpdateService2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

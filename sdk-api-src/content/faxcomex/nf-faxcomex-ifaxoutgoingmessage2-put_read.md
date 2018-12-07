@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_read_cpp
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\read.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],Read property, IFaxOutgoingMessage2.Read, IFaxOutgoingMessage2.get_Read, IFaxOutgoingMessage2.put_Read, IFaxOutgoingMessage2::Read, IFaxOutgoingMessage2::get_Read, IFaxOutgoingMessage2::put_Read, Read property [Fax Service], Read property [Fax Service],IFaxOutgoingMessage2 interface, _mfax_faxoutgoingmessage.read, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_read_cpp, fax._mfax_faxoutgoingmessage_read, faxcomex/IFaxOutgoingMessage2::Read, faxcomex/IFaxOutgoingMessage2::get_Read, faxcomex/IFaxOutgoingMessage2::put_Read, put_Read
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,13 +4,13 @@ title: DNS_NXT_DATAW
 author: windows-sdk-content
 description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.
 old-location: dns\dns_nxt_data.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 0e5370c2-30d3-4bb7-85a0-f4412f5572fd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_NXT_DATA, *PDNS_NXT_DATAW, DNS_NXT_DATA, DNS_NXT_DATA structure [DNS], DNS_NXT_DATAW, PDNS_NXT_DATA, PDNS_NXT_DATA structure pointer [DNS], _dns_dns_nxt_data, dns.dns_nxt_data, windns/DNS_NXT_DATA, windns/PDNS_NXT_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

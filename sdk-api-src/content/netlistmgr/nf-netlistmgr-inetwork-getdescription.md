@@ -4,10 +4,10 @@ title: INetwork::GetDescription
 author: windows-sdk-content
 description: The GetDescription method returns a description string for the network.
 old-location: nla\inetwork_getdescription.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 7d7c4f04-f11c-48ff-b579-dc4dd7599a6b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetDescription, GetDescription method [Network Awareness], GetDescription method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetDescription method, INetwork.GetDescription, INetwork::GetDescription, netlistmgr/INetwork::GetDescription, nla.inetwork_getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

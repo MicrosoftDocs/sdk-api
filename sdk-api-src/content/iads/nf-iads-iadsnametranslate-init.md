@@ -4,10 +4,10 @@ title: IADsNameTranslate::Init
 author: windows-sdk-content
 description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the credentials of the current user.
 old-location: adsi\iadsnametranslate_init.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: dad31301-b18b-44ec-b32f-93d0bb5b6189
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsNameTranslate interface [ADSI],Init method, IADsNameTranslate.Init, IADsNameTranslate::Init, Init, Init method [ADSI], Init method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_init, adsi.iadsnametranslate__init, adsi.iadsnametranslate_init, iads/IADsNameTranslate::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,17 +60,12 @@ The <b>IADsNameTranslate::Init</b> method initializes a name translate object by
 
 ### -param lnSetType
 
-TBD
+A type of initialization to be performed. Possible values are defined in  <a href="https://msdn.microsoft.com/cd7e4786-b20c-4dad-bae6-4e703e60f330">ADS_NAME_INITTYPE_ENUM</a>.
 
 
 ### -param bstrADsPath
 
 The name of the server or domain, depending on the value of <i>lnInitType</i>. When <b>ADS_NAME_INITTYPE_GC</b> is issued, this parameter is ignored. The global catalog server of the domain of the current computer will  perform the name translate operations. This method will fail if the computer is not part of a domain as no global catalog will be found in this scenario. For more information, see <a href="https://msdn.microsoft.com/cd7e4786-b20c-4dad-bae6-4e703e60f330">ADS_NAME_INITTYPE_ENUM</a>.
-
-
-#### - lnInitType
-
-A type of initialization to be performed. Possible values are defined in  <a href="https://msdn.microsoft.com/cd7e4786-b20c-4dad-bae6-4e703e60f330">ADS_NAME_INITTYPE_ENUM</a>.
 
 
 ## -returns

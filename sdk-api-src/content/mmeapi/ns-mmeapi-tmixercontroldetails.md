@@ -7,10 +7,10 @@ old-location: multimedia\mixercontroldetails.htm
 tech.root: Multimedia
 ms.assetid: 171605e0-4bfc-47cf-b667-3e73c172aebd
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPMIXERCONTROLDETAILS, *PMIXERCONTROLDETAILS, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: 

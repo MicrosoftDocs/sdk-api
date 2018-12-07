@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_setservicestate.htm
 tech.root: DirectShow
 ms.assetid: c65d056e-0f39-4372-9060-37859798cade
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetServiceState method, IAMWstDecoder.SetServiceState, IAMWstDecoder::SetServiceState, IAMWstDecoderSetServiceState, SetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setservicestate, iwstdec/IAMWstDecoder::SetServiceState
 ms.prod: windows-hardware
 ms.technology: windows-devices

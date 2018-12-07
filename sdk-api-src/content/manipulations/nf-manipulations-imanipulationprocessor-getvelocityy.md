@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_getvelocityy.htm
 tech.root: wintouch
 ms.assetid: b531c4e5-8437-4869-9264-3fe131b8acc8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetVelocityY, GetVelocityY method [Windows Touch], GetVelocityY method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetVelocityY method, IManipulationProcessor.GetVelocityY, IManipulationProcessor::GetVelocityY, manipulations/IManipulationProcessor::GetVelocityY, wintouch.imanipulationprocessor_getvelocityy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Calculates and returns the vertical velocity.
 
 
 
-### -param velocityY
-
-TBD
-
-
-
-
-#### - pY [out]
+### -param velocityY [out]
 
 The calculated vertical velocity.
 

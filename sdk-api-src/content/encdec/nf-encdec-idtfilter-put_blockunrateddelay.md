@@ -4,10 +4,10 @@ title: IDTFilter::put_BlockUnRatedDelay
 author: windows-sdk-content
 description: The put_BlockUnRatedDelay method sets the length of time the filter waits before it blocks unrated content.
 old-location: mstv\idtfilter_put_blockunrateddelay.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2caabce8-57b0-4a43-87b7-1b045ca573db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockUnRatedDelay method, IDTFilter.put_BlockUnRatedDelay, IDTFilter::put_BlockUnRatedDelay, IDTFilterput_BlockUnRatedDelay, encdec/IDTFilter::put_BlockUnRatedDelay, mstv.idtfilter_put_blockunrateddelay, put_BlockUnRatedDelay, put_BlockUnRatedDelay method [Microsoft TV Technologies], put_BlockUnRatedDelay method [Microsoft TV Technologies],IDTFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

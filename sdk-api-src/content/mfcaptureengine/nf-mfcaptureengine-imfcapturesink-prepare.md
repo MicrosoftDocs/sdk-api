@@ -7,7 +7,7 @@ old-location: mf\imfcapturesink_prepare.htm
 tech.root: medfound
 ms.assetid: 244FD291-AD1D-4A51-87C3-C98B33978AA1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IMFCaptureSink interface [Media Foundation],Prepare method, IMFCaptureSink.Prepare, IMFCaptureSink::Prepare, Prepare, Prepare method [Media Foundation], Prepare method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_prepare, mfcaptureengine/IMFCaptureSink::Prepare
 ms.prod: windows-hardware
 ms.technology: windows-devices

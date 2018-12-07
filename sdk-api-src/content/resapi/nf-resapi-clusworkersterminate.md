@@ -7,7 +7,7 @@ old-location: mscs\clusworkersterminate.htm
 tech.root: mscs
 ms.assetid: af9bcdcf-ca92-438b-94f2-f0e7529952fb
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusWorkersTerminate, ClusWorkersTerminate function [Failover Cluster], mscs.clusworkersterminate, resapi/ClusWorkersTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,6 +84,36 @@ If set <b>TRUE</b>, the function will wait for up to specified timeout without s
 ## -returns
 
 
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+All worker threads are terminated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WAIT_TIMEOUT</b></dt>
+</dl>
+</td>
+<td width="60%">
+At least one worker thread is not terminated within the specified timeout.
+
+</td>
+</tr>
+</table>
+ 
 
 Returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> on failure.
 

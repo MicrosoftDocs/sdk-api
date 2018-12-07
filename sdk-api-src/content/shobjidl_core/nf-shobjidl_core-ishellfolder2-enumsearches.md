@@ -7,7 +7,7 @@ old-location: shell\IShellFolder2_EnumSearches.htm
 tech.root: shell
 ms.assetid: ed7b0e3c-f679-491b-98a2-542fcf5d2077
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EnumSearches, EnumSearches method [Windows Shell], EnumSearches method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],EnumSearches method, IShellFolder2.EnumSearches, IShellFolder2::EnumSearches, _win32_IShellFolder2_EnumSearches, shell.IShellFolder2_EnumSearches, shobjidl_core/IShellFolder2::EnumSearches
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,13 +59,6 @@ Requests a pointer to an interface that allows a client to enumerate the availab
 
 
 ### -param ppenum
-
-TBD
-
-
-
-
-#### - ppEnum
 
 Type: <b><a href="https://msdn.microsoft.com/63b71cd2-483b-482f-b3f4-6d5c937e7708">IEnumExtraSearch</a>**</b>
 

@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcd_releasemedia.htm
 tech.root: imapi
 ms.assetid: 5f60c16f-ef40-4bb5-8df2-fa4ae91541b6
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],ReleaseMedia method, IDiscFormat2RawCD.ReleaseMedia, IDiscFormat2RawCD::ReleaseMedia, ReleaseMedia, ReleaseMedia method [IMAPI], ReleaseMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_releasemedia, imapi2/IDiscFormat2RawCD::ReleaseMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

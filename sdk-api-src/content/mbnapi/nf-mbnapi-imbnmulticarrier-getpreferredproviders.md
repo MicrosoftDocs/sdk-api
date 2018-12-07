@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrier_getpreferredproviders.htm
 tech.root: mbn
 ms.assetid: 91D27D4D-5838-4D6D-BECF-B336B9F3B52A
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnMultiCarrier.GetPreferredProviders, IMbnMultiCarrier::GetPreferredProviders, mbn.imbnmulticarrier_getpreferredproviders, mbnapi/IMbnMultiCarrier::GetPreferredProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Gets the list of subscribed providers visible in the current area for a multi-ca
 
 
 
-### -param preferredMulticarrierProviders
-
-TBD
-
-
-
-
-#### - preferredMultiCarrierProviders [out, retval]
+### -param preferredMulticarrierProviders [out, retval]
 
 Pointer to an array of <a href="https://msdn.microsoft.com/9D681192-1E40-4314-8E7F-8934AA8162D3">MBN_PROVIDER2</a> structures that contain the list of preferred providers. If this method returns any value other than <b>S_OK</b>, <i>preferredMultiCarrierProviders</i> is <b>NULL</b>. When <b>GetPreferredProviders</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/fc94f7e7-b903-4c78-905c-54df1f8d13fa">SafeArrayDestroy</a>.
 

@@ -2,7 +2,7 @@
 UID: NA:tpmvscmgr
 ms.assetid: 854666f9-436b-3b7c-b8bb-dc79f5cd74e6
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

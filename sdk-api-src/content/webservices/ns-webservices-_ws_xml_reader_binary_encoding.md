@@ -7,10 +7,10 @@ old-location: wsw\ws_xml_reader_binary_encoding.htm
 tech.root: wsw
 ms.assetid: 51a0802b-6624-430e-96c1-a8470fac4937
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_XML_READER_BINARY_ENCODING, WS_XML_READER_BINARY_ENCODING structure [Web Services for Windows], _WS_XML_READER_BINARY_ENCODING, webservices/WS_XML_READER_BINARY_ENCODING, wsw.ws_xml_reader_binary_encoding
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

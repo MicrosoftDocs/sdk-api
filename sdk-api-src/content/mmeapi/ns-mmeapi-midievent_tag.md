@@ -7,10 +7,10 @@ old-location: multimedia\midievent.htm
 tech.root: Multimedia
 ms.assetid: e83bf111-2075-4cfc-a68b-e0a59a0c53e6
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 11/23/2018
 ms.keywords: MIDIEVENT, MIDIEVENT structure [Windows Multimedia], _win32_MIDIEVENT_str, midievent_tag, mmeapi/MIDIEVENT, multimedia.midievent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: Windows.h

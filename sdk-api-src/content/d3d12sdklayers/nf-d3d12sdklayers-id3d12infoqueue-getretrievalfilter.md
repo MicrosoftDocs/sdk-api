@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getretrievalfilter.htm
 tech.root: direct3d12
 ms.assetid: A5F4A602-C5C1-402E-9208-D183EEDF6F27
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: GetRetrievalFilter, GetRetrievalFilter method, GetRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetRetrievalFilter method, ID3D12InfoQueue.GetRetrievalFilter, ID3D12InfoQueue::GetRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilter, direct3d12.id3d12infoqueue_getretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

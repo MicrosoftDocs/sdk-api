@@ -4,10 +4,10 @@ title: HttpPrepareUrl function
 author: windows-sdk-content
 description: Parses, analyzes, and normalizes a non-normalized Unicode or punycode URL so it is safe and valid to use in other HTTP functions.
 old-location: http\httpprepareurl.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 45199AEE-950D-44C4-8590-96077DBDC846
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: HttpPrepareUrl, HttpPrepareUrl function [HTTP], http.httpprepareurl, http/HttpPrepareUrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

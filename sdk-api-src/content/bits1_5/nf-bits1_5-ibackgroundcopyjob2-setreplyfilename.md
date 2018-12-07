@@ -4,10 +4,10 @@ title: IBackgroundCopyJob2::SetReplyFileName
 author: windows-sdk-content
 description: Specifies the name of the file to contain the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY.
 old-location: bits\ibackgroundcopyjob2_setreplyfilename.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 9f8591a3-ecc2-497a-ac12-67e5862efde4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetReplyFileName method, IBackgroundCopyJob2.SetReplyFileName, IBackgroundCopyJob2::SetReplyFileName, SetReplyFileName, SetReplyFileName method [BITS], SetReplyFileName method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setreplyfilename, bits.ibackgroundcopyjob2_setreplyfilename, bits1_5/IBackgroundCopyJob2::SetReplyFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Specifies the name of the file to contain the reply data from the server applica
 
 
 
-### -param ReplyFileName
-
-TBD
-
-
-
-
-#### - ReplyFileNamePathSpec [in]
+### -param ReplyFileName [in]
 
 Null-terminated string that contains the full path to the reply file. BITS generates the file name if <i>ReplyFileNamePathSpec</i> is <b>NULL</b> or an empty string. You cannot use wildcards in the path or file name, and directories in the path must exist. The path is limited to MAX_PATH, not including the null terminator. The user must have permissions to write to the directory. BITS does not support NTFS streams. Instead of using network drives, which are session specific, use UNC paths (for example, \\server\share\path\file). Do not include the \\? prefix in the path.
 

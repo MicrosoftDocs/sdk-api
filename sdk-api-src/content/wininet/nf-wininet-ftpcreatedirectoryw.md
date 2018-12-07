@@ -4,10 +4,10 @@ title: FtpCreateDirectoryW function
 author: windows-sdk-content
 description: Creates a new directory on the FTP server.
 old-location: wininet\ftpcreatedirectory.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 51a33c5b-4e82-4148-8a3f-0cf7c0a8bac0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FtpCreateDirectory, FtpCreateDirectory function [WinINet], FtpCreateDirectoryA, FtpCreateDirectoryW, _inet_ftpcreatedirectory_function, wininet.ftpcreatedirectory, wininet/FtpCreateDirectory, wininet/FtpCreateDirectoryA, wininet/FtpCreateDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

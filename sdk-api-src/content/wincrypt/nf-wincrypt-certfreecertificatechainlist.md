@@ -7,7 +7,7 @@ old-location: security\certfreecertificatechainlist.htm
 tech.root: seccrypto
 ms.assetid: a53b02ca-bc3f-43fd-8c90-2f646d550182
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CertFreeCertificateChainList, CertFreeCertificateChainList function [Security], security.certfreecertificatechainlist, wincrypt/CertFreeCertificateChainList
 ms.prod: windows-hardware
 ms.technology: windows-devices

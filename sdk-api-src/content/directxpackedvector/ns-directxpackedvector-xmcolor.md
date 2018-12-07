@@ -7,10 +7,10 @@ old-location: dxmath\xmcolor.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMCOLOR
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: XMCOLOR, XMCOLOR structure [DirectX Math Support APIs], directxpackedvector/XMCOLOR, dxmath.xmcolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -92,6 +92,23 @@ Unsigned 32-bit integer representing the color. The colors are stored in A8R8G8B
 
 The alpha component the most-significant bits, and the blue component is
 			    stored in the least-significant bits.
+
+
+### -field XMCOLOR
+
+TBD 
+
+
+### -field operator uint32_t
+
+TBD 
+
+
+### -field operator=
+
+TBD 
+
+
 
 
 ## -remarks

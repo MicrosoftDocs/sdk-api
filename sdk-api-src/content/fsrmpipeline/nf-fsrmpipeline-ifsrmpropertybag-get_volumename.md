@@ -4,10 +4,10 @@ title: IFsrmPropertyBag::get_VolumeName
 author: windows-sdk-content
 description: The name of the volume on which the file exists.
 old-location: fsrm\ifsrmpropertybag_volumename.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 65b47ad3-eb81-468e-a4fb-8a52d6b99998
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],VolumeName property, IFsrmPropertyBag.VolumeName, IFsrmPropertyBag.get_VolumeName, IFsrmPropertyBag::VolumeName, IFsrmPropertyBag::get_VolumeName, VolumeName property [File Server Resource Manager], VolumeName property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_volumename, fsrm.ifsrmpropertybag_volumename, fsrmpipeline/IFsrmPropertyBag::VolumeName, fsrmpipeline/IFsrmPropertyBag::get_VolumeName, get_VolumeName
 ms.prod: windows-hardware
 ms.technology: windows-devices

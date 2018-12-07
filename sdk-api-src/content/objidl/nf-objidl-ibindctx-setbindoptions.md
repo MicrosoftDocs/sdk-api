@@ -7,7 +7,7 @@ old-location: com\ibindctx_setbindoptions.htm
 tech.root: com
 ms.assetid: 9dcce48e-567e-42b4-8df2-2bc861cb5fcb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IBindCtx interface [COM],SetBindOptions method, IBindCtx.SetBindOptions, IBindCtx::SetBindOptions, SetBindOptions, SetBindOptions method [COM], SetBindOptions method [COM],IBindCtx interface, _com_ibindctx_setbindoptions, com.ibindctx_setbindoptions, objidl/IBindCtx::SetBindOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

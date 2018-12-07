@@ -4,13 +4,13 @@ title: PBRANGE
 author: windows-sdk-content
 description: Contains information about the high and low limits of a progress bar control. This structure is used with the PBM_GETRANGE message.
 old-location: controls\PBRANGE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\progbar\structures\pbrange.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*PPBRANGE, PBRANGE, PBRANGE structure [Windows Controls], PPBRANGE, PPBRANGE structure pointer [Windows Controls], _win32_PBRANGE, _win32_PBRANGE_cpp, commctrl/PBRANGE, commctrl/PPBRANGE, controls.PBRANGE, controls._win32_PBRANGE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

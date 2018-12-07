@@ -7,7 +7,7 @@ old-location: winsync\isupportfilteredsync_addfilter.htm
 tech.root: winsync
 ms.assetid: 00a533fa-2a91-46e8-9754-af162a5e59ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddFilter, AddFilter method [Windows Sync], AddFilter method [Windows Sync],ISupportFilteredSync interface, ISupportFilteredSync interface [Windows Sync],AddFilter method, ISupportFilteredSync.AddFilter, ISupportFilteredSync::AddFilter, winsync.isupportfilteredsync_addfilter, winsync/ISupportFilteredSync::AddFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

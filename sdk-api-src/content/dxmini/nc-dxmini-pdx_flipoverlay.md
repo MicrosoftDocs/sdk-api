@@ -7,10 +7,10 @@ old-location: display\dxflipoverlay.htm
 tech.root: display
 ms.assetid: 7674f853-e5ea-44c7-b5ed-5fd90bfa1bcb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DxFlipOverlay, DxFlipOverlay callback function [Display Devices], PDX_FLIPOVERLAY, PDX_FLIPOVERLAY callback, VideoMiniPort_DxApiFunctions_67a8d728-6197-4111-9115-597ff4311331.xml, display.dxflipoverlay, dxmini/DxFlipOverlay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h

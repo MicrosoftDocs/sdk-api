@@ -7,10 +7,10 @@ old-location: winauto\msaamenuinfo.htm
 tech.root: WinAuto
 ms.assetid: e8cc9c5d-eb76-4dba-90ad-94d2fd86dc8b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPMSAAMENUINFO, LPMSAAMENUINFO, LPMSAAMENUINFO structure pointer [Windows Accessibility], MSAAMENUINFO, MSAAMENUINFO structure [Windows Accessibility], _msaa_MSAAMENUINFO, msaa.msaamenuinfo, oleacc/LPMSAAMENUINFO, oleacc/MSAAMENUINFO, tagMSAAMENUINFO, winauto.msaamenuinfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oleacc.h
 req.include-header: 

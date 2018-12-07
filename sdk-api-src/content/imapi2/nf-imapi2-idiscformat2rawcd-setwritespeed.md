@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcd_setwritespeed.htm
 tech.root: imapi
 ms.assetid: 93021007-6ed8-4322-93bb-c52796a4ab66
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],SetWriteSpeed method, IDiscFormat2RawCD.SetWriteSpeed, IDiscFormat2RawCD::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_setwritespeed, imapi2/IDiscFormat2RawCD::SetWriteSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices

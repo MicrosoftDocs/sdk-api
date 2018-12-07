@@ -4,10 +4,10 @@ title: VirtualUnlock function
 author: windows-sdk-content
 description: Unlocks a specified range of pages in the virtual address space of a process, enabling the system to swap the pages out to the paging file if necessary.
 old-location: base\virtualunlock.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: cb868c8a-ac0d-42ad-bf72-2ae617bc0427
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: VirtualUnlock, VirtualUnlock function, _win32_virtualunlock, base.virtualunlock, winbase/VirtualUnlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

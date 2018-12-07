@@ -4,10 +4,10 @@ title: IADsContainer::Create
 author: windows-sdk-content
 description: Sets up a request to create a directory object of the specified schema class and a given name in the container.
 old-location: adsi\iadscontainer_create.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 9498ef4d-7a03-487f-91a7-189f17a38a24
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Create, Create method [ADSI], Create method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Create method, IADsContainer.Create, IADsContainer::Create, _ds_iadscontainer_create, adsi.iadscontainer__create, adsi.iadscontainer_create, iads/IADsContainer::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,34 +58,17 @@ The <b>IADsContainer::Create</b> method sets up a request to create a directory 
 
 
 
-### -param ClassName
-
-TBD
-
-
-### -param RelativeName
-
-TBD
-
-
-### -param ppObject
-
-TBD
-
-
-
-
-#### - bstrClass [in]
+### -param ClassName [in]
 
 Name of the schema class object to be created. The name is that returned from the  <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs::get_Schema</a> property method.
 
 
-#### - bstrRelativeName [in]
+### -param RelativeName [in]
 
 Relative name of the object as it is known in the underlying directory and identical to the one retrieved through the  <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs::get_Name</a> property method.
 
 
-#### - ppNewObject [out]
+### -param ppObject [out]
 
 Indirect pointer to the  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the newly created object.
 

@@ -7,7 +7,7 @@ old-location: controls\itextrange2_hextounicode.htm
 tech.root: controls
 ms.assetid: 024f9f32-2362-4f1c-b8db-9b4fb1ee157c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: HexToUnicode, HexToUnicode method [Windows Controls], HexToUnicode method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],HexToUnicode method, ITextRange2.HexToUnicode, ITextRange2::HexToUnicode, controls.itextrange2_hextounicode, tom/ITextRange2::HexToUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices

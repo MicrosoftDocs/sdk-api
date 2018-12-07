@@ -4,10 +4,10 @@ title: IFolderActionCollection::Clear
 author: windows-sdk-content
 description: Removes all folder actions from the collection.
 old-location: pla\ifolderactioncollection_clear.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 357934fa-9213-466e-8104-eb9b265a98d3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Clear method, IFolderActionCollection.Clear, IFolderActionCollection::Clear, base.ifolderactioncollection_clear, pla.ifolderactioncollection_clear, pla/IFolderActionCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

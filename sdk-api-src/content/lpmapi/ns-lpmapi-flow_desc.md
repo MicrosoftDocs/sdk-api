@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.flow_desc
-title: flow_desc
+title: FLOW_DESC
 author: windows-sdk-content
 description: The FLOW_DESC structure contains flow descriptor information for RSVP.
 old-location: qos\flow_desc.htm
 tech.root: QOS
 ms.assetid: 11ecd7ac-13c4-4f55-9700-105153b4fead
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: FLOW_DESC, FLOW_DESC structure [QOS], flow_desc, lpmapi/FLOW_DESC, qos.flow_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.date: 12/5/2018
+ms.keywords: FLOW_DESC, FLOW_DESC structure [QOS], lpmapi/FLOW_DESC, qos.flow_desc
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
@@ -44,7 +44,7 @@ req.typenames: FLOW_DESC
 req.redist: 
 ---
 
-# flow_desc structure
+# FLOW_DESC structure
 
 
 ## -description

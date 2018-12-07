@@ -7,7 +7,7 @@ old-location: gdi\setwinmetafilebits.htm
 tech.root: gdi
 ms.assetid: b7170c8a-da5f-4946-9c56-da3cffc84567
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetWinMetaFileBits, SetWinMetaFileBits function [Windows GDI], _win32_SetWinMetaFileBits, gdi.setwinmetafilebits, wingdi/SetWinMetaFileBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentaudio.htm
 tech.root: DirectShow
 ms.assetid: d542e995-3b98-402a-b1d9-253bede7dcff
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrentAudio, GetCurrentAudio method [DirectShow], GetCurrentAudio method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentAudio method, IDvdInfo.GetCurrentAudio, IDvdInfo::GetCurrentAudio, IDvdInfoGetCurrentAudio, dshow.idvdinfo_getcurrentaudio, strmif/IDvdInfo::GetCurrentAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,26 +63,14 @@ Retrieves the number of available audio streams and the number of the currently 
 
 
 
-### -param pulStreamsAvailable
-
-TBD
-
-
-### -param pulCurrentStream
-
-TBD
-
-
-
-
-#### - pnCurrentStream [out]
-
-Pointer to the current stream number.
-
-
-#### - pnStreamsAvailable [out]
+### -param pulStreamsAvailable [out]
 
 Pointer to the retrieved number of available audio streams
+
+
+### -param pulCurrentStream [out]
+
+Pointer to the current stream number.
 
 
 ## -returns

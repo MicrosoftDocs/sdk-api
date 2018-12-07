@@ -7,10 +7,10 @@ old-location: intl\iimepadapplet.htm
 tech.root: Intl
 ms.assetid: F3BC7176-9659-47B6-AFCA-049807394961
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IImePadApplet, IImePadApplet interface [Internationalization for Windows Applications], IImePadApplet interface [Internationalization for Windows Applications],described, imepad/IImePadApplet, intl.iimepadapplet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: imepad.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: directdraw\enummodescallback2.htm
 tech.root: directdraw
 ms.assetid: 53185A9A-EBA3-4443-8E76-AC85E69B39F2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: EnumModesCallback2, EnumModesCallback2 callback function [DirectDraw], LPDDENUMMODESCALLBACK2, LPDDENUMMODESCALLBACK2 callback, ddraw/EnumModesCallback2, directdraw.enummodescallback2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ddraw.h
 req.include-header: 

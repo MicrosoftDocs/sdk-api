@@ -7,7 +7,7 @@ old-location: etw\gettraceenablelevel.htm
 tech.root: etw
 ms.assetid: 22326fd9-c428-4430-8a92-978d005f6705
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetTraceEnableLevel, GetTraceEnableLevel function [ETW], _evt_gettraceenablelevel, base.gettraceenablelevel, etw.gettraceenablelevel, evntrace/GetTraceEnableLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ Providers can only call this function from their
 
 
 
-### -param TraceHandle
-
-TBD
-
-
-
-
-#### - SessionHandle [in]
+### -param TraceHandle [in]
 
 Handle to an event tracing session, obtained by calling the 
 <a href="https://msdn.microsoft.com/050d3a01-0087-40f1-af35-b9ceeaf47813">GetTraceLoggerHandle</a> function.

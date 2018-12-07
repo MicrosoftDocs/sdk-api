@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontCollectionLoader_CreateEnumeratorFromKey.ht
 tech.root: DirectWrite
 ms.assetid: 579893e8-5ef3-4e23-a139-b5c203805c5c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CreateEnumeratorFromKey, CreateEnumeratorFromKey method [Direct Write], CreateEnumeratorFromKey method [Direct Write],IDWriteFontCollectionLoader interface, IDWriteFontCollectionLoader interface [Direct Write],CreateEnumeratorFromKey method, IDWriteFontCollectionLoader.CreateEnumeratorFromKey, IDWriteFontCollectionLoader::CreateEnumeratorFromKey, directwrite.IDWriteFontCollectionLoader_CreateEnumeratorFromKey, dwrite/IDWriteFontCollectionLoader::CreateEnumeratorFromKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

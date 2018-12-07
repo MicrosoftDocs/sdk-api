@@ -7,7 +7,7 @@ old-location: rpc\rpcsmswapclientallocfree.htm
 tech.root: rpc
 ms.assetid: f07df5ec-0798-4cd2-a2f5-73e6245a7020
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RpcSmSwapClientAllocFree, RpcSmSwapClientAllocFree function [RPC], _rpc_rpcsmswapclientallocfree, rpc.rpcsmswapclientallocfree, rpcndr/RpcSmSwapClientAllocFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

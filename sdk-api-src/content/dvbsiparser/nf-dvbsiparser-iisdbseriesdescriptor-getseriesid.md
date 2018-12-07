@@ -4,10 +4,10 @@ title: IIsdbSeriesDescriptor::GetSeriesId
 author: windows-sdk-content
 description: Gets a unique series identifier from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getseriesid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 90de5108-1d40-475b-83fe-20b68fa3f748
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetSeriesId, GetSeriesId method [Microsoft TV Technologies], GetSeriesId method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetSeriesId method, IIsdbSeriesDescriptor.GetSeriesId, IIsdbSeriesDescriptor::GetSeriesId, dvbsiparser/IIsdbSeriesDescriptor::GetSeriesId, mstv.iisdbseriesdescriptor_getseriesid
 ms.prod: windows-hardware
 ms.technology: windows-devices

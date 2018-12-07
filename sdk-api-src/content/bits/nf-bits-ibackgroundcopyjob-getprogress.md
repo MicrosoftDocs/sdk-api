@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetProgress
 author: windows-sdk-content
 description: Retrieves job-related progress information, such as the number of bytes and files transferred.
 old-location: bits\ibackgroundcopyjob_getprogress.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 30aae990-1cc1-468b-9e5f-7ef5ce6eeb9a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProgress method, IBackgroundCopyJob.GetProgress, IBackgroundCopyJob::GetProgress, _drz_ibackgroundcopyjob_getprogress, bits.ibackgroundcopyjob_getprogress, bits/IBackgroundCopyJob::GetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Retrieves job-related progress information, such as the number of bytes and file
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - pProgress [out]
+### -param pVal [out]
 
 Contains data that you can use to calculate the percentage of the job that is complete. For more information, see 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362806(v=VS.85).aspx">BG_JOB_PROGRESS</a>.

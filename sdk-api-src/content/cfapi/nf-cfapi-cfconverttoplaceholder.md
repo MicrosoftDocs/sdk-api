@@ -7,7 +7,7 @@ old-location: cloudapi\cfconverttoplaceholder.htm
 tech.root: cfApi
 ms.assetid: FDDE9CB0-E1A2-46D6-94E0-228495675271
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CfConvertToPlaceholder, CfConvertToPlaceholder function, cfapi/CfConvertToPlaceholder, cloudApi.cfconverttoplaceholder
 ms.prod: windows-hardware
 ms.technology: windows-devices

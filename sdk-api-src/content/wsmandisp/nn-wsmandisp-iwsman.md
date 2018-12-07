@@ -4,13 +4,13 @@ title: IWSMan
 author: windows-sdk-content
 description: Provides methods and properties used to create a session, represented by a Session object.
 old-location: winrm\iwsman.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 4e5acfa6-9883-4716-ac69-92161c926c66
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: IWSMan, IWSMan interface [Windows Remote Management], IWSMan interface [Windows Remote Management],described, winrm.iwsman, wsmandisp/IWSMan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: controls\itextstrings_swap.htm
 tech.root: controls
 ms.assetid: 06759b26-672c-4a3d-a2d4-085bfd09e50a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITextStrings interface [Windows Controls],Swap method, ITextStrings.Swap, ITextStrings::Swap, Swap, Swap method [Windows Controls], Swap method [Windows Controls],ITextStrings interface, controls.itextstrings_swap, tom/ITextStrings::Swap
 ms.prod: windows-hardware
 ms.technology: windows-devices

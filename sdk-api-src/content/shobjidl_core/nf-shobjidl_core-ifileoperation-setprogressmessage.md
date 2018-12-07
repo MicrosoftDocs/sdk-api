@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_SetProgressMessage.htm
 tech.root: shell
 ms.assetid: fd8b4b00-3f41-41c4-aee0-89239ab70075
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetProgressMessage method, IFileOperation.SetProgressMessage, IFileOperation::SetProgressMessage, SetProgressMessage, SetProgressMessage method [Windows Shell], SetProgressMessage method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetProgressMessage, shell.IFileOperation_SetProgressMessage, shobjidl_core/IFileOperation::SetProgressMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

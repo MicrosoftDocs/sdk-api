@@ -7,7 +7,7 @@ old-location: direct2d\id2d1spritebatch_setsprites.htm
 tech.root: direct2d
 ms.assetid: 6BC5740F-520D-47EA-A90A-973E158F2AC2
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1SpriteBatch interface [Direct2D],SetSprites method, ID2D1SpriteBatch.SetSprites, ID2D1SpriteBatch::SetSprites, SetSprites, SetSprites method [Direct2D], SetSprites method [Direct2D],ID2D1SpriteBatch interface, d2d1_3/ID2D1SpriteBatch::SetSprites, direct2d.id2d1spritebatch_setsprites
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,22 +127,13 @@ Specifies the distance, in bytes, between each rectangle in the destinationRecta
 
 ### -param sourceRectanglesStride
 
-TBD
+Type: <b>UINT32</b>
+
+Specifies the distance, in bytes, between each rectangle in the sourceRectangles array (if that array is given). 
+          If you provide a stride of 0, then the same source rectangle will be used for each updated sprite.
 
 
 ### -param colorsStride
-
-TBD
-
-
-### -param transformsStride
-
-TBD
-
-
-
-
-#### - colorStride
 
 Type: <b>UINT32</b>
 
@@ -150,15 +141,7 @@ Specifies the distance, in bytes, between each color in the colors array (if tha
           If you provide a stride of 0, then the same color will be used for each updated sprite.
 
 
-#### - sourceRectangleStride
-
-Type: <b>UINT32</b>
-
-Specifies the distance, in bytes, between each rectangle in the sourceRectangles array (if that array is given). 
-          If you provide a stride of 0, then the same source rectangle will be used for each updated sprite.
-
-
-#### - transformStride
+### -param transformsStride
 
 Type: <b>UINT32</b>
 

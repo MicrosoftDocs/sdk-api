@@ -7,7 +7,7 @@ old-location: wmlss\IWMLSDevicePropertiesget_Item.htm
 tech.root: WMLSS
 ms.assetid: 0c679f64-9d7e-4239-8ee0-2aa5de553c58
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],get_Item method, IWindowsMediaLibrarySharingDeviceProperties.get_Item, IWindowsMediaLibrarySharingDeviceProperties::get_Item, get_Item, get_Item method [Windows Media Library Sharing Services], get_Item method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperties interface, wmlss.IWMLSDevicePropertiesget_Item, wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

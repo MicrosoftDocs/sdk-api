@@ -4,10 +4,10 @@ title: ISignerCertificates::Clear
 author: windows-sdk-content
 description: Removes all ISignerCertificate objects from the collection.
 old-location: security\isignercertificates_clear_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 8be3f0d4-db41-408d-bd4b-37c41b1b1c54
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Clear method, ISignerCertificates.Clear, ISignerCertificates::Clear, certenroll/ISignerCertificates::Clear, security.isignercertificates_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

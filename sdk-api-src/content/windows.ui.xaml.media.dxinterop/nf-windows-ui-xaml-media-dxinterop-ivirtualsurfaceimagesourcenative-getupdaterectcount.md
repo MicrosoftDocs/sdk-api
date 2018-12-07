@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterectcount.htm
 tech.root: WinRT
 ms.assetid: AE717587-0156-4DEC-B7B2-FF8937117D5A
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetUpdateRectCount, GetUpdateRectCount method [Windows Runtime], GetUpdateRectCount method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetUpdateRectCount method, IVirtualSurfaceImageSourceNative.GetUpdateRectCount, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetUpdateRectCount, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetUpdateRectCount, winrt.ivirtualsurfaceimagesourcenative_getupdaterectcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Gets the total number of regions of the surface that must be updated.
 
 
 
-### -param count
-
-TBD
-
-
-
-
-#### - pCount [out]
+### -param count [out]
 
 Receives the number of regions to update.
 

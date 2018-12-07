@@ -4,10 +4,10 @@ title: HttpWaitForDisconnect function
 author: windows-sdk-content
 description: Notifies the application when the connection to an HTTP client is broken for any reason.
 old-location: http\httpwaitfordisconnect.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 1f1c16c1-43ef-4e29-8d3d-8592ce6a6bf0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: HttpWaitForDisconnect, HttpWaitForDisconnect function [HTTP], _http_httpwaitfordisconnect, http.httpwaitfordisconnect, http/HttpWaitForDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,14 +74,7 @@ Identifier for the connection to the client computer. This value is returned in 
 <a href="https://msdn.microsoft.com/ad9e80f7-04c4-4108-a7ab-40eb57d00e3b">HttpReceiveHttpRequest</a> function.
 
 
-### -param Overlapped
-
-TBD
-
-
-
-
-#### - pOverlapped [in]
+### -param Overlapped [in]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>. 

@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyBag_RemovePropertyNPB.htm
 tech.root: shell
 ms.assetid: 632bab32-c546-4f8f-b064-877e853c215c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],RemovePropertyNPB method, INamedPropertyBag.RemovePropertyNPB, INamedPropertyBag::RemovePropertyNPB, RemovePropertyNPB, RemovePropertyNPB method [Windows Shell], RemovePropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_RemovePropertyNPB, shell.INamedPropertyBag_RemovePropertyNPB, shlobj_core/INamedPropertyBag::RemovePropertyNPB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Removes a property from a named property bag.
 
 
 
-### -param pszBagname
+### -param pszBagname [in]
 
-TBD
+Type: <b>PCWSTR</b>
+
+A pointer to a string that contains the name of the property bag from which a property is to be removed.
 
 
 ### -param pszPropName [in]
@@ -68,13 +70,6 @@ TBD
 Type: <b>PCWSTR</b>
 
 A pointer to a string that contains the name of the property to remove.
-
-
-#### - pszBagName [in]
-
-Type: <b>PCWSTR</b>
-
-A pointer to a string that contains the name of the property bag from which a property is to be removed.
 
 
 ## -returns

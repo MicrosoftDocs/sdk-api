@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory1_converthdphototojpegxr.htm
 tech.root: printdocs
 ms.assetid: 07994e2b-b87b-49de-949d-eb7d771f0345
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: ConvertHDPhotoToJpegXR, ConvertHDPhotoToJpegXR method [XPS Documents and Packaging], ConvertHDPhotoToJpegXR method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],ConvertHDPhotoToJpegXR method, IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR, IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR, xps.ixpsomobjectfactory1_converthdphototojpegxr, xpsobjectmodel_1/IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttracklist_gettrack.htm
 tech.root: medfound
 ms.assetid: 5AF4F317-E46D-459A-900B-6D4796CD59A2
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetTrack, GetTrack method [Media Foundation], GetTrack method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrack method, IMFTimedTextTrackList.GetTrack, IMFTimedTextTrackList::GetTrack, mf.imftimedtexttracklist_gettrack, mfmediaengine/IMFTimedTextTrackList::GetTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,7 @@ Gets a text track in the list from the index of the track.
 
 
 
-### -param index
-
-TBD
-
-
-### -param track
-
-TBD
-
-
-
-
-#### - nIndex [in]
+### -param index [in]
 
 Type: <b>DWORD</b>
 
@@ -79,7 +67,7 @@ The index of the track in the list to retrieve.
 
 
 
-#### - ppTrack [out]
+### -param track [out]
 
 Type: <b><a href="https://msdn.microsoft.com/55232D19-F3D0-42C7-8B24-C2A7768B2C7E">IMFTimedTextTrack</a>**</b>
 

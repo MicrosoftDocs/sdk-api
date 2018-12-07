@@ -7,10 +7,10 @@ old-location: wsw\ws_http_header_auth_security_binding.htm
 tech.root: wsw
 ms.assetid: c6ca6760-a927-470f-9785-7500d1711902
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING, WS_HTTP_HEADER_AUTH_SECURITY_BINDING structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING, wsw.ws_http_header_auth_security_binding
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

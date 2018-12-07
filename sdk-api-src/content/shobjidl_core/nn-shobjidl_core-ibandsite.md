@@ -7,10 +7,10 @@ old-location: shell\IBandSite.htm
 tech.root: shell
 ms.assetid: d7893136-a1a3-4c4b-b8f3-e4679710d827
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IBandSite, IBandSite interface [Windows Shell], IBandSite interface [Windows Shell],described, _win32_IBandSite, shell.IBandSite, shobjidl_core/IBandSite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h

@@ -7,10 +7,10 @@ old-location: display\displayconfig_scaling.htm
 tech.root: display
 ms.assetid: 6f073aa6-2647-4a51-9256-b2da488fd382
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: CCD_Enumerations_67f71fcc-f83c-4a11-94d4-169ab6d55f7c.xml, DISPLAYCONFIG_SCALING, DISPLAYCONFIG_SCALING enumeration [Display Devices], DISPLAYCONFIG_SCALING_ASPECTRATIOCENTEREDMAX, DISPLAYCONFIG_SCALING_CENTERED, DISPLAYCONFIG_SCALING_CUSTOM, DISPLAYCONFIG_SCALING_FORCE_UINT32, DISPLAYCONFIG_SCALING_IDENTITY, DISPLAYCONFIG_SCALING_PREFERRED, DISPLAYCONFIG_SCALING_STRETCHED, display.displayconfig_scaling, wingdi/DISPLAYCONFIG_SCALING, wingdi/DISPLAYCONFIG_SCALING_ASPECTRATIOCENTEREDMAX, wingdi/DISPLAYCONFIG_SCALING_CENTERED, wingdi/DISPLAYCONFIG_SCALING_CUSTOM, wingdi/DISPLAYCONFIG_SCALING_FORCE_UINT32, wingdi/DISPLAYCONFIG_SCALING_IDENTITY, wingdi/DISPLAYCONFIG_SCALING_PREFERRED, wingdi/DISPLAYCONFIG_SCALING_STRETCHED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wingdi.h
 req.include-header: Windows.h

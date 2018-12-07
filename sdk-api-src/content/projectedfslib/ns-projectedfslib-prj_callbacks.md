@@ -7,10 +7,10 @@ old-location: projfs\prj_callbacks.htm
 tech.root: ProjFS
 ms.assetid: 2FFF6A39-92C0-4BD1-B293-AC5650B2575C
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: PRJ_CALLBACKS, PRJ_CALLBACKS structure, ProjFS.prj_callbacks, projectedfslib/PRJ_CALLBACKS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: projectedfslib.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: multimedia\mmioinstallioproc.htm
 tech.root: Multimedia
 ms.assetid: 235b5014-ad6e-4b9e-a063-99022cbcdb5d
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_mmioInstallIOProc, mmioInstallIOProc, mmioInstallIOProc function [Windows Multimedia], mmioInstallIOProcA, mmioInstallIOProcW, mmsystem/mmioInstallIOProc, mmsystem/mmioInstallIOProcA, mmsystem/mmioInstallIOProcW, multimedia.mmioinstallioproc"
 ms.prod: windows-hardware
 ms.technology: windows-devices

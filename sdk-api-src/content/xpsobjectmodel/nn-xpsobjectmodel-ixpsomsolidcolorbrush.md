@@ -7,10 +7,10 @@ old-location: xps\ixpsomsolidcolorbrush.htm
 tech.root: printdocs
 ms.assetid: 26580a25-09d1-4a9b-85c3-aa8ddcc97867
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMSolidColorBrush, IXpsOMSolidColorBrush interface [XPS Documents and Packaging], IXpsOMSolidColorBrush interface [XPS Documents and Packaging],described, xps.ixpsomsolidcolorbrush, xpsobjectmodel/IXpsOMSolidColorBrush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

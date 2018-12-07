@@ -7,7 +7,7 @@ old-location: tapi3\itcollection_get__newenum.htm
 tech.root: tapi
 ms.assetid: 4b84298f-f114-4171-a2ad-d14122cb4bc8
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITCollection interface [TAPI 2.2],get__NewEnum method, ITCollection.get__NewEnum, ITCollection::get__NewEnum, _tapi3_itcollection_get__newenum, get__NewEnum, get__NewEnum method [TAPI 2.2], get__NewEnum method [TAPI 2.2],ITCollection interface, tapi3.itcollection_get__newenum, tapi3if/ITCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

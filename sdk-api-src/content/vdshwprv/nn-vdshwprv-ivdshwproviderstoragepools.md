@@ -4,13 +4,13 @@ title: IVdsHwProviderStoragePools
 author: windows-sdk-content
 description: Provides methods to create LUNs in a storage pool and enumerate the storage pools managed by a hardware provider.
 old-location: base\ivdshwproviderstoragepools.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: c9db0e33-8cb1-41ba-8716-a8d70990fa3e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsHwProviderStoragePools, IVdsHwProviderStoragePools interface, IVdsHwProviderStoragePools interface,described, base.ivdshwproviderstoragepools, vds/IVdsHwProviderStoragePools, vdshwprv/IVdsHwProviderStoragePools
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

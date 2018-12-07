@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_get.htm
 tech.root: WmiSdk
 ms.assetid: e4f6c28b-42d7-4109-803e-d3aac4d8509e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],Get method, IWbemClassObject.Get, IWbemClassObject::Get, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_get, wbemcli/IWbemClassObject::Get, wmi.iwbemclassobject_get
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,9 +84,9 @@ Reserved. This parameter must be 0 (zero).
 When successful, this parameter is assigned the correct type and value for the qualifier, and the <a href="https://msdn.microsoft.com/en-us/library/ms221402(v=VS.85).aspx">VariantInit</a> function is called on <i>pVal</i>. It is the responsibility of the caller to call <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> on <i>pVal</i> when the value is not needed. If there is an error, the value that <i>pVal</i> points to is not modified. If an uninitialized <i>pVal</i> value is passed to the method, then the caller must check the return value of the method, and call <b>VariantClear</b> only when the method succeeds.
 
 
-### -param pType
+### -param pType [out, optional]
 
-TBD
+Can be <b>NULL</b>. If it is not <b>NULL</b>, it receives the CIM type of the property, that is, one of the CIM-type constants, such as <b>CIM_SINT32</b>, <b>CIM_STRING</b>, and so on. For more information about these values, see <a href="https://msdn.microsoft.com/ab67954c-ead2-4906-9680-503612d3f12d">CIMTYPE_ENUMERATION</a>. This indicates the CIM semantics of the property value packed into <b>VARIANT</b>.
 
 
 ### -param plFlavor [out, optional]
@@ -114,11 +114,6 @@ For instances only. The property is inherited from the parent class, but has not
 For classes only. The property belongs to the derived child class.
 
 For instances only. The property is modified at the instance level—that is, a value was supplied, or a qualifier was added or modified.
-
-
-#### - pvtType [out, optional]
-
-Can be <b>NULL</b>. If it is not <b>NULL</b>, it receives the CIM type of the property, that is, one of the CIM-type constants, such as <b>CIM_SINT32</b>, <b>CIM_STRING</b>, and so on. For more information about these values, see <a href="https://msdn.microsoft.com/ab67954c-ead2-4906-9680-503612d3f12d">CIMTYPE_ENUMERATION</a>. This indicates the CIM semantics of the property value packed into <b>VARIANT</b>.
 
 
 ## -returns

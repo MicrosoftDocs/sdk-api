@@ -7,10 +7,10 @@ old-location: controls\INITCOMMONCONTROLSEX_4vvx.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\structures\initcommoncontrolsex.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/30/2018
 ms.keywords: "*LPINITCOMMONCONTROLSEX, ICC_ANIMATE_CLASS, ICC_BAR_CLASSES, ICC_COOL_CLASSES, ICC_DATE_CLASSES, ICC_HOTKEY_CLASS, ICC_INTERNET_CLASSES, ICC_LINK_CLASS, ICC_LISTVIEW_CLASSES, ICC_NATIVEFNTCTL_CLASS, ICC_PAGESCROLLER_CLASS, ICC_PROGRESS_CLASS, ICC_STANDARD_CLASSES, ICC_TAB_CLASSES, ICC_TREEVIEW_CLASSES, ICC_UPDOWN_CLASS, ICC_USEREX_CLASSES, ICC_WIN95_CLASSES, INITCOMMONCONTROLSEX, INITCOMMONCONTROLSEX structure [Windows Controls], LPINITCOMMONCONTROLSEX, LPINITCOMMONCONTROLSEX structure pointer [Windows Controls], _win32_INITCOMMONCONTROLSEX_4vvx, _win32_INITCOMMONCONTROLSEX_4vvx_cpp, commctrl/INITCOMMONCONTROLSEX, commctrl/LPINITCOMMONCONTROLSEX, controls.INITCOMMONCONTROLSEX_4vvx, controls._win32_INITCOMMONCONTROLSEX_4vvx, tagINITCOMMONCONTROLSEX"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

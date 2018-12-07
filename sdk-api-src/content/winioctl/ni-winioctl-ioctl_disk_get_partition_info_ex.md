@@ -7,10 +7,10 @@ old-location: fs\ioctl_disk_get_partition_info_ex.htm
 tech.root: fileio
 ms.assetid: f84f8be6-2b01-4a20-8669-cb1a55c32907
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_DISK_GET_PARTITION_INFO_EX, IOCTL_DISK_GET_PARTITION_INFO_EX control, IOCTL_DISK_GET_PARTITION_INFO_EX control code [Files], _win32_ioctl_disk_get_partition_info_ex, base.ioctl_disk_get_partition_info_ex, fs.ioctl_disk_get_partition_info_ex, winioctl/IOCTL_DISK_GET_PARTITION_INFO_EX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

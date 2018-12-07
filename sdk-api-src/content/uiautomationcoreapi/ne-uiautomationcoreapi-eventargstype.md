@@ -7,10 +7,10 @@ old-location: winauto\uiauto_EventArgsTypeEnum.htm
 tech.root: WinAuto
 ms.assetid: b62712cc-bb00-44b0-9664-cc8edbfabb0a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EventArgsType, EventArgsType enumeration [Windows Accessibility], EventArgsType_AsyncContentLoaded, EventArgsType_Changes, EventArgsType_Notification, EventArgsType_PropertyChanged, EventArgsType_Simple, EventArgsType_StructureChanged, EventArgsType_TextEditTextChanged, EventArgsType_WindowClosed, uiauto.uiauto_EventArgsTypeEnum, uiauto_EventArgsTypeEnum, uiautomationcoreapi/EventArgsType, uiautomationcoreapi/EventArgsType_AsyncContentLoaded, uiautomationcoreapi/EventArgsType_Changes, uiautomationcoreapi/EventArgsType_Notification, uiautomationcoreapi/EventArgsType_PropertyChanged, uiautomationcoreapi/EventArgsType_Simple, uiautomationcoreapi/EventArgsType_StructureChanged, uiautomationcoreapi/EventArgsType_TextEditTextChanged, uiautomationcoreapi/EventArgsType_WindowClosed, winauto.uiauto_EventArgsTypeEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h

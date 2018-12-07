@@ -4,10 +4,10 @@ title: IIsdbEmergencyInformationDescriptor::GetSignalLevel
 author: windows-sdk-content
 description: Gets a flag that indicates the emergency alarm signal type from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getsignallevel.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: cf0c8d51-4ec8-4dad-8ef3-f18339ed0c0c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetSignalLevel, GetSignalLevel method [Microsoft TV Technologies], GetSignalLevel method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetSignalLevel method, IIsdbEmergencyInformationDescriptor.GetSignalLevel, IIsdbEmergencyInformationDescriptor::GetSignalLevel, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetSignalLevel, mstv.iisdbemergencyinformationdescriptor_getsignallevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

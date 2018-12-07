@@ -9,8 +9,8 @@ ms.assetid: 1e018d6c-ed56-43f9-90b3-f2af42861617
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_NET_EVENT_CLASSIFY_DROP2, FWPM_NET_EVENT_CLASSIFY_DROP2 structure [Filtering], FWPM_NET_EVENT_CLASSIFY_DROP2_, FWP_DIRECTION_FORWARD, FWP_DIRECTION_IN, FWP_DIRECTION_OUT, fwp.fwpm_net_event_classify_drop2, fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

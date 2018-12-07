@@ -7,7 +7,7 @@ old-location: mmc\ipropertysheetcallback_removepage.htm
 tech.root: mmc
 ms.assetid: 2d54efbd-d88e-430e-9e46-c2b80559d356
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IPropertySheetCallback interface [MMC],RemovePage method, IPropertySheetCallback.RemovePage, IPropertySheetCallback::RemovePage, RemovePage, RemovePage method [MMC], RemovePage method [MMC],IPropertySheetCallback interface, _slate_ipropertysheetcallback_removepage, mmc.ipropertysheetcallback_removepage, mmc/IPropertySheetCallback::RemovePage
 ms.prod: windows-hardware
 ms.technology: windows-devices

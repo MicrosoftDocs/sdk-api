@@ -7,10 +7,10 @@ old-location: snmp\snmpapi_callback.htm
 tech.root: SNMP
 ms.assetid: 9871b4a8-c96c-48a7-9e7e-7fe1c259545e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SNMPAPI_CALLBACK, SNMPAPI_CALLBACK callback, SNMPAPI_CALLBACK callback function [SNMP], _snmp_snmpapi_callback, snmp.snmpapi_callback, winsnmp/SNMPAPI_CALLBACK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: winsnmp.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_getprocamprange.htm
 tech.root: medfound
 ms.assetid: b4945e2f-6907-4e02-9719-89c8e0bf1404
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetProcAmpRange method, IDirectXVideoProcessorService.GetProcAmpRange, IDirectXVideoProcessorService::GetProcAmpRange, b4945e2f-6907-4e02-9719-89c8e0bf1404, dxva2api/IDirectXVideoProcessorService::GetProcAmpRange, mf.idirectxvideoprocessorservice_getprocamprange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,21 +78,16 @@ The format of the render target surface, specified as a <b>D3DFORMAT</b> value. 
           
 
 
-### -param ProcAmpCap
+### -param ProcAmpCap [in]
 
-TBD
+The 
+            ProcAmp setting to query. See <a href="https://msdn.microsoft.com/60d97b9e-d77c-4e53-94ea-ebd59c2601df">ProcAmp Settings</a>.
+          
 
 
 ### -param pRange [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/e01328bb-9069-4874-aa35-b3c9bc1c6094">DXVA2_ValueRange</a> structure that receives the range of values for the setting specified in <i>ProcAmpCaps</i>.
-          
-
-
-#### - ProcAmpCaps [in]
-
-The 
-            ProcAmp setting to query. See <a href="https://msdn.microsoft.com/60d97b9e-d77c-4e53-94ea-ebd59c2601df">ProcAmp Settings</a>.
           
 
 

@@ -7,10 +7,10 @@ old-location: winsock\wsansclassinfo.htm
 tech.root: winsock
 ms.assetid: b4f811ad-7967-45bd-b563-a28bb1633596
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPWSANSCLASSINFOA, *PWSANSCLASSINFO,*LPWSANSCLASSINFO, *PWSANSCLASSINFO,*LPWSANSCLASSINFO structure [Winsock], *PWSANSCLASSINFOA, WSANSCLASSINFO, WSANSCLASSINFO structure [Winsock], WSANSCLASSINFOA, _WSANSClassInfoA, winsock.wsansclassinfo, winsock2/*PWSANSCLASSINFO,*LPWSANSCLASSINFO, winsock2/WSANSCLASSINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

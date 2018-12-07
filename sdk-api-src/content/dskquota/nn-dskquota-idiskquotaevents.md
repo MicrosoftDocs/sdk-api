@@ -7,10 +7,10 @@ old-location: fs\idiskquotaevents.htm
 tech.root: fileio
 ms.assetid: 4b5dcb1f-8edb-4fcb-94ea-2a627667071e
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IDiskQuotaEvents, IDiskQuotaEvents interface [Files], IDiskQuotaEvents interface [Files],described, _win32_idiskquotaevents, base.idiskquotaevents, dskquota/IDiskQuotaEvents, fs.idiskquotaevents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dskquota.h
 req.include-header: 

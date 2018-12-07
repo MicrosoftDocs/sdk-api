@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_getminidealimagesize.htm
 tech.root: DirectShow
 ms.assetid: b2d1d267-008d-402a-864a-e801e7581fbd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetMinIdealImageSize, GetMinIdealImageSize method [DirectShow], GetMinIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMinIdealImageSize method, IVideoWindow.GetMinIdealImageSize, IVideoWindow::GetMinIdealImageSize, IVideoWindowGetMinIdealImageSize, control/IVideoWindow::GetMinIdealImageSize, dshow.ivideowindow_getminidealimagesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

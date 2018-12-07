@@ -4,10 +4,10 @@ title: IDVBTLocator::get_LPInnerFECRate
 author: windows-sdk-content
 description: The get_LPInnerFECRate method retrieves the inner FEC rate of the low-priority stream.
 old-location: mstv\idvbtlocator_get_lpinnerfecrate.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: eeed8fe6-774d-4375-9b3c-ebe979cd11dd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_LPInnerFECRate method, IDVBTLocator.get_LPInnerFECRate, IDVBTLocator::get_LPInnerFECRate, IDVBTLocatorget_LPInnerFECRate, get_LPInnerFECRate, get_LPInnerFECRate method [Microsoft TV Technologies], get_LPInnerFECRate method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_lpinnerfecrate, tuner/IDVBTLocator::get_LPInnerFECRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_LPInnerFECRate</b> method retrieves the inner FEC rate of the low-pri
 
 
 
-### -param FEC
-
-TBD
-
-
-
-
-#### - pFEC [out]
+### -param FEC [out]
 
 Receives a member of the <a href="https://msdn.microsoft.com/161c963f-55b2-4a17-a537-47de3326df0e">BinaryConvolutionCodeRate</a> enumeration.
 

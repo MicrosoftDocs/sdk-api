@@ -7,10 +7,10 @@ old-location: wcs\graycolor.htm
 tech.root: WCS
 ms.assetid: 05632288-42ea-4c1d-a950-c90afcd69803
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GRAYCOLOR, GRAYCOLOR structure [Windows Color System], icm/GRAYCOLOR, wcs.graycolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: icm.h
 req.include-header: 

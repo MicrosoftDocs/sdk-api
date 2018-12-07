@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_gettextext.htm
 tech.root: TSF
 ms.assetid: d621e96b-d357-4468-8a89-89445fb1ca9e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetTextExt method, ITextStoreACP.GetTextExt, ITextStoreACP::GetTextExt, _tsf_itextstoreacp_gettextext_ref, textstor/ITextStoreACP::GetTextExt, tsf.itextstoreacp_gettextext
 ms.prod: windows-hardware
 ms.technology: windows-devices

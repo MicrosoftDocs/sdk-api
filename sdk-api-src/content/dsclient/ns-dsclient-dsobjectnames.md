@@ -7,10 +7,10 @@ old-location: ad\dsobjectnames.htm
 tech.root: ad
 ms.assetid: dfc1e88f-40ff-4ec1-9718-4801f678fa3f
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/14/2018
 ms.keywords: "*LPDSOBJECTNAMES, DSOBJECTNAMES, DSOBJECTNAMES structure [Active Directory], LPDSOBJECTNAMES, LPDSOBJECTNAMES structure pointer [Active Directory], _glines_dsobjectnames, ad.dsobjectnames, dsclient/DSOBJECTNAMES, dsclient/LPDSOBJECTNAMES"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 

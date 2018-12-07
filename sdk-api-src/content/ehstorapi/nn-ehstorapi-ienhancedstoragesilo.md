@@ -7,10 +7,10 @@ old-location: enstor\ienhancedstoragesilo.htm
 tech.root: enstor
 ms.assetid: 041e66d2-f772-407d-85f7-71f226c7ec4b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IEnhancedStorageSilo, IEnhancedStorageSilo interface [Enhanced Storage], IEnhancedStorageSilo interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageSilo, enstor.ienhancedstoragesilo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: ehstorapi.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: IMSVidStreamBufferRecordingControl::get_StopTime
 author: windows-sdk-content
 description: The get_StopTime method retrieves the stop time of the recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_stoptime.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 17abe9d3-1a84-4dcf-bc61-d9eafe7418f7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_StopTime method, IMSVidStreamBufferRecordingControl.get_StopTime, IMSVidStreamBufferRecordingControl::get_StopTime, IMSVidStreamBufferRecordingControlget_StopTime, get_StopTime, get_StopTime method [Microsoft TV Technologies], get_StopTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_stoptime, segment/IMSVidStreamBufferRecordingControl::get_StopTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_StopTime</b> method retrieves the stop time of the recording.
 
 
 
-### -param rtStop
-
-TBD
-
-
-
-
-#### - pStop [out]
+### -param rtStop [out]
 
 Pointer to a variable that receives the stop time, in hundredths of seconds.
 

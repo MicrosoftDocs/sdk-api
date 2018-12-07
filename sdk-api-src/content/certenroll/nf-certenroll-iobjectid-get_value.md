@@ -4,10 +4,10 @@ title: IObjectId::get_Value
 author: windows-sdk-content
 description: Retrieves a string that contains the dotted decimal object identifier (OID).
 old-location: security\iobjectid_value_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 9ccb681a-f31b-4d31-ae56-25efd2af2b2c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IObjectId interface [Security],Value property, IObjectId.Value, IObjectId.get_Value, IObjectId::Value, IObjectId::get_Value, Value property [Security], Value property [Security],IObjectId interface, certenroll/IObjectId::Value, certenroll/IObjectId::get_Value, get_Value, security.iobjectid_value_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

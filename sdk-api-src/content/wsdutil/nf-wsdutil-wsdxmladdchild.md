@@ -4,10 +4,10 @@ title: WSDXMLAddChild function
 author: windows-sdk-content
 description: Adds a child element.
 old-location: ncd\wsdxmladdchild.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: a0688b03-6f91-4b8e-88d1-b40af69fe8bb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WSDXMLAddChild, WSDXMLAddChild function, ncd.wsdxmladdchild, wsdutil/WSDXMLAddChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

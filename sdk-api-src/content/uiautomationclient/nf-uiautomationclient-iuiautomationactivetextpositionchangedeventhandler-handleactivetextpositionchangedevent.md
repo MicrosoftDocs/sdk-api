@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationActiveTextPositionChangedEventHandler_
 tech.root: WinAuto
 ms.assetid: 8A33EDF1-A518-4701-A160-71B5A998CC00
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: HandleActiveTextPositionChangedEvent, HandleActiveTextPositionChangedEvent method [Windows Accessibility], HandleActiveTextPositionChangedEvent method [Windows Accessibility],IUIAutomationActiveTextPositionChangedEventHandler interface, IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility],HandleActiveTextPositionChangedEvent method, IUIAutomationActiveTextPositionChangedEventHandler.HandleActiveTextPositionChangedEvent, IUIAutomationActiveTextPositionChangedEventHandler::HandleActiveTextPositionChangedEvent, uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler::HandleActiveTextPositionChangedEvent, winauto.uiauto_IUIAutomationActiveTextPositionChangedEventHandler_HandleActiveTextPositionChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

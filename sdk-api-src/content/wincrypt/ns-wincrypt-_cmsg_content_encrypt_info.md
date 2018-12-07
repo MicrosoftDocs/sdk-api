@@ -7,10 +7,10 @@ old-location: security\cmsg_content_encrypt_info.htm
 tech.root: seccrypto
 ms.assetid: c53014a0-049c-42ef-b612-8a1e03fb0dfd
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCMSG_CONTENT_ENCRYPT_INFO, CMSG_CONTENT_ENCRYPT_FREE_OBJID_FLAG, CMSG_CONTENT_ENCRYPT_FREE_PARA_FLAG, CMSG_CONTENT_ENCRYPT_INFO, CMSG_CONTENT_ENCRYPT_INFO structure [Security], CMSG_CONTENT_ENCRYPT_PAD_ENCODED_LEN_FLAG, CMSG_CONTENT_ENCRYPT_RELEASE_CONTEXT_FLAG, PCMSG_CONTENT_ENCRYPT_INFO, PCMSG_CONTENT_ENCRYPT_INFO structure pointer [Security], RC2, RC4, _CMSG_CONTENT_ENCRYPT_INFO, security.cmsg_content_encrypt_info, wincrypt/CMSG_CONTENT_ENCRYPT_INFO, wincrypt/PCMSG_CONTENT_ENCRYPT_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

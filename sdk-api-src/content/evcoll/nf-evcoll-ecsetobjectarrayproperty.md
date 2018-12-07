@@ -7,7 +7,7 @@ old-location: wec\ecsetobjectarrayproperty.htm
 tech.root: WEC
 ms.assetid: 0c219e3b-a7dd-4a7f-8fb3-0d281351ba24
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EcSetObjectArrayProperty, EcSetObjectArrayProperty function, evcoll/EcSetObjectArrayProperty, wec.ecsetobjectarrayproperty, wes.ecsetobjectarrayproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

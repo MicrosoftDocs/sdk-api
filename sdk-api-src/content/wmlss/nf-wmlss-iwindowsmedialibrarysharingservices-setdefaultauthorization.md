@@ -7,7 +7,7 @@ old-location: wmlss\IWMLSSsetDefaultAuthorization.htm
 tech.root: WMLSS
 ms.assetid: 7885f571-6b93-47d8-82ab-d998851f1304
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],setDefaultAuthorization method, IWindowsMediaLibrarySharingServices.setDefaultAuthorization, IWindowsMediaLibrarySharingServices::setDefaultAuthorization, setDefaultAuthorization, setDefaultAuthorization method [Windows Media Library Sharing Services], setDefaultAuthorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSsetDefaultAuthorization, wmlss/IWindowsMediaLibrarySharingServices::setDefaultAuthorization
 ms.prod: windows-hardware
 ms.technology: windows-devices

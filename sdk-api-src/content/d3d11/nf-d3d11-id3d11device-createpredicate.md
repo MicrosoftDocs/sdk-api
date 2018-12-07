@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createpredicate.htm
 tech.root: direct3d11
 ms.assetid: 5af4e63b-ba85-4c73-82e3-b09579d7ce78
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 3892a0ec-dd05-6f9e-18d3-d6cc2cc95d5f, CreatePredicate, CreatePredicate method [Direct3D 11], CreatePredicate method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreatePredicate method, ID3D11Device.CreatePredicate, ID3D11Device::CreatePredicate, d3d11/ID3D11Device::CreatePredicate, direct3d11.id3d11device_createpredicate
 ms.prod: windows-hardware
 ms.technology: windows-devices

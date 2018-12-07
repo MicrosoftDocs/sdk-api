@@ -7,7 +7,7 @@ old-location: automat\varweekdayname.htm
 tech.root: automat
 ms.assetid: 8bd00c31-9ebf-4342-a8c0-ef73f5b5c108
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: VarWeekdayName, VarWeekdayName function [Automation], _oa96_VarWeekdayName, automat.varweekdayname, oleauto/VarWeekdayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

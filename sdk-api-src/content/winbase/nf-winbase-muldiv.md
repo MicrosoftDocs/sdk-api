@@ -7,7 +7,7 @@ old-location: winprog\muldiv.htm
 tech.root: WinProg
 ms.assetid: 30419ce3-3874-4066-91c8-7f63dfb50169
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: MulDiv, MulDiv function [Windows API], _win32_muldiv, winbase/MulDiv, winprog.muldiv
 ms.prod: windows-hardware
 ms.technology: windows-devices

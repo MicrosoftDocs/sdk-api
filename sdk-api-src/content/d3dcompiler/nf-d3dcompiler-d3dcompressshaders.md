@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dcompressshaders.htm
 tech.root: direct3dhlsl
 ms.assetid: e53a0d36-3cd4-4327-8969-6a864b38a15b
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D3DCompressShaders, D3DCompressShaders function [HLSL], d3dcompiler/D3DCompressShaders, direct3dhlsl.d3dcompressshaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

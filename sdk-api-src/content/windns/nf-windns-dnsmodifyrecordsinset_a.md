@@ -4,10 +4,10 @@ title: DnsModifyRecordsInSet_A function
 author: windows-sdk-content
 description: Function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
 old-location: dns\dnsmodifyrecordsinset.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 4287b4e1-a7a2-4b73-b5bb-21bc639bae73
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DnsModifyRecordsInSet, DnsModifyRecordsInSet function [DNS], DnsModifyRecordsInSet_A, DnsModifyRecordsInSet_UTF8, DnsModifyRecordsInSet_W, _dns_dnsmodifyrecordsinset, dns.dnsmodifyrecordsinset, windns/DnsModifyRecordsInSet, windns/DnsModifyRecordsInSet_A, windns/DnsModifyRecordsInSet_UTF8, windns/DnsModifyRecordsInSet_W
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,9 +86,9 @@ A pointer to the
 A value that contains a bitmap of <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Update  Options</a>. Options can be combined and all options override <b>DNS_UPDATE_SECURITY_USE_DEFAULT</b>.
 
 
-### -param hCredentials
+### -param hCredentials [in, optional]
 
-TBD
+A handle to the credentials of a specific account. Used when secure dynamic update is required. This parameter is optional.
 
 
 ### -param pExtraList [in, out, optional]
@@ -99,11 +99,6 @@ This parameter is reserved for future use and must be set to <b>NULL</b>.
 ### -param pReserved [in, out, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
-
-
-#### - hContext [in, optional]
-
-A handle to the credentials of a specific account. Used when secure dynamic update is required. This parameter is optional.
 
 
 ## -returns

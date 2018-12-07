@@ -7,7 +7,7 @@ old-location: shell\SHSetThreadRef.htm
 tech.root: shell
 ms.assetid: 1d0d70ca-a0e6-4620-9a01-8d4986990b9c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SHSetThreadRef, SHSetThreadRef function [Windows Shell], _win32_SHSetThreadRef, shell.SHSetThreadRef, shlwapi/SHSetThreadRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

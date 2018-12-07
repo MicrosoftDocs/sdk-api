@@ -7,10 +7,10 @@ old-location: dshow\audio_stream_config_caps.htm
 tech.root: DirectShow
 ms.assetid: 8a923e8e-173e-4258-ba81-7d398bd9c5fe
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AUDIO_STREAM_CONFIG_CAPS, AUDIO_STREAM_CONFIG_CAPS structure [DirectShow], AUDIO_STREAM_CONFIG_CAPSStructure, _AUDIO_STREAM_CONFIG_CAPS, dshow.audio_stream_config_caps, strmif/AUDIO_STREAM_CONFIG_CAPS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -9,8 +9,8 @@ ms.assetid: 1cf64805-e79d-4599-addf-0ad24d7d900e
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IPSEC_SA_TRANSFORM0, IPSEC_SA_TRANSFORM0 structure [Filtering], IPSEC_SA_TRANSFORM0_, fwp.ipsec_sa_transform0_struct, ipsectypes/IPSEC_SA_TRANSFORM0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

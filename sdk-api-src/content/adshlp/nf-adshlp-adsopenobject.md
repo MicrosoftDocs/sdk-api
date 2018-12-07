@@ -4,10 +4,10 @@ title: ADsOpenObject function
 author: windows-sdk-content
 description: Binds to an ADSI object using explicit user name and password credentials.
 old-location: adsi\adsopenobject.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: c4b85d8e-b33b-47a4-b7d7-5f901f80dce9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADsOpenObject, ADsOpenObject function [ADSI], _ds_adsopenobject, adshlp/ADsOpenObject, adsi.adsopenobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

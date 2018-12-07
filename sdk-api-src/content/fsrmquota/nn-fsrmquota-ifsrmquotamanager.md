@@ -4,13 +4,13 @@ title: IFsrmQuotaManager
 author: windows-sdk-content
 description: Used to manage quotas.
 old-location: fsrm\ifsrmquotamanager.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 20bda7d6-5c7b-4066-82e2-83ad52515568
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], IFsrmQuotaManager interface [File Server Resource Manager],described, fs.ifsrmquotamanager, fsrm.ifsrmquotamanager, fsrmquota/IFsrmQuotaManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h

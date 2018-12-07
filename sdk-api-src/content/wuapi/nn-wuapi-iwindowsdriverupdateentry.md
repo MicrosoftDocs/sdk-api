@@ -4,13 +4,13 @@ title: IWindowsDriverUpdateEntry
 author: windows-sdk-content
 description: Contains the properties that are available only from a Windows driver update.
 old-location: wua\iwindowsdriverupdateentry.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 91b8ed77-70f7-400f-a887-b3cf9f573c76
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWindowsDriverUpdateEntry, IWindowsDriverUpdateEntry interface [Windows Update Agent], IWindowsDriverUpdateEntry interface [Windows Update Agent],described, wua.iwindowsdriverupdateentry, wuapi/IWindowsDriverUpdateEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

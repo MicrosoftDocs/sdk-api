@@ -7,10 +7,10 @@ old-location: winauto\uiauto_IObjectModelProvider.htm
 tech.root: WinAuto
 ms.assetid: E374F95B-9F0A-41D6-A916-F5CD5F5E442D
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IObjectModelProvider, IObjectModelProvider interface [Windows Accessibility], IObjectModelProvider interface [Windows Accessibility],described, uiautomationcore/IObjectModelProvider, winauto.uiauto_IObjectModelProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

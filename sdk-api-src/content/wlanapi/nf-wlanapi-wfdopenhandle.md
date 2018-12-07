@@ -7,7 +7,7 @@ old-location: nwifi\wfdopenhandle.htm
 tech.root: NativeWiFi
 ms.assetid: D89FAC10-BC33-44BE-ABC8-962241949281
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WFDOpenHandle, WFDOpenHandle function [NativeWIFI], nwifi.wfdopenhandle, wlanapi/WFDOpenHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

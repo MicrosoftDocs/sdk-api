@@ -2,7 +2,7 @@
 UID: NA:shimgdata
 ms.assetid: 7b77db2a-4604-307f-bc83-37695e86a40b
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

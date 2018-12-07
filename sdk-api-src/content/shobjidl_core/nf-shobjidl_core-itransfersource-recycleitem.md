@@ -7,7 +7,7 @@ old-location: shell\ITransferSource_RecycleItem.htm
 tech.root: shell
 ms.assetid: ee99a1ff-1a3e-46a4-82c6-df5f6c26c396
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITransferSource interface [Windows Shell],RecycleItem method, ITransferSource.RecycleItem, ITransferSource::RecycleItem, RecycleItem, RecycleItem method [Windows Shell], RecycleItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RecycleItem, shell.ITransferSource_RecycleItem, shobjidl_core/ITransferSource::RecycleItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,11 @@ Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc56
 A pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> of the recycle location (the new parent of the item).
 
 
-### -param flags
+### -param flags [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a></b>
+
+The flags that control the file operation. One or more of the <a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param ppsiNewDest [out]
@@ -82,13 +84,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>**</b>
 
 When the method returns, contains the address of a pointer to the recycled <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>.
-
-
-#### - dwDeleteFlags [in]
-
-Type: <b><a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a></b>
-
-The flags that control the file operation. One or more of the <a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ## -returns

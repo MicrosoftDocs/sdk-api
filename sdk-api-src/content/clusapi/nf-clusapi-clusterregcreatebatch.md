@@ -7,7 +7,7 @@ old-location: mscs\clusterregcreatebatch.htm
 tech.root: mscs
 ms.assetid: 83e7c216-f08f-4dc2-9b53-faa2760985d4
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterRegCreateBatch, ClusterRegCreateBatch function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH, clusapi/ClusterRegCreateBatch, mscs.clusterregcreatebatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,6 +81,63 @@ The pointer to the handle of the created batch.
 
 The function returns one of the following 
        <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_OUTOFMEMORY</b></dt>
+<dt>14 (0xE)</dt>
+</dl>
+</td>
+<td width="60%">
+Not enough storage is available to complete this operation.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_GEN_FAILURE</b></dt>
+<dt>31 (0x1F)</dt>
+</dl>
+</td>
+<td width="60%">
+A device attached to the system is not functioning.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+<dt>87 (0x57)</dt>
+</dl>
+</td>
+<td width="60%">
+The parameter is incorrect. This value will be returned if the <i>hKey</i> parameter is 
+         <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

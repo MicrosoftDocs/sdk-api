@@ -7,10 +7,10 @@ old-location: htmlhelp\iitproplist.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistinterface.htm
 ms.author: windowssdkdev
-ms.date: 10/22/2018
+ms.date: 12/5/2018
 ms.keywords: IITPropList, IITPropList interface [HTML Help Workshop], IITPropList interface [HTML Help Workshop],described, htmlhelp.iitproplist, infotech/IITPropList, refIITPropListInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: infotech.h
 req.include-header: 

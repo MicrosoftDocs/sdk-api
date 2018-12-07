@@ -7,10 +7,10 @@ old-location: termserv\wts_logon_error_redirector_response.htm
 tech.root: termserv
 ms.assetid: 67ed8d6f-641c-4739-911c-e61379e14048
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: WRDS_LOGON_ERROR_REDIRECTOR_RESPONSE, WRDS_LOGON_ERROR_REDIRECTOR_RESPONSE enumeration [Remote Desktop Services], WTS_LOGON_ERROR_REDIRECTOR_RESPONSE, WTS_LOGON_ERROR_REDIRECTOR_RESPONSE enumeration [Remote Desktop Services], WTS_LOGON_ERR_HANDLED_DONT_SHOW, WTS_LOGON_ERR_HANDLED_DONT_SHOW_START_OVER, WTS_LOGON_ERR_HANDLED_SHOW, WTS_LOGON_ERR_INVALID, WTS_LOGON_ERR_NOT_HANDLED, _WTS_LOGON_ERROR_REDIRECTOR_RESPONSE, termserv.wts_logon_error_redirector_response, wtsdefs/WRDS_LOGON_ERROR_REDIRECTOR_RESPONSE, wtsdefs/WTS_LOGON_ERROR_REDIRECTOR_RESPONSE, wtsdefs/WTS_LOGON_ERR_HANDLED_DONT_SHOW, wtsdefs/WTS_LOGON_ERR_HANDLED_DONT_SHOW_START_OVER, wtsdefs/WTS_LOGON_ERR_HANDLED_SHOW, wtsdefs/WTS_LOGON_ERR_INVALID, wtsdefs/WTS_LOGON_ERR_NOT_HANDLED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

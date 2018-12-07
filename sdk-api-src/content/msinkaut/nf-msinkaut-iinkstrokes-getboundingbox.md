@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_getboundingbox.htm
 tech.root: tablet
 ms.assetid: 33641615-c2dc-43ee-b7be-8f24c38bac6b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox, GetBoundingBox method [Tablet PC], GetBoundingBox method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],GetBoundingBox method, IInkStrokes.GetBoundingBox, IInkStrokes::GetBoundingBox, msinkaut/IInkStrokes::GetBoundingBox, tablet.inkstrokes_getboundingbox
 ms.prod: windows-hardware
 ms.technology: windows-devices

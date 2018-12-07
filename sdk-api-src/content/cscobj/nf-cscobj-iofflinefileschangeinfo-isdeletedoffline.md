@@ -4,10 +4,10 @@ title: IOfflineFilesChangeInfo::IsDeletedOffline
 author: windows-sdk-content
 description: Determines whether an item has been deleted from the Offline Files cache while working offline.
 old-location: of\iofflinefileschangeinfo_isdeletedoffline.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: c6a739f3-0c3d-46f1-8548-89be0660ef59
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsDeletedOffline method, IOfflineFilesChangeInfo.IsDeletedOffline, IOfflineFilesChangeInfo::IsDeletedOffline, IsDeletedOffline, IsDeletedOffline method [Offline Files], IsDeletedOffline method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsDeletedOffline, of.iofflinefileschangeinfo_isdeletedoffline
 ms.prod: windows-hardware
 ms.technology: windows-devices

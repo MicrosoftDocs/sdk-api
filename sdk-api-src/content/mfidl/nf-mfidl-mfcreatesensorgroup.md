@@ -7,7 +7,7 @@ old-location: mf\mfcreatesensorgroup.htm
 tech.root: medfound
 ms.assetid: A1DDA62D-D668-4292-9DFF-09B17A78A54E
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MFCreateSensorGroup, MFCreateSensorGroup function [Media Foundation], mf.mfcreatesensorgroup, mfidl/MFCreateSensorGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -122,7 +122,7 @@ The supplied <b>LPCWSTR</b> is null.
 
 
 
-If the function succeeds, <i>ppSesnorGroup</i> will point to a valid <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a> object.  The caller must release this interface.
+If the function succeeds, <i>ppSensorGroup</i> will point to a valid <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a> object.  The caller must release this interface.
 
 <div class="alert"><b>Note</b>  When this API is used with a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548567(v=vs.85).aspx">KSCATEGORY_SENSOR_CAMERA</a> or <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548567(v=vs.85).aspx">KSCATEGORY_VIDEO_CAMERA</a> symbolic name, the resulting <a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a> object will only contain one sensor device but behaves as a virtualized sensor group.  The caller  may use the resulting object in the same manner as a sensor group obtained from a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548567(v=vs.85).aspx">KSCATEGORY_SENSOR_GROUP</a>.</div>
 <div> </div>

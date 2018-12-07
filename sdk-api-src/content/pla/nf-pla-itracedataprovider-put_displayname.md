@@ -4,10 +4,10 @@ title: ITraceDataProvider::put_DisplayName
 author: windows-sdk-content
 description: Retrieves or sets the display name of the provider.
 old-location: pla\itracedataprovider_displayname.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 1a162b71-d4e3-4259-9980-bf40766983b1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: DisplayName property [PLA], DisplayName property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],DisplayName property, ITraceDataProvider.DisplayName, ITraceDataProvider.put_DisplayName, ITraceDataProvider::DisplayName, ITraceDataProvider::get_DisplayName, ITraceDataProvider::put_DisplayName, base.itracedataprovider_displayname, pla.itracedataprovider_displayname, pla/ITraceDataProvider::DisplayName, pla/ITraceDataProvider::get_DisplayName, pla/ITraceDataProvider::put_DisplayName, put_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

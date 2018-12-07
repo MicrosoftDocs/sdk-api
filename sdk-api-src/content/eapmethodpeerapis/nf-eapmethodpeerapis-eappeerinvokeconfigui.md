@@ -7,7 +7,7 @@ old-location: eaphost\eappeerinvokeconfigui.htm
 tech.root: eaphost
 ms.assetid: ac15a065-d0a3-403f-ae5f-175f77e2507f
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: EapPeerInvokeConfigUI, EapPeerInvokeConfigUI function [EAPHost], eaphost.eappeerinvokeconfigui, eapmethodpeerapis/EapPeerInvokeConfigUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

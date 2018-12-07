@@ -7,7 +7,7 @@ old-location: wcs\wcsgetdefaultcolorprofile.htm
 tech.root: WCS
 ms.assetid: a40ea9f3-ec56-459e-a55d-aad1b60ae7d4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: WcsGetDefaultColorProfile, WcsGetDefaultColorProfile function [Windows Color System], _color_WcsGetDefaultColorProfile, icm/WcsGetDefaultColorProfile, wcs.wcsgetdefaultcolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WcsGetDefaultColorProfile
+: 
 ---
 
 # WcsGetDefaultColorProfile function
@@ -58,9 +64,9 @@ Retrieves the default color profile for a device, or for a device-independent de
 
 
 
-### -param scope
+### -param scope [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value specifying the scope of this profile management operation.
 
 
 ### -param pDeviceName [in, optional]
@@ -91,11 +97,6 @@ The buffer size, in bytes, of the buffer that is pointed to by <i>pProfileName</
 ### -param pProfileName [out]
 
 A pointer to a buffer to receive the name of the color profile. The size of the buffer, in bytes, will be the indicated by <i>cbProfileName</i>. 
-
-
-#### - profileManagementScope [in]
-
-A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value specifying the scope of this profile management operation.
 
 
 ## -returns

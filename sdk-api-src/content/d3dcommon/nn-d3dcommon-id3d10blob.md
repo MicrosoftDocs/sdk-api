@@ -7,10 +7,10 @@ old-location: direct3d11\id3d10blob.htm
 tech.root: direct3d11
 ms.assetid: 7E97B8EB-E674-4B90-9B9B-202552DBD95C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D10Blob, ID3D10Blob interface [Direct3D 11], ID3D10Blob interface [Direct3D 11],described, d3dcommon/ID3D10Blob, direct3d11.id3d10blob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3dcommon.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagetrackinfo_get_isrc.htm
 tech.root: imapi
 ms.assetid: 7e498391-37c6-4ac5-8d36-f3752ad5c4a4
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_ISRC method, IRawCDImageTrackInfo.get_ISRC, IRawCDImageTrackInfo::get_ISRC, get_ISRC, get_ISRC method [IMAPI], get_ISRC method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_isrc, imapi2/IRawCDImageTrackInfo::get_ISRC
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: setup\ivalidate.htm
 tech.root: msi
 ms.assetid: b7c686f8-ed6a-44d6-ab76-f6d6c7d154a0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IValidate, IValidate interface, IValidate interface,described, evalcom2/IValidate, setup.ivalidate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: evalcom2.h
 req.include-header: 

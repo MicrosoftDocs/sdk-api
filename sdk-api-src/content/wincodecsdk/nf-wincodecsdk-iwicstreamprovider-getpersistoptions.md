@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicstreamprovider_getpersistoptions.htm
 tech.root: wic
 ms.assetid: 244d4335-ee5f-434e-8d0b-4ba5d984b207
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetPersistOptions, GetPersistOptions method [Windows Imaging Component], GetPersistOptions method [Windows Imaging Component],IWICStreamProvider interface, IWICStreamProvider interface [Windows Imaging Component],GetPersistOptions method, IWICStreamProvider.GetPersistOptions, IWICStreamProvider::GetPersistOptions, _wic_codec_iwicstreamprovider_getpersistoptions, wic._wic_codec_iwicstreamprovider_getpersistoptions, wincodecsdk/IWICStreamProvider::GetPersistOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

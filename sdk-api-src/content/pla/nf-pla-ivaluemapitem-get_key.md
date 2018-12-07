@@ -4,10 +4,10 @@ title: IValueMapItem::get_Key
 author: windows-sdk-content
 description: Retrieves or sets the name of the item.
 old-location: pla\ivaluemapitem_key.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 965a5ac4-a811-4fd3-8862-51d82d27c0e9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IValueMapItem interface [PLA],Key property, IValueMapItem.Key, IValueMapItem.get_Key, IValueMapItem::Key, IValueMapItem::get_Key, IValueMapItem::put_Key, Key property [PLA], Key property [PLA],IValueMapItem interface, base.ivaluemapitem_key, get_Key, pla.ivaluemapitem_key, pla/IValueMapItem::Key, pla/IValueMapItem::get_Key, pla/IValueMapItem::put_Key
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager2_registerducknotification.htm
 tech.root: CoreAudio
 ms.assetid: bed27f3f-6293-4a25-baa0-39562d45bddc
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],RegisterDuckNotification method, IAudioSessionManager2.RegisterDuckNotification, IAudioSessionManager2::RegisterDuckNotification, RegisterDuckNotification, RegisterDuckNotification method [Core Audio], RegisterDuckNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::RegisterDuckNotification, coreaudio.iaudiosessionmanager2_registerducknotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,21 +60,16 @@ The <b>RegisterDuckNotification</b> method registers the application with the se
 
 ### -param sessionID
 
-TBD
-
-
-### -param duckNotification
-
-Pointer to the application's implementation of the <a href="https://msdn.microsoft.com/08e90a50-a6ac-4405-ba90-a862b78efaf8">IAudioVolumeDuckNotification</a> interface. The implementation is called when ducking events are raised by the audio system and  notifications are sent to the registered applications. 
-
-
-#### - SessionID
-
 Pointer to a null-terminated string that contains a  session instance identifier. Applications that are playing a media stream and want to provide custom stream attenuation or ducking behavior, pass their own session instance identifier.  For more information, see Remarks.
 
 Other applications
     that do not want to alter their streams but want to get all the ducking notifications
     must pass <b>NULL</b>.
+
+
+### -param duckNotification
+
+Pointer to the application's implementation of the <a href="https://msdn.microsoft.com/08e90a50-a6ac-4405-ba90-a862b78efaf8">IAudioVolumeDuckNotification</a> interface. The implementation is called when ducking events are raised by the audio system and  notifications are sent to the registered applications. 
 
 
 ## -returns

@@ -7,10 +7,10 @@ old-location: display\dd_moresurfacecaps.htm
 tech.root: display
 ms.assetid: 25cc9058-0c37-4768-a177-345cdae4ee5f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDD_MORESURFACECAPS, DD_MORESURFACECAPS, DD_MORESURFACECAPS structure [Display Devices], _DD_MORESURFACECAPS, ddrawint/DD_MORESURFACECAPS, ddstrcts_e28f85ae-f428-4e7c-b142-9892afa24323.xml, display.dd_moresurfacecaps"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

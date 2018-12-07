@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::TuningSpacesForCLSID
 author: windows-sdk-content
 description: The TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.This method is intended for Automation clients, because it returns the CLSID as a BSTR.
 old-location: mstv\ituningspacecontainer_tuningspacesforclsid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8e2d6103-baed-40ee-9a94-9434cf8e3474
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],TuningSpacesForCLSID method, ITuningSpaceContainer.TuningSpacesForCLSID, ITuningSpaceContainer::TuningSpacesForCLSID, TuningSpacesForCLSID, TuningSpacesForCLSID method [Microsoft TV Technologies], TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforclsid, tuner/ITuningSpaceContainer::TuningSpacesForCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,14 +70,7 @@ This method is intended for Automation clients, because it returns the CLSID as 
 String representation of the CLSID of the tuning space.
 
 
-### -param NewColl
-
-TBD
-
-
-
-
-#### - ppTuningSpaces [out]
+### -param NewColl [out]
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/db252e22-8efe-4bfc-8fd3-2be7022bbbbd">ITuningSpaces</a> interface. The caller must release the interface.
 

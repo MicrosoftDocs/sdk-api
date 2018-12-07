@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_importspecificfilesystem.htm
 tech.root: imapi
 ms.assetid: 737f1b5a-be70-4869-9ad0-a1373cb865d9
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],ImportSpecificFileSystem method, IFileSystemImage.ImportSpecificFileSystem, IFileSystemImage::ImportSpecificFileSystem, ImportSpecificFileSystem, ImportSpecificFileSystem method [IMAPI], ImportSpecificFileSystem method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_importspecificfilesystem, imapi2fs/IFileSystemImage::ImportSpecificFileSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

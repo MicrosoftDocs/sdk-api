@@ -4,10 +4,10 @@ title: IATSC_MGT::GetRecordTypePid
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getrecordtypepid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: c8c4cfba-b03c-478e-a49e-c01d663535a0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordTypePid, GetRecordTypePid method [Microsoft TV Technologies], GetRecordTypePid method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordTypePid method, IATSC_MGT.GetRecordTypePid, IATSC_MGT::GetRecordTypePid, IATSC_MGTGetRecordTypePid, atscpsipparser/IATSC_MGT::GetRecordTypePid, mstv.iatsc_mgt_getrecordtypepid
 ms.prod: windows-hardware
 ms.technology: windows-devices

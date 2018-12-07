@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems_getinfo.htm
 tech.root: CoreAudio
 ms.assetid: F54BF2B9-B9A4-47EF-8C18-DC58B24B617E
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GetInfo, GetInfo method [Core Audio], GetInfo method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetInfo method, ISpatialAudioMetadataItems.GetInfo, ISpatialAudioMetadataItems::GetInfo, coreaudio.ispatialaudiometadataitems_getinfo, spatialaudiometadata/ISpatialAudioMetadataItems::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Gets the total frame count for the <a href="https://msdn.microsoft.com/54A6B7DE-
 
 
 
-### -param info
-
-TBD
-
-
-
-
-#### - frameCount [out]
+### -param info [out]
 
 The total frame count, which defines valid item offsets.
 

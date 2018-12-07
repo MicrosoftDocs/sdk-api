@@ -7,10 +7,10 @@ old-location: mib\mib_ipmcast_mfe_stats_ex.htm
 tech.root: MIB
 ms.assetid: 4d1b35bd-da6c-48a1-ade1-f96148c9eecb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMIB_IPMCAST_MFE_STATS_EX, *PMIB_IPMCAST_MFE_STATS_EX_XP, MIB_IPMCAST_MFE_STATS_EX, MIB_IPMCAST_MFE_STATS_EX structure [MIB], MIB_IPMCAST_MFE_STATS_EX_XP, PMIB_IPMCAST_MFE_STATS_EX, PMIB_IPMCAST_MFE_STATS_EX structure pointer [MIB], _MIB_IPMCAST_MFE_STATS_EX_XP, ipmib/MIB_IPMCAST_MFE_STATS_EX, ipmib/PMIB_IPMCAST_MFE_STATS_EX, iprtrmib/MIB_IPMCAST_MFE_STATS_EX, iprtrmib/PMIB_IPMCAST_MFE_STATS_EX, mib.mib_ipmcast_mfe_stats_ex"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

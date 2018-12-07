@@ -7,10 +7,10 @@ old-location: smi\wcmnamespaceaccess.htm
 tech.root: SMI
 ms.assetid: 11918eab-2f5d-4050-81c6-d4c465b68ce3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ReadOnlyAccess, ReadWriteAccess, WcmNamespaceAccess, WcmNamespaceAccess enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0007, smi.wcmnamespaceaccess, wcmconfig/ReadOnlyAccess, wcmconfig/ReadWriteAccess, wcmconfig/WcmNamespaceAccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 

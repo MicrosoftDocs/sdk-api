@@ -7,10 +7,10 @@ old-location: tapi2\lineagentinfo.htm
 tech.root: tapi
 ms.assetid: 84eedf88-f0ea-4dc8-9840-b94a47fb7ca2
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPLINEAGENTINFO, LINEAGENTINFO, LINEAGENTINFO structure [TAPI 2.2], LPLINEAGENTINFO, LPLINEAGENTINFO structure pointer [TAPI 2.2], _tapi2_lineagentinfo, lineagentinfo_tag, tapi/LINEAGENTINFO, tapi/LPLINEAGENTINFO, tapi2.lineagentinfo"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

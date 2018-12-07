@@ -4,13 +4,13 @@ title: "__MIDL___MIDL_itf_ads_0000_0000_0005"
 author: windows-sdk-content
 description: The ADS_PATH structure is an ADSI representation of the Path attribute syntax.
 old-location: adsi\ads_path.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: b8393a81-3e2a-4e59-a6be-def779efbe82
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PADS_PATH, ADS_PATH, ADS_PATH structure [ADSI], PADS_PATH, PADS_PATH structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0005, _ds_ads_path, adsi.ads__path, adsi.ads_path, iads/ADS_PATH, iads/PADS_PATH"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

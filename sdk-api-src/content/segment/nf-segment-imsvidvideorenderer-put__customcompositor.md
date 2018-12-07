@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer::put__CustomCompositor
 author: windows-sdk-content
 description: The put__CustomCompositor method specifies a custom image compositor for the Video Mixing Renderer (VMR) to use.
 old-location: mstv\imsvidvideorenderer_put__customcompositor.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: ff99b253-20bc-4b8e-8624-ffcbb3b91857
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put__CustomCompositor method, IMSVidVideoRenderer.put__CustomCompositor, IMSVidVideoRenderer::put__CustomCompositor, IMSVidVideoRendererput__CustomCompositor, mstv.imsvidvideorenderer_put__customcompositor, put__CustomCompositor, put__CustomCompositor method [Microsoft TV Technologies], put__CustomCompositor method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put__CustomCompositor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>put__CustomCompositor</b> method specifies a custom image compositor for 
 
 
 
-### -param Compositor
-
-TBD
-
-
-
-
-#### - pCompositor [in]
+### -param Compositor [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/d905e871-c156-4140-bb3f-a19fa0cd79be">IVMRImageCompositor</a> interface of the image compositor.
 

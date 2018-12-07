@@ -4,13 +4,13 @@ title: "_VDS_VDISK_PROPERTIES"
 author: windows-sdk-content
 description: Defines the properties of a virtual disk.
 old-location: base\vds_vdisk_properties.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: e4cdab29-2bb7-4754-9ac8-d6f088910b0d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES structure pointer, VDS_VDISK_PROPERTIES, VDS_VDISK_PROPERTIES structure, _VDS_VDISK_PROPERTIES, base.vds_vdisk_properties, vds/PVDS_VDISK_PROPERTIES, vds/VDS_VDISK_PROPERTIES"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

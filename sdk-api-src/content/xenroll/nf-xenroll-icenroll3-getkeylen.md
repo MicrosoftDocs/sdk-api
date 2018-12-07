@@ -7,7 +7,7 @@ old-location: security\icenroll4_getkeylen.htm
 tech.root: seccrypto
 ms.assetid: 9d4cde68-f47c-46ad-a0ca-ee287f6e5bed
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CEnroll object [Security],GetKeyLen method, GetKeyLen, GetKeyLen method [Security], GetKeyLen method [Security],CEnroll object, GetKeyLen method [Security],ICEnroll3 interface, GetKeyLen method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],GetKeyLen method, ICEnroll3.GetKeyLen, ICEnroll3::GetKeyLen, ICEnroll4 interface [Security],GetKeyLen method, ICEnroll4::GetKeyLen, security.icenroll4_getkeylen, xenroll/ICEnroll3::GetKeyLen, xenroll/ICEnroll4::GetKeyLen
 ms.prod: windows-hardware
 ms.technology: windows-devices

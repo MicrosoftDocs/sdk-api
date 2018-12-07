@@ -2,18 +2,18 @@
 UID: NF:uxtheme.UpdatePanningFeedback
 title: UpdatePanningFeedback function
 author: windows-sdk-content
-description: Triggers repositioning on a window's position when a user pans past a boundary.
-old-location: wintouch\updatepanningfeedback.htm
-tech.root: wintouch
-ms.assetid: ae316f16-e443-4d7e-bb8a-fff6ba495111
+description: Updates clients about state of a window resulting from a panning gesture. This function can only be called after a BeginPanningFeedback call.
+old-location: controls\UpdatePanningFeedback.htm
+tech.root: controls
+ms.assetid: VS|Controls|~\controls\userex\functions\updatepanningfeedback.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
-ms.keywords: UpdatePanningFeedback, UpdatePanningFeedback function [Windows Touch], uxtheme/UpdatePanningFeedback, wintouch.updatepanningfeedback
+ms.date: 12/5/2018
+ms.keywords: UpdatePanningFeedback, UpdatePanningFeedback function [Windows Controls], _controls_UpdatePanningFeedback, _controls_UpdatePanningFeedback_cpp, controls.UpdatePanningFeedback, controls._controls_UpdatePanningFeedback, uxtheme/UpdatePanningFeedback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
-req.include-header: Uxtheme.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: UxTheme.lib
+req.lib: 
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Triggers repositioning on a window's position when a user pans past a boundary.
+Updates clients about state of a window resulting from a panning gesture. This function can only be called after a <a href="https://msdn.microsoft.com/en-us/library/Dd373383(v=VS.85).aspx">BeginPanningFeedback</a> call.
 
 
 ## -parameters
@@ -60,34 +60,39 @@ Triggers repositioning on a window's position when a user pans past a boundary.
 
 ### -param hwnd [in]
 
-A handle to the window that will have boundary feedback on it.
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+The handle to the target window that will receive feedback. For the method to succeed, this must be the same HWND as provided in <a href="https://msdn.microsoft.com/en-us/library/Dd373383(v=VS.85).aspx">BeginPanningFeedback</a>. 
 
 
 ### -param lTotalOverpanOffsetX [in]
 
-Indicates how far past the horizontal end of the pannable region the pan has gone.
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+
+The total displacement that the window has moved in the horizontal direction since the end of scrollable region was reached. A maximum displacement of 30 pixels is allowed.
 
 
 ### -param lTotalOverpanOffsetY [in]
 
-Indicates how far past the vertical end of the pannable region the pan has gone.
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+
+The total displacement that the window has moved in the vertical direction since the end of scrollable region was reached. A maximum displacement of 30 pixels is allowed.
 
 
 ### -param fInInertia [in]
 
-A flag indicating whether the boundary feedback incorporates inertia.
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+
+Flag indicating whether the application is handling a WM_GESTURE message with the GF_INERTIA FLAG set.
 
 
 ## -returns
 
 
 
-If the function succeeds, the return value is nonzero.
-     
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-
-
-If the function fails, the return value is zero. To get extended error information, use the <a href="http://msdn.microsoft.com/en-us/library/ms679360.aspx">GetLastError</a> function.
+<b>TRUE</b> if successful.
 
 
 
@@ -96,111 +101,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Panning feedback causes the window that is being manipulated to have a visual cue when a user reaches 
-       the end of a pannable area.  The window may also give the user feedback if they attempt to drag it beyond the pannable region.
-
-<div class="alert"><b>Note</b>  The  <i>fInInertia</i> parameter should be <b>TRUE</b> when handling movements that are the result of inertia rather than finger movement.</div>
-<div> </div>
-To calculate the overpan values, take the virtual size of the overpan and then convert that to screen coordinates.
+Incremental calls to this function should always pass the sum of the increments and not just the latest increment itself.
 
 
-#### Examples
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    case WM_GESTURE:        
-        // Get all the vertial scroll bar information
-        si.cbSize = sizeof (si);
-        si.fMask  = SIF_ALL;
-        GetScrollInfo (hWnd, SB_VERT, &amp;si);
-        yPos = si.nPos;
-
-        ZeroMemory(&amp;gi, sizeof(GESTUREINFO));
-        gi.cbSize = sizeof(GESTUREINFO);
-        bResult = GetGestureInfo((HGESTUREINFO)lParam, &amp;gi);
-
-        if (bResult){
-            // now interpret the gesture            
-            switch (gi.dwID){
-                case GID_BEGIN:
-                   lastY = gi.ptsLocation.y;
-                   CloseGestureInfoHandle((HGESTUREINFO)lParam);
-                   break;                     
-                // A CUSTOM PAN HANDLER
-                // COMMENT THIS CASE OUT TO ENABLE DEFAULT HANDLER BEHAVIOR
-                case GID_PAN:                                                  
-                    
-                    si.nPos -= (gi.ptsLocation.y - lastY) / scale;
-
-                    si.fMask = SIF_POS;
-                    SetScrollInfo (hWnd, SB_VERT, &amp;si, TRUE);
-                    GetScrollInfo (hWnd, SB_VERT, &amp;si);                                                        
-                                               
-                    yOverpan -= lastY - gi.ptsLocation.y;
-                    lastY = gi.ptsLocation.y;
-                     
-                    if (gi.dwFlags &amp; GF_BEGIN){
-                        BeginPanningFeedback(hWnd);
-                        yOverpan = 0;
-                    } else if (gi.dwFlags &amp; GF_END) {
-                        EndPanningFeedback(hWnd, TRUE);
-                        yOverpan = 0;
-                    }
-                           
-                    if (si.nPos == si.nMin || si.nPos &gt;= (si.nMax - si.nPage)){                    
-                        // we reached the bottom / top, pan
-                        UpdatePanningFeedback(hWnd, 0, yOverpan, gi.dwFlags &amp; GF_INERTIA);
-                    }
-                    ScrollWindow(hWnd, 0, yChar * (yPos - si.nPos), NULL, NULL);
-                    UpdateWindow (hWnd);                    
-                                        
-                    return DefWindowProc(hWnd, message, lParam, wParam);
-                case GID_ZOOM:
-                   // Add Zoom handler 
-                   return DefWindowProc(hWnd, message, lParam, wParam);
-                default:
-                   // You have encountered an unknown gesture
-                   return DefWindowProc(hWnd, message, lParam, wParam);
-             }          
-        }else{
-            DWORD dwErr = GetLastError();
-            if (dwErr &gt; 0){
-                // something is wrong 
-                // 87 indicates that you are probably using a bad
-                // value for the gi.cbSize
-            }
-        } 
-        return DefWindowProc (hWnd, message, wParam, lParam);
-</pre>
-</td>
-</tr>
-</table></span></div>
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/97956666-c875-4417-a7d1-8818871408a0">BeginPanningFeedback</a>
-
-
-
-<a href="https://msdn.microsoft.com/4d02d124-7f7a-4bda-90af-d8d19e45a09e">EndPanningFeedback</a>
-
-
-
-<a href="https://msdn.microsoft.com/7872a4cb-6ae0-449a-866a-58f909b6ef9f">Functions</a>
-
-
-
-<a href="https://msdn.microsoft.com/eb01a6df-9969-44d1-a657-4f83fb0b67cb">Improving the Single Finger Panning Experience</a>
- 
-
- 
 

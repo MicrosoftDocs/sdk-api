@@ -7,7 +7,7 @@ old-location: shell\ICategoryProvider_EnumCategories.htm
 tech.root: shell
 ms.assetid: 5008ce75-7a90-4f30-84e0-13d00cc1e58e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EnumCategories, EnumCategories method [Windows Shell], EnumCategories method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],EnumCategories method, ICategoryProvider.EnumCategories, ICategoryProvider::EnumCategories, inet_ICategoryProvider_EnumCategories, shell.ICategoryProvider_EnumCategories, shobjidl_core/ICategoryProvider::EnumCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices

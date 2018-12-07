@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_CurveChannel.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\curvechannel.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CurveChannel, CurveChannel enumeration [GDI+], CurveChannelAll, CurveChannelBlue, CurveChannelGreen, CurveChannelRed, _gdiplus_ENUM_CurveChannel, gdiplus._gdiplus_ENUM_CurveChannel, gdipluseffects/CurveChannel, gdipluseffects/CurveChannelAll, gdipluseffects/CurveChannelBlue, gdipluseffects/CurveChannelGreen, gdipluseffects/CurveChannelRed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

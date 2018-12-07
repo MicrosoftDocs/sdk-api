@@ -4,10 +4,10 @@ title: IPropertySetStorage::Open
 author: windows-sdk-content
 description: Opens a property set contained in the property set storage object.
 old-location: stg\ipropertysetstorage_open.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: a0e2239f-b908-460a-98e8-c805c1d84def
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IPropertySetStorage interface [Structured Storage],Open method, IPropertySetStorage.Open, IPropertySetStorage::Open, Open, Open method [Structured Storage], Open method [Structured Storage],IPropertySetStorage interface, _stg_ipropertysetstorage_open, propidl/IPropertySetStorage::Open, stg.ipropertysetstorage_open
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,10 @@ The <b>Open</b> method opens a property set contained in the property set storag
 
 
 
-### -param rfmtid
+### -param rfmtid [in]
 
-TBD
+The format identifier (FMTID) of the property set to be opened. For more information about well-known and predefined FMTIDs in the Platform SDK, see 
+<a href="https://msdn.microsoft.com/cc99ce1b-beb5-4340-91ed-3aed5bdad2bd">Predefined Property Set Format Identifiers</a>.
 
 
 ### -param grfMode [in]
@@ -68,20 +69,7 @@ TBD
 The access mode in which the newly created property set is to be opened. These flags are taken from <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>. Flags that may be used and their meanings in the context of this method are described in the following Remarks section.
 
 
-### -param ppprstg
-
-TBD
-
-
-
-
-#### - fmtid [in]
-
-The format identifier (FMTID) of the property set to be opened. For more information about well-known and predefined FMTIDs in the Platform SDK, see 
-<a href="https://msdn.microsoft.com/cc99ce1b-beb5-4340-91ed-3aed5bdad2bd">Predefined Property Set Format Identifiers</a>.
-
-
-#### - ppPropStg [out]
+### -param ppprstg [out]
 
 A pointer to the 
 <a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> pointer variable that receives the interface pointer to the requested property storage subobject.

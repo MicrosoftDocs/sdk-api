@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getbackbuffer.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getbackbuffer.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetBackBuffer, GetBackBuffer method [Direct3D 9], GetBackBuffer method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetBackBuffer method, IDirect3DDevice9.GetBackBuffer, IDirect3DDevice9::GetBackBuffer, b04301e3-b180-4cfd-097e-28f74fd7b3a9, d3d9helper/IDirect3DDevice9::GetBackBuffer, direct3d9.idirect3ddevice9__getbackbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 An unsigned integer specifying the swap chain.
 
 
-### -param iBackBuffer
+### -param iBackBuffer [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+Index of the back buffer object to return. Back buffers are numbered from 0 to the total number of back buffers minus one. A value of 0 returns the first back buffer, not the front buffer. The front buffer is not accessible through this method. Use <a href="https://msdn.microsoft.com/en-us/library/Bb174388(v=VS.85).aspx">IDirect3DDevice9::GetFrontBufferData</a> to retrieve a copy of the front buffer.
 
 
 ### -param Type [in]
@@ -83,13 +85,6 @@ Stereo view is not supported in Direct3D 9, so the only valid value for this par
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>**</b>
 
 Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface, representing the returned back buffer surface. 
-
-
-#### - BackBuffer [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-Index of the back buffer object to return. Back buffers are numbered from 0 to the total number of back buffers minus one. A value of 0 returns the first back buffer, not the front buffer. The front buffer is not accessible through this method. Use <a href="https://msdn.microsoft.com/en-us/library/Bb174388(v=VS.85).aspx">IDirect3DDevice9::GetFrontBufferData</a> to retrieve a copy of the front buffer.
 
 
 ## -returns

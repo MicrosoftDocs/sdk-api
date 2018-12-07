@@ -7,10 +7,10 @@ old-location: winsync\filtering_type.htm
 tech.root: winsync
 ms.assetid: 6bcbc011-9d47-4c88-a62e-0c9366abc7d3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FILTERING_TYPE, FILTERING_TYPE enumeration [Windows Sync], FT_CURRENT_ITEMS_ONLY, __MIDL___MIDL_itf_winsync_0000_0000_0008, winsync.filtering_type, winsync/FILTERING_TYPE, winsync/FT_CURRENT_ITEMS_ONLY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 

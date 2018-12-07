@@ -4,10 +4,10 @@ title: IVssComponent::GetNewTarget
 author: windows-sdk-content
 description: The GetNewTarget method returns the new file restoration locations for the selected component or component set.
 old-location: base\ivsscomponent_getnewtarget.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 21f22fae-2230-418b-8942-754c863a9213
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetNewTarget, GetNewTarget method [VSS], GetNewTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetNewTarget method, IVssComponent.GetNewTarget, IVssComponent::GetNewTarget, _win32_ivsscomponent_getnewtarget, base.ivsscomponent_getnewtarget, vswriter/IVssComponent::GetNewTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,22 +63,17 @@ Either a writer or a requester can call this method.
 
 
 
-### -param iNewTarget
+### -param iNewTarget [in]
 
-TBD
+Index number of the new target. The value of this parameter is an integer from 0 
+      to <i>n</i>–1 inclusive, where <i>n</i> is the total number of new targets associated with a given component. The value of <i>n</i> is returned by 
+<a href="https://msdn.microsoft.com/b41afed9-2689-469e-b3c4-83cf18c5f8a9">IVssComponent::GetNewTargetCount</a>.
 
 
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to an 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object containing the new target restore location information.
-
-
-#### - iMapping [in]
-
-Index number of the new target. The value of this parameter is an integer from 0 
-      to <i>n</i>–1 inclusive, where <i>n</i> is the total number of new targets associated with a given component. The value of <i>n</i> is returned by 
-<a href="https://msdn.microsoft.com/b41afed9-2689-469e-b3c4-83cf18c5f8a9">IVssComponent::GetNewTargetCount</a>.
 
 
 ## -returns

@@ -7,10 +7,10 @@ old-location: mscs\setresourcestatusex.htm
 tech.root: mscs
 ms.assetid: 3733F912-9D43-489B-91D8-7128D0F5D1A4
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PSET_RESOURCE_STATUS_ROUTINE_EX, PSET_RESOURCE_STATUS_ROUTINE_EX callback function [Failover Cluster], SetResourceStatusEx, SetResourceStatusEx callback, SetResourceStatusEx callback function [Failover Cluster], mscs.setresourcestatusex, resapi/PSET_RESOURCE_STATUS_ROUTINE_EX, resapi/SetResourceStatusEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
@@ -79,6 +79,43 @@ A pointer to a <a href="https://msdn.microsoft.com/CBEBF870-B413-400C-A485-FD093
 One of 
        the following values of the 
        <a href="https://msdn.microsoft.com/d1b9fd8f-7d49-4396-8f0c-6db8fad5749e">RESOURCE_EXIT_STATE</a> enumeration.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ResourceExitStateContinue</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The resource has not been terminated. Worker threads can  continue 
+         <a href="https://msdn.microsoft.com/0462CDFD-6499-4FF8-8B5C-4DC15AC30169">OnlineV2</a> and 
+         <a href="https://msdn.microsoft.com/2983B328-08ED-4DA6-8DC2-79D44C710888">OfflineV2</a> operations for the resource.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ResourceExitStateTerminate</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The resource has been terminated. Callers should end 
+         <a href="https://msdn.microsoft.com/0462CDFD-6499-4FF8-8B5C-4DC15AC30169">OnlineV2</a> or 
+         <a href="https://msdn.microsoft.com/2983B328-08ED-4DA6-8DC2-79D44C710888">OfflineV2</a> operations and immediately terminate all worker 
+         threads that are assigned to the resource.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

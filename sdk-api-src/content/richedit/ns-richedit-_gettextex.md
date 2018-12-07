@@ -7,10 +7,10 @@ old-location: controls\GETTEXTEX.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\gettextex.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GETTEXTEX, GETTEXTEX structure [Windows Controls], GT_DEFAULT, GT_NOHIDDENTEXT, GT_RAWTEXT, GT_SELECTION, GT_USECRLF, _gettextex, _win32_GETTEXTEX_str, _win32_GETTEXTEX_str_cpp, controls.GETTEXTEX, controls._win32_GETTEXTEX_str, richedit/GETTEXTEX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

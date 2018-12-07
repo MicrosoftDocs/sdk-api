@@ -7,7 +7,7 @@ old-location: tapi3\itcallstateevent_get_state.htm
 tech.root: tapi
 ms.assetid: 45e46b99-c65f-4296-9537-7fb7a4210727
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_State method, ITCallStateEvent.get_State, ITCallStateEvent::get_State, _tapi3_itcallstateevent_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITCallStateEvent interface, tapi3.itcallstateevent_get_state, tapi3if/ITCallStateEvent::get_State
 ms.prod: windows-hardware
 ms.technology: windows-devices

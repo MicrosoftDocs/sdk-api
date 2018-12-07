@@ -9,8 +9,8 @@ ms.assetid: a16e5a21-766e-4287-b039-13429aa78f8b
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: DISPPARAMS, DISPPARAMS structure [Automation], _oa96_DISPPARAMS, automat.dispparams, oaidl/DISPPARAMS, tagDISPPARAMS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

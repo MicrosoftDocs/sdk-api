@@ -7,7 +7,7 @@ old-location: base\createsemaphorea.htm
 tech.root: sync
 ms.assetid: 829C8CC6-3E2C-480A-9F36-41EB93CA8536
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CreateSemaphoreA, CreateSemaphoreA function, CreateSemaphoreW, base.createsemaphorea, winbase/CreateSemaphoreA, winbase/CreateSemaphoreW
 ms.prod: windows-hardware
 ms.technology: windows-devices

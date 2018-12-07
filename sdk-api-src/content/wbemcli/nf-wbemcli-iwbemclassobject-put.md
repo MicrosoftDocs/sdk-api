@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_put.htm
 tech.root: WmiSdk
 ms.assetid: 7b67739f-5c67-447a-a1a5-fad9ce3e857a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Put method, IWbemClassObject.Put, IWbemClassObject::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_put, wbemcli/IWbemClassObject::Put, wmi.iwbemclassobject_put
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,14 +89,7 @@ Reserved. This parameter must be 0 (zero).
 A parameter that must point to a valid <b>VARIANT</b>, which becomes the new property value. If <i>pVal</i> is <b>NULL</b> or points to a <b>VARIANT</b> of type <b>VT_NULL</b>, the property is set to <b>NULL</b>, that is, no value.
 
 
-### -param Type
-
-TBD
-
-
-
-
-#### - vtType [in]
+### -param Type [in]
 
 A type of <b>VARIANT</b> pointed to by <i>pVal</i>.
 

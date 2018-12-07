@@ -4,10 +4,10 @@ title: IWSManResourceLocator::put_ResourceURI
 author: windows-sdk-content
 description: The resource URI of the requested resource. This property can contain only the path, not a query string for specific instances.
 old-location: winrm\iwsmanresourcelocator_resourceuri.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 8ae490a3-ae6d-46e4-9a51-5a1e9c80cf77
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: IWSManResourceLocator interface [Windows Remote Management],ResourceURI property, IWSManResourceLocator.ResourceURI, IWSManResourceLocator.put_ResourceURI, IWSManResourceLocator::ResourceURI, IWSManResourceLocator::get_ResourceURI, IWSManResourceLocator::put_ResourceURI, ResourceURI property [Windows Remote Management], ResourceURI property [Windows Remote Management],IWSManResourceLocator interface, ResourceURI property [Windows Remote Management],WSMan object, WSMan object [Windows Remote Management],ResourceURI property, put_ResourceURI, winrm.iwsmanresourcelocator_resourceuri, wsmandisp/IWSManResourceLocator::ResourceURI, wsmandisp/IWSManResourceLocator::get_ResourceURI, wsmandisp/IWSManResourceLocator::put_ResourceURI
 ms.prod: windows-hardware
 ms.technology: windows-devices

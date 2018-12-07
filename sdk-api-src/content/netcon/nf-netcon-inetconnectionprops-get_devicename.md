@@ -4,10 +4,10 @@ title: INetConnectionProps::get_DeviceName
 author: windows-sdk-content
 description: The get_DeviceName method retrieves the name of the device associated with the connection.
 old-location: ics\inetconnectionprops_get_devicename.htm
-tech.root: ICS
+tech.root: ics
 ms.assetid: 4c24c5a6-d856-4c62-a98e-33e4fc216f83
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_DeviceName method, INetConnectionProps.get_DeviceName, INetConnectionProps::get_DeviceName, _ics_inetconnectionprops_get_devicename, get_DeviceName, get_DeviceName method [ICS/ICF], get_DeviceName method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_devicename, netcon/INetConnectionProps::get_DeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

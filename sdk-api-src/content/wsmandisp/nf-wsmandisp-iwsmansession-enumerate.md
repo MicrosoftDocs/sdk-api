@@ -4,10 +4,10 @@ title: IWSManSession::Enumerate
 author: windows-sdk-content
 description: Enumerates a table, data collection, or log resource.
 old-location: winrm\iwsmansession_enumerate.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: b1a4815e-93aa-4a30-a67e-c52fd06c1ee1
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: Enumerate, Enumerate method [Windows Remote Management], Enumerate method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Enumerate method, IWSManSession.Enumerate, IWSManSession::Enumerate, winrm.iwsmansession_enumerate, wsmandisp/IWSManSession::Enumerate
 ms.prod: windows-hardware
 ms.technology: windows-devices

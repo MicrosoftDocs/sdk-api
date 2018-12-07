@@ -4,10 +4,10 @@ title: IVdsLun::Delete
 author: windows-sdk-content
 description: Deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.
 old-location: base\ivdslun_delete.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 21522c62-0b60-4c70-b2bd-7a33aa94d280
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsLun interface, IVdsLun interface [VDS],Delete method, IVdsLun.Delete, IVdsLun::Delete, base.ivdslun_delete, vds/IVdsLun::Delete, vdshwprv/IVdsLun::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

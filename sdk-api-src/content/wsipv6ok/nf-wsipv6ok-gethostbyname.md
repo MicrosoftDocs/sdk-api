@@ -7,7 +7,7 @@ old-location: winsock\gethostbyname_2.htm
 tech.root: winsock
 ms.assetid: 2526ecb5-927b-40c8-8d8f-919e7986ff05
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_gethostbyname_2, gethostbyname, gethostbyname function [Winsock], winsock.gethostbyname_2, wsipv6ok/gethostbyname"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,16 @@ The
 
 
 
-#### - a [in]
+### -param a
+
+TBD
+
+
+
+
+
+
+#### - name [in]
 
 A pointer to the <b>null</b>-terminated name of the host to resolve.
 

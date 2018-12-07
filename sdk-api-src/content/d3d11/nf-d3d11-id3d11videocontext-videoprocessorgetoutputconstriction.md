@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetoutputconstriction.htm
 tech.root: medfound
 ms.assetid: 40F7D380-C385-4C1C-90E5-E362CA54CD41
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputConstriction method, ID3D11VideoContext.VideoProcessorGetOutputConstriction, ID3D11VideoContext::VideoProcessorGetOutputConstriction, VideoProcessorGetOutputConstriction, VideoProcessorGetOutputConstriction method [Media Foundation], VideoProcessorGetOutputConstriction method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputConstriction, mf.id3d11videocontext_videoprocessorgetoutputconstriction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,19 +63,14 @@ Gets the current level of downsampling that is performed by the video processor.
 A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://msdn.microsoft.com/5A5FB7F9-F299-4E67-AFAD-E7056CBAEE76">ID3D11VideoDevice::CreateVideoProcessor</a>.
 
 
-### -param pEnabled
+### -param pEnabled [out]
 
-TBD
+Receives the value <b>TRUE</b> if downsampling was explicitly enabled using the <a href="https://msdn.microsoft.com/EA61A4B8-0853-4F17-B634-70A896DCF5F7">ID3D11VideoContext::VideoProcessorSetOutputConstriction</a> method. Receives the value <b>FALSE</b> if the downsampling was disabled or was never set.
 
 
 ### -param pSize [out]
 
 If <i>Enabled</i> receives the value <b>TRUE</b>, this parameter receives the downsampling size. Otherwise, this parameter is ignored.
-
-
-#### - Enabled [out]
-
-Receives the value <b>TRUE</b> if downsampling was explicitly enabled using the <a href="https://msdn.microsoft.com/EA61A4B8-0853-4F17-B634-70A896DCF5F7">ID3D11VideoContext::VideoProcessorSetOutputConstriction</a> method. Receives the value <b>FALSE</b> if the downsampling was disabled or was never set.
 
 
 ## -returns

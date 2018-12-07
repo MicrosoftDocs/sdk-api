@@ -7,10 +7,10 @@ old-location: dhcp\dword_dword.htm
 tech.root: DHCP
 ms.assetid: a7e61aa6-a8ab-4792-bb93-b492e904b098
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDWORD_DWORD, DWORD_DWORD, DWORD_DWORD structure [DHCP], LPDWORD_DWORD, LPDWORD_DWORD structure pointer [DHCP], _DWORD_DWORD, dhcp.dword_dword, dhcpsapi/LPDWORD_DWORD, dhcpsapi/_DWORD_DWORD"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

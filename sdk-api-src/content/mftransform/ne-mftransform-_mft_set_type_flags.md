@@ -7,10 +7,10 @@ old-location: mf\_mft_set_type_flags.htm
 tech.root: medfound
 ms.assetid: dd7e97fb-80ab-4e6b-ac2a-a257d7e8ec63
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MFT_SET_TYPE_TEST_ONLY, _MFT_SET_TYPE_FLAGS, _MFT_SET_TYPE_FLAGS enumeration [Media Foundation], dd7e97fb-80ab-4e6b-ac2a-a257d7e8ec63, mf._mft_set_type_flags, mftransform/MFT_SET_TYPE_TEST_ONLY, mftransform/_MFT_SET_TYPE_FLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mftransform.h
 req.include-header: 

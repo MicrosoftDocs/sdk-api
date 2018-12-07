@@ -4,10 +4,10 @@ title: IX509PrivateKey::put_ContainerName
 author: windows-sdk-content
 description: Specifies or retrieves the name of the key container.
 old-location: security\ix509privatekey_containername_property.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 1d56fa7e-8113-461d-a4f0-ebc048fbcb49
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ContainerName property [Security], ContainerName property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],ContainerName property, IX509PrivateKey.ContainerName, IX509PrivateKey.put_ContainerName, IX509PrivateKey::ContainerName, IX509PrivateKey::get_ContainerName, IX509PrivateKey::put_ContainerName, certenroll/IX509PrivateKey::ContainerName, certenroll/IX509PrivateKey::get_ContainerName, certenroll/IX509PrivateKey::put_ContainerName, put_ContainerName, security.ix509privatekey_containername_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

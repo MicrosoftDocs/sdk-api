@@ -4,10 +4,10 @@ title: CreateEnlistment function
 author: windows-sdk-content
 description: Creates an enlistment, sets its initial state, and opens a handle to the enlistment with the specified access.
 old-location: fs\createenlistment.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 7bc06468-947f-48ec-8e58-20df58ed93bd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateEnlistment, CreateEnlistment function [Files], ENLISTMENT_SUPERIOR, fs.createenlistment, ktmw32/CreateEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,9 +59,11 @@ Creates an enlistment, sets its initial state, and opens a handle to the enlistm
 
 
 
-### -param lpEnlistmentAttributes
+### -param lpEnlistmentAttributes [in, optional]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
+      structure that contains the security attributes for the enlistment manager.  Specify 
+      <b>NULL</b> to obtain the default attributes.
 
 
 ### -param ResourceManagerHandle [in]
@@ -109,13 +111,6 @@ Enlist as a superior transaction manager.
 A pointer to a user-defined structure used by the RM that is returned when a notification is sent in the 
       <a href="https://msdn.microsoft.com/4f87de9d-a068-4ab9-8f38-b75f20552b1d">TRANSACTION_NOTIFICATION</a> structure. This is 
       typically used to associate a private structure  with this specific transaction.
-
-
-#### - lpEnlistmentrAttributes [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
-      structure that contains the security attributes for the enlistment manager.  Specify 
-      <b>NULL</b> to obtain the default attributes.
 
 
 ## -returns

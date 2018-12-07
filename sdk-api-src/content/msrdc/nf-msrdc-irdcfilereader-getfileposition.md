@@ -4,10 +4,10 @@ title: IRdcFileReader::GetFilePosition
 author: windows-sdk-content
 description: Returns the current file position.
 old-location: rdc\irdcfilereader_getfileposition.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 3cef6883-29d2-4970-9a96-3500b58449d2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetFilePosition, GetFilePosition method [Remote Differential Compression], GetFilePosition method [Remote Differential Compression],IRdcFileReader interface, IRdcFileReader interface [Remote Differential Compression],GetFilePosition method, IRdcFileReader.GetFilePosition, IRdcFileReader::GetFilePosition, fs.irdcfilereader_getfileposition, msrdc/IRdcFileReader::GetFilePosition, rdc.irdcfilereader_getfileposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

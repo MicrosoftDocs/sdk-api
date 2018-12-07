@@ -7,10 +7,10 @@ old-location: display\ddlockininfo.htm
 tech.root: display
 ms.assetid: 4a4fb927-9037-4a42-9052-8b14ff899fe0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDDLOCKININFO, DDLOCKININFO, DDLOCKININFO structure [Display Devices], PDDLOCKININFO, PDDLOCKININFO structure pointer [Display Devices], Video_Structs_878ed276-6360-4a4a-8fd8-0e9b8ff86e6c.xml, _DDLOCKININFO, display.ddlockininfo, dxmini/DDLOCKININFO, dxmini/PDDLOCKININFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h

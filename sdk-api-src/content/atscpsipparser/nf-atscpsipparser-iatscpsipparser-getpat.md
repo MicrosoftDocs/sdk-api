@@ -4,10 +4,10 @@ title: IAtscPsipParser::GetPAT
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getpat.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 7cfa9ec0-a802-4dbe-9997-d0eaac2b71c9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetPAT, GetPAT method [Microsoft TV Technologies], GetPAT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetPAT method, IAtscPsipParser.GetPAT, IAtscPsipParser::GetPAT, IAtscPsipParserGetPAT, atscpsipparser/IAtscPsipParser::GetPAT, mstv.iatscpsipparser_getpat
 ms.prod: windows-hardware
 ms.technology: windows-devices

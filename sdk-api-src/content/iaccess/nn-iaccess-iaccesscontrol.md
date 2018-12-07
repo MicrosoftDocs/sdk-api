@@ -7,10 +7,10 @@ old-location: com\iaccesscontrol.htm
 tech.root: com
 ms.assetid: f7f19a9d-27ed-479f-b5d4-562cab5be12a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl interface [COM],described, _com_iaccesscontrol, com.iaccesscontrol, iaccess/IAccessControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iaccess.h
 req.include-header: 

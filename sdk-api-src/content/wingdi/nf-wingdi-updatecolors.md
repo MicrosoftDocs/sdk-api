@@ -7,7 +7,7 @@ old-location: gdi\updatecolors.htm
 tech.root: gdi
 ms.assetid: 61dfd579-3fc9-4e0a-bfd9-d04c6f918fd8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: UpdateColors, UpdateColors function [Windows GDI], _win32_UpdateColors, gdi.updatecolors, wingdi/UpdateColors
 ms.prod: windows-hardware
 ms.technology: windows-devices

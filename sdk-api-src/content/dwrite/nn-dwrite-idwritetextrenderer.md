@@ -7,10 +7,10 @@ old-location: directwrite\IDWriteTextRenderer.htm
 tech.root: DirectWrite
 ms.assetid: a2ac70c8-e33b-46f1-b53b-1ab07555f109
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteTextRenderer, IDWriteTextRenderer interface [Direct Write], IDWriteTextRenderer interface [Direct Write],described, directwrite.IDWriteTextRenderer, dwrite/IDWriteTextRenderer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

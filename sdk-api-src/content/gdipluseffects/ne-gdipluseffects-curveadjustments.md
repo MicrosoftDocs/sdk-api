@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_CurveAdjustments.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\curveadjustments.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: AdjustBlackSaturation, AdjustContrast, AdjustDensity, AdjustExposure, AdjustHighlight, AdjustMidtone, AdjustShadow, AdjustWhiteSaturation, CurveAdjustments, CurveAdjustments enumeration [GDI+], _gdiplus_ENUM_CurveAdjustments, gdiplus._gdiplus_ENUM_CurveAdjustments, gdipluseffects/AdjustBlackSaturation, gdipluseffects/AdjustContrast, gdipluseffects/AdjustDensity, gdipluseffects/AdjustExposure, gdipluseffects/AdjustHighlight, gdipluseffects/AdjustMidtone, gdipluseffects/AdjustShadow, gdipluseffects/AdjustWhiteSaturation, gdipluseffects/CurveAdjustments
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

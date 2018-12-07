@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9ex_composerect.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_composerect.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: 097e4733-c996-6415-2d0b-16df84b70922, ComposeRects, ComposeRects method [Direct3D 9], ComposeRects method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],ComposeRects method, IDirect3DDevice9Ex.ComposeRects, IDirect3DDevice9Ex::ComposeRects, d3d9/IDirect3DDevice9Ex::ComposeRects, direct3d9.idirect3ddevice9ex_composerect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,19 +59,25 @@ Copy a text string to one surface using an alphabet of glyphs on another surface
 
 
 
-### -param pSrc
+### -param pSrc [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
 
-
-### -param pDst
-
-TBD
+A pointer to a source surface (prepared by <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>) that supplies the alphabet glyphs. This surface must be created with the <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_TEXTAPI</a> flag.
 
 
-### -param pSrcRectDescs
+### -param pDst [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
+
+A pointer to the destination surface (prepared by <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>) that receives the glyph data. The surface must be part of a texture.
+
+
+### -param pSrcRectDescs [in]
+
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>*</b>
+
+A pointer to a vertex buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>) containing rectangles (see <a href="https://msdn.microsoft.com/en-us/library/Bb509544(v=VS.85).aspx">D3DCOMPOSERECTDESC</a>) that enclose the desired glyphs in the source surface.
 
 
 ### -param NumRects [in]
@@ -81,9 +87,11 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 The number of rectangles or glyphs that are used in the operation. The number applies to both the source and destination surfaces. The range is 0 to <a href="https://msdn.microsoft.com/en-us/library/Bb509547(v=VS.85).aspx">D3DCOMPOSERECTS_MAXNUMRECTS</a>.
 
 
-### -param pDstRectDescs
+### -param pDstRectDescs [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>*</b>
+
+A pointer to a vertex buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>) containing rectangles (see <a href="https://msdn.microsoft.com/en-us/library/Bb509545(v=VS.85).aspx">D3DCOMPOSERECTDESTINATION</a>) that describe the destination to which the indicated glyph from the source surface will be copied.
 
 
 ### -param Operation [in]
@@ -93,58 +101,18 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb509546(v=VS.85).asp
 Specifies how to combine the source and destination surfaces. See <a href="https://msdn.microsoft.com/en-us/library/Bb509546(v=VS.85).aspx">D3DCOMPOSERECTSOP</a>.
 
 
-### -param Xoffset
-
-TBD
-
-
-### -param Yoffset
-
-TBD
-
-
-
-
-#### - XOffset [in]
+### -param Xoffset [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
 A value added to the <i>x</i> coordinates of all destination rectangles. This value can be negative, which may cause the glyph to be rejected or clipped if the result is beyond the bounds of the surface.
 
 
-#### - YOffset [in]
+### -param Yoffset [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
 A value added to the <i>y</i> coordinates of all destination rectangles. This value can be negative, which may cause the glyph to be rejected or clipped if the result is beyond the bounds of the surface.
-
-
-#### - pDestination [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
-
-A pointer to the destination surface (prepared by <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>) that receives the glyph data. The surface must be part of a texture.
-
-
-#### - pDstRectDescriptors [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>*</b>
-
-A pointer to a vertex buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>) containing rectangles (see <a href="https://msdn.microsoft.com/en-us/library/Bb509545(v=VS.85).aspx">D3DCOMPOSERECTDESTINATION</a>) that describe the destination to which the indicated glyph from the source surface will be copied.
-
-
-#### - pSource [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
-
-A pointer to a source surface (prepared by <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>) that supplies the alphabet glyphs. This surface must be created with the <a href="https://msdn.microsoft.com/en-us/library/Bb172625(v=VS.85).aspx">D3DUSAGE_TEXTAPI</a> flag.
-
-
-#### - pSrcRectDescriptors [in]
-
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>*</b>
-
-A pointer to a vertex buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>) containing rectangles (see <a href="https://msdn.microsoft.com/en-us/library/Bb509544(v=VS.85).aspx">D3DCOMPOSERECTDESC</a>) that enclose the desired glyphs in the source surface.
 
 
 ## -returns

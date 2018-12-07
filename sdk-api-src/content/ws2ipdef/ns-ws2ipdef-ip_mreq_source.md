@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2ipdef.ip_mreq_source
-title: ip_mreq_source
+title: IP_MREQ_SOURCE
 author: windows-sdk-content
 description: The ip_mreq_source structure provides multicast group information for IPv4 addresses.
 old-location: winsock\ip_mreq_source.htm
 tech.root: winsock
 ms.assetid: 237bc55f-0b24-4615-85af-30ae6ad163fd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PIP_MREQ_SOURCE, IP_MREQ_SOURCE, IP_MREQ_SOURCE [Winsock], IP_MREQ_SOURCE structure [Winsock], PIP_MREQ_SOURCE, PIP_MREQ_SOURCE structure pointer [Winsock], ip_mreq_source, ip_mreq_source structure [Winsock], winsock.ip_mreq_source, ws2ipdef/PIP_MREQ_SOURCE, ws2ipdef/ip_mreq_source, ws2tcpip/PIP_MREQ_SOURCE, ws2tcpip/ip_mreq_source"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
@@ -45,7 +45,7 @@ req.typenames: IP_MREQ_SOURCE, *PIP_MREQ_SOURCE
 req.redist: 
 ---
 
-# ip_mreq_source structure
+# IP_MREQ_SOURCE structure
 
 
 ## -description

@@ -4,13 +4,13 @@ title: "_WSMAN_RECEIVE_DATA_RESULT"
 author: windows-sdk-content
 description: Represents the output data received from a WSManReceiveShellOutput method.
 old-location: winrm\wsman_receive_data_result.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: e649a4f0-37ae-40cb-9245-e1b792034c8a
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: WSMAN_RECEIVE_DATA_RESULT, WSMAN_RECEIVE_DATA_RESULT structure [Windows Remote Management], _WSMAN_RECEIVE_DATA_RESULT, winrm.wsman_receive_data_result, wsman/WSMAN_RECEIVE_DATA_RESULT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

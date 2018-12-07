@@ -7,7 +7,7 @@ old-location: mscs\iwccontextmenucallback_addextensionmenuitem.htm
 tech.root: mscs
 ms.assetid: 0eedc564-c82d-4309-b11c-c87d2e73c2c9
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: AddExtensionMenuItem, AddExtensionMenuItem method [Failover Cluster], AddExtensionMenuItem method [Failover Cluster],IWCContextMenuCallback interface, IWCContextMenuCallback interface [Failover Cluster],AddExtensionMenuItem method, IWCContextMenuCallback.AddExtensionMenuItem, IWCContextMenuCallback::AddExtensionMenuItem, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _wolf_iwccontextmenucallback_addextensionmenuitem, cluadmex/IWCContextMenuCallback::AddExtensionMenuItem, mscs.iwccontextmenucallback_addextensionmenuitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -161,6 +161,51 @@ Specifies that the menu item is a character string. The <i>lpszName</i> paramete
 
 If <b>AddExtensionMenuItem</b> 
        is not successful, it can return other <b>HRESULT</b> values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+The <i>uFlags</i> parameter was set to either <b>MF_OWNERDRAW</b> 
+         or <b>MF_POPUP</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+<dt>0x8007000e</dt>
+</dl>
+</td>
+<td width="60%">
+There was an error allocating the menu item.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

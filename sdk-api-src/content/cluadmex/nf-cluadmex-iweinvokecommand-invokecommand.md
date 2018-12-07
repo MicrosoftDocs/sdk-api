@@ -7,7 +7,7 @@ old-location: mscs\iweinvokecommand_invokecommand.htm
 tech.root: mscs
 ms.assetid: 1e723535-d786-496f-bc16-5b10a8a22383
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: IWEInvokeCommand interface [Failover Cluster],InvokeCommand method, IWEInvokeCommand.InvokeCommand, IWEInvokeCommand::InvokeCommand, InvokeCommand, InvokeCommand method [Failover Cluster], InvokeCommand method [Failover Cluster],IWEInvokeCommand interface, _wolf_iweinvokecommand_invokecommand, cluadmex/IWEInvokeCommand::InvokeCommand, mscs.iweinvokecommand_invokecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,6 +115,38 @@ Depending on the type of <a href="https://msdn.microsoft.com/en-us/library/Aa369
 
 Returns one of the following values or any <b>HRESULT</b> that describes the results of 
        the operation.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+<dt>0x80004001</dt>
+</dl>
+</td>
+<td width="60%">
+The operation is not implemented by this method.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

@@ -7,10 +7,10 @@ old-location: properties\PROPDESC_SEARCHINFO_FLAGS.htm
 tech.root: properties
 ms.assetid: 49e858e3-0231-45ce-a5a8-a1c4536577a8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: PDSIF_ALWAYSINCLUDE, PDSIF_DEFAULT, PDSIF_ININVERTEDINDEX, PDSIF_ISCOLUMN, PDSIF_ISCOLUMNSPARSE, PDSIF_USEFORTYPEAHEAD, PROPDESC_SEARCHINFO_FLAGS, PROPDESC_SEARCHINFO_FLAGS enumeration [Windows Properties], _shell_PROPDESC_SEARCHINFO_FLAGS, properties.PROPDESC_SEARCHINFO_FLAGS, propsys/PDSIF_ALWAYSINCLUDE, propsys/PDSIF_DEFAULT, propsys/PDSIF_ININVERTEDINDEX, propsys/PDSIF_ISCOLUMN, propsys/PDSIF_ISCOLUMNSPARSE, propsys/PDSIF_USEFORTYPEAHEAD, propsys/PROPDESC_SEARCHINFO_FLAGS, shell.PROPDESC_SEARCHINFO_FLAGS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 

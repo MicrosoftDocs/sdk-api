@@ -7,10 +7,10 @@ old-location: wic\_wic_codec_wicbitmapencodercacheoption.htm
 tech.root: wic
 ms.assetid: cc23cd53-f29b-4e4e-a3d9-038c6f0c5629
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: WICBitmapEncoderCacheInMemory, WICBitmapEncoderCacheOption, WICBitmapEncoderCacheOption enumeration [Windows Imaging Component], WICBitmapEncoderCacheTempFile, WICBitmapEncoderNoCache, _wic_codec_wicbitmapencodercacheoption, wic._wic_codec_wicbitmapencodercacheoption, wincodec/WICBitmapEncoderCacheInMemory, wincodec/WICBitmapEncoderCacheOption, wincodec/WICBitmapEncoderCacheTempFile, wincodec/WICBitmapEncoderNoCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

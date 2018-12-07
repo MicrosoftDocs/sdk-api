@@ -4,10 +4,10 @@ title: AuthzSetAppContainerInformation function
 author: windows-sdk-content
 description: Sets the app container and capability information in a current Authz context.
 old-location: security\authzsetappcontainerinformation.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: CD01C5E1-2367-4CC1-A495-A295E3C82B46
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: AuthzSetAppContainerInformation, AuthzSetAppContainerInformation function [Security], authz/AuthzSetAppContainerInformation, security.authzsetappcontainerinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

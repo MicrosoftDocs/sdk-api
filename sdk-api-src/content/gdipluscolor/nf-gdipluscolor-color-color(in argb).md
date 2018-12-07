@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_Color_argb_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_63argb.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(ARGB), Color.Color(IN ARGB), Color::Color, Color::Color(IN ARGB), _gdiplus_CLASS_Color_Color_argb_, gdiplus._gdiplus_CLASS_Color_Color_argb_
 ms.prod: windows-hardware
 ms.technology: windows-devices

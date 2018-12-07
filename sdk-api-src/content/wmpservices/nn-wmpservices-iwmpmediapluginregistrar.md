@@ -7,10 +7,10 @@ old-location: wmp\iwmpmediapluginregistrar.htm
 tech.root: WMP
 ms.assetid: 4b99d227-39e8-4986-93ed-6df73a3a3e08
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar interface [Windows Media Player], IWMPMediaPluginRegistrar interface [Windows Media Player],described, wmp.iwmpmediapluginregistrar, wmpservices/IWMPMediaPluginRegistrar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_getelapsedtime.htm
 tech.root: UIAnimation
 ms.assetid: 014F8A6A-345A-4DA7-8002-20A4683BB3B6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetElapsedTime, GetElapsedTime method [Windows Animation], GetElapsedTime method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetElapsedTime method, IUIAnimationStoryboard2.GetElapsedTime, IUIAnimationStoryboard2::GetElapsedTime, uianimation.iuianimationstoryboard2_getelapsedtime, uianimation/IUIAnimationStoryboard2::GetElapsedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: MapUserPhysicalPages function
 author: windows-sdk-content
 description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
 old-location: base\mapuserphysicalpages.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 7e9804dd-717d-4658-aac8-228878e61e4b
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: MapUserPhysicalPages, MapUserPhysicalPages function, _win32_mapuserphysicalpages, base.mapuserphysicalpages, winbase/MapUserPhysicalPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,9 +73,14 @@ To perform batch mapping and unmapping of multiple regions, use the
 
 
 
-### -param VirtualAddress
+### -param VirtualAddress [in]
 
-TBD
+A pointer to the starting address of the region of memory to remap. 
+
+The value of 
+      <i>lpAddress</i> must be within the address range that the 
+      <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function returns when the <a href="https://msdn.microsoft.com/48a29922-8130-4540-86b0-0faa120566a6">Address Windowing Extensions</a> (AWE) region is 
+      allocated.
 
 
 ### -param NumberOfPages [in]
@@ -91,14 +96,7 @@ The total number of pages cannot extend from the
       <a href="https://msdn.microsoft.com/cf45b24b-0622-4ba1-b485-8429cbf146b6">AllocateUserPhysicalPages</a>.
 
 
-### -param PageArray
-
-TBD
-
-
-
-
-#### - UserPfnArray [in]
+### -param PageArray [in]
 
 A pointer to an array of physical page frame numbers. 
 
@@ -114,16 +112,6 @@ Do not attempt to modify this buffer. It contains operating system data, and cor
 If this parameter is <b>NULL</b>, the specified address range is unmapped.  Also, the specified physical pages are not 
        freed, and you must call <a href="https://msdn.microsoft.com/c01da9f1-1d24-4b7e-8c6b-50aa6f558384">FreeUserPhysicalPages</a> to 
        free them.
-
-
-#### - lpAddress [in]
-
-A pointer to the starting address of the region of memory to remap. 
-
-The value of 
-      <i>lpAddress</i> must be within the address range that the 
-      <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function returns when the <a href="https://msdn.microsoft.com/48a29922-8130-4540-86b0-0faa120566a6">Address Windowing Extensions</a> (AWE) region is 
-      allocated.
 
 
 ## -returns

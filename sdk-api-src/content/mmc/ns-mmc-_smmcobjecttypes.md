@@ -7,10 +7,10 @@ old-location: mmc\smmcdynamicextensions.htm
 tech.root: mmc
 ms.assetid: 59acd90c-60de-457a-94d7-418b79247a2e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: SMMCDynamicExtensions, SMMCDynamicExtensions structure [MMC], SMMCObjectTypes, SMMCObjectTypes structure [MMC], _SMMCObjectTypes, _slate_smmcdynamicextensions, mmc.smmcdynamicextensions, mmc/SMMCDynamicExtensions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

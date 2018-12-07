@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_blend_op.htm
 tech.root: direct3d12
 ms.assetid: 2C36BFCB-2871-446F-8A79-3E963DB50795
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_BLEND_OP, D3D12_BLEND_OP enumeration, D3D12_BLEND_OP_ADD, D3D12_BLEND_OP_MAX, D3D12_BLEND_OP_MIN, D3D12_BLEND_OP_REV_SUBTRACT, D3D12_BLEND_OP_SUBTRACT, d3d12/D3D12_BLEND_OP, d3d12/D3D12_BLEND_OP_ADD, d3d12/D3D12_BLEND_OP_MAX, d3d12/D3D12_BLEND_OP_MIN, d3d12/D3D12_BLEND_OP_REV_SUBTRACT, d3d12/D3D12_BLEND_OP_SUBTRACT, direct3d12.d3d12_blend_op
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

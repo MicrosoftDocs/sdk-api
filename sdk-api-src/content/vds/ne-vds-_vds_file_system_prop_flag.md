@@ -4,13 +4,13 @@ title: "_VDS_FILE_SYSTEM_PROP_FLAG"
 author: windows-sdk-content
 description: Defines the details of file-system compression.
 old-location: base\vds_file_system_prop_flag.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: f2776ee9-4809-4f99-b464-80b5b53f8675
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_FILE_SYSTEM_PROP_FLAG, VDS_FILE_SYSTEM_PROP_FLAG enumeration [VDS], VDS_FPF_COMPRESSED, _VDS_FILE_SYSTEM_PROP_FLAG, base.vds_file_system_prop_flag, vds/VDS_FILE_SYSTEM_PROP_FLAG, vds/VDS_FPF_COMPRESSED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

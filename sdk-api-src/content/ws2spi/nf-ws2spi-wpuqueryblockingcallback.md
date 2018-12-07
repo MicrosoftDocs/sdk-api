@@ -7,7 +7,7 @@ old-location: winsock\wpuqueryblockingcallback_2.htm
 tech.root: winsock
 ms.assetid: 08e6215c-536f-4ab2-9d34-096b919ef0be
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WPUQueryBlockingCallback, WPUQueryBlockingCallback function [Winsock], _win32_wpuqueryblockingcallback_2, winsock.wpuqueryblockingcallback_2, ws2spi/WPUQueryBlockingCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

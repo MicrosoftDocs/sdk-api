@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer2::get_SuppressEffects
 author: windows-sdk-content
 description: The get_SuppressEffects method retrieves settings that control power management and visual effects.
 old-location: mstv\imsvidvideorenderer2_get_suppresseffects.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 5a8546f8-61de-4e98-bee3-26ca4d0ea2e4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidVideoRenderer2.get_SuppressEffects, IMSVidVideoRenderer2::get_SuppressEffects, IMSVidVideoRenderer2get_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_suppresseffects, segment/IMSVidVideoRenderer2::get_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_SuppressEffects</b> method retrieves settings that control power mana
 
 
 
-### -param bSuppress
-
-TBD
-
-
-
-
-#### - pbSuppress [out]
+### -param bSuppress [out]
 
 Receives the value VARIANT_TRUE or VARIANT_FALSE. For more information, see <a href="https://msdn.microsoft.com/d362addb-626a-42f8-9b95-82189a338527">IMSVidVideoRenderer2::put_SuppressEffects</a>.
 

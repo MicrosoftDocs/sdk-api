@@ -7,10 +7,10 @@ old-location: wic\_wic_codec_wicgifimagedescriptorproperties.htm
 tech.root: wic
 ms.assetid: 5488e63b-503b-47cd-99f3-5d359c7e0070
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: WICGifImageDescriptorHeight, WICGifImageDescriptorInterlaceFlag, WICGifImageDescriptorLeft, WICGifImageDescriptorLocalColorTableFlag, WICGifImageDescriptorLocalColorTableSize, WICGifImageDescriptorProperties, WICGifImageDescriptorProperties enumeration [Windows Imaging Component], WICGifImageDescriptorSortFlag, WICGifImageDescriptorTop, WICGifImageDescriptorWidth, _wic_codec_wicgifimagedescriptorproperties, wic._wic_codec_wicgifimagedescriptorproperties, wincodec/WICGifImageDescriptorHeight, wincodec/WICGifImageDescriptorInterlaceFlag, wincodec/WICGifImageDescriptorLeft, wincodec/WICGifImageDescriptorLocalColorTableFlag, wincodec/WICGifImageDescriptorLocalColorTableSize, wincodec/WICGifImageDescriptorProperties, wincodec/WICGifImageDescriptorSortFlag, wincodec/WICGifImageDescriptorTop, wincodec/WICGifImageDescriptorWidth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

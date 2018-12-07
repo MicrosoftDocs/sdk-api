@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertyDescriptionListFromString.htm
 tech.root: properties
 ms.assetid: 348253ed-46ac-4643-bbf8-2d286ae97f07
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: PSGetPropertyDescriptionListFromString, PSGetPropertyDescriptionListFromString function [Windows Properties], properties.PSGetPropertyDescriptionListFromString, propsys/PSGetPropertyDescriptionListFromString, shell.PSGetPropertyDescriptionListFromString, shell_PSGetPropertyDescriptionListFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices

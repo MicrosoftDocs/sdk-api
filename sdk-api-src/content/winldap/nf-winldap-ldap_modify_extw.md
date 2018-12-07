@@ -7,7 +7,7 @@ old-location: ldap\ldap_modify_ext.htm
 tech.root: ldap
 ms.assetid: a11f4944-d574-4215-a25e-536adf21c469
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_modify_ext, ldap.ldap__modify__ext, ldap.ldap_modify_ext, ldap_modify_ext, ldap_modify_ext function [LDAP], ldap_modify_extA, ldap_modify_extW, winldap/ldap_modify_ext, winldap/ldap_modify_extA, winldap/ldap_modify_extW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

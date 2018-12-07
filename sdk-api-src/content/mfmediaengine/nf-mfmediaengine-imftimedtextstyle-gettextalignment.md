@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_gettextalignment.htm
 tech.root: medfound
 ms.assetid: 2BB85E50-250C-4CFD-95DD-198899DCFE1D
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetTextAlignment, GetTextAlignment method [Media Foundation], GetTextAlignment method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextAlignment method, IMFTimedTextStyle.GetTextAlignment, IMFTimedTextStyle::GetTextAlignment, mf.imftimedtextstyle_gettextalignment, mfmediaengine/IMFTimedTextStyle::GetTextAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Gets the text alignment of the timed-text style.
 
 
 
-### -param textAlign
-
-TBD
-
-
-
-
-#### - pTextAlign [out]
+### -param textAlign [out]
 
 Type: <b><a href="https://msdn.microsoft.com/F94DF6A5-1FF7-48C2-834F-50C90B2D9C33">MF_TIMED_TEXT_ALIGNMENT</a>*</b>
 

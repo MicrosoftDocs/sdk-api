@@ -4,10 +4,10 @@ title: ILocator::put_OuterFECRate
 author: windows-sdk-content
 description: The put_OuterFECRate method sets the outer FEC rate.
 old-location: mstv\ilocator_put_outerfecrate.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0fd3fa42-4ed6-459b-a6a2-23ed67832780
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDigitalLocatorput_OuterFECRate, ILocator interface [Microsoft TV Technologies],put_OuterFECRate method, ILocator.put_OuterFECRate, ILocator::put_OuterFECRate, mstv.ilocator_put_outerfecrate, put_OuterFECRate, put_OuterFECRate method [Microsoft TV Technologies], put_OuterFECRate method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_OuterFECRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

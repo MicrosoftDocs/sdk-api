@@ -7,10 +7,10 @@ old-location: tapi2\linecardentry_str.htm
 tech.root: tapi
 ms.assetid: 8b2a4eaf-6c59-4d3b-839f-52915bff6116
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 11/23/2018
 ms.keywords: "*LPLINECARDENTRY, LINECARDENTRY, LINECARDENTRY structure [TAPI 2.2], LPLINECARDENTRY, LPLINECARDENTRY structure pointer [TAPI 2.2], _tapi2_linecardentry_str, linecardentry_tag, tapi/LINECARDENTRY, tapi/LPLINECARDENTRY, tapi2.linecardentry_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

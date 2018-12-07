@@ -9,8 +9,8 @@ ms.assetid: 448298d1-2583-47d5-b393-e6c8e59da64e
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*PIRQ_RESOURCE_64, IRQ_RESOURCE, IRQ_RESOURCE structure [Device and Driver Installation], IRQ_RESOURCE_64, IRQ_Resource_64_s, PIRQ_RESOURCE, PIRQ_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/IRQ_RESOURCE, cfgmgr32/PIRQ_RESOURCE, cfgmgrst_7eed527c-01ea-417a-b408-3239701cd988.xml, devinst.irq_resource"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

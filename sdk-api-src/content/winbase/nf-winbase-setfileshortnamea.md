@@ -7,7 +7,7 @@ old-location: fs\setfileshortname.htm
 tech.root: fileio
 ms.assetid: 0f4beb95-4e6c-422e-a17c-3371b706f0d4
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: SetFileShortName, SetFileShortName function [Files], SetFileShortNameA, SetFileShortNameW, _win32_setfileshortname, base.setfileshortname, fs.setfileshortname, winbase/SetFileShortName, winbase/SetFileShortNameA, winbase/SetFileShortNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

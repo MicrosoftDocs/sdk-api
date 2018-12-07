@@ -9,8 +9,8 @@ ms.assetid: 5c2a793b-d136-4d03-9e46-b24009af2c7d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IWPCProviderSupport, IWPCProviderSupport interface, IWPCProviderSupport interface,described, parcon.iwpcprovidersupport, wpcapi/IWPCProviderSupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wpcapi.h
 req.include-header: 

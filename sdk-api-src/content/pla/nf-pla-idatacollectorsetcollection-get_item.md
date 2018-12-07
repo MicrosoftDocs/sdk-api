@@ -4,10 +4,10 @@ title: IDataCollectorSetCollection::get_Item
 author: windows-sdk-content
 description: Retrieves the requested data collector set from the collection.
 old-location: pla\idatacollectorsetcollection_item.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: ebb126d5-8582-4afa-833c-146cd4ad9efb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IDataCollectorSetCollection interface [PLA],Item property, IDataCollectorSetCollection.Item, IDataCollectorSetCollection.get_Item, IDataCollectorSetCollection::Item, IDataCollectorSetCollection::get_Item, Item property [PLA], Item property [PLA],IDataCollectorSetCollection interface, base.idatacollectorsetcollection_item, get_Item, pla.idatacollectorsetcollection_item, pla/IDataCollectorSetCollection::Item, pla/IDataCollectorSetCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

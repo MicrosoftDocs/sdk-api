@@ -7,10 +7,10 @@ old-location: mscs\cluster_read_batch_command.htm
 tech.root: mscs
 ms.assetid: BE7D4B99-27C0-4CAA-BFDC-669737E17D86
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: CLUSREG_READ_ERROR, CLUSREG_READ_VALUE, CLUSTER_READ_BATCH_COMMAND, CLUSTER_READ_BATCH_COMMAND structure [Failover Cluster], PCLUSTER_READ_BATCH_COMMAND, PCLUSTER_READ_BATCH_COMMAND structure pointer [Failover Cluster], _CLUSTER_READ_BATCH_COMMAND, clusapi/CLUSTER_READ_BATCH_COMMAND, clusapi/PCLUSTER_READ_BATCH_COMMAND, mscs.cluster_read_batch_command
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

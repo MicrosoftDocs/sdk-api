@@ -7,10 +7,10 @@ old-location: tsf\ts_runinfo.htm
 tech.root: TSF
 ms.assetid: 601cd6b0-0064-4cd3-99cd-850104a861a5
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: TS_RUNINFO, TS_RUNINFO structure [Text Services Framework], _tsf_ts_runinfo_ref, textstor/TS_RUNINFO, tsf.ts_runinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: textstor.h
 req.include-header: 

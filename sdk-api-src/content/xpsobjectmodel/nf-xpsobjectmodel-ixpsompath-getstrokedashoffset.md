@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getstrokedashoffset.htm
 tech.root: printdocs
 ms.assetid: 173e820f-e926-44cc-a6ba-54edde770f73
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetStrokeDashOffset, GetStrokeDashOffset method [XPS Documents and Packaging], GetStrokeDashOffset method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeDashOffset method, IXpsOMPath.GetStrokeDashOffset, IXpsOMPath::GetStrokeDashOffset, xps.ixpsompath_getstrokedashoffset, xpsobjectmodel/IXpsOMPath::GetStrokeDashOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: controls\PropSheetPageProc.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetpageproc.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: LPFNPSPCALLBACK, LPFNPSPCALLBACK callback, LPFNPSPCALLBACK callback function [Windows Controls], LPFNPSPCALLBACKA, LPFNPSPCALLBACKW, PSPCB_ADDREF, PSPCB_CREATE, PSPCB_RELEASE, _win32_PropSheetPageProc, _win32_PropSheetPageProc_cpp, controls.PropSheetPageProc, controls._win32_PropSheetPageProc, prsht/LPFNPSPCALLBACK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: prsht.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: GetComputerNameExA function
 author: windows-sdk-content
 description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
 old-location: base\getcomputernameex.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: eae3f75d-7ec7-42ae-b207-e3ebaa33346e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, GetComputerNameEx, GetComputerNameEx function, GetComputerNameExA, GetComputerNameExW, _win32_getcomputernameex, base.getcomputernameex, sysinfoapi/GetComputerNameEx, sysinfoapi/GetComputerNameExA, sysinfoapi/GetComputerNameExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -179,14 +179,7 @@ A pointer to a buffer that receives the computer name or the cluster virtual ser
 The length of the name may be greater than MAX_COMPUTERNAME_LENGTH characters because DNS allows longer names. To ensure that this buffer is large enough, set this parameter to <b>NULL</b> and use the required buffer size returned in the <i>lpnSize</i> parameter.
 
 
-### -param nSize
-
-TBD
-
-
-
-
-#### - lpnSize [in, out]
+### -param nSize [in, out]
 
 On input, specifies the size of the buffer, in <b>TCHARs</b>. On output, receives the number of <b>TCHARs</b> copied to the destination buffer, not including the terminating <b>null</b> character. 
 

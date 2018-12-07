@@ -7,10 +7,10 @@ old-location: security\authenticode_extra_cert_chain_policy_status.htm
 tech.root: seccrypto
 ms.assetid: bc123d07-0d59-49e0-b0e3-23dadb270347
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "*PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security], PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security], _AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, _crypto2_authenticode_extra_cert_chain_policy_status, security.authenticode_extra_cert_chain_policy_status, wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, wincrypt/PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

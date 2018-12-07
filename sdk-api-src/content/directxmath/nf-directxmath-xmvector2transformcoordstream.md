@@ -7,7 +7,7 @@ old-location: dxmath\xmvector2transformcoordstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2TransformCoordStream(XMFLOAT2@,size_t,const XMFLOAT2,size_t,size_t,XMMATRIX)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2TransformCoordStream, XMVector2TransformCoordStream, XMVector2TransformCoordStream method [DirectX Math Support APIs], dxmath.xmvector2transformcoordstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

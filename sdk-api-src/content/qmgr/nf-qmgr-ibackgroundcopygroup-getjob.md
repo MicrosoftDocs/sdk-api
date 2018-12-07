@@ -4,10 +4,10 @@ title: IBackgroundCopyGroup::GetJob
 author: windows-sdk-content
 description: Use the GetJob method to retrieve a job from the group.
 old-location: bits\ibackgroundcopygroup_getjob.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: c392e9e2-0489-457b-b21a-dfff9e2c0f39
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetJob method, IBackgroundCopyGroup.GetJob, IBackgroundCopyGroup::GetJob, bits.ibackgroundcopygroup_getjob, qmgr/IBackgroundCopyGroup::GetJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,19 +60,14 @@ Use the <b>GetJob</b> method to retrieve a job from the group.
 
 
 
-### -param jobID
+### -param jobID [in]
 
-TBD
+Identifies the job to retrieve.
 
 
 ### -param ppJob [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/ccf1b355-c1af-4b5e-b613-181c426ed777">IBackgroundCopyJob1</a> interface pointer. Use the interface to add files and retrieve the state of the job.
-
-
-#### - guidJobId [in]
-
-Identifies the job to retrieve.
 
 
 ## -returns

@@ -7,10 +7,10 @@ old-location: imapi\imapi_format2_raw_cd_write_action.htm
 tech.root: imapi
 ms.assetid: eb19b3e1-59b2-4649-87c5-057d50213ef2
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: "*PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION, IMAPI_FORMAT2_RAW_CD_WRITE_ACTION, IMAPI_FORMAT2_RAW_CD_WRITE_ACTION enumeration [IMAPI], IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_FINISHING, IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_PREPARING, IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_UNKNOWN, IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_WRITING, PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION, PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION enumeration pointer [IMAPI], _IMAPI_FORMAT2_RAW_CD_WRITE_ACTION, imapi.imapi_format2_raw_cd_write_action, imapi2/IMAPI_FORMAT2_RAW_CD_WRITE_ACTION, imapi2/IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_FINISHING, imapi2/IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_PREPARING, imapi2/IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_UNKNOWN, imapi2/IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_WRITING, imapi2/PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: imapi2.h
 req.include-header: 

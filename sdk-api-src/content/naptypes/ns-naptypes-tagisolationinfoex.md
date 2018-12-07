@@ -9,8 +9,8 @@ ms.assetid: 7b361429-015f-4ecc-8569-3075b5b7b85d
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IsolationInfoEx, IsolationInfoEx structure [NAP], nap.isolationinfoex, naptypes/IsolationInfoEx, tagIsolationInfoEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: IAzApplication::put_ApplyStoreSacl
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified.
 old-location: security\iazapplication_applystoresacl.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 722b0693-a11f-434a-a278-780619b0077a
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: ApplyStoreSacl property [Security], ApplyStoreSacl property [Security],AzApplication object, ApplyStoreSacl property [Security],IAzApplication interface, AzApplication object [Security],ApplyStoreSacl property, IAzApplication interface [Security],ApplyStoreSacl property, IAzApplication.ApplyStoreSacl, IAzApplication.put_ApplyStoreSacl, IAzApplication::ApplyStoreSacl, IAzApplication::get_ApplyStoreSacl, IAzApplication::put_ApplyStoreSacl, azroles/IAzApplication::ApplyStoreSacl, azroles/IAzApplication::get_ApplyStoreSacl, azroles/IAzApplication::put_ApplyStoreSacl, put_ApplyStoreSacl, security.iazapplication_applystoresacl
 ms.prod: windows-hardware
 ms.technology: windows-devices

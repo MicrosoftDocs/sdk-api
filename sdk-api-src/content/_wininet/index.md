@@ -2,7 +2,7 @@
 UID: TP:wininet
 ms.assetid: a15a265a-5b11-3750-b1a2-587bb83a92f1
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

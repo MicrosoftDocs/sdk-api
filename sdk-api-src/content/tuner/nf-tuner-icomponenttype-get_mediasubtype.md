@@ -4,10 +4,10 @@ title: IComponentType::get_MediaSubType
 author: windows-sdk-content
 description: The get_MediaSubType method retrieves the DirectShow media subtype as a BSTR.
 old-location: mstv\icomponenttype_get_mediasubtype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 470b7960-b016-4807-858b-61a53daf2396
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaSubType method, IComponentType.get_MediaSubType, IComponentType::get_MediaSubType, IComponentTypeget_MediaSubType, get_MediaSubType, get_MediaSubType method [Microsoft TV Technologies], get_MediaSubType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediasubtype, tuner/IComponentType::get_MediaSubType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_MediaSubType</b> method retrieves the DirectShow media subtype as a B
 
 
 
-### -param MediaSubType
-
-TBD
-
-
-
-
-#### - pMediaSubType [out]
+### -param MediaSubType [out]
 
 Pointer to a <b>BSTR</b> that will receive the GUID.
 

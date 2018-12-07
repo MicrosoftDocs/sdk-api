@@ -4,10 +4,10 @@ title: IEnumNetworkConnections::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: nla\ienumnetworkconnections_skip.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 0423e39e-6101-47dc-99cc-5920d720e47a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],Skip method, IEnumNetworkConnections.Skip, IEnumNetworkConnections::Skip, Skip, Skip method [Network Awareness], Skip method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::Skip, nla.ienumnetworkconnections_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

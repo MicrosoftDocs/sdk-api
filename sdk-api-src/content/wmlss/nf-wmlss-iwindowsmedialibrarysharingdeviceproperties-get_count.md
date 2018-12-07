@@ -7,7 +7,7 @@ old-location: wmlss\IWMLSDevicePropertiesget_Count.htm
 tech.root: WMLSS
 ms.assetid: fd0d1031-875d-4081-b23b-fb2cf77c4f13
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],get_Count method, IWindowsMediaLibrarySharingDeviceProperties.get_Count, IWindowsMediaLibrarySharingDeviceProperties::get_Count, get_Count, get_Count method [Windows Media Library Sharing Services], get_Count method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperties interface, wmlss.IWMLSDevicePropertiesget_Count, wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

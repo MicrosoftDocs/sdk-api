@@ -7,7 +7,7 @@ old-location: winrt\idllserveractivatableclassregistration_dllpath.htm
 tech.root: WinRT
 ms.assetid: B46BB464-C993-49A7-86C8-4945E69AA9CC
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IDllServerActivatableClassRegistration interface [Windows Runtime],get_DllPath method, IDllServerActivatableClassRegistration.get_DllPath, IDllServerActivatableClassRegistration::get_DllPath, activationregistration/IDllServerActivatableClassRegistration::get_DllPath, get_DllPath, get_DllPath method [Windows Runtime], get_DllPath method [Windows Runtime],IDllServerActivatableClassRegistration interface, winrt.idllserveractivatableclassregistration_dllpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

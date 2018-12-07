@@ -7,7 +7,7 @@ old-location: security\icertencodebitstring_getbitstring.htm
 tech.root: seccrypto
 ms.assetid: d0c6c501-3aaa-42ab-a077-69f6d24f1eff
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CCertEncodeBitString object [Security],GetBitString method, GetBitString, GetBitString method [Security], GetBitString method [Security],CCertEncodeBitString object, GetBitString method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],GetBitString method, ICertEncodeBitString.GetBitString, ICertEncodeBitString::GetBitString, _certsrv_icertencodebitstring_getbitstring, certenc/ICertEncodeBitString::GetBitString, security.icertencodebitstring_getbitstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ The <b>GetBitString</b> method returns the string of bits in the object's bit st
 
 
 
-### -param pstrBitString
-
-TBD
-
-
-
-
-#### - pbstrBitString [out]
+### -param pstrBitString [out]
 
 A pointer to a <b>BSTR</b> that will contain the bit string. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 

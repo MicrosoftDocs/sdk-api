@@ -7,10 +7,10 @@ old-location: wab\_wab_SRowSet.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srowset.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSRowSet, SRowSet, SRowSet structure [Windows Address Book], _SRowSet, _wab_SRowSet, wab._wab_SRowSet, wabdefs/SRowSet"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

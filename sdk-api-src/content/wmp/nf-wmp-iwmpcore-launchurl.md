@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_launchurl.htm
 tech.root: WMP
 ms.assetid: 439bb4a7-801a-4bef-b791-b8a9cb24ab34
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],launchURL method, IWMPCore.launchURL, IWMPCore::launchURL, IWMPCorelaunchURL, launchURL, launchURL method [Windows Media Player], launchURL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_launchurl, wmp/IWMPCore::launchURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

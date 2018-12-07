@@ -4,10 +4,10 @@ title: IVdsSubSystem2::CreateLun2
 author: windows-sdk-content
 description: Creates a LUN. This method is identical to the IVdsSubSystem::CreateLun method, except that automagic hints are provided using a VDS_HINTS2 structure instead of a VDS_HINTS structure.
 old-location: base\ivdssubsystem2_createlun2.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 1fa046dd-fac9-4246-a90b-1837206b164c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateLun2, CreateLun2 method, CreateLun2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,CreateLun2 method, IVdsSubSystem2.CreateLun2, IVdsSubSystem2::CreateLun2, base.ivdssubsystem2_createlun2, vds/IVdsSubSystem2::CreateLun2, vdshwprv/IVdsSubSystem2::CreateLun2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,9 +135,14 @@ After the LUN is created, the caller can determine the actual unmasking list by 
        <a href="https://msdn.microsoft.com/1fec1c8d-7ac9-4b77-830c-930908aac6ef">IVdsLun::GetProperties</a> method.
 
 
-### -param pHints2
+### -param pHints2 [in]
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/e24935ac-17c8-4338-99cb-2408ca61da8a">VDS_HINTS2</a> structure that specifies the hints to be used in creating the LUN. The provider is not required to apply the hints to the LUN. The hints specified in the <b>VDS_HINTS2</b> structure are only a request to the provider.
+
+After the LUN is created, the caller can determine the hints that the provider applied by calling the 
+      <a href="https://msdn.microsoft.com/077d200a-2eab-4dbe-b7b9-873061fa2c4b">IVdsLun2::QueryHints2</a>  method.
+
+If the <i>type</i> parameter specifies a non-automagic type, this parameter should be <b>NULL</b>.
 
 
 ### -param ppAsync [out]
@@ -149,16 +154,6 @@ The address of an <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c3
 If <a href="https://msdn.microsoft.com/1bb30247-efb8-488f-b142-8912c351f5f2">IVdsAsync::Wait</a> is called on the returned interface pointer and a success HRESULT value is returned, 
       the interfaces returned in the <a href="https://msdn.microsoft.com/21771c6a-eca9-47f3-b6fc-383bca1e11bf">VDS_ASYNC_OUTPUT</a> 
       structure must be released by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method on each interface pointer. However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://msdn.microsoft.com/en-us/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/en-us/library/ms693474(v=VS.85).aspx">FAILED</a> macros defined in Winerror.h.
-
-
-#### - pHints [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/e24935ac-17c8-4338-99cb-2408ca61da8a">VDS_HINTS2</a> structure that specifies the hints to be used in creating the LUN. The provider is not required to apply the hints to the LUN. The hints specified in the <b>VDS_HINTS2</b> structure are only a request to the provider.
-
-After the LUN is created, the caller can determine the hints that the provider applied by calling the 
-      <a href="https://msdn.microsoft.com/077d200a-2eab-4dbe-b7b9-873061fa2c4b">IVdsLun2::QueryHints2</a>  method.
-
-If the <i>type</i> parameter specifies a non-automagic type, this parameter should be <b>NULL</b>.
 
 
 ## -returns

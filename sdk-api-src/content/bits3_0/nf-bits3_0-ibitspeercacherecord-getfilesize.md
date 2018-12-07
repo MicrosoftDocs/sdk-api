@@ -4,10 +4,10 @@ title: IBitsPeerCacheRecord::GetFileSize
 author: windows-sdk-content
 description: Gets the size of the file.
 old-location: bits\ibitspeercacherecord_getfilesize.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 3b997cd0-a947-4ce7-b047-85268ea46b70
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetFileSize, GetFileSize method [BITS], GetFileSize method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileSize method, IBitsPeerCacheRecord.GetFileSize, IBitsPeerCacheRecord::GetFileSize, bits.ibitspeercacherecord_getfilesize, bits3_0/IBitsPeerCacheRecord::GetFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ Gets the size of the file.
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - pFileSize [out]
+### -param pVal [out]
 
 Size of the file, in bytes.
 

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getpadding.htm
 tech.root: medfound
 ms.assetid: B97ECFD8-2E96-425F-B29E-49E7D53BBFCB
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetPadding, GetPadding method [Media Foundation], GetPadding method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetPadding method, IMFTimedTextRegion.GetPadding, IMFTimedTextRegion::GetPadding, mf.imftimedtextregion_getpadding, mfmediaengine/IMFTimedTextRegion::GetPadding
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,62 +58,35 @@ Gets the padding that surrounds the region.
 
 
 
-### -param before
-
-TBD
-
-
-### -param start
-
-TBD
-
-
-### -param after
-
-TBD
-
-
-### -param end
-
-TBD
-
-
-### -param unitType
-
-TBD
-
-
-
-
-#### - pAfter [out]
-
-Type: <b>double*</b>
-
-A pointer to a variable that receives the padding after the end of the region.
-
-
-#### - pBefore [out]
+### -param before [out]
 
 Type: <b>double*</b>
 
 A pointer to a variable that receives the padding before the start of the region.
 
 
-#### - pEnd [out]
-
-Type: <b>double*</b>
-
-A pointer to a variable that receives the end of the region.
-
-
-#### - pStart [out]
+### -param start [out]
 
 Type: <b>double*</b>
 
 A pointer to a variable that receives the start of the region.
 
 
-#### - pUnitType [out]
+### -param after [out]
+
+Type: <b>double*</b>
+
+A pointer to a variable that receives the padding after the end of the region.
+
+
+### -param end [out]
+
+Type: <b>double*</b>
+
+A pointer to a variable that receives the end of the region.
+
+
+### -param unitType [out]
 
 Type: <b><a href="https://msdn.microsoft.com/5F811CEC-9E60-4441-BD22-1C4F4D0B72F8">MF_TIMED_TEXT_UNIT_TYPE</a>*</b>
 

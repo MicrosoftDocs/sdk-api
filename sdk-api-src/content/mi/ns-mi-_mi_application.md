@@ -4,13 +4,13 @@ title: "_MI_Application"
 author: windows-sdk-content
 description: Represents the initialized infrastructure.
 old-location: wmi_v2\mi_application.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: da486ade-88ef-40c4-8151-356e718da7db
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Application, MI_Application structure [Windows Management Infrastructure (MI)], _MI_Application, mi/MI_Application, wmi_v2.mi_application
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

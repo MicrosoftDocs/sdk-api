@@ -4,13 +4,13 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0020"
 author: windows-sdk-content
 description: The MPEG2_FILTER2 structure specifies criteria for matching MPEG-2 section headers.
 old-location: mstv\mpeg2_filter2.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 3828f80f-23dc-4028-95d6-d85c007a44ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMPEG2_FILTER2, MPEG2_FILTER2, MPEG2_FILTER2 structure [Microsoft TV Technologies], PMPEG2_FILTER2, PMPEG2_FILTER2 structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0020, mpeg2structs/MPEG2_FILTER, mpeg2structs/PMPEG2_FILTER2, mstv.mpeg2_filter2"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

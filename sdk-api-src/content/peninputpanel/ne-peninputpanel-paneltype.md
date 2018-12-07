@@ -7,10 +7,10 @@ old-location: tablet\paneltype.htm
 tech.root: tablet
 ms.assetid: fbf0ecce-0286-4d1b-99ba-9d28fc25da30
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: PT_Default, PT_Handwriting, PT_Inactive, PT_Keyboard, PanelType, PanelType enumeration [Tablet PC], fbf0ecce-0286-4d1b-99ba-9d28fc25da30, peninputpanel/PT_Default, peninputpanel/PT_Handwriting, peninputpanel/PT_Inactive, peninputpanel/PT_Keyboard, peninputpanel/PanelType, tablet.paneltype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: peninputpanel.h
 req.include-header: 

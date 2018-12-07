@@ -7,10 +7,10 @@ old-location: buses\ioctl_usb_diagnostic_mode_on.htm
 tech.root: usbref
 ms.assetid: 9b3b7d11-a91c-4905-b639-d9843f05d65e
 ms.author: windowssdkdev
-ms.date: 10/23/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_USB_DIAGNOSTIC_MODE_ON, IOCTL_USB_DIAGNOSTIC_MODE_ON control, IOCTL_USB_DIAGNOSTIC_MODE_ON control code [Buses], buses.ioctl_usb_diagnostic_mode_on, usbirp_c1493559-ce0a-4b79-8c7b-5fff2f3c83b3.xml, usbuser/IOCTL_USB_DIAGNOSTIC_MODE_ON
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbuser.h
 req.include-header: Usbioctl.h

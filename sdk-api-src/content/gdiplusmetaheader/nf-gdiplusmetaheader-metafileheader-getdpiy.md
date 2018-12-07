@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetDpiY_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getdpiy_82.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetDpiY, GetDpiY method [GDI+], GetDpiY method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetDpiY method, MetafileHeader.GetDpiY, MetafileHeader::GetDpiY, _gdiplus_CLASS_MetafileHeader_GetDpiY_, gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiY_
 ms.prod: windows-hardware
 ms.technology: windows-devices

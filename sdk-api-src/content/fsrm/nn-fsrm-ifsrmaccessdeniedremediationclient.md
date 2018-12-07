@@ -4,13 +4,13 @@ title: IFsrmAccessDeniedRemediationClient
 author: windows-sdk-content
 description: Used to show the Access Denied Remediation (ADR) client user interface.
 old-location: fsrm\ifsrmaccessdeniedremediationclient.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 572d2985-a579-4bfa-a305-403b6be516ca
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmAccessDeniedRemediationClient, IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager], IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager],described, fs.ifsrmaccessdeniedremediationclient, fsrm.ifsrmaccessdeniedremediationclient, fsrm/IFsrmAccessDeniedRemediationClient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

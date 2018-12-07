@@ -7,7 +7,7 @@ old-location: fs\changentmsmediatype.htm
 tech.root: Rsm
 ms.assetid: 89b3eb9b-0614-47a9-825e-1335c7fc5d0d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ChangeNtmsMediaType, ChangeNtmsMediaType function [Files], _zaw_changentmsmediatype, base.changentmsmediatype, fs.changentmsmediatype, ntmsapi/ChangeNtmsMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

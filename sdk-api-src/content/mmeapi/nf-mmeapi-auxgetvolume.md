@@ -7,7 +7,7 @@ old-location: multimedia\auxgetvolume.htm
 tech.root: Multimedia
 ms.assetid: a427cdb5-83ec-4529-847d-1494118ef926
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_auxGetVolume, auxGetVolume, auxGetVolume function [Windows Multimedia], mmeapi/auxGetVolume, multimedia.auxgetvolume"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,13 +69,6 @@ Identifier of the auxiliary output device to be queried.
 
 
 ### -param pdwVolume
-
-TBD
-
-
-
-
-#### - lpdwVolume
 
 Pointer to a variable to be filled with the current volume setting. The low-order word of this location contains the left channel volume setting, and the high-order word contains the right channel setting. A value of 0xFFFF represents full volume, and a value of 0x0000 is silence.
 

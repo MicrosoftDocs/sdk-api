@@ -7,7 +7,7 @@ old-location: mf\imfasyncresult_getstate.htm
 tech.root: medfound
 ms.assetid: f8ed8e71-6df7-4c94-b400-b4651a00db5b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetState method, IMFAsyncResult.GetState, IMFAsyncResult::GetState, f8ed8e71-6df7-4c94-b400-b4651a00db5b, mf.imfasyncresult_getstate, mfobjects/IMFAsyncResult::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

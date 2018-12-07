@@ -4,10 +4,10 @@ title: IMSVidVideoRenderer2::get__Allocator
 author: windows-sdk-content
 description: The get__Allocator method retrieves the allocator-presenter from the VMR.
 old-location: mstv\imsvidvideorenderer2_get__allocator.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: b22d643e-f458-4293-9f2b-e8bfe1499905
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get__Allocator method, IMSVidVideoRenderer2.get__Allocator, IMSVidVideoRenderer2::get__Allocator, IMSVidVideoRenderer2get__Allocator, get__Allocator, get__Allocator method [Microsoft TV Technologies], get__Allocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get__allocator, segment/IMSVidVideoRenderer2::get__Allocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get__Allocator</b> method retrieves the allocator-presenter from the VMR.
 
 
 
-### -param AllocPresent
-
-TBD
-
-
-
-
-#### - ppAllocPresent [out]
+### -param AllocPresent [out]
 
 Receives an <a href="https://msdn.microsoft.com/bbcbe152-80fd-469b-a79b-c8db6f97da22">IVMRSurfaceAllocator</a> interface pointer.
 

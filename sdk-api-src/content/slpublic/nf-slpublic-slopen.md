@@ -7,7 +7,7 @@ old-location: security\slopen.htm
 tech.root: SecSLApi
 ms.assetid: 79a09cf3-cf6f-479a-89c7-27f5fcee3186
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SLOpen, SLOpen function [Security], security.slopen, slpublic/SLOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

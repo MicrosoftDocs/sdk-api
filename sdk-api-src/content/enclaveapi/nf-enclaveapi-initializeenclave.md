@@ -4,10 +4,10 @@ title: InitializeEnclave function
 author: windows-sdk-content
 description: Initializes an enclave that you created and loaded with data.
 old-location: base\initializeenclave.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 6A711135-A522-40AE-965F-E1AF97D0076A
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave
 ms.prod: windows-hardware
 ms.technology: windows-devices

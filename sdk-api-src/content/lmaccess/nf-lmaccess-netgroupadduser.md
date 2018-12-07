@@ -4,10 +4,10 @@ title: NetGroupAddUser function
 author: windows-sdk-content
 description: The NetGroupAddUser function gives an existing user account membership in an existing global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupadduser.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: a2eefde8-29e3-4fa1-87db-c7f6d24b699d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NetGroupAddUser, NetGroupAddUser function [Network Management], _win32_netgroupadduser, lmaccess/NetGroupAddUser, netmgmt.netgroupadduser
 ms.prod: windows-hardware
 ms.technology: windows-devices

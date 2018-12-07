@@ -7,10 +7,10 @@ old-location: security\ctl_verify_usage_para.htm
 tech.root: seccrypto
 ms.assetid: bf9a3c81-f8c4-45a6-b045-8cbefebebbd3
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCTL_VERIFY_USAGE_PARA, CTL_VERIFY_USAGE_PARA, CTL_VERIFY_USAGE_PARA structure [Security], PCTL_VERIFY_USAGE_PARA, PCTL_VERIFY_USAGE_PARA structure pointer [Security], _CTL_VERIFY_USAGE_PARA, _crypto2_ctl_verify_usage_para, security.ctl_verify_usage_para, wincrypt/CTL_VERIFY_USAGE_PARA, wincrypt/PCTL_VERIFY_USAGE_PARA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

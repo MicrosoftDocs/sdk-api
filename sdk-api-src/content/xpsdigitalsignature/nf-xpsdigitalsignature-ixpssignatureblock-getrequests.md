@@ -7,7 +7,7 @@ old-location: xps\ixpssignatureblock_getrequests.htm
 tech.root: printdocs
 ms.assetid: 97050917-8b41-4e4f-80c5-d8f166897c96
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: GetRequests, GetRequests method [XPS Documents and Packaging], GetRequests method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetRequests method, IXpsSignatureBlock.GetRequests, IXpsSignatureBlock::GetRequests, xps.ixpssignatureblock_getrequests, xpsdigitalsignature/IXpsSignatureBlock::GetRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices

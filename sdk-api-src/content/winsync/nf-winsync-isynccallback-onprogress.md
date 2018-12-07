@@ -7,7 +7,7 @@ old-location: winsync\isynccallback_onprogress.htm
 tech.root: winsync
 ms.assetid: 4a4dad07-b169-4767-a118-3b5c6c8b9764
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnProgress method, ISyncCallback.OnProgress, ISyncCallback::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onprogress, winsync/ISyncCallback::OnProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_nextmethod.htm
 tech.root: WmiSdk
 ms.assetid: 4c11e043-518b-46f6-bb39-e80354ef2c8a
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],NextMethod method, IWbemClassObject.NextMethod, IWbemClassObject::NextMethod, NextMethod, NextMethod method [Windows Management Instrumentation], NextMethod method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_nextmethod, wbemcli/IWbemClassObject::NextMethod, wmi.iwbemclassobject_nextmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,9 +77,9 @@ This call is only supported if the current object is a CIM class definition. Met
 Reserved. This parameter must be 0 (zero).
 
 
-### -param pstrName
+### -param pstrName [out]
 
-TBD
+A pointer that should point to <b>NULL</b> prior to the call. This parameter receives the address of a <b>BSTR</b> value containing the method name. The caller must release the string using <b>SysFreeString</b> when it is no longer required.
 
 
 ### -param ppInSignature [out]
@@ -92,11 +92,6 @@ A pointer that receives a pointer to an
 
 A pointer that receives a pointer to an 
 <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> containing the out parameters for the method.
-
-
-#### - pName [out]
-
-A pointer that should point to <b>NULL</b> prior to the call. This parameter receives the address of a <b>BSTR</b> value containing the method name. The caller must release the string using <b>SysFreeString</b> when it is no longer required.
 
 
 ## -returns

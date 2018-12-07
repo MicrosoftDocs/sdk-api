@@ -7,7 +7,7 @@ old-location: rm\drmloadlibrary.htm
 tech.root: AdRms_Sdk
 ms.assetid: b0a95d3f-4252-4685-bc51-547620b5dcf7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMLoadLibrary, DRMLoadLibrary function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMLoadLibrary, rm.drmloadlibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,15 +2,15 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_FORMAT_INFO
 title: D3D12_FEATURE_DATA_FORMAT_INFO
 author: windows-sdk-content
-description: Describes the DXGI data format.
+description: Describes a DXGI data format and plane count.
 old-location: direct3d12\d3d12_feature_data_format_info.htm
 tech.root: direct3d12
 ms.assetid: 8695994A-CC83-451C-AD1B-65359656F3CC
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_FORMAT_INFO, D3D12_FEATURE_DATA_FORMAT_INFO structure, d3d12/D3D12_FEATURE_DATA_FORMAT_INFO, direct3d12.d3d12_feature_data_format_info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -50,8 +50,7 @@ req.redist:
 ## -description
 
 
-Describes the DXGI data format.
-        
+Describes a DXGI data format and plane count.
 
 
 ## -struct-fields
@@ -62,13 +61,11 @@ Describes the DXGI data format.
 ### -field Format
 
 A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the format to return info about.
-          
 
 
 ### -field PlaneCount
 
 The number of planes to provide information about.
-          
 
 
 ## -remarks
@@ -76,8 +73,32 @@ The number of planes to provide information about.
 
 
 See <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
-      
 
+
+#### Examples
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>inline UINT8 D3D12GetFormatPlaneCount(
+    _In_ ID3D12Device* pDevice,
+    DXGI_FORMAT Format
+    )
+{
+    D3D12_FEATURE_DATA_FORMAT_INFO formatInfo{ Format };
+    if (FAILED(pDevice-&gt;CheckFeatureSupport(D3D12_FEATURE_FORMAT_INFO, &amp;formatInfo, sizeof(formatInfo))))
+    {
+        return 0;
+    }
+    return formatInfo.PlaneCount;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

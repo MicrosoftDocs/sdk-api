@@ -7,7 +7,7 @@ old-location: rpc\rpcasyncgetcallhandle.htm
 tech.root: rpc
 ms.assetid: 5a218d25-187e-4899-8a27-a955f77af8c2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RpcAsyncGetCallHandle, RpcAsyncGetCallHandle macro [RPC], _rpc_rpcasyncgetcallhandle, rpc.rpcasyncgetcallhandle, rpcasync/RpcAsyncGetCallHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

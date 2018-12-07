@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivitiesreportcallback_onactivitiesreport.htm
 tech.root: medfound
 ms.assetid: B4D2332C-757F-4A2A-A12B-81BB503B02A4
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IMFSensorActivitiesReportCallback interface [Media Foundation],OnActivitiesReport method, IMFSensorActivitiesReportCallback.OnActivitiesReport, IMFSensorActivitiesReportCallback::OnActivitiesReport, OnActivitiesReport, OnActivitiesReport method [Media Foundation], OnActivitiesReport method [Media Foundation],IMFSensorActivitiesReportCallback interface, mf.imfsensoractivitiesreportcallback_onactivitiesreport, mfidl/IMFSensorActivitiesReportCallback::OnActivitiesReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ Raised by the media pipeline when a new <a href="https://msdn.microsoft.com/CECD
 
 
 
-### -param sensorActivitiesReport
-
-TBD
-
-
-
-
-#### - pActivities [in]
+### -param sensorActivitiesReport [in]
 
 Receives a pointer to the new <a href="https://msdn.microsoft.com/CECDE9D5-B5D4-4DF3-80A8-F4B0B37CC5C3">IMFSensorActivitiesReport</a>.
 

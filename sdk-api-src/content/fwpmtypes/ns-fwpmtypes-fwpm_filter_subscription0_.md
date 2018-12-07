@@ -9,8 +9,8 @@ ms.assetid: 723d2e27-420d-4eea-9ae1-d624807bf4ec
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWPM_FILTER_SUBSCRIPTION0, FWPM_FILTER_SUBSCRIPTION0 structure [Filtering], FWPM_FILTER_SUBSCRIPTION0_, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE, fwp.fwpm_filter_subscription0_struct, fwpmtypes/FWPM_FILTER_SUBSCRIPTION0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

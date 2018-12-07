@@ -4,13 +4,13 @@ title: "_WSDUdpMessageType"
 author: windows-sdk-content
 description: Identifies the type of UDP message.
 old-location: ncd\wsdudpmessagetype.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 0af4fd37-b1a9-4916-986c-e071c060d020
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ONE_WAY, TWO_WAY, WSDUdpMessageType, WSDUdpMessageType enumeration, _WSDUdpMessageType, ncd.wsdudpmessagetype, wsdbase/ONE_WAY, wsdbase/TWO_WAY, wsdbase/WSDUdpMessageType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

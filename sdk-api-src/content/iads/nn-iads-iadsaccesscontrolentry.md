@@ -4,13 +4,13 @@ title: IADsAccessControlEntry
 author: windows-sdk-content
 description: The IADsAccessControlEntry interface is a dual interface that enables directory clients to access and manipulate individual access-control entries (ACEs) of the owning object.
 old-location: adsi\iadsaccesscontrolentry.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 6d2cd45b-0dc6-4bb3-9c41-014bec71f258
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AccessControlEntry, IADsAccessControlEntry, IADsAccessControlEntry interface [ADSI], IADsAccessControlEntry interface [ADSI],described, _ds_iadsaccesscontrolentry, adsi.iadsaccesscontrolentry, iads/IADsAccessControlEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

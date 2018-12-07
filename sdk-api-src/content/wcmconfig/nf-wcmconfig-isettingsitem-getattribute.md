@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_getattribute.htm
 tech.root: SMI
 ms.assetid: 995184e4-05ff-41f1-9404-872a82bedd49
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetAttribute method, ISettingsItem.GetAttribute, ISettingsItem::GetAttribute, smi.isettingsitem_getattribute, wcmconfig/ISettingsItem::GetAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

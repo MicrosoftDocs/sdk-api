@@ -7,10 +7,10 @@ old-location: security\cryptxmldllgetalgorithminfo.htm
 tech.root: seccrypto
 ms.assetid: 36af2809-0dbb-4024-926c-7054b734e97c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CryptXmlDllGetAlgorithmInfo, CryptXmlDllGetAlgorithmInfo callback, CryptXmlDllGetAlgorithmInfo callback function [Security], cryptxml/CryptXmlDllGetAlgorithmInfo, security.cryptxmldllgetalgorithminfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

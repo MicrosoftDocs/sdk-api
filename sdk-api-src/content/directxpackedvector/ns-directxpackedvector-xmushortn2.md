@@ -7,10 +7,10 @@ old-location: dxmath\xmushortn2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUSHORTN2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: XMUSHORTN2, XMUSHORTN2 structure [DirectX Math Support APIs], directxpackedvector/XMUSHORTN2, dxmath.xmushortn2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -84,6 +84,16 @@ Unsigned integer in the range [0, 65536] describing the y-coordinate
 ### -field v
 
  
+
+
+### -field XMUSHORTN2
+
+TBD 
+
+
+### -field operator=
+
+TBD 
 
 
 

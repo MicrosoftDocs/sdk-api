@@ -1,16 +1,16 @@
 ---
 UID: NS:winsock.linger
-title: linger
+title: LINGER
 author: windows-sdk-content
 description: Maintains information about a specific socket that specifies how that socket should behave when data is queued to be sent and the closesocket function is called on the socket.
 old-location: winsock\linger_2.htm
 tech.root: winsock
 ms.assetid: c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPLINGER, *PLINGER, LINGER, _win32_linger_2, linger, linger structure [Winsock], winsock.linger_2, winsock/linger"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock.h
 req.include-header: Winsock2.h
@@ -44,7 +44,7 @@ req.typenames: LINGER, *PLINGER, *LPLINGER
 req.redist: 
 ---
 
-# linger structure
+# LINGER structure
 
 
 ## -description

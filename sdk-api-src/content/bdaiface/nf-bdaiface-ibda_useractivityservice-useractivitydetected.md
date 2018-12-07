@@ -4,10 +4,10 @@ title: IBDA_UserActivityService::UserActivityDetected
 author: windows-sdk-content
 description: Indicates that a Media Sink Device (MSD) in a Protected Broadcast Driver Architecture (PBDA) media graph has detected user activity and is informing a Media Transfer Device (MTD) of this activity.
 old-location: mstv\ibda_useractivityservice_useractivitydetected.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 24c5f6af-602d-4e96-9712-5444ffdd4fe6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_UserActivityService interface [Microsoft TV Technologies],UserActivityDetected method, IBDA_UserActivityService.UserActivityDetected, IBDA_UserActivityService::UserActivityDetected, UserActivityDetected, UserActivityDetected method [Microsoft TV Technologies], UserActivityDetected method [Microsoft TV Technologies],IBDA_UserActivityService interface, bdaiface/IBDA_UserActivityService::UserActivityDetected, mstv.ibda_useractivityservice_useractivitydetected
 ms.prod: windows-hardware
 ms.technology: windows-devices

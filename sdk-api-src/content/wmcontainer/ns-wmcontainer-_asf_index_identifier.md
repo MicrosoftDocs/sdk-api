@@ -7,10 +7,10 @@ old-location: mf\asf_index_identifier.htm
 tech.root: medfound
 ms.assetid: 8103a62e-6d1a-4dcd-af91-cedb30523004
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 8103a62e-6d1a-4dcd-af91-cedb30523004, ASF_INDEX_IDENTIFIER, ASF_INDEX_IDENTIFIER structure [Media Foundation], _ASF_INDEX_IDENTIFIER, mf.asf_index_identifier, wmcontainer/ASF_INDEX_IDENTIFIER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmcontainer.h
 req.include-header: 

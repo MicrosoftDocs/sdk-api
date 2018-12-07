@@ -4,13 +4,13 @@ title: "_HTTP_PROPERTY_FLAGS"
 author: windows-sdk-content
 description: Used by the property configuration structures to enable or disable a property on a configuration object when setting property configurations.
 old-location: http\http_property_flags.htm
-tech.root: Http
+tech.root: http
 ms.assetid: cafa3b04-ac8b-4269-bfa9-fe8e9ab65936
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS structure [HTTP], HTTP_PROPERTY_FLAGS, HTTP_PROPERTY_FLAGS structure [HTTP], _HTTP_PROPERTY_FLAGS, http.http_property_flags, http/*PHTTP_PROPERTY_FLAGS, http/HTTP_PROPERTY_FLAGS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

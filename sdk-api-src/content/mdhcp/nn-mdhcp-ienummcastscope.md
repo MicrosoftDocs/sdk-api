@@ -7,10 +7,10 @@ old-location: tapi3\ienummcastscope.htm
 tech.root: tapi
 ms.assetid: edc8be8e-635b-43f3-a4c1-7566e354cc3e
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumMcastScope, IEnumMcastScope interface [TAPI 2.2], IEnumMcastScope interface [TAPI 2.2],described, _tapi3_ienummcastscope, mdhcp/IEnumMcastScope, tapi3.ienummcastscope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mdhcp.h
 req.include-header: 

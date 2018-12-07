@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfaceluidtonamew.htm
 tech.root: IpHlp
 ms.assetid: e4269a6a-1237-4503-b7d7-756388458750
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ConvertInterfaceLuidToNameW, ConvertInterfaceLuidToNameW function [IP Helper], iphlp.convertinterfaceluidtonamew, netioapi/ConvertInterfaceLuidToNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

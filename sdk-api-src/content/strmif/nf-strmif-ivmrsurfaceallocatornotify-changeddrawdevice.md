@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatornotify_changeddrawdevice.htm
 tech.root: DirectShow
 ms.assetid: 4fc4a001-7522-45b0-9b55-510f3ee3eb6d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ChangeDDrawDevice, ChangeDDrawDevice method [DirectShow], ChangeDDrawDevice method [DirectShow],IVMRSurfaceAllocatorNotify interface, IVMRSurfaceAllocatorNotify interface [DirectShow],ChangeDDrawDevice method, IVMRSurfaceAllocatorNotify.ChangeDDrawDevice, IVMRSurfaceAllocatorNotify::ChangeDDrawDevice, IVMRSurfaceAllocatorNotifyChangeDDrawDevice, dshow.ivmrsurfaceallocatornotify_changeddrawdevice, strmif/IVMRSurfaceAllocatorNotify::ChangeDDrawDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,19 +62,14 @@ The <code>ChangeDDrawDevice</code> method notifies the VMR that the DirectDraw p
 
 
 
-### -param lpDDrawDevice
+### -param lpDDrawDevice [in]
 
-TBD
+Specifies the DirectDraw device.
 
 
 ### -param hMonitor [in]
 
 Specifies the handle to the monitor associated with the DirectDraw device.
-
-
-#### - lpDirectDrawDevice [in]
-
-Specifies the DirectDraw device.
 
 
 ## -returns

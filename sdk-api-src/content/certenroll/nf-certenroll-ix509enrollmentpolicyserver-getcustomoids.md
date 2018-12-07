@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetCustomOids
 author: windows-sdk-content
 description: Is not implemented.
 old-location: security\ix509enrollmentpolicyserver_getcustomoids.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 0db4e188-cef1-46af-b5c7-f18a8de5f1a7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetCustomOids, GetCustomOids method [Security], GetCustomOids method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCustomOids method, IX509EnrollmentPolicyServer.GetCustomOids, IX509EnrollmentPolicyServer::GetCustomOids, certenroll/IX509EnrollmentPolicyServer::GetCustomOids, security.ix509enrollmentpolicyserver_getcustomoids
 ms.prod: windows-hardware
 ms.technology: windows-devices

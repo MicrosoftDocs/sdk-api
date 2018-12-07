@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_OffsetX_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\offsetx.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Matrix class [GDI+],OffsetX method, Matrix.OffsetX, Matrix::OffsetX, OffsetX, OffsetX method [GDI+], OffsetX method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_OffsetX_, gdiplus._gdiplus_CLASS_Matrix_OffsetX_
 ms.prod: windows-hardware
 ms.technology: windows-devices

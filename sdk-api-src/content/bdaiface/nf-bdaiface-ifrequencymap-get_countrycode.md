@@ -4,10 +4,10 @@ title: IFrequencyMap::get_CountryCode
 author: windows-sdk-content
 description: The get_CountryCode method returns the country/region code the Network Provider is currently using. The country/region code determines which frequency table the Network Provider loads.
 old-location: mstv\ifrequencymap_get_countrycode.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 3f5e4109-e424-40be-9b3c-7eeef895e677
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_CountryCode method, IFrequencyMap.get_CountryCode, IFrequencyMap::get_CountryCode, IFrequencyMapget_CountryCode, bdaiface/IFrequencyMap::get_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_countrycode
 ms.prod: windows-hardware
 ms.technology: windows-devices

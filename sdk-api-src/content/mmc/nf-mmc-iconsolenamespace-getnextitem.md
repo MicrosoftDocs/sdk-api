@@ -7,7 +7,7 @@ old-location: mmc\iconsolenamespace2_getnextitem.htm
 tech.root: mmc
 ms.assetid: 8d512370-bfe5-4a5a-b34b-c1096b6473a3
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GetNextItem, GetNextItem method [MMC], GetNextItem method [MMC],IConsoleNameSpace interface, GetNextItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetNextItem method, IConsoleNameSpace.GetNextItem, IConsoleNameSpace2 interface [MMC],GetNextItem method, IConsoleNameSpace2::GetNextItem, IConsoleNameSpace::GetNextItem, _slate_iconsolenamespace2_getnextitem, mmc.iconsolenamespace2_getnextitem, mmc/IConsoleNameSpace2::GetNextItem, mmc/IConsoleNameSpace::GetNextItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ A handle to an item in the scope pane.
 A pointer to the handle to the next item in the scope pane that has been returned.
 
 
-### -param pCookie
-
-TBD
-
-
-
-
-#### - plCookie [out]
+### -param pCookie [out]
 
 A pointer to the cookie of the next item that has been returned.
 

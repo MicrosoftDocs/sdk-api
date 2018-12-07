@@ -4,13 +4,13 @@ title: IADsDomain
 author: windows-sdk-content
 description: The IADsDomain interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsdomain.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 9d4b1e9c-93b1-4aee-b20d-a7693fd0a61b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsDomain, IADsDomain interface [ADSI], IADsDomain interface [ADSI],described, _ds_iadsdomain, adsi.iadsdomain, iads/IADsDomain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

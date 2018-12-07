@@ -9,8 +9,8 @@ ms.assetid: cefd94ed-ed54-471d-97fc-d523cedd71d6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: GenTspec, GenTspec structure [QOS], lpmapi/GenTspec, qos.gentspec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

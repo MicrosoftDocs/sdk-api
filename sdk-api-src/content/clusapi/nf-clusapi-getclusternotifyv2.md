@@ -7,7 +7,7 @@ old-location: mscs\getclusternotifyv2.htm
 tech.root: mscs
 ms.assetid: 0AF127E1-D517-4F4B-B797-40822B3B236F
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: GetClusterNotifyV2, GetClusterNotifyV2 function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NOTIFY_V2, PCLUSAPI_GET_CLUSTER_NOTIFY_V2 function [Failover Cluster], clusapi/GetClusterNotifyV2, clusapi/PCLUSAPI_GET_CLUSTER_NOTIFY_V2, mscs.getclusternotifyv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,6 +156,53 @@ if the operation succeeds,  this function returns  <b>ERROR_SUCCESS</b>.
 
 If the operation fails, this function returns one of the following 
        <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+The handle that is represented in the <i>hChange</i> parameter is invalid or has been 
+         closed by another thread.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>WAIT_TIMEOUT</b></dt>
+<dt>258 (0x102)</dt>
+</dl>
+</td>
+<td width="60%">
+The call timed out before the notification could be successfully returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by the  <i>lpszName</i>  parameter is not big enough to hold the 
+         result. The <i>lpcchName</i> parameter returns the number of characters in the result, 
+         excluding the terminating null character.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

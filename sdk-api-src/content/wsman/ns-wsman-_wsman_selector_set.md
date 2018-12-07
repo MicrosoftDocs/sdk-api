@@ -4,13 +4,13 @@ title: "_WSMAN_SELECTOR_SET"
 author: windows-sdk-content
 description: Defines a set of keys that represent the identity of a resource.
 old-location: winrm\wsman_selector_set.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 8157c0e6-b992-46a9-9976-e57dd06e7f8b
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: WSMAN_SELECTOR_SET, WSMAN_SELECTOR_SET structure [Windows Remote Management], _WSMAN_SELECTOR_SET, winrm.wsman_selector_set, wsman/WSMAN_SELECTOR_SET
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

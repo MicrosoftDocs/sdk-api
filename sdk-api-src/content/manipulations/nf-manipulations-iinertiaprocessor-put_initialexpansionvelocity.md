@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_initialexpansionvelocity.htm
 tech.root: wintouch
 ms.assetid: c0e60b1c-98d0-4b50-ba5d-deda44debf56
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialExpansionVelocity property, IInertiaProcessor.InitialExpansionVelocity, IInertiaProcessor.put_InitialExpansionVelocity, IInertiaProcessor::InitialExpansionVelocity, IInertiaProcessor::get_InitialExpansionVelocity, IInertiaProcessor::put_InitialExpansionVelocity, InitialExpansionVelocity property [Windows Touch], InitialExpansionVelocity property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialExpansionVelocity, manipulations/IInertiaProcessor::get_InitialExpansionVelocity, manipulations/IInertiaProcessor::put_InitialExpansionVelocity, put_InitialExpansionVelocity, wintouch.iinertiaprocessor_initialexpansionvelocity
 ms.prod: windows-hardware
 ms.technology: windows-devices

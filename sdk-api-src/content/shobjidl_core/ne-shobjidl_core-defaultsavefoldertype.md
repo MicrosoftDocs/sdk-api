@@ -7,10 +7,10 @@ old-location: shell\DEFAULTSAVEFOLDERTYPE.htm
 tech.root: shell
 ms.assetid: 51478854-03b2-4e1a-bc07-b9ca7e6cc33d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DEFAULTSAVEFOLDERTYPE, DEFAULTSAVEFOLDERTYPE enumeration [Windows Shell], DSFT_DETECT, DSFT_PRIVATE, DSFT_PUBLIC, _shell_DEFAULTSAVEFOLDERTYPE, shell.DEFAULTSAVEFOLDERTYPE, shobjidl_core/DEFAULTSAVEFOLDERTYPE, shobjidl_core/DSFT_DETECT, shobjidl_core/DSFT_PRIVATE, shobjidl_core/DSFT_PUBLIC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

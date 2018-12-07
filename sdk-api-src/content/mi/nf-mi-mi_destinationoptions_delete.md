@@ -4,10 +4,10 @@ title: MI_DestinationOptions_Delete function
 author: windows-sdk-content
 description: Deletes the destination options structure created by using the MI_Application_NewDestinationOptions or MI_DestinationOptions_Clone function.
 old-location: wmi_v2\mi_destinationoptions_delete.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: c4cc8622-1adb-4e91-877f-11a260ca4bd7
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_Delete, MI_DestinationOptions_Delete function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_Delete, wmi_v2.mi_destinationoptions_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

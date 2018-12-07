@@ -4,10 +4,10 @@ title: IUPnPDescriptionDocument::DeviceByUDN
 author: windows-sdk-content
 description: The DeviceByUDN method returns the device with the specified unique device name (UDN) contained within the loaded description document.
 old-location: upnp\iupnpdescriptiondocument_devicebyudn.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 0f8ae379-3ec6-4fe2-ae7b-fe3750a5d4c3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DeviceByUDN, DeviceByUDN method [UPnP APIs], DeviceByUDN method [UPnP APIs],IUPnPDescriptionDocument interface, IUPnPDescriptionDocument interface [UPnP APIs],DeviceByUDN method, IUPnPDescriptionDocument.DeviceByUDN, IUPnPDescriptionDocument::DeviceByUDN, _upnp_iupnpdescriptiondocument_devicebyudn, upnp.iupnpdescriptiondocument_devicebyudn, upnp/IUPnPDescriptionDocument::DeviceByUDN
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsetintx.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntX(XMVECTOR,uint32_t)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSetIntX, XMVectorSetIntX, XMVectorSetIntX method [DirectX Math Support APIs], dxmath.xmvectorsetintx
 ms.prod: windows-hardware
 ms.technology: windows-devices

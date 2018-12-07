@@ -7,10 +7,10 @@ old-location: mf\mfcreatevideopresenter.htm
 tech.root: medfound
 ms.assetid: 04a1ce0d-f1ed-4b8a-827c-600297660442
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 04a1ce0d-f1ed-4b8a-827c-600297660442, MFCreateVideoPresenter, MFCreateVideoPresenter callback, MFCreateVideoPresenter callback function [Media Foundation], evr/MFCreateVideoPresenter, mf.mfcreatevideopresenter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: evr.h
 req.include-header: 

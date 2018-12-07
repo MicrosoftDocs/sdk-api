@@ -7,7 +7,7 @@ old-location: base\symgetmodulebase64.htm
 tech.root: debug
 ms.assetid: 964d0fdb-d982-4509-8c49-0ad0a3491226
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: SymGetModuleBase, SymGetModuleBase function, SymGetModuleBase64, SymGetModuleBase64 function, _win32_symgetmodulebase64, base.symgetmodulebase64, dbghelp/SymGetModuleBase, dbghelp/SymGetModuleBase64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,14 +65,7 @@ A handle to the process that was originally passed to the
 <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
 
 
-### -param dwAddr
-
-TBD
-
-
-
-
-#### - qwAddr [in]
+### -param dwAddr [in]
 
 The virtual address that is contained in one of the modules loaded by the 
 <a href="https://msdn.microsoft.com/be50588b-066b-42ab-ba81-7537c811676f">SymLoadModule64</a> function.

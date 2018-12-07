@@ -4,10 +4,10 @@ title: IRDPSRAPIViewer::StartReverseConnectListener
 author: windows-sdk-content
 description: Initiates a listener for accepting reverse connections from the sharer to the viewer, or obtains the connection string that the sharer uses to reverse connect to the viewer.
 old-location: rdp\irdpsrapiviewer_startreverseconnectlistener.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 6e45e21f-f3a5-4a9e-9d63-45d7a1972114
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],StartReverseConnectListener method, IRDPSRAPIViewer.StartReverseConnectListener, IRDPSRAPIViewer::StartReverseConnectListener, StartReverseConnectListener, StartReverseConnectListener method [RDP], StartReverseConnectListener method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_startreverseconnectlistener, rdpencomapi/IRDPSRAPIViewer::StartReverseConnectListener
 ms.prod: windows-hardware
 ms.technology: windows-devices

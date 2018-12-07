@@ -7,10 +7,10 @@ old-location: fs\ntms_iedoorinformation.htm
 tech.root: Rsm
 ms.assetid: a0619420-f391-4695-a87e-8cbf8d3a3742
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NTMS_DOORSTATE_CLOSED, NTMS_DOORSTATE_OPEN, NTMS_DOORSTATE_UNKNOWN, NTMS_IEDOORINFORMATION, NTMS_IEDOORINFORMATION structure [Files], _NTMS_IEDOORINFORMATION, _zaw_ntms_iedoorinformation, base.ntms_iedoorinformation, fs.ntms_iedoorinformation, ntmsapi/NTMS_IEDOORINFORMATION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 

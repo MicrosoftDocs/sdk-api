@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetLastUpdateTime
 author: windows-sdk-content
 description: Retrieves the date and time at which the policy was last downloaded.
 old-location: security\ix509enrollmentpolicyserver_getlastupdatetime.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 6f0ec30a-9a93-47f9-8046-8eba6eb3b1da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetLastUpdateTime, GetLastUpdateTime method [Security], GetLastUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetLastUpdateTime method, IX509EnrollmentPolicyServer.GetLastUpdateTime, IX509EnrollmentPolicyServer::GetLastUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetLastUpdateTime, security.ix509enrollmentpolicyserver_getlastupdatetime
 ms.prod: windows-hardware
 ms.technology: windows-devices

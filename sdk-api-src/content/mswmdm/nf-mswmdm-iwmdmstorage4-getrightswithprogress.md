@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage4_getrightswithprogress.htm
 tech.root: WMDM
 ms.assetid: 63df4448-75f0-4152-a308-15f6f10e8564
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRightsWithProgress, GetRightsWithProgress method [windows Media Device Manager], GetRightsWithProgress method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetRightsWithProgress method, IWMDMStorage4.GetRightsWithProgress, IWMDMStorage4::GetRightsWithProgress, IWMDMStorage4GetRightsWithProgress, mswmdm/IWMDMStorage4::GetRightsWithProgress, wmdm.iwmdmstorage4_getrightswithprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices

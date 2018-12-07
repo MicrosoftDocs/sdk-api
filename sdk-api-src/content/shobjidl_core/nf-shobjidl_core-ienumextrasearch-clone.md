@@ -7,7 +7,7 @@ old-location: shell\IEnumExtraSearch_Clone.htm
 tech.root: shell
 ms.assetid: 9d766cf9-784b-4e89-ad58-bab6415630fe
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumExtraSearch interface, IEnumExtraSearch interface [Windows Shell],Clone method, IEnumExtraSearch.Clone, IEnumExtraSearch::Clone, _win32_IEnumExtraSearch_Clone, shell.IEnumExtraSearch_Clone, shobjidl_core/IEnumExtraSearch::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,13 +59,6 @@ Used to request a duplicate of the enumerator object to preserve its current sta
 
 
 ### -param ppenum
-
-TBD
-
-
-
-
-#### - ppEnum
 
 Type: <b><a href="https://msdn.microsoft.com/63b71cd2-483b-482f-b3f4-6d5c937e7708">IEnumExtraSearch</a>**</b>
 

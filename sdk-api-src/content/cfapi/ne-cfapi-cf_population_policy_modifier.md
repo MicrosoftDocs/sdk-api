@@ -7,10 +7,10 @@ old-location: cloudapi\cf_population_policy_modifier.htm
 tech.root: cfApi
 ms.assetid: E8F8066C-BAAE-4576-BA8F-49074F7C3C8F
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CF_POPULATION_POLICY_MODIFIER, CF_POPULATION_POLICY_MODIFIER enumeration, CF_POPULATION_POLICY_MODIFIER_NONE, cfapi/CF_POPULATION_POLICY_MODIFIER, cfapi/CF_POPULATION_POLICY_MODIFIER_NONE, cloudApi.cf_population_policy_modifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

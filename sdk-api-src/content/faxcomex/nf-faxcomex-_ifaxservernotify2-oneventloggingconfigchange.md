@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxservernotify2_oneventloggingconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_oneventloggingconfigchange.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnEventLoggingConfigChange method, IFaxServerNotify2.OnEventLoggingConfigChange, IFaxServerNotify2::OnEventLoggingConfigChange, OnEventLoggingConfigChange, OnEventLoggingConfigChange method [Fax Service], OnEventLoggingConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnEventLoggingConfigChange, _IFaxServerNotify2::OnEventLoggingConfigChange, _mfax_ifaxservernotify2_oneventloggingconfigchange, fax._mfax_ifaxservernotify2_oneventloggingconfigchange, faxcomex/IFaxServerNotify2::OnEventLoggingConfigChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,13 +60,6 @@ The fax service calls the <b>IFaxServerNotify2::OnEventLoggingConfigChange</b> m
 
 
 ### -param pFaxServer
-
-TBD
-
-
-
-
-#### - pFaxServer2
 
 Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
 

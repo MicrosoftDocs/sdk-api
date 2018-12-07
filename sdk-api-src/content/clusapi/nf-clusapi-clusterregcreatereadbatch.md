@@ -7,7 +7,7 @@ old-location: mscs\clusterregcreatereadbatch.htm
 tech.root: mscs
 ms.assetid: FED3986E-7383-46C4-B2D5-259812EF63A2
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterRegCreateReadBatch, ClusterRegCreateReadBatch function [Failover Cluster], clusapi/ClusterRegCreateReadBatch, mscs.clusterregcreatereadbatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,6 +77,38 @@ A pointer to the handle of the created read batch.
 
 The function returns one of the following 
        <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_OUTOFMEMORY</b></dt>
+<dt>14</dt>
+</dl>
+</td>
+<td width="60%">
+Not enough storage is available to complete this operation.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

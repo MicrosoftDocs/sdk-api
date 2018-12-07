@@ -7,7 +7,7 @@ old-location: setup\imsmerror_get_databasetable.htm
 tech.root: msi
 ms.assetid: fee774b3-66ee-4ffd-b000-8032118e9a9d
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmError interface,get_DatabaseTable method, IMsmError.get_DatabaseTable, IMsmError::get_DatabaseTable, _msi_get_databasetable_function, get_DatabaseTable, get_DatabaseTable method, get_DatabaseTable method,IMsmError interface, mergemod/IMsmError::get_DatabaseTable, setup.imsmerror_get_databasetable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The
 
 
 
-### -param ErrorTable
-
-TBD
-
-
-
-
-#### - Table [out]
+### -param ErrorTable [out]
 
 A pointer to a location in memory that is filled in with a <b>BSTR</b> value.
 

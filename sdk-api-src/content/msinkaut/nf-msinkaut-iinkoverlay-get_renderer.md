@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_renderer.htm
 tech.root: tablet
 ms.assetid: 1f43fa5a-1b08-41bc-9871-f4e0c53b61e9
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IInkOverlay interface [Tablet PC],Renderer property, IInkOverlay.Renderer, IInkOverlay.get_Renderer, IInkOverlay::Renderer, IInkOverlay::get_Renderer, IInkOverlay::put_Renderer, InkOverlay.get_Renderer, InkOverlay.put_Renderer, Renderer property [Tablet PC], Renderer property [Tablet PC],IInkOverlay interface, get_Renderer, msinkaut/IInkOverlay::Renderer, msinkaut/IInkOverlay::get_Renderer, msinkaut/IInkOverlay::put_Renderer, putref_Renderer, tablet.inkoverlay_renderer
 ms.prod: windows-hardware
 ms.technology: windows-devices

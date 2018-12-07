@@ -4,10 +4,10 @@ title: CVssWriter::OnPrepareBackup
 author: windows-sdk-content
 description: The OnPrepareBackup method is called by a writer following a PrepareForBackup event. This method is used to configure a writer's state and its components in preparation for a backup operation.
 old-location: base\cvsswriter_onpreparebackup.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 4e88d92b-48f3-42f9-bf66-61337a745902
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],OnPrepareBackup method, CVssWriter.OnPrepareBackup, CVssWriter::OnPrepareBackup, OnPrepareBackup, OnPrepareBackup method [VSS], OnPrepareBackup method [VSS],CVssWriter interface, _win32_cvsswriter_onpreparebackup, base.cvsswriter_onpreparebackup, vswriter/CVssWriter::OnPrepareBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,7 @@ The
 
 
 
-### -param pComponent
-
-TBD
-
-
-
-
-#### - pWriterComponents [in]
+### -param pComponent [in]
 
 Pointer to an instantiation of an 
 <a href="https://msdn.microsoft.com/e8ff2491-014c-43c7-bdce-99ed3b408605">IVssWriterComponents</a> object containing the contents of the Writer Metadata Document. The value of this parameter may be <b>NULL</b> if the requester does not support components (if 

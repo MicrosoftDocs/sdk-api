@@ -7,7 +7,7 @@ old-location: base\readprocessmemory.htm
 tech.root: debug
 ms.assetid: 8774e145-ee7f-44de-85db-0445b905f986
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ReadProcessMemory, ReadProcessMemory function, _win32_readprocessmemory, base.readprocessmemory, memoryapi/ReadProcessMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

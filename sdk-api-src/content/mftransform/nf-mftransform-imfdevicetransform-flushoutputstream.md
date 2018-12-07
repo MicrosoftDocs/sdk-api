@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_flushoutputstream.htm
 tech.root: stream
 ms.assetid: 261CA606-2813-4FE4-955D-6AEA338EC0FC
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: FlushOutputStream, FlushOutputStream method [Streaming Media Devices], FlushOutputStream method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],FlushOutputStream method, IMFDeviceTransform.FlushOutputStream, IMFDeviceTransform::FlushOutputStream, mftransform/IMFDeviceTransform::FlushOutputStream, stream.imfdevicetransform_flushoutputstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,14 @@ The <b>FlushOutputStream</b> method flushes a Device MFT’s output stream.
 
 
 
-### -param dwStreamIndex
+### -param dwStreamIndex [in]
 
-TBD
+Stream ID of the output stream which needs to be flushed.
 
 
 ### -param dwFlags [in]
 
 Must be zero.
-
-
-#### - dwStreamID [in]
-
-Stream ID of the output stream which needs to be flushed.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IFolderAction::put_Size
 author: windows-sdk-content
 description: Retrieves or sets the minimum folder size that, when exceeded, initiates the actions.
 old-location: pla\ifolderaction_size.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 6df7b5fb-0f36-4e7e-95fb-f0157fc57cbf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IFolderAction interface [PLA],Size property, IFolderAction.Size, IFolderAction.put_Size, IFolderAction::Size, IFolderAction::get_Size, IFolderAction::put_Size, Size property [PLA], Size property [PLA],IFolderAction interface, base.ifolderaction_size, pla.ifolderaction_size, pla/IFolderAction::Size, pla/IFolderAction::get_Size, pla/IFolderAction::put_Size, put_Size
 ms.prod: windows-hardware
 ms.technology: windows-devices

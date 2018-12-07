@@ -7,10 +7,10 @@ old-location: security\icertpolicy2.htm
 tech.root: seccrypto
 ms.assetid: 2e48b096-e23a-4106-bfaf-f089d2291fba
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ICertPolicy2, ICertPolicy2 interface [Security], ICertPolicy2 interface [Security],described, _certsrv_icertpolicy2, certpol/ICertPolicy2, security.icertpolicy2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certpol.h
 req.include-header: Certsrv.h

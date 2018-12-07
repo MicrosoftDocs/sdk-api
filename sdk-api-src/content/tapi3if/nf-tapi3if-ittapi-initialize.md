@@ -7,7 +7,7 @@ old-location: tapi3\ittapi_initialize.htm
 tech.root: tapi
 ms.assetid: 822ca3fe-8deb-4fe3-8b83-060eae69840c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],Initialize method, ITTAPI.Initialize, ITTAPI::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_initialize, tapi3.ittapi_initialize, tapi3if/ITTAPI::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

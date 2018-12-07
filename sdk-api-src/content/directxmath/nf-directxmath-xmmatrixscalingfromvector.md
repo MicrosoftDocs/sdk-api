@@ -7,7 +7,7 @@ old-location: dxmath\xmmatrixscalingfromvector.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixScalingFromVector(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMMatrixScalingFromVector, XMMatrixScalingFromVector, XMMatrixScalingFromVector method [DirectX Math Support APIs], dxmath.xmmatrixscalingfromvector
 ms.prod: windows-hardware
 ms.technology: windows-devices

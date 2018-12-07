@@ -7,7 +7,7 @@ old-location: security\iocspcaconfigurationcollection_deletecaconfiguration_meth
 tech.root: seccrypto
 ms.assetid: 3733d98c-d262-4083-bac9-109720059f0b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteCAConfiguration, DeleteCAConfiguration method [Security], DeleteCAConfiguration method [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],DeleteCAConfiguration method, IOCSPCAConfigurationCollection.DeleteCAConfiguration, IOCSPCAConfigurationCollection::DeleteCAConfiguration, certadm/IOCSPCAConfigurationCollection::DeleteCAConfiguration, security.iocspcaconfigurationcollection_deletecaconfiguration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

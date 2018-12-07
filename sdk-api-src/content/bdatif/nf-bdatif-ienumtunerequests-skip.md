@@ -4,10 +4,10 @@ title: IEnumTuneRequests::Skip
 author: windows-sdk-content
 description: The Skip method skips over the specified number of items in the collection.
 old-location: mstv\ienumtunerequests_skip.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 43ed5c7e-2d31-417e-9d87-c3100e5096d0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Skip method, IEnumTuneRequests.Skip, IEnumTuneRequests::Skip, IEnumTuneRequestsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Skip, mstv.ienumtunerequests_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

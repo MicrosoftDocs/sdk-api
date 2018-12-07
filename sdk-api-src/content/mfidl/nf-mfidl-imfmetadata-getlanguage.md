@@ -7,7 +7,7 @@ old-location: mf\imfmetadata_getlanguage.htm
 tech.root: medfound
 ms.assetid: 75295c93-a389-42c4-aa56-debc36a5f532
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 75295c93-a389-42c4-aa56-debc36a5f532, GetLanguage, GetLanguage method [Media Foundation], GetLanguage method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetLanguage method, IMFMetadata.GetLanguage, IMFMetadata::GetLanguage, mf.imfmetadata_getlanguage, mfidl/IMFMetadata::GetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

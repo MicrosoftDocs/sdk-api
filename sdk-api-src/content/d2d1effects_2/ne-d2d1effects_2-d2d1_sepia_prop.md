@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_sepia_prop.htm
 tech.root: direct2d
 ms.assetid: 159897D5-DB46-46B7-A88B-CC57D1AC8DE5
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_SEPIA_PROP, D2D1_SEPIA_PROP enumeration [Direct2D], D2D1_SEPIA_PROP_ALPHA_MODE, D2D1_SEPIA_PROP_INTENSITY, d2d1effects_2/D2D1_SEPIA_PROP, d2d1effects_2/D2D1_SEPIA_PROP_ALPHA_MODE, d2d1effects_2/D2D1_SEPIA_PROP_INTENSITY, direct2d.d2d1_sepia_prop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects_2.h
 req.include-header: 

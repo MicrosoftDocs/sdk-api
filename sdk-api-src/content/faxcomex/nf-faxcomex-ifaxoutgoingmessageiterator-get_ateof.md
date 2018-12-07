@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageit
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3w6e.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],IFaxOutgoingMessageIterator interface, IFaxOutgoingMessageIterator interface [Fax Service],AtEOF property, IFaxOutgoingMessageIterator.AtEOF, IFaxOutgoingMessageIterator.get_AtEOF, IFaxOutgoingMessageIterator::AtEOF, IFaxOutgoingMessageIterator::get_AtEOF, _mfax_faxoutgoingmessageiterator.ateof, fax._mfax_faxoutgoingmessageiterator_ateof, fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_ateof_cpp, faxcomex/IFaxOutgoingMessageIterator::AtEOF, faxcomex/IFaxOutgoingMessageIterator::get_AtEOF, get_AtEOF
 ms.prod: windows-hardware
 ms.technology: windows-devices

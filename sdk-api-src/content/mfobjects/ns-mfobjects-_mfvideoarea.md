@@ -7,10 +7,10 @@ old-location: mf\mfvideoarea.htm
 tech.root: medfound
 ms.assetid: d22b8b9c-399b-4fce-a173-833005b5bf03
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MFVideoArea, MFVideoArea structure [Media Foundation], _MFVideoArea, d22b8b9c-399b-4fce-a173-833005b5bf03, mf.mfvideoarea, mfobjects/MFVideoArea
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

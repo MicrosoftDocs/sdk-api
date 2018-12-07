@@ -7,10 +7,10 @@ old-location: wic\_wic_codec_iwicmetadatablockwriter.htm
 tech.root: wic
 ms.assetid: d8e44c64-dd58-4d36-8add-0a0b2e2af5a4
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWICMetadataBlockWriter, IWICMetadataBlockWriter interface [Windows Imaging Component], IWICMetadataBlockWriter interface [Windows Imaging Component],described, _wic_codec_iwicmetadatablockwriter, wic._wic_codec_iwicmetadatablockwriter, wincodecsdk/IWICMetadataBlockWriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 

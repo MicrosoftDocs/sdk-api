@@ -7,10 +7,10 @@ old-location: dhcp\dhcpds_servers.htm
 tech.root: DHCP
 ms.assetid: 0f5fe4f3-4eaa-498b-ab48-bfb5ee8f5527
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDHCPDS_SERVERS, *PDHCPDS_SERVERS, DHCPDS_SERVERS, DHCPDS_SERVERS structure [DHCP], DHCP_SERVER_INFO_ARRAY, DHCP_SERVER_INFO_ARRAY structure [DHCP], LPDHCPDS_SERVERS *PDHCPDS_SERVERS, LPDHCPDS_SERVERS *PDHCPDS_SERVERS structure pointer [DHCP], LPDHCP_SERVER_INFO_ARRAY *PDHCP_SERVER_INFO_ARRAY, LPDHCP_SERVER_INFO_ARRAY *PDHCP_SERVER_INFO_ARRAY structure pointer [DHCP], PDHCPDS_SERVERS, PDHCPDS_SERVERS structure pointer [DHCP], PDHCP_SERVER_INFO_ARRAY, PDHCP_SERVER_INFO_ARRAY structure pointer [DHCP], _DHCPDS_SERVERS, dhcp.dhcpds_servers, dhcpsapi/DHCP_SERVER_INFO_ARRAY, dhcpsapi/LPDHCPDS_SERVERS *PDHCPDS_SERVERS, dhcpsapi/LPDHCP_SERVER_INFO_ARRAY *PDHCP_SERVER_INFO_ARRAY, dhcpsapi/PDHCPDS_SERVERS, dhcpsapi/PDHCP_SERVER_INFO_ARRAY, dhcpsapi/_DHCPDS_SERVERS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

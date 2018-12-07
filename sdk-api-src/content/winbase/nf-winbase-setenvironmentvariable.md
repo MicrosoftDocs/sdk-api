@@ -7,7 +7,7 @@ old-location: base\setenvironmentvariable.htm
 tech.root: procthread
 ms.assetid: 95bd6fa5-886d-41dc-a5c3-ede86dbfa15d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SetEnvironmentVariable, SetEnvironmentVariable function, SetEnvironmentVariableA, SetEnvironmentVariableW, _win32_setenvironmentvariable, base.setenvironmentvariable, processenv/SetEnvironmentVariable, processenv/SetEnvironmentVariableA, processenv/SetEnvironmentVariableW, winbase/SetEnvironmentVariable, winbase/SetEnvironmentVariableA, winbase/SetEnvironmentVariableW
 ms.prod: windows-hardware
 ms.technology: windows-devices

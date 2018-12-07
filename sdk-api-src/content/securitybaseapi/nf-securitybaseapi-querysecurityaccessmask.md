@@ -4,10 +4,10 @@ title: QuerySecurityAccessMask function
 author: windows-sdk-content
 description: Creates an access mask that represents the access permissions necessary to query the specified object security information.
 old-location: security\querysecurityaccessmask.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 70379640-28b7-4503-9ba8-789786078d4a
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: QuerySecurityAccessMask, QuerySecurityAccessMask function [Security], security.querysecurityaccessmask, securitybaseapi/QuerySecurityAccessMask, winbase/QuerySecurityAccessMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

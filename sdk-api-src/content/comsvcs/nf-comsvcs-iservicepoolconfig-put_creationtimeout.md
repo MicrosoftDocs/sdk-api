@@ -7,7 +7,7 @@ old-location: cos\iservicepoolconfig_put_creationtimeout.htm
 tech.root: cossdk
 ms.assetid: 04beabf7-831d-4c53-880e-f1fc22f2f20d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_CreationTimeout method, IServicePoolConfig.put_CreationTimeout, IServicePoolConfig::put_CreationTimeout, comsvcs/IServicePoolConfig::put_CreationTimeout, cos.iservicepoolconfig_put_creationtimeout, put_CreationTimeout, put_CreationTimeout method [COM+], put_CreationTimeout method [COM+],IServicePoolConfig interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

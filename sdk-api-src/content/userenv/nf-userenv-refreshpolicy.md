@@ -4,10 +4,10 @@ title: RefreshPolicy function
 author: windows-sdk-content
 description: The RefreshPolicy function causes policy to be applied immediately on the client computer.
 old-location: policy\refreshpolicy.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: e08cb006-d174-4506-87f0-580660bd4023
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: RefreshPolicy, RefreshPolicy function [Group Policy], _win32_refreshpolicy, policy.refreshpolicy, userenv/RefreshPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

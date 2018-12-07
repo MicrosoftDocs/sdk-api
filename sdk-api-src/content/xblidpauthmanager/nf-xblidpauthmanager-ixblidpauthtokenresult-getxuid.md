@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getxuid.htm
 tech.root: xblidp
 ms.assetid: 9D5AFA02-06F8-4050-A84C-CF0B4F1FC51B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetXuid, GetXuid method, GetXuid method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetXuid method, IXblIdpAuthTokenResult.GetXuid, IXblIdpAuthTokenResult::GetXuid, xblidp.ixblidpauthtokenresult_getxuid, xblidpauthmanager/IXblIdpAuthTokenResult::GetXuid
 ms.prod: windows-hardware
 ms.technology: windows-devices

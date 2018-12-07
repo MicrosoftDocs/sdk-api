@@ -4,13 +4,13 @@ title: "_HTTP_CONNECTION_LIMIT_INFO"
 author: windows-sdk-content
 description: Used to set or query the limit on the maximum number of outstanding connections for a URL Group.
 old-location: http\http_connection_limit_info.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 6d2c1eeb-d248-4ca5-80b3-5c9f69ce8b9b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_CONNECTION_LIMIT_INFO, *PHTTP_CONNECTION_LIMIT_INFO structure [HTTP], HTTP_CONNECTION_LIMIT_INFO, HTTP_CONNECTION_LIMIT_INFO structure [HTTP], _HTTP_CONNECTION_LIMIT_INFO, http.http_connection_limit_info, http/*PHTTP_CONNECTION_LIMIT_INFO, http/HTTP_CONNECTION_LIMIT_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

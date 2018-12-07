@@ -7,10 +7,10 @@ old-location: wsw\ws_nettcp_url.htm
 tech.root: wsw
 ms.assetid: 62079e59-01c8-48fb-932a-ca01cc7b86ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_NETTCP_URL, WS_NETTCP_URL structure [Web Services for Windows], _WS_NETTCP_URL, webservices/WS_NETTCP_URL, wsw.ws_nettcp_url
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

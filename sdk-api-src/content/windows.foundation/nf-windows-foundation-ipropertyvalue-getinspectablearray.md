@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvalue_getinspectablearray.htm
 tech.root: WinRT
 ms.assetid: 0af4f31f-e121-4cb2-8e83-c774bf25cae5
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetInspectableArray, GetInspectableArray method [Windows Runtime], GetInspectableArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInspectableArray method, IPropertyValue.GetInspectableArray, IPropertyValue.IPropertyValue, IPropertyValue::GetInspectableArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInspectableArray, winrt.ipropertyvalue_getinspectablearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Gets the array of pointers to <a href="https://msdn.microsoft.com/0657E51F-D4C0-
 
 
 
-### -param __valueSize
+### -param __valueSize [out]
 
-TBD
+Type: <b>UINT32*</b>
+
+The number of values in the array.
 
 
 ### -param value [out]
@@ -70,13 +72,6 @@ Type: <b>IInspectable**</b>
 The array of pointers to <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> objects.
 
 The returned pointer must be freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
-
-
-#### - length [out]
-
-Type: <b>UINT32*</b>
-
-The number of values in the array.
 
 
 ## -returns

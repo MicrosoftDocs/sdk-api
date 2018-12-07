@@ -4,10 +4,10 @@ title: ITraceDataProvider::GetSecurity
 author: windows-sdk-content
 description: Retrieves the security information for the trace data provider.
 old-location: pla\itracedataprovider_getsecurity.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 2f1618db-aa43-4cac-a652-db172781e988
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetSecurity, GetSecurity method [PLA], GetSecurity method [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],GetSecurity method, ITraceDataProvider.GetSecurity, ITraceDataProvider::GetSecurity, pla.itracedataprovider_getsecurity, pla/ITraceDataProvider::GetSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

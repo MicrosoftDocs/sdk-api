@@ -4,10 +4,10 @@ title: IWSManSession::Create
 author: windows-sdk-content
 description: Creates a new instance of a resource and returns the endpoint reference (EPR) of the new object.
 old-location: winrm\iwsmansession_create.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 7e8b561e-c724-427b-88a0-34a6c8a9c6bd
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: Create, Create method [Windows Remote Management], Create method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Create method, IWSManSession.Create, IWSManSession::Create, winrm.iwsmansession_create, wsmandisp/IWSManSession::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices

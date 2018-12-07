@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundrouting_getmethods_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2x9v_cpp.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: GetMethods, GetMethods method [Fax Service], GetMethods method [Fax Service],IFaxInboundRouting interface, IFaxInboundRouting interface [Fax Service],GetMethods method, IFaxInboundRouting.GetMethods, IFaxInboundRouting::GetMethods, _mfax_faxinboundrouting.getmethods_cpp, fax._mfax_faxinboundrouting_getmethods_cpp, faxcomex/IFaxInboundRouting::GetMethods
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>IFaxInboundRouting::GetMethods</b> method retrieves the ordered collectio
 
 
 
-### -param pFaxInboundRoutingMethods
-
-TBD
-
-
-
-
-#### - ppFaxInboundRoutingMethods [out, retval]
+### -param pFaxInboundRoutingMethods [out, retval]
 
 Type: <b><a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a>**</b>
 

@@ -4,10 +4,10 @@ title: IMSVidStreamBufferRecordingControl::get_RecordingType
 author: windows-sdk-content
 description: The get_RecordingType method retrieves the type of recording, either content recording or reference recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingtype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 23f63c44-4970-42b2-a19a-0a28e7fb5dea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingType method, IMSVidStreamBufferRecordingControl.get_RecordingType, IMSVidStreamBufferRecordingControl::get_RecordingType, IMSVidStreamBufferRecordingControlget_RecordingType, get_RecordingType, get_RecordingType method [Microsoft TV Technologies], get_RecordingType method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingtype, segment/IMSVidStreamBufferRecordingControl::get_RecordingType
 ms.prod: windows-hardware
 ms.technology: windows-devices

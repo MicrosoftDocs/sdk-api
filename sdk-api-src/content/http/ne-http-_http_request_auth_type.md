@@ -4,13 +4,13 @@ title: "_HTTP_REQUEST_AUTH_TYPE"
 author: windows-sdk-content
 description: The HTTP_REQUEST_AUTH_TYPE enumeration defines the authentication types supported by the HTTP Server API.This enumeration is used in the HTTP_REQUEST_AUTH_INFO structure.
 old-location: http\http_request_auth_type.htm
-tech.root: Http
+tech.root: http
 ms.assetid: e0147da5-7de2-4ea8-abc5-61c814ee7c55
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_REQUEST_AUTH_TYPE, *PHTTP_REQUEST_AUTH_TYPE enumeration [HTTP], HTTP_REQUEST_AUTH_TYPE, HTTP_REQUEST_AUTH_TYPE enumeration [HTTP], HttpRequestAuthTypeBasic, HttpRequestAuthTypeDigest, HttpRequestAuthTypeKerberos, HttpRequestAuthTypeNTLM, HttpRequestAuthTypeNegotiate, HttpRequestAuthTypeNone, _HTTP_REQUEST_AUTH_TYPE, http.http_request_auth_type, http/*PHTTP_REQUEST_AUTH_TYPE, http/HTTP_REQUEST_AUTH_TYPE, http/HttpRequestAuthTypeBasic, http/HttpRequestAuthTypeDigest, http/HttpRequestAuthTypeKerberos, http/HttpRequestAuthTypeNTLM, http/HttpRequestAuthTypeNegotiate, http/HttpRequestAuthTypeNone"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: http.h
 req.include-header: 

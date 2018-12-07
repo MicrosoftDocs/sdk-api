@@ -7,10 +7,10 @@ old-location: audio\iaudioprocessingobjectconfiguration.htm
 tech.root: audio
 ms.assetid: 6311a5d1-b9d3-4c62-99aa-8feda32b4a2f
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: IAudioProcessingObjectConfiguration, IAudioProcessingObjectConfiguration interface [Audio Devices], IAudioProcessingObjectConfiguration interface [Audio Devices],described, audio.iaudioprocessingobjectconfiguration, audio_syseffects_r_b3847e21-94ea-45b3-9ae4-ccdb83f262aa.xml, audioenginebaseapo/IAudioProcessingObjectConfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 

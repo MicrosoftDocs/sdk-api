@@ -4,10 +4,10 @@ title: MI_SubscriptionDeliveryOptions_SetString function
 author: windows-sdk-content
 description: Sets the value of a named string option that is not covered by a dedicated function.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setstring.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: c2bcf5b7-24c1-43cd-bf65-18ad891be7b8
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetString, MI_SubscriptionDeliveryOptions_SetString function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetString, wmi_v2.mi_subscriptiondeliveryoptions_setstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidInputDevices::get_Item
 author: windows-sdk-content
 description: The get_Item method retrieves the specified item from the collection.
 old-location: mstv\imsvidinputdevices_get_item.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4d8b2d88-e591-4280-966b-9c23f05d55f9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],get_Item method, IMSVidInputDevices.get_Item, IMSVidInputDevices::get_Item, IMSVidInputDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_get_item, segment/IMSVidInputDevices::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ The <b>get_Item</b> method retrieves the specified item from the collection.
 <b>VARIANT</b> that specifies the index of the item to retrieve.
 
 
-### -param pDB
-
-TBD
-
-
-
-
-#### - ppDB [out]
+### -param pDB [out]
 
 Address of a variable that receives an <a href="https://msdn.microsoft.com/5b413ade-4ab2-45fa-98b2-fd93c8f89a43">IMSVidInputDevice</a> interface pointer.
 

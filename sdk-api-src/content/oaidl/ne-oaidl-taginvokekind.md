@@ -9,8 +9,8 @@ ms.assetid: df6d392e-88f9-4d22-b257-fb6de8abd289
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: INVOKEKIND, INVOKEKIND enumeration [Automation], INVOKE_FUNC, INVOKE_PROPERTYGET, INVOKE_PROPERTYPUT, INVOKE_PROPERTYPUTREF, _oa96_INVOKEKIND, automat.invokekind, oaidl/INVOKEKIND, oaidl/INVOKE_FUNC, oaidl/INVOKE_PROPERTYGET, oaidl/INVOKE_PROPERTYPUT, oaidl/INVOKE_PROPERTYPUTREF, tagINVOKEKIND
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: OleAuto.h

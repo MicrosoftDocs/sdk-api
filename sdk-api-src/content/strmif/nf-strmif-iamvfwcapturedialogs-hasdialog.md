@@ -7,7 +7,7 @@ old-location: dshow\iamvfwcapturedialogs_hasdialog.htm
 tech.root: DirectShow
 ms.assetid: be2d9b1f-c53f-4a75-89ab-ec07c655cbea
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: HasDialog, HasDialog method [DirectShow], HasDialog method [DirectShow],IAMVfwCaptureDialogs interface, IAMVfwCaptureDialogs interface [DirectShow],HasDialog method, IAMVfwCaptureDialogs.HasDialog, IAMVfwCaptureDialogs::HasDialog, IAMVfwCaptureDialogsHasDialog, dshow.iamvfwcapturedialogs_hasdialog, strmif/IAMVfwCaptureDialogs::HasDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

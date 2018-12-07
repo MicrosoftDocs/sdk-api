@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetTextColor.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_gettextcolor.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: TreeView_GetTextColor, TreeView_GetTextColor macro [Windows Controls], _win32_TreeView_GetTextColor, _win32_TreeView_GetTextColor_cpp, commctrl/TreeView_GetTextColor, controls.TreeView_GetTextColor, controls._win32_TreeView_GetTextColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

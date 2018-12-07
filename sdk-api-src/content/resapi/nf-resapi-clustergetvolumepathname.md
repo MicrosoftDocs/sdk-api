@@ -7,7 +7,7 @@ old-location: mscs\clustergetvolumepathname.htm
 tech.root: mscs
 ms.assetid: eff2995a-d17c-4899-bff5-ead9526f859d
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterGetVolumePathName, ClusterGetVolumePathName function [Failover Cluster], PCLUSTER_GET_VOLUME_PATH_NAME, PCLUSTER_GET_VOLUME_PATH_NAME function [Failover Cluster], mscs.clustergetvolumepathname, resapi/ClusterGetVolumePathName, resapi/PCLUSTER_GET_VOLUME_PATH_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,18 +150,11 @@ Output: "\\?\GLOBALROOT\Device\HarddiskVolume1\ClusterStorage\Volume31\"
       <b>TCHAR</b>-based data types instead of <b>WCHAR</b>-based 
       data types. The UNICODE preprocessor define must be set before ResApi.h is included.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-      data types. The UNICODE preprocessor define must be set before ResApi.h is included.<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define UNICODE 1
-#include &lt;ResApi.h&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+#define UNICODE 1
+#include <ResApi.h>
+```
 
 
 

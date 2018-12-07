@@ -7,7 +7,7 @@ old-location: mf\imfnetcredentialcache_getcredential.htm
 tech.root: medfound
 ms.assetid: 7e095445-354a-4fbb-b354-bf87eb77552f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 7e095445-354a-4fbb-b354-bf87eb77552f, GetCredential, GetCredential method [Media Foundation], GetCredential method [Media Foundation],IMFNetCredentialCache interface, IMFNetCredentialCache interface [Media Foundation],GetCredential method, IMFNetCredentialCache.GetCredential, IMFNetCredentialCache::GetCredential, mf.imfnetcredentialcache_getcredential, mfidl/IMFNetCredentialCache::GetCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,14 +82,7 @@ Bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft
 Receives a pointer to the <a href="https://msdn.microsoft.com/d202e7bc-9ce0-4861-8552-5a4d599b1661">IMFNetCredential</a> interface. The caller must release the interface.
 
 
-### -param pdwRequirementsFlags
-
-TBD
-
-
-
-
-#### - pdwFlags [out]
+### -param pdwRequirementsFlags [out]
 
 Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/9257d1d7-7ccb-4172-82f0-3694ebb9d487">MFNetCredentialRequirements</a> enumeration.
 

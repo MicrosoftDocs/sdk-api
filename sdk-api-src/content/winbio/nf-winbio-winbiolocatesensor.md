@@ -7,7 +7,7 @@ old-location: secbiomet\winbiolocatesensor.htm
 tech.root: SecBioMet
 ms.assetid: 61110f24-aa3b-4c51-9205-acac92e03554
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WinBioLocateSensor, WinBioLocateSensor function [Windows Biometric Framework API], secbiomet.winbiolocatesensor, winbio/WinBioLocateSensor
 ms.prod: windows-hardware
 ms.technology: windows-devices

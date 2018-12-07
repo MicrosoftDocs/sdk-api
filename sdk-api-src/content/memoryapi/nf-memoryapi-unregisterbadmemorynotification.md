@@ -4,10 +4,10 @@ title: UnregisterBadMemoryNotification function
 author: windows-sdk-content
 description: Closes the specified bad memory notification handle.
 old-location: base\unregisterbadmemorynotification.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 8c1246fe-341a-4b21-922d-ec8a9c82a6df
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: UnregisterBadMemoryNotification, UnregisterBadMemoryNotification function, base.unregisterbadmemorynotification, winbase/UnregisterBadMemoryNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

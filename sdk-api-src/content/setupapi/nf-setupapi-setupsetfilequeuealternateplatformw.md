@@ -7,7 +7,7 @@ old-location: setup\setupsetfilequeuealternateplatform.htm
 tech.root: SetupApi
 ms.assetid: 86289ab5-c313-470d-9ac1-3651c23af979
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetupSetFileQueueAlternatePlatform, SetupSetFileQueueAlternatePlatform function [Setup API], SetupSetFileQueueAlternatePlatformA, SetupSetFileQueueAlternatePlatformW, _setupapi_setupsetfilequeuealternateplatform, setup.setupsetfilequeuealternateplatform, setupapi/SetupSetFileQueueAlternatePlatform, setupapi/SetupSetFileQueueAlternatePlatformA, setupapi/SetupSetFileQueueAlternatePlatformW
 ms.prod: windows-hardware
 ms.technology: windows-devices

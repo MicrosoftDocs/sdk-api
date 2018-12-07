@@ -4,10 +4,10 @@ title: IVdsIscsiPortal::QueryAssociatedPortalGroups
 author: windows-sdk-content
 description: Returns an enumeration of the portal groups with which the portal is associated.
 old-location: base\ivdsiscsiportal_queryassociatedportalgroups.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 6b8dbfc8-9112-4ca9-9976-ac3bf859588d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],QueryAssociatedPortalGroups method, IVdsIscsiPortal.QueryAssociatedPortalGroups, IVdsIscsiPortal::QueryAssociatedPortalGroups, QueryAssociatedPortalGroups, QueryAssociatedPortalGroups method [VDS], QueryAssociatedPortalGroups method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_queryassociatedportalgroups, vds/IVdsIscsiPortal::QueryAssociatedPortalGroups, vdshwprv/IVdsIscsiPortal::QueryAssociatedPortalGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

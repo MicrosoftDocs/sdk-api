@@ -7,10 +7,10 @@ old-location: base\peb_ldr_data.htm
 tech.root: procthread
 ms.assetid: 2e03b513-5c03-4436-99f8-3a6d3a45aff2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPEB_LDR_DATA, PEB_LDR_DATA, PEB_LDR_DATA structure, PPEB_LDR_DATA, PPEB_LDR_DATA structure pointer, _PEB_LDR_DATA, base.peb_ldr_data, winternl/PEB_LDR_DATA, winternl/PPEB_LDR_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winternl.h
 req.include-header: 

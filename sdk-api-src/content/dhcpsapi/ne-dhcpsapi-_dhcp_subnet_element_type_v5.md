@@ -7,10 +7,10 @@ old-location: dhcp\dhcp_subnet_element_type.htm
 tech.root: DHCP
 ms.assetid: 291be329-0588-4b67-835f-4f2b2369772a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_TYPE, DHCP_SUBNET_ELEMENT_TYPE, DHCP_SUBNET_ELEMENT_TYPE enumeration [DHCP], DhcpExcludedIpRanges, DhcpIpRanges, DhcpIpRangesBootpOnly, DhcpIpRangesDhcpBootp, DhcpIpRangesDhcpOnly, DhcpReservedIps, DhcpSecondaryHosts, LPDHCP_SUBNET_ELEMENT_TYPE, LPDHCP_SUBNET_ELEMENT_TYPE enumeration pointer [DHCP], _DHCP_SUBNET_ELEMENT_TYPE_V5, dhcp.dhcp_subnet_element_type, dhcpsapi/DHCP_SUBNET_ELEMENT_TYPE, dhcpsapi/DhcpExcludedIpRanges, dhcpsapi/DhcpIpRanges, dhcpsapi/DhcpIpRangesBootpOnly, dhcpsapi/DhcpIpRangesDhcpBootp, dhcpsapi/DhcpIpRangesDhcpOnly, dhcpsapi/DhcpReservedIps, dhcpsapi/DhcpSecondaryHosts, dhcpsapi/LPDHCP_SUBNET_ELEMENT_TYPE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 

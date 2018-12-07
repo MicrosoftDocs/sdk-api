@@ -4,10 +4,10 @@ title: IDataCollectorSetCollection::GetDataCollectorSets
 author: windows-sdk-content
 description: Populates the data collector set collection.
 old-location: pla\idatacollectorsetcollection_getdatacollectorsets.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 190c96ad-6193-4f74-906f-180575e6e418
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetDataCollectorSets, GetDataCollectorSets method [PLA], GetDataCollectorSets method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],GetDataCollectorSets method, IDataCollectorSetCollection.GetDataCollectorSets, IDataCollectorSetCollection::GetDataCollectorSets, base.idatacollectorsetcollection_getdatacollectorsets, pla.idatacollectorsetcollection_getdatacollectorsets, pla/IDataCollectorSetCollection::GetDataCollectorSets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,26 +58,14 @@ Populates the data collector set collection.
 
 
 
-### -param server
-
-TBD
-
-
-### -param filter
-
-TBD
-
-
-
-
-#### - pFilter [in]
-
-If empty, PLA enumerates sets from all namespaces; otherwise, specify a specific namespace to enumerate. The form is &lt;namespace&gt;\*. For possible namespace values, see <a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">IDataCollectorSet::Commit</a>.
-
-
-#### - pServer [in]
+### -param server [in]
 
 The computer whose data collector sets you want to enumerate. You can specify a computer name, a fully qualified domain name, or an IP address (IPv4 or IPv6 format). If <b>NULL</b>, PLA enumerates the sets on the local computer.
+
+
+### -param filter [in]
+
+If empty, PLA enumerates sets from all namespaces; otherwise, specify a specific namespace to enumerate. The form is &lt;namespace&gt;\*. For possible namespace values, see <a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">IDataCollectorSet::Commit</a>.
 
 
 ## -returns

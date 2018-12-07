@@ -7,10 +7,10 @@ old-location: mmc\mmc_column_data.htm
 tech.root: mmc
 ms.assetid: 93825514-1732-4a07-a323-d4f0cdfe955e
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: MMC_COLUMN_DATA, MMC_COLUMN_DATA structure [MMC], _MMC_COLUMN_DATA, _slate_mmc_column_data, mmc.mmc_column_data, mmc/MMC_COLUMN_DATA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

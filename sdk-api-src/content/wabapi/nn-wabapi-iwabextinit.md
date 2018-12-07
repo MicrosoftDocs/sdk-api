@@ -7,10 +7,10 @@ old-location: wab\_wab_IWABExtInit.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabextinit\iwabextinit.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWABExtInit, IWABExtInit interface [Windows Address Book], IWABExtInit interface [Windows Address Book],described, _wab_IWABExtInit, wab._wab_IWABExtInit, wabapi/IWABExtInit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wabapi.h
 req.include-header: 

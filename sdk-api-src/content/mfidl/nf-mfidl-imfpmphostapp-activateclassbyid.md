@@ -7,7 +7,7 @@ old-location: mf\imfpmphostapp_activateclassbyid.htm
 tech.root: medfound
 ms.assetid: e0e14171-fcc9-418a-a93d-3cdbae254a3f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ActivateClassById, ActivateClassById method [Media Foundation], ActivateClassById method [Media Foundation],IMFPMPHostApp interface, IMFPMPHostApp interface [Media Foundation],ActivateClassById method, IMFPMPHostApp.ActivateClassById, IMFPMPHostApp::ActivateClassById, mf.imfpmphostapp_activateclassbyid, mfidl/IMFPMPHostApp::ActivateClassById
 ms.prod: windows-hardware
 ms.technology: windows-devices

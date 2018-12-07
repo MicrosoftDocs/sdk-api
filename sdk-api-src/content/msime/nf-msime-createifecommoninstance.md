@@ -7,7 +7,7 @@ old-location: intl\createifecommoninstance.htm
 tech.root: Intl
 ms.assetid: A8A0CCC4-0A60-4E2A-9E6D-DC2C614B631D
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: CreateIFECommonInstance, CreateIFECommonInstance function [Internationalization for Windows Applications], intl.createifecommoninstance, msime/CreateIFECommonInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

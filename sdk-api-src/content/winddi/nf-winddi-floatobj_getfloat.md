@@ -7,7 +7,7 @@ old-location: display\floatobj_getfloat.htm
 tech.root: display
 ms.assetid: 1deddee5-c987-45b0-bb0f-ff4f766fdde0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: FLOATOBJ_GetFloat, FLOATOBJ_GetFloat function [Display Devices], display.floatobj_getfloat, gdifncs_6f6c6936-a1f3-41d0-835d-52abc1140cc2.xml, winddi/FLOATOBJ_GetFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices

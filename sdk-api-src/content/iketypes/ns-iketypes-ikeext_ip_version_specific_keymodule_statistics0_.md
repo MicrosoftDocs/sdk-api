@@ -9,8 +9,8 @@ ms.assetid: 5b5bb140-ca44-4a46-bb96-aba0b499e94f
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0, IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0 structure [Filtering], IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0_, fwp.ikeext_ip_version_specific_keymodule_statistics0, iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

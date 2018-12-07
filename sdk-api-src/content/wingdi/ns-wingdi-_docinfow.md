@@ -7,10 +7,10 @@ old-location: gdi\docinfo.htm
 tech.root: printdocs
 ms.assetid: 329bf0d9-399b-4f64-a029-361ef7558aeb
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDOCINFOW, DOCINFO, DOCINFO structure [Windows GDI], DOCINFOW, LPDOCINFO, LPDOCINFO structure pointer [Windows GDI], _DOCINFOW, _win32_DOCINFO_str, gdi.docinfo, wingdi/DOCINFO, wingdi/LPDOCINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

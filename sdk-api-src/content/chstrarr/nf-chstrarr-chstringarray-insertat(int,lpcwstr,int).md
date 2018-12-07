@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_insertat_int__lpcwstr__int_.htm
 tech.root: WmiSdk
 ms.assetid: 0c8e519a-ace8-47ce-a538-138e8f9720a6
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],InsertAt(int,LPCWSTR,int) method, CHStringArray.InsertAt, CHStringArray.InsertAt(int,LPCWSTR,int), CHStringArray::InsertAt, CHStringArray::InsertAt(int,LPCWSTR,int), InsertAt, InsertAt(int,LPCWSTR,int) method [Windows Management Instrumentation], InsertAt(int,LPCWSTR,int) method [Windows Management Instrumentation],CHStringArray interface, chstrarr/CHStringArray::InsertAt(int,LPCWSTR,int), wmi.chstringarray_insertat_int__lpcwstr__int_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- chstrarr.h
+: 
+- CHStringArray.InsertAt
+: 
 ---
 
 # CHStringArray::InsertAt(int,LPCWSTR,int)

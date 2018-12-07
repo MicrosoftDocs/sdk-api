@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession::GetDesktopSharedRect
 author: windows-sdk-content
 description: Retrieves the current desktop region being shared.
 old-location: rdp\irdpsrapisharingsession_getdesktopsharedrect.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: 2b224fa2-928d-4222-80a6-91f654b97ae1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetDesktopSharedRect, GetDesktopSharedRect method [RDP], GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession interface, GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession.GetDesktopSharedRect, IRDPSRAPISharingSession2 interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession2::GetDesktopSharedRect, IRDPSRAPISharingSession::GetDesktopSharedRect, rdp.irdpsrapisharingsession_getdesktopsharedrect, rdpencomapi/IRDPSRAPISharingSession2::GetDesktopSharedRect, rdpencomapi/IRDPSRAPISharingSession::GetDesktopSharedRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,54 +59,32 @@ Retrieves the current desktop region being shared.
 
 
 
-### -param pleft
-
-TBD
-
-
-### -param ptop
-
-TBD
-
-
-### -param pright
-
-TBD
-
-
-### -param pbottom
-
-TBD
-
-
-
-
-#### - bottom [out]
-
-Type: <b>long*</b>
-
-Y-coordinate of the lower-right corner of the shared rectangle.
-
-
-#### - left [out]
+### -param pleft [out]
 
 Type: <b>long*</b>
 
 X-coordinate of the upper-left corner of the shared rectangle.
 
 
-#### - right [out]
+### -param ptop [out]
+
+Type: <b>long*</b>
+
+Y-coordinate of the upper-left corner of the shared rectangle.
+
+
+### -param pright [out]
 
 Type: <b>long*</b>
 
 X-coordinate of the lower-right corner of the shared rectangle.
 
 
-#### - top [out]
+### -param pbottom [out]
 
 Type: <b>long*</b>
 
-Y-coordinate of the upper-left corner of the shared rectangle.
+Y-coordinate of the lower-right corner of the shared rectangle.
 
 
 ## -returns

@@ -7,10 +7,10 @@ old-location: mf\d3d11_video_color_ycbcra.htm
 tech.root: medfound
 ms.assetid: 242D6032-62E5-4915-B074-6E595A12F912
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11_VIDEO_COLOR_YCbCrA, D3D11_VIDEO_COLOR_YCbCrA structure [Media Foundation], d3d11/D3D11_VIDEO_COLOR_YCbCrA, mf.d3d11_video_color_ycbcra
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

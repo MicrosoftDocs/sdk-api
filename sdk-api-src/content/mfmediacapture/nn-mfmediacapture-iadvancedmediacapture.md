@@ -7,10 +7,10 @@ old-location: mf\iadvancedmediacapture.htm
 tech.root: medfound
 ms.assetid: 932b0cbf-c264-4c3b-b143-023dd7f809f1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IAdvancedMediaCapture, IAdvancedMediaCapture interface [Media Foundation], IAdvancedMediaCapture interface [Media Foundation],described, mf.iadvancedmediacapture, mfmediacapture/IAdvancedMediaCapture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediacapture.h
 req.include-header: 

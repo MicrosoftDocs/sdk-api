@@ -4,10 +4,10 @@ title: IOfflineFilesPinInfo::IsPinnedForUser
 author: windows-sdk-content
 description: Determines whether the item was pinned by a user.
 old-location: of\iofflinefilespininfo_ispinnedforuser.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: d0064423-b173-40e5-96c6-dd6dcf05598d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForUser method, IOfflineFilesPinInfo.IsPinnedForUser, IOfflineFilesPinInfo::IsPinnedForUser, IsPinnedForUser, IsPinnedForUser method [Offline Files], IsPinnedForUser method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForUser, of.iofflinefilespininfo_ispinnedforuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -9,8 +9,8 @@ ms.assetid: e9ce9e61-c395-4f6b-843c-c1caa13ac3b4
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: AUTHNEXTSTEP, AUTHNEXTSTEP enumeration [WebDAV], CancelRequest, DefaultBehavior, RetryRequest, davclnt/AUTHNEXTSTEP, davclnt/CancelRequest, davclnt/DefaultBehavior, davclnt/RetryRequest, webdav.authnextstep
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: davclnt.h
 req.include-header: 

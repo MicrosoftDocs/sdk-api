@@ -4,13 +4,13 @@ title: IRegistrationTrigger
 author: windows-sdk-content
 description: Represents a trigger that starts a task when the task is registered or updated.
 old-location: taskschd\iregistrationtrigger.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 0862f7ac-69d6-4271-8d39-c5bd7038a95e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IRegistrationTrigger, IRegistrationTrigger interface [Task Scheduler], IRegistrationTrigger interface [Task Scheduler],described, registration trigger [Task Scheduler],interface, taskschd.iregistrationtrigger, taskschd/IRegistrationTrigger
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

@@ -4,13 +4,13 @@ title: "_WSMAN_PLUGIN_REQUEST"
 author: windows-sdk-content
 description: Specifies information for a plug-in request.
 old-location: winrm\wsman_plugin_request.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 3191f2b3-e754-4f2d-ae8b-11da859c94b7
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: WSMAN_PLUGIN_REQUEST, WSMAN_PLUGIN_REQUEST structure [Windows Remote Management], _WSMAN_PLUGIN_REQUEST, winrm.wsman_plugin_request, wsman/WSMAN_PLUGIN_REQUEST
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

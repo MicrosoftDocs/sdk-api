@@ -7,7 +7,7 @@ old-location: controls\Edit_SetHilite.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_sethilite.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Edit_SetHilite, Edit_SetHilite macro [Windows Controls], _shell_Edit_SetHilite, _shell_Edit_SetHilite_cpp, commctrl/Edit_SetHilite, controls.Edit_SetHilite, controls._shell_Edit_SetHilite
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: etw\itracerelogger_registercallback.htm
 tech.root: etw
 ms.assetid: d3c739bd-9285-49ec-b2cf-d607f3d9be0c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITraceRelogger interface [ETW],RegisterCallback method, ITraceRelogger.RegisterCallback, ITraceRelogger::RegisterCallback, RegisterCallback, RegisterCallback method [ETW], RegisterCallback method [ETW],ITraceRelogger interface, etw.itracerelogger_registercallback, relogger/ITraceRelogger::RegisterCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

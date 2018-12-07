@@ -7,7 +7,7 @@ old-location: fs\accessntmslibrarydoor.htm
 tech.root: Rsm
 ms.assetid: c7bc4582-4405-4e42-a8bf-e2e8c68bbd7e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AccessNtmsLibraryDoor, AccessNtmsLibraryDoor function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, _zaw_accessntmslibrarydoor, base.accessntmslibrarydoor, fs.accessntmslibrarydoor, ntmsapi/AccessNtmsLibraryDoor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_feature_data_shader_model.htm
 tech.root: direct3d12
 ms.assetid: 17978B9A-D21B-4A8A-B367-12F4ABC43A94
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_SHADER_MODEL, D3D12_FEATURE_DATA_SHADER_MODEL structure, d3d12/D3D12_FEATURE_DATA_SHADER_MODEL, direct3d12.d3d12_feature_data_shader_model
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -70,8 +70,7 @@ Specifies one member of  <a href="https://msdn.microsoft.com/8C0674AF-CFDD-4511-
 Refer to  the enumeration constant D3D12_FEATURE_SHADER_MODEL in the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a> enumeration.
       
 
-When used with the <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> function, the <b>HighestShaderModel</b> field should be initialized before invocation to the highest shader model that the application understands. After a successful invocation, the <b>HighestShaderModel</b> field will contain the highest shader model supported by the device that is no higher than the initial value.
-      
+When used with the <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> function, before calling the function initialize the <b>HighestShaderModel</b> field to the highest shader model that your  application understands.  After the function completes successfully, the <b>HighestShaderModel</b> field contains the highest shader model that is both supported by the device and no higher than the shader model passed in.
 
 
 
@@ -82,6 +81,10 @@ When used with the <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A
 
 
 <a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>
  
 
  

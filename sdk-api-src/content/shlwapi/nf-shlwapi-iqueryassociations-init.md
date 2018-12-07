@@ -7,7 +7,7 @@ old-location: shell\IQueryAssociations_Init.htm
 tech.root: shell
 ms.assetid: cb1bcfc1-dbaa-48f8-8547-408f6560753e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CLSID, Executable name, File name extension, IQueryAssociations interface [Windows Shell],Init method, IQueryAssociations.Init, IQueryAssociations::Init, Init, Init method [Windows Shell], Init method [Windows Shell],IQueryAssociations interface, ProgID, _win32_IQueryAssociations_Init, shell.IQueryAssociations_Init, shlwapi/IQueryAssociations::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,24 +78,7 @@ A flag that specifies how the search is to be initialized. It is typically set t
 </li>
 </ul>
 
-### -param pszAssoc
-
-TBD
-
-
-### -param hkProgid [in, optional]
-
-Type: <b>HKEY</b>
-
-The HKEY value of the subkey that is used as a root key. The search looks only below this key. If a value is specified for <i>pwszAssoc</i>, set this parameter to <b>NULL</b>.
-
-
-### -param hwnd [in, optional]
-
-Type: <b>HWND</b>
-
-
-#### - pwszAssoc [in, optional]
+### -param pszAssoc [in, optional]
 
 Type: <b>LPCWSTR</b>
 
@@ -124,6 +107,18 @@ An application's ProgID, such as <b>Word.Document.8</b>.
 #### Executable name
 
 The name of an application's .exe file. The <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+
+
+### -param hkProgid [in, optional]
+
+Type: <b>HKEY</b>
+
+The HKEY value of the subkey that is used as a root key. The search looks only below this key. If a value is specified for <i>pwszAssoc</i>, set this parameter to <b>NULL</b>.
+
+
+### -param hwnd [in, optional]
+
+Type: <b>HWND</b>
 
 
 ## -returns

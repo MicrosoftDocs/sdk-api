@@ -4,10 +4,10 @@ title: IBackgroundCopyJob2::GetReplyFileName
 author: windows-sdk-content
 description: Retrieves the name of the file that contains the reply data from the server application. Call this method only if the job type is BG_JOB_TYPE_UPLOAD_REPLY.
 old-location: bits\ibackgroundcopyjob2_getreplyfilename.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 57f9245c-c1ae-4027-8e84-4926fa4861c3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetReplyFileName, GetReplyFileName method [BITS], GetReplyFileName method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyFileName method, IBackgroundCopyJob2.GetReplyFileName, IBackgroundCopyJob2::GetReplyFileName, _drz_ibackgroundcopyjob2_getreplyfilename, bits.ibackgroundcopyjob2_getreplyfilename, bits1_5/IBackgroundCopyJob2::GetReplyFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: fax\_mfax_fax_schedule_type_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5ust.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: FAX_SCHEDULE_TYPE_ENUM, FAX_SCHEDULE_TYPE_ENUM enumeration [Fax Service], _mfax_fax_schedule_type_enum, fax._mfax_fax_schedule_type_enum, faxcomex/FAX_SCHEDULE_TYPE_ENUM, faxcomex/fstDISCOUNT_PERIOD, faxcomex/fstNOW, faxcomex/fstSPECIFIC_TIME, fstDISCOUNT_PERIOD, fstNOW, fstSPECIFIC_TIME
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

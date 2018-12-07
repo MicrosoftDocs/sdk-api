@@ -7,10 +7,10 @@ old-location: wmdm\iscpsecureauthenticate2.htm
 tech.root: WMDM
 ms.assetid: 8123f4d2-dcd4-4ff8-a7cf-be8d5f2bf285
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISCPSecureAuthenticate2, ISCPSecureAuthenticate2 interface [windows Media Device Manager], ISCPSecureAuthenticate2 interface [windows Media Device Manager],described, ISCPSecureAuthenticate2Interface, mswmdm/ISCPSecureAuthenticate2, wmdm.iscpsecureauthenticate2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

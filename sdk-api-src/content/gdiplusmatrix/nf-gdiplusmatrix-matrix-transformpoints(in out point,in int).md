@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformpointsmethods\transformpoints_78pointpts_intcount.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Matrix class [GDI+],TransformPoints method, Matrix.TransformPoints, Matrix.TransformPoints(IN OUT Point,IN INT), Matrix.TransformPoints(Point*,INT), Matrix::TransformPoints, Matrix::TransformPoints(IN OUT Point,IN INT), TransformPoints, TransformPoints method [GDI+], TransformPoints method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_, gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

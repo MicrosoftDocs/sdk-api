@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_processevent.htm
 tech.root: stream
 ms.assetid: 6E8B208C-A492-41C8-9A86-34B11375053B
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessEvent method, IMFDeviceTransform.ProcessEvent, IMFDeviceTransform::ProcessEvent, ProcessEvent, ProcessEvent method [Streaming Media Devices], ProcessEvent method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessEvent, stream.imfdevicetransform_processevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,14 @@ The <b>ProcessEvent</b> method sends an event to an input stream on this Media F
 
 
 
-### -param dwInputStreamID
+### -param dwInputStreamID [in]
 
-TBD
+Stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/378A8E3F-8B1E-4C0B-9C30-FE78E1939422">IMFDeviceTransform::GetStreamIDs</a>.
 
 
 ### -param pEvent [in]
 
 Pointer to the <a href="https://msdn.microsoft.com/b4f686be-9472-433c-b983-6c48dfd3ac76">IMFMediaEvent</a> interface of an event object.
-
-
-#### - dwStreamID [in]
-
-Stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/378A8E3F-8B1E-4C0B-9C30-FE78E1939422">IMFDeviceTransform::GetStreamIDs</a>.
 
 
 ## -returns

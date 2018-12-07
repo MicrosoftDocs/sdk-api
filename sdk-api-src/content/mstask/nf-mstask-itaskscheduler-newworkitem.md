@@ -4,10 +4,10 @@ title: ITaskScheduler::NewWorkItem
 author: windows-sdk-content
 description: The NewWorkItem method creates a new work item, allocating space for the work item and retrieving its address.
 old-location: taskschd\itaskscheduler_newworkitem.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 1fbd65ae-0b54-4175-bf26-4226b1aabdc1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],NewWorkItem method, ITaskScheduler.NewWorkItem, ITaskScheduler::NewWorkItem, NewWorkItem, NewWorkItem method [Task Scheduler], NewWorkItem method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_newworkitem, mstask/ITaskScheduler::NewWorkItem, taskschd.itaskscheduler_newworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,14 +77,7 @@ The reference identifier of the interface being requested. The only interface su
 <a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a>, has the identifier IID_ITask.
 
 
-### -param ppUnk
-
-TBD
-
-
-
-
-#### - ppunk [out]
+### -param ppUnk [out]
 
 A pointer to an interface pointer that receives the requested interface. See Remarks for information on saving the work item to disk.
 

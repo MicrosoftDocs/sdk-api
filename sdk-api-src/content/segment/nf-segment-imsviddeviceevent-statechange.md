@@ -4,10 +4,10 @@ title: IMSVidDeviceEvent::StateChange
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsviddeviceevent_statechange.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 0f7a5e37-5a0d-415e-aca0-df5f9448b017
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidDeviceEvent interface [Microsoft TV Technologies],StateChange method, IMSVidDeviceEvent.StateChange, IMSVidDeviceEvent::StateChange, IMSVidDeviceEventStateChange, StateChange, StateChange method [Microsoft TV Technologies], StateChange method [Microsoft TV Technologies],IMSVidDeviceEvent interface, mstv.imsviddeviceevent_statechange, segment/IMSVidDeviceEvent::StateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,9 +64,9 @@ The <b>StateChange</b> method signals that the state of the device has changed.
 
 
 
-### -param lpd
+### -param lpd [in]
 
-TBD
+Pointer to the device object that signaled the change.
 
 
 ### -param oldState [in]
@@ -77,11 +77,6 @@ Specifies the old state as an <a href="https://msdn.microsoft.com/b4da9c6e-3235-
 ### -param newState [in]
 
 Specifies the new state as an <a href="https://msdn.microsoft.com/b4da9c6e-3235-4c78-b9e1-57c9d06fccbc">MSVidCtlStateList</a> value.
-
-
-#### - plpd [in]
-
-Pointer to the device object that signaled the change.
 
 
 ## -returns

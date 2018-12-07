@@ -7,10 +7,10 @@ old-location: mib\mib_ipmcast_boundary.htm
 tech.root: MIB
 ms.assetid: a3d900be-14c9-4ad9-bc2e-382849a6d1c6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY structure [MIB], PMIB_IPMCAST_BOUNDARY, PMIB_IPMCAST_BOUNDARY structure pointer [MIB], _MIB_IPMCAST_BOUNDARY, iprtrmib/MIB_IPMCAST_BOUNDARY, iprtrmib/PMIB_IPMCAST_BOUNDARY, mib.mib_ipmcast_boundary"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h

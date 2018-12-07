@@ -4,10 +4,10 @@ title: IVssEnumObject::Clone
 author: windows-sdk-content
 description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumObject enumerator object.
 old-location: base\ivssenumobject_clone.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 71bf3789-247e-4e3f-8200-a4309a7c2d8c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumObject interface, IVssEnumObject interface [VSS],Clone method, IVssEnumObject.Clone, IVssEnumObject::Clone, _win32_ivssenumobject_clone, base.ivssenumobject_clone, vss/IVssEnumObject::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>Clone</b> method creates a copy of the
 
 
 
-### -param ppenum
-
-TBD
-
-
-
-
-#### - ppEnum [in, out]
+### -param ppenum [in, out]
 
 Doubly indirect pointer to an <a href="https://msdn.microsoft.com/b8e80909-a28a-45d7-87e2-4f44bf6990f4">IVssEnumObject</a> 
       enumerator object. Set the value of this parameter to <b>NULL</b> before calling this 

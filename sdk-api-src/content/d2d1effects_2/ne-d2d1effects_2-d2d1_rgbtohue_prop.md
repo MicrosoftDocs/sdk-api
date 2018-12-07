@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_rgbtohue_prop.htm
 tech.root: direct2d
 ms.assetid: C5CB2C7A-C7C0-4FC9-BAB0-0360ABE984E6
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_RGBTOHUE_PROP, D2D1_RGBTOHUE_PROP enumeration [Direct2D], D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE, d2d1effects_2/D2D1_RGBTOHUE_PROP, d2d1effects_2/D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE, direct2d.d2d1_rgbtohue_prop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects_2.h
 req.include-header: 

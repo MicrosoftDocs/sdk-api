@@ -7,10 +7,10 @@ old-location: security\crypt_provider_defusage.htm
 tech.root: seccrypto
 ms.assetid: 28A93F39-0CBC-432C-841B-83B54A50EA14
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE structure [Security], PCRYPT_PROVIDER_DEFUSAGE, PCRYPT_PROVIDER_DEFUSAGE structure pointer [Security], _CRYPT_PROVIDER_DEFUSAGE, security.crypt_provider_defusage, wintrust/CRYPT_PROVIDER_DEFUSAGE, wintrust/PCRYPT_PROVIDER_DEFUSAGE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

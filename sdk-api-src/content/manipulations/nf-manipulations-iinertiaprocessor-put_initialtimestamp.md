@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_initialtimestamp.htm
 tech.root: wintouch
 ms.assetid: 7ea7e00f-98f5-4928-9919-705ffa53b91b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialTimestamp property, IInertiaProcessor.InitialTimestamp, IInertiaProcessor.put_InitialTimestamp, IInertiaProcessor::InitialTimestamp, IInertiaProcessor::get_InitialTimestamp, IInertiaProcessor::put_InitialTimestamp, InitialTimestamp property [Windows Touch], InitialTimestamp property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialTimestamp, manipulations/IInertiaProcessor::get_InitialTimestamp, manipulations/IInertiaProcessor::put_InitialTimestamp, put_InitialTimestamp, wintouch.iinertiaprocessor_initialtimestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,13 +4,13 @@ title: ICertPropertyKeyProvInfo
 author: windows-sdk-content
 description: Represents a certificate property that contains information about a private key.
 old-location: security\icertpropertykeyprovinfo.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 1c35c2f0-8e79-4031-bae2-2be081f3c8dd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICertPropertyKeyProvInfo, ICertPropertyKeyProvInfo interface [Security], ICertPropertyKeyProvInfo interface [Security],described, certenroll/ICertPropertyKeyProvInfo, security.icertpropertykeyprovinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

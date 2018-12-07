@@ -7,10 +7,10 @@ old-location: direct2d\id2d1concretetransform.htm
 tech.root: direct2d
 ms.assetid: 5349EF29-767F-4C78-A6F9-B0C6F143E762
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1ConcreteTransform, ID2D1ConcreteTransform interface [Direct2D], ID2D1ConcreteTransform interface [Direct2D],described, d2d1effectauthor/ID2D1ConcreteTransform, direct2d.id2d1concretetransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1effectauthor.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: MI_OperationOptions_GetPromptUserRegularMode function
 author: windows-sdk-content
 description: Gets the value that tells the server how to respond to a provider's call to MI_Context_PromptUser.
 old-location: wmi_v2\mi_operationoptions_getpromptuserregularmode.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 10c22de2-3f07-4d91-aa95-c59285d6087f
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_GetPromptUserRegularMode, MI_OperationOptions_GetPromptUserRegularMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetPromptUserRegularMode, wmi_v2.mi_operationoptions_getpromptuserregularmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ A <a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_O
 The returned <a href="https://msdn.microsoft.com/742610a4-3276-4bab-877d-8e74c6dc80cd">MI_CallbackMode</a> enumeration value: either <b>MI_CALLBACKMODE_REPORT</b> or <b>MI_CALLBACKMODE_INQUIRE</b>.
 
 
-### -param ackValue [out] [out]
+### -param ackValue [out]
 
 TBD
 

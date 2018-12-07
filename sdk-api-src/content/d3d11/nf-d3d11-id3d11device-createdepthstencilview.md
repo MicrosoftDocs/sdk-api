@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createdepthstencilview.htm
 tech.root: direct3d11
 ms.assetid: b3e899eb-3df6-421f-bdc8-98d7c7acbe62
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateDepthStencilView, CreateDepthStencilView method [Direct3D 11], CreateDepthStencilView method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateDepthStencilView method, ID3D11Device.CreateDepthStencilView, ID3D11Device::CreateDepthStencilView, d3d11/ID3D11Device::CreateDepthStencilView, direct3d11.id3d11device_createdepthstencilview, e1e786e8-1374-b092-ac91-06c2482f6166
 ms.prod: windows-hardware
 ms.technology: windows-devices

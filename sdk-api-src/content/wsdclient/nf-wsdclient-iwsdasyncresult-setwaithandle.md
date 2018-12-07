@@ -4,10 +4,10 @@ title: IWSDAsyncResult::SetWaitHandle
 author: windows-sdk-content
 description: Specifies a wait handle to set when the operation completes.
 old-location: ncd\iwsdasyncresult_setwaithandle_method.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: d7196785-0e9c-4320-a14e-60457f72c66b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDAsyncResult interface,SetWaitHandle method, IWSDAsyncResult.SetWaitHandle, IWSDAsyncResult::SetWaitHandle, SetWaitHandle, SetWaitHandle method, SetWaitHandle method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setwaithandle_method, wsdclient/IWSDAsyncResult::SetWaitHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

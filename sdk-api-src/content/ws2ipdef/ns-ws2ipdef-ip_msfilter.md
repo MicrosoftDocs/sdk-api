@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2ipdef.ip_msfilter
-title: ip_msfilter
+title: IP_MSFILTER
 author: windows-sdk-content
 description: The ip_msfilter structure provides multicast filtering parameters for IPv4 addresses.
 old-location: winsock\ip_msfilter.htm
 tech.root: winsock
 ms.assetid: 8d9d515e-9369-4d71-9614-6cbeb5557a5d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PIP_MSFILTER, IP_MSFILTER, IP_MSFILTER [Winsock], IP_MSFILTER structure [Winsock], PIP_MSFILTER, PIP_MSFILTER structure pointer [Winsock], ip_msfilter, ip_msfilter structure [Winsock], winsock.ip_msfilter, ws2ipdef/PIP_MSFILTER, ws2ipdef/ip_msfilter, ws2tcpip/PIP_MSFILTER, ws2tcpip/ip_msfilter"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
@@ -45,7 +45,7 @@ req.typenames: IP_MSFILTER, *PIP_MSFILTER
 req.redist: 
 ---
 
-# ip_msfilter structure
+# IP_MSFILTER structure
 
 
 ## -description

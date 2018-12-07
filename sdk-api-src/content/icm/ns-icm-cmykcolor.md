@@ -7,10 +7,10 @@ old-location: wcs\cmykcolor.htm
 tech.root: WCS
 ms.assetid: af0b0522-b519-4fe8-8dab-3d9f40643902
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMYKCOLOR, CMYKCOLOR structure [Windows Color System], icm/CMYKCOLOR, wcs.cmykcolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: icm.h
 req.include-header: 

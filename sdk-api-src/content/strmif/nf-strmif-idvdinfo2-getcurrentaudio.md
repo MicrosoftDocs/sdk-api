@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getcurrentaudio.htm
 tech.root: DirectShow
 ms.assetid: 0f2ff79f-cefa-43e5-ab91-348a5341a171
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrentAudio, GetCurrentAudio method [DirectShow], GetCurrentAudio method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentAudio method, IDvdInfo2.GetCurrentAudio, IDvdInfo2::GetCurrentAudio, IDvdInfo2GetCurrentAudio, dshow.idvdinfo2_getcurrentaudio, strmif/IDvdInfo2::GetCurrentAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices

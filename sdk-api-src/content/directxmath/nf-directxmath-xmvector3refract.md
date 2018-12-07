@@ -7,7 +7,7 @@ old-location: dxmath\xmvector3refract.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Refract(XMVECTOR,XMVECTOR,float)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3Refract, XMVector3Refract, XMVector3Refract method [DirectX Math Support APIs], dxmath.xmvector3refract
 ms.prod: windows-hardware
 ms.technology: windows-devices

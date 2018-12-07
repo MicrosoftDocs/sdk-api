@@ -4,13 +4,13 @@ title: IOfflineFilesErrorInfo
 author: windows-sdk-content
 description: Provides a text description and raw data block associated with an error.
 old-location: of\iofflinefileserrorinfo.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 6c78d475-aa63-49e4-863f-1a197801f2f9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesErrorInfo, IOfflineFilesErrorInfo interface [Offline Files], IOfflineFilesErrorInfo interface [Offline Files],described, cscobj/IOfflineFilesErrorInfo, of.iofflinefileserrorinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

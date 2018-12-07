@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalyzer1_applycharacterspacing.htm
 tech.root: DirectWrite
 ms.assetid: E4BACB7E-0032-450C-AEA8-87434329F33C
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ApplyCharacterSpacing, ApplyCharacterSpacing method [Direct Write], ApplyCharacterSpacing method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],ApplyCharacterSpacing method, IDWriteTextAnalyzer1.ApplyCharacterSpacing, IDWriteTextAnalyzer1::ApplyCharacterSpacing, directwrite.idwritetextanalyzer1_applycharacterspacing, dwrite_1/IDWriteTextAnalyzer1::ApplyCharacterSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices

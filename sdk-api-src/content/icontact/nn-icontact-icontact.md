@@ -7,10 +7,10 @@ old-location: wincontacts\_wincontacts_IContact.htm
 tech.root: wincontacts
 ms.assetid: 9dc97b84-ede9-4ec1-939a-2b13e0d68486
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IContact, IContact interface [Windows Contacts], IContact interface [Windows Contacts],described, _wincontacts_IContact, icontact/IContact, wincontacts._wincontacts_IContact
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: icontact.h
 req.include-header: Contact.h

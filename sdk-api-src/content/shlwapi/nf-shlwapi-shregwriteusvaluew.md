@@ -7,7 +7,7 @@ old-location: shell\SHRegWriteUSValue.htm
 tech.root: shell
 ms.assetid: f94569c6-415b-4263-bab4-8a5baca47901
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_DWORD_LITTLE_ENDIAN, REG_EXPAND_SZ, REG_FULL_RESOURCE_DESCRIPTOR, REG_LINK, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_QWORD_LITTLE_ENDIAN, REG_RESOURCE_LIST, REG_RESOURCE_REQUIREMENTS_LIST, REG_SZ, SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegWriteUSValue, SHRegWriteUSValue function [Windows Shell], SHRegWriteUSValueA, SHRegWriteUSValueW, _win32_SHRegWriteUSValue, shell.SHRegWriteUSValue, shlwapi/SHRegWriteUSValue, shlwapi/SHRegWriteUSValueA, shlwapi/SHRegWriteUSValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,15 +73,9 @@ A handle to a currently open registry subkey. The subkey must have been opened w
 This handle can be obtained through the <a href="https://msdn.microsoft.com/756430a9-a495-412e-95c3-a93222bc467a">SHRegOpenUSKey</a> function.
 
 
-#### - pwzValue [in]
+### -param pwzValue
 
-Type: <b>LPCTSTR</b>
-
-A pointer to a null-terminated string that specifies the name of the value. This value is an entry in the subkey specified by <i>hUSKey</i>. If a value with this name is not already present in the subkey, it will be added.
-
-                        
-
-If this parameter is <b>NULL</b> or an empty string, the function sets the type and data for the subkey's Default value.
+TBD
 
 
 ### -param dwType [in]
@@ -263,6 +257,17 @@ Write to <b>HKEY_LOCAL_MACHINE</b> only if a value of the name specified in <i>p
 
 
 ##### - dwType.REG_SZ (0x00000001)
+
+
+#### - pszValue [in]
+
+Type: <b>LPCTSTR</b>
+
+A pointer to a null-terminated string that specifies the name of the value. This value is an entry in the subkey specified by <i>hUSKey</i>. If a value with this name is not already present in the subkey, it will be added.
+
+                        
+
+If this parameter is <b>NULL</b> or an empty string, the function sets the type and data for the subkey's Default value.
 
 
 ## -returns

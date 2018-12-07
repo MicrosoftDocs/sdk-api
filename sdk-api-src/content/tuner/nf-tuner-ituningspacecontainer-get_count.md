@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::get_Count
 author: windows-sdk-content
 description: The get_Count method retrieves the number of tuning spaces currently available on the local system.
 old-location: mstv\ituningspacecontainer_get_count.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 9dfa7700-fef5-4e97-855b-0670cc380af0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Count method, ITuningSpaceContainer.get_Count, ITuningSpaceContainer::get_Count, ITuningSpaceContainerget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_count, tuner/ITuningSpaceContainer::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_Count</b> method retrieves the number of tuning spaces currently avai
 
 
 
-### -param Count
-
-TBD
-
-
-
-
-#### - pCount [out]
+### -param Count [out]
 
 Pointer to a variable receives the number of tuning spaces.
 

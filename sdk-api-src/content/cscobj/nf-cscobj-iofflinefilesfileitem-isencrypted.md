@@ -4,10 +4,10 @@ title: IOfflineFilesFileItem::IsEncrypted
 author: windows-sdk-content
 description: Determines whether an item in the Offline Files cache is encrypted.
 old-location: of\iofflinefilesfileitem_isencrypted.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: f4ef4836-378c-4a9b-a805-e576d4637a2a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsEncrypted method, IOfflineFilesFileItem.IsEncrypted, IOfflineFilesFileItem::IsEncrypted, IsEncrypted, IsEncrypted method [Offline Files], IsEncrypted method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsEncrypted, of.iofflinefilesfileitem_isencrypted
 ms.prod: windows-hardware
 ms.technology: windows-devices

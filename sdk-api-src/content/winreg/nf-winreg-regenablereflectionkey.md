@@ -4,10 +4,10 @@ title: RegEnableReflectionKey function
 author: windows-sdk-content
 description: Restores registry reflection for the specified disabled key. Restoring reflection for a key does not affect reflection of any subkeys.
 old-location: base\regenablereflectionkey.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 6dfbc3d8-cd71-4ee9-a10b-955c26a6894c
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: RegEnableReflectionKey, RegEnableReflectionKey function, base.regenablereflectionkey, winreg/RegEnableReflectionKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

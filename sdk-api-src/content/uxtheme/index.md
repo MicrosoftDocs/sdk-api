@@ -2,7 +2,7 @@
 UID: NA:uxtheme
 ms.assetid: 6ca9ff0e-e465-3684-8ba2-beb75756b79e
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

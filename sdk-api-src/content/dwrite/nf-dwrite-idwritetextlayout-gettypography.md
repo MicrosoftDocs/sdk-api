@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_GetTypography.htm
 tech.root: DirectWrite
 ms.assetid: cb7d8bf5-8368-426d-a321-f5c9ef8c7d40
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetTypography, GetTypography method [Direct Write], GetTypography method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetTypography method, IDWriteTextLayout.GetTypography, IDWriteTextLayout::GetTypography, directwrite.IDWriteTextLayout_GetTypography, dwrite/IDWriteTextLayout::GetTypography
 ms.prod: windows-hardware
 ms.technology: windows-devices

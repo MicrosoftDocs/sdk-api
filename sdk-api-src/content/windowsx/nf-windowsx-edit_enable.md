@@ -7,7 +7,7 @@ old-location: controls\Edit_Enable.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_enable.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Edit_Enable, Edit_Enable macro [Windows Controls], _win32_Edit_Enable, _win32_Edit_Enable_cpp, controls.Edit_Enable, controls._win32_Edit_Enable, windowsx/Edit_Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices

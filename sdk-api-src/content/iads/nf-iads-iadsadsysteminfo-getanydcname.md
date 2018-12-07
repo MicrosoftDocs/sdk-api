@@ -4,10 +4,10 @@ title: IADsADSystemInfo::GetAnyDCName
 author: windows-sdk-content
 description: Retrieves the DNS name of a domain controller in the local computer's domain.
 old-location: adsi\iadsadsysteminfo_getanydcname.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 02bc092a-f5ef-4f9d-b9a6-e03aba784d66
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetAnyDCName, GetAnyDCName method [ADSI], GetAnyDCName method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetAnyDCName method, IADsADSystemInfo.GetAnyDCName, IADsADSystemInfo::GetAnyDCName, _ds_iadsadsysteminfo_getanydcname, adsi.iadsadsysteminfo__getanydcname, adsi.iadsadsysteminfo_getanydcname, iads/IADsADSystemInfo::GetAnyDCName
 ms.prod: windows-hardware
 ms.technology: windows-devices

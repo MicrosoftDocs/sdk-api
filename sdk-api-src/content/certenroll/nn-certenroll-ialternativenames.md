@@ -4,13 +4,13 @@ title: IAlternativeNames
 author: windows-sdk-content
 description: Contains methods and properties that enable you to manage a collection of IAlternativeName objects.
 old-location: security\ialternativenames.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 6ebd5bd5-7bf3-43e3-9b72-47b2c9743174
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IAlternativeNames, IAlternativeNames interface [Security], IAlternativeNames interface [Security],described, certenroll/IAlternativeNames, security.ialternativenames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

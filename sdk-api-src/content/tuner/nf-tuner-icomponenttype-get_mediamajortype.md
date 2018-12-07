@@ -4,10 +4,10 @@ title: IComponentType::get_MediaMajorType
 author: windows-sdk-content
 description: The get_MediaMajorType method retrieves the DirectShow media major type as a BSTR.
 old-location: mstv\icomponenttype_get_mediamajortype.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 4c1fc49d-acca-40fe-85cf-909092ceb5ef
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaMajorType method, IComponentType.get_MediaMajorType, IComponentType::get_MediaMajorType, IComponentTypeget_MediaMajorType, get_MediaMajorType, get_MediaMajorType method [Microsoft TV Technologies], get_MediaMajorType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediamajortype, tuner/IComponentType::get_MediaMajorType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_MediaMajorType</b> method retrieves the DirectShow media major type a
 
 
 
-### -param MediaMajorType
-
-TBD
-
-
-
-
-#### - pMediaMajorType [out]
+### -param MediaMajorType [out]
 
 Pointer to a <b>BSTR</b> that will receive the GUID.
 

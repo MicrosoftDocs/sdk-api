@@ -4,13 +4,13 @@ title: DNS_TSIG_DATAA
 author: windows-sdk-content
 description: The DNS_TSIG_DATA structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in RFC 2845 and RFC 3645.
 old-location: dns\dns_tsig_data.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 32077169-d319-45c0-982f-8d470cd70111
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_TSIG_DATA, *PDNS_TSIG_DATAA, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TSIG_DATA, DNS_TSIG_DATA structure [DNS], DNS_TSIG_DATAA, PDNS_TSIG_DATA, PDNS_TSIG_DATA structure pointer [DNS], _dns_dns_tsig_data, dns.dns_tsig_data, gss-tsig, gss.microsoft.com, windns/DNS_TSIG_DATA, windns/PDNS_TSIG_DATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

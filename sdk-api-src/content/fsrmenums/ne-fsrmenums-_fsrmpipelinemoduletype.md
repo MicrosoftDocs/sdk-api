@@ -4,13 +4,13 @@ title: "_FsrmPipelineModuleType"
 author: windows-sdk-content
 description: Defines the types of modules that you can define.
 old-location: fsrm\fsrmpipelinemoduletype.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: a482c371-a01c-486b-b25b-d22283dba652
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FsrmPipelineModuleType, FsrmPipelineModuleType enumeration [File Server Resource Manager], FsrmPipelineModuleType_Classifier, FsrmPipelineModuleType_Storage, FsrmPipelineModuleType_Unknown, _FsrmPipelineModuleType, fs.fsrmpipelinemoduletype, fsrm.fsrmpipelinemoduletype, fsrmenums/FsrmPipelineModuleType, fsrmenums/FsrmPipelineModuleType_Classifier, fsrmenums/FsrmPipelineModuleType_Storage, fsrmenums/FsrmPipelineModuleType_Unknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

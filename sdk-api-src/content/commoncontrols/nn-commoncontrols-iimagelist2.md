@@ -7,10 +7,10 @@ old-location: controls\IImageList2.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\iimagelist2.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IImageList2, IImageList2 interface [Windows Controls], IImageList2 interface [Windows Controls],described, _shell_IImageList2, _shell_IImageList2_cpp, commoncontrols/IImageList2, controls.IImageList2, controls._shell_IImageList2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: commoncontrols.h
 req.include-header: 

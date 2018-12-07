@@ -7,10 +7,10 @@ old-location: fax\_mfax_fax_device_status_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6vle.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: "*PFAX_DEVICE_STATUSA, FAX_DEVICE_STATUS, FAX_DEVICE_STATUS structure [Fax Service], FAX_DEVICE_STATUSA, FAX_DEVICE_STATUSW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JT_RECEIVE, JT_SEND, JT_UNKNOWN, PFAX_DEVICE_STATUS, PFAX_DEVICE_STATUS structure pointer [Fax Service], _FAX_DEVICE_STATUSA, _mfax_fax_device_status_str, fax._mfax_fax_device_status_str, winfax/FAX_DEVICE_STATUS, winfax/FAX_DEVICE_STATUSA, winfax/FAX_DEVICE_STATUSW, winfax/PFAX_DEVICE_STATUS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 

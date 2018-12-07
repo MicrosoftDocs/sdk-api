@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRaiseTextEditTextChangedEventFunction.htm
 tech.root: WinAuto
 ms.assetid: 19E7C2C1-D0D5-672F-FC6F-8E1B8CC19819
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: UiaRaiseTextEditTextChangedEvent, UiaRaiseTextEditTextChangedEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseTextEditTextChangedEvent, winauto.uiauto_UiaRaiseTextEditTextChangedEventFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

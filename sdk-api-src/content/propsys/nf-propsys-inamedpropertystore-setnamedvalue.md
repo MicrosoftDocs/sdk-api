@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyStore_SetNamedValue.htm
 tech.root: shell
 ms.assetid: e1ccf53f-3117-45c2-a0ff-94f1bb084414
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: INamedPropertyStore interface [Windows Shell],SetNamedValue method, INamedPropertyStore.SetNamedValue, INamedPropertyStore::SetNamedValue, SetNamedValue, SetNamedValue method [Windows Shell], SetNamedValue method [Windows Shell],INamedPropertyStore interface, _shell_INamedPropertyStore_SetNamedValue, propsys/INamedPropertyStore::SetNamedValue, shell.INamedPropertyStore_SetNamedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,14 +65,7 @@ Type: <b>LPCWSTR</b>
 A pointer to the property name, as a Unicode string, in the named property store.
 
 
-### -param propvar
-
-TBD
-
-
-
-
-#### - pv [in]
+### -param propvar [in]
 
 Type: <b>const <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
 

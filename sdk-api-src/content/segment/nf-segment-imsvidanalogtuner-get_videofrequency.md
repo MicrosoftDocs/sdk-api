@@ -4,10 +4,10 @@ title: IMSVidAnalogTuner::get_VideoFrequency
 author: windows-sdk-content
 description: The get_VideoFrequency method retrieves the tuner's video frequency for testing purposes.
 old-location: mstv\imsvidanalogtuner_get_videofrequency.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: c6ed5c47-c2cb-4025-9b93-57db25b5cec5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_VideoFrequency method, IMSVidAnalogTuner.get_VideoFrequency, IMSVidAnalogTuner::get_VideoFrequency, IMSVidAnalogTunerget_VideoFrequency, get_VideoFrequency, get_VideoFrequency method [Microsoft TV Technologies], get_VideoFrequency method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_videofrequency, segment/IMSVidAnalogTuner::get_VideoFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_VideoFrequency</b> method retrieves the tuner's video frequency for t
 
 
 
-### -param lcc
-
-TBD
-
-
-
-
-#### - plcc [out]
+### -param lcc [out]
 
 Pointer to a variable that receives the video frequency, in hertz (Hz).
 

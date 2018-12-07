@@ -4,10 +4,10 @@ title: IAnalogRadioTuningSpace::get_MaxFrequency
 author: windows-sdk-content
 description: The get_MaxFrequency method retrieves the maximum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_get_maxfrequency.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: baf4fe54-6e8c-49a7-b99f-4efeb7c65757
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_MaxFrequency method, IAnalogRadioTuningSpace.get_MaxFrequency, IAnalogRadioTuningSpace::get_MaxFrequency, IAnalogRadioTuningSpaceget_MaxFrequency, get_MaxFrequency, get_MaxFrequency method [Microsoft TV Technologies], get_MaxFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_maxfrequency, tuner/IAnalogRadioTuningSpace::get_MaxFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_MaxFrequency</b> method retrieves the maximum frequency for this tuni
 
 
 
-### -param MaxFrequencyVal
-
-TBD
-
-
-
-
-#### - pMaxFrequencyVal [out]
+### -param MaxFrequencyVal [out]
 
 Pointer to a variable that receives the maximum frequency, in kilohertz (kHz).
 

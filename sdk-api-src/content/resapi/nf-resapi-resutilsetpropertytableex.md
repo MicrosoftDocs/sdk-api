@@ -7,7 +7,7 @@ old-location: mscs\resutilsetpropertytableex.htm
 tech.root: mscs
 ms.assetid: 82f5f5d5-8ec1-4693-b66c-f141a8999803
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE_EX, PRESUTIL_SET_PROPERTY_TABLE_EX function [Failover Cluster], ResUtilSetPropertyTableEx, ResUtilSetPropertyTableEx function [Failover Cluster], _wolf_resutilsetpropertytableex, mscs.resutilsetpropertytableex, resapi/PRESUTIL_SET_PROPERTY_TABLE_EX, resapi/ResUtilSetPropertyTableEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,6 +106,58 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_ARGUMENTS</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more of the input parameters were invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INSUFFICIENT_BUFFER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The size of the input buffer specified in <i>cbInPropertyListSize</i> is too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The input buffer pointed to by <i>pInPropertyList</i> is <b>NULL</b>, a property name is not valid, or a property value is too small.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The syntax, format, or type of a property in the property table pointed to by <i>pPropertyTable</i> is incorrect, or a property is read-only and cannot be set.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

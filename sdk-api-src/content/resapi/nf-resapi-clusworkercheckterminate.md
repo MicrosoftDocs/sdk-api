@@ -7,7 +7,7 @@ old-location: mscs\clusworkercheckterminate.htm
 tech.root: mscs
 ms.assetid: e8833961-ac0e-4d8c-a57e-5aabdb2c8c96
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusWorkerCheckTerminate, ClusWorkerCheckTerminate function [Failover Cluster], PCLUSAPIClusWorkerCheckTerminate, PCLUSAPIClusWorkerCheckTerminate function [Failover Cluster], _wolf_clusworkercheckterminate, mscs.clusworkercheckterminate, resapi/ClusWorkerCheckTerminate, resapi/PCLUSAPIClusWorkerCheckTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,6 +70,38 @@ Pointer to a <a href="https://msdn.microsoft.com/559b147f-8e8a-4bc7-94ea-e2042f2
 
 <b>ClusWorkerCheckTerminate</b> returns one of 
        the following values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>TRUE</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The thread should terminate.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>FALSE</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The thread should not terminate.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

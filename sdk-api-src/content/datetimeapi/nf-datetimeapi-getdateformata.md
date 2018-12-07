@@ -7,7 +7,7 @@ old-location: intl\getdateformat.htm
 tech.root: Intl
 ms.assetid: 546cede1-1702-403a-bba3-b5cd3b35a1bf
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetDateFormat, GetDateFormat function [Internationalization for Windows Applications], GetDateFormatA, GetDateFormatW, _win32_GetDateFormat, datetimeapi/GetDateFormat, datetimeapi/GetDateFormatA, datetimeapi/GetDateFormatW, intl.getdateformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,6 +142,8 @@ The function returns 0 if it does not succeed. To get extended error information
 
 
 
+<div class="alert"><b>Note</b>  This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See <a href="https://aka.ms/AA3dzcz">Prepare your application for the Japanese era change</a> for more information.</div>
+<div> </div>
 See Remarks for <a href="https://msdn.microsoft.com/791fb386-3cc5-410e-bfce-52598fdb10c9">GetDateFormatEx</a>.
 
 When the ANSI version of this function is used with a Unicode-only locale identifier, the function can succeed because the operating system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark ("?"). 

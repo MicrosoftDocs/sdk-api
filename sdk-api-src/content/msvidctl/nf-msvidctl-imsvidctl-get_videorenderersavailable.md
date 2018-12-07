@@ -4,10 +4,10 @@ title: IMSVidCtl::get_VideoRenderersAvailable
 author: windows-sdk-content
 description: The get_VideoRenderersAvailable method retrieves a collection of video renderers available on the local system.
 old-location: mstv\imsvidctl_get_videorenderersavailable.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 20e5b2f3-33ea-4b0d-84b8-e4b0b61e0348
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_VideoRenderersAvailable method, IMSVidCtl.get_VideoRenderersAvailable, IMSVidCtl::get_VideoRenderersAvailable, IMSVidCtlget_VideoRenderersAvailable, get_VideoRenderersAvailable, get_VideoRenderersAvailable method [Microsoft TV Technologies], get_VideoRenderersAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_videorenderersavailable, msvidctl/IMSVidCtl::get_VideoRenderersAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_VideoRenderersAvailable</b> method retrieves a collection of video re
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppVal [out]
+### -param pVal [out]
 
 Receives an <a href="https://msdn.microsoft.com/cf8e1307-b4a5-464b-b9a6-32c195941309">IMSVidVideoRendererDevices</a> interface pointer. The caller must release the interface.
 

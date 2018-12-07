@@ -4,10 +4,10 @@ title: IComponentTypes::get_Item
 author: windows-sdk-content
 description: The get_Item method retrieves the IComponentType interface pointer at the specified index number.
 old-location: mstv\icomponenttypes_get_item.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: be2e6f1b-a9af-4c19-ae25-a096ceee96fc
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],get_Item method, IComponentTypes.get_Item, IComponentTypes::get_Item, IComponentTypesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_get_item, tuner/IComponentTypes::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>get_Item</b> method retrieves the <a href="https://msdn.microsoft.com/e83
 The index number of the object to retrieve.
 
 
-### -param ComponentType
-
-TBD
-
-
-
-
-#### - ppComponentType [out]
+### -param ComponentType [out]
 
 Receives a pointer to the <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a> interface. The caller must release the interface.
 

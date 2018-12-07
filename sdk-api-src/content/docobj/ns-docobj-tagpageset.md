@@ -7,10 +7,10 @@ old-location: com\pageset.htm
 tech.root: com
 ms.assetid: 9639c743-2509-4611-833b-16d16fce420a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: PAGESET, PAGESET structure [COM], _ctrl_PAGESET, com.pageset, docobj/PAGESET, tagPAGESET
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: docobj.h
 req.include-header: 

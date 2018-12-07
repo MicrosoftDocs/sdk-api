@@ -7,10 +7,10 @@ old-location: winauto\uiauto_CapStyleEnum.htm
 tech.root: WinAuto
 ms.assetid: 4efb85db-92da-4d5a-94b4-c556e70a693c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CapStyle, CapStyle enumeration [Windows Accessibility], CapStyle_AllCap, CapStyle_AllPetiteCaps, CapStyle_None, CapStyle_PetiteCaps, CapStyle_SmallCap, CapStyle_Titling, CapStyle_Unicase, Other, uiauto.uiauto_CapStyleEnum, uiauto_CapStyleEnum, uiautomationcore/CapStyle, uiautomationcore/CapStyle_AllCap, uiautomationcore/CapStyle_AllPetiteCaps, uiautomationcore/CapStyle_None, uiautomationcore/CapStyle_PetiteCaps, uiautomationcore/CapStyle_SmallCap, uiautomationcore/CapStyle_Titling, uiautomationcore/CapStyle_Unicase, uiautomationcore/Other, winauto.uiauto_CapStyleEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

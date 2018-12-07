@@ -7,7 +7,7 @@ old-location: iscsidisc\setiscsigrouppresharedkey.htm
 tech.root: iSCSIDisc
 ms.assetid: 344d0a88-64e9-45a3-a789-6733b85e9c2d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetIScsiGroupPresharedKey, SetIscsiGroupPresharedKey, SetIscsiGroupPresharedKey function [iSCSI Discovery Library API], iscsidisc.setiscsigrouppresharedkey, iscsidsc/SetIscsiGroupPresharedKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

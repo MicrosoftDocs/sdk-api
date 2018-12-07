@@ -7,7 +7,7 @@ old-location: xps\ixpsomdictionary_clone.htm
 tech.root: printdocs
 ms.assetid: f0e57247-73c2-466e-beba-b4dd09fb1f3c
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],Clone method, IXpsOMDictionary.Clone, IXpsOMDictionary::Clone, xps.ixpsomdictionary_clone, xpsobjectmodel/IXpsOMDictionary::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

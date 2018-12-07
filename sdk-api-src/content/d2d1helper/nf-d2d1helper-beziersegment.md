@@ -7,7 +7,7 @@ old-location: direct2d\beziersegment.htm
 tech.root: direct2d
 ms.assetid: 50938354-f9b7-40a9-807d-708f6a065912
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: BezierSegment, BezierSegment function [Direct2D], d2d1helper/BezierSegment, direct2d.beziersegment
 ms.prod: windows-hardware
 ms.technology: windows-devices

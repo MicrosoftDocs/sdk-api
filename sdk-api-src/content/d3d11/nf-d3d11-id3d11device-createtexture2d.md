@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createtexture2d.htm
 tech.root: direct3d11
 ms.assetid: 69950ce7-9c8e-4f00-860d-e118e2bbc81a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 96e5176c-4fd3-2bab-29e2-e913ad58fe8b, CreateTexture2D, CreateTexture2D method [Direct3D 11], CreateTexture2D method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateTexture2D method, ID3D11Device.CreateTexture2D, ID3D11Device::CreateTexture2D, d3d11/ID3D11Device::CreateTexture2D, direct3d11.id3d11device_createtexture2d
 ms.prod: windows-hardware
 ms.technology: windows-devices

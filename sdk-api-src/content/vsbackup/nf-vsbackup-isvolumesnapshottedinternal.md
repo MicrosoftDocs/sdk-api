@@ -4,10 +4,10 @@ title: IsVolumeSnapshottedInternal function
 author: windows-sdk-content
 description: The IsVolumeSnapshotted function determines whether any shadow copies exist for the specified volume.
 old-location: base\isvolumesnapshotted.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 308eddea-50e2-44c8-858f-315b8960a421
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IsVolumeSnapshotted, IsVolumeSnapshotted function [VSS], IsVolumeSnapshottedInternal, _win32_isvolumesnapshotted, base.isvolumesnapshotted, vsbackup/IsVolumeSnapshotted, vsbackup/IsVolumeSnapshottedInternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

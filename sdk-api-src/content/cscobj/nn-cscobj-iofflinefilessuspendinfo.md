@@ -4,13 +4,13 @@ title: IOfflineFilesSuspendInfo
 author: windows-sdk-content
 description: Determines whether an item is suspended or not and, if so, if it is a suspended root or not.
 old-location: of\iofflinefilessuspendinfo.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: b9f9e30e-df37-467e-ac59-7955e0eae3c0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesSuspendInfo, IOfflineFilesSuspendInfo interface [Offline Files], IOfflineFilesSuspendInfo interface [Offline Files],described, cscobj/IOfflineFilesSuspendInfo, of.iofflinefilessuspendinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

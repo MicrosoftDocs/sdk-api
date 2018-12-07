@@ -7,7 +7,7 @@ old-location: ldap\ldap_compare_ext_s.htm
 tech.root: ldap
 ms.assetid: b22568b1-5043-422e-9c4e-cc51cc77d143
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_compare_ext_s, ldap.ldap__compare__ext__s, ldap.ldap_compare_ext_s, ldap_compare_ext_s, ldap_compare_ext_s function [LDAP], ldap_compare_ext_sA, ldap_compare_ext_sW, winldap/ldap_compare_ext_s, winldap/ldap_compare_ext_sA, winldap/ldap_compare_ext_sW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\clusterreggetkeysecurity.htm
 tech.root: mscs
 ms.assetid: cd0fcfd2-21e0-4627-9b01-6a7f61a80823
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterRegGetKeySecurity, ClusterRegGetKeySecurity function [Failover Cluster], _wolf_clusterreggetkeysecurity, clusapi/ClusterRegGetKeySecurity, mscs.clusterreggetkeysecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

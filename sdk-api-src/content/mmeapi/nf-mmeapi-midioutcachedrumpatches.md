@@ -7,7 +7,7 @@ old-location: multimedia\midioutcachedrumpatches.htm
 tech.root: Multimedia
 ms.assetid: 2cd5d6d9-7bff-40f9-a088-d66e06ca147c
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutCacheDrumPatches, midiOutCacheDrumPatches, midiOutCacheDrumPatches function [Windows Multimedia], midiOutCacheDrumPatchesA, midiOutCacheDrumPatchesW, mmeapi/midiOutCacheDrumPatches, multimedia.midioutcachedrumpatches"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -70,27 +70,15 @@ Handle to the opened MIDI output device. This device should be an internal MIDI 
 
 ### -param uPatch
 
-TBD
+Drum patch number that should be used. This parameter should be set to zero to cache the default drum patch.
 
 
 ### -param pwkya
 
-TBD
-
-
-### -param fuCache
-
-TBD
-
-
-
-
-#### - lpKeyArray
-
 Pointer to a <a href="https://msdn.microsoft.com/af1a1d2f-4558-4374-93ab-5a705fc879ca">KEYARRAY</a> array indicating the key numbers of the specified percussion patches to be cached or uncached.
 
 
-#### - wFlags
+### -param fuCache
 
 Options for the cache operation. It can be one of the following flags.
 
@@ -119,11 +107,6 @@ Options for the cache operation. It can be one of the following flags.
 </tr>
 </table>
  
-
-
-#### - wPatch
-
-Drum patch number that should be used. This parameter should be set to zero to cache the default drum patch.
 
 
 ## -returns

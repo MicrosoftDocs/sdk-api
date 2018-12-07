@@ -7,10 +7,10 @@ old-location: gdi\emrstretchdibits.htm
 tech.root: gdi
 ms.assetid: aa104ffa-44ed-41f6-a1a7-23bbab68e16c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*PEMRSTRETCHDIBITS, EMRSTRETCHDIBITS, EMRSTRETCHDIBITS structure [Windows GDI], PEMRSTRETCHDIBITS, PEMRSTRETCHDIBITS structure pointer [Windows GDI], _win32_EMRSTRETCHDIBITS_str, gdi.emrstretchdibits, tagEMRSTRETCHDIBITS, wingdi/EMRSTRETCHDIBITS, wingdi/PEMRSTRETCHDIBITS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

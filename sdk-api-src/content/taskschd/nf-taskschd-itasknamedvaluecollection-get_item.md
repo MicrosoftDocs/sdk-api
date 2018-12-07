@@ -4,10 +4,10 @@ title: ITaskNamedValueCollection::get_Item
 author: windows-sdk-content
 description: Gets the specified name-value pair from the collection.
 old-location: taskschd\itasknamedvaluecollection_item.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: a243b814-7d83-466d-bd49-3414f3240780
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],Item property, ITaskNamedValueCollection.Item, ITaskNamedValueCollection.get_Item, ITaskNamedValueCollection::Item, ITaskNamedValueCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITaskNamedValueCollection interface, get_Item, taskschd.itasknamedvaluecollection_item, taskschd/ITaskNamedValueCollection::Item, taskschd/ITaskNamedValueCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

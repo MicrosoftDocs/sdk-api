@@ -7,10 +7,10 @@ old-location: mbn\mbn_device_service.htm
 tech.root: mbn
 ms.assetid: 83BB1CC3-2F00-4CB0-AF05-A8309D01942D
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: MBN_DEVICE_SERVICE, MBN_DEVICE_SERVICE structure [Microsoft Broadband Networks], PMBN_DEVICE_SERVICE, PMBN_DEVICE_SERVICE structure pointer [Microsoft Broadband Networks], mbn.mbn_device_service, mbnapi/MBN_DEVICE_SERVICE, mbnapi/PMBN_DEVICE_SERVICE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 

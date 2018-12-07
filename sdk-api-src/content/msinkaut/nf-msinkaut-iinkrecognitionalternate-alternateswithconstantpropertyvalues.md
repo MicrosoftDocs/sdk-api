@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_alternateswithconstantpropertyvalu
 tech.root: tablet
 ms.assetid: 6c199960-e0ee-4370-a302-a45a3dbe8b28
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: 6c199960-e0ee-4370-a302-a45a3dbe8b28, AlternatesWithConstantPropertyValues, AlternatesWithConstantPropertyValues method [Tablet PC], AlternatesWithConstantPropertyValues method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],AlternatesWithConstantPropertyValues method, IInkRecognitionAlternate.AlternatesWithConstantPropertyValues, IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, msinkaut/IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, tablet.iinkrecognitionalternate_alternateswithconstantpropertyvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,21 +62,16 @@ Retrieves a <a href="https://msdn.microsoft.com/39f49762-de86-4a1a-ac7b-327b65c3
 
 
 
-### -param PropertyType
+### -param PropertyType [in]
 
-TBD
+Specifies a string value that identifies the property. For a list of the properties that can be used, see <a href="https://msdn.microsoft.com/2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8">RecognitionProperty</a>.
+
+For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
 ### -param AlternatesWithConstantPropertyValues [out, retval]
 
 When this method returns, contains an <a href="https://msdn.microsoft.com/39f49762-de86-4a1a-ac7b-327b65c3eb54">IInkRecognitionAlternates</a> collection which is made up of a division of the alternate on which this method is called. Each <a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognitionAlternate</a> object in the collection contains adjacent recognition segments which have the same property value for the <i>propertyType</i> parameter.
-
-
-#### - propertyType [in]
-
-Specifies a string value that identifies the property. For a list of the properties that can be used, see <a href="https://msdn.microsoft.com/2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8">RecognitionProperty</a>.
-
-For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
 ## -returns

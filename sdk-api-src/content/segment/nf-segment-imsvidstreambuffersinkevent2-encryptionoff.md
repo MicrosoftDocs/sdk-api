@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSinkEvent2::EncryptionOff
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersinkevent2_encryptionoff.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a4798851-b8e1-4b49-aba9-b8b06d91280d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EncryptionOff, EncryptionOff method [Microsoft TV Technologies], EncryptionOff method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent2 interface, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],EncryptionOff method, IMSVidStreamBufferSinkEvent2.EncryptionOff, IMSVidStreamBufferSinkEvent2::EncryptionOff, IMSVidStreamBufferSinkEvent2EncryptionOff, mstv.imsvidstreambuffersinkevent2_encryptionoff, segment/IMSVidStreamBufferSinkEvent2::EncryptionOff
 ms.prod: windows-hardware
 ms.technology: windows-devices

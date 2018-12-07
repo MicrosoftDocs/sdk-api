@@ -7,10 +7,10 @@ old-location: coreaudio\connectortype.htm
 tech.root: CoreAudio
 ms.assetid: 7171a880-2a3e-45aa-803d-26bf5e9e0365
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: ConnectorType, ConnectorType , ConnectorType enumeration [Core Audio], Network, Physical_External, Physical_Internal, Software_Fixed, Software_IO, Unknown_Connector, __MIDL___MIDL_itf_devicetopology_0000_0000_0013, coreaudio.connectortype, devicetopology/ConnectorType, devicetopology/Network, devicetopology/Physical_External, devicetopology/Physical_Internal, devicetopology/Software_Fixed, devicetopology/Software_IO, devicetopology/Unknown_Connector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: devicetopology.h
 req.include-header: 

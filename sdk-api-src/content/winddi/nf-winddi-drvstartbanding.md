@@ -7,7 +7,7 @@ old-location: display\drvstartbanding.htm
 tech.root: display
 ms.assetid: c9006dd1-055b-4fb0-92e8-c7b6bc294941
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DrvStartBanding, DrvStartBanding function [Display Devices], ddifncs_d0cd5c63-cf46-472a-be6c-8d9dd124a2b2.xml, display.drvstartbanding, winddi/DrvStartBanding
 ms.prod: windows-hardware
 ms.technology: windows-devices

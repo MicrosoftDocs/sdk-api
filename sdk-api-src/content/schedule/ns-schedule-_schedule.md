@@ -7,10 +7,10 @@ old-location: ad\schedule.htm
 tech.root: ad
 ms.assetid: d86890db-b34a-415a-820a-6d4790914218
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSCHEDULE, PSCHEDULE, PSCHEDULE structure pointer [Active Directory], SCHEDULE, SCHEDULE structure [Active Directory], _SCHEDULE, ad.schedule, schedule/PSCHEDULE, schedule/SCHEDULE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: schedule.h
 req.include-header: 

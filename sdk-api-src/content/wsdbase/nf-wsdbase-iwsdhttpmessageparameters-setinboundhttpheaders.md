@@ -4,10 +4,10 @@ title: IWSDHttpMessageParameters::SetInboundHttpHeaders
 author: windows-sdk-content
 description: Sets the HTTP headers used for inbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_setinboundhttpheaders.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: fd680016-1e6f-4d15-b1ca-cd2b6b210a71
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetInboundHttpHeaders method, IWSDHttpMessageParameters.SetInboundHttpHeaders, IWSDHttpMessageParameters::SetInboundHttpHeaders, SetInboundHttpHeaders, SetInboundHttpHeaders method, SetInboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setinboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetInboundHttpHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

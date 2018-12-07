@@ -7,7 +7,7 @@ old-location: properties\VariantToDoubleWithDefault.htm
 tech.root: properties
 ms.assetid: a3e32a30-363d-487e-bdd5-ac2616d6de14
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: VariantToDoubleWithDefault, VariantToDoubleWithDefault function [Windows Properties], _shell_VariantToDoubleWithDefault, properties.VariantToDoubleWithDefault, propvarutil/VariantToDoubleWithDefault, shell.VariantToDoubleWithDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

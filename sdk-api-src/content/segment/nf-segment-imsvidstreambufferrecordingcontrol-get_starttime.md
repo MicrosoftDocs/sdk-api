@@ -4,10 +4,10 @@ title: IMSVidStreamBufferRecordingControl::get_StartTime
 author: windows-sdk-content
 description: The get_StartTime method retrieves the start time of the recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_starttime.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 3efe3cd3-cd26-4a91-b305-6e8677a0cd88
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_StartTime method, IMSVidStreamBufferRecordingControl.get_StartTime, IMSVidStreamBufferRecordingControl::get_StartTime, IMSVidStreamBufferRecordingControlget_StartTime, get_StartTime, get_StartTime method [Microsoft TV Technologies], get_StartTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_starttime, segment/IMSVidStreamBufferRecordingControl::get_StartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_StartTime</b> method retrieves the start time of the recording.
 
 
 
-### -param rtStart
-
-TBD
-
-
-
-
-#### - pStart [out]
+### -param rtStart [out]
 
 Pointer to a variable that receives the start time, in hundredths of seconds.
 

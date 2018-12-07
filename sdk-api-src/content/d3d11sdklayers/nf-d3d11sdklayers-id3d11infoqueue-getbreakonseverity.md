@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_getbreakonseverity.htm
 tech.root: direct3d11
 ms.assetid: 4023ddb7-006f-46bc-8be8-34ee2bdd9062
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method [Direct3D 11], GetBreakOnSeverity method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetBreakOnSeverity method, ID3D11InfoQueue.GetBreakOnSeverity, ID3D11InfoQueue::GetBreakOnSeverity, d3d11sdklayers/ID3D11InfoQueue::GetBreakOnSeverity, direct3d11.id3d11infoqueue_getbreakonseverity, feb5cad2-8611-d97c-995e-3501a69206d6
 ms.prod: windows-hardware
 ms.technology: windows-devices

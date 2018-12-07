@@ -7,10 +7,10 @@ old-location: fs\file_query_on_disk_vol_info_buffer.htm
 tech.root: fileio
 ms.assetid: 812c8840-5e69-4a85-ad93-3be5bf09b917
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER, FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, FILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure [Files], PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER, PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure pointer [Files], _FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, fs.file_query_on_disk_vol_info_buffer, winioctl/FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, winioctl/PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

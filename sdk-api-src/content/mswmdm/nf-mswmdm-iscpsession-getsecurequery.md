@@ -7,7 +7,7 @@ old-location: wmdm\iscpsession_getsecurequery.htm
 tech.root: WMDM
 ms.assetid: c725f0ae-1f37-412d-ac2b-0833989d1bd6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetSecureQuery, GetSecureQuery method [windows Media Device Manager], GetSecureQuery method [windows Media Device Manager],ISCPSession interface, ISCPSession interface [windows Media Device Manager],GetSecureQuery method, ISCPSession.GetSecureQuery, ISCPSession::GetSecureQuery, ISCPSessionGetSecureQuerry, mswmdm/ISCPSession::GetSecureQuery, wmdm.iscpsession_getsecurequery
 ms.prod: windows-hardware
 ms.technology: windows-devices

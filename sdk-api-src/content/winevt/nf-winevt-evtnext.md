@@ -7,7 +7,7 @@ old-location: wes\evtnext.htm
 tech.root: wes
 ms.assetid: 46d40734-f022-4775-aa4f-13f4069c43c8
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: EvtNext, EvtNext function [EventLog], wes.evtnext, winevt/EvtNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

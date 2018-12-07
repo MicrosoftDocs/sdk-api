@@ -4,13 +4,13 @@ title: ITaskHandler
 author: windows-sdk-content
 description: Defines the methods that are called by the Task Scheduler service to manage a COM handler.
 old-location: taskschd\itaskhandler.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: ea3100d7-a80b-4487-9786-24124f2d72f1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], ITaskHandler interface [Task Scheduler],described, taskschd.itaskhandler, taskschd/ITaskHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

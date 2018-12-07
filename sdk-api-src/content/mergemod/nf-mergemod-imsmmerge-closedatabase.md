@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_closedatabase.htm
 tech.root: msi
 ms.assetid: efbb6238-e9e3-4603-896a-75fcff2bb362
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IMsmMerge interface, IMsmMerge interface,CloseDatabase method, IMsmMerge.CloseDatabase, IMsmMerge::CloseDatabase, _msi_closedatabase_function, mergemod/IMsmMerge::CloseDatabase, setup.imsmmerge_closedatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,13 +64,6 @@ The
 
 
 ### -param Commit
-
-TBD
-
-
-
-
-#### - bCommit
 
 <b>TRUE</b> if changes should be saved, <b>FALSE</b> otherwise.
 

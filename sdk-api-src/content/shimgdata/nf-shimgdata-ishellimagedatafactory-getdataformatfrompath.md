@@ -7,7 +7,7 @@ old-location: shell\IShellImageDataFactory_GetDataFormatFromPath.htm
 tech.root: shell
 ms.assetid: ca6aa555-5997-43c6-84d1-35a24301d0a2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDataFormatFromPath, GetDataFormatFromPath method [Windows Shell], GetDataFormatFromPath method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],GetDataFormatFromPath method, IShellImageDataFactory.GetDataFormatFromPath, IShellImageDataFactory::GetDataFormatFromPath, _shell_IShellImageDataFactory_GetDataFormatFromPath, shell.IShellImageDataFactory_GetDataFormatFromPath, shimgdata/IShellImageDataFactory::GetDataFormatFromPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

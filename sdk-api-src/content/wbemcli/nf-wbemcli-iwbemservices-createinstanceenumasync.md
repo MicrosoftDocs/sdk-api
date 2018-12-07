@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_createinstanceenumasync.htm
 tech.root: WmiSdk
 ms.assetid: 5ba2ff28-034f-4949-9bde-8c98345ec7c6
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: CreateInstanceEnumAsync, CreateInstanceEnumAsync method [Windows Management Instrumentation], CreateInstanceEnumAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateInstanceEnumAsync method, IWbemServices.CreateInstanceEnumAsync, IWbemServices::CreateInstanceEnumAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createinstanceenumasync, wbemcli/IWbemServices::CreateInstanceEnumAsync, wmi.iwbemservices_createinstanceenumasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,9 +74,9 @@ The
 
 
 
-### -param strFilter
+### -param strFilter [in]
 
-TBD
+Valid <b>BSTR</b> containing the name of the class for which instances are desired. This parameter cannot be <b>NULL</b>.
 
 
 ### -param lFlags [in]
@@ -135,11 +135,6 @@ Pointer to the caller's implementation of
 <b>IWbemObjectSink</b> pointer is not used. If <b>WBEM_S_NO_ERROR</b> is returned, then the user's 
 <b>IWbemObjectSink</b> implementation will be called to indicate the result of the operation. Windows Management only calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For more information, see 
 <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
-
-
-#### - strClass [in]
-
-Valid <b>BSTR</b> containing the name of the class for which instances are desired. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

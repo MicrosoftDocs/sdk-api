@@ -7,7 +7,7 @@ old-location: controls\CloseThemeData.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\closethemedata.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CloseThemeData, CloseThemeData function [Windows Controls], controls.CloseThemeData, controls.inet_CloseThemeData, inet_CloseThemeData, inet_CloseThemeData_cpp, uxtheme/CloseThemeData
 ms.prod: windows-hardware
 ms.technology: windows-devices

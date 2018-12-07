@@ -4,10 +4,10 @@ title: IMSVidOutputDevices::Remove
 author: windows-sdk-content
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidoutputdevices_remove.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 40c4bc6b-091b-44b5-a313-5db20842adcf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],Remove method, IMSVidOutputDevices.Remove, IMSVidOutputDevices::Remove, IMSVidOutputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_remove, segment/IMSVidOutputDevices::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

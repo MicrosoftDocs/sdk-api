@@ -7,7 +7,7 @@ old-location: mmc\imenubutton_setbuttonstate.htm
 tech.root: mmc
 ms.assetid: 28f4faf7-9fb2-4be0-84b6-e3e8f7450c34
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: ENABLED, HIDDEN, IMenuButton interface [MMC],SetButtonState method, IMenuButton.SetButtonState, IMenuButton::SetButtonState, SetButtonState, SetButtonState method [MMC], SetButtonState method [MMC],IMenuButton interface, _slate_imenubutton_setbuttonstate, mmc.imenubutton_setbuttonstate, mmc/IMenuButton::SetButtonState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: shell\SORTCOLUMN.htm
 tech.root: shell
 ms.assetid: 3ca4c318-6462-4e22-813c-ef7b3ef03230
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SORTCOLUMN, SORTCOLUMN structure [Windows Shell], SORT_ASCENDING, SORT_DESCENDING, _shell_SORTCOLUMN, shell.SORTCOLUMN, shobjidl_core/SORTCOLUMN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

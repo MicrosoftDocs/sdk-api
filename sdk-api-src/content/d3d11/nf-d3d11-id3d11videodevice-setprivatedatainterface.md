@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_setprivatedatainterface.htm
 tech.root: medfound
 ms.assetid: E20FC248-92B2-4284-9EDC-9D5E6AB9506B
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11VideoDevice interface [Media Foundation],SetPrivateDataInterface method, ID3D11VideoDevice.SetPrivateDataInterface, ID3D11VideoDevice::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Media Foundation], SetPrivateDataInterface method [Media Foundation],ID3D11VideoDevice interface, d3d11/ID3D11VideoDevice::SetPrivateDataInterface, mf.id3d11videodevice_setprivatedatainterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

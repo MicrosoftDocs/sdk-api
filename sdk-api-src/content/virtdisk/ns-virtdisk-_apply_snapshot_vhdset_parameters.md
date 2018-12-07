@@ -7,10 +7,10 @@ old-location: vhd\apply_snapshot_vhdset_parameters.htm
 tech.root: VStor
 ms.assetid: 0C3A8097-0630-412E-AF23-144E3D98D292
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, APPLY_SNAPSHOT_VHDSET_PARAMETERS, APPLY_SNAPSHOT_VHDSET_PARAMETERS structure [VHD], PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, PAPPLY_SNAPSHOT_VHDSET_PARAMETERS structure pointer [VHD], _APPLY_SNAPSHOT_VHDSET_PARAMETERS, vdssys/APPLY_SNAPSHOT_VHDSET_PARAMETERS, vdssys/PAPPLY_SNAPSHOT_VHDSET_PARAMETERS, vhd.apply_snapshot_vhdset_parameters, virtdisk/APPLY_SNAPSHOT_VHDSET_PARAMETERS, virtdisk/PAPPLY_SNAPSHOT_VHDSET_PARAMETERS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 

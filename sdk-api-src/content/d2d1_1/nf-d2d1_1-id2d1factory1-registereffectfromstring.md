@@ -7,7 +7,7 @@ old-location: direct2d\id2d1factory1_registereffect.htm
 tech.root: direct2d
 ms.assetid: 9988aad6-0487-4f48-a05c-1dfb944f6ce7
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1Factory1 interface [Direct2D],RegisterEffectFromString method, ID2D1Factory1.RegisterEffectFromString, ID2D1Factory1::RegisterEffectFromString, RegisterEffectFromString, RegisterEffectFromString method [Direct2D], RegisterEffectFromString method [Direct2D],ID2D1Factory1 interface, d2d1_1/ID2D1Factory1::RegisterEffectFromString, direct2d.id2d1factory1_registereffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,9 +72,15 @@ Type: <b><a href="https://msdn.microsoft.com/11780ce1-b7d8-4a79-89fc-656ea5d7104
 A list of the effect properties, types, and metadata.
 
 
-### -param bindings
+### -param bindings [in, optional]
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/0eb6d428-cb65-4738-9cf3-64038b728004">D2D1_PROPERTY_BINDING</a>*</b>
+
+An array of properties and methods.
+
+This binds a property by name to a particular method implemented by the effect author to handle the property. 
+              The name must be found in the corresponding <i>propertyXml</i>.
+            
 
 
 ### -param bindingsCount
@@ -89,17 +95,6 @@ The number of bindings in the binding array.
 Type: <b><a href="https://msdn.microsoft.com/e4f99762-4328-4b9c-ab0d-14b78a1581b5">PD2D1_EFFECT_FACTORY</a></b>
 
 The static factory that is used to create the corresponding effect.
-
-
-#### - Bindings [in, optional]
-
-Type: <b>const <a href="https://msdn.microsoft.com/0eb6d428-cb65-4738-9cf3-64038b728004">D2D1_PROPERTY_BINDING</a>*</b>
-
-An array of properties and methods.
-
-This binds a property by name to a particular method implemented by the effect author to handle the property. 
-              The name must be found in the corresponding <i>propertyXml</i>.
-            
 
 
 ## -returns

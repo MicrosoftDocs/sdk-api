@@ -4,10 +4,10 @@ title: IFrequencyMap::put_FrequencyMapping
 author: windows-sdk-content
 description: The put_FrequencyMapping method sets the frequency table.
 old-location: mstv\ifrequencymap_put_frequencymapping.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: cfde2c8e-803d-46b8-b3d4-8e9b3129af0e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],put_FrequencyMapping method, IFrequencyMap.put_FrequencyMapping, IFrequencyMap::put_FrequencyMapping, IFrequencyMapput_FrequencyMapping, bdaiface/IFrequencyMap::put_FrequencyMapping, mstv.ifrequencymap_put_frequencymapping, put_FrequencyMapping, put_FrequencyMapping method [Microsoft TV Technologies], put_FrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader_getcapabilities.htm
 tech.root: appxpkg
 ms.assetid: 5FCBD9E9-9A5E-49E1-8B80-8F84EDA8B07C
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: GetCapabilities, GetCapabilities method [App packaging and management], GetCapabilities method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetCapabilities method, IAppxManifestReader.GetCapabilities, IAppxManifestReader::GetCapabilities, appxpackaging/IAppxManifestReader::GetCapabilities, appxpkg.iappxmanifestreader_getcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

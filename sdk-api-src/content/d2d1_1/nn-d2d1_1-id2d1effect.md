@@ -7,10 +7,10 @@ old-location: direct2d\id2d1effect.htm
 tech.root: direct2d
 ms.assetid: e90d1830-c356-48f1-ac7b-1d94c8c26569
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1Effect, ID2D1Effect interface [Direct2D], ID2D1Effect interface [Direct2D],described, d2d1_1/ID2D1Effect, direct2d.id2d1effect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_1.h
 req.include-header: 

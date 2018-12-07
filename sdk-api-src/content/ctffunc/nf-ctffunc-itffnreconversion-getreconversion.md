@@ -7,7 +7,7 @@ old-location: tsf\itffnreconversion_getreconversion.htm
 tech.root: TSF
 ms.assetid: ed696088-c599-4c83-968e-d09d9ae81c10
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnReconversion interface, ITfFnReconversion interface [Text Services Framework],GetReconversion method, ITfFnReconversion.GetReconversion, ITfFnReconversion::GetReconversion, _tsf_itffnreconversion_getreconversion_ref, ctffunc/ITfFnReconversion::GetReconversion, tsf.itffnreconversion_getreconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

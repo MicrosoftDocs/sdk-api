@@ -7,10 +7,10 @@ old-location: mf\dxvahd_vpdevcaps.htm
 tech.root: medfound
 ms.assetid: 340669d4-2a84-4030-83c3-a61469fdfd61
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: DXVAHD_VPDEVCAPS, DXVAHD_VPDEVCAPS structure [Media Foundation], _DXVAHD_VPDEVCAPS, dxvahd/DXVAHD_VPDEVCAPS, mf.dxvahd_vpdevcaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: IDvbSiParser::GetTSDT
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_gettsdt.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1aae16d0-6852-476b-85a6-6a994400b651
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTSDT, GetTSDT method [Microsoft TV Technologies], GetTSDT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetTSDT method, IDvbSiParser.GetTSDT, IDvbSiParser::GetTSDT, IDvbSiParserGetTSDT, dvbsiparser/IDvbSiParser::GetTSDT, mstv.idvbsiparser_gettsdt
 ms.prod: windows-hardware
 ms.technology: windows-devices

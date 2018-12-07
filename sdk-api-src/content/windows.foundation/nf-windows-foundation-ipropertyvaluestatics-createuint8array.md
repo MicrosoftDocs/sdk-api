@@ -7,7 +7,7 @@ old-location: winrt\ipropertyvaluestatics_createuint8array.htm
 tech.root: WinRT
 ms.assetid: fc666379-4992-47da-b97b-b296219e26c1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CreateUInt8Array, CreateUInt8Array method [Windows Runtime], CreateUInt8Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt8Array method, IPropertyValueStatics.CreateUInt8Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt8Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt8Array, winrt.ipropertyvaluefactory_createuint8array, winrt.ipropertyvaluestatics_createuint8array
 ms.prod: windows-hardware
 ms.technology: windows-devices

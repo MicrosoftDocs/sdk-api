@@ -7,7 +7,7 @@ old-location: tsf\itfcleanupcontextsink_oncleanupcontext.htm
 tech.root: TSF
 ms.assetid: 6af597e6-f997-4b28-8994-a8dbabcaaa68
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: ITfCleanupContextSink interface [Text Services Framework],OnCleanupContext method, ITfCleanupContextSink.OnCleanupContext, ITfCleanupContextSink::OnCleanupContext, OnCleanupContext, OnCleanupContext method [Text Services Framework], OnCleanupContext method [Text Services Framework],ITfCleanupContextSink interface, _tsf_itfcleanupcontextsink_oncleanupcontext_ref, msctf/ITfCleanupContextSink::OnCleanupContext, tsf.itfcleanupcontextsink_oncleanupcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

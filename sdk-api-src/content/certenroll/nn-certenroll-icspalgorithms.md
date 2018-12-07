@@ -4,13 +4,13 @@ title: ICspAlgorithms
 author: windows-sdk-content
 description: The ICspAlgorithms interface defines the following methods and properties that manage a collection of ICspAlgorithm objects.
 old-location: security\icspalgorithms.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: bbf8cff4-b1b2-480e-8c30-eb34166db143
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], ICspAlgorithms interface [Security],described, certenroll/ICspAlgorithms, security.icspalgorithms
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

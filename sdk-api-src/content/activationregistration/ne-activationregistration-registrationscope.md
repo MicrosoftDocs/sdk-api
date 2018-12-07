@@ -7,10 +7,10 @@ old-location: winrt\registrationscope.htm
 tech.root: WinRT
 ms.assetid: B4C14F6B-90BE-43AC-955B-229CDA025224
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RegistrationScope, RegistrationScope enumeration [Windows Runtime], RegistrationScope_InboxApp, RegistrationScope_PerMachine, RegistrationScope_PerUser, activationregistration/RegistrationScope, activationregistration/RegistrationScope_InboxApp, activationregistration/RegistrationScope_PerMachine, activationregistration/RegistrationScope_PerUser, winrt.registrationscope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 
@@ -71,11 +71,6 @@ Activation is per user, from a 3rd-party app store.
 ### -field RegistrationScope_InboxApp
 
 Activation is per-machine, for a built-in app store.
-
-
-### -field int
-
-
 
 
 ## -see-also

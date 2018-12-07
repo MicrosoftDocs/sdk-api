@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_placed_subresource_footprint.htm
 tech.root: direct3d12
 ms.assetid: 74740A52-C2A5-4AF6-92CC-85B5C214423F
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_PLACED_SUBRESOURCE_FOOTPRINT, D3D12_PLACED_SUBRESOURCE_FOOTPRINT structure, d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT, direct3d12.d3d12_placed_subresource_footprint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: qos\tcaddfilter.htm
 tech.root: QOS
 ms.assetid: c6d7c346-c353-4224-a8b5-56910e447902
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TcAddFilter, TcAddFilter function [QOS], _gqos_tcaddfilter, qos.tcaddfilter, traffic/TcAddFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

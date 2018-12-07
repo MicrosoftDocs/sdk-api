@@ -4,10 +4,10 @@ title: IMSVidCtl::get_FeaturesAvailable
 author: windows-sdk-content
 description: The get_FeaturesAvailable method retrieves the features that are available on the local system.
 old-location: mstv\imsvidctl_get_featuresavailable.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 73da686c-0c25-4dfb-8a13-681f1dac6a4a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_FeaturesAvailable method, IMSVidCtl.get_FeaturesAvailable, IMSVidCtl::get_FeaturesAvailable, IMSVidCtlget_FeaturesAvailable, get_FeaturesAvailable, get_FeaturesAvailable method [Microsoft TV Technologies], get_FeaturesAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_featuresavailable, msvidctl/IMSVidCtl::get_FeaturesAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get_FeaturesAvailable</b> method retrieves the features that are availabl
 
 
 
-### -param pVal
-
-TBD
-
-
-
-
-#### - ppVal [out]
+### -param pVal [out]
 
 Receives an <a href="https://msdn.microsoft.com/19790fab-0530-4a17-8a3c-a50576fea9ca">IMSVidFeatures</a> interface pointer. The caller must release the interface.
 

@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_EncoderValue.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\encodervalue.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: EncoderValue, EncoderValue enumeration [GDI+], EncoderValueColorTypeCMYK, EncoderValueColorTypeYCCK, EncoderValueCompressionCCITT3, EncoderValueCompressionCCITT4, EncoderValueCompressionLZW, EncoderValueCompressionNone, EncoderValueCompressionRle, EncoderValueFlush, EncoderValueFrameDimensionPage, EncoderValueFrameDimensionResolution, EncoderValueFrameDimensionTime, EncoderValueLastFrame, EncoderValueMultiFrame, EncoderValueRenderNonProgressive, EncoderValueRenderProgressive, EncoderValueScanMethodInterlaced, EncoderValueScanMethodNonInterlaced, EncoderValueTransformFlipHorizontal, EncoderValueTransformFlipVertical, EncoderValueTransformRotate180, EncoderValueTransformRotate270, EncoderValueTransformRotate90, EncoderValueVersionGif87, EncoderValueVersionGif89, _gdiplus_ENUM_EncoderValue, gdiplus._gdiplus_ENUM_EncoderValue, gdiplusenums/EncoderValue, gdiplusenums/EncoderValueColorTypeCMYK, gdiplusenums/EncoderValueColorTypeYCCK, gdiplusenums/EncoderValueCompressionCCITT3, gdiplusenums/EncoderValueCompressionCCITT4, gdiplusenums/EncoderValueCompressionLZW, gdiplusenums/EncoderValueCompressionNone, gdiplusenums/EncoderValueCompressionRle, gdiplusenums/EncoderValueFlush, gdiplusenums/EncoderValueFrameDimensionPage, gdiplusenums/EncoderValueFrameDimensionResolution, gdiplusenums/EncoderValueFrameDimensionTime, gdiplusenums/EncoderValueLastFrame, gdiplusenums/EncoderValueMultiFrame, gdiplusenums/EncoderValueRenderNonProgressive, gdiplusenums/EncoderValueRenderProgressive, gdiplusenums/EncoderValueScanMethodInterlaced, gdiplusenums/EncoderValueScanMethodNonInterlaced, gdiplusenums/EncoderValueTransformFlipHorizontal, gdiplusenums/EncoderValueTransformFlipVertical, gdiplusenums/EncoderValueTransformRotate180, gdiplusenums/EncoderValueTransformRotate270, gdiplusenums/EncoderValueTransformRotate90, gdiplusenums/EncoderValueVersionGif87, gdiplusenums/EncoderValueVersionGif89
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

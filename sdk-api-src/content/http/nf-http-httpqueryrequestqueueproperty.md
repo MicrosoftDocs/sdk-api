@@ -4,10 +4,10 @@ title: HttpQueryRequestQueueProperty function
 author: windows-sdk-content
 description: Queries a property of the request queue identified by the specified handle.
 old-location: http\httpqueryrequestqueueproperty.htm
-tech.root: Http
+tech.root: http
 ms.assetid: a3b1e85e-f152-4038-a56a-3d5985757c45
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: HttpQueryRequestQueueProperty, HttpQueryRequestQueueProperty function [HTTP], HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, http.httpqueryrequestqueueproperty, http/HttpQueryRequestQueueProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,21 +146,16 @@ The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i
 Reserved. Must be zero.
 
 
-### -param ReturnLength
+### -param ReturnLength [out, optional]
 
-TBD
+The number, in bytes, returned in the  <i>pPropertyInformation</i> buffer if not <b>NULL</b>.
+
+If the output buffer is too small, the call fails with a return value of <b>ERROR_MORE_DATA</b>. The value pointed to by <i>pReturnLength</i> can be used to determine the minimum length of the buffer required for the call to succeed.
 
 
 ### -param Reserved2 [in]
 
 This parameter is reserved and must be <b>NULL</b>.
-
-
-#### - pReturnLength [out, optional]
-
-The number, in bytes, returned in the  <i>pPropertyInformation</i> buffer if not <b>NULL</b>.
-
-If the output buffer is too small, the call fails with a return value of <b>ERROR_MORE_DATA</b>. The value pointed to by <i>pReturnLength</i> can be used to determine the minimum length of the buffer required for the call to succeed.
 
 
 ## -returns

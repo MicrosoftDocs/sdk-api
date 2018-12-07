@@ -7,7 +7,7 @@ old-location: mmc\imessageview_seticon.htm
 tech.root: mmc
 ms.assetid: 61389d5b-cf0a-465e-9b3b-1bcdef4f92b1
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IMessageView interface [MMC],SetIcon method, IMessageView.SetIcon, IMessageView::SetIcon, SetIcon, SetIcon method [MMC], SetIcon method [MMC],IMessageView interface, _slate_imessageview_seticon, mmc.imessageview_seticon, mmc/IMessageView::SetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>IMessageView::SetIcon</b> method enables a snap-in to set the icon for th
 
 
 
-### -param id
-
-TBD
-
-
-
-
-#### - IconIdentifier [in]
+### -param id [in]
 
 A value that specifies the type of icon for the result pane message. The value is taken from the 
 <a href="https://msdn.microsoft.com/5ed7302e-1e2f-46cc-b272-f6c06afe7552">IconIdentifier</a> enumeration.

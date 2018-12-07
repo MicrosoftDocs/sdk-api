@@ -7,7 +7,7 @@ old-location: tapi2\tapigetlocationinfo.htm
 tech.root: tapi
 ms.assetid: c7c83cb7-3fd6-4dbb-8510-2c9afcc7015c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_tapigetlocationinfo, tapi/tapiGetLocationInfo, tapi/tapiGetLocationInfoA, tapi/tapiGetLocationInfoW, tapi2.tapigetlocationinfo, tapiGetLocationInfo, tapiGetLocationInfo function [TAPI 2.2], tapiGetLocationInfoA, tapiGetLocationInfoW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,26 +61,14 @@ The
 
 
 
-### -param lpszCountryCodeW
-
-TBD
-
-
-### -param lpszCityCodeW
-
-TBD
-
-
-
-
-#### - lpszCityCode
-
-Pointer to a memory location where a <b>null</b>-terminated string specifying the city (area) code for the current location is to be returned. The application should allocate at least 8 bytes of storage at this location to hold the string (TAPI does not return more than 8 bytes, including the terminating <b>NULL</b>). An empty string (\0) is returned if the city code has not been set for the current location.
-
-
-#### - lpszCountryCode
+#### - lpszCountryCodeW
 
 Pointer to a memory location where a <b>null</b>-terminated string specifying the country or region code for the current location is to be returned. The application should allocate at least 8 bytes of storage at this location to hold the string (TAPI does not return more than 8 bytes, including the terminating <b>NULL</b>). An empty string (\0) is returned if the country or region code has not been set for the current location.
+
+
+#### - lpszCityCodeW
+
+Pointer to a memory location where a <b>null</b>-terminated string specifying the city (area) code for the current location is to be returned. The application should allocate at least 8 bytes of storage at this location to hold the string (TAPI does not return more than 8 bytes, including the terminating <b>NULL</b>). An empty string (\0) is returned if the city code has not been set for the current location.
 
 
 ## -returns

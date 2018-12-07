@@ -7,7 +7,7 @@ old-location: winsock\wpucompleteoverlappedrequest_2.htm
 tech.root: winsock
 ms.assetid: b0e5015f-d23f-46da-91b1-f646111f70f9
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WPUCompleteOverlappedRequest, WPUCompleteOverlappedRequest function [Winsock], _win32_wpucompleteoverlappedrequest_2, winsock.wpucompleteoverlappedrequest_2, ws2spi/WPUCompleteOverlappedRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

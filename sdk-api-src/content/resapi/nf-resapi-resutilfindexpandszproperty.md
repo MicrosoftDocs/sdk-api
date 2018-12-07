@@ -7,7 +7,7 @@ old-location: mscs\resutilfindexpandszproperty.htm
 tech.root: mscs
 ms.assetid: 44fb21bd-6cc2-4b1b-ae8f-c977fa336747
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_FIND_EXPAND_SZ_PROPERTY, PRESUTIL_FIND_EXPAND_SZ_PROPERTY function [Failover Cluster], ResUtilFindExpandSzProperty, ResUtilFindExpandSzProperty function [Failover Cluster], _wolf_resutilfindexpandszproperty, mscs.resutilfindexpandszproperty, resapi/PRESUTIL_FIND_EXPAND_SZ_PROPERTY, resapi/ResUtilFindExpandSzProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,6 +86,47 @@ If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The property list is incorrectly formatted.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function could not allocate a buffer in which to return the property value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_FILE_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The specified property could not be located in the property list.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

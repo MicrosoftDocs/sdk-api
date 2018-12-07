@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10asynchronous_getdatasize.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous_getdatasize.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 18babc8a-b4ee-3a1f-77f3-2020431b0222, GetDataSize, GetDataSize method [Direct3D 10], GetDataSize method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],GetDataSize method, ID3D10Asynchronous.GetDataSize, ID3D10Asynchronous::GetDataSize, d3d10/ID3D10Asynchronous::GetDataSize, direct3d10.id3d10asynchronous_getdatasize
 ms.prod: windows-hardware
 ms.technology: windows-devices

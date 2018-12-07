@@ -4,10 +4,10 @@ title: IUPnPDevice::get_PresentationURL
 author: windows-sdk-content
 description: The PresentationURL property specifies the presentation URL for a Web page that controls the device.
 old-location: upnp\iupnpdevice_presentationurl.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 8dba8289-2f2f-482c-abd6-38f81a11f5e2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_PresentationURL method, IUPnPDevice.get_PresentationURL, IUPnPDevice::get_PresentationURL, _upnp_iupnpdevice_presentationurl, get_PresentationURL, get_PresentationURL method [UPnP APIs], get_PresentationURL method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_presentationurl, upnp/IUPnPDevice::get_PresentationURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

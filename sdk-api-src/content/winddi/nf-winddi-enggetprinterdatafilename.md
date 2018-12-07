@@ -7,7 +7,7 @@ old-location: display\enggetprinterdatafilename.htm
 tech.root: display
 ms.assetid: bfc698d9-a340-49a5-97fb-0dae92ab6f2d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EngGetPrinterDataFileName, EngGetPrinterDataFileName function [Display Devices], display.enggetprinterdatafilename, gdifncs_d69cc953-8c73-4b34-af26-61f159959fa6.xml, winddi/EngGetPrinterDataFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,13 +4,13 @@ title: IGPMMapEntryCollection
 author: windows-sdk-content
 description: The IGPMMapEntryCollection interface enables applications to access map entry objects.
 old-location: gpmc\igpmmapentrycollection.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: a017ff4b-ab3c-4da9-b6c9-b4ccd24230eb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GPMMapEntryCollection, IGPMMapEntryCollection, IGPMMapEntryCollection interface [GPMC], IGPMMapEntryCollection interface [GPMC],described, gpmc.igpmmapentrycollection, gpmgmt/IGPMMapEntryCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

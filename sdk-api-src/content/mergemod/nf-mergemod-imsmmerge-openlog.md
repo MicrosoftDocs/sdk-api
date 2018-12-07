@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_openlog.htm
 tech.root: msi
 ms.assetid: b34e7f28-2cf3-4cc7-9a39-e1da6fb8c788
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmMerge interface,OpenLog method, IMsmMerge.OpenLog, IMsmMerge::OpenLog, OpenLog, OpenLog method, OpenLog method,IMsmMerge interface, _msi_openlog_function, mergemod/IMsmMerge::OpenLog, setup.imsmmerge_openlog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,7 @@ The
 
 
 
-### -param Path
-
-TBD
-
-
-
-
-#### - FileName [in]
+### -param Path [in]
 
 Fully qualified file name pointing to a file to open or create. A <b>LPCWSTR</b> may be used in place of a <b>BSTR</b>.
 

@@ -7,7 +7,7 @@ old-location: controls\CreateToolbarEx.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createtoolbarex.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CreateToolbarEx, CreateToolbarEx function [Windows Controls], _win32_CreateToolbarEx, _win32_CreateToolbarEx_cpp, commctrl/CreateToolbarEx, controls.CreateToolbarEx, controls._win32_CreateToolbarEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

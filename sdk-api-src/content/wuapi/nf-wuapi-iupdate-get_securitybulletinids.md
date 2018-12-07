@@ -4,10 +4,10 @@ title: IUpdate::get_SecurityBulletinIDs
 author: windows-sdk-content
 description: Gets a collection of string values that contain the security bulletin IDs that are associated with the update.
 old-location: wua\iupdate_securitybulletinids.htm
-tech.root: Wua_Sdk
+tech.root: wua_sdk
 ms.assetid: 63de677b-4a0e-4ac6-937f-bf195a0da205
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SecurityBulletinIDs property, IUpdate.SecurityBulletinIDs, IUpdate.get_SecurityBulletinIDs, IUpdate::SecurityBulletinIDs, IUpdate::get_SecurityBulletinIDs, SecurityBulletinIDs property [Windows Update Agent], SecurityBulletinIDs property [Windows Update Agent],IUpdate interface, get_SecurityBulletinIDs, wua.iupdate_securitybulletinids, wuapi/IUpdate::SecurityBulletinIDs, wuapi/IUpdate::get_SecurityBulletinIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices

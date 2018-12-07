@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator2_getdependencies.htm
 tech.root: UIAnimation
 ms.assetid: DC6F046E-1A35-4FB9-9016-853AF2B598DE
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDependencies method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetDependencies method, IUIAnimationInterpolator2.GetDependencies, IUIAnimationInterpolator2::GetDependencies, uianimation.iuianimationinterpolator2_getdependencies, uianimation/IUIAnimationInterpolator2::GetDependencies
 ms.prod: windows-hardware
 ms.technology: windows-devices

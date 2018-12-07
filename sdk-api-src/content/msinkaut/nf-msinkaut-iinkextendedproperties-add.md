@@ -7,7 +7,7 @@ old-location: tablet\iinkextendedproperties_add.htm
 tech.root: tablet
 ms.assetid: 4fff6945-b46e-4e72-af45-ca066e73338e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: 4fff6945-b46e-4e72-af45-ca066e73338e, Add, Add method [Tablet PC], Add method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Add method, IInkExtendedProperties.Add, IInkExtendedProperties::Add, msinkaut/IInkExtendedProperties::Add, tablet.iinkextendedproperties_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,21 +71,16 @@ Creates and adds an <a href="https://msdn.microsoft.com/53146f37-343a-4886-a0bb-
 For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
-### -param Data
+### -param Data [in]
 
-TBD
+ The data for the new <a href="https://msdn.microsoft.com/53146f37-343a-4886-a0bb-d76d50ca96ba">IInkExtendedProperty</a> object.
+
+For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
 ### -param InkExtendedProperty [out, retval]
 
 When this method returns, contains a poitner to the new extended property.
-
-
-#### - data [in]
-
- The data for the new <a href="https://msdn.microsoft.com/53146f37-343a-4886-a0bb-d76d50ca96ba">IInkExtendedProperty</a> object.
-
-For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fwp\ikeextsadeletebyid0.htm
 tech.root: fwp
 ms.assetid: de3d1f4e-7b8a-46f5-9c3a-c6a504d5aabb
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: IkeextSaDeleteById0, IkeextSaDeleteById0 function [Filtering], fwp.ikeextsadeletebyid0, fwpmu/IkeextSaDeleteById0
 ms.prod: windows-hardware
 ms.technology: windows-devices

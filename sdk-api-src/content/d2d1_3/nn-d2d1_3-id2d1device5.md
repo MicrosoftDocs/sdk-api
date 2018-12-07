@@ -7,10 +7,10 @@ old-location: direct2d\id2d1device5.htm
 tech.root: direct2d
 ms.assetid: 3C436C9F-461B-4B18-B537-6724609D825F
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1Device5, ID2D1Device5 interface [Direct2D], ID2D1Device5 interface [Direct2D],described, d2d1_3/ID2D1Device5, direct2d.id2d1device5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

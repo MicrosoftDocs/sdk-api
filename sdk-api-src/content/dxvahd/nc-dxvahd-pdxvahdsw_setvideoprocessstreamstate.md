@@ -7,10 +7,10 @@ old-location: mf\pdxvahdsw_setvideoprocessstreamstate.htm
 tech.root: medfound
 ms.assetid: 1fbecdbd-9f04-4d1e-82a6-4c6ce522cdaf
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: PDXVAHDSW_SetVideoProcessStreamState, PDXVAHDSW_SetVideoProcessStreamState callback, PDXVAHDSW_SetVideoProcessStreamState callback function [Media Foundation], dxvahd/PDXVAHDSW_SetVideoProcessStreamState, mf.pdxvahdsw_setvideoprocessstreamstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: dxvahd.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getdata.htm
 tech.root: medfound
 ms.assetid: 18884B70-DE34-494E-A029-6DD48AB0BA13
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetData method, IMFTimedTextCue.GetData, IMFTimedTextCue::GetData, mf.imftimedtextcue_getdata, mfmediaengine/IMFTimedTextCue::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Gets the data content of the timed-text cue.
 
 
 
-### -param data
-
-TBD
-
-
-
-
-#### - ppData [out]
+### -param data [out]
 
 Type: <b><a href="https://msdn.microsoft.com/C76FAC0F-6C15-4874-BAE6-7315E1C3066E">IMFTimedTextBinary</a>**</b>
 

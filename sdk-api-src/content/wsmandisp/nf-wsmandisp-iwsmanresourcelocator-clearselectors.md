@@ -4,10 +4,10 @@ title: IWSManResourceLocator::ClearSelectors
 author: windows-sdk-content
 description: Removes all the selectors from a ResourceLocator object. You can provide a ResourceLocator object instead of specifying a resource URI in IWSManSession object operations such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_clearselectors.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: fccd0cd4-465b-454c-a300-ab50c25d6afe
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: ClearSelectors, ClearSelectors method [Windows Remote Management], ClearSelectors method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],ClearSelectors method, IWSManResourceLocator.ClearSelectors, IWSManResourceLocator::ClearSelectors, winrm.iwsmanresourcelocator_clearselectors, wsmandisp/IWSManResourceLocator::ClearSelectors
 ms.prod: windows-hardware
 ms.technology: windows-devices

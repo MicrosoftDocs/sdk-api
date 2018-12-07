@@ -7,10 +7,10 @@ old-location: shell\SHCOLUMNINFO_str.htm
 tech.root: shell
 ms.assetid: 6d7caeca-38fe-4477-a278-abf483d8d42c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/15/2018
 ms.keywords: "*LPSHCOLUMNINFO, LPSHCOLUMNINFO, LPSHCOLUMNINFO structure pointer [Windows Shell], SHCOLSTATE_EXTENDED, SHCOLSTATE_HIDDEN, SHCOLSTATE_ONBYDEFAULT, SHCOLSTATE_SECONDARYUI, SHCOLSTATE_SLOW, SHCOLSTATE_TYPE_DATE, SHCOLSTATE_TYPE_INT, SHCOLSTATE_TYPE_STR, SHCOLUMNINFO, SHCOLUMNINFO structure [Windows Shell], _win32_SHCOLUMNINFO_str, shell.SHCOLUMNINFO_str, shlobj/LPSHCOLUMNINFO, shlobj/SHCOLUMNINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 

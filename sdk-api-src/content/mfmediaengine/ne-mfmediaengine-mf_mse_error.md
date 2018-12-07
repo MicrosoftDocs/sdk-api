@@ -7,10 +7,10 @@ old-location: mf\mf_mse_error.htm
 tech.root: medfound
 ms.assetid: 8FD54833-F60B-49E8-A673-6130F3B06160
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MF_MSE_ERROR, MF_MSE_ERROR enumeration [Media Foundation], MF_MSE_ERROR_DECODE, MF_MSE_ERROR_NETWORK, MF_MSE_ERROR_NOERROR, MF_MSE_ERROR_UNKNOWN_ERROR, mf.mf_mse_error, mfmediaengine/MF_MSE_ERROR, mfmediaengine/MF_MSE_ERROR_DECODE, mfmediaengine/MF_MSE_ERROR_NETWORK, mfmediaengine/MF_MSE_ERROR_NOERROR, mfmediaengine/MF_MSE_ERROR_UNKNOWN_ERROR
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 

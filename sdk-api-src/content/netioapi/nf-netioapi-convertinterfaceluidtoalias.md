@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfaceluidtoalias.htm
 tech.root: IpHlp
 ms.assetid: 86a821c1-e04b-4bc3-846d-767c55008aed
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ConvertInterfaceLuidToAlias, ConvertInterfaceLuidToAlias function [IP Helper], iphlp.convertinterfaceluidtoalias, netioapi/ConvertInterfaceLuidToAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices

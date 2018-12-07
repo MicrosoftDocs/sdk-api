@@ -7,10 +7,10 @@ old-location: mediastreaming\devicetypes.htm
 tech.root: mediastreaming
 ms.assetid: ec6bbc1f-653a-414c-b458-1a5e1b101781
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DeviceTypes, DeviceTypes enumeration [Media Streaming API], DigitalMediaPlayer, DigitalMediaRenderer, DigitalMediaServer, Unknown, mediastreaming.devicetypes, windows/DeviceTypes, windows/DigitalMediaPlayer, windows/DigitalMediaRenderer, windows/DigitalMediaServer, windows/Unknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: windows.media.streaming.h
 req.include-header: 
@@ -68,9 +68,6 @@ Describes the DLNA device types that are supported by the Media Streaming API.
 
 
 ### -field DeviceTypes_DigitalMediaPlayer
-
-
-### -field unsigned int
 
 
 

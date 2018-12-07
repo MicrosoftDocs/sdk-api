@@ -4,10 +4,10 @@ title: MI_Instance_Delete function
 author: windows-sdk-content
 description: Deletes an instance that was created on the heap or cloned from another instance.
 old-location: wmi_v2\mi_instance_delete.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 6370e464-b262-4c91-a3c8-889911df7965
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: MI_Instance_Delete, MI_Instance_Delete function [Windows Management Infrastructure (MI)], mi/MI_Instance_Delete, wmi_v2.mi_instance_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

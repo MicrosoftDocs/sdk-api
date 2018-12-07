@@ -7,7 +7,7 @@ old-location: dshow\iamtvaudio_get_tvaudiomode.htm
 tech.root: DirectShow
 ms.assetid: fa2e71f3-3aa0-4260-925d-579006459a09
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAMTVAudio interface [DirectShow],get_TVAudioMode method, IAMTVAudio.get_TVAudioMode, IAMTVAudio::get_TVAudioMode, IAMTVAudioget_TVAudioMode, dshow.iamtvaudio_get_tvaudiomode, get_TVAudioMode, get_TVAudioMode method [DirectShow], get_TVAudioMode method [DirectShow],IAMTVAudio interface, strmif/IAMTVAudio::get_TVAudioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ The <code>get_TVAudioMode</code> method retrieves the current TV audio mode.
 
 
 
-### -param plMode
-
-TBD
-
-
-
-
-#### - plModes [out]
+### -param plMode [out]
 
 Pointer to a <a href="https://msdn.microsoft.com/70e26550-0a8f-484e-b919-cfefdcf95f6b">TVAudioMode</a> enumeration type, identifying the audio mode.
 

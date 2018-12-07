@@ -4,10 +4,10 @@ title: HeapDestroy function
 author: windows-sdk-content
 description: Destroys the specified heap object. It decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap.
 old-location: base\heapdestroy.htm
-tech.root: Memory
+tech.root: memory
 ms.assetid: 2ad8d15f-de5e-424d-9349-3baccb000a36
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: HeapDestroy, HeapDestroy function, _win32_heapdestroy, base.heapdestroy, heapapi/HeapDestroy, winbase/HeapDestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

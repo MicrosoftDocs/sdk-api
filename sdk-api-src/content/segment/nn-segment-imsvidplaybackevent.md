@@ -4,13 +4,13 @@ title: IMSVidPlaybackEvent
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidplaybackevent.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 7347601e-e889-4a45-8b94-081678df68d9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidPlaybackEvent, IMSVidPlaybackEvent interface [Microsoft TV Technologies], IMSVidPlaybackEvent interface [Microsoft TV Technologies],described, IMSVidPlaybackEventInterface, mstv.imsvidplaybackevent, segment/IMSVidPlaybackEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

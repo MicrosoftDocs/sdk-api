@@ -4,10 +4,10 @@ title: ISCTE_EAS::GetProtocolVersion
 author: windows-sdk-content
 description: The GetProtocolVersion method returns the protocol version of the EAS table.
 old-location: mstv\iscte_eas_getprotocolversion.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 80700a74-85d6-4269-9000-83e62f68aeb1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetProtocolVersion method, ISCTE_EAS.GetProtocolVersion, ISCTE_EAS::GetProtocolVersion, ISCTE_EASGetProtocolVersion, atscpsipparser/ISCTE_EAS::GetProtocolVersion, mstv.iscte_eas_getprotocolversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

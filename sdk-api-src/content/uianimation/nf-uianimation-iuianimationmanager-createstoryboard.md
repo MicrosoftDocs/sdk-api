@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_createstoryboard.htm
 tech.root: UIAnimation
 ms.assetid: 933ffb62-0f69-4225-873b-e2e023939bea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateStoryboard, CreateStoryboard method [Windows Animation], CreateStoryboard method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],CreateStoryboard method, IUIAnimationManager.CreateStoryboard, IUIAnimationManager::CreateStoryboard, uianimation.iuianimationmanager_createstoryboard, uianimation/IUIAnimationManager::CreateStoryboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

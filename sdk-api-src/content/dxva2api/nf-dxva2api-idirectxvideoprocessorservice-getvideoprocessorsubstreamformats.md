@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_getvideoprocessorsubstreamformats
 tech.root: medfound
 ms.assetid: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1, GetVideoProcessorSubStreamFormats, GetVideoProcessorSubStreamFormats method [Media Foundation], GetVideoProcessorSubStreamFormats method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorSubStreamFormats method, IDirectXVideoProcessorService.GetVideoProcessorSubStreamFormats, IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats, mf.idirectxvideoprocessorservice_getvideoprocessorsubstreamformats
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,14 +83,7 @@ Receives the number of elements returned in the <i>ppFormats</i> array.
           
 
 
-### -param pFormats
-
-TBD
-
-
-
-
-#### - ppFormats [out]
+### -param pFormats [out]
 
 Receives an array of <b>D3DFORMAT</b> values. The caller must free the array by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>. The array can contain both RGB and YUB pixel formats.
           

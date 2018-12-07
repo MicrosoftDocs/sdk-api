@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_gettotalbad.htm
 tech.root: WMDM
 ms.assetid: b0cbf636-e2c4-4a30-9b6d-5833090330a4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTotalBad, GetTotalBad method [windows Media Device Manager], GetTotalBad method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetTotalBad method, IMDSPStorageGlobals.GetTotalBad, IMDSPStorageGlobals::GetTotalBad, IMDSPStorageGlobalsGetTotalBad, mswmdm/IMDSPStorageGlobals::GetTotalBad, wmdm.imdspstorageglobals_gettotalbad
 ms.prod: windows-hardware
 ms.technology: windows-devices

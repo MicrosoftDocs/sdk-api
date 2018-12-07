@@ -4,10 +4,10 @@ title: IDataCollectorSet::Query
 author: windows-sdk-content
 description: Retrieves the specified data collector set.
 old-location: pla\idatacollectorset_query.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: ac07169e-710c-4267-ae08-ed18a15d866d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IDataCollectorSet interface [PLA],Query method, IDataCollectorSet.Query, IDataCollectorSet::Query, Query, Query method [PLA], Query method [PLA],IDataCollectorSet interface, base.idatacollectorset_query, pla.idatacollectorset_query, pla/IDataCollectorSet::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices

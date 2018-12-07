@@ -4,10 +4,10 @@ title: IVdsDrive::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a drive object.
 old-location: base\ivdsdrive_getproperties.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 31556be6-ff03-492f-a7a6-dec37a63e88d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],GetProperties method, IVdsDrive.GetProperties, IVdsDrive::GetProperties, base.ivdsdrive_getproperties, vds/IVdsDrive::GetProperties, vdshwprv/IVdsDrive::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

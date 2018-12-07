@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionexcludemethods\exclude_82region.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Exclude, Exclude method [GDI+], Exclude method [GDI+],Region class, Region class [GDI+],Exclude method, Region.Exclude, Region.Exclude(IN const Region), Region.Exclude(const Region*), Region::Exclude, Region::Exclude(IN const Region), _gdiplus_CLASS_Region_Exclude_region_, gdiplus._gdiplus_CLASS_Region_Exclude_region_
 ms.prod: windows-hardware
 ms.technology: windows-devices

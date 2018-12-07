@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_draw.htm
 tech.root: tablet
 ms.assetid: 18f67080-ed56-43af-b0d6-8af35c2e871b
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: 18f67080-ed56-43af-b0d6-8af35c2e871b, Draw, Draw method [Tablet PC], Draw method [Tablet PC],IInkRenderer interface, IInkRenderer, IInkRenderer interface [Tablet PC],Draw method, IInkRenderer.Draw, IInkRenderer::Draw, msinkaut/IInkRenderer::Draw, tablet.inkrenderer_draw
 ms.prod: windows-hardware
 ms.technology: windows-devices

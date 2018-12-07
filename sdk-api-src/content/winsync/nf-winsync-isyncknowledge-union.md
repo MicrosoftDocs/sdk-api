@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_union.htm
 tech.root: winsync
 ms.assetid: 95d88d28-57b7-4b4a-abda-a69f25b1e8b8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],Union method, ISyncKnowledge.Union, ISyncKnowledge::Union, Union, Union method [Windows Sync], Union method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_union, winsync/ISyncKnowledge::Union
 ms.prod: windows-hardware
 ms.technology: windows-devices

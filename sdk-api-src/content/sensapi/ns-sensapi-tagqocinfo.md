@@ -9,8 +9,8 @@ ms.assetid: 1f78a7c5-b3c7-4f21-8848-58cfb481f4bb
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*LPQOCINFO, LPQOCINFO, LPQOCINFO structure pointer [SENS], NETWORK_ALIVE_AOL, NETWORK_ALIVE_LAN, NETWORK_ALIVE_WAN, QOCINFO, QOCINFO structure [SENS], _zaw_qocinfo, sens.qocinfo, sensapi/LPQOCINFO, sensapi/QOCINFO, syncmgr.qocinfo, tagQOCINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: sensapi.h
 req.include-header: 

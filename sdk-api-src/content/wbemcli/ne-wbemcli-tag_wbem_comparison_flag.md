@@ -7,10 +7,10 @@ old-location: wmi\wbem_comparison_flag.htm
 tech.root: WmiSdk
 ms.assetid: B32685D3-C096-4E1F-BF59-EB68ED497FEC
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: WBEM_COMPARISON_FLAG, WBEM_COMPARISON_FLAG enumeration [Windows Management Instrumentation], WBEM_COMPARISON_INCLUDE_ALL, WBEM_FLAG_IGNORE_CASE, WBEM_FLAG_IGNORE_CLASS, WBEM_FLAG_IGNORE_DEFAULT_VALUES, WBEM_FLAG_IGNORE_FLAVOR, WBEM_FLAG_IGNORE_OBJECT_SOURCE, WBEM_FLAG_IGNORE_QUALIFIERS, tag_WBEM_COMPARISON_FLAG, wbemcli/WBEM_COMPARISON_FLAG, wbemcli/WBEM_COMPARISON_INCLUDE_ALL, wbemcli/WBEM_FLAG_IGNORE_CASE, wbemcli/WBEM_FLAG_IGNORE_CLASS, wbemcli/WBEM_FLAG_IGNORE_DEFAULT_VALUES, wbemcli/WBEM_FLAG_IGNORE_FLAVOR, wbemcli/WBEM_FLAG_IGNORE_OBJECT_SOURCE, wbemcli/WBEM_FLAG_IGNORE_QUALIFIERS, wmi.wbem_comparison_flag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 

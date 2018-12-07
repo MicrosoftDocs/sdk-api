@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertyKeyFromName.htm
 tech.root: properties
 ms.assetid: a80301d9-8b4e-4a17-8e24-4362ba3b1ab5
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: PSGetPropertyKeyFromName, PSGetPropertyKeyFromName function [Windows Properties], properties.PSGetPropertyKeyFromName, propsys/PSGetPropertyKeyFromName, shell.PSGetPropertyKeyFromName, shell_PSGetPropertyKeyFromName
 ms.prod: windows-hardware
 ms.technology: windows-devices

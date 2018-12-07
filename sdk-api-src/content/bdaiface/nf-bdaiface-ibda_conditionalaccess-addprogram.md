@@ -4,10 +4,10 @@ title: IBDA_ConditionalAccess::AddProgram
 author: windows-sdk-content
 description: Currently not implemented.
 old-location: mstv\ibda_conditionalaccess_addprogram.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 7e0e2905-fb7c-4532-be3e-198ca620f894
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddProgram, AddProgram method [Microsoft TV Technologies], AddProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, IBDA_ConditionalAccess interface [Microsoft TV Technologies],AddProgram method, IBDA_ConditionalAccess.AddProgram, IBDA_ConditionalAccess::AddProgram, IBDA_ConditionalAccessAddProgram, bdaiface/IBDA_ConditionalAccess::AddProgram, mstv.ibda_conditionalaccess_addprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices

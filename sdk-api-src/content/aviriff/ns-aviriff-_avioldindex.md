@@ -7,10 +7,10 @@ old-location: dshow\avioldindex.htm
 tech.root: DirectShow
 ms.assetid: c36d5759-710e-4abe-85dc-13462013bb9f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: AVIIF_KEYFRAME, AVIIF_LIST, AVIIF_NO_TIME, AVIOLDINDEX, AVIOLDINDEX structure [DirectShow], AVIOLDINDEXStructure, _avioldindex, aviriff/AVIOLDINDEX, db, dc, dshow.avioldindex, pc, wb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetuptransfer.htm
 tech.root: tapi
 ms.assetid: 0cd95e53-62d5-4318-961a-1136646fd222
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: TSPI_lineSetupTransfer, TSPI_lineSetupTransfer function [TAPI 2.2], _tspi_tspi_linesetuptransfer, tspi.tspi_linesetuptransfer, tspi/TSPI_lineSetupTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

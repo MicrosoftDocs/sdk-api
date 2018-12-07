@@ -7,10 +7,10 @@ old-location: base\initoncecallback.htm
 tech.root: sync
 ms.assetid: e4a73572-e477-4518-87fe-b9b74234e8ec
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: PINIT_ONCE_FN, PINIT_ONCE_FN callback, PINIT_ONCE_FN callback function, base.initoncecallback, synchapi/PINIT_ONCE_FN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: synchapi.h
 req.include-header: Windows.h

@@ -7,10 +7,10 @@ old-location: shell\BNSTATE.htm
 tech.root: shell
 ms.assetid: e49f38f0-51d3-43a7-96f6-1722a4afa848
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/30/2018
 ms.keywords: BNSTATE, BNSTATE enumeration [Windows Shell], BNS_BEGIN_NAVIGATE, BNS_NAVIGATE, BNS_NORMAL, _shell_BNSTATE, shdeprecated/BNSTATE, shdeprecated/BNS_BEGIN_NAVIGATE, shdeprecated/BNS_NAVIGATE, shdeprecated/BNS_NORMAL, shell.BNSTATE, tagBNSTATE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: shdeprecated.h
 req.include-header: 

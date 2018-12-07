@@ -7,7 +7,7 @@ old-location: dshow\imixerocx_setdrawregion.htm
 tech.root: DirectShow
 ms.assetid: 6f1a9b00-4a35-4772-a185-59b2bc9b9398
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IMixerOCX interface [DirectShow],SetDrawRegion method, IMixerOCX.SetDrawRegion, IMixerOCX::SetDrawRegion, IMixerOCXSetDrawRegion, SetDrawRegion, SetDrawRegion method [DirectShow], SetDrawRegion method [DirectShow],IMixerOCX interface, dshow.imixerocx_setdrawregion, mixerocx/IMixerOCX::SetDrawRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices

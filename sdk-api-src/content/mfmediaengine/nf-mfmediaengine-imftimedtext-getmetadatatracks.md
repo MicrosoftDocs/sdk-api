@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_getmetadatatracks.htm
 tech.root: medfound
 ms.assetid: EA4D12F6-D1F0-4DA9-BF80-22C6965CE396
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetMetadataTracks, GetMetadataTracks method [Media Foundation], GetMetadataTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetMetadataTracks method, IMFTimedText.GetMetadataTracks, IMFTimedText::GetMetadataTracks, mf.imftimedtext_getmetadatatracks, mfmediaengine/IMFTimedText::GetMetadataTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Gets the list of the timed-metadata tracks in the timed-text component.
 
 
 
-### -param metadataTracks
-
-TBD
-
-
-
-
-#### - ppMetadataTracks [out]
+### -param metadataTracks [out]
 
 Type: <b><a href="https://msdn.microsoft.com/EA94A81E-3B1D-4723-B00F-B216991E19E5">IMFTimedTextTrackList</a>**</b>
 

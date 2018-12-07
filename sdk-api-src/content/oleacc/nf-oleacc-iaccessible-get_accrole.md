@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accrole.htm
 tech.root: WinAuto
 ms.assetid: 38800c5e-12a5-4825-a4c4-825a159c67f1
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accRole method, IAccessible.get_accRole, IAccessible::get_accRole, _msaa_IAccessible_get_accRole, get_accRole, get_accRole method [Windows Accessibility], get_accRole method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accrole, oleacc/IAccessible::get_accRole, winauto.iaccessible_iaccessible__get_accrole
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ The <b>IAccessible::get_accRole</b> method retrieves information that describes 
 
 
 
-### -param varChild
+### -param varChild [in]
 
-TBD
+Type: <b>VARIANT</b>
+
+Specifies whether the retrieved role information belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
 
 
 ### -param pvarRole [out, retval]
@@ -68,13 +70,6 @@ TBD
 Type: <b>VARIANT*</b>
 
 Address of a <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> that receives an <a href="https://msdn.microsoft.com/f015252a-c0df-4a21-a995-ff2f6cafbab8">object role</a> constant. The <b>vt</b> member must be VT_I4. The <b>lVal</b> member receives an object role constant.
-
-
-#### - varID [in]
-
-Type: <b>VARIANT</b>
-
-Specifies whether the retrieved role information belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
 
 
 ## -returns

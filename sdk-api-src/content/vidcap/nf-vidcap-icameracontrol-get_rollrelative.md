@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_rollrelative.htm
 tech.root: DirectShow
 ms.assetid: 28fa7e55-8e43-40fc-ac6c-e19f91621405
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],get_RollRelative method, ICameraControl.get_RollRelative, ICameraControl::get_RollRelative, ICameraControlget_RollRelative, dshow.icameracontrol_get_rollrelative, get_RollRelative, get_RollRelative method [DirectShow], get_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_RollRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

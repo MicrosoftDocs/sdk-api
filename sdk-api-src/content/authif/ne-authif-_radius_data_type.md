@@ -9,8 +9,8 @@ ms.assetid: 620d5c1f-61dc-48af-a1b2-4eaa81e358a7
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: RADIUS_DATA_TYPE, RADIUS_DATA_TYPE enumeration [Network Policy Server], _RADIUS_DATA_TYPE, _ias_radius_data_type, authif/RADIUS_DATA_TYPE, authif/rdtAddress, authif/rdtInteger, authif/rdtIpv6Address, authif/rdtString, authif/rdtTime, authif/rdtUnknown, ias.radius_data_type, nps.IAS_radius_data_type, rdtAddress, rdtInteger, rdtIpv6Address, rdtString, rdtTime, rdtUnknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: authif.h
 req.include-header: 

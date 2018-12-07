@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog_GetProperties.htm
 tech.root: shell
 ms.assetid: 734a1bf9-ff63-48a5-9508-3a576ea24ab7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IFileSaveDialog interface, IFileSaveDialog interface [Windows Shell],GetProperties method, IFileSaveDialog.GetProperties, IFileSaveDialog::GetProperties, shell.IFileSaveDialog_GetProperties, shell_IFileSaveDialog_GetProperties, shobjidl_core/IFileSaveDialog::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Retrieves the set of property values for a saved item or an item in the process 
 
 
 
-### -param ppStore
-
-TBD
-
-
-
-
-#### - pStore [out]
+### -param ppStore [out]
 
 Type: <b><a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>**</b>
 

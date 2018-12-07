@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem_add.htm
 tech.root: imapi
 ms.assetid: f4855907-89e5-4127-9307-35970046a236
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [IMAPI], Add method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],Add method, IFsiDirectoryItem.Add, IFsiDirectoryItem::Add, imapi.ifsidirectoryitem_add, imapi2fs/IFsiDirectoryItem::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

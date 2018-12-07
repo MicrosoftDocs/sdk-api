@@ -7,10 +7,10 @@ old-location: smi\wcmrestrictionfacets.htm
 tech.root: SMI
 ms.assetid: b9e62904-f6a9-4299-a558-51b57bd7d3db
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WcmRestrictionFacets, WcmRestrictionFacets enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0005, restrictionFacetEnumeration, restrictionFacetMaxInclusive, restrictionFacetMaxLength, restrictionFacetMinInclusive, smi.wcmrestrictionfacets, wcmconfig/WcmRestrictionFacets, wcmconfig/restrictionFacetEnumeration, wcmconfig/restrictionFacetMaxInclusive, wcmconfig/restrictionFacetMaxLength, wcmconfig/restrictionFacetMinInclusive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 

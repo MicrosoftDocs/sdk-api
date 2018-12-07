@@ -9,8 +9,8 @@ ms.assetid: 99C89DBB-8C12-482E-B33D-AE59C37662CF
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: PSS_THREAD_ENTRY, PSS_THREAD_ENTRY structure, proc_snap.pss_thread_entry, processsnapshot/PSS_THREAD_ENTRY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

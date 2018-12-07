@@ -7,7 +7,7 @@ old-location: wcs\setcolorprofileelementreference.htm
 tech.root: WCS
 ms.assetid: 385a291c-6c15-4b8b-8b48-62d8a6513834
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: SetColorProfileElementReference, SetColorProfileElementReference function [Windows Color System], _color_SetColorProfileElementReference, icm/SetColorProfileElementReference, wcs.setcolorprofileelementreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- SetColorProfileElementReference
+: 
 ---
 
 # SetColorProfileElementReference function

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_StringFormat_format_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors\stringformat_50format.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: StringFormat, StringFormat class [GDI+],StringFormat constructor, StringFormat constructor [GDI+], StringFormat constructor [GDI+],StringFormat class, StringFormat.StringFormat, StringFormat.StringFormat(const StringFormat &), StringFormat.StringFormat(const StringFormat*), StringFormat::StringFormat, StringFormat::StringFormat(const StringFormat &), _gdiplus_CLASS_StringFormat_StringFormat_format_, gdiplus._gdiplus_CLASS_StringFormat_StringFormat_format_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).as
 
 
 
-### -param source
-
-TBD
-
-
-
-
-#### - format [in]
+### -param source [in]
 
 Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>*</b>
 

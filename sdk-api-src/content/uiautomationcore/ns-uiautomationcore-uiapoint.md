@@ -7,10 +7,10 @@ old-location: winauto\uiauto_UiaPointStruct.htm
 tech.root: WinAuto
 ms.assetid: 2969cb79-fb78-404e-bcac-edf68001fa08
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: UiaPoint, UiaPoint structure [Windows Accessibility], uiauto.uiauto_UiaPointStruct, uiauto_UiaPointStruct, uiautomationcore/UiaPoint, winauto.uiauto_UiaPointStruct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

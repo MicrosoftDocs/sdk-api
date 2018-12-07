@@ -7,7 +7,7 @@ old-location: multimedia\midiinunprepareheader.htm
 tech.root: Multimedia
 ms.assetid: d78aa6ab-caa7-44ec-8953-c64613b04430
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiInUnprepareHeader, midiInUnprepareHeader, midiInUnprepareHeader function [Windows Multimedia], mmeapi/midiInUnprepareHeader, multimedia.midiinunprepareheader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,34 +65,17 @@ The <b>midiInUnprepareHeader</b> function cleans up the preparation performed by
 
 ### -param hmi
 
-TBD
+Handle to the MIDI input device.
 
 
 ### -param pmh
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure identifying the buffer to be cleaned up.
 
 
 ### -param cbmh
 
-TBD
-
-
-
-
-#### - cbMidiInHdr
-
 Size of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure.
-
-
-#### - hMidiIn
-
-Handle to the MIDI input device.
-
-
-#### - lpMidiInHdr
-
-Pointer to a <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure identifying the buffer to be cleaned up.
 
 
 ## -returns

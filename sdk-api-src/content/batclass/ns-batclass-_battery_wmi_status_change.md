@@ -9,8 +9,8 @@ ms.assetid: A2F4337A-3C2F-49DE-9BE6-EE6A3B2F81B5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: "*PBATTERY_WMI_STATUS_CHANGE, BATTERY_WMI_STATUS_CHANGE, BATTERY_WMI_STATUS_CHANGE structure [Battery Devices], PBATTERY_WMI_STATUS_CHANGE, PBATTERY_WMI_STATUS_CHANGE structure pointer [Battery Devices], _BATTERY_WMI_STATUS_CHANGE, batclass/BATTERY_WMI_STATUS_CHANGE, batclass/PBATTERY_WMI_STATUS_CHANGE, battery.battery_wmi_status_change"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: batclass.h
 req.include-header: 

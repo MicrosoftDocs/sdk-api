@@ -4,13 +4,13 @@ title: "_NET_DISPLAY_USER"
 author: windows-sdk-content
 description: The NET_DISPLAY_USER structure contains information that an account manager can access to determine information about user accounts.
 old-location: netmgmt\net_display_user_str.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 308966f7-448c-4748-bbe7-9ac63afae1d9
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PNET_DISPLAY_USER, NET_DISPLAY_USER, NET_DISPLAY_USER structure [Network Management], PNET_DISPLAY_USER, PNET_DISPLAY_USER structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, _NET_DISPLAY_USER, _win32_net_display_user_str, lmaccess/NET_DISPLAY_USER, lmaccess/PNET_DISPLAY_USER, netmgmt.net_display_user_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

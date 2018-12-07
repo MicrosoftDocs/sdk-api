@@ -7,10 +7,10 @@ old-location: ncd\systemvisibilityflags_enum.htm
 tech.root: fundisc
 ms.assetid: a3388293-150c-417a-a4a6-0d5020e0ae82
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/16/2018
 ms.keywords: SVF_SYSTEM, SVF_USER, SystemVisibilityFlags, SystemVisibilityFlags enumeration, functiondiscoveryapi/SVF_SYSTEM, functiondiscoveryapi/SVF_USER, functiondiscoveryapi/SystemVisibilityFlags, ncd.systemvisibilityflags_enum, tagSystemVisibilityFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: functiondiscoveryapi.h
 req.include-header: 

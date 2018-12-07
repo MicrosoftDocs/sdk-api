@@ -7,10 +7,10 @@ old-location: wmp\iwmppluginenable.htm
 tech.root: WMP
 ms.assetid: 997708e2-18fa-436f-9ca1-cdde5c7414fc
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPPluginEnable, IWMPPluginEnable interface [Windows Media Player], IWMPPluginEnable interface [Windows Media Player],described, IWMPPluginEnableInterfaceDSP, wmp.iwmppluginenable, wmpservices/IWMPPluginEnable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 

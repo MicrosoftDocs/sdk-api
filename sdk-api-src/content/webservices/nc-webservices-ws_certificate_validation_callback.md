@@ -7,10 +7,10 @@ old-location: wsw\ws_certificate_validation_callback.htm
 tech.root: wsw
 ms.assetid: 368A6162-F194-4C5C-B5FE-89633435168F
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_CERTIFICATE_VALIDATION_CALLBACK, WS_CERTIFICATE_VALIDATION_CALLBACK callback, WS_CERTIFICATE_VALIDATION_CALLBACK callback function [Web Services for Windows], webservices/WS_CERTIFICATE_VALIDATION_CALLBACK, wsw.ws_certificate_validation_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

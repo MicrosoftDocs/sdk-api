@@ -4,10 +4,10 @@ title: IFsrmClassificationManager::EnumRules
 author: windows-sdk-content
 description: Enumerates the rules of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_enumrules.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 2f67527c-cde3-4907-9e61-4d9e18b18859
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EnumRules, EnumRules method [File Server Resource Manager], EnumRules method [File Server Resource Manager],FsrmClassificationManager class, EnumRules method [File Server Resource Manager],IFsrmClassificationManager interface, EnumRules method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumRules method, IFsrmClassificationManager interface [File Server Resource Manager],EnumRules method, IFsrmClassificationManager.EnumRules, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumRules method, IFsrmClassificationManager2::EnumRules, IFsrmClassificationManager::EnumRules, fs.ifsrmclassificationmanager_enumrules, fsrm.ifsrmclassificationmanager_enumrules, fsrmpipeline/IFsrmClassificationManager2::EnumRules, fsrmpipeline/IFsrmClassificationManager::EnumRules
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,14 +81,7 @@ One or more options for enumerating the property definitions. For possible value
        method.</div>
 <div> </div>
 
-### -param Rules
-
-TBD
-
-
-
-
-#### - rules [out]
+### -param Rules [out]
 
 An <a href="https://msdn.microsoft.com/6a0c5d8b-5fed-4c55-971c-43430e3c6a8d">IFsrmCollection</a> interface that contains a 
        collection of classification rules. Each item in the collection is a <b>VARIANT</b> of 

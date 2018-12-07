@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_ActivatePendingView.htm
 tech.root: shell
 ms.assetid: 833acb3f-4c33-4b46-8759-3c08698cd245
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ActivatePendingView, ActivatePendingView method [Windows Shell], ActivatePendingView method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],ActivatePendingView method, IBrowserService2.ActivatePendingView, IBrowserService2::ActivatePendingView, shdeprecated/IBrowserService2::ActivatePendingView, shell.IBrowserService2_ActivatePendingView, zone_IBrowserService2_ActivatePendingView
 ms.prod: windows-hardware
 ms.technology: windows-devices

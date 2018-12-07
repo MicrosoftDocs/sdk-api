@@ -7,10 +7,10 @@ old-location: winprog\iwebbrowser2.htm
 tech.root: devnotes
 ms.assetid: AFED694C-8D7B-4539-9A1A-B2DA546F3A07
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IWebBrowser2, IWebBrowser2 interface [Windows API], IWebBrowser2 interface [Windows API],described, exdisp/IWebBrowser2, winprog.iwebbrowser2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: exdisp.h
 req.include-header: 

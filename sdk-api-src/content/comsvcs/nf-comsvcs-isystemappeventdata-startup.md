@@ -7,7 +7,7 @@ old-location: cos\isystemappeventdata_startup.htm
 tech.root: cossdk
 ms.assetid: 89a5adc2-ee65-477d-9247-f075c63b43c7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISystemAppEventData interface [COM+],Startup method, ISystemAppEventData.Startup, ISystemAppEventData::Startup, Startup, Startup method [COM+], Startup method [COM+],ISystemAppEventData interface, _dtc_ISystemAppEventData_Startup, comsvcs/ISystemAppEventData::Startup, cos.isystemappeventdata_startup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: qos\ad_general_params.htm
 tech.root: QOS
 ms.assetid: eab6b317-9d06-45e2-bc77-0882f40e7d79
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPAD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS structure [QOS], AD_FLAG_BREAK_BIT, AD_GENERAL_PARAMS, AD_GENERAL_PARAMS structure [QOS], _AD_GENERAL_PARAMS, qos.ad_general_params, qossp/*LPAD_GENERAL_PARAMS, qossp/AD_GENERAL_PARAMS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

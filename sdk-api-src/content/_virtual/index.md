@@ -2,7 +2,7 @@
 UID: TP:virtual
 ms.assetid: 9f53b2f8-af0e-3819-8ce3-76941cb66831
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

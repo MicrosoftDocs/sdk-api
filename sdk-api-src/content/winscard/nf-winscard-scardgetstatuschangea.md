@@ -7,7 +7,7 @@ old-location: security\scardgetstatuschange.htm
 tech.root: secauthn
 ms.assetid: 94776f3d-e8f0-4062-a766-2cf28cbfd050
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: SCardGetStatusChange, SCardGetStatusChange function [Security], SCardGetStatusChangeA, SCardGetStatusChangeW, _smart_scardgetstatuschange, security.scardgetstatuschange, winscard/SCardGetStatusChange, winscard/SCardGetStatusChangeA, winscard/SCardGetStatusChangeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

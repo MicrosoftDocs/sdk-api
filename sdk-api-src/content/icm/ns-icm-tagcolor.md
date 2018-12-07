@@ -7,10 +7,10 @@ old-location: wcs\color.htm
 tech.root: WCS
 ms.assetid: a47ec71f-3605-43d4-a12e-db07aecc0fd0
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: "*PCOLOR, COLOR, COLOR union [Windows Color System], icm/COLOR, tagCOLOR, wcs.color"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: icm.h
 req.include-header: 

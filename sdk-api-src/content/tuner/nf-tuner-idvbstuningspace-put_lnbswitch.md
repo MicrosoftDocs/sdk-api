@@ -4,10 +4,10 @@ title: IDVBSTuningSpace::put_LNBSwitch
 author: windows-sdk-content
 description: The put_LNBSwitch method sets the LNB switch frequency.
 old-location: mstv\idvbstuningspace_put_lnbswitch.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 40f9ae9e-ba0d-468d-81c2-4641770e39a5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_LNBSwitch method, IDVBSTuningSpace.put_LNBSwitch, IDVBSTuningSpace::put_LNBSwitch, IDVBSTuningSpaceput_LNBSwitch, mstv.idvbstuningspace_put_lnbswitch, put_LNBSwitch, put_LNBSwitch method [Microsoft TV Technologies], put_LNBSwitch method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_LNBSwitch
 ms.prod: windows-hardware
 ms.technology: windows-devices

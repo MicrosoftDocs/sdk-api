@@ -7,10 +7,10 @@ old-location: rras\pmgm_creation_alert_callback.htm
 tech.root: rras
 ms.assetid: 1d161a7e-3ceb-429f-a41e-eccd7f98f084
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: MgmCreationAlertCallback, PMGM_CREATION_ALERT_CALLBACK, PMGM_CREATION_ALERT_CALLBACK callback, PMGM_CREATION_ALERT_CALLBACK callback function [RAS], _mpr_pmgm_creation_alert_callback, mgm/PMGM_CREATION_ALERT_CALLBACK, rras.pmgm_creation_alert_callback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: mgm.h
 req.include-header: 

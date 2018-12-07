@@ -7,10 +7,10 @@ old-location: wmformat\wmt_filesink_data_unit.htm
 tech.root: wmformat
 ms.assetid: e1deb01f-9f53-4ede-a3e1-13d6dc79adb5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: WMT_FILESINK_DATA_UNIT, WMT_FILESINK_DATA_UNIT structure [windows Media Format], _WMT_FILESINK_DATA_UNIT, wmformat.wmt_filesink_data_unit, wmsdkidl/WMT_FILESINK_DATA_UNIT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

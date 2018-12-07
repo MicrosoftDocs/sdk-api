@@ -7,10 +7,10 @@ old-location: dshow\imixerpinconfig.htm
 tech.root: DirectShow
 ms.assetid: 6a4f3462-4596-4f02-a41f-47161f8aa4db
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IMixerPinConfig, IMixerPinConfig interface [DirectShow], IMixerPinConfig interface [DirectShow],described, IMixerPinConfigInterface, dshow.imixerpinconfig, mpconfig/IMixerPinConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mpconfig.h
 req.include-header: 

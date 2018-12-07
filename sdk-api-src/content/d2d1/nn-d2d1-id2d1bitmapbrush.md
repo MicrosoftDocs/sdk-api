@@ -7,10 +7,10 @@ old-location: direct2d\ID2D1BitmapBrush.htm
 tech.root: direct2d
 ms.assetid: 22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1BitmapBrush, ID2D1BitmapBrush interface [Direct2D], ID2D1BitmapBrush interface [Direct2D],described, d2d1/ID2D1BitmapBrush, direct2d.ID2D1BitmapBrush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 

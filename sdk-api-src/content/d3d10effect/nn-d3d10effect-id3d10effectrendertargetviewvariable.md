@@ -7,10 +7,10 @@ old-location: direct3d10\id3d10effectrendertargetviewvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 9f15e11c-b222-431b-7b07-10de10ab1438, ID3D10EffectRenderTargetViewVariable, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10], ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectRenderTargetViewVariable, direct3d10.id3d10effectrendertargetviewvariable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

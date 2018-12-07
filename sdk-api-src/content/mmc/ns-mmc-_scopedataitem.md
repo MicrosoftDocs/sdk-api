@@ -7,10 +7,10 @@ old-location: mmc\scopedataitem.htm
 tech.root: mmc
 ms.assetid: c392f25c-80e7-4c91-9063-36143320b9aa
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSCOPEDATAITEM, LPSCOPEDATAITEM, LPSCOPEDATAITEM structure pointer [MMC], SCOPEDATAITEM, SCOPEDATAITEM structure [MMC], SDI_CHILDREN, SDI_FIRST, SDI_IMAGE, SDI_NEXT, SDI_OPENIMAGE, SDI_PARAM, SDI_PARENT, SDI_PREVIOUS, SDI_STATE, SDI_STR, _SCOPEDATAITEM, _slate_scopedataitem, mmc.scopedataitem, mmc/LPSCOPEDATAITEM, mmc/SCOPEDATAITEM"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 

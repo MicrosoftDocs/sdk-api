@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationItemContainerPattern_FindItemByPropert
 tech.root: WinAuto
 ms.assetid: d27f07ae-2c88-4cde-99b8-0c8c987b95d3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: FindItemByProperty, FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility],IUIAutomationItemContainerPattern interface, IUIAutomationItemContainerPattern interface [Windows Accessibility],FindItemByProperty method, IUIAutomationItemContainerPattern.FindItemByProperty, IUIAutomationItemContainerPattern::FindItemByProperty, uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty, winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Retrieves an element within a containing element, based on a specified property 
 
 
 
-### -param pStartAfter
+### -param pStartAfter [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a>*</b>
+
+A pointer to the element after which the search begins, or <b>NULL</b> to search all elements.
 
 
 ### -param propertyId [in]
@@ -77,25 +79,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-
 The property value.
 
 
-### -param pFound
-
-TBD
-
-
-
-
-#### - pfound [out, retval]
+### -param pFound [out, retval]
 
 Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a>**</b>
 
 Receives a pointer to the matching element.
-
-
-#### - pstartAfter [in]
-
-Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a>*</b>
-
-A pointer to the element after which the search begins, or <b>NULL</b> to search all elements.
 
 
 ## -returns

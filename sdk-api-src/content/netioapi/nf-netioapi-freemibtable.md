@@ -7,7 +7,7 @@ old-location: iphlp\freemibtable.htm
 tech.root: IpHlp
 ms.assetid: 31c8cdc4-73c7-4e82-8226-c90320046199
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FreeMibTable, FreeMibTable function [IP Helper], iphlp.freemibtable, netioapi/FreeMibTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

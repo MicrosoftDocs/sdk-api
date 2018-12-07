@@ -7,10 +7,10 @@ old-location: etw\trace_provider_info_struct.htm
 tech.root: etw
 ms.assetid: 0dbfde78-b1d4-4cc6-99aa-81de3f647cdb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO structure [ETW], _TRACE_PROVIDER_INFO, etw.trace_provider_info_struct, tdh.trace_provider_info_struct, tdh/TRACE_PROVIDER_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

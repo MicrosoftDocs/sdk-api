@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_.htm
 tech.root: WmiSdk
 ms.assetid: b1bd1421-81f6-478a-8ec3-dfacdac3c85f
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: "??0WBEMTimeSpan@@QAE@HHHHHHH@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(int,int,int,int,int,int,int), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,33 +88,16 @@ Number of elapsed seconds.
 
 ### -param iMSec
 
-TBD
+Number of elapsed  milliseconds.
 
 
 ### -param iUSec
 
-TBD
+Number of elapsed 
+     microseconds.
 
 
 ### -param iNSec
 
-TBD
-
-
-
-
-#### - iMSec=0
-
-Number of elapsed  milliseconds.
-
-
-#### - iNSec=0
-
 Number of elapsed nanoseconds.
-
-
-#### - iUSec=0
-
-Number of elapsed 
-     microseconds.
 

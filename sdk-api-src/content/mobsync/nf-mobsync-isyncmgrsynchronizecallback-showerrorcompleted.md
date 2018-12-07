@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizecallback_showerrorcompleted.htm
 tech.root: shell
 ms.assetid: 7441f8d3-1b9b-400f-a2c4-ec67f7677a32
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],ShowErrorCompleted method, ISyncMgrSynchronizeCallback.ShowErrorCompleted, ISyncMgrSynchronizeCallback::ShowErrorCompleted, ShowErrorCompleted, ShowErrorCompleted method [Windows Shell], ShowErrorCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::ShowErrorCompleted, shell.syncmgr_isyncmgrsynchronizecallback_showerrorcompleted, syncmgr.isyncmgrsynchronizecallback_showerrorcompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,12 @@ Called by the registered application's handler before or after its <a href="http
 
 
 
-### -param hr
+### -param hr [in]
 
-TBD
+Type: <b>HRESULT</b>
+
+Whether <a href="https://msdn.microsoft.com/0e313c61-6482-4396-b4b8-824fba0226ac">ShowError</a> was successful. This value is S_SYNCMGR_RETRYSYNC if the registered application's handler requires SyncMgr to retry the synchronization. When this value is returned to SyncMgr both the 
+<a href="https://msdn.microsoft.com/82e70e75-a5d4-41b2-87c4-2a032628954d">PrepareForSync</a> and <a href="https://msdn.microsoft.com/78c202dd-9f8c-43c1-a7be-48030bc34a9c">Synchronize</a> methods are called again.
 
 
 ### -param cItems [in]
@@ -76,14 +79,6 @@ Type: <b>const GUID*</b>
 
 A pointer to the array of item IDs to pass to 
 <a href="https://msdn.microsoft.com/82e70e75-a5d4-41b2-87c4-2a032628954d">PrepareForSync</a> in the event of a retry. This parameter is ignored unless <i>hrResult</i> is S_SYNCMGR_RETRYSYNC.
-
-
-#### - hrResult [in]
-
-Type: <b>HRESULT</b>
-
-Whether <a href="https://msdn.microsoft.com/0e313c61-6482-4396-b4b8-824fba0226ac">ShowError</a> was successful. This value is S_SYNCMGR_RETRYSYNC if the registered application's handler requires SyncMgr to retry the synchronization. When this value is returned to SyncMgr both the 
-<a href="https://msdn.microsoft.com/82e70e75-a5d4-41b2-87c4-2a032628954d">PrepareForSync</a> and <a href="https://msdn.microsoft.com/78c202dd-9f8c-43c1-a7be-48030bc34a9c">Synchronize</a> methods are called again.
 
 
 ## -returns

@@ -7,10 +7,10 @@ old-location: mscs\beginresourcetypecontrol.htm
 tech.root: mscs
 ms.assetid: 9D5D5ADB-9707-4690-9B91-CC99F68DE2A8
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: BeginResourceTypeControl, BeginResourceTypeControl callback, BeginResourceTypeControl callback function [Failover Cluster], PBEGIN_RESTYPECALL_ROUTINE, PBEGIN_RESTYPECALL_ROUTINE callback function [Failover Cluster], mscs.beginresourcetypecontrol, resapi/BeginResourceTypeControl, resapi/PBEGIN_RESTYPECALL_ROUTINE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
@@ -119,6 +119,47 @@ This parameter was removed in Windows Server 2016.
 
 
 The function returns one of the following values, or a system error code:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation completed successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The resource ID was not found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_FUNCTION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The requested control code is not supported.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

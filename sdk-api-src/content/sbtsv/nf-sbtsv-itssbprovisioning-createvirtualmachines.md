@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioning_createvirtualmachines.htm
 tech.root: termserv
 ms.assetid: 752da6d8-d036-4a39-aed5-c1fd7a11474e
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateVirtualMachines, CreateVirtualMachines method [Remote Desktop Services], CreateVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],CreateVirtualMachines method, ITsSbProvisioning.CreateVirtualMachines, ITsSbProvisioning::CreateVirtualMachines, sbtsv/ITsSbProvisioning::CreateVirtualMachines, termserv.itssbprovisioning_createvirtualmachines
 ms.prod: windows-hardware
 ms.technology: windows-devices

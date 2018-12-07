@@ -4,13 +4,13 @@ title: "_SERVER_INFO_1510"
 author: windows-sdk-content
 description: The SERVER_INFO_1510 structure specifies the maximum number of users that can be logged on to the specified server using a single virtual circuit.
 old-location: netmgmt\server_info_1510_str.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: 4bef21e3-09b9-4045-b21f-6cb9a75e2ad4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSERVER_INFO_1510, *PSERVER_INFO_1510, LPSERVER_INFO_1510, LPSERVER_INFO_1510 structure pointer [Network Management], PSERVER_INFO_1510, PSERVER_INFO_1510 structure pointer [Network Management], SERVER_INFO_1510, SERVER_INFO_1510 structure [Network Management], _SERVER_INFO_1510, _win32_server_info_1510_str, lmserver/LPSERVER_INFO_1510, lmserver/PSERVER_INFO_1510, lmserver/SERVER_INFO_1510, netmgmt.server_info_1510_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

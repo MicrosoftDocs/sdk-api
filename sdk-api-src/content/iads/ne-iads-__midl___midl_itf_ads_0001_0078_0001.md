@@ -4,13 +4,13 @@ title: "__MIDL___MIDL_itf_ads_0001_0078_0001"
 author: windows-sdk-content
 description: The ADS_SETTYPE_ENUM enumeration specifies the available pathname format used by the IADsPathname::Set method.
 old-location: adsi\ads_settype_enum.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: fbf7de54-3ea7-4d66-ad56-21cae1e28c07
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADS_SETTYPE_DN, ADS_SETTYPE_ENUM, ADS_SETTYPE_ENUM enumeration [ADSI], ADS_SETTYPE_FULL, ADS_SETTYPE_PROVIDER, ADS_SETTYPE_SERVER, __MIDL___MIDL_itf_ads_0001_0078_0001, _ds_ads_settype_enum, adsi.ads__settype__enum, adsi.ads_settype_enum, iads/ADS_SETTYPE_DN, iads/ADS_SETTYPE_ENUM, iads/ADS_SETTYPE_FULL, iads/ADS_SETTYPE_PROVIDER, iads/ADS_SETTYPE_SERVER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

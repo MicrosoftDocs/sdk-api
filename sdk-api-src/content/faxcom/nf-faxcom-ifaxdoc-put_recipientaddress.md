@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientaddress_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_83w3.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientAddress property, IFaxDoc.RecipientAddress, IFaxDoc.put_RecipientAddress, IFaxDoc::RecipientAddress, IFaxDoc::get_RecipientAddress, IFaxDoc::put_RecipientAddress, RecipientAddress property [Fax Service], RecipientAddress property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientaddress, fax._mfax_ifaxdoc_get_recipientaddress, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientaddress_cpp, faxcom/IFaxDoc::RecipientAddress, faxcom/IFaxDoc::get_RecipientAddress, faxcom/IFaxDoc::put_RecipientAddress, put_RecipientAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

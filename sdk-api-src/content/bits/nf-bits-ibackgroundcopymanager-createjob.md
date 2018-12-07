@@ -4,10 +4,10 @@ title: IBackgroundCopyManager::CreateJob
 author: windows-sdk-content
 description: Creates a job.
 old-location: bits\ibackgroundcopymanager_createjob.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 6d23e3c0-673b-4f37-b6a0-e364b2d73886
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateJob, CreateJob method [BITS], CreateJob method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],CreateJob method, IBackgroundCopyManager.CreateJob, IBackgroundCopyManager::CreateJob, _drz_ibackgroundcopymanager_createjob, bits.ibackgroundcopymanager_createjob, bits/IBackgroundCopyManager::CreateJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,9 +59,9 @@ Creates a job.
 
 
 
-### -param DisplayName
+### -param DisplayName [in]
 
-TBD
+Null-terminated string that contains a display name for the job. Typically, the display name is used to identify the job in a user interface. Note that more than one job may have the same display name. Must not be <b>NULL</b>. The name is limited to 256 characters, not including the null terminator.
 
 
 ### -param Type [in]
@@ -70,9 +70,10 @@ Type of transfer job, such as BG_JOB_TYPE_DOWNLOAD. For a list of transfer types
 <a href="https://msdn.microsoft.com/en-us/library/Aa362811(v=VS.85).aspx">BG_JOB_TYPE</a> enumeration.
 
 
-### -param pJobId
+### -param pJobId [out]
 
-TBD
+Uniquely identifies your job in the queue. Use this identifier when you call the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa363060(v=VS.85).aspx">IBackgroundCopyManager::GetJob</a> method to get a job from the queue.
 
 
 ### -param ppJob [out]
@@ -80,17 +81,6 @@ TBD
 An 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> interface pointer that you use to modify the job's properties and specify the files to be transferred. To activate the job in the queue, call the 
 <a href="https://msdn.microsoft.com/en-us/library/Aa363039(v=VS.85).aspx">IBackgroundCopyJob::Resume</a> method. Release <i>ppJob</i> when done.
-
-
-#### - pDisplayName [in]
-
-Null-terminated string that contains a display name for the job. Typically, the display name is used to identify the job in a user interface. Note that more than one job may have the same display name. Must not be <b>NULL</b>. The name is limited to 256 characters, not including the null terminator.
-
-
-#### - pJobID [out]
-
-Uniquely identifies your job in the queue. Use this identifier when you call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363060(v=VS.85).aspx">IBackgroundCopyManager::GetJob</a> method to get a job from the queue.
 
 
 ## -returns

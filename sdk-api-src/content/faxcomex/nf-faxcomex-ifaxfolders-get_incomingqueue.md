@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxfolders_cpp_mfax_faxfolders_incomingqueue_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3vol.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxFolders interface [Fax Service],IncomingQueue property, IFaxFolders.IncomingQueue, IFaxFolders.get_IncomingQueue, IFaxFolders::IncomingQueue, IFaxFolders::get_IncomingQueue, IncomingQueue property [Fax Service], IncomingQueue property [Fax Service],IFaxFolders interface, _mfax_faxfolders.incomingqueue, fax._mfax_faxfolders_cpp_mfax_faxfolders_incomingqueue_cpp, fax._mfax_faxfolders_incomingqueue, faxcomex/IFaxFolders::IncomingQueue, faxcomex/IFaxFolders::get_IncomingQueue, get_IncomingQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

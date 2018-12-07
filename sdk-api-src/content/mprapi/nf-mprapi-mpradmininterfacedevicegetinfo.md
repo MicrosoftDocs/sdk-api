@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacedevicegetinfo.htm
 tech.root: rras
 ms.assetid: edff88dd-80ae-4704-b320-925006346dda
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceDeviceGetInfo, MprAdminInterfaceDeviceGetInfo function [RAS], _mpr_mpradmininterfacedevicegetinfo, mprapi/MprAdminInterfaceDeviceGetInfo, rras.mpradmininterfacedevicegetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

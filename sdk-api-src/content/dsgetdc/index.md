@@ -2,7 +2,7 @@
 UID: NA:dsgetdc
 ms.assetid: 2d98b252-b538-370d-9a72-8c8ff0aaff13
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

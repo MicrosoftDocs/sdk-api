@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext2_videoprocessorgetstreamhdrmetadata.htm
 tech.root: medfound
 ms.assetid: 08464EB5-8E1F-4E4B-A545-A18C82A0C921
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorGetStreamHDRMetaData method, ID3D11VideoContext2.VideoProcessorGetStreamHDRMetaData, ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData, VideoProcessorGetStreamHDRMetaData, VideoProcessorGetStreamHDRMetaData method [Media Foundation], VideoProcessorGetStreamHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData, mf.id3d11videocontext2_videoprocessorgetstreamhdrmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,14 +80,7 @@ The size of the memory referenced by <i>pHDRMetaData</i>.
 If <i>pHDRMetaData</i> is NULL, <i>Size</i> should be 0.
 
 
-### -param pMetaData
-
-TBD
-
-
-
-
-#### - pHDRMetaData [out]
+### -param pMetaData [out]
 
 Pointer to a buffer that receives the HDR metadata.
 

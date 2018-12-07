@@ -4,10 +4,10 @@ title: IUPnPRegistrar::UnregisterDeviceProvider
 author: windows-sdk-content
 description: The UnregisterDeviceProvider method permanently unregisters and unloads the device provider from the device host. The IUPnPDeviceProvider::Stop method is invoked.
 old-location: upnp\iupnpregistrar_unregisterdeviceprovider.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 548bd520-9c62-4dae-8ae3-94e3683a34f1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],UnregisterDeviceProvider method, IUPnPRegistrar.UnregisterDeviceProvider, IUPnPRegistrar::UnregisterDeviceProvider, UnregisterDeviceProvider, UnregisterDeviceProvider method [UPnP APIs], UnregisterDeviceProvider method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_unregisterdeviceprovider, upnp.iupnpregistrar_unregisterdeviceprovider, upnphost/IUPnPRegistrar::UnregisterDeviceProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IADsAccessControlList::get__NewEnum
 author: windows-sdk-content
 description: The IADsAccessControlList::get__NewEnum method is used to obtain an enumerator object for the ACL to enumerate ACEs.
 old-location: adsi\iadsaccesscontrollist_get__newenum.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 569f3bfa-3933-43b3-9d16-c3d4382cfa9f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsAccessControlList interface [ADSI],get__NewEnum method, IADsAccessControlList.get__NewEnum, IADsAccessControlList::get__NewEnum, _ds_iadsaccesscontrollist_get__newenum, adsi.iadsaccesscontrollist__get____newenum, adsi.iadsaccesscontrollist_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsAccessControlList interface, iads/IADsAccessControlList::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>IADsAccessControlList::get__NewEnum</b> method is used to obtain an enume
 
 
 
-### -param retval
-
-TBD
-
-
-
-
-#### - ppEnumerator [out]
+### -param retval [out]
 
 Pointer to pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface used to retrieve
       <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an enumerator object for the ACL.

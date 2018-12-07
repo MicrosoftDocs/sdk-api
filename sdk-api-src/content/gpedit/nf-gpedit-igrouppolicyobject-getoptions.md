@@ -4,10 +4,10 @@ title: IGroupPolicyObject::GetOptions
 author: windows-sdk-content
 description: The GetOptions method retrieves the options for the GPO.
 old-location: policy\igrouppolicyobject_getoptions.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: a4b86196-04c8-4ec1-bf26-2a33e44020d2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, GetOptions, GetOptions method [Group Policy], GetOptions method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetOptions method, IGroupPolicyObject.GetOptions, IGroupPolicyObject::GetOptions, _win32_igrouppolicyobject_getoptions, gpedit/IGroupPolicyObject::GetOptions, policy.igrouppolicyobject_getoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

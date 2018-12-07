@@ -9,8 +9,8 @@ ms.assetid: 5D8E8146-D6B4-427B-9B17-0FB4FB0372A8
 ms.author: windowssdkdev
 ms.date: 11/06/2018
 ms.keywords: EMI_CHANNEL_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices], EMI_MEASUREMENT_DATA_V1, PEMI_MEASUREMENT_DATA, PEMI_MEASUREMENT_DATA structure pointer [Power Metering and Budgeting Devices], emi/EMI_MEASUREMENT_DATA, emi/PEMI_MEASUREMENT_DATA, powermeter.emi_measurement_data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: emi.h
 req.include-header: Emi.h

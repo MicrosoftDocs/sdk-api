@@ -4,10 +4,10 @@ title: IGuideDataProperty::get_Language
 author: windows-sdk-content
 description: The get_Language method retrieves the language associated with the property.
 old-location: mstv\iguidedataproperty_get_language.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: e49a35f3-0517-4e84-b806-203818a0f62c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Language method, IGuideDataProperty.get_Language, IGuideDataProperty::get_Language, IGuideDataPropertyget_Language, bdatif/IGuideDataProperty::get_Language, get_Language, get_Language method [Microsoft TV Technologies], get_Language method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_language
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_Language</b> method retrieves the language associated with the proper
 
 
 
-### -param idLang
-
-TBD
-
-
-
-
-#### - pidLang [out]
+### -param idLang [out]
 
 Pointer to a variable that receives the language identifier.
 

@@ -9,8 +9,8 @@ ms.assetid: 29583e58-10a6-4679-a5c6-d51f2b50b074
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPEXCEPINFO, EXCEPINFO, EXCEPINFO structure [Automation], LPEXCEPINFO, LPEXCEPINFO structure pointer [Automation], _oa96_EXCEPINFO, automat.excepinfo, oaidl/EXCEPINFO, oaidl/LPEXCEPINFO, tagEXCEPINFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

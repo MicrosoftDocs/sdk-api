@@ -7,7 +7,7 @@ old-location: mmc\iconsoleverb_getdefaultverb.htm
 tech.root: mmc
 ms.assetid: e30f3690-361b-4aee-97e7-014e2e8ee6a4
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GetDefaultVerb, GetDefaultVerb method [MMC], GetDefaultVerb method [MMC],IConsoleVerb interface, IConsoleVerb interface [MMC],GetDefaultVerb method, IConsoleVerb.GetDefaultVerb, IConsoleVerb::GetDefaultVerb, _slate_iconsoleverb_getdefaultverb, mmc.iconsoleverb_getdefaultverb, mmc/IConsoleVerb::GetDefaultVerb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ GetDefaultVerb method gets the snap-in's default verb.
 
 
 
-### -param peCmdID
-
-TBD
-
-
-
-
-#### - peCmID [out]
+### -param peCmdID [out]
 
 A pointer to where the snap-in's default verb is returned.
 

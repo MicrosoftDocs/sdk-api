@@ -7,7 +7,7 @@ old-location: wds\iwdstransportserver_disconnectclient.htm
 tech.root: wds
 ms.assetid: 7ab63f7e-1840-40d1-8933-ea92042aaced
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DisconnectClient, DisconnectClient method [Windows Deployment Services], DisconnectClient method [Windows Deployment Services],IWdsTransportServer interface, IWdsTransportServer interface [Windows Deployment Services],DisconnectClient method, IWdsTransportServer.DisconnectClient, IWdsTransportServer::DisconnectClient, wds.iwdstransportserver_disconnectclient, wdstptmgmt/IWdsTransportServer::DisconnectClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

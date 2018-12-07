@@ -7,10 +7,10 @@ old-location: wmdm\imdspobject2.htm
 tech.root: WMDM
 ms.assetid: f79c07a6-b7e6-4c00-83be-ac2bfc9a751b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMDSPObject2, IMDSPObject2 interface [windows Media Device Manager], IMDSPObject2 interface [windows Media Device Manager],described, IMDSPObject2Interface, mswmdm/IMDSPObject2, wmdm.imdspobject2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

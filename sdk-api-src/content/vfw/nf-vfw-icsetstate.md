@@ -7,7 +7,7 @@ old-location: multimedia\icsetstate.htm
 tech.root: Multimedia
 ms.assetid: 96958fbf-8539-49bc-a2ff-160b7ea8d2ab
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: ICSetState, ICSetState macro [Windows Multimedia], _win32_ICSetState, multimedia.icsetstate, vfw/ICSetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

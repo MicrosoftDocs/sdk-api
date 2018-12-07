@@ -4,13 +4,13 @@ title: "_VDS_STORAGE_POOL_TYPE"
 author: windows-sdk-content
 description: Defines the set of storage pool types.
 old-location: base\vds_storage_pool_type.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 813d3452-46ad-4f7a-ab53-e3f6577b00ba
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: VDS_SPT_CONCRETE, VDS_SPT_PRIMORDIAL, VDS_SPT_UNKNOWN, VDS_STORAGE_POOL_TYPE, VDS_STORAGE_POOL_TYPE enumeration, _VDS_STORAGE_POOL_TYPE, base.vds_storage_pool_type, vds/VDS_SPT_CONCRETE, vds/VDS_SPT_PRIMORDIAL, vds/VDS_SPT_UNKNOWN, vds/VDS_STORAGE_POOL_TYPE, vdshwprv/VDS_SPT_CONCRETE, vdshwprv/VDS_SPT_PRIMORDIAL, vdshwprv/VDS_SPT_UNKNOWN, vdshwprv/VDS_STORAGE_POOL_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 

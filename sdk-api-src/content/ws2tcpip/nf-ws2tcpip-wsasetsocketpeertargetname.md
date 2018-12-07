@@ -7,7 +7,7 @@ old-location: winsock\wsasetsocketpeertargetname.htm
 tech.root: winsock
 ms.assetid: c293658c-d7f9-411d-b6c1-a333592a741c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WSASetSocketPeerTargetName, WSASetSocketPeerTargetName function [Winsock], winsock.wsasetsocketpeertargetname, ws2tcpip/WSASetSocketPeerTargetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

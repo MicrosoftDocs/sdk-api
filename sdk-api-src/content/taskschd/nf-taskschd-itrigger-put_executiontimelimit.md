@@ -4,10 +4,10 @@ title: ITrigger::put_ExecutionTimeLimit
 author: windows-sdk-content
 description: Gets or sets the maximum amount of time that the task launched by this trigger is allowed to run.
 old-location: taskschd\itrigger_executiontimelimit.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: cfd0b02b-2040-49c1-88a1-c9663c834450
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ExecutionTimeLimit property [Task Scheduler], ExecutionTimeLimit property [Task Scheduler],ITrigger interface, ITrigger interface [Task Scheduler],ExecutionTimeLimit property, ITrigger.ExecutionTimeLimit, ITrigger.put_ExecutionTimeLimit, ITrigger::ExecutionTimeLimit, ITrigger::get_ExecutionTimeLimit, ITrigger::put_ExecutionTimeLimit, put_ExecutionTimeLimit, taskschd.itrigger_executiontimelimit, taskschd/ITrigger::ExecutionTimeLimit, taskschd/ITrigger::get_ExecutionTimeLimit, taskschd/ITrigger::put_ExecutionTimeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

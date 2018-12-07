@@ -7,10 +7,10 @@ old-location: xaudio2\hrtfdirectivitycardioid.htm
 tech.root: xaudio2
 ms.assetid: 0705BB4C-01FE-434A-889B-F0D24D06DEF3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: HrtfDirectivityCardioid, HrtfDirectivityCardioid structure [XAudio2 Audio Mixing APIs], PHrtfDirectivityCardioid, PHrtfDirectivityCardioid structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDirectivityCardioid, hrtfapoapi/PHrtfDirectivityCardioid, xaudio2.hrtfdirectivitycardioid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: hrtfapoapi.h
 req.include-header: 

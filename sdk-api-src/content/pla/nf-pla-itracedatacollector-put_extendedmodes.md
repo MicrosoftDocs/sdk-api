@@ -4,10 +4,10 @@ title: ITraceDataCollector::put_ExtendedModes
 author: windows-sdk-content
 description: Retrieves or sets the extended log file modes.
 old-location: pla\itracedatacollector_extendedmodes.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: c9f20dd2-4411-4069-8455-9095939581e8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: ExtendedModes property [PLA], ExtendedModes property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],ExtendedModes property, ITraceDataCollector.ExtendedModes, ITraceDataCollector.put_ExtendedModes, ITraceDataCollector::ExtendedModes, ITraceDataCollector::get_ExtendedModes, ITraceDataCollector::put_ExtendedModes, base.itracedatacollector_extendedmodes, pla.itracedatacollector_extendedmodes, pla/ITraceDataCollector::ExtendedModes, pla/ITraceDataCollector::get_ExtendedModes, pla/ITraceDataCollector::put_ExtendedModes, put_ExtendedModes
 ms.prod: windows-hardware
 ms.technology: windows-devices

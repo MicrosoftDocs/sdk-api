@@ -7,7 +7,7 @@ old-location: rpc\ndrinterfacepointerbuffersize.htm
 tech.root: rpc
 ms.assetid: 815ebf99-f616-44e3-9b87-25d9a889cf6b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: NdrInterfacePointerBufferSize, NdrInterfacePointerBufferSize function [RPC], rpc.ndrinterfacepointerbuffersize, rpcndr/NdrInterfacePointerBufferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

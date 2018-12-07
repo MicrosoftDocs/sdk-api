@@ -7,7 +7,7 @@ old-location: mmc\iimagelist_imagelistseticon.htm
 tech.root: mmc
 ms.assetid: 3bdb166e-e78a-41a8-9bb7-904d0462f976
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IImageList interface [MMC],ImageListSetIcon method, IImageList.ImageListSetIcon, IImageList::ImageListSetIcon, ImageListSetIcon, ImageListSetIcon method [MMC], ImageListSetIcon method [MMC],IImageList interface, _slate_iimagelist_imagelistseticon, mmc.iimagelist_imagelistseticon, mmc/IImageList::ImageListSetIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,20 +58,15 @@ The <b>IImageList::ImageListSetIcon</b> method enables a user to set an icon in 
 
 
 
-### -param pIcon
+### -param pIcon [in]
 
-TBD
+A value that specifies the Win32
+      HICON handle to the icon to set. The type must be cast as a pointer to a LONG_PTR. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free Icon.
 
 
 ### -param nLoc [in]
 
 A value that specifies the index assigned to the entry. This is a virtual index that is internally mapped to the actual index.
-
-
-#### - Icon [in]
-
-A value that specifies the Win32
-      HICON handle to the icon to set. The type must be cast as a pointer to a LONG_PTR. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free Icon.
 
 
 ## -returns

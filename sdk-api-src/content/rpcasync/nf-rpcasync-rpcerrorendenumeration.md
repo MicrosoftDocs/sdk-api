@@ -7,7 +7,7 @@ old-location: rpc\rpcerrorendenumeration.htm
 tech.root: rpc
 ms.assetid: 04da6e7d-bbdb-47d3-9924-604ddf56d177
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RpcErrorEndEnumeration, RpcErrorEndEnumeration function [RPC], _rpc_rpcerrorendenumeration, rpc.rpcerrorendenumeration, rpcasync/RpcErrorEndEnumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

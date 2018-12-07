@@ -4,10 +4,10 @@ title: IWSManEx::SessionFlagSkipCNCheck
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagSkipCNCheck for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagskipcncheck.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: cf364e3a-e532-48cf-9b88-fdc661e70ffa
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagSkipCNCheck method, IWSManEx.SessionFlagSkipCNCheck, IWSManEx::SessionFlagSkipCNCheck, SessionFlagSkipCNCheck, SessionFlagSkipCNCheck method [Windows Remote Management], SessionFlagSkipCNCheck method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagskipcncheck, wsmandisp/IWSManEx::SessionFlagSkipCNCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

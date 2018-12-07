@@ -7,7 +7,7 @@ old-location: etw\flushtrace.htm
 tech.root: etw
 ms.assetid: bc7d0dac-93d9-4614-9cb6-fee99765eb39
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: FlushTrace, FlushTrace function [ETW], FlushTraceA, FlushTraceW, _evt_flushtrace, base.flushtrace, etw.flushtrace, evntrace/FlushTrace, evntrace/FlushTraceA, evntrace/FlushTraceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,14 +65,17 @@ The <a href="https://msdn.microsoft.com/c39f669c-ff40-40ed-ba47-798474ec2de4">Co
 
 
 
-### -param TraceHandle
+### -param TraceHandle [in]
 
-TBD
+Handle to the event tracing session for whose buffers you want to flush, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
+<a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function.
 
 
-### -param InstanceName
+### -param InstanceName [in]
 
-TBD
+Pointer to a null-terminated string that specifies the name of the event tracing session whose buffers you want to flush, or <b>NULL</b>. You must specify <i>SessionName</i> if <i>SessionHandle</i> is <b>NULL</b>.
+
+To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOGGER_NAME</b>.
 
 
 ### -param Properties [in, out]
@@ -86,19 +89,6 @@ initialized <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b3
 If you are using a newly initialized structure, you only need to set the <b>Wnode.BufferSize</b>, <b>Wnode.Guid</b>,  <b>LoggerNameOffset</b>, and <b>LogFileNameOffset</b> members of the structure. You can use the maximum session name (1024 characters) and maximum log file name (1024 characters) lengths to calculate the buffer size and offsets if not known. 
 
 On output, the structure receives the property settings and session statistics of the event tracing session, which  reflect the state of the session after the flush.
-
-
-#### - SessionHandle [in]
-
-Handle to the event tracing session for whose buffers you want to flush, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
-<a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function.
-
-
-#### - SessionName [in]
-
-Pointer to a null-terminated string that specifies the name of the event tracing session whose buffers you want to flush, or <b>NULL</b>. You must specify <i>SessionName</i> if <i>SessionHandle</i> is <b>NULL</b>.
-
-To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOGGER_NAME</b>.
 
 
 ## -returns

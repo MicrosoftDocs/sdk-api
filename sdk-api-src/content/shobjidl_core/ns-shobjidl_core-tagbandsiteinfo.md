@@ -7,10 +7,10 @@ old-location: shell\BANDSITEINFO.htm
 tech.root: shell
 ms.assetid: 86e4afce-594a-441e-b6d9-ce05c8234150
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/30/2018
 ms.keywords: BANDSITEINFO, BANDSITEINFO structure [Windows Shell], BSIM_STATE, BSIM_STYLE, BSIS_ALWAYSGRIPPER, BSIS_AUTOGRIPPER, BSIS_FIXEDORDER, BSIS_LEFTALIGN, BSIS_LOCKED, BSIS_NOCAPTION, BSIS_NOCONTEXTMENU, BSIS_NODROPTARGET, BSIS_NOGRIPPER, BSIS_PREFERNOLINEBREAK, BSIS_PRESERVEORDERDURINGLAYOUT, BSIS_SINGLECLICK, BSSF_NOTITLE, BSSF_UNDELETEABLE, BSSF_VISIBLE, _win32_BANDSITEINFO, shell.BANDSITEINFO, shobjidl_core/BANDSITEINFO, tagBANDSITEINFO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

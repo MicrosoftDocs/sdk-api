@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressopen.htm
 tech.root: Multimedia
 ms.assetid: 83db0e07-7e93-4c77-a017-68a30b1372ef
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: ICDecompressOpen, ICDecompressOpen macro [Windows Multimedia], _win32_ICDecompressOpen, multimedia.icdecompressopen, vfw/ICDecompressOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

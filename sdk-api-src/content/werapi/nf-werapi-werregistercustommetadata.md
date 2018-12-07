@@ -7,7 +7,7 @@ old-location: wer\werregistercustommetadata.htm
 tech.root: wer
 ms.assetid: 55FB3110-314A-4327-AA8F-3AF77B7006DD
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WerRegisterCustomMetadata, WerRegisterCustomMetadata function [Windows Error Reporting], wer.werregistercustommetadata, werapi/WerRegisterCustomMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

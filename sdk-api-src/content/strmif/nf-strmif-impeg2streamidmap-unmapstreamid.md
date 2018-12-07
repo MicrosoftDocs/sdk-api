@@ -7,7 +7,7 @@ old-location: dshow\impeg2streamidmap_unmapstreamid.htm
 tech.root: DirectShow
 ms.assetid: 99e28b85-effd-4f86-b2da-ec02a05dde40
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IMPEG2StreamIdMap interface [DirectShow],UnmapStreamId method, IMPEG2StreamIdMap.UnmapStreamId, IMPEG2StreamIdMap::UnmapStreamId, IMPEG2StreamIdMapUnmapStreamId, UnmapStreamId, UnmapStreamId method [DirectShow], UnmapStreamId method [DirectShow],IMPEG2StreamIdMap interface, dshow.impeg2streamidmap_unmapstreamid, strmif/IMPEG2StreamIdMap::UnmapStreamId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ The <code>UnmapStreamId</code> method unmaps the Stream ID mapping created in a 
 The number of elements in the <i>pulStreamID</i> array.
 
 
-### -param pulStreamId
-
-TBD
-
-
-
-
-#### - pulStreamID [in]
+### -param pulStreamId [in]
 
 Array of Stream IDs mapped for this pin.
 

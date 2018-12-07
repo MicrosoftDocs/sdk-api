@@ -7,10 +7,10 @@ old-location: gdi\emrstretchblt.htm
 tech.root: gdi
 ms.assetid: 957b09d2-a706-4045-affb-fd530cd4fa3a
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*PEMRSTRETCHBLT, EMRSTRETCHBLT, EMRSTRETCHBLT structure [Windows GDI], PEMRSTRETCHBLT, PEMRSTRETCHBLT structure pointer [Windows GDI], _win32_EMRSTRETCHBLT_str, gdi.emrstretchblt, tagEMRSTRETCHBLT, wingdi/EMRSTRETCHBLT, wingdi/PEMRSTRETCHBLT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

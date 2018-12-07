@@ -7,7 +7,7 @@ old-location: controls\itextrange2_getrow.htm
 tech.root: controls
 ms.assetid: 3f15605a-8f81-4fc4-ad12-5300ecd03c16
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetRow, GetRow method [Windows Controls], GetRow method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetRow method, ITextRange2.GetRow, ITextRange2::GetRow, controls.itextrange2_getrow, tom/ITextRange2::GetRow
 ms.prod: windows-hardware
 ms.technology: windows-devices

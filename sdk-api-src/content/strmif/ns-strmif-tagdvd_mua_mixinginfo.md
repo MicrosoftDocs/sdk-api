@@ -7,10 +7,10 @@ old-location: dshow\dvd_mua_mixinginfo.htm
 tech.root: DirectShow
 ms.assetid: df830598-f484-483d-a0dc-e6bd9debbe53
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DVD_MUA_MixingInfo, DVD_MUA_MixingInfo structure [DirectShow], DVD_MUA_MixingInfoStructure, dshow.dvd_mua_mixinginfo, strmif/DVD_MUA_MixingInfo, tagDVD_MUA_MixingInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

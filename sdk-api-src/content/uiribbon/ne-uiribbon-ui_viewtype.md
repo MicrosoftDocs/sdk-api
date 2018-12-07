@@ -7,10 +7,10 @@ old-location: windowsribbon\windowsribbon_ui_viewtype.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_view_type.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: UI_VIEWTYPE, UI_VIEWTYPE enumeration [Windows Ribbon], UI_VIEWTYPE_RIBBON, scenicintent_UI_VIEWTYPE, uiribbon/UI_VIEWTYPE, uiribbon/UI_VIEWTYPE_RIBBON, windowsribbon.windowsribbon_ui_viewtype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uiribbon.h
 req.include-header: 

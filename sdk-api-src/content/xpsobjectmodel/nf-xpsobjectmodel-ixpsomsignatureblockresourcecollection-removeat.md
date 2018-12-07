@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresourcecollection_removeat.htm
 tech.root: printdocs
 ms.assetid: 5f33e46a-0926-4802-8581-eca5f1cdea65
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMSignatureBlockResourceCollection.RemoveAt, IXpsOMSignatureBlockResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_removeat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

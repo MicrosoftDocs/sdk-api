@@ -4,10 +4,10 @@ title: IADsObjectOptions::GetOption
 author: windows-sdk-content
 description: Gets a provider-specific option for a directory object.
 old-location: adsi\iadsobjectoptions_getoption.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 77a994d2-81ae-4afb-be5c-be8d7159a2c2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetOption, GetOption method [ADSI], GetOption method [ADSI],IADsObjectOptions interface, IADsObjectOptions interface [ADSI],GetOption method, IADsObjectOptions.GetOption, IADsObjectOptions::GetOption, _ds_iadsobjectoptions_getoption, adsi.iadsobjectoptions__getoption, adsi.iadsobjectoptions_getoption, iads/IADsObjectOptions::GetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

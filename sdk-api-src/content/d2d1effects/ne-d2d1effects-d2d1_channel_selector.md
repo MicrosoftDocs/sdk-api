@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_channel_selector.htm
 tech.root: direct2d
 ms.assetid: 92BC07F7-4CB5-487E-9AFB-255C8EF1C6BA
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_CHANNEL_SELECTOR, D2D1_CHANNEL_SELECTOR enumeration [Direct2D], D2D1_CHANNEL_SELECTOR_A, D2D1_CHANNEL_SELECTOR_B, D2D1_CHANNEL_SELECTOR_G, D2D1_CHANNEL_SELECTOR_R, d2d1effects/D2D1_CHANNEL_SELECTOR, d2d1effects/D2D1_CHANNEL_SELECTOR_A, d2d1effects/D2D1_CHANNEL_SELECTOR_B, d2d1effects/D2D1_CHANNEL_SELECTOR_G, d2d1effects/D2D1_CHANNEL_SELECTOR_R, direct2d.d2d1_channel_selector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

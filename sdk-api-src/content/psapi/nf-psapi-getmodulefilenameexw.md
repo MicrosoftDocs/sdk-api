@@ -7,7 +7,7 @@ old-location: psapi\getmodulefilenameex.htm
 tech.root: psapi
 ms.assetid: 4199ce12-e82f-4a58-ac66-e0ddc0dffbff
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetModuleFileNameEx, GetModuleFileNameEx function [PSAPI], GetModuleFileNameExA, GetModuleFileNameExW, K32GetModuleFileNameEx, K32GetModuleFileNameExA, K32GetModuleFileNameExW, _win32_getmodulefilenameex, base.getmodulefilenameex, psapi.getmodulefilenameex, psapi/GetModuleFileNameEx, psapi/GetModuleFileNameExA, psapi/GetModuleFileNameExW, psapi/K32GetModuleFileNameEx, psapi/K32GetModuleFileNameExA, psapi/K32GetModuleFileNameExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseallprotseqsex.htm
 tech.root: rpc
 ms.assetid: 4fc2ccbe-1b01-4157-b3e7-2c61397d78f7
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RpcServerUseAllProtseqsEx, RpcServerUseAllProtseqsEx function [RPC], _rpc_rpcserveruseallprotseqsex, rpc.rpcserveruseallprotseqsex, rpcdce/RpcServerUseAllProtseqsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -173,13 +173,13 @@ For each protocol sequence registered by a server, the RPC run-time library crea
 <a href="https://msdn.microsoft.com/">ncacn_nb_ipx</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/">ncadg_mq</a>
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/3165e4f6-8869-4eff-af65-53e85f78a949">ncacn_at_dsp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>
+<a href="https://msdn.microsoft.com/">ncacn_http</a>
 </li>
 </ul>
 </div>

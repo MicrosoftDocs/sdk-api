@@ -4,10 +4,10 @@ title: IIsdbSIParameterDescriptor::GetTableDescriptionBytes
 author: windows-sdk-content
 description: Gets description data from a table descriptor in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_gettabledescriptionbytes.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: dd73b221-b7b5-43c8-bbdf-f1ea559a0a4e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTableDescriptionBytes, GetTableDescriptionBytes method [Microsoft TV Technologies], GetTableDescriptionBytes method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTableDescriptionBytes method, IIsdbSIParameterDescriptor.GetTableDescriptionBytes, IIsdbSIParameterDescriptor::GetTableDescriptionBytes, dvbsiparser/IIsdbSIParameterDescriptor::GetTableDescriptionBytes, mstv.iisdbsiparameterdescriptor_gettabledescriptionbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

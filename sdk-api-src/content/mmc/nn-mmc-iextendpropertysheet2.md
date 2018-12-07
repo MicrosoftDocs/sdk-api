@@ -7,10 +7,10 @@ old-location: mmc\iextendpropertysheet2.htm
 tech.root: mmc
 ms.assetid: 9beb0a0a-b3bf-46d0-b10c-0fc3ab25c18d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IExtendPropertySheet2, IExtendPropertySheet2 interface [MMC], IExtendPropertySheet2 interface [MMC],described, _slate_iextendpropertysheet2, mmc.iextendpropertysheet2, mmc/IExtendPropertySheet2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

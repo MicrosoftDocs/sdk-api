@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__clearhmenuprops.htm
 tech.root: WinAuto
 ms.assetid: dbff74b0-c67b-4ef4-add7-6063c4760455
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ClearHmenuProps, ClearHmenuProps method [Windows Accessibility], ClearHmenuProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearHmenuProps method, IAccPropServices.ClearHmenuProps, IAccPropServices::ClearHmenuProps, oleacc/IAccPropServices::ClearHmenuProps, winauto.iaccpropservices_iaccpropservices__clearhmenuprops
 ms.prod: windows-hardware
 ms.technology: windows-devices

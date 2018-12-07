@@ -7,7 +7,7 @@ old-location: xps\ixpsomlineargradientbrush_setendpoint.htm
 tech.root: printdocs
 ms.assetid: 5eec7bda-bbd8-454a-8b32-9db769df91e6
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],SetEndPoint method, IXpsOMLinearGradientBrush.SetEndPoint, IXpsOMLinearGradientBrush::SetEndPoint, SetEndPoint, SetEndPoint method [XPS Documents and Packaging], SetEndPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, xps.ixpsomlineargradientbrush_setendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetEndPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

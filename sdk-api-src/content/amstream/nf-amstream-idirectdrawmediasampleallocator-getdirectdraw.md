@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediasampleallocator_getdirectdraw.htm
 tech.root: DirectShow
 ms.assetid: 6d6eed9d-635d-424b-ba14-213bbe56f66c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow],IDirectDrawMediaSampleAllocator interface, IDirectDrawMediaSampleAllocator interface [DirectShow],GetDirectDraw method, IDirectDrawMediaSampleAllocator.GetDirectDraw, IDirectDrawMediaSampleAllocator::GetDirectDraw, IDirectDrawMediaSampleAllocatorGetDirectDraw, amstream/IDirectDrawMediaSampleAllocator::GetDirectDraw, dshow.idirectdrawmediasampleallocator_getdirectdraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IMSVidPlaybackEvent::EndOfMedia
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidplaybackevent_endofmedia.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 00c73b5e-dc0f-4ffd-930f-e93ce3d1e179
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: EndOfMedia, EndOfMedia method [Microsoft TV Technologies], EndOfMedia method [Microsoft TV Technologies],IMSVidPlaybackEvent interface, IMSVidPlaybackEvent interface [Microsoft TV Technologies],EndOfMedia method, IMSVidPlaybackEvent.EndOfMedia, IMSVidPlaybackEvent::EndOfMedia, IMSVidPlaybackEventEndOfMedia, mstv.imsvidplaybackevent_endofmedia, segment/IMSVidPlaybackEvent::EndOfMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

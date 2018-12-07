@@ -7,10 +7,10 @@ old-location: wic\_wic_codec_iwicbitmapclipper.htm
 tech.root: wic
 ms.assetid: a21fb11f-8622-46d6-8612-875ac59d3fbf
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWICBitmapClipper, IWICBitmapClipper interface [Windows Imaging Component], IWICBitmapClipper interface [Windows Imaging Component],described, _wic_codec_iwicbitmapclipper, wic._wic_codec_iwicbitmapclipper, wincodec/IWICBitmapClipper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

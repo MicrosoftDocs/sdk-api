@@ -7,7 +7,7 @@ old-location: dxmath\xmloadsint4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadSInt4(const XMINT4)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadSInt4, XMLoadSInt4, XMLoadSInt4 method [DirectX Math Support APIs], dxmath.xmloadsint4
 ms.prod: windows-hardware
 ms.technology: windows-devices

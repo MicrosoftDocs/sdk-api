@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPatternInstance_GetProperty.htm
 tech.root: WinAuto
 ms.assetid: cb64569f-799b-4e9a-a9f4-84513b98c941
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [Windows Accessibility], GetProperty method [Windows Accessibility],IUIAutomationPatternInstance interface, IUIAutomationPatternInstance interface [Windows Accessibility],GetProperty method, IUIAutomationPatternInstance.GetProperty, IUIAutomationPatternInstance::GetProperty, uiauto.uiauto_IUIAutomationPatternInstance_GetProperty, uiauto_IUIAutomationPatternInstance_GetProperty, uiautomationcore/IUIAutomationPatternInstance::GetProperty, winauto.uiauto_IUIAutomationPatternInstance_GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ The client wrapper object implements the <b>IUIAutomation::get_Current</b><i>X</
 
 
 
-### -param index
+### -param index [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The index of the property. 
 
 
 ### -param cached [in]
@@ -82,13 +84,6 @@ A value indicating the data type of the property.
 Type: <b>void*</b>
 
 Receives the value of the property.
-
-
-#### - Index [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
-
-The index of the property. 
 
 
 ## -returns

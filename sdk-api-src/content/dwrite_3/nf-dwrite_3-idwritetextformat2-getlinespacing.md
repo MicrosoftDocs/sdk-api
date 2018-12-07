@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextformat2_getlinespacing.htm
 tech.root: DirectWrite
 ms.assetid: 1e05687f-137e-06f8-b9c8-983f434f7578
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetLineSpacing, GetLineSpacing method [Direct Write], GetLineSpacing method [Direct Write],IDWriteTextFormat2 interface, IDWriteTextFormat2 interface [Direct Write],GetLineSpacing method, IDWriteTextFormat2.GetLineSpacing, IDWriteTextFormat2::GetLineSpacing, directwrite.idwritetextformat2_getlinespacing, dwrite_3/IDWriteTextFormat2::GetLineSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ Gets the line spacing adjustment set for a multiline text paragraph.
 
 
 
-### -param lineSpacingOptions
-
-TBD
-
-
-
-
-#### - lineSpacingMethod [out]
+### -param lineSpacingOptions [out]
 
 Type: <b><a href="https://msdn.microsoft.com/bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc">DWRITE_LINE_SPACING</a>*</b>
 

@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddAlternateLocationMapping
 author: windows-sdk-content
 description: The AddAlternateLocationMapping method creates an alternate location mapping for a file set.
 old-location: base\ivsscreatewritermetadata_addalternatelocationmapping.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 966c40d4-8c19-43cc-ba49-028763478f49
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddAlternateLocationMapping, AddAlternateLocationMapping method [VSS], AddAlternateLocationMapping method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddAlternateLocationMapping method, IVssCreateWriterMetadata.AddAlternateLocationMapping, IVssCreateWriterMetadata::AddAlternateLocationMapping, _win32_ivsscreatewritermetadata_addalternatelocationmapping, base.ivsscreatewritermetadata_addalternatelocationmapping, vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,28 @@ The
 
 
 
-### -param wszSourcePath
+### -param wszSourcePath [in]
 
-TBD
+Null-terminated wide character string containing the name of the directory or directory hierarchy containing the files to be mapped. 
 
 
-### -param wszSourceFilespec
 
-TBD
+
+The directory can be a local directory on the VSS machine, or it can be a file share directory on a remote file server.
+
+The path can contain environment variables (for example, %SystemRoot%) but cannot contain wildcard characters.
+
+There is no requirement that the path end with a backslash ("\"). It is up to applications that retrieve this information to check.
+
+
+### -param wszSourceFilespec [in]
+
+Null-terminated wide character string containing the file specification of the files to be mapped. 
+
+
+
+
+A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
 
 
 ### -param bRecursive [in]
@@ -88,30 +102,6 @@ Null-terminated wide character string containing the fully qualified path to the
 The directory can be a local directory on the VSS machine, or it can be a file share directory on a remote file server.
 
 UNC paths are supported.
-
-
-#### - wszFilespec [in]
-
-Null-terminated wide character string containing the file specification of the files to be mapped. 
-
-
-
-
-A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
-
-
-#### - wszPath [in]
-
-Null-terminated wide character string containing the name of the directory or directory hierarchy containing the files to be mapped. 
-
-
-
-
-The directory can be a local directory on the VSS machine, or it can be a file share directory on a remote file server.
-
-The path can contain environment variables (for example, %SystemRoot%) but cannot contain wildcard characters.
-
-There is no requirement that the path end with a backslash ("\"). It is up to applications that retrieve this information to check.
 
 
 ## -returns

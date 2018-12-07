@@ -7,10 +7,10 @@ old-location: display\ddaddattachedsurface.htm
 tech.root: display
 ms.assetid: 53f146e6-f521-4c95-b98b-0e8acb994c9d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DdAddAttachedSurface, DdAddAttachedSurface callback function [Display Devices], PDD_SURFCB_ADDATTACHEDSURFACE, PDD_SURFCB_ADDATTACHEDSURFACE callback, ddfncs_b7f5d56d-95b7-4b79-8d20-9ab663582dd2.xml, ddrawint/DdAddAttachedSurface, display.ddaddattachedsurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

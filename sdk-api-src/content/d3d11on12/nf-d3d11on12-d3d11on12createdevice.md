@@ -7,7 +7,7 @@ old-location: direct3d12\d3d11on12createdevice.htm
 tech.root: direct3d12
 ms.assetid: 6FC2CB44-4AA8-4E89-9E9B-ED1C3C9C64CC
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D11On12CreateDevice, D3D11On12CreateDevice function, d3d11on12/D3D11On12CreateDevice, direct3d12.d3d11on12createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

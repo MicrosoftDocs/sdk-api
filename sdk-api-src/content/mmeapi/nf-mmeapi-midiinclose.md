@@ -7,7 +7,7 @@ old-location: multimedia\midiinclose.htm
 tech.root: Multimedia
 ms.assetid: 95a1490c-3a0f-4380-a11f-0979e94f88ab
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiInClose, midiInClose, midiInClose function [Windows Multimedia], mmeapi/midiInClose, multimedia.midiinclose"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,13 +64,6 @@ The <b>midiInClose</b> function closes the specified MIDI input device.
 
 
 ### -param hmi
-
-TBD
-
-
-
-
-#### - hMidiIn
 
 Handle to the MIDI input device. If the function is successful, the handle is no longer valid after the call to this function.
 

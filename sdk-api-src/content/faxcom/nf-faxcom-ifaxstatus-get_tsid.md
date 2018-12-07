@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_22p0.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxStatus interface [Fax Service],Tsid property, IFaxStatus.Tsid, IFaxStatus.get_Tsid, IFaxStatus::Tsid, IFaxStatus::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_tsid, fax._mfax_ifaxstatus_get_tsid, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_tsid_cpp, faxcom/IFaxStatus::Tsid, faxcom/IFaxStatus::get_Tsid, get_Tsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: HttpQueryInfoW function
 author: windows-sdk-content
 description: Retrieves header information associated with an HTTP request.
 old-location: wininet\httpqueryinfo.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 5747ce19-5004-4eea-abe9-dd00abac1b3b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: HttpQueryInfo, HttpQueryInfo function [WinINet], HttpQueryInfoA, HttpQueryInfoW, _inet_httpqueryinfo_function, wininet.httpqueryinfo, wininet/HttpQueryInfo, wininet/HttpQueryInfoA, wininet/HttpQueryInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

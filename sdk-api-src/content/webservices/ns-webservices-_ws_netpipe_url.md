@@ -7,10 +7,10 @@ old-location: wsw\ws_netpipe_url.htm
 tech.root: wsw
 ms.assetid: A9B2C098-4420-490A-BB28-F8F1D3136225
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_NETPIPE_URL, WS_NETPIPE_URL structure [Web Services for Windows], _WS_NETPIPE_URL, webservices/_WS_NETPIPE_URL, wsw.ws_netpipe_url
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

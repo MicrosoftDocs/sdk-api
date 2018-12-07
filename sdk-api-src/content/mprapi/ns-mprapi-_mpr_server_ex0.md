@@ -7,10 +7,10 @@ old-location: rras\mpr_server_ex.htm
 tech.root: rras
 ms.assetid: 10c1e3bd-adb8-4aff-835c-e7d881c9f5cf
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMPR_SERVER_EX0, MPR_SERVER_EX, MPR_SERVER_EX structure [RAS], MPR_SERVER_EX0, PMPR_SERVER_EX, PMPR_SERVER_EX structure pointer [RAS], _MPR_SERVER_EX0, _MPR_SERVER_EX1, mprapi/MPR_SERVER_EX, mprapi/PMPR_SERVER_EX, rras.mpr_server_ex"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

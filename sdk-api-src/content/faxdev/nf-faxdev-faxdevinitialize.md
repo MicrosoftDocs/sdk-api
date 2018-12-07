@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevinitialize.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8nhh.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: FaxDevInitialize, FaxDevInitialize function [Fax Service], _mfax_faxdevinitialize, fax._mfax_faxdevinitialize, faxdev/FaxDevInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

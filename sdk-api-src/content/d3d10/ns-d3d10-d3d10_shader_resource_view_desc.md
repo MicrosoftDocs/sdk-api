@@ -7,10 +7,10 @@ old-location: direct3d10\d3d10_shader_resource_view_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_resource_view_desc.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 7ae3bb9d-8153-8ae3-c7bb-4b1581c7af45, D3D10_SHADER_RESOURCE_VIEW_DESC, D3D10_SHADER_RESOURCE_VIEW_DESC structure [Direct3D 10], d3d10/D3D10_SHADER_RESOURCE_VIEW_DESC, direct3d10.d3d10_shader_resource_view_desc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: D3D10Shader.h

@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2_open.htm
 tech.root: ixhr2
 ms.assetid: 8723F24B-0739-44D6-8443-1A378B585F42
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Open method, IXMLHTTPRequest2.Open, IXMLHTTPRequest2::Open, Open, Open method [XMLHttpRequest2], Open method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_open, msxml6/IXMLHTTPRequest2::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,14 +90,7 @@ The password for authentication. This parameter is ignored if the <i>pwszUserNam
 The name of the user for authentication on the proxy server. If this parameter is a Null or empty string and the site requires authentication, credentials will be managed by Windows, including displaying a logon UI, unless disabled by <a href="https://msdn.microsoft.com/4BBA4E21-29ED-413D-90D6-161D31CC13C9">SetProperty</a>.
 
 
-### -param pwszProxyPassword
-
-TBD
-
-
-
-
-#### - pwszProxyPasssword [in, optional]
+### -param pwszProxyPassword [in, optional]
 
 The password for authentication on the proxy server. This parameter is ignored if the <i>pwszProxyUserName</i> parameter is Null or missing.
 

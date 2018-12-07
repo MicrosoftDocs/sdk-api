@@ -4,10 +4,10 @@ title: CVssWriter::IsPathAffected
 author: windows-sdk-content
 description: The IsPathAffected method determines whether the specified directory or file is included in the current shadow copy set. The path for the directory or file can be a local path or a UNC path of a remote file share.
 old-location: base\cvsswriter_ispathaffected.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: 576e2e25-82dd-4b72-b777-0abc22a06386
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CVssWriter class [VSS],IsPathAffected method, CVssWriter.IsPathAffected, CVssWriter::IsPathAffected, IsPathAffected, IsPathAffected method [VSS], IsPathAffected method [VSS],CVssWriter class, _win32_cvsswriter_ispathaffected, base.cvsswriter_ispathaffected, vswriter/CVssWriter::IsPathAffected
 ms.prod: windows-hardware
 ms.technology: windows-devices

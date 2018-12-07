@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedIsContentElement.htm
 tech.root: WinAuto
 ms.assetid: 3e06c0dd-0cdd-4193-9353-5a71d08ec17d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CachedIsContentElement property [Windows Accessibility], CachedIsContentElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsContentElement property, IUIAutomationElement.CachedIsContentElement, IUIAutomationElement.get_CachedIsContentElement, IUIAutomationElement::CachedIsContentElement, IUIAutomationElement::get_CachedIsContentElement, get_CachedIsContentElement, uiauto.uiauto_IUIAutomationElement_CachedIsContentElement, uiauto_IUIAutomationElement_CachedIsContentElement, uiautomationclient/IUIAutomationElement::CachedIsContentElement, uiautomationclient/IUIAutomationElement::get_CachedIsContentElement, winauto.uiauto_IUIAutomationElement_CachedIsContentElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

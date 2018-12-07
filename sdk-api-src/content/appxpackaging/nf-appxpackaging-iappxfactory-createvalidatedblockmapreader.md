@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfactory_createvalidatedblockmapreader.htm
 tech.root: appxpkg
 ms.assetid: BCC39D9C-4AF9-4CFD-AC66-4B79F9F25BDC
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CreateValidatedBlockMapReader, CreateValidatedBlockMapReader method [App packaging and management], CreateValidatedBlockMapReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreateValidatedBlockMapReader method, IAppxFactory.CreateValidatedBlockMapReader, IAppxFactory::CreateValidatedBlockMapReader, appxpackaging/IAppxFactory::CreateValidatedBlockMapReader, appxpkg.iappxfactory_createvalidatedblockmapreader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,9 +65,11 @@ Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc2361353
 The stream that delivers block map XML for reading. The stream must support <a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">Read</a>, <a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">Seek</a>, and <a href="https://msdn.microsoft.com/c22ab396-dbc5-43a0-8448-35a2c094464f">Stat</a>.
 
 
-### -param signatureFileName
+### -param signatureFileName [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+
+The file that contains a digital signature used to validate the contents of the input stream.
 
 
 ### -param blockMapReader [out, retval]
@@ -75,13 +77,6 @@ TBD
 Type: <b><a href="https://msdn.microsoft.com/233539FD-E3BE-4783-9F23-B34F6397FBBE">IAppxBlockMapReader</a>**</b>
 
 The block map reader.
-
-
-#### - fileName [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
-
-The file that contains a digital signature used to validate the contents of the input stream.
 
 
 ## -returns

@@ -7,10 +7,10 @@ old-location: wcs\yxycolor.htm
 tech.root: WCS
 ms.assetid: 231551fb-12c9-42f6-b00c-436c2c5217c1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: YxyCOLOR, YxyCOLOR structure [Windows Color System], icm/YxyCOLOR, wcs.yxycolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: icm.h
 req.include-header: 

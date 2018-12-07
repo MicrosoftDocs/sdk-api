@@ -7,7 +7,7 @@ old-location: wcs\cmdeletetransform.htm
 tech.root: WCS
 ms.assetid: a9c2639e-d479-4067-afb8-5b5722a2cc60
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMDeleteTransform, CMDeleteTransform function [Windows Color System], _color_CMDeleteTransform, icm/CMDeleteTransform, wcs.cmdeletetransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CMDeleteTransform
+: 
 ---
 
 # CMDeleteTransform function

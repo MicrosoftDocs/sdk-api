@@ -7,7 +7,7 @@ old-location: mscs\deleteclusterresource.htm
 tech.root: mscs
 ms.assetid: d6a8425c-c926-46d8-b13a-c293f8ed30a8
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteClusterResource, DeleteClusterResource function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_RESOURCE, PCLUSAPI_DELETE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_deleteclusterresource, clusapi/DeleteClusterResource, clusapi/PCLUSAPI_DELETE_CLUSTER_RESOURCE, mscs.deleteclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,6 +74,36 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>, such as one of these values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_ONLINE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Windows Server 2008 R2: The resource identified by <i>hResource</i> is not offline currently.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_STATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Windows Server 2012: The resource identified by <i>hResource</i> is not offline currently.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

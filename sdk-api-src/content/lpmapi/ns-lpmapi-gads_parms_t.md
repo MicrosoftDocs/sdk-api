@@ -9,8 +9,8 @@ ms.assetid: 06492722-948d-407a-b1bf-e1c4f5ea7f89
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: Gads_parms_t, Gads_parms_t structure [QOS], lpmapi/Gads_parms_t, qos.gads_parms_t
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

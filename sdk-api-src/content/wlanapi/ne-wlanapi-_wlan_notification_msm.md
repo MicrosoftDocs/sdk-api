@@ -7,10 +7,10 @@ old-location: nwifi\wlan_notification_msm.htm
 tech.root: NativeWiFi
 ms.assetid: 7847658a-6789-43ad-95ad-b520333863e6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWLAN_NOTIFICATION_MSM, PWLAN_NOTIFICATION_MSM, PWLAN_NOTIFICATION_MSM enumeration pointer [NativeWIFI], WLAN_NOTIFICATION_MSM, WLAN_NOTIFICATION_MSM enumeration [NativeWIFI], _WLAN_NOTIFICATION_MSM, nwifi.wlan_notification_msm, wlan_notification_msm_adapter_operation_mode_change, wlan_notification_msm_adapter_removal, wlan_notification_msm_associated, wlan_notification_msm_associating, wlan_notification_msm_authenticating, wlan_notification_msm_connected, wlan_notification_msm_disassociating, wlan_notification_msm_disconnected, wlan_notification_msm_end, wlan_notification_msm_peer_join, wlan_notification_msm_peer_leave, wlan_notification_msm_radio_state_change, wlan_notification_msm_roaming_end, wlan_notification_msm_roaming_start, wlan_notification_msm_signal_quality_change, wlan_notification_msm_start, wlanapi/PWLAN_NOTIFICATION_MSM, wlanapi/WLAN_NOTIFICATION_MSM, wlanapi/wlan_notification_msm_adapter_operation_mode_change, wlanapi/wlan_notification_msm_adapter_removal, wlanapi/wlan_notification_msm_associated, wlanapi/wlan_notification_msm_associating, wlanapi/wlan_notification_msm_authenticating, wlanapi/wlan_notification_msm_connected, wlanapi/wlan_notification_msm_disassociating, wlanapi/wlan_notification_msm_disconnected, wlanapi/wlan_notification_msm_end, wlanapi/wlan_notification_msm_peer_join, wlanapi/wlan_notification_msm_peer_leave, wlanapi/wlan_notification_msm_radio_state_change, wlanapi/wlan_notification_msm_roaming_end, wlanapi/wlan_notification_msm_roaming_start, wlanapi/wlan_notification_msm_signal_quality_change, wlanapi/wlan_notification_msm_start"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 

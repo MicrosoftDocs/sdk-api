@@ -7,10 +7,10 @@ old-location: ldap\ldapmessage.htm
 tech.root: ldap
 ms.assetid: 547a0736-23a4-4bfd-8ae0-866825228b53
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*PLDAPMessage, LDAPMessage, LDAPMessage structure [LDAP], PLDAPMessage, PLDAPMessage structure pointer [LDAP], _ldap_ldapmessage, ldap.ldapmessage, ldapmsg, winldap/LDAPMessage, winldap/PLDAPMessage"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 

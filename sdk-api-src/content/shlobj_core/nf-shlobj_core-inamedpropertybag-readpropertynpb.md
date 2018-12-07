@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyBag_ReadPropertyNPB.htm
 tech.root: shell
 ms.assetid: 7080edeb-4908-4b0a-9416-9b301c54bb4c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],ReadPropertyNPB method, INamedPropertyBag.ReadPropertyNPB, INamedPropertyBag::ReadPropertyNPB, ReadPropertyNPB, ReadPropertyNPB method [Windows Shell], ReadPropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_ReadPropertyNPB, shell.INamedPropertyBag_ReadPropertyNPB, shlobj_core/INamedPropertyBag::ReadPropertyNPB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ Causes a property to be read from the named property bag.
 
 
 
-### -param pszBagname
+### -param pszBagname [in]
 
-TBD
+Type: <b>PCWSTR</b>
+
+A pointer to a string that contains the name of the property bag.
 
 
 ### -param pszPropName [in]
@@ -75,13 +77,6 @@ A pointer to a string that contains the name of the property to be read.
 Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
 
 The address of a <b>VARIANT</b> that, when this method returns successfully, receives the property value.
-
-
-#### - pszBagName [in]
-
-Type: <b>PCWSTR</b>
-
-A pointer to a string that contains the name of the property bag.
 
 
 ## -returns

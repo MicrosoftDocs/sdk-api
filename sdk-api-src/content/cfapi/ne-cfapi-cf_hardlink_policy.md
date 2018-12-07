@@ -7,10 +7,10 @@ old-location: cloudapi\cf_hardlink_policy.htm
 tech.root: cfApi
 ms.assetid: 23FFC4E8-0CB7-4FF4-A3C3-2E8FB2C74497
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: CF_HARDLINK_POLICY, CF_HARDLINK_POLICY enumeration, CF_HARDLINK_POLICY_ALLOWED, CF_HARDLINK_POLICY_DEFAULT, cfapi/CF_HARDLINK_POLICY, cfapi/CF_HARDLINK_POLICY_ALLOWED, cfapi/CF_HARDLINK_POLICY_DEFAULT, cloudApi.cf_hardlink_policy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

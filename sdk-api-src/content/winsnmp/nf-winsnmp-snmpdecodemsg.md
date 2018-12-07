@@ -7,7 +7,7 @@ old-location: snmp\snmpdecodemsg.htm
 tech.root: SNMP
 ms.assetid: d19d6451-1640-4c3b-9e60-d9cb591cf173
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpDecodeMsg, SnmpDecodeMsg function [SNMP], _snmp_snmpdecodemsg, snmp.snmpdecodemsg, winsnmp/SnmpDecodeMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

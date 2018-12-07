@@ -7,10 +7,10 @@ old-location: winauto\uiauto_ITextRangeProvider2.htm
 tech.root: WinAuto
 ms.assetid: 97A48D32-E8B2-31CB-2DC3-B9FDDF1BB3CC
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITextRangeProvider2, ITextRangeProvider2 interface [Windows Accessibility], ITextRangeProvider2 interface [Windows Accessibility],described, uiautomationcore/ITextRangeProvider2, winauto.uiauto_ITextRangeProvider2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

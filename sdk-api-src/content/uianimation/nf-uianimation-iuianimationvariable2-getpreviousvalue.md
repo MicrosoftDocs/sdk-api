@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_getpreviousvalue.htm
 tech.root: UIAnimation
 ms.assetid: 1A2BF7DB-1C7B-43BF-A7F7-A4FB47250597
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetPreviousValue, GetPreviousValue method [Windows Animation], GetPreviousValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetPreviousValue method, IUIAnimationVariable2.GetPreviousValue, IUIAnimationVariable2::GetPreviousValue, uianimation.iuianimationvariable2_getpreviousvalue, uianimation/IUIAnimationVariable2::GetPreviousValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

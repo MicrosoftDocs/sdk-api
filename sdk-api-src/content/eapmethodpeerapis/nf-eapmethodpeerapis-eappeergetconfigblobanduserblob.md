@@ -7,7 +7,7 @@ old-location: eaphost\eappeergetconfigblobanduserblob.htm
 tech.root: eaphost
 ms.assetid: 81817FAA-20AE-4556-BAA5-0EF2A955B6A3
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: EapPeerGetConfigBlobAndUserBlob, EapPeerGetConfigBlobAndUserBlob function [EAPHost], eaphost.eappeergetconfigblobanduserblob, eapmethodpeerapis/EapPeerGetConfigBlobAndUserBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

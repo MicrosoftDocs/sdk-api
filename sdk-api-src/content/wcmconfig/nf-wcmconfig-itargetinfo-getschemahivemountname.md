@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_getschemahivemountname.htm
 tech.root: SMI
 ms.assetid: d63e3f49-bb7b-4ef6-a573-811b9bbdd9b0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetSchemaHiveMountName, GetSchemaHiveMountName method [SMI], GetSchemaHiveMountName method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetSchemaHiveMountName method, ITargetInfo.GetSchemaHiveMountName, ITargetInfo::GetSchemaHiveMountName, smi.itargetinfo_getschemahivemountname, wcmconfig/ITargetInfo::GetSchemaHiveMountName
 ms.prod: windows-hardware
 ms.technology: windows-devices

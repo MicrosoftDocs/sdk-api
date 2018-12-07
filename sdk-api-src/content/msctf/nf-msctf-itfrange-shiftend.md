@@ -7,7 +7,7 @@ old-location: tsf\itfrange_shiftend.htm
 tech.root: TSF
 ms.assetid: 1debec6d-f98f-45a4-aaa8-99b61f3583ef
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftEnd method, ITfRange.ShiftEnd, ITfRange::ShiftEnd, ShiftEnd, ShiftEnd method [Text Services Framework], ShiftEnd method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftend_ref, msctf/ITfRange::ShiftEnd, tsf.itfrange_shiftend
 ms.prod: windows-hardware
 ms.technology: windows-devices

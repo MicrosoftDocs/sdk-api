@@ -4,10 +4,10 @@ title: ResumeSuspendedDownload function
 author: windows-sdk-content
 description: The ResumeSuspendedDownload function resumes a request that is suspended by a user interface dialog box.
 old-location: wininet\resumesuspendeddownload.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 72b5511a-872d-4058-9f38-9b1bdf6784c3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ResumeSuspendedDownload, ResumeSuspendedDownload function [WinINet], wininet.resumesuspendeddownload, wininet/ResumeSuspendedDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices

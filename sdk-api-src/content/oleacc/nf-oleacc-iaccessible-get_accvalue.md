@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accvalue.htm
 tech.root: WinAuto
 ms.assetid: 8e29adec-13fb-4a85-87ac-9e8034dce147
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accValue method, IAccessible.get_accValue, IAccessible::get_accValue, _msaa_IAccessible_get_accValue, get_accValue, get_accValue method [Windows Accessibility], get_accValue method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accvalue, oleacc/IAccessible::get_accValue, winauto.iaccessible_iaccessible__get_accvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,11 @@ The <b>IAccessible::get_accValue</b> method retrieves the value of the specified
 
 
 
-### -param varChild
+### -param varChild [in]
 
-TBD
+Type: <b>VARIANT</b>
+
+Specifies whether the retrieved value information belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT structure</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
 
 
 ### -param pszValue [out, retval]
@@ -68,13 +70,6 @@ TBD
 Type: <b>BSTR*</b>
 
  Address of the <b>BSTR</b> that receives a localized string that contains the object's current value.
-
-
-#### - varID [in]
-
-Type: <b>VARIANT</b>
-
-Specifies whether the retrieved value information belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT structure</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
 
 
 ## -returns

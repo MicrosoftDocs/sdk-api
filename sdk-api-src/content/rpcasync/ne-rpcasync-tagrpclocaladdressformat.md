@@ -7,10 +7,10 @@ old-location: rpc\rpclocaladdressformat.htm
 tech.root: rpc
 ms.assetid: c05610ba-6b00-45e4-b28f-9ce288d08df8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: RpcLocalAddressFormat, RpcLocalAddressFormat enumeration [RPC], rlafIPv4, rlafIPv6, rlafInvalid, rpc.rpclocaladdressformat, rpcasync/RpcLocalAddressFormat, rpcasync/rlafIPv4, rpcasync/rlafIPv6, rpcasync/rlafInvalid, tagRpcLocalAddressFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: Rpc.h

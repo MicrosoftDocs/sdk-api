@@ -7,7 +7,7 @@ old-location: multimedia\mididisconnect.htm
 tech.root: Multimedia
 ms.assetid: bf6ea7d0-eb0a-429f-8029-d283808fb85e
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiDisconnect, midiDisconnect, midiDisconnect function [Windows Multimedia], mmeapi/midiDisconnect, multimedia.mididisconnect"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The <b>midiDisconnect</b> function disconnects a MIDI input device from a MIDI t
 
 ### -param hmi
 
-TBD
+Handle to a MIDI input device or a MIDI thru device.
 
 
 ### -param hmo
@@ -76,11 +76,6 @@ Handle to the MIDI output device to be disconnected.
 ### -param pReserved
 
 Reserved; must be <b>NULL</b>.
-
-
-#### - hMidi
-
-Handle to a MIDI input device or a MIDI thru device.
 
 
 ## -returns

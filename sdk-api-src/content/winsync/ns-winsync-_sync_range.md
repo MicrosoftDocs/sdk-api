@@ -7,10 +7,10 @@ old-location: winsync\sync_range.htm
 tech.root: winsync
 ms.assetid: d3e4a4f4-4a67-4dce-a81a-3861dcf788e6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SYNC_RANGE, SYNC_RANGE structure [Windows Sync], _SYNC_RANGE, winsync.sync_range, winsync/SYNC_RANGE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 

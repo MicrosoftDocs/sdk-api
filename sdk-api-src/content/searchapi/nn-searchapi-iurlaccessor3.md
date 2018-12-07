@@ -7,10 +7,10 @@ old-location: search\_search_IUrlAccessor3.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor3\iurlaccessor3.htm
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IUrlAccessor3, IUrlAccessor3 interface [search], IUrlAccessor3 interface [search],described, _search_IUrlAccessor3, search._search_IUrlAccessor3, searchapi/IUrlAccessor3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

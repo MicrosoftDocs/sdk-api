@@ -7,10 +7,10 @@ old-location: direct3d11\d3d11_tex1d_srv.htm
 tech.root: direct3d11
 ms.assetid: 255e97ac-e978-4a70-a908-f4537337dfeb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 1bcdba84-70d7-54b7-24fa-091adf73ae90, D3D11_TEX1D_SRV, D3D11_TEX1D_SRV structure [Direct3D 11], d3d11/D3D11_TEX1D_SRV, direct3d11.d3d11_tex1d_srv
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

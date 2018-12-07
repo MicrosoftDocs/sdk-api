@@ -4,13 +4,13 @@ title: "_MI_PropertySetFT"
 author: windows-sdk-content
 description: A support structure used in the MI_PropertySet structure. Use the functions with the name prefix &#0034;MI_PropertySet_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_propertysetft.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: d71c0378-0b97-44ea-9f42-e533b93f195e
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_PropertySetFT, MI_PropertySetFT structure [Windows Management Infrastructure (MI)], _MI_PropertySetFT, mi/MI_PropertySetFT, wmi_v2.mi_propertysetft
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

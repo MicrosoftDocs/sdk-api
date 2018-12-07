@@ -7,7 +7,7 @@ old-location: mscs\resutilstopresourceservice.htm
 tech.root: mscs
 ms.assetid: 25e8417d-d314-4987-bdb2-7740793e4ac2
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRESUTIL_STOP_RESOURCE_SERVICE, PRESUTIL_STOP_RESOURCE_SERVICE function [Failover Cluster], ResUtilStopResourceService, ResUtilStopResourceService function [Failover Cluster], _wolf_resutilstopresourceservice, mscs.resutilstopresourceservice, resapi/PRESUTIL_STOP_RESOURCE_SERVICE, resapi/ResUtilStopResourceService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,6 +71,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error code.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_TIMEOUT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Service did not stop after a reasonable number of retries.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

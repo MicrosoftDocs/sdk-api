@@ -7,10 +7,10 @@ old-location: com\bind_opts2.htm
 tech.root: com
 ms.assetid: fb2aa8c1-dddc-480e-b544-61a1074125ef
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPBIND_OPTS2, BIND_OPTS2, BIND_OPTS2 structure [COM], LPBIND_OPTS2, LPBIND_OPTS2 structure pointer [COM], _com_BIND_OPTS2, com.bind_opts2, objidl/BIND_OPTS2, objidl/LPBIND_OPTS2, tagBIND_OPTS2"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 
@@ -93,6 +93,16 @@ A pointer to a <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba
 The size of this structure, in bytes.
 
 
+#### - grfFlags
+
+Flags that control aspects of moniker binding operations. This value is any combination of the bit flags in the <a href="https://msdn.microsoft.com/e8884e82-5de2-4a1f-b79c-d431afe9e87e">BIND_FLAGS</a> enumeration. The <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a> function initializes this member to zero.
+
+
+#### - grfMode
+
+Flags that should be used when opening the file that contains the object identified by the moniker. Possible values  are the <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM constants</a>. The binding operation uses these flags in the call to <a href="https://msdn.microsoft.com/8391aa5c-fe6e-4b03-9eef-7958f75910a5">IPersistFile::Load</a> when loading the file. If the object is already running, these flags are ignored by the binding operation. The <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a> function initializes this field to STGM_READWRITE. 
+
+
 #### - dwTickCountDeadline
 
 The clock time by which the caller would like the binding operation to be completed, in milliseconds. This member lets the caller limit the execution time of an operation when speed is of primary importance. A value of zero indicates that there is no deadline. Callers most often use this capability when calling the <a href="https://msdn.microsoft.com/120cc951-6797-4ef6-890b-57ff8d3d23ba">IMoniker::GetTimeOfLastChange</a> method, though it can be usefully applied to other operations as well. The <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a> function initializes this field to zero.
@@ -102,16 +112,6 @@ Typical deadlines allow for a few hundred milliseconds of execution. This deadli
 If a binding operation exceeds its deadline because one or more objects that it needs are not running, the moniker implementation should register the objects responsible in the bind context using the <a href="https://msdn.microsoft.com/7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed">IBindCtx::RegisterObjectParam</a>. The objects should be registered under the parameter names "ExceededDeadline", "ExceededDeadline1", "ExceededDeadline2", and so on. If the caller later finds the object in the running object table, the caller can retry the binding operation.
 
 The <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a> function indicates the number of milliseconds since system startup, and wraps back to zero after 2^31 milliseconds. Consequently, callers should be careful not to inadvertently pass a zero value (which indicates no deadline), and moniker implementations should be aware of clock wrapping problems. 
-
-
-#### - grfFlags
-
-Flags that control aspects of moniker binding operations. This value is any combination of the bit flags in the <a href="https://msdn.microsoft.com/e8884e82-5de2-4a1f-b79c-d431afe9e87e">BIND_FLAGS</a> enumeration. The <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a> function initializes this member to zero.
-
-
-#### - grfMode
-
-Flags that should be used when opening the file that contains the object identified by the moniker. Possible values  are the <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM constants</a>. The binding operation uses these flags in the call to <a href="https://msdn.microsoft.com/8391aa5c-fe6e-4b03-9eef-7958f75910a5">IPersistFile::Load</a> when loading the file. If the object is already running, these flags are ignored by the binding operation. The <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a> function initializes this field to STGM_READWRITE. 
 
 
 ## -remarks

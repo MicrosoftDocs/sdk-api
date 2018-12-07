@@ -4,10 +4,10 @@ title: IBDA_SignalStatistics::put_SignalPresent
 author: windows-sdk-content
 description: The put_SignalPresent method specifies whether a signal is present.
 old-location: mstv\ibda_signalstatistics_put_signalpresent.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 9d27dd06-a180-4ee6-bb52-34a8f434ab6a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SignalPresent method, IBDA_SignalStatistics.put_SignalPresent, IBDA_SignalStatistics::put_SignalPresent, IBDA_SignalStatisticsput_SignalPresent, bdaiface/IBDA_SignalStatistics::put_SignalPresent, mstv.ibda_signalstatistics_put_signalpresent, put_SignalPresent, put_SignalPresent method [Microsoft TV Technologies], put_SignalPresent method [Microsoft TV Technologies],IBDA_SignalStatistics interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

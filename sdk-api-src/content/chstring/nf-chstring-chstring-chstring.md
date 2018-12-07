@@ -7,7 +7,7 @@ old-location: wmi\chstring_chstring.htm
 tech.root: WmiSdk
 ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: CHString, CHString.CHString, CHString::CHString, CHString::CHString constructors [Windows Management Instrumentation], chstring/CHString::CHString, wmi.chstring_chstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

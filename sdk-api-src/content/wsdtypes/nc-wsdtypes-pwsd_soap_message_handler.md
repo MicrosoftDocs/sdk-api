@@ -4,13 +4,13 @@ title: PWSD_SOAP_MESSAGE_HANDLER
 author: windows-sdk-content
 description: References a SOAP message handler for incoming messages.
 old-location: ncd\pwsd_soap_message_handler_func.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 175d4352-ba85-4c3c-be9f-4612c4b66123
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PWSD_SOAP_MESSAGE_HANDLER, PWSD_SOAP_MESSAGE_HANDLER callback, PWSD_SOAP_MESSAGE_HANDLER callback function, callback function pointer, ncd.pwsd_soap_message_handler_func, wsdtypes/PWSD_SOAP_MESSAGE_HANDLER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

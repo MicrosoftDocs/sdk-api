@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_hittest_point____single.htm
 tech.root: tablet
 ms.assetid: fe88410d-e3e7-4899-b6fe-04e6eed98bbb
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: HitTestWithLasso, HitTestWithLasso method [Tablet PC], HitTestWithLasso method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestWithLasso method, IInkDisp.HitTestWithLasso, IInkDisp::HitTestWithLasso, fe88410d-e3e7-4899-b6fe-04e6eed98bbb, msinkaut/IInkDisp::HitTestWithLasso, tablet.inkdisp_hittest_point____single
 ms.prod: windows-hardware
 ms.technology: windows-devices

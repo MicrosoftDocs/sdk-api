@@ -4,13 +4,13 @@ title: IRdcSignatureReader
 author: windows-sdk-content
 description: Reads the signatures and the parameters used to generate the signatures.
 old-location: rdc\irdcsignaturereader.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: dec6eb10-1243-4888-9ccc-ab1f4cfb11e7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IRdcSignatureReader, IRdcSignatureReader interface [Remote Differential Compression], IRdcSignatureReader interface [Remote Differential Compression],described, fs.irdcsignaturereader, msrdc/IRdcSignatureReader, rdc.irdcsignaturereader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

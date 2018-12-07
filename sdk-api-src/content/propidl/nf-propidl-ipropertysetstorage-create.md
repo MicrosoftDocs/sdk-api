@@ -4,10 +4,10 @@ title: IPropertySetStorage::Create
 author: windows-sdk-content
 description: Creates and opens a new property set in the property set storage object.
 old-location: stg\ipropertysetstorage_create.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 9307788d-bce6-4025-8043-8b68e874a62b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Create, Create method [Structured Storage], Create method [Structured Storage],IPropertySetStorage interface, IPropertySetStorage interface [Structured Storage],Create method, IPropertySetStorage.Create, IPropertySetStorage::Create, _stg_ipropertysetstorage_create, propidl/IPropertySetStorage::Create, stg.ipropertysetstorage_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,9 +59,10 @@ The <b>Create</b> method
 
 
 
-### -param rfmtid
+### -param rfmtid [in]
 
-TBD
+The FMTID of the property set to be created. For information about FMTIDs that are well-known and predefined in the Platform SDK, see 
+<a href="https://msdn.microsoft.com/cc99ce1b-beb5-4340-91ed-3aed5bdad2bd">Predefined Property Set Format Identifiers</a>.
 
 
 ### -param pclsid [in]
@@ -79,20 +80,7 @@ The values from <a href="https://msdn.microsoft.com/6f865c8f-bbca-4122-b076-14f2
 An access mode in which the newly created property set is to be opened, taken from certain values of <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM_Constants</a>, as described in the following Remarks section.
 
 
-### -param ppprstg
-
-TBD
-
-
-
-
-#### - fmtid [in]
-
-The FMTID of the property set to be created. For information about FMTIDs that are well-known and predefined in the Platform SDK, see 
-<a href="https://msdn.microsoft.com/cc99ce1b-beb5-4340-91ed-3aed5bdad2bd">Predefined Property Set Format Identifiers</a>.
-
-
-#### - ppProgStg [out]
+### -param ppprstg [out]
 
 A pointer to the output variable that receives the <a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface pointer.
 

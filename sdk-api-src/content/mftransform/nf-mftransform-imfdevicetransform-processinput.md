@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_processinput.htm
 tech.root: stream
 ms.assetid: EB4197BA-5963-45E7-B196-94F907637EBB
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessInput method, IMFDeviceTransform.ProcessInput, IMFDeviceTransform::ProcessInput, ProcessInput, ProcessInput method [Streaming Media Devices], ProcessInput method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessInput, stream.imfdevicetransform_processinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,9 +58,9 @@ The <b>ProcessInput</b> method delivers data to an input stream on this Media Fo
 
 
 
-### -param dwInputStreamID
+### -param dwInputStreamID [in]
 
-TBD
+Input stream identifier.
 
 
 ### -param pSample [in]
@@ -71,11 +71,6 @@ Pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d
 ### -param dwFlags [in]
 
 Must be zero.
-
-
-#### - dwStreamID [in]
-
-Input stream identifier.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_renderfile.htm
 tech.root: DirectShow
 ms.assetid: 5dfff776-da3f-40a3-86d4-76a5099d6e6f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IMediaControl interface [DirectShow],RenderFile method, IMediaControl.RenderFile, IMediaControl::RenderFile, IMediaControlRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IMediaControl interface, control/IMediaControl::RenderFile, dshow.imediacontrol_renderfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

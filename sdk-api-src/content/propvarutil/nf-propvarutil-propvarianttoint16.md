@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt16.htm
 tech.root: properties
 ms.assetid: 32070620-bae2-4465-8b11-b88adb6cb365
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: PropVariantToInt16, PropVariantToInt16 function [Windows Properties], properties.PropVariantToInt16, propvarutil/PropVariantToInt16, shell.PropVariantToInt16, shell_PropVariantToInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices

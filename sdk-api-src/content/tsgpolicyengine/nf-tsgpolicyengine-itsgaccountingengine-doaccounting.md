@@ -7,7 +7,7 @@ old-location: termserv\itsgaccountingengine_doaccounting.htm
 tech.root: termserv
 ms.assetid: ebc57caa-804b-46a4-96bb-8b50c13029ab
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: DoAccounting, DoAccounting method [Remote Desktop Services], DoAccounting method [Remote Desktop Services],ITSGAccountingEngine interface, ITSGAccountingEngine interface [Remote Desktop Services],DoAccounting method, ITSGAccountingEngine.DoAccounting, ITSGAccountingEngine::DoAccounting, termserv.itsgaccountingengine_doaccounting, tsgpolicyengine/ITSGAccountingEngine::DoAccounting
 ms.prod: windows-hardware
 ms.technology: windows-devices

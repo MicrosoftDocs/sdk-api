@@ -7,10 +7,10 @@ old-location: winrt\instancingtype.htm
 tech.root: WinRT
 ms.assetid: 42E6A5EE-06B0-4F38-92D0-729922AD9FFF
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: InstancingType, InstancingType enumeration [Windows Runtime], InstancingType_MultipleInstances, InstancingType_SingleInstance, activationregistration/InstancingType, activationregistration/InstancingType_MultipleInstances, activationregistration/InstancingType_SingleInstance, winrt.instancingtype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 
@@ -66,11 +66,6 @@ Create a singleton instance of the out-of-process server.
 ### -field InstancingType_MultipleInstances
 
 Create more than one instance of the out-of-process server.
-
-
-### -field int
-
-
 
 
 ## -see-also

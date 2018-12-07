@@ -7,7 +7,7 @@ old-location: base\wakebyaddresssingle.htm
 tech.root: sync
 ms.assetid: 4ca8f7b9-e78e-4324-9e72-84267746fe53
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: WakeByAddressSingle, WakeByAddressSingle function, base.wakebyaddresssingle, synchapi/WakeByAddressSingle
 ms.prod: windows-hardware
 ms.technology: windows-devices

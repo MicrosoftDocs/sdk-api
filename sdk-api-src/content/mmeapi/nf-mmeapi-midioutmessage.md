@@ -7,7 +7,7 @@ old-location: multimedia\midioutmessage.htm
 tech.root: Multimedia
 ms.assetid: bbc37692-ed85-4ac0-9b7c-4ea64a3d21a8
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutMessage, midiOutMessage, midiOutMessage function [Windows Multimedia], mmeapi/midiOutMessage, multimedia.midioutmessage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,12 +65,12 @@ The <b>midiOutMessage</b> function sends a message to the MIDI device drivers. T
 
 ### -param hmo
 
-TBD
+Identifier of the MIDI device that receives the message. You must cast the device ID to the <b>HMIDIOUT</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
 
 
 ### -param uMsg
 
-TBD
+Message to send.
 
 
 ### -param dw1
@@ -81,16 +81,6 @@ Message parameter.
 ### -param dw2
 
 Message parameter.
-
-
-#### - deviceID
-
-Identifier of the MIDI device that receives the message. You must cast the device ID to the <b>HMIDIOUT</b> handle type. If you supply a handle instead of a device ID, the function fails and returns the MMSYSERR_NOSUPPORT error code.
-
-
-#### - msg
-
-Message to send.
 
 
 ## -returns

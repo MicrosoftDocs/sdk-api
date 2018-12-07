@@ -7,10 +7,10 @@ old-location: dxmath\xmint2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMINT2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: XMINT2, XMINT2 structure [DirectX Math Support APIs], directxmath/XMINT2, dxmath.xmint2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxmath.h
 req.include-header: 
@@ -71,6 +71,18 @@ Signed integer value describing the x coordinate of the vector.
 ### -field y
 
 Signed integer value describing the y coordinate of the vector.
+
+
+### -field operator=
+
+TBD 
+
+
+### -field XMINT2
+
+TBD 
+
+
 
 
 ## -remarks

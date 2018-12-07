@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::AddFile
 author: windows-sdk-content
 description: Adds a single file to the job.
 old-location: bits\ibackgroundcopyjob_addfile.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 0dada1d3-49b6-41af-b17f-612f27ea4d56
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AddFile, AddFile method [BITS], AddFile method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],AddFile method, IBackgroundCopyJob.AddFile, IBackgroundCopyJob::AddFile, _drz_ibackgroundcopyjob_addfile, bits.ibackgroundcopyjob_addfile, bits/IBackgroundCopyJob::AddFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,26 +59,14 @@ Adds a single file to the job.
 
 
 
-### -param RemoteUrl
-
-TBD
-
-
-### -param LocalName
-
-TBD
-
-
-
-
-#### - pLocalName [in]
-
-Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structure.
-
-
-#### - pRemoteName [in]
+### -param RemoteUrl [in]
 
 Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structure.
+
+
+### -param LocalName [in]
+
+Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structure.
 
 
 ## -returns

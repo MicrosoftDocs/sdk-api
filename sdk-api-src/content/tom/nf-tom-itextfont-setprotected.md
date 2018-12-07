@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetProtected.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setprotected.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetProtected method, ITextFont.SetProtected, ITextFont::SetProtected, SetProtected, SetProtected method [Windows Controls], SetProtected method [Windows Controls],ITextFont interface, _win32_ITextFont_SetProtected, _win32_ITextFont_SetProtected_cpp, controls.ITextFont_SetProtected, controls._win32_ITextFont_SetProtected, tom/ITextFont::SetProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices

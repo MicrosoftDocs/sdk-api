@@ -9,8 +9,8 @@ ms.assetid: 3eafe5ba-45d9-4b0d-b3f8-68f5e99df5bb
 ms.author: windowssdkdev
 ms.date: 11/02/2018
 ms.keywords: "*LPINTERFACEDATA, INTERFACEDATA, INTERFACEDATA structure [Automation], LPINTERFACEDATA, LPINTERFACEDATA structure pointer [Automation], _oa96_INTERFACEDATA, automat.interfacedata, oleauto/INTERFACEDATA, oleauto/LPINTERFACEDATA, tagINTERFACEDATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: oleauto.h
 req.include-header: 

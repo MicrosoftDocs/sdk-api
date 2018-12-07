@@ -4,10 +4,10 @@ title: IFillLockBytes::SetFillSize
 author: windows-sdk-content
 description: The SetFillSize method sets the expected size of the byte array.
 old-location: stg\ifilllockbytes_setfillsize.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 1336079e-02d2-4799-a58f-d097ec80c03b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFillLockBytes interface [Structured Storage],SetFillSize method, IFillLockBytes.SetFillSize, IFillLockBytes::SetFillSize, SetFillSize, SetFillSize method [Structured Storage], SetFillSize method [Structured Storage],IFillLockBytes interface, _stg_ifilllockbytes_setfillsize, objidl/IFillLockBytes::SetFillSize, stg.ifilllockbytes_setfillsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ The
 
 
 
-### -param ulSize
-
-TBD
-
-
-
-
-#### - uISize [in]
+### -param ulSize [in]
 
 Size in bytes of the byte array object that is to be filled in subsequent calls to 
 <a href="https://msdn.microsoft.com/3f25c48f-85a4-4778-b262-ad0c52cb1ac9">IFillLockBytes::FillAppend</a>.

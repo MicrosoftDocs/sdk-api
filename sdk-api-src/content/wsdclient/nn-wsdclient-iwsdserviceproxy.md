@@ -4,13 +4,13 @@ title: IWSDServiceProxy
 author: windows-sdk-content
 description: Represents a remote WSD service for client applications and middleware.
 old-location: ncd\iwsdserviceproxy.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDServiceProxy, IWSDServiceProxy interface, IWSDServiceProxy interface,described, ncd.iwsdserviceproxy, wsdclient/IWSDServiceProxy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

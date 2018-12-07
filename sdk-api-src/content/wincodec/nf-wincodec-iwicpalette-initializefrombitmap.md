@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_initializefrombitmap.htm
 tech.root: wic
 ms.assetid: f17d0f16-729e-466c-902f-61398daf2921
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeFromBitmap method, IWICPalette.InitializeFromBitmap, IWICPalette::InitializeFromBitmap, InitializeFromBitmap, InitializeFromBitmap method [Windows Imaging Component], InitializeFromBitmap method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializefrombitmap, wic._wic_codec_iwicpalette_initializefrombitmap, wincodec/IWICPalette::InitializeFromBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,9 +65,11 @@ Type: <b><a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255
 Pointer to the source bitmap.
 
 
-### -param cCount
+### -param cCount [in]
 
-TBD
+Type: <b>UINT</b>
+
+The number of colors to initialize the palette with.
 
 
 ### -param fAddTransparentColor [in]
@@ -75,13 +77,6 @@ TBD
 Type: <b>BOOL</b>
 
 A value to indicate whether to add a transparent color.
-
-
-#### - colorCount [in]
-
-Type: <b>UINT</b>
-
-The number of colors to initialize the palette with.
 
 
 ## -returns

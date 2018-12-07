@@ -7,7 +7,7 @@ old-location: shell\SHRegEnumUSKey.htm
 tech.root: shell
 ms.assetid: 9418ad45-f451-4976-afd7-fa1e0088038d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SHRegEnumUSKey, SHRegEnumUSKey function [Windows Shell], SHRegEnumUSKeyA, SHRegEnumUSKeyW, _win32_SHRegEnumUSKey, shell.SHRegEnumUSKey, shlwapi/SHRegEnumUSKey, shlwapi/SHRegEnumUSKeyA, shlwapi/SHRegEnumUSKeyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,9 +82,11 @@ Type: <b>DWORD</b>
 The index of the subkey to retrieve. This parameter should be zero for the first call and incremented for subsequent calls.
 
 
-### -param pszName
+### -param pszName [out]
 
-TBD
+Type: <b>LPTSTR</b>
+
+A pointer to a character buffer that receives the enumerated key name.
 
 
 ### -param pcchName [in, out]
@@ -99,13 +101,6 @@ A pointer to  a DWORD that, on entry, contains the size of the buffer at <i>pszN
 Type: <b><a href="https://msdn.microsoft.com/4216a983-9d53-44b1-8273-e5a90ac4b3ef">SHREGENUM_FLAGS</a></b>
 
 A <a href="https://msdn.microsoft.com/4216a983-9d53-44b1-8273-e5a90ac4b3ef">SHREGENUM_FLAGS</a> that specifies the base key in which the enumeration should take place.
-
-
-#### - pwzName [out]
-
-Type: <b>LPTSTR</b>
-
-A pointer to a character buffer that receives the enumerated key name.
 
 
 ## -returns

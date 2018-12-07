@@ -7,7 +7,7 @@ old-location: wds\wdstransportclientwaitforcompletion.htm
 tech.root: wds
 ms.assetid: b592ae66-5090-468e-a747-346f87e807e8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: WdsTransportClientWaitForCompletion, WdsTransportClientWaitForCompletion function [Windows Deployment Services], wds.wdstransportclientwaitforcompletion, wdstci/WdsTransportClientWaitForCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices

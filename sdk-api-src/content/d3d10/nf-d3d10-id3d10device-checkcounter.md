@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_checkcounter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkcounter.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 16cb87e3-fdfa-0b39-e72e-a725642eb2ba, CheckCounter, CheckCounter method [Direct3D 10], CheckCounter method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckCounter method, ID3D10Device.CheckCounter, ID3D10Device::CheckCounter, d3d10/ID3D10Device::CheckCounter, direct3d10.id3d10device_checkcounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

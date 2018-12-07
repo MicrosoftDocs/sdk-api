@@ -4,10 +4,10 @@ title: IISDB_BIT::GetVersionHash
 author: windows-sdk-content
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getversionhash.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 26423a5f-710b-405f-acf2-1aafbeb304d2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetVersionHash method, IISDB_BIT.GetVersionHash, IISDB_BIT::GetVersionHash, dvbsiparser/IISDB_BIT::GetVersionHash, mstv.iisdb_bit_getversionhash
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,13 +4,13 @@ title: "_FsrmFileScreenFlags"
 author: windows-sdk-content
 description: Defines the options for failing IO operations that violate a file screen.
 old-location: fsrm\fsrmfilescreenflags.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 5f0029e5-fe0a-453e-b226-6d4f31f650c5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FsrmFileScreenFlags, FsrmFileScreenFlags enumeration [File Server Resource Manager], FsrmFileScreenFlags_Enforce, _FsrmFileScreenFlags, fs.fsrmfilescreenflags, fsrm.fsrmfilescreenflags, fsrmenums/FsrmFileScreenFlags, fsrmenums/FsrmFileScreenFlags_Enforce
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

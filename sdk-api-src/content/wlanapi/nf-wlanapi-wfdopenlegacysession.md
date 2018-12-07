@@ -7,7 +7,7 @@ old-location: nwifi\wfdopenlegacysession.htm
 tech.root: NativeWiFi
 ms.assetid: D7BE8108-EF18-49FC-8B14-CED45B6C682B
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WFDOpenLegacySession, WFDOpenLegacySession function [NativeWIFI], nwifi.wfdopenlegacysession, wlanapi/WFDOpenLegacySession
 ms.prod: windows-hardware
 ms.technology: windows-devices

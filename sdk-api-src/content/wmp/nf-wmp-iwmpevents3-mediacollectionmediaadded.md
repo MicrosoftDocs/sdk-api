@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents3_iwmpevents3__mediacollectionmediaadded.htm
 tech.root: WMP
 ms.assetid: 374ac1d8-ea7f-498a-b9b1-02bf7083f682
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],MediaCollectionMediaAdded method, IWMPEvents3.MediaCollectionMediaAdded, IWMPEvents3::MediaCollectionMediaAdded, IWMPEvents3MediaCollectionMediaAdded, MediaCollectionMediaAdded, MediaCollectionMediaAdded method [Windows Media Player], MediaCollectionMediaAdded method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__mediacollectionmediaadded, wmp/IWMPEvents3::MediaCollectionMediaAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: etw\tdhgetproperty_func.htm
 tech.root: etw
 ms.assetid: 3975792e-cc24-430a-914f-420f3a5ec1d6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: TdhGetProperty, TdhGetProperty function [ETW], etw.tdhgetproperty_func, tdh.tdhgetproperty_func, tdh/TdhGetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

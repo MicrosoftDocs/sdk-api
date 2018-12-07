@@ -2,7 +2,7 @@
 UID: NA:wsipv6ok
 ms.assetid: 37f26d23-2596-3f0e-add4-124f21eac266
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IBDA_FrequencyFilter::put_Bandwidth
 author: windows-sdk-content
 description: The put_Bandwidth method specifies the bandwidth.
 old-location: mstv\ibda_frequencyfilter_put_bandwidth.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 8e44a5b4-c3ea-4afa-aab3-4f6732a3bd82
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Bandwidth method, IBDA_FrequencyFilter.put_Bandwidth, IBDA_FrequencyFilter::put_Bandwidth, IBDA_FrequencyFilterput_Bandwidth, bdaiface/IBDA_FrequencyFilter::put_Bandwidth, mstv.ibda_frequencyfilter_put_bandwidth, put_Bandwidth, put_Bandwidth method [Microsoft TV Technologies], put_Bandwidth method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

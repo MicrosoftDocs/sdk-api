@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingbind.htm
 tech.root: rpc
 ms.assetid: dbc73a66-b1ca-4a53-b662-430b611f8c20
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RpcBindingBind, RpcBindingBind function [RPC], rpc.rpcbindingbind, rpcasync/RpcBindingBind
 ms.prod: windows-hardware
 ms.technology: windows-devices

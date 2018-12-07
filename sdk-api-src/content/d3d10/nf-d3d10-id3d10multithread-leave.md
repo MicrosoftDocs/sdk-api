@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10multithread_leave.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread_leave.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ID3D10Multithread interface [Direct3D 10],Leave method, ID3D10Multithread.Leave, ID3D10Multithread::Leave, Leave, Leave method [Direct3D 10], Leave method [Direct3D 10],ID3D10Multithread interface, d3d10/ID3D10Multithread::Leave, direct3d10.id3d10multithread_leave, f69302dd-2d93-2366-c5f5-206d6140c16e
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: IStreamBufferDataCounters::ResetData
 author: windows-sdk-content
 description: The ResetData method resets the Stream Buffer Engine's performance counters to zero.
 old-location: mstv\istreambufferdatacounters_resetdata.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 643f0f67-8915-4097-b53a-7007610c9c8a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IStreamBufferDataCounters interface [Microsoft TV Technologies],ResetData method, IStreamBufferDataCounters.ResetData, IStreamBufferDataCounters::ResetData, IStreamBufferDataCountersResetData, ResetData, ResetData method [Microsoft TV Technologies], ResetData method [Microsoft TV Technologies],IStreamBufferDataCounters interface, mstv.istreambufferdatacounters_resetdata, sbe/IStreamBufferDataCounters::ResetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

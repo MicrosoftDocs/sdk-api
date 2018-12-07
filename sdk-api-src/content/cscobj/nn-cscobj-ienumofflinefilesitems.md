@@ -4,13 +4,13 @@ title: IEnumOfflineFilesItems
 author: windows-sdk-content
 description: Represents a collection of IOfflineFilesItem interface pointers.
 old-location: of\ienumofflinefilesitems.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 9bb1fa14-74d2-4c6f-b8ba-47c6e78d7a4f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IEnumOfflineFilesItems, IEnumOfflineFilesItems interface [Offline Files], IEnumOfflineFilesItems interface [Offline Files],described, cscobj/IEnumOfflineFilesItems, of.ienumofflinefilesitems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

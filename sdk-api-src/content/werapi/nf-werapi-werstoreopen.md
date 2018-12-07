@@ -7,7 +7,7 @@ old-location: wer\werstoreopen.htm
 tech.root: wer
 ms.assetid: FA7E0EC6-00F1-45E2-BE34-D732965FBA15
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WerStoreOpen, WerStoreOpen function [Windows Error Reporting], wer.werstoreopen, werapi/WerStoreOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: direct3ddxgi\dxgi_feature.htm
 tech.root: direct3ddxgi
 ms.assetid: 207D5BDC-5D10-4F84-931F-4812574FA74B
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: DXGI_FEATURE, DXGI_FEATURE enumeration [DXGI], DXGI_FEATURE_PRESENT_ALLOW_TEARING, direct3ddxgi.dxgi_feature, dxgi1_5/DXGI_FEATURE, dxgi1_5/DXGI_FEATURE_PRESENT_ALLOW_TEARING
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: dxgi1_5.h
 req.include-header: 

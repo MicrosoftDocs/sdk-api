@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_agelimit_
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_69mc.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],AgeLimit property, IFaxOutgoingArchive.AgeLimit, IFaxOutgoingArchive.get_AgeLimit, IFaxOutgoingArchive::AgeLimit, IFaxOutgoingArchive::get_AgeLimit, IFaxOutgoingArchive::put_AgeLimit, _mfax_faxoutgoingarchive.agelimit, fax._mfax_faxoutgoingarchive_agelimit, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_agelimit_cpp, faxcomex/IFaxOutgoingArchive::AgeLimit, faxcomex/IFaxOutgoingArchive::get_AgeLimit, faxcomex/IFaxOutgoingArchive::put_AgeLimit, get_AgeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

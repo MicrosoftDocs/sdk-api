@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_setoutputstreamstate.htm
 tech.root: stream
 ms.assetid: E44A5D0C-440A-4929-9640-AD2F7AA7D19F
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],SetOutputStreamState method, IMFDeviceTransform.SetOutputStreamState, IMFDeviceTransform::SetOutputStreamState, SetOutputStreamState, SetOutputStreamState method [Streaming Media Devices], SetOutputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::SetOutputStreamState, stream.imfdevicetransform_setoutputstreamstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,19 +68,14 @@ Stream ID of the input stream where the state and media type needs to be changed
 Preferred media type for the input stream is passed in through this parameter. Device MFT should change the media type only if the incoming media type is different from the current media type.
 
 
-### -param value
+### -param value [in]
 
-TBD
+Specifies the  <b>DeviceStreamState</b> which the input stream should transition to.
 
 
 ### -param dwFlags [in]
 
 Must be zero.
-
-
-#### - deviceStreamState [in]
-
-Specifies the  <b>DeviceStreamState</b> which the input stream should transition to.
 
 
 ## -returns

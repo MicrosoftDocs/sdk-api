@@ -7,10 +7,10 @@ old-location: nwifi\ienumdot11adhocinterfaces.htm
 tech.root: NativeWiFi
 ms.assetid: c61bbe3a-ad02-4182-bf10-1ed5fe307bd4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumDot11AdHocInterfaces, IEnumDot11AdHocInterfaces interface [NativeWIFI], IEnumDot11AdHocInterfaces interface [NativeWIFI],described, adhoc/IEnumDot11AdHocInterfaces, nwifi.ienumdot11adhocinterfaces
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 

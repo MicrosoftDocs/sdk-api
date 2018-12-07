@@ -7,10 +7,10 @@ old-location: mscs\clus_storage_remap_driveletter.htm
 tech.root: mscs
 ms.assetid: b79e4aa0-fca3-4b9c-9e3f-73cd627752a2
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCLUS_STORAGE_REMAP_DRIVELETTER, CLUS_STORAGE_REMAP_DRIVELETTER, CLUS_STORAGE_REMAP_DRIVELETTER structure [Failover Cluster], PCLUS_STORAGE_REMAP_DRIVELETTER, PCLUS_STORAGE_REMAP_DRIVELETTER structure pointer [Failover Cluster], _CLUS_STORAGE_REMAP_DRIVELETTER, clusapi/CLUS_STORAGE_REMAP_DRIVELETTER, clusapi/PCLUS_STORAGE_REMAP_DRIVELETTER, mscs.clus_storage_remap_driveletter"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

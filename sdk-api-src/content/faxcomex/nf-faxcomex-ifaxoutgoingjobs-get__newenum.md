@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxoutgoingjobs_get__newenum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_306l.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJobs interface [Fax Service],get__NewEnum method, IFaxOutgoingJobs.get__NewEnum, IFaxOutgoingJobs::get__NewEnum, _mfax_ifaxoutgoingjobs_get__newenum, fax._mfax_ifaxoutgoingjobs_get__newenum, faxcomex/IFaxOutgoingJobs::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxOutgoingJobs interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

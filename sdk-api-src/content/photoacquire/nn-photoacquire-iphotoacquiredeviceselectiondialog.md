@@ -7,10 +7,10 @@ old-location: picacq\iphotoacquiredeviceselectiondialog.htm
 tech.root: acquisition
 ms.assetid: 7ec649d2-9fd7-4c07-ad64-f3bc4acfc40d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog, IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition], IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],described, IPhotoAcquireDeviceSelectionDialogInterface, photoacquire/IPhotoAcquireDeviceSelectionDialog, picacq.iphotoacquiredeviceselectiondialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 

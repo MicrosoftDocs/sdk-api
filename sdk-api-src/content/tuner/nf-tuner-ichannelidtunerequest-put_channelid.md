@@ -4,10 +4,10 @@ title: IChannelIDTuneRequest::put_ChannelID
 author: windows-sdk-content
 description: Provider-defined channel identifier in string format.
 old-location: mstv\ichannelidtunerequest_channelid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 95f4a109-c368-41aa-aeb1-4e8aebb54f94
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ChannelID property [Microsoft TV Technologies], ChannelID property [Microsoft TV Technologies],IChannelIDTuneRequest interface, IChannelIDTuneRequest interface [Microsoft TV Technologies],ChannelID property, IChannelIDTuneRequest.ChannelID, IChannelIDTuneRequest.put_ChannelID, IChannelIDTuneRequest::ChannelID, IChannelIDTuneRequest::get_ChannelID, IChannelIDTuneRequest::put_ChannelID, mstv.ichannelidtunerequest_channelid, put_ChannelID, tuner/IChannelIDTuneRequest::ChannelID, tuner/IChannelIDTuneRequest::get_ChannelID, tuner/IChannelIDTuneRequest::put_ChannelID
 ms.prod: windows-hardware
 ms.technology: windows-devices

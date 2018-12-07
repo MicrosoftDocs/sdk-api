@@ -9,8 +9,8 @@ ms.assetid: 9d1623cc-7a88-4a84-ba75-decc4de9fe00
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: WS_MOVE_TO, WS_MOVE_TO enumeration [Web Services for Windows], WS_MOVE_TO_BOF, WS_MOVE_TO_CHILD_ELEMENT, WS_MOVE_TO_CHILD_NODE, WS_MOVE_TO_END_ELEMENT, WS_MOVE_TO_EOF, WS_MOVE_TO_FIRST_NODE, WS_MOVE_TO_NEXT_ELEMENT, WS_MOVE_TO_NEXT_NODE, WS_MOVE_TO_PARENT_ELEMENT, WS_MOVE_TO_PREVIOUS_ELEMENT, WS_MOVE_TO_PREVIOUS_NODE, WS_MOVE_TO_ROOT_ELEMENT, webservices/WS_MOVE_TO, webservices/WS_MOVE_TO_BOF, webservices/WS_MOVE_TO_CHILD_ELEMENT, webservices/WS_MOVE_TO_CHILD_NODE, webservices/WS_MOVE_TO_END_ELEMENT, webservices/WS_MOVE_TO_EOF, webservices/WS_MOVE_TO_FIRST_NODE, webservices/WS_MOVE_TO_NEXT_ELEMENT, webservices/WS_MOVE_TO_NEXT_NODE, webservices/WS_MOVE_TO_PARENT_ELEMENT, webservices/WS_MOVE_TO_PREVIOUS_ELEMENT, webservices/WS_MOVE_TO_PREVIOUS_NODE, webservices/WS_MOVE_TO_ROOT_ELEMENT, wsw.ws_move_to
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

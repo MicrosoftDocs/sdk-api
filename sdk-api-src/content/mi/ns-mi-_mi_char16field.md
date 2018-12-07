@@ -4,13 +4,13 @@ title: "_MI_Char16Field"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_char16field.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 80440854-7d78-486e-80a0-2e5c59b779d5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_Char16Field, MI_Char16Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_Char16Field, mi/MI_Char16Field, wmi._mi_char16field, wmi_v2.mi_char16field
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

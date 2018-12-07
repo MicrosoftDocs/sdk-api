@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorgetinty.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetIntY(XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorGetIntY, XMVectorGetIntY, XMVectorGetIntY method [DirectX Math Support APIs], dxmath.xmvectorgetinty
 ms.prod: windows-hardware
 ms.technology: windows-devices

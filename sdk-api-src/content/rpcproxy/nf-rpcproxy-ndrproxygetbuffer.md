@@ -7,7 +7,7 @@ old-location: rpc\ndrproxygetbuffer.htm
 tech.root: rpc
 ms.assetid: cdc07d50-a6cf-4107-9676-f48156fed1ca
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: NdrProxyGetBuffer, NdrProxyGetBuffer function [RPC], rpc.ndrproxygetbuffer, rpcproxy/NdrProxyGetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

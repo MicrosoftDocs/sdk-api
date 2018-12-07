@@ -7,10 +7,10 @@ old-location: mf\mfsink_wmdrmaction.htm
 tech.root: medfound
 ms.assetid: d7c0e63f-236c-4d3c-b5fd-51befa2b54e7
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MFSINK_WMDRMACTION, MFSINK_WMDRMACTION enumeration [Media Foundation], MFSINK_WMDRMACTION_ENCODE, MFSINK_WMDRMACTION_LAST, MFSINK_WMDRMACTION_TRANSCODE, MFSINK_WMDRMACTION_TRANSCRYPT, MFSINK_WMDRMACTION_UNDEFINED, _MFSINK_WMDRMACTION, d7c0e63f-236c-4d3c-b5fd-51befa2b54e7, mf.mfsink_wmdrmaction, wmcontainer/MFSINK_WMDRMACTION, wmcontainer/MFSINK_WMDRMACTION_ENCODE, wmcontainer/MFSINK_WMDRMACTION_LAST, wmcontainer/MFSINK_WMDRMACTION_TRANSCODE, wmcontainer/MFSINK_WMDRMACTION_TRANSCRYPT, wmcontainer/MFSINK_WMDRMACTION_UNDEFINED
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: wmcontainer.h
 req.include-header: 

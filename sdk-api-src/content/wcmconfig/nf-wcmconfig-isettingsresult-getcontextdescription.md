@@ -7,7 +7,7 @@ old-location: smi\isettingsresult_getcontextdescription.htm
 tech.root: SMI
 ms.assetid: d2bb39ce-9c49-46ab-b7d7-e4e4794f6b5a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetContextDescription, GetContextDescription method [SMI], GetContextDescription method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetContextDescription method, ISettingsResult.GetContextDescription, ISettingsResult::GetContextDescription, smi.isettingsresult_getcontextdescription, wcmconfig/ISettingsResult::GetContextDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

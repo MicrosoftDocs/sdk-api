@@ -4,10 +4,10 @@ title: IX509AttributeExtensions::InitializeEncode
 author: windows-sdk-content
 description: Initializes the object from an IX509Extensions collection.
 old-location: security\ix509attributeextensions_initializeencode_method.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: f5b6f0b9-ca49-42f2-842c-34c2445c3824
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IX509AttributeExtensions interface [Security],InitializeEncode method, IX509AttributeExtensions.InitializeEncode, IX509AttributeExtensions::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeExtensions interface, certenroll/IX509AttributeExtensions::InitializeEncode, security.ix509attributeextensions_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>InitializeEncode</b> method initializes the object from an <a href="https
 
 
 
-### -param pExtensions
-
-TBD
-
-
-
-
-#### - Extensions [in]
+### -param pExtensions [in]
 
 Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a> interface that contains the collection.
 

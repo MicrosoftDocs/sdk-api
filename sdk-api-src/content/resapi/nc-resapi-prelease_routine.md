@@ -7,10 +7,10 @@ old-location: mscs\release.htm
 tech.root: mscs
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PRELEASE_ROUTINE, resapi/Release
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
@@ -69,11 +69,36 @@ Resource identifier for the quorum resource to be released.
 
 
 
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The quorum resource was successfully released and is no longer being defended.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">Error code</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The quorum resource was not successfully released.
 
-Returns DWORD that ...
-
-
+</td>
+</tr>
+</table>
+ 
 
 
 

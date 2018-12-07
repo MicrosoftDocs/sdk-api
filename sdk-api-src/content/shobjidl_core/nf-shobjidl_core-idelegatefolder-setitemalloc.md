@@ -7,7 +7,7 @@ old-location: shell\IDelegateFolder_SetItemAlloc.htm
 tech.root: shell
 ms.assetid: ce1ee472-e245-4112-858a-1d9739f5a36d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IDelegateFolder interface [Windows Shell],SetItemAlloc method, IDelegateFolder.SetItemAlloc, IDelegateFolder::SetItemAlloc, SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell],IDelegateFolder interface, shell.IDelegateFolder_SetItemAlloc, shell_IDelegateFolder_SetItemAlloc, shobjidl_core/IDelegateFolder::SetItemAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

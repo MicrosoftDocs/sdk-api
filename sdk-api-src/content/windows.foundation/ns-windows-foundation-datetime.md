@@ -7,10 +7,10 @@ old-location: winrt\datetime.htm
 tech.root: WinRT
 ms.assetid: b5533002-8a72-438d-a3d3-0902ffc21830
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: DateTime, DateTime structure [Windows Runtime], windows/DateTime, winrt.datetime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windows.foundation.h
 req.include-header: 

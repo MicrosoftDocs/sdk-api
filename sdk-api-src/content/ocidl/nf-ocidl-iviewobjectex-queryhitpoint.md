@@ -7,7 +7,7 @@ old-location: com\iviewobjectex_queryhitpoint.htm
 tech.root: com
 ms.assetid: a9ee26c4-cf5f-4ca9-b40a-0522097a2f07
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IViewObjectEx interface [COM],QueryHitPoint method, IViewObjectEx.QueryHitPoint, IViewObjectEx::QueryHitPoint, QueryHitPoint, QueryHitPoint method [COM], QueryHitPoint method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitpoint, com.iviewobjectex_queryhitpoint, ocidl/IViewObjectEx::QueryHitPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

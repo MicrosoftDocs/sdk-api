@@ -7,7 +7,7 @@ old-location: fs\wofwimupdateentry.htm
 tech.root: fileio
 ms.assetid: 91CAE0F4-C0DB-40CE-BED9-C27E4856D4A0
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: WofWimUpdateEntry, WofWimUpdateEntry function [Files], fs.wofwimupdateentry, wofapi/WofWimUpdateEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

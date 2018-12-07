@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoderinfo_createinstance.htm
 tech.root: wic
 ms.assetid: 2bda1c2a-47b9-4e15-b0c1-52e3f85a6523
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICBitmapDecoderInfo interface, IWICBitmapDecoderInfo interface [Windows Imaging Component],CreateInstance method, IWICBitmapDecoderInfo.CreateInstance, IWICBitmapDecoderInfo::CreateInstance, _wic_codec_iwicbitmapdecoderinfo_createinstance, wic._wic_codec_iwicbitmapdecoderinfo_createinstance, wincodec/IWICBitmapDecoderInfo::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

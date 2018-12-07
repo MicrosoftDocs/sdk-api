@@ -7,7 +7,7 @@ old-location: setup\setupopenfilequeue.htm
 tech.root: SetupApi
 ms.assetid: 36950f18-80ae-46b7-9f9f-bd5307d72a3b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SetupOpenFileQueue, SetupOpenFileQueue function [Setup API], _setupapi_setupopenfilequeue, setup.setupopenfilequeue, setupapi/SetupOpenFileQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

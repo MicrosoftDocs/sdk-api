@@ -9,8 +9,8 @@ ms.assetid: 5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], IOpcSigningOptions interface [Open Packaging Conventions],described, msopc/IOpcSigningOptions, opc.iopcsigningoptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

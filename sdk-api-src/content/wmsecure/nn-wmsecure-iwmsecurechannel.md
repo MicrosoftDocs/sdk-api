@@ -7,10 +7,10 @@ old-location: wmformat\iwmsecurechannel.htm
 tech.root: wmformat
 ms.assetid: ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], IWMSecureChannel interface [windows Media Format],described, wmformat.iwmsecurechannel, wmsecure/IWMSecureChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsecure.h
 req.include-header: 

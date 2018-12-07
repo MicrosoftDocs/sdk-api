@@ -7,10 +7,10 @@ old-location: directwrite\IDWriteInlineObject.htm
 tech.root: DirectWrite
 ms.assetid: cf915458-acbc-4a37-be5c-b1337153f386
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IDWriteInlineObject, IDWriteInlineObject interface [Direct Write], IDWriteInlineObject interface [Direct Write],described, directwrite.IDWriteInlineObject, dwrite/IDWriteInlineObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: wcs\uninstallcolorprofile.htm
 tech.root: WCS
 ms.assetid: 2c5a2055-9f5f-4e21-bcbb-a9aa50105598
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: UninstallColorProfile, UninstallColorProfile function [Windows Color System], UninstallColorProfileA, UninstallColorProfileW, _color_UninstallColorProfile, icm/UninstallColorProfile, icm/UninstallColorProfileA, icm/UninstallColorProfileW, wcs.uninstallcolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,6 +44,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- UninstallColorProfileW
+: 
 ---
 
 # UninstallColorProfileW function

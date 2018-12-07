@@ -7,10 +7,10 @@ old-location: com\iunknown.htm
 tech.root: com
 ms.assetid: 33f1d79a-33fc-4ce5-a372-e08bda378332
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IUnknown, IUnknown interface [COM], IUnknown interface [COM],described, _com_iunknown, com.iunknown, unknwn/IUnknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: unknwn.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: WSManCloseOperation function
 author: windows-sdk-content
 description: Cancels or closes an asynchronous operation.
 old-location: winrm\wsmancloseoperation.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 4fd51026-6a48-42ef-a245-7593a615c103
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: WSManCloseOperation, WSManCloseOperation function [Windows Remote Management], winrm.wsmancloseoperation, wsman/WSManCloseOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

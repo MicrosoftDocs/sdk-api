@@ -7,10 +7,10 @@ old-location: etw\classic_event_id.htm
 tech.root: etw
 ms.assetid: cbd77002-466b-40e6-85a5-cd872aef7d51
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCLASSIC_EVENT_ID, CLASSIC_EVENT_ID, CLASSIC_EVENT_ID structure [ETW], PCLASSIC_EVENT_ID, PCLASSIC_EVENT_ID structure pointer [ETW], _CLASSIC_EVENT_ID, etw.classic_event_id, evntrace/CLASSIC_EVENT_ID, evntrace/PCLASSIC_EVENT_ID"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 

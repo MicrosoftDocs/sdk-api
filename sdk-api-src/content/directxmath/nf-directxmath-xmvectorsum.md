@@ -7,7 +7,7 @@ old-location: dxmath\xmvectorsum.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSum(FXMVECTOR)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSum, XMVectorSum, XMVectorSum method [DirectX Math Support APIs], dxmath.xmvectorsum
 ms.prod: windows-hardware
 ms.technology: windows-devices

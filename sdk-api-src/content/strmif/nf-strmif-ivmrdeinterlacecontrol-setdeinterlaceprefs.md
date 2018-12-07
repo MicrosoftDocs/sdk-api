@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol_setdeinterlaceprefs.htm
 tech.root: DirectShow
 ms.assetid: 5a78b8cc-ecf8-4e0a-87f0-56b7aac6abdd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IVMRDeinterlaceControl interface [DirectShow],SetDeinterlacePrefs method, IVMRDeinterlaceControl.SetDeinterlacePrefs, IVMRDeinterlaceControl::SetDeinterlacePrefs, IVMRDeinterlaceControlSetDeinterlacePrefs, SetDeinterlacePrefs, SetDeinterlacePrefs method [DirectShow], SetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl interface, dshow.ivmrdeinterlacecontrol_setdeinterlaceprefs, strmif/IVMRDeinterlaceControl::SetDeinterlacePrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,14 +59,7 @@ The <b>SetDeinterlacePrefs</b> method specifies how the VMR will select a deinte
 
 
 
-### -param dwDeinterlacePrefs
-
-TBD
-
-
-
-
-#### - lpdwDeinterlacePrefs [in]
+### -param dwDeinterlacePrefs [in]
 
 A member of the <a href="https://msdn.microsoft.com/3f88abac-fc57-4f31-9a4c-cf0f7317d6f8">VMRDeinterlacePrefs</a> enumeration type.
           

@@ -7,10 +7,10 @@ old-location: mf\dxvahd_blt_state_constriction_data.htm
 tech.root: medfound
 ms.assetid: 962a99bd-060d-4101-b65a-d0406e136bf7
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: DXVAHD_BLT_STATE_CONSTRICTION_DATA, DXVAHD_BLT_STATE_CONSTRICTION_DATA structure [Media Foundation], _DXVAHD_BLT_STATE_CONSTRICTION_DATA, dxvahd/DXVAHD_BLT_STATE_CONSTRICTION_DATA, mf.dxvahd_blt_state_constriction_data
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

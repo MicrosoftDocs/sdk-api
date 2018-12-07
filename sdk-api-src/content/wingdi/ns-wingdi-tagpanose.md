@@ -7,10 +7,10 @@ old-location: gdi\panose.htm
 tech.root: gdi
 ms.assetid: 18aa4a36-8e47-4e35-973f-376d412ed923
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPPANOSE, LPPANOSE, LPPANOSE structure pointer [Windows GDI], PANOSE, PANOSE structure [Windows GDI], _win32_PANOSE_str, gdi.panose, tagPANOSE, wingdi/LPPANOSE, wingdi/PANOSE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

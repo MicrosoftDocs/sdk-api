@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playattimeintitle.htm
 tech.root: DirectShow
 ms.assetid: 034fa82f-38d2-4031-8d7f-dcf97aa699aa
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayAtTimeInTitle method, IDvdControl2.PlayAtTimeInTitle, IDvdControl2::PlayAtTimeInTitle, IDvdControl2PlayAtTimeInTitle, PlayAtTimeInTitle, PlayAtTimeInTitle method [DirectShow], PlayAtTimeInTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playattimeintitle, strmif/IDvdControl2::PlayAtTimeInTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,14 @@ The <code>PlayAtTimeInTitle</code> method starts playback from the specified tim
 
 
 
-### -param ulTitle
+### -param ulTitle [in]
 
-TBD
+Value that specifies the number of the title to play; this value must be from 1 through 99.
 
 
-### -param pStartTime
+### -param pStartTime [in]
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55496ea">DVD_HMSF_TIMECODE</a> structure that specifies where playback will begin.
 
 
 ### -param dwFlags [in]
@@ -80,16 +80,6 @@ Bitwise <b>OR</b> of one or more flags from the <a href="https://msdn.microsoft.
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="https://msdn.microsoft.com/85f9b208-ddc2-4d9c-a30b-b666c81a49d2">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/37e8f940-617d-43f6-92bd-aadccafe0059">Synchronizing DVD Commands</a>.
-
-
-#### - pTime [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/8f2990f6-a8f5-4b16-ae30-d51ea55496ea">DVD_HMSF_TIMECODE</a> structure that specifies where playback will begin.
-
-
-#### - uiTitle [in]
-
-Value that specifies the number of the title to play; this value must be from 1 through 99.
 
 
 ## -returns

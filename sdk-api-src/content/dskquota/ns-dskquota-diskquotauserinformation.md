@@ -7,10 +7,10 @@ old-location: fs\diskquota_user_information_str.htm
 tech.root: fileio
 ms.assetid: 8929faab-e15e-47a0-af9e-b64684272cb7
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/05/2018
 ms.keywords: "*PDISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION structure [Files], DiskQuotaUserInformation, PDISKQUOTA_USER_INFORMATION, PDISKQUOTA_USER_INFORMATION structure pointer [Files], _win32_diskquota_user_information_str, base.diskquota_user_information_str, dskquota/DISKQUOTA_USER_INFORMATION, dskquota/PDISKQUOTA_USER_INFORMATION, fs.diskquota_user_information_str"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dskquota.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: directcomp\idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: f914e14b-4ac0-4591-9b7f-6b45b88baaaa
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionAnimation, IDCompositionAnimation interface [DirectComposition], IDCompositionAnimation interface [DirectComposition],described, dcompanimation/IDCompositionAnimation, directcomp.idcompositionanimation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dcompanimation.h
 req.include-header: 

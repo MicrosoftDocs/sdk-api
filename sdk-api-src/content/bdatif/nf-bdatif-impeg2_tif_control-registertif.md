@@ -4,10 +4,10 @@ title: IMPEG2_TIF_CONTROL::RegisterTIF
 author: windows-sdk-content
 description: The RegisterTIF method is called by the Transport Information Filter (TIF) to register itself with the Network Provider.
 old-location: mstv\impeg2_tif_control_registertif.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d17b1f6b-24f4-40f4-9a58-aa582c0958f8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],RegisterTIF method, IMPEG2_TIF_CONTROL.RegisterTIF, IMPEG2_TIF_CONTROL::RegisterTIF, IMPEG2_TIF_CONTROLRegisterTIF, RegisterTIF, RegisterTIF method [Microsoft TV Technologies], RegisterTIF method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, bdatif/IMPEG2_TIF_CONTROL::RegisterTIF, mstv.impeg2_tif_control_registertif
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>RegisterTIF</b> method is called by the Transport Information Filter (TIF
 Pointer to the TIF's <b>IUnknown</b> interface.
 
 
-### -param ppvRegistrationContext
-
-TBD
-
-
-
-
-#### - pvRegistrationContext [in, out]
+### -param ppvRegistrationContext [in, out]
 
 Pointer to a variable that receives an identifier. Use this value as the parameter to the <a href="https://msdn.microsoft.com/en-us/library/Dd694419(v=VS.85).aspx">IMPEG2_TIF_CONTROL::UnregisterTIF</a> method.
 

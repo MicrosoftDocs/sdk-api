@@ -4,13 +4,13 @@ title: IDVB_TOT
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_tot.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: fe5b6b7c-fc6b-4889-b780-4b9f61f3e895
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDVB_TOT, IDVB_TOT interface [Microsoft TV Technologies], IDVB_TOT interface [Microsoft TV Technologies],described, IDVB_TOTInterface, dvbsiparser/IDVB_TOT, mstv.idvb_tot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

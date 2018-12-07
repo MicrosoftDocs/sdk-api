@@ -7,10 +7,10 @@ old-location: dxmath\xmint4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMINT4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: XMINT4, XMINT4 structure [DirectX Math Support APIs], directxmath/XMINT4, dxmath.xmint4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxmath.h
 req.include-header: 
@@ -82,6 +82,18 @@ Signed integer value describing the z coordinate of the vector.
 ### -field w
 
 Signed integer value describing the w coordinate of the vector.
+
+
+### -field operator=
+
+TBD 
+
+
+### -field XMINT4
+
+TBD 
+
+
 
 
 ## -remarks

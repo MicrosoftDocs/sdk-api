@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionanimation_reset.htm
 tech.root: directcomp
 ms.assetid: 3745fff0-eefa-4262-9ce3-9ab812264c1d
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDCompositionAnimation interface [DirectComposition],Reset method, IDCompositionAnimation.Reset, IDCompositionAnimation::Reset, Reset, Reset method [DirectComposition], Reset method [DirectComposition],IDCompositionAnimation interface, dcompanimation/IDCompositionAnimation::Reset, directcomp.idcompositionanimation_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

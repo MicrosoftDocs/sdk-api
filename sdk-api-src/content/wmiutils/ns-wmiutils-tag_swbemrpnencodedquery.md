@@ -7,10 +7,10 @@ old-location: wmi\swbemrpnencodedquery.htm
 tech.root: WmiSdk
 ms.assetid: 0f7e77a8-4ee6-421b-be4a-b58055a58c39
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: SWbemRpnEncodedQuery, SWbemRpnEncodedQuery structure [Windows Management Instrumentation], WMIQ_RPN_FROM_CLASS_LIST, WMIQ_RPN_FROM_PATH, WMIQ_RPN_FROM_UNARY, tag_SWbemRpnEncodedQuery, wmi.swbemrpnencodedquery, wmiutils/SWbemRpnEncodedQuery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wmiutils.h
 req.include-header: 

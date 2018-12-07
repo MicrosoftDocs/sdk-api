@@ -7,10 +7,10 @@ old-location: direct2d\d2d1_svg_attribute_string_type.htm
 tech.root: direct2d
 ms.assetid: 71991A28-FEA0-42A1-B5D0-DA13BBA77500
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: D2D1_SVG_ATTRIBUTE_STRING_TYPE, D2D1_SVG_ATTRIBUTE_STRING_TYPE enumeration [Direct2D], D2D1_SVG_ATTRIBUTE_STRING_TYPE_FORCE_DWORD, D2D1_SVG_ATTRIBUTE_STRING_TYPE_ID, D2D1_SVG_ATTRIBUTE_STRING_TYPE_SVG, d2d1svg/D2D1_SVG_ATTRIBUTE_STRING_TYPE, d2d1svg/D2D1_SVG_ATTRIBUTE_STRING_TYPE_FORCE_DWORD, d2d1svg/D2D1_SVG_ATTRIBUTE_STRING_TYPE_ID, d2d1svg/D2D1_SVG_ATTRIBUTE_STRING_TYPE_SVG, direct2d.d2d1_svg_attribute_string_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1svg.h
 req.include-header: 

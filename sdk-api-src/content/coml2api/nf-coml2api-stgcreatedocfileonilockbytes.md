@@ -4,10 +4,10 @@ title: StgCreateDocfileOnILockBytes function
 author: windows-sdk-content
 description: Creates and opens a new compound file storage object on top of a byte-array object provided by the caller.
 old-location: stg\stgcreatedocfileonilockbytes.htm
-tech.root: Stg
+tech.root: stg
 ms.assetid: 8af5098d-db04-4273-8f5f-6d1a1d9541de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: StgCreateDocfileOnILockBytes, StgCreateDocfileOnILockBytes function [Structured Storage], _stg_stgcreatedocfileonilockbytes, coml2api/StgCreateDocfileOnILockBytes, stg.stgcreatedocfileonilockbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

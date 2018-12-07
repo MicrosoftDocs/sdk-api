@@ -7,7 +7,7 @@ old-location: tapi3\imcastleaseinfo_get_addresscount.htm
 tech.root: tapi
 ms.assetid: af7c6923-3859-46c0-aced-5b334a423e03
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_AddressCount method, IMcastLeaseInfo.get_AddressCount, IMcastLeaseInfo::get_AddressCount, _tapi3_imcastleaseinfo_get_addresscount, get_AddressCount, get_AddressCount method [TAPI 2.2], get_AddressCount method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_AddressCount, tapi3.imcastleaseinfo_get_addresscount
 ms.prod: windows-hardware
 ms.technology: windows-devices

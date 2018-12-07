@@ -4,10 +4,10 @@ title: ISimilarityTraitsTable::Append
 author: windows-sdk-content
 description: Adds a SimilarityData structure to the similarity traits table.
 old-location: rdc\isimilaritytraitstable_append.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: e4c5f75c-282e-4c99-8c5a-53421f4bfc92
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Append, Append method [Remote Differential Compression], Append method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],Append method, ISimilarityTraitsTable.Append, ISimilarityTraitsTable::Append, fs.isimilaritytraitstable_append, msrdc/ISimilarityTraitsTable::Append, rdc.isimilaritytraitstable_append
 ms.prod: windows-hardware
 ms.technology: windows-devices

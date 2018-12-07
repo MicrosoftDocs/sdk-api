@@ -7,7 +7,7 @@ old-location: imapi\idiscmasterprogressevents_notifyaddprogress.htm
 tech.root: imapi
 ms.assetid: d367b789-430e-48f5-9e50-5d6ffb9d7ebc
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyAddProgress method, IDiscMasterProgressEvents.NotifyAddProgress, IDiscMasterProgressEvents::NotifyAddProgress, NotifyAddProgress, NotifyAddProgress method [IMAPI], NotifyAddProgress method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyaddprogress, base.idiscmasterprogressevents_notifyaddprogress, imapi.idiscmasterprogressevents_notifyaddprogress, imapi/IDiscMasterProgressEvents::NotifyAddProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

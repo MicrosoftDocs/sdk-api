@@ -4,10 +4,10 @@ title: IValueMapItem::put_Enabled
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the item is enabled.
 old-location: pla\ivaluemapitem_enabled.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: f23e02bf-217a-44a2-9e1f-e92a39c1b065
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: Enabled property [PLA], Enabled property [PLA],IValueMapItem interface, IValueMapItem interface [PLA],Enabled property, IValueMapItem.Enabled, IValueMapItem.put_Enabled, IValueMapItem::Enabled, IValueMapItem::get_Enabled, IValueMapItem::put_Enabled, base.ivaluemapitem_enabled, pla.ivaluemapitem_enabled, pla/IValueMapItem::Enabled, pla/IValueMapItem::get_Enabled, pla/IValueMapItem::put_Enabled, put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

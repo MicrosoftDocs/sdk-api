@@ -4,13 +4,13 @@ title: IWSDSignatureProperty
 author: windows-sdk-content
 description: Provides properties of signed messages.
 old-location: ncd\iwsdsignatureproperty.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 10e95100-4890-4c00-b231-bb7125fed197
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatureProperty interface,described, ncd.iwsdsignatureproperty, wsdbase/IWSDSignatureProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

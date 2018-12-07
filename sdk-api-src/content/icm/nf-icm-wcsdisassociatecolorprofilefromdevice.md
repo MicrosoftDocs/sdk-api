@@ -7,7 +7,7 @@ old-location: wcs\wcsdisassociatecolorprofilefromdevice.htm
 tech.root: WCS
 ms.assetid: d5c2ee77-7cab-4f41-801c-bc749bba00c1
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Windows Color System], _color_WcsDisassociateColorProfileFromDevice, icm/WcsDisassociateColorProfileFromDevice, wcs.wcsdisassociatecolorprofilefromdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- WcsDisassociateColorProfileFromDevice
+: 
 ---
 
 # WcsDisassociateColorProfileFromDevice function
@@ -58,9 +64,9 @@ Disassociates a specified WCS color profile from a specified device on a compute
 
 
 
-### -param scope
+### -param scope [in]
 
-TBD
+A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation, which could be system-wide or for the current user.
 
 
 ### -param pProfileName [in]
@@ -71,11 +77,6 @@ A pointer to the file name of the profile to disassociate.
 ### -param pDeviceName [in]
 
 A pointer to the name of the device from which to disassociate the profile.
-
-
-#### - profileManagementScope [in]
-
-A <a href="https://msdn.microsoft.com/6895a807-81da-4263-b370-977ecfaffac8">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation, which could be system-wide or for the current user.
 
 
 ## -returns

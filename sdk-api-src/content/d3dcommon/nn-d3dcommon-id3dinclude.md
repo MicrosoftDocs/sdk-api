@@ -7,10 +7,10 @@ old-location: direct3d11\id3dinclude.htm
 tech.root: direct3d11
 ms.assetid: 2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ID3DInclude, ID3DInclude interface [Direct3D 11], ID3DInclude interface [Direct3D 11],described, d3dcommon/ID3DInclude, direct3d11.id3dinclude
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d3dcommon.h
 req.include-header: 

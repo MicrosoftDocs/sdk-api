@@ -7,10 +7,10 @@ old-location: mf\imfinputtrustauthority.htm
 tech.root: medfound
 ms.assetid: 637e0225-6fd8-4b83-b4fb-119e7a5ef5d2
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 637e0225-6fd8-4b83-b4fb-119e7a5ef5d2, IMFInputTrustAuthority, IMFInputTrustAuthority interface [Media Foundation], IMFInputTrustAuthority interface [Media Foundation],described, mf.imfinputtrustauthority, mfidl/IMFInputTrustAuthority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

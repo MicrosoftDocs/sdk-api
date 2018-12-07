@@ -7,7 +7,7 @@ old-location: setup\imsmdependency_get_version.htm
 tech.root: msi
 ms.assetid: 122542f9-b7b5-4e22-b05f-bd5dd04e5a2f
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: IMsmDependency interface,get_Version method, IMsmDependency.get_Version, IMsmDependency::get_Version, _msi_get_version_function, get_Version, get_Version method, get_Version method,IMsmDependency interface, mergemod/IMsmDependency::get_Version, setup.imsmdependency_get_version
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: mf\opm_video_output_semantics.htm
 tech.root: medfound
 ms.assetid: d52fbc40-072b-4b7a-87c2-b928563100bb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: OPM_VIDEO_OUTPUT_SEMANTICS, OPM_VIDEO_OUTPUT_SEMANTICS enumeration [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, _OPM_VIDEO_OUTPUT_SEMANTICS, mf.opm_video_output_semantics, opmapi/OPM_VIDEO_OUTPUT_SEMANTICS, opmapi/OPM_VOS_COPP_SEMANTICS, opmapi/OPM_VOS_OPM_SEMANTICS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: opmapi.h
 req.include-header: 

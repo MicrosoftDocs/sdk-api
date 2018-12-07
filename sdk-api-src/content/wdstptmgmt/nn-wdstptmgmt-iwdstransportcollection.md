@@ -7,10 +7,10 @@ old-location: wds\iwdstransportcollection.htm
 tech.root: wds
 ms.assetid: 4a5c247f-28d7-4057-87e9-fca6e9effc96
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IWdsTransportCollection, IWdsTransportCollection interface [Windows Deployment Services], IWdsTransportCollection interface [Windows Deployment Services],described, wds.iwdstransportcollection, wdstptmgmt/IWdsTransportCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

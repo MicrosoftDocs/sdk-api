@@ -7,7 +7,7 @@ old-location: tablet\iinkcursors_count.htm
 tech.root: tablet
 ms.assetid: de036d87-32a2-4688-9926-d5f7ab965b9f
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkCursors interface, IInkCursors interface [Tablet PC],Count property, IInkCursors.Count, IInkCursors.get_Count, IInkCursors::Count, IInkCursors::get_Count, get_Count, msinkaut/IInkCursors::Count, msinkaut/IInkCursors::get_Count, tablet.iinkcursors_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

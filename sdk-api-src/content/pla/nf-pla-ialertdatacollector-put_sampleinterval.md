@@ -4,10 +4,10 @@ title: IAlertDataCollector::put_SampleInterval
 author: windows-sdk-content
 description: Retrieves or sets the time interval to wait between sampling counter data.
 old-location: pla\ialertdatacollector_sampleinterval.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: 657a5449-acb6-45cb-a862-815fa8cabdc2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IAlertDataCollector interface [PLA],SampleInterval property, IAlertDataCollector.SampleInterval, IAlertDataCollector.put_SampleInterval, IAlertDataCollector::SampleInterval, IAlertDataCollector::get_SampleInterval, IAlertDataCollector::put_SampleInterval, SampleInterval property [PLA], SampleInterval property [PLA],IAlertDataCollector interface, base.ialertdatacollector_sampleinterval, pla.ialertdatacollector_sampleinterval, pla/IAlertDataCollector::SampleInterval, pla/IAlertDataCollector::get_SampleInterval, pla/IAlertDataCollector::put_SampleInterval, put_SampleInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itlocationinfo_get_localaccesscode.htm
 tech.root: tapi
 ms.assetid: 15e13c34-911f-4e4f-b7d9-f044bfb6c6d0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_LocalAccessCode method, ITLocationInfo.get_LocalAccessCode, ITLocationInfo::get_LocalAccessCode, _tapi3_itlocationinfo_get_localaccesscode, get_LocalAccessCode, get_LocalAccessCode method [TAPI 2.2], get_LocalAccessCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_localaccesscode, tapi3if/ITLocationInfo::get_LocalAccessCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

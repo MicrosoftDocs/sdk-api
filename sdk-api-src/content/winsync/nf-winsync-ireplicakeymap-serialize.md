@@ -7,7 +7,7 @@ old-location: winsync\ireplicakeymap_serialize.htm
 tech.root: winsync
 ms.assetid: 0ed19406-82b8-428f-bed2-796e287dd4cb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IReplicaKeyMap interface [Windows Sync],Serialize method, IReplicaKeyMap.Serialize, IReplicaKeyMap::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],IReplicaKeyMap interface, winsync.ireplicakeymap_serialize, winsync/IReplicaKeyMap::Serialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

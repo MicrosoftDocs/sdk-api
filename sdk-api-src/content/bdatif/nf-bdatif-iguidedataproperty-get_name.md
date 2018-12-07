@@ -4,10 +4,10 @@ title: IGuideDataProperty::get_Name
 author: windows-sdk-content
 description: The get_Name method retrieves the name of the property.
 old-location: mstv\iguidedataproperty_get_name.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 63606e76-fd4a-4954-93bd-1085d32dd2da
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Name method, IGuideDataProperty.get_Name, IGuideDataProperty::get_Name, IGuideDataPropertyget_Name, bdatif/IGuideDataProperty::get_Name, get_Name, get_Name method [Microsoft TV Technologies], get_Name method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_name
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,15 +2,15 @@
 UID: NE:d3d12.D3D12_RAYTRACING_TIER
 title: D3D12_RAYTRACING_TIER
 author: windows-sdk-content
-description: Specifies the level of raytracing support on the graphics device.
+description: Specifies the level of ray tracing support on the graphics device.
 old-location: direct3d12\d3d12_raytracing_tier.htm
 tech.root: direct3d12
 ms.assetid: 1C97DD15-5BAD-4BDC-AE43-4B6A1350B6A0
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_RAYTRACING_TIER, D3D12_RAYTRACING_TIER enumeration, D3D12_RAYTRACING_TIER_1_0, D3D12_RAYTRACING_TIER_NOT_SUPPORTED, d3d12/D3D12_RAYTRACING_TIER, d3d12/D3D12_RAYTRACING_TIER_1_0, d3d12/D3D12_RAYTRACING_TIER_NOT_SUPPORTED, direct3d12.d3d12_raytracing_tier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the level of raytracing support on the graphics device.
+Specifies the level of ray tracing support on the graphics device.
 
 
 ## -enum-fields
@@ -60,19 +60,19 @@ Specifies the level of raytracing support on the graphics device.
 
 ### -field D3D12_RAYTRACING_TIER_NOT_SUPPORTED
 
-No support for raytracing on the device.  Attempts to create any raytracing-related object will fail and using raytracing-related APIs on command lists results in undefined behavior.
+No support for ray tracing on the device.  Attempts to create any ray tracing-related object will fail, and using ray tracing-related APIs on command lists results in undefined behavior.
 
 
 ### -field D3D12_RAYTRACING_TIER_1_0
 
-The device supports tier 1 raytracing functionality. In the current release, this tier represents all available raytracing features.
+The device supports tier 1 ray tracing functionality. In the current release, this tier represents all available ray tracing features.
 
 
 ## -remarks
 
 
 
-Call <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> to determine the supported raytracing tier for a graphics device.
+To determine the supported ray tracing tier for a graphics device, pass <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_D3D12_OPTIONS5</a> to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> to retrieve a <a href="https://msdn.microsoft.com/7B786C22-56C1-44A0-BE67-DE04EB367FD2">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a> struct.
 
 
 

@@ -4,13 +4,13 @@ title: IADsMembers
 author: windows-sdk-content
 description: The IADsMembers interface is a dual interface.
 old-location: adsi\iadsmembers.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 889e8fc1-61a6-4a3a-82ac-85d41f664149
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsMembers, IADsMembers interface [ADSI], IADsMembers interface [ADSI],described, _ds_iadsmembers, adsi.iadsmembers, iads/IADsMembers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

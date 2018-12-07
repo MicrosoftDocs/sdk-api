@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getallderivedinstancesasynch.htm
 tech.root: WmiSdk
 ms.assetid: d58f8aca-2176-443e-b82a-87ee8bae8cf8
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetAllDerivedInstancesAsynch method, CWbemProviderGlue.GetAllDerivedInstancesAsynch, CWbemProviderGlue::GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch, GetAllDerivedInstancesAsynch method [Windows Management Instrumentation], GetAllDerivedInstancesAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallderivedinstancesasynch, wbemglue/CWbemProviderGlue::GetAllDerivedInstancesAsynch, wmi.cwbemproviderglue_getallderivedinstancesasynch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ The <b>GetAllDerivedInstancesAsynch</b> method retrieves a list of instances sup
 
 ### -param pszBaseClassName
 
-TBD
+Name of base class for which the list should be returned.
 
 
 ### -param pRequester
@@ -109,11 +109,6 @@ Pointer to the current context. A context must be provided to prevent deadlocks.
 ### -param pUserData
 
 Pointer to user-defined data that is passed to the function pointed to by <i>pCallback</i>.
-
-
-#### - pszClassName
-
-Name of base class for which the list should be returned.
 
 
 ## -returns

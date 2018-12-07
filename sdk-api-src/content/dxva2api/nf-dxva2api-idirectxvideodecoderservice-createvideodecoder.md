@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoderservice_createvideodecoder.htm
 tech.root: medfound
 ms.assetid: 2a799411-e8d5-4ab8-b52f-7198af9a4f2b
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: 2a799411-e8d5-4ab8-b52f-7198af9a4f2b, CreateVideoDecoder, CreateVideoDecoder method [Media Foundation], CreateVideoDecoder method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],CreateVideoDecoder method, IDirectXVideoDecoderService.CreateVideoDecoder, IDirectXVideoDecoderService::CreateVideoDecoder, dxva2api/IDirectXVideoDecoderService::CreateVideoDecoder, mf.idirectxvideodecoderservice_createvideodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,19 +81,14 @@ Pointer to a <a href="https://msdn.microsoft.com/1515cfa9-24ff-4c65-adca-f4143d3
 Pointer to an array of <b>IDirect3DSurface9</b> pointers containing pointers to the decoder render targets. To create these surfaces, call <a href="https://msdn.microsoft.com/34ed2029-7c79-45ce-962d-df4970babb23">IDirectXVideoAccelerationService::CreateSurface</a>. Specify DXVA2_VideoDecoderRenderTarget for the <i>DxvaType</i> parameter.
 
 
-### -param NumRenderTargets
+### -param NumRenderTargets [in]
 
-TBD
+Size of the <i>ppDecoderRenderTargets</i> array. This value cannot be zero.
 
 
 ### -param ppDecode [out]
 
 Receives a pointer to the decoder's <a href="https://msdn.microsoft.com/116c19a3-39be-4f96-969f-f3d62ed33a70">IDirectXVideoDecoder</a> interface. The caller must release the interface.
-
-
-#### - NumSurfaces [in]
-
-Size of the <i>ppDecoderRenderTargets</i> array. This value cannot be zero.
 
 
 ## -returns

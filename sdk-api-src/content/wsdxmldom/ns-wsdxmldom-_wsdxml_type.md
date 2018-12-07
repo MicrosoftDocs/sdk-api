@@ -4,13 +4,13 @@ title: "_WSDXML_TYPE"
 author: windows-sdk-content
 description: Describes an XSD type.
 old-location: ncd\wsdxml_type_struct.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: dc214dfb-1717-4f84-af4d-6eb8cf17522c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WSDXML_TYPE, WSDXML_TYPE structure, _WSDXML_TYPE, ncd.wsdxml_type_struct, wsdxmldom/WSDXML_TYPE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wsdxmldom.h
 req.include-header: 

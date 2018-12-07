@@ -4,10 +4,10 @@ title: IDvbMultilingualServiceNameDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the descriptor_length field value from a from a Digital Video Broadcast (DVB) multilingual service name descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getlength.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 851d3d7b-0891-41a7-899e-61aac641ab3c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbMultilingualServiceNameDescriptor.GetLength, IDvbMultilingualServiceNameDescriptor::GetLength, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetLength, mstv.idvbmultilingualservicenamedescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

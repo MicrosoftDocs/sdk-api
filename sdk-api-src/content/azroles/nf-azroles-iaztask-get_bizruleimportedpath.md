@@ -4,10 +4,10 @@ title: IAzTask::get_BizRuleImportedPath
 author: windows-sdk-content
 description: Sets or retrieves the path to the file from which the business rule (BizRule) is imported.
 old-location: security\iaztask_bizruleimportedpath.htm
-tech.root: SecAuthZ
+tech.root: secauthz
 ms.assetid: 52422e14-4a96-455d-ad35-b8816871ee10
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: AzTask object [Security],BizRuleImportedPath property, BizRuleImportedPath property [Security], BizRuleImportedPath property [Security],AzTask object, BizRuleImportedPath property [Security],IAzTask interface, IAzTask interface [Security],BizRuleImportedPath property, IAzTask.BizRuleImportedPath, IAzTask.get_BizRuleImportedPath, IAzTask::BizRuleImportedPath, IAzTask::get_BizRuleImportedPath, IAzTask::put_BizRuleImportedPath, azroles/IAzTask::BizRuleImportedPath, azroles/IAzTask::get_BizRuleImportedPath, azroles/IAzTask::put_BizRuleImportedPath, get_BizRuleImportedPath, security.iaztask_bizruleimportedpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

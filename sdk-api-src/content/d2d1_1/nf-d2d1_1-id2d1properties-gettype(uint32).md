@@ -4,10 +4,10 @@ title: ID2D1Properties::GetType(UINT32)
 author: windows-sdk-content
 description: Gets the D2D1_PROPERTY_TYPE of the selected property.
 old-location: direct2d\id2d1properties_gettype.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 42e80588-9e80-4f30-9a3c-77b64f88ff7a
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: GetType, GetType method [Direct2D], GetType method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetType method, ID2D1Properties.GetType, ID2D1Properties.GetType(UINT32), ID2D1Properties::GetType, ID2D1Properties::GetType(UINT32), d2d1_1/ID2D1Properties::GetType, direct2d.id2d1properties_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- d2d1_1.h
+: 
+- ID2D1Properties.GetType
+: 
 ---
 
 # ID2D1Properties::GetType(UINT32)

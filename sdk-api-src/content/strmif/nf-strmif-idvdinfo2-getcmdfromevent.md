@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getcmdfromevent.htm
 tech.root: DirectShow
 ms.assetid: 488a394f-222f-4536-a20a-579df5c2f91f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetCmdFromEvent, GetCmdFromEvent method [DirectShow], GetCmdFromEvent method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCmdFromEvent method, IDvdInfo2.GetCmdFromEvent, IDvdInfo2::GetCmdFromEvent, IDvdInfo2GetCmdFromEvent, dshow.idvdinfo2_getcmdfromevent, strmif/IDvdInfo2::GetCmdFromEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,7 @@ The <code>GetCmdFromEvent</code> method retrieves an <a href="https://msdn.micro
 Event notification's <i>lParam1</i> parameter.
 
 
-### -param pCmdObj
-
-TBD
-
-
-
-
-#### - ppCmdObj [out]
+### -param pCmdObj [out]
 
 Receives a pointer to the  <a href="https://msdn.microsoft.com/85f9b208-ddc2-4d9c-a30b-b666c81a49d2">IDvdCmd</a> interface that is associated with the command that fired the event.
 

@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreCache_SetValueAndState.htm
 tech.root: properties
 ms.assetid: 2f330b24-339f-420b-871f-6f2ac7bc578c
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: IPropertyStoreCache interface [Windows Properties],SetValueAndState method, IPropertyStoreCache.SetValueAndState, IPropertyStoreCache::SetValueAndState, SetValueAndState, SetValueAndState method [Windows Properties], SetValueAndState method [Windows Properties],IPropertyStoreCache interface, properties.IPropertyStoreCache_SetValueAndState, propsys/IPropertyStoreCache::SetValueAndState, shell.IPropertyStoreCache_SetValueAndState, shell_IPropertyStoreCache_SetValueAndState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc828
 A pointer to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure containing the property data.
 
 
-### -param state
-
-TBD
-
-
-
-
-#### - pstate [in]
+### -param state [in]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762531(v=VS.85).aspx">PSC_STATE</a></b>
 

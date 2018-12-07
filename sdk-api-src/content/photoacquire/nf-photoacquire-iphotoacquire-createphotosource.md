@@ -7,7 +7,7 @@ old-location: picacq\iphotoacquire_createphotosource.htm
 tech.root: acquisition
 ms.assetid: 03dc14d4-03e8-4281-ae70-c9f2c5646694
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CreatePhotoSource, CreatePhotoSource method [Picture Acquisition], CreatePhotoSource method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],CreatePhotoSource method, IPhotoAcquire.CreatePhotoSource, IPhotoAcquire::CreatePhotoSource, IPhotoAcquireCreatePhotoSource, photoacquire/IPhotoAcquire::CreatePhotoSource, picacq.iphotoacquire_createphotosource
 ms.prod: windows-hardware
 ms.technology: windows-devices

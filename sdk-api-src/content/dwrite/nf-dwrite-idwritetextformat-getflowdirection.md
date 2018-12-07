@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_GetFlowDirection.htm
 tech.root: DirectWrite
 ms.assetid: 993eb17b-a03a-44f7-b273-a0746db3ed70
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetFlowDirection, GetFlowDirection method [Direct Write], GetFlowDirection method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFlowDirection method, IDWriteTextFormat.GetFlowDirection, IDWriteTextFormat::GetFlowDirection, directwrite.IDWriteTextFormat_GetFlowDirection, dwrite/IDWriteTextFormat::GetFlowDirection
 ms.prod: windows-hardware
 ms.technology: windows-devices

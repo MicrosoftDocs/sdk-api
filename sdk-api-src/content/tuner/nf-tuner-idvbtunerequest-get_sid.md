@@ -4,10 +4,10 @@ title: IDVBTuneRequest::get_SID
 author: windows-sdk-content
 description: The get_SID method retrieves the service ID for the network.
 old-location: mstv\idvbtunerequest_get_sid.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2ddd5eec-c8bc-4f26-8acd-cf42876345ad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],get_SID method, IDVBTuneRequest.get_SID, IDVBTuneRequest::get_SID, IDVBTuneRequestget_SID, get_SID, get_SID method [Microsoft TV Technologies], get_SID method [Microsoft TV Technologies],IDVBTuneRequest interface, mstv.idvbtunerequest_get_sid, tuner/IDVBTuneRequest::get_SID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,7 @@ The <b>get_SID</b> method retrieves the service ID for the network.
 
 
 
-### -param SID
-
-TBD
-
-
-
-
-#### - pSID [out]
+### -param SID [out]
 
 Receives the service ID.
 

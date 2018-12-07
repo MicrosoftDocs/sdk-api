@@ -7,10 +7,10 @@ old-location: shell\IInputObject2.htm
 tech.root: shell
 ms.assetid: 76d8672c-ea19-4d61-b6b5-e6c3951ec710
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IInputObject2, IInputObject2 interface [Windows Shell], IInputObject2 interface [Windows Shell],described, _shell_IInputObject2, shell.IInputObject2, shobjidl_core/IInputObject2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

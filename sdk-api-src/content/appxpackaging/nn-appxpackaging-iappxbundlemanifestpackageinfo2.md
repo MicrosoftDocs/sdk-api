@@ -7,10 +7,10 @@ old-location: appxpkg\iappxbundlemanifestpackageinfo2.htm
 tech.root: appxpkg
 ms.assetid: 036CD1E1-F4D7-46B9-A287-2728BA45348A
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: IAppxBundleManifestPackageInfo2, IAppxBundleManifestPackageInfo2 interface [App packaging and management], IAppxBundleManifestPackageInfo2 interface [App packaging and management],described, appxpackaging/IAppxBundleManifestPackageInfo2, appxpkg.iappxbundlemanifestpackageinfo2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

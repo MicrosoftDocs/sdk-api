@@ -4,10 +4,10 @@ title: IDvbParentalRatingDescriptor::GetTag
 author: windows-sdk-content
 description: Gets the tag that describes a Digital Video Broadcast (DVB) parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_gettag.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 30689876-39be-44dd-a480-c660dcf3ddd1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbParentalRatingDescriptor.GetTag, IDvbParentalRatingDescriptor::GetTag, dvbsiparser/IDvbParentalRatingDescriptor::GetTag, mstv.idvbparentalratingdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

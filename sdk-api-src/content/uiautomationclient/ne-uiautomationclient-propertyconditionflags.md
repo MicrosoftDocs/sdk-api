@@ -7,10 +7,10 @@ old-location: winauto\uiauto_PropertyConditionFlagsEnum.htm
 tech.root: WinAuto
 ms.assetid: debe8141-2a91-4774-b533-d6f3ccfc7744
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: PropertyConditionFlags, PropertyConditionFlags enumeration [Windows Accessibility], PropertyConditionFlags_IgnoreCase, PropertyConditionFlags_MatchSubstring, PropertyConditionFlags_None, uiauto.uiauto_PropertyConditionFlagsEnum, uiauto_PropertyConditionFlagsEnum, uiautomationclient/PropertyConditionFlags, uiautomationclient/PropertyConditionFlags_IgnoreCase, uiautomationclient/PropertyConditionFlags_MatchSubstring, uiautomationclient/PropertyConditionFlags_None, winauto.uiauto_PropertyConditionFlagsEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -4,13 +4,13 @@ title: "_HTTP_KNOWN_HEADER"
 author: windows-sdk-content
 description: Contains the header values for a known header from an HTTP request or HTTP response.
 old-location: http\http_known_header.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 3f6c295c-f2c1-4070-a79e-9bb1e684ef92
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_KNOWN_HEADER, HTTP_KNOWN_HEADER, HTTP_KNOWN_HEADER structure [HTTP], PHTTP_KNOWN_HEADER, PHTTP_KNOWN_HEADER structure pointer [HTTP], _HTTP_KNOWN_HEADER, _http_http_known_header, http.http_known_header, http/HTTP_KNOWN_HEADER, http/PHTTP_KNOWN_HEADER"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

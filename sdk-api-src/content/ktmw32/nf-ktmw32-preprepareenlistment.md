@@ -4,10 +4,10 @@ title: PrePrepareEnlistment function
 author: windows-sdk-content
 description: Pre-prepares the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).
 old-location: fs\preprepareenlistment.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: 7a336267-4bee-4aac-abff-ec112650789a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PrePrepareEnlistment, PrePrepareEnlistment function [Files], fs.preprepareenlistment, ktmw32/PrePrepareEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices

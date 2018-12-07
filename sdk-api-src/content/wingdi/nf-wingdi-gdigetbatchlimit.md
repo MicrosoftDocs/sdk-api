@@ -7,7 +7,7 @@ old-location: gdi\gdigetbatchlimit.htm
 tech.root: gdi
 ms.assetid: aafe7635-1a71-42a9-90b7-11179e245af4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GdiGetBatchLimit, GdiGetBatchLimit function [Windows GDI], _win32_GdiGetBatchLimit, gdi.gdigetbatchlimit, wingdi/GdiGetBatchLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

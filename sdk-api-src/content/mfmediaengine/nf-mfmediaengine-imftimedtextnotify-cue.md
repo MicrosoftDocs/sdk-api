@@ -7,7 +7,7 @@ old-location: mf\imftimedtextnotify_cue.htm
 tech.root: medfound
 ms.assetid: EE577250-2D75-4130-BA50-95D3E455A574
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: Cue, Cue method [Media Foundation], Cue method [Media Foundation],IMFTimedTextNotify interface, IMFTimedTextNotify interface [Media Foundation],Cue method, IMFTimedTextNotify.Cue, IMFTimedTextNotify::Cue, mf.imftimedtextnotify_cue, mfmediaengine/IMFTimedTextNotify::Cue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,14 +72,7 @@ Type: <b>double</b>
 The current time when the cue event occurred.
 
 
-### -param cue
-
-TBD
-
-
-
-
-#### - pCue [in]
+### -param cue [in]
 
 Type: <b><a href="https://msdn.microsoft.com/831FA230-D0C4-4115-8447-D882686D80EE">IMFTimedTextCue</a>*</b>
 

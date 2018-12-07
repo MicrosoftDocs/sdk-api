@@ -7,7 +7,7 @@ old-location: imapi\iredbookdiscmaster_createaudiotrack.htm
 tech.root: imapi
 ms.assetid: b0300cd8-08e9-434e-9c1b-c33a19148e7e
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: CreateAudioTrack, CreateAudioTrack method [IMAPI], CreateAudioTrack method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],CreateAudioTrack method, IRedbookDiscMaster.CreateAudioTrack, IRedbookDiscMaster::CreateAudioTrack, _win32_iredbookdiscmaster_createaudiotrack, base.iredbookdiscmaster_createaudiotrack, imapi.iredbookdiscmaster_createaudiotrack, imapi/IRedbookDiscMaster::CreateAudioTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices

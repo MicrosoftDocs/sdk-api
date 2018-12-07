@@ -7,10 +7,10 @@ old-location: eaphost\eap_method_property_value_string.htm
 tech.root: eaphost
 ms.assetid: afb2d8f3-c2b1-45b8-9ff3-814c8e4b1595
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_STRING, EAP_METHOD_PROPERTY_VALUE_STRING structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_STRING, PEAP_METHOD_PROPERTY_VALUE_STRING structure pointer [EAPHost], _EAP_METHOD_PROPERTY_VALUE_STRING, eaphost.eap_method_property_value_string, eaptypes/EAP_METHOD_PROPERTY_VALUE_STRING, eaptypes/PEAP_METHOD_PROPERTY_VALUE_STRING
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

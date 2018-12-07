@@ -4,10 +4,10 @@ title: IVdsControllerPort::Reset
 author: windows-sdk-content
 description: Reinitializes the controller port.
 old-location: base\ivdscontrollerport_reset.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: e298ef9d-8abb-450b-97d3-e97d64f0e734
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsControllerPort interface [VDS],Reset method, IVdsControllerPort.Reset, IVdsControllerPort::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_reset, vds/IVdsControllerPort::Reset, vdshwprv/IVdsControllerPort::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

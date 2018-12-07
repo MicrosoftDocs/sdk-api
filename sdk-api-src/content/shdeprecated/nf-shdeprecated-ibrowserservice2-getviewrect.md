@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_GetViewRect.htm
 tech.root: shell
 ms.assetid: 738aa84d-9586-493e-8a50-e8e1918198e6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetViewRect, GetViewRect method [Windows Shell], GetViewRect method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetViewRect method, IBrowserService2.GetViewRect, IBrowserService2::GetViewRect, shdeprecated/IBrowserService2::GetViewRect, shell.IBrowserService2_GetViewRect, zone_IBrowserService2_GetViewRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

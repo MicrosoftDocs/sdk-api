@@ -4,10 +4,10 @@ title: DnsQueryEx function
 author: windows-sdk-content
 description: The asynchronous generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
 old-location: dns\dnsqueryex.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: 22664B9A-5010-42E7-880B-8D5B16A9F2DC
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DnsQueryEx, DnsQueryEx function [DNS], dns.dnsqueryex, windns/DnsQueryEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

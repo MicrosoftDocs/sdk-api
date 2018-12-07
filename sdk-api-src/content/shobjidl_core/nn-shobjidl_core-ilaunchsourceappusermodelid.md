@@ -7,10 +7,10 @@ old-location: shell\ILaunchSourceAppUserModelId.htm
 tech.root: shell
 ms.assetid: B53325C9-DC89-4411-82D9-247C28AFB177
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ILaunchSourceAppUserModelId, ILaunchSourceAppUserModelId interface [Windows Shell], ILaunchSourceAppUserModelId interface [Windows Shell],described, shell.ILaunchSourceAppUserModelId, shobjidl_core/ILaunchSourceAppUserModelId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

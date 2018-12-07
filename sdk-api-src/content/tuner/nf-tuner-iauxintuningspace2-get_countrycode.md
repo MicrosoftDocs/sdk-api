@@ -4,10 +4,10 @@ title: IAuxInTuningSpace2::get_CountryCode
 author: windows-sdk-content
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\iauxintuningspace2_get_countrycode.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: dffd3ad2-2caa-4041-9e24-024050414a87
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IAuxInTuningSpace2 interface [Microsoft TV Technologies],get_CountryCode method, IAuxInTuningSpace2.get_CountryCode, IAuxInTuningSpace2::get_CountryCode, IAuxInTuningSpace2get_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAuxInTuningSpace2 interface, mstv.iauxintuningspace2_get_countrycode, tuner/IAuxInTuningSpace2::get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

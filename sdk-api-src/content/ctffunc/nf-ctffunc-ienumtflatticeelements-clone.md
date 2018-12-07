@@ -7,7 +7,7 @@ old-location: tsf\ienumtflatticeelements_clone.htm
 tech.root: TSF
 ms.assetid: 867fe614-d8c0-4987-b35a-bd5b175e6850
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfLatticeElements interface, IEnumTfLatticeElements interface [Text Services Framework],Clone method, IEnumTfLatticeElements.Clone, IEnumTfLatticeElements::Clone, _tsf_ienumtflatticeelements_clone_ref, ctffunc/IEnumTfLatticeElements::Clone, tsf.ienumtflatticeelements_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

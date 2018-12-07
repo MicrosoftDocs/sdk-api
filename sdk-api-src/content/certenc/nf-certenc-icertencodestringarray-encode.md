@@ -7,7 +7,7 @@ old-location: security\icertencodestringarray_encode.htm
 tech.root: seccrypto
 ms.assetid: d8fc51ea-4d83-402a-a4ac-ce55d385905c
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CCertEncodeStringArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeStringArray object, Encode method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],Encode method, ICertEncodeStringArray.Encode, ICertEncodeStringArray::Encode, _certsrv_icertencodestringarray_encode, certenc/ICertEncodeStringArray::Encode, security.icertencodestringarray_encode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,7 @@ Use the <a href="https://msdn.microsoft.com/en-us/library/Aa385014(v=VS.85).aspx
 
 
 
-### -param pstrBinary
-
-TBD
-
-
-
-
-#### - pbstrBinary [out]
+### -param pstrBinary [out]
 
 A pointer to a <b>BSTR</b> that will contain the encoded string array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 

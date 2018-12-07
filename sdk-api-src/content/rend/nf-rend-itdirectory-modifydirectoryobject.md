@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_modifydirectoryobject.htm
 tech.root: tapi
 ms.assetid: be53c186-c23c-4ff6-8060-f06555ab4548
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],ModifyDirectoryObject method, ITDirectory.ModifyDirectoryObject, ITDirectory::ModifyDirectoryObject, ModifyDirectoryObject, ModifyDirectoryObject method [TAPI 2.2], ModifyDirectoryObject method [TAPI 2.2],ITDirectory interface, _tapi3_itdirectory_modifydirectoryobject, rend/ITDirectory::ModifyDirectoryObject, tapi3.itdirectory_modifydirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

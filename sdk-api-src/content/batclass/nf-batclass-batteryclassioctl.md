@@ -7,7 +7,7 @@ old-location: battery\batteryclassioctl.htm
 tech.root: battery
 ms.assetid: 8208552a-42a3-414f-849c-2bb0086c9f80
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: BatteryClassIoctl, BatteryClassIoctl function [Battery Devices], bat-rtn_bb0fcbcf-a26f-4f06-9f28-40bdc55b9d61.xml, batclass/BatteryClassIoctl, battery.batteryclassioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices

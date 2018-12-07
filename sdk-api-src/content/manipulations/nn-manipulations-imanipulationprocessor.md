@@ -7,10 +7,10 @@ old-location: wintouch\imanipulationprocessor.htm
 tech.root: wintouch
 ms.assetid: 963f87c1-e128-4bd5-9f28-d49418f768fb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IManipulationProcessor, IManipulationProcessor interface [Windows Touch], IManipulationProcessor interface [Windows Touch],described, manipulations/IManipulationProcessor, wintouch.imanipulationprocessor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: manipulations.h
 req.include-header: 

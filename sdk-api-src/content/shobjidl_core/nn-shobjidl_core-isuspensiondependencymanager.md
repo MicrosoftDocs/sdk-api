@@ -7,10 +7,10 @@ old-location: shell\ISuspensionDependencyManager.htm
 tech.root: shell
 ms.assetid: F632DC0B-01EF-4421-ADF3-2CD5AD363CC0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISuspensionDependencyManager, ISuspensionDependencyManager interface [Windows Shell], ISuspensionDependencyManager interface [Windows Shell],described, shell.ISuspensionDependencyManager, shobjidl_core/ISuspensionDependencyManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

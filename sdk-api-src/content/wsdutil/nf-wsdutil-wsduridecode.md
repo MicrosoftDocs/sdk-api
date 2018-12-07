@@ -4,10 +4,10 @@ title: WSDUriDecode function
 author: windows-sdk-content
 description: Decodes a URI according to the rules in RFC2396.
 old-location: ncd\wsduridecode.htm
-tech.root: WsdApi
+tech.root: wsdapi
 ms.assetid: 30232a4c-f7bb-4a22-b148-2576a259808a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WSDUriDecode, WSDUriDecode function, ncd.wsduridecode, wsdutil/WSDUriDecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,13 +4,13 @@ title: IX509AttributeCspProvider
 author: windows-sdk-content
 description: Represents an attribute that identifies the cryptographic provider used by the entity requesting the certificate.
 old-location: security\ix509attributecspprovider.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 08954c87-f63b-4e1a-91b4-3773e392999b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IX509AttributeCspProvider, IX509AttributeCspProvider interface [Security], IX509AttributeCspProvider interface [Security],described, certenroll/IX509AttributeCspProvider, security.ix509attributecspprovider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_gettechniquebyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_gettechniquebyname.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 85db30ea-1e49-0b62-caca-5e0cf8959361, GetTechniqueByName, GetTechniqueByName method [Direct3D 10], GetTechniqueByName method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetTechniqueByName method, ID3D10Effect.GetTechniqueByName, ID3D10Effect::GetTechniqueByName, d3d10effect/ID3D10Effect::GetTechniqueByName, direct3d10.id3d10effect_gettechniquebyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

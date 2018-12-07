@@ -7,7 +7,7 @@ old-location: base\queryinformationjobobject.htm
 tech.root: procthread
 ms.assetid: d843d578-fd67-4708-959f-00245ff70ec6
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: JobObjectBasicAccountingInformation, JobObjectBasicAndIoAccountingInformation, JobObjectBasicLimitInformation, JobObjectBasicProcessIdList, JobObjectBasicUIRestrictions, JobObjectCpuRateControlInformation, JobObjectEndOfJobTimeInformation, JobObjectExtendedLimitInformation, JobObjectGroupInformation, JobObjectGroupInformationEx, JobObjectLimitViolationInformation, JobObjectLimitViolationInformation2, JobObjectNetRateControlInformation, JobObjectNotificationLimitInformation, JobObjectNotificationLimitInformation2, JobObjectSecurityLimitInformation, QueryInformationJobObject, QueryInformationJobObject function, _win32_queryinformationjobobject, base.queryinformationjobobject, jobapi2/QueryInformationJobObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,27 +74,7 @@ A handle to the job whose information is being queried. The
 If this value is NULL and the calling process is associated with a job, the job associated with the calling process is used. If the job is nested, the immediate job of the calling process is used.
 
 
-### -param JobObjectInformationClass
-
-TBD
-
-
-### -param lpJobObjectInformation
-
-TBD
-
-
-### -param cbJobObjectInformationLength
-
-TBD
-
-
-### -param lpReturnLength [out, optional]
-
-A pointer to a variable that receives the length of data written to the structure pointed to by the <i>lpJobObjectInfo</i> parameter. Specify <b>NULL</b>  to not receive this information.
-
-
-#### - JobObjectInfoClass [in]
+### -param JobObjectInformationClass [in]
 
 The information class for the limits to be queried. This parameter can be one of the following values.
 
@@ -321,14 +301,19 @@ This flag is not supported. Applications must set security limits individually f
  
 
 
-#### - cbJobObjectInfoLength [in]
+### -param lpJobObjectInformation [out]
+
+The limit or job state information. The format of this data depends on the value of the <i>JobObjectInfoClass</i> parameter.
+
+
+### -param cbJobObjectInformationLength [in]
 
 The count of the job information being queried, in bytes. This value depends on the value of the <i>JobObjectInfoClass</i> parameter.
 
 
-#### - lpJobObjectInfo [out]
+### -param lpReturnLength [out, optional]
 
-The limit or job state information. The format of this data depends on the value of the <i>JobObjectInfoClass</i> parameter.
+A pointer to a variable that receives the length of data written to the structure pointed to by the <i>lpJobObjectInfo</i> parameter. Specify <b>NULL</b>  to not receive this information.
 
 
 ## -returns

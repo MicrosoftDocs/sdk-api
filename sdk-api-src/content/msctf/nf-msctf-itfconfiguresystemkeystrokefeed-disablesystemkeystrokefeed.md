@@ -7,7 +7,7 @@ old-location: tsf\itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed.htm
 tech.root: TSF
 ms.assetid: 6bdca5cc-84b4-4184-a8cc-76dddc573b35
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: DisableSystemKeystrokeFeed, DisableSystemKeystrokeFeed method [Text Services Framework], DisableSystemKeystrokeFeed method [Text Services Framework],ITfConfigureSystemKeystrokeFeed interface, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],DisableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed
 ms.prod: windows-hardware
 ms.technology: windows-devices

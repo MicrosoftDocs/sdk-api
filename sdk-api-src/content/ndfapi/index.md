@@ -2,7 +2,7 @@
 UID: NA:ndfapi
 ms.assetid: 0b0fbb29-279c-3074-9f07-c86d9b57604f
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

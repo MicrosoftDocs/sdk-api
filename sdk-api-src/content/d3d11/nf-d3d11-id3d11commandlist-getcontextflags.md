@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11commandlist_getcontextflags.htm
 tech.root: direct3d11
 ms.assetid: a3d98f3f-6e66-408e-baee-661afb65c0a4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 64bf9914-05c2-c831-c3c4-d1181d8ca907, GetContextFlags, GetContextFlags method [Direct3D 11], GetContextFlags method [Direct3D 11],ID3D11CommandList interface, ID3D11CommandList interface [Direct3D 11],GetContextFlags method, ID3D11CommandList.GetContextFlags, ID3D11CommandList::GetContextFlags, d3d11/ID3D11CommandList::GetContextFlags, direct3d11.id3d11commandlist_getcontextflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

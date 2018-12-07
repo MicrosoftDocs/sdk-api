@@ -4,10 +4,10 @@ title: ITuningSpaceContainer::TuningSpacesForName
 author: windows-sdk-content
 description: The TuningSpacesForName method retrieves a collection of tuning spaces that match the specified name.
 old-location: mstv\ituningspacecontainer_tuningspacesforname.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: de16a50e-7f5d-41e5-a17f-bb6d97179e4e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],TuningSpacesForName method, ITuningSpaceContainer.TuningSpacesForName, ITuningSpaceContainer::TuningSpacesForName, ITuningSpaceContainerTuningSpacesForName, TuningSpacesForName, TuningSpacesForName method [Microsoft TV Technologies], TuningSpacesForName method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforname, tuner/ITuningSpaceContainer::TuningSpacesForName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,14 +66,7 @@ The <b>TuningSpacesForName</b> method retrieves a collection of tuning spaces th
 String that contains a regular expression to match against either the friendly name or the unique name of the tuning space.
 
 
-### -param NewColl
-
-TBD
-
-
-
-
-#### - ppTuningSpaces [out]
+### -param NewColl [out]
 
 Address of variable that receives an <a href="https://msdn.microsoft.com/db252e22-8efe-4bfc-8fd3-2be7022bbbbd">ITuningSpaces</a> interface pointer. Use this interface to enumerate the collection. The caller must release the interface.
 

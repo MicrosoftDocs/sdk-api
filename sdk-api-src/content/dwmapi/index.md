@@ -2,7 +2,7 @@
 UID: NA:dwmapi
 ms.assetid: 2c136a87-153d-3485-b30d-37c922eb9a76
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

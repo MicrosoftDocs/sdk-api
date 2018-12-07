@@ -7,10 +7,10 @@ old-location: dxmath\xmint3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMINT3
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: XMINT3, XMINT3 structure [DirectX Math Support APIs], directxmath/XMINT3, dxmath.xmint3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: directxmath.h
 req.include-header: 
@@ -76,6 +76,18 @@ Signed integer value describing the y coordinate of the vector.
 ### -field z
 
 Signed integer value describing the z coordinate of the vector.
+
+
+### -field operator=
+
+TBD 
+
+
+### -field XMINT3
+
+TBD 
+
+
 
 
 ## -remarks

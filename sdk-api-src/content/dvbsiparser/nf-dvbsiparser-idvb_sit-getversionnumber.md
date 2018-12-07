@@ -4,10 +4,10 @@ title: IDVB_SIT::GetVersionNumber
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_getversionnumber.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a3b40061-8787-42b3-9b2a-39adcb5a3222
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetVersionNumber method, IDVB_SIT.GetVersionNumber, IDVB_SIT::GetVersionNumber, IDVB_SITGetVersionNumber, dvbsiparser/IDVB_SIT::GetVersionNumber, mstv.idvb_sit_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

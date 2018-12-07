@@ -7,10 +7,10 @@ old-location: coreaudio\iaudiomute.htm
 tech.root: CoreAudio
 ms.assetid: 53d49af7-81c3-4e75-ba06-dcee34d84292
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IAudioMute, IAudioMute interface [Core Audio], IAudioMute interface [Core Audio],described, coreaudio.iaudiomute, devicetopology/IAudioMute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

@@ -7,7 +7,7 @@ old-location: direct2d\id2d1gradientstopcollection1_getpreinterpolationspace.htm
 tech.root: direct2d
 ms.assetid: 8222d713-c47e-4e4c-92aa-040dc9085ce9
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: GetPreInterpolationSpace, GetPreInterpolationSpace method [Direct2D], GetPreInterpolationSpace method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetPreInterpolationSpace method, ID2D1GradientStopCollection1.GetPreInterpolationSpace, ID2D1GradientStopCollection1::GetPreInterpolationSpace, d2d1_1/ID2D1GradientStopCollection1::GetPreInterpolationSpace, direct2d.id2d1gradientstopcollection1_getpreinterpolationspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

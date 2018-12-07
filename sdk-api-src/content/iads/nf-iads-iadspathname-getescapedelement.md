@@ -4,10 +4,10 @@ title: IADsPathname::GetEscapedElement
 author: windows-sdk-content
 description: Used to escape special characters in the input path.
 old-location: adsi\iadspathname_getescapedelement.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: a61702bd-26a8-4bd9-96c1-82a59dad7ead
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetEscapedElement, GetEscapedElement method [ADSI], GetEscapedElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetEscapedElement method, IADsPathname.GetEscapedElement, IADsPathname::GetEscapedElement, _ds_iadspathname_getescapedelement, adsi.iadspathname__getescapedelement, adsi.iadspathname_getescapedelement, iads/IADsPathname::GetEscapedElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,14 +68,7 @@ Reserved for future use.
 An input string.
 
 
-### -param pbstrOutStr
-
-TBD
-
-
-
-
-#### - bstrOutStr [out]
+### -param pbstrOutStr [out]
 
 An output string.
 

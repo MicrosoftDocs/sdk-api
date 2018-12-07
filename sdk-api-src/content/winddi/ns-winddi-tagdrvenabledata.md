@@ -7,10 +7,10 @@ old-location: display\drvenabledata.htm
 tech.root: display
 ms.assetid: dbeaecf8-dea1-4412-babb-6e40bf5dc7b0
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/23/2018
 ms.keywords: "*PDRVENABLEDATA, DRVENABLEDATA, DRVENABLEDATA structure [Display Devices], PDRVENABLEDATA, PDRVENABLEDATA structure pointer [Display Devices], display.drvenabledata, grstrcts_d39f1feb-36e3-4fc6-b580-5b428dbeebd0.xml, tagDRVENABLEDATA, winddi/DRVENABLEDATA, winddi/PDRVENABLEDATA"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

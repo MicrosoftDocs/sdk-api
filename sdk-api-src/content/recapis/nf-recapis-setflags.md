@@ -7,7 +7,7 @@ old-location: tablet\setflags.htm
 tech.root: tablet
 ms.assetid: 62ad43c4-4795-4af9-af20-e45da30ba132
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: 62ad43c4-4795-4af9-af20-e45da30ba132, RECOFLAG_AUTOSPACE, RECOFLAG_COERCE, RECOFLAG_LINEMODE, RECOFLAG_PREFIXOK, RECOFLAG_SINGLESEG, RECOFLAG_WORDMODE, SetFlags, SetFlags function [Tablet PC], recapis/SetFlags, tablet.setflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

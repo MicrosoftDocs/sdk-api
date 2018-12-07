@@ -4,13 +4,13 @@ title: "_VSS_APPLICATION_LEVEL"
 author: windows-sdk-content
 description: Indicates the application level, the point in the course of the creation of a shadow copy that a writer is notified of a freeze.
 old-location: base\vss_application_level.htm
-tech.root: VSS
+tech.root: vss
 ms.assetid: fc7fbaee-d223-4557-987d-2c09f3877ec2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PVSS_APPLICATION_LEVEL, PVSS_APPLICATION_LEVEL, PVSS_APPLICATION_LEVEL enumeration pointer [VSS], VSS_APPLICATION_LEVEL, VSS_APPLICATION_LEVEL enumeration [VSS], VSS_APP_AUTO, VSS_APP_BACK_END, VSS_APP_FRONT_END, VSS_APP_SYSTEM, VSS_APP_UNKNOWN, _VSS_APPLICATION_LEVEL, _win32_vss_application_level, base.vss_application_level, vss/PVSS_APPLICATION_LEVEL, vss/VSS_APPLICATION_LEVEL, vss/VSS_APP_AUTO, vss/VSS_APP_BACK_END, vss/VSS_APP_FRONT_END, vss/VSS_APP_SYSTEM, vss/VSS_APP_UNKNOWN"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: vss.h
 req.include-header: 

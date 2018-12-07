@@ -2,7 +2,7 @@
 UID: NA:mscat
 ms.assetid: 0ccc0ad4-1626-30c5-b59d-db12f260faa0
 ms.author: windowssdkdev
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

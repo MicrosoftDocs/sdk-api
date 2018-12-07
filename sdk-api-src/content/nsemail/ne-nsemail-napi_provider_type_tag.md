@@ -7,10 +7,10 @@ old-location: winsock\napi_provider_type.htm
 tech.root: winsock
 ms.assetid: 0d845cc5-a84a-43fe-b9e7-d1a9153bae73
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/30/2018
 ms.keywords: NAPI_PROVIDER_TYPE, NAPI_PROVIDER_TYPE enumeration [Winsock], ProviderType_Application, ProviderType_Service, napi_provider_type_tag, nsemail/NAPI_PROVIDER_TYPE, nsemail/ProviderType_Application, nsemail/ProviderType_Service, winsock.napi_provider_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: nsemail.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: IEnumBackgroundCopyFiles::Next
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbackgroundcopyfiles_next.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: ac62533a-8949-41b9-a3e6-f9030884a9ce
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Next method, IEnumBackgroundCopyFiles.Next, IEnumBackgroundCopyFiles::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyFiles interface, _drz_ienumbackgroundcopyfiles_next, bits.ienumbackgroundcopyfiles_next, bits/IEnumBackgroundCopyFiles::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

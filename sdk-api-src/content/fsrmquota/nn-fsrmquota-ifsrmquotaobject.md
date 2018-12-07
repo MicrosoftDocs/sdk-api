@@ -4,13 +4,13 @@ title: IFsrmQuotaObject
 author: windows-sdk-content
 description: Base class for the quota and automatic quota interfaces.
 old-location: fsrm\ifsrmquotaobject.htm
-tech.root: Fsrm
+tech.root: fsrm
 ms.assetid: 80c01faf-717e-4375-8772-c61f04a7d7f3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IFsrmQuotaObject, IFsrmQuotaObject interface [File Server Resource Manager], IFsrmQuotaObject interface [File Server Resource Manager],described, fs.ifsrmquotaobject, fsrm.ifsrmquotaobject, fsrm/IFsrmQuotaObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

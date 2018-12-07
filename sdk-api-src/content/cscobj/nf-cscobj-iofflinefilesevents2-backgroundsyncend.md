@@ -4,10 +4,10 @@ title: IOfflineFilesEvents2::BackgroundSyncEnd
 author: windows-sdk-content
 description: Reports that the Offline Files service completed a background synchronization pass.
 old-location: of\iofflinefilesevents2_backgroundsyncend.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: d41a2152-8100-47a7-a994-a0fe9fae4dc4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: BackgroundSyncEnd, BackgroundSyncEnd method [Offline Files], BackgroundSyncEnd method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],BackgroundSyncEnd method, IOfflineFilesEvents2.BackgroundSyncEnd, IOfflineFilesEvents2::BackgroundSyncEnd, cscobj/IOfflineFilesEvents2::BackgroundSyncEnd, of.iofflinefilesevents2_backgroundsyncend
 ms.prod: windows-hardware
 ms.technology: windows-devices

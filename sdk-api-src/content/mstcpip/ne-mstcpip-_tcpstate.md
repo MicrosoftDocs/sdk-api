@@ -7,10 +7,10 @@ old-location: winsock\tcpstate.htm
 tech.root: winsock
 ms.assetid: 225C423E-C820-4E9F-8261-DA1E14F81683
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: TCPSTATE, TCPSTATE enumeration [Winsock], TCPSTATE_CLOSED, TCPSTATE_CLOSE_WAIT, TCPSTATE_CLOSING, TCPSTATE_ESTABLISHED, TCPSTATE_FIN_WAIT_1, TCPSTATE_FIN_WAIT_2, TCPSTATE_LAST_ACK, TCPSTATE_LISTEN, TCPSTATE_MAX, TCPSTATE_SYN_RCVD, TCPSTATE_SYN_SENT, TCPSTATE_TIME_WAIT, _TCPSTATE, mstcpip/TCPSTATE, mstcpip/TCPSTATE_CLOSED, mstcpip/TCPSTATE_CLOSE_WAIT, mstcpip/TCPSTATE_CLOSING, mstcpip/TCPSTATE_ESTABLISHED, mstcpip/TCPSTATE_FIN_WAIT_1, mstcpip/TCPSTATE_FIN_WAIT_2, mstcpip/TCPSTATE_LAST_ACK, mstcpip/TCPSTATE_LISTEN, mstcpip/TCPSTATE_MAX, mstcpip/TCPSTATE_SYN_RCVD, mstcpip/TCPSTATE_SYN_SENT, mstcpip/TCPSTATE_TIME_WAIT, winsock.tcpstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: mstcpip.h
 req.include-header: 

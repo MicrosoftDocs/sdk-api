@@ -7,10 +7,10 @@ old-location: hid\didriverversions.htm
 tech.root: hid
 ms.assetid: 28e24657-a75e-49d1-88b0-3e40ba8851ae
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDIDRIVERVERSIONS, DIDRIVERVERSIONS, DIDRIVERVERSIONS structure [Human Input Devices], di_ref_8a99e6d1-de51-4729-bcce-c201030bc557.xml, dinputd/DIDRIVERVERSIONS, hid.didriverversions"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 

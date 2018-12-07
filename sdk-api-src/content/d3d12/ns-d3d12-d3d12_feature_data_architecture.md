@@ -2,15 +2,15 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_ARCHITECTURE
 title: D3D12_FEATURE_DATA_ARCHITECTURE
 author: windows-sdk-content
-description: Provide detail about the adapter architecture, helping applications better optimize for certain adapter properties.
+description: Provides detail about the adapter architecture, so that your application can better optimize for certain adapter properties.
 old-location: direct3d12\d3d12_feature_data_architecture.htm
 tech.root: direct3d12
 ms.assetid: FA16A260-3CC9-4F32-A97B-8A561A01C138
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_ARCHITECTURE, D3D12_FEATURE_DATA_ARCHITECTURE structure, d3d12/D3D12_FEATURE_DATA_ARCHITECTURE, direct3d12.d3d12_feature_data_architecture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -50,8 +50,8 @@ req.redist:
 ## -description
 
 
-Provide detail about the adapter architecture, helping applications better optimize for certain adapter properties.
-<div class="alert"><b>Note</b>  This structure has been superceded by the <a href="https://msdn.microsoft.com/635091FE-2756-4648-958E-0C13BDD50851">D3D12_FEATURE_DATA_ARCHITECTURE1</a> structure. Applications targetting Windows 10 Creators Update should use <b>D3D_FEATURE_DATA_ARCHITECTURE1</b> rather than <b>D3D_FEATURE_DATA_ARCHITECTURE</b>.</div><div> </div>
+Provides detail about the adapter architecture, so that your application can better optimize for certain adapter properties.
+<div class="alert"><b>Note</b>  This structure has been superseded by the <a href="https://msdn.microsoft.com/635091FE-2756-4648-958E-0C13BDD50851">D3D12_FEATURE_DATA_ARCHITECTURE1</a> structure. If your application targets Windows 10, version 1703 (Creators' Update) or higher, then use <b>D3D12_FEATURE_DATA_ARCHITECTURE1</b> (and <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_ARCHITECTURE1</a>) instead.</div><div> </div>
 
 ## -struct-fields
 

@@ -7,7 +7,7 @@ old-location: mscs\clusterregenumkey.htm
 tech.root: mscs
 ms.assetid: ed70c16d-98d2-4d84-b5cd-1e5decc5b7bd
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: ClusterRegEnumKey, ClusterRegEnumKey function [Failover Cluster], _wolf_clusterregenumkey, clusapi/ClusterRegEnumKey, mscs.clusterregenumkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -101,6 +101,63 @@ Pointer to the last time the enumerated subkey was modified.
 
 
 The function returns one of the following values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_MORE_ITEMS</b></dt>
+<dt>259 (0x103)</dt>
+</dl>
+</td>
+<td width="60%">
+There are no more subkeys to be returned.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+<dt>234 (0xEA)</dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by <i>lpszName</i> is not big enough to hold the result. The 
+         <i>lpcchName</i> parameter returns the number of characters in the result, excluding the 
+         terminating <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b><a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System error code</a></b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation failed.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

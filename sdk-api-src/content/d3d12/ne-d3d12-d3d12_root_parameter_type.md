@@ -7,10 +7,10 @@ old-location: direct3d12\d3d12_root_parameter_type.htm
 tech.root: direct3d12
 ms.assetid: 1AC2D29E-3F94-4362-83B8-E9BE2175E42F
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: D3D12_ROOT_PARAMETER_TYPE, D3D12_ROOT_PARAMETER_TYPE enumeration, D3D12_ROOT_PARAMETER_TYPE_32BIT_CONSTANTS, D3D12_ROOT_PARAMETER_TYPE_CBV, D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE, D3D12_ROOT_PARAMETER_TYPE_SRV, D3D12_ROOT_PARAMETER_TYPE_UAV, d3d12/D3D12_ROOT_PARAMETER_TYPE, d3d12/D3D12_ROOT_PARAMETER_TYPE_32BIT_CONSTANTS, d3d12/D3D12_ROOT_PARAMETER_TYPE_CBV, d3d12/D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE, d3d12/D3D12_ROOT_PARAMETER_TYPE_SRV, d3d12/D3D12_ROOT_PARAMETER_TYPE_UAV, direct3d12.d3d12_root_parameter_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

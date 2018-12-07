@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_operator_minus.htm
 tech.root: WmiSdk
 ms.assetid: 643e3353-c770-46e6-aa59-b6df43097988
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator- method, WBEMTimeSpan.operator-, WBEMTimeSpan.operator-sub, WBEMTimeSpan::operator-, WBEMTimeSpan::operator-sub, _hmm_wbemtimespan_operator_minus, operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator-, wmi.wbemtimespan_operator_minus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,14 +65,7 @@ The <b>WBEMTimeSpan</b> class subtract operator (–) subtracts a time span from
 
 
 
-### -param uSub
-
-TBD
-
-
-
-
-#### - uSubTimeSpan [ref]
+### -param uSub [ref]
 
 Reference to the <a href="https://msdn.microsoft.com/bcec87c1-32ba-451b-92bb-80c8a5007adb">WBEMTimeSpan</a> object, whose time span is subtracted from this time span, producing a new time span.
 

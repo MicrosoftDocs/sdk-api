@@ -7,7 +7,7 @@ old-location: mmc\icomponentdata_notify.htm
 tech.root: mmc
 ms.assetid: 8679396e-23d0-4418-987a-c72b1508e7b9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IComponentData interface [MMC],Notify method, IComponentData.Notify, IComponentData::Notify, Notify, Notify method [MMC], Notify method [MMC],IComponentData interface, _slate_icomponentdata_notify, mmc.icomponentdata_notify, mmc/IComponentData::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

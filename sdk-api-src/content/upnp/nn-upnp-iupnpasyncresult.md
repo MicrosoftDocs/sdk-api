@@ -4,13 +4,13 @@ title: IUPnPAsyncResult
 author: windows-sdk-content
 description: The IUPnPAsyncResult interface is used to notify the UPnP control point of a completed asynchronous I/O operation.
 old-location: upnp\iupnpasyncresult.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: 53854510-BB0C-41E6-8651-F34991B24D5E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyncResult interface [UPnP APIs],described, upnp.iupnpasyncresult, upnp/IUPnPAsyncResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

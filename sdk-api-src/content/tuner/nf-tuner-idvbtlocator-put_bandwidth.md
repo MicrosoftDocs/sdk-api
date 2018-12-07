@@ -4,10 +4,10 @@ title: IDVBTLocator::put_Bandwidth
 author: windows-sdk-content
 description: The put_BandWidth method sets the bandwidth of the frequency.
 old-location: mstv\idvbtlocator_put_bandwidth.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: a842e905-cd4a-4d62-a9da-153832e44382
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_Bandwidth method, IDVBTLocator.put_Bandwidth, IDVBTLocator::put_Bandwidth, IDVBTLocatorput_Bandwidth, mstv.idvbtlocator_put_bandwidth, put_Bandwidth, put_Bandwidth method [Microsoft TV Technologies], put_Bandwidth method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_Bandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

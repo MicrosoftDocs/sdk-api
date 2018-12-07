@@ -4,10 +4,10 @@ title: HttpSendResponseEntityBody function
 author: windows-sdk-content
 description: Sends entity-body data associated with an HTTP response.
 old-location: http\httpsendresponseentitybody.htm
-tech.root: Http
+tech.root: http
 ms.assetid: f2ff2e40-ef1f-4c35-a615-f31ac63ab738
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: HTTP_SEND_RESPONSE_FLAG_BUFFER_DATA, HTTP_SEND_RESPONSE_FLAG_DISCONNECT, HTTP_SEND_RESPONSE_FLAG_ENABLE_NAGLING, HTTP_SEND_RESPONSE_FLAG_MORE_DATA, HTTP_SEND_RESPONSE_FLAG_OPAQUE, HTTP_SEND_RESPONSE_FLAG_PROCESS_RANGES, HttpSendResponseEntityBody, HttpSendResponseEntityBody function [HTTP], _http_httpsendresponseentitybody, http.httpsendresponseentitybody, http/HttpSendResponseEntityBody
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -183,14 +183,16 @@ A pointer to an array of
 <a href="https://msdn.microsoft.com/ae67c066-c8bd-483f-829f-30192f49593d">HTTP_DATA_CHUNK</a> structures to be sent as entity-body data.
 
 
-### -param BytesSent
+### -param BytesSent [out]
 
-TBD
+Optional. A pointer to a variable that receives the number, in bytes, sent if the function operates synchronously.
+
+When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesSent</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesSent</i> must contain a valid memory address, and not be set to <b>NULL</b>.
 
 
-### -param Reserved1
+### -param Reserved1 [in]
 
-TBD
+This parameter is reserved and must be <b>NULL</b>.
 
 
 ### -param Reserved2 [in]
@@ -198,37 +200,7 @@ TBD
 This parameter is reserved and must be zero.
 
 
-### -param Overlapped
-
-TBD
-
-
-### -param LogData
-
-TBD
-
-
-
-
-#### - pBytesSent [out]
-
-Optional. A pointer to a variable that receives the number, in bytes, sent if the function operates synchronously.
-
-When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesSent</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesSent</i> must contain a valid memory address, and not be set to <b>NULL</b>.
-
-
-#### - pLogData [in, optional]
-
-A pointer to the <a href="https://msdn.microsoft.com/31598e37-d487-4ef0-9443-e704cc60a6b2">HTTP_LOG_DATA</a> structure used to log the response. Pass a pointer to the <a href="https://msdn.microsoft.com/5d1b86fe-161d-4182-b3fe-9a03a843e62e">HTTP_LOG_FIELDS_DATA</a> structure and cast it to <b>PHTTP_LOG_DATA</b>.
-
-Be aware that even when logging is enabled on a URL Group, or server session, the response will not be logged unless the application supplies the log fields data structure.
-
-<b>Windows Server 2003 and Windows XP with SP2:  </b>This parameter is reserved and must be <b>NULL</b>.
-
-<b>Windows Vista and Windows Server 2008:  </b>This parameter is new for Windows Vista, and Windows Server 2008
-
-
-#### - pOverlapped [in]
+### -param Overlapped [in]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>.
@@ -238,9 +210,15 @@ A synchronous call blocks until all response data specified in the <i>pEntityChu
 <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structures for synchronization, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
 
 
-#### - pReserved1 [in]
+### -param LogData [in, optional]
 
-This parameter is reserved and must be <b>NULL</b>.
+A pointer to the <a href="https://msdn.microsoft.com/31598e37-d487-4ef0-9443-e704cc60a6b2">HTTP_LOG_DATA</a> structure used to log the response. Pass a pointer to the <a href="https://msdn.microsoft.com/5d1b86fe-161d-4182-b3fe-9a03a843e62e">HTTP_LOG_FIELDS_DATA</a> structure and cast it to <b>PHTTP_LOG_DATA</b>.
+
+Be aware that even when logging is enabled on a URL Group, or server session, the response will not be logged unless the application supplies the log fields data structure.
+
+<b>Windows Server 2003 and Windows XP with SP2:  </b>This parameter is reserved and must be <b>NULL</b>.
+
+<b>Windows Vista and Windows Server 2008:  </b>This parameter is new for Windows Vista, and Windows Server 2008
 
 
 ## -returns

@@ -7,10 +7,10 @@ old-location: eaphost\isolation_state.htm
 tech.root: eaphost
 ms.assetid: 460e447b-87c6-41df-8e8b-055e95426ca6
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: ISOLATION_STATE, ISOLATION_STATE enumeration [EAPHost], ISOLATION_STATE_IN_PROBATION, ISOLATION_STATE_NOT_RESTRICTED, ISOLATION_STATE_RESTRICTED_ACCESS, ISOLATION_STATE_UNKNOWN, _ISOLATION_STATE, eaphost.isolation_state, eaphostpeertypes/ISOLATION_STATE, eaphostpeertypes/ISOLATION_STATE_IN_PROBATION, eaphostpeertypes/ISOLATION_STATE_NOT_RESTRICTED, eaphostpeertypes/ISOLATION_STATE_RESTRICTED_ACCESS, eaphostpeertypes/ISOLATION_STATE_UNKNOWN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: eaphostpeertypes.h
 req.include-header: 

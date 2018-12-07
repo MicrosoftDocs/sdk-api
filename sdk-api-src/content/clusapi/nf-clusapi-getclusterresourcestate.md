@@ -7,7 +7,7 @@ old-location: mscs\getclusterresourcestate.htm
 tech.root: mscs
 ms.assetid: c3897c96-743e-4753-8fef-b8defe4f2b00
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: GetClusterResourceState, GetClusterResourceState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_RESOURCE_STATE, PCLUSAPI_GET_CLUSTER_RESOURCE_STATE function [Failover Cluster], _wolf_getclusterresourcestate, clusapi/GetClusterResourceState, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_STATE, mscs.getclusterresourcestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,6 +107,115 @@ Pointer to the size of the <i>lpszGroupName</i> buffer as a count of characters.
        current state of the resource enumerated from the 
        <a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a> enumeration, which can be 
        represented by one of the following values.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceInitializing</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is performing initialization.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceOnline</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is operational and functioning normally.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceOffline</b></dt>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is not operational. This value will be returned if the resource reported a state of 
+         <b>ClusterResourceOffline</b> (3) or 
+         <b>ClusterResourceCannotComeOnlineOnThisNode</b> (127).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceFailed</b></dt>
+<dt>4</dt>
+</dl>
+</td>
+<td width="60%">
+The resource has failed. This value will be returned if the resource reported a state of 
+         <b>ClusterResourceFailed</b> (4) or 
+         <b>ClusterResourceCannotComeOnlineOnAnyNode</b> (126).
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourcePending</b></dt>
+<dt>128</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is in the process of coming online or going offline.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceOnlinePending</b></dt>
+<dt>129</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is in the process of coming online.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceOfflinePending</b></dt>
+<dt>130</dt>
+</dl>
+</td>
+<td width="60%">
+The resource is in the process of going offline.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ClusterResourceStateUnknown</b></dt>
+<dt>-1</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For more information about the error, call the function 
+         <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

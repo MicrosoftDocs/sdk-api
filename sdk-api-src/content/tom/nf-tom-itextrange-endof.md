@@ -7,7 +7,7 @@ old-location: controls\ITextRange_EndOf.htm
 tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endof.htm
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: EndOf, EndOf method [Windows Controls], EndOf method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],EndOf method, ITextRange.EndOf, ITextRange::EndOf, _win32_ITextRange_EndOf, _win32_ITextRange_EndOf_cpp, controls.ITextRange_EndOf, controls._win32_ITextRange_EndOf, tom/ITextRange::EndOf
 ms.prod: windows-hardware
 ms.technology: windows-devices

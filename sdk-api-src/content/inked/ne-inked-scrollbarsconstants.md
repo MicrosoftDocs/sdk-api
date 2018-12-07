@@ -7,10 +7,10 @@ old-location: tablet\scrollbarsconstants.htm
 tech.root: tablet
 ms.assetid: d689f8ff-4ad9-4306-af2d-aaed60f33c53
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: ScrollBarsConstants, ScrollBarsConstants enumeration [Tablet PC], d689f8ff-4ad9-4306-af2d-aaed60f33c53, inked/ScrollBarsConstants, inked/rtfBoth, inked/rtfHorizontal, inked/rtfNone, inked/rtfVertical, rtfBoth, rtfHorizontal, rtfNone, rtfVertical, tablet.scrollbarsconstants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

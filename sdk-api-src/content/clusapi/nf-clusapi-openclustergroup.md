@@ -7,7 +7,7 @@ old-location: mscs\openclustergroup.htm
 tech.root: mscs
 ms.assetid: 0c7ef9d9-d32b-448e-9e07-6befb9b3e338
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: OpenClusterGroup, OpenClusterGroup function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP, PCLUSAPI_OPEN_CLUSTER_GROUP function [Failover Cluster], _wolf_openclustergroup, clusapi/OpenClusterGroup, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP, mscs.openclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,6 +75,26 @@ Name of the group to open.
 ## -returns
 
 
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NULL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The operation was not successful. For information about the error, call the function 
+        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+</td>
+</tr>
+</table>
+ 
 
 If the operation was successful, 
        <b>OpenClusterGroup</b> returns a group handle.

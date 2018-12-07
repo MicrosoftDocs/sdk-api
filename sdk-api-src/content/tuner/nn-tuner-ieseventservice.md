@@ -4,13 +4,13 @@ title: IESEventService
 author: windows-sdk-content
 description: Implements an event service that includes methods that raise events derived from the IESEvent interface.
 old-location: mstv\ieseventservice.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 2720d616-18a6-488e-98ef-565768c22c2a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IESEventService, IESEventService interface [Microsoft TV Technologies], IESEventService interface [Microsoft TV Technologies],described, mstv.ieseventservice, tuner/IESEventService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

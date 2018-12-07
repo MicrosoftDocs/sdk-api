@@ -7,7 +7,7 @@ old-location: mf\iwmcolorconvpropssetmode.htm
 tech.root: medfound
 ms.assetid: b0be2965-36cf-4d14-8df6-c5296135a8e5
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IWMColorConvProps interface [Media Foundation],SetMode method, IWMColorConvProps.SetMode, IWMColorConvProps::SetMode, SetMode, SetMode method [Media Foundation], SetMode method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetmode, mf.iwmcolorconvpropssetmode, wmcodecdsp/IWMColorConvProps::SetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

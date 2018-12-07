@@ -4,10 +4,10 @@ title: IMSVidVideoRendererDevices::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidvideorendererdevices_get__newenum.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: da321f4c-801a-4e27-bc82-5dab723adf97
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidVideoRendererDevices.get__NewEnum, IMSVidVideoRendererDevices::get__NewEnum, IMSVidVideoRendererDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get__newenum, segment/IMSVidVideoRendererDevices::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,7 @@ The <b>get__NewEnum</b> method retrieves an enumerator for the collection.
 
 
 
-### -param pD
-
-TBD
-
-
-
-
-#### - ppD [out]
+### -param pD [out]
 
 Pointer to a variable that receives an <b>IEnumVARIANT</b> interface pointer.
 

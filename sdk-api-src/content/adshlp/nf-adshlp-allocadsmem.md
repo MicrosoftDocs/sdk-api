@@ -4,10 +4,10 @@ title: AllocADsMem function
 author: windows-sdk-content
 description: Allocates a block of memory of the specified size.
 old-location: adsi\allocadsmem.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: df98a728-596b-4541-974a-5690e510ad9f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: AllocADsMem, AllocADsMem function [ADSI], _ds_allocadsmem, adshlp/AllocADsMem, adsi.allocadsmem
 ms.prod: windows-hardware
 ms.technology: windows-devices

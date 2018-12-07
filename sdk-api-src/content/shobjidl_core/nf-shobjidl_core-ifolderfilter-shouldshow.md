@@ -7,7 +7,7 @@ old-location: shell\IFolderFilter_ShouldShow.htm
 tech.root: shell
 ms.assetid: 60893b97-5b13-4c1f-9fd6-042217d3026f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IFolderFilter interface [Windows Shell],ShouldShow method, IFolderFilter.ShouldShow, IFolderFilter::ShouldShow, ShouldShow, ShouldShow method [Windows Shell], ShouldShow method [Windows Shell],IFolderFilter interface, _shell_IFolderFilter_ShouldShow, shell.IFolderFilter_ShouldShow, shobjidl_core/IFolderFilter::ShouldShow
 ms.prod: windows-hardware
 ms.technology: windows-devices

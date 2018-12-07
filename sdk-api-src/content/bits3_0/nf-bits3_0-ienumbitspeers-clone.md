@@ -4,10 +4,10 @@ title: IEnumBitsPeers::Clone
 author: windows-sdk-content
 description: Creates another IEnumBitsPeers enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbitspeers_clone.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 72b3e0bc-9426-4953-a910-2dfaa955c4c0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBitsPeers interface, IEnumBitsPeers interface [BITS],Clone method, IEnumBitsPeers.Clone, IEnumBitsPeers::Clone, bits.ienumbitspeers_clone, bits3_0/IEnumBitsPeers::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ Using this method, a client can record a particular point in the enumeration seq
 
 
 
-### -param ppenum
-
-TBD
-
-
-
-
-#### - ppEnum [out]
+### -param ppenum [out]
 
 Receives the interface pointer to the enumeration object. If the method is unsuccessful, the value of this output variable is undefined. You must release <i>ppEnum</i> when done.
 

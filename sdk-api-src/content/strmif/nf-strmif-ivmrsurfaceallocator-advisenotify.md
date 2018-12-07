@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocator_advisenotify.htm
 tech.root: DirectShow
 ms.assetid: d4d9998f-e7d6-4c06-8a37-2e9c8e29106b
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AdviseNotify, AdviseNotify method [DirectShow], AdviseNotify method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],AdviseNotify method, IVMRSurfaceAllocator.AdviseNotify, IVMRSurfaceAllocator::AdviseNotify, IVMRSurfaceAllocatorAdviseNotify, dshow.ivmrsurfaceallocator_advisenotify, strmif/IVMRSurfaceAllocator::AdviseNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

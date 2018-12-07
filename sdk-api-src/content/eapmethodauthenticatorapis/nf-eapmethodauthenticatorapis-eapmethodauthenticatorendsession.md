@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorendsession.htm
 tech.root: eaphost
 ms.assetid: 6295277d-3ad8-4c37-a6bf-8f72e8a9b404
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: EapMethodAuthenticatorEndSession, EapMethodAuthenticatorEndSession function [EAPHost], eaphost.eapmethodauthenticatorendsession, eapmethodauthenticatorapis/EapMethodAuthenticatorEndSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itcallnotificationevent_get_callbackinstance.htm
 tech.root: tapi
 ms.assetid: daa6d980-49aa-4e5a-9871-77e39dcdb6f0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITCallNotificationEvent interface [TAPI 2.2],get_CallbackInstance method, ITCallNotificationEvent.get_CallbackInstance, ITCallNotificationEvent::get_CallbackInstance, _tapi3_itcallnotificationevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITCallNotificationEvent interface, tapi3.itcallnotificationevent_get_callbackinstance, tapi3if/ITCallNotificationEvent::get_CallbackInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: shell\IBrowserService3.htm
 tech.root: shell
 ms.assetid: efca41df-0aae-469e-8b56-77798eb8af19
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IBrowserService3, IBrowserService3 interface [Windows Shell], IBrowserService3 interface [Windows Shell],described, shdeprecated/IBrowserService3, shell.IBrowserService3, zone_IBrowserService3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 

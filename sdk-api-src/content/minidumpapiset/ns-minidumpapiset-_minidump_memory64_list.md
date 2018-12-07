@@ -7,10 +7,10 @@ old-location: base\minidump_memory_list_str.htm
 tech.root: debug
 ms.assetid: 83a38831-fb90-495c-9f5d-90971849a7a0
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMINIDUMP_MEMORY64_LIST, MINIDUMP_MEMORY64_LIST, MINIDUMP_MEMORY_LIST, MINIDUMP_MEMORY_LIST structure, PMINIDUMP_MEMORY_LIST, PMINIDUMP_MEMORY_LIST structure pointer, _MINIDUMP_MEMORY64_LIST, _MINIDUMP_MEMORY_LIST, _win32_minidump_memory_list_str, base.minidump_memory_list_str, minidumpapiset/MINIDUMP_MEMORY_LIST, minidumpapiset/PMINIDUMP_MEMORY_LIST"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h

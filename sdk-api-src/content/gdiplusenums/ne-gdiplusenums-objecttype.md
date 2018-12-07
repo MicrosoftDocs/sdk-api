@@ -7,10 +7,10 @@ old-location: gdiplus\_gdiplus_ENUM_ObjectType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\objecttype.htm
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ObjectType, ObjectType enumeration [GDI+], ObjectTypeBrush, ObjectTypeCustomLineCap, ObjectTypeFont, ObjectTypeGraphics, ObjectTypeImageAttributes, ObjectTypeInvalid, ObjectTypeMax, ObjectTypeMin, ObjectTypePath, ObjectTypePen, ObjectTypeRegion, ObjectTypeStringFormat, _gdiplus_ENUM_ObjectType, gdiplus._gdiplus_ENUM_ObjectType, gdiplusenums/ObjectType, gdiplusenums/ObjectTypeBrush, gdiplusenums/ObjectTypeCustomLineCap, gdiplusenums/ObjectTypeFont, gdiplusenums/ObjectTypeGraphics, gdiplusenums/ObjectTypeImageAttributes, gdiplusenums/ObjectTypeInvalid, gdiplusenums/ObjectTypeMax, gdiplusenums/ObjectTypeMin, gdiplusenums/ObjectTypePath, gdiplusenums/ObjectTypePen, gdiplusenums/ObjectTypeRegion, gdiplusenums/ObjectTypeStringFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

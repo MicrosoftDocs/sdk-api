@@ -7,7 +7,7 @@ old-location: directwrite\idwritefactory3_getsystemfontcollection.htm
 tech.root: DirectWrite
 ms.assetid: f6e983b5-5c5f-a2de-59f8-722f967bb992
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: GetSystemFontCollection, GetSystemFontCollection method [Direct Write], GetSystemFontCollection method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetSystemFontCollection method, IDWriteFactory3.GetSystemFontCollection, IDWriteFactory3::GetSystemFontCollection, directwrite.idwritefactory3_getsystemfontcollection, dwrite_3/IDWriteFactory3::GetSystemFontCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,13 +64,6 @@ Type: <b>BOOL</b>
 
 Indicates whether to include cloud fonts or only locally installed fonts.
 
-Type: <b>BOOL</b>
-
-If this parameter is TRUE, the function performs an immediate check for changes       
-           to the set of system fonts. If this parameter is FALSE, the function will still detect changes if the font      
-           cache service is running, but there may be some latency. For example, an application might specify TRUE if      
-           it has just installed a font and wants to be sure the font collection contains that font.
-
 
 ### -param fontCollection
 
@@ -81,9 +74,12 @@ Holds the newly created font collection object, or NULL in case of failure.
 
 ### -param checkForUpdates
 
-TBD
+Type: <b>BOOL</b>
 
-
+If this parameter is TRUE, the function performs an immediate check for changes       
+           to the set of system fonts. If this parameter is FALSE, the function will still detect changes if the font      
+           cache service is running, but there may be some latency. For example, an application might specify TRUE if      
+           it has just installed a font and wants to be sure the font collection contains that font.
 
 
 ## -returns

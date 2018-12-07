@@ -4,13 +4,13 @@ title: "_MI_ApplicationFT"
 author: windows-sdk-content
 description: A support structure used in the MI_Application structure. Use the functions with the name prefix &#0034;MI_Application_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_applicationft.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: 0c7d3902-a180-4d71-a223-8f8a68bc9d0b
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ApplicationFT, MI_ApplicationFT structure [Windows Management Infrastructure (MI)], _MI_ApplicationFT, mi/MI_ApplicationFT, wmi_v2.mi_applicationft
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

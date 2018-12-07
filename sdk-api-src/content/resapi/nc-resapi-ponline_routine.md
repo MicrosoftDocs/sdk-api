@@ -7,10 +7,10 @@ old-location: mscs\online.htm
 tech.root: mscs
 ms.assetid: b406ef44-0622-4625-a6cf-462b6ea6018d
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: Online, Online callback, Online callback function [Failover Cluster], PONLINE_ROUTINE, PONLINE_ROUTINE callback function [Failover Cluster], _wolf_online, mscs.online, resapi/Online, resapi/PONLINE_ROUTINE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
@@ -79,6 +79,53 @@ On input, <i>EventHandle</i> is <b>NULL</b>. On output,
 ## -returns
 
 
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_SUCCESS</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful, and the resource is now 
+         <a href="o_gly.htm">online</a>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_RESOURCE_NOT_AVAILABLE</b></dt>
+<dt>5006 (0x138E)</dt>
+</dl>
+</td>
+<td width="60%">
+The resource was arbitrated with some other systems, and one of the other systems won the arbitration. Only 
+         <a href="q_gly.htm">quorum-capable resources</a> return this 
+         value.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_IO_PENDING</b></dt>
+<dt>997 (0x3E5)</dt>
+</dl>
+</td>
+<td width="60%">
+The request is pending, and a thread has been activated to process the online request.
+
+</td>
+</tr>
+</table>
+ 
 
 If the operation was not successful for other reasons, 
        <i>Online</i> should return one of the 

@@ -4,10 +4,10 @@ title: PrePrepareComplete function
 author: windows-sdk-content
 description: Signals that this resource manager has completed its preprepare work, so that other resource managers can now begin their prepare operations.
 old-location: fs\prepreparecomplete.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: b4a70a51-2c49-4626-9fca-9ca6e0d21a53
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PrePrepareComplete, PrePrepareComplete function [Files], fs.prepreparecomplete, ktmw32/PrePrepareComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

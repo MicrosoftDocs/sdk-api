@@ -4,10 +4,10 @@ title: IADsCollection::GetObject
 author: windows-sdk-content
 description: Retrieves an item of the collection.
 old-location: adsi\iadscollection_getobject.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 04b33451-505e-43de-8db4-3e37f9909ea6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],GetObject method, IADsCollection.GetObject, IADsCollection::GetObject, _ds_iadscollection_getobject, adsi.iadscollection__getobject, adsi.iadscollection_getobject, iads/IADsCollection::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ The <b>IADsCollection::GetObject</b> method retrieves an item of the collection.
 The null-terminated Unicode string that specifies the name of the item. This is the same name passed to  <a href="https://msdn.microsoft.com/c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d">IADsCollection::Add</a> when the item is added to the collection.
 
 
-### -param pvItem
-
-TBD
-
-
-
-
-#### - pvarItem [in]
+### -param pvItem [in]
 
 Current value of the item. For an object, this corresponds to the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer on the object.
 

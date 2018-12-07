@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobj_setbuttons.htm
 tech.root: ad
 ms.assetid: 2cc888f4-b884-4e81-8dec-6f12c35d9ee4
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IDsAdminNewObj interface [Active Directory],SetButtons method, IDsAdminNewObj.SetButtons, IDsAdminNewObj::SetButtons, SetButtons, SetButtons method [Active Directory], SetButtons method [Active Directory],IDsAdminNewObj interface, _glines_idsadminnewobj_setbuttons, ad.idsadminnewobj__setbuttons, ad.idsadminnewobj_setbuttons, dsadmin/IDsAdminNewObj::SetButtons
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,19 +58,14 @@ The <b>IDsAdminNewObj::SetButtons</b> method enables or disables the "Next" comm
 
 
 
-### -param nCurrIndex
+### -param nCurrIndex [in]
 
-TBD
+Contains the zero-based index of the wizard page for which the "Next" button will be enabled or disabled. This index is relative to the page count of the wizard extension that calls the method.
 
 
 ### -param bValid [in]
 
 Specifies if the "Next" command button is enabled or disabled. If this value is zero, the "Next" command button is disabled. If this value is nonzero, the "Next" command button is enabled.
-
-
-#### - nCurrentIndex [in]
-
-Contains the zero-based index of the wizard page for which the "Next" button will be enabled or disabled. This index is relative to the page count of the wizard extension that calls the method.
 
 
 ## -returns

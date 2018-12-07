@@ -7,10 +7,10 @@ old-location: security\crypt_provider_functions.htm
 tech.root: seccrypto
 ms.assetid: 2c00f8ec-e262-4df8-8984-a2702a4162bf
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS structure [Security], PCRYPT_PROVIDER_FUNCTIONS, PCRYPT_PROVIDER_FUNCTIONS structure pointer [Security], _CRYPT_PROVIDER_FUNCTIONS, security.crypt_provider_functions, wintrust/CRYPT_PROVIDER_FUNCTIONS, wintrust/PCRYPT_PROVIDER_FUNCTIONS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

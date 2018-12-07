@@ -4,10 +4,10 @@ title: CreateTransactionManager function
 author: windows-sdk-content
 description: Creates a new transaction manager (TM) object and returns a handle with the specified access.
 old-location: fs\createtransactionmanager.htm
-tech.root: Ktm
+tech.root: ktm
 ms.assetid: f5b7d0c1-9cd0-48fc-8125-d4da040951c4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: CreateTransactionManager, CreateTransactionManager function [Files], TRANSACTION_MANAGER_VOLATILE, fs.createtransactionmanager, ktmw32/CreateTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

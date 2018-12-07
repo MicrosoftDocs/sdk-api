@@ -4,13 +4,13 @@ title: ISimilarityReportProgress
 author: windows-sdk-content
 description: Defines a method for RDC to report the current completion percentage of a similarity operation.
 old-location: rdc\isimilarityreportprogress.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 813bda93-08d5-456c-9bde-ce6dd53fb8bf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISimilarityReportProgress, ISimilarityReportProgress interface [Remote Differential Compression], ISimilarityReportProgress interface [Remote Differential Compression],described, fs.isimilarityreportprogress, msrdc/ISimilarityReportProgress, rdc.isimilarityreportprogress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

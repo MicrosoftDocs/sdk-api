@@ -4,13 +4,13 @@ title: WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT
 author: windows-sdk-content
 description: Defines the release shell callback for the plug-in.
 old-location: winrm\wsman_plugin_release_shell_context.htm
-tech.root: WinRM
+tech.root: winrm
 ms.assetid: 8cb33e6c-fc64-4aad-88b3-9faeef3809c4
 ms.author: windowssdkdev
-ms.date: 08/29/2018
+ms.date: 12/5/2018
 ms.keywords: WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT, WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT callback, WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT callback function [Windows Remote Management], WSManPluginReleaseCommandContext, winrm.wsman_plugin_release_shell_context, wsman/WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wsman.h
 req.include-header: 

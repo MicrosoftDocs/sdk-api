@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedbundlewriter3_addexternalpackagereference.ht
 tech.root: appxpkg
 ms.assetid: 8441BE5B-1393-4B92-BADC-F1A4EA60B73F
 ms.author: windowssdkdev
-ms.date: 09/28/2018
+ms.date: 12/5/2018
 ms.keywords: AddExternalPackageReference, AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management],IAppxEncryptedBundleWriter3 interface, IAppxEncryptedBundleWriter3 interface [App packaging and management],AddExternalPackageReference method, IAppxEncryptedBundleWriter3.AddExternalPackageReference, IAppxEncryptedBundleWriter3::AddExternalPackageReference, appxpackaging/IAppxEncryptedBundleWriter3::AddExternalPackageReference, appxpkg.iappxencryptedbundlewriter3_addexternalpackagereference
 ms.prod: windows-hardware
 ms.technology: windows-devices

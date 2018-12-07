@@ -4,13 +4,13 @@ title: "_DnsRecordW"
 author: windows-sdk-content
 description: Stores a DNS resource record (RR).
 old-location: dns\dns_record.htm
-tech.root: DNS
+tech.root: dns
 ms.assetid: ab7b96a5-346f-4e01-bb2a-885f44764590
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDNS_RECORD, *PDNS_RECORDW, DNS_RECORD, DNS_RECORD structure [DNS], DNS_RECORDW, PDNS_RECORD, PDNS_RECORD structure pointer [DNS], _DnsRecordA, _DnsRecordW, _dns_dns_record, dns.dns_record, windns/DNS_RECORD, windns/PDNS_RECORD"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

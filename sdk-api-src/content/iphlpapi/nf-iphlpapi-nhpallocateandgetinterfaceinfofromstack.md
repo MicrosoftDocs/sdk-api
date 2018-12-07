@@ -7,7 +7,7 @@ old-location: iphlp\nhpallocateandgetinterfaceinfofromstack.htm
 tech.root: IpHlp
 ms.assetid: a5ba8b28-4c15-4646-91d0-b6ef9e0f1e89
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NhpAllocateAndGetInterfaceInfoFromStack, NhpAllocateAndGetInterfaceInfoFromStack function [IP Helper], iphlp.nhpallocateandgetinterfaceinfofromstack, iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack
 ms.prod: windows-hardware
 ms.technology: windows-devices

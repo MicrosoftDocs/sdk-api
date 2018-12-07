@@ -4,10 +4,10 @@ title: ICertificateAttestationChallenge::Initialize
 author: windows-sdk-content
 description: Initialize using the full Certificate Management over CMS (CMC) response returned from the CA.
 old-location: security\icertificateattestationchallenge_initialize.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: d4dbda92-4523-4adb-9b88-b2bc763570fd
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],Initialize method, ICertificateAttestationChallenge.Initialize, ICertificateAttestationChallenge::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::Initialize, security.icertificateattestationchallenge_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfinputtrustauthority_reset.htm
 tech.root: medfound
 ms.assetid: beb8e598-5a35-46b0-aa13-6bef38b9defb
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IMFInputTrustAuthority interface [Media Foundation],Reset method, IMFInputTrustAuthority.Reset, IMFInputTrustAuthority::Reset, Reset, Reset method [Media Foundation], Reset method [Media Foundation],IMFInputTrustAuthority interface, beb8e598-5a35-46b0-aa13-6bef38b9defb, mf.imfinputtrustauthority_reset, mfidl/IMFInputTrustAuthority::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

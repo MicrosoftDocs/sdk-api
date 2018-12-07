@@ -7,10 +7,10 @@ old-location: winauto\filterkeys.htm
 tech.root: WinAuto
 ms.assetid: 6e2526b3-ddf5-425b-8242-b302a683e0ad
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPFILTERKEYS, FILTERKEYS, FILTERKEYS structure [Windows Accessibility], FKF_AVAILABLE, FKF_CLICKON, FKF_CONFIRMHOTKEY, FKF_FILTERKEYSON, FKF_HOTKEYACTIVE, FKF_HOTKEYSOUND, FKF_INDICATOR, LPFILTERKEYS, LPFILTERKEYS structure pointer [Windows Accessibility], _win32_FILTERKEYS_str, msaa.filterkeys, tagFILTERKEYS, winauto.filterkeys, winuser/FILTERKEYS, winuser/LPFILTERKEYS"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

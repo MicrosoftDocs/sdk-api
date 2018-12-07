@@ -7,7 +7,7 @@ old-location: tapi3\itphone_put_hookswitchstate.htm
 tech.root: tapi
 ms.assetid: ab0bcd30-6985-4f53-a39d-90230421b6f4
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_HookSwitchState method, ITPhone.put_HookSwitchState, ITPhone::put_HookSwitchState, _tapi3_itphone_put_hookswitchstate, put_HookSwitchState, put_HookSwitchState method [TAPI 2.2], put_HookSwitchState method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_hookswitchstate, tapi3if/ITPhone::put_HookSwitchState
 ms.prod: windows-hardware
 ms.technology: windows-devices

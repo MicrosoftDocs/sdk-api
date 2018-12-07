@@ -4,10 +4,10 @@ title: INetworkConnectionCost::GetDataPlanStatus
 author: windows-sdk-content
 description: GetDataPlanStatus method retrieves the status of the data plan associated with a connection.
 old-location: nla\inetworkconnectioncost_getdataplanstatus.htm
-tech.root: NLA
+tech.root: nla
 ms.assetid: 861ED7D2-569A-4B62-BAB6-CA649CA9B524
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness],INetworkConnectionCost interface, INetworkConnectionCost interface [Network Awareness],GetDataPlanStatus method, INetworkConnectionCost.GetDataPlanStatus, INetworkConnectionCost::GetDataPlanStatus, netlistmgr/INetworkConnectionCost::GetDataPlanStatus, nla.inetworkconnectioncost_getdataplanstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

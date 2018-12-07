@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_audiostreamchange.htm
 tech.root: DirectShow
 ms.assetid: 08fca00b-e187-40db-99c0-8b978dd0f10e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AudioStreamChange, AudioStreamChange method [DirectShow], AudioStreamChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AudioStreamChange method, IDvdControl.AudioStreamChange, IDvdControl::AudioStreamChange, IDvdControlAudioStreamChange, dshow.idvdcontrol_audiostreamchange, strmif/IDvdControl::AudioStreamChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,14 +63,7 @@ Sets the current audio stream.
 
 
 
-### -param ulAudio
-
-TBD
-
-
-
-
-#### - nAudio [in]
+### -param ulAudio [in]
 
 Value that specifies the audio track to use, which must be from 0 through 7.
 

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartner_authenticate.htm
 tech.root: WMP
 ms.assetid: 0fb3a94d-8c8e-4d04-b9ca-56ad2e066aac
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 12/5/2018
 ms.keywords: Authenticate, Authenticate method [Windows Media Player], Authenticate method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Authenticate method, IWMPContentPartner.Authenticate, IWMPContentPartner::Authenticate, IWMPContentPartnerAuthenticate, contentpartner/IWMPContentPartner::Authenticate, wmp.iwmpcontentpartner_authenticate
 ms.prod: windows-hardware
 ms.technology: windows-devices

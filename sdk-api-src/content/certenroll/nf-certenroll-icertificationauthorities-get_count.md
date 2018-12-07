@@ -4,10 +4,10 @@ title: ICertificationAuthorities::get_Count
 author: windows-sdk-content
 description: Retrieves the number of ICertificationAuthority objects in the collection.
 old-location: security\icertificationauthorities_count.htm
-tech.root: SecCertEnroll
+tech.root: seccertenroll
 ms.assetid: 6b8d5c73-1df5-47b6-9cc1-afe94ff5ceb6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Count property [Security], Count property [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Count property, ICertificationAuthorities.Count, ICertificationAuthorities.get_Count, ICertificationAuthorities::Count, ICertificationAuthorities::get_Count, certenroll/ICertificationAuthorities::Count, certenroll/ICertificationAuthorities::get_Count, get_Count, security.icertificationauthorities_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

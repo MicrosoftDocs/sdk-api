@@ -7,7 +7,7 @@ old-location: mbn\imbnsubscriberinformation_telephonenumbers.htm
 tech.root: mbn
 ms.assetid: 0f50735e-e57b-4724-8754-1fc4a5634cb3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMbnSubscriberInformation interface [Microsoft Broadband Networks],TelephoneNumbers property, IMbnSubscriberInformation.TelephoneNumbers, IMbnSubscriberInformation.get_TelephoneNumbers, IMbnSubscriberInformation::TelephoneNumbers, IMbnSubscriberInformation::get_TelephoneNumbers, TelephoneNumbers property [Microsoft Broadband Networks], TelephoneNumbers property [Microsoft Broadband Networks],IMbnSubscriberInformation interface, get_TelephoneNumbers, mbn.imbnsubscriberinformation_telephonenumbers, mbnapi/IMbnSubscriberInformation::TelephoneNumbers, mbnapi/IMbnSubscriberInformation::get_TelephoneNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices

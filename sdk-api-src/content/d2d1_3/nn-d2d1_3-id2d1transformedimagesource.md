@@ -7,10 +7,10 @@ old-location: direct2d\id2d1transformedimagesource.htm
 tech.root: direct2d
 ms.assetid: 5645429B-110E-4AEC-9A2E-87D0942FA993
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1TransformedImageSource, ID2D1TransformedImageSource interface [Direct2D], ID2D1TransformedImageSource interface [Direct2D],described, d2d1_3/ID2D1TransformedImageSource, direct2d.id2d1transformedimagesource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

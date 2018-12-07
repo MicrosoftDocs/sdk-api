@@ -4,13 +4,13 @@ title: "_MI_ConstStringAField"
 author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_conststringafield.htm
-tech.root: WMI_v2
+tech.root: wmi_v2
 ms.assetid: fe671976-031c-4859-aad1-24b34770feee
 ms.author: windowssdkdev
-ms.date: 09/27/2018
+ms.date: 11/15/2018
 ms.keywords: MI_ConstStringAField, MI_ConstStringAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstStringAField, mi/MI_ConstStringAField, wmi._mi_conststringafield, wmi_v2.mi_conststringafield
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -4,10 +4,10 @@ title: IGPMGPO::GenerateReportToFile
 author: windows-sdk-content
 description: Gets the report for a GPO and then saves the report to a file in a specified path.
 old-location: gpmc\igpmgpo_generatereporttofile.htm
-tech.root: GPMC
+tech.root: gpmc
 ms.assetid: 686b1461-3136-4351-adc4-32d558d62246
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GenerateReportToFile method, IGPMGPO.GenerateReportToFile, IGPMGPO::GenerateReportToFile, gpmc.igpmgpo_generatereporttofile, gpmgmt/IGPMGPO::GenerateReportToFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

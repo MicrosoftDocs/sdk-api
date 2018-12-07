@@ -4,10 +4,10 @@ title: IDvbParentalRatingDescriptor::GetRecordRating
 author: windows-sdk-content
 description: Gets a code that indicates the age-based rating for a Digital Video Broadcast (DVB) broadcast from a DVB parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_getrecordrating.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 1b439669-6458-46d3-882d-5f20f2f22f23
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRecordRating, GetRecordRating method [Microsoft TV Technologies], GetRecordRating method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetRecordRating method, IDvbParentalRatingDescriptor.GetRecordRating, IDvbParentalRatingDescriptor::GetRecordRating, dvbsiparser/IDvbParentalRatingDescriptor::GetRecordRating, mstv.idvbparentalratingdescriptor_getrecordrating
 ms.prod: windows-hardware
 ms.technology: windows-devices

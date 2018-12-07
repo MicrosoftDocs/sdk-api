@@ -4,10 +4,10 @@ title: IADsPropertyList::Next
 author: windows-sdk-content
 description: The IADsPropertyList::Next method gets the next item in the property list. The returned item is a Property Entry object.
 old-location: adsi\iadspropertylist_next.htm
-tech.root: ADSI
+tech.root: adsi
 ms.assetid: 2a12ba88-363b-41e3-bd05-8a71f5317097
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IADsPropertyList interface [ADSI],Next method, IADsPropertyList.Next, IADsPropertyList::Next, Next, Next method [ADSI], Next method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_next, adsi.iadspropertylist__next, adsi.iadspropertylist_next, iads/IADsPropertyList::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

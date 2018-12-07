@@ -7,7 +7,7 @@ old-location: gdi\savedc.htm
 tech.root: gdi
 ms.assetid: f438cd7f-436f-436c-b32e-67f5558740cb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SaveDC, SaveDC function [Windows GDI], _win32_SaveDC, gdi.savedc, wingdi/SaveDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

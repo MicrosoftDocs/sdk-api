@@ -4,10 +4,10 @@ title: NetAccessDel function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessdel.htm
-tech.root: NetMgmt
+tech.root: netmgmt
 ms.assetid: be33d9b4-9740-4ccb-ac95-25ae02edaa42
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: NetAccessDel, NetAccessDel function [Network Management], _win32_netaccessdel, lmaccess/NetAccessDel, netmgmt.netaccessdel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,17 +65,12 @@ Not supported.
 
 ### -param servername
 
-TBD
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ### -param resource
 
 Pointer to a string that contains the name of the network resource for which to remove the access control list.
-
-
-#### - pszServer
-
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ## -returns

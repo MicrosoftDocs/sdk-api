@@ -7,7 +7,7 @@ old-location: display\xlateobj_ixlate.htm
 tech.root: display
 ms.assetid: 1506efcb-d4fa-4120-89ba-5aca0f3c7f97
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: XLATEOBJ_iXlate, XLATEOBJ_iXlate function [Display Devices], display.xlateobj_ixlate, gdifncs_c1ca950a-fb95-47ae-936a-857ffc47c027.xml, winddi/XLATEOBJ_iXlate
 ms.prod: windows-hardware
 ms.technology: windows-devices

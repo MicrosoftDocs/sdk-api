@@ -7,7 +7,7 @@ old-location: tapi2\linegetproviderlist.htm
 tech.root: tapi
 ms.assetid: 87d43409-e8c5-401a-87a2-02568ed0af4a
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetproviderlist, lineGetProviderList, lineGetProviderList function [TAPI 2.2], lineGetProviderListA, lineGetProviderListW, tapi/lineGetProviderList, tapi/lineGetProviderListA, tapi/lineGetProviderListW, tapi2.linegetproviderlist"
 ms.prod: windows-hardware
 ms.technology: windows-devices

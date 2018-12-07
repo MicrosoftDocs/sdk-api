@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextensions_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9mwd_cpp.htm
 ms.author: windowssdkdev
-ms.date: 11/08/2018
+ms.date: 12/5/2018
 ms.keywords: IFaxInboundRoutingExtensions interface [Fax Service],get_Item method, IFaxInboundRoutingExtensions.get_Item, IFaxInboundRoutingExtensions::get_Item, _mfax_faxinboundroutingextensions.item_cpp, fax._mfax_faxinboundroutingextensions_item_cpp, faxcomex/IFaxInboundRoutingExtensions::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxInboundRoutingExtensions interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,14 +69,7 @@ Type: <b>VARIANT</b>
 If this parameter is type VT_I2 or VT_I4, the parameter specifies the index of the item to retrieve from the collection. The index is 1-based. If this parameter is type VT_BSTR, the parameter is a string containing the unique name of the fax routing extension to retrieve. Other types are not supported.
 
 
-### -param pFaxInboundRoutingExtension
-
-TBD
-
-
-
-
-#### - ppFaxInboundRoutingExtension [out, retval]
+### -param pFaxInboundRoutingExtension [out, retval]
 
 Type: <b><a href="https://msdn.microsoft.com/e967c113-a4c0-4a83-949b-eb51fe41fb42">IFaxInboundRoutingExtension</a>**</b>
 

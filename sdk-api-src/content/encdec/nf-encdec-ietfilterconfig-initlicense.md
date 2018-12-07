@@ -4,10 +4,10 @@ title: IETFilterConfig::InitLicense
 author: windows-sdk-content
 description: The InitLicense method initializes an encryption license.
 old-location: mstv\ietfilterconfig_initlicense.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: d88d9ee0-1748-43e4-90d4-671b1449ef03
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IETFilterConfig interface [Microsoft TV Technologies],InitLicense method, IETFilterConfig.InitLicense, IETFilterConfig::InitLicense, IETFilterConfigInitLicense, InitLicense, InitLicense method [Microsoft TV Technologies], InitLicense method [Microsoft TV Technologies],IETFilterConfig interface, encdec/IETFilterConfig::InitLicense, mstv.ietfilterconfig_initlicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

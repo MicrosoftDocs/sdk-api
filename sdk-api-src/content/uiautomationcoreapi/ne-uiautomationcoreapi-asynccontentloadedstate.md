@@ -7,10 +7,10 @@ old-location: winauto\uiauto_AsyncContentLoadedStateEnum.htm
 tech.root: WinAuto
 ms.assetid: 7c562d3a-10cc-4d9e-aaad-6729574fcb96
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: AsyncContentLoadedState, AsyncContentLoadedState enumeration [Windows Accessibility], AsyncContentLoadedState_Beginning, AsyncContentLoadedState_Completed, AsyncContentLoadedState_Progress, uiauto.uiauto_AsyncContentLoadedStateEnum, uiauto_AsyncContentLoadedStateEnum, uiautomationcoreapi/AsyncContentLoadedState, uiautomationcoreapi/AsyncContentLoadedState_Beginning, uiautomationcoreapi/AsyncContentLoadedState_Completed, uiautomationcoreapi/AsyncContentLoadedState_Progress, winauto.uiauto_AsyncContentLoadedStateEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h

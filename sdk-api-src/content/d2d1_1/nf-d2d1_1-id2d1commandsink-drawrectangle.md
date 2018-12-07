@@ -7,7 +7,7 @@ old-location: direct2d\id2d1commandsink_drawrectangle.htm
 tech.root: direct2d
 ms.assetid: 93c617fb-3c9d-4735-a077-7a3a58033369
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: DrawRectangle, DrawRectangle method [Direct2D], DrawRectangle method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawRectangle method, ID2D1CommandSink.DrawRectangle, ID2D1CommandSink::DrawRectangle, d2d1_1/ID2D1CommandSink::DrawRectangle, direct2d.id2d1commandsink_drawrectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,14 +58,18 @@ Draws a rectangle.
 
 
 
-### -param rect
+### -param rect [in]
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+
+The rectangle to be drawn to the command sink.
 
 
-### -param brush
+### -param brush [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
+
+The brush used to stroke the geometry.
 
 
 ### -param strokeWidth
@@ -80,20 +84,6 @@ The width of the stroke.
 Type: <b><a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a>*</b>
 
 The style of the stroke.
-
-
-#### - Brush [in]
-
-Type: <b><a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>*</b>
-
-The brush used to stroke the geometry.
-
-
-#### - Rect [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
-
-The rectangle to be drawn to the command sink.
 
 
 ## -returns

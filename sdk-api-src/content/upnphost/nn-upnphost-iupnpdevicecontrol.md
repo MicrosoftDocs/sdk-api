@@ -4,13 +4,13 @@ title: IUPnPDeviceControl
 author: windows-sdk-content
 description: The IUPnPDeviceControl interface is the central point of management for a device and its service objects.
 old-location: upnp\iupnpdevicecontrol.htm
-tech.root: UPnP
+tech.root: upnp
 ms.assetid: c5d68459-f4ba-4df1-a00c-be86e24ce29f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IUPnPDeviceControl, IUPnPDeviceControl interface [UPnP APIs], IUPnPDeviceControl interface [UPnP APIs],described, _upnp_iupnpdevicecontrol, upnp.iupnpdevicecontrol, upnphost/IUPnPDeviceControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 

@@ -7,10 +7,10 @@ old-location: termserv\wts_session_info_str.htm
 tech.root: termserv
 ms.assetid: bb40d928-293a-4e2c-b7cf-2ac038da53c2
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PWTS_SESSION_INFOA, PWTS_SESSION_INFO, PWTS_SESSION_INFO structure pointer [Remote Desktop Services], WTS_SESSION_INFO, WTS_SESSION_INFO structure [Remote Desktop Services], WTS_SESSION_INFOA, WTS_SESSION_INFOW, _WTS_SESSION_INFOA, _win32_wts_session_info_str, termserv.wts_session_info_str, wtsapi32/PWTS_SESSION_INFO, wtsapi32/WTS_SESSION_INFO, wtsapi32/WTS_SESSION_INFOA, wtsapi32/WTS_SESSION_INFOW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 

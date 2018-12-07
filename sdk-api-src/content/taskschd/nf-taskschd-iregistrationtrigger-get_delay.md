@@ -4,10 +4,10 @@ title: IRegistrationTrigger::get_Delay
 author: windows-sdk-content
 description: Gets or sets the amount of time between when the task is registered and when the task is started.
 old-location: taskschd\iregistrationtrigger_delay.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 9331dd84-a040-4778-baa4-b61981ec6444
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],IRegistrationTrigger interface, IRegistrationTrigger interface [Task Scheduler],Delay property, IRegistrationTrigger.Delay, IRegistrationTrigger.get_Delay, IRegistrationTrigger::Delay, IRegistrationTrigger::get_Delay, IRegistrationTrigger::put_Delay, get_Delay, taskschd.iregistrationtrigger_delay, taskschd/IRegistrationTrigger::Delay, taskschd/IRegistrationTrigger::get_Delay, taskschd/IRegistrationTrigger::put_Delay
 ms.prod: windows-hardware
 ms.technology: windows-devices

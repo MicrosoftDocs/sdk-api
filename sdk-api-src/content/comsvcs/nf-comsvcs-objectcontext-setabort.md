@@ -7,7 +7,7 @@ old-location: cos\objectcontext_setabort.htm
 tech.root: cossdk
 ms.assetid: 709c1752-f2fb-463e-a95e-a082cd28b110
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ObjectContext interface [COM+],SetAbort method, ObjectContext.SetAbort, ObjectContext::SetAbort, SetAbort, SetAbort method [COM+], SetAbort method [COM+],ObjectContext interface, _cos_ObjectContext_SetAbort, comsvcs/ObjectContext::SetAbort, cos.objectcontext_setabort
 ms.prod: windows-hardware
 ms.technology: windows-devices

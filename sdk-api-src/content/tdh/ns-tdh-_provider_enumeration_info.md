@@ -7,10 +7,10 @@ old-location: etw\provider_enumeration_info_struct.htm
 tech.root: etw
 ms.assetid: bb4548fb-70e5-4726-bc92-adb7ba7be0e4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO structure [ETW], _PROVIDER_ENUMERATION_INFO, etw.provider_enumeration_info_struct, tdh.provider_enumeration_info_struct, tdh/PROVIDER_ENUMERATION_INFO"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

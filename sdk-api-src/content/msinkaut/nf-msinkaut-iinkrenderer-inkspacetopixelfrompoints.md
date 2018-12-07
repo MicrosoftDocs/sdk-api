@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_inkspacetopixelfrompoints.htm
 tech.root: tablet
 ms.assetid: e2b46752-fd9d-4e28-8f53-f16d7573ec89
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IInkRenderer interface [Tablet PC],InkSpaceToPixelFromPoints method, IInkRenderer.InkSpaceToPixelFromPoints, IInkRenderer::InkSpaceToPixelFromPoints, InkSpaceToPixelFromPoints, InkSpaceToPixelFromPoints method [Tablet PC], InkSpaceToPixelFromPoints method [Tablet PC],IInkRenderer interface, e2b46752-fd9d-4e28-8f53-f16d7573ec89, msinkaut/IInkRenderer::InkSpaceToPixelFromPoints, tablet.inkrenderer_inkspacetopixelfrompoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,9 +62,9 @@ Converts an array of points in ink space coordinates to an array of points in pi
 
 
 
-### -param hDC
+### -param hDC [in]
 
-TBD
+The handle of the device context on which to draw.
 
 
 ### -param Points [in, out]
@@ -72,11 +72,6 @@ TBD
 The array of points in ink space coordinates to convert into pixel locations. This should be an array of 32-bit integer values, passed within a VARIANT.
 
 For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
-
-
-#### - hdcDisplay [in]
-
-The handle of the device context on which to draw.
 
 
 ## -returns

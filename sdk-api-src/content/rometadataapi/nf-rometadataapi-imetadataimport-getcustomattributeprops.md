@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getcustomattributeprops.htm
 tech.root: WinRT
 ms.assetid: ccb8891c-ceef-4897-9ec4-b3008a7d5264
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetCustomAttributeProps, GetCustomAttributeProps method [Windows Runtime], GetCustomAttributeProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetCustomAttributeProps method, IMetaDataImport.GetCustomAttributeProps, IMetaDataImport::GetCustomAttributeProps, rometadataapi/IMetaDataImport::GetCustomAttributeProps, winrt.imetadataimport_getcustomattributeprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,19 +73,14 @@ A metadata token representing the object that the custom attribute modifies. Thi
 An <b>mdMethodDef</b> or <b>mdMemberRef</b> metadata token representing the Type of the returned custom attribute.
 
 
-### -param ppBlob
+### -param ppBlob [out]
 
-TBD
+A pointer to an array of data that is the value of the custom attribute.
 
 
 ### -param pcbBlob [out]
 
 The size in bytes of the data returned in <i>const</i>.
-
-
-#### - const [out]
-
-A pointer to an array of data that is the value of the custom attribute.
 
 
 ## -returns

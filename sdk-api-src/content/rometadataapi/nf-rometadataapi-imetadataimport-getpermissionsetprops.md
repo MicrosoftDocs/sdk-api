@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getpermissionsetprops.htm
 tech.root: WinRT
 ms.assetid: db10bdb6-3150-4eb9-872a-3f56089812fa
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetPermissionSetProps, GetPermissionSetProps method [Windows Runtime], GetPermissionSetProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetPermissionSetProps method, IMetaDataImport.GetPermissionSetProps, IMetaDataImport::GetPermissionSetProps, rometadataapi/IMetaDataImport::GetPermissionSetProps, winrt.imetadataimport_getpermissionsetprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,19 +68,14 @@ The Permission metadata token that represents the permission set to get the meta
 A pointer to the permission set.
 
 
-### -param ppvPermission
+### -param ppvPermission [out]
 
-TBD
+A pointer to the binary metadata signature of the permission set.
 
 
 ### -param pcbPermission [out]
 
 The size in bytes of <i>const</i>.
-
-
-#### - const [out]
-
-A pointer to the binary metadata signature of the permission set.
 
 
 ## -returns

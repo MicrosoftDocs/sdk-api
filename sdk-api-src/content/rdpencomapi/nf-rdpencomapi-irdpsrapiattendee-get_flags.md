@@ -4,10 +4,10 @@ title: IRDPSRAPIAttendee::get_Flags
 author: windows-sdk-content
 description: Retrieves the attendee specific flags that are defined in the RDPENCOMAPI_ATTENDEE_FLAGS enumeration type.
 old-location: rdp\irdpsrapiattendee_flags.htm
-tech.root: Rdp
+tech.root: rdp
 ms.assetid: e2e6bef1-6828-473c-aa33-ab30ebe56948
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIAttendee interface, Flags property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],Flags property, IRDPSRAPIAttendee.Flags, IRDPSRAPIAttendee.get_Flags, IRDPSRAPIAttendee::Flags, IRDPSRAPIAttendee::get_Flags, RDPSRAPIAttendee object [RDP],Flags property, get_Flags, rdp.irdpsrapiattendee_flags, rdpencomapi/IRDPSRAPIAttendee::Flags, rdpencomapi/IRDPSRAPIAttendee::get_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagepresenter9_startpresenting.htm
 tech.root: DirectShow
 ms.assetid: 654ac7eb-d6ea-4b9a-8dfb-7ba7bc7e8429
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IVMRImagePresenter9 interface [DirectShow],StartPresenting method, IVMRImagePresenter9.StartPresenting, IVMRImagePresenter9::StartPresenting, IVMRImagePresenter9StartPresenting, StartPresenting, StartPresenting method [DirectShow], StartPresenting method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_startpresenting, vmr9/IVMRImagePresenter9::StartPresenting
 ms.prod: windows-hardware
 ms.technology: windows-devices

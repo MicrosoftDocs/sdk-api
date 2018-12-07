@@ -7,10 +7,10 @@ old-location: wsw\ws_ncrypt_asymmetric_security_key_handle.htm
 tech.root: wsw
 ms.assetid: 843e8d93-3191-42e6-aa7b-d78b3b3370ec
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE, WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], _WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE, webservices/WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_ncrypt_asymmetric_security_key_handle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

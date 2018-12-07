@@ -7,10 +7,10 @@ old-location: mf\mfp_position_set_event.htm
 tech.root: medfound
 ms.assetid: 5a40f12b-c463-4c07-b062-411c0701254f
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: MFP_POSITION_SET_EVENT, MFP_POSITION_SET_EVENT structure [Media Foundation], mf.mfp_position_set_event, mfplay/MFP_POSITION_SET_EVENT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mfplay.h
 req.include-header: 

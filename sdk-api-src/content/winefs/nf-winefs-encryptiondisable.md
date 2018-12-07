@@ -7,7 +7,7 @@ old-location: fs\encryptiondisable.htm
 tech.root: fileio
 ms.assetid: 6ff93a90-c1cf-4782-862c-d3d7e294c4b0
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: EncryptionDisable, EncryptionDisable function [Files], _win32_encryptiondisable, base.encryptiondisable, fs.encryptiondisable, winefs/EncryptionDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices

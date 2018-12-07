@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo_getddrawsurface.htm
 tech.root: DirectShow
 ms.assetid: 0fb29af3-5f6f-4502-8785-72c64f72fec4
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDDrawSurface, GetDDrawSurface method [DirectShow], GetDDrawSurface method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetDDrawSurface method, IDDrawExclModeVideo.GetDDrawSurface, IDDrawExclModeVideo::GetDDrawSurface, IDDrawExclModeVideoGetDDrawSurface, dshow.iddrawexclmodevideo_getddrawsurface, strmif/IDDrawExclModeVideo::GetDDrawSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,24 +62,12 @@ The <code>GetDDrawSurface</code> method retrieves the DirectDraw surface being u
 
 
 
-### -param ppDDrawSurface
-
-TBD
-
-
-### -param pbUsingExternal
-
-TBD
-
-
-
-
-#### - pDDrawSurface [out]
+### -param ppDDrawSurface [out]
 
 Address of a pointer to the <b>IDirectDrawSurface</b> interface that is being used by the Overlay Mixer.
 
 
-#### - pdUsingExternal [out]
+### -param pbUsingExternal [out]
 
 Pointer to a variable that receives a Boolean value. It receives the value <b>TRUE</b> if the Overlay Mixer is using a DirectDraw surface specified by <a href="https://msdn.microsoft.com/a897c147-044d-44e2-9029-bd62c74483d2">IDDrawExclModeVideo::SetDDrawSurface</a>, or <b>FALSE</b> otherwise.
 

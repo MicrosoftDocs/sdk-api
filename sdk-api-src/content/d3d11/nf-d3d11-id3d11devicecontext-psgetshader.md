@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_psgetshader.htm
 tech.root: direct3d11
 ms.assetid: 6ebeb763-b517-468c-bd46-022a426e0b6e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 670956b7-c83d-77ff-bc7b-f0c5ef8d9986, ID3D11DeviceContext interface [Direct3D 11],PSGetShader method, ID3D11DeviceContext.PSGetShader, ID3D11DeviceContext::PSGetShader, PSGetShader, PSGetShader method [Direct3D 11], PSGetShader method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSGetShader, direct3d11.id3d11devicecontext_psgetshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

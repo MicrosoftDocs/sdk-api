@@ -4,10 +4,10 @@ title: IDataCollector::get_DataCollectorType
 author: windows-sdk-content
 description: Retrieves the type of this data collector, for example, a performance data collector.
 old-location: pla\idatacollector_datacollectortype.htm
-tech.root: PLA
+tech.root: pla
 ms.assetid: a5ec0e60-555c-4a95-b13d-a22cc8db7c28
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: DataCollectorType property [PLA], DataCollectorType property [PLA],IDataCollector interface, IDataCollector interface [PLA],DataCollectorType property, IDataCollector.DataCollectorType, IDataCollector.get_DataCollectorType, IDataCollector::DataCollectorType, IDataCollector::get_DataCollectorType, base.idatacollector_datacollectortype, get_DataCollectorType, pla.idatacollector_datacollectortype, pla/IDataCollector::DataCollectorType, pla/IDataCollector::get_DataCollectorType
 ms.prod: windows-hardware
 ms.technology: windows-devices

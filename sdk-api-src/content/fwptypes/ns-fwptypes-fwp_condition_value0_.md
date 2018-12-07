@@ -9,8 +9,8 @@ ms.assetid: edc34005-dbc1-45a4-b6c7-fbb8b13fa388
 ms.author: windowssdkdev
 ms.date: 10/12/2018
 ms.keywords: FWP_CONDITION_VALUE0, FWP_CONDITION_VALUE0 structure [Filtering], FWP_CONDITION_VALUE0_, fwp.fwp_condition_value0, fwptypes/FWP_CONDITION_VALUE0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 

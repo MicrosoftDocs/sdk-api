@@ -7,10 +7,10 @@ old-location: http\http_service_config_cache_set.htm
 tech.root: Http
 ms.assetid: e868822a-95f8-4dbe-bffb-c5b5c151fa41
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/15/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_CACHE_SET, HTTP_SERVICE_CONFIG_CACHE_SET, HTTP_SERVICE_CONFIG_CACHE_SET structure [HTTP], PHTTP_SERVICE_CONFIG_CACHE_SET, PHTTP_SERVICE_CONFIG_CACHE_SET structure pointer [HTTP], http.http_service_config_cache_set, http/HTTP_SERVICE_CONFIG_CACHE_SET, http/PHTTP_SERVICE_CONFIG_CACHE_SET"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: http.h
 req.include-header: 

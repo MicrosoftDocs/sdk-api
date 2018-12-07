@@ -7,7 +7,7 @@ old-location: tsf\itfinputscope_getinputscope.htm
 tech.root: TSF
 ms.assetid: c5d54d2a-13b4-42f7-9224-4e80f0148a86
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: GetInputScopes, GetInputScopes method [Text Services Framework], GetInputScopes method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetInputScopes method, ITfInputScope.GetInputScopes, ITfInputScope::GetInputScopes, _tsf_itfinputscoe_getinputscopes_ref, inputscope/ITfInputScope::GetInputScopes, tsf.itfinputscope_getinputscope
 ms.prod: windows-hardware
 ms.technology: windows-devices

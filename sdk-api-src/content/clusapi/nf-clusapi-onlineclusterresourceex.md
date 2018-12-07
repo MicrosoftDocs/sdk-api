@@ -7,7 +7,7 @@ old-location: mscs\onlineclusterresourceex.htm
 tech.root: mscs
 ms.assetid: 8A41D266-0FBD-4063-9C79-E22924129989
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_RESOURCE_ONLINE_BEST_POSSIBLE_NODE, CLUSAPI_RESOURCE_ONLINE_DO_NOT_UPDATE_PERSISTENT_STATE, CLUSAPI_RESOURCE_ONLINE_NECESSARY_FOR_QUORUM, OnlineClusterResourceEx, OnlineClusterResourceEx function [Failover Cluster], clusapi/OnlineClusterResourceEx, mscs.onlineclusterresourceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -121,6 +121,25 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is a possible error code.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_IO_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The resource or one of the resources that  it depends on has returned <b>ERROR_IO_PENDING</b> from its  <a href="https://msdn.microsoft.com/b406ef44-0622-4625-a6cf-462b6ea6018d">Online</a> entry point function.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

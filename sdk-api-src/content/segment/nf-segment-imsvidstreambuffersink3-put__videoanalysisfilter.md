@@ -4,10 +4,10 @@ title: IMSVidStreamBufferSink3::put__VideoAnalysisFilter
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_put__videoanalysisfilter.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 77664778-5be3-45b7-9d33-37c923070080
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put__VideoAnalysisFilter method, IMSVidStreamBufferSink3.put__VideoAnalysisFilter, IMSVidStreamBufferSink3::put__VideoAnalysisFilter, IMSVidStreamBufferSink3put__VideoAnalysisFilter, mstv.imsvidstreambuffersink3_put__videoanalysisfilter, put__VideoAnalysisFilter, put__VideoAnalysisFilter method [Microsoft TV Technologies], put__VideoAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put__VideoAnalysisFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

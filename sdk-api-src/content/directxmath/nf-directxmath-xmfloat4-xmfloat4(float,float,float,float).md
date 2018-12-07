@@ -2,13 +2,13 @@
 UID: NF:directxmath.XMFLOAT4.XMFLOAT4(float,float,float,float)
 title: XMFLOAT4 function
 author: windows-sdk-content
-description: Constructors exposed by XMFLOAT4.
-old-location: dxmath\xmfloat4_ctor.htm
+description: Initializes a new instance of XMFLOAT4 from four float arguments.
+old-location: dxmath\xmfloat4_ctor_2.htm
 tech.root: dxmath
-ms.assetid: Overload:Microsoft.directx_sdk.reference.XMFLOAT4.#ctor
+ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4.#ctor(float,float,float,float)
 ms.author: windowssdkdev
-ms.date: 11/02/2018
-ms.keywords: XMFLOAT4, XMFLOAT4 Constructors, XMFLOAT4 Constructors constructors [DirectX Math Support APIs], directxmath/XMFLOAT4 Constructors, dxmath.xmfloat4_ctor
+ms.date: 11/15/2018
+ms.keywords: XMFLOAT4 constructor [DirectX Math Support APIs], XMFLOAT4 constructor [DirectX Math Support APIs],XMFLOAT4 structure, XMFLOAT4 structure [DirectX Math Support APIs],XMFLOAT4 constructor, XMFLOAT4.XMFLOAT4(float,float,float,float), dxmath.xmfloat4_ctor_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: 
+req.namespace: Use DirectX.
 req.assembly: 
 req.type-library: 
 req.lib: 
@@ -33,15 +33,21 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - COM
 api_location:
- - directxmath.h
+ - DirectXMath.h
 api_name:
- - XMFLOAT4
+ - XMFLOAT4.XMFLOAT4
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- XMFLOAT4
+: 
 ---
 
 # XMFLOAT4 function
@@ -50,63 +56,73 @@ req.redist:
 ## -description
 
 
-<span>Constructors exposed by <code>XMFLOAT4</code>.
-
-Constructs instances of the <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> structure.
-
-<div class="alert"><b>Note</b>  The constructors listed here are only available under C++.</div>
-<div> </div></span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97a12f8e-bb5b-4bfd-99c4-3e42150bac74">XMFLOAT4 ()</a>
-</td>
-<td align="left" width="63%">
-Default constructor for <code>XMFLOAT4</code>.
-
-Default constructor for <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a>.
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3710ec68-97fa-4df3-9ae1-3290744bf4eb">XMFLOAT4 (const float*)</a>
-</td>
-<td align="left" width="63%">
-Initializes a new instance of <code>XMFLOAT4</code> from a four element <code>float</code> array
-	argument.
-
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> from a from
-	a four element <code>float</code> array argument.
-
-<div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ed82be7-bd79-4029-8087-cf7340843cd2">XMFLOAT4 (float,float,float,float)</a>
-</td>
-<td align="left" width="63%">
 Initializes a new instance of <code>XMFLOAT4</code> from four <code>float</code> arguments.
+    
 
 This constructor initializes a new instance of <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> from four
 	<code>float</code> arguments.
-
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
-    </div>
-<div> </div>
-</td>
-</tr>
-</table>
+    </div><div> </div>
 
 ## -parameters
+
+
+
+
+### -param _x
+
+Value of the x-coordinate of the vector, the <b>x</b> member of the new
+		    <code>XMFLOAT4</code> instance.
+		
+
+
+### -param _y
+
+Value of the y-coordinate of the vector, the <b>y</b> member of the new
+		    <code>XMFLOAT4</code> instance.
+		
+
+
+### -param _z
+
+Value of the z-coordinate of the vector, the <b>z</b> member of the new
+		    <code>XMFLOAT4</code> instance.
+		
+
+
+### -param _w
+
+Value of the w-coordinate of the vector, the <b>w</b> member of the new
+		    <code>XMFLOAT4</code> instance.
+		
+
+
+## -remarks
+
+
+
+The following pseudocode demonstrates the operation of this constructor:
+	
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+	XMFLOAT4 instance;
+
+	instance.x = _x;
+	instance.y = _y;
+	instance.z = _z;
+	instance.w = _w;
+
+    </pre>
+</td>
+</tr>
+</table></span></div>
+
 
 
 ## -see-also
@@ -122,7 +138,7 @@ This constructor initializes a new instance of <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/79c3abc5-1896-4c51-b6a9-a97031961e8e">XMFLOAT4 Extensions</a>
+<a href="https://msdn.microsoft.com/e52801d1-d363-436b-8be0-ae7a173db75c">XMFLOAT4 Constructors</a>
  
 
  

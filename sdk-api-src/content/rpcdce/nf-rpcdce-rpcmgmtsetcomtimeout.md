@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtsetcomtimeout.htm
 tech.root: rpc
 ms.assetid: 3ea6fe6a-2064-4f53-852a-041281b62bbd
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: RpcMgmtSetComTimeout, RpcMgmtSetComTimeout function [RPC], _rpc_rpcmgmtsetcomtimeout, rpc.rpcmgmtsetcomtimeout, rpcdce/RpcMgmtSetComTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

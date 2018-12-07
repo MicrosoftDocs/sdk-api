@@ -4,13 +4,13 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0008"
 author: windows-sdk-content
 description: Describes an array of RdcSignature structures.
 old-location: rdc\rdcsignaturepointer.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: ece0fddf-1c06-493d-aed9-6bc86bb014f3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RdcSignaturePointer, RdcSignaturePointer structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0008, fs.rdcsignaturepointer, msrdc/RdcSignaturePointer, rdc.rdcsignaturepointer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 

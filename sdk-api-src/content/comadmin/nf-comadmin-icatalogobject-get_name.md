@@ -7,7 +7,7 @@ old-location: cos\icatalogobject_name.htm
 tech.root: cossdk
 ms.assetid: 604b2d11-b204-4f78-8cf2-e13f594299b7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ICatalogObject interface [COM+],Name property, ICatalogObject.Name, ICatalogObject.get_Name, ICatalogObject::Name, ICatalogObject::get_Name, Name property [COM+], Name property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Name, comadmin/ICatalogObject::Name, comadmin/ICatalogObject::get_Name, cos.icatalogobject_name, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,10 +7,10 @@ old-location: winrt\size.htm
 tech.root: WinRT
 ms.assetid: 8705adcb-a657-4b47-94ba-632bfb3779be
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: Size, Size structure [Windows Runtime], windows/Size, winrt.size
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: windows.foundation.h
 req.include-header: 

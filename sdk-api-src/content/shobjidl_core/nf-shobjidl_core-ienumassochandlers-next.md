@@ -7,7 +7,7 @@ old-location: shell\IEnumAssocHandlers_Next.htm
 tech.root: shell
 ms.assetid: 9e173cb3-bd73-437c-8853-c13c8b6f216f
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumAssocHandlers interface [Windows Shell],Next method, IEnumAssocHandlers.Next, IEnumAssocHandlers::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumAssocHandlers interface, _shell_IEnumAssocHandlers_Next, shell.IEnumAssocHandlers_Next, shobjidl_core/IEnumAssocHandlers::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

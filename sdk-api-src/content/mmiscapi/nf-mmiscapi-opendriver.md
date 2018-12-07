@@ -7,7 +7,7 @@ old-location: multimedia\opendriver.htm
 tech.root: Multimedia
 ms.assetid: 882146f7-cd42-45fd-8a5f-7078b64c7ea8
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: OpenDriver, OpenDriver function [Windows Multimedia], _win32_OpenDriver, mmsystem/OpenDriver, multimedia.opendriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,36 +62,19 @@ Opens an instance of an installable driver and initializes the instance using ei
 
 
 
-### -param szDriverName
-
-TBD
-
-
-### -param szSectionName
-
-TBD
-
-
-### -param lParam2
-
-TBD
-
-
-
-
-#### - lParam [in]
-
-32-bit driver-specific value. This value is passed as the <i>lParam2</i> parameter to the <a href="https://msdn.microsoft.com/d9a5535f-6b80-40cc-a20b-b7a342414d7f">DriverProc</a> function of the installable driver.
-
-
-#### - lpDriverName [in]
+### -param szDriverName [in]
 
 Address of a null-terminated, wide-character string that specifies the filename of an installable driver or the name of a registry value associated with the installable driver. (This value must have been previously set when the driver was installed.)
 
 
-#### - lpSectionName [in]
+### -param szSectionName [in]
 
 Address of a null-terminated, wide-character string that specifies the name of the registry key containing the registry value given by the <i>lpDriverName</i> parameter. If <i>lpSectionName</i> is <b>NULL</b>, the registry key is assumed to be <b>Drivers32</b>.
+
+
+### -param lParam2 [in]
+
+32-bit driver-specific value. This value is passed as the <i>lParam2</i> parameter to the <a href="https://msdn.microsoft.com/d9a5535f-6b80-40cc-a20b-b7a342414d7f">DriverProc</a> function of the installable driver.
 
 
 ## -returns

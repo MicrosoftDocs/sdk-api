@@ -7,7 +7,7 @@ old-location: wmdm\imdspdirecttransfer_transfertodevice.htm
 tech.root: WMDM
 ms.assetid: 7a95a23d-751e-4101-a150-3a1e47a14a95
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IMDSPDirectTransfer interface [windows Media Device Manager],TransferToDevice method, IMDSPDirectTransfer.TransferToDevice, IMDSPDirectTransfer::TransferToDevice, IMDSPDirectTransferTransferToDevice, TransferToDevice, TransferToDevice method [windows Media Device Manager], TransferToDevice method [windows Media Device Manager],IMDSPDirectTransfer interface, mswmdm/IMDSPDirectTransfer::TransferToDevice, wmdm.imdspdirecttransfer_transfertodevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,9 +62,9 @@ The <b>TransferToDevice</b> method is called by Windows Media Device Manager to 
 
 
 
-### -param pwszSourceFilePath
+### -param pwszSourceFilePath [in]
 
-TBD
+Source file name. The value contained in this parameter should be ignored if WMDM_CONTENT_OPERATIONINTERFACE is specified.
 
 
 ### -param pSourceOperation [in]
@@ -117,11 +117,6 @@ Progress callback interface. The service provider should update the information 
 ### -param ppNewObject [out]
 
 Newly created storage object. This parameter is optional. This can be <b>NULL</b> if the caller does not need to have the new object returned.
-
-
-#### - pwszSourceFileName [in]
-
-Source file name. The value contained in this parameter should be ignored if WMDM_CONTENT_OPERATIONINTERFACE is specified.
 
 
 ## -returns

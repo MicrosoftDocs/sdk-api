@@ -7,10 +7,10 @@ old-location: shell\syncmgr_isyncmgrregister.htm
 tech.root: shell
 ms.assetid: 1feed230-5a50-4ff5-a8a9-e0ce15ba8f1c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], ISyncMgrRegister interface [Windows Shell],described, mobsync/ISyncMgrRegister, shell.syncmgr_isyncmgrregister, syncmgr.isyncmgrregister
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: mobsync.h
 req.include-header: 

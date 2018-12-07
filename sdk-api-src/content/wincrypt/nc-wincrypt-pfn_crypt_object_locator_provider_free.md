@@ -7,10 +7,10 @@ old-location: security\pfn_crypt_object_locator_provider_free.htm
 tech.root: seccrypto
 ms.assetid: 4C27BF58-79AB-4AD3-8D43-EEE7F73071D2
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE callback function [Security], security.pfn_crypt_object_locator_provider_free, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

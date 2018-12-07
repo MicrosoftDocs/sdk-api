@@ -4,13 +4,13 @@ title: IBackgroundCopyJob5
 author: windows-sdk-content
 description: Use this interface to query or set several optional behaviors of a job.
 old-location: bits\bits5_functions.htm
-tech.root: Bits
+tech.root: bits
 ms.assetid: 97481F9D-1F7B-473A-B288-A52E527478A0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob5, IBackgroundCopyJob5 interface [BITS], IBackgroundCopyJob5 interface [BITS],described, bits.bits5_functions, bits.ibackgroundcopyjob5, bits5_0/IBackgroundCopyJob5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: interface
 req.header: bits5_0.h
 req.include-header: Bits.h

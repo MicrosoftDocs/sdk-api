@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_pixeltoinkspace.htm
 tech.root: tablet
 ms.assetid: fb881fe0-0be3-4e23-ac50-e421e2dc7845
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IInkRenderer interface [Tablet PC],PixelToInkSpace method, IInkRenderer.PixelToInkSpace, IInkRenderer::PixelToInkSpace, PixelToInkSpace, PixelToInkSpace method [Tablet PC], PixelToInkSpace method [Tablet PC],IInkRenderer interface, fb881fe0-0be3-4e23-ac50-e421e2dc7845, msinkaut/IInkRenderer::PixelToInkSpace, tablet.inkrenderer_pixeltoinkspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,9 +62,9 @@ Converts a location in pixel space coordinates to be a location in ink space coo
 
 
 
-### -param hDC
+### -param hDC [in]
 
-TBD
+The handle of the device context for the containing control or form.
 
 
 ### -param x [in, out]
@@ -75,11 +75,6 @@ The x coordinate of the point to convert into an ink location.
 ### -param y [in, out]
 
 The y coordinate of the point to convert into an ink location.
-
-
-#### - hdcDisplay [in]
-
-The handle of the device context for the containing control or form.
 
 
 ## -returns

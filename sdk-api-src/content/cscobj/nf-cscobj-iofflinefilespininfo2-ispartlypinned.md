@@ -4,10 +4,10 @@ title: IOfflineFilesPinInfo2::IsPartlyPinned
 author: windows-sdk-content
 description: Determines whether the item is partly pinned.
 old-location: of\iofflinefilespininfo2_ispartlypinned.htm
-tech.root: OfflineFiles
+tech.root: offlinefiles
 ms.assetid: 9063a804-2597-4959-8249-e5b42f582ea3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: IOfflineFilesPinInfo2 interface [Offline Files],IsPartlyPinned method, IOfflineFilesPinInfo2.IsPartlyPinned, IOfflineFilesPinInfo2::IsPartlyPinned, IsPartlyPinned, IsPartlyPinned method [Offline Files], IsPartlyPinned method [Offline Files],IOfflineFilesPinInfo2 interface, cscobj/IOfflineFilesPinInfo2::IsPartlyPinned, of.iofflinefilespininfo2_ispartlypinned
 ms.prod: windows-hardware
 ms.technology: windows-devices

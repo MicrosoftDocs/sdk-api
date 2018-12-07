@@ -7,7 +7,7 @@ old-location: wcs\cmgetps2colorrenderingdictionary.htm
 tech.root: WCS
 ms.assetid: bf67fd0a-d32d-41e6-8868-ceb7bc8cd2f4
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 11/15/2018
 ms.keywords: CMGetPS2ColorRenderingDictionary, CMGetPS2ColorRenderingDictionary function [Windows Color System], _color_CMGetPS2ColorRenderingDictionary, icm/CMGetPS2ColorRenderingDictionary, wcs.cmgetps2colorrenderingdictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,6 +42,12 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- 
+: 
+- CMGetPS2ColorRenderingDictionary
+: 
 ---
 
 # CMGetPS2ColorRenderingDictionary function

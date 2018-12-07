@@ -4,13 +4,13 @@ title: "_TASK_RUN_FLAGS"
 author: windows-sdk-content
 description: Defines how a task is run.
 old-location: taskschd\task_run_flags.htm
-tech.root: TaskSchd
+tech.root: taskschd
 ms.assetid: 6c5a4ab6-b3ca-4d60-918d-82797782d66a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: TASK_RUN_AS_SELF, TASK_RUN_FLAGS, TASK_RUN_FLAGS enumeration [Task Scheduler], TASK_RUN_IGNORE_CONSTRAINTS, TASK_RUN_NO_FLAGS, TASK_RUN_USER_SID, TASK_RUN_USE_SESSION_ID, _TASK_RUN_FLAGS, taskschd.task_run_flags, taskschd/TASK_RUN_AS_SELF, taskschd/TASK_RUN_FLAGS, taskschd/TASK_RUN_IGNORE_CONSTRAINTS, taskschd/TASK_RUN_NO_FLAGS, taskschd/TASK_RUN_USER_SID, taskschd/TASK_RUN_USE_SESSION_ID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 

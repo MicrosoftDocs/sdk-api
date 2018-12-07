@@ -7,7 +7,7 @@ old-location: mediastreaming\iactivebasicdevice_getcachedsinkprotocolinfo.htm
 tech.root: mediastreaming
 ms.assetid: A4FF565E-0CB1-456B-A4C1-436EFA209FA2
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetCachedSinkProtocolInfo, GetCachedSinkProtocolInfo method [Media Streaming API], GetCachedSinkProtocolInfo method [Media Streaming API],IActiveBasicDevice interface, IActiveBasicDevice interface [Media Streaming API],GetCachedSinkProtocolInfo method, IActiveBasicDevice.GetCachedSinkProtocolInfo, IActiveBasicDevice.streaming, IActiveBasicDevice::GetCachedSinkProtocolInfo, IActiveBasicDevice::streaming, mediastreaming.iactivebasicdevice_getcachedsinkprotocolinfo, windows/IActiveBasicDevice::GetCachedSinkProtocolInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

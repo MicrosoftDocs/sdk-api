@@ -7,7 +7,7 @@ old-location: rm\drmcreateboundlicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: 102fa347-47be-4dc7-ba17-3f1ad3735b00
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DRMCreateBoundLicense, DRMCreateBoundLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateBoundLicense, rm.drmcreateboundlicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

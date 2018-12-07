@@ -7,7 +7,7 @@ old-location: shell\IShellMenu_GetShellFolder.htm
 tech.root: shell
 ms.assetid: 6f88e1ee-950f-41b8-ad53-3bd7e8772f42
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetShellFolder, GetShellFolder method [Windows Shell], GetShellFolder method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetShellFolder method, IShellMenu.GetShellFolder, IShellMenu::GetShellFolder, SMINIT_CACHED, SMINIT_DEFAULT, SMINIT_HORIZONTAL, SMINIT_RESTRICT_DRAGDROP, SMINIT_TOPLEVEL, SMINIT_VERTICAL, _shell_IShellMenu_GetShellFolder, shell.IShellMenu_GetShellFolder, shobjidl_core/IShellMenu::GetShellFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,9 +151,11 @@ Specifies a horizontal band.
  
 
 
-### -param ppidl
+### -param ppidl [out]
 
-TBD
+Type: <b>PCIDLIST_ABSOLUTE*</b>
+
+When this method returns, contains the address of the folder's fully qualified <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a>.
 
 
 ### -param riid [in]
@@ -168,13 +170,6 @@ The REFIID for the target folder.
 Type: <b>void**</b>
 
 When this method returns successfully, contains the address of a pointer to the Shell folder object referenced by the <i>riid</i>.
-
-
-#### - pidlFolder [out]
-
-Type: <b>PCIDLIST_ABSOLUTE*</b>
-
-When this method returns, contains the address of the folder's fully qualified <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a>.
 
 
 ## -returns

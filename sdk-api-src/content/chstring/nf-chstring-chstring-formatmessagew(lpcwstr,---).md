@@ -7,7 +7,7 @@ old-location: wmi\chstring_formatmessagew.htm
 tech.root: WmiSdk
 ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 11/15/2018
 ms.keywords: CHString.FormatMessageW, CHString.FormatMessageW(LPCWSTR,, CHString::FormatMessageW, CHString::FormatMessageW methods [Windows Management Instrumentation], CHString::FormatMessageW(LPCWSTR,, FormatMessageW, chstring/CHString::FormatMessageW, wmi.chstring_formatmessagew
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,6 +43,14 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+- apiref
+: 
+- COM
+: 
+- chstring.h
+: 
+- CHString.FormatMessageW
+: 
 ---
 
 # CHString::FormatMessageW(LPCWSTR,

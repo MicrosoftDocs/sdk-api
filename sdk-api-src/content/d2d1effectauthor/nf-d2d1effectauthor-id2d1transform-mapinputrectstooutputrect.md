@@ -7,7 +7,7 @@ old-location: direct2d\id2d1transform_mapinputrectstooutputrect.htm
 tech.root: direct2d
 ms.assetid: 8FC15A61-767C-460A-A260-9F56A41DA87F
 ms.author: windowssdkdev
-ms.date: 10/30/2018
+ms.date: 12/5/2018
 ms.keywords: ID2D1Transform interface [Direct2D],MapInputRectsToOutputRect method, ID2D1Transform.MapInputRectsToOutputRect, ID2D1Transform::MapInputRectsToOutputRect, MapInputRectsToOutputRect, MapInputRectsToOutputRect method [Direct2D], MapInputRectsToOutputRect method [Direct2D],ID2D1Transform interface, d2d1effectauthor/ID2D1Transform::MapInputRectsToOutputRect, direct2d.id2d1transform_mapinputrectstooutputrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,9 +66,11 @@ Type: <b>const <a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622A
 An array of input rectangles to be mapped to the output rectangle.  The <i>inputRects</i> parameter is always equal to the input bounds.
 
 
-### -param inputOpaqueSubRects
+### -param inputOpaqueSubRects [in]
 
-TBD
+Type: <b>const <a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
+
+An array of input rectangles to be mapped to the opaque output rectangle.
 
 
 ### -param inputRectCount
@@ -86,20 +88,6 @@ The output rectangle that maps to the corresponding input rectangle.
 
 
 ### -param outputOpaqueSubRect
-
-TBD
-
-
-
-
-#### - inputOpaqueRects [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
-
-An array of input rectangles to be mapped to the opaque output rectangle.
-
-
-#### - outputOpaqueRect
 
 Type: <b><a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
 

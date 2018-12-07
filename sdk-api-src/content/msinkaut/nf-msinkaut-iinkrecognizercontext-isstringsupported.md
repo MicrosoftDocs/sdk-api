@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_isstringsupported.htm
 tech.root: tablet
 ms.assetid: 5344044a-0973-4ab2-bf5c-74e0d07d4e76
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: 5344044a-0973-4ab2-bf5c-74e0d07d4e76, IInkRecognizerContext interface [Tablet PC],IsStringSupported method, IInkRecognizerContext.IsStringSupported, IInkRecognizerContext::IsStringSupported, IsStringSupported, IsStringSupported method [Tablet PC], IsStringSupported method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::IsStringSupported, tablet.inkrecognizercontext_isstringsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,21 +62,16 @@ Indicates whether the system dictionary, user dictionary, or <a href="https://ms
 
 
 
-### -param String
+### -param String [in]
 
-TBD
+The string to look up in the dictionaries and word list.
+
+For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
 ### -param Supported [out, retval]
 
 When this method returns, contains <b>VARIANT_TRUE</b> if the string is in the dictionary or word list; otherwise <b>VARIANT_FALSE</b>.
-
-
-#### - s [in]
-
-The string to look up in the dictionaries and word list.
-
-For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
 
 
 ## -returns

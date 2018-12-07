@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext_deletevalue.htm
 tech.root: WmiSdk
 ms.assetid: 5f2956cf-8901-441f-b1bd-4b2f21d74683
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteValue, DeleteValue method [Windows Management Instrumentation], DeleteValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],DeleteValue method, IWbemContext.DeleteValue, IWbemContext::DeleteValue, _hmm_iwbemcontext_deletevalue, wbemcli/IWbemContext::DeleteValue, wmi.iwbemcontext_deletevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,19 +67,14 @@ The
 
 
 
-### -param wszName
+### -param wszName [in]
 
-TBD
+Pointer to a valid <b>BSTR</b> containing the named context value to delete. The pointer is treated as read-only.
 
 
 ### -param lFlags [in]
 
 Reserved. This parameter must be 0.
-
-
-#### - strName [in]
-
-Pointer to a valid <b>BSTR</b> containing the named context value to delete. The pointer is treated as read-only.
 
 
 ## -returns

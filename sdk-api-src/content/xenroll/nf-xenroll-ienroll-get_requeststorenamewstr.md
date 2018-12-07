@@ -7,7 +7,7 @@ old-location: security\ienroll4_requeststorenamewstr.htm
 tech.root: seccrypto
 ms.assetid: 4ad739c0-fcf7-435b-b427-96ecca1afab7
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: IEnroll interface [Security],RequestStoreNameWStr property, IEnroll.RequestStoreNameWStr, IEnroll.get_RequestStoreNameWStr, IEnroll4 interface [Security],RequestStoreNameWStr property, IEnroll4.RequestStoreNameWStr, IEnroll4::get_RequestStoreNameWStr, IEnroll4::put_RequestStoreNameWStr, IEnroll::RequestStoreNameWStr, IEnroll::get_RequestStoreNameWStr, IEnroll::put_RequestStoreNameWStr, RequestStoreNameWStr property [Security], RequestStoreNameWStr property [Security],IEnroll interface, RequestStoreNameWStr property [Security],IEnroll4 interface, get_RequestStoreNameWStr, put_RequestStoreNameWStr, security.ienroll4_requeststorenamewstr, xenroll/IEnroll4::RequestStoreNameWStr, xenroll/IEnroll4::get_RequestStoreNameWStr, xenroll/IEnroll4::put_RequestStoreNameWStr, xenroll/IEnroll::RequestStoreNameWStr, xenroll/IEnroll::get_RequestStoreNameWStr, xenroll/IEnroll::put_RequestStoreNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

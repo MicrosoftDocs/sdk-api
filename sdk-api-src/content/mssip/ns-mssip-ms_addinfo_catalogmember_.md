@@ -7,10 +7,10 @@ old-location: security\ms_addinfo_catalogmember.htm
 tech.root: seccrypto
 ms.assetid: 40a00c8a-95e4-406c-b04e-0d29beb70d67
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/05/2018
 ms.keywords: "*PMS_ADDINFO_CATALOGMEMBER, MS_ADDINFO_CATALOGMEMBER, MS_ADDINFO_CATALOGMEMBER structure [Security], MS_ADDINFO_CATALOGMEMBER_, PMS_ADDINFO_CATALOGMEMBER, PMS_ADDINFO_CATALOGMEMBER structure pointer [Security], mssip/MS_ADDINFO_CATALOGMEMBER_, mssip/PMS_ADDINFO_CATALOGMEMBER, security.ms_addinfo_catalogmember"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 

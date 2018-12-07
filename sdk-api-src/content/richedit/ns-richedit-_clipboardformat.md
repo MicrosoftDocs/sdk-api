@@ -7,10 +7,10 @@ old-location: controls\clipboardformat.htm
 tech.root: controls
 ms.assetid: 5AD870B6-C4F1-446C-A516-171B24355EFA
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: CLIPBOARDFORMAT, CLIPBOARDFORMAT structure [Windows Controls], _clipboardformat, controls.clipboardformat, richedit/CLIPBOARDFORMAT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

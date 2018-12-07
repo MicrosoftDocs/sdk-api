@@ -7,7 +7,7 @@ old-location: termserv\wtsopenserver.htm
 tech.root: termserv
 ms.assetid: f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: WTSOpenServer, WTSOpenServer function [Remote Desktop Services], WTSOpenServerA, WTSOpenServerW, _win32_wtsopenserver, termserv.wtsopenserver, wtsapi32/WTSOpenServer, wtsapi32/WTSOpenServerA, wtsapi32/WTSOpenServerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

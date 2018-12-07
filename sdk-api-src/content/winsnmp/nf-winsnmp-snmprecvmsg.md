@@ -7,7 +7,7 @@ old-location: snmp\snmprecvmsg.htm
 tech.root: SNMP
 ms.assetid: 0e306e40-cccc-4083-b3ba-97b8ece0ae35
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SnmpRecvMsg, SnmpRecvMsg function [SNMP], _snmp_snmprecvmsg, snmp.snmprecvmsg, winsnmp/SnmpRecvMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

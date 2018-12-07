@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_remove.htm
 tech.root: tablet
 ms.assetid: ce7a7842-c7c8-4f73-8f68-05b22c2199de
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Remove method, IInkStrokes.Remove, IInkStrokes::Remove, Remove, Remove method [Tablet PC], Remove method [Tablet PC],IInkStrokes interface, ce7a7842-c7c8-4f73-8f68-05b22c2199de, msinkaut/IInkStrokes::Remove, tablet.inkstrokes_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,7 @@ Removes an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bc
 
 
 
-### -param InkStroke
-
-TBD
-
-
-
-
-#### - stroke [in]
+### -param InkStroke [in]
 
 The <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> to remove.
 

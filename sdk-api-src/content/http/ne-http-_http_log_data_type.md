@@ -4,13 +4,13 @@ title: "_HTTP_LOG_DATA_TYPE"
 author: windows-sdk-content
 description: Identifies the type of log data.
 old-location: http\http_log_data_type.htm
-tech.root: Http
+tech.root: http
 ms.assetid: 8c53a3e6-5001-4e72-bff4-a6eab007aa9c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE enumeration [HTTP], HTTP_LOG_DATA_TYPE, HTTP_LOG_DATA_TYPE enumeration [HTTP], HttpLogDataTypeFields, _HTTP_LOG_DATA_TYPE, http.http_log_data_type, http/*PHTTP_LOG_DATA_TYPE, http/HTTP_LOG_DATA_TYPE, http/HttpLogDataTypeFields"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: http.h
 req.include-header: 

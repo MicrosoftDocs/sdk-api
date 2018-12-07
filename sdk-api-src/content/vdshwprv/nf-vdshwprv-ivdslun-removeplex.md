@@ -4,10 +4,10 @@ title: IVdsLun::RemovePlex
 author: windows-sdk-content
 description: Removes a plex from a LUN.
 old-location: base\ivdslun_removeplex.htm
-tech.root: VDS
+tech.root: vds
 ms.assetid: 9959c2a3-f282-4512-9d3f-da8842d5ee79
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IVdsLun interface [VDS],RemovePlex method, IVdsLun.RemovePlex, IVdsLun::RemovePlex, RemovePlex, RemovePlex method [VDS], RemovePlex method [VDS],IVdsLun interface, base.ivdslun_removeplex, vds/IVdsLun::RemovePlex, vdshwprv/IVdsLun::RemovePlex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\terminatejobobject.htm
 tech.root: procthread
 ms.assetid: ff8eb4a8-26d0-4f01-ab56-3c51fb16e87c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: TerminateJobObject, TerminateJobObject function, _win32_terminatejobobject, base.terminatejobobject, winbase/TerminateJobObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

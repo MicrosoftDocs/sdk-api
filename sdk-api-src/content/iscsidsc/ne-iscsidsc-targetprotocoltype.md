@@ -9,8 +9,8 @@ ms.assetid: 1997b1d0-6723-434c-bca7-513e4dc30ee6
 ms.author: windowssdkdev
 ms.date: 09/26/2018
 ms.keywords: "*PTARGETPROTOCOLTYPE, ISCSI_TCP_PROTOCOL_TYPE, TARGETPROTOCOLTYPE, TARGETPROTOCOLTYPE enumeration [iSCSI Discovery Library API], iscsidisc.targetprotocoltype, iscsidsc/ISCSI_TCP_PROTOCOL_TYPE, iscsidsc/TARGETPROTOCOLTYPE"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: iscsidsc.h
 req.include-header: 

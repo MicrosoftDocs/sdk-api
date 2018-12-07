@@ -7,7 +7,7 @@ old-location: mscs\iweextendwizard97_createwizard97pages.htm
 tech.root: mscs
 ms.assetid: 1ab81008-42d8-4863-8836-0508e49ceca9
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: CreateWizard97Pages, CreateWizard97Pages method [Failover Cluster], CreateWizard97Pages method [Failover Cluster],IWEExtendWizard97 interface, IWEExtendWizard97 interface [Failover Cluster],CreateWizard97Pages method, IWEExtendWizard97.CreateWizard97Pages, IWEExtendWizard97::CreateWizard97Pages, _wolf_iweextendwizard97_createwizard97pages, cluadmex/IWEExtendWizard97::CreateWizard97Pages, mscs.iweextendwizard97_createwizard97pages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,6 +114,50 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa370511(v=VS.85
 
 Return one of the following values or any <b>HRESULT</b> that describes the results of 
        the operation.
+
+<table>
+<tr>
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NOERROR</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The operation was successful.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+<dt>0x80070057</dt>
+</dl>
+</td>
+<td width="60%">
+At least one of the parameters is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_NOTIMPL</b></dt>
+<dt>0x80004001</dt>
+</dl>
+</td>
+<td width="60%">
+The extension does not support adding Wizard97 pages.
+
+</td>
+</tr>
+</table>
+ 
 
 
 

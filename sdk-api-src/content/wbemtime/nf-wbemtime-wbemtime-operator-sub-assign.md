@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_operator_minus_equal.htm
 tech.root: WmiSdk
 ms.assetid: 842cfddd-f137-46ba-9744-e3a71dd82f01
 ms.author: windowssdkdev
-ms.date: 10/19/2018
+ms.date: 12/5/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator-= method, WBEMTime.operator-=, WBEMTime.operator-sub-assign, WBEMTime::operator-=, WBEMTime::operator-sub-assign, _hmm_wbemtime_operator_minus_equal, operator-=, operator-= method [Windows Management Instrumentation], operator-= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator-=, wmi.wbemtime_operator_minus_equal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,14 +65,7 @@ The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WB
 
 
 
-### -param sub
-
-TBD
-
-
-
-
-#### - ts [ref]
+### -param sub [ref]
 
 Reference to the <a href="https://msdn.microsoft.com/bcec87c1-32ba-451b-92bb-80c8a5007adb">WBEMTimeSpan</a> object, whose time span is subtracted from the specified object.
 

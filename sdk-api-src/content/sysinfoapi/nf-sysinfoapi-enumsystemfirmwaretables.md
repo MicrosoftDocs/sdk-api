@@ -4,10 +4,10 @@ title: EnumSystemFirmwareTables function
 author: windows-sdk-content
 description: Enumerates all system firmware tables of the specified type.
 old-location: base\enumsystemfirmwaretables.htm
-tech.root: SysInfo
+tech.root: sysinfo
 ms.assetid: 42aaefc0-dc05-460d-931a-b702fa855bed
 ms.author: windowssdkdev
-ms.date: 11/12/2018
+ms.date: 12/5/2018
 ms.keywords: EnumSystemFirmwareTables, EnumSystemFirmwareTables function, base.enumsystemfirmwaretables, sysinfoapi/EnumSystemFirmwareTables
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,21 +90,16 @@ The identifier of the firmware table provider to which the query is to be direct
  
 
 
-### -param pFirmwareTableEnumBuffer
+### -param pFirmwareTableEnumBuffer [out]
 
-TBD
+A pointer to a buffer that receives the list of  firmware tables. If this parameter is <b>NULL</b>, the return value is the required buffer size.
+
+For more information on the contents of this buffer, see the Remarks section.
 
 
 ### -param BufferSize [in]
 
 The size of the <i>pFirmwareTableBuffer</i> buffer, in bytes.
-
-
-#### - pFirmwareTableBuffer [out]
-
-A pointer to a buffer that receives the list of  firmware tables. If this parameter is <b>NULL</b>, the return value is the required buffer size.
-
-For more information on the contents of this buffer, see the Remarks section.
 
 
 ## -returns

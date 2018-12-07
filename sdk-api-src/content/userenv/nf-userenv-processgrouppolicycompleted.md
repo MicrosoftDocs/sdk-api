@@ -4,10 +4,10 @@ title: ProcessGroupPolicyCompleted function
 author: windows-sdk-content
 description: The ProcessGroupPolicyCompleted function notifies the system that the specified extension has finished applying policy.
 old-location: policy\processgrouppolicycompleted.htm
-tech.root: Policy
+tech.root: policy
 ms.assetid: f88c8072-af4c-44e0-a816-ecb841dd1a78
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 11/16/2018
 ms.keywords: ProcessGroupPolicyCompleted, ProcessGroupPolicyCompleted function [Group Policy], _win32_processgrouppolicycompleted, policy.processgrouppolicycompleted, userenv/ProcessGroupPolicyCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

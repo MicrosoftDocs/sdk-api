@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo_getddrawobject.htm
 tech.root: DirectShow
 ms.assetid: b664fbcc-de14-42ca-95d0-97719e381605
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: GetDDrawObject, GetDDrawObject method [DirectShow], GetDDrawObject method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetDDrawObject method, IDDrawExclModeVideo.GetDDrawObject, IDDrawExclModeVideo::GetDDrawObject, IDDrawExclModeVideoGetDDrawObject, dshow.iddrawexclmodevideo_getddrawobject, strmif/IDDrawExclModeVideo::GetDDrawObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,19 +62,14 @@ The <code>GetDDrawObject</code> method retrieves the DirectDraw object being use
 
 
 
-### -param ppDDrawObject
+### -param ppDDrawObject [out]
 
-TBD
+Address of a pointer to the <b>IDirectDraw</b> interface that the Overlay Mixer is using.
 
 
 ### -param pbUsingExternal [out]
 
 Pointer to a variable that receives a Boolean value. It receives the value <b>TRUE</b> if the Overlay Mixer is using a DirectDraw object specified by <a href="https://msdn.microsoft.com/fce1b5df-c3df-475c-adde-392c25d05e4c">IDDrawExclModeVideo::SetDDrawObject</a>, or <b>FALSE</b> otherwise.
-
-
-#### - pDDrawObject [out]
-
-Address of a pointer to the <b>IDirectDraw</b> interface that the Overlay Mixer is using.
 
 
 ## -returns

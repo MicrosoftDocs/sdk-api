@@ -7,10 +7,10 @@ old-location: display\dd_callbacks.htm
 tech.root: display
 ms.assetid: d68b2772-dca6-417a-8e03-d3b2843fb69d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDD_CALLBACKS, DD_CALLBACKS, DD_CALLBACKS structure [Display Devices], ddrawint/DD_CALLBACKS, ddstrcts_c4da6934-e140-40db-b7dc-686c205cb877.xml, display.dd_callbacks"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

@@ -7,7 +7,7 @@ old-location: security\icenroll4_addcerttypetorequestex.htm
 tech.root: seccrypto
 ms.assetid: bde35e01-8b26-44f7-828e-e8313a2b5a12
 ms.author: windowssdkdev
-ms.date: 11/09/2018
+ms.date: 12/5/2018
 ms.keywords: CEnroll object [Security],addCertTypeToRequestEx method, ICEnroll4 interface [Security],addCertTypeToRequestEx method, ICEnroll4.addCertTypeToRequestEx, ICEnroll4::addCertTypeToRequestEx, XECT_EXTENSION_V1, XECT_EXTENSION_V2, _xen_icenroll4_addcerttypetorequestex, addCertTypeToRequestEx, addCertTypeToRequestEx method [Security], addCertTypeToRequestEx method [Security],CEnroll object, addCertTypeToRequestEx method [Security],ICEnroll4 interface, security.icenroll4_addcerttypetorequestex, xenroll/ICEnroll4::addCertTypeToRequestEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,32 +65,7 @@ This method is associated with the Certificate Services enterprise
 
 
 
-### -param lType
-
-TBD
-
-
-### -param bstrOIDOrName [in]
-
-The certificate template fully qualified name which is being added to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. This value is interpreted by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>.
-
-
-### -param lMajorVersion [in]
-
-Sets the major version of the template. This parameter is ignored if <i>lFlag</i> is XECT_EXTENSION_V!.
-
-
-### -param fMinorVersion [in]
-
-Indicates whether a minor version of the template is used. This parameter is ignored if <i>lFlag</i> is XECT_EXTENSION_V!.
-
-
-### -param lMinorVersion [in]
-
-Sets the minor version of the template. This parameter is ignored if <i>lFlag</i> is XECT_EXTENSION_V1 or if <i>fMinorVersion</i> is <b>FALSE</b>.
-
-
-#### - lFlag [in]
+### -param lType [in]
 
 Indicates the version type of the template extension. This can be either of the following values: 
 
@@ -126,6 +101,26 @@ Uses a version 2 extension
 </tr>
 </table>
  
+
+
+### -param bstrOIDOrName [in]
+
+The certificate template fully qualified name which is being added to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. This value is interpreted by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>.
+
+
+### -param lMajorVersion [in]
+
+Sets the major version of the template. This parameter is ignored if <i>lFlag</i> is XECT_EXTENSION_V!.
+
+
+### -param fMinorVersion [in]
+
+Indicates whether a minor version of the template is used. This parameter is ignored if <i>lFlag</i> is XECT_EXTENSION_V!.
+
+
+### -param lMinorVersion [in]
+
+Sets the minor version of the template. This parameter is ignored if <i>lFlag</i> is XECT_EXTENSION_V1 or if <i>fMinorVersion</i> is <b>FALSE</b>.
 
 
 ## -returns

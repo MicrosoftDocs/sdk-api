@@ -7,10 +7,10 @@ old-location: winmsg\kbdllhookstruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\kbdllhookstruct.htm
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 11/16/2018
 ms.keywords: "*LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT, KBDLLHOOKSTRUCT, KBDLLHOOKSTRUCT structure [Windows and Messages], LLKHF_ALTDOWN, LLKHF_EXTENDED, LLKHF_INJECTED, LLKHF_LOWER_IL_INJECTED, LLKHF_UP, LPKBDLLHOOKSTRUCT, LPKBDLLHOOKSTRUCT structure pointer [Windows and Messages], PKBDLLHOOKSTRUCT, PKBDLLHOOKSTRUCT structure pointer [Windows and Messages], _win32_KBDLLHOOKSTRUCT_str, _win32_kbdllhookstruct_str_cpp, tagKBDLLHOOKSTRUCT, winmsg.kbdllhookstruct, winui._win32_kbdllhookstruct_str, winuser/KBDLLHOOKSTRUCT, winuser/LPKBDLLHOOKSTRUCT, winuser/PKBDLLHOOKSTRUCT"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

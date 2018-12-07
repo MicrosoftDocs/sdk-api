@@ -4,13 +4,13 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0002"
 author: windows-sdk-content
 description: Defines the set of supported generator parameters.
 old-location: rdc\generatorparameterstype.htm
-tech.root: Rdc
+tech.root: rdc
 ms.assetid: 55abafd5-4c55-498c-a567-a64d9bb76856
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GeneratorParametersType, GeneratorParametersType enumeration [Remote Differential Compression], RDCGENTYPE_FilterMax, RDCGENTYPE_Unused, __MIDL___MIDL_itf_msrdc_0000_0000_0002, fs.generatorparameterstype, msrdc/GeneratorParametersType, msrdc/RDCGENTYPE_FilterMax, msrdc/RDCGENTYPE_Unused, rdc.generatorparameterstype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: msrdc.h
 req.include-header: 

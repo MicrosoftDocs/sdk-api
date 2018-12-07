@@ -4,10 +4,10 @@ title: FindFirstUrlCacheEntryA function
 author: windows-sdk-content
 description: Begins the enumeration of the Internet cache.
 old-location: wininet\findfirsturlcacheentry.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: e8407284-846b-4080-b75b-4805330e0f95
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FindFirstUrlCacheEntry, FindFirstUrlCacheEntry function [WinINet], FindFirstUrlCacheEntryA, FindFirstUrlCacheEntryW, _inet_findfirsturlcacheentry_function, wininet.findfirsturlcacheentry, wininet/FindFirstUrlCacheEntry, wininet/FindFirstUrlCacheEntryA, wininet/FindFirstUrlCacheEntryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

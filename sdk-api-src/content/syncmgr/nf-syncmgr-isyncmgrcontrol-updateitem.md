@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateItem.htm
 tech.root: shell
 ms.assetid: deb87d2f-74da-450a-a424-505240eadacb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateItem method, ISyncMgrControl.UpdateItem, ISyncMgrControl::UpdateItem, UpdateItem, UpdateItem method [Windows Shell], UpdateItem method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateItem, shell.ISyncMgrControl_UpdateItem, syncmgr/ISyncMgrControl::UpdateItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

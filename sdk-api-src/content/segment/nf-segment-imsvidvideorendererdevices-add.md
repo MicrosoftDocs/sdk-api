@@ -4,10 +4,10 @@ title: IMSVidVideoRendererDevices::Add
 author: windows-sdk-content
 description: The Add method adds a video renderer to the collection.
 old-location: mstv\imsvidvideorendererdevices_add.htm
-tech.root: MSTV
+tech.root: mstv
 ms.assetid: 650b7895-4e4b-494a-bc06-dafb67fca391
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Add method, IMSVidVideoRendererDevices.Add, IMSVidVideoRendererDevices::Add, IMSVidVideoRendererDevicesAdd, mstv.imsvidvideorendererdevices_add, segment/IMSVidVideoRendererDevices::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

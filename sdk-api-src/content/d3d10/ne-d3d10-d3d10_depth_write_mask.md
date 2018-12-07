@@ -7,10 +7,10 @@ old-location: direct3d10\d3d10_depth_write_mask.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_depth_write_mask.htm
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: 162f8cd0-c67e-c41d-f881-5fc9f9ce501c, D3D10_DEPTH_WRITE_MASK, D3D10_DEPTH_WRITE_MASK enumeration [Direct3D 10], D3D10_DEPTH_WRITE_MASK_ALL, D3D10_DEPTH_WRITE_MASK_ZERO, d3d10/D3D10_DEPTH_WRITE_MASK, d3d10/D3D10_DEPTH_WRITE_MASK_ALL, d3d10/D3D10_DEPTH_WRITE_MASK_ZERO, direct3d10.d3d10_depth_write_mask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
