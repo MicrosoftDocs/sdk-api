@@ -112,48 +112,42 @@ There are three valid calling patterns for this function:
 <ol>
 <li>The parent folder is identified by an absolute IDList <i>pidlParent</i>. The <i>pidl</i> parameter points to a child IDList that identifies the item within the folder identified by <i>pidlParent</i>.
 
-                        <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IShellItem *psi;
-SHCreateShellItem(pidlParent, NULL, pidlChild, &amp;psi);
-</pre>
-</td>
-</tr>
-</table></span></div>
+                        
+
+
+```cpp
+IShellItem *psi;
+SHCreateShellItem(pidlParent, NULL, pidlChild, &psi);
+
+```
+
+
 </li>
 <li>The parent folder is identified by <i>psfParent</i>. The <i>pidl</i> parameter points to a child IDList that identifies the item within the folder identified by <i>psfParent</i>.
 
-                        <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IShellItem *psi;
-SHCreateShellItem(NULL, psfParent, pidlChild, &amp;psi);
-</pre>
-</td>
-</tr>
-</table></span></div>
+                        
+
+
+```cpp
+IShellItem *psi;
+SHCreateShellItem(NULL, psfParent, pidlChild, &psi);
+
+```
+
+
 </li>
 <li>The item is identified by an absolute IDList passed to the <i>pidl</i> parameter.
 
-                        <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IShellItem *psi;
-SHCreateShellItem(NULL, NULL, pidlFull, &amp;psi);
-</pre>
-</td>
-</tr>
-</table></span></div>
+                        
+
+
+```cpp
+IShellItem *psi;
+SHCreateShellItem(NULL, NULL, pidlFull, &psi);
+
+```
+
+
 </li>
 </ol>
 

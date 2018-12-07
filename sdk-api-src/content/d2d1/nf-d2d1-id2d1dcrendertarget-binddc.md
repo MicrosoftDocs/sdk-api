@@ -96,40 +96,26 @@ In the preceding code, <i>m_pD2DFactory</i> is a  pointer to an <a href="https:/
 
 The next code example binds a DC to the <a href="https://msdn.microsoft.com/6546998e-6740-413a-88c5-36fa0decec8f">ID2D1DCRenderTarget</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DemoApp::OnRender(const PAINTSTRUCT &amp;ps)
+
+```cpp
+HRESULT DemoApp::OnRender(const PAINTSTRUCT &ps)
 {
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Get the dimensions of the client drawing area.
-GetClientRect(m_hwnd, &amp;rc);
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Bind the DC to the DC render target.
-hr = m_pDCRT-&gt;BindDC(ps.hdc, &amp;rc);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+```cpp
+// Get the dimensions of the client drawing area.
+GetClientRect(m_hwnd, &rc);
+
+```
+
+```cpp
+// Bind the DC to the DC render target.
+hr = m_pDCRT->BindDC(ps.hdc, &rc);
+
+```
+
+
 
 
 

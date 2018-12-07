@@ -85,30 +85,26 @@ To help create colors, Direct2D provides the <a href="https://msdn.microsoft.com
 
 The following code shows  how to use this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>        m_pSolidColorBrush-&gt;SetColor(
+
+```cpp
+        m_pSolidColorBrush->SetColor(
             D2D1::ColorF(
                 0.0f,
                 intensity,
                 1.0f - intensity
                 ));
 
-        hr = m_pRealization-&gt;Fill(
+        hr = m_pRealization->Fill(
                 m_pRT,
                 m_pSolidColorBrush,
                 m_useRealizations ?
                     REALIZATION_RENDER_MODE_DEFAULT :
                     REALIZATION_RENDER_MODE_FORCE_UNREALIZED
                 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -101,14 +101,10 @@ When you create a render target and hardware acceleration is available, you allo
 
 The following example creates an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>RECT rc;
-GetClientRect(m_hwnd, &amp;rc);
+
+```cpp
+RECT rc;
+GetClientRect(m_hwnd, &rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
     rc.right - rc.left,
@@ -116,15 +112,15 @@ D2D1_SIZE_U size = D2D1::SizeU(
     );
 
 // Create a Direct2D render target.
-hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
+hr = m_pD2DFactory->CreateHwndRenderTarget(
     D2D1::RenderTargetProperties(),
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
-    &amp;m_pRenderTarget
+    &m_pRenderTarget
     );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

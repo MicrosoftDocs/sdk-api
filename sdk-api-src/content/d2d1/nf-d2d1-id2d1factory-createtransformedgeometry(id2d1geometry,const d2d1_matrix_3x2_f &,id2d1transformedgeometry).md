@@ -104,80 +104,63 @@ When stroking a transformed geometry with the <a href="https://msdn.microsoft.co
 The following example creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
 
 <img alt="Illustration of a rectangle" src="./images/transformedgeometry2_step1.png"/>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>hr = m_pD2DFactory-&gt;CreateRectangleGeometry(
+
+```cpp
+hr = m_pD2DFactory->CreateRectangleGeometry(
     D2D1::RectF(150.f, 150.f, 200.f, 200.f),
-    &amp;m_pRectangleGeometry
+    &m_pRectangleGeometry
     );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The next example uses the render target to scale the geometry by a factor of 3, then draws it. The following illustration shows the result of drawing the rectangle without the transform and with the transform; notices that the stroke is thicker after the transform, even though the stroke thickness is 1.
 
 <img alt="Illustration of a smaller rectangle inside a larger rectangle with a thicker stroke" src="./images/transformedgeometry2_step2.png"/>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Transform the render target, then draw the rectangle geometry again.
-m_pRenderTarget-&gt;SetTransform(
+
+```cpp
+// Transform the render target, then draw the rectangle geometry again.
+m_pRenderTarget->SetTransform(
     D2D1::Matrix3x2F::Scale(
         D2D1::SizeF(3.f, 3.f),
         D2D1::Point2F(175.f, 175.f))
     );
 
-m_pRenderTarget-&gt;DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
-</pre>
-</td>
-</tr>
-</table></span></div>
+m_pRenderTarget->DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
+
+```
+
+
 The next example uses the <a href="https://msdn.microsoft.com/71f26200-0f35-49d7-951d-2962768d16bc">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
 <img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="./images/transformedgeometry2_step3.png"/>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> // Create a geometry that is a scaled version
+
+```cpp
+ // Create a geometry that is a scaled version
  // of m_pRectangleGeometry.
  // The new geometry is scaled by a factory of 3
  // from the center of the geometry, (35, 35).
 
- hr = m_pD2DFactory-&gt;CreateTransformedGeometry(
+ hr = m_pD2DFactory->CreateTransformedGeometry(
      m_pRectangleGeometry,
      D2D1::Matrix3x2F::Scale(
          D2D1::SizeF(3.f, 3.f),
          D2D1::Point2F(175.f, 175.f)),
-     &amp;m_pTransformedGeometry
+     &m_pTransformedGeometry
      );
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Replace the previous render target transform.
-m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
+
+```
+
+```cpp
+// Replace the previous render target transform.
+m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
 
 // Draw the transformed geometry.
-m_pRenderTarget-&gt;DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
-</pre>
-</td>
-</tr>
-</table></span></div>
+m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
+
+```
+
+
 
 
 

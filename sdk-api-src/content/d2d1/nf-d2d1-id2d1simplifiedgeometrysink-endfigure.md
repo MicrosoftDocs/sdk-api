@@ -85,69 +85,60 @@ Calling this method without a matching call to <a href="https://msdn.microsoft.c
 
 The following example creates an <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>, retrieves a sink, uses it to define an hourglass shape, and then calls <b>EndFigure</b> with the D2D1_FIGURE_END_CLOSED value to end the creation of the hourglass. For the complete example, see <a href="https://msdn.microsoft.com/d7aad487-04e0-448d-bedf-b8dfadc7bbe9">How to Draw and Fill a Complex Shape</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ID2D1GeometrySink *pSink = NULL;
 
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Create a path geometry.
+```cpp
+ID2D1GeometrySink *pSink = NULL;
+
+
+```
+
+```cpp
+// Create a path geometry.
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory-&gt;CreatePathGeometry(&amp;m_pPathGeometry);
+    hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
 
     if (SUCCEEDED(hr))
     {
         // Write to the path geometry using the geometry sink.
-        hr = m_pPathGeometry-&gt;Open(&amp;pSink);
+        hr = m_pPathGeometry->Open(&pSink);
 
         if (SUCCEEDED(hr))
         {
-            pSink-&gt;BeginFigure(
+            pSink->BeginFigure(
                 D2D1::Point2F(0, 0),
                 D2D1_FIGURE_BEGIN_FILLED
                 );
 
-            pSink-&gt;AddLine(D2D1::Point2F(200, 0));
+            pSink->AddLine(D2D1::Point2F(200, 0));
 
-            pSink-&gt;AddBezier(
+            pSink->AddBezier(
                 D2D1::BezierSegment(
                     D2D1::Point2F(150, 50),
                     D2D1::Point2F(150, 150),
                     D2D1::Point2F(200, 200))
                 );
 
-            pSink-&gt;AddLine(D2D1::Point2F(0, 200));
+            pSink->AddLine(D2D1::Point2F(0, 200));
 
-            pSink-&gt;AddBezier(
+            pSink->AddBezier(
                 D2D1::BezierSegment(
                     D2D1::Point2F(50, 150),
                     D2D1::Point2F(50, 50),
                     D2D1::Point2F(0, 0))
                 );
 
-            pSink-&gt;EndFigure(D2D1_FIGURE_END_CLOSED);
+            pSink->EndFigure(D2D1_FIGURE_END_CLOSED);
 
-            hr = pSink-&gt;Close();
+            hr = pSink->Close();
         }
-        SafeRelease(&amp;pSink);
+        SafeRelease(&pSink);
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <div class="code"></div>
 
 

@@ -101,32 +101,28 @@ The <b>KeySpec</b> property affects the behavior of the following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD    dwKeySpec;
+
+```cpp
+DWORD    dwKeySpec;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the KeySpec value
-hr = pEnroll-&gt;get_KeySpec( &amp;dwKeySpec );
+hr = pEnroll->get_KeySpec( &dwKeySpec );
 if (FAILED( hr ))
     printf("Failed get_KeySpec - %x\n", hr );
 else
     printf( "KeySpec: %d\n", dwKeySpec );
 
 // set the KeySpec value
-hr = pEnroll-&gt;put_KeySpec( AT_KEYEXCHANGE );
+hr = pEnroll->put_KeySpec( AT_KEYEXCHANGE );
 if (FAILED( hr ))
     printf("Failed put_KeySpec - %x\n", hr );
 else
-    printf( "KeySpec set to %d\n", AT_KEYEXCHANGE );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "KeySpec set to %d\n", AT_KEYEXCHANGE );
+```
+
+
 
 

@@ -107,13 +107,9 @@ The rectangle returned by this method might be larger than necessary to enclose 
 
 The following example creates a path that has one curve and one ellipse. The code draws the path with a thick yellow pen and a thin black pen. The <b>GraphicsPath::GetBounds</b> method receives the address of the thick yellow pen and calculates a bounding rectangle for the path. Then the code draws the bounding rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID GetBoundsExample(HDC hdc)
+
+```cpp
+VOID GetBoundsExample(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen blackPen(Color(255, 0, 0, 0), 1);
@@ -131,19 +127,19 @@ The following example creates a path that has one curve and one ellipse. The cod
    path.AddEllipse(120, 220, 100, 40);
 
    // Draw the path with a thick yellow pen and a thin black pen.
-   graphics.DrawPath(&amp;yellowPen, &amp;path);
-   graphics.DrawPath(&amp;blackPen, &amp;path);
+   graphics.DrawPath(&yellowPen, &path);
+   graphics.DrawPath(&blackPen, &path);
  
    // Get the path's bounding rectangle.
    Rect rect;
-   path.GetBounds(&amp;rect, NULL, &amp;yellowPen);
-   graphics.DrawRectangle(&amp;redPen, rect);  
+   path.GetBounds(&rect, NULL, &yellowPen);
+   graphics.DrawRectangle(&redPen, rect);  
 }
 
-Color(255, 0, 0, 0)Color(255, 255, 0,  0)</pre>
-</td>
-</tr>
-</table></span></div>
+Color(255, 0, 0, 0)Color(255, 255, 0,  0)
+```
+
+
 
 
 

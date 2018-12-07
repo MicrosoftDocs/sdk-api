@@ -91,18 +91,14 @@ In a two-lens camera, the objective lens is closer to the subject, and the ocula
 
 If the camera supports optical zooming, the current zoom level is expressed as integer values between a range <i>Zmin</i> and <i>Zmax</i>. The objective focal length can then be calculated as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 Lcur = ( ( (Zcur - Zmin) * (Lmax - Lmin) ) / (Zmax - Zmin) ) + Lmin
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 where:
 
 <ul>
@@ -115,16 +111,14 @@ where:
 <li>
             Zmin, Zmax = Minimum and maximum zoom setting. See <a href="https://msdn.microsoft.com/93a81b65-4b63-45c9-b065-f4aa5cf2e4ae">ICameraControl::getRange_Zoom</a>.</li>
 </ul>
-From <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Lcur</pre>
-</td>
-</tr>
-</table></span></div>, you can calculate the magnification.
+From 
+
+
+```
+Lcur
+```
+
+, you can calculate the magnification.
 
 
 

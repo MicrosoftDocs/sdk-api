@@ -123,20 +123,16 @@ See <a href="https://msdn.microsoft.com/76b347f8-185b-4da6-9647-4d066334ac12">DW
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (SUCCEEDED(hr))
+
+```cpp
+if (SUCCEEDED(hr))
 {
-    hr = pTextFormat_-&gt;SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
+    hr = pTextFormat_->SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -87,29 +87,25 @@ The following illustration shows how a linear gradient changes as you change its
 
 The following example uses the <a href="https://msdn.microsoft.com/dc07113f-ff93-4b0f-8328-02dd481dccb0">CreateLinearGradientBrush</a> method to create an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a> (<i>m_pLinearGradientBrush</i>). It uses the <a href="https://msdn.microsoft.com/dba59936-2b2d-4a9b-aba4-acb6ff84c037">D2D1::LinearGradientBrushProperties</a> helper method to create a <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structure that contains a start point of (0, 0) and and end point of (150, 150) and passes it to the  <b>CreateLinearGradientBrush</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// The line that determines the direction of the gradient starts at
+
+```cpp
+// The line that determines the direction of the gradient starts at
 // the upper-left corner of the square and ends at the lower-right corner.
 
 if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget-&gt;CreateLinearGradientBrush(
+    hr = m_pRenderTarget->CreateLinearGradientBrush(
         D2D1::LinearGradientBrushProperties(
             D2D1::Point2F(0, 0),
             D2D1::Point2F(150, 150)),
         pGradientStops,
-        &amp;m_pLinearGradientBrush
+        &m_pLinearGradientBrush
         );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For more information about creating and using linear gradient brushes, see 
         the <a href="https://msdn.microsoft.com/3cf5acc6-2f17-49d4-aca5-a84a846d1749">How to Create a Linear Gradient Brush</a> topic and 
         the <a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>.

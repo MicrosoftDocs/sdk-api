@@ -101,51 +101,47 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip to a Geometric Mask</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
+
+```cpp
+HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 {
     HRESULT hr = S_OK;
 
     // Create a layer.
     ID2D1Layer *pLayer = NULL;
-    hr = pRT-&gt;CreateLayer(NULL, &amp;pLayer);
+    hr = pRT->CreateLayer(NULL, &pLayer);
 
     if (SUCCEEDED(hr))
     {
-        pRT-&gt;SetTransform(D2D1::Matrix3x2F::Translation(350, 50));
+        pRT->SetTransform(D2D1::Matrix3x2F::Translation(350, 50));
 
         // Push the layer with the geometric mask.
-        pRT-&gt;PushLayer(
+        pRT->PushLayer(
             D2D1::LayerParameters(D2D1::InfiniteRect(), m_pPathGeometry),
             pLayer
             );
             
   
-        pRT-&gt;DrawBitmap(m_pOrigBitmap, D2D1::RectF(0, 0, 200, 133));
-        pRT-&gt;FillRectangle(D2D1::RectF(0.f, 0.f, 25.f, 25.f), m_pSolidColorBrush);  
-        pRT-&gt;FillRectangle(D2D1::RectF(25.f, 25.f, 50.f, 50.f), m_pSolidColorBrush);
-        pRT-&gt;FillRectangle(D2D1::RectF(50.f, 50.f, 75.f, 75.f), m_pSolidColorBrush); 
-        pRT-&gt;FillRectangle(D2D1::RectF(75.f, 75.f, 100.f, 100.f), m_pSolidColorBrush);    
-        pRT-&gt;FillRectangle(D2D1::RectF(100.f, 100.f, 125.f, 125.f), m_pSolidColorBrush); 
-        pRT-&gt;FillRectangle(D2D1::RectF(125.f, 125.f, 150.f, 150.f), m_pSolidColorBrush);    
+        pRT->DrawBitmap(m_pOrigBitmap, D2D1::RectF(0, 0, 200, 133));
+        pRT->FillRectangle(D2D1::RectF(0.f, 0.f, 25.f, 25.f), m_pSolidColorBrush);  
+        pRT->FillRectangle(D2D1::RectF(25.f, 25.f, 50.f, 50.f), m_pSolidColorBrush);
+        pRT->FillRectangle(D2D1::RectF(50.f, 50.f, 75.f, 75.f), m_pSolidColorBrush); 
+        pRT->FillRectangle(D2D1::RectF(75.f, 75.f, 100.f, 100.f), m_pSolidColorBrush);    
+        pRT->FillRectangle(D2D1::RectF(100.f, 100.f, 125.f, 125.f), m_pSolidColorBrush); 
+        pRT->FillRectangle(D2D1::RectF(125.f, 125.f, 150.f, 150.f), m_pSolidColorBrush);    
         
 
-        pRT-&gt;PopLayer();
+        pRT->PopLayer();
     }
 
-    SafeRelease(&amp;pLayer);
+    SafeRelease(&pLayer);
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

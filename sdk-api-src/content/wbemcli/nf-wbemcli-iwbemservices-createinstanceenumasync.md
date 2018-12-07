@@ -177,13 +177,9 @@ For more information, see <a href="https://msdn.microsoft.com/47671b9b-a2ff-4375
 The following example shows you how to implement 
 <b>CreateInstanceEnumAsync</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define NUM_OF_INSTANCES 3
+
+```cpp
+#define NUM_OF_INSTANCES 3
 
 HRESULT CStdProvider::CreateInstanceEnumAsync( 
             /* [in] */ BSTR strClass,
@@ -197,15 +193,15 @@ HRESULT CStdProvider::CreateInstanceEnumAsync(
 
     // Assume there is an IWbemServices pointer available to
     // retrieve the class definition.
-    HRESULT hRes = m_pSvc-&gt;GetObject(strClass, 0, NULL, &amp;pClass, 0);
+    HRESULT hRes = m_pSvc->GetObject(strClass, 0, NULL, &pClass, 0);
     if (hRes)
         return hRes;
 
     // Now loop through the private source and create each instance.
-    for (int i = 0; i &lt; NUM_OF_INSTANCES; i++)
+    for (int i = 0; i < NUM_OF_INSTANCES; i++)
     {
          // Prepare an empty object to receive the class definition.
-         pClass-&gt;SpawnInstance(0, &amp;pNextInst);
+         pClass->SpawnInstance(0, &pNextInst);
 
          // Create the instance.
          // For example, create the instance in a
@@ -213,23 +209,23 @@ HRESULT CStdProvider::CreateInstanceEnumAsync(
          /*FillInst(pNextInst);*/
 
          // Deliver the class to WMI.
-         pResponseHandler-&gt;Indicate(1, &amp;pNextInst);
-         pNextInst-&gt;Release();
+         pResponseHandler->Indicate(1, &pNextInst);
+         pNextInst->Release();
     }
 
     // Send a finish message to WMI.
-    pResponseHandler-&gt;SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
+    pResponseHandler->SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
 
     // Free memory resources.
     SysFreeString(strClass);
-    pClass-&gt;Release();
-    m_pSvc-&gt;Release();
+    pClass->Release();
+    m_pSvc->Release();
 
     return WBEM_S_NO_ERROR;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 In the previous example, the instance provider acquires a thread from WMI to perform any necessary operations. You may want to call the sink <a href="_com_iunknown_addref">AddRef</a> method and create another thread for delivering the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether or not  the provider chooses the single thread design over the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="code"></div>

@@ -92,14 +92,10 @@ A user can visualize the event when the calling application is running under an 
 The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="https://msdn.microsoft.com/5C478278-EC05-4214-80F9-808EADA76E41">EndEvent</a> methods.
           It also uses the <a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a> smart pointer type.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-CComPtr&lt; ID3D11DeviceContext &gt; pContext;
+
+```cpp
+
+CComPtr< ID3D11DeviceContext > pContext;
 
 HRESULT hrCreateDevice = (*pfnD3D11CreateDevice)( 
         0,
@@ -111,19 +107,19 @@ HRESULT hrCreateDevice = (*pfnD3D11CreateDevice)(
         D3D11_SDK_VERSION,
         NULL,
         0,
-        &amp; pContext );
+        & pContext );
 VERIFY_SUCCEEDED(hrCreateDevice);
-CComPtr&lt;ID3DUserDefinedAnnotation&gt; pPerf;
-HRESULT hr = pContext-&gt;QueryInterface( __uuidof(pPerf), reinterpret_cast&lt;void**&gt;(&amp;pPerf) );
+CComPtr<ID3DUserDefinedAnnotation> pPerf;
+HRESULT hr = pContext->QueryInterface( __uuidof(pPerf), reinterpret_cast<void**>(&pPerf) );
 if ( FAILED( hr ) ) 
     return;
-pPerf-&gt;BeginEvent( L”Now entering ocean rendering code” );
+pPerf->BeginEvent( L”Now entering ocean rendering code” );
 MyDrawOceanRoutine( );
-pPerf-&gt;EndEvent( );
-          </pre>
-</td>
-</tr>
-</table></span></div>
+pPerf->EndEvent( );
+          
+```
+
+
 <div class="code"></div>
 
 

@@ -102,13 +102,9 @@ The image is scaled to fit the rectangle.
 
 The following example draws the source image, the rectangle that bounds the resized image, and then draws the resized image to fit the rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawImage10(HDC hdc)
+
+```cpp
+VOID Example_DrawImage10(HDC hdc)
 
 {
    Graphics graphics(hdc);
@@ -120,20 +116,20 @@ The following example draws the source image, the rectangle that bounds the resi
    Pen pen (Color(255, 255, 0, 0), 2);
 
    // Draw the original source image.
-   graphics.DrawImage(&amp;image, 10, 10);
+   graphics.DrawImage(&image, 10, 10);
 
    // Create a RectF object that specifies the destination of the image.
    RectF destRect(200, 50, 150, 75);
 
    // Draw the rectangle that bounds the image.
-   graphics.DrawRectangle(&amp;pen, destRect);
+   graphics.DrawRectangle(&pen, destRect);
 
    // Draw the image.
-   graphics.DrawImage(&amp;image, destRect);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawImage(&image, destRect);
+}
+```
+
+
 The following illustration shows the output of the preceding code.
 
 <img alt="Illustration showing two versions of the same image; the second is slightly narrower than the first, much shorter, and outlined in red" src="./images/drawimage6.png"/>

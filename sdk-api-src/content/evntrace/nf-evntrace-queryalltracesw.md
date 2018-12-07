@@ -162,16 +162,12 @@ To retrieve information for a single session, use the
 
 The following example shows how to call this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;wmistr.h&gt;
-#include &lt;evntrace.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <wmistr.h>
+#include <evntrace.h>
 
 #define MAX_SESSIONS 64
 #define MAX_SESSION_NAME_LEN 1024
@@ -204,12 +200,12 @@ void wmain(void)
     {
         ZeroMemory(pBuffer, BufferSize);
 
-        for (USHORT i = 0; i &lt; MAX_SESSIONS; i++)
+        for (USHORT i = 0; i < MAX_SESSIONS; i++)
         {
             pSessions[i] = (EVENT_TRACE_PROPERTIES*)((BYTE*)pBuffer + (i*PropertiesSize));
-            pSessions[i]-&gt;Wnode.BufferSize = PropertiesSize;
-            pSessions[i]-&gt;LoggerNameOffset = sizeof(EVENT_TRACE_PROPERTIES);
-            pSessions[i]-&gt;LogFileNameOffset = sizeof(EVENT_TRACE_PROPERTIES) + (MAX_SESSION_NAME_LEN*sizeof(WCHAR));
+            pSessions[i]->Wnode.BufferSize = PropertiesSize;
+            pSessions[i]->LoggerNameOffset = sizeof(EVENT_TRACE_PROPERTIES);
+            pSessions[i]->LogFileNameOffset = sizeof(EVENT_TRACE_PROPERTIES) + (MAX_SESSION_NAME_LEN*sizeof(WCHAR));
         }
     }
     else
@@ -218,29 +214,29 @@ void wmain(void)
         goto cleanup;
     }
 
-    status = QueryAllTraces(pSessions, (ULONG)MAX_SESSIONS, &amp;SessionCount);
+    status = QueryAllTraces(pSessions, (ULONG)MAX_SESSIONS, &SessionCount);
 
     if (ERROR_SUCCESS == status || ERROR_MORE_DATA == status)
     {
         wprintf(L"Requested session count, %d. Actual session count, %d.\n\n", MAX_SESSIONS, SessionCount);
 
-        for (USHORT i = 0; i &lt; SessionCount; i++)
+        for (USHORT i = 0; i < SessionCount; i++)
         {
-            StringFromGUID2(pSessions[i]-&gt;Wnode.Guid, SessionGuid, (sizeof(SessionGuid) / sizeof(SessionGuid[0])));
+            StringFromGUID2(pSessions[i]->Wnode.Guid, SessionGuid, (sizeof(SessionGuid) / sizeof(SessionGuid[0])));
 
                 wprintf(L"Session GUID: %s\nSession ID: %d\nSession name: %s\nLog file: %s\n"
                     L"min buffers: %d\nmax buffers: %d\nbuffers: %d\nbuffers written: %d\n"
                     L"buffers lost: %d\nevents lost: %d\n\n",
                     SessionGuid,
-                    pSessions[i]-&gt;Wnode.HistoricalContext,
-                    (LPWSTR)((char*)pSessions[i] + pSessions[i]-&gt;LoggerNameOffset),
-                    (LPWSTR)((char*)pSessions[i] + pSessions[i]-&gt;LogFileNameOffset),
-                    pSessions[i]-&gt;MinimumBuffers,
-                    pSessions[i]-&gt;MaximumBuffers,
-                    pSessions[i]-&gt;NumberOfBuffers,
-                    pSessions[i]-&gt;BuffersWritten,
-                    pSessions[i]-&gt;LogBuffersLost,
-                    pSessions[i]-&gt;EventsLost);
+                    pSessions[i]->Wnode.HistoricalContext,
+                    (LPWSTR)((char*)pSessions[i] + pSessions[i]->LoggerNameOffset),
+                    (LPWSTR)((char*)pSessions[i] + pSessions[i]->LogFileNameOffset),
+                    pSessions[i]->MinimumBuffers,
+                    pSessions[i]->MaximumBuffers,
+                    pSessions[i]->NumberOfBuffers,
+                    pSessions[i]->BuffersWritten,
+                    pSessions[i]->LogBuffersLost,
+                    pSessions[i]->EventsLost);
         }
     }
     else
@@ -257,10 +253,10 @@ cleanup:
         pBuffer = NULL;
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
