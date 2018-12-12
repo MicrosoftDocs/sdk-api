@@ -1,5 +1,5 @@
 ---
-UID: NS:dvdmedia.AM_QueryRate
+UID: NS:dvdmedia.__unnamed_struct_7
 title: AM_QueryRate
 author: windows-sdk-content
 description: The AM_QueryRate structure is used to query the decoder's maximum full-frame rate for forward and reverse playback.
@@ -7,7 +7,7 @@ old-location: dshow\am_queryrate.htm
 tech.root: DirectShow
 ms.assetid: a791f6ac-f415-4641-bac1-26db983a1ef7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AM_QueryRate, AM_QueryRate structure [DirectShow], AM_QueryRateStructure, dshow.am_queryrate, dvdmedia/AM_QueryRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: OpenThreadWaitChainSession function
 author: windows-sdk-content
 description: Creates a new WCT session.
 old-location: base\openthreadwaitchainsession.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 405d9f3d-c11b-4e20-acc8-9c4f7989685d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

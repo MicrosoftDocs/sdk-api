@@ -1,9 +1,0 @@
-{
-  "tech": "taskschd",
-  "headers": [
-    "winerror.h",
-    "mstask.h",
-    "taskschd.h"
-  ],
-  "displayName": "Task Scheduler"
-}

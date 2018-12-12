@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo_putproperty.htm
 tech.root: Nps
 ms.assetid: c2e440a7-d58c-4542-bd0b-a06b810edd34
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISdo interface [Network Policy Server],PutProperty method, ISdo.PutProperty, ISdo::PutProperty, PutProperty, PutProperty method [Network Policy Server], PutProperty method [Network Policy Server],ISdo interface, _sdo_isdo_putproperty, nps.SDO_isdo_putproperty, sdo.isdo_putproperty, sdoias/ISdo::PutProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,7 +67,7 @@ Specifies the ID of an existing property.
 ### -param pValue [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> that contains the value for that property.
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> that contains the value for that property.
 
 
 ## -returns
@@ -110,7 +110,7 @@ The method fails if the property is READ_ONLY or if the value is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>
  
 
  

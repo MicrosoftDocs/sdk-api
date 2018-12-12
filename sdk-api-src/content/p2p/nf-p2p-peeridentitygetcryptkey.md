@@ -7,7 +7,7 @@ old-location: p2p\peeridentitygetcryptkey.htm
 tech.root: P2PSdk
 ms.assetid: 27a1b563-7bbe-4117-8bc3-19dd47360308
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerIdentityGetCryptKey, PeerIdentityGetCryptKey function [Peer Networking], p2p.peeridentitygetcryptkey, p2p/PeerIdentityGetCryptKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

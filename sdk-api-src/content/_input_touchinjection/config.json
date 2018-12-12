@@ -1,7 +1,0 @@
-{
-  "tech": "input_touchinjection",
-  "headers": [
-    "winuser.h"
-  ],
-  "displayName": "Touch Injection"
-}

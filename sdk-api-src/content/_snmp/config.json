@@ -1,9 +1,0 @@
-{
-  "tech": "snmp",
-  "headers": [
-    "snmp.h",
-    "mgmtapi.h",
-    "winsnmp.h"
-  ],
-  "displayName": "Simple Network Management Protocol"
-}

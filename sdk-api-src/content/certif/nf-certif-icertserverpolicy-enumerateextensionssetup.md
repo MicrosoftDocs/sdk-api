@@ -71,7 +71,7 @@ This parameter is reserved and must be set to zero.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -81,9 +81,9 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is the current context.
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is the current context.
 
-To retrieve the extension, call the <a href="https://msdn.microsoft.com/en-us/library/Aa385084(v=VS.85).aspx">EnumerateExtensions</a> method. The call to <b>EnumerateExtensions</b> retrieves the first extension and moves the index to the next extension if one exists.
+To retrieve the extension, call the <a href="https://msdn.microsoft.com/565ff4d5-0d22-466d-8458-f98b992a1868">EnumerateExtensions</a> method. The call to <b>EnumerateExtensions</b> retrieves the first extension and moves the index to the next extension if one exists.
 
 
 #### Examples
@@ -122,15 +122,15 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385084(v=VS.85).aspx">EnumerateExtensions</a>
+<a href="https://msdn.microsoft.com/565ff4d5-0d22-466d-8458-f98b992a1868">EnumerateExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">SetContext</a>
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">SetContext</a>
  
 
  

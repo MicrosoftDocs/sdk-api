@@ -1,7 +1,0 @@
-{
-  "tech": "vhd",
-  "headers": [
-    "virtdisk.h"
-  ],
-  "displayName": "Virtual Hard Disk"
-}

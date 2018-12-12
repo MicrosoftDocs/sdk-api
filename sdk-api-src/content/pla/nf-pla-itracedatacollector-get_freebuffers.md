@@ -7,7 +7,7 @@ old-location: pla\itracedatacollector_freebuffers.htm
 tech.root: pla
 ms.assetid: 9e6d3c7d-4c73-452f-98fa-6c9d1bc912ff
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FreeBuffers property [PLA], FreeBuffers property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],FreeBuffers property, ITraceDataCollector.FreeBuffers, ITraceDataCollector.get_FreeBuffers, ITraceDataCollector::FreeBuffers, ITraceDataCollector::get_FreeBuffers, base.itracedatacollector_freebuffers, get_FreeBuffers, pla.itracedatacollector_freebuffers, pla/ITraceDataCollector::FreeBuffers, pla/ITraceDataCollector::get_FreeBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

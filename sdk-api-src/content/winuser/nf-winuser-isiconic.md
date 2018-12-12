@@ -93,7 +93,7 @@ If the window is not iconic, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633531(v=VS.85).aspx">IsZoomed</a>
+<a href="https://msdn.microsoft.com/7eece45d-5d18-4b1a-947e-1ed76a228bd9">IsZoomed</a>
 
 
 
@@ -101,7 +101,7 @@ If the window is not iconic, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

@@ -161,14 +161,18 @@ There are no sign bits. This means all partial-precision numbers are positive. T
 	    least significant bits like this:
 	
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
   (Z10Y11X11): [31] ZZZZZzzz zzYYYYYy yyyyyXXX XXxxxxxx [0]
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Or in detail:
      
 

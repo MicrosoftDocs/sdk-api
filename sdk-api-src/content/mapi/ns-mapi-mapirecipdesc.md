@@ -1,5 +1,5 @@
 ---
-UID: NS:mapi.MapiRecipDesc
+UID: NS:mapi.__unnamed_struct_3
 title: MapiRecipDesc
 author: windows-sdk-content
 description: A MapiRecipDesc structure contains information about a message sender or recipient. For Unicode support, use the MapiRecipDescW structure.
@@ -7,7 +7,7 @@ old-location: mapi\mapirecipdesc.htm
 tech.root: WindowsMAPI
 ms.assetid: 1457617f-de55-4875-91f5-afddee84b782
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*lpMapiRecipDesc, MAPI_BCC, MAPI_CC, MAPI_ORIG, MAPI_TO, MapiRecipDesc, MapiRecipDesc structure, lpMapiRecipDesc, lpMapiRecipDesc structure pointer, mapi.mapirecipdesc, mapi/MapiRecipDesc, mapi/lpMapiRecipDesc"
 ms.prod: windows-hardware
 ms.technology: windows-devices

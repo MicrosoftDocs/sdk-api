@@ -73,7 +73,7 @@ A handle to the RAS connection that receives the notifications. This can be a ha
 ### -param arg2 [in]
 
 Specifies the handle of an event object. Use the 
-<a href="https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx">CreateEvent</a> function to create an event object.
+<a href="_win32_createevent">CreateEvent</a> function to create an event object.
 
 
 ### -param arg3 [in]
@@ -147,7 +147,7 @@ If the function fails, the return value is a non-zero error code from <a href="h
 
 
 To determine when the event object is signaled, use any of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms687069(v=VS.85).aspx">wait functions</a>.
+<a href="_win32_wait_functions">wait functions</a>.
 
 When the event is signaled, use other RAS functions, such as 
 <a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a>, to get more information about the RAS connection that was created or terminated.
@@ -160,7 +160,7 @@ When the event is signaled, use other RAS functions, such as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx">CreateEvent</a>
+<a href="_win32_createevent">CreateEvent</a>
 
 
 

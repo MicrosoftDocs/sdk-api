@@ -1,7 +1,0 @@
-{
-  "tech": "inputmsg",
-  "headers": [
-    "winuser.h"
-  ],
-  "displayName": "Pointer Input Messages and Notifications"
-}

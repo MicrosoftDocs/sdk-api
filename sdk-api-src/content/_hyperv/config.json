@@ -1,9 +1,0 @@
-{
-  "tech": "hyperv",
-  "headers": [
-    "vmgenerationcounter.h",
-    "dbdao.h",
-    "dbdaoint.h"
-  ],
-  "displayName": "Hyper-V management"
-}

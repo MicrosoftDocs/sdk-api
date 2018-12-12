@@ -7,7 +7,7 @@ old-location: policy\refreshpolicy.htm
 tech.root: policy
 ms.assetid: e08cb006-d174-4506-87f0-580660bd4023
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: RefreshPolicy, RefreshPolicy function [Group Policy], _win32_refreshpolicy, policy.refreshpolicy, userenv/RefreshPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

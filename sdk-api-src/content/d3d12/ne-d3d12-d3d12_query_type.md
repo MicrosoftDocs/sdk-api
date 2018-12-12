@@ -113,7 +113,7 @@ This query type can only be performed on video decode command lists (<a href="ht
 
 
 
-This enum is used by <a href="https://msdn.microsoft.com/en-us/library/Dn903838(v=VS.85).aspx">BeginQuery</a>, <a href="https://msdn.microsoft.com/en-us/library/Dn903881(v=VS.85).aspx">EndQuery</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn903896(v=VS.85).aspx">ResolveQueryData.</a>
+This enum is used by <a href="https://msdn.microsoft.com/38011ED8-C867-4ECE-880F-3963A17790F7">BeginQuery</a>, <a href="https://msdn.microsoft.com/591B277C-44C7-4C21-86B1-239F6A71308D">EndQuery</a> and <a href="https://msdn.microsoft.com/E3154DB7-DDA9-4480-A918-19C3A62944F2">ResolveQueryData.</a>
 
 
 
@@ -124,7 +124,7 @@ This enum is used by <a href="https://msdn.microsoft.com/en-us/library/Dn903838(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
  
 
  

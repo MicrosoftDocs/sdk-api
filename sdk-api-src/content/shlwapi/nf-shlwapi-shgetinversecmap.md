@@ -113,14 +113,16 @@ For example, the method for determining a color in the halftone palette that is 
 <li>Decompose the color into its red, green, and blue components. In this case, the red component is 0x30, the green component is 0x60 and the blue component is 0x40.</li>
 <li>Reassemble the color into 555 format. The formula for reducing a 24-bit RGB color into 555 format is shown here.
 
-                        
-
-
-```
-((red / 8) << 10) + ((blue / 8) << 5) + (green / 8)
-```
-
-
+                        <div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>((red / 8) &lt;&lt; 10) + ((blue / 8) &lt;&lt; 5) + (green / 8)</pre>
+</td>
+</tr>
+</table></span></div>
 In this example, the value in 555 format is ((0x30 / 8) &lt;&lt; 10) + ((0x60 / 8) &lt;&lt; 5) + (0x40 / 8) = 6536.
 
 </li>

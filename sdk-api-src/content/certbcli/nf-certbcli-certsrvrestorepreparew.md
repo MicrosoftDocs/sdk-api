@@ -107,12 +107,12 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success, and *<
 
 Before a Certificate Services restore operation can occur, it is necessary to create an <b>HCSBC</b> by means of <b>CertSrvRestorePrepare</b>. This <b>HCSBC</b> can be used by various Certificate Services restore functions.
 
-<div class="alert"><b>Note</b>  When the restore session is completed, it is necessary to call <a href="https://msdn.microsoft.com/en-us/library/Aa376998(v=VS.85).aspx">CertSrvRestoreEnd</a> to release the <b>HCSBC</b> which resulted from the call to <b>CertSrvRestorePrepare</b>.</div>
+<div class="alert"><b>Note</b>  When the restore session is completed, it is necessary to call <a href="https://msdn.microsoft.com/59316edc-a677-47ff-a139-565d7b5507fb">CertSrvRestoreEnd</a> to release the <b>HCSBC</b> which resulted from the call to <b>CertSrvRestorePrepare</b>.</div>
 <div> </div>
 This function's name in Certadm.dll is <b>CertSrvRestorePrepareW</b>. You must use this form of the name when calling <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>. Also, this function is defined as type <b>FNCERTSRVRESTOREPREPAREW</b> in the Certbcli.h header file.
 
-To execute this call, you must have the restore <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">privilege</a>. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa387705(v=VS.85).aspx">Setting the Backup and Restore Privileges</a>.
+To execute this call, you must have the restore <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privilege</a>. For more information, see 
+<a href="https://msdn.microsoft.com/409a9fad-7141-4ba8-ab3d-fb590366001e">Setting the Backup and Restore Privileges</a>.
 
 
 #### Examples
@@ -182,7 +182,7 @@ if (hInst)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376998(v=VS.85).aspx">CertSrvRestoreEnd</a>
+<a href="https://msdn.microsoft.com/59316edc-a677-47ff-a139-565d7b5507fb">CertSrvRestoreEnd</a>
 
 
 
@@ -190,11 +190,11 @@ if (hInst)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa387705(v=VS.85).aspx">Setting the Backup and Restore Privileges</a>
+<a href="https://msdn.microsoft.com/409a9fad-7141-4ba8-ab3d-fb590366001e">Setting the Backup and Restore Privileges</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

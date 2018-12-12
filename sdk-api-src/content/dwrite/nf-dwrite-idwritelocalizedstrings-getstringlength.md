@@ -89,14 +89,18 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Use <b>GetStringLength</b> to get the string length before calling the <a href="https://msdn.microsoft.com/adb7358b-044b-440b-8429-be715d22cd83">IDWriteLocalizedStrings::GetString</a> method, as shown in the following code.
 
-
-```cpp
-UINT32 length = 0;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>UINT32 length = 0;
 
 // Get the string length.
 if (SUCCEEDED(hr))
 {
-    hr = pFamilyNames->GetStringLength(index, &length);
+    hr = pFamilyNames-&gt;GetStringLength(index, &amp;length);
 }
 
 // Allocate a string big enough to hold the name.
@@ -109,12 +113,12 @@ if (name == NULL)
 // Get the family name.
 if (SUCCEEDED(hr))
 {
-    hr = pFamilyNames->GetString(index, name, length+1);
+    hr = pFamilyNames-&gt;GetString(index, name, length+1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

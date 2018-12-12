@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignature_getnamespaces.htm
 tech.root: OPC
 ms.assetid: c9360d23-1eac-4bb1-ae40-c157f1a79621
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetNamespaces, GetNamespaces method [Open Packaging Conventions], GetNamespaces method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetNamespaces method, IOpcDigitalSignature.GetNamespaces, IOpcDigitalSignature::GetNamespaces, msopc/IOpcDigitalSignature::GetNamespaces, opc.iopcdigitalsignature_getnamespaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

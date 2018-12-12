@@ -1,9 +1,0 @@
-{
-  "tech": "msvs",
-  "headers": [
-    "vscominterfaces.h",
-    "vhdmount.h",
-    "vmrcclientcontrol.h"
-  ],
-  "displayName": "Microsoft Virtual Server"
-}

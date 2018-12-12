@@ -1,9 +1,0 @@
-{
-  "tech": "cluswmi",
-  "headers": [
-    "mdhcp.h",
-    "clusapi.h",
-    "iiisext.h"
-  ],
-  "displayName": "Failover Cluster WMI Provider"
-}

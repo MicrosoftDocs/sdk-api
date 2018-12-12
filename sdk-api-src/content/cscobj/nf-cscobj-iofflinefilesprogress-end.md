@@ -7,7 +7,7 @@ old-location: of\iofflinefilesprogress_end.htm
 tech.root: offlinefiles
 ms.assetid: b3d09f2e-29d5-496f-a046-4ba067e642a6
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: End, End method [Offline Files], End method [Offline Files],IOfflineFilesProgress interface, IOfflineFilesProgress interface [Offline Files],End method, IOfflineFilesProgress.End, IOfflineFilesProgress::End, cscobj/IOfflineFilesProgress::End, of.iofflinefilesprogress_end
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
  
 
  

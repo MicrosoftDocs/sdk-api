@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Invokes the "Search with Bing…" context menu item in edit controls. You can use this macro or send the <a href="controls.em_searchweb">EM_SEARCHWEB</a> message explicitly.
+Invokes the "Search with Bing…" context menu item in edit controls. You can use this macro or send the <a href="https://msdn.microsoft.com/8D29286B-CF6D-4648-AF10-EBF55835FF2C">EM_SEARCHWEB</a> message explicitly.
 
 
 ## -parameters

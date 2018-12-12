@@ -95,7 +95,7 @@ A miter limit affects how sharp miter joins are allowed to be.
 
 The following illustration shows  different line join settings for the same stroked path geometry.  
 
-<img alt="Illustration of line join settings" src="./images/StrokeStyle_Join.png"/>
+<img alt="Illustration of line join settings" src="images/StrokeStyle_Join.png"/>
 
 
 

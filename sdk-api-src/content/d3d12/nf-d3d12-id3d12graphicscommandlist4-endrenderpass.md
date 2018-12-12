@@ -74,7 +74,7 @@ This method does not return a value.
 
 
 
-<a href="direct3d12.id3d12graphicscommandlist4_beginrenderpass">BeginRenderPass</a>
+<a href="https://msdn.microsoft.com/6A7CF754-F2E6-48D4-8A4D-CE64B31267F7">BeginRenderPass</a>
 
 
 

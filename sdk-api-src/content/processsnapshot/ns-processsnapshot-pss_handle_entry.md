@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.PSS_HANDLE_ENTRY
+UID: NS:processsnapshot.__unnamed_struct_10
 title: PSS_HANDLE_ENTRY
 author: windows-sdk-content
 description: Holds information about a handle returned by PssWalkSnapshot.
@@ -7,7 +7,7 @@ old-location: proc_snap\pss_handle_entry.htm
 tech.root: proc_snap
 ms.assetid: F56E8C35-949A-4DEE-973F-CF24F6596036
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PSS_HANDLE_ENTRY, PSS_HANDLE_ENTRY structure, proc_snap.pss_handle_entry, processsnapshot/PSS_HANDLE_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,162 +138,336 @@ Specifies the name of the object referenced by this handle. The buffer may not t
 Type-specific information.
 
 
-### -field TypeSpecificInformation.Process
+
+#### Process
 
 Valid for <b>ObjectType</b> = <b>PSS_OBJECT_TYPE_PROCESS</b>.
 
 
-### -field TypeSpecificInformation.Process.ExitStatus
+
+##### ExitStatus
 
 The exit code of the process. If the process has not exited, this is set to <b>STILL_ACTIVE</b> (259).
 
 
-### -field TypeSpecificInformation.Process.PebBaseAddress
+
+##### PebBaseAddress
 
 The address of the process environment block (PEB). Reserved for use by the operating system.
 
 
-### -field TypeSpecificInformation.Process.AffinityMask
+
+##### AffinityMask
 
 The affinity mask of the process.
 
 
-### -field TypeSpecificInformation.Process.BasePriority
+
+##### BasePriority
 
 The base priority level of the process.
 
 
-### -field TypeSpecificInformation.Process.ProcessId
+
+##### ProcessId
 
 The process ID.
 
 
-### -field TypeSpecificInformation.Process.ParentProcessId
+
+##### ParentProcessId
 
 The parent process ID.
 
 
-### -field TypeSpecificInformation.Process.Flags
+
+##### Flags
 
 Flags about the process. For more information, see <a href="https://msdn.microsoft.com/A1C793DD-EE93-47B6-8EA8-3A45DAD55F2D">PSS_PROCESS_FLAGS</a>.
 
 
-### -field TypeSpecificInformation.Thread
+
+#### Thread
 
 Valid for <b>ObjectType</b> = <b>PSS_OBJECT_TYPE_THREAD</b>.
 
 
-### -field TypeSpecificInformation.Thread.ExitStatus
+
+##### ExitStatus
 
 The exit code of the process. If the process has not exited, this is set to <b>STILL_ACTIVE</b> (259).
 
 
-### -field TypeSpecificInformation.Thread.TebBaseAddress
+
+##### TebBaseAddress
 
 The address of the thread environment block (TEB). Reserved for use by the operating system.
 
 
-### -field TypeSpecificInformation.Thread.ProcessId
+
+##### ProcessId
 
 The process ID.
 
 
-### -field TypeSpecificInformation.Thread.ThreadId
+
+##### ThreadId
 
 The thread ID.
 
 
-### -field TypeSpecificInformation.Thread.AffinityMask
+
+##### AffinityMask
 
 The affinity mask of the process.
 
 
-### -field TypeSpecificInformation.Thread.Priority
+
+##### Priority
 
 The thread’s dynamic priority level.
 
 
-### -field TypeSpecificInformation.Thread.BasePriority
+
+##### BasePriority
 
 The thread’s base priority level.
 
 
-### -field TypeSpecificInformation.Thread.Win32StartAddress
+
+##### Win32StartAddress
 
 A pointer to the thread procedure for the thread.
 
 
-### -field TypeSpecificInformation.Mutant
+
+#### Mutant
 
 Valid for <b>ObjectType</b> = <b>PSS_OBJECT_TYPE_MUTANT</b>.
 
 
-### -field TypeSpecificInformation.Mutant.CurrentCount
+
+##### CurrentCount
 
 Reserved for use by the operating system.
 
 
-### -field TypeSpecificInformation.Mutant.Abandoned
+
+##### Abandoned
 
 <b>TRUE</b> if the mutant has been abandoned (the owning thread exited without releasing the mutex), <b>FALSE</b> if not.
 
 
-### -field TypeSpecificInformation.Mutant.OwnerProcessId
+
+##### OwnerProcessId
 
 The process ID of the owning thread, at the time of snapshot creation and handle capture.
 
 
-### -field TypeSpecificInformation.Mutant.OwnerThreadId
+
+##### OwnerThreadId
 
 The process ID of the owning thread, at the time of snapshot creation and handle capture.
 
 
-### -field TypeSpecificInformation.Event
+
+#### Event
 
 Valid for <b>ObjectType</b> = <b>PSS_OBJECT_TYPE_EVENT</b>.
 
 
-### -field TypeSpecificInformation.Event.ManualReset
+
+##### ManualReset
 
 <b>TRUE</b> if the event is manual reset, <b>FALSE</b> if not.
 
 
-### -field TypeSpecificInformation.Event.Signaled
+
+##### Signaled
 
 <b>TRUE</b> if the event was signaled at the time of snapshot creation and handle capture, <b>FALSE</b> if not.
 
 
-### -field TypeSpecificInformation.Section
+
+#### Section
 
 Valid for <b>ObjectType</b> = <b>PSS_OBJECT_TYPE_SECTION</b>.
 
 
-### -field TypeSpecificInformation.Section.BaseAddress
+
+##### BaseAddress
 
 Reserved for use by the operating system.
 
 
-### -field TypeSpecificInformation.Section.AllocationAttributes
+
+##### AllocationAttributes
 
 Reserved for use by the operating system.
 
 
-### -field TypeSpecificInformation.Section.MaximumSize
+
+##### MaximumSize
 
 Reserved for use by the operating system.
 
 
-### -field TypeSpecificInformation.Semaphore
+### -field Process
 
  
 
 
-### -field TypeSpecificInformation.Semaphore.CurrentCount
+### -field Process.ExitStatus
 
  
 
 
-### -field TypeSpecificInformation.Semaphore.MaximumCount
+### -field Process.PebBaseAddress
+
+ 
+
+
+### -field Process.AffinityMask
+
+ 
+
+
+### -field Process.BasePriority
+
+ 
+
+
+### -field Process.ProcessId
+
+ 
+
+
+### -field Process.ParentProcessId
+
+ 
+
+
+### -field Process.Flags
+
+ 
+
+
+### -field Thread
+
+ 
+
+
+### -field Thread.ExitStatus
+
+ 
+
+
+### -field Thread.TebBaseAddress
+
+ 
+
+
+### -field Thread.ProcessId
+
+ 
+
+
+### -field Thread.ThreadId
+
+ 
+
+
+### -field Thread.AffinityMask
+
+ 
+
+
+### -field Thread.Priority
+
+ 
+
+
+### -field Thread.BasePriority
+
+ 
+
+
+### -field Thread.Win32StartAddress
+
+ 
+
+
+### -field Mutant
+
+ 
+
+
+### -field Mutant.CurrentCount
+
+ 
+
+
+### -field Mutant.Abandoned
+
+ 
+
+
+### -field Mutant.OwnerProcessId
+
+ 
+
+
+### -field Mutant.OwnerThreadId
+
+ 
+
+
+### -field Event
+
+ 
+
+
+### -field Event.ManualReset
+
+ 
+
+
+### -field Event.Signaled
+
+ 
+
+
+### -field Section
+
+ 
+
+
+### -field Section.BaseAddress
+
+ 
+
+
+### -field Section.AllocationAttributes
+
+ 
+
+
+### -field Section.MaximumSize
+
+ 
+
+
+### -field Semaphore
+
+ 
+
+
+### -field Semaphore.CurrentCount
+
+ 
+
+
+### -field Semaphore.MaximumCount
 
  
 

@@ -1,13 +1,13 @@
 ---
-UID: NS:wininet.INTERNET_DIAGNOSTIC_SOCKET_INFO
+UID: NS:wininet.__unnamed_struct_1
 title: INTERNET_DIAGNOSTIC_SOCKET_INFO
 author: windows-sdk-content
 description: The INTERNET_DIAGNOSTIC_SOCKET_INFO structure is returned by the InternetQueryOption function when the INTERNET_OPTION_DIAGNOSTIC_SOCKET_INFO flag is passed to it together with a handle to an HTTP Request.
 old-location: wininet\internet_diagnostic_socket_info.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: a659fcfd-49c4-4d2b-8b1d-62deb033bf8d
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "* LPINTERNET_DIAGNOSTIC_SOCKET_INFO, * LPINTERNET_DIAGNOSTIC_SOCKET_INFO structure [WinINet], *LPINTERNET_DIAGNOSTIC_SOCKET_INFO, IDSI_FLAG_KEEP_ALIVE, IDSI_FLAG_PROXY, IDSI_FLAG_SECURE, IDSI_FLAG_TUNNEL, INTERNET_DIAGNOSTIC_SOCKET_INFO, INTERNET_DIAGNOSTIC_SOCKET_INFO structure [WinINet], wininet.internet_diagnostic_socket_info, wininet/* LPINTERNET_DIAGNOSTIC_SOCKET_INFO, wininet/INTERNET_DIAGNOSTIC_SOCKET_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

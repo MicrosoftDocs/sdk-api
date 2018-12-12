@@ -4,7 +4,7 @@ title: SymGetLinePrevW64 function
 author: windows-sdk-content
 description: Retrieves the line information for the previous source line.
 old-location: base\symgetlineprev64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 7f6d0f20-5dfa-4d6c-8551-1dbc3cc54176
 ms.author: windowssdkdev
 ms.date: 12/5/2018

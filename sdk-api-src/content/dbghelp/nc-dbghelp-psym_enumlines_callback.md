@@ -4,7 +4,7 @@ title: PSYM_ENUMLINES_CALLBACK
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumLines and SymEnumSourceLines functions.
 old-location: base\symenumlinesproc.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 7379dd04-72a4-45b6-b02a-d3e8a5aaf0d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

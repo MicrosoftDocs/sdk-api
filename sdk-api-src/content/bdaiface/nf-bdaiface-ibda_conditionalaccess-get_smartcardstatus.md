@@ -60,13 +60,13 @@ The <b>get_SmartCardStatus</b> method retrieves the status of the smart card.
 
 ### -param pCardStatus [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd695293(v=VS.85).aspx">SmartCardStatusType</a> that receives the card status type.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b">SmartCardStatusType</a> that receives the card status type.
           
 
 
 ### -param pCardAssociation [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd695292(v=VS.85).aspx">SmartCardAssociationType</a> that receives the card association type.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/42fe27ed-d461-43bf-87c5-bd0704339ec7">SmartCardAssociationType</a> that receives the card association type.
           
 
 
@@ -107,7 +107,7 @@ All three parameters must be non-NULL or the method fails and returns <b>E_POINT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://msdn.microsoft.com/93bd3c38-2591-4d36-b296-5ad939487277">IBDA_ConditionalAccess Interface</a>
  
 
  

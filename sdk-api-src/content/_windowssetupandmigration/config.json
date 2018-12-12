@@ -1,7 +1,0 @@
-{
-  "tech": "windowssetupandmigration",
-  "headers": [
-    "oobenotification.h"
-  ],
-  "displayName": "OOBE APIs for setup state and notification"
-}

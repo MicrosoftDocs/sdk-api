@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the extended styles that are currently in use for a given edit control. You can use this macro or send the <a href="controls.em_getextendedstyle">EM_GETEXTENDEDSTYLE</a> message explicitly. 
+Gets the extended styles that are currently in use for a given edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/4A46B383-9891-4725-9029-191A88B42137">EM_GETEXTENDEDSTYLE</a> message explicitly. 
 
 
 ## -parameters

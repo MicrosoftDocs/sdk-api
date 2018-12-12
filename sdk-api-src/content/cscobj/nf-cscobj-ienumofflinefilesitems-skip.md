@@ -7,7 +7,7 @@ old-location: of\ienumofflinefilesitems_skip.htm
 tech.root: offlinefiles
 ms.assetid: e1f201c4-6ca8-49ca-af05-003a09ec86bd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumOfflineFilesItems interface [Offline Files],Skip method, IEnumOfflineFilesItems.Skip, IEnumOfflineFilesItems::Skip, Skip, Skip method [Offline Files], Skip method [Offline Files],IEnumOfflineFilesItems interface, cscobj/IEnumOfflineFilesItems::Skip, of.ienumofflinefilesitems_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,7 @@ Returns <b>S_OK</b> if the number of elements skipped is <i>celt</i>; S_FALSE if
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530476(v=VS.85).aspx">IEnumOfflineFilesItems</a>
+<a href="https://msdn.microsoft.com/9bb1fa14-74d2-4c6f-b8ba-47c6e78d7a4f">IEnumOfflineFilesItems</a>
  
 
  

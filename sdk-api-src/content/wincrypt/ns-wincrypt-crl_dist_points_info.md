@@ -1,0 +1,81 @@
+---
+UID: NS:wincrypt._CRL_DIST_POINTS_INFO
+title: CRL_DIST_POINTS_INFO
+author: windows-sdk-content
+description: Contains a list of certificate revocation list (CRL) distribution points a certificate user can reference to determine whether the certificate has been revoked.
+old-location: security\crl_dist_points_info.htm
+tech.root: seccrypto
+ms.assetid: cc0fe49c-80ab-42d8-9756-a6d6b885761e
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PCRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO structure [Security], PCRL_DIST_POINTS_INFO, PCRL_DIST_POINTS_INFO structure pointer [Security], _crypto2_crl_dist_points_info, security.crl_dist_points_info, wincrypt/CRL_DIST_POINTS_INFO, wincrypt/PCRL_DIST_POINTS_INFO"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wincrypt.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRL_DIST_POINTS_INFO
+product: Windows
+targetos: Windows
+req.typenames: CRL_DIST_POINTS_INFO, *PCRL_DIST_POINTS_INFO
+req.redist: 
+---
+
+# CRL_DIST_POINTS_INFO structure
+
+
+## -description
+
+
+The <b>CRL_DIST_POINTS_INFO</b> structure contains a list of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) distribution points a certificate user can reference to determine whether the certificate has been revoked.
+
+
+## -struct-fields
+
+
+
+
+### -field cDistPoint
+
+Number of elements in the <b>rgDistPoint</b> member array.
+
+
+### -field rgDistPoint
+
+Array of 
+<a href="https://msdn.microsoft.com/ec7ccc54-0aaa-4c32-8aa1-dcbaf59f9991">CRL_DIST_POINT</a> structures.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ec7ccc54-0aaa-4c32-8aa1-dcbaf59f9991">CRL_DIST_POINT</a>
+ 
+
+ 
+

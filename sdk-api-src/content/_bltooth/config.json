@@ -1,9 +1,0 @@
-{
-  "tech": "bltooth",
-  "headers": [
-    "bluetoothapis.h",
-    "bluetoothleapis.h",
-    "bthledef.h"
-  ],
-  "displayName": "Bluetooth Devices Reference"
-}

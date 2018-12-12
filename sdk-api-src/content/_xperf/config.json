@@ -1,7 +1,0 @@
-{
-  "tech": "xperf",
-  "headers": [
-    "kerneltracecontrol.h"
-  ],
-  "displayName": "Windows Performance Analyzer (WPA)"
-}

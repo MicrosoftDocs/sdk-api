@@ -1,5 +1,5 @@
 ---
-UID: NS:winsnmp.smiVALUE
+UID: NS:winsnmp.__unnamed_struct_3
 title: smiVALUE
 author: windows-sdk-content
 description: The WinSNMP smiVALUE structure describes the value associated with a variable name in a variable binding entry.
@@ -7,7 +7,7 @@ old-location: snmp\smivalue_str.htm
 tech.root: SNMP
 ms.assetid: e5e8f321-54b2-469d-bdd3-9867fd85b447
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*smiLPVALUE, SNMP_SYNTAX_CNTR32, SNMP_SYNTAX_CNTR64, SNMP_SYNTAX_ENDOFMIBVIEW, SNMP_SYNTAX_GAUGE32, SNMP_SYNTAX_INT, SNMP_SYNTAX_INT32, SNMP_SYNTAX_IPADDR, SNMP_SYNTAX_NOSUCHINSTANCE, SNMP_SYNTAX_NOSUCHOBJECT, SNMP_SYNTAX_NULL, SNMP_SYNTAX_OCTETS, SNMP_SYNTAX_OID, SNMP_SYNTAX_OPAQUE, SNMP_SYNTAX_TIMETICKS, SNMP_SYNTAX_UINT32, _snmp_smivalue_str, smiLPVALUE, smiLPVALUE structure pointer [SNMP], smiVALUE, smiVALUE structure [SNMP], snmp.smivalue_str, winsnmp/smiLPVALUE, winsnmp/smiVALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -239,46 +239,84 @@ Specifies the union of all possible WinSNMP syntax data types, including the
 <a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> descriptor types.
 
 
-### -field value.sNumber
+
+#### sNumber
 
 <b>Type: <b>smiINT</b>
 </b>
 Specifies a signed long integer value.
 
 
-### -field value.uNumber
+
+#### uNumber
 
 <b>Type: <b>smiUINT32</b>
 </b>
 Specifies a 32-bit unsigned long integer value.
 
 
-### -field value.hNumber
+
+#### hNumber
 
 <b>Type: <b>smiCNTR64</b>
 </b>
 Specifies a 64-bit unsigned integer value
 
 
-### -field value.string
+
+#### string
 
 <b>Type: <b>smiOCTETS</b>
 </b>
 Specifies a string.
 
 
-### -field value.oid
+
+#### oid
 
 <b>Type: <b>smiOID</b>
 </b>
 Specifies an object identifier (OID).
 
 
-### -field value.empty
+
+#### empty
 
 <b>Type: <b>smiBYTE</b>
 </b>
 Specifies an empty member.
+
+
+### -field sNumber
+
+ 
+
+
+### -field uNumber
+
+ 
+
+
+### -field hNumber
+
+ 
+
+
+### -field string
+
+ 
+
+
+### -field oid
+
+ 
+
+
+### -field empty
+
+ 
+
+
 
 
 ## -remarks

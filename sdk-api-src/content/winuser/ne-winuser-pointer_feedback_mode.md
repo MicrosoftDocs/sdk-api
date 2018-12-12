@@ -1,5 +1,5 @@
 ---
-UID: NE:winuser.POINTER_FEEDBACK_MODE
+UID: NE:winuser.__unnamed_enum_0
 title: POINTER_FEEDBACK_MODE
 author: windows-sdk-content
 description: Identifies the visual feedback behaviors available to CreateSyntheticPointerDevice.
@@ -7,7 +7,7 @@ old-location: input_pointerdevice\pointer_feedback_mode.htm
 tech.root: Input_PointerDevice
 ms.assetid: 73D024E9-F83B-408F-BC96-6851AB4603AE
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: POINTER_FEEDBACK_DEFAULT, POINTER_FEEDBACK_INDIRECT, POINTER_FEEDBACK_MODE, POINTER_FEEDBACK_MODE enumeration, POINTER_FEEDBACK_NONE, input_pointerdevice.pointer_feedback_mode, winuser/POINTER_FEEDBACK_DEFAULT, winuser/POINTER_FEEDBACK_INDIRECT, winuser/POINTER_FEEDBACK_MODE, winuser/POINTER_FEEDBACK_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices

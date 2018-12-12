@@ -57,7 +57,7 @@ req.redist:
 
 
 
-The <b>RemoveMarker</b> method removes a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a> from the header section of the ASF file.
+The <b>RemoveMarker</b> method removes a <a href="wmformat_glossary.htm">marker</a> from the header section of the ASF file.
 
 
 

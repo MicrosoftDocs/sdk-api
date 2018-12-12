@@ -1,0 +1,91 @@
+---
+UID: NS:wingdi.tagEMRSETWORLDTRANSFORM
+title: EMRSETWORLDTRANSFORM
+author: windows-sdk-content
+description: The EMRSETWORLDTRANSFORM structure contains members for the SetWorldTransform enhanced metafile record.
+old-location: gdi\emrsetworldtransform.htm
+tech.root: gdi
+ms.assetid: 08e5e272-22b5-4097-a293-f5a1fd865edf
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PEMRSETWORLDTRANSFORM, EMRSETWORLDTRANSFORM, EMRSETWORLDTRANSFORM structure [Windows GDI], PEMRSETWORLDTRANSFORM, PEMRSETWORLDTRANSFORM structure pointer [Windows GDI], _win32_EMRSETWORLDTRANSFORM_str, gdi.emrsetworldtransform, wingdi/EMRSETWORLDTRANSFORM, wingdi/PEMRSETWORLDTRANSFORM"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: wingdi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - EMRSETWORLDTRANSFORM
+product: Windows
+targetos: Windows
+req.typenames: EMRSETWORLDTRANSFORM, *PEMRSETWORLDTRANSFORM
+req.redist: 
+---
+
+# EMRSETWORLDTRANSFORM structure
+
+
+## -description
+
+
+
+The <b>EMRSETWORLDTRANSFORM</b> structure contains members for the <b>SetWorldTransform</b> enhanced metafile record.
+
+
+
+
+## -struct-fields
+
+
+
+
+### -field emr
+
+The base structure for all record types.
+
+
+### -field xform
+
+World-space to page-space transformation data.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/d103a4dd-949e-4f18-ac90-bb0e51011233">SetWorldTransform</a>
+ 
+
+ 
+

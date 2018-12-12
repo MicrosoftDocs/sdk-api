@@ -53,7 +53,7 @@ req.redist:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Returns the name of the <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters
@@ -149,7 +149,7 @@ If the <i>lpszName</i> parameter is set to <b>NULL</b> and the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370234(v=VS.85).aspx">IGetClusterUIInfo</a>
+<a href="https://msdn.microsoft.com/e41afb20-5bb8-475f-a056-53d7be8f4bf0">IGetClusterUIInfo</a>
  
 
  

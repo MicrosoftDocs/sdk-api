@@ -4,7 +4,7 @@ title: SymSetOptions function
 author: windows-sdk-content
 description: Sets the options mask.
 old-location: base\symsetoptions.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 15d72415-829f-4ba3-af80-1f3762cbebda
 ms.author: windowssdkdev
 ms.date: 12/5/2018

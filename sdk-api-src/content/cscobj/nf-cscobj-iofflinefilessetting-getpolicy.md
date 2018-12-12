@@ -7,7 +7,7 @@ old-location: of\iofflinefilessetting_getpolicy.htm
 tech.root: offlinefiles
 ms.assetid: b7f7f8f5-2640-4770-a7ba-230cca8a9575
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetPolicy, GetPolicy method [Offline Files], GetPolicy method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPolicy method, IOfflineFilesSetting.GetPolicy, IOfflineFilesSetting::GetPolicy, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPolicy, of.iofflinefilessetting_getpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,9 +61,9 @@ Retrieves a policy associated with a particular Offline Files setting.
 
 ### -param pvarValue [out]
 
-If the policy supports one or more values, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> object contains those values.  If the policy does not support values, the type of the returned <b>VARIANT</b> is <b>VT_EMPTY</b>.
+If the policy supports one or more values, the returned <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> object contains those values.  If the policy does not support values, the type of the returned <b>VARIANT</b> is <b>VT_EMPTY</b>.
 
-The method initializes the <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> prior to storing the policy value in it.
+The method initializes the <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> prior to storing the policy value in it.
 
 
 ### -param dwScope [in]
@@ -112,7 +112,7 @@ It is important to note that policy cannot be set through the Offline Files API.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530601(v=VS.85).aspx">IOfflineFilesSetting</a>
+<a href="https://msdn.microsoft.com/6f47c67b-9438-4229-89b2-6b3f9da8fb68">IOfflineFilesSetting</a>
  
 
  

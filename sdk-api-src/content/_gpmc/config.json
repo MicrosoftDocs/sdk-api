@@ -1,7 +1,0 @@
-{
-  "tech": "gpmc",
-  "headers": [
-    "gpmgmt.h"
-  ],
-  "displayName": "Group Policy Management Console"
-}

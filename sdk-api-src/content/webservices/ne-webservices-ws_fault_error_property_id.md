@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_FAULT_ERROR_PROPERTY_ID
+UID: NE:webservices.__unnamed_enum_32
 title: WS_FAULT_ERROR_PROPERTY_ID
 author: windows-sdk-content
 description: Information about a fault.
@@ -7,7 +7,7 @@ old-location: wsw\ws_fault_error_property_id.htm
 tech.root: wsw
 ms.assetid: f5ae9ee9-18de-428d-9367-aa4a554577ea
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_FAULT_ERROR_PROPERTY_ACTION, WS_FAULT_ERROR_PROPERTY_FAULT, WS_FAULT_ERROR_PROPERTY_HEADER, WS_FAULT_ERROR_PROPERTY_ID, WS_FAULT_ERROR_PROPERTY_ID enumeration [Web Services for Windows], webservices/WS_FAULT_ERROR_PROPERTY_ACTION, webservices/WS_FAULT_ERROR_PROPERTY_FAULT, webservices/WS_FAULT_ERROR_PROPERTY_HEADER, webservices/WS_FAULT_ERROR_PROPERTY_ID, wsw.ws_fault_error_property_id
 ms.prod: windows-hardware
 ms.technology: windows-devices

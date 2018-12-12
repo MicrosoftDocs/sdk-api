@@ -52,7 +52,7 @@ req.redist:
 
 <span>This topic lists the 
 			Translate methods of the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>.
+			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/bbaa4027-94aa-497f-8efb-a82d251847af">Region Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -61,19 +61,19 @@ req.redist:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534794(v=VS.85).aspx">Translate(INT,INT)</a>
+<a href="https://msdn.microsoft.com/0dc16555-1df7-44b8-85fb-ff0963f3c68e">Translate(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534794(v=VS.85).aspx">Region::Translate</a> method offsets this region by specified amounts in the horizontal and vertical directions.
+The <a href="https://msdn.microsoft.com/0dc16555-1df7-44b8-85fb-ff0963f3c68e">Region::Translate</a> method offsets this region by specified amounts in the horizontal and vertical directions.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534793(v=VS.85).aspx">Translate(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/8691cdff-6fac-4192-a2e6-1ac74b2c479f">Translate(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534793(v=VS.85).aspx">Region::Translate</a> method offsets this region by specified amounts in the horizontal and vertical directions.
+The <a href="https://msdn.microsoft.com/8691cdff-6fac-4192-a2e6-1ac74b2c479f">Region::Translate</a> method offsets this region by specified amounts in the horizontal and vertical directions.
 
 </td>
 </tr>

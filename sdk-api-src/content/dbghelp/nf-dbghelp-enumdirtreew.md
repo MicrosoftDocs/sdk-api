@@ -4,7 +4,7 @@ title: EnumDirTreeW function
 author: windows-sdk-content
 description: Enumerates all occurrences of the specified file in the specified directory tree.
 old-location: base\enumdirtree.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 2dd132f3-83d4-4afd-b44d-9f8d385d6116
 ms.author: windowssdkdev
 ms.date: 12/5/2018

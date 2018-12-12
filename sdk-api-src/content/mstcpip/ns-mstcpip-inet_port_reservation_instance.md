@@ -1,13 +1,13 @@
 ---
-UID: NS:mstcpip.INET_PORT_RESERVATION_INSTANCE
+UID: NS:mstcpip.__unnamed_struct_2
 title: INET_PORT_RESERVATION_INSTANCE
 author: windows-sdk-content
 description: Contains a port reservation and a token for a block of TCP or UDP ports.
 old-location: winsock\inet_port_reservation_instance.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: F2332474-453F-40A3-8A0B-03A97300B724
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PINET_PORT_RESERVATION_INSTANCE, INET_PORT_RESERVATION_INSTANCE, INET_PORT_RESERVATION_INSTANCE structure [Winsock], PINET_PORT_RESERVATION_INSTANCE, PINET_PORT_RESERVATION_INSTANCE structure pointer [Winsock], mstcpip/INET_PORT_RESERVATION_INSTANCE, mstcpip/PINET_PORT_RESERVATION_INSTANCE, winsock.inet_port_reservation_instance"
 ms.prod: windows-hardware
 ms.technology: windows-devices

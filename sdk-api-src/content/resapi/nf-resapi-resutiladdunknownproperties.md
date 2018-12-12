@@ -125,7 +125,7 @@ There was an error allocating memory.
 
 The relationships between the input and output parameters of  <b>ResUtilAddUnknownProperties</b> are illustrated in the following diagram:
 
-<img alt="" border="0" src="./images/resutil.png"/>
+<img alt="" border="0" src="images/resutil.png"/>
 The  <b>ResUtilAddUnknownProperties</b> utility function enumerates the properties stored in the cluster database (under <i>hkeyClusterKey</i>) and looks for corresponding properties in the property table (<i>pPropertyTable</i>). Each property that is listed in the cluster database but not listed in the property table is added to the property list (<i>pOutPropertyList</i>).
 
 

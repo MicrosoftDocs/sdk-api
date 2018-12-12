@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages to the contained window. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760867(v=VS.85).aspx">PGM_FORWARDMOUSE</a> message explicitly. 
+Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> messages to the contained window. You can use this macro or send the <a href="https://msdn.microsoft.com/269972fe-50b3-4c9f-b5ac-65e768b30684">PGM_FORWARDMOUSE</a> message explicitly. 
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Enables or disables mouse forwarding for the pager control. When mouse forwardin
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the pager control. 
 
 
 ### -param bForward
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 <b>BOOL</b> value that determines if mouse forwarding is enabled or disabled. If this value is nonzero, mouse forwarding is enabled. If this value is zero, mouse forwarding is disabled. 
 

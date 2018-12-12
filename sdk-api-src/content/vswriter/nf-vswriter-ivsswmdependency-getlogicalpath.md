@@ -156,7 +156,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller must free the memory used by the returned string by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory used by the returned string by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 A dependency does not indicate an order of preference between the component with the documented dependencies and the components it depends on. A dependency merely indicates that the component and the components it depends on must always be backed up or restored together.
 

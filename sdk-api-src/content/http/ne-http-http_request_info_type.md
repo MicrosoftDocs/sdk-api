@@ -1,0 +1,97 @@
+---
+UID: NE:http._HTTP_REQUEST_INFO_TYPE
+title: HTTP_REQUEST_INFO_TYPE
+author: windows-sdk-content
+description: The HTTP_REQUEST_INFO_TYPE enumeration defines the type of information contained in the HTTP_REQUEST_INFO structure. This enumeration is used in the HTTP_REQUEST_INFO structure.
+old-location: http\http_request_info_type.htm
+tech.root: http
+ms.assetid: 178d2608-85c8-4842-bd6a-4c66d7f1b892
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PHTTP_REQUEST_INFO_TYPE, *PHTTP_REQUEST_INFO_TYPE enumeration [HTTP], HTTP_REQUEST_INFO_TYPE, HTTP_REQUEST_INFO_TYPE enumeration [HTTP], HttpRequestInfoTypeAuth, http.http_request_info_type, http/*PHTTP_REQUEST_INFO_TYPE, http/HTTP_REQUEST_INFO_TYPE, http/HttpRequestInfoTypeAuth"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: http.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_REQUEST_INFO_TYPE
+product: Windows
+targetos: Windows
+req.typenames: HTTP_REQUEST_INFO_TYPE, *PHTTP_REQUEST_INFO_TYPE
+req.redist: 
+---
+
+# HTTP_REQUEST_INFO_TYPE enumeration
+
+
+## -description
+
+
+The <b>HTTP_REQUEST_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a> structure. 
+
+This enumeration is used  in the <a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a> structure.
+
+
+## -enum-fields
+
+
+
+
+### -field HttpRequestInfoTypeAuth
+
+The request information type is authentication.
+
+The <b>pInfo</b> member of the <a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a> structure points to a <a href="https://msdn.microsoft.com/07008290-5277-4ef4-ae55-d335fdb2ba90">HTTP_REQUEST_AUTH_INFO</a> structure.
+
+
+### -field HttpRequestInfoTypeChannelBind
+
+
+### -field HttpRequestInfoTypeSslProtocol
+
+
+### -field HttpRequestInfoTypeSslTokenBindingDraft
+
+
+### -field HttpRequestInfoTypeSslTokenBinding
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/849b88a1-e60b-4a1d-a660-cc3fe429d39f">HTTP Server API Version 2.0 Enumeration Types</a>
+
+
+
+<a href="https://msdn.microsoft.com/83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a">HTTP_REQUEST_INFO</a>
+ 
+
+ 
+

@@ -4,7 +4,7 @@ title: MINIDUMP_CALLBACK_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with MiniDumpWriteDump. It receives extended minidump information.
 old-location: base\minidumpcallback.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 8dc95b0a-6aee-4c38-ab25-a800153bbe91
 ms.author: windowssdkdev
 ms.date: 12/5/2018

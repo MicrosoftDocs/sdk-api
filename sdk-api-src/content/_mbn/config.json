@@ -1,7 +1,0 @@
-{
-  "tech": "mbn",
-  "headers": [
-    "mbnapi.h"
-  ],
-  "displayName": "Mobile Broadband"
-}

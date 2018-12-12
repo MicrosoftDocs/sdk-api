@@ -1,5 +1,5 @@
 ---
-UID: NS:snmp.AsnAny
+UID: NS:snmp.__unnamed_struct_2
 title: AsnAny
 author: windows-sdk-content
 description: The AsnAny structure contains an SNMP variable type and value. This structure is a member of the SnmpVarBind structure that is used as a parameter in many of the SNMP functions. This structure is not used by the WinSNMP API functions.
@@ -7,7 +7,7 @@ old-location: snmp\asnany_str.htm
 tech.root: SNMP
 ms.assetid: ce8d002e-f357-499c-b976-f8ebaf1e7142
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ASN_BITS, ASN_COUNTER32, ASN_COUNTER64, ASN_GAUGE32, ASN_INTEGER, ASN_INTEGER32, ASN_IPADDRESS, ASN_OBJECTIDENTIFIER, ASN_OCTETSTRING, ASN_OPAQUE, ASN_SEQUENCE, ASN_TIMETICKS, ASN_UNSIGNED32, AsnAny, AsnAny structure [SNMP], AsnObjectSyntax, SNMP_EXCEPTION_ENDOFMIBVIEW, SNMP_EXCEPTION_NOSUCHINSTANCE, SNMP_EXCEPTION_NOSUCHOBJECT, _snmp_asnany_str, snmp.asnany_str, snmp/AsnAny
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -243,88 +243,162 @@ Indicates that the end of the MIB view has been reached.
 Contains the variable's value. This member can be only one of the following values.
 
 
-### -field asnValue.number
+
+#### number
 
 <b>Type: <b>AsnInteger32</b>
 </b>
 Accesses a 32-bit signed integer variable.
 
 
-### -field asnValue.unsigned32
+
+#### unsigned32
 
 <b>Type: <b>AsnUnsigned32</b>
 </b>
 Accesses a 32-bit unsigned integer variable.
 
 
-### -field asnValue.counter64
+
+#### counter64
 
 <b>Type: <b>AsnCounter64</b>
 </b>
 Accesses a counter variable that increases until it reaches a maximum value of (2^64) – 1.
 
 
-### -field asnValue.string
+
+#### string
 
 <b>Type: <b>AsnOctetString</b>
 </b>
 Accesses an octet string variable.
 
 
-### -field asnValue.bits
+
+#### bits
 
 <b>Type: <b>AsnBits</b>
 </b>
 Accesses a variable that is an enumeration of named bits with non-negative, contiguous values, starting at zero.
 
 
-### -field asnValue.object
+
+#### object
 
 <b>Type: <b>AsnObjectIdentifier</b>
 </b>
 Accesses an object identifier variable.
 
 
-### -field asnValue.sequence
+
+#### sequence
 
 <b>Type: <b>AsnSequence</b>
 </b>
 Accesses an ASN sequence variable.
 
 
-### -field asnValue.address
+
+#### address
 
 <b>Type: <b>AsnIPAddress</b>
 </b>
 Accesses an IP address variable.
 
 
-### -field asnValue.counter
+
+#### counter
 
 <b>Type: <b>AsnCounter32</b>
 </b>
 Accesses a counter variable that increases until it reaches a maximum value of (2^32) – 1.
 
 
-### -field asnValue.gauge
+
+#### gauge
 
 <b>Type: <b>AsnGauge32</b>
 </b>
 Accesses a gauge variable.
 
 
-### -field asnValue.ticks
+
+#### ticks
 
 <b>Type: <b>AsnTimeticks</b>
 </b>
 Accesses a timeticks counter variable that is relative to a specific timer event.
 
 
-### -field asnValue.arbitrary
+
+#### arbitrary
 
 <b>Type: <b>AsnOpaque</b>
 </b>
 Accesses an opaque variable.
+
+
+### -field number
+
+ 
+
+
+### -field unsigned32
+
+ 
+
+
+### -field counter64
+
+ 
+
+
+### -field string
+
+ 
+
+
+### -field bits
+
+ 
+
+
+### -field object
+
+ 
+
+
+### -field sequence
+
+ 
+
+
+### -field address
+
+ 
+
+
+### -field counter
+
+ 
+
+
+### -field gauge
+
+ 
+
+
+### -field ticks
+
+ 
+
+
+### -field arbitrary
+
+ 
+
+
 
 
 ## -remarks

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706323(v=VS.85).aspx">Convolve matrix effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/D9C23AC4-0090-4F16-AC59-B952FB616FA9">Convolve matrix effect</a>.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ The default value is 1.0f.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934233(v=VS.85).aspx">D2D1_CONVOLVEMATRIX_SCALE_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/16949437-83A6-41D2-B531-089ACE748E3F">D2D1_CONVOLVEMATRIX_SCALE_MODE</a>.
 
 The default value is D2D1_CONVOLVEMATRIX_SCALE_MODE_LINEAR.
 
@@ -165,7 +165,7 @@ The default value is FALSE.
 The mode used to calculate the border of the image, soft or hard.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934220(v=VS.85).aspx">D2D1_BORDER_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 

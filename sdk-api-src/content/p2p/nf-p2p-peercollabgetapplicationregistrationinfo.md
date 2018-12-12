@@ -7,7 +7,7 @@ old-location: p2p\peercollabgetapplicationregistrationinfo.htm
 tech.root: P2PSdk
 ms.assetid: d1a8888e-4153-4486-9384-615ae7ed7031
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerCollabGetApplicationRegistrationInfo, PeerCollabGetApplicationRegistrationInfo function [Peer Networking], p2p.peercollabgetapplicationregistrationinfo, p2p/PeerCollabGetApplicationRegistrationInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,7 +151,7 @@ A peer's application has a GUID representing a single application. When an appli
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>
+<a href="p2p.peercollabregisterapplication">PeerCollabRegisterApplication</a>
 
 
 

@@ -4,7 +4,7 @@ title: SymLoadModule function
 author: windows-sdk-content
 description: Loads the symbol table.
 old-location: base\symloadmodule64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: be50588b-066b-42ab-ba81-7537c811676f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

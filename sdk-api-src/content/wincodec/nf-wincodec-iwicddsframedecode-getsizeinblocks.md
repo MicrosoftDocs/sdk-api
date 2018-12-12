@@ -91,7 +91,7 @@ For block compressed textures, the returned width and height values do not compl
 
 
 
-If the texture does not use a block-compressed <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>, this method returns the texture size in pixels; for these formats the block size returned by <a href="https://msdn.microsoft.com/0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65">IWICDdsFrameDecoder::GetFormatInfo</a> is 1x1.
+If the texture does not use a block-compressed <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>, this method returns the texture size in pixels; for these formats the block size returned by <a href="https://msdn.microsoft.com/0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65">IWICDdsFrameDecoder::GetFormatInfo</a> is 1x1.
 
 
 

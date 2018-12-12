@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.RSVP_SCOPE
+UID: NS:lpmapi.__unnamed_struct_10
 title: RSVP_SCOPE
 author: windows-sdk-content
 description: The RSVP_SCOPE structure provides RSVP scope information.
@@ -7,7 +7,7 @@ old-location: qos\rsvp_scope.htm
 tech.root: QOS
 ms.assetid: 64a7e461-d767-4571-97ca-cf7862a05d18
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RSVP_SCOPE, RSVP_SCOPE structure [QOS], lpmapi/RSVP_SCOPE, qos.rsvp_scope
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,9 +69,17 @@ Scope header, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e6
 Union containing scope list information.
 
 
-### -field scope_u.scopl_ipv4
+
+#### scopl_ipv4
 
 RSVP scope list, in the form of a <a href="https://msdn.microsoft.com/f1651371-d192-45d9-9a9e-d272b624f40d">Scope_list_ipv4</a> structure.
+
+
+### -field scopl_ipv4
+
+ 
+
+
 
 
 ## -see-also

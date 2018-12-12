@@ -7,7 +7,7 @@ old-location: perf\loadperfcountertextstrings.htm
 tech.root: perfctrs
 ms.assetid: 19f6989a-708a-485d-94c0-ab617707ced4
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: LoadPerfCounterTextStrings, LoadPerfCounterTextStrings function [Perf], LoadPerfCounterTextStringsA, LoadPerfCounterTextStringsW, _win32_loadperfcountertextstrings, base.loadperfcountertextstrings, loadperf/LoadPerfCounterTextStrings, loadperf/LoadPerfCounterTextStringsA, loadperf/LoadPerfCounterTextStringsW, perf.loadperfcountertextstrings
 ms.prod: windows-hardware
 ms.technology: windows-devices

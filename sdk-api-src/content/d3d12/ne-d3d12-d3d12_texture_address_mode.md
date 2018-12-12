@@ -88,9 +88,9 @@ Texture coordinates outside the range [0.0, 1.0] are set to the border color spe
 ### -field D3D12_TEXTURE_ADDRESS_MODE_MIRROR_ONCE
 
 Similar to 
-            <a href="https://msdn.microsoft.com/en-us/library/Dn770441(v=VS.85).aspx">D3D12_TEXTURE_ADDRESS_MODE_MIRROR</a> 
+            <a href="d3d12_texture_address_mode.htm">D3D12_TEXTURE_ADDRESS_MODE_MIRROR</a> 
             and 
-            <a href="https://msdn.microsoft.com/en-us/library/Dn770441(v=VS.85).aspx">D3D12_TEXTURE_ADDRESS_MODE_CLAMP</a>.
+            <a href="d3d12_texture_address_mode.htm">D3D12_TEXTURE_ADDRESS_MODE_CLAMP</a>.
             Takes the absolute value of the texture coordinate (thus, mirroring around 0), and then clamps to the maximum value.
           
 

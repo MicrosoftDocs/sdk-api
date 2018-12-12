@@ -1,8 +1,0 @@
-{
-  "tech": "nla",
-  "headers": [
-    "netlistmgr.h",
-    "ondemandconnroutehelper.h"
-  ],
-  "displayName": "Network List Manager"
-}

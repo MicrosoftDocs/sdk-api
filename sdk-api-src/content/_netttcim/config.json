@@ -1,7 +1,0 @@
-{
-  "tech": "netttcim",
-  "headers": [
-    "rtccore.h"
-  ],
-  "displayName": "NetTtCim Provider"
-}

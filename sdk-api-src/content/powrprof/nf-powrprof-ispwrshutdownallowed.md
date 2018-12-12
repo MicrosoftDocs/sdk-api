@@ -7,7 +7,7 @@ old-location: base\ispwrshutdownallowed.htm
 tech.root: power
 ms.assetid: e48d6f67-225b-40f7-902b-0e65112303b9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IsPwrShutdownAllowed, IsPwrShutdownAllowed function, _win32_ispwrshutdownallowed, base.ispwrshutdownallowed, powrprof/IsPwrShutdownAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices

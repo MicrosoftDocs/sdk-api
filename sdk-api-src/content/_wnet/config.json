@@ -1,7 +1,0 @@
-{
-  "tech": "wnet",
-  "headers": [
-    "winnetwk.h"
-  ],
-  "displayName": "Windows Networking (WNet)"
-}

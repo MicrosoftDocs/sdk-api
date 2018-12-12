@@ -7,7 +7,7 @@ old-location: pla\itracedataprovidercollection_gettracedataproviders.htm
 tech.root: pla
 ms.assetid: ff35087e-be55-42e8-96e9-c923d06248d8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetTraceDataProviders, GetTraceDataProviders method [PLA], GetTraceDataProviders method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],GetTraceDataProviders method, ITraceDataProviderCollection.GetTraceDataProviders, ITraceDataProviderCollection::GetTraceDataProviders, base.itracedataprovidercollection_gettracedataproviders, pla.itracedataprovidercollection_gettracedataproviders, pla/ITraceDataProviderCollection::GetTraceDataProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices

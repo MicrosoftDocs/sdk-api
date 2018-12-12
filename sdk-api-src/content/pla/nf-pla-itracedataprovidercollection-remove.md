@@ -7,7 +7,7 @@ old-location: pla\itracedataprovidercollection_remove.htm
 tech.root: pla
 ms.assetid: 553ec66e-d38a-46cc-9b01-f4d7947eda91
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITraceDataProviderCollection interface [PLA],Remove method, ITraceDataProviderCollection.Remove, ITraceDataProviderCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],ITraceDataProviderCollection interface, base.itracedataprovidercollection_remove, pla.itracedataprovidercollection_remove, pla/ITraceDataProviderCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

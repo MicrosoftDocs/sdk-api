@@ -116,7 +116,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629975(v=VS.85).aspx">IWiaItemExtras</a>
+<a href="https://msdn.microsoft.com/b04f22dc-47d2-4434-82f9-4d6c618f31b3">IWiaItemExtras</a>
  
 
  

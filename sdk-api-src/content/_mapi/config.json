@@ -1,9 +1,0 @@
-{
-  "tech": "mapi",
-  "headers": [
-    "mapi.h",
-    "wabmem.h",
-    "mapiunicodehelp.h"
-  ],
-  "displayName": "Windows Messaging (MAPI)"
-}

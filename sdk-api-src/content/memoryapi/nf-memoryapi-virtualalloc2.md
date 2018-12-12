@@ -394,11 +394,15 @@ When creating a region that will be executable, the calling program bears respon
 
 Scenario 1. Create a circular buffer by mapping two adjacent views of the same shared memory section.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <stdlib.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 //
 // This function creates a ring buffer by allocating a pagefile-backed section
@@ -422,7 +426,7 @@ CreateRingBuffer (
     void* view1 = nullptr;
     void* view2 = nullptr;
 
-    GetSystemInfo (&sysInfo);
+    GetSystemInfo (&amp;sysInfo);
 
     if ((bufferSize % sysInfo.dwAllocationGranularity) != 0) {
         return nullptr;
@@ -568,7 +572,7 @@ int __cdecl wmain()
     void* secondaryView;
     unsigned int bufferSize = 0x10000;
 
-    ringBuffer = (char*) CreateRingBuffer (bufferSize, &secondaryView);
+    ringBuffer = (char*) CreateRingBuffer (bufferSize, &amp;secondaryView);
 
     if (ringBuffer == nullptr) {
         printf ("CreateRingBuffer failed\n");
@@ -588,15 +592,19 @@ int __cdecl wmain()
     UnmapViewOfFile (ringBuffer);
     UnmapViewOfFile (secondaryView);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Scenario 2. Specify a preferred NUMA node when allocating memory.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 void*
 AllocateWithPreferredNode (size_t size, unsigned int numaNode)
 {
@@ -610,17 +618,21 @@ AllocateWithPreferredNode (size_t size, unsigned int numaNode)
         size,
         MEM_RESERVE | MEM_COMMIT,
         PAGE_READWRITE,
-        &param, 1);
+        &amp;param, 1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Scenario 3. Allocate memory in a specific virtual address range (below 4GB, in this example) and with specific alignment.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 void*
 AllocateAlignedBelow2GB (size_t size, size_t alignment)
 {
@@ -631,19 +643,19 @@ AllocateAlignedBelow2GB (size_t size, size_t alignment)
     addressReqs.HighestEndingAddress = (PVOID)(ULONG_PTR) 0x7fffffff;
 
     param.Type = MemExtendedParameterAddressRequirements;
-    param.Pointer = &addressReqs;
+    param.Pointer = &amp;addressReqs;
 
     return VirtualAlloc2 (
         nullptr, nullptr,
         size,
         MEM_RESERVE | MEM_COMMIT,
         PAGE_READWRITE,
-        &param, 1);
+        &amp;param, 1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -163,7 +163,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller of this method must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> when it finishes accessing the component information.
+The caller of this method must call <a href="_com_iunknown_release">IUnknown::Release</a> when it finishes accessing the component information.
 
 <b>GetWriterComponents</b> retrieves component information for a component stored in the Backup Components Document by earlier calls to 
 <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">IVssBackupComponents::AddComponent</a>.

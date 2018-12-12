@@ -66,7 +66,7 @@ Handle to the Bluetooth device or service.  If a service handle is passed, then 
 
 ### -param Characteristic [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/Hh450840(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC</a> structure containing the parent characteristic of the descriptors to be retrieved.
+Pointer to <a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a> structure containing the parent characteristic of the descriptors to be retrieved.
 
 
 ### -param DescriptorsBufferCount [in]
@@ -76,7 +76,7 @@ The number of elements allocated for the <i>DescriptorsBuffer</i> parameter.
 
 ### -param DescriptorsBuffer [out, optional]
 
-Pointer to buffer containing a <a href="https://msdn.microsoft.com/en-us/library/Hh450843(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR</a> structure into which to return descriptors.
+Pointer to buffer containing a <a href="https://msdn.microsoft.com/DE738ADA-AE8E-4679-887C-A6194E88386E">BTH_LE_GATT_DESCRIPTOR</a> structure into which to return descriptors.
 
 
 ### -param DescriptorsBufferActual [out]
@@ -222,8 +222,8 @@ Do not modify the returned characteristic structure,
     if the caller does this.
 
 The parent characteristic must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://msdn.microsoft.com/en-us/library/Hh450802(v=VS.85).aspx">BluetoothGATTGetServices</a> or
-    <a href="https://msdn.microsoft.com/en-us/library/Hh450800(v=VS.85).aspx">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://msdn.microsoft.com/8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706">BluetoothGATTGetServices</a> or
+    <a href="https://msdn.microsoft.com/72F0E995-88B6-42E0-9B69-429566B5605C">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
@@ -297,11 +297,11 @@ GetDescriptors:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450840(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450843(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/DE738ADA-AE8E-4679-887C-A6194E88386E">BTH_LE_GATT_DESCRIPTOR</a>
  
 
  

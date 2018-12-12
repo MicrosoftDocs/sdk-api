@@ -1,9 +1,0 @@
-{
-  "tech": "axe",
-  "headers": [
-    "axeruntime.h",
-    "axecore.h",
-    "axehosting.h"
-  ],
-  "displayName": "Unmanaged C++ Version of the AXE API"
-}

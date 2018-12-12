@@ -1,7 +1,0 @@
-{
-  "tech": "helpapi",
-  "headers": [
-    "adomd.h"
-  ],
-  "displayName": "Help API"
-}

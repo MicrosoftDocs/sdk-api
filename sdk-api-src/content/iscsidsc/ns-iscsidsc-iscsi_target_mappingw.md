@@ -1,5 +1,5 @@
 ---
-UID: NS:iscsidsc.ISCSI_TARGET_MAPPINGW
+UID: NS:iscsidsc.__unnamed_struct_4
 title: ISCSI_TARGET_MAPPINGW
 author: windows-sdk-content
 description: ISCSI_TARGET_MAPPING.
@@ -7,7 +7,7 @@ old-location: iscsidisc\iscsi_target_mapping.htm
 tech.root: iSCSIDisc
 ms.assetid: bdc27e67-1d64-42cd-adfa-a792012b7142
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PISCSI_TARGET_MAPPINGW, ISCSI_TARGET_MAPPING, ISCSI_TARGET_MAPPING structure [iSCSI Discovery Library API], ISCSI_TARGET_MAPPINGA, ISCSI_TARGET_MAPPINGW, PISCSI_TARGET_MAPPING, PISCSI_TARGET_MAPPING structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_mapping, iscsidsc/ISCSI_TARGET_MAPPING, iscsidsc/ISCSI_TARGET_MAPPINGA, iscsidsc/ISCSI_TARGET_MAPPINGW, iscsidsc/PISCSI_TARGET_MAPPING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,12 +100,12 @@ The number of logical units (LUN) on the target.
 A list of SCSI_LUN_LIST structures that contain information about the LUNs associated with the target.
 
 
-### -field LUNList.size_is
+### -field size_is
 
  
 
 
-### -field LUNList.size_is.LUNCount
+### -field size_is.LUNCount
 
  
 

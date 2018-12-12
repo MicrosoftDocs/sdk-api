@@ -65,7 +65,7 @@ Type: <b>float</b>
 The angle to rotate the hue. The effect calculates a color matrix based on the rotation angle (θ) according to the following matrix equations:
           
 
-<img alt="Matrix equation" src="./images/hue_formula.png"/>
+<img alt="Matrix equation" src="images/hue_formula.png"/>
 
 ## -returns
 

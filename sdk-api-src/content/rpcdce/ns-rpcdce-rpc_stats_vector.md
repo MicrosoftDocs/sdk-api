@@ -1,13 +1,13 @@
 ---
-UID: NS:rpcdce.RPC_STATS_VECTOR
+UID: NS:rpcdce.__unnamed_struct_0
 title: RPC_STATS_VECTOR
 author: windows-sdk-content
 description: The RPC_STATS_VECTOR structure contains statistics from the RPC run-time library on a per-server basis.
 old-location: rpc\rpc_stats_vector.htm
-tech.root: Rpc
+tech.root: rpc
 ms.assetid: f2d959a5-530c-4534-9095-ec1a177ead99
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: RPC_C_STATS_CALLS_IN, RPC_C_STATS_CALLS_OUT, RPC_C_STATS_PKTS_IN, RPC_C_STATS_PKTS_OUT, RPC_STATS_VECTOR, RPC_STATS_VECTOR structure [RPC], _rpc_rpc_stats_vector, rpc.rpc_stats_vector, rpcdce/RPC_STATS_VECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

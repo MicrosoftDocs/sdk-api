@@ -1,8 +1,0 @@
-{
-  "tech": "msiprov",
-  "headers": [
-    "sdoias.h",
-    "netcfgn.h"
-  ],
-  "displayName": "Windows Installer Provider"
-}

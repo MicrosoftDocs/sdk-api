@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitem_ismarkedfordeletion.htm
 tech.root: offlinefiles
 ms.assetid: 03c0fec4-d320-4c46-a07c-3ebbec61cc54
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesItem interface [Offline Files],IsMarkedForDeletion method, IOfflineFilesItem.IsMarkedForDeletion, IOfflineFilesItem::IsMarkedForDeletion, IsMarkedForDeletion, IsMarkedForDeletion method [Offline Files], IsMarkedForDeletion method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::IsMarkedForDeletion, of.iofflinefilesitem_ismarkedfordeletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,7 +89,7 @@ Clients should normally treat such items as if they do not exist in the cache.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
  
 
  

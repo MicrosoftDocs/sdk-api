@@ -50,5 +50,5 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms535365(v=VS.85).aspx">Image</a> class provides methods for loading and saving raster images (bitmaps) and vector images (metafiles). An Image object encapsulates a bitmap or a metafile and stores attributes that you can retrieve by calling various Get methods. You can construct Image objects from a variety of file types including BMP, ICON, GIF, JPEG, Exif, PNG, TIFF, WMF, and EMF.
+The <a href="https://msdn.microsoft.com/4962e901-cc4f-4225-8d24-731225e149e6">Image</a> class provides methods for loading and saving raster images (bitmaps) and vector images (metafiles). An Image object encapsulates a bitmap or a metafile and stores attributes that you can retrieve by calling various Get methods. You can construct Image objects from a variety of file types including BMP, ICON, GIF, JPEG, Exif, PNG, TIFF, WMF, and EMF.
 

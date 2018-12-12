@@ -72,9 +72,9 @@ A combination of <a href="https://msdn.microsoft.com/5D6C605C-079E-4487-8C58-783
 
 
 
-For hardware at Direct3D 10 and higher <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature levels</a>, the runtime sets both members identically.  For hardware at Direct3D 9.3 and lower feature levels, the runtime can set a lower precision support in the <b>PixelShaderMinPrecision</b> member than the <b>AllOtherShaderStagesMinPrecision</b> member; for 9.3 and lower, all other shader stages represent only the vertex shader.
+For hardware at Direct3D 10 and higher <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature levels</a>, the runtime sets both members identically.  For hardware at Direct3D 9.3 and lower feature levels, the runtime can set a lower precision support in the <b>PixelShaderMinPrecision</b> member than the <b>AllOtherShaderStagesMinPrecision</b> member; for 9.3 and lower, all other shader stages represent only the vertex shader.
 
-For more info about HLSL minimum precision, see <a href="https://msdn.microsoft.com/en-us/library/Hh404562(v=VS.85).aspx">using HLSL minimum precision</a>.
+For more info about HLSL minimum precision, see <a href="direct3d_11_1_features.htm">using HLSL minimum precision</a>.
 
 
 
@@ -84,11 +84,11 @@ For more info about HLSL minimum precision, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE</a>
+<a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>
  
 
  

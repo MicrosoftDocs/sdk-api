@@ -1,0 +1,116 @@
+---
+UID: NS:winuser.tagSTYLESTRUCT
+title: STYLESTRUCT
+author: windows-sdk-content
+description: Contains the styles for a window.
+old-location: winmsg\stylestruct.htm
+tech.root: winmsg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\stylestruct.htm
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*LPSTYLESTRUCT, LPSTYLESTRUCT, LPSTYLESTRUCT structure pointer [Windows and Messages], STYLESTRUCT, STYLESTRUCT structure [Windows and Messages], _win32_STYLESTRUCT_str, _win32_stylestruct_str_cpp, winmsg.stylestruct, winui._win32_stylestruct_str, winuser/LPSTYLESTRUCT, winuser/STYLESTRUCT"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - STYLESTRUCT
+product: Windows
+targetos: Windows
+req.typenames: STYLESTRUCT, *LPSTYLESTRUCT
+req.redist: 
+---
+
+# STYLESTRUCT structure
+
+
+## -description
+
+
+Contains the styles for a window. 
+
+
+## -struct-fields
+
+
+
+
+### -field styleOld
+
+Type: <b>DWORD</b>
+
+The previous styles for a window. For more information, see the Remarks. 
+
+
+### -field styleNew
+
+Type: <b>DWORD</b>
+
+The new styles for a window. For more information, see the Remarks. 
+
+
+## -remarks
+
+
+
+The styles in 
+				<b>styleOld</b> and 
+				<b>styleNew</b> can be either the window styles (<b>WS_*</b>) or the extended window styles (<b>WS_EX_*</b>), depending on the 
+				<i>wParam</i> of the message that includes <b>STYLESTRUCT</b>.
+
+The 
+				<b>styleOld</b> and 
+				<b>styleNew</b> members indicate the styles through their bit pattern. Note that several styles are equal to zero; to detect these styles, test for the negation of their inverse style. For example, to see if <b>WS_EX_LEFT</b> is set, you test for ~<b>WS_EX_RIGHT</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/37bc4e1a-f75d-4851-8dee-97fa2da90254">WM_STYLECHANGED</a>
+
+
+
+<a href="https://msdn.microsoft.com/71034362-3f67-49ae-bbbf-d38853ababb3">WM_STYLECHANGING</a>
+
+
+
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+ 
+
+ 
+

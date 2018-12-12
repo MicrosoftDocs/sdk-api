@@ -1,0 +1,105 @@
+---
+UID: NS:commctrl.tagLVTILEINFO
+title: LVTILEINFO
+author: windows-sdk-content
+description: Provides information about an item in a list-view control when it is displayed in tile view.
+old-location: controls\LVTILEINFO.htm
+tech.root: controls
+ms.assetid: VS|Controls|~\controls\listview\structures\lvtileinfo.htm
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PLVTILEINFO, LVTILEINFO, LVTILEINFO structure [Windows Controls], PLVTILEINFO, PLVTILEINFO structure pointer [Windows Controls], commctrl/LVTILEINFO, commctrl/PLVTILEINFO, controls.LVTILEINFO, controls.inet_LVTILEINFO, inet_LVTILEINFO, inet_LVTILEINFO_cpp"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: commctrl.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVTILEINFO
+product: Windows
+targetos: Windows
+req.typenames: LVTILEINFO, *PLVTILEINFO
+req.redist: 
+---
+
+# LVTILEINFO structure
+
+
+## -description
+
+
+Provides information about an item in a list-view control when it is displayed in tile view.
+
+
+## -struct-fields
+
+
+
+
+### -field cbSize
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The size of the <b>LVTILEINFO</b> structure.
+
+
+### -field iItem
+
+Type: <b>int</b>
+
+The item for which the information is retrieved or set.
+
+
+### -field cColumns
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+The number of data columns displayed for this item. When retrieving information, initialize this value to the size of the <b>puColumns</b> array. On return, the member is set to the number of columns actually set for the item.
+
+
+### -field puColumns
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PUINT</a></b>
+
+A pointer to an array of column indices, specifying which columns are displayed for this item, and the order of those columns. When retrieving information, allocate an array large enough to hold the greatest number of columns expected.
+
+
+### -field piColFmt
+
+Type: <b>int*</b>
+
+A pointer to an array of column formats (for example, LVCFMT_LEFT), one for each of the columns specified in <b>puColumns</b>. When retrieving information, allocate an array large enough to hold the greatest number of column formats expected.
+
+
+## -remarks
+
+
+
+In tile view, the item name is displayed to the right of the icon. You can specify additional subitems (corresponding to columns in the details view), to be displayed on lines below the item name. The <b>puColumns</b> array contains the indices of subitems to be displayed. Indices should be greater than 0, because subitem 0, the item name, is already displayed.
+
+Column information can also be set in the <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure when creating the list item.
+
+
+

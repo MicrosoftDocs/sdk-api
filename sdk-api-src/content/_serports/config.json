@@ -1,7 +1,0 @@
-{
-  "tech": "serports",
-  "headers": [
-    "msports.h"
-  ],
-  "displayName": "Serial Controller Driver Reference"
-}

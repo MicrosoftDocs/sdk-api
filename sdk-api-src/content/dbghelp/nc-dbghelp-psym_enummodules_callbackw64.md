@@ -4,7 +4,7 @@ title: PSYM_ENUMMODULES_CALLBACKW64
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumerateModules64 function. It is called once for each enumerated module, and receives the module information.
 old-location: base\symenumeratemodulesproc64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 97a82134-7e1b-4c7e-aa55-8347fea4e739
 ms.author: windowssdkdev
 ms.date: 12/5/2018

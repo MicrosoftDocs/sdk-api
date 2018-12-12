@@ -1,8 +1,0 @@
-{
-  "tech": "upnp",
-  "headers": [
-    "upnp.h",
-    "upnphost.h"
-  ],
-  "displayName": "UPnP APIs"
-}

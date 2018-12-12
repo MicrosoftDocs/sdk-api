@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>DAD_DragEnterEx</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/en-us/library/Bb761526(v=VS.85).aspx">ImageList_DragEnter</a> instead.
+<p class="CCE_Message">[<b>DAD_DragEnterEx</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/e12d7dc5-75a0-4537-bfb7-071ff8dfe7d5">ImageList_DragEnter</a> instead.
       ]
 
 Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions.  The different types of sessions are <a href="direct3d12.id3d12protectedresourcesession">ID3D12ProtectedResourceSession</a>, <a href="direct3d12.id3d12cryptosession">ID3D12CryptoSession</a>, and <a href="direct3d12.id3d12cryptosessionpolicy">ID3D12CryptoSessionPolicy</a>.
+Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions.  The different types of sessions are <a href="https://msdn.microsoft.com/9D4833DB-DF9E-46A8-9EF7-667A95F3EFDD">ID3D12ProtectedResourceSession</a>, <a href="direct3d12.id3d12cryptosession">ID3D12CryptoSession</a>, and <a href="direct3d12.id3d12cryptosessionpolicy">ID3D12CryptoSessionPolicy</a>.
 
 
 ## -inheritance
@@ -70,7 +70,7 @@ The <b>ID3D12ProtectedSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3d12.id3d12protectedsession_getsessionstatus">GetSessionStatus</a>
+<a href="https://msdn.microsoft.com/9069D567-80BB-469D-A079-917D619F4F46">GetSessionStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the protected session.
@@ -79,7 +79,7 @@ Gets the status of the protected session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3d12.id3d12protectedsession_getstatusfence">GetStatusFence</a>
+<a href="https://msdn.microsoft.com/A2B4A826-198C-4D6E-9006-B6470DE1121E">GetStatusFence</a>
 </td>
 <td align="left" width="63%">
 Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using <a href="https://msdn.microsoft.com/2F2DDFC5-8D31-4BCE-B378-610C95D7805F">ID3D12Fence::GetCompletedValue</a>), and add monitors for changes to its value. This is a read-only fence.

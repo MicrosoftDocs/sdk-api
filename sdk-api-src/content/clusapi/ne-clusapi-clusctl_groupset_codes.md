@@ -61,42 +61,42 @@ Enumerates groupset <a href="https://msdn.microsoft.com/b8ab57bd-f83e-46c2-9c9c-
 
 ### -field CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES
 
-See <a href="https://msdn.microsoft.com/en-us/library/Mt705417(v=VS.85).aspx">CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES</a>.
+See <a href="https://msdn.microsoft.com/CC8D848F-645B-4B26-8E70-DED95F25681B">CLUSCTL_GROUPSET_GET_COMMON_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES
 
-See <a href="https://msdn.microsoft.com/en-us/library/Mt705421(v=VS.85).aspx">CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES</a>.
+See <a href="https://msdn.microsoft.com/F3410FAC-2FC0-4C59-BCB1-DED4DD63D5D8">CLUSCTL_GROUPSET_GET_RO_COMMON_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES
 
-See <a href="https://msdn.microsoft.com/en-us/library/Mt705422(v=VS.85).aspx">CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES</a>.
+See <a href="https://msdn.microsoft.com/B2C0D9C6-C26E-4A56-A15E-243ED6429C8E">CLUSCTL_GROUPSET_SET_COMMON_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_GROUPSET_GET_GROUPS
 
-See <a href="https://msdn.microsoft.com/en-us/library/Mt705418(v=VS.85).aspx">CLUSCTL_GROUPSET_GET_GROUPS</a>.
+See <a href="https://msdn.microsoft.com/96C75F3B-F9E6-4557-BF41-C8F9D1E1EE3A">CLUSCTL_GROUPSET_GET_GROUPS</a>.
 
 
 ### -field CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS
 
-See <a href="https://msdn.microsoft.com/en-us/library/Mt705420(v=VS.85).aspx">CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS</a>.
+See <a href="https://msdn.microsoft.com/8C2AE592-67C9-4E57-B762-A95759F28538">CLUSCTL_GROUPSET_GET_PROVIDER_GROUPS</a>.
 
 
 ### -field CLUSCTL_GROUPSET_GET_PROVIDER_GROUPSETS
 
-See <a href="https://msdn.microsoft.com/en-us/library/Mt705419(v=VS.85).aspx">CLUSCTL_GROUPSET_GET_PROVIDER_GROUPSETS</a>.
+See <a href="https://msdn.microsoft.com/76222551-F27D-4354-8B4B-C9FA5EE55C22">CLUSCTL_GROUPSET_GET_PROVIDER_GROUPSETS</a>.
 
 
 ### -field CLUSCTL_GROUP_GET_PROVIDER_GROUPS
 
-See <a href="https://msdn.microsoft.com/en-us/library/Mt705424(v=VS.85).aspx">CLUSCTL_GROUP_GET_PROVIDER_GROUPS</a>.
+See <a href="https://msdn.microsoft.com/63347D0A-3C5B-4BC6-BE64-79E40D115F7B">CLUSCTL_GROUP_GET_PROVIDER_GROUPS</a>.
 
 
 ### -field CLUSCTL_GROUP_GET_PROVIDER_GROUPSETS
 
-See <a href="https://msdn.microsoft.com/en-us/library/Mt705423(v=VS.85).aspx">CLUSCTL_GROUP_GET_PROVIDER_GROUPSETS</a>.
+See <a href="https://msdn.microsoft.com/C51FDDBC-5E32-4950-9A1E-64843F184172">CLUSCTL_GROUP_GET_PROVIDER_GROUPSETS</a>.
 
 
 ### -field CLUSCTL_GROUPSET_GET_ID

@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-The method must return either <a href="https://msdn.microsoft.com/en-us/library/Ee671599(v=VS.85).aspx">ProviderOptions_ServerSideProvider</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee671599(v=VS.85).aspx">ProviderOptions_ClientSideProvider</a>.
+The method must return either <a href="uiauto_ProvOptionsEnum.htm">ProviderOptions_ServerSideProvider</a> or <a href="uiauto_ProvOptionsEnum.htm">ProviderOptions_ClientSideProvider</a>.
 
 UI Automation handles the various types of providers differently. 
 			For example, events from a server-side provider are broadcast to all listening clients, 

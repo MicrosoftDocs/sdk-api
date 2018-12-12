@@ -1,9 +1,0 @@
-{
-  "tech": "ldap",
-  "headers": [
-    "winldap.h",
-    "ntldap.h",
-    "winber.h"
-  ],
-  "displayName": "Lightweight Directory Access Protocol"
-}

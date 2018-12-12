@@ -52,7 +52,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Enables or disables the "Search with Bing…" context menu item in edit controls. You can use this macro or send the <a href="controls.em_enablesearchweb">EM_ENABLESEARCHWEB</a> message explicitly. 
+Enables or disables the "Search with Bing…" context menu item in edit controls. You can use this macro or send the <a href="https://msdn.microsoft.com/1E761CB2-80CC-4DC7-8E54-54A2BD8572FB">EM_ENABLESEARCHWEB</a> message explicitly. 
 
 
 ## -parameters

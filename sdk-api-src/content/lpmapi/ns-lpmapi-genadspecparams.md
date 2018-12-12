@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.GenAdspecParams
+UID: NS:lpmapi.__unnamed_struct_31
 title: GenAdspecParams
 author: windows-sdk-content
 description: The GenAdspecParams structure contains general path characterization parameters.
@@ -7,7 +7,7 @@ old-location: qos\genadspecparams.htm
 tech.root: QOS
 ms.assetid: 0d980286-bce6-483e-b2a1-117c7280c1c1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GenAdspecParams, GenAdspecParams structure [QOS], lpmapi/GenAdspecParams, qos.genadspecparams
 ms.prod: windows-hardware
 ms.technology: windows-devices

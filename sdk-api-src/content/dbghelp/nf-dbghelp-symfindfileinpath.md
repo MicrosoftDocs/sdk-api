@@ -4,7 +4,7 @@ title: SymFindFileInPath function
 author: windows-sdk-content
 description: Locates a symbol file or executable image.
 old-location: base\symfindfileinpath.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f85d8cd9-958a-490a-b155-3a9abdeda922
 ms.author: windowssdkdev
 ms.date: 12/5/2018

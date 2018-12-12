@@ -7,7 +7,7 @@ old-location: opc\iopcuri_getrelationshipsparturi.htm
 tech.root: OPC
 ms.assetid: 1b953b4c-6e8d-4097-a6bf-618b49cdd603
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRelationshipsPartUri, GetRelationshipsPartUri method [Open Packaging Conventions], GetRelationshipsPartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelationshipsPartUri method, IOpcUri.GetRelationshipsPartUri, IOpcUri::GetRelationshipsPartUri, msopc/IOpcUri::GetRelationshipsPartUri, opc.iopcuri_getrelationshipsparturi
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,7 +119,7 @@ The current <a href="https://msdn.microsoft.com/35ce7946-f7e7-4ac3-852f-e3fcca23
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/library/ms775098(v=VS.85).aspx">CreateUri</a> function.
+An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function.
               
 
 </td>

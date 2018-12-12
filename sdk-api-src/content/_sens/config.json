@@ -1,8 +1,0 @@
-{
-  "tech": "sens",
-  "headers": [
-    "sensapi.h",
-    "sensevts.h"
-  ],
-  "displayName": "System Event Notification Service"
-}

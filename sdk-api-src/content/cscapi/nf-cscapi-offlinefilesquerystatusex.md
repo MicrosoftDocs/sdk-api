@@ -7,7 +7,7 @@ old-location: of\offlinefilesquerystatusex.htm
 tech.root: offlinefiles
 ms.assetid: 1916F3F7-3B99-40CA-B503-EA1D10991BF4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: OfflineFilesQueryStatusEx, OfflineFilesQueryStatusEx function [Offline Files], cscapi/OfflineFilesQueryStatusEx, of.offlinefilesquerystatusex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the <a href="https://msdn.microsoft.com/en-us/library/Bb530641(v=VS.85).aspx">OfflineFilesQueryStatus</a> function, except that it has an additional output parameter.
+Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the <a href="https://msdn.microsoft.com/2b3a77cd-e874-42fb-8bfa-6d6b26866153">OfflineFilesQueryStatus</a> function, except that it has an additional output parameter.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error value otherwise.
 
 
 
-If the <i>pbAvailable</i> parameter is <b>TRUE</b> on return, the caller can use the <a href="https://msdn.microsoft.com/en-us/library/Hh920947(v=VS.85).aspx">OfflineFilesStart</a> function to start the Offline Files feature.
+If the <i>pbAvailable</i> parameter is <b>TRUE</b> on return, the caller can use the <a href="https://msdn.microsoft.com/79060780-A2C1-45CE-BB9A-75DF433C3F3C">OfflineFilesStart</a> function to start the Offline Files feature.
 
 
 
@@ -96,7 +96,7 @@ If the <i>pbAvailable</i> parameter is <b>TRUE</b> on return, the caller can use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530641(v=VS.85).aspx">OfflineFilesQueryStatus</a>
+<a href="https://msdn.microsoft.com/2b3a77cd-e874-42fb-8bfa-6d6b26866153">OfflineFilesQueryStatus</a>
  
 
  

@@ -1,7 +1,0 @@
-{
-  "tech": "sensors",
-  "headers": [
-    "sensorsapi.h"
-  ],
-  "displayName": "Sensor device driver reference"
-}

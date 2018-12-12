@@ -7,7 +7,7 @@ old-location: pla\idatacollectorset_get_schedulesenabled.htm
 tech.root: pla
 ms.assetid: 75ebe328-1494-464c-9491-e8a39e1d8ee1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],SchedulesEnabled property, IDataCollectorSet.SchedulesEnabled, IDataCollectorSet.put_SchedulesEnabled, IDataCollectorSet::SchedulesEnabled, IDataCollectorSet::get_SchedulesEnabled, IDataCollectorSet::put_SchedulesEnabled, SchedulesEnabled property [PLA], SchedulesEnabled property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_schedulesenabled, pla.idatacollectorset_get_schedulesenabled, pla/IDataCollectorSet::SchedulesEnabled, pla/IDataCollectorSet::get_SchedulesEnabled, pla/IDataCollectorSet::put_SchedulesEnabled, put_SchedulesEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

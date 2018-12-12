@@ -81,7 +81,7 @@ The video height for which the capabilities are queried.
 
 ### -param pFrameRate [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>*</b>
 
 The frame rate of the video content. This information is used by the driver to determine whether the video can be decoded in real-time.
 
@@ -104,7 +104,7 @@ The type of cryptography used to encrypt the video stream. A value of NULL indic
 
 Type: <b>UINT*</b>
 
-A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/en-us/library/Dn894120(v=VS.85).aspx">D3D11_VIDEO_DECODER_CAPS</a> values specifying the decoder capabilities.
+A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/8E3C86A4-5F73-4E6F-8F93-5564EA0BC113">D3D11_VIDEO_DECODER_CAPS</a> values specifying the decoder capabilities.
 
 
 
@@ -113,7 +113,7 @@ A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/en-
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following error codes.
 
@@ -137,7 +137,7 @@ This method returns one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894141(v=VS.85).aspx">ID3D11VideoDevice1</a>
+<a href="https://msdn.microsoft.com/10E68945-6103-491D-8846-3B7C880FEAFD">ID3D11VideoDevice1</a>
  
 
  

@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.RSVP_SESSION
+UID: NS:lpmapi.__unnamed_struct_2
 title: RSVP_SESSION
 author: windows-sdk-content
 description: The RSVP_SESSION structure stores information about an RSVP SESSION message.
@@ -7,7 +7,7 @@ old-location: qos\rsvp_session.htm
 tech.root: QOS
 ms.assetid: d6674de9-7d79-40f2-ae45-4410408ba047
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RSVP_SESSION, RSVP_SESSION structure [QOS], lpmapi/RSVP_SESSION, qos.rsvp_session
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,9 +67,17 @@ RSVP Object Header, in the form of an <a href="https://msdn.microsoft.com/90a237
 ### -field sess_u
 
 
-### -field sess_u.sess_ipv4
+
+#### sess_ipv4
 
 Session information, in the form of a <a href="https://msdn.microsoft.com/8fbe41f2-c7c7-4476-b5e6-f3306ce74cf6">Session_IPv4</a> structure.
+
+
+### -field sess_ipv4
+
+ 
+
+
 
 
 ## -see-also

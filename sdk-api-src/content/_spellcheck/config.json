@@ -1,7 +1,0 @@
-{
-  "tech": "spellcheck",
-  "headers": [
-    "spellcheck.h"
-  ],
-  "displayName": "Spell Checker API"
-}

@@ -66,9 +66,9 @@ The handle to the parent window for any user interface that is used to install t
 
 ### -param InfFileName [in, optional]
 
-A pointer to a NULL-terminated string that contains the name of an INF file. This parameter is optional and can be <b>NULL</b>. If this function is being used to install a class installer, the INF file contains an <a href="https://msdn.microsoft.com/library/Ff546335(v=VS.85).aspx">INF ClassInstall32 section</a> and this parameter must not be <b>NULL</b>.
+A pointer to a NULL-terminated string that contains the name of an INF file. This parameter is optional and can be <b>NULL</b>. If this function is being used to install a class installer, the INF file contains an <a href="devinst.inf_classinstall32_section">INF ClassInstall32 section</a> and this parameter must not be <b>NULL</b>.
 
-If this function is being used to install an interface class, the INF file contains an <a href="https://msdn.microsoft.com/library/Ff547446(v=VS.85).aspx">INF InterfaceInstall32 section</a>. 
+If this function is being used to install an interface class, the INF file contains an <a href="devinst.inf_interfaceinstall32_section">INF InterfaceInstall32 section</a>. 
 
 
 ### -param Flags [in]

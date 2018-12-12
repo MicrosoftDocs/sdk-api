@@ -94,11 +94,11 @@ If all of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774101(v=VS.85).aspx">Redo</a>
+<a href="https://msdn.microsoft.com/45d8c366-a50a-4a0f-96c8-aa31629e280f">Redo</a>
 
 
 
@@ -106,7 +106,7 @@ If all of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

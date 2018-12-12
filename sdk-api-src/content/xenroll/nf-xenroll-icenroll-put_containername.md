@@ -99,15 +99,19 @@ The <b>ContainerName</b> property affects the behavior of the following methods:
 
 #### Examples
 
-
-```cpp
-BSTR     bstrContainerName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrContainerName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the container name
-hr = pEnroll->get_ContainerName( &bstrContainerName );
+hr = pEnroll-&gt;get_ContainerName( &amp;bstrContainerName );
 if ( FAILED ( hr ) )
     printf("Failed getting ContainerName - %x\n", hr );
 else
@@ -118,13 +122,13 @@ if ( NULL != bstrContainerName )
 
 // set the container name
 // bstrMyName previously set to a valid name
-hr = pEnroll->put_ContainerName( bstrMyName );
+hr = pEnroll-&gt;put_ContainerName( bstrMyName );
 if ( FAILED ( hr ) )
     printf("Failed setting ContainerName - %x\n", hr );
 else
-    printf( "ContainerName was set to %ws\n", bstrMyName );
-```
-
-
+    printf( "ContainerName was set to %ws\n", bstrMyName );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -61,7 +61,7 @@ The
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device to register. The device information set must not contain any remote elements.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device to register. The device information set must not contain any remote elements.
 
 
 ### -param DeviceInfoData [in, out]
@@ -133,9 +133,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-<b>SetupDiRegisterDeviceInfo</b> is primarily designed to register a non-PnP device with the <a href="https://msdn.microsoft.com/library/Ff728837(v=VS.85).aspx">Plug and Play (PnP) manager</a> on a local computer. Although <b>SetupDiRegisterDeviceInfo</b> will not fail if the device information set is for a remote computer, the result is of limited use because the device information set cannot subsequently be used with DIF_<i>Xxx</i> installation requests or <b>SetupDi</b><i>Xxx</i> functions that do not support operations on a remote computer. For example, calling <b>SetupDiCreateDevRegKey</b> to execute an INF section for a newly registered device on a remote computer will fail.
+<b>SetupDiRegisterDeviceInfo</b> is primarily designed to register a non-PnP device with the <a href="devinst.pnp_manager">Plug and Play (PnP) manager</a> on a local computer. Although <b>SetupDiRegisterDeviceInfo</b> will not fail if the device information set is for a remote computer, the result is of limited use because the device information set cannot subsequently be used with DIF_<i>Xxx</i> installation requests or <b>SetupDi</b><i>Xxx</i> functions that do not support operations on a remote computer. For example, calling <b>SetupDiCreateDevRegKey</b> to execute an INF section for a newly registered device on a remote computer will fail.
 
-<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiRegisterDeviceInfo</b> and only in those situations where the class installer must perform device registration operations after <b>SetupDiRegisterDeviceInfo</b> completes the default device registration operation. In such situations, the class installer must directly call <b>SetupDiRegisterDeviceInfo</b> when the installer processes a DIF_REGISTERDEVICE request. For more information about calling the default handler, see <a href="https://msdn.microsoft.com/library/Ff537868(v=VS.85).aspx">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiRegisterDeviceInfo</b> and only in those situations where the class installer must perform device registration operations after <b>SetupDiRegisterDeviceInfo</b> completes the default device registration operation. In such situations, the class installer must directly call <b>SetupDiRegisterDeviceInfo</b> when the installer processes a DIF_REGISTERDEVICE request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
 After registering a device information element, the caller should update any stored copies of the <b>DevInst</b> handle associated with this device. This is necessary because the handle value might have changed during registration. The caller does not have to retrieve the SP_DEVINFO_DATA structure again because the <b>DevInst</b> field of the structure is updated to reflect the current value of the handle. 
 

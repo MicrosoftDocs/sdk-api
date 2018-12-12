@@ -62,8 +62,8 @@ The
 ### -param pUnk [in]
 
 Pointer to an object that supports either the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface or the 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. See the Remarks section for more information.
+<a href="_com_iunknown">IUnknown</a> interface or the 
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. See the Remarks section for more information.
 
 
 ## -returns
@@ -178,10 +178,10 @@ The method failed for unknown reasons.
 
 
 The object referred to by <i>pUnk</i> must either support the 
-<a href="https://msdn.microsoft.com/f180f597-680b-47ce-b437-3395069a8c77">INATExternalIPAddressCallback</a> interface or the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. The NAT first queries <i>pUnk</i> for the 
+<a href="https://msdn.microsoft.com/f180f597-680b-47ce-b437-3395069a8c77">INATExternalIPAddressCallback</a> interface or the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. The NAT first queries <i>pUnk</i> for the 
 <b>INATExternalIPAddressCallback</b> interface. If this interface is not supported, the NAT queries <i>pUnk</i> for the <b>IDispatch</b> interface. If the <b>IDispatch</b> interface is not supported, the <b>put_ExternalIPAddressCallback</b> method returns E_FAIL.
 
-If only <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> is supported, the NAT invokes the callback by calling <a href="https://msdn.microsoft.com/en-us/library/ms221479(v=VS.85).aspx">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This <b>IDispatch</b> method is passed the same parameters as the 
+If only <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> is supported, the NAT invokes the callback by calling <a href="964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This <b>IDispatch</b> method is passed the same parameters as the 
 <a href="https://msdn.microsoft.com/f180f597-680b-47ce-b437-3395069a8c77">INATExternalIPAddressCallback</a> method, except that the first parameter passed is a string that indicates the reason the callback is invoked.
 
 
@@ -192,7 +192,7 @@ If only <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

@@ -4,7 +4,7 @@ title: GetThreadWaitChain function
 author: windows-sdk-content
 description: Retrieves the wait chain for the specified thread.
 old-location: base\getthreadwaitchain.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 5b418fa6-1d07-465e-85ea-b7127264eebf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

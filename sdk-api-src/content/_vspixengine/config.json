@@ -1,7 +1,0 @@
-{
-  "tech": "vspixengine",
-  "headers": [
-    "vspixengine.h"
-  ],
-  "displayName": "Direct3D Diagnostics Capture Interface Portal"
-}

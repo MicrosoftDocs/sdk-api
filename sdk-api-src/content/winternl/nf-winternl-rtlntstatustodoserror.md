@@ -4,7 +4,7 @@ title: RtlNtStatusToDosError function
 author: windows-sdk-content
 description: Converts the specified NTSTATUS code to its equivalent system error code.
 old-location: base\rtlntstatustodoserror.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 4a28be1f-28b9-45a4-8ac7-58e43452558a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

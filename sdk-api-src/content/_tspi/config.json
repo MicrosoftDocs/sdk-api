@@ -1,8 +1,0 @@
-{
-  "tech": "tspi",
-  "headers": [
-    "tapi.h",
-    "tspi.h"
-  ],
-  "displayName": "Telephony Service Provider"
-}

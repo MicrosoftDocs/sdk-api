@@ -4,7 +4,7 @@ title: SymSrvGetFileIndexInfo function
 author: windows-sdk-content
 description: Retrieves the index information for the specified .pdb, .dbg, or image file.
 old-location: base\symsrvgetfileindexinfo.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: ee5b0821-2746-467e-9d95-90776882ac95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

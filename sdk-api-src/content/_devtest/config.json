@@ -1,9 +1,0 @@
-{
-  "tech": "devtest",
-  "headers": [
-    "wdm.h",
-    "ntddk.h",
-    "evntprov.h"
-  ],
-  "displayName": "Driver Development Tools Reference"
-}

@@ -7,7 +7,7 @@ old-location: perf\perfenumeratecounterset.htm
 tech.root: perfctrs
 ms.assetid: 6C487D11-2DC0-475C-AA0F-4060641C6500
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: PerfEnumerateCounterSet, PerfEnumerateCounterSet function [Perf], perf.perfenumeratecounterset, perflib/PerfEnumerateCounterSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

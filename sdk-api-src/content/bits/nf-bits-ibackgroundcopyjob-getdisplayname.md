@@ -61,7 +61,7 @@ Retrieves the display name for the job. Typically, you use the display name to i
 ### -param pVal [out]
 
 Null-terminated string that contains the display name that identifies the job. More than one job can have the same display name. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppDisplayName</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppDisplayName</i> when done.
 
 
 ## -returns
@@ -108,7 +108,7 @@ The <i>ppDisplayName</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363041(v=VS.85).aspx">IBackgroundCopyJob::SetDisplayName</a>
+<a href="https://msdn.microsoft.com/504b0096-891c-4bf7-a311-9d351b359210">IBackgroundCopyJob::SetDisplayName</a>
  
 
  

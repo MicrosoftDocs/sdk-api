@@ -1,7 +1,0 @@
-{
-  "tech": "cloudapi",
-  "headers": [
-    "cfapi.h"
-  ],
-  "displayName": "Cloud Filter API"
-}

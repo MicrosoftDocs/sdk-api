@@ -54,7 +54,7 @@ req.redist:
 ]
 
 
-The <b>IWMDRMReader</b> interface provides methods to configure the DRM component and to manage <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a> license acquisition and individualization of client applications. It is used only for content protected using DRM version 7, not the earlier DRM version 1.
+The <b>IWMDRMReader</b> interface provides methods to configure the DRM component and to manage <a href="wmformat_glossary.htm">DRM</a> license acquisition and individualization of client applications. It is used only for content protected using DRM version 7, not the earlier DRM version 1.
 
 This interface can be obtained from a reader object.
 
@@ -117,7 +117,7 @@ Cancels a current call to the <b>MonitorLicenseAcquisition</b> method.
 <a href="https://msdn.microsoft.com/86ee18be-38a9-4f76-810c-e33281df8c23">GetDRMProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a>-specific file attributes or run-time properties.
+Retrieves <a href="wmformat_glossary.htm">DRM</a>-specific file attributes or run-time properties.
 
 </td>
 </tr>

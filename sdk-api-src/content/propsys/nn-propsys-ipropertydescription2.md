@@ -55,7 +55,7 @@ Exposes methods that enumerate and retrieve individual property description deta
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescription2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>. <b>IPropertyDescription2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescription2</b> interface inherits from <a href="shell.IPropertyDescription">IPropertyDescription</a>. <b>IPropertyDescription2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IPropertyDescription2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd378277(v=VS.85).aspx">GetImageReferenceForValue</a>
+<a href="shell.IPropertyDescription2_GetImageReferenceForValue">GetImageReferenceForValue</a>
 </td>
 <td align="left" width="63%">
 Gets the image reference associated with a property value.
@@ -84,14 +84,14 @@ Gets the image reference associated with a property value.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="shell.IPropertyDescription">IPropertyDescription</a> interface, from which it inherits.
 
-To obtain this interface, call <a href="https://msdn.microsoft.com/en-us/library/Bb776503(v=VS.85).aspx">PSGetPropertyDescription</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb776504(v=VS.85).aspx">PSGetPropertyDescriptionByName</a>, or <a href="https://msdn.microsoft.com/library/Bb761507(v=VS.85).aspx">IPropertyDescriptionList::GetAt</a>.
+To obtain this interface, call <a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a>, <a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a>, or <a href="shell.IPropertyDescriptionList_GetAt">IPropertyDescriptionList::GetAt</a>.
 
 Only one property description exists for each property in the system.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Do not implement this interface. There is only one implementation of <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> in the system; it is provided by the Shell.
+Do not implement this interface. There is only one implementation of <a href="shell.IPropertyDescription">IPropertyDescription</a> in the system; it is provided by the Shell.
 
 
 
@@ -101,7 +101,7 @@ Do not implement this interface. There is only one implementation of <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

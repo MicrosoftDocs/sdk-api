@@ -1,8 +1,0 @@
-{
-  "tech": "wpdauto",
-  "headers": [
-    "portabledeviceapi.h",
-    "safeint_internal.h"
-  ],
-  "displayName": "WPD Automation Object Model"
-}

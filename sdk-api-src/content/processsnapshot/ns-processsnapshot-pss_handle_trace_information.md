@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.PSS_HANDLE_TRACE_INFORMATION
+UID: NS:processsnapshot.__unnamed_struct_6
 title: PSS_HANDLE_TRACE_INFORMATION
 author: windows-sdk-content
 description: Holds handle trace information returned by PssQuerySnapshot.
@@ -7,7 +7,7 @@ old-location: proc_snap\pss_handle_trace_information.htm
 tech.root: proc_snap
 ms.assetid: 0877DF1F-044C-48F2-9BCC-938EBD6D46EE
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PSS_HANDLE_TRACE_INFORMATION, PSS_HANDLE_TRACE_INFORMATION structure, proc_snap.pss_handle_trace_information, processsnapshot/PSS_HANDLE_TRACE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

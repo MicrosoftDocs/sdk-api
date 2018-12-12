@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipselectorset_getenumerator.htm
 tech.root: OPC
 ms.assetid: 7c0a885a-8ee2-40fe-bbc6-d7036e4a4c40
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcRelationshipSelectorSet interface, IOpcRelationshipSelectorSet interface [Open Packaging Conventions],GetEnumerator method, IOpcRelationshipSelectorSet.GetEnumerator, IOpcRelationshipSelectorSet::GetEnumerator, msopc/IOpcRelationshipSelectorSet::GetEnumerator, opc.iopcrelationshipselectorset_getenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

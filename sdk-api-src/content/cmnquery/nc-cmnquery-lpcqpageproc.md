@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>CQPageProc</b> callback function is called by the query dialog box to notify the query form extension of events that occur in a query page. A pointer to this function is supplied to the query dialog box in the <i>pPageProc</i> member of the <a href="https://msdn.microsoft.com/en-us/library/ms675752(v=VS.85).aspx">CQPAGE</a> structure. <b>CQPageProc</b> is a placeholder for the query form extension-defined function name.
+The <b>CQPageProc</b> callback function is called by the query dialog box to notify the query form extension of events that occur in a query page. A pointer to this function is supplied to the query dialog box in the <i>pPageProc</i> member of the <a href="https://msdn.microsoft.com/09e407a2-7a58-483d-8422-4ae40c05b742">CQPAGE</a> structure. <b>CQPageProc</b> is a placeholder for the query form extension-defined function name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CQPageProc</b> callback function is called by the query dialog box to not
 
 ### -param pPage
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675752(v=VS.85).aspx">CQPAGE</a> structure that contains data about a query page.
+Pointer to a <a href="https://msdn.microsoft.com/09e407a2-7a58-483d-8422-4ae40c05b742">CQPAGE</a> structure that contains data about a query page.
 
 
 ### -param hwnd
@@ -70,7 +70,7 @@ Contains the window handle of the query page.
 
 ### -param uMsg
 
-Contains a value that identifies the event that this function is called for. This can be one of the <a href="https://msdn.microsoft.com/en-us/library/ms677289(v=VS.85).aspx">Common Query Page Messages</a>.
+Contains a value that identifies the event that this function is called for. This can be one of the <a href="messages_communicated_through_user_interfaces.htm">Common Query Page Messages</a>.
 
 
 ### -param wParam
@@ -97,15 +97,15 @@ The return value is the result of the message  and depends on the value of the <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675750(v=VS.85).aspx">CQAddPagesProc</a>
+<a href="https://msdn.microsoft.com/2b62c1aa-ace7-4083-8eb3-7c5c499762c9">CQAddPagesProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675752(v=VS.85).aspx">CQPAGE</a>
+<a href="https://msdn.microsoft.com/09e407a2-7a58-483d-8422-4ae40c05b742">CQPAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms677289(v=VS.85).aspx">Common Query Page Messages</a>
+<a href="messages_communicated_through_user_interfaces.htm">Common Query Page Messages</a>
 
 
 

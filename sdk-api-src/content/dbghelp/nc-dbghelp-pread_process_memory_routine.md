@@ -4,7 +4,7 @@ title: PREAD_PROCESS_MEMORY_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It is called when StackWalk64 needs to read memory from the address space of the process.
 old-location: base\readprocessmemoryproc64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 84ff0085-295d-48bd-baa5-d6b2845520a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -1,7 +1,0 @@
-{
-  "tech": "direct3ddds",
-  "headers": [
-    "dds.h"
-  ],
-  "displayName": "DDS"
-}

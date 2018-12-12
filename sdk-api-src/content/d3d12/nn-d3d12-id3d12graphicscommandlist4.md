@@ -55,7 +55,7 @@ Encapsulates a list of graphics commands for rendering, extending the interface 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList4</b> interface inherits from <a href="direct3d12.id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>. <b>ID3D12GraphicsCommandList4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList4</b> interface inherits from <a href="https://msdn.microsoft.com/934CB757-495A-45DA-A942-1852D8E94934">ID3D12GraphicsCommandList3</a>. <b>ID3D12GraphicsCommandList4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D12GraphicsCommandList4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3d12.id3d12graphicscommandlist4_beginrenderpass">BeginRenderPass</a>
+<a href="https://msdn.microsoft.com/6A7CF754-F2E6-48D4-8A4D-CE64B31267F7">BeginRenderPass</a>
 </td>
 <td align="left" width="63%">
 Marks the beginning of a render pass by binding a set of output resources for the duration of the render pass. These bindings are to one or more render target views (RTVs), and/or to a depth stencil view (DSV).
@@ -115,7 +115,7 @@ Emits post-build properties for a set of acceleration structures.  This enables 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3d12.id3d12graphicscommandlist4_endrenderpass">EndRenderPass</a>
+<a href="https://msdn.microsoft.com/6CFF2A67-F2F0-41F8-8BEC-D52003DE2767">EndRenderPass</a>
 </td>
 <td align="left" width="63%">
 Marks the ending of a render pass.
@@ -139,7 +139,7 @@ Sets a state object on the command list.
 
 
 
-<a href="direct3d12.id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
+<a href="https://msdn.microsoft.com/934CB757-495A-45DA-A942-1852D8E94934">ID3D12GraphicsCommandList3</a>
  
 
  

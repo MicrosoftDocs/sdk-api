@@ -1,8 +1,0 @@
-{
-  "tech": "wes",
-  "headers": [
-    "winerror.h",
-    "winevt.h"
-  ],
-  "displayName": "Windows Event Log"
-}

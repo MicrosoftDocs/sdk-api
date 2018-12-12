@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies a Direct3D 12 feature or feature set to query about. When you want to query for the level to which an adapter supports a feature, pass one of these values to <a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">ID3D12Device::CheckFeatureSupport</a>.
+Specifies a Direct3D 12 feature or feature set to query about. When you want to query for the level to which an adapter supports a feature, pass one of these values to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a>.
 
 
 ## -enum-fields
@@ -142,7 +142,7 @@ Indicates a query for the level of support for timestamp queries, format-casting
 
 ### -field D3D12_FEATURE_EXISTING_HEAPS
 
-Indicates a query for whether or not the adapter supports creating heaps from existing system memory. The corresponding data structure for this value is <a href="https://msdn.microsoft.com/en-us/library/Mt844808(v=VS.85).aspx">D3D12_FEATURE_DATA_EXISTING_HEAPS</a>.
+Indicates a query for whether or not the adapter supports creating heaps from existing system memory. The corresponding data structure for this value is <a href="https://msdn.microsoft.com/7F0D0FAD-BF29-43AD-95FA-85B9719C4782">D3D12_FEATURE_DATA_EXISTING_HEAPS</a>.
           
 
 
@@ -164,7 +164,7 @@ Starting with Windows 10, version 1809 (10.0; Build 17763), indicates a query fo
 
 
 
-Use a constant from  this enumeration in a call to <a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">ID3D12Device::CheckFeatureSupport</a> to query a driver about support for various Direct3D 12 features.
+Use a constant from  this enumeration in a call to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> to query a driver about support for various Direct3D 12 features.
         Each value in this enumeration has a corresponding data structure that you must pass (by pointer reference) in the <i>pFeatureSupportData</i> parameter
         of <b>ID3D12Device::CheckFeatureSupport</b>.
 
@@ -176,11 +176,11 @@ Use a constant from  this enumeration in a call to <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">ID3D12Device::CheckFeatureSupport</a>
+<a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a>
  
 
  

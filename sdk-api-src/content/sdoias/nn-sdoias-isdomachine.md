@@ -7,7 +7,7 @@ old-location: nps\SDO_isdomachine.htm
 tech.root: Nps
 ms.assetid: 11372116-56eb-4d8e-8f28-4402835ee903
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISdoMachine, ISdoMachine interface [Network Policy Server], ISdoMachine interface [Network Policy Server],described, _sdo_isdomachine, nps.SDO_isdomachine, sdo.isdomachine, sdoias/ISdoMachine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,7 +56,7 @@ Use the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdoMachine</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISdoMachine</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdoMachine</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ISdoMachine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -151,7 +151,7 @@ Tests whether an Active Directory service is available on the SDO computer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

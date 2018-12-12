@@ -1,5 +1,5 @@
 ---
-UID: NE:emi.EMI_MEASUREMENT_UNIT
+UID: NE:emi.__unnamed_enum_0
 title: EMI_MEASUREMENT_UNIT
 author: windows-sdk-content
 description: The EMI_MEASUREMENT_UNIT enumeration represents the available units of energy measurements that can be retrieved from a device by using IOCTL_EMI_GET_MEASUREMENT.
@@ -7,7 +7,7 @@ old-location: powermeter\emi_measurement_unit.htm
 tech.root: powermeter
 ms.assetid: 02152942-A024-4D53-962A-A2ECF7E7D50C
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: EMI_MEASUREMENT_UNIT, EMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], EmiMeasurementUnitPicowattHours, emi/EMI_MEASUREMENT_UNIT, emi/EmiMeasurementUnitPicowattHours, powermeter.emi_measurement_unit
 ms.prod: windows-hardware
 ms.technology: windows-devices

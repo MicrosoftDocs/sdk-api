@@ -101,19 +101,23 @@ Returns nothing.
 <h3><a id="Processing_YUV_4_2_0_video_formats"></a><a id="processing_yuv_4_2_0_video_formats"></a><a id="PROCESSING_YUV_4_2_0_VIDEO_FORMATS"></a>Processing YUV 4:2:0 video formats</h3>
 An app must map the luma (Y) plane separately from the chroma (UV) planes. Developers do this by calling <b>CreateShaderResourceView</b> twice for the same texture and passing in 1-channel and 2-channel formats. Passing in a 1-channel format compatible with the Y plane maps only the Y plane. Passing in a 2-channel format compatible with the UV planes (together) maps only the U and V planes as a single resource view.
 
-YUV 4:2:0 formats are listed in <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
+YUV 4:2:0 formats are listed in <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>.
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12nBodyGravity</a> sample uses <b>ID3D12Device::CreateShaderResourceView</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12Device::CreateShaderResourceView</b> as follows:
         
 
 Describe and create two shader resource views based on one description.
 
-
-```cpp
-D3D12_SHADER_RESOURCE_VIEW_DESC srvDesc = {};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>D3D12_SHADER_RESOURCE_VIEW_DESC srvDesc = {};
 srvDesc.Shader4ComponentMapping = D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING;
 srvDesc.Format = DXGI_FORMAT_UNKNOWN;
 srvDesc.ViewDimension = D3D12_SRV_DIMENSION_BUFFER;
@@ -122,15 +126,15 @@ srvDesc.Buffer.NumElements = ParticleCount;
 srvDesc.Buffer.StructureByteStride = sizeof(Particle);
 srvDesc.Buffer.Flags = D3D12_BUFFER_SRV_FLAG_NONE;
 
-CD3DX12_CPU_DESCRIPTOR_HANDLE srvHandle0(m_srvUavHeap->GetCPUDescriptorHandleForHeapStart(), SrvParticlePosVelo0 + index, m_srvUavDescriptorSize);
-CD3DX12_CPU_DESCRIPTOR_HANDLE srvHandle1(m_srvUavHeap->GetCPUDescriptorHandleForHeapStart(), SrvParticlePosVelo1 + index, m_srvUavDescriptorSize);
-m_device->CreateShaderResourceView(m_particleBuffer0[index].Get(), &srvDesc, srvHandle0);
-m_device->CreateShaderResourceView(m_particleBuffer1[index].Get(), &srvDesc, srvHandle1);
-
-```
-
-
-Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+CD3DX12_CPU_DESCRIPTOR_HANDLE srvHandle0(m_srvUavHeap-&gt;GetCPUDescriptorHandleForHeapStart(), SrvParticlePosVelo0 + index, m_srvUavDescriptorSize);
+CD3DX12_CPU_DESCRIPTOR_HANDLE srvHandle1(m_srvUavHeap-&gt;GetCPUDescriptorHandleForHeapStart(), SrvParticlePosVelo1 + index, m_srvUavDescriptorSize);
+m_device-&gt;CreateShaderResourceView(m_particleBuffer0[index].Get(), &amp;srvDesc, srvHandle0);
+m_device-&gt;CreateShaderResourceView(m_particleBuffer1[index].Get(), &amp;srvDesc, srvHandle1);
+</pre>
+</td>
+</tr>
+</table></span></div>
+Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -141,7 +145,7 @@ Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
  
 
  

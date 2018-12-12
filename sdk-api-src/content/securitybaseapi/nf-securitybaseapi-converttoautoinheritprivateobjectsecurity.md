@@ -146,7 +146,7 @@ This function works with ACL_REVISION and ACL_REVISION_DS ACLs.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

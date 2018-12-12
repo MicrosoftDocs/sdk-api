@@ -59,7 +59,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629074(v=VS.85).aspx">TF_LANGBARITEMINFO</a> structure that receives the language bar item information.
+Pointer to a <a href="https://msdn.microsoft.com/4a826a2c-4cae-4cbf-8a25-38337dcd498d">TF_LANGBARITEMINFO</a> structure that receives the language bar item information.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628701(v=VS.85).aspx">ITfLangBarItem</a>
+<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a>
 
 
 

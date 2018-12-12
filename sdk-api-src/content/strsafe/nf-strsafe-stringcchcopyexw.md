@@ -54,13 +54,13 @@ req.redist:
 
 Copies one string to another. The size of the destination buffer is provided to the function to ensure that it does not write past the end of the buffer.
 
-<b>StringCchCopyEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to this function for additional control.
+<b>StringCchCopyEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/9cbf6ce6-ef45-4bb9-bc1f-a55db399d34f">StringCchCopy</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to this function for additional control.
 
 <b>StringCchCopyEx</b> is a replacement for the following functions:
 <ul>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192494">strcpy, wcscpy, _tcscpy</a></li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms647490(v=VS.85).aspx">lstrcpy</a>
+<a href="https://msdn.microsoft.com/3960fe0e-954d-4463-bc81-e1682e468278">lstrcpy</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/83d1a8dc-fc43-4b06-b36c-c9c91d779d25">StrCpy</a>
@@ -136,7 +136,7 @@ If the function succeeds, the low byte of <i>dwFlags</i> (0) is used to fill the
 </dl>
 </td>
 <td width="60%">
-Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="https://msdn.microsoft.com/en-us/library/ms647490(v=VS.85).aspx">lstrcpy</a>.
+Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="https://msdn.microsoft.com/3960fe0e-954d-4463-bc81-e1682e468278">lstrcpy</a>.
 
 </td>
 </tr>
@@ -279,11 +279,11 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647500(v=VS.85).aspx">StringCbCopyEx</a>
+<a href="https://msdn.microsoft.com/28750482-a0ba-43e1-b433-2c850feef051">StringCbCopyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647527(v=VS.85).aspx">StringCchCopy</a>
+<a href="https://msdn.microsoft.com/9cbf6ce6-ef45-4bb9-bc1f-a55db399d34f">StringCchCopy</a>
  
 
  

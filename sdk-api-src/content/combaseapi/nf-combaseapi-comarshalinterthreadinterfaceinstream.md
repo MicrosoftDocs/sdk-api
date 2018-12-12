@@ -72,12 +72,12 @@ A reference to the identifier of the interface to be marshaled.
 
 ### -param pUnk [in]
 
-A pointer to the interface to be marshaled, which must be derived from <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>. This parameter can be <b>NULL</b>.
+A pointer to the interface to be marshaled, which must be derived from <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>. This parameter can be <b>NULL</b>.
 
 
 ### -param ppStm [out]
 
-The address of the <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a>* pointer variable that receives the interface pointer to the stream that contains the marshaled interface.
+The address of the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>* pointer variable that receives the interface pointer to the stream that contains the marshaled interface.
 
 
 ## -returns
@@ -93,7 +93,7 @@ This function can return the standard return values E_OUTOFMEMORY and S_OK.
 
 
 
-The <b>CoMarshalInterThreadInterfaceInStream</b> function enables an object to easily and reliably marshal an interface pointer to another thread in the same process. The stream returned in the <i>ppStm</i> parameter is guaranteed to behave correctly when a client running in the receiving thread attempts to unmarshal the pointer. The client can then call the <a href="https://msdn.microsoft.com/en-us/library/ms691421(v=VS.85).aspx">CoGetInterfaceAndReleaseStream</a> to unmarshal the interface pointer and release the stream object.
+The <b>CoMarshalInterThreadInterfaceInStream</b> function enables an object to easily and reliably marshal an interface pointer to another thread in the same process. The stream returned in the <i>ppStm</i> parameter is guaranteed to behave correctly when a client running in the receiving thread attempts to unmarshal the pointer. The client can then call the <a href="https://msdn.microsoft.com/b529f65f-3208-4594-a772-d1cad3727dc1">CoGetInterfaceAndReleaseStream</a> to unmarshal the interface pointer and release the stream object.
 
 The <b>CoMarshalInterThreadInterfaceInStream</b> function performs the following tasks:
 
@@ -103,11 +103,11 @@ Creates a stream object.
 
 </li>
 <li>
-Passes the stream object's IStream pointer to <a href="https://msdn.microsoft.com/en-us/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>.
+Passes the stream object's IStream pointer to <a href="https://msdn.microsoft.com/04ca1217-eac1-43e2-b736-8d7522ce8592">CoMarshalInterface</a>.
 
 </li>
 <li>
-Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> pointer to the caller.
+Returns the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> pointer to the caller.
 
 </li>
 </ol>
@@ -119,7 +119,7 @@ Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691421(v=VS.85).aspx">CoGetInterfaceAndReleaseStream</a>
+<a href="https://msdn.microsoft.com/b529f65f-3208-4594-a772-d1cad3727dc1">CoGetInterfaceAndReleaseStream</a>
  
 
  

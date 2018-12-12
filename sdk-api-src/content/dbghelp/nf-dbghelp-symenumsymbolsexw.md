@@ -4,7 +4,7 @@ title: SymEnumSymbolsExW function
 author: windows-sdk-content
 description: Enumerates all symbols in a process.
 old-location: base\symenumsymbolsex.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 80fbe47d-702c-4cda-8e28-c72f8d7db3d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

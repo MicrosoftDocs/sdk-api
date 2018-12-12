@@ -1,5 +1,5 @@
 ---
-UID: NS:mapi.MapiFileTagExt
+UID: NS:mapi.__unnamed_struct_2
 title: MapiFileTagExt
 author: windows-sdk-content
 description: A MapiFileTagExt structure specifies a message attachment's type at its creation and its current form of encoding so that it can be restored to its original type at its destination.
@@ -7,7 +7,7 @@ old-location: mapi\mapifiletagext.htm
 tech.root: WindowsMAPI
 ms.assetid: 5f6de637-14a8-46bb-a53e-f355d7592222
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*lpMapiFileTagExt, MapiFileTagExt, MapiFileTagExt structure, lpMapiFileTagExt, lpMapiFileTagExt structure pointer, mapi.mapifiletagext, mapi/MapiFileTagExt, mapi/lpMapiFileTagExt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,11 +115,11 @@ A <b>MapiFileTagExt</b> structure defines the type of an attached file for purpo
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc815513(v=office.12).aspx">PidTagAttachEncoding Canonical Property</a>
+<a href="3b30cec6-da1e-4ef1-8c17-24b66f31cf0a">PidTagAttachEncoding Canonical Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc765770(v=office.12).aspx">PidTagAttachTag Canonical Property</a>
+<a href="3d223809-b697-47c6-bc3c-2206aff7ad33">PidTagAttachTag Canonical Property</a>
  
 
  

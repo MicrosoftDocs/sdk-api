@@ -4,7 +4,7 @@ title: SymSrvGetFileIndexStringW function
 author: windows-sdk-content
 description: Retrieves the index string for the specified .pdb, .dbg, or image file.
 old-location: base\symsrvgetfileindexstring.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: e66598fb-d7c7-4fde-a995-bfd1e7ceb24b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

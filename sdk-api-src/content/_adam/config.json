@@ -1,7 +1,0 @@
-{
-  "tech": "adam",
-  "headers": [
-    "ntdsapi.h"
-  ],
-  "displayName": "Active Directory Lightweight Directory Services"
-}

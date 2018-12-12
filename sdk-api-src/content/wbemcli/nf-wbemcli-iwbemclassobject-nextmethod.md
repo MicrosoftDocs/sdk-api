@@ -113,7 +113,7 @@ The caller begins the enumeration sequence using
 <a href="https://msdn.microsoft.com/7a6de467-65f7-4873-a2dd-9c52c138b1d2">IWbemClassObject::EndMethodEnumeration</a>. The caller may terminate the enumeration early by calling 
 <b>IWbemClassObject::EndMethodEnumeration</b> at any time.
 
-<div class="alert"><b>Note</b>  The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IWbemClassObject::Release</a> on the <i>ppInSignature</i> and <i>ppOutSignature</i> pointers when these objects are no longer required.</div>
+<div class="alert"><b>Note</b>  The caller must call <a href="_com_iunknown_release">IWbemClassObject::Release</a> on the <i>ppInSignature</i> and <i>ppOutSignature</i> pointers when these objects are no longer required.</div>
 <div> </div>
 
 

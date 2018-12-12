@@ -1,8 +1,0 @@
-{
-  "tech": "tapi2",
-  "headers": [
-    "tapi.h",
-    "tspi.h"
-  ],
-  "displayName": "TAPI 2.2"
-}

@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.IntServTspecBody
+UID: NS:lpmapi.__unnamed_struct_23
 title: IntServTspecBody
 author: windows-sdk-content
 description: The IntServTspecBody structure contains information for an RSVP Tspec.
@@ -7,7 +7,7 @@ old-location: qos\intservtspecbody.htm
 tech.root: QOS
 ms.assetid: c4244dba-237a-437b-94b7-fd814edb3506
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IntServTspecBody, IntServTspecBody structure [QOS], lpmapi/IntServTspecBody, qos.intservtspecbody
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,14 +67,28 @@ Header for the corresponding Tspec object, expressed as  <a href="https://msdn.m
 ### -field tspec_u
 
 
-### -field tspec_u.gen_stspec
+
+#### gen_stspec
 
 Generic Tspec, expressed as a <a href="https://msdn.microsoft.com/cefd94ed-ed54-471d-97fc-d523cedd71d6">GenTspec</a> structure.
 
 
-### -field tspec_u.qual_stspec
+
+#### qual_stspec
 
 Qualitative Tspec, expressed as a <a href="https://msdn.microsoft.com/dc22de18-3e9f-4b92-aba4-579aa47fab64">QualTspec</a> structure.
+
+
+### -field gen_stspec
+
+ 
+
+
+### -field qual_stspec
+
+ 
+
+
 
 
 ## -see-also

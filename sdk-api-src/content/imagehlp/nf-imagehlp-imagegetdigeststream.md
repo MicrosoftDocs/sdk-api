@@ -4,7 +4,7 @@ title: ImageGetDigestStream function
 author: windows-sdk-content
 description: Retrieves the requested data from the specified image file.
 old-location: base\imagegetdigeststream.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: e4560609-5b10-453f-a9a6-c5483d88cd64
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Wow64GetThreadSelectorEntry function
 author: windows-sdk-content
 description: Retrieves a descriptor table entry for the specified selector and WOW64 thread.
 old-location: base\wow64getthreadselectorentry.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 68393913-6725-4cc6-90b9-57da2a96c91e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

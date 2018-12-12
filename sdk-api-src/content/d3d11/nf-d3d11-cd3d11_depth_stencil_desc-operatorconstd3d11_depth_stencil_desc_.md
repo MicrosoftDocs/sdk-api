@@ -1,0 +1,73 @@
+---
+UID: NF:d3d11.CD3D11_DEPTH_STENCIL_DESC.operator const D3D11_DEPTH_STENCIL_DESC&
+title: CD3D11_DEPTH_STENCIL_DESC::operator const D3D11_DEPTH_STENCIL_DESC&
+author: windows-sdk-content
+description: This operator returns the address of a D3D11_DEPTH_STENCIL_DESC structure that contains the data from the CD3D11_DEPTH_STENCIL_DESC instance.
+old-location: direct3d11\cd3d11_depth_stencil_desc_d3d11_depth_stencil_desc__.htm
+tech.root: direct3d11
+ms.assetid: 899C25AB-6379-4016-9423-35A0B50577D2
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: CD3D11_DEPTH_STENCIL_DESC interface [Direct3D 11],operator const D3D11_DEPTH_STENCIL_DESC& method, CD3D11_DEPTH_STENCIL_DESC.operator const D3D11_DEPTH_STENCIL_DESC&, CD3D11_DEPTH_STENCIL_DESC::operator const D3D11_DEPTH_STENCIL_DESC&, CD3D11_DEPTH_STENCIL_DESC::operator const D3D11_DEPTH_STENCIL_DESC&(), d3d11/CD3D11_DEPTH_STENCIL_DESC::operator const D3D11_DEPTH_STENCIL_DESC&, direct3d11.cd3d11_depth_stencil_desc_d3d11_depth_stencil_desc__, operator const D3D11_DEPTH_STENCIL_DESC&, operator const D3D11_DEPTH_STENCIL_DESC& method [Direct3D 11], operator const D3D11_DEPTH_STENCIL_DESC& method [Direct3D 11],CD3D11_DEPTH_STENCIL_DESC interface
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - CD3D11_DEPTH_STENCIL_DESC.operator const D3D11_DEPTH_STENCIL_DESC&
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# CD3D11_DEPTH_STENCIL_DESC::operator const D3D11_DEPTH_STENCIL_DESC&
+
+
+## -description
+
+
+This operator returns the address of a <a href="https://msdn.microsoft.com/5e136ca8-8655-4c75-9bc0-bcf3a7af930a">D3D11_DEPTH_STENCIL_DESC</a> structure that contains  the data from the <a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a> instance.
+
+
+## -parameters
+
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a>
+ 
+
+ 
+

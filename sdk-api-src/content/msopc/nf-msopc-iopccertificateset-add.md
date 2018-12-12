@@ -4,7 +4,7 @@ title: IOpcCertificateSet::Add
 author: windows-sdk-content
 description: Adds a certificate to the set.
 old-location: opc\iopccertificateset_add.htm
-tech.root: Benchmark
+tech.root: OPC
 ms.assetid: d14e9a1e-dda3-4b57-9882-0fd473a19e8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -132,7 +132,7 @@ For more information, see the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376489(v=VS.85).aspx">Certificates</a>
+<a href="f15bc83f-43b0-4b09-9bb5-c668e901b864">Certificates</a>
 
 
 

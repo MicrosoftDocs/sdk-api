@@ -4,7 +4,7 @@ title: SymEnumTypesW function
 author: windows-sdk-content
 description: Enumerates all user-defined types.
 old-location: base\symenumtypes.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 06f964bc-107a-468d-a35d-141b5da1780e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

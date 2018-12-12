@@ -1,5 +1,5 @@
 ---
-UID: NS:wingdi.BITMAPV4HEADER
+UID: NS:wingdi.__unnamed_struct_0
 title: BITMAPV4HEADER
 author: windows-sdk-content
 description: The BITMAPV4HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.Applications can use the BITMAPV5HEADER structure for added functionality.
@@ -7,7 +7,7 @@ old-location: gdi\bitmapv4header.htm
 tech.root: gdi
 ms.assetid: 17c50d55-1c95-4178-82ba-7f504aa63c83
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPBITMAPV4HEADER, *PBITMAPV4HEADER, BITMAPV4HEADER, BITMAPV4HEADER structure [Windows GDI], PBITMAPV4HEADER, PBITMAPV4HEADER structure pointer [Windows GDI], _win32_BITMAPV4HEADER_str, gdi.bitmapv4header, wingdi/BITMAPV4HEADER, wingdi/PBITMAPV4HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

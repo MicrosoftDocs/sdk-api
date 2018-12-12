@@ -1,7 +1,0 @@
-{
-  "tech": "msdtcwmi",
-  "headers": [
-    "wbemcli.h"
-  ],
-  "displayName": "Distributed Transaction Coordinator WMI Provider"
-}

@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.ICDECOMPRESSEX
+UID: NS:vfw.__unnamed_struct_6
 title: ICDECOMPRESSEX
 author: windows-sdk-content
 description: The ICDECOMPRESSEX structure contains decompression parameters used with the ICM_DECOMPRESSEX message.
@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressex_struct.htm
 tech.root: Multimedia
 ms.assetid: a07a7d1b-9967-4c52-9dd6-7616c3545b95
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICDECOMPRESSEX, ICDECOMPRESSEX structure [Windows Multimedia], ICDECOMPRESS_HURRYUP, ICDECOMPRESS_NOTKEYFRAME, ICDECOMPRESS_NULLFRAME, ICDECOMPRESS_PREROLL, ICDECOMPRESS_UPDATE, multimedia.icdecompressex_COLLISION172, multimedia.icdecompressex_struct, vfw/ICDECOMPRESSEX
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturereferenceenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: b7a260c3-cfe5-4dcb-9628-7cf7fdf382de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcSignatureReferenceEnumerator.MoveNext, IOpcSignatureReferenceEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcSignatureReferenceEnumerator interface, msopc/IOpcSignatureReferenceEnumerator::MoveNext, opc.iopcsignaturereferenceenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices

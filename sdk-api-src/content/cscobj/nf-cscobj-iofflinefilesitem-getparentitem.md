@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitem_getparentitem.htm
 tech.root: offlinefiles
 ms.assetid: 4fa89807-cd0c-4868-bd65-a8a0a42dff7d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetParentItem, GetParentItem method [Offline Files], GetParentItem method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetParentItem method, IOfflineFilesItem.GetParentItem, IOfflineFilesItem::GetParentItem, cscobj/IOfflineFilesItem::GetParentItem, of.iofflinefilesitem_getparentitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a> interface for the parent of the item. This method can be called repeatedly to retrieve items at the top of the cache namespace.
+Retrieves the <a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a> interface for the parent of the item. This method can be called repeatedly to retrieve items at the top of the cache namespace.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85
 
 ### -param ppItem [out]
 
-Receives the address of the <a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a> interface of the parent item.
+Receives the address of the <a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a> interface of the parent item.
 
 
 ## -returns
@@ -70,7 +70,7 @@ Receives the address of the <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
-If the item is a server item, this function returns <code>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</code>.  Server items are at the top of the Offline Files cache namespace and do not have a parent item.  The parent of a server item is the cache itself.  This is represented by the fact that an instance of <a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a> is also a container of server items.
+If the item is a server item, this function returns <code>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</code>.  Server items are at the top of the Offline Files cache namespace and do not have a parent item.  The parent of a server item is the cache itself.  This is represented by the fact that an instance of <a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a> is also a container of server items.
 
 
 
@@ -80,7 +80,7 @@ If the item is a server item, this function returns <code>HRESULT_FROM_WIN32(ERR
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
  
 
  

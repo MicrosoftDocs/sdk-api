@@ -69,7 +69,7 @@ Handle to the top-level window that will contain the Ribbon.
 
 ### -param application [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371528(v=VS.85).aspx">IUIApplication</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/0df1d890-cc78-4375-a17e-6fe7c0249107">IUIApplication</a>*</b>
 
 Pointer to the IUIApplication implementation of the host application.
 				
@@ -119,7 +119,7 @@ This method must be called by the host application for each top-level window tha
 
 This method is used to set up the hooks that enable the Ribbon framework to invoke callbacks in the host application.
 
-To initialize the Ribbon successfully, a compiled Ribbon markup file must be available as a resource and specified in a subsequent call to <a href="https://msdn.microsoft.com/en-us/library/Dd371471(v=VS.85).aspx">IUIFramework::LoadUI</a>. This markup file is an integral component of the framework; it specifies the controls to be used and their layout.
+To initialize the Ribbon successfully, a compiled Ribbon markup file must be available as a resource and specified in a subsequent call to <a href="https://msdn.microsoft.com/d8860459-ad4d-4783-9fef-25d313bc15c7">IUIFramework::LoadUI</a>. This markup file is an integral component of the framework; it specifies the controls to be used and their layout.
 
 If <b>IUIFramework::Initialize</b> returns successfully: 
 
@@ -139,9 +139,13 @@ If <b>IUIFramework::Initialize</b> returns successfully:
 
 The following example demonstrates a basic framework initialization function.
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 //  FUNCTION:    InitializeFramework(HWND)
 //
 //  PURPOSE:    Initialize the Ribbon framework and bind a Ribbon to the application.
@@ -165,7 +169,7 @@ bool InitializeFramework(HWND hWnd)
         CLSID_UIRibbonFramework, 
         NULL, 
         CLSCTX_INPROC_SERVER, 
-        IID_PPV_ARGS(&g_pFramework));
+        IID_PPV_ARGS(&amp;g_pFramework));
     if (!SUCCEEDED(hr))
     {
         return false;
@@ -174,15 +178,15 @@ bool InitializeFramework(HWND hWnd)
     // Create the application object (IUIApplication) and call the 
     // framework Initialize method, passing the application object and the 
     // host HWND that the Ribbon will attach itself to.
-    CComObject<CApplication> *pApplication = NULL;
-    CComObject<CApplication>::CreateInstance(&pApplication);
-    hr = pApplication->QueryInterface(&g_pApplication);
+    CComObject&lt;CApplication&gt; *pApplication = NULL;
+    CComObject&lt;CApplication&gt;::CreateInstance(&amp;pApplication);
+    hr = pApplication-&gt;QueryInterface(&amp;g_pApplication);
     if (!SUCCEEDED(hr))
     {
         return false;
     } 
 
-    hr = g_pFramework->Initialize(hWnd, g_pApplication);
+    hr = g_pFramework-&gt;Initialize(hWnd, g_pApplication);
     if (!SUCCEEDED(hr))
     {
         return false;
@@ -192,17 +196,17 @@ bool InitializeFramework(HWND hWnd)
     // Initiate callbacks to the IUIApplication object that was 
     // provided to the framework earlier and bind command handler(s) 
     // to individual commands.
-    hr = g_pFramework->LoadUI(GetModuleHandle(NULL), L"APPLICATION_RIBBON");
+    hr = g_pFramework-&gt;LoadUI(GetModuleHandle(NULL), L"APPLICATION_RIBBON");
     if (!SUCCEEDED(hr))
     {
         return false;
     }
     return true;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 
@@ -212,19 +216,19 @@ bool InitializeFramework(HWND hWnd)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/a9b8a30d-dd00-4088-a588-304fde97b84e">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371471(v=VS.85).aspx">IUIFramework::LoadUI</a>
+<a href="https://msdn.microsoft.com/d8860459-ad4d-4783-9fef-25d313bc15c7">IUIFramework::LoadUI</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371591(v=VS.85).aspx">Markup Elements</a>
+<a href="https://msdn.microsoft.com/70d7c357-8614-4883-97ae-6fce4fe7dcc4">Markup Elements</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

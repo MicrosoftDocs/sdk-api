@@ -82,14 +82,14 @@ Specifies whether the hardware and driver support ROVs.
 ### -field ConservativeRasterizationTier
 
 Specifies whether the hardware and driver support conservative rasterization.
-            The runtime sets this member to a <a href="https://msdn.microsoft.com/en-us/library/Dn859364(v=VS.85).aspx">D3D11_CONSERVATIVE_RASTERIZATION_TIER</a>-typed value that indicates if the hardware and driver support conservative rasterization and at what tier level.
+            The runtime sets this member to a <a href="https://msdn.microsoft.com/1409ACE8-960C-4297-80D9-DAD3CD1886AD">D3D11_CONSERVATIVE_RASTERIZATION_TIER</a>-typed value that indicates if the hardware and driver support conservative rasterization and at what tier level.
           
 
 
 ### -field TiledResourcesTier
 
 Specifies whether the hardware and driver support tiled resources.
-            The runtime sets this member to a <a href="https://msdn.microsoft.com/en-us/library/Dn280435(v=VS.85).aspx">D3D11_TILED_RESOURCES_TIER</a>-typed value that indicates if the hardware and driver support tiled resources and at what tier level.
+            The runtime sets this member to a <a href="https://msdn.microsoft.com/F2E58CDC-4E65-4166-976A-E58B6DC7B1E8">D3D11_TILED_RESOURCES_TIER</a>-typed value that indicates if the hardware and driver support tiled resources and at what tier level.
           
 
 
@@ -127,7 +127,7 @@ Default textures may not be in a mapped state while either bound to the pipeline
         Default textures may not be created shareable.
       
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dn899168(v=VS.85).aspx">D3D11_TEXTURE_LAYOUT</a> for texture swizzle options and restrictions.
+See <a href="https://msdn.microsoft.com/E7786550-99FC-4F8E-B93F-C2877C052EC2">D3D11_TEXTURE_LAYOUT</a> for texture swizzle options and restrictions.
       
 
 
@@ -138,7 +138,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Dn899168(v=VS.85).aspx">D3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
  
 
  

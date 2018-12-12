@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706336(v=VS.85).aspx">Flood effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/F80A6DC0-E18C-4324-BE4A-FE40C5722988">Flood effect</a>.
         
 
 

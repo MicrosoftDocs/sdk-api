@@ -7,7 +7,7 @@ old-location: pla\ifolderactioncollection_createfolderaction.htm
 tech.root: pla
 ms.assetid: caced576-cbe8-49d1-a372-70f035a6e3ed
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateFolderAction, CreateFolderAction method [PLA], CreateFolderAction method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],CreateFolderAction method, IFolderActionCollection.CreateFolderAction, IFolderActionCollection::CreateFolderAction, pla.ifolderactioncollection_createfolderaction, pla/IFolderActionCollection::CreateFolderAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

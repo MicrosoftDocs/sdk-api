@@ -4,7 +4,7 @@ title: SymRegisterFunctionEntryCallback function
 author: windows-sdk-content
 description: Registers a callback function for use by the stack walking procedure on Alpha computers.
 old-location: base\symregisterfunctionentrycallback64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 5915055f-2c6c-4a0e-ad0f-c5bd74558802
 ms.author: windowssdkdev
 ms.date: 12/5/2018

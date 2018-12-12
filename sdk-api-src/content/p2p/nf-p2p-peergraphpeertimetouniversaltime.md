@@ -7,7 +7,7 @@ old-location: p2p\peergraphpeertimetouniversaltime.htm
 tech.root: P2PSdk
 ms.assetid: 9cbb0b59-c116-4bd2-932f-2140595f4fad
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerGraphPeerTimeToUniversalTime, PeerGraphPeerTimeToUniversalTime function [Peer Networking], p2p.peergraphpeertimetouniversaltime, p2p/PeerGraphPeerTimeToUniversalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

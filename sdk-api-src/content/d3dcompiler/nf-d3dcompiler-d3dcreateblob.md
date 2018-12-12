@@ -87,7 +87,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-The latest D3dcompiler_nn.dll contains the <b>D3DCreateBlob</b> compiler function. Therefore, you are no longer required to create and use an arbitrary length data buffer by using the  <a href="https://msdn.microsoft.com/en-us/library/Bb205085(v=VS.85).aspx">D3D10CreateBlob</a> function that is contained in D3d10.dll.
+The latest D3dcompiler_nn.dll contains the <b>D3DCreateBlob</b> compiler function. Therefore, you are no longer required to create and use an arbitrary length data buffer by using the  <a href="https://msdn.microsoft.com/bacc1d17-13e2-428c-9fd5-01c02406aa14">D3D10CreateBlob</a> function that is contained in D3d10.dll.
 
 
 
@@ -97,7 +97,7 @@ The latest D3dcompiler_nn.dll contains the <b>D3DCreateBlob</b> compiler functio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
  
 
  

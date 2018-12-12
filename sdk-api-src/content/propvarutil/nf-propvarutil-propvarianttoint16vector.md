@@ -182,23 +182,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>
+<a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776524(v=VS.85).aspx">PropVariantGetInt16Elem</a>
+<a href="shell.PropVariantGetInt16Elem">PropVariantGetInt16Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776546(v=VS.85).aspx">PropVariantToInt16</a>
+<a href="shell.PropVariantToInt16">PropVariantToInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776548(v=VS.85).aspx">PropVariantToInt16VectorAlloc</a>
+<a href="shell.PropVariantToInt16VectorAlloc">PropVariantToInt16VectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776605(v=VS.85).aspx">VariantToInt16Array</a>
+<a href="shell.VariantToInt16Array">VariantToInt16Array</a>
  
 
  

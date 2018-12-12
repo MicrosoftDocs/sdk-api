@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.DFMICS
+UID: NS:shlobj_core.__unnamed_struct_12
 title: DFMICS
 author: windows-sdk-content
 description: Contains additional arguments used by DFM_INVOKECOMMANDEX.
@@ -7,7 +7,7 @@ old-location: shell\DFMICS.htm
 tech.root: shell
 ms.assetid: 2dbee891-6d5f-4ae1-8411-5d51cbab4457
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDFMICS, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_PTINVOKE, CMIC_MASK_SHIFT_DOWN, CMIC_MASK_UNICODE, DFMICS, DFMICS structure [Windows Shell], PDFMICS, PDFMICS structure pointer [Windows Shell], _shell_DFMICS, shell.DFMICS, shlobj_core/DFMICS, shlobj_core/PDFMICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

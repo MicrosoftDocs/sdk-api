@@ -60,9 +60,9 @@ Determines whether this range has the same character positions and story as thos
 
 ### -param pRange
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>*</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> object that is compared to this range. 
+The <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> object that is compared to this range. 
 
 
 ### -param pValue
@@ -88,7 +88,7 @@ The method returns an <b>HRESULT</b> value. If the ranges have the same characte
 
 
 The 
-				<b>ITextRange::IsEqual</b> method returns <b>tomTrue</b> only if the range points at the same text as <i>pRange</i>. See <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">Finding Rich Text</a> for code that compares two different pieces of text to see if they contain the same plain text and the same character formatting.
+				<b>ITextRange::IsEqual</b> method returns <b>tomTrue</b> only if the range points at the same text as <i>pRange</i>. See <a href="About_Text_Object_Model.htm">Finding Rich Text</a> for code that compares two different pieces of text to see if they contain the same plain text and the same character formatting.
 
 
 
@@ -98,11 +98,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

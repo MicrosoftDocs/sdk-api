@@ -1,7 +1,0 @@
-{
-  "tech": "win32_tile_badge_notif",
-  "headers": [
-    "notificationactivationcallback.h"
-  ],
-  "displayName": "Tiles, badges, and notifications for Classic desktop applications"
-}

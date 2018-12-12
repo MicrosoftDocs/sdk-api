@@ -1,13 +1,13 @@
 ---
-UID: NS:http.HTTP_SERVICE_CONFIG_CACHE_SET
+UID: NS:http.__unnamed_struct_0
 title: HTTP_SERVICE_CONFIG_CACHE_SET
 author: windows-sdk-content
 description: Used in the pConfigInformation parameter of the HttpSetServiceConfiguration function.
 old-location: http\http_service_config_cache_set.htm
-tech.root: Http
+tech.root: http
 ms.assetid: e868822a-95f8-4dbe-bffb-c5b5c151fa41
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_CACHE_SET, HTTP_SERVICE_CONFIG_CACHE_SET, HTTP_SERVICE_CONFIG_CACHE_SET structure [HTTP], PHTTP_SERVICE_CONFIG_CACHE_SET, PHTTP_SERVICE_CONFIG_CACHE_SET structure pointer [HTTP], http.http_service_config_cache_set, http/HTTP_SERVICE_CONFIG_CACHE_SET, http/PHTTP_SERVICE_CONFIG_CACHE_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

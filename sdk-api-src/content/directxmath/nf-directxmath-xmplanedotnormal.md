@@ -60,21 +60,23 @@ Calculates the dot product between the normal vector of a plane and a 3D vector.
 
 ### -param P [in]
 
-<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation 
-
-
-```
-XMVECTOR vectorOut;
+<b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation <div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR vectorOut;
 
 vectorOut.x = P.x * V.x + P.y * V.y + P.z * V.z;
 vectorOut.y = P.x * V.x + P.y * V.y + P.z * V.z;
 vectorOut.z = P.x * V.x + P.y * V.y + P.z * V.z;
 vectorOut.w = P.x * V.x + P.y * V.y + P.z * V.z;
 
-return vectorOut;
-```
-
-.
+return vectorOut;</pre>
+</td>
+</tr>
+</table></span></div>.
 
 
 ### -param V [in]

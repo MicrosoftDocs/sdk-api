@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.RsvpObjHdr
+UID: NS:lpmapi.__unnamed_struct_0
 title: RsvpObjHdr
 author: windows-sdk-content
 description: The RsvpObjHdr structure provides an object header for an RSVP message.
@@ -7,7 +7,7 @@ old-location: qos\rsvpobjhdr.htm
 tech.root: QOS
 ms.assetid: 90a237c0-0e62-4f27-927a-e3f3c1ac629e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: RsvpObjHdr, RsvpObjHdr structure [QOS], lpmapi/RsvpObjHdr, qos.rsvpobjhdr
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> and returns a handle to 
+Opens a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> and returns a handle to 
     it.
 
 
@@ -61,7 +61,7 @@ Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to a <a href="c_gly.htm">cluster</a>.
 
 
 ### -param lpszResourceName [in, optional]
@@ -134,7 +134,7 @@ The operation was not successful. For more information about the error, call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Failover Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
 
 
 

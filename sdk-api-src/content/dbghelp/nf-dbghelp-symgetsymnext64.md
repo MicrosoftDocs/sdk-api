@@ -4,7 +4,7 @@ title: SymGetSymNext64 function
 author: windows-sdk-content
 description: Retrieves the symbol information for the next symbol.
 old-location: base\symgetsymnext64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: e58f21b9-c2fc-48f6-af45-3c9ec42809c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

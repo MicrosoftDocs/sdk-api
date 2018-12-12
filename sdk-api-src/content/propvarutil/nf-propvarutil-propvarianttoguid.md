@@ -97,7 +97,7 @@ This helper function works for<a href="https://msdn.microsoft.com/e86cc279-826d-
 <li>VT_ARRAY | VT_UI1</li>
 </ul>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776545(v=VS.85).aspx">PropVariantToGUID</a> is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a single <b>GUID</b> or <b>GUID</b> value. For instance, an application obtaining values from a property store can use this to safely extract the <b>GUID</b> value for <b>GUID</b> properties.
+<a href="shell.PropVariantToGUID">PropVariantToGUID</a> is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a single <b>GUID</b> or <b>GUID</b> value. For instance, an application obtaining values from a property store can use this to safely extract the <b>GUID</b> value for <b>GUID</b> properties.
 
 
 #### Examples
@@ -158,15 +158,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
+<a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776537(v=VS.85).aspx">PropVariantToCLSID</a>
+<a href="shell.PropVariantToCLSID">PropVariantToCLSID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776603(v=VS.85).aspx">VariantToGUID</a>
+<a href="shell.VariantToGUID">VariantToGUID</a>
  
 
  

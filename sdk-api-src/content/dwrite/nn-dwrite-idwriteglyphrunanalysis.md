@@ -113,9 +113,13 @@ A ClearType alpha texture contains three bytes per pixel, therefore the size of 
 
 The following code example shows how to create a glyph run analysis object.  In this example, an empty glyph run is being used. 
 
-
-```cpp
-HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalysis **ppGlyphRunAnalysis)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalysis **ppGlyphRunAnalysis)
 {
     HRESULT hr = S_OK;
     IDWriteFactory* pDWriteFactory = NULL;
@@ -124,14 +128,14 @@ HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalys
     hr = DWriteCreateFactory(
             DWRITE_FACTORY_TYPE_SHARED,
             __uuidof(IDWriteFactory),
-            reinterpret_cast<IUnknown**>(&pDWriteFactory)
+            reinterpret_cast&lt;IUnknown**&gt;(&amp;pDWriteFactory)
             );
 
     DWRITE_GLYPH_RUN emptyGlyphRun = { 0 };
     UINT16 glyphIndex = 0;
     
     emptyGlyphRun.fontFace = pFontFace;
-    emptyGlyphRun.glyphIndices = &glyphIndex;
+    emptyGlyphRun.glyphIndices = &amp;glyphIndex;
     emptyGlyphRun.glyphCount = 0;
    
     emptyGlyphRun.fontEmSize = 12;
@@ -140,26 +144,26 @@ HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalys
 
     if (SUCCEEDED(hr))
     {
-        hr = pDWriteFactory->CreateGlyphRunAnalysis(
-            &emptyGlyphRun,
+        hr = pDWriteFactory-&gt;CreateGlyphRunAnalysis(
+            &amp;emptyGlyphRun,
             1.0f, // pixelsPerDip,
             NULL, // transform,
             DWRITE_RENDERING_MODE_CLEARTYPE_GDI_CLASSIC,
             DWRITE_MEASURING_MODE_GDI_CLASSIC,
             0.0f, // baselineOriginX,
             0.0f, // baselineOriginY,
-            &pGlyphRunAnalysis);
+            &amp;pGlyphRunAnalysis);
     }
     
     *ppGlyphRunAnalysis = pGlyphRunAnalysis;
 
-    SafeRelease(&pDWriteFactory);
+    SafeRelease(&amp;pDWriteFactory);
 
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

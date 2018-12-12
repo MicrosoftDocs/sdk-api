@@ -7,7 +7,7 @@ old-location: p2p\peercollabaddcontact.htm
 tech.root: P2PSdk
 ms.assetid: 0e4ba039-2016-487d-b4df-e96648db1a05
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerCollabAddContact, PeerCollabAddContact function [Peer Networking], p2p.peercollabaddcontact, p2p/PeerCollabAddContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

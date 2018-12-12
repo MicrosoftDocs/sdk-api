@@ -7,7 +7,7 @@ old-location: pla\iperformancecounterdatacollector.htm
 tech.root: pla
 ms.assetid: c9a5f417-ffd5-452d-9218-3ac045a55de0
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], IPerformanceCounterDataCollector interface [PLA],described, base.iperformancecounterdatacollector, pla.iperformancecounterdatacollector, pla/IPerformanceCounterDataCollector
 ms.prod: windows-hardware
 ms.technology: windows-devices

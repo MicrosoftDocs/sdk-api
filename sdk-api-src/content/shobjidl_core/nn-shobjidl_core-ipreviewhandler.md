@@ -82,7 +82,7 @@ Directs the preview handler to load data from the source specified in an earlier
 <a href="https://msdn.microsoft.com/8d21655b-ff0c-4396-a353-f968c28c4883">QueryFocus</a>
 </td>
 <td align="left" width="63%">
-Directs the preview handler to return the <b>HWND</b> from calling the <a href="https://msdn.microsoft.com/en-us/library/ms646294(v=VS.85).aspx">GetFocus Function</a>.
+Directs the preview handler to return the <b>HWND</b> from calling the <a href="https://msdn.microsoft.com/3929771f-0402-4554-8e39-f945cd77b16d">GetFocus Function</a>.
 
 </td>
 </tr>

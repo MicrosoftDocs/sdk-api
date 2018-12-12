@@ -1,5 +1,5 @@
 ---
-UID: NS:winuser.MENUITEMTEMPLATE
+UID: NS:winuser.__unnamed_struct_7
 title: MENUITEMTEMPLATE
 author: windows-sdk-content
 description: Defines a menu item in a menu template.
@@ -7,7 +7,7 @@ old-location: menurc\menuitemtemplate.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuitemtemplate.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMENUITEMTEMPLATE, MENUITEMTEMPLATE, MENUITEMTEMPLATE structure [Menus and Other Resources], MF_CHECKED, MF_GRAYED, MF_HELP, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, PMENUITEMTEMPLATE, PMENUITEMTEMPLATE structure pointer [Menus and Other Resources], _win32_MENUITEMTEMPLATE_str, _win32_menuitemtemplate_str_cpp, menurc.menuitemtemplate, winui._win32_menuitemtemplate_str, winuser/MENUITEMTEMPLATE, winuser/PMENUITEMTEMPLATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -174,15 +174,15 @@ The menu item.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
+<a href="https://msdn.microsoft.com/01736486-6dee-43fe-80a7-06c4cf13a23e">LoadMenuIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647583(v=VS.85).aspx">MENUITEMTEMPLATEHEADER</a>
+<a href="https://msdn.microsoft.com/7dd21370-9e26-4086-9ba1-98e79966c336">MENUITEMTEMPLATEHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

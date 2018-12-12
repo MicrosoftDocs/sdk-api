@@ -7,7 +7,7 @@ old-location: opc\iopccertificateset_getenumerator.htm
 tech.root: OPC
 ms.assetid: a48b9225-07cb-4367-b011-dc2297c2c4b3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcCertificateSet interface, IOpcCertificateSet interface [Open Packaging Conventions],GetEnumerator method, IOpcCertificateSet.GetEnumerator, IOpcCertificateSet::GetEnumerator, msopc/IOpcCertificateSet::GetEnumerator, opc.iopccertificateset_getenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,7 +107,7 @@ The <i>certificateEnumerator</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376489(v=VS.85).aspx">Certificates</a>
+<a href="f15bc83f-43b0-4b09-9bb5-c668e901b864">Certificates</a>
 
 
 

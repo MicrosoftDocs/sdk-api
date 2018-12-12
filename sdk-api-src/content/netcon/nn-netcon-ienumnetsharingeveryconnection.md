@@ -115,7 +115,7 @@ Skips the specified number of private connections in this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
 
 
 

@@ -1,0 +1,156 @@
+---
+UID: NF:directxpackedvector.XMU555.XMU555(float,float,float,bool)
+title: XMU555::XMU555(float,float,float,bool)
+author: windows-sdk-content
+description: Initializes a new instance of XMU555 from three float and one bool arguments.
+old-location: dxmath\xmu555_ctor_5.htm
+tech.root: dxmath
+ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.#ctor(float,float,float,bool)
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(float,float,float,bool), XMU555::XMU555, XMU555::XMU555(float,float,float,bool), dxmath.xmu555_ctor_5
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: directxpackedvector.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: DirectX::PackedVector
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMU555.XMU555
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# XMU555::XMU555(float,float,float,bool)
+
+
+## -description
+
+
+Initializes a new instance of <code>XMU555</code> from three <code>float</code> and one
+	<code>bool</code> arguments.
+    
+
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555 </a> from three
+	<code>float</code> (specifying x-, y-, and z-components) and one <code>bool</code> (specifying
+	the w-component) arguments.
+<div class="alert"><b>Note</b>  This constructor is only available under C++.
+    </div><div> </div>
+
+## -parameters
+
+
+
+
+### -param _x
+
+Value of the x-coordinate of the vector, the <b>x</b> member of the new
+		    <code>XMU555</code> instance.
+		
+
+The magnitude of this argument will be clamped to a range of [0, 31.0].
+		
+
+
+### -param _y
+
+Value of the y-coordinate of the vector, the <b>y</b> member of the new
+		    <code>XMU555</code> instance.
+		
+
+The magnitude of this argument will be clamped to a range of [0, 31.0].
+		
+
+
+### -param _z
+
+Value of the z-coordinate of the vector, the <b>z</b> member of the new
+		    <code>XMU555</code> instance.
+		
+
+The magnitude of this argument will be clamped to a range of [0, 31.0].
+		
+
+
+### -param _w
+
+Value of the w-coordinate of the vector, the <b>w</b> member of the new
+		    <code>XMU555</code> instance.
+		
+
+The magnitude of this argument will be clamped to a range of [0, 1].
+		
+
+
+## -remarks
+
+
+
+The following pseudocode demonstrates the operation of this constructor, which takes
+	    advantage of the <code>union</code> of the four components of the <code>XMU555</code>vector with an instance of <code>uint16_t</code> in the definition of the structure:
+	
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+	_x1=min( max( _x, 0.0 ), 31.0 );
+	_y1=min( max( _y, 0.0 ), 31.0 );
+	_z1=min( max( _z, 0.0 ), 31.0 );
+	_w1=min( max( _w, 0 ), 1 );
+
+	instance.v =  (((uint16_t)_w1 ? 0x8000 : 0) |
+                      (((uint16_t)_z1 &amp; 0x1F) &lt;&lt; 10) |
+                      (((uint16_t)_y1 &amp; 0x1F) &lt;&lt; 5) |  
+		      (((uint16_t)_x1 &amp; 0x1F)));
+	</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555</a>
+
+
+
+<a href="https://msdn.microsoft.com/afde874c-b4e2-4edb-92bf-895224793e91">XMU555 Constructors</a>
+ 
+
+ 
+

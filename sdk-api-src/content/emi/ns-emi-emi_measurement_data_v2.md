@@ -1,5 +1,5 @@
 ---
-UID: NS:emi.EMI_MEASUREMENT_DATA_V2
+UID: NS:emi.__unnamed_struct_6
 title: EMI_MEASUREMENT_DATA_V2
 author: windows-sdk-content
 description: The EMI_MEASUREMENT_DATA_V2 structure provides data about the current energy measurement data for all channels of an EMI_VERSION_V2 device.
@@ -7,7 +7,7 @@ old-location: powermeter\emi_measurement_data_v2.htm
 tech.root: powermeter
 ms.assetid: 18715936-7401-4F32-AD80-8AE5575AECA7
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: EMI_MEASUREMENT_DATA_V2, EMI_MEASUREMENT_DATA_V2 structure [Power Metering and Budgeting Devices], emi/EMI_MEASUREMENT_DATA_V2, powermeter.emi_measurement_data_v2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ispwrsuspendallowed.htm
 tech.root: power
 ms.assetid: 66ef2402-b1b8-432e-b47d-240d255fc907
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IsPwrSuspendAllowed, IsPwrSuspendAllowed function, _win32_ispwrsuspendallowed, base.ispwrsuspendallowed, powrprof/IsPwrSuspendAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices

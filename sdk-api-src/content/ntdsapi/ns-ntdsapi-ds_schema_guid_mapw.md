@@ -1,5 +1,5 @@
 ---
-UID: NS:ntdsapi.DS_SCHEMA_GUID_MAPW
+UID: NS:ntdsapi.__unnamed_struct_12
 title: DS_SCHEMA_GUID_MAPW
 author: windows-sdk-content
 description: Contains the results of a call to DsMapSchemaGuids.
@@ -7,7 +7,7 @@ old-location: ad\ds_schema_guid_map.htm
 tech.root: ad
 ms.assetid: 8128f511-ebdc-479d-b99c-ed210c72d151
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDS_SCHEMA_GUID_MAPW, DS_SCHEMA_GUID_ATTR, DS_SCHEMA_GUID_ATTR_SET, DS_SCHEMA_GUID_CLASS, DS_SCHEMA_GUID_CONTROL_RIGHT, DS_SCHEMA_GUID_MAP, DS_SCHEMA_GUID_MAP structure [Active Directory], DS_SCHEMA_GUID_MAPA, DS_SCHEMA_GUID_MAPW, DS_SCHEMA_GUID_NOT_FOUND, PDS_SCHEMA_GUID_MAP, PDS_SCHEMA_GUID_MAP structure pointer [Active Directory], _glines_ds_schema_guid_map, ad.ds__schema__guid__map, ad.ds_schema_guid_map, ntdsapi/DS_SCHEMA_GUID_MAP, ntdsapi/DS_SCHEMA_GUID_MAPA, ntdsapi/DS_SCHEMA_GUID_MAPW, ntdsapi/PDS_SCHEMA_GUID_MAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -102,12 +102,12 @@ The GUID identifies an extended access right.
 The GUID cannot be found in the directory service schema.
 
 
-### -field pName.string
+### -field string
 
  
 
 
-### -field pName.unique
+### -field unique
 
  
 

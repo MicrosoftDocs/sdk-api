@@ -1,13 +1,13 @@
 ---
-UID: NS:wininet.INTERNET_CERTIFICATE_INFO
+UID: NS:wininet.__unnamed_struct_12
 title: INTERNET_CERTIFICATE_INFO
 author: windows-sdk-content
 description: Contains certificate information returned from the server. This structure is used by the InternetQueryOption function.
 old-location: wininet\internet_certificate_info.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 2262a3cf-f325-470a-a7cd-9bcafc5aadc4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPINTERNET_CERTIFICATE_INFO, INTERNET_CERTIFICATE_INFO, INTERNET_CERTIFICATE_INFO structure [WinINet], LPINTERNET_CERTIFICATE_INFO, LPINTERNET_CERTIFICATE_INFO structure pointer [WinINet], _inet_internet_certificate_info_structure, wininet.internet_certificate_info, wininet/ LPINTERNET_CERTIFICATE_INFO, wininet/INTERNET_CERTIFICATE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

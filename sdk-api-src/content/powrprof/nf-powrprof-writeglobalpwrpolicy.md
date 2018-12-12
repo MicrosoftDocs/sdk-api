@@ -7,7 +7,7 @@ old-location: base\writeglobalpwrpolicy.htm
 tech.root: power
 ms.assetid: 293dc3a5-5e6b-4709-8439-67d2339740e7
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: WriteGlobalPwrPolicy, WriteGlobalPwrPolicy function, _win32_writeglobalpwrpolicy, base.writeglobalpwrpolicy, powrprof/WriteGlobalPwrPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

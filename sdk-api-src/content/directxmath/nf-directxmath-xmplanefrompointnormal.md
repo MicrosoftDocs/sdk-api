@@ -73,21 +73,23 @@ Computes the equation of a plane constructed from a point in the plane and a nor
 
 
 Returns a vector whose components are the coefficients of the plane (A, B, C, D) for the plane equation
-       
-
-
-```
-XMVECTOR Result;
+       <div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
 Result.x = Normal.x;
 Result.y = Normal.y;
 Result.z = Normal.z;
 Result.w = -(Point.x * Normal.x + Point.y * Normal.y + Point.z * Normal.z);
 
-return Result;
-```
-
-.
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>.
 
 
 

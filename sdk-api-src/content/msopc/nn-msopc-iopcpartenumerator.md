@@ -7,7 +7,7 @@ old-location: opc\iopcpartenumerator.htm
 tech.root: OPC
 ms.assetid: 0a2296b2-a149-439a-abcf-2bc2eb6d1235
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcPartEnumerator, IOpcPartEnumerator interface [Open Packaging Conventions], IOpcPartEnumerator interface [Open Packaging Conventions],described, msopc/IOpcPartEnumerator, opc.iopcpartenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

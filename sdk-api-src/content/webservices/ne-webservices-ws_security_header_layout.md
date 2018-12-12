@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_SECURITY_HEADER_LAYOUT
+UID: NE:webservices.__unnamed_enum_57
 title: WS_SECURITY_HEADER_LAYOUT
 author: windows-sdk-content
 description: The layout rules applied to the elements of the WS-Security security header. This setting is relevant to message security bindings and mixed-mode security bindings.
@@ -7,7 +7,7 @@ old-location: wsw\ws_security_header_layout.htm
 tech.root: wsw
 ms.assetid: a3090e6f-1f80-4d67-b7d7-1165486dcc66
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_SECURITY_HEADER_LAYOUT, WS_SECURITY_HEADER_LAYOUT enumeration [Web Services for Windows], WS_SECURITY_HEADER_LAYOUT_LAX, WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_FIRST, WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_LAST, WS_SECURITY_HEADER_LAYOUT_STRICT, webservices/WS_SECURITY_HEADER_LAYOUT, webservices/WS_SECURITY_HEADER_LAYOUT_LAX, webservices/WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_FIRST, webservices/WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_LAST, webservices/WS_SECURITY_HEADER_LAYOUT_STRICT, wsw.ws_security_header_layout
 ms.prod: windows-hardware
 ms.technology: windows-devices

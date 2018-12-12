@@ -62,7 +62,7 @@ Translates accelerator keystrokes intended for the browser's frame while the vie
 
 Type: <b>LPMSG</b>
 
-The address of an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure containing the keystroke message.
+The address of an <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure containing the keystroke message.
 
 
 ### -param wID

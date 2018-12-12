@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.EXP_PROPERTYSTORAGE
+UID: NS:shlobj_core.__unnamed_struct_5
 title: EXP_PROPERTYSTORAGE
 author: windows-sdk-content
 description: Stores information about the Shell link state. This structure is used for extra data sections that are tagged with EXP_PROPERTYSTORAGE_SIG.
@@ -7,7 +7,7 @@ old-location: shell\EXP_PROPERTYSTORAGE.htm
 tech.root: shell
 ms.assetid: b7228610-c28a-4e19-80c9-30997a360b9c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: EXP_PROPERTYSTORAGE, EXP_PROPERTYSTORAGE structure [Windows Shell], _shell_EXP_PROPERTYSTORAGE, shell.EXP_PROPERTYSTORAGE, shlobj_core/EXP_PROPERTYSTORAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

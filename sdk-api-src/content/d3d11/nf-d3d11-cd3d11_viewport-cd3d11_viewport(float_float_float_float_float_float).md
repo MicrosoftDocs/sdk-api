@@ -1,0 +1,113 @@
+---
+UID: NF:d3d11.CD3D11_VIEWPORT.CD3D11_VIEWPORT(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
+title: CD3D11_VIEWPORT::CD3D11_VIEWPORT(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
+author: windows-sdk-content
+description: Instantiates a new instance of a CD3D11_VIEWPORT structure that is initialized with D3D11_VIEWPORT values.
+old-location: direct3d11\cd3d11_viewport_cd3d11_viewport_d3d11_viewport_values_.htm
+tech.root: direct3d11
+ms.assetid: EDC5768A-0BF4-40B4-ABDC-67701A75FB8A
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: CD3D11_VIEWPORT, CD3D11_VIEWPORT constructor [Direct3D 11], CD3D11_VIEWPORT constructor [Direct3D 11],CD3D11_VIEWPORT interface, CD3D11_VIEWPORT interface [Direct3D 11],CD3D11_VIEWPORT constructor, CD3D11_VIEWPORT.CD3D11_VIEWPORT, CD3D11_VIEWPORT.CD3D11_VIEWPORT(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), CD3D11_VIEWPORT::CD3D11_VIEWPORT, CD3D11_VIEWPORT::CD3D11_VIEWPORT(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), d3d11/CD3D11_VIEWPORT::CD3D11_VIEWPORT, direct3d11.cd3d11_viewport_cd3d11_viewport_d3d11_viewport_values_
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - CD3D11_VIEWPORT.CD3D11_VIEWPORT
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# CD3D11_VIEWPORT::CD3D11_VIEWPORT(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
+
+
+## -description
+
+
+Instantiates a new instance of a <a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a> structure that is initialized with <a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a> values.
+
+
+## -parameters
+
+
+
+
+### -param topLeftX
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+
+X position of the left hand side of the viewport. Ranges between D3D11_VIEWPORT_BOUNDS_MIN and D3D11_VIEWPORT_BOUNDS_MAX.
+
+
+### -param topLeftY
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+
+Y position of the top of the viewport. Ranges between D3D11_VIEWPORT_BOUNDS_MIN and D3D11_VIEWPORT_BOUNDS_MAX.
+
+
+### -param width
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+
+Width of the viewport.
+
+
+### -param height
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+
+Height of the viewport.
+
+
+### -param minDepth
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+
+Minimum depth of the viewport. Ranges between 0 and 1.
+
+
+### -param maxDepth
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+
+Maximum depth of the viewport. Ranges between 0 and 1.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/F4C7E5E7-1986-4210-83BC-80277A47CB97">CD3D11_VIEWPORT</a>
+ 
+
+ 
+

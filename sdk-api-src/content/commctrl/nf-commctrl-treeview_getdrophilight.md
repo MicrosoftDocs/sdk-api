@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the tree-view item that is the target of a drag-and-drop operation. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_DROPHILITE flag. 
+Retrieves the tree-view item that is the target of a drag-and-drop operation. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a> message with the TVGN_DROPHILITE flag. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves the tree-view item that is the target of a drag-and-drop operation. Yo
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 

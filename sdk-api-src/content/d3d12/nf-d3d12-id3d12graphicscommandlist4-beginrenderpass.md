@@ -65,17 +65,17 @@ A <b>UINT</b>. The number of render targets being bound.
 
 ### -param pRenderTargets
 
-A pointer to a constant <a href="direct3d12.d3d12_render_pass_render_target_desc">D3D12_RENDER_PASS_RENDER_TARGET_DESC</a>, which describes bindings (fixed for the duration of the render pass) to one or more render target views (RTVs), as well as their beginning and ending access characteristics.
+A pointer to a constant <a href="https://msdn.microsoft.com/C319081F-290E-4031-AE0C-F97D82ED4178">D3D12_RENDER_PASS_RENDER_TARGET_DESC</a>, which describes bindings (fixed for the duration of the render pass) to one or more render target views (RTVs), as well as their beginning and ending access characteristics.
 
 
 ### -param pDepthStencil
 
-A pointer to a constant <a href="direct3d12.d3d12_render_pass_depth_stencil_desc">D3D12_RENDER_PASS_DEPTH_STENCIL_DESC</a>, which describes a binding (fixed for the duration of the render pass) to a depth stencil view (DSV), as well as its beginning and ending access characteristics.
+A pointer to a constant <a href="https://msdn.microsoft.com/1C67A6D0-F912-471F-A38C-E3C6A74303EF">D3D12_RENDER_PASS_DEPTH_STENCIL_DESC</a>, which describes a binding (fixed for the duration of the render pass) to a depth stencil view (DSV), as well as its beginning and ending access characteristics.
 
 
 ### -param Flags
 
-A <a href="direct3d12.d3d12_render_pass_flags">D3D12_RENDER_PASS_FLAGS</a>. The nature/requirements of the render pass; for example, whether it is a suspending or a resuming render pass, or whether it wants to write to unordered access view(s).
+A <a href="https://msdn.microsoft.com/4F1D13BD-60BC-4CE7-9671-42886989FE31">D3D12_RENDER_PASS_FLAGS</a>. The nature/requirements of the render pass; for example, whether it is a suspending or a resuming render pass, or whether it wants to write to unordered access view(s).
 
 
 ## -returns
@@ -92,7 +92,7 @@ This method does not return a value.
 
 
 
-<a href="direct3d12.id3d12graphicscommandlist4_endrenderpass">EndRenderPass</a>
+<a href="https://msdn.microsoft.com/6CFF2A67-F2F0-41F8-8BEC-D52003DE2767">EndRenderPass</a>
 
 
 
