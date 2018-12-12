@@ -1,0 +1,10 @@
+{
+  "tech": "http",
+  "headers": [
+    "httpserv.h",
+    "http.h",
+    "httpp.h",
+    "winhttp.h"
+  ],
+  "displayName": "Windows HTTP Services (WinHTTP)"
+}

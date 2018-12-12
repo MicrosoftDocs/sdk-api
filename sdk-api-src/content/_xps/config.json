@@ -1,0 +1,12 @@
+{
+  "tech": "xps",
+  "headers": [
+    "xpsobjectmodel_1.h",
+    "xpsobjectmodel_2.h",
+    "xpsobjectmodel.h",
+    "xpsdigitalsignature.h",
+    "documenttarget.h",
+    "prntvpt.h"
+  ],
+  "displayName": "XPS Documents"
+}

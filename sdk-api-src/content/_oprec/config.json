@@ -1,0 +1,7 @@
+{
+  "tech": "oprec",
+  "headers": [
+    "winbase.h"
+  ],
+  "displayName": "Operation Recorder"
+}

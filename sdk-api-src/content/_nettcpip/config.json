@@ -1,0 +1,7 @@
+{
+  "tech": "nettcpip",
+  "headers": [
+    "spcollec.h"
+  ],
+  "displayName": "NetTCPIP Provider"
+}

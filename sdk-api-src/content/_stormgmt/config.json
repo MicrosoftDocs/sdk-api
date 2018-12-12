@@ -1,0 +1,7 @@
+{
+  "tech": "stormgmt",
+  "headers": [
+    "vdssys.h"
+  ],
+  "displayName": "Windows Storage Management API"
+}

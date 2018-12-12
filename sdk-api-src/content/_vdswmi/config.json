@@ -1,0 +1,7 @@
+{
+  "tech": "vdswmi",
+  "headers": [
+    "vds.h"
+  ],
+  "displayName": "Storage Volume Provider"
+}

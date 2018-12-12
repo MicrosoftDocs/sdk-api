@@ -1,0 +1,21 @@
+{
+  "tech": "multimedia",
+  "headers": [
+    "combaseapi.h",
+    "mmreg.h",
+    "mmsystem.h",
+    "digitalv.h",
+    "msacm.h",
+    "mmeapi.h",
+    "vfw.h",
+    "joystickapi.h",
+    "mmddk.h",
+    "mmiscapi.h",
+    "timeapi.h",
+    "mciapi.h",
+    "vcr.h",
+    "minwindef.h",
+    "corecrt_io.h"
+  ],
+  "displayName": "Windows Multimedia"
+}

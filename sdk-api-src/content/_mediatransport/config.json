@@ -1,0 +1,8 @@
+{
+  "tech": "mediatransport",
+  "headers": [
+    "windows.media.systemmediatransportcontrols.h",
+    "systemmediatransportcontrolsinterop.h"
+  ],
+  "displayName": "Media Transport Controls"
+}

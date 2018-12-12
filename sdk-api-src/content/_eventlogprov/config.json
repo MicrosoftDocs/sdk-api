@@ -1,0 +1,6 @@
+{
+  "tech": "eventlogprov",
+  "headers": [
+    "winbase.h"
+  ]
+}

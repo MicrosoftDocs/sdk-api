@@ -1,0 +1,8 @@
+{
+  "tech": "hcp",
+  "headers": [
+    "winbase.h",
+    "winnt.h"
+  ],
+  "displayName": "Hardware Counter Profiling"
+}

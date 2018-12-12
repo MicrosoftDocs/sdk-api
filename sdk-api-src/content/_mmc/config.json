@@ -1,0 +1,10 @@
+{
+  "tech": "mmc",
+  "headers": [
+    "prsht.h",
+    "mmcobj.h",
+    "mmc.h",
+    "dsclient.h"
+  ],
+  "displayName": "Microsoft Management Console 2.0"
+}

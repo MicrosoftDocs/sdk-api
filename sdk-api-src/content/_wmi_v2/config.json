@@ -1,0 +1,7 @@
+{
+  "tech": "wmi_v2",
+  "headers": [
+    "mi.h"
+  ],
+  "displayName": "Windows Management Infrastructure (MI)"
+}

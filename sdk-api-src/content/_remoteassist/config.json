@@ -1,0 +1,7 @@
+{
+  "tech": "remoteassist",
+  "headers": [
+    "rendezvoussession.h"
+  ],
+  "displayName": "Remote Assistance"
+}

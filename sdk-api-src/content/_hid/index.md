@@ -1,0 +1,27 @@
+---
+UID: TP:hid
+ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
+ms.author: windowssdkdev
+ms.date: 12/11/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+---
+
+# Human Interface Devices Reference
+
+## -description
+
+Overview of the Human Interface Devices Reference technology.
+
+To develop Human Interface Devices Reference, you need these headers:
+
+ * [dinput.h](../dinput/index.md)
+ * [dinputd.h](../dinputd/index.md)
+ * [ntddkbd.h](../ntddkbd/index.md)
+ * [ntddmou.h](../ntddmou/index.md)
+
+For programming guidance for this technology, see:
+* [Human Interface Devices Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/hid)
+

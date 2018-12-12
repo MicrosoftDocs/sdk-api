@@ -1,0 +1,7 @@
+{
+  "tech": "ndisimplatcim",
+  "headers": [
+    "corecrt_io.h"
+  ],
+  "displayName": "MsNetImPlatform Provider"
+}

@@ -1,0 +1,7 @@
+{
+  "tech": "vstor",
+  "headers": [
+    "virtdisk.h"
+  ],
+  "displayName": "Virtual Storage"
+}

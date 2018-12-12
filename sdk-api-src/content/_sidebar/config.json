@@ -1,0 +1,13 @@
+{
+  "tech": "sidebar",
+  "headers": [
+    "utilapiset.h",
+    "shldisp.h",
+    "sysinfoapi.h",
+    "corecrt_io.h",
+    "shobjidl_core.h",
+    "windowssideshowapi.h",
+    "wbemcli.h"
+  ],
+  "displayName": "Windows Sidebar"
+}

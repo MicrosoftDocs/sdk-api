@@ -1,0 +1,7 @@
+{
+  "tech": "debug",
+  "headers": [
+    "webapplication.h"
+  ],
+  "displayName": "Debugging and authoring support"
+}

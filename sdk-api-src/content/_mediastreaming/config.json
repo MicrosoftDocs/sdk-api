@@ -1,0 +1,10 @@
+{
+  "tech": "mediastreaming",
+  "headers": [
+    "mfidl.h",
+    "playtodevice.h",
+    "windows.media.streaming.h",
+    "windows.media.streaming.devices.h"
+  ],
+  "displayName": "Media Streaming API"
+}

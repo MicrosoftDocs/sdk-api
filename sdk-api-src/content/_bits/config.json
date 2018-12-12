@@ -1,0 +1,16 @@
+{
+  "tech": "bits",
+  "headers": [
+    "bits1_5.h",
+    "bits2_5.h",
+    "bits.h",
+    "bits5_0.h",
+    "bits3_0.h",
+    "bits10_1.h",
+    "bits2_0.h",
+    "bits4_0.h",
+    "bitscfg.h",
+    "qmgr.h"
+  ],
+  "displayName": "Background Intelligent Transfer Service"
+}

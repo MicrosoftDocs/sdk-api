@@ -1,0 +1,7 @@
+{
+  "tech": "projfs",
+  "headers": [
+    "projectedfslib.h"
+  ],
+  "displayName": "Projected File System"
+}

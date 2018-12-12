@@ -1,0 +1,30 @@
+{
+  "tech": "fs",
+  "headers": [
+    "ntmsapi.h",
+    "ntmsmli.h",
+    "winbase.h",
+    "winnt.h",
+    "clfsw32.h",
+    "clfs.h",
+    "clfsmgmtw32.h",
+    "clfsmgmt.h",
+    "minwinbase.h",
+    "winioctl.h",
+    "fileapi.h",
+    "ntdddisk.h",
+    "dskquota.h",
+    "winioctl.h.h",
+    "winefs.h",
+    "ioapi.h",
+    "lzexpand.h",
+    "wofapi.h",
+    "txfw32.h",
+    "ntddvol.h",
+    "ktmw32.h",
+    "ktmtypes.h",
+    "lmshare.h",
+    "lmstats.h"
+  ],
+  "displayName": "Data Access and Storage"
+}

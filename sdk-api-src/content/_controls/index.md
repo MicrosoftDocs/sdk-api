@@ -1,0 +1,34 @@
+---
+UID: TP:controls
+ms.assetid: 8fd04b8c-ce59-322c-a20f-91a83d03f80a
+ms.author: windowssdkdev
+ms.date: 12/11/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+---
+
+# Windows Controls
+
+## -description
+
+Overview of the Windows Controls technology.
+
+To develop Windows Controls, you need these headers:
+
+ * [commctrl.h](../commctrl/index.md)
+ * [commoncontrols.h](../commoncontrols/index.md)
+ * [dpa_dsa.h](../dpa_dsa/index.md)
+ * [prsht.h](../prsht/index.md)
+ * [richole.h](../richole/index.md)
+ * [shlobj.h](../shlobj/index.md)
+ * [textserv.h](../textserv/index.md)
+ * [tom.h](../tom/index.md)
+ * [uxtheme.h](../uxtheme/index.md)
+ * [windowsx.h](../windowsx/index.md)
+ * [winuser.h](../winuser/index.md)
+
+For programming guidance for this technology, see:
+* [Windows Controls](/windows/desktop/controls)
+

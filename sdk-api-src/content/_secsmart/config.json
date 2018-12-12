@@ -1,0 +1,7 @@
+{
+  "tech": "secsmart",
+  "headers": [
+    "cardmod.h"
+  ],
+  "displayName": "Smart Card API"
+}

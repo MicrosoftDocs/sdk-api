@@ -1,0 +1,8 @@
+{
+  "tech": "wsb",
+  "headers": [
+    "wsbapp.h",
+    "wsbonline.h"
+  ],
+  "displayName": "Windows Server Backup"
+}

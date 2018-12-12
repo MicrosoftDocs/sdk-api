@@ -1,0 +1,8 @@
+{
+  "tech": "tracelogging",
+  "headers": [
+    "traceloggingactivity.h",
+    "traceloggingprovider.h"
+  ],
+  "displayName": "TraceLogging"
+}

@@ -1,0 +1,6 @@
+# [Windows Mixed Reality](index.md)
+## [Holographicspaceinterop.h](../holographicspaceinterop/index.md)
+### [IHolographicSpaceInterop interface](../holographicspaceinterop/nn-holographicspaceinterop-iholographicspaceinterop.md)
+### [IHolographicSpaceInterop::CreateForWindow](../holographicspaceinterop/nf-holographicspaceinterop-iholographicspaceinterop-createforwindow.md)
+## [Spatialinteractionmanagerinterop.h](../spatialinteractionmanagerinterop/index.md)
+### [ISpatialInteractionManagerInterop interface](../spatialinteractionmanagerinterop/nn-spatialinteractionmanagerinterop-ispatialinteractionmanagerinterop.md)

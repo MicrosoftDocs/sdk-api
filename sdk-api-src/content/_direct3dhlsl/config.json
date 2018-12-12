@@ -1,0 +1,13 @@
+{
+  "tech": "direct3dhlsl",
+  "headers": [
+    "tbd",
+    "httpserv.h",
+    "corecrt_math.h",
+    "d3dcompiler.inl",
+    "d3dcompiler.h",
+    "d3dx_dxgiformatconvert.inl",
+    "comperrors.h"
+  ],
+  "displayName": "HLSL"
+}

@@ -1,0 +1,9 @@
+{
+  "tech": "monitor",
+  "headers": [
+    "lowlevelmonitorconfigurationapi.h",
+    "highlevelmonitorconfigurationapi.h",
+    "physicalmonitorenumerationapi.h"
+  ],
+  "displayName": "Monitor Configuration"
+}

@@ -1,0 +1,10 @@
+{
+  "tech": "policy",
+  "headers": [
+    "userenv.h",
+    "appmgmt.h",
+    "gpedit.h",
+    "gpedit2.h"
+  ],
+  "displayName": "Group Policy API"
+}

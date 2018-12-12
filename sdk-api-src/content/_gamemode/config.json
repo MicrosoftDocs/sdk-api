@@ -1,0 +1,7 @@
+{
+  "tech": "gamemode",
+  "headers": [
+    "expandedresources.h"
+  ],
+  "displayName": "Game Mode"
+}

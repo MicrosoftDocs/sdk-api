@@ -1,0 +1,11 @@
+{
+  "tech": "imapi",
+  "headers": [
+    "imapi2.h",
+    "imapi2fs.h",
+    "imapi2error.h",
+    "imapi.h",
+    "imapierror.h"
+  ],
+  "displayName": "Image Mastering API"
+}

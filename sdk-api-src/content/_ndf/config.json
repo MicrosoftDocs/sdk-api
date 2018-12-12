@@ -1,0 +1,10 @@
+{
+  "tech": "ndf",
+  "headers": [
+    "ndattrib.h",
+    "ndhelper.h",
+    "ndattributils.h",
+    "ndfapi.h"
+  ],
+  "displayName": "Network Diagnostics Framework"
+}

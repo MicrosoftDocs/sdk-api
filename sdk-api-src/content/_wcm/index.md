@@ -1,0 +1,24 @@
+---
+UID: TP:wcm
+ms.assetid: 022e09f2-6845-37d9-bf82-c9eb1f6ba5ab
+ms.author: windowssdkdev
+ms.date: 12/11/2018
+ms.keywords: 
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: portal
+---
+
+# Windows Connection Manager
+
+## -description
+
+Overview of the Windows Connection Manager technology.
+
+To develop Windows Connection Manager, you need these headers:
+
+ * [wcmapi.h](../wcmapi/index.md)
+
+For programming guidance for this technology, see:
+* [Windows Connection Manager](/windows/desktop/wcm)
+
