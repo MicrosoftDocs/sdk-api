@@ -89,7 +89,7 @@ Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af02630d-a9ca-f5b4-6f2a-31a73ef603e5">CreateImageSourceFromWic</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900366(v=VS.85).aspx">CreateImageSourceFromWic</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source.  The image is loaded and stored while using a minimal amount of memory.
 
@@ -97,7 +97,7 @@ Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e79b7cc-a6c4-72e3-d3d4-8346b19feac5">CreateInk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900372(v=VS.85).aspx">CreateInk</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a new <a href="https://msdn.microsoft.com/4B6DD4C2-8E91-4AEA-AFB5-21B4FD13F75A">ID2D1Ink</a> object that starts at the given point.
 
@@ -105,7 +105,7 @@ Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/647cf483-c650-4a6a-a1cd-272f3af0e6b6">CreateInkStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900371(v=VS.85).aspx">CreateInkStyle</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a new <a href="https://msdn.microsoft.com/03853FA5-1377-42FB-A4C2-50069DDF6E2D">ID2D1InkStyle</a> object, for use with ink 
         rendering methods such as <a href="https://msdn.microsoft.com/d7c27267-c0c3-d21c-7980-3d92396509c7">DrawInk</a>.

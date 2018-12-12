@@ -53,7 +53,7 @@ req.redist:
 The 
 <b>InternalCreateStream</b> method is called by 
 <a href="https://msdn.microsoft.com/402cde43-6b2a-4e4e-bf46-97fcafb7574a">CreateStream</a> to create a stream object (the caller does the argument checking). It should create and initialize the stream object (using 
-<a href="https://msdn.microsoft.com/ac98dd08-4250-40f6-91a8-e1f67b94b51f">CreateStreamObject</a>).
+<a href="https://msdn.microsoft.com/en-us/library/ms726500(v=VS.85).aspx">CreateStreamObject</a>).
 
 
 ## -parameters
@@ -84,11 +84,11 @@ Pointer to
 
 
 
-<a href="https://msdn.microsoft.com/77b53b66-38fa-4823-9051-e857da8a7dd7">CMSPCallBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/62d098d5-b9cd-4e64-bec8-c4f736be22f9">CMSPCallMultiGraph::InternalCreateStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726578(v=VS.85).aspx">CMSPCallMultiGraph::InternalCreateStream</a>
 
 
 
@@ -96,7 +96,7 @@ Pointer to
 
 
 
-<a href="https://msdn.microsoft.com/ac98dd08-4250-40f6-91a8-e1f67b94b51f">CreateStreamObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726500(v=VS.85).aspx">CreateStreamObject</a>
 
 
 

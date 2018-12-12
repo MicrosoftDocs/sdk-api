@@ -75,7 +75,7 @@ The <b>IWMPRenderConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71284af6-dc76-4a39-81f4-ed265140aad5">get_inProcOnly</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563640(v=VS.85).aspx">get_inProcOnly</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether playback is restricted to the current process.
@@ -84,7 +84,7 @@ Retrieves a value indicating whether playback is restricted to the current proce
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd7c7cbc-f428-46e1-b239-74b78cbf5835">put_inProcOnly</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563641(v=VS.85).aspx">put_inProcOnly</a>
 </td>
 <td align="left" width="63%">
 Specifies a value indicating whether playback is restricted to the current process.
@@ -93,7 +93,7 @@ Specifies a value indicating whether playback is restricted to the current proce
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPRenderConfig</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a>.
+Retrieve a pointer to <b>IWMPRenderConfig</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a>.
 
 	
 

@@ -60,7 +60,7 @@ Returns the DXGI device associated with this Direct2D device.
 
 ### -param dxgiDevice [out]
 
-Type: <b><a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>**</b>
 
 The DXGI device associated with this Direct2D device.
 

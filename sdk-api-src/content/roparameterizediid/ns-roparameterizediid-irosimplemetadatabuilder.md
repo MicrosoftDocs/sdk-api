@@ -233,7 +233,7 @@ The base type of the enumeration, as specified by the metadata.
 
 Assigns a parameterized interface to the metadata builder.
 
-This method is only for the non-instantiated parameterized interface. Instances are handled by <a href="https://msdn.microsoft.com/DE908C82-5D7C-415C-B08B-31786589979B">RoGetParameterizedTypeInstanceIID</a>, and the caller does not need to parse them. 
+This method is only for the non-instantiated parameterized interface. Instances are handled by <a href="https://msdn.microsoft.com/en-us/library/BR229857(v=VS.85).aspx">RoGetParameterizedTypeInstanceIID</a>, and the caller does not need to parse them. 
 
 
 
@@ -252,7 +252,7 @@ The number of type arguments required by the specified parameterized interface t
 
 Assigns a parameterized delegate to the metadata builder.
 
-This method is only for the non-instantiated parameterized interface. Instances are handled by <a href="https://msdn.microsoft.com/DE908C82-5D7C-415C-B08B-31786589979B">RoGetParameterizedTypeInstanceIID</a>, and the caller does not need to parse them.
+This method is only for the non-instantiated parameterized interface. Instances are handled by <a href="https://msdn.microsoft.com/en-us/library/BR229857(v=VS.85).aspx">RoGetParameterizedTypeInstanceIID</a>, and the caller does not need to parse them.
 
 
 

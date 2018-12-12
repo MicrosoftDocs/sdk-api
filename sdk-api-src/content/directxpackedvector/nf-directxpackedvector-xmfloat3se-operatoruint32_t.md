@@ -54,7 +54,7 @@ Returns an instance of <code>uint32_t</code> containing the components of the
 <code>XMFLOAT3SE</code> instance in a packed format.
 
 This operator returns an instance of <code>uint32_t</code> containing the components of the
-    <a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a> instance in a packed format.
+    <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a> instance in a packed format.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
@@ -139,11 +139,11 @@ Bits 27-31 of the return value are the 5 bit <i>exponent</i> used
 
 
 
-<a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a802077-d90b-4fb1-9288-ea556b1b1318">XMFLOAT3SE Operators</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415287(v=VS.85).aspx">XMFLOAT3SE Operators</a>
  
 
  

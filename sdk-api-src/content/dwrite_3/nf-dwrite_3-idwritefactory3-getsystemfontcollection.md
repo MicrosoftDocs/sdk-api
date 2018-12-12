@@ -67,7 +67,7 @@ Indicates whether to include cloud fonts or only locally installed fonts.
 
 ### -param fontCollection
 
-Type: <b><a href="https://msdn.microsoft.com/bdee031b-53fa-321d-5cdc-4cc2c7ec58ca">IDWriteFontCollection1</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933224(v=VS.85).aspx">IDWriteFontCollection1</a>**</b>
 
 Holds the newly created font collection object, or NULL in case of failure.
 
@@ -98,7 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/CCE68F89-6945-40F4-9C27-285AC8AB4D0B">IDWriteFactory3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx">IDWriteFactory3</a>
  
 
  

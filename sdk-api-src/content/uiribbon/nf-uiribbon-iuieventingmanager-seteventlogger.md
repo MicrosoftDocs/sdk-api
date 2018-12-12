@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Call <a href="https://msdn.microsoft.com/bb6525dd-7e05-40e0-bdcc-c66f31a99f46">IUIFramework::Initialize</a> and <a href="https://msdn.microsoft.com/d8860459-ad4d-4783-9fef-25d313bc15c7">IUIFramework::LoadUI</a> before calling this method.
+Call <a href="https://msdn.microsoft.com/en-us/library/Dd371373(v=VS.85).aspx">IUIFramework::Initialize</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371471(v=VS.85).aspx">IUIFramework::LoadUI</a> before calling this method.
 
 
 

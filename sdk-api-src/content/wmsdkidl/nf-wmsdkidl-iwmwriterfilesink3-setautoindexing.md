@@ -126,11 +126,11 @@ If you generate an ASF file using bit-rate mutual exclusion for audio content (m
 
 
 
-<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6412ce4-03ac-4777-8eb2-ef9f265a6d6c">IWMWriterFileSink3::GetAutoIndexing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798753(v=VS.85).aspx">IWMWriterFileSink3::GetAutoIndexing</a>
 
 
 

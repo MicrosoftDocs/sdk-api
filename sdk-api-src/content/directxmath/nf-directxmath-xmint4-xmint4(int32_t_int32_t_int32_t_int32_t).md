@@ -53,7 +53,7 @@ req.redist:
 Initializes a new instance of <code>XMINT4</code> from four <code>int32_t</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a> from four
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a> from four
 	<code>int32_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -128,11 +128,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a>
 
 
 
-<a href="https://msdn.microsoft.com/24ea5751-637d-4bd0-85f7-ce9895a10914">XMINT4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449516(v=VS.85).aspx">XMINT4 Constructors</a>
  
 
  

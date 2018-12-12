@@ -88,7 +88,7 @@ If the method is successful, it returns the zero-based index of the first charac
 
 
 
-<a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">CHString::Find</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385488(v=VS.85).aspx">CHString::Find</a>
  
 
  

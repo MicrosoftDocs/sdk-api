@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Deletes an item from a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/1dd1f233-2812-41ae-8a36-c42b9ac70ffc">HDM_DELETEITEM</a> message explicitly. 
+Deletes an item from a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775310(v=VS.85).aspx">HDM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters

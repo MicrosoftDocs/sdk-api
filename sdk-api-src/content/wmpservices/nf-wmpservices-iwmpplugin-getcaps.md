@@ -89,11 +89,11 @@ There are currently two possible [out] values that the plug-in may specify: zero
 
 
 
-<a href="https://msdn.microsoft.com/e384aa43-72ab-44b7-b6bd-7a29335b5197">IWMPPlugin Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563582(v=VS.85).aspx">IWMPPlugin Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f6cad76-7583-4272-88d7-25a121a0c2b9">WMPPlugin_Caps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564882(v=VS.85).aspx">WMPPlugin_Caps</a>
  
 
  

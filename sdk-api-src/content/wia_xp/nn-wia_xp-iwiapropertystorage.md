@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IWiaPropertyStorage</b> interface is used to access information about the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> object's properties. Applications must query an item to obtain its <b>IWiaPropertyStorage</b> interface.
+The <b>IWiaPropertyStorage</b> interface is used to access information about the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> object's properties. Applications must query an item to obtain its <b>IWiaPropertyStorage</b> interface.
 
 
 ## -inheritance
@@ -70,37 +70,37 @@ The <b>IWiaPropertyStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a960b9c-d970-4feb-9282-c2b880ff3659">GetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629932(v=VS.85).aspx">GetCount</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/3a960b9c-d970-4feb-9282-c2b880ff3659">IWiaPropertyStorage::GetCount</a> method returns the number of properties stored in the property storage.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629932(v=VS.85).aspx">IWiaPropertyStorage::GetCount</a> method returns the number of properties stored in the property storage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6f2276d-7801-45a7-8e1d-35b78dfe18d5">GetPropertyAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629934(v=VS.85).aspx">GetPropertyAttributes</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/c6f2276d-7801-45a7-8e1d-35b78dfe18d5">IWiaPropertyStorage::GetPropertyAttributes</a> method retrieves access rights and legal value information for a specified set of properties.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629934(v=VS.85).aspx">IWiaPropertyStorage::GetPropertyAttributes</a> method retrieves access rights and legal value information for a specified set of properties.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee55a613-2358-4e04-a730-64cca7b6dea2">GetPropertyStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629936(v=VS.85).aspx">GetPropertyStream</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ee55a613-2358-4e04-a730-64cca7b6dea2">IWiaPropertyStorage::GetPropertyStream</a> method retrieves the property stream of an item.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629936(v=VS.85).aspx">IWiaPropertyStorage::GetPropertyStream</a> method retrieves the property stream of an item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44f25d8c-7f83-4c36-b582-abb6678ed78e">SetPropertyStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629940(v=VS.85).aspx">SetPropertyStream</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/44f25d8c-7f83-4c36-b582-abb6678ed78e">IWiaPropertyStorage::SetPropertyStream</a> sets the property stream of an item in the tree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects of a WIA hardware device.
+The <a href="https://msdn.microsoft.com/en-us/library/ms629940(v=VS.85).aspx">IWiaPropertyStorage::SetPropertyStream</a> sets the property stream of an item in the tree of <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects of a WIA hardware device.
 
 </td>
 </tr>

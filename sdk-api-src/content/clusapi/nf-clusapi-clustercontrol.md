@@ -53,7 +53,7 @@ req.redist:
 
 
 Initiates an 
-    operation that affects a <a href="c_gly.htm">cluster</a>. The operation 
+    operation that affects a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>. The operation 
     performed depends on the <a href="https://msdn.microsoft.com/47618915-0985-4415-b7d4-5959fb27eb9f">control code</a> passed to the 
     <i>dwControlCode</i> parameter.
 

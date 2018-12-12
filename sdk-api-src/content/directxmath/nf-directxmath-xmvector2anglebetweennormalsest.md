@@ -100,11 +100,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/b3808770-eaf1-4cd1-bf1b-22a2596734f2">XMVector2AngleBetweenNormals</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420744(v=VS.85).aspx">XMVector2AngleBetweenNormals</a>
 
 
 
-<a href="https://msdn.microsoft.com/86e3769c-65ec-4c33-8c8d-6f7d092e7137">XMVector2AngleBetweenVectors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420747(v=VS.85).aspx">XMVector2AngleBetweenVectors</a>
  
 
  

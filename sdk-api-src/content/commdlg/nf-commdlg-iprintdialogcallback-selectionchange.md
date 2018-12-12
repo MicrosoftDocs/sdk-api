@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Called by <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> when the user selects a different printer from the list of installed printers on the <b>General</b> page of the <a href="https://msdn.microsoft.com/b52b71cc-a583-4a21-8a53-501ab442e6f8">Print Property Sheet</a>.
+Called by <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> when the user selects a different printer from the list of installed printers on the <b>General</b> page of the <a href="https://msdn.microsoft.com/en-us/library/ms646966(v=VS.85).aspx">Print Property Sheet</a>.
 
 
 ## -parameters
@@ -66,9 +66,9 @@ Called by <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc
 
 Type: <b>HRESULT</b>
 
-Return <b>S_OK</b> to prevent the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function from performing its default actions.
+Return <b>S_OK</b> to prevent the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function from performing its default actions.
 
-Return <b>S_FALSE</b> to allow <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> to perform its default actions, which include adjustments to the <b>Copies</b>, <b>Collate</b>, and <b>Print Range</b> items.
+Return <b>S_FALSE</b> to allow <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> to perform its default actions, which include adjustments to the <b>Copies</b>, <b>Collate</b>, and <b>Print Range</b> items.
 
 
 
@@ -78,7 +78,7 @@ Return <b>S_FALSE</b> to allow <a href="https://msdn.microsoft.com/b7863533-9b97
 
 
 
-<a href="https://msdn.microsoft.com/28573019-f0bd-4a8e-a1a1-48559f658a81">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
 
 
 
@@ -86,11 +86,11 @@ Return <b>S_FALSE</b> to allow <a href="https://msdn.microsoft.com/b7863533-9b97
 
 
 
-<a href="https://msdn.microsoft.com/51902f34-d0ab-4b49-9302-a8e6e9bd7061">IPrintDialogCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646896(v=VS.85).aspx">IPrintDialogCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>
 
 
 

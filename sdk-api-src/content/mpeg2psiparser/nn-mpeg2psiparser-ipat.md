@@ -73,7 +73,7 @@ The <b>IPAT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89a493b9-93d3-435f-a4dc-24f8f8e2d1bf">ConvertNextToCurrent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694774(v=VS.85).aspx">ConvertNextToCurrent</a>
 </td>
 <td align="left" width="63%">
 Converts a <i>next</i> table to a <i>current</i> table.
@@ -82,7 +82,7 @@ Converts a <i>next</i> table to a <i>current</i> table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/148cb123-7cac-46a8-8d60-ce2a28e89230">FindRecordProgramMapPid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694775(v=VS.85).aspx">FindRecordProgramMapPid</a>
 </td>
 <td align="left" width="63%">
 Returns the packet identifier (PID) for the program map table (PMT) associated with a given program number.
@@ -91,7 +91,7 @@ Returns the packet identifier (PID) for the program map table (PMT) associated w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b73a02e-d6dd-402b-baca-8728cd0fa900">GetCountOfRecords</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694776(v=VS.85).aspx">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Returns the number of records in the PAT.
@@ -100,7 +100,7 @@ Returns the number of records in the PAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24cc3c97-60f6-440d-80fd-da7516698a2e">GetNextTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694778(v=VS.85).aspx">GetNextTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <i>next</i> table that follows the current table.
@@ -109,7 +109,7 @@ Retrieves the <i>next</i> table that follows the current table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b1ca2c0-52c4-447a-8191-8f9b69aecd25">GetRecordProgramMapPid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694779(v=VS.85).aspx">GetRecordProgramMapPid</a>
 </td>
 <td align="left" width="63%">
 Returns the PID for a given record in the PAT.
@@ -118,7 +118,7 @@ Returns the PID for a given record in the PAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24a79c42-aebb-4c31-af86-508c5de3b7a3">GetRecordProgramNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694780(v=VS.85).aspx">GetRecordProgramNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves a program number from the PAT.
@@ -127,7 +127,7 @@ Retrieves a program number from the PAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a13bb01-47d6-4737-9e66-169def727b5e">GetTransportStreamId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694781(v=VS.85).aspx">GetTransportStreamId</a>
 </td>
 <td align="left" width="63%">
 Returns the transport stream identifier (TSID) for the PAT.
@@ -136,7 +136,7 @@ Returns the transport stream identifier (TSID) for the PAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1398a1b9-e9b9-4f30-ba93-0a08a0994cf9">GetVersionNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694782(v=VS.85).aspx">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the PAT.
@@ -145,7 +145,7 @@ Returns the version number for the PAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51aa6d14-655c-4800-87f0-85d9a77b6c15">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694783(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -154,7 +154,7 @@ Initializes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/347d8c6f-0934-4ea0-9914-9b4ac47a9306">RegisterForNextTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694784(v=VS.85).aspx">RegisterForNextTable</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
@@ -163,7 +163,7 @@ Registers the client to be notified when a <i>next</i> table arrives that will r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a7808b6-2e31-4cd9-a4cc-7a6a7cf46cd4">RegisterForWhenCurrent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694785(v=VS.85).aspx">RegisterForWhenCurrent</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when the table becomes current.

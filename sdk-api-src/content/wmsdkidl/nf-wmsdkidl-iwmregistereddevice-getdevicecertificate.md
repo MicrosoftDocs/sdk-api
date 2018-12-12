@@ -64,7 +64,7 @@ The <b>GetDeviceCertificate</b> method retrieves the certificate of the device.
 
 ### -param ppCertificate [out]
 
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface of the buffer object that contains the certificate data.
+Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface of the buffer object that contains the certificate data.
 
 
 ## -returns
@@ -111,7 +111,7 @@ Together, the device certificate and the device serial number uniquely identify 
 
 
 
-<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
  
 
  

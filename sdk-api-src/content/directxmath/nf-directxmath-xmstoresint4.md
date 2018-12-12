@@ -60,7 +60,7 @@ Stores signed integer data from an <a href="https://msdn.microsoft.com/1a044094-
 
 ### -param pDestination [out]
 
-Address of an  <a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a> structure in which to store the data.
+Address of an  <a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a> structure in which to store the data.
 
 
 ### -param V
@@ -81,7 +81,7 @@ None.
 
 
 
-For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/189369e9-cb05-4702-a011-3f4fbed7bc2b">XMStoreInt4A</a> 
+For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/en-us/library/Ee420366(v=VS.85).aspx">XMStoreInt4A</a> 
     with a casting operator.
 
 The following pseudocode shows the operation of this function.

@@ -99,7 +99,7 @@ For an example, see <a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-
 
 
 
-<a href="https://msdn.microsoft.com/149fb303-d2e8-416c-b28f-8bc5f1482ba6">FillEllipse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742849(v=VS.85).aspx">FillEllipse</a>
 
 
 

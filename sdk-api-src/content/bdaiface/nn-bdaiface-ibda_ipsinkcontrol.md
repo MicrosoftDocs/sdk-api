@@ -54,7 +54,7 @@ req.redist:
 This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
         
 
-The <b>IBDA_IPSinkControl</b> interface is implemented on the <a href="https://msdn.microsoft.com/78cd6cba-3bd7-4ad4-b65d-c6b866a18d4e">BDA IP Sink</a> filter, which manages the delivery of in-band IP data to the network stack. This interface is superseded by <a href="https://msdn.microsoft.com/fbbe12ea-964a-4a83-ac0a-ac8808bd9a63">IBDA_IPSinkInfo</a>.
+The <b>IBDA_IPSinkControl</b> interface is implemented on the <a href="https://msdn.microsoft.com/78cd6cba-3bd7-4ad4-b65d-c6b866a18d4e">BDA IP Sink</a> filter, which manages the delivery of in-band IP data to the network stack. This interface is superseded by <a href="https://msdn.microsoft.com/en-us/library/Dd693378(v=VS.85).aspx">IBDA_IPSinkInfo</a>.
 
 
 
@@ -76,7 +76,7 @@ The <b>IBDA_IPSinkControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce9710e6-f611-4457-a282-9a7677b3055e">GetAdapterIPAddress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693376(v=VS.85).aspx">GetAdapterIPAddress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the IP address of the NIC.
@@ -85,7 +85,7 @@ Retrieves the IP address of the NIC.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/005cce5c-e8fb-49f0-8a75-b05cdd1f5e1b">GetMulticastList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693377(v=VS.85).aspx">GetMulticastList</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the multicast addresses to which the IP Sink filter is listening.

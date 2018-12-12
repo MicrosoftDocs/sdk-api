@@ -60,7 +60,7 @@ Creates a 2D scale transform object.
 
 ### -param scaleTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/8e59c484-b7c5-446a-a5d6-e00371e2c08a">IDCompositionScaleTransform</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx">IDCompositionScaleTransform</a>**</b>
 
 The new 2D scale transform object. This parameter must not be NULL.
 
@@ -90,7 +90,7 @@ A new 2D scale transform object has a static value of zero for the ScaleX, Scale
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
 
 
 

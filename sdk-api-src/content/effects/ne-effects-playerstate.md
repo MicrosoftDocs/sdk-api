@@ -104,7 +104,7 @@ This enumeration is used by the <b>TimedLevel</b> structure.
 
 
 
-<a href="https://msdn.microsoft.com/a33d4cd1-e888-4ecd-9e6c-113febfefd99">TimedLevel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564504(v=VS.85).aspx">TimedLevel</a>
 
 
 

@@ -99,11 +99,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a42a7187-9bf2-4db5-8176-6912e18c4d50">IWMPNetwork::get_bufferingTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563472(v=VS.85).aspx">IWMPNetwork::get_bufferingTime</a>
  
 
  

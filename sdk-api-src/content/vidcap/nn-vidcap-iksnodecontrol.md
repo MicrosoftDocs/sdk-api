@@ -75,7 +75,7 @@ The <b>IKsNodeControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/145967fc-3124-4e3b-b1ce-a381ea97cb89">put_KsControl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390140(v=VS.85).aspx">put_KsControl</a>
 </td>
 <td align="left" width="63%">
 Provides an instance of the <b>IKsControl</b> interface to the extension unit.
@@ -84,7 +84,7 @@ Provides an instance of the <b>IKsControl</b> interface to the extension unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f18085c-5a5c-4bc3-84e2-50fbf2319072">put_NodeId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390141(v=VS.85).aspx">put_NodeId</a>
 </td>
 <td align="left" width="63%">
 Sets the node identifier for the extension unit.

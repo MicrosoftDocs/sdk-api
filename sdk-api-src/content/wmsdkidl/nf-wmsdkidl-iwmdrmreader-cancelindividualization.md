@@ -55,7 +55,7 @@ req.redist:
 ]
 
 
-The <b>CancelIndividualization</b> method cancels a current call to the <a href="https://msdn.microsoft.com/51bf9aa0-4c96-4c0b-8e5e-b63fd20dcc4d">Individualize</a> method.
+The <b>CancelIndividualization</b> method cancels a current call to the <a href="https://msdn.microsoft.com/en-us/library/Dd798352(v=VS.85).aspx">Individualize</a> method.
 
 
 
@@ -81,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58">IWMDRMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
  
 
  

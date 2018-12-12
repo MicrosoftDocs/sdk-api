@@ -52,7 +52,7 @@ req.redist:
 
 
 
-The <code>IDeferredCommand</code> interface cancels or modify graph-control commands that were queued using the <a href="https://msdn.microsoft.com/08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4">IQueueCommand</a> interface.
+The <code>IDeferredCommand</code> interface cancels or modify graph-control commands that were queued using the <a href="https://msdn.microsoft.com/en-us/library/Dd376922(v=VS.85).aspx">IQueueCommand</a> interface.
 
 When an application calls an <b>IQueueCommand</b> method on the Filter Graph Manager, it receives a pointer to the <code>IDeferredCommand</code> interface. The application can use the interface to cancel or postpone the command, or retrieve the return value from the command.
 
@@ -76,7 +76,7 @@ The <b>IDeferredCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56618860-3655-42a2-ad74-ef43da08d001">Cancel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406763(v=VS.85).aspx">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a command that the application previously queued.
@@ -85,7 +85,7 @@ Cancels a command that the application previously queued.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb3e97a5-b9bc-4a72-9ee7-0a6292fad99d">Confidence</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406764(v=VS.85).aspx">Confidence</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -94,7 +94,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce047464-d283-4ff4-a5eb-9e394d4ac3fd">GetHResult</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406765(v=VS.85).aspx">GetHResult</a>
 </td>
 <td align="left" width="63%">
 Retrieves the return value from the invoked command.
@@ -103,7 +103,7 @@ Retrieves the return value from the invoked command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/184370db-95df-45a8-b1a0-e399923f866e">Postpone</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406766(v=VS.85).aspx">Postpone</a>
 </td>
 <td align="left" width="63%">
 Specifies a new invocation time for the command.

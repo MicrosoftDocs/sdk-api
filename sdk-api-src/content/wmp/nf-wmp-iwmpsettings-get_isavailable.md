@@ -162,55 +162,55 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5275cb99-8007-4af2-9137-694de18c5434">IWMPSettings::getMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563654(v=VS.85).aspx">IWMPSettings::getMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/34f80fa4-6e9c-4435-b360-55c2856f89fb">IWMPSettings::put_autoStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563670(v=VS.85).aspx">IWMPSettings::put_autoStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb198bc0-a0cf-4f6b-9a1e-f9a552db7092">IWMPSettings::put_balance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563672(v=VS.85).aspx">IWMPSettings::put_balance</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae070004-e90e-4f1e-b8b8-15deccdc48ad">IWMPSettings::put_baseURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563673(v=VS.85).aspx">IWMPSettings::put_baseURL</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b035e4e-84c5-46ea-aa8a-2e66810284b2">IWMPSettings::put_defaultFrame</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563674(v=VS.85).aspx">IWMPSettings::put_defaultFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2a0e2bf-d0e4-4b2c-a8d4-15bae4214393">IWMPSettings::put_enableErrorDialogs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563675(v=VS.85).aspx">IWMPSettings::put_enableErrorDialogs</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c62ba8e-8fca-4cfe-9a52-6b6ac2c7c0de">IWMPSettings::put_invokeURLs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563676(v=VS.85).aspx">IWMPSettings::put_invokeURLs</a>
 
 
 
-<a href="https://msdn.microsoft.com/644f9a4d-54e4-4e8a-8c02-29feb57c9256">IWMPSettings::put_mute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563677(v=VS.85).aspx">IWMPSettings::put_mute</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9fdd596-8ca3-497e-8d40-6dd5ddbf0a1e">IWMPSettings::put_playCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563679(v=VS.85).aspx">IWMPSettings::put_playCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0c395f0-28d1-4c4d-8274-e26c0f4b1ae2">IWMPSettings::put_rate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563680(v=VS.85).aspx">IWMPSettings::put_rate</a>
 
 
 
-<a href="https://msdn.microsoft.com/435dac36-1ccf-41fd-94c2-1242c6af1bbd">IWMPSettings::put_volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563681(v=VS.85).aspx">IWMPSettings::put_volume</a>
 
 
 
-<a href="https://msdn.microsoft.com/28a404a7-5bb0-41bb-a5b2-cc6138b8176e">IWMPSettings::setMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563682(v=VS.85).aspx">IWMPSettings::setMode</a>
  
 
  

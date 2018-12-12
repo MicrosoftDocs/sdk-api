@@ -63,7 +63,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back to WMI that can service any request from the provider. The provider should call <a href="_com_iunknown_addref">AddRef</a> on this pointer if it  needs to call back to WMI during  execution.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back to WMI that can service any request from the provider. The provider should call <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on this pointer if it  needs to call back to WMI during  execution.
 
 
 ### -param wszClass [in]
@@ -98,7 +98,7 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 
 HiPerf providers can report success or failure either through the return code from 
 <b>QueryInstances</b> or through a call to the 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> method of <i>pResponseHandler</i>. If you call the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> method of <i>pResponseHandler</i>. If you call the 
 <b>SetStatus</b> method, the return code sent through <i>pResponseHandler</i> takes precedence over the 
 <b>QueryInstances</b> return code.
 
@@ -115,9 +115,9 @@ WMI calls
 <a href="https://msdn.microsoft.com/5ba2ff28-034f-4949-9bde-8c98345ec7c6">IWbemServices::CreateInstanceEnumAsync</a> request.
 
 The 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. When error conditions occur, 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. When error conditions occur, 
 <b>IWbemObjectSink::SetStatus</b> may also be called with no intervening calls to 
-<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a>.
 
 
 #### Examples

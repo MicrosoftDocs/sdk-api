@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides access to <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> data in a 2D texture.
+Provides access to <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> data in a 2D texture.
 
 
 ## -struct-fields
@@ -69,14 +69,14 @@ Pointer to the data.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The pitch, or width, or physical size (in bytes), of one row of an uncompressed texture. A block-compressed texture is encoded in 4x4 blocks (see <a href="https://msdn.microsoft.com/add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5">virtual size vs physical size</a>) ; therefore, <b>RowPitch</b> is the number of bytes in a block of 4x4 texels.
+The pitch, or width, or physical size (in bytes), of one row of an uncompressed texture. A block-compressed texture is encoded in 4x4 blocks (see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">virtual size vs physical size</a>) ; therefore, <b>RowPitch</b> is the number of bytes in a block of 4x4 texels.
 
 
 ## -remarks
 
 
 
-This structure is used in a call to <a href="https://msdn.microsoft.com/40d0d246-bed9-48a2-9c00-68a5c58f49a5">Map</a>.
+This structure is used in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb173869(v=VS.85).aspx">Map</a>.
 
 To illustrate the row pitch, assume an uncompressed 2D texture with mipmap levels, as shown in the following illustration.
 
@@ -141,7 +141,7 @@ if( SUCCEEDED( pTexture-&gt;Map( D3D10CalcSubresource(2, 0, 3), D3D10_MAP_WRITE_
 
 
 
-<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
  
 
  

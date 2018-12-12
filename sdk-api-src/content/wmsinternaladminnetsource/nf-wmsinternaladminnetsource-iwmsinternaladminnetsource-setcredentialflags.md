@@ -83,15 +83,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/0fbdad85-d94a-4598-bb25-f733df33692a">IWMSInternalAdminNetSource Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/781b2868-c8e2-4d92-98f2-c2950fac3d9b">IWMSInternalAdminNetSource::GetCredentialFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798538(v=VS.85).aspx">IWMSInternalAdminNetSource::GetCredentialFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0655ed3-8d14-447a-b74f-054498eb75e9">IWMSInternalAdminNetSource::SetCredentials</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798542(v=VS.85).aspx">IWMSInternalAdminNetSource::SetCredentials</a>
  
 
  

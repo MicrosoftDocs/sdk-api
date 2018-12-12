@@ -134,7 +134,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/f93ae429-fcbd-49fd-b9f3-2e437dcc7edf">XMVectorCatmullRomV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421006(v=VS.85).aspx">XMVectorCatmullRomV</a>
  
 
  

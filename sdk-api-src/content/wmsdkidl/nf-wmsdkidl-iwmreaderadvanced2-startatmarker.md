@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>StartAtMarker</b> method starts the reader from a specified <a href="wmformat_glossary.htm">marker</a>.
+The <b>StartAtMarker</b> method starts the reader from a specified <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a>.
 
 
 
@@ -149,7 +149,7 @@ The method failed for an unspecified reason.
 
 
 
-This method is very similar to <a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">IWMReader::Start</a>. The difference is that this method uses a marker index but <b>IWMReader::Start</b> uses a start time.
+This method is very similar to <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a>. The difference is that this method uses a marker index but <b>IWMReader::Start</b> uses a start time.
 
 
 
@@ -159,7 +159,7 @@ This method is very similar to <a href="https://msdn.microsoft.com/485844c6-7a84
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 

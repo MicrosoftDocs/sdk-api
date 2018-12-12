@@ -68,7 +68,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="https://msdn.microsoft.com/236BCD35-6778-43A4-8B5E-59E9A49002FA">AppPolicyWindowingModel</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating the windowing model of the identified process.
+A pointer to a variable of the <a href="https://msdn.microsoft.com/en-us/library/Mt829725(v=VS.85).aspx">AppPolicyWindowingModel</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating the windowing model of the identified process.
 
 
 ## -returns

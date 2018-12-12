@@ -63,7 +63,7 @@ The <b>WMCreateProfileManager</b> function creates a profile manager object.
 
 ### -param ppProfileManager [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager</a> interface of the newly created profile manager object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager</a> interface of the newly created profile manager object.
 
 
 ## -returns
@@ -123,11 +123,11 @@ When a profile manager object is created, it parses all of the system profiles. 
 
 
 
-<a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
 
 
 

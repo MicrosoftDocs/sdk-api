@@ -64,7 +64,7 @@ Opens an enumerator for iterating through a <a href="https://msdn.microsoft.com/
 
 ### -param hCluster [in]
 
-<a href="c_gly.htm">Cluster</a> handle.
+<a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">Cluster</a> handle.
 
 
 ### -param lpszResourceTypeName [in]

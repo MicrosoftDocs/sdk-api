@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-An <b>EncoderParameters</b> object is an array of <a href="https://msdn.microsoft.com/1ea22bdc-c519-466e-ad39-192910785f4b">EncoderParameter</a> objects along with a data member that specifies the number of <b>EncoderParameter</b> objects in the array.
+An <b>EncoderParameters</b> object is an array of <a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects along with a data member that specifies the number of <b>EncoderParameter</b> objects in the array.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">EncoderParameters</b> has these types of members:
 
@@ -61,7 +61,7 @@ An <b>EncoderParameters</b> object is an array of <a href="https://msdn.microsof
 
 
 
-When you create an <b>EncoderParameters</b> object, you must allocate enough memory to hold all of the <a href="https://msdn.microsoft.com/1ea22bdc-c519-466e-ad39-192910785f4b">EncoderParameter</a> objects that will eventually be placed in the array. For example, if you want to create an <b>EncoderParameters</b> object that will hold an array of five <b>EncoderParameter</b> objects, you should use code similar to the following:
+When you create an <b>EncoderParameters</b> object, you must allocate enough memory to hold all of the <a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects that will eventually be placed in the array. For example, if you want to create an <b>EncoderParameters</b> object that will hold an array of five <b>EncoderParameter</b> objects, you should use code similar to the following:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -82,23 +82,23 @@ When you create an <b>EncoderParameters</b> object, you must allocate enough mem
 
 
 
-<a href="https://msdn.microsoft.com/1ea22bdc-c519-466e-ad39-192910785f4b">EncoderParameter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ab532b0-0738-4cac-82d4-e2e25a955b2e">EncoderParameterValueType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534116(v=VS.85).aspx">EncoderParameterValueType</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a7f40dc-1132-429b-bc44-79f28c9098d7">Image::GetEncoderParameterList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535374(v=VS.85).aspx">Image::GetEncoderParameterList</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7b0f80c-8fff-4fb7-bd7d-0b82275bd92d">Image::GetEncoderParameterListSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535375(v=VS.85).aspx">Image::GetEncoderParameterListSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9a5b4b1-4e25-42c8-a96b-a3104841e5f3">Using Image Encoders and Decoders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
  
 
  

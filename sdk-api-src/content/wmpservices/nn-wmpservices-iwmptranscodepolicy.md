@@ -73,7 +73,7 @@ The <b>IWMPTranscodePolicy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b43e247-cbb5-4ef1-8906-5ce7e1e58484">allowTranscode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563752(v=VS.85).aspx">allowTranscode</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value specifying whether Windows Media Player is permitted to change the format of the digital media content to Windows Media Format.

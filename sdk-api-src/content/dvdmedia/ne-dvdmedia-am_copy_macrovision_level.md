@@ -85,7 +85,7 @@ Level 3.
 
 
 
-The <a href="https://msdn.microsoft.com/7fb1b12a-92f4-48e2-8ebe-359ebc33cd09">AM_COPY_MACROVISION</a> structure uses this data type.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd373457(v=VS.85).aspx">AM_COPY_MACROVISION</a> structure uses this data type.
 
 
 

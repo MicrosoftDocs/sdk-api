@@ -67,7 +67,7 @@ Device context handle.
 
 ### -param pTestParam [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/901fd8e5-1602-4e20-9269-d0c3fe661e45">TTVALIDATIONTESTPARAMS</a> structure specifying the parameters to test.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd145161(v=VS.85).aspx">TTVALIDATIONTESTPARAMS</a> structure specifying the parameters to test.
 
 
 ## -returns
@@ -101,7 +101,7 @@ Effective font validation can be performed by a tool, such as Font Validator, th
 
 
 
-<a href="https://msdn.microsoft.com/901fd8e5-1602-4e20-9269-d0c3fe661e45">TTVALIDATIONTESTPARAMS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd145161(v=VS.85).aspx">TTVALIDATIONTESTPARAMS</a>
  
 
  

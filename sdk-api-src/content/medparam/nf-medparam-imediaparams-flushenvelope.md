@@ -128,7 +128,7 @@ If the time span specified by <i>refTimeStart</i> and <i>refTimeEnd</i> overlaps
 <li>If the start time equals the end time of an envelope segment, the segment is retained.</li>
 <li>If the end time equals the start time of an envelope segment, the segment is retained.</li>
 </ul>
-To enumerate the parameters supported by this object, along with their index values, use the <a href="https://msdn.microsoft.com/80c7da71-7898-4bda-a181-09ad8906532a">IMediaParamInfo</a> interface.
+To enumerate the parameters supported by this object, along with their index values, use the <a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo</a> interface.
 
 
 
@@ -138,7 +138,7 @@ To enumerate the parameters supported by this object, along with their index val
 
 
 
-<a href="https://msdn.microsoft.com/68ea8f6a-4b6d-4d79-a986-6032b767147b">IMediaParams Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406971(v=VS.85).aspx">IMediaParams Interface</a>
  
 
  

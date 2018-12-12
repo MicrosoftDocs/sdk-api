@@ -97,7 +97,7 @@ The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF 
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
@@ -117,7 +117,7 @@ The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF 
 
 ### -param pSample [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface representing the sample.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface representing the sample.
 
 
 ## -returns
@@ -182,7 +182,7 @@ Normally the application provides samples to an input file on the <b>IWMWriter</
 
 If the output stream has a time code data unit extension and there is no time code extension on the sample, this method will fail in order not to cause problems later when the file is indexed. All other data unit extensions are optional on the sample. That means that this method will succeed if a data unit extension has been specified for the stream but no actual data extension is present in the sample. <b>WriteStreamSample</b> will write zeros into the file for samples that do not have extensions specified on the sample.
 
-You can use both <a href="https://msdn.microsoft.com/ba1cf121-1d01-4e90-9ab0-95af0b6e3850">IWMWriter::WriteSample</a> and <b>WriteStreamSample</b> to write uncompressed samples and compressed samples to the same stream. However, problems can arise because the writer cannot accurately gauge the bit rate and buffer window usage for the stream samples. Some samples may be dropped as a result.
+You can use both <a href="https://msdn.microsoft.com/en-us/library/Dd757509(v=VS.85).aspx">IWMWriter::WriteSample</a> and <b>WriteStreamSample</b> to write uncompressed samples and compressed samples to the same stream. However, problems can arise because the writer cannot accurately gauge the bit rate and buffer window usage for the stream samples. Some samples may be dropped as a result.
 
 
 
@@ -192,11 +192,11 @@ You can use both <a href="https://msdn.microsoft.com/ba1cf121-1d01-4e90-9ab0-95a
 
 
 
-<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
 
 
 

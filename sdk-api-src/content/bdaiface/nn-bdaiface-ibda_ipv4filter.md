@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>IBDA_ IPV4Filter</b> interface is implemented on a Network Provider. The methods are called by the BDA IPSink filter in order to give the Network Provider a list of multicast Ethernet addresses being requested by an application. The Network Provider then informs all registered transport information filters (TIFs) of the new addresses. The TIF(s) are responsible for mapping those addresses to PIDs and passing the PIDs back to the Network Provider, which then resets the PID list for the IP data output pin on the MPEG-2 Demultiplexer. This causes the IP data on the specified PIDs to be routed through the data services segment of the graph and on to Winsock where the listening application can receive it. The <a href="https://msdn.microsoft.com/f4f9d6c0-0acf-416b-adb3-643ac0167d0a">IBDA_EthernetFilter</a> interface performs the same function for Ethernet multicast addresses.
+The <b>IBDA_ IPV4Filter</b> interface is implemented on a Network Provider. The methods are called by the BDA IPSink filter in order to give the Network Provider a list of multicast Ethernet addresses being requested by an application. The Network Provider then informs all registered transport information filters (TIFs) of the new addresses. The TIF(s) are responsible for mapping those addresses to PIDs and passing the PIDs back to the Network Provider, which then resets the PID list for the IP data output pin on the MPEG-2 Demultiplexer. This causes the IP data on the specified PIDs to be routed through the data services segment of the graph and on to Winsock where the listening application can receive it. The <a href="https://msdn.microsoft.com/en-us/library/Dd693329(v=VS.85).aspx">IBDA_EthernetFilter</a> interface performs the same function for Ethernet multicast addresses.
 
 
 
@@ -73,7 +73,7 @@ The <b>IBDA_IPV4Filter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/020a4053-76ba-4e67-afa8-27abcf70c456">GetMulticastList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693383(v=VS.85).aspx">GetMulticastList</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of multicast addresses stored by the Network Provider.
@@ -82,7 +82,7 @@ Retrieves the list of multicast addresses stored by the Network Provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d31e34f-1997-40fe-9b32-a193d3017798">GetMulticastListSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693384(v=VS.85).aspx">GetMulticastListSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of addresses in the list.
@@ -91,7 +91,7 @@ Retrieves the number of addresses in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/231c20f6-3204-48a3-ad07-3df9c6d87bd7">GetMulticastMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693385(v=VS.85).aspx">GetMulticastMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the multicast mode.
@@ -100,7 +100,7 @@ Retrieves the multicast mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06b93c7d-662e-408b-94e3-137287160898">PutMulticastList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693386(v=VS.85).aspx">PutMulticastList</a>
 </td>
 <td align="left" width="63%">
 Specifies the list of multicast addresses on the Network Provider.
@@ -109,7 +109,7 @@ Specifies the list of multicast addresses on the Network Provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0a12c21-e196-4228-9994-51047271cf57">PutMulticastMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693387(v=VS.85).aspx">PutMulticastMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the multicast mode.

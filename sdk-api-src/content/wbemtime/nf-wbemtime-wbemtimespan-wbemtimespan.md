@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/bcec87c1-32ba-451b-92bb-80c8a5007adb">WBEMTimeSpan</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa393989(v=VS.85).aspx">WBEMTimeSpan</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -83,7 +83,7 @@ Initializes the new time span object to value in the parameter.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1bd1421-81f6-478a-8ec3-dfacdac3c85f">WBEMTimeSpan(int,int,int,int,int,int,int)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa394009(v=VS.85).aspx">WBEMTimeSpan(int,int,int,int,int,int,int)</a>
 </td>
 <td align="left" width="63%">
 Initializes the new time span object to values in the parameters.

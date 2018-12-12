@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>IWMReaderAllocatorEx</b> interface provides expanded alternatives to the <a href="https://msdn.microsoft.com/bd7340c9-9380-4dba-b8ac-2a616ce9949f">AllocateForOutput</a> and <a href="https://msdn.microsoft.com/82d31f4b-d8a8-4538-be5e-dd9149e3f420">AllocateForStream</a> methods of the <a href="https://msdn.microsoft.com/9d18961a-5ea4-4f3e-b473-7399e155f800">IWMReaderCallbackAdvanced</a> interface. This interface is implemented by the application, which passes this interface pointer to the synchronous reader object by calling <a href="https://msdn.microsoft.com/ed94977e-e930-4045-a69d-36109e7e21c9">IWMSyncReader2::SetAllocateForStream</a> or <a href="https://msdn.microsoft.com/2f0c754e-f09c-472f-8f40-3fcd0fb29c48">SetAllocateForOutput</a>.
+The <b>IWMReaderAllocatorEx</b> interface provides expanded alternatives to the <a href="https://msdn.microsoft.com/en-us/library/Dd743495(v=VS.85).aspx">AllocateForOutput</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd743496(v=VS.85).aspx">AllocateForStream</a> methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced</a> interface. This interface is implemented by the application, which passes this interface pointer to the synchronous reader object by calling <a href="https://msdn.microsoft.com/en-us/library/Dd798581(v=VS.85).aspx">IWMSyncReader2::SetAllocateForStream</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd798580(v=VS.85).aspx">SetAllocateForOutput</a>.
 
 
 
@@ -73,19 +73,19 @@ The <b>IWMReaderAllocatorEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2e4881b-2186-47c9-b74e-3a59a9fac7c9">AllocateForOutputEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743491(v=VS.85).aspx">AllocateForOutputEx</a>
 </td>
 <td align="left" width="63%">
-Allocates a buffer for samples delivered to the <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a> method.
+Allocates a buffer for samples delivered to the <a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb12f0e1-dc9c-447e-a28d-30c45eb95d09">AllocateForStreamEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743492(v=VS.85).aspx">AllocateForStreamEx</a>
 </td>
 <td align="left" width="63%">
-Allocates a buffer for samples delivered to the <a href="https://msdn.microsoft.com/6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8">IWMReaderCallbackAdvanced::OnStreamSample</a> method.
+Allocates a buffer for samples delivered to the <a href="https://msdn.microsoft.com/en-us/library/Dd743500(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnStreamSample</a> method.
 
 </td>
 </tr>
@@ -101,11 +101,11 @@ Allocates a buffer for samples delivered to the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/69b897a8-cc26-445d-9d41-b917b399fb14">IWMReaderCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback Interface</a>
 
 
 

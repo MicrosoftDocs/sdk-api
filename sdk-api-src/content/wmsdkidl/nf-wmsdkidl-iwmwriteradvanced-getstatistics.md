@@ -71,7 +71,7 @@ The <b>GetStatistics</b> method retrieves statistics describing the current writ
 
 ### -param pStats [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/907711c9-2ae1-4049-afd8-768912778e37">WM_WRITER_STATISTICS</a> structure that receives the statistics.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd758025(v=VS.85).aspx">WM_WRITER_STATISTICS</a> structure that receives the statistics.
 
 
 ## -returns
@@ -118,11 +118,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ea41491-409c-42b7-a4b2-f0d7c222c299">IWMWriterAdvanced3::GetStatisticsEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798725(v=VS.85).aspx">IWMWriterAdvanced3::GetStatisticsEx</a>
  
 
  

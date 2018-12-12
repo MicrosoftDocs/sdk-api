@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>RegisterWaitEvent</b> method should be called only within a critical section on the call object. It allocates a thread pool context block, fills in the fields, increments the reference counts, and posts the block to the thread pool by calling the <a href="https://msdn.microsoft.com/d0cd8b28-6e20-449a-94dd-cca2be46b812">RegisterWaitForSingleObject</a> function. Saves the wait handle returned for use in 
-<a href="https://msdn.microsoft.com/a6d20bb9-fa50-4627-a3de-886cde4b8911">UnregisterWaitEvent</a>. Saves the wait block in the list of wait blocks.
+<a href="https://msdn.microsoft.com/en-us/library/ms726910(v=VS.85).aspx">UnregisterWaitEvent</a>. Saves the wait block in the list of wait blocks.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/86512d40-380b-4e98-840d-b7be99a86623">CMSPCallMultiGraph</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a>
  
 
  

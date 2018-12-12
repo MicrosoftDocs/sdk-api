@@ -104,7 +104,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/b0c03983-d3d0-4103-b5f9-b78bae21f4ff">XMVector2GreaterR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420769(v=VS.85).aspx">XMVector2GreaterR</a>
  
 
  

@@ -68,12 +68,12 @@ This value must be set to <b>NULL</b>.
 
 ### -param dwRights [in]
 
-<b>DWORD</b> indicating the desired operation. Set to one of the values from the <a href="https://msdn.microsoft.com/52a9a5ec-58fb-4804-8f56-4d863c738934">WMT_RIGHTS</a> enumeration type, indicating the operation that is performed on this file. If multiple operations are being performed, <i>dwRights</i> must consist of multiple values from <b>WMT_RIGHTS</b> combined by using the bitwise <b>OR</b> operator.
+<b>DWORD</b> indicating the desired operation. Set to one of the values from the <a href="https://msdn.microsoft.com/en-us/library/Dd757853(v=VS.85).aspx">WMT_RIGHTS</a> enumeration type, indicating the operation that is performed on this file. If multiple operations are being performed, <i>dwRights</i> must consist of multiple values from <b>WMT_RIGHTS</b> combined by using the bitwise <b>OR</b> operator.
 
 
 ### -param ppReader [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader</a> interface of the newly created reader object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader</a> interface of the newly created reader object.
 
 
 ## -returns
@@ -119,7 +119,7 @@ The function is unable to allocate memory for the new object.
 
 
 
-After this object has been created, you can modify the rights that will be requested for the next file opened by calling <a href="https://msdn.microsoft.com/52f606c2-a746-488f-bbf7-0d0e54b89bf9">IWMDRMReader::SetDRMProperty</a> with the <a href="https://msdn.microsoft.com/fbf62e8d-069e-427b-9093-6c579cdaa96a">DRM_Rights</a> property. Note that when using this property, the rights are specified as strings, not as <b>DWORD</b> values.
+After this object has been created, you can modify the rights that will be requested for the next file opened by calling <a href="https://msdn.microsoft.com/en-us/library/Dd798354(v=VS.85).aspx">IWMDRMReader::SetDRMProperty</a> with the <a href="https://msdn.microsoft.com/fbf62e8d-069e-427b-9093-6c579cdaa96a">DRM_Rights</a> property. Note that when using this property, the rights are specified as strings, not as <b>DWORD</b> values.
 
 The <i>dwRights</i> parameter may be set to 0 when reading non-DRM content. If <i>dwRights</i> is set to 0 and you open a protected file, you can access license related metadata, but you cannot read data from any streams in the file.
 

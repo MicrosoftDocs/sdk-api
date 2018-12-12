@@ -192,7 +192,7 @@ For the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

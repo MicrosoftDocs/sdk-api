@@ -99,7 +99,7 @@ XMVECTOR result = XMVectorShiftLeft( v1, v2, 1 );
 
 The shifted vector (<i>result</i>) will be &lt;20.0f, 30.0f, 40.0f, 50.0f&gt;.
 
-In the case of a constant shift value, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/5e0f146f-b038-46dd-8b71-95b19cd007c0">XMVectorShiftLeft</a>:
+In the case of a constant shift value, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855947(v=VS.85).aspx">XMVectorShiftLeft</a>:
 
 
 ```
@@ -127,15 +127,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/212c9381-6bde-4a09-9710-e2e3fe54f405">XMVectorPermute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx">XMVectorPermute</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12f6450-683d-431f-98d3-324b6c5cdf8f">XMVectorRotateLeft</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404806(v=VS.85).aspx">XMVectorRotateLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea47a1a6-6f59-4933-99b1-1b4a67038a6e">XMVectorRotateRight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx">XMVectorRotateRight</a>
  
 
  

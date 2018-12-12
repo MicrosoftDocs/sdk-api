@@ -109,11 +109,11 @@ The embedded Windows Media Player control does not have to be remoted to use thi
 
 
 
-<a href="https://msdn.microsoft.com/594a614a-8da1-4ef0-a6af-01284fb48ef7">IWMPRemoteMediaServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563634(v=VS.85).aspx">IWMPRemoteMediaServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2e313fd-cbf6-4b0f-8eb0-1097af53e77a">IWMPRemoteMediaServices::GetScriptableObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563637(v=VS.85).aspx">IWMPRemoteMediaServices::GetScriptableObject</a>
 
 
 

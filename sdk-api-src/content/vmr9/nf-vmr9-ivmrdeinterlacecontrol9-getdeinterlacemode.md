@@ -148,7 +148,7 @@ The VMR is not in mixer mode.
 
 
 
-The VMR may not be able to use the requested mode, in which case it falls back to another deinterlace mode, as specified in the <a href="https://msdn.microsoft.com/5d5b450f-bb87-41a2-bbb1-06b3956ba225">IVMRDeinterlaceControl9::SetDeinterlacePrefs</a> method.
+The VMR may not be able to use the requested mode, in which case it falls back to another deinterlace mode, as specified in the <a href="https://msdn.microsoft.com/en-us/library/Dd377356(v=VS.85).aspx">IVMRDeinterlaceControl9::SetDeinterlacePrefs</a> method.
 
 
 
@@ -162,7 +162,7 @@ The VMR may not be able to use the requested mode, in which case it falls back t
 
 
 
-<a href="https://msdn.microsoft.com/685f3627-30bd-4c78-9eda-0b06203dd46e">IVMRDeinterlaceControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377349(v=VS.85).aspx">IVMRDeinterlaceControl9 Interface</a>
 
 
 

@@ -68,13 +68,13 @@ The name to be translated.
 ### -param AccountNameFormat [in]
 
 The format of the name to be translated. This parameter is a value from the 
-<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a> enumeration type.
+<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a> enumeration type.
 
 
 ### -param DesiredNameFormat [in]
 
 The format of the converted name. This parameter is a value from the 
-<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be NameUnknown.
+<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be NameUnknown.
 
 
 ### -param lpTranslatedName [out]
@@ -128,7 +128,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a>
 
 
 

@@ -103,7 +103,7 @@ The method succeeded.
 
 This method enables the reader to use Fast Cache streaming if the server also supports it. This feature is supported only when streaming content from a server running Windows Media Services. For more information, see <a href="https://msdn.microsoft.com/2a850d6f-8e1d-4aeb-9791-c51c3debf118">Enabling Fast Cache Streaming from the Client</a>.
 
-Regardless of the status of Fast Cache set by this method, a user can enable this feature by adding "?WMCache=1" to the end of the URL. However, Fast Cache cannot be activated at all unless caching is enabled with a call to <a href="https://msdn.microsoft.com/68dcb12e-e254-407e-864b-54d4e84b08ed">IWMReaderNetworkconfig2::SetEnableContentCaching</a>.
+Regardless of the status of Fast Cache set by this method, a user can enable this feature by adding "?WMCache=1" to the end of the URL. However, Fast Cache cannot be activated at all unless caching is enabled with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd743515(v=VS.85).aspx">IWMReaderNetworkconfig2::SetEnableContentCaching</a>.
 
 
 
@@ -113,11 +113,11 @@ Regardless of the status of Fast Cache set by this method, a user can enable thi
 
 
 
-<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/50f904a3-5a2d-4c0f-92fe-76a1ff195c91">IWMReaderNetworkConfig2::GetEnableFastCache</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743509(v=VS.85).aspx">IWMReaderNetworkConfig2::GetEnableFastCache</a>
  
 
  

@@ -92,14 +92,14 @@ This method should only be used to send standard WPD commands to the service. To
 This method may fail even though it returns <b>S_OK</b> as its <b>HRESULT</b> value. To determine if a command succeeded, an application should always examine the properties referenced by the <i>ppResults</i> parameter:
 
 <ul>
-<li>The <a href="common_properties.htm">WPD_PROPERTY_COMMON_HRESULT</a> property indicates if the command succeeded.</li>
-<li>If the command failed, the <a href="common_properties.htm">WPD_PROPERTY_COMMON_DRIVER_ERROR_CODE</a> property will contain driver-specific error codes.</li>
+<li>The <a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_HRESULT</a> property indicates if the command succeeded.</li>
+<li>If the command failed, the <a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_DRIVER_ERROR_CODE</a> property will contain driver-specific error codes.</li>
 </ul>
 The object referenced by the <i>pParameters</i> parameter must specify at least these properties:
 
 <ul>
-<li><a href="common_properties.htm">WPD_PROPERTY_COMMON_COMMAND_CATEGORY</a>, which should contain a command category, such as the <b>fmtid</b> member of the <a href="https://msdn.microsoft.com/7a630cc9-02ea-46be-9645-8a0306606139">WPD_COMMAND_COMMON_RESET_DEVICE</a> property</li>
-<li><a href="common_properties.htm">WPD_PROPERTY_COMMON_COMMAND_ID</a>, which should contain a command identifier, such as the <b>pid</b> member of the  <a href="https://msdn.microsoft.com/7a630cc9-02ea-46be-9645-8a0306606139">WPD_COMMAND_COMMON_RESET_DEVICE</a> property.</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_CATEGORY</a>, which should contain a command category, such as the <b>fmtid</b> member of the <a href="https://msdn.microsoft.com/7a630cc9-02ea-46be-9645-8a0306606139">WPD_COMMAND_COMMON_RESET_DEVICE</a> property</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_ID</a>, which should contain a command identifier, such as the <b>pid</b> member of the  <a href="https://msdn.microsoft.com/7a630cc9-02ea-46be-9645-8a0306606139">WPD_COMMAND_COMMON_RESET_DEVICE</a> property.</li>
 </ul>
 
 

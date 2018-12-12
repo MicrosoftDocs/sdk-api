@@ -142,7 +142,7 @@ Combination of one or more of the following flags, describing the state of the i
 </dl>
 </td>
 <td width="60%">
-The link can respond to user input. This is the default unless the entire control was created with <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_DISABLED</a>. In this case, all links are disabled.
+The link can respond to user input. This is the default unless the entire control was created with <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_DISABLED</a>. In this case, all links are disabled.
 
 </td>
 </tr>

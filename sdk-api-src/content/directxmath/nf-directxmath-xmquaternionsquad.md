@@ -101,7 +101,7 @@ The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quate
     where the X, Y, and Z components are the vector part and the W component is the scalar part.
 
 The use of this method requires some setup before its use. See
-   <a href="https://msdn.microsoft.com/c50ee260-e111-43d5-9484-d7fec4d938be">XMQuaternionSquadSetup</a> for details.
+   <a href="https://msdn.microsoft.com/en-us/library/Ee420180(v=VS.85).aspx">XMQuaternionSquadSetup</a> for details.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
@@ -118,11 +118,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/c50ee260-e111-43d5-9484-d7fec4d938be">XMQuaternionSquadSetup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420180(v=VS.85).aspx">XMQuaternionSquadSetup</a>
 
 
 
-<a href="https://msdn.microsoft.com/6B6D298A-9647-41CF-9E15-BDFBDE964999">XMQuaternionSquadV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420181(v=VS.85).aspx">XMQuaternionSquadV</a>
  
 
  

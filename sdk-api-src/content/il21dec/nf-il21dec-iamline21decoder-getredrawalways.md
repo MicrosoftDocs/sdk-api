@@ -133,11 +133,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/20f2e95a-8362-457d-b562-f7263e698551">IAMLine21Decoder::SetRedrawAlways</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319636(v=VS.85).aspx">IAMLine21Decoder::SetRedrawAlways</a>
  
 
  

@@ -65,7 +65,7 @@ Retrieves a pointer to the media stream object that created the current sample.
 
 ### -param ppMediaStream [in]
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a> interface that will point to the media stream that created the current sample.
+Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> interface that will point to the media stream that created the current sample.
 
 
 ## -returns
@@ -91,7 +91,7 @@ If successful, this method increments the reference count of the media stream sp
 
 
 
-<a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample Interface</a>
  
 
  

@@ -107,11 +107,11 @@ Certain media types cannot be paused, such as live streams. To determine whether
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/702e09f2-e086-45e3-9ae1-b62ec3e9561f">IWMPControls::get_isAvailable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563201(v=VS.85).aspx">IWMPControls::get_isAvailable</a>
  
 
  

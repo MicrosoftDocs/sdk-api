@@ -51,7 +51,7 @@ req.redist:
 
 
 
-This method and all other methods of the <a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices</a> interface are deprecated.
+This method and all other methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices</a> interface are deprecated.
 
 The <b>remove</b> method removes a folder from the list of monitored folders.
 
@@ -110,11 +110,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f12bbc31-ce9d-4d0c-af1e-9078e7948eeb">IWMPFolderMonitorServices::add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563367(v=VS.85).aspx">IWMPFolderMonitorServices::add</a>
  
 
  

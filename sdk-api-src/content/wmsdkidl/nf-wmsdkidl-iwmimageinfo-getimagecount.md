@@ -124,11 +124,11 @@ One of the ID3 frames that should be in the file cannot be accessed.
 
 
 
-<a href="https://msdn.microsoft.com/1b3b4224-f86d-437c-969e-fe30e6d002a8">IWMImageInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798528(v=VS.85).aspx">IWMImageInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe1dcd53-fcdd-4190-9a07-65d0b34112d0">IWMImageInfo::GetImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798529(v=VS.85).aspx">IWMImageInfo::GetImage</a>
  
 
  

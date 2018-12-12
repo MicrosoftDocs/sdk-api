@@ -53,7 +53,7 @@ req.redist:
 
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
-The <b>UpdateDeviceComplete</b> method notifies Windows Media Player that the online store has finished processing a call to <a href="https://msdn.microsoft.com/893beb65-048f-4496-88e6-b0e0b8db0205">IWMPContentPartner::UpdateDevice</a>.
+The <b>UpdateDeviceComplete</b> method notifies Windows Media Player that the online store has finished processing a call to <a href="https://msdn.microsoft.com/en-us/library/Dd563177(v=VS.85).aspx">IWMPContentPartner::UpdateDevice</a>.
 
 
 
@@ -110,7 +110,7 @@ This method should be called in response to <b>UpdateDevice</b>, following the c
 
 
 
-<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback Interface</a>
  
 
  

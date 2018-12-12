@@ -93,7 +93,7 @@ Pointer to a null-terminated string that specifies the DNS GUID of the destinati
 
 
 
-<a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676282(v=VS.85).aspx">DS_REPSYNCALL_UPDATE</a>
 
 
 

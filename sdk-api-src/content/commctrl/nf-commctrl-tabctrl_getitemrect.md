@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/6abd8cdf-5f19-4b7e-800e-970097bc891b">TCM_GETITEMRECT</a> message explicitly. 
+Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760594(v=VS.85).aspx">TCM_GETITEMRECT</a> message explicitly. 
 
 
 ## -parameters

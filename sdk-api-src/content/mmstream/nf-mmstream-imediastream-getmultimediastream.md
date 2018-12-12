@@ -65,7 +65,7 @@ Retrieves a pointer to the multimedia stream that contains the specified media s
 
 ### -param ppMultiMediaStream [out]
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream</a> interface object that will point to the multimedia stream from which the current media stream was created.
+Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream</a> interface object that will point to the multimedia stream from which the current media stream was created.
 
 
 ## -returns
@@ -91,7 +91,7 @@ This method increments the reference count of the retrieved object pointer.
 
 
 
-<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream Interface</a>
  
 
  

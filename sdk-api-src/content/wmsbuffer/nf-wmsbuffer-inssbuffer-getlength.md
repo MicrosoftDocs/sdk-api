@@ -112,7 +112,7 @@ The <i>pdwLength</i> parameter is <b>NULL</b>.
 
 
 
-The allocated buffer may be larger than the used portion. To find the total size of the allocated buffer, call <a href="https://msdn.microsoft.com/6b386c24-1737-4e30-98fa-444fc8a34503">INSSBuffer::GetMaxLength</a>.
+The allocated buffer may be larger than the used portion. To find the total size of the allocated buffer, call <a href="https://msdn.microsoft.com/en-us/library/Dd743262(v=VS.85).aspx">INSSBuffer::GetMaxLength</a>.
 
 
 
@@ -122,15 +122,15 @@ The allocated buffer may be larger than the used portion. To find the total size
 
 
 
-<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b386c24-1737-4e30-98fa-444fc8a34503">INSSBuffer::GetMaxLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743262(v=VS.85).aspx">INSSBuffer::GetMaxLength</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f0e8d8a-efc7-4f1b-8a42-7907439ed8af">INSSBuffer::SetLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743263(v=VS.85).aspx">INSSBuffer::SetLength</a>
  
 
  

@@ -160,7 +160,7 @@ The <a href="https://msdn.microsoft.com/5e86a4d5-c0a7-4283-81cc-ec3a26f74880">Re
 
 
 
-<a href="https://msdn.microsoft.com/D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
 
 
 

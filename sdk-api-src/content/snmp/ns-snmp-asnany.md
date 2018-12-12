@@ -54,7 +54,7 @@ req.redist:
 
 The
 				<b>AsnAny</b> structure contains an SNMP variable type and value. This structure is a member of the 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure that is used as a parameter in many of the SNMP functions. This structure is not used by the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a> structure that is used as a parameter in many of the SNMP functions. This structure is not used by the 
 <a href="https://msdn.microsoft.com/54d9b61a-815a-41c3-9365-ec4478acc3f2">WinSNMP API</a> functions.
 
 
@@ -427,7 +427,7 @@ To use the definition of the Unsigned32 type described in RFC 1902, you can spec
 
 
 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a>
  
 
  

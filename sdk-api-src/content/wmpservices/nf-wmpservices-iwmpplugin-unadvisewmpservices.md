@@ -86,11 +86,11 @@ Windows Media Player calls this method when the pointer provided by <b>AdviseWMP
 
 
 
-<a href="https://msdn.microsoft.com/e384aa43-72ab-44b7-b6bd-7a29335b5197">IWMPPlugin Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563582(v=VS.85).aspx">IWMPPlugin Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/203b9363-1363-48be-8ba6-8b152ae9a92f">IWMPPlugin::AdviseWMPServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563599(v=VS.85).aspx">IWMPPlugin::AdviseWMPServices</a>
  
 
  

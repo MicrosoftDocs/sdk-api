@@ -64,7 +64,7 @@ Downstream filters use the <code>GetDrawBackgroundMode</code> method to determin
 
 ### -param lpMode [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/1c27f3e1-a097-4f0e-af01-62cf500a3264">AM_WST_DRAWBGMODE</a> enumeration. This parameter receives one of the following values.
+Receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373506(v=VS.85).aspx">AM_WST_DRAWBGMODE</a> enumeration. This parameter receives one of the following values.
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
  
 
  

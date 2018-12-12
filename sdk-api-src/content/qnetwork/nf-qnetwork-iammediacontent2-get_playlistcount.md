@@ -82,7 +82,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/cf8381f2-2ef0-4169-8029-bce36bf3d6a9">IAMMediaContent2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319639(v=VS.85).aspx">IAMMediaContent2 Interface</a>
  
 
  

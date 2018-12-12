@@ -127,11 +127,11 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cb02033-0405-4b8b-91fc-2f33097f2c88">IVideoWindow::put_Width</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377327(v=VS.85).aspx">IVideoWindow::put_Width</a>
  
 
  

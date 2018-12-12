@@ -68,7 +68,7 @@ A void pointer
 
 ### -field WS_SERVICE_PROPERTY_FAULT_DISCLOSURE
 
-A <a href="https://msdn.microsoft.com/1dca9074-b329-4293-8a44-d0ced00ae59e">WS_FAULT_DISCLOSURE</a> value used with <a href="https://msdn.microsoft.com/412a262a-1706-4101-b154-1804408a5b9f">WsCreateServiceHost</a>.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd401879(v=VS.85).aspx">WS_FAULT_DISCLOSURE</a> value used with <a href="https://msdn.microsoft.com/412a262a-1706-4101-b154-1804408a5b9f">WsCreateServiceHost</a>.
                     This property is used to specify the disclosure level of the error object when its converted into a fault. The default is <b>WS_MINIMAL_FAULT_DISCLOSURE</b>.
                 
 
@@ -81,7 +81,7 @@ A LANGID used with <a href="https://msdn.microsoft.com/3793cb79-37b9-4d94-9932-9
 
 ### -field WS_SERVICE_PROPERTY_HOST_STATE
 
-A <a href="https://msdn.microsoft.com/99745db7-6e9c-49fd-a97a-4430a80064bb">WS_SERVICE_HOST_STATE</a> value  used with <a href="https://msdn.microsoft.com/3793cb79-37b9-4d94-9932-9eb3b259b60e">WsGetServiceHostProperty</a> that specifies the current state of the service host.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323424(v=VS.85).aspx">WS_SERVICE_HOST_STATE</a> value  used with <a href="https://msdn.microsoft.com/3793cb79-37b9-4d94-9932-9eb3b259b60e">WsGetServiceHostProperty</a> that specifies the current state of the service host.
                 
 
 The returned value is a snapshot of the current state, so it is

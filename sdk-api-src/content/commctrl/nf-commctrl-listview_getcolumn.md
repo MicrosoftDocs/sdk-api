@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the attributes of a list-view control's column. You can use this macro or send the <a href="https://msdn.microsoft.com/59b4bbfc-6c38-4faa-8f2e-3ea5d24e55a6">LVM_GETCOLUMN</a> message explicitly. 
+Gets the attributes of a list-view control's column. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774911(v=VS.85).aspx">LVM_GETCOLUMN</a> message explicitly. 
 
 
 ## -parameters
@@ -76,6 +76,6 @@ The index of the column.
 
 Type: <b>LPLVCOLUMN</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/6ffa287d-0284-43c9-80ff-b9c90a83e855">LVCOLUMN</a> structure that specifies the information to retrieve and receives information about the column. The 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a> structure that specifies the information to retrieve and receives information about the column. The 
 <b>mask</b> member specifies which column attributes to retrieve. If the <b>mask</b> member specifies the LVCF_TEXT value, the <b>pszText</b> member must contain the address of the buffer that receives the item text, and the <b>cchTextMax</b> member must specify the size of the buffer.
 

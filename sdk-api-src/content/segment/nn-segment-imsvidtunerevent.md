@@ -78,7 +78,7 @@ The <b>IMSVidTunerEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5fc30a5a-b934-4c75-9cc8-5a039843ebe8">TuneChanged</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694706(v=VS.85).aspx">TuneChanged</a>
 </td>
 <td align="left" width="63%">
 Signals that the tuner has tuned to a new frequency.

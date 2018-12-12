@@ -60,7 +60,7 @@ Gets a FolderItems object that represents all of the selected items in the view.
 
 ### -param ppid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/b99201b3-95e8-4ddd-b338-dee8d107d0a0">FolderItems</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787800(v=VS.85).aspx">FolderItems</a>**</b>
 
 The FolderItems object.
 

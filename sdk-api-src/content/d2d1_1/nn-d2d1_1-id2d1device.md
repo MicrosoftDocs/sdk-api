@@ -88,7 +88,7 @@ Creates a new device context from a Direct2D device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C8860AEE-807A-435E-9F44-B50545320EDA">CreatePrintControl</a>
+<a href="https://msdn.microsoft.com/en-us/library/JJ841160(v=VS.85).aspx">CreatePrintControl</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object that converts <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> primitives stored in <a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
 

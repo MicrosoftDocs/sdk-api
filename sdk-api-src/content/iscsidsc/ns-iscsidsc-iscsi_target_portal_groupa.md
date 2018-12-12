@@ -67,5 +67,5 @@ The number of portals in the portal group.
 
 ### -field Portals
 
-An array of <a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a> structures that describe the portals associated with the portal group. Portal names and addresses are described by either wide-character or ascii strings, depending upon implementation.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Bb870808(v=VS.85).aspx">ISCSI_TARGET_PORTAL</a> structures that describe the portals associated with the portal group. Portal names and addresses are described by either wide-character or ascii strings, depending upon implementation.
 

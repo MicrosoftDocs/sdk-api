@@ -90,7 +90,7 @@ A user can visualize the event when the calling application is running under an 
 #### Examples
 
 The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="https://msdn.microsoft.com/5C478278-EC05-4214-80F9-808EADA76E41">EndEvent</a> methods.
-          It also uses the <a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a> smart pointer type.
+          It also uses the <a href="https://msdn.microsoft.com/library/ezzw7k98(v=VS.100).aspx">CComPtr</a> smart pointer type.
 
 
 ```cpp

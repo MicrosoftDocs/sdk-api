@@ -163,7 +163,7 @@ The video renderer calls this method after it allocates uncompressed surfaces fo
 
 
 
-<a href="https://msdn.microsoft.com/7fd0290c-8fd6-4af6-b510-7a87bc7937de">IAMVideoAcceleratorNotify Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375993(v=VS.85).aspx">IAMVideoAcceleratorNotify Interface</a>
  
 
  

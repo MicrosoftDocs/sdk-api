@@ -60,7 +60,7 @@ Creates an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5df
 
 ### -param wicBitmapSource [in]
 
-Type: <b><a href="_wic_codec_iwicbitmapsource">IWICBitmapSource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee690171(v=VS.85).aspx">IWICBitmapSource</a>*</b>
 
 The WIC bitmap to copy.
 
@@ -83,7 +83,7 @@ When this method returns, contains the address of a pointer to the new bitmap. T
 
 
 
-Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

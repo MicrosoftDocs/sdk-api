@@ -52,9 +52,9 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Provides the methods for enumerating the tasks in the <a href="s.htm">Scheduled Tasks folder</a>.
+Provides the methods for enumerating the tasks in the <a href="https://msdn.microsoft.com/en-us/library/Aa382137(v=VS.85).aspx">Scheduled Tasks folder</a>.
 
-<b>IEnumWorkItems</b> is the primary interface of the <a href="e.htm">enumeration object</a>. To create the enumeration, call 
+<b>IEnumWorkItems</b> is the primary interface of the <a href="https://msdn.microsoft.com/en-us/library/Aa446866(v=VS.85).aspx">enumeration object</a>. To create the enumeration, call 
 <a href="https://msdn.microsoft.com/aca750e3-89b0-47f2-a9b9-49fe5db7f234">ITaskScheduler::Enum</a>.
 
 

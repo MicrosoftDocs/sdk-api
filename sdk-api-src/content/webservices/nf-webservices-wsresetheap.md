@@ -91,7 +91,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 The heap object can retain allocated memory even though it has been reset.  The amount of memory retained
-                can be specified using the <a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_TRIM_SIZE</a> 
+                can be specified using the <a href="https://msdn.microsoft.com/en-us/library/Dd401901(v=VS.85).aspx">WS_HEAP_PROPERTY_TRIM_SIZE</a> 
                 property when creating the heap.
             
 

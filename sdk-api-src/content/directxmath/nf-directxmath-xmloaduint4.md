@@ -60,7 +60,7 @@ Loads unsigned integer  data into an <a href="https://msdn.microsoft.com/1a04409
 
 ### -param pSource [in]
 
-Address of an <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a> structure containing the data to load. 
+Address of an <a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a> structure containing the data to load. 
 
 
 ## -returns

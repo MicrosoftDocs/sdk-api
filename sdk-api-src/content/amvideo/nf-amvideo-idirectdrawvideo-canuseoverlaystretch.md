@@ -80,7 +80,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-For a description of overlay stretching, see <a href="https://msdn.microsoft.com/e617b40d-ba5b-4fc8-825e-3c751f72bc2c">IDirectDrawVideo::UseOverlayStretch</a>.
+For a description of overlay stretching, see <a href="https://msdn.microsoft.com/en-us/library/Dd406829(v=VS.85).aspx">IDirectDrawVideo::UseOverlayStretch</a>.
 
 
 
@@ -94,7 +94,7 @@ For a description of overlay stretching, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

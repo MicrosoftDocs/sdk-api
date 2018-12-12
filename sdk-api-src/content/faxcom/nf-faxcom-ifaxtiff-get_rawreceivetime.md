@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Retrieves the <b>RawReceiveTime</b> property for a <a href="https://msdn.microsoft.com/70acd518-4058-4146-bbdf-50108d0c7e3f">FaxTiff</a> object. The <b>RawReceiveTime</b> property is the time at which reception began for an inbound fax file, expressed in Coordinated Universal Time (UTC). This property can also be the time at which reception or transmission began for an archived file.
+Retrieves the <b>RawReceiveTime</b> property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object. The <b>RawReceiveTime</b> property is the time at which reception began for an inbound fax file, expressed in Coordinated Universal Time (UTC). This property can also be the time at which reception or transmission began for an archived file.
 
 This property is read-only.
 
@@ -63,15 +63,15 @@ This property is read-only.
 
 
 
-A fax client application must  set the <a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/70acd518-4058-4146-bbdf-50108d0c7e3f">FaxTiff</a> object.
+A fax client application must  set the <a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
 
 The <b>get_RawReceiveTime</b> method sets the <i>pVal</i> parameter to the local time at which the fax job started receiving or transmitting the fax file. 
 
 The <b>RawReceiveTime</b> property contains the local time at which the fax job started receiving or transmitting the fax file. 
 
-The <a href="https://msdn.microsoft.com/471aac2a-0f9a-4ce4-ae29-013b6a299f71">get_ReceiveTime</a> method returns the time in a formatted string.
+The <a href="https://msdn.microsoft.com/en-us/library/ms691929(v=VS.85).aspx">get_ReceiveTime</a> method returns the time in a formatted string.
 
-The <a href="https://msdn.microsoft.com/471aac2a-0f9a-4ce4-ae29-013b6a299f71">ReceiveTime</a> property contains the time in a formatted string.
+The <a href="https://msdn.microsoft.com/en-us/library/ms691929(v=VS.85).aspx">ReceiveTime</a> property contains the time in a formatted string.
 
 
 
@@ -85,23 +85,23 @@ The <a href="https://msdn.microsoft.com/471aac2a-0f9a-4ce4-ae29-013b6a299f71">Re
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4c46893-502d-4d5c-a895-837cffc014e4">IFaxTiff</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691802(v=VS.85).aspx">IFaxTiff</a>
 
 
 
-<a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">IFaxTiff::get_Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">IFaxTiff::get_Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/471aac2a-0f9a-4ce4-ae29-013b6a299f71">IFaxTiff::get_ReceiveTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691929(v=VS.85).aspx">IFaxTiff::get_ReceiveTime</a>
  
 
  

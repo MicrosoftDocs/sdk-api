@@ -54,9 +54,9 @@ A 4D vector where each component is a signed integer, 8-bits (1 byte) in length.
     
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMBYTE4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/771479f4-0819-48e3-afae-a79ee2c502b6">XMBYTE4 Extensions</a>.
+	using <code>XMBYTE4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415259(v=VS.85).aspx">XMBYTE4 Extensions</a>.
 <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.
+	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -118,7 +118,7 @@ TBD
 	    <a href="https://msdn.microsoft.com/e8a3ffb9-72cc-4ef1-a5f8-889d9c19cb48">XMLoadByte4</a>.
 	
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMBYTE4</code> with <a href="https://msdn.microsoft.com/4f99ee60-7227-4570-8763-ca43acc3c154">XMStoreByte4</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMBYTE4</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420224(v=VS.85).aspx">XMStoreByte4</a>.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -138,7 +138,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/771479f4-0819-48e3-afae-a79ee2c502b6">XMBYTE4 Extensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415259(v=VS.85).aspx">XMBYTE4 Extensions</a>
  
 
  

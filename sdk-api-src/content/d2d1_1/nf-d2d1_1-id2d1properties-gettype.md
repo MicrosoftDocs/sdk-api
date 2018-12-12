@@ -82,7 +82,7 @@ This method returns a <a href="https://msdn.microsoft.com/6535d71a-c76c-462c-997
 
 
 
-If the property does not exist, the method returns <a href="__d2d1_property_type.htm">D2D1_PROPERTY_TYPE_UNKNOWN</a>.
+If the property does not exist, the method returns <a href="https://msdn.microsoft.com/en-us/library/Hh447012(v=VS.85).aspx">D2D1_PROPERTY_TYPE_UNKNOWN</a>.
 
 
 

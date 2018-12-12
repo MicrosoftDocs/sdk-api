@@ -71,7 +71,7 @@ The <b>GetAllocateForStream</b> method retrieves an interface for allocating str
 
 ### -param ppAllocator [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/be727c7b-b252-44db-825b-5c683e551fd2">IWMReaderAllocatorEx</a> interface.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx</a> interface.
 
 
 ## -returns
@@ -88,11 +88,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/f3db7530-a662-46f1-bc64-1dd4523dc87c">IWMSyncReader2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798577(v=VS.85).aspx">IWMSyncReader2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed94977e-e930-4045-a69d-36109e7e21c9">IWMSyncReader2::SetAllocateForStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798581(v=VS.85).aspx">IWMSyncReader2::SetAllocateForStream</a>
  
 
  

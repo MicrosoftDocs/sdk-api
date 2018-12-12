@@ -60,7 +60,7 @@ Gets the Folder object that represents the view.
 
 ### -param ppid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/f1e82c61-205e-47c8-bc7c-6a52410a672e">Folder</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787868(v=VS.85).aspx">Folder</a>**</b>
 
 The folder object.
 

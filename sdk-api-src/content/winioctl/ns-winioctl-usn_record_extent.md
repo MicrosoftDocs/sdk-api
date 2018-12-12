@@ -73,7 +73,7 @@ The length of the extent, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt684964(v=VS.85).aspx">USN_RECORD_V4</a>
 
 
 

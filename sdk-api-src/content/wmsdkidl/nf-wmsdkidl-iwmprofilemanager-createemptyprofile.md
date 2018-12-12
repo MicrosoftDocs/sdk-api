@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>CreateEmptyProfile</b> method creates an empty profile object. You can use the interfaces of the profile object to configure the profile. When you are done configuring the profile, you can save it to a string using <a href="https://msdn.microsoft.com/806def9b-1842-4443-9a63-fba380545018">IWMProfileManager::SaveProfile</a>.
+The <b>CreateEmptyProfile</b> method creates an empty profile object. You can use the interfaces of the profile object to configure the profile. When you are done configuring the profile, you can save it to a string using <a href="https://msdn.microsoft.com/en-us/library/Dd757397(v=VS.85).aspx">IWMProfileManager::SaveProfile</a>.
 
 
 
@@ -66,7 +66,7 @@ The <b>CreateEmptyProfile</b> method creates an empty profile object. You can us
 
 ### -param dwVersion [in]
 
-<b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/9ee414c6-49aa-42ad-9310-52f54b23e712">WMT_VERSION</a> enumeration type.
+<b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757860(v=VS.85).aspx">WMT_VERSION</a> enumeration type.
 
 
 ### -param ppProfile [out]
@@ -138,11 +138,11 @@ Use this method to create any profile that uses the Windows Media® Audio and Vi
 
 
 
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ee414c6-49aa-42ad-9310-52f54b23e712">WMT_VERSION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757860(v=VS.85).aspx">WMT_VERSION</a>
  
 
  

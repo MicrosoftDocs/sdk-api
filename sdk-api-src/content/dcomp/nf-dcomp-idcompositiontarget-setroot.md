@@ -60,7 +60,7 @@ Sets a visual object as the new root object of a visual tree.
 
 ### -param visual [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>*</b>
 
 The visual object that is the new root of this visual tree. This parameter can be NULL.
 
@@ -98,11 +98,11 @@ For an example, see <a href="https://msdn.microsoft.com/86006C3C-67A8-4931-BE76-
 
 
 
-<a href="https://msdn.microsoft.com/3b4fefe0-772e-42bd-8e81-37d0b128c418">IDCompositionDevice::CreateVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx">IDCompositionDevice::CreateVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/86dbfe68-e360-42cf-b572-960398ef06ba">IDCompositionTarget</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449108(v=VS.85).aspx">IDCompositionTarget</a>
  
 
  

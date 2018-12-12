@@ -95,7 +95,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-This is returned if the channel is not in the <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a>state.
+This is returned if the channel is not in the <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE_OPEN</a>state.
                 
 
 </td>
@@ -123,23 +123,23 @@ The remote party can detect that no more messages are available on the channel b
 
 
 This function only applies to channels created with a
-                <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> with a session that support
+                <a href="https://msdn.microsoft.com/en-us/library/Dd401788(v=VS.85).aspx">WS_CHANNEL_TYPE</a> with a session that support
                 sending of messages:
             
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE_OUTPUT_SESSION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401788(v=VS.85).aspx">WS_CHANNEL_TYPE_OUTPUT_SESSION</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE_DUPLEX_SESSION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401788(v=VS.85).aspx">WS_CHANNEL_TYPE_DUPLEX_SESSION</a>
 </li>
 </ul>
-The channel must be in <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a> state.
+The channel must be in <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE_OPEN</a> state.
             
 
 If this function is successful, the value of the
-                <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_IS_SESSION_SHUT_DOWN</a> property
+                <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_IS_SESSION_SHUT_DOWN</a> property
                 will be <b>TRUE</b>.
             
 
@@ -149,7 +149,7 @@ Once a session channel has been shut down, attempting
             
 
 Calling this function is optional.  When a session channel is closed using 
-                <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a> when in <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a>,
+                <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a> when in <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE_OPEN</a>,
                 then the channel is automatically shut down as part of the close process.
             
 

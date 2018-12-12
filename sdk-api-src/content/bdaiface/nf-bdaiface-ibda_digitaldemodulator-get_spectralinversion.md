@@ -93,11 +93,11 @@ For more information, see <b>KSPROPERTY_BDA_SPECTRAL_INVERSION</b> in the Window
 
 
 
-<a href="https://msdn.microsoft.com/13ecd348-dc2b-4e80-9875-927f4ed55c95">IBDA_DigitalDemodulator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693284(v=VS.85).aspx">IBDA_DigitalDemodulator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6aabb829-5198-407f-a8f7-f99f87229560">IBDA_DigitalDemodulator::put_SpectralInversion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693306(v=VS.85).aspx">IBDA_DigitalDemodulator::put_SpectralInversion</a>
  
 
  

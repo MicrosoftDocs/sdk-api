@@ -107,11 +107,11 @@ Ripping a CD by using the <b>IWMPCdromRip</b> interface has the same effect as r
 
 
 
-<a href="https://msdn.microsoft.com/c3e2db46-bef0-4c79-91b5-97ca5a86c6ba">IWMPCdromRip Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563102(v=VS.85).aspx">IWMPCdromRip Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a6c5a25-f69c-4258-a92f-7f693b201a01">IWMPCdromRip::stopRip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563106(v=VS.85).aspx">IWMPCdromRip::stopRip</a>
 
 
 

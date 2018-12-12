@@ -114,7 +114,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f275b835-e5b3-46f4-8b26-a4b0e2554c7c">IVMRSurfaceAllocatorNotify9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390508(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9 Interface</a>
 
 
 

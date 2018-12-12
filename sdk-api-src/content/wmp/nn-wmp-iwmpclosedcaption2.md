@@ -58,7 +58,7 @@ The <b>IWMPClosedCaption2</b> interface provides closed captioning methods that 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPClosedCaption2</b> interface inherits from <a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption</a>. <b>IWMPClosedCaption2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPClosedCaption2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption</a>. <b>IWMPClosedCaption2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMPClosedCaption2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6de8bef5-f0d1-498b-a482-e3f1c3e53c24">get_SAMILangCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563118(v=VS.85).aspx">get_SAMILangCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of languages supported by the current SAMI file.
@@ -82,7 +82,7 @@ Retrieves the number of languages supported by the current SAMI file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e31985e3-e5ab-4a29-b0d7-9a1cda58bca1">get_SAMIStyleCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563119(v=VS.85).aspx">get_SAMIStyleCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of styles supported by the current SAMI file.
@@ -91,7 +91,7 @@ Retrieves the number of styles supported by the current SAMI file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c17418ce-d653-43b3-9702-62c049eecdfc">getSAMILangID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563115(v=VS.85).aspx">getSAMILangID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the locale identifier (LCID) of a language supported by the current SAMI file.
@@ -100,7 +100,7 @@ Retrieves the locale identifier (LCID) of a language supported by the current SA
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2da5045-4000-46d8-a610-f5f80cb6f713">getSAMILangName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563116(v=VS.85).aspx">getSAMILangName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a language supported by the current SAMI file.
@@ -109,7 +109,7 @@ Retrieves the name of a language supported by the current SAMI file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0dfdbe70-2aa8-4cae-8886-6b770707652e">getSAMIStyleName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563117(v=VS.85).aspx">getSAMIStyleName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a style supported by the current SAMI file.
@@ -118,7 +118,7 @@ Retrieves the name of a style supported by the current SAMI file.
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPClosedCaption2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption</a> interface.
+Retrieve a pointer to an <b>IWMPClosedCaption2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption</a> interface.
 
 	
 
@@ -132,7 +132,7 @@ Retrieve a pointer to an <b>IWMPClosedCaption2</b> interface by calling the <b>Q
 
 
 
-<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
 
 
 

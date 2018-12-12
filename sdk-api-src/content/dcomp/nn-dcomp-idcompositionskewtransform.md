@@ -70,7 +70,7 @@ The <b>IDCompositionSkewTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DA4AEE0D-A913-434E-9150-DD6763132041">SetAngleX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449063(v=VS.85).aspx">SetAngleX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the AngleX property of a 2D skew transform. The AngleX property specifies the rotation angle, in degrees. The default value is zero.
 
@@ -78,7 +78,7 @@ The <b>IDCompositionSkewTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BD3D282C-5BBD-4BCE-AE15-4491A37D9149">SetAngleY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449069(v=VS.85).aspx">SetAngleY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the AngleY property of a 2D skew transform. The AngleY property specifies the rotation angle, in degrees. The default value is zero.
 

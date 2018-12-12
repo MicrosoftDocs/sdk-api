@@ -77,7 +77,7 @@ Returns the 2D vector orthogonal to <i>V</i>.
 
 
 Note that a 'cross-product' in 2D is not well-defined. This function computes a generalized cross-product in 2D. 
-    <a href="https://msdn.microsoft.com/28c5d24c-c52b-460b-9b63-aa6ed29629e9">XMVector2Cross</a> is another possible interpretation of a 'cross-product' in 2D.
+    <a href="https://msdn.microsoft.com/en-us/library/Ee420754(v=VS.85).aspx">XMVector2Cross</a> is another possible interpretation of a 'cross-product' in 2D.
 
 The following pseudocode demonstrates the operation of the function:
 

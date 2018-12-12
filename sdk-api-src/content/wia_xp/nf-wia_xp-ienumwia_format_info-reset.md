@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IEnumWIA_FORMAT_INFO::Reset</b> method sets the enumeration back to the first <a href="https://msdn.microsoft.com/1dcc138b-b8c0-4d3a-bd9d-f4f5522d91ea">WIA_FORMAT_INFO</a> structure.
+The <b>IEnumWIA_FORMAT_INFO::Reset</b> method sets the enumeration back to the first <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structure.
 
 
 ## -parameters

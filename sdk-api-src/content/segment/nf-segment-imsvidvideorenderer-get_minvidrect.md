@@ -92,7 +92,7 @@ The returned <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460f
 
 
 
-<a href="https://msdn.microsoft.com/b4c4b2da-0749-463c-aaa1-04d0d456327a">IMSVidVideoRenderer::get_MaxVidRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694737(v=VS.85).aspx">IMSVidVideoRenderer::get_MaxVidRect</a>
  
 
  

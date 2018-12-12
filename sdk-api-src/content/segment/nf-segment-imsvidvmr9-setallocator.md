@@ -66,7 +66,7 @@ The <b>SetAllocator</b> method sets a custom allocator-presenter for the VMR-9.
 
 ### -param AllocPresent [in]
 
-Pointer to the <b>IUnknown</b> interface of the allocator-presenter. This object must expose the <a href="https://msdn.microsoft.com/dd187168-19c7-414c-a764-f180d1d310f2">IVMRSurfaceAllocator9</a> interface. To use the VMR-9 filter's default allocator-presenter, set this parameter to <b>NULL</b>.
+Pointer to the <b>IUnknown</b> interface of the allocator-presenter. This object must expose the <a href="https://msdn.microsoft.com/en-us/library/Dd390500(v=VS.85).aspx">IVMRSurfaceAllocator9</a> interface. To use the VMR-9 filter's default allocator-presenter, set this parameter to <b>NULL</b>.
 
 
 ### -param ID [in]

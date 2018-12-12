@@ -110,11 +110,11 @@ A value of zero specifies no volume (muted). A value of 100 specifies full volum
 
 
 
-<a href="https://msdn.microsoft.com/435dac36-1ccf-41fd-94c2-1242c6af1bbd">IWMPSetting::put_volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563681(v=VS.85).aspx">IWMPSetting::put_volume</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
  
 
  

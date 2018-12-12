@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Sets the flags of a <a href="https://msdn.microsoft.com/1557462f-2686-42ea-b1a8-78fc86eefb68">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a> variable that represents the events for which the account is listening.
+Sets the flags of a <a href="https://msdn.microsoft.com/en-us/library/Aa359063(v=VS.85).aspx">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a> variable that represents the events for which the account is listening.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the flags of a <a href="https://msdn.microsoft.com/1557462f-2686-42ea-b1a8-
 
 ### -param EventTypes [in]
 
-Type: <b><a href="https://msdn.microsoft.com/1557462f-2686-42ea-b1a8-78fc86eefb68">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359063(v=VS.85).aspx">FAX_ACCOUNT_EVENTS_TYPE_ENUM</a></b>
 
 A variable that specifies the types of events for which the account is listening.
 
@@ -82,11 +82,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/85adc440-3dc8-47ce-aae8-dfb04f824b09">FaxAccount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).aspx">FaxAccount</a>
 
 
 
-<a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>
  
 
  

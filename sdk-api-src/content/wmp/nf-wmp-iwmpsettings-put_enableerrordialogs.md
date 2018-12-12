@@ -108,11 +108,11 @@ This method exhibits specific behavior for remoted instances of the Windows Medi
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/557493ea-b685-44e4-b8c3-3f8c5fbe49b8">IWMPSettings::get_enableErrorDialogs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563660(v=VS.85).aspx">IWMPSettings::get_enableErrorDialogs</a>
  
 
  

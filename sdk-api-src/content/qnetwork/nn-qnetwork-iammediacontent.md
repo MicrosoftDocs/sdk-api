@@ -62,7 +62,7 @@ Depending on the stream type, a filter might support a subset of the methods on 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAMMediaContent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMMediaContent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IAMMediaContent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49ccb07c-1f20-47e9-a05b-f8f3b77acc99">get_AuthorName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319643(v=VS.85).aspx">get_AuthorName</a>
 </td>
 <td align="left" width="63%">
 Gets the author name.
@@ -86,7 +86,7 @@ Gets the author name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0fd88d09-79bf-45c6-93b4-1f57752ed1cd">get_BaseURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319644(v=VS.85).aspx">get_BaseURL</a>
 </td>
 <td align="left" width="63%">
 Gets a base URL for the related web content.
@@ -95,7 +95,7 @@ Gets a base URL for the related web content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f63dc869-6b95-4923-80a6-22b5d8b81fa0">get_Copyright</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319645(v=VS.85).aspx">get_Copyright</a>
 </td>
 <td align="left" width="63%">
 Gets copyright information.
@@ -104,7 +104,7 @@ Gets copyright information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fc0c14f3-2764-4897-8ddb-ed1146d98597">get_Description</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319647(v=VS.85).aspx">get_Description</a>
 </td>
 <td align="left" width="63%">
 Gets a description of the content.
@@ -113,7 +113,7 @@ Gets a description of the content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/249f06ad-1571-4259-aaae-d0bc8208b9e5">get_LogoIconURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319648(v=VS.85).aspx">get_LogoIconURL</a>
 </td>
 <td align="left" width="63%">
 Gets a URL for the logo icon.
@@ -122,7 +122,7 @@ Gets a URL for the logo icon.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a17c080-49a9-4b0b-8d94-054ad53b95b8">get_LogoURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319649(v=VS.85).aspx">get_LogoURL</a>
 </td>
 <td align="left" width="63%">
 Gets a URL for the logo.
@@ -131,7 +131,7 @@ Gets a URL for the logo.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae456ce2-4df8-4a36-88f5-526acb722bda">get_MoreInfoBannerImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319650(v=VS.85).aspx">get_MoreInfoBannerImage</a>
 </td>
 <td align="left" width="63%">
 Gets an image for a related-information banner.
@@ -140,7 +140,7 @@ Gets an image for a related-information banner.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc820849-cab2-4770-bdb2-6c4b32f3cc56">get_MoreInfoBannerURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319651(v=VS.85).aspx">get_MoreInfoBannerURL</a>
 </td>
 <td align="left" width="63%">
 Gets a URL for a related-information banner.
@@ -149,7 +149,7 @@ Gets a URL for a related-information banner.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a511c86-0a3a-48d3-8a3a-2ab52ff7dcea">get_MoreInfoText</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319652(v=VS.85).aspx">get_MoreInfoText</a>
 </td>
 <td align="left" width="63%">
 Gets additional information as text.
@@ -158,7 +158,7 @@ Gets additional information as text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8efaa0b9-09c1-4434-a992-6290fc388cb2">get_MoreInfoURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319653(v=VS.85).aspx">get_MoreInfoURL</a>
 </td>
 <td align="left" width="63%">
 Gets a URL for additional information about the content.
@@ -167,7 +167,7 @@ Gets a URL for additional information about the content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2eeb1356-23f5-48dc-be71-062f1501d163">get_Rating</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319654(v=VS.85).aspx">get_Rating</a>
 </td>
 <td align="left" width="63%">
 Gets the rating.
@@ -176,7 +176,7 @@ Gets the rating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60543438-9547-44fe-8468-baee03d6ebc9">get_Title</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319655(v=VS.85).aspx">get_Title</a>
 </td>
 <td align="left" width="63%">
 Gets the title.
@@ -185,7 +185,7 @@ Gets the title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e632f99e-7e08-4dfa-9f4e-5f09d9d77eb8">get_WatermarkURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319656(v=VS.85).aspx">get_WatermarkURL</a>
 </td>
 <td align="left" width="63%">
 Gets a URL for the watermark.
@@ -215,7 +215,7 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

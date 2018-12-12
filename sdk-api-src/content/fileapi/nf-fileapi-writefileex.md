@@ -222,7 +222,7 @@ An application uses the
     <a href="https://msdn.microsoft.com/530b5340-f8b2-4e00-a3ca-87a7c7372482">WaitForSingleObjectEx</a>, 
     <a href="https://msdn.microsoft.com/47a167fb-4714-4353-b924-a161f367673c">WaitForMultipleObjectsEx</a>, 
     <a href="https://msdn.microsoft.com/1774b721-3ad4-492e-96af-b71de9066f0c">MsgWaitForMultipleObjectsEx</a>, 
-    <a href="https://msdn.microsoft.com/2b1ce22b-8edb-4685-99f4-4fc38eec202a">SignalObjectAndWait</a>, and 
+    <a href="https://msdn.microsoft.com/en-us/library/ms686293(v=VS.85).aspx">SignalObjectAndWait</a>, and 
     <a href="https://msdn.microsoft.com/a73cff94-ad63-4110-9f01-6469481c3d55">SleepEx</a> functions to enter an alertable wait state. For more information about alertable wait 
     states and overlapped I/O operations, see <a href="https://msdn.microsoft.com/0930bf12-6d5f-4f2c-914d-53e6e862d3bd">About Synchronization</a>.
 
@@ -363,7 +363,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/2b1ce22b-8edb-4685-99f4-4fc38eec202a">SignalObjectAndWait</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686293(v=VS.85).aspx">SignalObjectAndWait</a>
 
 
 

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Resets items in a tab control, clearing any that were set to the <a href="Tab_Control_Item_States.htm">TCIS_BUTTONPRESSED</a> state. You can use this macro or send the <a href="https://msdn.microsoft.com/cc2e5131-3c1b-473a-a0ca-274a2d39a2f1">TCM_DESELECTALL</a> message explicitly. 
+Resets items in a tab control, clearing any that were set to the <a href="https://msdn.microsoft.com/en-us/library/Bb760547(v=VS.85).aspx">TCIS_BUTTONPRESSED</a> state. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760579(v=VS.85).aspx">TCM_DESELECTALL</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Flag value that specifies the scope of the item deselection. If this parameter i
 
 
 
-This message is only meaningful if the <a href="Tab_Control_Styles.htm">TCS_BUTTONS</a> style flag has been set. 
+This message is only meaningful if the <a href="https://msdn.microsoft.com/en-us/library/Bb760549(v=VS.85).aspx">TCS_BUTTONS</a> style flag has been set. 
 
 
 

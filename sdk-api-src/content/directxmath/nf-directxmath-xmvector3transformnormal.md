@@ -98,7 +98,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/c3f0831f-90ad-45e8-9bcc-15967986f671">XMVector3TransformNormalStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404779(v=VS.85).aspx">XMVector3TransformNormalStream</a>
  
 
  

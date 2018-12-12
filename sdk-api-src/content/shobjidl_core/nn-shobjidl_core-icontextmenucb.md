@@ -84,7 +84,7 @@ Enables the callback function for a context menu.
 
 
 
-This is the callback interface specified in the <a href="https://msdn.microsoft.com/007861f6-1e66-4c5f-a459-3cfbe9f8cec2">DEFCONTEXTMENU</a> structure passed with the function <a href="https://msdn.microsoft.com/055ff0a0-9ba7-463d-9684-3fd072b190da">SHCreateDefaultContextMenu</a>.
+This is the callback interface specified in the <a href="https://msdn.microsoft.com/en-us/library/Bb773251(v=VS.85).aspx">DEFCONTEXTMENU</a> structure passed with the function <a href="https://msdn.microsoft.com/055ff0a0-9ba7-463d-9684-3fd072b190da">SHCreateDefaultContextMenu</a>.
 
 This interface enables <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementations to manage context menu messages before, after, and during the context menu handling of these messages.
 

@@ -53,8 +53,8 @@ req.redist:
 The 
 <b>InternalCreateStream</b> method is called by 
 <a href="https://msdn.microsoft.com/402cde43-6b2a-4e4e-bf46-97fcafb7574a">CreateStream</a> to create a stream object (the caller does the argument checking). It creates and initializes the stream object (using 
-<a href="https://msdn.microsoft.com/ac98dd08-4250-40f6-91a8-e1f67b94b51f">CreateStreamObject</a>). It uses <b>CoCreateInstance</b> to create a filter graph for the stream. It calls 
-<a href="https://msdn.microsoft.com/3c75ed75-a0b2-435b-aa49-c1e7dadf260f">RegisterWaitEvent</a> to start waiting for events on the filter graph. It adds the stream into the call object's list of stream objects. It addrefs the stream pointer and returns it.
+<a href="https://msdn.microsoft.com/en-us/library/ms726500(v=VS.85).aspx">CreateStreamObject</a>). It uses <b>CoCreateInstance</b> to create a filter graph for the stream. It calls 
+<a href="https://msdn.microsoft.com/en-us/library/ms726610(v=VS.85).aspx">RegisterWaitEvent</a> to start waiting for events on the filter graph. It adds the stream into the call object's list of stream objects. It addrefs the stream pointer and returns it.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ Pointer to array of
 
 
 
-<a href="https://msdn.microsoft.com/86512d40-380b-4e98-840d-b7be99a86623">CMSPCallMultiGraph</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a>
  
 
  

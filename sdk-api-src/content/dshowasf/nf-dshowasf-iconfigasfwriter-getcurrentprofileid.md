@@ -79,7 +79,7 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 
 
-This method is obsolete because it applies only to version 4.0 Windows Media Format SDK profiles. Applications should call <a href="https://msdn.microsoft.com/1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91">IConfigAsfWriter::GetCurrentProfile</a> to get the current profile.
+This method is obsolete because it applies only to version 4.0 Windows Media Format SDK profiles. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd312026(v=VS.85).aspx">IConfigAsfWriter::GetCurrentProfile</a> to get the current profile.
 
 
 
@@ -97,7 +97,7 @@ This method is obsolete because it applies only to version 4.0 Windows Media For
 
 
 
-<a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
  
 
  

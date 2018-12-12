@@ -68,7 +68,7 @@ Releases ownership of the specified mutex object.
 
 A handle to the mutex object. The 
 <a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a> or 
-<a href="https://msdn.microsoft.com/0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11">OpenMutex</a> function returns this handle. 
+<a href="https://msdn.microsoft.com/en-us/library/ms684315(v=VS.85).aspx">OpenMutex</a> function returns this handle. 
 
 
 

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>AMVAEndFrameInfo</b> structure contains information  for the <a href="https://msdn.microsoft.com/38944989-2ce2-4275-bae9-faca0d51cca8">IAMVideoAccelerator::EndFrame</a> method.
+The <b>AMVAEndFrameInfo</b> structure contains information  for the <a href="https://msdn.microsoft.com/en-us/library/Dd376001(v=VS.85).aspx">IAMVideoAccelerator::EndFrame</a> method.
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ Size, in bytes, of the buffer that <b>pMiscData</b> points to. The value must be
 
 Pointer to a buffer that contains data for the video accelerator.
 
-This buffer must contain a <b>WORD</b> value equal equal to the same surface index that passed to the corresponding <a href="https://msdn.microsoft.com/00077ffe-4acb-4648-9e95-652184e4449b">IAMVideoAccelerator::BeginFrame</a> method.
+This buffer must contain a <b>WORD</b> value equal equal to the same surface index that passed to the corresponding <a href="https://msdn.microsoft.com/en-us/library/Dd375997(v=VS.85).aspx">IAMVideoAccelerator::BeginFrame</a> method.
 
 
 ## -remarks
@@ -89,7 +89,7 @@ The buffer pointed to by <b>pMiscData</b> cannot contain pointer values, because
 
 
 
-<a href="https://msdn.microsoft.com/38944989-2ce2-4275-bae9-faca0d51cca8">IAMVideoAccelerator::EndFrame</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376001(v=VS.85).aspx">IAMVideoAccelerator::EndFrame</a>
  
 
  

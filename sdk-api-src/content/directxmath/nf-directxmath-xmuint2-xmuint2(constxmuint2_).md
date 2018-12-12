@@ -53,7 +53,7 @@ req.redist:
 Default constructor for <code>XMUINT2</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ff728761(v=VS.85).aspx">XMUINT2</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -87,11 +87,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff728761(v=VS.85).aspx">XMUINT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/296d8eb0-a39f-494e-8524-5bf360dd1160">XMUINT2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449553(v=VS.85).aspx">XMUINT2 Constructors</a>
  
 
  

@@ -102,7 +102,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/2de6796d-beb3-4611-a559-449fe21193a6">ICCSubStreamFiltering Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693501(v=VS.85).aspx">ICCSubStreamFiltering Interface</a>
  
 
  

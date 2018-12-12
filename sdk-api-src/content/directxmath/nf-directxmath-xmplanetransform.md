@@ -96,7 +96,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/af8deaee-d5c5-40b2-8f78-aeff9ecaab90">XMPlaneTransformStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404689(v=VS.85).aspx">XMPlaneTransformStream</a>
  
 
  

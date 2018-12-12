@@ -118,11 +118,11 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an unsigned integer, 
 
 
 
-<a href="https://msdn.microsoft.com/5b46e0fb-e4a5-49c4-8084-0c631d43d4f7">XMXDEC4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx">XMXDEC4</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf040967-e482-4442-83f8-31c11aff3d95">XMXDEC4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415539(v=VS.85).aspx">XMXDEC4 Constructors</a>
  
 
  

@@ -51,16 +51,16 @@ req.redist:
 ## -description
 
 
-A geometry-shader interface manages an executable program (a geometry shader) that controls the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">geometry-shader stage</a>.
+A geometry-shader interface manages an executable program (a geometry shader) that controls the <a href="https://msdn.microsoft.com/library/Bb205146(v=VS.85).aspx">geometry-shader stage</a>.
 
 
 ## -remarks
 
 
 
-The geometry-shader interface has no methods; use HLSL to implement your shader functionality. All shaders in Direct3D 10 are implemented from a common set of features referred to as the <a href="https://msdn.microsoft.com/f3cf2969-83a4-461f-8177-d336536194ba">common shader core</a>.
+The geometry-shader interface has no methods; use HLSL to implement your shader functionality. All shaders in Direct3D 10 are implemented from a common set of features referred to as the <a href="https://msdn.microsoft.com/en-us/library/Bb509580(v=VS.85).aspx">common shader core</a>.
 
-To create a geometry shader interface, call either <a href="https://msdn.microsoft.com/6202ed81-a599-497f-a271-940f5605fb84">ID3D10Device::CreateGeometryShader</a> or <a href="https://msdn.microsoft.com/f4e99b74-032b-4ae2-88d1-f0837cdbcbfb">ID3D10Device::CreateGeometryShaderWithStreamOutput</a>. Before using a geometry shader you must bind it to the device by calling <a href="https://msdn.microsoft.com/cd591f9d-dd17-48e3-b952-9f38c7572b93">ID3D10Device::GSSetShader</a>.
+To create a geometry shader interface, call either <a href="https://msdn.microsoft.com/en-us/library/Bb173548(v=VS.85).aspx">ID3D10Device::CreateGeometryShader</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb173549(v=VS.85).aspx">ID3D10Device::CreateGeometryShaderWithStreamOutput</a>. Before using a geometry shader you must bind it to the device by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173582(v=VS.85).aspx">ID3D10Device::GSSetShader</a>.
 
 This interface is defined in D3D10.h.
 
@@ -72,11 +72,11 @@ This interface is defined in D3D10.h.
 
 
 
-<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8770b45-a05c-4dd8-9fa7-08fb4330d734">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205158(v=VS.85).aspx">Shader Interfaces</a>
  
 
  

@@ -69,7 +69,7 @@ Pointer to the <b>IDispatch</b> interface that represents the string collection 
 ### -param change [in]
 
 
-<a href="https://msdn.microsoft.com/7690972b-52ac-4249-baa5-3d2b38a4487a">WMPStringCollectionChangeEventType</a> value indicating the type of change that occurred.
+<a href="https://msdn.microsoft.com/en-us/library/Dd564889(v=VS.85).aspx">WMPStringCollectionChangeEventType</a> value indicating the type of change that occurred.
 
 
 ### -param lCollectionIndex [in]
@@ -93,10 +93,10 @@ This method does not return a value.
 To receive <b>StringCollectionChange</b> events, you must obtain your string collection as follows:
 
 <ol>
-<li>Call <a href="https://msdn.microsoft.com/6de39a4e-fcce-401b-9bbf-7b06d1fb0370">IWMPLibrary::get_mediaCollection</a> to get an <b>IWMPMediaCollection</b> interface.</li>
+<li>Call <a href="https://msdn.microsoft.com/en-us/library/Dd563392(v=VS.85).aspx">IWMPLibrary::get_mediaCollection</a> to get an <b>IWMPMediaCollection</b> interface.</li>
 <li>Call the <a href="https://msdn.microsoft.com/c3699acb-58a1-4efa-a42c-c84534abca96">getAttributeStringCollection</a> method of the interface you obtained in step 1.</li>
 </ol>
-If you obtain your <b>IWMPMediaCollection</b> interface by calling <a href="https://msdn.microsoft.com/41b090ca-edf0-440e-b578-26c5ad064657">IWMPCore::get_mediaCollection</a>, you will not receive <b>StringCollectionChange</b> events.
+If you obtain your <b>IWMPMediaCollection</b> interface by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563231(v=VS.85).aspx">IWMPCore::get_mediaCollection</a>, you will not receive <b>StringCollectionChange</b> events.
 
 You can also handle this event through an <b>IDispatch</b> event sink by using the <b>_WMPOCXEvents</b> interface.
 
@@ -110,11 +110,11 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/654b7d78-97d4-4770-9729-dd1fed0431d9">IWMPEvents3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563296(v=VS.85).aspx">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cdabea9-7e37-4e63-9d6c-b6f63aa536ea">IWMPStringCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563686(v=VS.85).aspx">IWMPStringCollection Interface</a>
 
 
 

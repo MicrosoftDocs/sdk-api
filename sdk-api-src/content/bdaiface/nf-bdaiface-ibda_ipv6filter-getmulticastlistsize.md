@@ -93,7 +93,7 @@ This method is used by the <a href="https://msdn.microsoft.com/78cd6cba-3bd7-4ad
 
 
 
-<a href="https://msdn.microsoft.com/b506d382-c56d-4c5b-ad57-e186173ea9a8">IBDA_IPV6Filter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693388(v=VS.85).aspx">IBDA_IPV6Filter Interface</a>
  
 
  

@@ -66,7 +66,7 @@ The <b>GetSystemProfileVersion</b> method retrieves the version number of the sy
 
 ### -param pdwVersion
 
-Pointer to one member of the <a href="https://msdn.microsoft.com/9ee414c6-49aa-42ad-9310-52f54b23e712">WMT_VERSION</a> enumeration type.
+Pointer to one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757860(v=VS.85).aspx">WMT_VERSION</a> enumeration type.
 
 
 ## -returns
@@ -92,11 +92,11 @@ Because there are no system profiles for the Windows Media 9 Series codecs, this
 
 
 
-<a href="https://msdn.microsoft.com/eb5d904e-15ee-4066-ab05-c4e133bc89d7">IWMProfileManager2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757386(v=VS.85).aspx">IWMProfileManager2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd957f3b-401c-4ab1-9c54-7b4ac895caac">IWMProfileManager2::SetSystemProfileVersion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757388(v=VS.85).aspx">IWMProfileManager2::SetSystemProfileVersion</a>
  
 
  

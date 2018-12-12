@@ -107,11 +107,11 @@ Every DVD is authored differently. The DVD must contain a menu for this method t
 
 
 
-<a href="https://msdn.microsoft.com/d133f1e1-cbeb-403d-b247-9f495cb6f0f7">IWMPDVD Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563244(v=VS.85).aspx">IWMPDVD Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b96763f-a174-45df-b988-955f9619a4c1">IWMPDVD::topMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563251(v=VS.85).aspx">IWMPDVD::topMenu</a>
  
 
  

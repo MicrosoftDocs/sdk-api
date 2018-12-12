@@ -87,7 +87,7 @@ Creates a render target that draws to a Windows Graphics Device Interface (GDI) 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/101744ea-97bc-4f92-88b0-fcdf0e4aaf4e">CreateDxgiSurfaceRenderTarget</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742724(v=VS.85).aspx">CreateDxgiSurfaceRenderTarget</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
 
@@ -95,7 +95,7 @@ Creates a render target that draws to a Windows Graphics Device Interface (GDI) 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c03bb0b-74fe-456a-aa26-5449d758c0ea">CreateEllipseGeometry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742725(v=VS.85).aspx">CreateEllipseGeometry</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/4ab6452c-6df8-46c0-9e0d-0cebc19d84ba">ID2D1EllipseGeometry</a>.
 
@@ -112,7 +112,7 @@ Creates an <a href="https://msdn.microsoft.com/15c3800c-b57c-4c3c-995f-407beee4c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b55b1b0-a423-40dc-9581-c1fbe8134ca5">CreateHwndRenderTarget</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742726(v=VS.85).aspx">CreateHwndRenderTarget</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
 
@@ -129,7 +129,7 @@ Creates an empty <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c8f4950-7b5a-4f77-9a5b-513916f83d0c">CreateRectangleGeometry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742727(v=VS.85).aspx">CreateRectangleGeometry</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>. 
 
@@ -137,7 +137,7 @@ Creates an empty <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0f7ccb0-5733-4f96-a532-8f665fbc257e">CreateRoundedRectangleGeometry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742728(v=VS.85).aspx">CreateRoundedRectangleGeometry</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/e49e9be7-155a-4487-9931-035f18771c04">ID2D1RoundedRectangleGeometry</a>. 
 
@@ -153,7 +153,7 @@ Creates an empty <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71f26200-0f35-49d7-951d-2962768d16bc">CreateTransformedGeometry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742730(v=VS.85).aspx">CreateTransformedGeometry</a>
 </td>
 <td align="left" width="63%">Overloaded. Transforms the specified geometry and stores the result as an <a href="https://msdn.microsoft.com/5d48eab6-1229-4e54-bfab-602b471b23a4">ID2D1TransformedGeometry</a> object. 
 

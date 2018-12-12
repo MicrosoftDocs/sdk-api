@@ -70,7 +70,7 @@ The <b>IBDA_EventingService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/399530a7-5a02-485e-aa5e-6b3ddb7f3d54">CompleteEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693346(v=VS.85).aspx">CompleteEvent</a>
 </td>
 <td align="left" width="63%">
 Notifies the media transform device (MTD) in a graph when a media sink device (MSD) completes an event.

@@ -61,7 +61,7 @@ Identifies each XML canonicalization property and its associated
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM
 
-A <a href="https://msdn.microsoft.com/230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4">WS_XML_CANONICALIZATION_ALGORITHM</a> value that specifies the algorithm to be used for canonicalization.  If this is not specified,
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323521(v=VS.85).aspx">WS_XML_CANONICALIZATION_ALGORITHM</a> value that specifies the algorithm to be used for canonicalization.  If this is not specified,
           the <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
         
 

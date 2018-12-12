@@ -64,7 +64,7 @@ The <code>SetServiceState</code> method enables or disables closed captions.
 
 ### -param State
 
-Member of the <a href="https://msdn.microsoft.com/fdd1dec4-660c-46d0-b18c-b725b813c6a7">AM_LINE21_CCSTATE</a> enumeration, specify whether to enable or disable closed captions.
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373475(v=VS.85).aspx">AM_LINE21_CCSTATE</a> enumeration, specify whether to enable or disable closed captions.
 
 
 ## -returns
@@ -115,11 +115,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c88d2328-0338-4c0b-b719-8501bcbb8a69">IAMLine21Decoder::GetServiceState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389392(v=VS.85).aspx">IAMLine21Decoder::GetServiceState</a>
  
 
  

@@ -52,7 +52,7 @@ req.redist:
 
 Initializes a new instance of <code>XMUBYTEN2</code> from two <code>uint8_t</code> arguments.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/e6faa9a7-fedc-45cb-8480-df179ad3bd86">XMUBYTEN2 </a> from two <code>uint8_t</code> arguments.
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh404729(v=VS.85).aspx">XMUBYTEN2 </a> from two <code>uint8_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
 
 ## -parameters
@@ -103,11 +103,11 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 
 
 
-<a href="https://msdn.microsoft.com/e6faa9a7-fedc-45cb-8480-df179ad3bd86">XMUBYTEN2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404729(v=VS.85).aspx">XMUBYTEN2</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa72906c-1338-49cf-909c-4d3a00aa3de2">XMUBYTEN2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449528(v=VS.85).aspx">XMUBYTEN2 Constructors</a>
  
 
  

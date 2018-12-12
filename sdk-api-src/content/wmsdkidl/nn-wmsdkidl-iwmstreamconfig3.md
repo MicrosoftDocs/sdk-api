@@ -60,7 +60,7 @@ An <b>IWMStreamConfig3</b> interface exists for every stream configuration objec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMStreamConfig3</b> interface inherits from <a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2</a>. <b>IWMStreamConfig3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMStreamConfig3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2</a>. <b>IWMStreamConfig3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMStreamConfig3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db84a33c-bd83-46cb-a97c-76ddeeb74927">AddDataUnitExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798548(v=VS.85).aspx">AddDataUnitExtension</a>
 </td>
 <td align="left" width="63%">
 Adds a data unit extension to the stream.
@@ -84,7 +84,7 @@ Adds a data unit extension to the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d34bea45-758e-4c4a-928f-229ce6b4241c">GetBitrate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798558(v=VS.85).aspx">GetBitrate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bit rate for the stream.
@@ -93,7 +93,7 @@ Retrieves the bit rate for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a78cd61-e7ae-42e2-9d64-f3344fefc59d">GetBufferWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798559(v=VS.85).aspx">GetBufferWindow</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum latency between when a stream is received and when it begins to be displayed.
@@ -102,7 +102,7 @@ Retrieves the maximum latency between when a stream is received and when it begi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04d50606-c355-45d4-9cc1-a8ef37113bf7">GetConnectionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798560(v=VS.85).aspx">GetConnectionName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the connection name given to the stream.
@@ -111,7 +111,7 @@ Retrieves the connection name given to the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/766124f6-b376-421b-b2ee-2c280af3bd16">GetDataUnitExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798549(v=VS.85).aspx">GetDataUnitExtension</a>
 </td>
 <td align="left" width="63%">
 Retrieves a data unit extension from the stream.
@@ -120,7 +120,7 @@ Retrieves a data unit extension from the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9a4ec84-4ea3-4e84-9def-7ca93be0f1ce">GetDataUnitExtensionCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798550(v=VS.85).aspx">GetDataUnitExtensionCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves a count of all the data unit extensions in the stream.
@@ -129,7 +129,7 @@ Retrieves a count of all the data unit extensions in the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/407607c8-c6ab-4400-b86c-9972d95f90c2">GetLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798556(v=VS.85).aspx">GetLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the language setting for the stream.
@@ -138,7 +138,7 @@ Retrieves the language setting for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86c65cfe-d482-461b-a187-ce1ce9a30609">GetStreamName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798561(v=VS.85).aspx">GetStreamName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream name.
@@ -147,7 +147,7 @@ Retrieves the stream name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2996c897-eb38-4432-8bf7-549023ab00f5">GetStreamNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798562(v=VS.85).aspx">GetStreamNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream number.
@@ -156,7 +156,7 @@ Retrieves the stream number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8dc8c37-da52-4d0f-b143-aaa45e6f77b8">GetStreamType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798563(v=VS.85).aspx">GetStreamType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the major type of the stream (audio, video, or script).
@@ -165,7 +165,7 @@ Retrieves the major type of the stream (audio, video, or script).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfe7b285-8d1d-4b71-a839-1c73d76e6444">GetTransportType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798551(v=VS.85).aspx">GetTransportType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of communication protocol.
@@ -174,7 +174,7 @@ Retrieves the type of communication protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/944c1b6c-1d1b-4a44-9b9e-d673c8d60306">RemoveAllDataUnitExtensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798552(v=VS.85).aspx">RemoveAllDataUnitExtensions</a>
 </td>
 <td align="left" width="63%">
 Removes all previously added data unit extensions.
@@ -183,7 +183,7 @@ Removes all previously added data unit extensions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/202be688-e739-4e80-9574-f85b2eb168fc">SetBitrate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798564(v=VS.85).aspx">SetBitrate</a>
 </td>
 <td align="left" width="63%">
 Specifies the bit rate for the stream.
@@ -192,7 +192,7 @@ Specifies the bit rate for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae14f3df-222a-494c-a171-02aed04490d1">SetBufferWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798565(v=VS.85).aspx">SetBufferWindow</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum latency between when a stream is received and when it begins to be displayed.
@@ -201,7 +201,7 @@ Specifies the maximum latency between when a stream is received and when it begi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd67e0b5-3bfa-46c1-996d-6b026c1144cb">SetConnectionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798566(v=VS.85).aspx">SetConnectionName</a>
 </td>
 <td align="left" width="63%">
 Specifies the connection name given to a stream.
@@ -210,7 +210,7 @@ Specifies the connection name given to a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d5c65b1-5e8b-4ee7-b28c-a35376c91ac4">SetLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798557(v=VS.85).aspx">SetLanguage</a>
 </td>
 <td align="left" width="63%">
 Configures the language setting for the stream.
@@ -219,7 +219,7 @@ Configures the language setting for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90ab1591-eee7-4504-8d7f-475d90fa3b40">SetStreamName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798567(v=VS.85).aspx">SetStreamName</a>
 </td>
 <td align="left" width="63%">
 Specifies the stream name.
@@ -228,7 +228,7 @@ Specifies the stream name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aea8b219-5b47-4176-ad96-d52646d96578">SetStreamNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798568(v=VS.85).aspx">SetStreamNumber</a>
 </td>
 <td align="left" width="63%">
 Specifies the stream number.
@@ -237,7 +237,7 @@ Specifies the stream number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89958c80-2140-49ab-b696-189e8f722e96">SetTransportType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798553(v=VS.85).aspx">SetTransportType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of communication protocol.
@@ -254,31 +254,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a>
 </td>
 <td>IID_IWMMediaProps</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/0e51a9be-afd4-430b-8339-f45e8f9a7d20">IWMPropertyVault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault</a>
 </td>
 <td>IID_IWMPropertyVault</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a>
 </td>
 <td>IID_IWMStreamConfig</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2</a>
 </td>
 <td>IID_IWMStreamConfig2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4d6ba1d8-b046-450b-a3f9-4810faba5b77">IWMVideoMediaProps</a> (on video streams only)</td>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps</a> (on video streams only)</td>
 <td>IID_IWMVideoMediaProps</td>
 </tr>
 </table> 
@@ -289,11 +289,11 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2 Interface</a>
 
 
 

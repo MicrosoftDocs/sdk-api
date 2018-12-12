@@ -66,7 +66,7 @@ The <b>Advise</b> method registers the application to receive status messages fr
 
 ### -param pCallback [in]
 
-Pointer to the application's <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a> interface. The application must implement this interface.
+Pointer to the application's <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> interface. The application must implement this interface.
 
 
 ### -param pvContext [in]
@@ -87,7 +87,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-The sink object sends status messages to the application by calling the application's <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> method.
+The sink object sends status messages to the application by calling the application's <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method.
 
 When the application has finished using the sink object, use the <b>Unadvise</b> method to break the connection with the sink object.
 
@@ -99,11 +99,11 @@ When the application has finished using the sink object, use the <b>Unadvise</b>
 
 
 
-<a href="https://msdn.microsoft.com/3831b727-7fdc-4d05-a7b3-86ca5b5c3b17">IWMRegisterCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743613(v=VS.85).aspx">IWMRegisterCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f320288-09a8-4eaf-a7cd-54a4b52d0b47">IWMRegisterCallback::Unadvise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743618(v=VS.85).aspx">IWMRegisterCallback::Unadvise</a>
  
 
  

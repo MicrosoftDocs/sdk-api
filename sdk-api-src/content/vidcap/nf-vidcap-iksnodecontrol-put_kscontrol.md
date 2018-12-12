@@ -93,7 +93,7 @@ The KsProxy filter calls this method with a pointer to its own <b>IKsControl</b>
 
 
 
-<a href="https://msdn.microsoft.com/c38ce847-726a-4c1a-9276-810385af6c9f">IKsNodeControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390139(v=VS.85).aspx">IKsNodeControl Interface</a>
  
 
  

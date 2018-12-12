@@ -174,7 +174,7 @@ When set to 1, the other mask values are valid; otherwise, the iSCSI initiator s
 
 ### -field LoginOptions
 
-A pointer to an <a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a> structure that defines the login data.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb870801(v=VS.85).aspx">ISCSI_LOGIN_OPTIONS</a> structure that defines the login data.
 
 
 ## -see-also
@@ -182,7 +182,7 @@ A pointer to an <a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e0
 
 
 
-<a href="https://msdn.microsoft.com/3592b289-9c0d-43dc-918f-23c8ff079186">ISCSI_TARGET_PORTAL_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870814(v=VS.85).aspx">ISCSI_TARGET_PORTAL_INFO</a>
  
 
  

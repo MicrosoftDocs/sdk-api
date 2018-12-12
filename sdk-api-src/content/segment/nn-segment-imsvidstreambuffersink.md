@@ -73,7 +73,7 @@ The <b>IMSVidStreamBufferSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9fecdf37-0ad2-499b-8604-5e60bb0aa6e2">get_ContentRecorder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694655(v=VS.85).aspx">get_ContentRecorder</a>
 </td>
 <td align="left" width="63%">
 Creates a new content recording object.
@@ -82,7 +82,7 @@ Creates a new content recording object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81315825-165a-48ef-be5e-fdeba67765f6">get_ReferenceRecorder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694656(v=VS.85).aspx">get_ReferenceRecorder</a>
 </td>
 <td align="left" width="63%">
 Creates a new reference recording object.
@@ -91,7 +91,7 @@ Creates a new reference recording object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea911a70-1926-4ba8-b9dd-1188debee00a">get_SBESink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694657(v=VS.85).aspx">get_SBESink</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the Stream Buffer Sink filter.
@@ -100,7 +100,7 @@ Retrieves a pointer to the Stream Buffer Sink filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1fda0a0-7b18-4eb8-9555-19fb92fc32f2">get_SinkName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694658(v=VS.85).aspx">get_SinkName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the stub file that points to the backing files.
@@ -109,7 +109,7 @@ Retrieves the name of the stub file that points to the backing files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0195d515-4018-4a96-9af9-566fcdeffaf7">NameSetLock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694659(v=VS.85).aspx">NameSetLock</a>
 </td>
 <td align="left" width="63%">
 Locks the stream buffer profile.
@@ -118,7 +118,7 @@ Locks the stream buffer profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5269ab81-0963-4a86-9592-d670cca6016f">put_SinkName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694660(v=VS.85).aspx">put_SinkName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the stub file that points to the backing files.

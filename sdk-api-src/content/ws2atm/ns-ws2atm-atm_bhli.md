@@ -108,11 +108,11 @@ The following are the manifest constants associated with the
 
 
 
-<a href="https://msdn.microsoft.com/794d4070-45d7-41c3-8229-660ba3c5f72a">ATM_ADDRESS</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms737538(v=VS.85).aspx">ATM_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/15f600eb-8a73-4bb4-9405-8c6ea9b6ea8a">ATM_BLLI</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms737540(v=VS.85).aspx">ATM_BLLI</a>
 
 
 

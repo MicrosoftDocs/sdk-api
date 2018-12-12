@@ -73,7 +73,7 @@ The <b>IBDA_SignalStatistics</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9651e393-224b-4276-b8a6-f841f9e04d48">get_SampleTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693433(v=VS.85).aspx">get_SampleTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sample time used to measure the signal.
@@ -82,7 +82,7 @@ Retrieves the sample time used to measure the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a67ff4b-1abc-43c4-b171-f9af90c5aaf7">get_SignalLocked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693434(v=VS.85).aspx">get_SignalLocked</a>
 </td>
 <td align="left" width="63%">
 Retrieves a Boolean value indicating whether the signal is locked.
@@ -91,7 +91,7 @@ Retrieves a Boolean value indicating whether the signal is locked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/834149e1-50b7-42f6-8fee-a357ed4bc8b8">get_SignalPresent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693435(v=VS.85).aspx">get_SignalPresent</a>
 </td>
 <td align="left" width="63%">
 Retrieves a Boolean value indicating whether a signal is present.
@@ -100,7 +100,7 @@ Retrieves a Boolean value indicating whether a signal is present.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2472a539-e8ee-4501-b7ab-e7e1fce7cea0">get_SignalQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693436(v=VS.85).aspx">get_SignalQuality</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value from 1 to 100 indicating the quality of the signal.
@@ -109,7 +109,7 @@ Retrieves a value from 1 to 100 indicating the quality of the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4830da1-1031-456e-8f3f-eb15f5366942">get_SignalStrength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693437(v=VS.85).aspx">get_SignalStrength</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates the strength of the signal in decibels.
@@ -118,7 +118,7 @@ Retrieves a value that indicates the strength of the signal in decibels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/086fd3ad-26d7-4b5b-b73a-a7d4db44d2c2">put_SampleTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693438(v=VS.85).aspx">put_SampleTime</a>
 </td>
 <td align="left" width="63%">
 Specifies the sample time used to measure the signal.
@@ -127,7 +127,7 @@ Specifies the sample time used to measure the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26e4053f-7e43-464d-8ea1-076f741d5b63">put_SignalLocked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693439(v=VS.85).aspx">put_SignalLocked</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the signal is locked.
@@ -136,7 +136,7 @@ Specifies whether the signal is locked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d27dd06-a180-4ee6-bb52-34a8f434ab6a">put_SignalPresent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693440(v=VS.85).aspx">put_SignalPresent</a>
 </td>
 <td align="left" width="63%">
 Specifies whether a signal is present.
@@ -145,7 +145,7 @@ Specifies whether a signal is present.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7d73965-4f7e-4330-89f4-2ccbe679ae2a">put_SignalQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693441(v=VS.85).aspx">put_SignalQuality</a>
 </td>
 <td align="left" width="63%">
 Specifies the quality of the signal.
@@ -154,7 +154,7 @@ Specifies the quality of the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a1f11b7-09f4-430a-8976-81f15ea22b1a">put_SignalStrength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693442(v=VS.85).aspx">put_SignalStrength</a>
 </td>
 <td align="left" width="63%">
 Specifies the strength of the signal in decibels.

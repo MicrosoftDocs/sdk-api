@@ -117,11 +117,11 @@ mms://MyServer/MyVideo.wmv?WMReconnect=5
 
 
 
-<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d0b794c-b3bf-4ec5-ac68-9666e73f7a6e">IWMReaderNetworkConfig2::GetAutoReconnectLimit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743507(v=VS.85).aspx">IWMReaderNetworkConfig2::GetAutoReconnectLimit</a>
  
 
  

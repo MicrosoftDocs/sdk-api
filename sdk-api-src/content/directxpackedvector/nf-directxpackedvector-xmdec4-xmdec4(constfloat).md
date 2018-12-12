@@ -53,7 +53,7 @@ req.redist:
 Default constructor for <code>XMDEC4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/a52fa5e4-ee45-4256-a06a-6984d63b5578">XMDEC4</a> .
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a> .
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
@@ -88,11 +88,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/a52fa5e4-ee45-4256-a06a-6984d63b5578">XMDEC4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8ca8689-c946-4fef-a211-6c3737cc88aa">XMDEC4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415267(v=VS.85).aspx">XMDEC4 Constructors</a>
  
 
  

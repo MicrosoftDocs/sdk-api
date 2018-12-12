@@ -97,7 +97,7 @@ Sets the degree of opacity of this brush.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57afadc1-88c9-4a5b-a83f-63c4c69182a7">SetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742690(v=VS.85).aspx">SetTransform</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the transformation applied to the brush.
 

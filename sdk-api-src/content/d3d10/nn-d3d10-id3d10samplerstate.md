@@ -51,12 +51,12 @@ req.redist:
 ## -description
 
 
-A sampler-state interface accesses sampler state for a <a href="https://msdn.microsoft.com/e8cb483a-d831-4942-b6fe-61dd5edb1813">texture</a>.
+A sampler-state interface accesses sampler state for a <a href="https://msdn.microsoft.com/en-us/library/Bb509700(v=VS.85).aspx">texture</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10SamplerState</b> interface inherits from <a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>. <b>ID3D10SamplerState</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10SamplerState</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10SamplerState</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D10SamplerState</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a89bb8c8-b12a-4982-9cea-d03ca76b2a0e">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173834(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the sampler state.
@@ -85,9 +85,9 @@ Get the sampler state.
 
 
 
-Create a sampler-state object by calling <a href="https://msdn.microsoft.com/82dea278-1555-49b8-9c1d-91399afa5c7e">ID3D10Device::CreateSamplerState</a>.
+Create a sampler-state object by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173557(v=VS.85).aspx">ID3D10Device::CreateSamplerState</a>.
 
-To initialize sampler state, bind the sampler-state object to the pipeline by calling <a href="https://msdn.microsoft.com/4310c4dc-7fb4-4b69-9bc5-e89761d2e34c">ID3D10Device::VSSetSamplers</a>, <a href="https://msdn.microsoft.com/881cea8b-eb37-4614-b4dc-81a3e8c929d3">ID3D10Device::GSSetSamplers</a>, or <a href="https://msdn.microsoft.com/2684b37d-8f10-4c32-8c52-fc2e5bf2122c">ID3D10Device::PSSetSamplers</a>.
+To initialize sampler state, bind the sampler-state object to the pipeline by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173627(v=VS.85).aspx">ID3D10Device::VSSetSamplers</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173581(v=VS.85).aspx">ID3D10Device::GSSetSamplers</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb173604(v=VS.85).aspx">ID3D10Device::PSSetSamplers</a>.
 
 
 
@@ -97,15 +97,15 @@ To initialize sampler state, bind the sampler-state object to the pipeline by ca
 
 
 
-<a href="https://msdn.microsoft.com/f5ad2db8-da90-4bcd-83a7-7466723a9c3c">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b217811-555e-4433-8cf8-8c43cd5edba6">Core Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205149(v=VS.85).aspx">Core Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
  
 
  

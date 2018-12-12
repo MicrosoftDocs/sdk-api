@@ -99,11 +99,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1521c462-b054-46d6-8646-4d20a836eadc">IWMPNetwork::get_frameRate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563475(v=VS.85).aspx">IWMPNetwork::get_frameRate</a>
  
 
  

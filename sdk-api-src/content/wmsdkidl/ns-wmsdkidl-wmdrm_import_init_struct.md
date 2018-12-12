@@ -90,7 +90,7 @@ Address of a buffer containing the encrypted key message. This message is contai
 
 
 
-This structure is used to initialize protected stream sample writing in a call to the <a href="https://msdn.microsoft.com/42208d02-8384-494d-b7ae-53072b795723">IWMDRMWriter3::SetProtectStreamSamples</a> method.
+This structure is used to initialize protected stream sample writing in a call to the <a href="https://msdn.microsoft.com/en-us/library/Dd798376(v=VS.85).aspx">IWMDRMWriter3::SetProtectStreamSamples</a> method.
 
 
 

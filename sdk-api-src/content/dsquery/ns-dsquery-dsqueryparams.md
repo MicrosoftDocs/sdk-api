@@ -90,7 +90,7 @@ Reserved.
 
 ### -field aColumns
 
-Contains an array of <a href="https://msdn.microsoft.com/b948b114-dd66-4e79-bdd0-559a13a7c644">DSCOLUMN</a> structures that contain the results of the query. The <b>iColumns</b> member specifies the number of elements in this array.
+Contains an array of <a href="https://msdn.microsoft.com/en-us/library/ms675969(v=VS.85).aspx">DSCOLUMN</a> structures that contain the results of the query. The <b>iColumns</b> member specifies the number of elements in this array.
 
 
 ## -see-also
@@ -102,7 +102,7 @@ Contains an array of <a href="https://msdn.microsoft.com/b948b114-dd66-4e79-bdd0
 
 
 
-<a href="https://msdn.microsoft.com/b948b114-dd66-4e79-bdd0-559a13a7c644">DSCOLUMN</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms675969(v=VS.85).aspx">DSCOLUMN</a>
 
 
 

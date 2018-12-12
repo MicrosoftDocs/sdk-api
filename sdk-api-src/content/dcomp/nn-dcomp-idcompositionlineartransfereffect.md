@@ -56,7 +56,7 @@ The linear transfer effect is used to map the color intensities of an image usin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionLinearTransferEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionLinearTransferEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionLinearTransferEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionLinearTransferEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDCompositionLinearTransferEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B0D76D35-FDB8-45CA-8D41-8D6C9597ED1B">SetAlphaDisable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919742(v=VS.85).aspx">SetAlphaDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the alpha channel.
@@ -80,7 +80,7 @@ Specifies whether to apply the transfer function to the alpha channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1de76dcb-9fcb-ddda-0a98-be151ff869ff">SetAlphaSlope</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905291(v=VS.85).aspx">SetAlphaSlope</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the slope of the linear function for the alpha channel.
 
@@ -88,7 +88,7 @@ Specifies whether to apply the transfer function to the alpha channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d0fa3a9-367b-4cb7-b6d2-db2f603f38bd">SetAlphaYIntercept</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905292(v=VS.85).aspx">SetAlphaYIntercept</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Y-intercept of the linear function for the alpha channel.
 
@@ -96,7 +96,7 @@ Specifies whether to apply the transfer function to the alpha channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DE87E53B-4469-4B30-8397-6A0712DE8A6C">SetBlueDisable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919747(v=VS.85).aspx">SetBlueDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the blue channel.
@@ -105,7 +105,7 @@ Specifies whether to apply the transfer function to the blue channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/088b6b01-6c0b-c746-85ed-54b822a4615d">SetBlueSlope</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905293(v=VS.85).aspx">SetBlueSlope</a>
 </td>
 <td align="left" width="63%">Overloaded. The slope of the linear function for the blue channel.
 
@@ -113,7 +113,7 @@ Specifies whether to apply the transfer function to the blue channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34bff151-4844-73fa-8e7e-9a542373b820">SetBlueYIntercept</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905294(v=VS.85).aspx">SetBlueYIntercept</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Y-intercept of the linear function for the blue channel.
 
@@ -121,7 +121,7 @@ Specifies whether to apply the transfer function to the blue channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D56B3B15-6437-46A3-B1F9-88F5BC4A9BB2">SetClampOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919752(v=VS.85).aspx">SetClampOutput</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
@@ -130,7 +130,7 @@ Specifies whether the effect clamps color values to between 0 and 1 before the e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5C0C9E9C-F332-4F4E-A3F0-423A302AC6FC">SetGreenDisable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919753(v=VS.85).aspx">SetGreenDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the green channel.
@@ -139,7 +139,7 @@ Specifies whether to apply the transfer function to the green channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7e92544-dbc5-91ce-b818-056b7b572a7c">setgreenslope</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905295(v=VS.85).aspx">setgreenslope</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the slope of the linear function for the green channel.
 
@@ -147,7 +147,7 @@ Specifies whether to apply the transfer function to the green channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1aa4c933-ee49-2772-9a7e-b120b5bdd331">SetGreenYIntercept</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905296(v=VS.85).aspx">SetGreenYIntercept</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Y-intercept of the linear function for the green channel.
 
@@ -155,7 +155,7 @@ Specifies whether to apply the transfer function to the green channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59B82C2B-9DAE-4B6C-A5ED-425A8ACEF24E">SetRedDisable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919758(v=VS.85).aspx">SetRedDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the red channel.
@@ -164,7 +164,7 @@ Specifies whether to apply the transfer function to the red channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/486dad35-e9f2-cc7e-1c20-0e69ce1d22bb">setredslope</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905297(v=VS.85).aspx">setredslope</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the slope of the linear function for the red channel.
 
@@ -172,7 +172,7 @@ Specifies whether to apply the transfer function to the red channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ecb0d5e-a180-f135-a732-ebc0ea84e7b4">SetRedYIntercept</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905298(v=VS.85).aspx">SetRedYIntercept</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Y-intercept of the linear function for the red channel.
 
@@ -186,7 +186,7 @@ Specifies whether to apply the transfer function to the red channel.
 
 
 
-<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
  
 
  

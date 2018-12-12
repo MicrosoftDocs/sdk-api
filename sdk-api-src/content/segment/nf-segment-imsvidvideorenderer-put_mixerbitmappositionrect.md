@@ -90,15 +90,15 @@ If the static bitmap image is set, the VMR alpha blends the bitmap onto the vide
 
 
 
-<a href="https://msdn.microsoft.com/a91561e3-469b-412a-b5ab-af2a5a0855a6">IMSVidVideoRenderer::SetupMixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694760(v=VS.85).aspx">IMSVidVideoRenderer::SetupMixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2270786-5289-4c41-898e-651ed881842b">IMSVidVideoRenderer::get_MixerBitmapPositionRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694741(v=VS.85).aspx">IMSVidVideoRenderer::get_MixerBitmapPositionRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa9d9bea-f711-42f1-a247-322036744c44">IMSVidVideoRenderer::put_MixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694751(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmap</a>
  
 
  

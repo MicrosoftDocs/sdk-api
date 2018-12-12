@@ -135,7 +135,7 @@ The capture time of this thread. For more information, see <a href="https://msdn
 
 ### -field Flags
 
-Flags about the thread. For more information, see <a href="https://msdn.microsoft.com/8E90F0EA-D50A-431D-9507-B882EB673629">PSS_THREAD_FLAGS</a>.
+Flags about the thread. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457853(v=VS.85).aspx">PSS_THREAD_FLAGS</a>.
 
 
 ### -field SuspendCount
@@ -158,7 +158,7 @@ A pointer to the context record if thread context information was captured. The 
 
 
 
-<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_THREAD_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_THREADS</b>.
+<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_THREAD_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/en-us/library/Dn457858(v=VS.85).aspx">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_THREADS</b>.
 
 
 

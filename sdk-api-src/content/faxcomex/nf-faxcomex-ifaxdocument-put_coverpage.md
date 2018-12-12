@@ -64,11 +64,11 @@ This property is read/write.
 
 
 
-To specify a server-based cover page file, you must set the <a href="https://msdn.microsoft.com/ca6b43c6-7b06-448c-b715-3c92a5c4a853">IFaxDocument::get_CoverPageType</a> property to <a href="https://msdn.microsoft.com/e5a86019-a2f4-4919-a8b3-8df8f81258e4">fcptSERVER</a>.
+To specify a server-based cover page file, you must set the <a href="https://msdn.microsoft.com/en-us/library/ms686003(v=VS.85).aspx">IFaxDocument::get_CoverPageType</a> property to <a href="https://msdn.microsoft.com/en-us/library/ms689603(v=VS.85).aspx">fcptSERVER</a>.
 
                 
 
-To specify a local or personal cover page file, you must set the <a href="https://msdn.microsoft.com/ca6b43c6-7b06-448c-b715-3c92a5c4a853">IFaxDocument::get_CoverPageType</a> property to <a href="https://msdn.microsoft.com/e5a86019-a2f4-4919-a8b3-8df8f81258e4">fcptLOCAL</a>.
+To specify a local or personal cover page file, you must set the <a href="https://msdn.microsoft.com/en-us/library/ms686003(v=VS.85).aspx">IFaxDocument::get_CoverPageType</a> property to <a href="https://msdn.microsoft.com/en-us/library/ms689603(v=VS.85).aspx">fcptLOCAL</a>.
 
 
 
@@ -78,15 +78,15 @@ To specify a local or personal cover page file, you must set the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -145,11 +145,11 @@ To send the logging information to the server, call the <b>SendLogParams</b> met
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b345573-bdca-4a1f-b272-716e2ca4c88c">IWMReaderAdvanced4::SendLogParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757459(v=VS.85).aspx">IWMReaderAdvanced4::SendLogParams</a>
  
 
  

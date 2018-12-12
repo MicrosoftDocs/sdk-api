@@ -60,7 +60,7 @@ Creates a new device context with no initially assigned target.
 
 ### -param options
 
-Type: <b><a href="direct2d.d2d1_device_context_options">D2D1_DEVICE_CONTEXT_OPTIONS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh446998(v=VS.85).aspx">D2D1_DEVICE_CONTEXT_OPTIONS</a></b>
 
 Options for creating the device context.
 
@@ -76,7 +76,7 @@ The created device context.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

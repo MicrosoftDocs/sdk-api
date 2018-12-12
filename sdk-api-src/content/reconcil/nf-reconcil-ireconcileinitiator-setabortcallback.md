@@ -60,9 +60,9 @@ Sets the object through which the initiator can asynchronously terminate a recon
 
 ### -param punkForAbort
 
-Type: <b><a href="_com_iunknown">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
-The address of the <a href="_com_iunknown">IUnknown</a> interface for the object. The initiator signals a request to terminate the reconciliation by using the <a href="_com_iunknown_release">IUnknown::Release</a> method to release the object. This parameter may be <b>NULL</b> to direct the initiator to remove the previously specified object. 
+The address of the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the object. The initiator signals a request to terminate the reconciliation by using the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method to release the object. This parameter may be <b>NULL</b> to direct the initiator to remove the previously specified object. 
 
 
 ## -returns

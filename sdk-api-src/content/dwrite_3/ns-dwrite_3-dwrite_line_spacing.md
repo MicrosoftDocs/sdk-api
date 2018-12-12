@@ -106,7 +106,7 @@ Proportion of the entire leading distributed before the line. The allowed value 
 
 ### -field fontLineGapUsage
 
-Type: <b><a href="https://msdn.microsoft.com/43d38cca-429d-7ee5-e94c-fba542e19bb5">DWRITE_FONT_LINE_GAP_USAGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933211(v=VS.85).aspx">DWRITE_FONT_LINE_GAP_USAGE</a></b>
 
 Specify whether <a href="https://msdn.microsoft.com/ffbf987c-145e-4b93-a48f-8948944c6e33">DWRITE_FONT_METRICS</a>::lineGap value should be part of the line metrics.
 

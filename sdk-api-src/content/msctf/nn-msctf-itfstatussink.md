@@ -95,7 +95,7 @@ Receives a notification when one of the dynamic flags of the TF_STATUS structure
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
 
 
 

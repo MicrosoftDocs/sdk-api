@@ -70,7 +70,7 @@ The <b>IBDA_DiseqCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed481bfb-dd80-44fa-bf64-a0f8e903ae35">get_DiseqResponse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693309(v=VS.85).aspx">get_DiseqResponse</a>
 </td>
 <td align="left" width="63%">
 Gets the driver's response to a DiSEqC command.
@@ -80,7 +80,7 @@ Gets the driver's response to a DiSEqC command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09ed3d1d-026a-43b3-863b-a77260e082d8">put_DiseqLNBSource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693310(v=VS.85).aspx">put_DiseqLNBSource</a>
 </td>
 <td align="left" width="63%">
 Sets the low-noise block (LNB) converter source.
@@ -90,7 +90,7 @@ Sets the low-noise block (LNB) converter source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de5cbfa9-1509-47cf-b994-24b5dac76d8e">put_DiseqRepeats</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693311(v=VS.85).aspx">put_DiseqRepeats</a>
 </td>
 <td align="left" width="63%">
 Enables or disables repeated DiSEqC commands.
@@ -100,7 +100,7 @@ Enables or disables repeated DiSEqC commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ee77311-0b1d-43b1-af8e-bb886170701d">put_DiseqSendCommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693312(v=VS.85).aspx">put_DiseqSendCommand</a>
 </td>
 <td align="left" width="63%">
 Sends a DiSEqC command.
@@ -110,7 +110,7 @@ Sends a DiSEqC command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23523ac9-19e0-4247-a697-24d6f1c07285">put_DiseqUseToneBurst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693313(v=VS.85).aspx">put_DiseqUseToneBurst</a>
 </td>
 <td align="left" width="63%">
 Enables or disables Tone-Burst commands.
@@ -119,7 +119,7 @@ Enables or disables Tone-Burst commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d70f5e3c-bd5d-48cf-b4fd-e1ae2ba66f69">put_EnableDiseqCommands</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693314(v=VS.85).aspx">put_EnableDiseqCommands</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the use of DiSEqC commands.

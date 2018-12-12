@@ -140,11 +140,11 @@ This method is used only when remoting the Windows Media Player control. This me
 
 
 
-<a href="https://msdn.microsoft.com/3d9ca91f-c672-4ecb-a6db-67d7e1ddbe7e">IWMPPlayerServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563533(v=VS.85).aspx">IWMPPlayerServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b34ec95-d9a3-4135-b369-39955199ac00">IWMPPlayerServices::setTaskPane</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563537(v=VS.85).aspx">IWMPPlayerServices::setTaskPane</a>
 
 
 

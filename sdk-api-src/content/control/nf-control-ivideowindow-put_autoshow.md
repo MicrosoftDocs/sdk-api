@@ -155,11 +155,11 @@ By default, when the filter graph changes state to paused or running, the video 
 
 
 
-<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f42e37d-af67-4f9e-8a02-d1f4154df391">IVideoWindow::get_AutoShow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377290(v=VS.85).aspx">IVideoWindow::get_AutoShow</a>
  
 
  

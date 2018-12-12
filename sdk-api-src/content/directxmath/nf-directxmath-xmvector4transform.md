@@ -96,7 +96,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/f4782896-74f7-4496-96db-280323b75b71">XMVector4TransformStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404783(v=VS.85).aspx">XMVector4TransformStream</a>
  
 
  

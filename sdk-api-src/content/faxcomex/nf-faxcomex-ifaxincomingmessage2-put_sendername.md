@@ -67,7 +67,7 @@ Contains the name of the sender that is associated with the inbound fax message.
 
 
 
-A received message starts with a null value for the sender when it arrives. A sender can be specified by a <a href="https://msdn.microsoft.com/ede1c31f-e53a-4ddc-ba25-6fcadadd513a">routing assistant</a>when it is re-assigned.
+A received message starts with a null value for the sender when it arrives. A sender can be specified by a <a href="https://msdn.microsoft.com/en-us/library/Aa358860(v=VS.85).aspx">routing assistant</a>when it is re-assigned.
 
 
 
@@ -77,11 +77,11 @@ A received message starts with a null value for the sender when it arrives. A se
 
 
 
-<a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3dc429e-1470-4e7d-8cd5-9cadb0052051">IFaxIncomingMessage2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358995(v=VS.85).aspx">IFaxIncomingMessage2</a>
  
 
  

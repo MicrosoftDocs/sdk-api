@@ -58,7 +58,7 @@ The <b>OnDataUnitEx</b> method is called when the writer has finished sending a 
 
 
 
-<b>OnDataUnitEx</b> is an enhanced version of <a href="https://msdn.microsoft.com/32e52cdb-e7cb-4caf-a202-0d2ff746017c">IWMWriterSink::OnDataUnit</a>. The difference between these two methods is that <b>OnDataUnitEx</b> delivers very granular data unit information. You can examine individual payload headers, payload data fragments, and the packet header.
+<b>OnDataUnitEx</b> is an enhanced version of <a href="https://msdn.microsoft.com/en-us/library/Dd757470(v=VS.85).aspx">IWMWriterSink::OnDataUnit</a>. The difference between these two methods is that <b>OnDataUnitEx</b> delivers very granular data unit information. You can examine individual payload headers, payload data fragments, and the packet header.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The <b>OnDataUnitEx</b> method is called when the writer has finished sending a 
 
 ### -param pFileSinkDataUnit [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/e1deb01f-9f53-4ede-a3e1-13d6dc79adb5">WMT_FILESINK_DATA_UNIT</a> structure containing the data unit information.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd757841(v=VS.85).aspx">WMT_FILESINK_DATA_UNIT</a> structure containing the data unit information.
 
 
 ## -returns
@@ -84,7 +84,7 @@ This method always returns S_OK.
 
 
 
-Applications do not call this method. If you are implementing the <b>IWMWriterFileSink3</b> interface on a custom sink, you have the option of implementing this method. If you do so, your implementation of <a href="https://msdn.microsoft.com/a8a7003e-e59f-451c-9f45-75d6d094a03b">GetMode</a> should return WMT_FM_FILESINK_DATA_UNITS.
+Applications do not call this method. If you are implementing the <b>IWMWriterFileSink3</b> interface on a custom sink, you have the option of implementing this method. If you do so, your implementation of <a href="https://msdn.microsoft.com/en-us/library/Dd798754(v=VS.85).aspx">GetMode</a> should return WMT_FM_FILESINK_DATA_UNITS.
 
 
 
@@ -94,7 +94,7 @@ Applications do not call this method. If you are implementing the <b>IWMWriterFi
 
 
 
-<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3 Interface</a>
  
 
  

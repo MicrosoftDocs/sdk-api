@@ -106,7 +106,7 @@ Bitwise combination of zero or more of the following flags.
 
 ### -param ppNewStream [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a> interface pointer.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> interface pointer.
 
 
 ## -returns
@@ -202,7 +202,7 @@ If the method succeeds, the caller must release the returned <b>IMediaStream</b>
 
 
 
-<a href="https://msdn.microsoft.com/2f604156-68ef-4770-9929-6dbfd46c4d6d">IAMMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream Interface</a>
  
 
  

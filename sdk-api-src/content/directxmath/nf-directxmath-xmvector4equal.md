@@ -107,7 +107,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/9fcc0ef4-b70d-4a2b-b0a3-6e07968f312a">XMVector4EqualR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420961(v=VS.85).aspx">XMVector4EqualR</a>
  
 
  

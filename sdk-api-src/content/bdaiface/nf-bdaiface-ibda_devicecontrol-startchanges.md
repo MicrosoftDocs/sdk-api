@@ -90,7 +90,7 @@ The device filter validates and accumulates all changes requested after <b>Start
 
 
 
-<a href="https://msdn.microsoft.com/41e167b0-100e-41d2-8759-0411a10931ae">IBDA_DeviceControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693278(v=VS.85).aspx">IBDA_DeviceControl Interface</a>
  
 
  

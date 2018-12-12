@@ -113,11 +113,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd812af6-0bdf-4da4-a066-4411d0d9e259">IWMPPlaylist::setItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563580(v=VS.85).aspx">IWMPPlaylist::setItemInfo</a>
  
 
  

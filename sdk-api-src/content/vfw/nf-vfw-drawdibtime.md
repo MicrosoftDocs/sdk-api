@@ -69,7 +69,7 @@ Handle to a DrawDib DC.
 
 ### -param lpddtime
 
-Pointer to a <a href="https://msdn.microsoft.com/ec8a4e04-9e38-4db3-bb2b-838c63284f3a">DRAWDIBTIME</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd797908(v=VS.85).aspx">DRAWDIBTIME</a> structure.
           
 
 

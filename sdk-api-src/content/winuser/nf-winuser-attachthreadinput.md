@@ -109,8 +109,8 @@ The
 <b>AttachThreadInput</b> function also fails if a journal record hook is installed. Journal record hooks attach all input queues together.
 
 Note that key state, which can be ascertained by calls to the 
-<a href="_win32_getkeystate_cpp">GetKeyState</a> or 
-<a href="_win32_getkeyboardstate_cpp">GetKeyboardState</a> function, is reset after a call to 
+<a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a> or 
+<a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a> function, is reset after a call to 
 <b>AttachThreadInput</b>. You cannot attach a thread to a thread in another <a href="https://msdn.microsoft.com/c56cd63b-c260-40d0-9a62-1dee1eb18679">desktop</a>.
 
 
@@ -125,15 +125,15 @@ Note that key state, which can be ascertained by calls to the
 
 
 
-<a href="_win32_getkeystate_cpp">GetKeyState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a>
 
 
 
-<a href="_win32_getkeyboardstate_cpp">GetKeyboardState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>
 
 
 
-<a href="_win32_getwindowthreadprocessid_cpp">GetWindowThreadProcessId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633522(v=VS.85).aspx">GetWindowThreadProcessId</a>
 
 
 
@@ -141,7 +141,7 @@ Note that key state, which can be ascertained by calls to the
 
 
 
-<a href="_win32_setfocus_cpp">SetFocus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376983(v=VS.85).aspx">SetFocus</a>
 
 
 

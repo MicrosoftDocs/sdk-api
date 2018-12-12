@@ -60,9 +60,9 @@ Describes the image and accompanying text for a drop object.
 
 ### -field type
 
-Type: <b><a href="https://msdn.microsoft.com/eeaf8bd4-25ab-4ec3-9da9-9a72ba3813b9">DROPIMAGETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762498(v=VS.85).aspx">DROPIMAGETYPE</a></b>
 
-A <a href="https://msdn.microsoft.com/eeaf8bd4-25ab-4ec3-9da9-9a72ba3813b9">DROPIMAGETYPE</a> indicating the stock image to use.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb762498(v=VS.85).aspx">DROPIMAGETYPE</a> indicating the stock image to use.
 
 
 ### -field szMessage

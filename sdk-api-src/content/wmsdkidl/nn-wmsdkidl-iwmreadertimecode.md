@@ -75,7 +75,7 @@ The <b>IWMReaderTimecode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bc1f21c-0aca-4e45-ac82-898cb8b9f4cc">GetTimecodeRangeBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743578(v=VS.85).aspx">GetTimecodeRangeBounds</a>
 </td>
 <td align="left" width="63%">
 Retrieves the starting and ending time codes for a specified SMPTE time code range.
@@ -84,7 +84,7 @@ Retrieves the starting and ending time codes for a specified SMPTE time code ran
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df58f968-23f8-407b-b18c-569732635464">GetTimecodeRangeCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743580(v=VS.85).aspx">GetTimecodeRangeCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of SMPTE time code ranges for a specified stream.

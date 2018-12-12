@@ -99,7 +99,7 @@ For convenience, Direct2D provides the <a href="https://msdn.microsoft.com/d65ee
 
 #### Examples
 
-The following example calls <a href="https://msdn.microsoft.com/985a4c1b-d29b-46ed-bc55-6dcd313718a8">CreateRadialGradientBrush</a> to create an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>. It uses the <a href="https://msdn.microsoft.com/d65ee26c-28d4-4b58-9089-1aab959246cc">D2D1::RadialGradientBrushProperties</a> helper function to create a <b>D2D1_RADIAL_GRADIENT_BRUSH</b> structure that has a <i>center</i> value of (75, 5), a <i>gradientOriginOffset</i> of (0, 0), and a <i>radiusX</i> and <i>radiusY</i> of to 75 and passes the structure to the <b>CreateRadialGradientBrush</b> method.   When the gradient brush is used to fill a rectangle, it produces output as shown in the following illustration.
+The following example calls <a href="https://msdn.microsoft.com/en-us/library/Dd742842(v=VS.85).aspx">CreateRadialGradientBrush</a> to create an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>. It uses the <a href="https://msdn.microsoft.com/d65ee26c-28d4-4b58-9089-1aab959246cc">D2D1::RadialGradientBrushProperties</a> helper function to create a <b>D2D1_RADIAL_GRADIENT_BRUSH</b> structure that has a <i>center</i> value of (75, 5), a <i>gradientOriginOffset</i> of (0, 0), and a <i>radiusX</i> and <i>radiusY</i> of to 75 and passes the structure to the <b>CreateRadialGradientBrush</b> method.   When the gradient brush is used to fill a rectangle, it produces output as shown in the following illustration.
 
 <img alt="Illustration of a circle with a radial gradient brush" src="./images/brushes_ovw_radials.png"/>
 

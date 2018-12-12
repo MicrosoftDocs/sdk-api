@@ -83,7 +83,7 @@ The size of the structure pointed to by the <i>pFeatureSupportData</i> parameter
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns <b>S_OK</b> if successful. Returns <b>E_INVALIDARG</b> if an unsupported data type is passed to the <i>pFeatureSupportData</i> parameter or if a size mismatch is detected for the <i>FeatureSupportDataSize</i> parameter.
 
@@ -94,7 +94,7 @@ Returns <b>S_OK</b> if successful. Returns <b>E_INVALIDARG</b> if an unsupported
 
 
 
-As a usage example, to check for ray tracing support, specify the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_D3D12_OPTIONS5</a> constant for the <i>Feature</i> parameter, and pass a pointer to  a <a href="https://msdn.microsoft.com/7B786C22-56C1-44A0-BE67-DE04EB367FD2">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a> structure in the <i>pFeatureSupportData</i> parameter. When the function completes successfully, access the <i>RaytracingTier</i> field (which specifies the supported ray tracing tier) of the now-populated <b>D3D12_FEATURE_DATA_D3D12_OPTIONS5</b> structure.
+As a usage example, to check for ray tracing support, specify the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_D3D12_OPTIONS5</a> constant for the <i>Feature</i> parameter, and pass a pointer to  a <a href="https://msdn.microsoft.com/en-us/library/Mt830391(v=VS.85).aspx">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a> structure in the <i>pFeatureSupportData</i> parameter. When the function completes successfully, access the <i>RaytracingTier</i> field (which specifies the supported ray tracing tier) of the now-populated <b>D3D12_FEATURE_DATA_D3D12_OPTIONS5</b> structure.
 
 For more info, see <a href="https://msdn.microsoft.com/ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8">Capability Querying</a>.
 
@@ -115,7 +115,7 @@ To view tables of DXGI formats and hardware features, refer to:
 <a href="https://msdn.microsoft.com/735CDA40-557F-4D47-87B7-97A8E120B9D2">DXGI Format  Support for Direct3D Feature Level 11.0 Hardware</a>
 </li>
 <li>
-<a href="direct3ddxgi.d3d11_graphics_programming_guide_dxgi_hw_formats_10level9">Hardware Support for Direct3D 10Level9 Formats</a>
+<a href="https://msdn.microsoft.com/library/Ff471324(v=VS.85).aspx">Hardware Support for Direct3D 10Level9 Formats</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/011ad888-1c1d-4cbd-ab70-12fb8adc000f">Hardware Support for Direct3D 10.1 Formats</a>

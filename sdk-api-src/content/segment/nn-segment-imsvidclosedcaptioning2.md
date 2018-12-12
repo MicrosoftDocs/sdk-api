@@ -73,7 +73,7 @@ The <b>IMSVidClosedCaptioning2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/165e5c75-3ce1-4b37-b577-5aea4af65019">get_Service</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694468(v=VS.85).aspx">get_Service</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current closed captioning service.
@@ -82,7 +82,7 @@ Retrieves the current closed captioning service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f638a7c3-bd0a-465d-b104-ea0066aec6d6">put_Service</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694469(v=VS.85).aspx">put_Service</a>
 </td>
 <td align="left" width="63%">
 Sets the closed captioning service.

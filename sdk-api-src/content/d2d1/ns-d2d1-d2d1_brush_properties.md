@@ -78,7 +78,7 @@ The transformation that is applied to the brush.
 
 This structure is used when creating a brush. For convenience, Direct2D provides the <a href="https://msdn.microsoft.com/eeb438e4-300a-4d7d-b8bf-91baba4a729e">D2D1::BrushProperties</a> function for creating <b>D2D1_BRUSH_PROPERTIES</b> structures.
 
-After creating a brush, you can change its opacity or transform by calling the <a href="https://msdn.microsoft.com/c2e6df27-4007-4f2e-9567-439dd3842318">SetOpacity</a> or <a href="https://msdn.microsoft.com/57afadc1-88c9-4a5b-a83f-63c4c69182a7">SetTransform</a> methods.
+After creating a brush, you can change its opacity or transform by calling the <a href="https://msdn.microsoft.com/c2e6df27-4007-4f2e-9567-439dd3842318">SetOpacity</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd742690(v=VS.85).aspx">SetTransform</a> methods.
 
 
 
@@ -96,7 +96,7 @@ After creating a brush, you can change its opacity or transform by calling the <
 
 
 
-<a href="https://msdn.microsoft.com/57afadc1-88c9-4a5b-a83f-63c4c69182a7">SetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742690(v=VS.85).aspx">SetTransform</a>
  
 
  

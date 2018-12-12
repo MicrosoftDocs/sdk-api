@@ -75,7 +75,7 @@ The <b>IWMPContentContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a12f6b3-c253-4d07-aa5e-556faa6fbccb">GetContentCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563135(v=VS.85).aspx">GetContentCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of digital media content items in the container.
@@ -84,7 +84,7 @@ Retrieves the count of digital media content items in the container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95519f7e-aa78-4d66-87ba-71978d404412">GetContentID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563136(v=VS.85).aspx">GetContentID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the media item at the specified index in the content container.
@@ -93,7 +93,7 @@ Retrieves the ID of the media item at the specified index in the content contain
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae0a9f37-2337-419e-b912-2102e8eb2a39">GetContentPrice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563137(v=VS.85).aspx">GetContentPrice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the price of the media item at the specified index in the content container.
@@ -102,7 +102,7 @@ Retrieves the price of the media item at the specified index in the content cont
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2b4a5f8-ba53-4914-b8ef-ba9b7b87c52f">GetID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563138(v=VS.85).aspx">GetID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the album or list represented by the content container.
@@ -111,7 +111,7 @@ Retrieves the ID of the album or list represented by the content container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ed27b14-9567-4943-81c3-282316ce1605">GetPrice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563139(v=VS.85).aspx">GetPrice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total price of the album or list represented by the content container.
@@ -120,7 +120,7 @@ Retrieves the total price of the album or list represented by the content contai
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34c8ab5a-1f9f-4a71-9bf8-3b762d065da9">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563140(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the content container.

@@ -73,7 +73,7 @@ Four-character code identifying a specific compressor or a number between zero a
 
 ### -param lpicinfo
 
-Pointer to a <a href="https://msdn.microsoft.com/5faf7022-6dc8-475c-8f5a-721bc5b6afee">ICINFO</a> structure to return information about the compressor.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd743162(v=VS.85).aspx">ICINFO</a> structure to return information about the compressor.
 
 
 ## -returns

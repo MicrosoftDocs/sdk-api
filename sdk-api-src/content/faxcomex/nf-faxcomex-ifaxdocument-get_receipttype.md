@@ -68,7 +68,7 @@ This property is read/write.
 
 The fax service sends a report (a delivery receipt) to the sender of the fax when the fax completes successfully or when the fax transmission fails.
 
-If an email receipt will be sent, an address has to be provided in the <a href="https://msdn.microsoft.com/aa704480-0db8-4b06-9443-74b4d5981fd8">IFaxDocument::get_ReceiptAddress</a> property. If the receipt type is set to <a href="https://msdn.microsoft.com/d334b8e4-bc4f-4f1f-9268-65a2106d3fa6">frtMSGBOX</a>, the message box will appear on the computer from which the document was sent. By default, <b>ReceiptType</b> is set to <a href="https://msdn.microsoft.com/d334b8e4-bc4f-4f1f-9268-65a2106d3fa6">frtNONE</a>, indicating that no receipt will be sent.
+If an email receipt will be sent, an address has to be provided in the <a href="https://msdn.microsoft.com/en-us/library/ms687514(v=VS.85).aspx">IFaxDocument::get_ReceiptAddress</a> property. If the receipt type is set to <a href="https://msdn.microsoft.com/en-us/library/ms688004(v=VS.85).aspx">frtMSGBOX</a>, the message box will appear on the computer from which the document was sent. By default, <b>ReceiptType</b> is set to <a href="https://msdn.microsoft.com/en-us/library/ms688004(v=VS.85).aspx">frtNONE</a>, indicating that no receipt will be sent.
 
 
 
@@ -78,15 +78,15 @@ If an email receipt will be sent, an address has to be provided in the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

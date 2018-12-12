@@ -97,7 +97,7 @@ The method succeeded.
 
 The burn state should be wmpbsReady or wmpbsStopped before calling this method.
 
-This method will not work if the CD drive is not a burner, or if the disc in the drive is not writable. Use <a href="https://msdn.microsoft.com/11876b73-10a1-49e2-ad45-33d9641c3647">IWMPCdromBurn::isAvailable</a> to determine whether a CD can be burned.
+This method will not work if the CD drive is not a burner, or if the disc in the drive is not writable. Use <a href="https://msdn.microsoft.com/en-us/library/Dd563089(v=VS.85).aspx">IWMPCdromBurn::isAvailable</a> to determine whether a CD can be burned.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
@@ -109,15 +109,15 @@ This method will not work if the CD drive is not a burner, or if the disc in the
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6bcb8d6-07ad-4d8f-a94a-6b8c1b7f0c2b">IWMPCdromBurn::get_burnState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563087(v=VS.85).aspx">IWMPCdromBurn::get_burnState</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf001a08-97e9-4f88-919a-54651e3bfd5d">IWMPCdromBurn::stopBurn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563095(v=VS.85).aspx">IWMPCdromBurn::stopBurn</a>
  
 
  

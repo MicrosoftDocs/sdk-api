@@ -63,7 +63,7 @@ The <b>get_VideoStandard</b> method retrieves the format of the analog televisio
 
 ### -param AVS [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> variable that receives the format of the analog television signal.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a> variable that receives the format of the analog television signal.
 
 
 ## -returns

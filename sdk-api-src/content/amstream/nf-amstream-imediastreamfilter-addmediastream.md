@@ -65,7 +65,7 @@ The <code>AddMediaStream</code> method connects a media stream object to the und
 
 ### -param pAMMediaStream [in]
 
-Pointer to the media stream object's <a href="https://msdn.microsoft.com/14185e7d-d08d-4fd8-a255-075eaf12a708">IAMMediaStream</a> interface.
+Pointer to the media stream object's <a href="https://msdn.microsoft.com/en-us/library/Dd319657(v=VS.85).aspx">IAMMediaStream</a> interface.
 
 
 ## -returns
@@ -123,7 +123,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/1ac4976b-7088-47ac-9689-58c143746f05">IMediaStreamFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter Interface</a>
  
 
  

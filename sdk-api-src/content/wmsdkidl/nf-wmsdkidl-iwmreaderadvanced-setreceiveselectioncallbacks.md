@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>SetReceiveSelectionCallbacks</b> method specifies whether stream selection notifications must be sent to <a href="https://msdn.microsoft.com/d0d699b3-e2f3-427c-9159-e2ed875887ca">IWMReaderCallbackAdvanced::OnStreamSelection</a>.
+The <b>SetReceiveSelectionCallbacks</b> method specifies whether stream selection notifications must be sent to <a href="https://msdn.microsoft.com/en-us/library/Dd743501(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnStreamSelection</a>.
 
 
 
@@ -113,11 +113,11 @@ No callback interface has been specified.
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7923564d-23d5-4163-9316-347c466c7dc0">IWMReaderAdvanced::GetReceiveSelectionCallbacks</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743475(v=VS.85).aspx">IWMReaderAdvanced::GetReceiveSelectionCallbacks</a>
  
 
  

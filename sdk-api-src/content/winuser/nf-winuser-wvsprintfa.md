@@ -53,9 +53,9 @@ req.redist:
 
 
 Writes formatted data to the specified buffer using a pointer to a list of arguments. The items pointed to by the argument list are converted and copied to an output buffer according to the corresponding format specification in the format-control string. The function appends a terminating null character to the characters it writes, but the return value does not include the terminating null character in its character count.
-<div class="alert"><b>Warning</b>  Do not use. Consider using one of the following functions instead: <a href="https://msdn.microsoft.com/d6985910-65be-4b68-b410-026cef66c651">StringCbVPrintf</a>, 
-				<a href="https://msdn.microsoft.com/36f77c17-6244-4357-9361-a04118fcd820">StringCbVPrintfEx</a>, <a href="https://msdn.microsoft.com/82cc5a7c-e4c5-4a88-9bb5-d3f02dc3d7f5">StringCchVPrintf</a>, or
-				<a href="https://msdn.microsoft.com/07b4eb68-2b50-4c66-af1a-13cc57144e3a">StringCchVPrintfEx</a>. See Security Considerations.</div><div> </div>
+<div class="alert"><b>Warning</b>  Do not use. Consider using one of the following functions instead: <a href="https://msdn.microsoft.com/en-us/library/ms647514(v=VS.85).aspx">StringCbVPrintf</a>, 
+				<a href="https://msdn.microsoft.com/en-us/library/ms647516(v=VS.85).aspx">StringCbVPrintfEx</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647546(v=VS.85).aspx">StringCchVPrintf</a>, or
+				<a href="https://msdn.microsoft.com/en-us/library/ms647548(v=VS.85).aspx">StringCchVPrintfEx</a>. See Security Considerations.</div><div> </div>
 
 ## -parameters
 
@@ -73,7 +73,7 @@ The buffer that is to receive the formatted output. The maximum size of the buff
 
 Type: <b>LPCTSTR</b>
 
-The format-control specifications. In addition to ordinary ASCII characters, a format specification for each argument appears in this string. For more information about the format specification, see the <a href="https://msdn.microsoft.com/5f373cb3-8cb9-4516-8a18-8971bb430d42">wsprintf</a> function.
+The format-control specifications. In addition to ordinary ASCII characters, a format specification for each argument appears in this string. For more information about the format specification, see the <a href="https://msdn.microsoft.com/en-us/library/ms647550(v=VS.85).aspx">wsprintf</a> function.
 
 
 ### -param arglist [in]
@@ -119,43 +119,43 @@ The function copies the format-control string into the output buffer character b
 
 
 
-<a href="https://msdn.microsoft.com/224c8840-06c6-4144-8f23-8705ac8ef887">StringCbPrintf</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647510(v=VS.85).aspx">StringCbPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/525e1fb5-9dfd-4ec2-a4af-9b9e198b6e17">StringCbPrintfEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647513(v=VS.85).aspx">StringCbPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6985910-65be-4b68-b410-026cef66c651">StringCbVPrintf</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647514(v=VS.85).aspx">StringCbVPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/36f77c17-6244-4357-9361-a04118fcd820">StringCbVPrintfEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647516(v=VS.85).aspx">StringCbVPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9eaafe87-04da-4273-babb-b16d26bfdf70">StringCchPrintf</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3904cd0-fcb9-4b54-9895-513a95f4a6f7">StringCchPrintfEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647543(v=VS.85).aspx">StringCchPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/82cc5a7c-e4c5-4a88-9bb5-d3f02dc3d7f5">StringCchVPrintf</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647546(v=VS.85).aspx">StringCchVPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/07b4eb68-2b50-4c66-af1a-13cc57144e3a">StringCchVPrintfEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647548(v=VS.85).aspx">StringCchVPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f373cb3-8cb9-4516-8a18-8971bb430d42">wsprintf</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647550(v=VS.85).aspx">wsprintf</a>
  
 
  

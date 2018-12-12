@@ -90,19 +90,19 @@ The reader will stream files from network locations.
 
 
 
-<a href="https://msdn.microsoft.com/06bff83f-c3f2-4eca-85dd-7e7b93cfd73d">IWMReaderAdvanced2::GetDownloadProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757432(v=VS.85).aspx">IWMReaderAdvanced2::GetDownloadProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/45c7e2c2-fff4-41a9-b5ce-76d8d6257e77">IWMReaderAdvanced2::GetPlayMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757435(v=VS.85).aspx">IWMReaderAdvanced2::GetPlayMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/97bdac1f-8830-45c0-9229-322ad72b3954">IWMReaderAdvanced2::SaveFileAs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757440(v=VS.85).aspx">IWMReaderAdvanced2::SaveFileAs</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1b20a0c-fedf-46d4-a76b-7596dcf8fcf8">IWMReaderAdvanced2::SetPlayMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757443(v=VS.85).aspx">IWMReaderAdvanced2::SetPlayMode</a>
  
 
  

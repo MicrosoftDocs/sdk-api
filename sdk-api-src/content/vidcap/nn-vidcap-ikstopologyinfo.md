@@ -73,7 +73,7 @@ The <b>IKsTopologyInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2c7ea1d-abd6-4179-b5b7-d89837ceecd7">CreateNodeInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390149(v=VS.85).aspx">CreateNodeInstance</a>
 </td>
 <td align="left" width="63%">
 Creates a COM object that represents a node in the filter.
@@ -82,7 +82,7 @@ Creates a COM object that represents a node in the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1026ec92-1ccd-4658-b217-3dbc2ee9ca3a">get_Category</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390150(v=VS.85).aspx">get_Category</a>
 </td>
 <td align="left" width="63%">
 Returns one of the filter categories for this stream class driver.
@@ -91,7 +91,7 @@ Returns one of the filter categories for this stream class driver.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef062e0f-0866-48ca-bd27-26000cd4983a">get_ConnectionInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390151(v=VS.85).aspx">get_ConnectionInfo</a>
 </td>
 <td align="left" width="63%">
 Returns information about one node connection in the filter.
@@ -100,7 +100,7 @@ Returns information about one node connection in the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e24ef6f-e49d-4397-a9b8-a46fcf576a01">get_NodeName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390152(v=VS.85).aspx">get_NodeName</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the node.
@@ -109,7 +109,7 @@ Returns the name of the node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6606d563-6a35-4595-8bb2-6cf74f7af4e7">get_NodeType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390153(v=VS.85).aspx">get_NodeType</a>
 </td>
 <td align="left" width="63%">
 Returns the node type for a given node.
@@ -118,7 +118,7 @@ Returns the node type for a given node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86bbe461-37c1-4dbc-bebd-fa8784d49083">get_NumCategories</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390154(v=VS.85).aspx">get_NumCategories</a>
 </td>
 <td align="left" width="63%">
 Returns the number of categories for this filter.
@@ -127,7 +127,7 @@ Returns the number of categories for this filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55f52b02-2768-4c59-9275-96e238ccf3f0">get_NumConnections</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390155(v=VS.85).aspx">get_NumConnections</a>
 </td>
 <td align="left" width="63%">
 Returns the number of node connections within the filter.
@@ -136,7 +136,7 @@ Returns the number of node connections within the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fdba99d5-fd44-4d4f-8575-867d98bf3339">get_NumNodes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390156(v=VS.85).aspx">get_NumNodes</a>
 </td>
 <td align="left" width="63%">
 Returns the number of nodes in the filter.
@@ -154,7 +154,7 @@ In the Windows Driver Model, a kernel-streaming (KS) filter contains one or more
 
 <img alt="KsFilter nodes" border="0" src="./images/ksproxynodes.png"/>
 
-Some devices also support the <a href="https://msdn.microsoft.com/bd6e028c-ed6d-4dad-a276-c59ba9d88e87">ISelector</a> interface for selecting input nodes. For example, if a video capture device has a camera and a tape transport, these could be represented as two nodes (see the previous diagram).
+Some devices also support the <a href="https://msdn.microsoft.com/en-us/library/Dd377075(v=VS.85).aspx">ISelector</a> interface for selecting input nodes. For example, if a video capture device has a camera and a tape transport, these could be represented as two nodes (see the previous diagram).
 
 Include Vidcap.h from the Windows SDK or from the DirectX 9.0 SDK Update (Summer 2004) or later.
 

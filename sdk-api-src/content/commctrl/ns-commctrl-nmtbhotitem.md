@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/49e68e2a-d9c0-463d-954d-34c9adfad62b">TBN_HOTITEMCHANGE</a> notification code. 
+Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787274(v=VS.85).aspx">TBN_HOTITEMCHANGE</a> notification code. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information used with the <a href="https://msdn.microsoft.com/49e68e2a-
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field idOld
@@ -169,7 +169,7 @@ The change in the hot item resulted from a mouse event.
 </dl>
 </td>
 <td width="60%">
-The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the <a href="https://msdn.microsoft.com/15005741-29d2-48c6-b5f0-15178a49b917">TB_SETHOTITEM</a> message. 
+The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the <a href="https://msdn.microsoft.com/en-us/library/Bb787431(v=VS.85).aspx">TB_SETHOTITEM</a> message. 
 
 </td>
 </tr>

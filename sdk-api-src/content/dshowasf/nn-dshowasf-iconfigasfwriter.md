@@ -75,7 +75,7 @@ The <b>IConfigAsfWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89156f64-7a20-4226-9f01-5b1bd4a1fe98">ConfigureFilterUsingProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312023(v=VS.85).aspx">ConfigureFilterUsingProfile</a>
 </td>
 <td align="left" width="63%">
 Sets an ASF profile on the WM ASF Writer filter.
@@ -84,7 +84,7 @@ Sets an ASF profile on the WM ASF Writer filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8cfb3b22-aa6b-42e0-bbb5-876932e8bd82">ConfigureFilterUsingProfileGuid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312024(v=VS.85).aspx">ConfigureFilterUsingProfileGuid</a>
 </td>
 <td align="left" width="63%">
 Sets a predefined system profile on the filter. (Deprecated.)
@@ -93,7 +93,7 @@ Sets a predefined system profile on the filter. (Deprecated.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e532001a-e2ff-4ad4-8fef-2fa5b051d1f5">ConfigureFilterUsingProfileId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312025(v=VS.85).aspx">ConfigureFilterUsingProfileId</a>
 </td>
 <td align="left" width="63%">
 Sets a Windows Media Format 4.0 profile on the filter. (Deprecated.)
@@ -102,7 +102,7 @@ Sets a Windows Media Format 4.0 profile on the filter. (Deprecated.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91">GetCurrentProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312026(v=VS.85).aspx">GetCurrentProfile</a>
 </td>
 <td align="left" width="63%">
 Retrieves the application-defined ASF profile.
@@ -111,7 +111,7 @@ Retrieves the application-defined ASF profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8958f8d3-40ff-44b1-a817-5dca30636306">GetCurrentProfileGuid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312027(v=VS.85).aspx">GetCurrentProfileGuid</a>
 </td>
 <td align="left" width="63%">
 Retrieves the GUID of the filter's current system profile, if any. (Deprecated.)
@@ -120,7 +120,7 @@ Retrieves the GUID of the filter's current system profile, if any. (Deprecated.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37288625-368f-41d4-bfdc-bb2fd144f455">GetCurrentProfileId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312028(v=VS.85).aspx">GetCurrentProfileId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the filter's profile, only when the filter is using a Windows Media Format 4.0 profile. (Deprecated.)
@@ -129,7 +129,7 @@ Retrieves the identifier of the filter's profile, only when the filter is using 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/70d9a2e7-2f5a-4f87-b42c-3a225c42a44b">GetIndexMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312029(v=VS.85).aspx">GetIndexMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current index mode.
@@ -138,7 +138,7 @@ Retrieves the current index mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7f5d13a-d36e-4da2-babc-0446e5697b61">SetIndexMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312030(v=VS.85).aspx">SetIndexMode</a>
 </td>
 <td align="left" width="63%">
 Enables the application to control whether the file will be indexed and therefore seekable.

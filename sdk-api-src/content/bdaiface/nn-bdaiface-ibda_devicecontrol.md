@@ -52,7 +52,7 @@ req.redist:
 
 The <b>IBDA_DeviceControl</b> interface is implemented on all BDA device filters. 
 
-The methods provided by this interface are called by a Network Provider to control a BDA device. Each instance of a device has one transaction list. A Network Provider first calls the <a href="https://msdn.microsoft.com/989cdd9b-ea5b-4a80-b157-9469a210b966">StartChanges</a> method. This deletes any previous uncommitted changes that were still pending. Then a Network Provider modifies whatever properties on the filter are required for the particular tuning operation. Then it calls the <a href="https://msdn.microsoft.com/e4654041-d17b-4b1b-9d0f-23c00b0090ea">CheckChanges</a> method to determine whether the modifications will be successful, without instructing the filter to actually make the changes. If this call succeeds, then a Network Provider calls <a href="https://msdn.microsoft.com/1f55346b-1d32-4eb9-84ef-4671cdd2bc61">CommitChanges</a> to cause the filter to actually modify the specified properties. For more information, see "Changing BDA Filter Properties" in the Windows DDK.
+The methods provided by this interface are called by a Network Provider to control a BDA device. Each instance of a device has one transaction list. A Network Provider first calls the <a href="https://msdn.microsoft.com/en-us/library/Dd693282(v=VS.85).aspx">StartChanges</a> method. This deletes any previous uncommitted changes that were still pending. Then a Network Provider modifies whatever properties on the filter are required for the particular tuning operation. Then it calls the <a href="https://msdn.microsoft.com/en-us/library/Dd693279(v=VS.85).aspx">CheckChanges</a> method to determine whether the modifications will be successful, without instructing the filter to actually make the changes. If this call succeeds, then a Network Provider calls <a href="https://msdn.microsoft.com/en-us/library/Dd693280(v=VS.85).aspx">CommitChanges</a> to cause the filter to actually modify the specified properties. For more information, see "Changing BDA Filter Properties" in the Windows DDK.
 
 <b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://msdn.microsoft.com/7b641b94-9854-4ca8-8362-a9e1e49bbdd2">OCUR Devices</a>.
 
@@ -74,7 +74,7 @@ The <b>IBDA_DeviceControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4654041-d17b-4b1b-9d0f-23c00b0090ea">CheckChanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693279(v=VS.85).aspx">CheckChanges</a>
 </td>
 <td align="left" width="63%">
 Queries the device filter as to whether the changes that are pending would succeed if they were committed.
@@ -83,16 +83,16 @@ Queries the device filter as to whether the changes that are pending would succe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f55346b-1d32-4eb9-84ef-4671cdd2bc61">CommitChanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693280(v=VS.85).aspx">CommitChanges</a>
 </td>
 <td align="left" width="63%">
-Instructs the device to perform the changes specified in the previous call to <a href="https://msdn.microsoft.com/989cdd9b-ea5b-4a80-b157-9469a210b966">StartChanges</a>.
+Instructs the device to perform the changes specified in the previous call to <a href="https://msdn.microsoft.com/en-us/library/Dd693282(v=VS.85).aspx">StartChanges</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17a36763-552a-44dc-8068-90f1b8fe09e5">GetChangeState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693281(v=VS.85).aspx">GetChangeState</a>
 </td>
 <td align="left" width="63%">
 Returns a value indicating whether any uncommitted changes are currently pending in the filter.
@@ -101,7 +101,7 @@ Returns a value indicating whether any uncommitted changes are currently pending
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/989cdd9b-ea5b-4a80-b157-9469a210b966">StartChanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693282(v=VS.85).aspx">StartChanges</a>
 </td>
 <td align="left" width="63%">
 Called by a Network Provider before it begins to modify a set of properties on a BDA device filter.

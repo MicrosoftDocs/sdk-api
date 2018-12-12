@@ -117,15 +117,15 @@ Before calling this method, you must have full access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/bf975a30-dfb1-4994-9095-510a6b997aff">IWMPMediaCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/646d2e3c-623b-4040-af82-1cefac6fc1ae">IWMPMediaCollection::remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563421(v=VS.85).aspx">IWMPMediaCollection::remove</a>
 
 
 
-<a href="https://msdn.microsoft.com/421a1bd3-65c1-4d8f-be75-918b1cfa06d2">IWMPPlaylistCollection::importPlaylist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563556(v=VS.85).aspx">IWMPPlaylistCollection::importPlaylist</a>
  
 
  

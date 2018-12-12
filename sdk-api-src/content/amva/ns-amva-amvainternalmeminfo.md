@@ -73,7 +73,7 @@ Amount of scratch memory the HAL will allocate for its private use.
 
 
 
-<a href="https://msdn.microsoft.com/64b6371c-4baf-4ec1-bd0d-6413f053e2fa">IAMVideoAccelerator::GetInternalMemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376006(v=VS.85).aspx">IAMVideoAccelerator::GetInternalMemInfo</a>
  
 
  

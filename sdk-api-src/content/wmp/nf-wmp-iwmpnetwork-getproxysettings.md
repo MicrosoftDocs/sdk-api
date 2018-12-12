@@ -141,11 +141,11 @@ This method fails unless the calling application is running on the local compute
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ce07bf8-8521-4240-9859-3bf790ccbf48">IWMPNetwork::setProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563491(v=VS.85).aspx">IWMPNetwork::setProxySettings</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/9b491832-42cc-4262-8f6c-23cbc2c889bf">LVM_SETCOLUMNORDERARRAY</a> message explicitly. 
+Sets the left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761161(v=VS.85).aspx">LVM_SETCOLUMNORDERARRAY</a> message explicitly. 
 
 
 ## -parameters

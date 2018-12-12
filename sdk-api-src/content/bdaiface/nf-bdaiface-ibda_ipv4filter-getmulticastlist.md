@@ -98,7 +98,7 @@ The declaration of <i>pAddressList</i> is not COM compliant. As a workaround, th
 
 
 
-<a href="https://msdn.microsoft.com/3db86e21-6d05-4b7f-be83-a3fa506a0e3b">IBDA_IPV4Filter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693382(v=VS.85).aspx">IBDA_IPV4Filter Interface</a>
  
 
  

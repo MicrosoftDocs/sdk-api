@@ -170,16 +170,16 @@ You can use HLSL intrinsic texture-sampling functions that implement texture fil
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/788ba4b4-8013-411f-9a19-fb9983386fa0">sample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb509695(v=VS.85).aspx">sample</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/e21894c4-e8c5-4c3d-92c1-727964f8fd94">samplecmp</a> or <a href="https://msdn.microsoft.com/cecfc5e8-d293-4e0e-a3f4-b23f84843b7d">samplecmplevelzero</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">samplecmp</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">samplecmplevelzero</a>
 </td>
 </tr>
 </table>
  
 
-Comparison filters only work with textures that have the following <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">formats</a>: R32_FLOAT_X8X24_TYPELESS, R32_FLOAT, R24_UNORM_X8_TYPELESS, R16_UNORM.
+Comparison filters only work with textures that have the following <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">formats</a>: R32_FLOAT_X8X24_TYPELESS, R32_FLOAT, R24_UNORM_X8_TYPELESS, R16_UNORM.
 
 
 
@@ -189,7 +189,7 @@ Comparison filters only work with textures that have the following <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

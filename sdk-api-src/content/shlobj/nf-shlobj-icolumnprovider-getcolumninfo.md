@@ -67,9 +67,9 @@ The column's zero-based index. It is an arbitrary value that is used to enumerat
 
 ### -param psci [out]
 
-Type: <b><a href="https://msdn.microsoft.com/6d7caeca-38fe-4477-a278-abf483d8d42c">SHCOLUMNINFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb759751(v=VS.85).aspx">SHCOLUMNINFO</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/6d7caeca-38fe-4477-a278-abf483d8d42c">SHCOLUMNINFO</a> structure to hold the column information.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb759751(v=VS.85).aspx">SHCOLUMNINFO</a> structure to hold the column information.
 
 
 ## -returns

@@ -112,7 +112,7 @@ The request was already canceled.
 
 
 
-<a href="https://msdn.microsoft.com/8161932a-16aa-4700-b91d-b4d8948ad59f">IDeferredCommand Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406762(v=VS.85).aspx">IDeferredCommand Interface</a>
  
 
  

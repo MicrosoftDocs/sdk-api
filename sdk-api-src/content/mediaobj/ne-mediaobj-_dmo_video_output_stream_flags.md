@@ -75,7 +75,7 @@ Requests that every output buffer passed to the DMO contain the previous data th
 
 
 
-<a href="https://msdn.microsoft.com/1e87d0e1-68be-4f86-aae2-cff3edfa573b">IDMOVideoOutputOptimizations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406843(v=VS.85).aspx">IDMOVideoOutputOptimizations</a>
  
 
  

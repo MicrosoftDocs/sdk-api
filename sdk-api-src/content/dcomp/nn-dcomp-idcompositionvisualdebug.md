@@ -55,7 +55,7 @@ Represents a debug visual.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisualDebug</b> interface inherits from <a href="https://msdn.microsoft.com/D4D04A43-BF00-482A-9CDD-A476BD1CB953">IDCompositionVisual2</a>. <b>IDCompositionVisualDebug</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisualDebug</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn280426(v=VS.85).aspx">IDCompositionVisual2</a>. <b>IDCompositionVisualDebug</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDCompositionVisualDebug</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C186E930-4523-4DF7-8E74-B69AF91622F4">DisableHeatMap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280430(v=VS.85).aspx">DisableHeatMap</a>
 </td>
 <td align="left" width="63%">
 Disables visual heatmaps.
@@ -79,7 +79,7 @@ Disables visual heatmaps.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5F1712D4-B3F4-475E-9AB0-868B1DCB8F42">DisableRedrawRegions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280431(v=VS.85).aspx">DisableRedrawRegions</a>
 </td>
 <td align="left" width="63%">
 Disables visual redraw regions.
@@ -88,7 +88,7 @@ Disables visual redraw regions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9512959B-561F-4B43-9C7E-37174CC642EB">EnableHeatMap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280432(v=VS.85).aspx">EnableHeatMap</a>
 </td>
 <td align="left" width="63%">
 Enables a visual heatmap that represents overdraw regions.
@@ -97,7 +97,7 @@ Enables a visual heatmap that represents overdraw regions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71591ABF-7B7F-4A8D-9FE2-EC5412ACB3EE">EnableRedrawRegions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280433(v=VS.85).aspx">EnableRedrawRegions</a>
 </td>
 <td align="left" width="63%">
 Enables highlighting visuals when content is being redrawn.
@@ -112,7 +112,7 @@ Enables highlighting visuals when content is being redrawn.
 
 
 
-<a href="https://msdn.microsoft.com/D4D04A43-BF00-482A-9CDD-A476BD1CB953">IDCompositionVisual2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280426(v=VS.85).aspx">IDCompositionVisual2</a>
  
 
  

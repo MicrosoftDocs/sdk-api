@@ -113,7 +113,7 @@ The operation was not successful. For more information about the error, call the
 </dl>
 </td>
 <td width="60%">
-All of the resources in the group are <a href="o_gly.htm">online</a>.
+All of the resources in the group are <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">online</a>.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ All of the resources in the group are <a href="o_gly.htm">online</a>.
 </dl>
 </td>
 <td width="60%">
-All of the resources in the group are <a href="o_gly.htm">offline</a> or 
+All of the resources in the group are <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">offline</a> or 
          there are no resources in the group.
 
 </td>
@@ -152,8 +152,8 @@ At least one <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9b
 </td>
 <td width="60%">
 At least one resource in the group is online. No resources are 
-         <a href="p_gly.htm">pending</a> or 
-         <a href="f_gly.htm">failed</a>.
+         <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">pending</a> or 
+         <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS.85).aspx">failed</a>.
 
 </td>
 </tr>

@@ -74,7 +74,7 @@ Number of segments in the envelope.
 
 ### -param pEnvelopeSegments [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/b7386b63-c563-42dd-851c-780bf1043f65">MP_ENVELOPE_SEGMENT</a> structures that define the envelope segments. The size of the array is given in the <i>cPoints</i> parameter.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd390744(v=VS.85).aspx">MP_ENVELOPE_SEGMENT</a> structures that define the envelope segments. The size of the array is given in the <i>cPoints</i> parameter.
 
 
 ## -returns
@@ -144,7 +144,7 @@ Success.
 
 The caller should add envelopes in time-ascending order. Otherwise, the results on playback are indeterminate. If one envelope overlaps another, the later envelope takes precedence.
 
-To enumerate the parameters supported by this object, along with their index values, use the <a href="https://msdn.microsoft.com/80c7da71-7898-4bda-a181-09ad8906532a">IMediaParamInfo</a> interface.
+To enumerate the parameters supported by this object, along with their index values, use the <a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo</a> interface.
 
 
 #### Examples
@@ -197,7 +197,7 @@ This example assumes that the caller has previous used the <b>IMediaParamInfo</b
 
 
 
-<a href="https://msdn.microsoft.com/68ea8f6a-4b6d-4d79-a986-6032b767147b">IMediaParams Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406971(v=VS.85).aspx">IMediaParams Interface</a>
  
 
  

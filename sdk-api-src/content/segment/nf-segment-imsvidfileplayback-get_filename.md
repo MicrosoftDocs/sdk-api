@@ -105,7 +105,7 @@ The caller must release the returned string, using the <b>CoTaskMemFree</b> func
 
 
 
-<a href="https://msdn.microsoft.com/d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5">IMSVidFilePlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694551(v=VS.85).aspx">IMSVidFilePlayback Interface</a>
  
 
  

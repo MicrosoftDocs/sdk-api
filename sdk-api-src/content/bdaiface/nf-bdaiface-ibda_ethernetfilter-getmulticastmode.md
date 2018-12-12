@@ -93,11 +93,11 @@ See the Windows DDK for possible values.
 
 
 
-<a href="https://msdn.microsoft.com/f4f9d6c0-0acf-416b-adb3-643ac0167d0a">IBDA_EthernetFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693329(v=VS.85).aspx">IBDA_EthernetFilter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/01694aba-6b43-46da-a35c-7f3f5befecad">PutMulticastMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693344(v=VS.85).aspx">PutMulticastMode</a>
  
 
  

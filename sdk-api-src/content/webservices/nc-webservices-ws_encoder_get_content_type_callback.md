@@ -149,7 +149,7 @@ The content type and content encoding returned must remain valid until the
               callback is invoked again, or the encoder is freed.
             
 
-For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>, if a non-zero length content encoding
+For <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_HTTP_CHANNEL_BINDING</a>, if a non-zero length content encoding
               is returned, the HTTP header "Content-Encoding" will be added to the message
               with this value.
             

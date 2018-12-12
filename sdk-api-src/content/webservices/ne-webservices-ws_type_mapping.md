@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-How a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> maps to or from XML when serialized
+How a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a> maps to or from XML when serialized
                 or deserialized.
             
 
@@ -162,7 +162,7 @@ WsReadType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)</code></pre>
 
 
 
-See the documentation for each <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> 
+See the documentation for each <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a> 
                 for which <b>WS_TYPE_MAPPING</b> values are supported.
             
 

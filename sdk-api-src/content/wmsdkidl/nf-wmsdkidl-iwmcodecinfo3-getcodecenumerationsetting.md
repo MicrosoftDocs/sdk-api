@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetCodecEnumerationSetting</b> method retrieves the current value for one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of <a href="https://msdn.microsoft.com/70661d13-737a-4e83-94e6-9a1af07b0369">IWMCodecInfo</a>. You can change codec enumeration settings in order to retrieve codec formats supporting specific features by calling <a href="https://msdn.microsoft.com/5b4883b8-63c0-40ff-b13f-303d30ebfe15">IWMCodecInfo3::SetCodecEnumerationSetting</a>.
+The <b>GetCodecEnumerationSetting</b> method retrieves the current value for one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of <a href="https://msdn.microsoft.com/en-us/library/Dd743313(v=VS.85).aspx">IWMCodecInfo</a>. You can change codec enumeration settings in order to retrieve codec formats supporting specific features by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743321(v=VS.85).aspx">IWMCodecInfo3::SetCodecEnumerationSetting</a>.
 
 
 
@@ -89,7 +89,7 @@ GUID identifying the major type of digital media. This must be one of the follow
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/873f8d03-5d7b-424c-91f3-e7c8156565be">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743324(v=VS.85).aspx">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 
 ### -param pszName [in]
@@ -121,7 +121,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the name of
 
 ### -param pType [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration value specifying the data type of the value returned in <i>pValue</i>.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration value specifying the data type of the value returned in <i>pValue</i>.
 
 
 ### -param pValue [out]
@@ -178,11 +178,11 @@ The enumeration setting specified is not valid for the codec.
 
 
 
-<a href="https://msdn.microsoft.com/fd882612-1f60-4b51-a180-0d34d78c99dd">IWMCodecInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743317(v=VS.85).aspx">IWMCodecInfo3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b4883b8-63c0-40ff-b13f-303d30ebfe15">SetCodecEnumerationSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743321(v=VS.85).aspx">SetCodecEnumerationSetting</a>
  
 
  

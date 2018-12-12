@@ -75,7 +75,7 @@ The <b>IBDA_Topology</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ced0f8a8-7a34-4357-8795-491e60a22e91">CreatePin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693448(v=VS.85).aspx">CreatePin</a>
 </td>
 <td align="left" width="63%">
 Creates an instance of a specified pin type.
@@ -84,7 +84,7 @@ Creates an instance of a specified pin type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c91e614-b1b4-4cf5-90d2-15823e5952cb">CreateTopology</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693449(v=VS.85).aspx">CreateTopology</a>
 </td>
 <td align="left" width="63%">
 Associates an instance of an input pin with an instance of an output pin.
@@ -93,7 +93,7 @@ Associates an instance of an input pin with an instance of an output pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ec81e3a-e4f2-4809-9574-8efe6240cfba">DeletePin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693450(v=VS.85).aspx">DeletePin</a>
 </td>
 <td align="left" width="63%">
 Deletes a pin from the filter's topology.
@@ -102,7 +102,7 @@ Deletes a pin from the filter's topology.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eff76633-10c0-4f71-a267-b2e454dcfa6c">GetControlNode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693451(v=VS.85).aspx">GetControlNode</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IUnknown</b> interface pointer for a specified control node.
@@ -111,7 +111,7 @@ Retrieves an <b>IUnknown</b> interface pointer for a specified control node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4bbfa1d1-7101-4ca6-b6dc-e66b3c49857d">GetNodeDescriptors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693452(v=VS.85).aspx">GetNodeDescriptors</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of descriptors for the nodes in the topology.
@@ -120,7 +120,7 @@ Retrieves a list of descriptors for the nodes in the topology.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3dc4b38-933c-4aeb-b6eb-7273ce334ba2">GetNodeInterfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693453(v=VS.85).aspx">GetNodeInterfaces</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the interfaces supported by a node type.
@@ -129,7 +129,7 @@ Retrieves a list of the interfaces supported by a node type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6912cd69-76c2-4dae-bda3-42139acffe4c">GetNodeTypes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693454(v=VS.85).aspx">GetNodeTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all the node types in the template topology for this filter and network type.
@@ -138,7 +138,7 @@ Retrieves a list of all the node types in the template topology for this filter 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e94c5ae3-1d5f-4ca6-a09b-7190cbe2035b">GetPinTypes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693455(v=VS.85).aspx">GetPinTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all the pin types in the template topology for this filter and network type.
@@ -147,7 +147,7 @@ Retrieves a list of all the pin types in the template topology for this filter a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eeceee7f-8e0f-4852-a69d-eced9772df1a">GetTemplateConnections</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693456(v=VS.85).aspx">GetTemplateConnections</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all template connections that appear in the template topology for this filter and network type.
@@ -156,7 +156,7 @@ Retrieves a list of all template connections that appear in the template topolog
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69cedd00-3a32-4fb9-91af-2980c314324f">SetMediaType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693457(v=VS.85).aspx">SetMediaType</a>
 </td>
 <td align="left" width="63%">
 Configures the media types that can be accepted by a particular pin.
@@ -165,7 +165,7 @@ Configures the media types that can be accepted by a particular pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2997929-d0a9-4732-8a8f-8f94c413fae5">SetMedium</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693458(v=VS.85).aspx">SetMedium</a>
 </td>
 <td align="left" width="63%">
 Configures the media types that can be accepted by a particular pin.

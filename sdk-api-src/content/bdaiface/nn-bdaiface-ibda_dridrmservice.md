@@ -72,7 +72,7 @@ The <b>IBDA_DRIDRMService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/145e4716-05e1-41b8-98f3-72e719ca8b9f">GetDRMStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd797841(v=VS.85).aspx">GetDRMStatus</a>
 </td>
 <td align="left" width="63%">
 Gets status information about the supported DRM services  that are set for an MTD. 
@@ -82,7 +82,7 @@ Gets status information about the supported DRM services  that are set for an MT
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01918e99-17e6-4c24-bb85-ba71cf68cf09">GetPairingStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd797842(v=VS.85).aspx">GetPairingStatus</a>
 </td>
 <td align="left" width="63%">
 Gets status information about secure pairing between an MTD and an MSD in the graph.
@@ -92,7 +92,7 @@ Gets status information about secure pairing between an MTD and an MSD in the gr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95e59f33-0ff4-4618-b1e8-c43fe60b9434">SetDRM</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd797843(v=VS.85).aspx">SetDRM</a>
 </td>
 <td align="left" width="63%">
 Sets the DRM service used by an MTD.

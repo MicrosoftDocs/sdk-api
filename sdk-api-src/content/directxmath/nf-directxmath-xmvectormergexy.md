@@ -111,7 +111,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/0d91dd53-4c2c-40fa-ad91-999cfa74f33f">XMVectorMergeZW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421180(v=VS.85).aspx">XMVectorMergeZW</a>
  
 
  

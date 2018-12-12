@@ -121,7 +121,7 @@ Pointer to array of UCS-4 characters.
 
 
 
-<a href="https://msdn.microsoft.com/901fd8e5-1602-4e20-9269-d0c3fe661e45">TTVALIDATIONTESTSPARAMS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd145161(v=VS.85).aspx">TTVALIDATIONTESTSPARAMS</a>
  
 
  

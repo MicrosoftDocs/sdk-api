@@ -78,7 +78,7 @@ The <b>IWMLicenseRestore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8a39804-5ee6-43ab-8e89-d1008217622d">CancelLicenseRestore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757223(v=VS.85).aspx">CancelLicenseRestore</a>
 </td>
 <td align="left" width="63%">
 Cancels a current restore operation.
@@ -87,7 +87,7 @@ Cancels a current restore operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d645b3a-e856-4745-b80a-89a3bc2b38bd">RestoreLicenses</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757224(v=VS.85).aspx">RestoreLicenses</a>
 </td>
 <td align="left" width="63%">
 Restores licenses that were previously backed up.
@@ -104,13 +104,13 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3a5af1f3-e652-4729-931b-d0702af408f3">IWMBackupRestoreProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743291(v=VS.85).aspx">IWMBackupRestoreProps</a>
 </td>
 <td>IID_IWMBackupRestoreProps</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4ef43b7e-706b-48f6-80ba-7d0a59c3929a">IWMLicenseBackup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757218(v=VS.85).aspx">IWMLicenseBackup</a>
 </td>
 <td>IID_IWMLicenseBackup</td>
 </tr>
@@ -130,11 +130,11 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/3a5af1f3-e652-4729-931b-d0702af408f3">IWMBackupRestoreProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743291(v=VS.85).aspx">IWMBackupRestoreProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ef43b7e-706b-48f6-80ba-7d0a59c3929a">IWMLicenseBackup Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757218(v=VS.85).aspx">IWMLicenseBackup Interface</a>
 
 
 

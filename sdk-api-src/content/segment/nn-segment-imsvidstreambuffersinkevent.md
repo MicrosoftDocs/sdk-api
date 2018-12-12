@@ -78,7 +78,7 @@ The <b>IMSVidStreamBufferSinkEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95745e17-2bf9-49a9-bbbf-2deab3fa1c86">CertificateFailure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694652(v=VS.85).aspx">CertificateFailure</a>
 </td>
 <td align="left" width="63%">
 The object failed to get an encryption/decryption license.
@@ -87,7 +87,7 @@ The object failed to get an encryption/decryption license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23ac75ee-02ee-4159-b503-65604a6601cb">CertificateSuccess</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694653(v=VS.85).aspx">CertificateSuccess</a>
 </td>
 <td align="left" width="63%">
 The object succeeded in getting an encryption/decryption license.
@@ -96,7 +96,7 @@ The object succeeded in getting an encryption/decryption license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6aec07e1-57b9-4350-a48f-762fcf370d6a">WriteFailure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694654(v=VS.85).aspx">WriteFailure</a>
 </td>
 <td align="left" width="63%">
 A write error occured in the Stream Buffer Sink filter.

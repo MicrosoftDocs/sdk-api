@@ -84,7 +84,7 @@ The type of extension to read.
 ### -param readOption [in]
 
 Whether the value is required, and how to allocate the value.
-                    See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a> for more information.
                 
 
 This parameter must have one of the following values:
@@ -92,13 +92,13 @@ This parameter must have one of the following values:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_VALUE</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_REQUIRED_VALUE</a>.
                     </li>
 <li>
-<a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_REQUIRED_POINTER</a>.
                     </li>
 <li>
-<a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTIONAL_POINTER</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTIONAL_POINTER</a>.
                 </li>
 </ul>
 
@@ -113,12 +113,12 @@ The heap to use to store the value that is read.
 The address of a buffer to place the value read.
                 
 
-If using <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_VALUE</a> for the readOption
+If using <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_REQUIRED_VALUE</a> for the readOption
                     parameter, the buffer must be the size of the type of extension
-                    being read (which varies by <a href="https://msdn.microsoft.com/c35c39ff-497e-46d4-9dd7-2187a78f710e">WS_ENDPOINT_ADDRESS_EXTENSION_TYPE</a>).
+                    being read (which varies by <a href="https://msdn.microsoft.com/en-us/library/Dd401830(v=VS.85).aspx">WS_ENDPOINT_ADDRESS_EXTENSION_TYPE</a>).
                 
 
-If using <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a> or <b>WS_READ_OPTIONAL_POINTER</b>,
+If using <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_REQUIRED_POINTER</a> or <b>WS_READ_OPTIONAL_POINTER</b>,
                     the buffer should be the size of a pointer.
                 
 

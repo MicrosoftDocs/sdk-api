@@ -71,7 +71,7 @@ The <b>IDWriteGdiInterop1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AA28755A-C2E3-4177-A5DD-61D9809A9D0E">CreateFontFromLOGFONT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958416(v=VS.85).aspx">CreateFontFromLOGFONT</a>
 </td>
 <td align="left" width="63%">
 Creates a font object that matches the properties specified by the LOGFONT structure.
@@ -80,7 +80,7 @@ Creates a font object that matches the properties specified by the LOGFONT struc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83967afd-8309-74b7-da76-1caee04a4990">GetFontSignature</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958419(v=VS.85).aspx">GetFontSignature</a>
 </td>
 <td align="left" width="63%">Overloaded. Retrieves a font signature.
 
@@ -88,7 +88,7 @@ Creates a font object that matches the properties specified by the LOGFONT struc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38D547D2-0C1C-4673-83BD-38458DFD7E5A">GetMatchingFontsByLOGFONT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958420(v=VS.85).aspx">GetMatchingFontsByLOGFONT</a>
 </td>
 <td align="left" width="63%">
 Gets a list of matching fonts based on the specified LOGFONT values. Only fonts

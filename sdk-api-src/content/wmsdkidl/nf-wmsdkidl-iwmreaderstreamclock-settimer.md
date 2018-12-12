@@ -66,7 +66,7 @@ The <b>SetTimer</b> method sets a timer on the clock.
 
 ### -param cnsWhen [in]
 
-Specifies the time at which the reader notifies the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">OnStatus</a> callback, in 100-nanosecond units.
+Specifies the time at which the reader notifies the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">OnStatus</a> callback, in 100-nanosecond units.
 
 
 ### -param pvParam [in]
@@ -133,12 +133,12 @@ Not enough available memory.
 
 
 
-The application must execute <a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">IWMReader::Open</a>, and successfully receive a WMT_OPENED status notification to its <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> method, before it creates any timers.
+The application must execute <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>, and successfully receive a WMT_OPENED status notification to its <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method, before it creates any timers.
 
 All timers are automatically terminated when the application stops the reader. When a timer expires, the following happens: 
 
 <ul>
-<li>The <b>OnStatus</b> method is called with WMT_TIMER, as the <a href="https://msdn.microsoft.com/ebf77e8a-65e8-4da9-bb21-a1e2bf427bbf">WMT_STATUS</a> enumeration type</li>
+<li>The <b>OnStatus</b> method is called with WMT_TIMER, as the <a href="https://msdn.microsoft.com/en-us/library/Dd757854(v=VS.85).aspx">WMT_STATUS</a> enumeration type</li>
 <li>The parameter <i>hr</i> is set to S_OK</li>
 <li><i>pValue</i> is set to the TimerID</li>
 <li><i>pvContext</i> is set to the <i>pvParam</i> pointer that is specified in this method</li>
@@ -151,11 +151,11 @@ All timers are automatically terminated when the application stops the reader. W
 
 
 
-<a href="https://msdn.microsoft.com/0f170b6d-fd93-4bf8-8a98-f2a80f03b380">IWMReaderStreamClock Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743566(v=VS.85).aspx">IWMReaderStreamClock Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d44b8701-8065-40a5-abc3-1c7513c618ea">IWMReaderStreamClock::GetTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743568(v=VS.85).aspx">IWMReaderStreamClock::GetTime</a>
  
 
  

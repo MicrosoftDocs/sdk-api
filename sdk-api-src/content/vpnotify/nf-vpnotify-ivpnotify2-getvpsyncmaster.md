@@ -94,7 +94,7 @@ Include Vptype.h before Vpnotify.h.
 
 
 
-<a href="https://msdn.microsoft.com/8d5fc7ee-93ee-4297-ba24-0eed63bec1ea">IVPNotify2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390590(v=VS.85).aspx">IVPNotify2 Interface</a>
  
 
  

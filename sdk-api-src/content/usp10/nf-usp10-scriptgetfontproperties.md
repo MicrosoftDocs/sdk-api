@@ -73,7 +73,7 @@ Pointer to a <a href="https://msdn.microsoft.com/56a98529-6ae9-4b71-bd7d-cf056a1
 
 ### -param sfp [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/6757e758-6525-47a4-9ed4-99ef42fa14a3">SCRIPT_FONTPROPERTIES</a> structure in which this function retrieves the information from the font cache.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd368802(v=VS.85).aspx">SCRIPT_FONTPROPERTIES</a> structure in which this function retrieves the information from the font cache.
 
 
 ## -returns
@@ -105,7 +105,7 @@ The structure retrieved by this function identifies the glyphs that are used for
 
 
 
-<a href="https://msdn.microsoft.com/6757e758-6525-47a4-9ed4-99ef42fa14a3">SCRIPT_FONTPROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368802(v=VS.85).aspx">SCRIPT_FONTPROPERTIES</a>
 
 
 

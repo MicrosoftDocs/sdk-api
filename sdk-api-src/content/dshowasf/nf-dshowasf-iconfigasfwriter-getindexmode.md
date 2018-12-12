@@ -79,7 +79,7 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 
 
-Use this method to determine whether the WM ASF Writer is currently configured to write indexed ASF files. For more information, see <a href="https://msdn.microsoft.com/d7f5d13a-d36e-4da2-babc-0446e5697b61">IConfigAsfWriter::SetIndexMode</a>.
+Use this method to determine whether the WM ASF Writer is currently configured to write indexed ASF files. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd312030(v=VS.85).aspx">IConfigAsfWriter::SetIndexMode</a>.
 
 
 
@@ -97,7 +97,7 @@ Use this method to determine whether the WM ASF Writer is currently configured t
 
 
 
-<a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
  
 
  

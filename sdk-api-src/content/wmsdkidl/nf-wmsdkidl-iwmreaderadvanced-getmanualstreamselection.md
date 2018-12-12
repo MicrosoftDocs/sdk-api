@@ -124,11 +124,11 @@ The reader object has not opened a file yet.
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6950b26c-1763-4578-ab5c-0ea29d3d77f1">IWMReaderAdvanced::SetManualStreamSelection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743485(v=VS.85).aspx">IWMReaderAdvanced::SetManualStreamSelection</a>
  
 
  

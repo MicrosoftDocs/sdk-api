@@ -76,7 +76,7 @@ The <b>IBDA_SignalProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c799cad-2371-4845-a783-e7227fb81c4c">GetNetworkType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693426(v=VS.85).aspx">GetNetworkType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the network type for the current tuning request.
@@ -85,7 +85,7 @@ Retrieves the network type for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/929ec042-3f43-468e-944a-919dda3893be">GetSignalSource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693427(v=VS.85).aspx">GetSignalSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves the signal source for the current tuning request.
@@ -94,7 +94,7 @@ Retrieves the signal source for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03738363-5923-4e26-a0ea-e345b927140c">GetTuningSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693428(v=VS.85).aspx">GetTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuning space for the current tuning request.
@@ -103,7 +103,7 @@ Retrieves the tuning space for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e92fa253-7e00-457f-805e-ed13bca84254">PutNetworkType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693429(v=VS.85).aspx">PutNetworkType</a>
 </td>
 <td align="left" width="63%">
 Specifies the network type for the current tuning request.
@@ -112,7 +112,7 @@ Specifies the network type for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81cd43b1-97a7-4663-984e-2c20a8315c7e">PutSignalSource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693430(v=VS.85).aspx">PutSignalSource</a>
 </td>
 <td align="left" width="63%">
 Specifies the signal source for the current tuning request.
@@ -121,7 +121,7 @@ Specifies the signal source for the current tuning request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3ecddfc-a95b-47ba-8a2b-5073de4aad5e">PutTuningSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693431(v=VS.85).aspx">PutTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Specifies the tuning space for the current tuning request.

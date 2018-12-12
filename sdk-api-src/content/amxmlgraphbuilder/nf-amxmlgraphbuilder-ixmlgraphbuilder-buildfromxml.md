@@ -63,12 +63,12 @@ The <b>BuildFromXML</b> method loads a filter graph from an XML element.
 
 ### -param pGraph [in]
 
-Pointer to the Filter Graph Manager's <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface. To create the <a href="https://msdn.microsoft.com/b1a53193-27c6-4e86-a5b9-f3c1e4401690">Filter Graph Manager</a>, call <b>CoCreateInstance</b>. Do not add any filters to the graph before calling this method.
+Pointer to the Filter Graph Manager's <a href="https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx">IGraphBuilder</a> interface. To create the <a href="https://msdn.microsoft.com/b1a53193-27c6-4e86-a5b9-f3c1e4401690">Filter Graph Manager</a>, call <b>CoCreateInstance</b>. Do not add any filters to the graph before calling this method.
 
 
 ### -param pxml [in]
 
-Pointer to the <b>IXMLElement</b> interface of an XML element object. The XML element object must contain the string returned by the <a href="https://msdn.microsoft.com/02f710a4-3d13-46b0-b00d-4ffd2b4c3157">IXMLGraphBuilder::SaveToXML</a> method.
+Pointer to the <b>IXMLElement</b> interface of an XML element object. The XML element object must contain the string returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd390625(v=VS.85).aspx">IXMLGraphBuilder::SaveToXML</a> method.
 
 <div class="alert"><b>Note</b>  The <b>IXMLElement</b> interface is implemented in Microsoft XML Core Services (MSXML) version 1.0 but is not implemented in more recent versions of MSXML.</div>
 <div> </div>
@@ -91,7 +91,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/c30a8b33-7783-4987-aa65-ccba476ea937">IXMLGraphBuilder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390622(v=VS.85).aspx">IXMLGraphBuilder Interface</a>
  
 
  

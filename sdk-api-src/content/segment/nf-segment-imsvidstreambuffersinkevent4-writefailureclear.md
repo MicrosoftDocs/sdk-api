@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/afec7f7a-0c5b-47ca-b442-5dbdba54a7af">IMSVidStreamBufferSinkEvent4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743827(v=VS.85).aspx">IMSVidStreamBufferSinkEvent4</a>
 
 
 

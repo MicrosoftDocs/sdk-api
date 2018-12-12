@@ -63,7 +63,7 @@ The <b>put_VideoStandard</b> method specifies the format of the analog televisio
 
 ### -param AVS [in]
 
-Specifies the format of the analog television signal. This parameter is of type <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a>.
+Specifies the format of the analog television signal. This parameter is of type <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a>.
 
 
 ## -returns

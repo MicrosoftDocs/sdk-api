@@ -55,9 +55,9 @@ The <b>IWMPEvents3</b> interface provides access to events originating from the 
 
 
 
-The events provided by <b>IWMPEvents3</b> extend the set of events provided by <a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents</a> and <a href="https://msdn.microsoft.com/61cd0a2e-b94f-4c10-b3e2-ad1dc2a0b17d">IWMPEvents2</a> by adding events related to CD ripping, CD burning, folder monitoring, and remote library services.
+The events provided by <b>IWMPEvents3</b> extend the set of events provided by <a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd563289(v=VS.85).aspx">IWMPEvents2</a> by adding events related to CD ripping, CD burning, folder monitoring, and remote library services.
 
-In addition to the methods inherited from <a href="https://msdn.microsoft.com/61cd0a2e-b94f-4c10-b3e2-ad1dc2a0b17d">IWMPEvents2</a>, the <b>IWMPEvents3</b> interface exposes the following methods.
+In addition to the methods inherited from <a href="https://msdn.microsoft.com/en-us/library/Dd563289(v=VS.85).aspx">IWMPEvents2</a>, the <b>IWMPEvents3</b> interface exposes the following methods.
 <table>
 <tr>
 <th>Method
@@ -67,67 +67,67 @@ In addition to the methods inherited from <a href="https://msdn.microsoft.com/61
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/ea1ded30-4fca-4208-9fc2-f93c169f33b6">CdromBurnError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563297(v=VS.85).aspx">CdromBurnError</a>
 </td>
 <td>Occurs when a generic error happens during a CD burning operation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4bad9de2-8899-4149-965c-7835bd854f6f">CdromBurnMediaError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563298(v=VS.85).aspx">CdromBurnMediaError</a>
 </td>
 <td>Occurs when an error happens while burning an individual media item to a CD.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/8328f1bf-c928-4504-859f-f1b62e77e9e0">CdromBurnStateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563299(v=VS.85).aspx">CdromBurnStateChange</a>
 </td>
 <td>Occurs when a CD burning operation changes state.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/103f6d52-5b59-422d-918d-5004cbdfc75a">CdromRipMediaError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563300(v=VS.85).aspx">CdromRipMediaError</a>
 </td>
 <td>Occurs when an error happens while ripping an individual track from a CD.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/08445295-4fed-412f-84ce-eaf337758472">CdromRipStateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563301(v=VS.85).aspx">CdromRipStateChange</a>
 </td>
 <td>Occurs when a CD ripping operation changes state.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/07e9a49b-19a6-4ed2-b037-fe44ada920a1">FolderScanStateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563302(v=VS.85).aspx">FolderScanStateChange</a>
 </td>
 <td>Occurs when a folder monitoring operation changes state.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b9e1feb7-c894-4f37-9756-378740637f6e">LibraryConnect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563303(v=VS.85).aspx">LibraryConnect</a>
 </td>
 <td>Occurs when a library becomes available.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/eb0f4d9f-23b7-4fe7-b45d-152a2f64af30">LibraryDisconnect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563304(v=VS.85).aspx">LibraryDisconnect</a>
 </td>
 <td>Occurs when a library is no longer available.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/374ac1d8-ea7f-498a-b9b1-02bf7083f682">MediaCollectionMediaAdded</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563305(v=VS.85).aspx">MediaCollectionMediaAdded</a>
 </td>
 <td>Occurs when a media item is added to the local library.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/c142a5ab-deed-41d0-8ddd-1d2f8a7b9d69">MediaCollectionMediaRemoved</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563306(v=VS.85).aspx">MediaCollectionMediaRemoved</a>
 </td>
 <td>Occurs when a media item is removed from the local library.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/93880116-e354-49d0-ba02-391fbb4d3f8c">StringCollectionChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563307(v=VS.85).aspx">StringCollectionChange</a>
 </td>
 <td>Occurs when a string collection changes.</td>
 </tr>
@@ -143,19 +143,19 @@ In addition to the methods inherited from <a href="https://msdn.microsoft.com/61
 <a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/61cd0a2e-b94f-4c10-b3e2-ad1dc2a0b17d">IWMPEvents2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563289(v=VS.85).aspx">IWMPEvents2 Interface</a>
 </li>
 </ul><table>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/98970d33-8035-49f9-9243-b4832df6e5c9">Previous</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563295(v=VS.85).aspx">Previous</a>
 </td>
 <td></td>
 <td>
-<a href="https://msdn.microsoft.com/ea1ded30-4fca-4208-9fc2-f93c169f33b6">Next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563297(v=VS.85).aspx">Next</a>
 </td>
 </tr>
 </table> 

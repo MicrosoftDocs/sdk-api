@@ -54,7 +54,7 @@ This function initializes the headers for the message in preparation for
                 processing.
             After a message has been initialized an application can
                 add additional headers.
-            On success the message is in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_INITIALIZED</a> state.
+            On success the message is in <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_INITIALIZED</a> state.
                 If the function fails, then no state transitions occurs.
             
 

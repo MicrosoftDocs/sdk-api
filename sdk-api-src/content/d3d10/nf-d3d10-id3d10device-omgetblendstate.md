@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Get the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">blend state</a> of the output-merger stage.
+Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">blend state</a> of the output-merger stage.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Get the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189
 
 ### -param ppBlendState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>**</b>
 
-Address of a pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState</a>).
+Address of a pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>).
 
 
 ### -param BlendFactor [out]
@@ -77,7 +77,7 @@ Array of blend factors, one for each RGBA component.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/39169f4f-8a7b-4db0-abd5-5b67b204b394">sample mask</a>.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173595(v=VS.85).aspx">sample mask</a>.
 
 
 ## -returns
@@ -103,7 +103,7 @@ The reference count of the returned interface will be incremented by one when th
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

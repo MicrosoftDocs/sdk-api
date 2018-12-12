@@ -74,7 +74,7 @@ The <b>GetMutualExclusion</b> method retrieves a mutual exclusion object from th
 
 ### -param ppME [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/040635fb-de00-4c8c-9c39-c28c409311c3">IWMMutualExclusion</a> interface of the mutual exclusion object specified by the index passed as <i>dwMEIndex</i>.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757238(v=VS.85).aspx">IWMMutualExclusion</a> interface of the mutual exclusion object specified by the index passed as <i>dwMEIndex</i>.
 
 
 ## -returns
@@ -131,7 +131,7 @@ Not enough memory for this operation.
 
 
 
-You can use this method in conjunction with <a href="https://msdn.microsoft.com/c223f75b-87c6-49bd-a16a-14b4751d5f1b">GetMutualExclusionCount</a> to step through all of the mutual exclusion objects in the profile.
+You can use this method in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Dd757404(v=VS.85).aspx">GetMutualExclusionCount</a> to step through all of the mutual exclusion objects in the profile.
 
 
 
@@ -145,19 +145,19 @@ You can use this method in conjunction with <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/efd751cf-d34d-4e74-9a00-444ec31ebef0">IWMProfile::AddMutualExclusion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757398(v=VS.85).aspx">IWMProfile::AddMutualExclusion</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb453285-a4e5-48dd-a4d0-72d2e09badc2">IWMProfile::RemoveMutualExclusion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757411(v=VS.85).aspx">IWMProfile::RemoveMutualExclusion</a>
 
 
 

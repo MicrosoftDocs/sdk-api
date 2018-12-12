@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>AddRecord</b> method adds a record to the mutual exclusion object. Records can hold groups of streams. You can add streams with calls to <a href="https://msdn.microsoft.com/501fae9f-84b3-4025-83bc-ad0bbe47384d">IWMMutualExclusion2::AddStreamForRecord</a>. You can assign a name to a record with a call to <a href="https://msdn.microsoft.com/b288c28c-04bd-49a4-bf11-21d4968772d4">IWMMutualExclusion2::SetName</a>.
+The <b>AddRecord</b> method adds a record to the mutual exclusion object. Records can hold groups of streams. You can add streams with calls to <a href="https://msdn.microsoft.com/en-us/library/Dd757241(v=VS.85).aspx">IWMMutualExclusion2::AddStreamForRecord</a>. You can assign a name to a record with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757248(v=VS.85).aspx">IWMMutualExclusion2::SetName</a>.
 
 
 
@@ -130,19 +130,19 @@ Record numbers, which are used by other methods, are assigned to records sequent
 
 
 
-<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/501fae9f-84b3-4025-83bc-ad0bbe47384d">IWMMutualExclusion2::AddStreamForRecord</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757241(v=VS.85).aspx">IWMMutualExclusion2::AddStreamForRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/74e2825e-2200-4750-bb16-f8cf9f80ab7e">IWMMutualExclusion2::RemoveRecord</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757246(v=VS.85).aspx">IWMMutualExclusion2::RemoveRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/b288c28c-04bd-49a4-bf11-21d4968772d4">IWMMutualExclusion2::SetName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757248(v=VS.85).aspx">IWMMutualExclusion2::SetName</a>
  
 
  

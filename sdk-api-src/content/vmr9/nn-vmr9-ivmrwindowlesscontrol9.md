@@ -74,7 +74,7 @@ The <b>IVMRWindowlessControl9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad023fa0-3540-4009-abdc-a1c980f906ec">DisplayModeChanged</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390538(v=VS.85).aspx">DisplayModeChanged</a>
 </td>
 <td align="left" width="63%">
 Informs the VMR that a <a href="https://msdn.microsoft.com/5a6111fd-648e-41a9-aaf8-e5d93f5d54cd">WM_DISPLAYCHANGE</a> message has been received by the application.
@@ -83,7 +83,7 @@ Informs the VMR that a <a href="https://msdn.microsoft.com/5a6111fd-648e-41a9-aa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c18ab567-5e0d-400a-8dc1-e9ad83650b7c">GetAspectRatioMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390539(v=VS.85).aspx">GetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current aspect ratio display mode.
@@ -92,7 +92,7 @@ Retrieves the current aspect ratio display mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/314e6977-fe6d-40b2-a566-0e894f3d881c">GetBorderColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390540(v=VS.85).aspx">GetBorderColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current border color used by the VMR.
@@ -101,7 +101,7 @@ Retrieves the current border color used by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dddba9a5-be25-4dc4-9d91-eaff78d2405d">GetCurrentImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390541(v=VS.85).aspx">GetCurrentImage</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the current image being displayed by the VMR.
@@ -110,7 +110,7 @@ Retrieves a copy of the current image being displayed by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0aac9c10-c152-4c26-b520-b4ccaf37600c">GetMaxIdealVideoSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390542(v=VS.85).aspx">GetMaxIdealVideoSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum video size that the VMR can display without incurring significant performance or image quality degradation.
@@ -119,7 +119,7 @@ Retrieves the maximum video size that the VMR can display without incurring sign
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e100f04-28fc-4449-9fe4-0f0074e6439c">GetMinIdealVideoSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390543(v=VS.85).aspx">GetMinIdealVideoSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum video size that the VMR can display without incurring significant performance or image quality degradation.
@@ -128,7 +128,7 @@ Retrieves the minimum video size that the VMR can display without incurring sign
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e70c94e-7c20-4a4e-b276-feb7a9f9784c">GetNativeVideoSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390544(v=VS.85).aspx">GetNativeVideoSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the un-stretched video size and aspect ratio of the video.
@@ -137,7 +137,7 @@ Retrieves the un-stretched video size and aspect ratio of the video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0963ec09-8637-441c-b10e-fecc11788e39">GetVideoPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390545(v=VS.85).aspx">GetVideoPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current source and destination rectangles used to display the video.
@@ -146,7 +146,7 @@ Retrieves the current source and destination rectangles used to display the vide
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a25301c-00e4-4f54-a34d-416a52daeaa7">RepaintVideo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390546(v=VS.85).aspx">RepaintVideo</a>
 </td>
 <td align="left" width="63%">
 Repaints the current video frame.
@@ -155,7 +155,7 @@ Repaints the current video frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ba46490-0a82-495f-8742-d7a8efa95332">SetAspectRatioMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390547(v=VS.85).aspx">SetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Sets the current aspect ratio display mode.
@@ -164,7 +164,7 @@ Sets the current aspect ratio display mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/462b264d-1b4c-482a-b154-382748abaf92">SetBorderColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390548(v=VS.85).aspx">SetBorderColor</a>
 </td>
 <td align="left" width="63%">
 Sets the border color to be used by the VMR.
@@ -173,7 +173,7 @@ Sets the border color to be used by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/426476cd-a7e9-42ef-9d1b-5bbf921557ed">SetVideoClippingWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390549(v=VS.85).aspx">SetVideoClippingWindow</a>
 </td>
 <td align="left" width="63%">
 Specifies the container window that video should be clipped to.
@@ -182,7 +182,7 @@ Specifies the container window that video should be clipped to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b165b51-c60d-4039-b652-5a5347dec224">SetVideoPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390550(v=VS.85).aspx">SetVideoPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the source and destination rectangles for the video.

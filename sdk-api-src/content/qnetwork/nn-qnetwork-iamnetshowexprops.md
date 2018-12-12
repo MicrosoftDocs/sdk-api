@@ -58,7 +58,7 @@ The <code>IAMNetShowExProps</code> interface configures the legacy Windows Media
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowExProps</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAMNetShowExProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowExProps</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMNetShowExProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAMNetShowExProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/042ddea5-c17a-4cd6-a18d-9a3b65bf11b7">get_Bandwidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319723(v=VS.85).aspx">get_Bandwidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bandwidth.
@@ -82,7 +82,7 @@ Retrieves the bandwidth.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b16727d-565a-431e-8124-124d72816d65">get_CodecCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319724(v=VS.85).aspx">get_CodecCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number codecs needed to play the file.
@@ -91,7 +91,7 @@ Retrieves the number codecs needed to play the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a9cbaed-c8aa-445a-9f8e-d84a7b50166e">get_CreationDate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319725(v=VS.85).aspx">get_CreationDate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the creation date.
@@ -100,7 +100,7 @@ Retrieves the creation date.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab731d68-969b-425d-978a-879b15c06a88">get_ErrorCorrection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319726(v=VS.85).aspx">get_ErrorCorrection</a>
 </td>
 <td align="left" width="63%">
 Retrieves the error correction method.
@@ -109,7 +109,7 @@ Retrieves the error correction method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5d79169-ae1b-4532-b367-ec2d24fae0b1">get_SourceLink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319727(v=VS.85).aspx">get_SourceLink</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source link.
@@ -118,7 +118,7 @@ Retrieves the source link.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/498e81fc-90d3-4a24-b672-c7c62b3bfd39">get_SourceProtocol</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319728(v=VS.85).aspx">get_SourceProtocol</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source protocol.
@@ -127,7 +127,7 @@ Retrieves the source protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a26e576-df4a-462d-8fab-0a133469e77b">GetCodecDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319720(v=VS.85).aspx">GetCodecDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user-friendly description of a codec.
@@ -136,7 +136,7 @@ Retrieves the user-friendly description of a codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/597178a5-8ead-4562-adbe-e6cd2b352d25">GetCodecInstalled</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319721(v=VS.85).aspx">GetCodecInstalled</a>
 </td>
 <td align="left" width="63%">
 Queries whether a specified codec is installed on the local system.
@@ -145,7 +145,7 @@ Queries whether a specified codec is installed on the local system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad5672a8-2af9-45ef-b510-3c2f8948f64b">GetCodecURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319722(v=VS.85).aspx">GetCodecURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL from which the codec may be downloaded.
@@ -175,7 +175,7 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

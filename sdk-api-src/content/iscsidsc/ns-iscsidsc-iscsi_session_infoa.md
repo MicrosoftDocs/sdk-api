@@ -97,7 +97,7 @@ The number of connections associated with the session.
 
 ### -field Connections
 
-A pointer to a <a href="https://msdn.microsoft.com/4bfe2f36-2e68-4093-9660-b0140baeea80">ISCSI_CONNECTION_INFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb870793(v=VS.85).aspx">ISCSI_CONNECTION_INFO</a> structure.
 
 
 ## -see-also
@@ -109,7 +109,7 @@ A pointer to a <a href="https://msdn.microsoft.com/4bfe2f36-2e68-4093-9660-b0140
 
 
 
-<a href="https://msdn.microsoft.com/4bfe2f36-2e68-4093-9660-b0140baeea80">ISCSI_CONNECTION_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870793(v=VS.85).aspx">ISCSI_CONNECTION_INFO</a>
 
 
 

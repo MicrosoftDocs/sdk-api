@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -110,7 +110,7 @@ WMI handles a query by calling your implementation of <a href="https://msdn.micr
 The following describes a common implementation of <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a">ExecQuery</a>:
 
 <ol>
-<li>Create an empty instance of your class using <a href="https://msdn.microsoft.com/cb520b55-9ef8-4f5a-935d-46c2bb01f5dd">Provider::CreateNewInstance</a>.</li>
+<li>Create an empty instance of your class using <a href="https://msdn.microsoft.com/en-us/library/Aa392765(v=VS.85).aspx">Provider::CreateNewInstance</a>.</li>
 <li>
 Determine the subset of instances that you should create.
 
@@ -133,7 +133,7 @@ However, you should keep the following in mind when writing your framework provi
 <ul>
 <li>Make sure you support standard queries in your association class, especially queries where the reference properties are used in a WHERE clause. For more information, see <a href="https://msdn.microsoft.com/b5ed4b48-f622-4a55-897d-d800ada0270f">CFrameworkQuery::GetValuesForProp</a>.</li>
 <li>
-In your association class support, when you check to see if the endpoints exist, ensure you use the <a href="https://msdn.microsoft.com/8ae95850-59e9-4382-b88d-c51eb3077176">CWbemProviderGlue::GetInstanceKeysByPath</a> or <a href="https://msdn.microsoft.com/d9232dc0-6df9-440d-bf7a-bf524acbe505">CWbemProviderGlue::GetInstancePropertiesByPath</a> methods.
+In your association class support, when you check to see if the endpoints exist, ensure you use the <a href="https://msdn.microsoft.com/en-us/library/Aa389792(v=VS.85).aspx">CWbemProviderGlue::GetInstanceKeysByPath</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa389793(v=VS.85).aspx">CWbemProviderGlue::GetInstancePropertiesByPath</a> methods.
 
 These methods allow the endpoints to skip populating  resource-intensive or unneeded properties.
 

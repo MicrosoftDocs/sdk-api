@@ -137,15 +137,15 @@ When the compound query specified by the <i>pQuery</i> parameter contains a cond
 
 
 
-<a href="https://msdn.microsoft.com/576e231e-542a-495c-ad1b-a246339c3cb1">IWMPMediaCollection2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563406(v=VS.85).aspx">IWMPMediaCollection2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1f3c46f-4756-49b4-ad4f-a9097ff787f8">IWMPQuery Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563630(v=VS.85).aspx">IWMPQuery Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cdabea9-7e37-4e63-9d6c-b6f63aa536ea">IWMPStringCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563686(v=VS.85).aspx">IWMPStringCollection Interface</a>
 
 
 

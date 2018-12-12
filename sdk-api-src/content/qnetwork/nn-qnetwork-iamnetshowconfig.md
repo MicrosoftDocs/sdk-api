@@ -58,7 +58,7 @@ The <code>IAMNetShowConfig</code> interface configures the legacy Windows Media 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowConfig</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAMNetShowConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMNetShowConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAMNetShowConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8594f8dd-9545-4e6d-b1d7-9a278dcb4129">get_BufferingTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319697(v=VS.85).aspx">get_BufferingTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the buffering time.
@@ -82,7 +82,7 @@ Retrieves the buffering time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7037f326-3320-4e4a-8f6f-feda1a306c2d">get_EnableAutoProxy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319698(v=VS.85).aspx">get_EnableAutoProxy</a>
 </td>
 <td align="left" width="63%">
 Queries whether the control or filter should use the browser's proxy settings.
@@ -91,7 +91,7 @@ Queries whether the control or filter should use the browser's proxy settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29495a89-644f-4c55-a740-efb0cbf6d581">get_EnableHTTP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319699(v=VS.85).aspx">get_EnableHTTP</a>
 </td>
 <td align="left" width="63%">
 Queries whether HTTP-type streaming is enabled.
@@ -100,7 +100,7 @@ Queries whether HTTP-type streaming is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dae5c0ad-a41e-424c-a04d-69dbe7264143">get_EnableMulticast</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319700(v=VS.85).aspx">get_EnableMulticast</a>
 </td>
 <td align="left" width="63%">
 Queries whether multicast-type streaming is enabled.
@@ -109,7 +109,7 @@ Queries whether multicast-type streaming is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4282f84-e05b-407f-9425-0690783957c4">get_EnableTCP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319701(v=VS.85).aspx">get_EnableTCP</a>
 </td>
 <td align="left" width="63%">
 Queries whether TCP-based streaming is enabled.
@@ -118,7 +118,7 @@ Queries whether TCP-based streaming is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95c689c9-34f6-49b2-bd3b-0f68a110c4f2">get_EnableUDP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319702(v=VS.85).aspx">get_EnableUDP</a>
 </td>
 <td align="left" width="63%">
 Queries whether UDP-based streaming is enabled.
@@ -127,7 +127,7 @@ Queries whether UDP-based streaming is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0890d29b-540a-45ce-a5f0-04a2db517135">get_FixedUDPPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319703(v=VS.85).aspx">get_FixedUDPPort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the fixed UDP port number.
@@ -136,7 +136,7 @@ Retrieves the fixed UDP port number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d73aefda-2c51-466a-b590-c8f189db4719">get_HTTPProxyHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319704(v=VS.85).aspx">get_HTTPProxyHost</a>
 </td>
 <td align="left" width="63%">
 Retrieves the HTTP address of the proxy host.
@@ -145,7 +145,7 @@ Retrieves the HTTP address of the proxy host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a0325bb-83d6-4fbc-a513-0b6002013a60">get_HTTPProxyPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319705(v=VS.85).aspx">get_HTTPProxyPort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the HTTP proxy port.
@@ -154,7 +154,7 @@ Retrieves the HTTP proxy port.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a4b1f3b-c630-4820-a9d1-0e93f295b7f7">get_UseFixedUDPPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319706(v=VS.85).aspx">get_UseFixedUDPPort</a>
 </td>
 <td align="left" width="63%">
 Queries whether the filter should use the fixed UDP port.
@@ -163,7 +163,7 @@ Queries whether the filter should use the fixed UDP port.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d51676a-bf14-408c-bc8b-331ce11fc237">get_UseHTTPProxy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319707(v=VS.85).aspx">get_UseHTTPProxy</a>
 </td>
 <td align="left" width="63%">
 Queries whether the filter should use the HTTP proxy server.
@@ -172,7 +172,7 @@ Queries whether the filter should use the HTTP proxy server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60dea6f3-b45f-44a1-ba21-eb71206b2fb5">put_BufferingTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319708(v=VS.85).aspx">put_BufferingTime</a>
 </td>
 <td align="left" width="63%">
 Specifies the buffering time.
@@ -181,7 +181,7 @@ Specifies the buffering time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2746e4d9-3996-4b06-bbb9-7777de6d0202">put_EnableAutoProxy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319709(v=VS.85).aspx">put_EnableAutoProxy</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the control or filter should use the browser's proxy settings.
@@ -190,7 +190,7 @@ Specifies whether the control or filter should use the browser's proxy settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/162a581d-9697-4a6e-aedc-ec1ebc28a867">put_EnableHTTP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319710(v=VS.85).aspx">put_EnableHTTP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables HTTP-based streaming.
@@ -199,7 +199,7 @@ Enables or disables HTTP-based streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8415560c-0dc8-4d37-b584-9e278542cf15">put_EnableMulticast</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319711(v=VS.85).aspx">put_EnableMulticast</a>
 </td>
 <td align="left" width="63%">
 Enables or disables multicast-based streaming.
@@ -208,7 +208,7 @@ Enables or disables multicast-based streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e875901-7ccb-4aa5-b283-f75b791e85f1">put_EnableTCP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319712(v=VS.85).aspx">put_EnableTCP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables TCP-based streaming.
@@ -217,7 +217,7 @@ Enables or disables TCP-based streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2573573e-97e0-4ed4-b702-8c54ef47c5f4">put_EnableUDP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319713(v=VS.85).aspx">put_EnableUDP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables UDP-based streaming.
@@ -226,7 +226,7 @@ Enables or disables UDP-based streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/461b3999-ee1f-4d2a-9ebc-38faf344eba0">put_FixedUDPPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319714(v=VS.85).aspx">put_FixedUDPPort</a>
 </td>
 <td align="left" width="63%">
 Specifies the fixed UDP port number.
@@ -235,7 +235,7 @@ Specifies the fixed UDP port number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3cd37fd4-3ce0-4b5c-9e2f-88c0e1845b2d">put_HTTPProxyHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319715(v=VS.85).aspx">put_HTTPProxyHost</a>
 </td>
 <td align="left" width="63%">
 Specifies the address of the HTTP proxy server.
@@ -244,7 +244,7 @@ Specifies the address of the HTTP proxy server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dada8684-66e7-4983-984a-589d48d167ba">put_HTTPProxyPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319716(v=VS.85).aspx">put_HTTPProxyPort</a>
 </td>
 <td align="left" width="63%">
 Specifies the port for the HTTP proxy server.
@@ -253,7 +253,7 @@ Specifies the port for the HTTP proxy server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7b0c118-0479-4f28-8e2f-6c143cde9ff0">put_UseFixedUDPPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319717(v=VS.85).aspx">put_UseFixedUDPPort</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to use a fixed UDP port number.
@@ -262,7 +262,7 @@ Specifies whether to use a fixed UDP port number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4be1ca01-49c6-4b1e-8fb6-41e598fd157f">put_UseHTTPProxy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319718(v=VS.85).aspx">put_UseHTTPProxy</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to use an HTTP proxy server.
@@ -292,7 +292,7 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

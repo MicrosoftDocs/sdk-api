@@ -70,7 +70,7 @@ Swap chain index. This is an optional, zero-based index used to specify a swap c
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method will always return D3D_OK.
 
@@ -93,7 +93,7 @@ In some scenarios the hardware may stop generating vertical blank signals when n
 
 
 
-<a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
  
 
  

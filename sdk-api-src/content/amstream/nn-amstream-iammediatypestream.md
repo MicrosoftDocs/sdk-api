@@ -55,14 +55,14 @@ req.redist:
 <div> </div>
 This interface contains methods for creating multimedia streams with arbitrary media types. Use this interface if you need to create a multimedia stream with a format that is not supported by the other Microsoft DirectShow multimedia streaming interfaces.
 
-<div class="alert"><b>Note</b>  For video streams, use the <a href="https://msdn.microsoft.com/858af0c3-9e22-45d8-ab08-307eb39a8977">IDirectDrawMediaStream</a> interface instead of this interface. For audio streams, use the <a href="https://msdn.microsoft.com/b4098876-6c11-4cc6-8b6d-16edc02316f3">IAudioMediaStream</a> interface.</div>
+<div class="alert"><b>Note</b>  For video streams, use the <a href="https://msdn.microsoft.com/en-us/library/Dd406806(v=VS.85).aspx">IDirectDrawMediaStream</a> interface instead of this interface. For audio streams, use the <a href="https://msdn.microsoft.com/en-us/library/Dd389516(v=VS.85).aspx">IAudioMediaStream</a> interface.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaTypeStream</b> interface inherits from <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a>. <b>IAMMediaTypeStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaTypeStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a>. <b>IAMMediaTypeStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IAMMediaTypeStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bfdbf82-c298-498d-84e4-cd4d8cd13f82">CreateSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319683(v=VS.85).aspx">CreateSample</a>
 </td>
 <td align="left" width="63%">
 Creates a stream sample and optionally specifies the sample buffer.
@@ -86,7 +86,7 @@ Creates a stream sample and optionally specifies the sample buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f00fe45-df4b-4787-980c-9fe434a8ab7e">GetFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319684(v=VS.85).aspx">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the format of the stream.
@@ -95,7 +95,7 @@ Retrieves the format of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a1ad5c5-0cbf-44a5-833f-951c9934bd19">GetStreamAllocatorRequirements</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319685(v=VS.85).aspx">GetStreamAllocatorRequirements</a>
 </td>
 <td align="left" width="63%">
 Retrieves the allocator requirements for the stream. This method is not currently implemented.
@@ -104,7 +104,7 @@ Retrieves the allocator requirements for the stream. This method is not currentl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12ac4490-c12c-428a-939f-adf25a77b9e4">SetFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319686(v=VS.85).aspx">SetFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the format of the stream.
@@ -113,7 +113,7 @@ Sets the format of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d34a00dd-e863-4356-97f9-da3776ecb47b">SetStreamAllocatorRequirements</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319687(v=VS.85).aspx">SetStreamAllocatorRequirements</a>
 </td>
 <td align="left" width="63%">
 Sets the allocator requirements for the stream. This method is not currently implemented.
@@ -128,7 +128,7 @@ Sets the allocator requirements for the stream. This method is not currently imp
 
 
 
-<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a>
  
 
  

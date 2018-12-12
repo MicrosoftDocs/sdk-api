@@ -67,12 +67,12 @@ A handle to the open virtual disk. This must be a VHD Set file.
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/39D7287B-FA5E-4584-8E0A-69A857736D02">TAKE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot data.
+A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Mt414223(v=VS.85).aspx">TAKE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot data.
 
 
 ### -param Flags [in]
 
-Snapshot flags, which must be a valid combination of the <a href="https://msdn.microsoft.com/2A714FFB-E462-418E-B0AC-E7929619604B">TAKE_SNAPSHOT_VHDSET_FLAG</a> enumeration
+Snapshot flags, which must be a valid combination of the <a href="https://msdn.microsoft.com/en-us/library/Mt414221(v=VS.85).aspx">TAKE_SNAPSHOT_VHDSET_FLAG</a> enumeration
 
 
 ## -returns

@@ -53,7 +53,7 @@ req.redist:
 
 The <b>IFrequencyMap</b> interface sets the frequency table used by the <a href="https://msdn.microsoft.com/f5de924f-defe-4300-a347-c9d63271dc90">BDA Network Provider</a> filter.
 
-A frequency table is a list of broadcast or cable frequencies for a given country/region. The Network Provider uses a frequency table to find the next frequency when <a href="https://msdn.microsoft.com/faa99b87-ddbb-4e38-8681-bd5c8c4f81f3">IScanningTuner</a> methods are called. On startup, the Network Provider loads a default frequency table. An application can use the <b>IFrequencyMap</b> interface to specify the user's country/region, which causes the Network Provider filter to load the corresponding frequency table. The application can also modify the current table, or provide a completely new table, using the <a href="https://msdn.microsoft.com/cfde2c8e-803d-46b8-b3d4-8e9b3129af0e">put_FrequencyMapping</a> method.
+A frequency table is a list of broadcast or cable frequencies for a given country/region. The Network Provider uses a frequency table to find the next frequency when <a href="https://msdn.microsoft.com/faa99b87-ddbb-4e38-8681-bd5c8c4f81f3">IScanningTuner</a> methods are called. On startup, the Network Provider loads a default frequency table. An application can use the <b>IFrequencyMap</b> interface to specify the user's country/region, which causes the Network Provider filter to load the corresponding frequency table. The application can also modify the current table, or provide a completely new table, using the <a href="https://msdn.microsoft.com/en-us/library/Dd694092(v=VS.85).aspx">put_FrequencyMapping</a> method.
 
 Frequencies used by this interface are measured in units of kilohertz (kHz), and refer to the center frequency of each band. For more information, see "Terrestrial delivery system descriptor" in the ETSI EN 300 468 standard.
 
@@ -79,7 +79,7 @@ The <b>IFrequencyMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f5e4109-e424-40be-9b3c-7eeef895e677">get_CountryCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694087(v=VS.85).aspx">get_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Returns the country/region code that the Network Provider is currently using.
@@ -88,7 +88,7 @@ Returns the country/region code that the Network Provider is currently using.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc9e2f2e-3187-446e-b1e6-ae32da4413b9">get_CountryCodeList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694088(v=VS.85).aspx">get_CountryCodeList</a>
 </td>
 <td align="left" width="63%">
 Returns a list of all the country/region codes for which the Network Provider has a frequency table.
@@ -97,7 +97,7 @@ Returns a list of all the country/region codes for which the Network Provider ha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67057c70-cb4d-4828-ad97-cf0181bd8cfe">get_DefaultFrequencyMapping</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694089(v=VS.85).aspx">get_DefaultFrequencyMapping</a>
 </td>
 <td align="left" width="63%">
 Returns the default frequency table for a given country/region code.
@@ -106,7 +106,7 @@ Returns the default frequency table for a given country/region code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51fe636f-febe-4306-9c9a-7031a85440c6">get_FrequencyMapping</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694090(v=VS.85).aspx">get_FrequencyMapping</a>
 </td>
 <td align="left" width="63%">
 Returns the Network Provider filter's current frequency table.
@@ -115,7 +115,7 @@ Returns the Network Provider filter's current frequency table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8473e292-b47b-4c1a-b45e-b8acf0e36263">put_CountryCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694091(v=VS.85).aspx">put_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Sets the country/region code.
@@ -124,7 +124,7 @@ Sets the country/region code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cfde2c8e-803d-46b8-b3d4-8e9b3129af0e">put_FrequencyMapping</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694092(v=VS.85).aspx">put_FrequencyMapping</a>
 </td>
 <td align="left" width="63%">
 Sets the frequency table.

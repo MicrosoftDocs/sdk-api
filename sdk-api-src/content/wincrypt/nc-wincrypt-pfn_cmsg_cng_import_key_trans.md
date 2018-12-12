@@ -110,7 +110,7 @@ The <a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">Cr
 
 <b>CMSG_CTRL_DECRYPT</b>
 <b>CMSG_CTRL_KEY_TRANS_DECRYPT</b>
-You can use <a href="cryptography_functions.htm">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
+You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
 <table>
 <tr>

@@ -79,7 +79,7 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 
 
-To convert the loaded <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> into float values, use <a href="https://msdn.microsoft.com/7f93353d-a00b-47a5-b7cb-99b1e79a51f1">XMConvertVectorUIntToFloat</a> or <a href="https://msdn.microsoft.com/00db7e6f-af9d-4e8c-a9c0-4451d08f9e10">XMConvertVectorIntToFloat</a>.
+To convert the loaded <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> into float values, use <a href="https://msdn.microsoft.com/en-us/library/Hh437937(v=VS.85).aspx">XMConvertVectorUIntToFloat</a> or <a href="https://msdn.microsoft.com/en-us/library/Hh437934(v=VS.85).aspx">XMConvertVectorIntToFloat</a>.
 
 The following pseudocode shows you the operation of the function.
 
@@ -113,19 +113,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a>
 
 
 
-<a href="https://msdn.microsoft.com/b68ec578-1196-42b4-853b-1fd6e70798d2">XMLoadSInt4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404677(v=VS.85).aspx">XMLoadSInt4</a>
 
 
 
-<a href="https://msdn.microsoft.com/63405f1e-0909-4e3a-9313-f9ec375d2152">XMLoadUInt4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404682(v=VS.85).aspx">XMLoadUInt4</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a>
  
 
  

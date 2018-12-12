@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc">IBDA_FrequencyFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693355(v=VS.85).aspx">IBDA_FrequencyFilter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d15bd0f9-4f2e-4098-bf5b-db03fde1362f">IBDA_FrequencyFilter::put_Polarity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693366(v=VS.85).aspx">IBDA_FrequencyFilter::put_Polarity</a>
  
 
  

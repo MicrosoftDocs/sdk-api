@@ -60,7 +60,7 @@ Sets the volume level of each channel of the final output for the voice. These c
 
 ### -param pDestinationVoice [in]
 
-Pointer to a destination <a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a> for which to set volume levels.
+Pointer to a destination <a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a> for which to set volume levels.
 
 <div class="alert"><b>Note</b>  If the voice sends to a single target voice then specifying NULL will cause <b>SetOutputMatrix</b> to operate on that target voice.</div>
 <div> </div>
@@ -162,9 +162,9 @@ Volume levels are expressed as floating-point amplitude multipliers between -XAU
 
 
 
-The <a href="https://msdn.microsoft.com/1638e848-4186-5dea-18e8-5369eee544ae">X3DAudio</a> function <a href="https://msdn.microsoft.com/d6b05917-9253-4c05-a318-ff13d9a329eb">X3DAudioCalculate</a> can produce an output matrix for use with <b>SetOutputMatrix</b> based on a sound's position and a listener's position.
+The <a href="https://msdn.microsoft.com/1638e848-4186-5dea-18e8-5369eee544ae">X3DAudio</a> function <a href="https://msdn.microsoft.com/en-us/library/Ee419052(v=VS.85).aspx">X3DAudioCalculate</a> can produce an output matrix for use with <b>SetOutputMatrix</b> based on a sound's position and a listener's position.
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/6FA23BF5-E79E-404B-A54D-514EEAA4A668">IXAudio2Voice::GetOutputMatrix</a> always returns the levels most recently set by <b>IXAudio2Voice::SetOutputMatrix</b>. However, they may not actually be in effect yet: they only take effect the next time the audio engine runs after the <b>IXAudio2Voice::SetOutputMatrix</b> call (or after the corresponding <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetOutputMatrix</b> was called with a deferred operation ID).</div>
+<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/en-us/library/Ee418590(v=VS.85).aspx">IXAudio2Voice::GetOutputMatrix</a> always returns the levels most recently set by <b>IXAudio2Voice::SetOutputMatrix</b>. However, they may not actually be in effect yet: they only take effect the next time the audio engine runs after the <b>IXAudio2Voice::SetOutputMatrix</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetOutputMatrix</b> was called with a deferred operation ID).</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -181,7 +181,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
  
 
  

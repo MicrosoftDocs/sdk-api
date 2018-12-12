@@ -61,7 +61,7 @@ Only the Overlay Mixer filter implements this interface. Applications should nev
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify</b> interface inherits from <a href="https://msdn.microsoft.com/c72bd662-366c-4102-9ad9-9e4c59096ede">IVPBaseNotify</a>. <b>IVPNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd390581(v=VS.85).aspx">IVPBaseNotify</a>. <b>IVPNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IVPNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08d28857-5460-407d-a169-8568b2c381e6">GetDeinterlaceMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390593(v=VS.85).aspx">GetDeinterlaceMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the deinterlacing mode (such as bob or weave).
@@ -85,7 +85,7 @@ Retrieves the deinterlacing mode (such as bob or weave).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41984fb1-7276-4232-b19a-d251c9fcd699">SetDeinterlaceMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390594(v=VS.85).aspx">SetDeinterlaceMode</a>
 </td>
 <td align="left" width="63%">
 Sets the deinterlacing mode (such as bob or weave).
@@ -110,15 +110,15 @@ Include Vptype.h before Vpnotify.h.
 
 
 
-<a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/c72bd662-366c-4102-9ad9-9e4c59096ede">IVPBaseNotify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390581(v=VS.85).aspx">IVPBaseNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c0eb294-7e57-4d8d-98b1-57c3834279a0">IVPConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390583(v=VS.85).aspx">IVPConfig</a>
  
 
  

@@ -53,14 +53,14 @@ req.redist:
 
 The <b>IWMWriterPostViewCallback</b> interface manages the receiving of uncompressed samples from the writer. Postview can be used only for video streams.
 
-This interface must be implemented by the application and passed to <a href="https://msdn.microsoft.com/c2814f32-1787-44a6-8ffc-5d2a9aca8601">IWMWriterPostView::SetPostViewCallback</a>.
+This interface must be implemented by the application and passed to <a href="https://msdn.microsoft.com/en-us/library/Dd798781(v=VS.85).aspx">IWMWriterPostView::SetPostViewCallback</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPostViewCallback</b> interface inherits from <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a>. <b>IWMWriterPostViewCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPostViewCallback</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a>. <b>IWMWriterPostViewCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMWriterPostViewCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e48132c4-b222-4401-99b3-7906c0df4ec1">AllocateForPostView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798772(v=VS.85).aspx">AllocateForPostView</a>
 </td>
 <td align="left" width="63%">
 Allocates a buffer for use in postviewing operations.
@@ -84,7 +84,7 @@ Allocates a buffer for use in postviewing operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d29a746-70fe-495e-a7f2-dbf085829496">OnPostViewSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798773(v=VS.85).aspx">OnPostViewSample</a>
 </td>
 <td align="left" width="63%">
 Called when new postview data is available.
@@ -99,7 +99,7 @@ Called when new postview data is available.
 
 
 
-<a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback Interface</a>
 
 
 

@@ -149,11 +149,11 @@ The following are the manifest constants associated with the
 
 
 
-<a href="https://msdn.microsoft.com/794d4070-45d7-41c3-8229-660ba3c5f72a">ATM_ADDRESS</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms737538(v=VS.85).aspx">ATM_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7e09a8e-5990-4493-bd73-016363b57427">ATM_BHLI</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms737539(v=VS.85).aspx">ATM_BHLI</a>
 
 
 

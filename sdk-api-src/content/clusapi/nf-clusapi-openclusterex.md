@@ -51,7 +51,7 @@ req.redist:
 
 
 Opens a connection to a 
-    <a href="c_gly.htm">cluster</a> and returns a handle to it.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and returns a handle to it.
 
 
 ## -parameters

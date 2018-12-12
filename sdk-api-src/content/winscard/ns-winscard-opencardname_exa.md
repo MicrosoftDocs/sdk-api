@@ -139,7 +139,7 @@ A handle to an icon (32 x 32 pixels). You can specify a vendor-specific icon to 
 ### -field pOpenCardSearchCriteria
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/f20874ca-a714-45b7-abcb-85bedc4e6245">OPENCARD_SEARCH_CRITERIA</a> structure to be used, or <b>NULL</b>, if one is not used.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378816(v=VS.85).aspx">OPENCARD_SEARCH_CRITERIA</a> structure to be used, or <b>NULL</b>, if one is not used.
 
 
 ### -field lpfnConnect

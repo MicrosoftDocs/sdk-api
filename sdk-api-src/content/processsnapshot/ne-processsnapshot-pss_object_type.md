@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Specifies the object type in a <a href="https://msdn.microsoft.com/F56E8C35-949A-4DEE-973F-CF24F6596036">PSS_HANDLE_ENTRY</a> structure.
+Specifies the object type in a <a href="https://msdn.microsoft.com/en-us/library/Dn457843(v=VS.85).aspx">PSS_HANDLE_ENTRY</a> structure.
 
 
 ## -enum-fields

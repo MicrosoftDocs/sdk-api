@@ -63,7 +63,7 @@ The <code>SetConnectInfo</code> method sets the video port connection parameters
 
 ### -param dwChosenEntry [in]
 
-Specifies the index of connect information to pass to the driver. The value is a zero-based index into the array returned by the <a href="https://msdn.microsoft.com/b428e77a-83c3-42ce-95e4-1cdde4da066d">IVPBaseConfig::GetConnectInfo</a> method.
+Specifies the index of connect information to pass to the driver. The value is a zero-based index into the array returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd390568(v=VS.85).aspx">IVPBaseConfig::GetConnectInfo</a> method.
 
 
 ## -returns
@@ -93,7 +93,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig Interface</a>
  
 
  

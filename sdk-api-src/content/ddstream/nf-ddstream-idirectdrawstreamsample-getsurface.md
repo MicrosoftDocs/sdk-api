@@ -96,7 +96,7 @@ Both parameters are optional. All implementations of this interface must support
 
 
 
-<a href="https://msdn.microsoft.com/afc8ac84-4629-4c5d-b4b2-59c1eb1af35d">IDirectDrawStreamSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406813(v=VS.85).aspx">IDirectDrawStreamSample Interface</a>
  
 
  

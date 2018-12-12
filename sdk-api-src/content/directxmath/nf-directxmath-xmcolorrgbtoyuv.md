@@ -96,7 +96,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/d4464e51-137e-4699-a513-abe27a4306c6">XMColorYUVToRGB</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437880(v=VS.85).aspx">XMColorYUVToRGB</a>
  
 
  

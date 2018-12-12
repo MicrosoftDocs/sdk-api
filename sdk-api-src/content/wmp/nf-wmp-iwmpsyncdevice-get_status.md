@@ -121,7 +121,7 @@ Windows Media Player 10 or later supports up to 16 device partnerships. The Play
 
 
 
-<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
 
 
 
@@ -129,7 +129,7 @@ Windows Media Player 10 or later supports up to 16 device partnerships. The Play
 
 
 
-<a href="https://msdn.microsoft.com/dbbb97f8-4b26-4add-a661-a48eff8ad0f5">WMPDeviceStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564695(v=VS.85).aspx">WMPDeviceStatus</a>
  
 
  

@@ -157,7 +157,7 @@ Indicates a query for whether or not the adapter supports creating heaps from ex
 
 ### -field D3D12_FEATURE_D3D12_OPTIONS5
 
-Starting with Windows 10, version 1809 (10.0; Build 17763), indicates a query for the level of support for render passes, ray tracing, and shader-resource view tier 3 tiled resources. The corresponding data structure for this value is <a href="https://msdn.microsoft.com/7B786C22-56C1-44A0-BE67-DE04EB367FD2">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a>.
+Starting with Windows 10, version 1809 (10.0; Build 17763), indicates a query for the level of support for render passes, ray tracing, and shader-resource view tier 3 tiled resources. The corresponding data structure for this value is <a href="https://msdn.microsoft.com/en-us/library/Mt830391(v=VS.85).aspx">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a>.
 
 
 ## -remarks

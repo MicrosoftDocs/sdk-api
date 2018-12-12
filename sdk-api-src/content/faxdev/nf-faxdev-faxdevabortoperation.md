@@ -62,7 +62,7 @@ The fax service calls the <b>FaxDevAbortOperation</b> function to request that t
 
 Type: <b>HANDLE</b>
 
-Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/40f647ba-05ed-453a-8eea-729b2f59ac05">FaxDevStartJob</a> function.
+Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function.
 
 
 ## -returns
@@ -94,19 +94,19 @@ The <b>FaxDevAbortOperation</b> function is called asynchronously on an executio
 
 
 
-<a href="https://msdn.microsoft.com/402583fd-aef8-4197-a41e-870825c58351">Fax Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5a0c728-1a3f-46aa-8de8-f47a18425e1a">FaxDevEndJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684550(v=VS.85).aspx">FaxDevEndJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/40f647ba-05ed-453a-8eea-729b2f59ac05">FaxDevStartJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8788e8a-e97c-4082-8e89-b6f4a7568d3a">Using the Fax Service Provider API</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
  
 
  

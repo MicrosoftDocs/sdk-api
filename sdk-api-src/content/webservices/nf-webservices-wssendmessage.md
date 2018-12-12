@@ -70,7 +70,7 @@ The channel to send the message on.
 The message object to use for sending.
                 
 
-The message object must be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a> or
+The message object must be in <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a> or
                   <b>WS_MESSAGE_STATE_INITIALIZED</b>.
                 
 
@@ -92,7 +92,7 @@ The bodyElementDescription field of the <a href="https://msdn.microsoft.com/399b
 ### -param writeOption [in]
 
                     Whether the body element is required, and how the value is allocated. This is used
-                    only when a body element is desired. For more information, see <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> and 
+                    only when a body element is desired. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> and 
                     <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a>.
 
                 
@@ -529,7 +529,7 @@ This function may return other errors not listed above.
 
 
 
-To include custom headers with the message, initialize the message <a href="https://msdn.microsoft.com/26eafc5f-6636-4f96-a037-7935cdac5900">WsInitializeMessage</a>with <a href="https://msdn.microsoft.com/f4a674c1-4017-49c8-aa9a-68f1d2b84378">WS_BLANK_MESSAGE</a> and then add the headers using <a href="https://msdn.microsoft.com/4b95085a-e522-4ab2-b7c9-d332599c5598">WsAddCustomHeader</a> 
+To include custom headers with the message, initialize the message <a href="https://msdn.microsoft.com/26eafc5f-6636-4f96-a037-7935cdac5900">WsInitializeMessage</a>with <a href="https://msdn.microsoft.com/en-us/library/Dd401956(v=VS.85).aspx">WS_BLANK_MESSAGE</a> and then add the headers using <a href="https://msdn.microsoft.com/4b95085a-e522-4ab2-b7c9-d332599c5598">WsAddCustomHeader</a> 
                 before calling this function.
             
 

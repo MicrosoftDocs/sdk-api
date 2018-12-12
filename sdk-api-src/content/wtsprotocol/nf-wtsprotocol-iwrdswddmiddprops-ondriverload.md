@@ -86,7 +86,7 @@ S_OK or error code
 
 
 
-<a href="https://msdn.microsoft.com/9473E754-D158-40E7-9E76-D8EA5A4BE86E">IWRdsWddmIddProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt832805(v=VS.85).aspx">IWRdsWddmIddProps</a>
  
 
  

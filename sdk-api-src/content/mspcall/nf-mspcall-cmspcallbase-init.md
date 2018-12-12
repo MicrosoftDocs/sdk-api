@@ -86,11 +86,11 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/77b53b66-38fa-4823-9051-e857da8a7dd7">CMSPCallBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffb250b1-b66c-470b-ac73-91511623da00">CMSPCallMultiGraph::Init</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726574(v=VS.85).aspx">CMSPCallMultiGraph::Init</a>
 
 
 

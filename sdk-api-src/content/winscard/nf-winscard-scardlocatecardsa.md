@@ -72,7 +72,7 @@ A multiple string that contains the names of the cards to search for.
 
 ### -param rgReaderStates [in, out]
 
-An array of <a href="https://msdn.microsoft.com/4e9bbed7-f899-4361-a526-029a710d5147">SCARD_READERSTATE</a> structures that, on input, specify the readers to search and that, on output, receives the result.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Aa379808(v=VS.85).aspx">SCARD_READERSTATE</a> structures that, on input, specify the readers to search and that, on output, receives the result.
 
 
 ### -param cReaders [in]
@@ -110,7 +110,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="authentication_return_values.htm">Smart Card Return Values</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -276,7 +276,7 @@ return hr;
 
 
 
-<a href="https://msdn.microsoft.com/4e9bbed7-f899-4361-a526-029a710d5147">SCARD_READERSTATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa379808(v=VS.85).aspx">SCARD_READERSTATE</a>
 
 
 

@@ -69,12 +69,12 @@ Zero-based index of an input stream on the DMO.
 
 ### -param pBuffer
 
-Pointer to the buffer's <a href="https://msdn.microsoft.com/74d72ca6-f899-43fc-bdea-5208d920f314">IMediaBuffer</a> interface.
+Pointer to the buffer's <a href="https://msdn.microsoft.com/en-us/library/Dd390166(v=VS.85).aspx">IMediaBuffer</a> interface.
 
 
 ### -param dwFlags
 
-Bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/b0217926-ac2d-48e5-a5d0-e31be6ea20ac">DMO_INPUT_DATA_BUFFER_FLAGS</a> enumeration.
+Bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd375501(v=VS.85).aspx">DMO_INPUT_DATA_BUFFER_FLAGS</a> enumeration.
 
 
 ### -param rtTimestamp
@@ -152,11 +152,11 @@ Success.
 
 
 
-The input buffer specified in the <i>pBuffer</i> parameter is read-only. The DMO will not modify the data in this buffer. All write operations occur on the output buffers, which are given in a separate call to the <a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a> method.
+The input buffer specified in the <i>pBuffer</i> parameter is read-only. The DMO will not modify the data in this buffer. All write operations occur on the output buffers, which are given in a separate call to the <a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a> method.
 
-If the DMO does not process all the data in the buffer, it keeps a reference count on the buffer. It releases the buffer once it has generated all the output, unless it needs to perform lookahead on the data. (To determine whether a DMO performs lookahead, call the <a href="https://msdn.microsoft.com/9e18bf5e-cf29-4446-a1ba-422b41e02edc">IMediaObject::GetInputStreamInfo</a> method.)
+If the DMO does not process all the data in the buffer, it keeps a reference count on the buffer. It releases the buffer once it has generated all the output, unless it needs to perform lookahead on the data. (To determine whether a DMO performs lookahead, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406951(v=VS.85).aspx">IMediaObject::GetInputStreamInfo</a> method.)
 
-If this method returns DMO_E_NOTACCEPTING, call <b>ProcessOutput</b> until the input stream can accept more data. To determine whether the stream can accept more data, call the <a href="https://msdn.microsoft.com/4581307f-cea2-4e88-81a1-972e1998c7a8">IMediaObject::GetInputStatus</a> method.
+If this method returns DMO_E_NOTACCEPTING, call <b>ProcessOutput</b> until the input stream can accept more data. To determine whether the stream can accept more data, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406950(v=VS.85).aspx">IMediaObject::GetInputStatus</a> method.
 
 If the method returns S_FALSE, no output was generated from this input and the application does not need to call <b>ProcessOutput</b>. However, a DMO is not required to return S_FALSE in this situation; it might return S_OK.
 
@@ -168,7 +168,7 @@ If the method returns S_FALSE, no output was generated from this input and the a
 
 
 
-<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
  
 
  

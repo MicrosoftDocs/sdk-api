@@ -88,7 +88,7 @@ The balance level is a value between –10,000 and 10,000, measured in hundredth
 
 
 
-<a href="https://msdn.microsoft.com/bb9796c5-0dd2-496a-b5b4-a6614d7770c1">IBasicAudio::get_Balance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389534(v=VS.85).aspx">IBasicAudio::get_Balance</a>
 
 
 
@@ -96,7 +96,7 @@ The balance level is a value between –10,000 and 10,000, measured in hundredth
 
 
 
-<a href="https://msdn.microsoft.com/25a9231a-d34a-4657-be0a-fcc979d1745d">IMSVidAudioRenderer::put_Balance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694464(v=VS.85).aspx">IMSVidAudioRenderer::put_Balance</a>
  
 
  

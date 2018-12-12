@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Determines which list-view item, if any, is at a specified position. You can use this macro or send the <a href="https://msdn.microsoft.com/81df4ed1-30bd-4b63-9cb9-5163cb7cf52c">LVM_HITTEST</a> message explicitly. 
+Determines which list-view item, if any, is at a specified position. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761099(v=VS.85).aspx">LVM_HITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -69,5 +69,5 @@ A handle to the list-view control.
 
 Type: <b>LPLVHITTESTINFO</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/1906cc92-e6e6-470c-86d5-042578833391">LVHITTESTINFO</a> structure that contains the position to hit test and receives information about the results of the hit test. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774754(v=VS.85).aspx">LVHITTESTINFO</a> structure that contains the position to hit test and receives information about the results of the hit test. 
 

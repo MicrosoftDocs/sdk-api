@@ -100,11 +100,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/461b3999-ee1f-4d2a-9ebc-38faf344eba0">IAMNetShowConfig::put_FixedUDPPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319714(v=VS.85).aspx">IAMNetShowConfig::put_FixedUDPPort</a>
  
 
  

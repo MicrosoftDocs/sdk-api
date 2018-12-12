@@ -55,7 +55,7 @@ req.redist:
 
 Implement the <b>IWEExtendContextMenu</b> interface to 
     extend a <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> context menu 
-    for a <a href="c_gly.htm">cluster object</a>.
+    for a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster object</a>.
 
 
 ## -inheritance

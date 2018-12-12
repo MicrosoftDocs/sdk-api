@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the handle to an image list used for drawing list-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/dd48d8b5-6dbd-48ab-95c3-0fcf1e8c24f0">LVM_GETIMAGELIST</a> message explicitly. 
+Gets the handle to an image list used for drawing list-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774943(v=VS.85).aspx">LVM_GETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters

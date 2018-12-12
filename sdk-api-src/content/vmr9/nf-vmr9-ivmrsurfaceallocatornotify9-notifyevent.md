@@ -109,7 +109,7 @@ The method succeeded.
 
 
 
-The VMR provides the allocator-presenter with a pointer to this interface in a call to <a href="https://msdn.microsoft.com/2c367444-50bf-4fbe-b2d9-ed32275576e9">IVMRSurfaceAllocator9::AdviseNotify</a>. When the allocator-presenter calls this method and specifies some regular DirectShow event, such as EC_ERRORABORT or EC_VMR_RENDERDEVICE_SET, the VMR will pass the event to the filter graph manager.
+The VMR provides the allocator-presenter with a pointer to this interface in a call to <a href="https://msdn.microsoft.com/en-us/library/Dd390501(v=VS.85).aspx">IVMRSurfaceAllocator9::AdviseNotify</a>. When the allocator-presenter calls this method and specifies some regular DirectShow event, such as EC_ERRORABORT or EC_VMR_RENDERDEVICE_SET, the VMR will pass the event to the filter graph manager.
 
 Include DShow.h and D3d9.h before Vmr9.h.
 
@@ -121,7 +121,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f275b835-e5b3-46f4-8b26-a4b0e2554c7c">IVMRSurfaceAllocatorNotify9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390508(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9 Interface</a>
 
 
 

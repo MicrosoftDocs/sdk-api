@@ -57,7 +57,7 @@ The turbulence effect is used to generate a bitmap based on the Perlin noise fun
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTurbulenceEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionTurbulenceEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTurbulenceEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionTurbulenceEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDCompositionTurbulenceEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4231DC9C-3CF3-405C-80BB-6DABCA40B4CD">SetBaseFrequency</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919802(v=VS.85).aspx">SetBaseFrequency</a>
 </td>
 <td align="left" width="63%">
 Sets the base frequencies in the X and Y direction.
@@ -81,7 +81,7 @@ Sets the base frequencies in the X and Y direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6EF5C8D0-C614-4520-BAE5-A3C8E609FB64">SetNoise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919803(v=VS.85).aspx">SetNoise</a>
 </td>
 <td align="left" width="63%">
 Sets the turbulence noise mode.
@@ -90,7 +90,7 @@ Sets the turbulence noise mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/759F03F2-4CA2-454D-8AAE-C18B5E3FD3D0">SetNumOctaves</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919804(v=VS.85).aspx">SetNumOctaves</a>
 </td>
 <td align="left" width="63%">
 Sets the number of octaves for the noise function.
@@ -99,7 +99,7 @@ Sets the number of octaves for the noise function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6C27C707-93CE-4EAD-ACFB-2DA36EFB1FB5">SetOffset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919805(v=VS.85).aspx">SetOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the coordinates where the turbulence output is generated.
@@ -108,7 +108,7 @@ Sets the coordinates where the turbulence output is generated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FF980DF7-9DD2-4B98-AE84-CB4CA3A1226B">SetSeed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919806(v=VS.85).aspx">SetSeed</a>
 </td>
 <td align="left" width="63%">
 Sets the seed for the pseudo random generator.
@@ -117,7 +117,7 @@ Sets the seed for the pseudo random generator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A25788DC-83EE-455F-BC73-67639F47FFEC">SetSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919807(v=VS.85).aspx">SetSize</a>
 </td>
 <td align="left" width="63%">
 Sets the size of the turbulence output.
@@ -126,7 +126,7 @@ Sets the size of the turbulence output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A73474FD-FECE-4654-8B6C-F44C2DDD7D9C">SetStitchable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919808(v=VS.85).aspx">SetStitchable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether stitching is on or off.
@@ -141,7 +141,7 @@ Specifies whether stitching is on or off.
 
 
 
-<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
  
 
  

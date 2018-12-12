@@ -64,7 +64,7 @@ The <code>SetDrawBackgroundMode</code> method specifies whether the <a href="htt
 
 ### -param Mode
 
-Specifies a member of the <a href="https://msdn.microsoft.com/efd8ee53-702b-45af-a3dc-e6afe26b01c9">AM_LINE21_DRAWBGMODE</a> enumeration.
+Specifies a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373476(v=VS.85).aspx">AM_LINE21_DRAWBGMODE</a> enumeration.
 
 
 ## -returns
@@ -115,7 +115,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/817a47d6-39c4-4186-81d0-ad822814f0ee">IAMLine21Decoder::GetDrawBackgroundMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389389(v=VS.85).aspx">IAMLine21Decoder::GetDrawBackgroundMode</a>
  
 
  

@@ -75,7 +75,7 @@ The <b>IWMPLibrarySharingServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fc0a1396-5b43-43dd-9e0d-b5b3a8cf5cdd">isLibraryShared</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563389(v=VS.85).aspx">isLibraryShared</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the user's library is shared.
@@ -84,7 +84,7 @@ Retrieves a value indicating whether the user's library is shared.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd643869-9111-423e-9f9c-7147d1e3c7b8">isLibrarySharingEnabled</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563390(v=VS.85).aspx">isLibrarySharingEnabled</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the user has enabled library sharing in Windows Media Player.
@@ -93,7 +93,7 @@ Retrieves a value indicating whether the user has enabled library sharing in Win
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87c335ee-c9af-4182-a460-118c53308dad">showLibrarySharing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563391(v=VS.85).aspx">showLibrarySharing</a>
 </td>
 <td align="left" width="63%">
 Displays the Windows Media Player <b>Library Sharing</b> dialog box.
@@ -102,7 +102,7 @@ Displays the Windows Media Player <b>Library Sharing</b> dialog box.
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPLibrarySharingServices</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a> interface.
+Retrieve a pointer to an <b>IWMPLibrarySharingServices</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a> interface.
 	
 
 

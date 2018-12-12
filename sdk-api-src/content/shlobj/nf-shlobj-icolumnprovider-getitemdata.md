@@ -69,7 +69,7 @@ An <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHC
 
 Type: <b>LPCSHCOLUMNDATA</b>
 
-An <a href="https://msdn.microsoft.com/3a0c9231-2871-4314-9db3-7e5609e08359">SHCOLUMNDATA</a> structure that specifies the file.
+An <a href="https://msdn.microsoft.com/en-us/library/Bb759747(v=VS.85).aspx">SHCOLUMNDATA</a> structure that specifies the file.
 
 
 ### -param pvarData [out]

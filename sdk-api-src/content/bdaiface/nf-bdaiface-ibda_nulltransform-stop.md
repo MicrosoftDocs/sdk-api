@@ -81,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/f13350cb-5064-405d-aeb6-25f684d0bdbb">IBDA_NullTransform Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693418(v=VS.85).aspx">IBDA_NullTransform Interface</a>
  
 
  

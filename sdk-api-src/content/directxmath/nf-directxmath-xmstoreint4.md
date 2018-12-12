@@ -111,19 +111,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca914f14-289c-4332-8edf-8e385f4a5a9d">XMStoreSInt4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404703(v=VS.85).aspx">XMStoreSInt4</a>
 
 
 
-<a href="https://msdn.microsoft.com/cab2f718-3694-401a-b819-31b59ce8995d">XMStoreUInt4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404708(v=VS.85).aspx">XMStoreUInt4</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a>
  
 
  

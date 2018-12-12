@@ -63,7 +63,7 @@ The <b>get_LocalOscilatorFrequencyHighBand</b> method retrieves the high band of
 
 ### -param pulLOFHigh [out]
 
-Pointer that receives the high band value. The units are 1 Hz x the frequency multiplier, where the <i>frequency multiplier</i> is the value returned by the <a href="https://msdn.microsoft.com/463a58f7-a10c-40b5-8183-3e16bcc7c6b2">IBDA_FrequencyFilter::get_FrequencyMultiplier</a> method. The default frequency multiplier is 1000, so the default units are kilohertz (kHz).
+Pointer that receives the high band value. The units are 1 Hz x the frequency multiplier, where the <i>frequency multiplier</i> is the value returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd693359(v=VS.85).aspx">IBDA_FrequencyFilter::get_FrequencyMultiplier</a> method. The default frequency multiplier is 1000, so the default units are kilohertz (kHz).
 
 
 ## -returns
@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/4985b525-c000-4d19-9679-c995cbc3c99b">IBDA_LNBInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693396(v=VS.85).aspx">IBDA_LNBInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a1de764-aaab-4801-ba34-65c05d245ba0">IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693401(v=VS.85).aspx">IBDA_LNBInfo::put_LocalOscilatorFrequencyHighBand</a>
  
 
  

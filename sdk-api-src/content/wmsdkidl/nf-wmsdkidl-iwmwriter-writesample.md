@@ -87,7 +87,7 @@ The <b>WriteSample</b> method passes in uncompressed data to be compressed and a
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
@@ -107,7 +107,7 @@ The <b>WriteSample</b> method passes in uncompressed data to be compressed and a
 
 ### -param pSample [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface representing a sample.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface representing a sample.
 
 
 ## -returns
@@ -196,7 +196,7 @@ Typically, this error will be returned if the stream configuration requires a pr
 </dl>
 </td>
 <td width="60%">
-The writer has received samples whose presentation times differ by an amount greater than the maximum synchronization tolerance. You can set the synchronization tolerance by calling <a href="https://msdn.microsoft.com/d60020bf-52f1-46a0-aeae-367e3b179fac">IWMWriterAdvanced::SetSyncTolerance</a>.
+The writer has received samples whose presentation times differ by an amount greater than the maximum synchronization tolerance. You can set the synchronization tolerance by calling <a href="https://msdn.microsoft.com/en-us/library/Dd798739(v=VS.85).aspx">IWMWriterAdvanced::SetSyncTolerance</a>.
 
 This error can occur when there is more than one stream, and the application sends samples for one stream at a faster rate than the other stream. At some point, the second stream will lag too far behind the first, and the writer will return this error code.
 
@@ -209,7 +209,7 @@ This error can occur when there is more than one stream, and the application sen
 </dl>
 </td>
 <td width="60%">
-Samples from a real-time source are arriving faster than expected. This error is returned only if <a href="https://msdn.microsoft.com/ab015f92-498e-44c7-95c9-869dfdfccc09">IWMWriterAdvanced::SetLiveSource</a> has been called to indicate a live source.
+Samples from a real-time source are arriving faster than expected. This error is returned only if <a href="https://msdn.microsoft.com/en-us/library/Dd798737(v=VS.85).aspx">IWMWriterAdvanced::SetLiveSource</a> has been called to indicate a live source.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ If the output stream has a time code data unit extension and there is no time co
 
 
 
-<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
 
 
 

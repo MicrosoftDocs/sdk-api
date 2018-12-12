@@ -51,14 +51,14 @@ req.redist:
 ## -description
 
 
-An input-layout interface holds a definition of how to feed vertex data that is laid out in memory into the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input-assembler stage</a> of the <a href="https://msdn.microsoft.com/8e7a6f64-0a2b-4ea5-a6a6-7bfb87e27dcc">graphics pipeline</a>.
+An input-layout interface holds a definition of how to feed vertex data that is laid out in memory into the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a> of the <a href="https://msdn.microsoft.com/8e7a6f64-0a2b-4ea5-a6a6-7bfb87e27dcc">graphics pipeline</a>.
 
 
 ## -remarks
 
 
 
-To create an input-layout object, call <a href="https://msdn.microsoft.com/fe233b7b-3729-428a-8611-e98ea4c5af35">ID3D11Device::CreateInputLayout</a>. To bind the input-layout object to the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input-assembler stage</a>, call <a href="https://msdn.microsoft.com/54562ece-db8d-4e31-bde2-36391792e259">ID3D11DeviceContext::IASetInputLayout</a>.
+To create an input-layout object, call <a href="https://msdn.microsoft.com/fe233b7b-3729-428a-8611-e98ea4c5af35">ID3D11Device::CreateInputLayout</a>. To bind the input-layout object to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>, call <a href="https://msdn.microsoft.com/54562ece-db8d-4e31-bde2-36391792e259">ID3D11DeviceContext::IASetInputLayout</a>.
 
 
 

@@ -60,7 +60,7 @@ Adds a new audio buffer to the voice queue.
 
 ### -param pBuffer [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/b6c2a08b-6abb-4e6a-8acb-6f8983aef95f">XAUDIO2_BUFFER</a> structure to queue. 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> structure to queue. 
 
 
 
@@ -73,7 +73,7 @@ TBD
 
 #### - pBufferWMA [in]
 
-Pointer to an additional <a href="https://msdn.microsoft.com/5bb5fc9a-37ce-47f3-8343-2cc39a6e393c">XAUDIO2_BUFFER_WMA</a> structure used when submitting WMA data. 
+Pointer to an additional <a href="https://msdn.microsoft.com/en-us/library/Ee419229(v=VS.85).aspx">XAUDIO2_BUFFER_WMA</a> structure used when submitting WMA data. 
 
 
 ## -returns
@@ -93,7 +93,7 @@ The voice processes and plays back the buffers in its queue in the order that th
 
 
 
-The <a href="https://msdn.microsoft.com/b6c2a08b-6abb-4e6a-8acb-6f8983aef95f">XAUDIO2_BUFFER</a> structure includes details about the audio buffer's location and size, the part of the buffer that should actually be played, the loop region (if any) and loop count, the context pointer to be used in any callbacks relating to this buffer, and an optional XAUDIO2_END_OF_STREAM flag that indicates that it is the last buffer of a contiguous sound.
+The <a href="https://msdn.microsoft.com/en-us/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> structure includes details about the audio buffer's location and size, the part of the buffer that should actually be played, the loop region (if any) and loop count, the context pointer to be used in any callbacks relating to this buffer, and an optional XAUDIO2_END_OF_STREAM flag that indicates that it is the last buffer of a contiguous sound.
 
 
 
@@ -101,11 +101,11 @@ If the voice is started and has no buffers queued, the new buffer will start pla
 
 
 
-If only part of the given buffer should be played, the <b>PlayBegin</b> and <b>PlayLength</b> fields in the <a href="https://msdn.microsoft.com/b6c2a08b-6abb-4e6a-8acb-6f8983aef95f">XAUDIO2_BUFFER</a> can be used to specify the region to be played. A <b>PlayLength</b> value of 0 means to play the entire buffer (and in this case <b>PlayBegin</b> must be 0 as well).
+If only part of the given buffer should be played, the <b>PlayBegin</b> and <b>PlayLength</b> fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> can be used to specify the region to be played. A <b>PlayLength</b> value of 0 means to play the entire buffer (and in this case <b>PlayBegin</b> must be 0 as well).
 
 
 
-If all or part of the buffer should be played in a continuous loop, the <b>LoopBegin</b>, <b>LoopLength</b> and <b>LoopCount</b> fields in <a href="https://msdn.microsoft.com/b6c2a08b-6abb-4e6a-8acb-6f8983aef95f">XAUDIO2_BUFFER</a> can be used to specify the characteristics of the loop region. A <b>LoopBegin</b> value of XAUDIO2_NO_LOOP_REGION means that no looping should be performed, and in this case <b>LoopLength</b> and <b>LoopCount</b> must be given as 0. If a loop region is specified, it must be non-empty (<b>LoopLength</b> &gt; 0), and the loop count must be between 1 and XAUDIO2_MAX_LOOP_COUNT inclusive (or XAUDIO2_LOOP_INFINITE to specify an endless loop which will only end when <a href="https://msdn.microsoft.com/4C65F991-2796-4D06-A02A-91708D805731">IXAudio2SourceVoice::ExitLoop</a> is called). A loop count of <i>N</i> means to skip backwards N times, i.e. to play the loop region <i>N</i>+1 times.
+If all or part of the buffer should be played in a continuous loop, the <b>LoopBegin</b>, <b>LoopLength</b> and <b>LoopCount</b> fields in <a href="https://msdn.microsoft.com/en-us/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> can be used to specify the characteristics of the loop region. A <b>LoopBegin</b> value of XAUDIO2_NO_LOOP_REGION means that no looping should be performed, and in this case <b>LoopLength</b> and <b>LoopCount</b> must be given as 0. If a loop region is specified, it must be non-empty (<b>LoopLength</b> &gt; 0), and the loop count must be between 1 and XAUDIO2_MAX_LOOP_COUNT inclusive (or XAUDIO2_LOOP_INFINITE to specify an endless loop which will only end when <a href="https://msdn.microsoft.com/en-us/library/Ee418465(v=VS.85).aspx">IXAudio2SourceVoice::ExitLoop</a> is called). A loop count of <i>N</i> means to skip backwards N times, i.e. to play the loop region <i>N</i>+1 times.
 
 
 
@@ -124,7 +124,7 @@ If an explicit play region is specified, it must begin and end within the given 
 </table>
  
 
-The <i>pBuffer</i> pointer can be reused or freed immediately after calling this method, but the actual audio data referenced by <i>pBuffer</i> must remain valid until the buffer has been fully consumed by XAudio2 (which is indicated by the <a href="https://msdn.microsoft.com/803D1DB9-8C10-4821-BB0F-DDF85B11B9B3">IXAudio2VoiceCallback::OnBufferEnd</a> callback).
+The <i>pBuffer</i> pointer can be reused or freed immediately after calling this method, but the actual audio data referenced by <i>pBuffer</i> must remain valid until the buffer has been fully consumed by XAudio2 (which is indicated by the <a href="https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx">IXAudio2VoiceCallback::OnBufferEnd</a> callback).
 
 
 
@@ -164,7 +164,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>
  
 
  

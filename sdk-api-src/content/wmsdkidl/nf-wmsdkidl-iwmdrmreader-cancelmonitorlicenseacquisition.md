@@ -55,7 +55,7 @@ req.redist:
 ]
 
 
-The <b>CancelMonitorLicenseAcquisition</b> method cancels a current call to the <a href="https://msdn.microsoft.com/0b15dce6-7591-479a-b28e-5006418a1c7b">MonitorLicenseAcquisition</a> method.
+The <b>CancelMonitorLicenseAcquisition</b> method cancels a current call to the <a href="https://msdn.microsoft.com/en-us/library/Dd798353(v=VS.85).aspx">MonitorLicenseAcquisition</a> method.
 
 
 
@@ -90,7 +90,7 @@ This method terminates the thread that periodically checks the license store to 
 
 
 
-<a href="https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58">IWMDRMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
  
 
  

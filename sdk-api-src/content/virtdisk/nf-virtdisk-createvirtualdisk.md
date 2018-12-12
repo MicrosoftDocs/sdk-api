@@ -61,7 +61,7 @@ Creates a virtual hard disk (VHD) image file, either using default parameters or
 
 ### -param VirtualStorageType [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9f0c1848-fa8e-4747-a3b1-71a274695280">VIRTUAL_STORAGE_TYPE</a> structure 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure 
      that contains the desired disk type and vendor information.
 
 
@@ -72,7 +72,7 @@ A pointer to a valid string that represents the path to the new virtual disk ima
 
 ### -param VirtualDiskAccessMask [in]
 
-The <a href="https://msdn.microsoft.com/2b1f02ab-dc32-4af1-880b-73e7db8602be">VIRTUAL_DISK_ACCESS_MASK</a> value to use 
+The <a href="https://msdn.microsoft.com/en-us/library/Dd323702(v=VS.85).aspx">VIRTUAL_DISK_ACCESS_MASK</a> value to use 
      when opening the newly created virtual disk file. If the <b>Version</b> member of the 
      <i>Parameters</i> parameter is set to 
      <b>CREATE_VIRTUAL_DISK_VERSION_2</b> then only the 
@@ -90,7 +90,7 @@ An optional pointer to a
 ### -param Flags [in]
 
 Creation flags, which must be a valid combination of the 
-     <a href="https://msdn.microsoft.com/35dba6c6-2825-425a-b432-a6ac8ad4ea4b">CREATE_VIRTUAL_DISK_FLAG</a> enumeration.
+     <a href="https://msdn.microsoft.com/en-us/library/Dd323660(v=VS.85).aspx">CREATE_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param ProviderSpecificFlags [in]
@@ -101,7 +101,7 @@ Flags specific to the type of virtual disk being created. May be zero if none ar
 ### -param Parameters [in]
 
 A pointer to a valid 
-     <a href="https://msdn.microsoft.com/797e21ae-a4c4-48df-8124-e5c2fad22f33">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
+     <a href="https://msdn.microsoft.com/en-us/library/Dd323661(v=VS.85).aspx">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
      that contains creation parameter data.
 
 
@@ -187,7 +187,7 @@ When creating the various types of virtual disks, the following combinations of 
 The <b>CreateVirtualDisk</b> function can also be used 
     as a mechanism for converting one type of virtual disk to another, or a physical disk to a virtual disk. This is 
     accomplished through the use of the <b>SourcePath</b> member of the 
-    <a href="https://msdn.microsoft.com/797e21ae-a4c4-48df-8124-e5c2fad22f33">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd323661(v=VS.85).aspx">CREATE_VIRTUAL_DISK_PARAMETERS</a> structure 
     to pre-populate the new virtual disk with block data from the source disk.
 
 
@@ -202,7 +202,7 @@ The <b>CreateVirtualDisk</b> function can also be used
 
 
 
-<a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a>
 
 
 

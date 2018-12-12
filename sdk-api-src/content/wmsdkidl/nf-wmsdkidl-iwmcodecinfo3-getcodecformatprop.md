@@ -89,12 +89,12 @@ GUID identifying the major type of digital media. This must be one of the follow
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/873f8d03-5d7b-424c-91f3-e7c8156565be">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743324(v=VS.85).aspx">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 
 ### -param dwFormatIndex [in]
 
-<b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="https://msdn.microsoft.com/b93bfb01-4179-4a0b-bca0-92b1a9a8e605">IWMCodecInfo::GetCodecFormatCount</a> method.
+<b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743323(v=VS.85).aspx">IWMCodecInfo::GetCodecFormatCount</a> method.
 
 
 ### -param pszName [in]
@@ -115,7 +115,7 @@ Currently only one codec format property is supported; it is listed in the follo
 <tr>
 <td>g_wszSpeechCaps</td>
 <td><b>WMT_TYPE_DWORD</b></td>
-<td>The value is one from the <a href="https://msdn.microsoft.com/9ca744a1-1d85-4609-8f5f-d074e46cef45">WMT_MUSICSPEECH_CLASS_MODE</a> enumeration type indicating the supported mode of the format. This property applies only to the Windows Media Audio 9 Voice codec.</td>
+<td>The value is one from the <a href="https://msdn.microsoft.com/en-us/library/Dd757846(v=VS.85).aspx">WMT_MUSICSPEECH_CLASS_MODE</a> enumeration type indicating the supported mode of the format. This property applies only to the Windows Media Audio 9 Voice codec.</td>
 </tr>
 </table>
  
@@ -197,7 +197,7 @@ You should make two calls to <b>GetCodecFormatProp</b> for each property you wan
 
 
 
-<a href="https://msdn.microsoft.com/fd882612-1f60-4b51-a180-0d34d78c99dd">IWMCodecInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743317(v=VS.85).aspx">IWMCodecInfo3 Interface</a>
  
 
  

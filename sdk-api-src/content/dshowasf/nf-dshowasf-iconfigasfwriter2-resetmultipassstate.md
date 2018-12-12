@@ -120,7 +120,7 @@ This method must be called to reset the internal state of the filter whenever a 
 
 
 
-<a href="https://msdn.microsoft.com/fd931a95-3678-46de-8f17-9e7c27087398">IConfigAsfWriter2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312018(v=VS.85).aspx">IConfigAsfWriter2 Interface</a>
  
 
  

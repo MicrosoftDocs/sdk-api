@@ -89,7 +89,7 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 
 
 
-<a href="https://msdn.microsoft.com/0e3274e6-7c22-4175-8b2e-cdf4afc1225e">IAMExtendedErrorInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389327(v=VS.85).aspx">IAMExtendedErrorInfo Interface</a>
  
 
  

@@ -116,39 +116,39 @@ The data source is alpha data from a pixel shader. The pre-blend operation clamp
 
 ### -field D3D10_BLEND_BLEND_FACTOR
 
-The data source is the blend factor set with <a href="https://msdn.microsoft.com/39169f4f-8a7b-4db0-abd5-5b67b204b394">ID3D10Device::OMSetBlendState</a>. No pre-blend operation.
+The data source is the blend factor set with <a href="https://msdn.microsoft.com/en-us/library/Bb173595(v=VS.85).aspx">ID3D10Device::OMSetBlendState</a>. No pre-blend operation.
 
 
 ### -field D3D10_BLEND_INV_BLEND_FACTOR
 
-The data source is the blend factor set with <a href="https://msdn.microsoft.com/39169f4f-8a7b-4db0-abd5-5b67b204b394">ID3D10Device::OMSetBlendState</a>. The pre-blend operation inverts the blend factor, generating 1 - blend_factor.
+The data source is the blend factor set with <a href="https://msdn.microsoft.com/en-us/library/Bb173595(v=VS.85).aspx">ID3D10Device::OMSetBlendState</a>. The pre-blend operation inverts the blend factor, generating 1 - blend_factor.
 
 
 ### -field D3D10_BLEND_SRC1_COLOR
 
-The data sources are both color data output by a pixel shader. There is no pre-blend operation. This options supports <a href="https://msdn.microsoft.com/f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3">dual-source color blending</a>.
+The data sources are both color data output by a pixel shader. There is no pre-blend operation. This options supports <a href="https://msdn.microsoft.com/en-us/library/Bb205072(v=VS.85).aspx">dual-source color blending</a>.
 
 
 ### -field D3D10_BLEND_INV_SRC1_COLOR
 
-The data sources are both color data output by a pixel shader. The pre-blend operation inverts the data, generating 1 - RGB. This options supports <a href="https://msdn.microsoft.com/f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3">dual-source color blending</a>.
+The data sources are both color data output by a pixel shader. The pre-blend operation inverts the data, generating 1 - RGB. This options supports <a href="https://msdn.microsoft.com/en-us/library/Bb205072(v=VS.85).aspx">dual-source color blending</a>.
 
 
 ### -field D3D10_BLEND_SRC1_ALPHA
 
-The data sources are alpha data output by a pixel shader. There is no pre-blend operation. This options supports <a href="https://msdn.microsoft.com/f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3">dual-source color blending</a>.
+The data sources are alpha data output by a pixel shader. There is no pre-blend operation. This options supports <a href="https://msdn.microsoft.com/en-us/library/Bb205072(v=VS.85).aspx">dual-source color blending</a>.
 
 
 ### -field D3D10_BLEND_INV_SRC1_ALPHA
 
-The data sources are alpha data output by a pixel shader. The pre-blend operation inverts the data, generating 1 - A. This options supports <a href="https://msdn.microsoft.com/f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3">dual-source color blending</a>.
+The data sources are alpha data output by a pixel shader. The pre-blend operation inverts the data, generating 1 - A. This options supports <a href="https://msdn.microsoft.com/en-us/library/Bb205072(v=VS.85).aspx">dual-source color blending</a>.
 
 
 ## -remarks
 
 
 
-Blend operations are specified in a <a href="https://msdn.microsoft.com/c256dd1e-2b25-4dc5-8e49-5bf2b419b3c5">blend description</a>.
+Blend operations are specified in a <a href="https://msdn.microsoft.com/en-us/library/Bb204893(v=VS.85).aspx">blend description</a>.
 
 
 
@@ -158,7 +158,7 @@ Blend operations are specified in a <a href="https://msdn.microsoft.com/c256dd1e
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

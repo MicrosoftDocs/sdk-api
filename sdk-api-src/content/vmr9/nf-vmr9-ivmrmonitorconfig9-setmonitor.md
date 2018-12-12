@@ -133,11 +133,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/27a3a598-d8de-48b2-8b8c-6b5497db4c6c">IVMRMonitorConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390482(v=VS.85).aspx">IVMRMonitorConfig9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b3e19d2-23de-42ae-9e5b-d53e24bb764a">IVMRMonitorConfig9::GetMonitor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390485(v=VS.85).aspx">IVMRMonitorConfig9::GetMonitor</a>
 
 
 

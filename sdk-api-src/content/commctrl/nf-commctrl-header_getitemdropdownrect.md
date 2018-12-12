@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the coordinates of the drop-down button for a specified item in a header control. The header control must be of type <b>HDF_SPLITBUTTON</b>. Use this macro or send the <a href="https://msdn.microsoft.com/d7188dfb-4ffa-4641-b210-2c2ec480ca13">HDM_GETITEMDROPDOWNRECT</a> message explicitly.
+Gets the coordinates of the drop-down button for a specified item in a header control. The header control must be of type <b>HDF_SPLITBUTTON</b>. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775339(v=VS.85).aspx">HDM_GETITEMDROPDOWNRECT</a> message explicitly.
 
 
 ## -parameters

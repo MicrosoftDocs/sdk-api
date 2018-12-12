@@ -76,7 +76,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the name of
 
 ### -param pType [out]
 
-Pointer to a variable that receives one value from the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type. The value received specifies the type of data in <i>pValue</i>.
+Pointer to a variable that receives one value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. The value received specifies the type of data in <i>pValue</i>.
 
 
 ### -param pValue [out]
@@ -185,11 +185,11 @@ If you pass a buffer as <i>pValue</i> that is not large enough to contain the da
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8deb322f-8b52-46cf-9b5c-76fa34b6bde2">IWMSyncReader::SetOutputSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798600(v=VS.85).aspx">IWMSyncReader::SetOutputSetting</a>
  
 
  

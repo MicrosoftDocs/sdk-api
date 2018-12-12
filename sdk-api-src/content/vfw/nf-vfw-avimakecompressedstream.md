@@ -73,7 +73,7 @@ Pointer to the stream to be compressed.
 
 ### -param lpOptions
 
-Pointer to a structure that identifies the type of compression to use and the options to apply. You can specify video compression by identifying an appropriate handler in the <a href="https://msdn.microsoft.com/8084adc3-792f-4a6c-b407-51e0e435e629">AVICOMPRESSOPTIONS</a> structure. For audio compression, specify the compressed data format.
+Pointer to a structure that identifies the type of compression to use and the options to apply. You can specify video compression by identifying an appropriate handler in the <a href="https://msdn.microsoft.com/en-us/library/Dd756791(v=VS.85).aspx">AVICOMPRESSOPTIONS</a> structure. For audio compression, specify the compressed data format.
 
 
 ### -param pclsidHandler

@@ -96,7 +96,7 @@ The <b>bodyElementDescription</b>  field of the <a href="https://msdn.microsoft.
 ### -param writeOption [in]
 
 Determines whether the body element is required, and how the value is allocated.
-                    See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> for more information.
                 
 
 
@@ -302,7 +302,7 @@ This function may return other errors not listed above.
 
 
 The reply message will including correlation information as appropriate 
-                to the <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION</a>.  See <a href="https://msdn.microsoft.com/d7dddcc6-8eb0-4ee6-8cf5-7701a2be7a19">Channel Layer Overview</a> 
+                to the <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION</a>.  See <a href="https://msdn.microsoft.com/d7dddcc6-8eb0-4ee6-8cf5-7701a2be7a19">Channel Layer Overview</a> 
                 for more information about correlating request reply messages.
             
 

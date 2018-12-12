@@ -99,7 +99,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/bd41cbcc-b8a8-4b08-9b25-399e366614ce">IMSVidVideoRenderer::get_UsingOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694744(v=VS.85).aspx">IMSVidVideoRenderer::get_UsingOverlay</a>
  
 
  

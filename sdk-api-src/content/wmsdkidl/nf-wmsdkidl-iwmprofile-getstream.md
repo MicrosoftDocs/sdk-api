@@ -74,7 +74,7 @@ The <b>GetStream</b> method retrieves a stream from the profile.
 
 ### -param ppConfig [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a> interface of the stream configuration object that describes the specified stream.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface of the stream configuration object that describes the specified stream.
 
 
 ## -returns
@@ -131,7 +131,7 @@ The <i>ppConfig</i> or <i>dwStreamIndex</i> parameter is not valid.
 
 
 
-You can use this method in conjunction with <a href="https://msdn.microsoft.com/49534bc3-9115-422b-b448-b6f9c6ec1c47">GetStreamCount</a> to step through all of the streams in the profile.
+You can use this method in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Dd757408(v=VS.85).aspx">GetStreamCount</a> to step through all of the streams in the profile.
 
 
 
@@ -145,15 +145,15 @@ You can use this method in conjunction with <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/507b1c55-1ecb-41dd-a6e5-298e1047a7ea">IWMProfile::GetStreamByNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757407(v=VS.85).aspx">IWMProfile::GetStreamByNumber</a>
  
 
  

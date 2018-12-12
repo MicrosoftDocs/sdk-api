@@ -122,7 +122,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/c50ee260-e111-43d5-9484-d7fec4d938be">XMQuaternionSquadSetup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420180(v=VS.85).aspx">XMQuaternionSquadSetup</a>
  
 
  

@@ -63,7 +63,7 @@ The <b>put_InputType</b> method sets the input type (antenna or cable) intended 
 
 ### -param NewInputTypeVal [in]
 
-Variable of type <a href="https://msdn.microsoft.com/e25ec8e2-6d94-4059-a34e-a9e7887582fb">TunerInputType</a> that specifies the input type.
+Variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd407232(v=VS.85).aspx">TunerInputType</a> that specifies the input type.
 
 
 ## -returns

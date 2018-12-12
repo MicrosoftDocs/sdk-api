@@ -74,7 +74,7 @@ The height of the surface, in pixels. Constrained by the <a href="https://msdn.m
 
 ### -param pixelFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
 The pixel format of the surface.
 
@@ -127,7 +127,7 @@ The alpha channel should be ignored and the bitmap should be rendered opaquely.
 
 ### -param surface [out]
 
-Type: <b><a href="https://msdn.microsoft.com/E271B4DC-5F09-426A-A5D3-43A48F30CB24">IDCompositionSurface</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx">IDCompositionSurface</a>**</b>
 
 The newly created surface object. This parameter must not be NULL.
 
@@ -153,7 +153,7 @@ A newly created surface object is in an uninitialized state. While it is uniniti
 
 
 
-To initialize the surface with pixel data, use the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> and <a href="https://msdn.microsoft.com/127195F7-6000-4D8C-B850-3E4D40BC4082">IDCompositionSurface::EndDraw</a> methods. The first call to this method must cover the entire surface area to provide an initial value for every pixel. Subsequent calls may specify smaller sub-rectangles of the surface to update.
+To initialize the surface with pixel data, use the <a href="https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx">IDCompositionSurface::BeginDraw</a> and <a href="https://msdn.microsoft.com/en-us/library/Hh449102(v=VS.85).aspx">IDCompositionSurface::EndDraw</a> methods. The first call to this method must cover the entire surface area to provide an initial value for every pixel. Subsequent calls may specify smaller sub-rectangles of the surface to update.
 
 
 
@@ -172,11 +172,11 @@ DirectComposition surfaces support the following pixel formats:
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
 
 
 
-<a href="https://msdn.microsoft.com/85619C69-F5AE-4F07-AE56-7305BBECD58F">IDCompositionDevice2::CreateVirtualSurface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437413(v=VS.85).aspx">IDCompositionDevice2::CreateVirtualSurface</a>
  
 
  

@@ -73,7 +73,7 @@ The <b>IBDA_LNBInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6a851fc-6911-41fb-951c-c9fcf04b2355">get_HighLowSwitchFrequency</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693397(v=VS.85).aspx">get_HighLowSwitchFrequency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the frequency of the high-low switch.
@@ -82,7 +82,7 @@ Retrieves the frequency of the high-low switch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21960718-818c-4efb-a2c2-577c3b938da4">get_LocalOscilatorFrequencyHighBand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693398(v=VS.85).aspx">get_LocalOscilatorFrequencyHighBand</a>
 </td>
 <td align="left" width="63%">
 Retrieves the high band of the local oscillator frequency.
@@ -91,7 +91,7 @@ Retrieves the high band of the local oscillator frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8aabb13a-166f-4b50-90a5-a18dd4b04720">get_LocalOscilatorFrequencyLowBand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693399(v=VS.85).aspx">get_LocalOscilatorFrequencyLowBand</a>
 </td>
 <td align="left" width="63%">
 Retrieves the low band of the local oscillator frequency.
@@ -100,7 +100,7 @@ Retrieves the low band of the local oscillator frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3edde05f-1cdb-4648-a34b-ba95e4fcff12">put_HighLowSwitchFrequency</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693400(v=VS.85).aspx">put_HighLowSwitchFrequency</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency of the high-low switch.
@@ -109,7 +109,7 @@ Specifies the frequency of the high-low switch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a1de764-aaab-4801-ba34-65c05d245ba0">put_LocalOscilatorFrequencyHighBand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693401(v=VS.85).aspx">put_LocalOscilatorFrequencyHighBand</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency of the local oscillator high band.
@@ -118,7 +118,7 @@ Specifies the frequency of the local oscillator high band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1ba4cf7-f9d4-4cac-921f-19f34fd968fe">put_LocalOscilatorFrequencyLowBand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693402(v=VS.85).aspx">put_LocalOscilatorFrequencyLowBand</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency of the local oscillator's low band.

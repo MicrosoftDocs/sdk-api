@@ -59,7 +59,7 @@ CertificationRequestInfo ::= SEQUENCE
    subjectPKInfo SubjectPublicKeyInfo{{ PKInfoAlgorithms }},
    attributes    [0] Attributes{{ CRIAttributes }}
 }
-</code></pre>Also, extensions are included in a CMC request by adding them to the <b>TaggedAttributes</b> structure shown in the following <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) syntax example. For more information, see <a href="https://msdn.microsoft.com/6116e61e-3ec5-4992-90ab-e3c7ced291b6">Attributes</a> and <a href="https://msdn.microsoft.com/f2a6854d-1831-489f-adf6-31a0b26511e3">Extensions</a>.
+</code></pre>Also, extensions are included in a CMC request by adding them to the <b>TaggedAttributes</b> structure shown in the following <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) syntax example. For more information, see <a href="https://msdn.microsoft.com/6116e61e-3ec5-4992-90ab-e3c7ced291b6">Attributes</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa382409(v=VS.85).aspx">Extensions</a>.
 <pre class="syntax" xml:space="preserve"><code>
 CmcData ::= SEQUENCE 
 {

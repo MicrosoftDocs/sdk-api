@@ -77,7 +77,7 @@ Returns the 4D vector orthogonal to <i>V</i>.
 
 
 A 4D cross-product is not well-defined. This function computes a generalized 'cross-product' for 4D vectors. 
-    <a href="https://msdn.microsoft.com/61cc3f3b-171a-4a67-b588-ea242b1a6110">XMVector4Cross</a> is another geometric 'cross-product' for 4D vectors.
+    <a href="https://msdn.microsoft.com/en-us/library/Ee420956(v=VS.85).aspx">XMVector4Cross</a> is another geometric 'cross-product' for 4D vectors.
 
 The following pseudocode demonstrates the operation of the function:
 

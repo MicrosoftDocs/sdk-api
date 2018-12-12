@@ -106,7 +106,7 @@ is invoked, the visual location is updated, but the UI Automation client remains
 
 Similarly, activating a new page URI (with a fragment identifier: (<code>&lt;a href=”www.blah.com#C4”&gt;Jump to Chapter 4&lt;/a&gt;</code>)) loads the new page and jumps to the specified bookmark, but leaves the UI Automation clients   at the top of the page.
 
-For editable text elements, such as <a href="https://msdn.microsoft.com/2a71b92c-f57a-4c27-80b7-e1d9092f3701">Edit</a> and <a href="https://msdn.microsoft.com/dc34cc88-fd65-4c28-8a6a-ccfa6f3ac614">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
+For editable text elements, such as <a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787605(v=VS.85).aspx">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
 
 
 

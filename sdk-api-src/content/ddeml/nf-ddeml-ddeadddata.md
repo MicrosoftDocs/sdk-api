@@ -96,7 +96,7 @@ If the function succeeds, the return value is a new handle to the DDE object. Th
 
 If the function fails, the return value is zero. 
 
-The <a href="https://msdn.microsoft.com/ea7d758e-bf88-49a9-a51f-9be26376a1ed">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
+The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
 
 
 
@@ -105,7 +105,7 @@ The <a href="https://msdn.microsoft.com/ea7d758e-bf88-49a9-a51f-9be26376a1ed">Dd
 
 
 
-After a data handle has been used as a parameter in another <a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a> function or has been returned by a DDE callback function, the handle can be used only for read access to the DDE object identified by the handle. 
+After a data handle has been used as a parameter in another <a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a> function or has been returned by a DDE callback function, the handle can be used only for read access to the DDE object identified by the handle. 
 
 If the amount of memory originally allocated is less than is needed to hold the added data, <b>DdeAddData</b> reallocates a global memory object of the appropriate size. 
 
@@ -121,19 +121,19 @@ If the amount of memory originally allocated is less than is needed to hold the 
 
 
 
-<a href="https://msdn.microsoft.com/7695d435-3bb4-4041-8992-9155efa8911e">DdeAccessData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648740(v=VS.85).aspx">DdeAccessData</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ef31f93-5fb5-400e-9c87-60d99785aae7">DdeCreateDataHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648747(v=VS.85).aspx">DdeCreateDataHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/e37e386f-c46e-48ad-a613-a96d8d830652">DdeUnaccessData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648766(v=VS.85).aspx">DdeUnaccessData</a>
 
 
 
-<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 

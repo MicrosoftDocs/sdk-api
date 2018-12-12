@@ -51,7 +51,7 @@ req.redist:
 
 
 The <b>IADsContainer::get__NewEnum</b> method Retrieves an enumerator object for the container. The 
-  enumerator object implements the  <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface to enumerate the children of the container object.
+  enumerator object implements the  <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface to enumerate the children of the container object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>IADsContainer::get__NewEnum</b> method Retrieves an enumerator object for
 
 ### -param retval [out]
 
-Pointer to an <a href="_com_iunknown">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
 
 
 ## -returns
@@ -188,11 +188,11 @@ pEnum-&gt;Release();</pre>
 
 
 
-<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
 
 
 
-<a href="_com_iunknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

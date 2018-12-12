@@ -89,7 +89,7 @@ Name of the method for the object.
 ### -param lFlags [in]
 
 <b>WBEM_FLAG_SEND_STATUS</b> registers with Windows Management a request to receive intermediate status reports through the clients implementation of 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior. Note that the <b>WBEM_FLAG_USE_AMENDED_QUALIFIERS</b> flag cannot be used here.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior. Note that the <b>WBEM_FLAG_USE_AMENDED_QUALIFIERS</b> flag cannot be used here.
 
 
 ### -param pCtx [in]
@@ -108,9 +108,9 @@ Can be <b>NULL</b> if no inbound parameters are required to execute the method. 
 ### -param pResponseHandler [in]
 
 Cannot be <b>NULL</b>. The object sink receives the result of the method call. The outbound parameters are sent to 
-<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a>. The most common returned object is an instance of the <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__Parameters</a> system class. For more information about return codes, see the Remarks section. When implementing a method provider, you should call 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a>. The most common returned object is an instance of the <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__Parameters</a> system class. For more information about return codes, see the Remarks section. When implementing a method provider, you should call 
 <b>Indicate</b> to return output parameter information before calling 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> to report the final status.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> to report the final status.
 
 
 ## -returns
@@ -135,8 +135,8 @@ COM-specific error codes also may be returned if network problems cause you to l
 A single method provider can supply methods for many classes and instances. Method providers have to deal with a maximum of three return values.
 
 The 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
-<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> if error conditions occur.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> if error conditions occur.
 
 Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
@@ -163,7 +163,7 @@ Invoked method (optional)
 <td>
 Dependent on the method. The return value is placed in the <b>ReturnValue</b> property of the 
 <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__PARAMETERS</a> instance representing the out parameters and returned through a call to 
-<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">Indicate</a>.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ Invoked method out parameters (optional)
 <td>
 Dependent on the method. Out parameters are placed in non-system properties of a 
 <a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__PARAMETERS</a> instance and returned through 
-<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">Indicate</a>.
 
 </td>
 </tr>

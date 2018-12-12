@@ -53,7 +53,7 @@ req.redist:
 Default constructor for <code>XMUDECN4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4 </a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4 </a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
@@ -88,11 +88,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e513f04-08fc-4f77-a19d-66d719abdb23">XMUDECN4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415453(v=VS.85).aspx">XMUDECN4 Constructors</a>
  
 
  

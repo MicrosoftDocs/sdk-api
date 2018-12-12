@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Uses the information in a <a href="https://msdn.microsoft.com/7067f563-383d-469f-abcf-3e1ea28dc956">BANDINFOSFB</a> structure to set the band information for a <a href="https://msdn.microsoft.com/88ae35ea-6ff9-431c-848b-84fc61d3c690">IShellFolderBand</a> object.
+Uses the information in a <a href="https://msdn.microsoft.com/en-us/library/Bb773197(v=VS.85).aspx">BANDINFOSFB</a> structure to set the band information for a <a href="https://msdn.microsoft.com/88ae35ea-6ff9-431c-848b-84fc61d3c690">IShellFolderBand</a> object.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Uses the information in a <a href="https://msdn.microsoft.com/7067f563-383d-469f
 
 Type: <b>PBANDINFOSFB</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/7067f563-383d-469f-abcf-3e1ea28dc956">BANDINFOSFB</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773197(v=VS.85).aspx">BANDINFOSFB</a> structure.
 
 
 ## -returns

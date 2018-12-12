@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Battery miniclass drivers fill in the <b>BATTERY_MINIPORT_INFO_V1_1</b> structure before calling the battery class driver's <a href="https://msdn.microsoft.com/0af685a5-f5c2-4448-b8b2-f5cd9ed77047">BatteryClassInitializeDevice</a> routine. <b>BATTERY_MINIPORT_INFO_V1_1</b> is an updated version of the previous structure <a href="https://msdn.microsoft.com/db9d4e7d-a794-4c08-b849-d0b75ecf606b">BATTERY_MINIPORT_INFO</a>.
+Battery miniclass drivers fill in the <b>BATTERY_MINIPORT_INFO_V1_1</b> structure before calling the battery class driver's <a href="https://msdn.microsoft.com/0af685a5-f5c2-4448-b8b2-f5cd9ed77047">BatteryClassInitializeDevice</a> routine. <b>BATTERY_MINIPORT_INFO_V1_1</b> is an updated version of the previous structure <a href="https://msdn.microsoft.com/en-us/library/Ff536287(v=VS.85).aspx">BATTERY_MINIPORT_INFO</a>.
 
 
 ## -struct-fields

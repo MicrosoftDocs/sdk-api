@@ -70,7 +70,7 @@ The <b>IBDA_NameValueService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d240f991-8f15-4d37-a292-91c7e3dff27d">GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693407(v=VS.85).aspx">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets a value by name.
@@ -88,7 +88,7 @@ Gets a name, specified by index, from the device's list of name/value pairs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6017658a-b4ce-496a-bf30-b7473f5d43c1">SetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693409(v=VS.85).aspx">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a name/value pair in device memory.
