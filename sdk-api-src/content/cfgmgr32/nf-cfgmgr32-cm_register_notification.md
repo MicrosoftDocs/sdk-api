@@ -128,22 +128,18 @@ HCMNOTIFICATION handles returned by <b>CM_Register_Notification</b> must be clos
 A callback routine uses the following function prototype:
 		  
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef __callback DWORD (CALLBACK *PCM_NOTIFY_CALLBACK)(
+
+```
+typedef __callback DWORD (CALLBACK *PCM_NOTIFY_CALLBACK)(
     _In_ HCMNOTIFICATION       hNotify,
     _In_opt_ PVOID             Context,
     _In_ CM_NOTIFY_ACTION      Action,
     _In_reads_bytes_(EventDataSize) PCM_NOTIFY_EVENT_DATA EventData,
     _In_ DWORD                 EventDataSize
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
+
 If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the PCM_NOTIFY_CALLBACK callback should return either ERROR_SUCCESS or ERROR_CANCELLED, as appropriate.  Otherwise, the callback should return ERROR_SUCCESS. The callback should not return any other values. For a description of other actions, please refer to the <a href="https://msdn.microsoft.com/587AF979-8BA2-45A3-90C2-7E0EBB2390EC">CM_NOTIFY_ACTION</a> documentation.  Also see <a href="https://msdn.microsoft.com/61bd4ea3-9910-4feb-a330-3e0bcdac1ce2">CM_NOTIFY_EVENT_DATA</a> for information about the structure that this callback receives in the <i>EventData</i> parameter.
 
 

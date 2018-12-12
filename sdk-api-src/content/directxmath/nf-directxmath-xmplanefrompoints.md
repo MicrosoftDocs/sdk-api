@@ -78,13 +78,11 @@ Computes the equation of a plane constructed from three points in the plane.
 
 
 Returns a vector whose components are the coefficients of the plane (A, B, C, D) for the plane equation
-       <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR Result;
+       
+
+
+```
+XMVECTOR Result;
 XMVECTOR N;
 XMVECTOR D;
 
@@ -101,10 +99,10 @@ Result.y = N.y;
 Result.z = N.z;
 Result.w = -D.w;
 
-return Result;</pre>
-</td>
-</tr>
-</table></span></div>.
+return Result;
+```
+
+.
 
 
 

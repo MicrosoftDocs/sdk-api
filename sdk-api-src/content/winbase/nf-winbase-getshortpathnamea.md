@@ -232,13 +232,9 @@ For an example that uses <b>GetShortPathName</b>, see
 <div class="code"></div>
 The following C++ example shows how to use a dynamically allocated output buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//...
+
+```cpp
+//...
     long     length = 0;
     TCHAR*   buffer = NULL;
 
@@ -261,10 +257,10 @@ The following C++ example shows how to use a dynamically allocated output buffer
     
     delete [] buffer;
 ///...
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -98,19 +98,15 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrStoreName = NULL;
+
+```cpp
+BSTR     bstrStoreName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the storename
-hr = pEnroll-&gt;get_MyStoreName( &amp;bstrStoreName );
+hr = pEnroll->get_MyStoreName( &bstrStoreName );
 if ( FAILED ( hr ) )
     printf("Failed getting MyStoreName - %x\n", hr );
 else
@@ -121,13 +117,13 @@ if ( NULL != bstrStoreName )
 
 // set the storename
 // bstrNewName previously set to a valid store name
-hr = pEnroll-&gt;put_MyStoreName( bstrNewName );
+hr = pEnroll->put_MyStoreName( bstrNewName );
 if ( FAILED ( hr ) )
     printf("Failed setting MyStoreName - %x\n", hr );
 else
-    printf( "MyStoreName was set to : %ws\n", bstrNewName );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "MyStoreName was set to : %ws\n", bstrNewName );
+```
+
+
 
 
