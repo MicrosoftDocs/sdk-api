@@ -100,13 +100,9 @@ The following example shows an effect implementing an initialize method.
 
 The example here shows an effect implementing an initialize method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>class CEffectImplementation : public ID2D1EffectImpl
+
+```cpp
+class CEffectImplementation : public ID2D1EffectImpl
 {
 public:
 
@@ -114,7 +110,7 @@ public:
     {
         if (_pContextInternal != NULL)
         {
-            _pContextInternal-&gt;Release();
+            _pContextInternal->Release();
         }
     }
 
@@ -123,10 +119,10 @@ public:
         HRESULT hr = S_OK;
 
         _pContextInternal = pContextInternal;
-        _pContextInternal-&gt;AddRef();
+        _pContextInternal->AddRef();
 
 								_pTransformGraph = pTransformGraph;
-        _pTransformGraph&gt;AddRef();
+        _pTransformGraph>AddRef();
 
 								// Populate the transform graph.					    
 
@@ -138,10 +134,10 @@ private:
     ID2D1EffectContext *_pContextInternal;
     ID2D1TransformGraph *_pTransformGraph;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

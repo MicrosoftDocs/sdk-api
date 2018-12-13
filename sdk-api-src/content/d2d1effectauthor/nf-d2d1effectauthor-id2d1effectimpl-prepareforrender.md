@@ -99,13 +99,9 @@ Most effects defer creating any resources or specifying a topology until this ca
 
 An effect normally waits until it is rendered before snapping its current state and applying it to any transforms it has encapsulated.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>class CMyTransform : public ID2D1DrawTransform
+
+```cpp
+class CMyTransform : public ID2D1DrawTransform
 {
 public:
 
@@ -123,7 +119,7 @@ public:
     IFACEMETHODIMP PrepareForRender(D2D1_CHANGE_TYPE /*type*/)
     {
         // Send the radius to the transform and ask it to render.
-        return _pMyTransform-&gt;PrepareForRender(_radius);
+        return _pMyTransform->PrepareForRender(_radius);
     }
 
 private:
@@ -131,10 +127,10 @@ private:
     CMyTransform *_pMyTransform;
     FLOAT _radius;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -101,15 +101,11 @@ For more information, see
 
 Code example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HANDLE FileHandle = NULL;
 
-FileHandle = CreateFile(&lt;Insert Elam driver file name&gt;,
+```cpp
+HANDLE FileHandle = NULL;
+
+FileHandle = CreateFile(<Insert Elam driver file name>,
                         FILE_READ_DATA,
                         FILE_SHARE_READ,
                         NULL,
@@ -122,9 +118,9 @@ if (InstallElamCertificateInfo(FileHandle) == FALSE)
 {
     Result = GetLastError();
     goto exitFunc;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

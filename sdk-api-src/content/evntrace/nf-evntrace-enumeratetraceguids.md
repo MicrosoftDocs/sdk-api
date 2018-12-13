@@ -143,16 +143,12 @@ The list will not include kernel providers.
 
 The following example shows you how to call this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;wmistr.h&gt;
-#include &lt;evntrace.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <wmistr.h>
+#include <evntrace.h>
 
 #define MAX_SESSION_NAME_LEN 1024
 #define MAX_LOGFILE_PATH_LEN 1024
@@ -186,7 +182,7 @@ void wmain(void)
     // for this snapshot. Then allocate memory for the block of structures
     // and the array of pointers.
 
-    status = EnumerateTraceGuids(pProviders, ProviderCount, &amp;RegisteredProviderCount);
+    status = EnumerateTraceGuids(pProviders, ProviderCount, &RegisteredProviderCount);
 
     if (ERROR_MORE_DATA == status)
     {
@@ -215,33 +211,33 @@ void wmain(void)
         pProviders = pTemp;
         pTemp = NULL;
 
-        for (USHORT i = 0; i &lt; RegisteredProviderCount; i++)
+        for (USHORT i = 0; i < RegisteredProviderCount; i++)
         {
-            pProviders[i] = &amp;pProviderProperties[i];
+            pProviders[i] = &pProviderProperties[i];
         }
 
-        status = EnumerateTraceGuids(pProviders, ProviderCount, &amp;RegisteredProviderCount);
+        status = EnumerateTraceGuids(pProviders, ProviderCount, &RegisteredProviderCount);
 
         if (ERROR_SUCCESS == status || ERROR_MORE_DATA == status)
         {
-            for (USHORT i=0; i &lt; RegisteredProviderCount; i++)
+            for (USHORT i=0; i < RegisteredProviderCount; i++)
             {
-                StringFromGUID2(pProviders[i]-&gt;Guid, ProviderGuid, sizeof(ProviderGuid)),
+                StringFromGUID2(pProviders[i]->Guid, ProviderGuid, sizeof(ProviderGuid)),
 
                 wprintf(L"Provider: %s\nEnabled: %s\n",
                     ProviderGuid,
-                    (pProviders[i]-&gt;IsEnable) ? L"TRUE" : L"FALSE");
+                    (pProviders[i]->IsEnable) ? L"TRUE" : L"FALSE");
 
-                if (pProviders[i]-&gt;IsEnable)
+                if (pProviders[i]->IsEnable)
                 {
                     EnabledProviderCount++;
 
                     wprintf(L"Session ID: %ld\nPrivate Session: %s\n"
                         L"Enable level: %ld\nEnable flags: %ld\n",
-                        pProviders[i]-&gt;LoggerId,
-                        (IsPrivateSession(pProviders[i]-&gt;LoggerId)) ? L"TRUE" : L"FALSE",
-                        pProviders[i]-&gt;EnableLevel,
-                        pProviders[i]-&gt;EnableFlags);
+                        pProviders[i]->LoggerId,
+                        (IsPrivateSession(pProviders[i]->LoggerId)) ? L"TRUE" : L"FALSE",
+                        pProviders[i]->EnableLevel,
+                        pProviders[i]->EnableFlags);
                 }
       
                 wprintf(L"\n");
@@ -293,9 +289,9 @@ BOOL IsPrivateSession(DWORD SessionId)
     {
         ZeroMemory(pProperties, BufferSize);
 
-        pProperties-&gt;Wnode.BufferSize = BufferSize;
-        pProperties-&gt;LoggerNameOffset = sizeof(EVENT_TRACE_PROPERTIES);
-        pProperties-&gt;LogFileNameOffset = sizeof(EVENT_TRACE_PROPERTIES) + (MAX_SESSION_NAME_LEN*sizeof(WCHAR));
+        pProperties->Wnode.BufferSize = BufferSize;
+        pProperties->LoggerNameOffset = sizeof(EVENT_TRACE_PROPERTIES);
+        pProperties->LogFileNameOffset = sizeof(EVENT_TRACE_PROPERTIES) + (MAX_SESSION_NAME_LEN*sizeof(WCHAR));
     }
     else
     {
@@ -307,7 +303,7 @@ BOOL IsPrivateSession(DWORD SessionId)
 
     if (ERROR_SUCCESS == status)
     {
-        if ((EVENT_TRACE_PRIVATE_LOGGER_MODE &amp; pProperties-&gt;LogFileMode)== EVENT_TRACE_PRIVATE_LOGGER_MODE)
+        if ((EVENT_TRACE_PRIVATE_LOGGER_MODE & pProperties->LogFileMode)== EVENT_TRACE_PRIVATE_LOGGER_MODE)
         {
             IsPrivate = TRUE;
         }
@@ -331,10 +327,10 @@ cleanup:
 
     return IsPrivate;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -122,31 +122,27 @@ Specifies the computer and credentials to be used by this instance of the <b>IDs
 
 An instance of this interface is created by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsDomainTreeBrowser</b> class identifier as shown below.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
 IDsBrowseDomainTree *pDSB = NULL;
 
 hr = CoCreateInstance(    CLSID_DsDomainTreeBrowser,
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IDsBrowseDomainTree,
-                          (void**)&amp;pDSB);
+                          (void**)&pDSB);
 
 if(SUCCEEDED(hr))
 {
     //use the IDsBrowseDomainTree object
 
     //release the IDsBrowseDomainTree object
-    pDSB-&gt;Release();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    pDSB->Release();
+}
+```
+
+
 
 
 

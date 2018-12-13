@@ -98,13 +98,9 @@ If the specified locale name does not exist, the return value is <b>S_OK</b>,
 
 Note that if the locale name does not exist, the return value is a success and the <i>exists</i> parameter is <b>FALSE</b>. If you are getting the font family name for a font and the specified locale name does not exist, one option is to set the index to 0 as shown below.  There is always at least one locale for a font family.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>UINT32 index = 0;
+
+```cpp
+UINT32 index = 0;
 BOOL exists = false;
 
 wchar_t localeName[LOCALE_NAME_MAX_LENGTH];
@@ -117,21 +113,21 @@ if (SUCCEEDED(hr))
     // If the default locale is returned, find that locale name, otherwise use "en-us".
     if (defaultLocaleSuccess)
     {
-        hr = pFamilyNames-&gt;FindLocaleName(localeName, &amp;index, &amp;exists);
+        hr = pFamilyNames->FindLocaleName(localeName, &index, &exists);
     }
-    if (SUCCEEDED(hr) &amp;&amp; !exists) // if the above find did not find a match, retry with US English
+    if (SUCCEEDED(hr) && !exists) // if the above find did not find a match, retry with US English
     {
-        hr = pFamilyNames-&gt;FindLocaleName(L"en-us", &amp;index, &amp;exists);
+        hr = pFamilyNames->FindLocaleName(L"en-us", &index, &exists);
     }
 }
 
 // If the specified locale doesn't exist, select the first on the list.
 if (!exists)
     index = 0;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -132,14 +132,10 @@ Your application should create render targets once and hold onto them for the li
 
 The following example uses the <a href="https://msdn.microsoft.com/3b55b1b0-a423-40dc-9581-c1fbe8134ca5">CreateHwndRenderTarget</a> method to create an <b>ID2D1HwndRenderTarget</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>RECT rc;
-GetClientRect(m_hwnd, &amp;rc);
+
+```cpp
+RECT rc;
+GetClientRect(m_hwnd, &rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
     rc.right - rc.left,
@@ -147,24 +143,20 @@ D2D1_SIZE_U size = D2D1::SizeU(
     );
 
 // Create a Direct2D render target.
-hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
+hr = m_pD2DFactory->CreateHwndRenderTarget(
     D2D1::RenderTargetProperties(),
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
-    &amp;m_pRenderTarget
+    &m_pRenderTarget
     );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The next example uses the <b>ID2D1HwndRenderTarget</b> to draw text to the window.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//  Called whenever the application needs to display the client
+
+```cpp
+//  Called whenever the application needs to display the client
 //  window. This method writes "Hello, World"
 //
 //  Note that this function will automatically discard device-specific
@@ -183,15 +175,15 @@ HRESULT DemoApp::OnRender()
         static const WCHAR sc_helloWorld[] = L"Hello, World!";
 
         // Retrieve the size of the render target.
-        D2D1_SIZE_F renderTargetSize = m_pRenderTarget-&gt;GetSize();
+        D2D1_SIZE_F renderTargetSize = m_pRenderTarget->GetSize();
 
-        m_pRenderTarget-&gt;BeginDraw();
+        m_pRenderTarget->BeginDraw();
 
-        m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
+        m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
 
-        m_pRenderTarget-&gt;Clear(D2D1::ColorF(D2D1::ColorF::White));
+        m_pRenderTarget->Clear(D2D1::ColorF(D2D1::ColorF::White));
 
-        m_pRenderTarget-&gt;DrawText(
+        m_pRenderTarget->DrawText(
             sc_helloWorld,
             ARRAYSIZE(sc_helloWorld) - 1,
             m_pTextFormat,
@@ -199,7 +191,7 @@ HRESULT DemoApp::OnRender()
             m_pBlackBrush
             );
 
-        hr = m_pRenderTarget-&gt;EndDraw();
+        hr = m_pRenderTarget->EndDraw();
 
         if (hr == D2DERR_RECREATE_TARGET)
         {
@@ -210,10 +202,10 @@ HRESULT DemoApp::OnRender()
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Code has been omitted from this example.
 
 <div class="code"></div>

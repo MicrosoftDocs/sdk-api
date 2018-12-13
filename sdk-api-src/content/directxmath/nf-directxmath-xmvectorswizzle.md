@@ -102,17 +102,13 @@ Returns the swizzled <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a
 
 The following code demonstrates how this function might be used.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR v = XMVectorSet( 10.0f, 20.0f, 30.0f, 40.0f );
-XMVECTOR result = XMVectorSwizzle(v, 3, 3, 0, 2 );</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+XMVECTOR v = XMVectorSet( 10.0f, 20.0f, 30.0f, 40.0f );
+XMVECTOR result = XMVectorSwizzle(v, 3, 3, 0, 2 );
+```
+
+
 The swizzled vector (<i>result</i>) will be &lt;40.0f, 40.0f, 10.0f, 30.0f&gt;.
 
 <code>XM_SWIZZLE_X</code>, <code>XM_SWIZZLE_Y</code>, <code>XM_SWIZZLE_Z</code>, and <code>XM_SWIZZLE_W</code> are constants which 
@@ -121,21 +117,17 @@ The swizzled vector (<i>result</i>) will be &lt;40.0f, 40.0f, 10.0f, 30.0f&gt;.
 
 For the case of constant indices (E0, E1, E2, E3), it is much more efficent to use the template form of <a href="https://msdn.microsoft.com/75608e80-5911-45a8-beca-ceac1f4d2c1c">XMVectorSwizzle</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-template&lt;uint32_t SwizzleX, uint32_t SwizzleY, uint32_t SwizzleZ, uint32_t SwizzleW&gt;
+
+```
+
+template<uint32_t SwizzleX, uint32_t SwizzleY, uint32_t SwizzleZ, uint32_t SwizzleW>
     XMVECTOR XMVectorSwizzle(FXMVECTOR V)
 
-Example: XMVectorSwizzle&lt; 3, 3, 0, 2&gt;(v);
-   </pre>
-</td>
-</tr>
-</table></span></div>
+Example: XMVectorSwizzle< 3, 3, 0, 2>(v);
+   
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

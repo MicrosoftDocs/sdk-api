@@ -95,13 +95,9 @@ Your implementation of <b>LookupSids</b> can return E_NOTIMPL if the access cont
 
 The client must return the common names through the data object using the following format.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
+
+```cpp
+#include <windows.h>
 
 // HGLOBAL containing SID_INFO_LIST returned by
 // ISecurityInformation2::LookupSids
@@ -123,10 +119,10 @@ typedef struct _SID_INFO_LIST
     ULONG       cItems;
     SID_INFO    aSidInfo[ANYSIZE_ARRAY];
 } SID_INFO_LIST, *PSID_INFO_LIST;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
