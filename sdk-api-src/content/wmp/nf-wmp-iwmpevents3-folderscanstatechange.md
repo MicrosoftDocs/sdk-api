@@ -91,11 +91,11 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563296(v=VS.85).aspx">IWMPEvents3 Interface</a>
+<a href="https://msdn.microsoft.com/654b7d78-97d4-4770-9729-dd1fed0431d9">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564698(v=VS.85).aspx">WMPFolderScanState</a>
+<a href="https://msdn.microsoft.com/20909420-5f90-4334-b21a-82d6cdc6d019">WMPFolderScanState</a>
 
 
 

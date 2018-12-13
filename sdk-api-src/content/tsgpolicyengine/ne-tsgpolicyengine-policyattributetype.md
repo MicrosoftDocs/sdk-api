@@ -4,7 +4,7 @@ title: PolicyAttributeType
 author: windows-sdk-content
 description: Specifies the redirection settings associated with a connection.
 old-location: termserv\policyattributetype.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: e2e53f33-1fc5-4002-81ed-8c9cce58f28e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

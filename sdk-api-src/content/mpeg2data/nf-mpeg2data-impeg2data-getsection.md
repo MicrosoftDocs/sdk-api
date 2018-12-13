@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>GetSection</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+<p class="CCE_Message">[<b>GetSection</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/6f07b4d2-7a52-448c-9e9f-729bd5261757">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 The <b>GetSection</b> method retrieves an MPEG-2 table section. This method blocks until the filter receives a matching table section, or until the specified time out elapses.
 

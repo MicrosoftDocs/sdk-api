@@ -98,7 +98,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319729(v=VS.85).aspx">IAMNetShowPreroll Interface</a>
+<a href="https://msdn.microsoft.com/13478678-00de-48e6-b9e7-fd47db423290">IAMNetShowPreroll Interface</a>
  
 
  

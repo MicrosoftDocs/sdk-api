@@ -54,7 +54,7 @@ Initializes a new instance of the <code>XMFLOAT3X3</code> structure from nine sc
 	<code>float</code> values.
     
 
-Initializes a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx">XMFLOAT3X3</a> structure from nine
+Initializes a new instance of the <a href="https://msdn.microsoft.com/6067d4b2-8609-4172-8228-5e3d43638015">XMFLOAT3X3</a> structure from nine
 	scalar <code>float</code> values.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -190,11 +190,11 @@ Or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx">XMFLOAT3X3</a>
+<a href="https://msdn.microsoft.com/6067d4b2-8609-4172-8228-5e3d43638015">XMFLOAT3X3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415288(v=VS.85).aspx">XMFLOAT3X3 Constructors</a>
+<a href="https://msdn.microsoft.com/1cfad894-60d4-4258-b3ca-178a2dafafc5">XMFLOAT3X3 Constructors</a>
  
 
  

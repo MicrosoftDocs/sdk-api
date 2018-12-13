@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693432(v=VS.85).aspx">IBDA_SignalStatistics Interface</a>
+<a href="https://msdn.microsoft.com/ee8b25d5-d39b-42ac-9f6a-0825e396241c">IBDA_SignalStatistics Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693441(v=VS.85).aspx">IBDA_SignalStatistics::put_SignalQuality</a>
+<a href="https://msdn.microsoft.com/e7d73965-4f7e-4330-89f4-2ccbe679ae2a">IBDA_SignalStatistics::put_SignalQuality</a>
  
 
  

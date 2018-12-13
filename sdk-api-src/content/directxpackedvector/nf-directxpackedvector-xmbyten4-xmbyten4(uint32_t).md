@@ -117,11 +117,11 @@ The last 8 bits (bits 24-31) of <b>Packed</b> assigned, as an signed
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419284(v=VS.85).aspx">XMBYTEN4</a>
+<a href="https://msdn.microsoft.com/62d61a35-8674-4855-b09c-f351363cd50b">XMBYTEN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415261(v=VS.85).aspx">XMBYTEN4 Constructors</a>
+<a href="https://msdn.microsoft.com/f90dfcdc-689c-4d0e-9c11-06d29b134901">XMBYTEN4 Constructors</a>
  
 
  

@@ -4,7 +4,7 @@ title: PSYM_ENUMSYMBOLS_CALLBACK64W
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumerateSymbols64 function. It is called once for each enumerated symbol, and receives the symbol information.
 old-location: base\symenumeratesymbolsproc64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e1430398-041f-4edd-b7b0-de3a60a42b37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

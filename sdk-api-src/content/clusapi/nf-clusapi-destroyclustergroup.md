@@ -54,7 +54,7 @@ req.redist:
 
 
 Deletes the specified <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> from a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>. Unlike 
+    <a href="c_gly.htm">cluster</a>. Unlike 
     <a href="https://msdn.microsoft.com/a0a8461c-8919-4620-83a2-bb8e5d03b0c4">DeleteClusterGroup</a> the group can contain resources 
     and it can be online. The <b>PCLUSAPI_DESTROY_CLUSTER_GROUP</b> type defines a pointer to this function.
 

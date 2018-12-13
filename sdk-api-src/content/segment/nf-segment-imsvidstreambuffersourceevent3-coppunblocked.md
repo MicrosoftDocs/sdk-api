@@ -108,11 +108,11 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694672(v=VS.85).aspx">IMSVidStreamBufferSourceEvent3 Interface</a>
+<a href="https://msdn.microsoft.com/4ff2e05f-1c26-48f2-8c46-beebb8b0b1b3">IMSVidStreamBufferSourceEvent3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694676(v=VS.85).aspx">IMSVidStreamBufferSourceEvent3::COPPBlocked</a>
+<a href="https://msdn.microsoft.com/a3da78ea-4694-45a4-9284-d40c08f12fe5">IMSVidStreamBufferSourceEvent3::COPPBlocked</a>
  
 
  

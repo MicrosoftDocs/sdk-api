@@ -65,7 +65,7 @@ The <code>SetStreamAllocatorRequirements</code> sets the allocator requirements 
 
 ### -param pProps [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373419(v=VS.85).aspx">ALLOCATOR_PROPERTIES</a> structure that contains the stream allocator requirements.
+Pointer to an <a href="https://msdn.microsoft.com/813e4693-b549-4045-aff5-08f2dd754b6e">ALLOCATOR_PROPERTIES</a> structure that contains the stream allocator requirements.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Returns E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319682(v=VS.85).aspx">IAMMediaTypeStream Interface</a>
+<a href="https://msdn.microsoft.com/6ca1bad2-625b-4415-8311-acd5443452c1">IAMMediaTypeStream Interface</a>
  
 
  

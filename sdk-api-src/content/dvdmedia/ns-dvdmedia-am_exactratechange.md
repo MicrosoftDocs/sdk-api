@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The AM_ExactRateChange structure is not supported. Use <a href="https://msdn.microsoft.com/en-us/library/Dd373502(v=VS.85).aspx">AM_SimpleRateChange</a>.
+The AM_ExactRateChange structure is not supported. Use <a href="https://msdn.microsoft.com/18b33455-b499-4aa9-9fec-41ec2c03a638">AM_SimpleRateChange</a>.
 
 
 

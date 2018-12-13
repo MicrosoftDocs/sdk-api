@@ -94,7 +94,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420164(v=VS.85).aspx">XMQuaternionLength</a>
+<a href="https://msdn.microsoft.com/11ea4dd4-bf0e-46fb-91c0-cd937507536b">XMQuaternionLength</a>
  
 
  

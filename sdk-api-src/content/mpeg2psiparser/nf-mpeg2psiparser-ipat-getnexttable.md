@@ -130,7 +130,7 @@ This method applies only to <i>current</i> tables. Otherwise, the method returns
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694773(v=VS.85).aspx">IPAT Interface</a>
+<a href="https://msdn.microsoft.com/31b0e558-0f22-4761-a964-1908c2835478">IPAT Interface</a>
  
 
  

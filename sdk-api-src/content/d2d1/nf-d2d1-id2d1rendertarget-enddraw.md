@@ -76,7 +76,7 @@ When this method returns, contains the tag for drawing operations that caused er
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code and sets <i>tag1</i> and <i>tag2</i> to the tags that were active when the error occurred.
 
@@ -108,9 +108,13 @@ Calling <b>BeginDraw</b> twice on a render target puts the target into an error 
 
 The following example uses an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a> to draw text to a window.
 
-
-```cpp
-//  Called whenever the application needs to display the client
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Called whenever the application needs to display the client
 //  window. This method writes "Hello, World"
 //
 //  Note that this function will automatically discard device-specific
@@ -129,15 +133,15 @@ HRESULT DemoApp::OnRender()
         static const WCHAR sc_helloWorld[] = L"Hello, World!";
 
         // Retrieve the size of the render target.
-        D2D1_SIZE_F renderTargetSize = m_pRenderTarget->GetSize();
+        D2D1_SIZE_F renderTargetSize = m_pRenderTarget-&gt;GetSize();
 
-        m_pRenderTarget->BeginDraw();
+        m_pRenderTarget-&gt;BeginDraw();
 
-        m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
+        m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
 
-        m_pRenderTarget->Clear(D2D1::ColorF(D2D1::ColorF::White));
+        m_pRenderTarget-&gt;Clear(D2D1::ColorF(D2D1::ColorF::White));
 
-        m_pRenderTarget->DrawText(
+        m_pRenderTarget-&gt;DrawText(
             sc_helloWorld,
             ARRAYSIZE(sc_helloWorld) - 1,
             m_pTextFormat,
@@ -145,7 +149,7 @@ HRESULT DemoApp::OnRender()
             m_pBlackBrush
             );
 
-        hr = m_pRenderTarget->EndDraw();
+        hr = m_pRenderTarget-&gt;EndDraw();
 
         if (hr == D2DERR_RECREATE_TARGET)
         {
@@ -156,10 +160,10 @@ HRESULT DemoApp::OnRender()
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

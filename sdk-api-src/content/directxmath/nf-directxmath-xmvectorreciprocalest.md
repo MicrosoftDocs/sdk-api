@@ -95,7 +95,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421198(v=VS.85).aspx">XMVectorReciprocal</a>
+<a href="https://msdn.microsoft.com/0d2ab2a8-60b0-43ca-9993-31aadaaa66e9">XMVectorReciprocal</a>
  
 
  

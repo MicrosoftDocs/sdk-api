@@ -101,7 +101,7 @@ Returns S_OK if the proposed URL was already acceptable or was successfully corr
 
 
 
-The UrlFixup function recognizes the schemes specified by the <a href="https://msdn.microsoft.com/en-us/library/Bb762576(v=VS.85).aspx">URL_SCHEME</a> enumeration.
+The UrlFixup function recognizes the schemes specified by the <a href="https://msdn.microsoft.com/45686920-356d-4dd7-8482-2427854a92ed">URL_SCHEME</a> enumeration.
 
 Priority is given to the first character in the protocol identifier section so <code>htp</code> will be converted to <code>http</code> instead of <code>ftp</code>.
 

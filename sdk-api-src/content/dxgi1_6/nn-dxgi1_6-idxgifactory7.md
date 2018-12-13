@@ -71,7 +71,7 @@ The <b>IDXGIFactory7</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt832836(v=VS.85).aspx">RegisterAdaptersChangedEvent</a>
+<a href="https://msdn.microsoft.com/B0A5C04B-B081-4BDD-8952-6CC9116123E0">RegisterAdaptersChangedEvent</a>
 </td>
 <td align="left" width="63%">
 Registers to receive notification of changes whenever the adapter enumeration state changes.
@@ -80,7 +80,7 @@ Registers to receive notification of changes whenever the adapter enumeration st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt832837(v=VS.85).aspx">UnregisterAdaptersChangedEvent</a>
+<a href="https://msdn.microsoft.com/D118A5F6-CCFB-425C-82E8-18A3D8FAD79C">UnregisterAdaptersChangedEvent</a>
 </td>
 <td align="left" width="63%">
 Unregisters  an event to stop receiving notifications when the adapter enumeration state changes.

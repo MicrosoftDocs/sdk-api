@@ -166,7 +166,7 @@ When the bounding box is affected by the pen width, then this width is scaled ap
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/496234C1-C20B-46FE-A9BB-4B90C14FEB46">IInkStrokes</a>
 
 
 

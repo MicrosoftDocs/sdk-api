@@ -92,7 +92,7 @@ The process is frozen; for example,  a debugger is attached and broken into the 
 
 
 
-There are <b>PSS_PROCESS_FLAGS</b> members in the <a href="https://msdn.microsoft.com/en-us/library/Dn457850(v=VS.85).aspx">PSS_PROCESS_INFORMATION</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn457843(v=VS.85).aspx">PSS_HANDLE_ENTRY</a> structures.
+There are <b>PSS_PROCESS_FLAGS</b> members in the <a href="https://msdn.microsoft.com/D629FA42-B501-4A0E-9B53-6D70E580B687">PSS_PROCESS_INFORMATION</a> and <a href="https://msdn.microsoft.com/F56E8C35-949A-4DEE-973F-CF24F6596036">PSS_HANDLE_ENTRY</a> structures.
 
 
 

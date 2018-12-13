@@ -4,7 +4,7 @@ title: IWorkspaceRegistration2::AddResourceEx
 author: windows-sdk-content
 description: Adds a resource to the connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceregistration2_addresourceex.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 7bb26842-ca30-40e2-b7a2-474dda4ad433
 ms.author: windowssdkdev
 ms.date: 12/5/2018

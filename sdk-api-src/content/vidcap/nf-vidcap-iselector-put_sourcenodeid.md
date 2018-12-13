@@ -100,7 +100,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377075(v=VS.85).aspx">ISelector Interface</a>
+<a href="https://msdn.microsoft.com/bd6e028c-ed6d-4dad-a276-c59ba9d88e87">ISelector Interface</a>
  
 
  

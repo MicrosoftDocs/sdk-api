@@ -70,7 +70,7 @@ Type of information to be modified. The caller can specify AuthzContextInfoGroup
 
 ### -param pSidOperations [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Hh448467(v=VS.85).aspx">AUTHZ_SID_OPERATION</a> enumeration values that specify the group modifications to make.
+A pointer to an array of <a href="https://msdn.microsoft.com/C312BE7D-DA1B-47FE-80BA-7506B9A26E9E">AUTHZ_SID_OPERATION</a> enumeration values that specify the group modifications to make.
 
 
 ### -param pSids [in, optional]
@@ -94,7 +94,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh448467(v=VS.85).aspx">AUTHZ_SID_OPERATION</a> enumeration must have only one element if the value of that element is AUTHZ_SID_OPERATION_REPLACE_ALL. Otherwise, the array has the same number of elements as the corresponding 
+The <a href="https://msdn.microsoft.com/C312BE7D-DA1B-47FE-80BA-7506B9A26E9E">AUTHZ_SID_OPERATION</a> enumeration must have only one element if the value of that element is AUTHZ_SID_OPERATION_REPLACE_ALL. Otherwise, the array has the same number of elements as the corresponding 
 PTOKEN_GROUPS.
 
 

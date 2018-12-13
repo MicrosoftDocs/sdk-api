@@ -98,7 +98,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404778(v=VS.85).aspx">XMVector3TransformCoordStream</a>
+<a href="https://msdn.microsoft.com/426e99c7-383f-4159-88d5-f6765f4c9d3c">XMVector3TransformCoordStream</a>
  
 
  

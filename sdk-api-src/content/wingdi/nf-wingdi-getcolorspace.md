@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>GetColorSpace</b> function retrieves the handle to the input <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a> from a specified device context.
+The <b>GetColorSpace</b> function retrieves the handle to the input <a href="c.htm">color space</a> from a specified device context.
 
 
 ## -parameters

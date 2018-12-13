@@ -64,7 +64,7 @@ The <code>InvokeAtPresentationTime</code> method queues a method to be invoked a
 
 ### -param pCmd [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd406762(v=VS.85).aspx">IDeferredCommand</a> interface pointer.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/8161932a-16aa-4700-b91d-b4d8948ad59f">IDeferredCommand</a> interface pointer.
 
 
 ### -param time [in]
@@ -122,7 +122,7 @@ Returns an <b>HRESULT</b> value.
 
 Use the <b>IDispatch::GetIDsOfNames</b> method to retrieve the DISPID for the <i>dispidMember</i> parameter.
 
-For a code example, see <a href="https://msdn.microsoft.com/en-us/library/Dd376924(v=VS.85).aspx">IQueueCommand::InvokeAtStreamTime</a>.
+For a code example, see <a href="https://msdn.microsoft.com/350b6842-207c-47db-a3f8-9e2784d9da67">IQueueCommand::InvokeAtStreamTime</a>.
 
 
 
@@ -136,7 +136,7 @@ For a code example, see <a href="https://msdn.microsoft.com/en-us/library/Dd3769
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376922(v=VS.85).aspx">IQueueCommand Interface</a>
+<a href="https://msdn.microsoft.com/08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4">IQueueCommand Interface</a>
  
 
  

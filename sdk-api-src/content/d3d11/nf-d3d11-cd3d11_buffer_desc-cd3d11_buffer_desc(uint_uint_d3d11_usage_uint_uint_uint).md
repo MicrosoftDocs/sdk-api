@@ -98,7 +98,7 @@ A combination of <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The size of each element in the buffer structure (in bytes) when the buffer represents a structured buffer. For more info about structured buffers, see <a href="https://msdn.microsoft.com/en-us/library/Ff476335(v=VS.85).aspx">Structured Buffer</a>.
+The size of each element in the buffer structure (in bytes) when the buffer represents a structured buffer. For more info about structured buffers, see <a href="direct3d_11_advanced_stages_cs_resources.htm">Structured Buffer</a>.
 
 The size value in <i>structureByteStride</i> must match the size of the format that you use for views of the buffer. For example, if you use a shader resource view (SRV) to read a buffer in a pixel shader, the SRV format size must match the size value in <i>structureByteStride</i>.
 

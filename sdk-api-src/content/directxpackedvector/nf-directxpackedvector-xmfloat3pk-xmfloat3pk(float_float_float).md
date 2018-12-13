@@ -52,7 +52,7 @@ req.redist:
 
 Initializes a new instance of <code>XMFLOAT3PK</code> from three <code>float</code> arguments.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a> from three
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a> from three
   <code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -120,11 +120,11 @@ Because of the change in floating point format during the instantiation of an in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>
+<a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415282(v=VS.85).aspx">XMFLOAT3PK Constructors</a>
+<a href="https://msdn.microsoft.com/ee2cc939-ce97-47dd-a24d-1b35d2f145fe">XMFLOAT3PK Constructors</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a>.
 
 
 ## -parameters
@@ -85,13 +85,17 @@ This function takes a vector and writes the two most significant components out 
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-pDestination->x = V.x; // 4 bytes to address pDestination
-pDestination->y = V.y; // 4 bytes to address (uint8_t*)pDestination + 4
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>pDestination-&gt;x = V.x; // 4 bytes to address pDestination
+pDestination-&gt;y = V.y; // 4 bytes to address (uint8_t*)pDestination + 4</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

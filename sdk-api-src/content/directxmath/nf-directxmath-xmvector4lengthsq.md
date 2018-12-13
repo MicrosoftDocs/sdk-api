@@ -91,11 +91,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420970(v=VS.85).aspx">XMVector4Length</a>
+<a href="https://msdn.microsoft.com/99040ded-81cd-48a0-91b9-7c9fb0b672b4">XMVector4Length</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420971(v=VS.85).aspx">XMVector4LengthEst</a>
+<a href="https://msdn.microsoft.com/d8751b06-e99a-454c-8132-c93ad5685891">XMVector4LengthEst</a>
  
 
  

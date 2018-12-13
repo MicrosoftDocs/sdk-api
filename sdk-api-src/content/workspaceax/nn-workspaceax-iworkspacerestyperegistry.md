@@ -4,7 +4,7 @@ title: IWorkspaceResTypeRegistry
 author: windows-sdk-content
 description: Exposes methods that allow a plug-in to manage third-party file name extensions in RemoteApp and Desktop Connection runtime.
 old-location: termserv\iworkspacerestyperegistry.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: bea617a0-cd64-4c77-af27-b418178e3dad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -55,7 +55,7 @@ Exposes methods that allow a plug-in to manage third-party file name extensions 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceResTypeRegistry</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWorkspaceResTypeRegistry</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceResTypeRegistry</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWorkspaceResTypeRegistry</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

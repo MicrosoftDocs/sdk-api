@@ -67,14 +67,14 @@ A <a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISP
 
 ### -field baseOutputTechnology
 
-The base output technology, given as a constant value of the <a href="https://msdn.microsoft.com/en-us/library/Ff554003(v=VS.85).aspx">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration, of the adapter and the target specified by the <b>header</b> member. See Remarks.
+The base output technology, given as a constant value of the <a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration, of the adapter and the target specified by the <b>header</b> member. See Remarks.
 
 
 ## -remarks
 
 
 
-For a Miracast display device, a call to the <a href="https://msdn.microsoft.com/249dcb1a-4ce3-4478-8331-fb81e91313b0">DisplayConfigGetDeviceInfo</a>  function always returns  a value of <a href="https://msdn.microsoft.com/en-us/library/Ff554003(v=VS.85).aspx">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>.<b>DISPLAYCONFIG_OUTPUT_TECHNOLOGY_MIRACAST</b>, regardless of what the Miracast sink reports as the connector type.
+For a Miracast display device, a call to the <a href="https://msdn.microsoft.com/249dcb1a-4ce3-4478-8331-fb81e91313b0">DisplayConfigGetDeviceInfo</a>  function always returns  a value of <a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>.<b>DISPLAYCONFIG_OUTPUT_TECHNOLOGY_MIRACAST</b>, regardless of what the Miracast sink reports as the connector type.
 
 
 
@@ -88,7 +88,7 @@ For a Miracast display device, a call to the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554003(v=VS.85).aspx">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
+<a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 
 

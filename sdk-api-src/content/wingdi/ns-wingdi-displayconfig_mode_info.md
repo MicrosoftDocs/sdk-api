@@ -100,7 +100,7 @@ Supported starting in Windows 10.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff553942(v=VS.85).aspx">DISPLAYCONFIG_MODE_INFO_TYPE</a>
+<a href="https://msdn.microsoft.com/d5ddb1d5-6b74-471f-86f0-fee72f30b648">DISPLAYCONFIG_MODE_INFO_TYPE</a>
 
 
 

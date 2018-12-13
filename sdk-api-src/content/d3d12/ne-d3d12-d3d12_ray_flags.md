@@ -93,7 +93,7 @@ Even if at least one hit has been committed, and the hit group for the closest h
 
 ### -field D3D12_RAY_FLAG_CULL_BACK_FACING_TRIANGLES
 
-Enables culling of back facing triangles. See <a href="https://msdn.microsoft.com/en-us/library/Mt815589(v=VS.85).aspx">D3D12_RAYTRACING_INSTANCE_FLAGS</a> for selecting which triangles are back facing, per-instance.
+Enables culling of back facing triangles. See <a href="https://msdn.microsoft.com/418D1EF1-FC41-4BEF-914E-A9C82E78567A">D3D12_RAYTRACING_INSTANCE_FLAGS</a> for selecting which triangles are back facing, per-instance.
 
 On instances that specify D3D12_RAYTRACING_INSTANCE_FLAG_TRIANGLE_CULL_DISABLE, this flag has no effect.
 
@@ -104,7 +104,7 @@ This flag is mutually exclusive with RAY_FLAG_CULL_FRONT_FACING_TRIANGLES.
 
 ### -field D3D12_RAY_FLAG_CULL_FRONT_FACING_TRIANGLES
 
-Enables culling of front facing triangles. See <a href="https://msdn.microsoft.com/en-us/library/Mt815589(v=VS.85).aspx">D3D12_RAYTRACING_INSTANCE_FLAGS</a> for selecting which triangles are back facing, per-instance.
+Enables culling of front facing triangles. See <a href="https://msdn.microsoft.com/418D1EF1-FC41-4BEF-914E-A9C82E78567A">D3D12_RAYTRACING_INSTANCE_FLAGS</a> for selecting which triangles are back facing, per-instance.
 
 On instances that specify D3D12_RAYTRACING_INSTANCE_FLAG_TRIANGLE_CULL_DISABLE, this flag has no effect.
 

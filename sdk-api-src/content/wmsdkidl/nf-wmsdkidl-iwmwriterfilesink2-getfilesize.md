@@ -113,7 +113,7 @@ The <i>pcbFile</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798743(v=VS.85).aspx">IWMWriterFileSink2 Interface</a>
+<a href="https://msdn.microsoft.com/229ae2a5-103a-4a33-b7ca-c9b2854c6741">IWMWriterFileSink2 Interface</a>
  
 
  

@@ -157,7 +157,7 @@ To determine which points of a known stroke intersect the test area, call the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
 
 
 

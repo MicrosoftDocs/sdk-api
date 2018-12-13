@@ -101,11 +101,11 @@ The method succeeded.
 
 To receive data, a device must be opened, validated, and approved.
 
-You can find out whether the device is open by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743694(v=VS.85).aspx">IsOpened</a>. To open the device call <a href="https://msdn.microsoft.com/en-us/library/Dd743697(v=VS.85).aspx">Open</a>.
+You can find out whether the device is open by calling <a href="https://msdn.microsoft.com/5a8a6b2a-6a04-4505-b4be-ec10e1e5effe">IsOpened</a>. To open the device call <a href="https://msdn.microsoft.com/277f2724-5d82-4db7-96d9-af392b39fccf">Open</a>.
 
-A device is validated by performing proximity detection. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Dd757423(v=VS.85).aspx">IWMProximityDetection</a> interface.
+A device is validated by performing proximity detection. For more information, see the <a href="https://msdn.microsoft.com/0897ad8f-8e06-4de9-840e-1588e0e20c54">IWMProximityDetection</a> interface.
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Dd743693(v=VS.85).aspx">IsApproved</a> method to determine whether the device is approved. To approve the device, call the <a href="https://msdn.microsoft.com/en-us/library/Dd743624(v=VS.85).aspx">Approve</a> method.
+Call the <a href="https://msdn.microsoft.com/ab90468e-743f-4367-a49b-d494bf9be28f">IsApproved</a> method to determine whether the device is approved. To approve the device, call the <a href="https://msdn.microsoft.com/941714b8-c329-4768-9c48-86fa806550c3">Approve</a> method.
 
 
 
@@ -115,7 +115,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Dd743693(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
  
 
  

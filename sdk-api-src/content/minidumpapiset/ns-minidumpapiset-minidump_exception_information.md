@@ -4,7 +4,7 @@ title: MINIDUMP_EXCEPTION_INFORMATION
 author: windows-sdk-content
 description: Contains the exception information written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\minidump_exception_information_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 86416432-99e4-45ae-84e0-84b7b2341d11
 ms.author: windowssdkdev
 ms.date: 12/5/2018

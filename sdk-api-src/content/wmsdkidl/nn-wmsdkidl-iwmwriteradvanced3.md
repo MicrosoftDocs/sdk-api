@@ -60,7 +60,7 @@ The <b>IWMWriterAdvanced3</b> interface provides additional functionality for th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterAdvanced3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798721(v=VS.85).aspx">IWMWriterAdvanced2</a>. <b>IWMWriterAdvanced3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterAdvanced3</b> interface inherits from <a href="https://msdn.microsoft.com/94790b67-690c-4a0f-9b82-801bfcec9eb0">IWMWriterAdvanced2</a>. <b>IWMWriterAdvanced3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMWriterAdvanced3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798725(v=VS.85).aspx">GetStatisticsEx</a>
+<a href="https://msdn.microsoft.com/3ea41491-409c-42b7-a4b2-f0d7c222c299">GetStatisticsEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves extended statistics for the writer.
@@ -84,7 +84,7 @@ Retrieves extended statistics for the writer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798726(v=VS.85).aspx">SetNonBlocking</a>
+<a href="https://msdn.microsoft.com/4bec5e6c-5f77-433c-95e0-e3df4dba905c">SetNonBlocking</a>
 </td>
 <td align="left" width="63%">
 Configures the writer so that it does not block the calling thread.
@@ -102,11 +102,11 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798721(v=VS.85).aspx">IWMWriterAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/94790b67-690c-4a0f-9b82-801bfcec9eb0">IWMWriterAdvanced2 Interface</a>
 
 
 

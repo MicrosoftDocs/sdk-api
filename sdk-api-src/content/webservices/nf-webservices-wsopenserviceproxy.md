@@ -54,7 +54,7 @@ Opens a Service Proxy to a Service endpoint.
             
 
 On success client applications can make calls using the Service Proxy. 
-            The behavior of WsOpenServiceProxy is governed by the  <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">channel binding</a> used. 
+            The behavior of WsOpenServiceProxy is governed by the  <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">channel binding</a> used. 
 
 
 ## -parameters

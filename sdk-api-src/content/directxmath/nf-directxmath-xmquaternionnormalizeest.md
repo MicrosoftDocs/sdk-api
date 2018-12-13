@@ -79,7 +79,7 @@ An <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMV
 The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quaternions, 
     where the X, Y, and Z components are the vector part and the W component is the scalar part.
 
-This function internally calls the <a href="https://msdn.microsoft.com/en-us/library/Ee420977(v=VS.85).aspx">XMVector4NormalizeEst</a>function.
+This function internally calls the <a href="https://msdn.microsoft.com/c3438d8b-aac1-4db2-b8ce-68d03fc27688">XMVector4NormalizeEst</a>function.
 
 <code>Est</code> functions offer increased performance at the expense of reduced accuracy.
     <code>Est</code> functions are appropriate for non-critical calculations where accuracy can be sacrificed for speed.
@@ -100,7 +100,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420168(v=VS.85).aspx">XMQuaternionNormalize</a>
+<a href="https://msdn.microsoft.com/7c9f9d16-7880-4e65-845e-3277720ed1c3">XMQuaternionNormalize</a>
  
 
  

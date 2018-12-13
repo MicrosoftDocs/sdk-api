@@ -69,7 +69,7 @@ Pointer to a <b>null</b>-terminated object identifier string to convert.
 ### -param dstOID [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure that receives the converted value.
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure that receives the converted value.
 
 
 ## -returns
@@ -77,7 +77,7 @@ Pointer to an
 
 
 If the function succeeds, the return value is the number of subidentifiers in the converted object identifier. This number is also the value of the <b>len</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure pointed to by the <i>dstOID</i> parameter.
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure pointed to by the <i>dstOID</i> parameter.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
 <a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
@@ -145,10 +145,10 @@ An unknown or undefined error occurred.
 
 The WinSNMP application must call the 
 <a href="https://msdn.microsoft.com/535f728d-6964-47b6-9913-7cd38356053d">SnmpFreeDescriptor</a> function to free resources allocated for the <b>ptr</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure pointed to by the <i>dstOID</i> parameter. On input, 
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure pointed to by the <i>dstOID</i> parameter. On input, 
 <b>SnmpFreeDescriptor</b> ignores the members of this 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure. The Microsoft WinSNMP implementation overwrites the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> members if the function completes successfully.
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure. The Microsoft WinSNMP implementation overwrites the 
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> members if the function completes successfully.
 
 The 
 <b>SnmpStrToOid</b> function fails and returns the SNMPAPI_OID_INVALID error code if the <i>string</i> parameter meets one of the following conditions:
@@ -184,7 +184,7 @@ For additional information, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a>
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a>
  
 
  

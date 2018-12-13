@@ -4,7 +4,7 @@ title: MINIDUMP_EXCEPTION
 author: windows-sdk-content
 description: Contains exception information.
 old-location: base\minidump_exception_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: edbb87a7-1b99-46bd-8797-c806861ec73a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MINIDUMP_MEMORY_INFO
 author: windows-sdk-content
 description: Describes a region of memory.
 old-location: base\minidump_memory_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e9a797b9-5cad-48c0-bb33-ca9c13de8239
 ms.author: windowssdkdev
 ms.date: 12/5/2018

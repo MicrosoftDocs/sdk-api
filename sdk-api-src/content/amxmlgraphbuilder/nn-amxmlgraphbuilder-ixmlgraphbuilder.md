@@ -75,7 +75,7 @@ The <b>IXMLGraphBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390623(v=VS.85).aspx">BuildFromXML</a>
+<a href="https://msdn.microsoft.com/953449da-620e-44cd-880c-b4c13d8bdbf6">BuildFromXML</a>
 </td>
 <td align="left" width="63%">
 Loads a filter graph from an XML element.
@@ -84,7 +84,7 @@ Loads a filter graph from an XML element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390624(v=VS.85).aspx">BuildFromXMLFile</a>
+<a href="https://msdn.microsoft.com/238a3077-0f04-44bb-a6ac-b532ef97c315">BuildFromXMLFile</a>
 </td>
 <td align="left" width="63%">
 Loads a filter graph from an XML file.
@@ -93,7 +93,7 @@ Loads a filter graph from an XML file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390625(v=VS.85).aspx">SaveToXML</a>
+<a href="https://msdn.microsoft.com/02f710a4-3d13-46b0-b00d-4ffd2b4c3157">SaveToXML</a>
 </td>
 <td align="left" width="63%">
 Saves a filter graph to an XML element.

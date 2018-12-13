@@ -134,7 +134,7 @@ A pointer to memory that receives the requested interface pointer to the created
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the resource.
             For other possible return values, see <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
@@ -173,19 +173,23 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Create a vertex buffer.
 
-
-```cpp
-ThrowIfFailed(m_device->CreateCommittedResource(
-    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ThrowIfFailed(m_device-&gt;CreateCommittedResource(
+    &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
     D3D12_HEAP_FLAG_NONE,
-    &CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
+    &amp;CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
     D3D12_RESOURCE_STATE_COPY_DEST,
     nullptr,
-    IID_PPV_ARGS(&m_vertexBuffer)));
-
-```
-
-
+    IID_PPV_ARGS(&amp;m_vertexBuffer)));
+</pre>
+</td>
+</tr>
+</table></span></div>
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
           
 

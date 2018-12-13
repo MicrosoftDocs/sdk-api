@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the currently selected item in a tree-view control. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_CARET flag. 
+Retrieves the currently selected item in a tree-view control. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a> message with the TVGN_CARET flag. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Handle to the tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773861(v=VS.85).aspx">TreeView_GetNextItem</a>
+<a href="https://msdn.microsoft.com/987d0d0f-eecf-4a6a-9340-64dd6ce1ac80">TreeView_GetNextItem</a>
  
 
  

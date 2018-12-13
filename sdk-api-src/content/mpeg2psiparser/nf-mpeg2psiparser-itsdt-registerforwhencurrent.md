@@ -144,7 +144,7 @@ This method applies only to <i>next</i> tables. Otherwise, the method returns E_
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694980(v=VS.85).aspx">ITSDT Interface</a>
+<a href="https://msdn.microsoft.com/58ec73dc-79bd-415b-b9be-8e9246166391">ITSDT Interface</a>
  
 
  

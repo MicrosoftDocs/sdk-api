@@ -52,7 +52,7 @@ req.redist:
 
 Initializes a new instance of <code>XMHALF2</code> from two <code>HALF</code> arguments.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419652(v=VS.85).aspx">XMHALF2</a> from two
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/0b9229f5-5d6c-4ade-ba2f-e90933dc3289">XMHALF2</a> from two
   <code>HALF</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -107,11 +107,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419652(v=VS.85).aspx">XMHALF2</a>
+<a href="https://msdn.microsoft.com/0b9229f5-5d6c-4ade-ba2f-e90933dc3289">XMHALF2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415315(v=VS.85).aspx">XMHALF2 Constructors</a>
+<a href="https://msdn.microsoft.com/42a8fc31-2f0a-4a6b-82e7-1f0043fb69cc">XMHALF2 Constructors</a>
  
 
  

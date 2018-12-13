@@ -85,7 +85,7 @@ The method returns <b>TRUE</b> if the time is valid and <b>FALSE</b> if the time
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa394011(v=VS.85).aspx">WBEMTime::Clear</a>
+<a href="https://msdn.microsoft.com/a6b3db6c-1cc8-4058-8d8b-c8126a373130">WBEMTime::Clear</a>
  
 
  

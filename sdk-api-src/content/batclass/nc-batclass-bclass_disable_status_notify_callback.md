@@ -52,7 +52,7 @@ req.redist:
 
 <i>BatteryMiniDisableStatusNotify</i> disables status notification for a battery device.
 
-This callback function is specified in the <a href="https://msdn.microsoft.com/en-us/library/Mt784595(v=VS.85).aspx">BATTERY_MINIPORT_INFO_V1_1</a> structure.
+This callback function is specified in the <a href="https://msdn.microsoft.com/3266126A-AEFC-445C-89D3-736545101522">BATTERY_MINIPORT_INFO_V1_1</a> structure.
 
 
 ## -parameters

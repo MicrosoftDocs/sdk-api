@@ -110,7 +110,7 @@ Using this method with protected content is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563639(v=VS.85).aspx">IWMPRenderConfig Interface</a>
+<a href="https://msdn.microsoft.com/01a4c79e-9867-47c0-9aca-b2f1596f1c2a">IWMPRenderConfig Interface</a>
  
 
  

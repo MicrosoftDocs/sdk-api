@@ -123,19 +123,19 @@ When <i>plIndex</i> equals zero, no partnership exists.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563716(v=VS.85).aspx">IWMPSyncDevice::createPartnership</a>
+<a href="https://msdn.microsoft.com/734a8717-3b7f-4a40-895f-b55cfabd665c">IWMPSyncDevice::createPartnership</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563717(v=VS.85).aspx">IWMPSyncDevice::deletePartnership</a>
+<a href="https://msdn.microsoft.com/ecb525b4-c804-47e6-8d6c-7d943010077a">IWMPSyncDevice::deletePartnership</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563720(v=VS.85).aspx">IWMPSyncDevice::get_deviceId</a>
+<a href="https://msdn.microsoft.com/36d40dc4-5641-49dd-9ef4-31d2acd0f41d">IWMPSyncDevice::get_deviceId</a>
  
 
  

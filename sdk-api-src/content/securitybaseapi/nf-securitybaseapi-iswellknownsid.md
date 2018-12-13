@@ -72,7 +72,7 @@ A pointer to the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52d
 ### -param WellKnownSidType [in]
 
 Member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379650(v=VS.85).aspx">WELL_KNOWN_SID_TYPE</a> enumeration to compare with the SID at <i>pSid</i>.
+<a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WELL_KNOWN_SID_TYPE</a> enumeration to compare with the SID at <i>pSid</i>.
 
 
 ## -returns
@@ -99,7 +99,7 @@ Otherwise, returns <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379650(v=VS.85).aspx">WELL_KNOWN_SID_TYPE</a>
+<a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WELL_KNOWN_SID_TYPE</a>
  
 
  

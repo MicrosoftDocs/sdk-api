@@ -51,7 +51,7 @@ req.redist:
 
 
 The 
-<b>_NewEnum</b> property specifies either the <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a> enumerator interface for the collection.
+<b>_NewEnum</b> property specifies either the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a> enumerator interface for the collection.
 
 
 ## -parameters

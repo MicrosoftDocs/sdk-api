@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets group information. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761167(v=VS.85).aspx">LVM_SETGROUPINFO</a> message explicitly. 
+Sets group information. You can use this macro or send the <a href="https://msdn.microsoft.com/f79bd235-e2de-4055-be3e-76eb2744e1ee">LVM_SETGROUPINFO</a> message explicitly. 
 
 
 ## -parameters
@@ -74,13 +74,13 @@ Type: <b>int</b>
 
 Type: <b>PLVGROUP</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a>
+<a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetGroupInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetGroupInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

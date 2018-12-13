@@ -110,7 +110,7 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563457(v=VS.85).aspx">IWMPMetadataText Interface</a>
+<a href="https://msdn.microsoft.com/15d040fa-6c14-41ff-bd21-a8991c17681d">IWMPMetadataText Interface</a>
  
 
  

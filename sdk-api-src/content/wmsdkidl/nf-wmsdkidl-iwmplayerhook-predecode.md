@@ -79,7 +79,7 @@ The method returns an <b>HRESULT</b>. You should return S_OK.
 
 
 
-To assign an implementation of the <b>IWMPlayerHook</b> interface to an output in the reader object, call <a href="https://msdn.microsoft.com/en-us/library/Dd757461(v=VS.85).aspx">IWMReaderAdvanced5::SetPlayerHook</a>.
+To assign an implementation of the <b>IWMPlayerHook</b> interface to an output in the reader object, call <a href="https://msdn.microsoft.com/499c6c31-8cdf-4b99-964a-1fd51c14c5bd">IWMReaderAdvanced5::SetPlayerHook</a>.
 
 
 
@@ -93,7 +93,7 @@ To assign an implementation of the <b>IWMPlayerHook</b> interface to an output i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757261(v=VS.85).aspx">IWMPlayerHook Interface</a>
+<a href="https://msdn.microsoft.com/5e58cb6a-3398-4b12-881e-76f936f6c7b3">IWMPlayerHook Interface</a>
  
 
  

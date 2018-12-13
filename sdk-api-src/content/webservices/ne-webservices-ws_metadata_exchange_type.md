@@ -60,7 +60,7 @@ req.redist:
 ### -field WS_METADATA_EXCHANGE_TYPE_NONE
 
 Disables WS-MetadataExchange/HTTP GET servicing on the <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">endpoint</a>.  
-                    This is the default value of  <a href="https://msdn.microsoft.com/en-us/library/Dd323422(v=VS.85).aspx">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> property.
+                    This is the default value of  <a href="https://msdn.microsoft.com/f6b33fe5-a9e9-4733-8b6c-4b01009d3277">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> property.
                 
 
 

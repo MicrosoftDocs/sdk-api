@@ -118,9 +118,9 @@ A pointer to a <a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039
 
 ### -param renderingMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890741(v=VS.85).aspx">DWRITE_RENDERING_MODE1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C922428A">DWRITE_RENDERING_MODE1</a>*</b>
 
-A pointer to a variable that receives a <a href="https://msdn.microsoft.com/en-us/library/Dn890741(v=VS.85).aspx">DWRITE_RENDERING_MODE1</a>-typed value for the recommended rendering mode.
+A pointer to a variable that receives a <a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C922428A">DWRITE_RENDERING_MODE1</a>-typed value for the recommended rendering mode.
 
 
 ### -param gridFitMode [out]
@@ -146,7 +146,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>
+<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
  
 
  

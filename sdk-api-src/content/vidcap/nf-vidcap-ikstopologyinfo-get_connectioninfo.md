@@ -60,7 +60,7 @@ The <code>get_ConnectionInfo</code> method returns information about one node co
 
 ### -param dwIndex [in]
 
-Index of the connection. To find the number of connections, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390155(v=VS.85).aspx">IKsTopologyInfo::get_NumConnections</a> method.
+Index of the connection. To find the number of connections, call the <a href="https://msdn.microsoft.com/55f52b02-2768-4c59-9275-96e238ccf3f0">IKsTopologyInfo::get_NumConnections</a> method.
 
 
 ### -param pConnectionInfo [out]
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo Interface</a>
+<a href="https://msdn.microsoft.com/641a10fe-8e8c-4225-b05e-b09dfb5f2fee">IKsTopologyInfo Interface</a>
  
 
  

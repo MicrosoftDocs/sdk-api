@@ -223,7 +223,7 @@ Requires Windows Media Player 12.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563710(v=VS.85).aspx">IWMPSyncDevice2 Interface</a>
+<a href="https://msdn.microsoft.com/b47fc5ea-741d-4e47-baad-afeb659f1079">IWMPSyncDevice2 Interface</a>
  
 
  

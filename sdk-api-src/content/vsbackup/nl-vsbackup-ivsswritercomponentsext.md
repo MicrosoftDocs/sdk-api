@@ -56,9 +56,9 @@ The
 
 <b>IVssWriterComponentsExt</b> is returned by 
 <a href="https://msdn.microsoft.com/b99e7e41-1c88-462c-b6d8-734f7a6e24d4">IVssBackupComponents::GetWriterComponents</a> and inherits from 
-<a href="https://msdn.microsoft.com/e8ff2491-014c-43c7-bdce-99ed3b408605">IVssWriterComponents</a> and <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>.
+<a href="https://msdn.microsoft.com/e8ff2491-014c-43c7-bdce-99ed3b408605">IVssWriterComponents</a> and <a href="_com_iunknown">IUnknown</a>.
 <div class="alert"><b>Note</b>  During the restore phase, the requester should call <a href="https://msdn.microsoft.com/ee816d83-31f3-47ff-b581-cc4dcd878f22">IVssWriterComponentsExt::GetComponent</a> or <a href="https://msdn.microsoft.com/ec89438f-4811-42f7-bda0-6df6d1b98f18">IVssWriterComponentsExt::GetComponentCount</a> only after the call to <a href="https://msdn.microsoft.com/7a4c8869-9655-49a7-818b-98a08103f4b4">IVssBackupComponents::PreRestore</a> has returned, to allow time for the writer to update the Backup Components Document. One example of such an update would be to change the restore target.</div><div> </div>Life cycle management of 
-<b>IVssWriterComponentsExt</b> is handled through the inherited <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> methods. Specifically, an application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release resources held by an 
+<b>IVssWriterComponentsExt</b> is handled through the inherited <a href="_com_iunknown">IUnknown</a> methods. Specifically, an application is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release resources held by an 
 <b>IVssWriterComponentsExt</b> object.
 
 <b>IVssWriterComponentsExt</b> does not define any methods.

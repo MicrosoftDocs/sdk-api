@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743711(v=VS.85).aspx">Encrypt</a> holds a lock on the connection which is released by <b>Decrypt</b>, so threads should not block between calls to encrypt
+<a href="https://msdn.microsoft.com/fdb90fbc-9504-4b72-83ab-b410c3bd2e1e">Encrypt</a> holds a lock on the connection which is released by <b>Decrypt</b>, so threads should not block between calls to encrypt
      and decrypt.
 
 
@@ -92,7 +92,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>
+<a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a>
  
 
  

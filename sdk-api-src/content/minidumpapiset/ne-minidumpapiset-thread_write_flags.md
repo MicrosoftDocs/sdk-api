@@ -4,7 +4,7 @@ title: THREAD_WRITE_FLAGS
 author: windows-sdk-content
 description: Identifies the type of thread information that will be written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\thread_write_flags.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: b2d933c0-5e52-4078-82ea-844c2415eb45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

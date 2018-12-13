@@ -69,7 +69,7 @@ The <b>CreateNewMutualExclusion</b> method creates a mutual exclusion object. Mu
 
 ### -param ppME [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757238(v=VS.85).aspx">IWMMutualExclusion</a> interface of the new mutual exclusion object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/040635fb-de00-4c8c-9c39-c28c409311c3">IWMMutualExclusion</a> interface of the new mutual exclusion object.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The <i>ppME</i> parameter is <b>NULL</b>.
 
 This creation method is included as a method to this interface, rather than as an independent function. For clarity, it is not possible to have a mutual exclusion object other than as an element of a profile.
 
-After the application has created the mutual exclusion object, it must be configured and then <a href="https://msdn.microsoft.com/en-us/library/Dd757398(v=VS.85).aspx">AddMutualExclusion</a> must be called to add the mutual exclusion to the profile.
+After the application has created the mutual exclusion object, it must be configured and then <a href="https://msdn.microsoft.com/efd751cf-d34d-4e74-9a00-444ec31ebef0">AddMutualExclusion</a> must be called to add the mutual exclusion to the profile.
 
 
 
@@ -131,15 +131,15 @@ After the application has created the mutual exclusion object, it must be config
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757398(v=VS.85).aspx">IWMProfile::AddMutualExclusion</a>
+<a href="https://msdn.microsoft.com/efd751cf-d34d-4e74-9a00-444ec31ebef0">IWMProfile::AddMutualExclusion</a>
  
 
  

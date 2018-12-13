@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-Within your implementation of <a href="https://msdn.microsoft.com/en-us/library/Dd374408(v=VS.85).aspx">Invoke</a>, call the corresponding <b>End...</b> method.
+Within your implementation of <a href="base.imfasynccallback_invoke">Invoke</a>, call the corresponding <b>End...</b> method.
 
 
 

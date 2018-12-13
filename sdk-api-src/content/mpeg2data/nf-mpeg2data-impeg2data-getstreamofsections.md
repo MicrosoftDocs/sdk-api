@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>GetStreamOfSections</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+<p class="CCE_Message">[<b>GetStreamOfSections</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/6f07b4d2-7a52-448c-9e9f-729bd5261757">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 The <b>GetStreamOfSections</b> method starts an ongoing request for specific MPEG-2 table sections.
 

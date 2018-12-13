@@ -4,7 +4,7 @@ title: IWTSProtocolConnectionCallback::OnReady
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::OnReady is no longer available. Instead, use IWRdsProtocolConnectionCallback::OnReady.
 old-location: termserv\iwtsprotocolconnectioncallback_onready.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a1289aca-bcf6-4fd2-a288-d401bece005d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

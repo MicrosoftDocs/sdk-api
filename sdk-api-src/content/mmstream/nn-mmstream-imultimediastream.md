@@ -75,7 +75,7 @@ The <b>IMultiMediaStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390326(v=VS.85).aspx">EnumMediaStreams</a>
+<a href="https://msdn.microsoft.com/2fb51794-83ac-44c5-b388-d7b945870324">EnumMediaStreams</a>
 </td>
 <td align="left" width="63%">
 Retrieves a media stream, specified by index.
@@ -84,7 +84,7 @@ Retrieves a media stream, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390327(v=VS.85).aspx">GetDuration</a>
+<a href="https://msdn.microsoft.com/4d8104ec-aa2a-4151-bb7f-53611d4a71f2">GetDuration</a>
 </td>
 <td align="left" width="63%">
 Retrieves the duration of the multimedia stream.
@@ -93,7 +93,7 @@ Retrieves the duration of the multimedia stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390328(v=VS.85).aspx">GetEndOfStreamEventHandle</a>
+<a href="https://msdn.microsoft.com/0e4f59f8-c56e-4768-9047-2793515edfeb">GetEndOfStreamEventHandle</a>
 </td>
 <td align="left" width="63%">
 Retrieves an event that is signaled when the multimedia stream completes playback.
@@ -102,7 +102,7 @@ Retrieves an event that is signaled when the multimedia stream completes playbac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390329(v=VS.85).aspx">GetInformation</a>
+<a href="https://msdn.microsoft.com/27be6104-9ca4-48d7-aeda-5b633460e252">GetInformation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the multimedia stream object.
@@ -111,7 +111,7 @@ Retrieves the capabilities of the multimedia stream object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390330(v=VS.85).aspx">GetMediaStream</a>
+<a href="https://msdn.microsoft.com/d85cde4f-99f4-4641-b75f-13ca6dc7f21e">GetMediaStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves a media stream, specified by purpose ID.
@@ -120,7 +120,7 @@ Retrieves a media stream, specified by purpose ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390331(v=VS.85).aspx">GetState</a>
+<a href="https://msdn.microsoft.com/8d01c4cf-2de9-4e9c-8b6e-921284f4f1b6">GetState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current state of the multimedia stream object.
@@ -129,7 +129,7 @@ Retrieves the current state of the multimedia stream object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390332(v=VS.85).aspx">GetTime</a>
+<a href="https://msdn.microsoft.com/da92c68b-176c-4773-9ae1-63f803bc206e">GetTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current stream time.
@@ -138,7 +138,7 @@ Retrieves the current stream time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390334(v=VS.85).aspx">Seek</a>
+<a href="https://msdn.microsoft.com/ac65613f-3fca-4043-83ad-740ebd7687a4">Seek</a>
 </td>
 <td align="left" width="63%">
 Seeks all of the media streams to a new position.
@@ -147,7 +147,7 @@ Seeks all of the media streams to a new position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390335(v=VS.85).aspx">SetState</a>
+<a href="https://msdn.microsoft.com/69c3612f-e91a-4ab3-8f6d-2966e64a9220">SetState</a>
 </td>
 <td align="left" width="63%">
 Runs or stops the multimedia stream object.
@@ -162,7 +162,7 @@ Runs or stops the multimedia stream object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/2f604156-68ef-4770-9929-6dbfd46c4d6d">IAMMultiMediaStream Interface</a>
  
 
  

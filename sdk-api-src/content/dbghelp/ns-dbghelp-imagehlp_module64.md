@@ -4,7 +4,7 @@ title: IMAGEHLP_MODULE64
 author: windows-sdk-content
 description: Contains module information.
 old-location: base\imagehlp_module64_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 3cc7a678-561b-4af8-8cf0-5cf6ebc0cb26
 ms.author: windowssdkdev
 ms.date: 12/5/2018

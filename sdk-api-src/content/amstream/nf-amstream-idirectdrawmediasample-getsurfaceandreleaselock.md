@@ -99,7 +99,7 @@ The caller should release the returned surface pointer, except when calling the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406801(v=VS.85).aspx">IDirectDrawMediaSample Interface</a>
+<a href="https://msdn.microsoft.com/0a83b257-e88f-4870-924c-56ddc325f17f">IDirectDrawMediaSample Interface</a>
  
 
  

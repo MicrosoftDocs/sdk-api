@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::Close
 author: windows-sdk-content
 description: Closes a connection after the session is disconnected.
 old-location: termserv\iwrdsprotocolconnection_close.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8d159e3f-b429-4522-b608-0068b1f7fa4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

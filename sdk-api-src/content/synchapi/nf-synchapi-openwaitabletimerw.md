@@ -110,7 +110,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The 
 <b>OpenWaitableTimer</b> function enables multiple processes to open handles to the same timer object. The function succeeds only if some process has already created the timer using the 
-<a href="https://msdn.microsoft.com/en-us/library/ms682492(v=VS.85).aspx">CreateWaitableTimer</a> function. The calling process can use the returned handle in any function that requires the handle to a timer object, such as the 
+<a href="https://msdn.microsoft.com/41c915c4-424d-43dd-89d9-a6b4fbee701c">CreateWaitableTimer</a> function. The calling process can use the returned handle in any function that requires the handle to a timer object, such as the 
 <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a>, subject to the limitations of the access specified in the <i>dwDesiredAccess</i> parameter.
 
 The returned handle can be duplicated by using the <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a> function. Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The timer object is destroyed when its last handle has been closed.
@@ -138,7 +138,7 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682492(v=VS.85).aspx">CreateWaitableTimer</a>
+<a href="https://msdn.microsoft.com/41c915c4-424d-43dd-89d9-a6b4fbee701c">CreateWaitableTimer</a>
 
 
 

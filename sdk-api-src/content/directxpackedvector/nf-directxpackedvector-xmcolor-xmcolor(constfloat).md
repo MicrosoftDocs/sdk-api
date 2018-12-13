@@ -52,7 +52,7 @@ req.redist:
 
 Default constructor for <code>XMCOLOR</code>
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
+Default constructor for <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.</div><div> </div>
 
@@ -87,11 +87,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
+<a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415264(v=VS.85).aspx">XMCOLOR Constructors</a>
+<a href="https://msdn.microsoft.com/9d700016-8a5c-4699-b9cb-f9e91296a2a7">XMCOLOR Constructors</a>
  
 
  

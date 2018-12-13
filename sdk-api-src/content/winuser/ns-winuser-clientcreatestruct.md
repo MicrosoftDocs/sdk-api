@@ -51,7 +51,7 @@ req.redist:
 
 
 Contains information about the menu and first multiple-document interface (MDI) child window of an MDI client window. An application passes a pointer to this structure as the
-<i>lpParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> function when creating an MDI client window. 
+<i>lpParam</i> parameter of the <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> function when creating an MDI client window. 
 
 
 ## -struct-fields
@@ -63,22 +63,22 @@ Contains information about the menu and first multiple-document interface (MDI) 
 
 Type: <b>HANDLE</b>
 
-A handle to the MDI application's window menu. An MDI application can retrieve this handle from the menu of the MDI frame window by using the <a href="https://msdn.microsoft.com/en-us/library/ms647984(v=VS.85).aspx">GetSubMenu</a> function. 
+A handle to the MDI application's window menu. An MDI application can retrieve this handle from the menu of the MDI frame window by using the <a href="https://msdn.microsoft.com/009ede3f-da6e-4195-90e0-9f046146fd5c">GetSubMenu</a> function. 
 
 
 ### -field idFirstChild
 
 Type: <b>UINT</b>
 
-The child window identifier of the first MDI child window created. The system increments the identifier for each additional MDI child window the application creates, and reassigns identifiers when the application destroys a window to keep the range of identifiers contiguous. These identifiers are used in <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages sent to the application's MDI frame window when a child window is chosen from the window menu; they should not conflict with any other command identifiers. 
+The child window identifier of the first MDI child window created. The system increments the identifier for each additional MDI child window the application creates, and reassigns identifiers when the application destroys a window to keep the range of identifiers contiguous. These identifiers are used in <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> messages sent to the application's MDI frame window when a child window is chosen from the window menu; they should not conflict with any other command identifiers. 
 
 
 ## -remarks
 
 
 
-When the MDI client window is created by calling <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>, the system sends a <a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message to the window. The 
-				<i>lParam</i> parameter of <b>WM_CREATE</b> contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a> structure. The 
+When the MDI client window is created by calling <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a>, the system sends a <a href="https://msdn.microsoft.com/d484d0fc-bad0-4fcb-bf4b-37cbc50846ee">WM_CREATE</a> message to the window. The 
+				<i>lParam</i> parameter of <b>WM_CREATE</b> contains a pointer to a <a href="https://msdn.microsoft.com/2d67fed4-43de-4151-b124-b710ea64e8a6">CREATESTRUCT</a> structure. The 
 				<b>lpCreateParams</b> member of this structure contains a pointer to a <b>CLIENTCREATESTRUCT</b> structure.
 
 
@@ -89,7 +89,7 @@ When the MDI client window is created by calling <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644908(v=VS.85).aspx">About the Multiple Document Interface</a>
+<a href="https://msdn.microsoft.com/35dff281-3b11-4954-85cf-a0f1c9ed346a">About the Multiple Document Interface</a>
 
 
 
@@ -97,15 +97,15 @@ When the MDI client window is created by calling <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647984(v=VS.85).aspx">GetSubMenu</a>
+<a href="https://msdn.microsoft.com/009ede3f-da6e-4195-90e0-9f046146fd5c">GetSubMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644910(v=VS.85).aspx">MDICREATESTRUCT</a>
+<a href="https://msdn.microsoft.com/aac21a17-4302-4174-9d72-15366d964094">MDICREATESTRUCT</a>
 
 
 
@@ -113,11 +113,11 @@ When the MDI client window is created by calling <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a>
+<a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

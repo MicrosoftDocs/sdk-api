@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Data structure returned from <a href="https://msdn.microsoft.com/en-us/library/Mt830287(v=VS.85).aspx">KeyCredentialManagerGetInformation</a>.
+Data structure returned from <a href="security.keycredentialmanagergetinformation">KeyCredentialManagerGetInformation</a>.
 
 
 ## -struct-fields

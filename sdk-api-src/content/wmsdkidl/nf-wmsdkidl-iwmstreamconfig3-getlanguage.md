@@ -88,11 +88,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798554(v=VS.85).aspx">IWMStreamConfig3 Interface</a>
+<a href="https://msdn.microsoft.com/c79ddfb8-b1ff-475c-8c9d-01e0dbe3f681">IWMStreamConfig3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798557(v=VS.85).aspx">IWMStreamConfig3::SetLanguage</a>
+<a href="https://msdn.microsoft.com/3d5c65b1-5e8b-4ee7-b28c-a35376c91ac4">IWMStreamConfig3::SetLanguage</a>
  
 
  

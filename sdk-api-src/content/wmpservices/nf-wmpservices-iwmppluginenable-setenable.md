@@ -91,11 +91,11 @@ DSP plug-ins are removed from the signal path when the user chooses to disable t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563584(v=VS.85).aspx">IWMPPluginEnable Interface</a>
+<a href="https://msdn.microsoft.com/997708e2-18fa-436f-9ca1-cdde5c7414fc">IWMPPluginEnable Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563585(v=VS.85).aspx">IWMPPluginEnable::GetEnable</a>
+<a href="https://msdn.microsoft.com/29a08f6e-17a7-4bff-9aea-d5586d2b55b3">IWMPPluginEnable::GetEnable</a>
  
 
  

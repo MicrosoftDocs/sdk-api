@@ -82,7 +82,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 <b>XMVectorExpE</b> is new for DirectXMath version 3.05. 
 
-It's similar to the existing <a href="https://msdn.microsoft.com/en-us/library/Ee421017(v=VS.85).aspx">XMVectorExp</a> function for Windows 8, but computes base e instead of base 2.
+It's similar to the existing <a href="https://msdn.microsoft.com/c9d97292-49ee-4c55-92b4-bcc851cfd23b">XMVectorExp</a> function for Windows 8, but computes base e instead of base 2.
 
 
 <b>XMVectorExpE</b> is implemented like this:

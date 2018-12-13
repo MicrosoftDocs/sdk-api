@@ -93,7 +93,7 @@ Address of a pointer to the <a href="https://msdn.microsoft.com/7224de57-75cb-4d
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the buffer.
               See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
@@ -111,7 +111,7 @@ For example code, see <a href="https://msdn.microsoft.com/584a39d1-7629-429a-b45
           <a href="https://msdn.microsoft.com/78694ac2-e850-402d-8c99-6afb0bd5d660">How to: Create a Constant Buffer</a>.
         
 
-For a constant buffer (<b>BindFlags</b> of  <a href="https://msdn.microsoft.com/a5e470bb-011b-4a2a-96d6-cbf76fe12638">D3D11_BUFFER_DESC</a> set to <a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">D3D11_BIND_CONSTANT_BUFFER</a>), 
+For a constant buffer (<b>BindFlags</b> of  <a href="https://msdn.microsoft.com/a5e470bb-011b-4a2a-96d6-cbf76fe12638">D3D11_BUFFER_DESC</a> set to <a href="d3d11_bind_flag.htm">D3D11_BIND_CONSTANT_BUFFER</a>), 
           you must set the <b>ByteWidth</b> value of  <b>D3D11_BUFFER_DESC</b> in multiples of 16, and less than or equal to <b>D3D11_REQ_CONSTANT_BUFFER_ELEMENT_COUNT</b>.
         
 
@@ -123,7 +123,7 @@ You can create a constant buffer that is larger than the maximum constant buffer
           you can define a range of the buffer that the shader can access that fits within the 4096 constant limit.
         
 
-The runtime will emulate this feature for <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
+The runtime will emulate this feature for <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
           This feature is always available on new drivers for feature level 10 and higher.
           On existing drivers that are implemented to feature level 10 and higher, a call to <b>CreateBuffer</b> to request a constant buffer that is larger than 4096 fails.
         

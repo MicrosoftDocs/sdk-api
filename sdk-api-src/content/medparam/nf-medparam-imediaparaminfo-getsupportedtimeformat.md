@@ -126,7 +126,7 @@ Success.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Dd406966(v=VS.85).aspx">GetNumTimeFormats</a> method to retrieve the number of time formats that the object supports.
+Call the <a href="https://msdn.microsoft.com/5c398554-af2b-4e7d-8f5c-1c361535e7c6">GetNumTimeFormats</a> method to retrieve the number of time formats that the object supports.
 
 
 
@@ -136,7 +136,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Dd406966(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo Interface</a>
+<a href="https://msdn.microsoft.com/80c7da71-7898-4bda-a181-09ad8906532a">IMediaParamInfo Interface</a>
 
 
 

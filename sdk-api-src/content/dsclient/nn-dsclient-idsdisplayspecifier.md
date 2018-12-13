@@ -56,12 +56,16 @@ The <b>IDsDisplaySpecifier</b> interface provides access to Active Directory Dom
 This interface is used to extend the display features of an existing object in Active Directory Domain Services, manage the display for a new directory object, or enhance the display of an Active Directory Domain Services enabled application. For more information, see 
 <a href="https://msdn.microsoft.com/758ec25d-42ab-46ba-aa58-416d7ac8fd68">Extending the User Interface for Directory Objects</a>.
 
-To create an instance of this interface,  call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the <b>CLSID_DsDisplaySpecifier</b> object identifier as shown in the following code  example.
-
-```cpp
-#include <objbase.h>
+To create an instance of this interface,  call <a href="_com_cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsDisplaySpecifier</b> object identifier as shown in the following code  example.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;objbase.h&gt;
 #define INITGUID
-#include <initguid.h>
+#include &lt;initguid.h&gt;
 #include "dsclient.h"
  
 HRESULT hr;
@@ -73,18 +77,18 @@ hr = CoCreateInstance( CLSID_DsDisplaySpecifier,
                        NULL,
                        CLSCTX_INPROC_SERVER,
                        IID_IDsDisplaySpecifier,
-                       (void**)&pDS);
+                       (void**)&amp;pDS);
 if(SUCCEEDED(hr))
 {
     // More code calling the interface methods.
     
-    pDS->Release();
+    pDS-&gt;Release();
 }
  
-CoUninitialize();
-```
-
-
+CoUninitialize();</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -inheritance
 
@@ -208,7 +212,7 @@ Specifies the server from which display specifier data is obtained.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 

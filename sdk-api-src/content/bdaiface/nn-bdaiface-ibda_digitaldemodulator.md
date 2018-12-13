@@ -75,7 +75,7 @@ The <b>IBDA_DigitalDemodulator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693294(v=VS.85).aspx">get_InnerFECMethod</a>
+<a href="https://msdn.microsoft.com/a245c9fa-6f1e-4aa6-a5bf-b9707244a9e2">get_InnerFECMethod</a>
 </td>
 <td align="left" width="63%">
 Retrieves the inner forward error correction method.
@@ -84,7 +84,7 @@ Retrieves the inner forward error correction method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693295(v=VS.85).aspx">get_InnerFECRate</a>
+<a href="https://msdn.microsoft.com/56fb0c34-8c28-4eff-a1dd-d82c31b0e430">get_InnerFECRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the inner forward error correction rate being used on the signal.
@@ -102,7 +102,7 @@ Retrieves the modulation type for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693297(v=VS.85).aspx">get_OuterFECMethod</a>
+<a href="https://msdn.microsoft.com/6fbedcba-4b76-4cf0-8fa1-c71140d49643">get_OuterFECMethod</a>
 </td>
 <td align="left" width="63%">
 Retrieves the outer forward error correction method for the signal.
@@ -111,7 +111,7 @@ Retrieves the outer forward error correction method for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693298(v=VS.85).aspx">get_OuterFECRate</a>
+<a href="https://msdn.microsoft.com/99f6e920-0b2d-4509-9a68-c6404d676b8a">get_OuterFECRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the outer forward error correction rate for the signal.
@@ -129,7 +129,7 @@ Retrieves the spectral inversion value for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693300(v=VS.85).aspx">get_SymbolRate</a>
+<a href="https://msdn.microsoft.com/d3640389-2533-4e6f-bc3e-7dceef76866b">get_SymbolRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the symbol rate for the signal.
@@ -138,7 +138,7 @@ Retrieves the symbol rate for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693301(v=VS.85).aspx">put_InnerFECMethod</a>
+<a href="https://msdn.microsoft.com/618074c0-5139-4373-8bcd-9a8fd90a4ed7">put_InnerFECMethod</a>
 </td>
 <td align="left" width="63%">
 Specifies the inner forward error correction method for the signal.
@@ -147,7 +147,7 @@ Specifies the inner forward error correction method for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693302(v=VS.85).aspx">put_InnerFECRate</a>
+<a href="https://msdn.microsoft.com/e87dbce2-6970-45f6-b08c-bddebeb4d1ca">put_InnerFECRate</a>
 </td>
 <td align="left" width="63%">
 Specifies the inner forward error correction rate.
@@ -156,7 +156,7 @@ Specifies the inner forward error correction rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693303(v=VS.85).aspx">put_ModulationType</a>
+<a href="https://msdn.microsoft.com/9e2bf33f-b139-4455-ad49-c75e52f31083">put_ModulationType</a>
 </td>
 <td align="left" width="63%">
 Specifies the modulation type for the signal.
@@ -165,7 +165,7 @@ Specifies the modulation type for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693304(v=VS.85).aspx">put_OuterFECMethod</a>
+<a href="https://msdn.microsoft.com/8ec9c75b-5f71-4a07-8234-8f38b96b962d">put_OuterFECMethod</a>
 </td>
 <td align="left" width="63%">
 Specifies the outer forward error correction method for the signal.
@@ -174,7 +174,7 @@ Specifies the outer forward error correction method for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693305(v=VS.85).aspx">put_OuterFECRate</a>
+<a href="https://msdn.microsoft.com/60c35bd1-b971-411b-92bf-bbed41fc984c">put_OuterFECRate</a>
 </td>
 <td align="left" width="63%">
 Specifies the outer forward error correction rate for the signal.
@@ -183,7 +183,7 @@ Specifies the outer forward error correction rate for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693306(v=VS.85).aspx">put_SpectralInversion</a>
+<a href="https://msdn.microsoft.com/6aabb829-5198-407f-a8f7-f99f87229560">put_SpectralInversion</a>
 </td>
 <td align="left" width="63%">
 Specifies the spectral inversion value for the signal.
@@ -192,7 +192,7 @@ Specifies the spectral inversion value for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693307(v=VS.85).aspx">put_SymbolRate</a>
+<a href="https://msdn.microsoft.com/ec37e7a5-d2e8-468a-8b5b-d1a1fa538bfe">put_SymbolRate</a>
 </td>
 <td align="left" width="63%">
 Specifies the symbol rate for the signal.

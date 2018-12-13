@@ -130,7 +130,7 @@ Retrieves a byte array that contains the key identifier.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa382409(v=VS.85).aspx">Extensions</a>
+<a href="https://msdn.microsoft.com/f2a6854d-1831-489f-adf6-31a0b26511e3">Extensions</a>
 
 
 

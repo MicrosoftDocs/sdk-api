@@ -96,7 +96,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694551(v=VS.85).aspx">IMSVidFilePlayback Interface</a>
+<a href="https://msdn.microsoft.com/d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5">IMSVidFilePlayback Interface</a>
  
 
  

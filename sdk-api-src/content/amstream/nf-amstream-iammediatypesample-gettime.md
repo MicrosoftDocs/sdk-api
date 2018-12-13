@@ -128,7 +128,7 @@ The sample has a valid start time but no stop time.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319663(v=VS.85).aspx">IAMMediaTypeSample Interface</a>
+<a href="https://msdn.microsoft.com/e0a62251-68ee-4318-b09a-0aac6b73bf54">IAMMediaTypeSample Interface</a>
  
 
  

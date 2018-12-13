@@ -68,7 +68,7 @@ Handle to a compressor.
 
 ### -param picinfo
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743162(v=VS.85).aspx">ICINFO</a> structure to return information about the compressor.
+Pointer to the <a href="https://msdn.microsoft.com/5faf7022-6dc8-475c-8f5a-721bc5b6afee">ICINFO</a> structure to return information about the compressor.
 
 
 ### -param cb

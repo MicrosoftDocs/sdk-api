@@ -63,7 +63,7 @@ The <b>Notify</b> method is called by the pin for each buffer that is delivered 
 
 ### -param pNSSBuffer3 [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3</a> interface exposed on the media sample.
+Pointer to the <a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3</a> interface exposed on the media sample.
 
 
 ### -param pPin [in]
@@ -112,7 +112,7 @@ This method enables an application to examine and act on information in the medi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3 Interface</a>
+<a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3 Interface</a>
  
 
  

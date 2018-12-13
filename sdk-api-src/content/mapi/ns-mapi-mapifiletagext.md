@@ -107,11 +107,11 @@ A <b>MapiFileTagExt</b> structure defines the type of an attached file for purpo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd296737(v=VS.85).aspx">MapiFileDesc</a>
+<a href="https://msdn.microsoft.com/c2193551-85c3-4293-b632-d6c8ab84800a">MapiFileDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh707272(v=VS.85).aspx">MapiFileDescW</a>
+<a href="https://msdn.microsoft.com/CF7C41DF-D361-457F-B038-5C1144E70AA6">MapiFileDescW</a>
 
 
 

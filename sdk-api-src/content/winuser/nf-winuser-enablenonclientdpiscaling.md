@@ -93,15 +93,19 @@ Calling this function enables non-client scaling for top-level windows only. Chi
 
 This function must be called from WM_NCCREATE during the initialization of a new window. An example call might look like this:
 
-
-```
-case WM_NCCREATE:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>case WM_NCCREATE:
 {
     EnableNonClientDpiScaling(hwnd);
     return (DefWindowProc(hwnd, message, wParam, lParam));
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -60,7 +60,7 @@ An <b>IWMReaderNetworkConfig2</b> interface exists for every reader object. You 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderNetworkConfig2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig</a>. <b>IWMReaderNetworkConfig2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderNetworkConfig2</b> interface inherits from <a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig</a>. <b>IWMReaderNetworkConfig2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMReaderNetworkConfig2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743506(v=VS.85).aspx">GetAcceleratedStreamingDuration</a>
+<a href="https://msdn.microsoft.com/a8feda02-113a-4763-b695-c4cd48781ade">GetAcceleratedStreamingDuration</a>
 </td>
 <td align="left" width="63%">
 Retrieves the duration of accelerated streaming.
@@ -84,7 +84,7 @@ Retrieves the duration of accelerated streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743507(v=VS.85).aspx">GetAutoReconnectLimit</a>
+<a href="https://msdn.microsoft.com/8d0b794c-b3bf-4ec5-ac68-9666e73f7a6e">GetAutoReconnectLimit</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of allowable automatic reconnections.
@@ -93,7 +93,7 @@ Retrieves the number of allowable automatic reconnections.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743508(v=VS.85).aspx">GetEnableContentCaching</a>
+<a href="https://msdn.microsoft.com/c8fdbb18-ba50-47e7-b7c9-858e6c452071">GetEnableContentCaching</a>
 </td>
 <td align="left" width="63%">
 Queries whether content caching is enabled.
@@ -102,7 +102,7 @@ Queries whether content caching is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743509(v=VS.85).aspx">GetEnableFastCache</a>
+<a href="https://msdn.microsoft.com/50f904a3-5a2d-4c0f-92fe-76a1ff195c91">GetEnableFastCache</a>
 </td>
 <td align="left" width="63%">
 Queries whether Fast Cache streaming is enabled.
@@ -111,7 +111,7 @@ Queries whether Fast Cache streaming is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743510(v=VS.85).aspx">GetEnableResends</a>
+<a href="https://msdn.microsoft.com/d39d42c3-7d00-4fb6-8979-2b65d00ac636">GetEnableResends</a>
 </td>
 <td align="left" width="63%">
 Queries whether resending is enabled.
@@ -120,7 +120,7 @@ Queries whether resending is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743511(v=VS.85).aspx">GetEnableThinning</a>
+<a href="https://msdn.microsoft.com/3ad43406-56db-48db-96a7-419b6719dbd4">GetEnableThinning</a>
 </td>
 <td align="left" width="63%">
 Queries whether thinning is enabled.
@@ -129,7 +129,7 @@ Queries whether thinning is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743512(v=VS.85).aspx">GetMaxNetPacketSize</a>
+<a href="https://msdn.microsoft.com/0249822c-4772-4317-aec2-e466fbd70bad">GetMaxNetPacketSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum size of packets being delivered over a network.
@@ -138,7 +138,7 @@ Retrieves the maximum size of packets being delivered over a network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743513(v=VS.85).aspx">SetAcceleratedStreamingDuration</a>
+<a href="https://msdn.microsoft.com/c9ad5064-7742-4145-b560-f3e867da609a">SetAcceleratedStreamingDuration</a>
 </td>
 <td align="left" width="63%">
 Sets the duration of accelerated streaming.
@@ -147,7 +147,7 @@ Sets the duration of accelerated streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743514(v=VS.85).aspx">SetAutoReconnectLimit</a>
+<a href="https://msdn.microsoft.com/0ef6bb5c-6369-4b80-a227-da790b1ab6da">SetAutoReconnectLimit</a>
 </td>
 <td align="left" width="63%">
 Sets the automatic reconnection limit.
@@ -156,7 +156,7 @@ Sets the automatic reconnection limit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743515(v=VS.85).aspx">SetEnableContentCaching</a>
+<a href="https://msdn.microsoft.com/68dcb12e-e254-407e-864b-54d4e84b08ed">SetEnableContentCaching</a>
 </td>
 <td align="left" width="63%">
 Enables or disables content caching.
@@ -165,7 +165,7 @@ Enables or disables content caching.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743516(v=VS.85).aspx">SetEnableFastCache</a>
+<a href="https://msdn.microsoft.com/28a01985-a133-4203-8385-d4497c29bf9c">SetEnableFastCache</a>
 </td>
 <td align="left" width="63%">
 Enables or disables Fast Cache streaming.
@@ -174,7 +174,7 @@ Enables or disables Fast Cache streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743517(v=VS.85).aspx">SetEnableResends</a>
+<a href="https://msdn.microsoft.com/c3bd0e03-eee1-4022-8540-1dcc927d6b5f">SetEnableResends</a>
 </td>
 <td align="left" width="63%">
 Enables or disables resending.
@@ -183,7 +183,7 @@ Enables or disables resending.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743518(v=VS.85).aspx">SetEnableThinning</a>
+<a href="https://msdn.microsoft.com/98d4eb7e-e712-4ca0-a532-1160254748b8">SetEnableThinning</a>
 </td>
 <td align="left" width="63%">
 Enables or disables thinning.
@@ -201,7 +201,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
 
 
 

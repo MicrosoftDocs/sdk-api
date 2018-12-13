@@ -182,7 +182,7 @@ To write an "xml:lang"  or "xml:space" attribute, specify "xml" for the prefix, 
         and "http://www.w3.org/XML/1998/namespace" for the namespace.
       
 
-If writing the attribute causes <a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES</a> to be exceeded
+If writing the attribute causes <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES</a> to be exceeded
         then <b>WS_E_QUOTA_EXCEEDED</b> is returned.
       
 

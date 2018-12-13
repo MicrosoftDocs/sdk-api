@@ -206,7 +206,7 @@ This constant is not used.
 </dl>
 </td>
 <td width="60%">
-For a smart card provider, sets the search string that is displayed to the user as a prompt to insert the smart card. This string is passed as the <b>lpstrSearchDesc</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa378815(v=VS.85).aspx">OPENCARDNAME_EX</a> structure that is passed to the <a href="https://msdn.microsoft.com/68014e9e-0ea3-4032-8db5-c1887a1cc9ad">SCardUIDlgSelectCard</a> function. This string is used for the lifetime of the calling process.
+For a smart card provider, sets the search string that is displayed to the user as a prompt to insert the smart card. This string is passed as the <b>lpstrSearchDesc</b> member of the <a href="https://msdn.microsoft.com/fb9e64a9-441a-4c7b-b404-79682778c694">OPENCARDNAME_EX</a> structure that is passed to the <a href="https://msdn.microsoft.com/68014e9e-0ea3-4032-8db5-c1887a1cc9ad">SCardUIDlgSelectCard</a> function. This string is used for the lifetime of the calling process.
 
 The <i>pbData</i> parameter is a pointer to a null-terminated Unicode string.
 
@@ -425,7 +425,7 @@ The function failed in some unexpected way.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

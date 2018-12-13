@@ -71,7 +71,7 @@ The <b>GetBandwidthSharing</b> method retrieves a bandwidth sharing object from 
 
 ### -param ppBS [out]
 
-Pointer to receive the address of the <a href="https://msdn.microsoft.com/en-us/library/Dd743298(v=VS.85).aspx">IWMBandwidthSharing</a> interface of the object requested.
+Pointer to receive the address of the <a href="https://msdn.microsoft.com/fd0e48bb-2e5e-4158-9ff1-5b603f219689">IWMBandwidthSharing</a> interface of the object requested.
 
 
 ## -returns
@@ -146,19 +146,19 @@ Bandwidth sharing objects in a profile are assigned sequential index numbers in 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757269(v=VS.85).aspx">IWMProfile3::AddBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/174a4583-93fb-41cd-ba14-a959a28c1ea3">IWMProfile3::AddBandwidthSharing</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757273(v=VS.85).aspx">IWMProfile3::GetBandwidthSharingCount</a>
+<a href="https://msdn.microsoft.com/7f5a11a7-d81a-4ca1-8b0f-1d561f736523">IWMProfile3::GetBandwidthSharingCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757381(v=VS.85).aspx">IWMProfile3::RemoveBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/3c0a90aa-154a-49c9-ab8e-0d1c4ce02641">IWMProfile3::RemoveBandwidthSharing</a>
  
 
  

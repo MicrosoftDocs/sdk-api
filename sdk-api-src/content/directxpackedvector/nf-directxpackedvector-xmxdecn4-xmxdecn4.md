@@ -53,7 +53,7 @@ req.redist:
 Default constructor for <code>XMXDECN4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4 </a>.
+Default constructor for <a href="https://msdn.microsoft.com/705A1848-26BC-47E5-9209-C0DF843DE6AE">XMXDECN4 </a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +82,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4214
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4</a>
+<a href="https://msdn.microsoft.com/705A1848-26BC-47E5-9209-C0DF843DE6AE">XMXDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415544(v=VS.85).aspx">XMXDECN4 Constructors</a>
+<a href="https://msdn.microsoft.com/9c68ba06-40cd-4000-ba3d-4489b5bed236">XMXDECN4 Constructors</a>
  
 
  

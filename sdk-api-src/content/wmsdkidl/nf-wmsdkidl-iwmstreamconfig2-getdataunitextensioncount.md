@@ -113,11 +113,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798549(v=VS.85).aspx">IWMStreamConfig2::GetDataUnitExtension</a>
+<a href="https://msdn.microsoft.com/766124f6-b376-421b-b2ee-2c280af3bd16">IWMStreamConfig2::GetDataUnitExtension</a>
  
 
  

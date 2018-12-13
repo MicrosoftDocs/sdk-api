@@ -70,7 +70,7 @@ The <b>IDCompositionSurface</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx">BeginDraw</a>
+<a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">BeginDraw</a>
 </td>
 <td align="left" width="63%">
 Initiates drawing on this DirectComposition surface object.
@@ -79,7 +79,7 @@ Initiates drawing on this DirectComposition surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449102(v=VS.85).aspx">EndDraw</a>
+<a href="https://msdn.microsoft.com/127195F7-6000-4D8C-B850-3E4D40BC4082">EndDraw</a>
 </td>
 <td align="left" width="63%">
 Marks the end of drawing on this DirectComposition surface object.
@@ -88,7 +88,7 @@ Marks the end of drawing on this DirectComposition surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449104(v=VS.85).aspx">ResumeDraw</a>
+<a href="https://msdn.microsoft.com/EE008AAB-0C79-4D60-953C-7A9BCFED2C41">ResumeDraw</a>
 </td>
 <td align="left" width="63%">
 Resumes drawing on this DirectComposition surface object.
@@ -97,7 +97,7 @@ Resumes drawing on this DirectComposition surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh707486(v=VS.85).aspx">Scroll</a>
+<a href="https://msdn.microsoft.com/0764C59A-DDDE-420C-B044-827B7EDC6CF1">Scroll</a>
 </td>
 <td align="left" width="63%">
 Scrolls a rectangular area of a DirectComposition logical surface.
@@ -106,7 +106,7 @@ Scrolls a rectangular area of a DirectComposition logical surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449106(v=VS.85).aspx">SuspendDraw</a>
+<a href="https://msdn.microsoft.com/B3CD2007-502C-48EF-989E-4C690B2B65D8">SuspendDraw</a>
 </td>
 <td align="left" width="63%">
 Suspends the drawing on this DirectComposition surface object.
@@ -121,15 +121,15 @@ Suspends the drawing on this DirectComposition surface object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437360(v=VS.85).aspx">DCompositionCreateSurfaceHandle</a>
+<a href="https://msdn.microsoft.com/550BA10B-D582-4A57-A69D-3EFFC7313D8F">DCompositionCreateSurfaceHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449133(v=VS.85).aspx">IDCompositionVirtualSurface</a>
+<a href="https://msdn.microsoft.com/51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC">IDCompositionVirtualSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx">IDCompositionVisual::SetContent</a>
+<a href="https://msdn.microsoft.com/894E6E30-6C28-476D-9AE5-D0664A69E03C">IDCompositionVisual::SetContent</a>
  
 
  

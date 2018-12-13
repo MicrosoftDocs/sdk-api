@@ -110,23 +110,23 @@ You can retrieve an <b>IWMPMedia</b> interface for a given media item by invokin
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563227(v=VS.85).aspx">IWMPCore::get_currentMedia</a>
+<a href="https://msdn.microsoft.com/4f199336-0555-40de-8d27-780b05ef9510">IWMPCore::get_currentMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563570(v=VS.85).aspx">IWMPPlaylist::get_item</a>
+<a href="https://msdn.microsoft.com/20da6e49-720c-4291-9fb7-def441c7fc66">IWMPPlaylist::get_item</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563670(v=VS.85).aspx">IWMPSettings::put_autoStart</a>
+<a href="https://msdn.microsoft.com/34f80fa4-6e9c-4435-b360-55c2856f89fb">IWMPSettings::put_autoStart</a>
  
 
  

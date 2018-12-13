@@ -95,15 +95,15 @@ If the CenterX property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx">IDCompositionRotateTransform3D</a>
+<a href="https://msdn.microsoft.com/BEC58B57-66A1-4645-A0B8-D546334E1E23">IDCompositionRotateTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448963(v=VS.85).aspx">IDCompositionRotateTransform3D::SetCenterY</a>
+<a href="https://msdn.microsoft.com/19B3B065-BE8C-4CBD-8A94-54934CA0B421">IDCompositionRotateTransform3D::SetCenterY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448969(v=VS.85).aspx">IDCompositionRotateTransform3D::SetCenterZ</a>
+<a href="https://msdn.microsoft.com/7FF293B6-8FAE-4277-8C07-EBD4E819E2A0">IDCompositionRotateTransform3D::SetCenterZ</a>
  
 
  

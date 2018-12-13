@@ -60,7 +60,7 @@ Projects a stream of 3D vectors from object space into screen space.
 
 ### -param pOutputStream [out]
 
-Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the destination stream.
+Address of the first <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a> in the destination stream.
 
 
 ### -param OutputStride [in]
@@ -70,7 +70,7 @@ Stride, in bytes, between vectors in the destination stream.
 
 ### -param pInputStream [in]
 
-Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the stream to be transformed.
+Address of the first <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a> in the stream to be transformed.
 
 
 ### -param InputStride [in]
@@ -140,7 +140,7 @@ World matrix.
 
 
 
-Returns the address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the destination stream.
+Returns the address of the first <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a> in the destination stream.
 
 
 

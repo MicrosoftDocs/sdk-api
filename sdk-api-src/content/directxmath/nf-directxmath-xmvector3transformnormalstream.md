@@ -60,7 +60,7 @@ Transforms a stream of 3D normal vectors by a given matrix.
 
 ### -param pOutputStream [out]
 
-Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the destination stream.
+Address of the first <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a> in the destination stream.
 
 
 ### -param OutputStride [in]
@@ -70,7 +70,7 @@ Stride, in bytes, between vectors in the destination stream.
 
 ### -param pInputStream [in]
 
-Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the stream to be transformed.
+Address of the first <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a> in the stream to be transformed.
 
 
 ### -param InputStride [in]
@@ -92,7 +92,7 @@ Transformation matrix.
 
 
 
-Returns the address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the destination stream.
+Returns the address of the first <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a> in the destination stream.
 
 
 
@@ -120,7 +120,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420945(v=VS.85).aspx">XMVector3TransformNormal</a>
+<a href="https://msdn.microsoft.com/40327845-520f-4310-b96c-752af120c5a5">XMVector3TransformNormal</a>
  
 
  

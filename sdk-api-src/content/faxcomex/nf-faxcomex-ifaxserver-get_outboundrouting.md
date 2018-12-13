@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxServer::get_OutboundRouting</b> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms690138(v=VS.85).aspx">IFaxOutboundRouting</a> configuration interface. The interface permits users to configure outbound routing groups and rules.
+The <b>IFaxServer::get_OutboundRouting</b> property creates a <a href="https://msdn.microsoft.com/47e35e11-b288-47c6-bfed-3af7716e7d6b">IFaxOutboundRouting</a> configuration interface. The interface permits users to configure outbound routing groups and rules.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-This property is not supported in Windows XP, and will return the error: <a href="https://msdn.microsoft.com/en-us/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>. 
+This property is not supported in Windows XP, and will return the error: <a href="https://msdn.microsoft.com/b5d59fec-2802-40bd-8ce4-748137f30fb2">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>. 
 
 
 
@@ -73,15 +73,15 @@ This property is not supported in Windows XP, and will return the error: <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
  
 
  

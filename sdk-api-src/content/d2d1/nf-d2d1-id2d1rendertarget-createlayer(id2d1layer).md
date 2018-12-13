@@ -69,7 +69,7 @@ When the method returns, contains a pointer to a pointer to the new layer. This 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -85,7 +85,7 @@ The layer automatically resizes itself, as needed.
 
 #### Examples
 
-For an example on how to use <a href="https://msdn.microsoft.com/en-us/library/Dd742782(v=VS.85).aspx">CreateLayer</a>, see the <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip a Region with a Layer</a>.
+For an example on how to use <a href="https://msdn.microsoft.com/074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7">CreateLayer</a>, see the <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip a Region with a Layer</a>.
 
 <div class="code"></div>
 

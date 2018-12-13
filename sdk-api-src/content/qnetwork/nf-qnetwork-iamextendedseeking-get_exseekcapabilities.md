@@ -63,7 +63,7 @@ The <code>get_ExSeekCapabilities</code> method retrieves the extended seeking ca
 
 ### -param pExCapabilities [out]
 
-Pointer to a variable that receives a bitwise OR of <a href="https://msdn.microsoft.com/en-us/library/Dd373429(v=VS.85).aspx">AMExtendedSeekingCapabilities</a> flags.
+Pointer to a variable that receives a bitwise OR of <a href="https://msdn.microsoft.com/f5f21303-3b5b-45e8-a4dc-6c8bc7cd8ad3">AMExtendedSeekingCapabilities</a> flags.
 
 
 ## -returns
@@ -123,7 +123,7 @@ The Windows Media Source filter sets the extended seeking flags as follows.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389331(v=VS.85).aspx">IAMExtendedSeeking Interface</a>
+<a href="https://msdn.microsoft.com/9e0e49af-61ef-408c-8c26-bb29ab26a1f5">IAMExtendedSeeking Interface</a>
  
 
  

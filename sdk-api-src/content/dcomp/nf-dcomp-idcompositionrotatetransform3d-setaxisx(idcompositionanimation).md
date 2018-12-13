@@ -86,7 +86,7 @@ This method makes a copy of the specified animation. If the object referenced by
 
 
 
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> interface as the affected 3D transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected 3D transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 
@@ -97,15 +97,15 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx">IDCompositionRotateTransform3D</a>
+<a href="https://msdn.microsoft.com/BEC58B57-66A1-4645-A0B8-D546334E1E23">IDCompositionRotateTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448945(v=VS.85).aspx">IDCompositionRotateTransform3D::SetAxisY</a>
+<a href="https://msdn.microsoft.com/C86E4D59-4E9D-44BF-BA9D-91714D0C2D37">IDCompositionRotateTransform3D::SetAxisY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448951(v=VS.85).aspx">IDCompositionRotateTransform3D::SetAxisZ</a>
+<a href="https://msdn.microsoft.com/1A96FA00-20FE-4876-B7DF-2B833B17E925">IDCompositionRotateTransform3D::SetAxisZ</a>
  
 
  

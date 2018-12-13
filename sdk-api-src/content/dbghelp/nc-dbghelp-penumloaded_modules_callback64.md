@@ -4,7 +4,7 @@ title: PENUMLOADED_MODULES_CALLBACK64
 author: windows-sdk-content
 description: An application-defined callback function used with the EnumerateLoadedModules64 function.
 old-location: base\enumerateloadedmodulesproc64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: f6acb9cf-81f7-4b05-95e2-9628855f6b51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -122,15 +122,15 @@ Only system profiles have IDs. Use the methods of the <b>IWMProfileManager</b> i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757507(v=VS.85).aspx">IWMWriter::SetProfile</a>
+<a href="https://msdn.microsoft.com/1a931896-c102-4b3b-a5a3-b3ef85b276b9">IWMWriter::SetProfile</a>
 
 
 

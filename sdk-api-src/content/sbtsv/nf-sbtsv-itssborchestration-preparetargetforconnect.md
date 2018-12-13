@@ -4,7 +4,7 @@ title: ITsSbOrchestration::PrepareTargetForConnect
 author: windows-sdk-content
 description: Prepares the target for a client connection.
 old-location: termserv\itssborchestration_preparetargetforconnect.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 46ffad8a-bafc-426f-9963-9a6f6f60329b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -110,27 +110,27 @@ You should set <b>put_autoStart</b> to <b>FALSE</b> immediately before you set <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563205(v=VS.85).aspx">IWMPControls::play</a>
+<a href="https://msdn.microsoft.com/45b5634b-6d23-4e61-90e4-ef0cc9d90a14">IWMPControls::play</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563243(v=VS.85).aspx">IWMPCore::put_URL</a>
+<a href="https://msdn.microsoft.com/0a8625b9-19a1-41dc-9bb8-afca4bfebf5a">IWMPCore::put_URL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563241(v=VS.85).aspx">IWMPCore::put_currentMedia</a>
+<a href="https://msdn.microsoft.com/003d1937-13f0-4d2c-ad5c-a83569295b62">IWMPCore::put_currentMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563242(v=VS.85).aspx">IWMPCore::put_currentPlaylist</a>
+<a href="https://msdn.microsoft.com/943641ca-9733-4066-bc69-834e792d93dc">IWMPCore::put_currentPlaylist</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563655(v=VS.85).aspx">IWMPSettings::get_autoStart</a>
+<a href="https://msdn.microsoft.com/37180d0a-8fc4-4fe6-b190-97258803b43b">IWMPSettings::get_autoStart</a>
  
 
  

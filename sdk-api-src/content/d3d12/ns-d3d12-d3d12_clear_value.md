@@ -60,7 +60,7 @@ Describes a value used to optimize clear operations for a particular resource.
 
 ### -field Format
 
-Specifies one member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> enum.
+Specifies one member of the <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> enum.
 
 The format of the commonly cleared color follows the same validation rules as a view/ descriptor creation. In general, the format of the clear color can be any format in the same typeless group that the resource format belongs to.
 

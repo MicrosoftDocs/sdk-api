@@ -4,7 +4,7 @@ title: SymFromInlineContext function
 author: windows-sdk-content
 description: Retrieves symbol information for the specified address and inline context.
 old-location: base\symfrominlinecontext.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: a60a345e-d723-4275-bc2d-01e13ea57d67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

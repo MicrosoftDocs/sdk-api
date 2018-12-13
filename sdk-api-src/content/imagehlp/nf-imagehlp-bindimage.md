@@ -4,7 +4,7 @@ title: BindImage function
 author: windows-sdk-content
 description: Computes the virtual address of each imported function.
 old-location: base\bindimage.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: d586bf3a-c911-44a3-bf92-7de35009f742
 ms.author: windowssdkdev
 ms.date: 12/5/2018

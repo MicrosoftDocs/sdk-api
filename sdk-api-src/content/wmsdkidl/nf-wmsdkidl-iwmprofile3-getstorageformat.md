@@ -92,7 +92,7 @@ To retrieve the storage format, use the <a href="https://msdn.microsoft.com/fea5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
  
 
  

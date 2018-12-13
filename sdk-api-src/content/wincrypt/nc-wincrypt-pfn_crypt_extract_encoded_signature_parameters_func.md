@@ -110,7 +110,7 @@ If this callback function does not support the signature algorithm, it must retu
 
 Memory for the <i>ppvDecodedSignPara</i> and <i>ppwszCNGHashAlgid</i> parameters must be allocated by using the <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> function.
 
-You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
+You can use <a href="cryptography_functions.htm">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
 <table>
 <tr>

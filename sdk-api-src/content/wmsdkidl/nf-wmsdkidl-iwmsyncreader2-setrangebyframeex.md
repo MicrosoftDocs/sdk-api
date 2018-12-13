@@ -109,11 +109,11 @@ The file must be frame-indexed. If the call is successful, all streams are synch
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798577(v=VS.85).aspx">IWMSyncReader2 Interface</a>
+<a href="https://msdn.microsoft.com/f3db7530-a662-46f1-bc64-1dd4523dc87c">IWMSyncReader2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798705(v=VS.85).aspx">IWMSyncReader::SetRangeByFrame</a>
+<a href="https://msdn.microsoft.com/3d53838c-0d07-4aa6-8797-9ed7e07cb8fe">IWMSyncReader::SetRangeByFrame</a>
  
 
  

@@ -95,11 +95,11 @@ If the <i>opacityMode</i> parameter is anything other than DCOMPOSITION_OPACITY_
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437422(v=VS.85).aspx">IDCompositionEffectGroup::SetOpacity</a>
+<a href="https://msdn.microsoft.com/785DE91D-718B-4704-88E4-B8FB12586E5F">IDCompositionEffectGroup::SetOpacity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280426(v=VS.85).aspx">IDCompositionVisual2</a>
+<a href="https://msdn.microsoft.com/D4D04A43-BF00-482A-9CDD-A476BD1CB953">IDCompositionVisual2</a>
  
 
  

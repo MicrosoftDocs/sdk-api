@@ -130,11 +130,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563682(v=VS.85).aspx">IWMPSettings::setMode</a>
+<a href="https://msdn.microsoft.com/28a404a7-5bb0-41bb-a5b2-cc6138b8176e">IWMPSettings::setMode</a>
  
 
  

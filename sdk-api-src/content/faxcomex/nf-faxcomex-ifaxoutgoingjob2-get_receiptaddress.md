@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-The type of address will vary according to the value of the <a href="https://msdn.microsoft.com/en-us/library/ms689599(v=VS.85).aspx">ReceiptType</a> property as indicated in this table.
+The type of address will vary according to the value of the <a href="https://msdn.microsoft.com/675fa0b8-758d-43b4-b493-ee8204f4b9c6">ReceiptType</a> property as indicated in this table.
 
 <table class="clsStd">
 <tr>
-<th>Value of <a href="https://msdn.microsoft.com/en-us/library/ms689599(v=VS.85).aspx">ReceiptType</a> property</th>
+<th>Value of <a href="https://msdn.microsoft.com/675fa0b8-758d-43b4-b493-ee8204f4b9c6">ReceiptType</a> property</th>
 <th>Type of address</th>
 </tr>
 <tr>
@@ -90,11 +90,11 @@ The type of address will vary according to the value of the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358991(v=VS.85).aspx">IFaxOutgoingJob2</a>
+<a href="https://msdn.microsoft.com/b45eb511-ab21-4f63-8d64-d042fe0fefd0">IFaxOutgoingJob2</a>
  
 
  

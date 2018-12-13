@@ -73,7 +73,7 @@ The <b>IWMRegisteredDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743624(v=VS.85).aspx">Approve</a>
+<a href="https://msdn.microsoft.com/941714b8-c329-4768-9c48-86fa806550c3">Approve</a>
 </td>
 <td align="left" width="63%">
 Sets the device approval state, which controls whether a device is approved for receiving media data.
@@ -82,7 +82,7 @@ Sets the device approval state, which controls whether a device is approved for 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743627(v=VS.85).aspx">Close</a>
+<a href="https://msdn.microsoft.com/5d30eb82-1d5c-4d40-9dc9-7360e64cd55e">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the device, if opened, and releases associated resources.
@@ -100,7 +100,7 @@ Retrieves an attribute that is associated with the device. This method uses the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743632(v=VS.85).aspx">GetAttributeByName</a>
+<a href="https://msdn.microsoft.com/e74bd544-295d-4e83-8804-5a99d7efdbb8">GetAttributeByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves an attribute that is associated with the device. This method uses the attribute name to identify the attribute to retrieve.
@@ -109,7 +109,7 @@ Retrieves an attribute that is associated with the device. This method uses the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743633(v=VS.85).aspx">GetAttributeCount</a>
+<a href="https://msdn.microsoft.com/6032cb18-4c4a-4cd7-905e-5cb390bfc37b">GetAttributeCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of attributes that are associated with the device.
@@ -118,7 +118,7 @@ Retrieves the number of attributes that are associated with the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743636(v=VS.85).aspx">GetDeviceCertificate</a>
+<a href="https://msdn.microsoft.com/80313abc-2212-4b1a-9d4e-9f3015370ea7">GetDeviceCertificate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the certificate of the device.
@@ -127,7 +127,7 @@ Retrieves the certificate of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743691(v=VS.85).aspx">GetDeviceSerialNumber</a>
+<a href="https://msdn.microsoft.com/3e60d9f3-848e-4e90-9ef7-19f3e000fab7">GetDeviceSerialNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device identification number.
@@ -136,7 +136,7 @@ Retrieves the device identification number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743692(v=VS.85).aspx">GetDeviceType</a>
+<a href="https://msdn.microsoft.com/12f0dbf5-bc76-4fa2-ab64-cced1f41c313">GetDeviceType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the device.
@@ -145,7 +145,7 @@ Retrieves the type of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743693(v=VS.85).aspx">IsApproved</a>
+<a href="https://msdn.microsoft.com/ab90468e-743f-4367-a49b-d494bf9be28f">IsApproved</a>
 </td>
 <td align="left" width="63%">
 Returns the device approval state, which determines if a device is approved for receiving media data.
@@ -154,7 +154,7 @@ Returns the device approval state, which determines if a device is approved for 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743694(v=VS.85).aspx">IsOpened</a>
+<a href="https://msdn.microsoft.com/5a8a6b2a-6a04-4505-b4be-ec10e1e5effe">IsOpened</a>
 </td>
 <td align="left" width="63%">
 Returns whether the device is open for receiving media data.
@@ -163,7 +163,7 @@ Returns whether the device is open for receiving media data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743695(v=VS.85).aspx">IsValid</a>
+<a href="https://msdn.microsoft.com/ce09e6ad-10c0-4cdd-8dee-4faacd958f2b">IsValid</a>
 </td>
 <td align="left" width="63%">
 Returns the validation of the device.
@@ -172,7 +172,7 @@ Returns the validation of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743696(v=VS.85).aspx">IsWmdrmCompliant</a>
+<a href="https://msdn.microsoft.com/45bc7abb-1d39-4988-a9f0-867eaefe148f">IsWmdrmCompliant</a>
 </td>
 <td align="left" width="63%">
 Returns whether the device supports Windows Media DRM 10 for Network Devices.
@@ -181,7 +181,7 @@ Returns whether the device supports Windows Media DRM 10 for Network Devices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743697(v=VS.85).aspx">Open</a>
+<a href="https://msdn.microsoft.com/277f2724-5d82-4db7-96d9-af392b39fccf">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the device to receive media data.
@@ -190,7 +190,7 @@ Opens the device to receive media data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743698(v=VS.85).aspx">SetAttributeByName</a>
+<a href="https://msdn.microsoft.com/49562f2a-1bb5-46d7-81cc-c13b66cf691f">SetAttributeByName</a>
 </td>
 <td align="left" width="63%">
 Sets an attribute associated with the device.
@@ -205,7 +205,7 @@ Sets an attribute associated with the device.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration Interface</a>
+<a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration Interface</a>
 
 
 

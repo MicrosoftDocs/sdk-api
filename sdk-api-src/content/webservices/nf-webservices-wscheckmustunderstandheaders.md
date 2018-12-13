@@ -157,7 +157,7 @@ This function may return other errors not listed above.
 
 Because the set of headers is extensible, it is necessary to determine whether a message has  been sufficiently understood to be processed. Therefore, the sender can use this function to indicate which headers must be understood, which headers can be treated as optional or informational.
 
-Standard addressing headers, such as the ones defined in <a href="https://msdn.microsoft.com/en-us/library/Dd401897(v=VS.85).aspx">WS_HEADER_TYPE</a>, are automatically assumed to be understood, even if they are never read by calling <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a>.
+Standard addressing headers, such as the ones defined in <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a>, are automatically assumed to be understood, even if they are never read by calling <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a>.
 
 Custom, application-defined headers that are read by <a href="https://msdn.microsoft.com/bdfb441b-afc4-4be8-b437-f299a31ce84b">WsGetCustomHeader</a> are also assumed to be understood. Calling <b>WsGetCustomHeader</b> will automatically mark the particular header as understood.
 

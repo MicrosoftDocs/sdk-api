@@ -84,11 +84,11 @@ The interpolation mode affects how a bitmap is composed when it is transformed s
 
 
 
-By default, a visual inherits the interpolation mode of the parent visual, which may inherit the interpolation mode of its parent visual, and so on. A visual uses the default interpolation mode if this method is never called for the visual, or if this method is called with <a href="https://msdn.microsoft.com/en-us/library/Hh437364(v=VS.85).aspx">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT</a>. If no visuals set the interpolation mode, the default for the entire visual tree is nearest neighbor interpolation, which offers the lowest visual quality but the highest performance.
+By default, a visual inherits the interpolation mode of the parent visual, which may inherit the interpolation mode of its parent visual, and so on. A visual uses the default interpolation mode if this method is never called for the visual, or if this method is called with <a href="dcomposition_bitmap_interpolation_mode.htm">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT</a>. If no visuals set the interpolation mode, the default for the entire visual tree is nearest neighbor interpolation, which offers the lowest visual quality but the highest performance.
 
 
 
-If the <i>interpolationMode</i> parameter is anything other than <a href="https://msdn.microsoft.com/en-us/library/Hh437364(v=VS.85).aspx">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT</a>, this visual's bitmap is composed with the specified interpolation mode, and this mode becomes the new default mode for the children of this visual. That is, if the interpolation mode of this visual's children is unchanged or explicitly set to <b>DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT</b>, the bitmaps of the child visuals are composed using the interpolation mode of this visual.
+If the <i>interpolationMode</i> parameter is anything other than <a href="dcomposition_bitmap_interpolation_mode.htm">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT</a>, this visual's bitmap is composed with the specified interpolation mode, and this mode becomes the new default mode for the children of this visual. That is, if the interpolation mode of this visual's children is unchanged or explicitly set to <b>DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT</b>, the bitmaps of the child visuals are composed using the interpolation mode of this visual.
 
 
 
@@ -99,7 +99,7 @@ If the <i>interpolationMode</i> parameter is anything other than <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
  
 
  

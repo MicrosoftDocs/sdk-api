@@ -113,7 +113,7 @@ This method validates that the endpoint specified in <i>bstrOutputDevice</i> is 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563077(v=VS.85).aspx">IWMPAudioRenderConfig</a>
+<a href="https://msdn.microsoft.com/743dae18-985a-405a-8025-ead54e06a4ea">IWMPAudioRenderConfig</a>
  
 
  

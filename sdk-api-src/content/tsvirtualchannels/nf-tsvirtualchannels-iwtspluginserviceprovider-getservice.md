@@ -4,7 +4,7 @@ title: IWTSPluginServiceProvider::GetService
 author: windows-sdk-content
 description: Obtains the specified service.
 old-location: termserv\iwtspluginserviceprovider_getservice.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: dd99c312-7899-4a94-ad40-abfd1a168332
 ms.author: windowssdkdev
 ms.date: 12/5/2018

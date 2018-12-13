@@ -122,11 +122,11 @@ If the server is using Fast Cache streaming, this method returns 1.0. For local 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757458(v=VS.85).aspx">IWMReaderAdvanced4::IsUsingFastCache</a>
+<a href="https://msdn.microsoft.com/29d8d12c-db4c-4c2c-8747-30c8a5577f43">IWMReaderAdvanced4::IsUsingFastCache</a>
  
 
  

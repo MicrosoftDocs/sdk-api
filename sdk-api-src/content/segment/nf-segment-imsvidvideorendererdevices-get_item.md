@@ -144,7 +144,7 @@ Unexpected error.
 
 
 
-The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://msdn.microsoft.com/en-us/library/Dd694723(v=VS.85).aspx">IMSVidVideoRendererDevices::get_Count</a> - 1.
+The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://msdn.microsoft.com/4308ed6a-b9c4-46f3-98eb-be23cd49c7dc">IMSVidVideoRendererDevices::get_Count</a> - 1.
 
 
 

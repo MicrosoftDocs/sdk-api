@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetPropertyByIndex</b> method retrieves a buffer property, also called a data unit extension, that was set using <a href="https://msdn.microsoft.com/en-us/library/Dd743255(v=VS.85).aspx">INSSBuffer3::SetProperty</a>. This method differs from <a href="https://msdn.microsoft.com/en-us/library/Dd743254(v=VS.85).aspx">INSSBuffer3::GetProperty</a> in that, instead of accessing the property by name, it uses an index ranging from zero to one less than the total number of properties associated with the sample.
+The <b>GetPropertyByIndex</b> method retrieves a buffer property, also called a data unit extension, that was set using <a href="https://msdn.microsoft.com/5aede025-65ae-4615-9511-af22b8c0dc00">INSSBuffer3::SetProperty</a>. This method differs from <a href="https://msdn.microsoft.com/b7733df5-f764-4996-b324-fa050b1db0af">INSSBuffer3::GetProperty</a> in that, instead of accessing the property by name, it uses an index ranging from zero to one less than the total number of properties associated with the sample.
 
 
 
@@ -66,7 +66,7 @@ The <b>GetPropertyByIndex</b> method retrieves a buffer property, also called a 
 
 ### -param dwBufferPropertyIndex [in]
 
-<b>DWORD</b> containing the buffer property index. This value will be between zero and one less than the total number of properties associated with the sample. You can retrieve the total number of properties by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743258(v=VS.85).aspx">INSSBuffer4::GetPropertyCount</a>.
+<b>DWORD</b> containing the buffer property index. This value will be between zero and one less than the total number of properties associated with the sample. You can retrieve the total number of properties by calling <a href="https://msdn.microsoft.com/b47f26b3-e816-498d-adc3-c6d3357971e6">INSSBuffer4::GetPropertyCount</a>.
 
 
 ### -param pguidBufferProperty [out]
@@ -98,7 +98,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743256(v=VS.85).aspx">INSSBuffer4 Interface</a>
+<a href="https://msdn.microsoft.com/d6531e52-b58b-46ed-a47b-444cd98e1ec5">INSSBuffer4 Interface</a>
  
 
  

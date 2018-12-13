@@ -73,7 +73,7 @@ The <b>IBDA_IPV6Filter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693389(v=VS.85).aspx">GetMulticastList</a>
+<a href="https://msdn.microsoft.com/545c6bcb-f96c-47d7-ac33-92da016dbabf">GetMulticastList</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of multicast addresses stored by the Network Provider.
@@ -82,7 +82,7 @@ Retrieves the list of multicast addresses stored by the Network Provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693390(v=VS.85).aspx">GetMulticastListSize</a>
+<a href="https://msdn.microsoft.com/b607774a-3c0e-49b1-881a-fd8ae2c70fb1">GetMulticastListSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size in bytes of the list of multicast addresses.
@@ -91,7 +91,7 @@ Retrieves the size in bytes of the list of multicast addresses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693391(v=VS.85).aspx">GetMulticastMode</a>
+<a href="https://msdn.microsoft.com/158e9569-b535-4744-ba12-c8a09f3e8491">GetMulticastMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the mode(s) of the multicast.
@@ -100,7 +100,7 @@ Retrieves the mode(s) of the multicast.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693392(v=VS.85).aspx">PutMulticastList</a>
+<a href="https://msdn.microsoft.com/a0e77856-5a7d-4312-a4f1-69d186c90855">PutMulticastList</a>
 </td>
 <td align="left" width="63%">
 Specifies the parameters of the multicast list.
@@ -109,7 +109,7 @@ Specifies the parameters of the multicast list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693387(v=VS.85).aspx">PutMulticastMode</a>
+<a href="https://msdn.microsoft.com/d0a12c21-e196-4228-9994-51047271cf57">PutMulticastMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the mode(s) of the multicast.

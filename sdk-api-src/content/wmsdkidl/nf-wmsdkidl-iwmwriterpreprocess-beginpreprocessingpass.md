@@ -122,7 +122,7 @@ The preprocessor is neither waiting to be run nor stopped in the middle of a pas
 
 OR
 
-The preprocessor has already made as many passes as specified by <a href="https://msdn.microsoft.com/en-us/library/Dd798789(v=VS.85).aspx">SetNumPreprocessingPasses</a>.
+The preprocessor has already made as many passes as specified by <a href="https://msdn.microsoft.com/81ff36e1-cce5-4c99-bf3a-ee2f1050c026">SetNumPreprocessingPasses</a>.
 
 OR
 
@@ -142,7 +142,7 @@ The input specified is not supported for preprocessing.
 
 To successfully call <b>BeginPreprocessingPass</b>, the preprocessor must be set to make at least one preprocessing pass with a call to <b>SetNumPreprocessingPasses</b>.
 
-The writer must be activated by calling <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a> before you can call this method.
+The writer must be activated by calling <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a> before you can call this method.
 
 
 
@@ -152,7 +152,7 @@ The writer must be activated by calling <a href="https://msdn.microsoft.com/en-u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798784(v=VS.85).aspx">IWMWriterPreprocess Interface</a>
+<a href="https://msdn.microsoft.com/06803639-3f21-4003-a460-16a0b5cc6d6f">IWMWriterPreprocess Interface</a>
  
 
  

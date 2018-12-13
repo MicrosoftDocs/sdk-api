@@ -66,7 +66,7 @@ The <b>GetMode</b> method retrieves the supported file sink mode. More than one 
 
 ### -param pdwFileSinkMode [out]
 
-Pointer to a <b>DWORD</b> containing a value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757842(v=VS.85).aspx">WMT_FILESINK_MODE</a> enumeration type or multiple values combined with a bitwise <b>OR</b> operator.
+Pointer to a <b>DWORD</b> containing a value from the <a href="https://msdn.microsoft.com/27846996-1957-4b19-91da-feeef477b06a">WMT_FILESINK_MODE</a> enumeration type or multiple values combined with a bitwise <b>OR</b> operator.
 
 
 ## -returns
@@ -113,7 +113,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3 Interface</a>
+<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3 Interface</a>
  
 
  

@@ -61,17 +61,17 @@ The <code>put_PanTilt</code> method sets the camera's pan and tilt angles.
 
 ### -param PanValue [in]
 
-Specifies the panning angle, in arc seconds. An arc second is 1/3600th of a degree. See <a href="https://msdn.microsoft.com/en-us/library/Dd376339(v=VS.85).aspx">ICameraControl::put_Pan</a>.
+Specifies the panning angle, in arc seconds. An arc second is 1/3600th of a degree. See <a href="https://msdn.microsoft.com/71dc3fe3-089c-46e8-a63b-7a638068d069">ICameraControl::put_Pan</a>.
 
 
 ### -param TiltValue [in]
 
-Specifies the tilt angle, in arc seconds. See <a href="https://msdn.microsoft.com/en-us/library/Dd376347(v=VS.85).aspx">ICameraControl::put_Tilt</a>.
+Specifies the tilt angle, in arc seconds. See <a href="https://msdn.microsoft.com/e75adedb-5cf2-4b2c-bb57-1bfedfc81979">ICameraControl::put_Tilt</a>.
 
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
  
 
  

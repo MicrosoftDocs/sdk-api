@@ -84,7 +84,7 @@ The debug interface, as a pointer to pointer to void.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
@@ -104,21 +104,25 @@ The function signature PFN_D3D12_GET_DEBUG_INTERFACE is provided as a typedef, s
 
 Enable the D3D12 debug layer.
 
-
-```cpp
-// Enable the D3D12 debug layer.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Enable the D3D12 debug layer.
 {
     
-    ComPtr<ID3D12Debug> debugController;
-    if (SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&debugController))))
+    ComPtr&lt;ID3D12Debug&gt; debugController;
+    if (SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&amp;debugController))))
     {
-        debugController->EnableDebugLayer();
+        debugController-&gt;EnableDebugLayer();
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
           
 

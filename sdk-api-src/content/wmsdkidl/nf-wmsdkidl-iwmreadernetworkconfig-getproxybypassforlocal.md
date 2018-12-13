@@ -129,11 +129,11 @@ Insufficient memory to complete task
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743546(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxyBypassForLocal</a>
+<a href="https://msdn.microsoft.com/4a012718-a815-4e01-97f8-69ed2ba881ea">IWMReaderNetworkConfig::SetProxyBypassForLocal</a>
  
 
  

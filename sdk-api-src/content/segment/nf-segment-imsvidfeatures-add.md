@@ -133,7 +133,7 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694550(v=VS.85).aspx">IMSVidFeatures::Remove</a>
+<a href="https://msdn.microsoft.com/6a9e35e2-231e-4ad6-ac57-e6258df2777f">IMSVidFeatures::Remove</a>
  
 
  

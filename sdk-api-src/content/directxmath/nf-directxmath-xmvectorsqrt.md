@@ -117,7 +117,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421357(v=VS.85).aspx">XMVectorSqrtEst</a>
+<a href="https://msdn.microsoft.com/efe149cf-dbda-4365-9bef-5b38d529c3aa">XMVectorSqrtEst</a>
  
 
  

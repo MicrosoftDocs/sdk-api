@@ -50,12 +50,12 @@ req.redist:
 ## -description
 
 
-The <b>IPersistQuery</b> interface is used to store and retrieve query parameters to and from persistent storage.This storage pertains to the query parameters, not the results of a query. A pointer to this interface is provided to a query form extension in the <a href="https://msdn.microsoft.com/f01586dd-4ed3-45af-9e25-a596a693313d">CQPM_PERSIST</a> message. An application can also provide its own  <b>IPersistQuery</b> implementation by passing a pointer to this interface to the query handler in the <b>pPersistQuery</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms677622(v=VS.85).aspx">OPENQUERYWINDOW</a> structure when <a href="https://msdn.microsoft.com/604c4d7a-1f85-4e5b-9879-be502c5c7bff">ICommonQuery::OpenQueryWindow</a> is called.
+The <b>IPersistQuery</b> interface is used to store and retrieve query parameters to and from persistent storage.This storage pertains to the query parameters, not the results of a query. A pointer to this interface is provided to a query form extension in the <a href="https://msdn.microsoft.com/f01586dd-4ed3-45af-9e25-a596a693313d">CQPM_PERSIST</a> message. An application can also provide its own  <b>IPersistQuery</b> implementation by passing a pointer to this interface to the query handler in the <b>pPersistQuery</b> member of the <a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a> structure when <a href="https://msdn.microsoft.com/604c4d7a-1f85-4e5b-9879-be502c5c7bff">ICommonQuery::OpenQueryWindow</a> is called.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistQuery</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms688695(v=VS.85).aspx">IPersist</a>. <b>IPersistQuery</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistQuery</b> interface inherits from <a href="_com_ipersist">IPersist</a>. <b>IPersistQuery</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -151,11 +151,11 @@ Writes a structure to the query store.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688695(v=VS.85).aspx">IPersist</a>
+<a href="_com_ipersist">IPersist</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms677622(v=VS.85).aspx">OPENQUERYWINDOW</a>
+<a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a>
  
 
  

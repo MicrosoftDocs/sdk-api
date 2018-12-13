@@ -111,7 +111,7 @@ OleTranslateColor(ocKey, 0, &amp;clrKey);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390554(v=VS.85).aspx">IVMRWindowlessControl::GetColorKey</a>
+<a href="https://msdn.microsoft.com/e10f9e03-fbcd-4002-babc-fb028e399d72">IVMRWindowlessControl::GetColorKey</a>
  
 
  

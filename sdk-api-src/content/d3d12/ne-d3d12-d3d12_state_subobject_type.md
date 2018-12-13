@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The type of a state subobject. Use with <a href="https://msdn.microsoft.com/en-us/library/Mt830407(v=VS.85).aspx">D3D12_STATE_SUBOBJECT</a>.
+The type of a state subobject. Use with <a href="https://msdn.microsoft.com/D721F0F2-B061-4BDC-83F7-7B08DDC39F34">D3D12_STATE_SUBOBJECT</a>.
 
 
 ## -enum-fields
@@ -90,7 +90,7 @@ Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/n
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_SUBOBJECT_TO_EXPORTS_ASSOCIATION
 
-Subobject type is <a href="https://msdn.microsoft.com/en-us/library/Mt830409(v=VS.85).aspx">D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION</a>.
+Subobject type is <a href="https://msdn.microsoft.com/B44B2F0C-D330-41AE-844C-F8B4D5697027">D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION

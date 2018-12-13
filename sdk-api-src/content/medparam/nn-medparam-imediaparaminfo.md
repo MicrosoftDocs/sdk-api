@@ -52,7 +52,7 @@ req.redist:
 
 
 
-The <code>IMediaParamInfo</code> interface retrieves information about the parameters that an object supports. The set of parameters that an object supports will not change over the lifetime of an application. To set parameter values, use the <a href="https://msdn.microsoft.com/en-us/library/Dd406971(v=VS.85).aspx">IMediaParams</a> interface.
+The <code>IMediaParamInfo</code> interface retrieves information about the parameters that an object supports. The set of parameters that an object supports will not change over the lifetime of an application. To set parameter values, use the <a href="https://msdn.microsoft.com/68ea8f6a-4b6d-4d79-a986-6032b767147b">IMediaParams</a> interface.
 
 
 
@@ -74,7 +74,7 @@ The <b>IMediaParamInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406965(v=VS.85).aspx">GetCurrentTimeFormat</a>
+<a href="https://msdn.microsoft.com/b93b929c-c1a7-4e8e-93cf-118fcd6a3de9">GetCurrentTimeFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current time format.
@@ -83,7 +83,7 @@ Retrieves the current time format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406966(v=VS.85).aspx">GetNumTimeFormats</a>
+<a href="https://msdn.microsoft.com/5c398554-af2b-4e7d-8f5c-1c361535e7c6">GetNumTimeFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of time formats that the object supports.
@@ -92,7 +92,7 @@ Retrieves the number of time formats that the object supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406967(v=VS.85).aspx">GetParamCount</a>
+<a href="https://msdn.microsoft.com/0c518b8e-d5a7-40ba-9b10-4d23d4376890">GetParamCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of parameters that the object supports.
@@ -101,7 +101,7 @@ Retrieves the number of parameters that the object supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406968(v=VS.85).aspx">GetParamInfo</a>
+<a href="https://msdn.microsoft.com/80fdb9c2-d979-4671-981a-54d968b23042">GetParamInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a specified parameter.
@@ -110,7 +110,7 @@ Retrieves information about a specified parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406969(v=VS.85).aspx">GetParamText</a>
+<a href="https://msdn.microsoft.com/38ecde61-fd4a-4ba3-9cd4-d62a5aa55294">GetParamText</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of text strings that describe the parameter.
@@ -119,7 +119,7 @@ Retrieves an array of text strings that describe the parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406970(v=VS.85).aspx">GetSupportedTimeFormat</a>
+<a href="https://msdn.microsoft.com/04e4c9ea-4570-4fd0-986b-c835c692b73b">GetSupportedTimeFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves a supported time format.

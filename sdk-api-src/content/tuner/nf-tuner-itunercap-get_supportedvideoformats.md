@@ -66,12 +66,12 @@ The <b>get_SupportedVideoFormats</b> method retrieves the video formats that are
 
 ### -param pulAMTunerModeType [out]
 
-Receives a bitmask that indicates the frequency ranges that are supported by the BDA device filter. For a list of valid mask bits, see <a href="https://msdn.microsoft.com/en-us/library/Dd373441(v=VS.85).aspx">AMTunerModeType Enumeration</a>.
+Receives a bitmask that indicates the frequency ranges that are supported by the BDA device filter. For a list of valid mask bits, see <a href="https://msdn.microsoft.com/ce5e6f6d-da79-4a86-abd4-bb28e66d5947">AMTunerModeType Enumeration</a>.
 
 
 ### -param pulAnalogVideoStandard [out]
 
-Receives a bitmask that indicates the analog television signal formats that are supported by the BDA device filter. For a list of valid mask bits, see <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard Enumeration</a>.
+Receives a bitmask that indicates the analog television signal formats that are supported by the BDA device filter. For a list of valid mask bits, see <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard Enumeration</a>.
 
 
 ## -returns

@@ -268,13 +268,13 @@ fsetINCOMING_CALL
 </table>
  
 
-The following table lists the <a href="https://msdn.microsoft.com/en-us/library/Aa358971(v=VS.85).aspx">IFaxServerNotify2</a> methods called by each member.
+The following table lists the <a href="https://msdn.microsoft.com/ebd959d0-516c-46a0-95cc-78aa49d50cc1">IFaxServerNotify2</a> methods called by each member.
 
 <table class="clsStd">
 <tr>
 <th>Name</th>
 <th>
-<a href="https://msdn.microsoft.com/en-us/library/Aa358971(v=VS.85).aspx">IFaxServerNotify2</a> method called</th>
+<a href="https://msdn.microsoft.com/ebd959d0-516c-46a0-95cc-78aa49d50cc1">IFaxServerNotify2</a> method called</th>
 </tr>
 <tr>
 <td>
@@ -429,7 +429,7 @@ fsetINCOMING_CALL
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690121(v=VS.85).aspx">IFaxServer::ListenToServerEvents</a>
+<a href="https://msdn.microsoft.com/9850a677-6ae0-4780-8655-90a8d81fe765">IFaxServer::ListenToServerEvents</a>
 
 
 

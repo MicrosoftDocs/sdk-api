@@ -107,7 +107,7 @@ Every DVD is authored differently. Some DVDs are authored so that the <b>back</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563244(v=VS.85).aspx">IWMPDVD Interface</a>
+<a href="https://msdn.microsoft.com/d133f1e1-cbeb-403d-b247-9f495cb6f0f7">IWMPDVD Interface</a>
  
 
  

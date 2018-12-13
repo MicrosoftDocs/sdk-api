@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetCodecInterface</b> method is used to retrieve a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743308(v=VS.85).aspx">IWMCodecAMVideoAccelerator</a> interface exposed on the decoder <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMO</a>.
+The <b>GetCodecInterface</b> method is used to retrieve a pointer to the <a href="https://msdn.microsoft.com/48cfc4d1-4b79-47a5-9cc9-a1f19d2c0123">IWMCodecAMVideoAccelerator</a> interface exposed on the decoder <a href="wmformat_glossary.htm">DMO</a>.
 
 
 
@@ -127,7 +127,7 @@ The WM Reader has no pointer to the codec.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757426(v=VS.85).aspx">IWMReaderAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/cf783b70-4d19-4006-ad0e-e1f883f00b0b">IWMReaderAccelerator Interface</a>
  
 
  

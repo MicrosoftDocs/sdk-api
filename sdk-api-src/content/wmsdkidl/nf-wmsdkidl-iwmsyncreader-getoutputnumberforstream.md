@@ -127,7 +127,7 @@ More than one stream can be encompassed by an output, as in the case of multiple
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
  
 
  

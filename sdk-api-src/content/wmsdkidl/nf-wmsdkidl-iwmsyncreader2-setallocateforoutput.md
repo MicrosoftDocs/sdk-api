@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>SetAllocateForOutput</b> method sets a sample allocation callback interface for allocating output samples. This method enables you to use your own buffers for reading samples. Once set, the synchronous reader will call the <a href="https://msdn.microsoft.com/en-us/library/Dd743491(v=VS.85).aspx">IWMReaderAllocatorEx::AllocateForOutputEx</a> method every time it needs a buffer to hold an output sample.
+The <b>SetAllocateForOutput</b> method sets a sample allocation callback interface for allocating output samples. This method enables you to use your own buffers for reading samples. Once set, the synchronous reader will call the <a href="https://msdn.microsoft.com/e2e4881b-2186-47c9-b74e-3a59a9fac7c9">IWMReaderAllocatorEx::AllocateForOutputEx</a> method every time it needs a buffer to hold an output sample.
 
 
 
@@ -71,7 +71,7 @@ The <b>SetAllocateForOutput</b> method sets a sample allocation callback interfa
 
 ### -param pAllocator [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx</a> interface implemented in your application.
+Pointer to an <a href="https://msdn.microsoft.com/be727c7b-b252-44db-825b-5c683e551fd2">IWMReaderAllocatorEx</a> interface implemented in your application.
 
 
 ## -returns
@@ -92,11 +92,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798577(v=VS.85).aspx">IWMSyncReader2 Interface</a>
+<a href="https://msdn.microsoft.com/f3db7530-a662-46f1-bc64-1dd4523dc87c">IWMSyncReader2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798578(v=VS.85).aspx">IWMSyncReader2::GetAllocateForOutput</a>
+<a href="https://msdn.microsoft.com/aef68130-57a8-4bb6-8091-8ee2c75bdf76">IWMSyncReader2::GetAllocateForOutput</a>
  
 
  

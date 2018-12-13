@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>get__MixerBitmap</b> method retrieves the Video Mixing Renderer's <a href="https://msdn.microsoft.com/en-us/library/Dd390448(v=VS.85).aspx">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap.
+The <b>get__MixerBitmap</b> method retrieves the Video Mixing Renderer's <a href="https://msdn.microsoft.com/ac7da3f9-2c17-4517-bb64-6b56257a65c3">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>get__MixerBitmap</b> method retrieves the Video Mixing Renderer's <a href
 
 ### -param MixerPicture [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd390448(v=VS.85).aspx">IVMRMixerBitmap</a> interface pointer.
+Receives an <a href="https://msdn.microsoft.com/ac7da3f9-2c17-4517-bb64-6b56257a65c3">IVMRMixerBitmap</a> interface pointer.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-The returned <a href="https://msdn.microsoft.com/en-us/library/Dd390448(v=VS.85).aspx">IVMRMixerBitmap</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="https://msdn.microsoft.com/ac7da3f9-2c17-4517-bb64-6b56257a65c3">IVMRMixerBitmap</a> interface has an outstanding reference count. The caller must release the interface.
 
 
 
@@ -90,11 +90,11 @@ The returned <a href="https://msdn.microsoft.com/en-us/library/Dd390448(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694739(v=VS.85).aspx">IMSVidVideoRenderer::get_MixerBitmap</a>
+<a href="https://msdn.microsoft.com/cfcfab14-7084-4716-8955-574168cd3506">IMSVidVideoRenderer::get_MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694759(v=VS.85).aspx">IMSVidVideoRenderer::put__MixerBitmap</a>
+<a href="https://msdn.microsoft.com/6dd7b83e-6ed6-4c57-8a00-a4ed2c78840d">IMSVidVideoRenderer::put__MixerBitmap</a>
 
 
 

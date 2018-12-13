@@ -61,14 +61,14 @@ The <b>Graphics::FillRegion</b> method uses a brush to fill a specified region.
 
 ### -param brush [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a>*</b>
 
 Pointer to a brush that is used to paint the region. 
 
 
 ### -param region [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>*</b>
 
 Pointer to a region to be filled. 
 
@@ -77,14 +77,14 @@ Pointer to a region to be filled.
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -132,27 +132,27 @@ The following example creates a region from a rectangle and then fills the regio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536378(v=VS.85).aspx">Regions</a>
+<a href="https://msdn.microsoft.com/eb78d7a0-6293-487f-88c5-88ba455b965f">Regions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
  
 
  

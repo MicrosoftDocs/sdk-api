@@ -66,7 +66,7 @@ The <b>GetTSDT</b> method retrieves the transport stream description table (TSDT
 
 ### -param ppTSDT [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694980(v=VS.85).aspx">ITSDT</a> interface pointer. The caller must release the interface.
+Receives an <a href="https://msdn.microsoft.com/58ec73dc-79bd-415b-b9be-8e9246166391">ITSDT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns

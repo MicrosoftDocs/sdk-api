@@ -63,7 +63,7 @@ Creates an <a href="https://msdn.microsoft.com/6d175981-6379-4a61-84b0-8b08274bc
 
 ### -param rootVisual [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a> of the app.
+The <a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a> of the app.
 
 
 ### -param width [in]

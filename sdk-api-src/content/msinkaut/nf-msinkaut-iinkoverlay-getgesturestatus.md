@@ -179,7 +179,7 @@ To set the interest of the <a href="https://msdn.microsoft.com/189f430e-9d00-4e2
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
 
 
 

@@ -231,7 +231,7 @@ Activates and displays a window. If the window is minimized or maximized, the sy
 Type: <strong>Type: <b>int</b>
 </strong>
 
-If the function succeeds, terminating when it receives a <a href="https://msdn.microsoft.com/en-us/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message, it should return the exit value contained in that message's <i>wParam</i> parameter. If the function terminates before entering the message loop, it should return zero.
+If the function succeeds, terminating when it receives a <a href="https://msdn.microsoft.com/a9bff5dc-cab8-4e08-838e-d92c87c265d6">WM_QUIT</a> message, it should return the exit value contained in that message's <i>wParam</i> parameter. If the function terminates before entering the message loop, it should return zero.
 
 
 
@@ -242,7 +242,7 @@ If the function succeeds, terminating when it receives a <a href="https://msdn.m
 
 The name <b>WinMain</b> is used by convention by many programming frameworks. Depending on the programming framework, the call to the <b>WinMain</b> function can be preceded and followed by additional activities specific to that framework.
 
-Your <b>WinMain</b> should initialize the application, display its main window, and enter a message retrieval-and-dispatch loop that is the top-level control structure for the remainder of the application's execution. Terminate the message loop when it receives a <a href="https://msdn.microsoft.com/en-us/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message. At that point, your <b>WinMain</b> should exit the application, returning the value passed in the <b>WM_QUIT</b> message's <i>wParam</i> parameter. If <b>WM_QUIT</b> was received as a result of calling <a href="https://msdn.microsoft.com/en-us/library/ms644945(v=VS.85).aspx">PostQuitMessage</a>, the value of <i>wParam</i> is the value of the <b>PostQuitMessage</b> function's <i>nExitCode</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Creating a Message Loop</a>.
+Your <b>WinMain</b> should initialize the application, display its main window, and enter a message retrieval-and-dispatch loop that is the top-level control structure for the remainder of the application's execution. Terminate the message loop when it receives a <a href="https://msdn.microsoft.com/a9bff5dc-cab8-4e08-838e-d92c87c265d6">WM_QUIT</a> message. At that point, your <b>WinMain</b> should exit the application, returning the value passed in the <b>WM_QUIT</b> message's <i>wParam</i> parameter. If <b>WM_QUIT</b> was received as a result of calling <a href="https://msdn.microsoft.com/8abc09a0-d53a-44ff-a91b-ee602260763c">PostQuitMessage</a>, the value of <i>wParam</i> is the value of the <b>PostQuitMessage</b> function's <i>nExitCode</i> parameter. For more information, see <a href="using_messages_and_message_queues.htm">Creating a Message Loop</a>.
 
 ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> function to access the command-line string, excluding the program name. Note that <i>lpCmdLine</i> uses the <b>LPSTR</b> data type instead of the <b>LPTSTR</b> data type. This means that <b>WinMain</b> cannot be used by Unicode programs. The <a href="https://msdn.microsoft.com/08dfcab2-eb6e-49a4-80eb-87d4076c98c6">GetCommandLineW</a> function can be used to obtain the command line as a Unicode string. Some programming frameworks might provide an alternative entry point that provides a Unicode command line. For example, the Microsoft Visual Studio C++ complier uses the name <b>wWinMain</b> for the Unicode entry point.
 
@@ -262,7 +262,7 @@ ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx">DispatchMessage</a>
+<a href="https://msdn.microsoft.com/6d5e2d1d-dcd2-48ce-a8ba-99bd5dbdfb21">DispatchMessage</a>
 
 
 
@@ -270,7 +270,7 @@ ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>
 
 
 
@@ -278,7 +278,7 @@ ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644945(v=VS.85).aspx">PostQuitMessage</a>
+<a href="https://msdn.microsoft.com/8abc09a0-d53a-44ff-a91b-ee602260763c">PostQuitMessage</a>
 
 
 
@@ -286,11 +286,11 @@ ANSI applications can use the <i>lpCmdLine</i> parameter of the <b>WinMain</b> f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a>
+<a href="https://msdn.microsoft.com/41c2baf4-6426-4789-919c-ab8ff9be8679">TranslateMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

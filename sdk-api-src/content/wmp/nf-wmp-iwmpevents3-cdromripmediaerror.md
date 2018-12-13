@@ -96,15 +96,15 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563102(v=VS.85).aspx">IWMPCdromRip Interface</a>
+<a href="https://msdn.microsoft.com/c3e2db46-bef0-4c79-91b5-97ca5a86c6ba">IWMPCdromRip Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563296(v=VS.85).aspx">IWMPEvents3 Interface</a>
+<a href="https://msdn.microsoft.com/654b7d78-97d4-4770-9729-dd1fed0431d9">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
 
 
 

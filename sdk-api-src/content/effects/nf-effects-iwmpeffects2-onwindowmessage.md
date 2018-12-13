@@ -104,7 +104,7 @@ Your implementation must only return S_OK if it has handled the window message. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563254(v=VS.85).aspx">IWMPEffects2 Interface</a>
+<a href="https://msdn.microsoft.com/44e044c1-97fd-43cb-9530-4556e485f5ae">IWMPEffects2 Interface</a>
  
 
  

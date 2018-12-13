@@ -147,7 +147,7 @@ If the method succeeds, the caller must free the returned <b>BSTR</b> by calling
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319638(v=VS.85).aspx">IAMMediaContent Interface</a>
+<a href="https://msdn.microsoft.com/bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09">IAMMediaContent Interface</a>
  
 
  

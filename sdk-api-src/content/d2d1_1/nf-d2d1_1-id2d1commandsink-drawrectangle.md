@@ -111,7 +111,7 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742846(v=VS.85).aspx">ID2D1RenderTarget::DrawRectangle</a>
+<a href="https://msdn.microsoft.com/3f8c0754-fa68-4b5b-812f-24d8b544ba6e">ID2D1RenderTarget::DrawRectangle</a>
  
 
  

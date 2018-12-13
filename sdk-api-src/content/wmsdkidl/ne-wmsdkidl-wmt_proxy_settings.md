@@ -104,11 +104,11 @@ This enumeration is used directly in <b>GetProxySettings</b> and <b>SetProxySett
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743534(v=VS.85).aspx">IWMReaderNetworkConfig::GetProxySettings</a>
+<a href="https://msdn.microsoft.com/5fdfc651-05f5-48b3-aeaf-4557c72bc0c0">IWMReaderNetworkConfig::GetProxySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743550(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxySettings</a>
+<a href="https://msdn.microsoft.com/fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2">IWMReaderNetworkConfig::SetProxySettings</a>
  
 
  

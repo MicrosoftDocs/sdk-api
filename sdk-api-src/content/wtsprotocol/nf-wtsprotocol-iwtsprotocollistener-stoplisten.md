@@ -4,7 +4,7 @@ title: IWTSProtocolListener::StopListen
 author: windows-sdk-content
 description: IWTSProtocolListener::StopListen is no longer available. Instead, use IWRdsProtocolListener::StopListen.
 old-location: termserv\iwtsprotocollistener_stoplisten.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5c5b09d3-74d6-4067-b18b-ed2a54af4153
 ms.author: windowssdkdev
 ms.date: 12/5/2018

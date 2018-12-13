@@ -107,7 +107,7 @@ Pointer to an array of stream interface pointers. The <i>nStreams</i> parameter 
 
 ### -param plpOptions
 
-Pointer to an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Dd756791(v=VS.85).aspx">AVICOMPRESSOPTIONS</a> structures. These structures hold the compression options set by the dialog box. The <i>nStreams</i> parameter indicates the number of pointers in the array.
+Pointer to an array of pointers to <a href="https://msdn.microsoft.com/8084adc3-792f-4a6c-b407-51e0e435e629">AVICOMPRESSOPTIONS</a> structures. These structures hold the compression options set by the dialog box. The <i>nStreams</i> parameter indicates the number of pointers in the array.
 
 
 ## -returns
@@ -123,9 +123,9 @@ Returns <b>TRUE</b> if the user pressed OK, <b>FALSE</b> for CANCEL, or an error
 
 
 
-This function presents a standard Compression Options dialog box using <i>hwnd</i> as the parent window handle. When the user is finished selecting the compression options for each stream, the options are returned in the <a href="https://msdn.microsoft.com/en-us/library/Dd756791(v=VS.85).aspx">AVICOMPRESSOPTIONS</a> structure in the array referenced by <i>plpOptions</i>. The calling application must pass the interface pointers for the streams in the array referenced by <i>ppavi</i>.
+This function presents a standard Compression Options dialog box using <i>hwnd</i> as the parent window handle. When the user is finished selecting the compression options for each stream, the options are returned in the <a href="https://msdn.microsoft.com/8084adc3-792f-4a6c-b407-51e0e435e629">AVICOMPRESSOPTIONS</a> structure in the array referenced by <i>plpOptions</i>. The calling application must pass the interface pointers for the streams in the array referenced by <i>ppavi</i>.
 
-An application must allocate memory for the <a href="https://msdn.microsoft.com/en-us/library/Dd756791(v=VS.85).aspx">AVICOMPRESSOPTIONS</a> structures and the array of pointers to these structures.
+An application must allocate memory for the <a href="https://msdn.microsoft.com/8084adc3-792f-4a6c-b407-51e0e435e629">AVICOMPRESSOPTIONS</a> structures and the array of pointers to these structures.
 
 The argument <i>ppavi</i> contains the address of a pointer to an <a href="https://msdn.microsoft.com/25f67f04-e005-48ee-89e7-a6ef89f6d6c6">IAVIStream</a> interface.
 

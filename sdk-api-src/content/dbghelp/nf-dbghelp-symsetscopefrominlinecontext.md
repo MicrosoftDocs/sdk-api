@@ -4,7 +4,7 @@ title: SymSetScopeFromInlineContext function
 author: windows-sdk-content
 description: Sets the local scope to the symbol that matches the specified address and inline context.
 old-location: base\symsetscopefrominlinecontext.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 053163b0-2504-48fc-92c1-3839311ec657
 ms.author: windowssdkdev
 ms.date: 12/5/2018

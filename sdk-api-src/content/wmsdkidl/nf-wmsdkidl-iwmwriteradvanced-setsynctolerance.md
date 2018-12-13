@@ -94,11 +94,11 @@ Regardless of what the tolerance is set to, keeping samples as tightly synchroni
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798731(v=VS.85).aspx">IWMWriterAdvanced::GetSyncTolerance</a>
+<a href="https://msdn.microsoft.com/f62d3405-3125-4df6-bd06-fa70358560ad">IWMWriterAdvanced::GetSyncTolerance</a>
  
 
  

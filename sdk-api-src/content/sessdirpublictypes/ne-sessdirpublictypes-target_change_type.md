@@ -4,7 +4,7 @@ title: TARGET_CHANGE_TYPE
 author: windows-sdk-content
 description: Specifies the type of change that occurred in a target.
 old-location: termserv\target_change_type.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: ee1e6433-498f-4d8a-97d7-3e32f79fafda
 ms.author: windowssdkdev
 ms.date: 12/5/2018

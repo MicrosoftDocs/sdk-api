@@ -121,7 +121,7 @@ If the <i>pbPidListBuffer</i> array is too small, the method returns <b>E_NOT_SU
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693403(v=VS.85).aspx">IBDA_MUX</a>
+<a href="https://msdn.microsoft.com/5dde7b14-d5a4-4db5-b91f-d6bfd4be269d">IBDA_MUX</a>
  
 
  

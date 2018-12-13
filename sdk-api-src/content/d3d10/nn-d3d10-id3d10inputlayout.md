@@ -51,14 +51,14 @@ req.redist:
 ## -description
 
 
-An input-layout interface accesses the input data for the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+An input-layout interface accesses the input data for the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input-assembler stage</a>.
 
 
 ## -remarks
 
 
 
-This interface is created by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173550(v=VS.85).aspx">ID3D10Device::CreateInputLayout</a>; use <a href="https://msdn.microsoft.com/en-us/library/Bb173589(v=VS.85).aspx">ID3D10Device::IASetInputLayout</a> to bind it to the graphics pipeline.
+This interface is created by calling <a href="https://msdn.microsoft.com/61516e1a-f588-4dcb-9ada-9b483fe7cc99">ID3D10Device::CreateInputLayout</a>; use <a href="https://msdn.microsoft.com/10270e52-8ba6-45a6-a6f2-80e3f3447806">ID3D10Device::IASetInputLayout</a> to bind it to the graphics pipeline.
 
 
 
@@ -68,11 +68,11 @@ This interface is created by calling <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/f5ad2db8-da90-4bcd-83a7-7466723a9c3c">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
+<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>
  
 
  

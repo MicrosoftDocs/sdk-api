@@ -84,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694694(v=VS.85).aspx">IMSVidStreamBufferV2SourceEvent</a>
+<a href="https://msdn.microsoft.com/ab463f6e-0718-4420-89bc-28b3c447f3a0">IMSVidStreamBufferV2SourceEvent</a>
 
 
 

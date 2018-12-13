@@ -314,7 +314,7 @@ If <i>BaseAddress</i> specifies an address within an enclave, <i>PageProtection<
 
 ### -param ExtendedParameters [in, out, optional]
 
-An optional pointer to one or more  extended parameters of type <a href="https://msdn.microsoft.com/en-us/library/Mt832847(v=VS.85).aspx">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>/<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
+An optional pointer to one or more  extended parameters of type <a href="base.mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>/<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
 
 
 ### -param ParameterCount [in]
@@ -394,11 +394,15 @@ When creating a region that will be executable, the calling program bears respon
 
 Scenario 1. Create a circular buffer by mapping two adjacent views of the same shared memory section.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <stdlib.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 //
 // This function creates a ring buffer by allocating a pagefile-backed section
@@ -422,7 +426,7 @@ CreateRingBuffer (
     void* view1 = nullptr;
     void* view2 = nullptr;
 
-    GetSystemInfo (&sysInfo);
+    GetSystemInfo (&amp;sysInfo);
 
     if ((bufferSize % sysInfo.dwAllocationGranularity) != 0) {
         return nullptr;
@@ -568,7 +572,7 @@ int __cdecl wmain()
     void* secondaryView;
     unsigned int bufferSize = 0x10000;
 
-    ringBuffer = (char*) CreateRingBuffer (bufferSize, &secondaryView);
+    ringBuffer = (char*) CreateRingBuffer (bufferSize, &amp;secondaryView);
 
     if (ringBuffer == nullptr) {
         printf ("CreateRingBuffer failed\n");
@@ -588,15 +592,19 @@ int __cdecl wmain()
     UnmapViewOfFile (ringBuffer);
     UnmapViewOfFile (secondaryView);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Scenario 2. Specify a preferred NUMA node when allocating memory.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 void*
 AllocateWithPreferredNode (size_t size, unsigned int numaNode)
 {
@@ -610,17 +618,21 @@ AllocateWithPreferredNode (size_t size, unsigned int numaNode)
         size,
         MEM_RESERVE | MEM_COMMIT,
         PAGE_READWRITE,
-        &param, 1);
+        &amp;param, 1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Scenario 3. Allocate memory in a specific virtual address range (below 4GB, in this example) and with specific alignment.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 void*
 AllocateAlignedBelow2GB (size_t size, size_t alignment)
 {
@@ -631,19 +643,19 @@ AllocateAlignedBelow2GB (size_t size, size_t alignment)
     addressReqs.HighestEndingAddress = (PVOID)(ULONG_PTR) 0x7fffffff;
 
     param.Type = MemExtendedParameterAddressRequirements;
-    param.Pointer = &addressReqs;
+    param.Pointer = &amp;addressReqs;
 
     return VirtualAlloc2 (
         nullptr, nullptr,
         size,
         MEM_RESERVE | MEM_COMMIT,
         PAGE_READWRITE,
-        &param, 1);
+        &amp;param, 1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

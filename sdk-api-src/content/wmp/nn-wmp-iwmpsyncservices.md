@@ -75,7 +75,7 @@ The <b>IWMPSyncServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563750(v=VS.85).aspx">get_deviceCount</a>
+<a href="https://msdn.microsoft.com/dde5b3c8-ea22-403c-ae69-05dc7f2efdda">get_deviceCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available devices.
@@ -84,7 +84,7 @@ Retrieves the number of available devices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563749(v=VS.85).aspx">getDevice</a>
+<a href="https://msdn.microsoft.com/4c34b823-57ce-4053-9e98-308a5d4ffdef">getDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to a device interface.
@@ -93,7 +93,7 @@ Retrieves a pointer to a device interface.
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPSyncServices</b> by calling <b>QueryInterface</b> through <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a>.
+Retrieve a pointer to <b>IWMPSyncServices</b> by calling <b>QueryInterface</b> through <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a>.
 
 	
 
@@ -103,7 +103,7 @@ Retrieve a pointer to <b>IWMPSyncServices</b> by calling <b>QueryInterface</b> t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
+<a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer Interface</a>
 
 
 

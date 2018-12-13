@@ -64,13 +64,13 @@ The WinSNMP
 ### -param xOID [in]
 
 Pointer to the first 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> object identifier to compare. The length of the object identifier can be zero.
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> object identifier to compare. The length of the object identifier can be zero.
 
 
 ### -param yOID [in]
 
 Pointer to the second 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> object identifier to compare. The length of the object identifier can be zero.
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> object identifier to compare. The length of the object identifier can be zero.
 
 
 ### -param maxlen [in]
@@ -211,19 +211,19 @@ A WinSNMP application can call the
 
 If the <i>maxlen</i> parameter is not equal to zero, and not greater than MAXOBJIDSIZE, the value of <i>maxlen</i> sets the upper limit for the number of subidentifiers to compare. The maximum number of subidentifiers that the 
 <b>SnmpOidCompare</b> function compares defaults to whichever is the smallest number—the <i>maxlen</i> parameter, or the <b>len</b> member of one of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structures pointed to by the <i>xOID</i> and <i>yOID</i> parameters.
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structures pointed to by the <i>xOID</i> and <i>yOID</i> parameters.
 
 If the <i>maxlen</i> parameter is equal to zero, the maximum number of subidentifiers that the 
 <b>SnmpOidCompare</b> function compares defaults to the number that is the smaller of the <b>len</b> members of the two 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structures.
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structures.
 
 The value of the <i>result</i> parameter will indicate that <i>xOID</i> equals <i>yOID</i> if the two 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structures are lexicographically equal and one of the following occurs:
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structures are lexicographically equal and one of the following occurs:
 
 <ul>
 <li><b>SnmpOidCompare</b> compares a <i>maxlen</i> number of subidentifiers.</li>
 <li><b>SnmpOidCompare</b> compares the maximum number of subidentifiers, and the <b>len</b> members of both 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structures are equal, but less than the <i>maxlen</i> parameter.</li>
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structures are equal, but less than the <i>maxlen</i> parameter.</li>
 </ul>
 
 
@@ -242,7 +242,7 @@ The value of the <i>result</i> parameter will indicate that <i>xOID</i> equals <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a>
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a>
  
 
  

@@ -112,15 +112,15 @@ Before calling this method, you must have full access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563227(v=VS.85).aspx">IWMPCore::get_currentMedia</a>
+<a href="https://msdn.microsoft.com/4f199336-0555-40de-8d27-780b05ef9510">IWMPCore::get_currentMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563572(v=VS.85).aspx">IWMPPlaylist::insertItem</a>
+<a href="https://msdn.microsoft.com/2db2d28d-4cbf-423c-824f-e1e212c46f7a">IWMPPlaylist::insertItem</a>
  
 
  

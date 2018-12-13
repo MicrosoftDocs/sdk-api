@@ -142,7 +142,7 @@ Value to assign to the (3,3) element.
 
 
 
-Returns the <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> with the specified elements.
+Returns the <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a> with the specified elements.
 
 
 

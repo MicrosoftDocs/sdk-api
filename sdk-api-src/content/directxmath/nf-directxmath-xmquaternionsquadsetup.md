@@ -132,7 +132,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420181(v=VS.85).aspx">XMQuaternionSquadV</a>
+<a href="https://msdn.microsoft.com/6B6D298A-9647-41CF-9E15-BDFBDE964999">XMQuaternionSquadV</a>
  
 
  

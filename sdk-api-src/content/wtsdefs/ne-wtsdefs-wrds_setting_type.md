@@ -4,7 +4,7 @@ title: WRDS_SETTING_TYPE
 author: windows-sdk-content
 description: Specifies the category of settings being stored in a WRDS_SETTINGS structure.
 old-location: termserv\wrds_setting_type.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 2B8191F8-FF54-4CF6-9239-F9BFA0FA0A6B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

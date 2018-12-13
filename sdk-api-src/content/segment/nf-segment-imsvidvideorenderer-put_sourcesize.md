@@ -60,7 +60,7 @@ The <b>put_SourceSize</b> method specifies the type of clipping to apply to the 
 
 ### -param NewSize [in]
 
-Specifies a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd695294(v=VS.85).aspx">SourceSizeList</a> enumeration.
+Specifies a member of the <a href="https://msdn.microsoft.com/579c4993-6238-47c7-b61c-398568c1fb94">SourceSizeList</a> enumeration.
 
 
 ## -returns
@@ -81,15 +81,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694743(v=VS.85).aspx">IMSVidVideoRenderer::get_SourceSize</a>
+<a href="https://msdn.microsoft.com/312a2c1e-5332-4a2d-ada9-1dc8236f4170">IMSVidVideoRenderer::get_SourceSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694748(v=VS.85).aspx">IMSVidVideoRenderer::put_ClippedSourceRect</a>
+<a href="https://msdn.microsoft.com/c72d8134-ff6c-46b4-b567-35638aef53cd">IMSVidVideoRenderer::put_ClippedSourceRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694754(v=VS.85).aspx">IMSVidVideoRenderer::put_OverScan</a>
+<a href="https://msdn.microsoft.com/141df99b-4fc7-439c-953e-1fa1c544258e">IMSVidVideoRenderer::put_OverScan</a>
  
 
  

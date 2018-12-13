@@ -4,7 +4,7 @@ title: BindImageEx function
 author: windows-sdk-content
 description: Computes the virtual address of each function that is imported.
 old-location: base\bindimageex.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 97edbe29-94e5-4d3c-b640-c92b7f01a159
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -155,7 +155,7 @@ If the return value is S_OK, the <i>pEvCode</i> parameter receives the event cod
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent Interface</a>
+<a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent Interface</a>
  
 
  

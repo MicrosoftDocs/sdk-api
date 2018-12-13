@@ -84,7 +84,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693421(v=VS.85).aspx">IBDA_PinControl Interface</a>
+<a href="https://msdn.microsoft.com/2d318cc4-b3f2-4fb6-b9e3-8ba8312ad2ae">IBDA_PinControl Interface</a>
  
 
  

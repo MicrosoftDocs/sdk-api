@@ -124,7 +124,7 @@ A <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_D
         later than this will cause the function return <b>WS_E_INVALID_FORMAT</b>.
       (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
-The format field of the <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> will be set to <a href="https://msdn.microsoft.com/en-us/library/Dd401807(v=VS.85).aspx">WS_DATETIME_FORMAT_UTC</a>.
+The format field of the <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> will be set to <a href="https://msdn.microsoft.com/e5859797-90dd-4509-ae41-f8d8c83cfd9c">WS_DATETIME_FORMAT_UTC</a>.
       
 
 

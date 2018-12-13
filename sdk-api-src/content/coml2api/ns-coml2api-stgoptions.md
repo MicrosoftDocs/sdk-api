@@ -107,7 +107,7 @@ Specifies the name of a file whose Encrypted File System (EFS) metadata will be 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380364(v=VS.85).aspx">Compound File Implementation Limits</a>
+<a href="structured_storage_interfaces.htm">Compound File Implementation Limits</a>
 
 
 

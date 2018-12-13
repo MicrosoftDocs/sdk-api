@@ -115,11 +115,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563549(v=VS.85).aspx">IWMPPlaylistArray::get_count</a>
+<a href="https://msdn.microsoft.com/2ce0058c-8839-43da-aad8-4bc423ff3cde">IWMPPlaylistArray::get_count</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563552(v=VS.85).aspx">IWMPPlaylistCollection Interface</a>
+<a href="https://msdn.microsoft.com/b6861651-f0c3-4b99-8c81-a8a8f8b47692">IWMPPlaylistCollection Interface</a>
  
 
  

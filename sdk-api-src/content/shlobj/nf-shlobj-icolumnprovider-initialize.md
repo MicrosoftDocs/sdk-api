@@ -62,7 +62,7 @@ Initializes an <a href="https://msdn.microsoft.com/06993217-2867-43f2-aa76-04b50
 
 Type: <b>LPCSHCOLUMNINIT</b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb759753(v=VS.85).aspx">SHCOLUMNINIT</a> structure with initialization information, including the folder whose contents are to be displayed.
+An <a href="https://msdn.microsoft.com/eebe47c8-b3ee-4316-b578-5404ed8f7920">SHCOLUMNINIT</a> structure with initialization information, including the folder whose contents are to be displayed.
 
 
 ## -returns

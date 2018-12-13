@@ -90,11 +90,11 @@ A key frame is a video frame that can be rendered without any information being 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/4d6ba1d8-b046-450b-a3f9-4810faba5b77">IWMVideoMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798712(v=VS.85).aspx">IWMVideoMediaProps::GetMaxKeyFrameSpacing</a>
+<a href="https://msdn.microsoft.com/125d352e-b181-4baa-8763-21315534beea">IWMVideoMediaProps::GetMaxKeyFrameSpacing</a>
  
 
  

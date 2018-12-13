@@ -107,7 +107,7 @@ If the format used by a digital media file is not supported, Windows Media Playe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563751(v=VS.85).aspx">IWMPTranscodePolicy Interface</a>
+<a href="https://msdn.microsoft.com/b7dbd25f-6865-44fa-9d46-e77de393ce13">IWMPTranscodePolicy Interface</a>
  
 
  

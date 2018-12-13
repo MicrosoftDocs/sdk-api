@@ -110,7 +110,7 @@ hr = pVideoControl-&gt;put_BackColor(static_cast&lt;OLE_COLOR&gt;(orange));
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390563(v=VS.85).aspx">IVMRWindowlessControl::SetBorderColor</a>
+<a href="https://msdn.microsoft.com/d58ce18f-ddc4-4d91-b086-8829056f4508">IVMRWindowlessControl::SetBorderColor</a>
  
 
  

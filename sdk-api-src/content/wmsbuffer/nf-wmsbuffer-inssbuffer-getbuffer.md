@@ -54,11 +54,11 @@ req.redist:
 
 
 
-The <b>GetBuffer</b> method retrieves the location of the buffer controlled by the buffer object. Buffers are used to store samples. When passing samples to the writer, you need the location of the buffer so you can copy your samples into it. When you copy data to the address returned by this call, you must call <a href="https://msdn.microsoft.com/en-us/library/Dd743263(v=VS.85).aspx">INSSBuffer::SetLength</a> to specify how much of the buffer actually contains data.
+The <b>GetBuffer</b> method retrieves the location of the buffer controlled by the buffer object. Buffers are used to store samples. When passing samples to the writer, you need the location of the buffer so you can copy your samples into it. When you copy data to the address returned by this call, you must call <a href="https://msdn.microsoft.com/3f0e8d8a-efc7-4f1b-8a42-7907439ed8af">INSSBuffer::SetLength</a> to specify how much of the buffer actually contains data.
 
 
 
-When receiving samples from the reader or synchronous reader, retrieve the size of the buffer at the same time as the location by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743260(v=VS.85).aspx">INSSBuffer::GetBufferAndLength</a>.
+When receiving samples from the reader or synchronous reader, retrieve the size of the buffer at the same time as the location by calling <a href="https://msdn.microsoft.com/cb03d006-fbaa-4971-8022-41a7fa29fb87">INSSBuffer::GetBufferAndLength</a>.
 
 
 ## -parameters
@@ -115,11 +115,11 @@ The <i>ppdwBuffer</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
+<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743260(v=VS.85).aspx">INSSBuffer::GetBufferAndLength</a>
+<a href="https://msdn.microsoft.com/cb03d006-fbaa-4971-8022-41a7fa29fb87">INSSBuffer::GetBufferAndLength</a>
  
 
  

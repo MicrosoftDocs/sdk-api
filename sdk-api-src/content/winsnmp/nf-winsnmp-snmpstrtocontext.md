@@ -71,7 +71,7 @@ Handle to the WinSNMP session.
 ### -param string [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure that contains a string to interpret. The string can identify a collection of managed objects, or it can be a community string. 
+<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure that contains a string to interpret. The string can identify a collection of managed objects, or it can be a community string. 
 
 
 
@@ -175,7 +175,7 @@ The <i>session</i> parameter is invalid.
 </td>
 <td width="60%">
 The <i>string</i> parameter format is invalid. For example, the <b>len</b> member or the <b>ptr</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure pointed to by the <i>string</i> parameter is <b>NULL</b>.
+<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure pointed to by the <i>string</i> parameter is <b>NULL</b>.
 
 </td>
 </tr>
@@ -221,7 +221,7 @@ The WinSNMP application must call the
 <a href="https://msdn.microsoft.com/52e911f3-9b28-4ac3-a080-44fb18f5633e">WinSNMP Data Management Concepts</a>.
 
 The WinSNMP application should free the memory associated with the <b>ptr</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure pointed to by the <i>string</i> parameter. This is because the application defines and allocates the resources. For example, if the application allocated resources with a call to the 
+<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure pointed to by the <i>string</i> parameter. This is because the application defines and allocates the resources. For example, if the application allocated resources with a call to the 
 <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> function, it should use the 
 <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a> function to deallocate the resources. For additional information, see 
 <a href="https://msdn.microsoft.com/3e4cbbc5-18bc-4731-971c-6e533d904f56">Freeing WinSNMP Descriptors</a>.
@@ -259,7 +259,7 @@ The WinSNMP application should free the memory associated with the <b>ptr</b> me
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a>
+<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a>
  
 
  

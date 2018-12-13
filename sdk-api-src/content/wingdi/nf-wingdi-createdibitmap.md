@@ -69,7 +69,7 @@ A handle to a device context.
 
 ### -param pbmih [in]
 
-A pointer to a bitmap information header structure, <a href="https://msdn.microsoft.com/en-us/library/Dd183381(v=VS.85).aspx">BITMAPV5HEADER</a>.
+A pointer to a bitmap information header structure, <a href="https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3">BITMAPV5HEADER</a>.
 
 If <i>fdwInit</i> is CBM_INIT, the function uses the bitmap information header structure to obtain the desired width and height of the bitmap as well as other information. Note that a positive value for the height indicates a bottom-up DIB while a negative value for the height indicates a top-down DIB. Calling <b>CreateDIBitmap</b> with <i>fdwInit</i> as CBM_INIT is equivalent to calling the <a href="https://msdn.microsoft.com/d2866beb-ff7a-4390-8651-e7bf458ddf88">CreateCompatibleBitmap</a> function to create a DDB in the format of the device and then calling the <a href="https://msdn.microsoft.com/706f4532-4073-4d5c-ae2d-e33aea9163e9">SetDIBits</a> function to translate the DIB bits to the DDB.
 

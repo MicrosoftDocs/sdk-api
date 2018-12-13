@@ -66,17 +66,17 @@ The <b>GetAccessEntry</b> method retrieves an entry from the IP address access l
 
 ### -param aeType [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757889(v=VS.85).aspx">WM_AETYPE</a> enumeration specifying the type of entry to retrieve (exclusion or inclusion).
+A member of the <a href="https://msdn.microsoft.com/514e6745-c521-41bd-81c2-b6c24cfb0192">WM_AETYPE</a> enumeration specifying the type of entry to retrieve (exclusion or inclusion).
 
 
 ### -param dwEntryNum [in]
 
-Specifies the zero-based index of the entry. Use the <a href="https://msdn.microsoft.com/en-us/library/Dd743285(v=VS.85).aspx">IWMAddressAccess::GetAccessEntryCount</a> method to get the number of entries.
+Specifies the zero-based index of the entry. Use the <a href="https://msdn.microsoft.com/996d8a8a-887e-4e2f-b810-c57a4251f771">IWMAddressAccess::GetAccessEntryCount</a> method to get the number of entries.
 
 
 ### -param pAddrAccessEntry [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd757887(v=VS.85).aspx">WM_ADDRESS_ACCESSENTRY</a> structure that receives the access entry.
+Pointer to a <a href="https://msdn.microsoft.com/670c126f-c94b-4fac-b18c-d764f048f401">WM_ADDRESS_ACCESSENTRY</a> structure that receives the access entry.
 
 
 ## -returns
@@ -134,7 +134,7 @@ Invalid index number.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743279(v=VS.85).aspx">IWMAddressAccess Interface</a>
+<a href="https://msdn.microsoft.com/7251c600-90a2-4903-b26a-643b4d10b0ce">IWMAddressAccess Interface</a>
  
 
  

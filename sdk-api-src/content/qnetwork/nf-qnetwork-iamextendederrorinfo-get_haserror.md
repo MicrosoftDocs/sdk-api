@@ -107,7 +107,7 @@ If <i>pHasError</i> is true, you can call the <b>get_ErrorCode</b> and <b>get_Er
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389327(v=VS.85).aspx">IAMExtendedErrorInfo Interface</a>
+<a href="https://msdn.microsoft.com/0e3274e6-7c22-4175-8b2e-cdf4afc1225e">IAMExtendedErrorInfo Interface</a>
  
 
  

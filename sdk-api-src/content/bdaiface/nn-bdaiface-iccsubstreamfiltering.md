@@ -76,7 +76,7 @@ The <b>ICCSubStreamFiltering</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693502(v=VS.85).aspx">get_SubstreamTypes</a>
+<a href="https://msdn.microsoft.com/da622981-d2a6-4e91-9e59-b084932b5ff2">get_SubstreamTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of closed captioning services this pin is delivering
@@ -85,7 +85,7 @@ Retrieves the list of closed captioning services this pin is delivering
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693503(v=VS.85).aspx">put_SubstreamTypes</a>
+<a href="https://msdn.microsoft.com/45db472d-cffc-42d1-8270-3a0db72bdc2c">put_SubstreamTypes</a>
 </td>
 <td align="left" width="63%">
 Sets the closed captioning services the pin will deliver.

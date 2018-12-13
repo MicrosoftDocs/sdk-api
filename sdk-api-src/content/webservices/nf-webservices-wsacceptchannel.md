@@ -267,7 +267,7 @@ Once you accept a channel, you must close it  when you no longer need it and fre
                 <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a> function, and then calling either the <a href="https://msdn.microsoft.com/74e36d19-c6db-4bba-90e3-88a48b6a1fb5">WsFreeChannel</a> or the <a href="https://msdn.microsoft.com/7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b">WsResetChannel</a>.
             function. 
 
-For <b>WsAcceptChannel</b> to succeed, the listener must be in WS_LISTENER_STATE_OPEN state, and the channel must be in WS_CHANNEL_STATE_CREATED state. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Dd401952(v=VS.85).aspx">WS_LISTENER_STATE</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE</a> enumerations.
+For <b>WsAcceptChannel</b> to succeed, the listener must be in WS_LISTENER_STATE_OPEN state, and the channel must be in WS_CHANNEL_STATE_CREATED state. For more information, see the <a href="https://msdn.microsoft.com/275d0d36-f9a1-49a7-af74-e8967dff574a">WS_LISTENER_STATE</a> and <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE</a> enumerations.
 
 If a listener is in the <b>WS_LISTENER_STATE_FAULTED</b> state,  
                 <b>WsAcceptChannel</b> immediately returns the <b>WS_E_OBJECT_FAULTED</b> error code. If an

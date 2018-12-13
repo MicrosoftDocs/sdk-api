@@ -95,15 +95,15 @@ If the ScaleZ property was previously animated, this method removes the animatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx">IDCompositionScaleTransform3D</a>
+<a href="https://msdn.microsoft.com/8e59c484-b7c5-446a-a5d6-e00371e2c08a">IDCompositionScaleTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449018(v=VS.85).aspx">IDCompositionScaleTransform3D::SetScaleX</a>
+<a href="https://msdn.microsoft.com/96A7B9EC-7CD9-489F-AB97-A297321BDACD">IDCompositionScaleTransform3D::SetScaleX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449024(v=VS.85).aspx">IDCompositionScaleTransform3D::SetScaleY</a>
+<a href="https://msdn.microsoft.com/90E48F55-B9A3-464D-9FB2-03AA27AA5A08">IDCompositionScaleTransform3D::SetScaleY</a>
  
 
  

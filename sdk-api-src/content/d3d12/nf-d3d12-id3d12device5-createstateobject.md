@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Mt815591(v=VS.85).aspx">ID3D12StateObject</a>.
+Creates an <a href="https://msdn.microsoft.com/5BE94583-31DC-4469-9049-7768D64F7F41">ID3D12StateObject</a>.
 
 
 ## -parameters
@@ -98,7 +98,7 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
+<a href="https://msdn.microsoft.com/2D72898B-F512-4E0D-8FAC-A53EA6FE614A">ID3D12Device5</a>
  
 
  

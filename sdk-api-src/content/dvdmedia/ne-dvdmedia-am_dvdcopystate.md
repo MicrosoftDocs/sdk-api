@@ -90,7 +90,7 @@ Key exchange negotiation is complete.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd373463(v=VS.85).aspx">AM_DVDCOPY_SET_COPY_STATE</a> structure uses this data type.
+The <a href="https://msdn.microsoft.com/0ad15402-096c-4967-bebc-10652535e502">AM_DVDCOPY_SET_COPY_STATE</a> structure uses this data type.
 
 
 

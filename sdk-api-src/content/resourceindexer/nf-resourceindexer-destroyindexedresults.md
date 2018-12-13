@@ -91,7 +91,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt219671(v=VS.85).aspx">IndexedResourceQualifier</a>
+<a href="https://msdn.microsoft.com/A6F253AD-0756-4996-AC6C-5B09C55DE22E">IndexedResourceQualifier</a>
  
 
  

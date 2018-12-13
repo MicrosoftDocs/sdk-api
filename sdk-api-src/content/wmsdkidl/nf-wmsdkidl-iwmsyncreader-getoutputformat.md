@@ -76,7 +76,7 @@ The <b>GetOutputFormat</b> method retrieves the supported formats for a specifie
 
 ### -param ppProps [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757252(v=VS.85).aspx">IWMOutputMediaProps</a> interface. This object is created by a successful call to this method.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps</a> interface. This object is created by a successful call to this method.
 
 
 ## -returns
@@ -133,7 +133,7 @@ No file is open in the synchronous reader.
 
 
 
-To enumerate the supported formats for an output media stream, call <a href="https://msdn.microsoft.com/en-us/library/Dd798590(v=VS.85).aspx">GetOutputFormatCount</a> to get the number of formats, and then call <b>GetOutputFormat</b> in succession to get the formats.
+To enumerate the supported formats for an output media stream, call <a href="https://msdn.microsoft.com/66f66784-791b-4f1b-8ba2-300a4521ce03">GetOutputFormatCount</a> to get the number of formats, and then call <b>GetOutputFormat</b> in succession to get the formats.
 
 
 
@@ -143,7 +143,7 @@ To enumerate the supported formats for an output media stream, call <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
  
 
  

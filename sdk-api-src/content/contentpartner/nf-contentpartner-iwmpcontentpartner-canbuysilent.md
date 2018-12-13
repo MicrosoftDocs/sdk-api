@@ -120,7 +120,7 @@ The format of the string returned in <i>pbstrTotalPrice</i> is known only to the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

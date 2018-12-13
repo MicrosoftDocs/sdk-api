@@ -63,7 +63,7 @@ The <b>SaveToXML</b> method saves a filter graph to an XML element.
 
 ### -param pGraph [in]
 
-Pointer to the Filter Graph Manager's <a href="https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx">IGraphBuilder</a> interface.
+Pointer to the Filter Graph Manager's <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface.
 
 
 ### -param pbstrxml [out]
@@ -89,7 +89,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390622(v=VS.85).aspx">IXMLGraphBuilder Interface</a>
+<a href="https://msdn.microsoft.com/c30a8b33-7783-4987-aa65-ccba476ea937">IXMLGraphBuilder Interface</a>
  
 
  

@@ -92,7 +92,7 @@ Broadcast events enable communication among DirectShow filters, Video Control fe
 Broadcast events are useful for several reasons:
 
 <ul>
-<li>The DirectShow event mechanism, <a href="https://msdn.microsoft.com/en-us/library/Dd406901(v=VS.85).aspx">IMediaEventSink</a>, does not support multiple listeners. DirectShow events go onto a queue, and retrieving an event removes it from the queue.</li>
+<li>The DirectShow event mechanism, <a href="https://msdn.microsoft.com/50aa04b4-9a04-4d0d-a558-42595a69aef7">IMediaEventSink</a>, does not support multiple listeners. DirectShow events go onto a queue, and retrieving an event removes it from the queue.</li>
 <li>COM connection points require the sink object to locate the source object. With broadcast events, the Broadcast Event Service acts as a relay between the source object and the sink object.</li>
 <li>In a connection point, the source must fire events on the same thread that the sink used to establish the connection, or else marshal the event interface pointer. Filter graphs are multithreaded, so the Broadcast Event Service object implements the necessary marshaling. It uses a background thread to distribute events to all the registered listeners.</li>
 </ul>
@@ -106,8 +106,8 @@ A failure code from <b>QueryService</b> indicates that no object has yet registe
 
 <ol>
 <li>Create a new Broadcast Event Service object, using <b>CoCreateInstance</b>.</li>
-<li>Query the Filter Graph Manager for <a href="https://msdn.microsoft.com/en-us/library/Dd376936(v=VS.85).aspx">IRegisterServiceProvider</a>.</li>
-<li>Call <a href="https://msdn.microsoft.com/en-us/library/Dd376937(v=VS.85).aspx">IRegisterServiceProvider::RegisterService</a> with the service identifier.</li>
+<li>Query the Filter Graph Manager for <a href="https://msdn.microsoft.com/1097fa4c-d81d-4268-8492-c0d9f4888733">IRegisterServiceProvider</a>.</li>
+<li>Call <a href="https://msdn.microsoft.com/be8c3a89-687e-4a53-9fd0-0ec676e27ce0">IRegisterServiceProvider::RegisterService</a> with the service identifier.</li>
 </ol>
 Once you have a pointer to the <b>IBroadcastEvent</b> interface, you can use it either to send events or to sink events. To send events, call the <a href="https://msdn.microsoft.com/974b42d7-bf68-426b-a146-4e520cac3274">Fire</a> method. To sink events, implement <b>IBroadcastEvent</b> on the sink object, query the Broadcast Event Service for <b>IConnectionPoint</b>, and call <b>IConnectionPoint::Advise</b> to establish the connection. For a list of defined broadcast events, see <b>IBroadcastEvent::Fire</b>.
 

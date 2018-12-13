@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <code>MPEG1_SEQUENCE_INFO</code> macro returns the address of the sequence header inside an <a href="https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx">MPEG1VIDEOINFO</a> structure.
+The <code>MPEG1_SEQUENCE_INFO</code> macro returns the address of the sequence header inside an <a href="https://msdn.microsoft.com/ae5b8825-7c1c-4a44-b665-098732e6c3bc">MPEG1VIDEOINFO</a> structure.
 
 
 
@@ -63,7 +63,7 @@ The <code>MPEG1_SEQUENCE_INFO</code> macro returns the address of the sequence h
 
 ### -param pv
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx">MPEG1VIDEOINFO</a> structure.
+Pointer to an <a href="https://msdn.microsoft.com/ae5b8825-7c1c-4a44-b665-098732e6c3bc">MPEG1VIDEOINFO</a> structure.
 
 
 ## -see-also

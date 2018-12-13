@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxSender::get_LoadDefaultSender</b> method fills the <a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a> object with the default sender information.
+The <b>IFaxSender::get_LoadDefaultSender</b> method fills the <a href="https://msdn.microsoft.com/f265cfd0-cf62-4d86-9ba5-d1842ac94baa">FaxSender</a> object with the default sender information.
 
 
 ## -parameters
@@ -76,9 +76,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The default sender information is saved using the <a href="https://msdn.microsoft.com/en-us/library/ms689558(v=VS.85).aspx">IFaxSender::SaveDefaultSender</a> method.
+The default sender information is saved using the <a href="https://msdn.microsoft.com/c06c0a8e-6016-40e8-864e-cfeae8c5994e">IFaxSender::SaveDefaultSender</a> method.
 
-This method can return remote procedure call (RPC) return values. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa378645(v=VS.85).aspx">RPC Return Values</a>.
+This method can return remote procedure call (RPC) return values. For more information, see <a href="_rpc_rpc_return_values">RPC Return Values</a>.
 
 
 
@@ -88,15 +88,15 @@ This method can return remote procedure call (RPC) return values. For more infor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a>
+<a href="https://msdn.microsoft.com/f265cfd0-cf62-4d86-9ba5-d1842ac94baa">FaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687533(v=VS.85).aspx">IFaxSender</a>
+<a href="https://msdn.microsoft.com/c22bd4df-6ce2-4491-91c9-7bb8c8f7eafd">IFaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693479(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/82a9e599-35d3-4fca-954f-dbc579c023f5">Visual Basic Example</a>
  
 
  

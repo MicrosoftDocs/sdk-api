@@ -114,17 +114,21 @@ Returns the <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531
 For best performance, the result of
    <b>XMVectorInsert</b>should be assigned back to <i>VD</i>.
 
-For cases with constant uint32_t parameters, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855943(v=VS.85).aspx">XMVectorInsert</a>:
+For cases with constant uint32_t parameters, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/d96248a6-35ef-4d37-a929-ac7ea00a6d08">XMVectorInsert</a>:
 
-
-```
-
-template<uint32_t VSLeftRotateElements, uint32_t Select0, uint32_t Select1, uint32_t Select2, uint32_t Select3>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+template&lt;uint32_t VSLeftRotateElements, uint32_t Select0, uint32_t Select1, uint32_t Select2, uint32_t Select3&gt;
     XMVECTOR XMVectorInsert(FXMVECTOR VD, FXMVECTOR VS)
-   
-```
-
-
+   </pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
@@ -140,19 +144,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx">XMVectorPermute</a>
+<a href="https://msdn.microsoft.com/212c9381-6bde-4a09-9710-e2e3fe54f405">XMVectorPermute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404806(v=VS.85).aspx">XMVectorRotateLeft</a>
+<a href="https://msdn.microsoft.com/e12f6450-683d-431f-98d3-324b6c5cdf8f">XMVectorRotateLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx">XMVectorRotateRight</a>
+<a href="https://msdn.microsoft.com/ea47a1a6-6f59-4933-99b1-1b4a67038a6e">XMVectorRotateRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404823(v=VS.85).aspx">XMVectorShiftLeft</a>
+<a href="https://msdn.microsoft.com/0d0a0795-1eb6-4189-8307-52deeb99a4ba">XMVectorShiftLeft</a>
  
 
  

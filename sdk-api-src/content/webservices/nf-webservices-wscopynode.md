@@ -140,7 +140,7 @@ If the current node type is WS_XML_NODE_TYPE_ELEMENT,the current node,
 
 If the current node type is WS_XML_NODE_TYPE_BOF, nodes are copied
         until a node of type WS_XML_NODE_TYPE_EOF is reached.
-      For information on node types, see the <a href="https://msdn.microsoft.com/en-us/library/Dd323538(v=VS.85).aspx">WS_XML_NODE_TYPE</a> enumeration.
+      For information on node types, see the <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">WS_XML_NODE_TYPE</a> enumeration.
 
 The reader will be positioned on the node following the node copied.
       

@@ -79,11 +79,11 @@ Returns nothing.
 
 
 
-You can call <b>GenerateMips</b> on any shader-resource view to generate the lower mipmap levels for the shader resource. <b>GenerateMips</b> uses the largest mipmap level of the view to recursively generate the lower levels of the mip and stops with the smallest level that is specified by the view. If the base resource wasn't created with <a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">D3D11_BIND_RENDER_TARGET</a>, <a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">D3D11_BIND_SHADER_RESOURCE</a>, and <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_GENERATE_MIPS</a>, the call to <b>GenerateMips</b> has no effect.
+You can call <b>GenerateMips</b> on any shader-resource view to generate the lower mipmap levels for the shader resource. <b>GenerateMips</b> uses the largest mipmap level of the view to recursively generate the lower levels of the mip and stops with the smallest level that is specified by the view. If the base resource wasn't created with <a href="d3d11_bind_flag.htm">D3D11_BIND_RENDER_TARGET</a>, <a href="d3d11_bind_flag.htm">D3D11_BIND_SHADER_RESOURCE</a>, and <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_GENERATE_MIPS</a>, the call to <b>GenerateMips</b> has no effect.
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">Feature levels</a> 9.1, 9.2, and 9.3 can't support automatic generation of mipmaps for 3D (volume) textures.
+<a href="overviews_direct3d_11_devices_downlevel_intro.htm">Feature levels</a> 9.1, 9.2, and 9.3 can't support automatic generation of mipmaps for 3D (volume) textures.
 
-Video adapters that support <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1 and higher support generating mipmaps if you use any of these formats:
+Video adapters that support <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1 and higher support generating mipmaps if you use any of these formats:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -103,7 +103,7 @@ DXGI_FORMAT_B8G8R8X8_UNORM_SRGB
 </td>
 </tr>
 </table></span></div>
-Video adapters that support <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.2 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature level 9.1:
+Video adapters that support <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.2 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature level 9.1:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -121,7 +121,7 @@ DXGI_FORMAT_R32_FLOAT
 </td>
 </tr>
 </table></span></div>
-Video adapters that support <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.3 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1 and 9.2:
+Video adapters that support <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.3 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1 and 9.2:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -136,7 +136,7 @@ DXGI_FORMAT_B4G4R4A4 (optional)
 </td>
 </tr>
 </table></span></div>
-Video adapters that support <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 10 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1, 9.2, and 9.3:
+Video adapters that support <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 10 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1, 9.2, and 9.3:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -175,7 +175,7 @@ For all other unsupported formats, <b>GenerateMips</b> will silently fail.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>
+<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
 
 
 

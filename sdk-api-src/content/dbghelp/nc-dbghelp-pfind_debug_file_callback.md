@@ -4,7 +4,7 @@ title: PFIND_DEBUG_FILE_CALLBACK
 author: windows-sdk-content
 description: An application-defined callback function used with the FindDebugInfoFileEx function. It verifies whether the symbol file located by FindDebugInfoFileEx is the correct symbol file.
 old-location: base\finddebuginfofileproc.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: c7ccc66a-7897-4430-8874-a4ba66a5cce7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -97,11 +97,11 @@ To produce meaningful results, this method must be called between the events WMT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757850(v=VS.85).aspx">WMT_PLAY_MODE</a>
+<a href="https://msdn.microsoft.com/da47fc9f-7762-4f92-8857-44a75a4cd00b">WMT_PLAY_MODE</a>
  
 
  

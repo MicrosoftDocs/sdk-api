@@ -62,7 +62,7 @@ Gets the location of the Shell namespace folder in the IDList (<a href="https://
 
 Type: <b>DWORD</b>
 
-Flags that specify special retrieval options. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a> values.
+Flags that specify special retrieval options. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a> values.
 
 
 ### -param ppidl [out]

@@ -92,11 +92,11 @@ The returned <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694739(v=VS.85).aspx">IMSVidVideoRenderer::get_MixerBitmap</a>
+<a href="https://msdn.microsoft.com/cfcfab14-7084-4716-8955-574168cd3506">IMSVidVideoRenderer::get_MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694753(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmapPositionRect</a>
+<a href="https://msdn.microsoft.com/05542d75-1723-4581-ac8b-6a577e0085cb">IMSVidVideoRenderer::put_MixerBitmapPositionRect</a>
  
 
  

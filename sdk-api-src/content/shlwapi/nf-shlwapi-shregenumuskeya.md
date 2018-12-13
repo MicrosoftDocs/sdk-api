@@ -98,9 +98,9 @@ A pointer to  a DWORD that, on entry, contains the size of the buffer at <i>pszN
 
 ### -param enumRegFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773523(v=VS.85).aspx">SHREGENUM_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4216a983-9d53-44b1-8273-e5a90ac4b3ef">SHREGENUM_FLAGS</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb773523(v=VS.85).aspx">SHREGENUM_FLAGS</a> that specifies the base key in which the enumeration should take place.
+A <a href="https://msdn.microsoft.com/4216a983-9d53-44b1-8273-e5a90ac4b3ef">SHREGENUM_FLAGS</a> that specifies the base key in which the enumeration should take place.
 
 
 ## -returns

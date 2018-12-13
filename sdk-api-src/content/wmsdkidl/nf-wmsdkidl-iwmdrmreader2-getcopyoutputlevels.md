@@ -67,7 +67,7 @@ The <b>GetCopyOutputLevels</b> method retrieves the output protection levels (OP
 
 ### -param pCopyOPL [out]
 
-Address of a <a href="https://msdn.microsoft.com/en-us/library/Dd757064(v=VS.85).aspx">DRM_COPY_OPL</a> structure that receives the output protection levels that apply to copying content. Additional data is appended to the structure. If you pass <b>NULL</b>, the method returns the size of the structure in <i>pcbLength</i>.
+Address of a <a href="https://msdn.microsoft.com/cf35626a-5583-440f-8f17-0c9b79bd843d">DRM_COPY_OPL</a> structure that receives the output protection levels that apply to copying content. Additional data is appended to the structure. If you pass <b>NULL</b>, the method returns the size of the structure in <i>pcbLength</i>.
 
 
 ### -param pcbLength [in, out]
@@ -114,9 +114,9 @@ The method succeeded.
 
 When reading DRM-protected content, you must verify that the destination of the protected content is allowed by the license. Calling this method enables you to check the output protection level required by the license.
 
-Before you call this method, you must call <a href="https://msdn.microsoft.com/en-us/library/Dd798343(v=VS.85).aspx">SetEvaluateOutputLevelLicenses</a> to configure the reader to evaluate licenses that contain output protection levels.
+Before you call this method, you must call <a href="https://msdn.microsoft.com/5a146ec4-a733-483c-8b08-2bee0081bd96">SetEvaluateOutputLevelLicenses</a> to configure the reader to evaluate licenses that contain output protection levels.
 
-If the OPL information returned by this method indicates that you cannot copy the content using the desired technology, you can call <a href="https://msdn.microsoft.com/en-us/library/Dd798344(v=VS.85).aspx">TryNextLicense</a> to find out whether there is another license on the computer that you can use.
+If the OPL information returned by this method indicates that you cannot copy the content using the desired technology, you can call <a href="https://msdn.microsoft.com/2658abd7-61ca-452f-92ad-93ee5050603d">TryNextLicense</a> to find out whether there is another license on the computer that you can use.
 
 
 
@@ -126,11 +126,11 @@ If the OPL information returned by this method indicates that you cannot copy th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798340(v=VS.85).aspx">IWMDRMReader2 Interface</a>
+<a href="https://msdn.microsoft.com/9fb7bbeb-d35f-41f7-b39a-2e5a102b5c05">IWMDRMReader2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798342(v=VS.85).aspx">IWMDRMReader2::GetPlayOutputLevels</a>
+<a href="https://msdn.microsoft.com/a53d58cc-655f-4441-9c16-5afc5b53a233">IWMDRMReader2::GetPlayOutputLevels</a>
  
 
  

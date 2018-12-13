@@ -61,7 +61,7 @@ The <b>GetSurfaceEx</b> method retrieves a Direct3D surface and a destination re
 
 ### -param dwUserID [in]
 
-Application-defined identifier. This value is the same value that the application passed to the <a href="https://msdn.microsoft.com/en-us/library/Dd390509(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator</a> method in the <i>dwUserID</i> parameter..
+Application-defined identifier. This value is the same value that the application passed to the <a href="https://msdn.microsoft.com/99f9c549-e4b1-480b-97a4-7a29c9cdb649">IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator</a> method in the <i>dwUserID</i> parameter..
 
 
 ### -param SurfaceIndex [in]
@@ -126,7 +126,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390505(v=VS.85).aspx">IVMRSurfaceAllocatorEx9 Interface</a>
+<a href="https://msdn.microsoft.com/4c43867f-6c4b-4ed7-af83-0133c997efcb">IVMRSurfaceAllocatorEx9 Interface</a>
 
 
 

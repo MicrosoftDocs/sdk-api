@@ -72,7 +72,7 @@ A pointer to a valid <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2
 
 ### -param Progress [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd323703(v=VS.85).aspx">VIRTUAL_DISK_PROGRESS</a> 
+A pointer to a <a href="https://msdn.microsoft.com/834d7384-09fe-493e-8402-135c453a1ecf">VIRTUAL_DISK_PROGRESS</a> 
      structure that receives the current virtual disk operation progress.
 
 
@@ -106,7 +106,7 @@ If the function fails, the return value is an error code and the value of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd323703(v=VS.85).aspx">VIRTUAL_DISK_PROGRESS</a>
+<a href="https://msdn.microsoft.com/834d7384-09fe-493e-8402-135c453a1ecf">VIRTUAL_DISK_PROGRESS</a>
  
 
  

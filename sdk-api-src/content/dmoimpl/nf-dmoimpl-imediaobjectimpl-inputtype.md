@@ -73,7 +73,7 @@ Index of an input stream.
 
 
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the media type is not set for this stream.
+Returns a pointer to a <a href="https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the media type is not set for this stream.
 
 
 

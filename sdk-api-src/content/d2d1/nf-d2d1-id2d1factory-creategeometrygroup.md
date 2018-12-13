@@ -90,7 +90,7 @@ When this method returns, contains the address of a pointer to the geometry grou
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -108,9 +108,13 @@ Geometry groups are a convenient way to group several geometries simultaneously 
 
 The following code example first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <b>CreateGeometryGroup</b> on the <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> object,  passing in <a href="https://msdn.microsoft.com/f1a14447-39fa-4a48-9516-ff5b03abc3a6">D2D1_FILL_MODE_ALTERNATE</a>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
 
-
-```cpp
-ID2D1Geometry *ppGeometries[] =
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1Geometry *ppGeometries[] =
 {
     m_pEllipseGeometry1,
     m_pEllipseGeometry2,
@@ -118,29 +122,29 @@ ID2D1Geometry *ppGeometries[] =
     m_pEllipseGeometry4
 };
 
-hr = m_pD2DFactory->CreateGeometryGroup(
+hr = m_pD2DFactory-&gt;CreateGeometryGroup(
     D2D1_FILL_MODE_ALTERNATE,
     ppGeometries,
     ARRAYSIZE(ppGeometries),
-    &m_pGeoGroup_AlternateFill
+    &amp;m_pGeoGroup_AlternateFill
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory->CreateGeometryGroup(
+    hr = m_pD2DFactory-&gt;CreateGeometryGroup(
         D2D1_FILL_MODE_WINDING,
         ppGeometries,
         ARRAYSIZE(ppGeometries),
-        &m_pGeoGroup_WindingFill
+        &amp;m_pGeoGroup_WindingFill
         );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following illustration shows the results of rendering the two group geometries from the example.
 
-<img alt="Illustration of two sets of four concentric circles, one with the second and fourth rings filled and one with all rings filled" src="./images/create_geometry_group.png"/>
+<img alt="Illustration of two sets of four concentric circles, one with the second and fourth rings filled and one with all rings filled" src="images/create_geometry_group.png"/>
 
 <div class="code"></div>
 

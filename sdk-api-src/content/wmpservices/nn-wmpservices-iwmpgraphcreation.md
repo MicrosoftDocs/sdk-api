@@ -79,7 +79,7 @@ The <b>IWMPGraphCreation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563380(v=VS.85).aspx">GetGraphCreationFlags</a>
+<a href="https://msdn.microsoft.com/26cac321-f32a-4569-87a8-f397173f058b">GetGraphCreationFlags</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to retrieve a value that represents the graph creation preferences.
@@ -88,7 +88,7 @@ Called by Windows Media Player to retrieve a value that represents the graph cre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563381(v=VS.85).aspx">GraphCreationPostRender</a>
+<a href="https://msdn.microsoft.com/243fc72e-ef97-49a6-9a50-05ec338e5faa">GraphCreationPostRender</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player after a file has been rendered.
@@ -97,7 +97,7 @@ Called by Windows Media Player after a file has been rendered.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563382(v=VS.85).aspx">GraphCreationPreRender</a>
+<a href="https://msdn.microsoft.com/d3375fa9-2ab0-4e82-9196-0b3971a00185">GraphCreationPreRender</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player before a file has been rendered.

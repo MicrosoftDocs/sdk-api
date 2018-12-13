@@ -64,7 +64,7 @@ The <code>InvokeAtStreamTime</code> method queues a method or property change fo
 
 ### -param pCmd [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd406762(v=VS.85).aspx">IDeferredCommand</a> interface pointer.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/8161932a-16aa-4700-b91d-b4d8948ad59f">IDeferredCommand</a> interface pointer.
 
 
 ### -param time [in]
@@ -125,7 +125,7 @@ Use the <b>IDispatch::GetIDsOfNames</b> method to retrieve the DISPID for the <i
 
 #### Examples
 
-The following example queues an <a href="https://msdn.microsoft.com/en-us/library/Dd390178(v=VS.85).aspx">IMediaControl::Stop</a> command for 3.0 seconds.
+The following example queues an <a href="https://msdn.microsoft.com/89e48d43-a31f-4912-98ff-36ba2069812d">IMediaControl::Stop</a> command for 3.0 seconds.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -175,7 +175,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376922(v=VS.85).aspx">IQueueCommand Interface</a>
+<a href="https://msdn.microsoft.com/08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4">IQueueCommand Interface</a>
  
 
  

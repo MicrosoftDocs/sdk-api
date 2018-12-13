@@ -78,7 +78,7 @@ Pointer to the buffer that receives information about the  file or directory. Th
 <a href="https://msdn.microsoft.com/eb700d84-0ba5-4af8-a619-2d2544560dbc">WIN32_FIND_DATA</a> structure.
 
 <b>Windows XP and Windows Server 2003 R2 and earlier:  </b>The Gopher protocol returns a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384215(v=VS.85).aspx">GOPHER_FIND_DATA</a> structure.
+<a href="https://msdn.microsoft.com/53bcba70-2d6a-465a-86ec-4b11b1474ee1">GOPHER_FIND_DATA</a> structure.
 
 
 ## -returns

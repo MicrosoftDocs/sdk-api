@@ -55,7 +55,7 @@ Represents one DirectComposition visual in a visual tree.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn280426(v=VS.85).aspx">IDCompositionVisual2</a>. <b>IDCompositionVisual3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual3</b> interface inherits from <a href="https://msdn.microsoft.com/D4D04A43-BF00-482A-9CDD-A476BD1CB953">IDCompositionVisual2</a>. <b>IDCompositionVisual3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDCompositionVisual3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt589904(v=VS.85).aspx">SetDepthMode</a>
+<a href="https://msdn.microsoft.com/670C4203-50CE-47AA-A896-04A9F75302E3">SetDepthMode</a>
 </td>
 <td align="left" width="63%">
 Sets the depth mode property associated with this visual.
@@ -95,7 +95,7 @@ Sets the depth mode property associated with this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn904494(v=VS.85).aspx">SetTransform</a>
+<a href="https://msdn.microsoft.com/a59498c2-8659-dd35-8dc2-87457f493965">SetTransform</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Transform property of this visual. The Transform  property specifies a 3D transform used to modify the coordinate system of this visual.
   The property can specify either a  4-by-4 transform matrix or a transform object.
@@ -115,7 +115,7 @@ Specifies the transform style to be applied to a visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt589911(v=VS.85).aspx">SetVisible</a>
+<a href="https://msdn.microsoft.com/2D1BE2C4-2F7D-42C7-BB01-93366382B843">SetVisible</a>
 </td>
 <td align="left" width="63%">
 Changes the value of the visual's Visible property.
@@ -134,7 +134,7 @@ Changes the value of the visual's Visible property.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280426(v=VS.85).aspx">IDCompositionVisual2</a>
+<a href="https://msdn.microsoft.com/D4D04A43-BF00-482A-9CDD-A476BD1CB953">IDCompositionVisual2</a>
 
 
 

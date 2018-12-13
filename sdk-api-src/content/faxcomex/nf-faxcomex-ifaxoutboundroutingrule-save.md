@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxOutboundRoutingRule::Save</b> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object data.
+The <b>IFaxOutboundRoutingRule::Save</b> method saves the <a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a> object data.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> and <b>farQUERY_CONFIG</b> access rights.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> and <b>farQUERY_CONFIG</b> access rights.
 
 
 
@@ -86,15 +86,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a>
+<a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690232(v=VS.85).aspx">IFaxOutboundRoutingRule</a>
+<a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/35bb803d-fce4-46a3-825a-ec3a5138ed67">Visual Basic Example</a>
  
 
  

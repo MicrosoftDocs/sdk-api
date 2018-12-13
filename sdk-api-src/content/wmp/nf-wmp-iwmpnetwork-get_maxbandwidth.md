@@ -99,15 +99,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563223(v=VS.85).aspx">IWMPCore::close</a>
+<a href="https://msdn.microsoft.com/e6e21995-5dbd-4893-a9f2-6ce918d3fbc4">IWMPCore::close</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563485(v=VS.85).aspx">IWMPNetwork::put_maxBandwidth</a>
+<a href="https://msdn.microsoft.com/7259a5e2-dbc6-4ac0-946e-e79d542edb06">IWMPNetwork::put_maxBandwidth</a>
  
 
  

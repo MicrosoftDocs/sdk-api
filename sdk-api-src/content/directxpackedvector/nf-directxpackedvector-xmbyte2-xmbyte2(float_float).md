@@ -52,7 +52,7 @@ req.redist:
 
 Initializes a new instance of <code>XMBYTE2</code> from two <code>float</code> arguments.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a> from two <code>float</code> arguments.
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/AA5A5A85-7AEE-4CD9-AAE9-004A65BAB076">XMBYTE2</a> from two <code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
 
 ## -parameters
@@ -106,11 +106,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a>
+<a href="https://msdn.microsoft.com/AA5A5A85-7AEE-4CD9-AAE9-004A65BAB076">XMBYTE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449492(v=VS.85).aspx">XMBYTE2 Constructors</a>
+<a href="https://msdn.microsoft.com/157ce586-aa49-49b8-9fcd-03815f4ed67b">XMBYTE2 Constructors</a>
  
 
  

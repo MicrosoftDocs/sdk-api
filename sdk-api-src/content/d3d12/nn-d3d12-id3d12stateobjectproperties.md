@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides methods for getting and setting the properties of an <a href="https://msdn.microsoft.com/en-us/library/Mt815591(v=VS.85).aspx">ID3D12StateObject</a>.
+Provides methods for getting and setting the properties of an <a href="https://msdn.microsoft.com/5BE94583-31DC-4469-9049-7768D64F7F41">ID3D12StateObject</a>.
 
 
 ## -inheritance
@@ -70,7 +70,7 @@ The <b>ID3D12StateObjectProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt815592(v=VS.85).aspx">GetPipelineStackSize</a>
+<a href="https://msdn.microsoft.com/6570D84B-F589-4090-8F08-F91B12B0E283">GetPipelineStackSize</a>
 </td>
 <td align="left" width="63%">
 Gets the current pipeline stack size.
@@ -79,7 +79,7 @@ Gets the current pipeline stack size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt847467(v=VS.85).aspx">GetShaderIdentifier</a>
+<a href="https://msdn.microsoft.com/E93279A1-4238-49C7-8525-EE01999454D9">GetShaderIdentifier</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique identifier for a shader that can be used in a shader record.  
@@ -88,7 +88,7 @@ Retrieves the unique identifier for a shader that can be used in a shader record
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt847468(v=VS.85).aspx">GetShaderStackSize</a>
+<a href="https://msdn.microsoft.com/3C804CAF-7263-4E37-9C00-F85959CE651D">GetShaderStackSize</a>
 </td>
 <td align="left" width="63%">
 Gets the amount of stack memory required to invoke a raytracing shader in HLSL.  
@@ -97,7 +97,7 @@ Gets the amount of stack memory required to invoke a raytracing shader in HLSL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt815593(v=VS.85).aspx">SetPipelineStackSize</a>
+<a href="https://msdn.microsoft.com/0BB69DBB-F8A1-4C32-AE82-3A49E2E0E4B3">SetPipelineStackSize</a>
 </td>
 <td align="left" width="63%">
 Set the current pipeline stack size.  

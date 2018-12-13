@@ -4,7 +4,7 @@ title: ImageRemoveCertificate function
 author: windows-sdk-content
 description: Removes the specified certificate from the given file.
 old-location: base\imageremovecertificate.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e06da4c5-6641-47f8-9dd9-4a1593e11f7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

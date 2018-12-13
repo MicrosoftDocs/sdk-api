@@ -55,7 +55,7 @@ req.redist:
 ]
 
 
-The <b>StartDetection</b> method begins the proximity detection process. After calling this method, do not release the <a href="https://msdn.microsoft.com/en-us/library/Dd757423(v=VS.85).aspx">IWMProximityDetection</a> until you recieve the WMT_PROXIMITY_COMPLETED message.
+The <b>StartDetection</b> method begins the proximity detection process. After calling this method, do not release the <a href="https://msdn.microsoft.com/0897ad8f-8e06-4de9-840e-1588e0e20c54">IWMProximityDetection</a> until you recieve the WMT_PROXIMITY_COMPLETED message.
 
 
 
@@ -92,17 +92,17 @@ Specifies the number of additional ports that the method will attempt to use if 
 
 ### -param ppRegistrationResponseMsg [out]
 
-Address of a variable that receives the address of the <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface on the buffer object containing the registration response message. You must send this message data to the device.
+Address of a variable that receives the address of the <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface on the buffer object containing the registration response message. You must send this message data to the device.
 
 
 ### -param pCallback [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> interface that will receive proximity detection status messages.
+Address of the <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a> interface that will receive proximity detection status messages.
 
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback.
+Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback.
 
 
 ## -returns
@@ -139,7 +139,7 @@ The method succeeded.
 
 This method is asynchronous. When proximity detection is complete, a WMT_PROXIMITY_RESULT message is sent to the callback specified by <i>pCallback</i>. The completion message is accompanied by an <b>HRESULT</b> indicating success or failure.
 
-Regardless of whether the proximity detection completes, the listening thread runs for two minutes, then send the  WMT_PROXIMITY_COMPLETED message. Do not release the <a href="https://msdn.microsoft.com/en-us/library/Dd757423(v=VS.85).aspx">IWMProximityDetection</a> interface until you receive this message.
+Regardless of whether the proximity detection completes, the listening thread runs for two minutes, then send the  WMT_PROXIMITY_COMPLETED message. Do not release the <a href="https://msdn.microsoft.com/0897ad8f-8e06-4de9-840e-1588e0e20c54">IWMProximityDetection</a> interface until you receive this message.
 
 If this method returns a failure code, no messages are sent to the callback.
 
@@ -151,7 +151,7 @@ If this method returns a failure code, no messages are sent to the callback.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757423(v=VS.85).aspx">IWMProximityDetection Interface</a>
+<a href="https://msdn.microsoft.com/0897ad8f-8e06-4de9-840e-1588e0e20c54">IWMProximityDetection Interface</a>
  
 
  

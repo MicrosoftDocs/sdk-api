@@ -4,7 +4,7 @@ title: FLASHWINFO
 author: windows-sdk-content
 description: Contains the flash status for a window and the number of times the system should flash the window.
 old-location: base\flashwinfo_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: b16636bc-fa77-4eb9-9801-dc2cdf0556e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

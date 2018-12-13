@@ -82,11 +82,11 @@ Returns S_OK if the renderer is using the default destination rectangle, or S_FA
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389598(v=VS.85).aspx">IBasicVideo::SetDefaultDestinationPosition</a>
+<a href="https://msdn.microsoft.com/82ee1be5-4a58-4104-a8a5-3c3926e2f1d2">IBasicVideo::SetDefaultDestinationPosition</a>
  
 
  

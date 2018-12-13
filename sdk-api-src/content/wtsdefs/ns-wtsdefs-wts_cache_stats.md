@@ -4,7 +4,7 @@ title: WTS_CACHE_STATS
 author: windows-sdk-content
 description: Contains protocol cache statistics.
 old-location: termserv\wts_cache_stats.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 3c29596f-77c6-415b-bf97-529f70b9d9fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -52,7 +52,7 @@ req.redist:
 
 Default constructor for <code>XMU555</code>
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a>
+Default constructor for <a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.
     </div><div> </div>
@@ -93,11 +93,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a>
+<a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415437(v=VS.85).aspx">XMU555 Constructors</a>
+<a href="https://msdn.microsoft.com/afde874c-b4e2-4edb-92bf-895224793e91">XMU555 Constructors</a>
  
 
  

@@ -4,7 +4,7 @@ title: IWRdsWddmIddProps::EnableWddmIdd
 author: windows-sdk-content
 description: Termsrv uses this method to tell protocol stack which mode it is operating.
 old-location: termserv\iwrdswddmiddprops_enablewddmidd.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 19F07236-6F9C-49F0-B100-E02F9DBF54F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -81,7 +81,7 @@ S_OK or error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt832805(v=VS.85).aspx">IWRdsWddmIddProps</a>
+<a href="https://msdn.microsoft.com/9473E754-D158-40E7-9E76-D8EA5A4BE86E">IWRdsWddmIddProps</a>
  
 
  

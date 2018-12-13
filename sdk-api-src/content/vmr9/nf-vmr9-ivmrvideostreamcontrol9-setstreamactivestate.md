@@ -90,7 +90,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390529(v=VS.85).aspx">IVMRVideoStreamControl9 Interface</a>
+<a href="https://msdn.microsoft.com/df642ebb-058b-41db-95d3-d7d3bf9a6dd0">IVMRVideoStreamControl9 Interface</a>
 
 
 

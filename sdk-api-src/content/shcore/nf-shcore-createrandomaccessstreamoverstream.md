@@ -66,7 +66,7 @@ The COM stream to encapsulate.
 
 ### -param options [in]
 
-One of the <a href="https://msdn.microsoft.com/en-us/library/Hh846254(v=VS.85).aspx">BSOS_OPTIONS</a> options that specify the behavior of the <a href="https://msdn.microsoft.com/dec8e90e-2cbb-497c-ad7f-c77c713af83c">RandomAccessStream</a> that encapsulates <i>stream</i>.
+One of the <a href="https://msdn.microsoft.com/C51D945B-37C6-44CB-BF80-5FA62EE1F477">BSOS_OPTIONS</a> options that specify the behavior of the <a href="https://msdn.microsoft.com/dec8e90e-2cbb-497c-ad7f-c77c713af83c">RandomAccessStream</a> that encapsulates <i>stream</i>.
 
 
 ### -param riid [in]

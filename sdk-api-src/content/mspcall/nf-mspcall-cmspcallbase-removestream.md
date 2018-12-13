@@ -53,7 +53,7 @@ req.redist:
 (Interface 
 <b>RemoveStream</b>) The 
 <b>RemoveStream</b> method is called by the application to remove a stream from the call. Derived MSP call objects that do not want to allow applications to remove streams should override this to simply return TAPI_E_NOTSUPPORTED. (This is a good simplification strategy for many MSPs.) Derived call objects that do support removal of streams by the application should override this method to remove the stream object from the call object's list of streams and release the call's references to the stream. (Also  see the 
-<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a> implementation.)
+<a href="https://msdn.microsoft.com/86512d40-380b-4e98-840d-b7be99a86623">CMSPCallMultiGraph</a> implementation.)
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Pointer to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>
+<a href="https://msdn.microsoft.com/77b53b66-38fa-4823-9051-e857da8a7dd7">CMSPCallBase</a>
  
 
  

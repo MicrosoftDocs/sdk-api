@@ -73,34 +73,34 @@ The <b>IWMReaderCallbackAdvanced</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743495(v=VS.85).aspx">AllocateForOutput</a>
+<a href="https://msdn.microsoft.com/bd7340c9-9380-4dba-b8ac-2a616ce9949f">AllocateForOutput</a>
 </td>
 <td align="left" width="63%">
-Allocates a buffer for samples delivered to the <a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a> method.
+Allocates a buffer for samples delivered to the <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743496(v=VS.85).aspx">AllocateForStream</a>
+<a href="https://msdn.microsoft.com/82d31f4b-d8a8-4538-be5e-dd9149e3f420">AllocateForStream</a>
 </td>
 <td align="left" width="63%">
-Allocates a buffer for samples delivered to the <a href="https://msdn.microsoft.com/en-us/library/Dd743500(v=VS.85).aspx">OnStreamSample</a> method.
+Allocates a buffer for samples delivered to the <a href="https://msdn.microsoft.com/6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8">OnStreamSample</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743497(v=VS.85).aspx">OnOutputPropsChanged</a>
+<a href="https://msdn.microsoft.com/5e8193c4-5fc7-4b19-9f6e-6873ebe5156a">OnOutputPropsChanged</a>
 </td>
 <td align="left" width="63%">
-Called when the output media properties change because of an <a href="https://msdn.microsoft.com/en-us/library/Dd743605(v=VS.85).aspx">IWMReader::SetOutputProps</a> call.
+Called when the output media properties change because of an <a href="https://msdn.microsoft.com/0a5325d1-880b-4d65-96af-9d311dca989b">IWMReader::SetOutputProps</a> call.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743500(v=VS.85).aspx">OnStreamSample</a>
+<a href="https://msdn.microsoft.com/6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8">OnStreamSample</a>
 </td>
 <td align="left" width="63%">
 Delivers stream samples from the source file without decompressing them first.
@@ -109,7 +109,7 @@ Delivers stream samples from the source file without decompressing them first.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743501(v=VS.85).aspx">OnStreamSelection</a>
+<a href="https://msdn.microsoft.com/d0d699b3-e2f3-427c-9159-e2ed875887ca">OnStreamSelection</a>
 </td>
 <td align="left" width="63%">
 Notifies the application of stream changes made due to bandwidth restrictions.
@@ -118,7 +118,7 @@ Notifies the application of stream changes made due to bandwidth restrictions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743502(v=VS.85).aspx">OnTime</a>
+<a href="https://msdn.microsoft.com/9913bbc4-df59-484f-b050-324e2ecdeb1c">OnTime</a>
 </td>
 <td align="left" width="63%">
 Notifies the application of the clock time the reader is working to. This is used when a user-provided clock has been specified.
@@ -133,15 +133,15 @@ Notifies the application of the clock time the reader is working to. This is use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback Interface</a>
+<a href="https://msdn.microsoft.com/69b897a8-cc26-445d-9d41-b917b399fb14">IWMReaderCallback Interface</a>
 
 
 

@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>PointF::operator-</b> method subtracts the <b>X</b> and <b>Y</b> data members of two <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> objects.
+The <b>PointF::operator-</b> method subtracts the <b>X</b> and <b>Y</b> data members of two <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> objects.
 
 
 ## -parameters
@@ -61,19 +61,19 @@ The <b>PointF::operator-</b> method subtracts the <b>X</b> and <b>Y</b> data mem
 
 ### -param point [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object whose <b>X</b> and <b>Y</b> data members are subtracted from the <b>X</b> and <b>Y</b> data members of this <b>PointF</b> object. 
+Reference to a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object whose <b>X</b> and <b>Y</b> data members are subtracted from the <b>X</b> and <b>Y</b> data members of this <b>PointF</b> object. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a></b>
 </strong>
 
-This method returns a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object that is the difference of two <b>PointF</b> objects.
+This method returns a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object that is the difference of two <b>PointF</b> objects.
 
 
 
@@ -82,14 +82,14 @@ This method returns a <a href="https://msdn.microsoft.com/en-us/library/ms534488
 
 
 
-This method overloads the subtraction operator for <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> objects. If A, B, and C are <b>PointF</b> objects, the statement <b>C = A - B</b> is equivalent to <b>C = A.operator-(B)</b>.
+This method overloads the subtraction operator for <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> objects. If A, B, and C are <b>PointF</b> objects, the statement <b>C = A - B</b> is equivalent to <b>C = A.operator-(B)</b>.
 
 
 #### Examples
 
 
 
-The following example creates two <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> objects, then subtracts the second <b>PointF</b> object from the first <b>PointF</b> object and stores the result in a third <b>PointF</b> object.
+The following example creates two <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> objects, then subtracts the second <b>PointF</b> object from the first <b>PointF</b> object and stores the result in a third <b>PointF</b> object.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -113,19 +113,19 @@ PointF point3 = point1 - point2; </pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535007(v=VS.85).aspx">Equals</a>
+<a href="https://msdn.microsoft.com/b3719463-8cbf-44c4-bf0b-6673a37d322f">Equals</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535008(v=VS.85).aspx">operator+</a>
+<a href="https://msdn.microsoft.com/751eea61-b0c6-4112-bf0b-2936d12fb97e">operator+</a>
  
 
  

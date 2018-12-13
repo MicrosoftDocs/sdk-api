@@ -73,7 +73,7 @@ A reference to the <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-d
 
 Type: <b>DWORD</b>
 
-Flags that specify special options in the object retrieval. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a> values.
+Flags that specify special options in the object retrieval. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a> values.
 
 
 ### -param pszItem [in, optional]

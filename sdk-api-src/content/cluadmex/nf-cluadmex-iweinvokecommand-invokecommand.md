@@ -72,9 +72,9 @@ Identifier of the menu item containing the command to perform. The identifier re
 ### -param piData [in]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information associated with the 
+<a href="_com_iunknown">IUnknown</a> interface pointer for retrieving information associated with the 
        command identified by <i>nCommandID</i>. By calling the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method with the <i>piData</i> 
+       <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method with the <i>piData</i> 
        pointer, the following interfaces are available:
 
 <ul>
@@ -88,7 +88,7 @@ Identifier of the menu item containing the command to perform. The identifier re
 <a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
 </li>
 </ul>
-Depending on the type of <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster object</a> to 
+Depending on the type of <a href="c_gly.htm">cluster object</a> to 
        which the context menu item applies, a pointer to one of the following interfaces is also available:
 
 <ul>

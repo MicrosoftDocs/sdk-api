@@ -71,9 +71,9 @@ A handle to the window being scrolled.
 
 ### -param pad [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773196(v=VS.85).aspx">AUTO_SCROLL_DATA</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4229dd3b-1fc7-4cc7-bcc9-4e25bdc17c11">AUTO_SCROLL_DATA</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb773196(v=VS.85).aspx">AUTO_SCROLL_DATA</a> structure.
+A pointer to the <a href="https://msdn.microsoft.com/4229dd3b-1fc7-4cc7-bcc9-4e25bdc17c11">AUTO_SCROLL_DATA</a> structure.
 
 
 ### -param pptNow [in]
@@ -98,7 +98,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-The function is successful and the window scrolls only when the <b>bFull</b> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Bb773196(v=VS.85).aspx">AUTO_SCROLL_DATA</a> structure is <b>TRUE</b>. Each time this function is called, as long as <b>bFull</b> is <b>FALSE</b>, the <b>iNextSample</b> parameter is incremented by 1 and the current scroll coordinates and time are returned in the <b>AUTO_SCROLL_DATA</b> structure. When <b>iNextSample</b> is equal to NUM_POINTS, <b>bFull</b> is set to <b>TRUE</b>, the function succeeds, and the window scrolls.
+The function is successful and the window scrolls only when the <b>bFull</b> parameter of the <a href="https://msdn.microsoft.com/4229dd3b-1fc7-4cc7-bcc9-4e25bdc17c11">AUTO_SCROLL_DATA</a> structure is <b>TRUE</b>. Each time this function is called, as long as <b>bFull</b> is <b>FALSE</b>, the <b>iNextSample</b> parameter is incremented by 1 and the current scroll coordinates and time are returned in the <b>AUTO_SCROLL_DATA</b> structure. When <b>iNextSample</b> is equal to NUM_POINTS, <b>bFull</b> is set to <b>TRUE</b>, the function succeeds, and the window scrolls.
 
 
 
@@ -109,7 +109,7 @@ The function is successful and the window scrolls only when the <b>bFull</b> par
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773196(v=VS.85).aspx">AUTO_SCROLL_DATA</a>
+<a href="https://msdn.microsoft.com/4229dd3b-1fc7-4cc7-bcc9-4e25bdc17c11">AUTO_SCROLL_DATA</a>
  
 
  

@@ -79,7 +79,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-This method removes any servers that were added using the <a href="https://msdn.microsoft.com/en-us/library/Dd743519(v=VS.85).aspx">IWMReaderNetworkConfig::AddLoggingUrl</a> method. Note that the originating server always receives a log, even after the list is cleared.
+This method removes any servers that were added using the <a href="https://msdn.microsoft.com/471b17c8-20e4-44f3-88ee-48a35cd8930c">IWMReaderNetworkConfig::AddLoggingUrl</a> method. Note that the originating server always receives a log, even after the list is cleared.
 
 
 
@@ -93,7 +93,7 @@ This method removes any servers that were added using the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
  
 
  

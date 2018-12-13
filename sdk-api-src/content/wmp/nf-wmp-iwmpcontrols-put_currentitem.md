@@ -108,19 +108,19 @@ This method works only with items in the playlist. Calling <b>put_currentItem</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563197(v=VS.85).aspx">IWMPControls::get_currentItem</a>
+<a href="https://msdn.microsoft.com/1c2443cd-d7e6-466f-b728-ad04a415d192">IWMPControls::get_currentItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563554(v=VS.85).aspx">IWMPPlaylistCollection::getByName</a>
+<a href="https://msdn.microsoft.com/9d837c57-8612-47ef-a0fa-a3ffa77ac704">IWMPPlaylistCollection::getByName</a>
  
 
  

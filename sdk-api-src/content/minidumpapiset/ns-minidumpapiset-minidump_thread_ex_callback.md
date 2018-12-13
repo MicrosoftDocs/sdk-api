@@ -4,7 +4,7 @@ title: MINIDUMP_THREAD_EX_CALLBACK
 author: windows-sdk-content
 description: Contains extended thread information for the MiniDumpCallback function when the callback type is ThreadExCallback.
 old-location: base\minidump_thread_ex_callback_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: a81856df-14a3-42bc-89dc-9796c7b252be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

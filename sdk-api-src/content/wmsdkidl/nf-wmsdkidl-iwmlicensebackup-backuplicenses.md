@@ -88,7 +88,7 @@ The <b>BackupLicenses</b> method saves copies of the licenses.
 
 ### -param pCallback [in]
 
-Pointer to an object that implements the <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> interface.
+Pointer to an object that implements the <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a> interface.
 
 
 ## -returns
@@ -145,7 +145,7 @@ Not enough memory available to perform the task.
 
 
 
-For more information on how to specify the location of the backup file (there are predefined properties for the backup path and restore path for this purpose), see <a href="https://msdn.microsoft.com/en-us/library/Dd743291(v=VS.85).aspx">IWMBackupRestoreProps Interface</a>.
+For more information on how to specify the location of the backup file (there are predefined properties for the backup path and restore path for this purpose), see <a href="https://msdn.microsoft.com/3a5af1f3-e652-4729-931b-d0702af408f3">IWMBackupRestoreProps Interface</a>.
 
 This method operates asynchronously, and an <b>IWMStatusCallback</b> object can be used to track progress.
 
@@ -157,11 +157,11 @@ This method operates asynchronously, and an <b>IWMStatusCallback</b> object can 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743291(v=VS.85).aspx">IWMBackupRestoreProps Interface</a>
+<a href="https://msdn.microsoft.com/3a5af1f3-e652-4729-931b-d0702af408f3">IWMBackupRestoreProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757218(v=VS.85).aspx">IWMLicenseBackup Interface</a>
+<a href="https://msdn.microsoft.com/4ef43b7e-706b-48f6-80ba-7d0a59c3929a">IWMLicenseBackup Interface</a>
  
 
  

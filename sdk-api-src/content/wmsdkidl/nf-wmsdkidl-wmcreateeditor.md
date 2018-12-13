@@ -63,7 +63,7 @@ The <b>WMCreateEditor</b> function creates a metadata editor object.
 
 ### -param ppEditor [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757232(v=VS.85).aspx">IWMMetadataEditor</a> interface of the newly created metadata editor object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/ad19cd3e-d1ef-4d6c-ac23-29a56e5c1d66">IWMMetadataEditor</a> interface of the newly created metadata editor object.
 
 
 ## -returns

@@ -145,19 +145,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420997(v=VS.85).aspx">XMVectorATan</a>
+<a href="https://msdn.microsoft.com/b7fe0cd6-a447-4123-8715-8f540fdcced6">XMVectorATan</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420998(v=VS.85).aspx">XMVectorATan2</a>
+<a href="https://msdn.microsoft.com/f39d7f8e-49a8-428e-b115-e91a9412d13c">XMVectorATan2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421002(v=VS.85).aspx">XMVectorATanEst</a>
+<a href="https://msdn.microsoft.com/4b3432aa-535a-4b5a-b878-c26b6d77cfe4">XMVectorATanEst</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421361(v=VS.85).aspx">XMVectorTan</a>
+<a href="https://msdn.microsoft.com/6555d1a8-fb83-4e29-877f-3efb845eb620">XMVectorTan</a>
  
 
  

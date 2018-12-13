@@ -52,7 +52,7 @@ req.redist:
 
 
 
-The <code>UnAdvise</code> method instructs the Overlay Mixer to release its pointer to the client's <a href="https://msdn.microsoft.com/en-us/library/Dd407085(v=VS.85).aspx">IMixerOCXNotify</a> interface.
+The <code>UnAdvise</code> method instructs the Overlay Mixer to release its pointer to the client's <a href="https://msdn.microsoft.com/b73416c0-2312-4164-8a6d-f8776dc1447f">IMixerOCXNotify</a> interface.
 
 
 
@@ -78,7 +78,7 @@ If the method succeeds, it returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407084(v=VS.85).aspx">IMixerOCX Interface</a>
+<a href="https://msdn.microsoft.com/b80d720d-921d-4d24-a168-49944cfcc411">IMixerOCX Interface</a>
 
 
 

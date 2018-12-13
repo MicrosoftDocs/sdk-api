@@ -81,7 +81,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 <b>XMVectorLogE</b> is new for DirectXMath version 3.05. 
 
-It's similar to the existing <a href="https://msdn.microsoft.com/en-us/library/Ee421175(v=VS.85).aspx">XMVectorLog</a> function for Windows 8, but computes base e instead of base 2.
+It's similar to the existing <a href="https://msdn.microsoft.com/fbc211d2-1cde-4145-9439-2bcccd763358">XMVectorLog</a> function for Windows 8, but computes base e instead of base 2.
 
 
 <b>XMVectorLogE</b> is implemented like this:

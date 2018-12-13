@@ -71,7 +71,7 @@ Pointer to a wide-character null-terminated string containing the protocol name.
 
 ### -param ProxySetting [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757852(v=VS.85).aspx">WMT_PROXY_SETTINGS</a> enumeration type.
+A value from the <a href="https://msdn.microsoft.com/a055259e-e207-426c-b6ca-a27bc3d0e88c">WMT_PROXY_SETTINGS</a> enumeration type.
 
 
 ## -returns
@@ -117,7 +117,7 @@ NULL or invalid argument passed in.
 
 
 
-Setting the protocol to WMT_PROXY_SETTING_MANUAL causes the reader to use the proxy settings from <a href="https://msdn.microsoft.com/en-us/library/Dd743548(v=VS.85).aspx">SetProxyHostName</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd743549(v=VS.85).aspx">SetProxyPort</a>. Setting it to WMT_PROXY_SETTING_AUTO uses Web Proxy Auto-Detect mechanisms to dynamically determine the appropriate proxy based on the specified URL. Setting the protocol to WMT_PROXY_SETTING_BROWSER is valid only for HTTP URLs, and causes the reader to use the proxy settings that are configured in the browser.
+Setting the protocol to WMT_PROXY_SETTING_MANUAL causes the reader to use the proxy settings from <a href="https://msdn.microsoft.com/5638a5d6-30f3-43eb-b054-cab85948796c">SetProxyHostName</a> and <a href="https://msdn.microsoft.com/e2f4e8ff-6ac8-45b5-af93-a278bf92a07a">SetProxyPort</a>. Setting it to WMT_PROXY_SETTING_AUTO uses Web Proxy Auto-Detect mechanisms to dynamically determine the appropriate proxy based on the specified URL. Setting the protocol to WMT_PROXY_SETTING_BROWSER is valid only for HTTP URLs, and causes the reader to use the proxy settings that are configured in the browser.
 
 
 
@@ -127,23 +127,23 @@ Setting the protocol to WMT_PROXY_SETTING_MANUAL causes the reader to use the pr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743534(v=VS.85).aspx">IWMReaderNetworkConfig::GetProxySettings</a>
+<a href="https://msdn.microsoft.com/5fdfc651-05f5-48b3-aeaf-4557c72bc0c0">IWMReaderNetworkConfig::GetProxySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743548(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxyHostName</a>
+<a href="https://msdn.microsoft.com/5638a5d6-30f3-43eb-b054-cab85948796c">IWMReaderNetworkConfig::SetProxyHostName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743549(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxyPort</a>
+<a href="https://msdn.microsoft.com/e2f4e8ff-6ac8-45b5-af93-a278bf92a07a">IWMReaderNetworkConfig::SetProxyPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757852(v=VS.85).aspx">WMT_PROXY_SETTINGS</a>
+<a href="https://msdn.microsoft.com/a055259e-e207-426c-b6ca-a27bc3d0e88c">WMT_PROXY_SETTINGS</a>
  
 
  

@@ -63,7 +63,7 @@ Specifies the copy protection state of the filter.
 
 ### -field DVDCopyState
 
-Copy protection state of the filter. Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373459(v=VS.85).aspx">AM_DVDCOPYSTATE</a> enumerated data type.
+Copy protection state of the filter. Member of the <a href="https://msdn.microsoft.com/32a9783e-f9f1-4e37-8cd2-3ff5634d75f6">AM_DVDCOPYSTATE</a> enumerated data type.
 
 
 ## -remarks
@@ -72,7 +72,7 @@ Copy protection state of the filter. Member of the <a href="https://msdn.microso
 
 Both the <a href="https://msdn.microsoft.com/f39862db-0659-4533-8cee-aee2f778e085">IKsPropertySet::Get</a> and <a href="https://msdn.microsoft.com/78f506dc-7fb4-446d-863e-cffee9da5280">IKsPropertySet::Set</a> methods are supported on this property. The Get method is called first to determine if authentication is required. If a filter provides multiple pins that use the same authenticator, such as a hardware DVD decoder, the decoder might respond with <b>AM_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED</b> on some pins to indicate that the key exchange algorithm only needs to be applied once. The filter should respond with <b>AM_DVDCOPYSTATE_AUTHENTICATION_REQUIRED</b> to get the copy protection state property on the first pin where this property is issued.
 
-The Set method is used to indicate which phase of copy protection negotiation the filter is entering. Specify these by setting the required flag in the <a href="https://msdn.microsoft.com/en-us/library/Dd373459(v=VS.85).aspx">AM_DVDCOPYSTATE</a> enumerated type.
+The Set method is used to indicate which phase of copy protection negotiation the filter is entering. Specify these by setting the required flag in the <a href="https://msdn.microsoft.com/32a9783e-f9f1-4e37-8cd2-3ff5634d75f6">AM_DVDCOPYSTATE</a> enumerated type.
 
 The AM_PROPERTY_DVDCOPY_SET_COPY_STATE property uses this structure.
 

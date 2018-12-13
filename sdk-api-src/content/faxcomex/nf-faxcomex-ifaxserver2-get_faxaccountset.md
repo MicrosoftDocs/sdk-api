@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxServer2::FaxAccountSet</b> property returns a <a href="https://msdn.microsoft.com/en-us/library/Aa359014(v=VS.85).aspx">IFaxAccountSet</a> object used to manage the fax accounts on the fax server. 
+The <b>IFaxServer2::FaxAccountSet</b> property returns a <a href="https://msdn.microsoft.com/b4733772-92cb-4f4a-8a73-da1812356c30">IFaxAccountSet</a> object used to manage the fax accounts on the fax server. 
 
 This property is read-only.
 
@@ -65,11 +65,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358976(v=VS.85).aspx">IFaxServer2</a>
+<a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>
  
 
  

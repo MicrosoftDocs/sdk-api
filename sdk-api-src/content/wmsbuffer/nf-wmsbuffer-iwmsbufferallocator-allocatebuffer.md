@@ -68,7 +68,7 @@ The <b>AllocateBuffer</b> method initializes a buffer.
 
 ### -param ppBuffer [out]
 
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface.
+Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743699(v=VS.85).aspx">IWMSBufferAllocator Interface</a>
+<a href="https://msdn.microsoft.com/021ced93-4b79-4821-a380-7fed43fd5391">IWMSBufferAllocator Interface</a>
  
 
  

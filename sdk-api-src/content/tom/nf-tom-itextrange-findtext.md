@@ -151,8 +151,8 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 The <b>ITextRange::FindText</b> method can also match special characters by using a caret (^) followed by a special letter. For a list of special characters, see the Special list available in the Microsoft Word 
 				<b>Find and Replace</b> dialog box. For example, <code>^p</code> matches the next paragraph mark. Note, <code>^c</code> can be used to represent the Clipboard contents in the string to be replaced. Thus, using <code>^c</code> in the find string enables you to search for rich text. For more details, see the Word Help files. 
 
-As a comparison with the <b>ITextRange::FindText</b> method, the <a href="https://msdn.microsoft.com/en-us/library/Bb773923(v=VS.85).aspx">ITextRange::FindTextStart</a> method searches forward or backward from the range's Start 
-				<i>cp</i>, and the <a href="https://msdn.microsoft.com/en-us/library/Bb773921(v=VS.85).aspx">ITextRange::FindTextEnd</a> method searches forward or backward from the range's End 
+As a comparison with the <b>ITextRange::FindText</b> method, the <a href="https://msdn.microsoft.com/babf0228-1315-4f76-9e4e-590df3034d9c">ITextRange::FindTextStart</a> method searches forward or backward from the range's Start 
+				<i>cp</i>, and the <a href="https://msdn.microsoft.com/2d4ebabf-973d-467f-a80e-80c8abf5194e">ITextRange::FindTextEnd</a> method searches forward or backward from the range's End 
 				<i>cp</i>. For more details, see the descriptions of these methods.
 
 The following are several code snippets that show the <b>ITextRange::FindText</b> methods.
@@ -280,15 +280,15 @@ To do this for all such occurrences, change the If into a While/Wend loop in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773921(v=VS.85).aspx">FindTextEnd</a>
+<a href="https://msdn.microsoft.com/2d4ebabf-973d-467f-a80e-80c8abf5194e">FindTextEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773923(v=VS.85).aspx">FindTextStart</a>
+<a href="https://msdn.microsoft.com/babf0228-1315-4f76-9e4e-590df3034d9c">FindTextStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -296,7 +296,7 @@ To do this for all such occurrences, change the If into a While/Wend loop in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

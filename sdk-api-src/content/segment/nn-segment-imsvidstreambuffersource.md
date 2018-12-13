@@ -58,7 +58,7 @@ The <b>IMSVidStreamBufferSource</b> interface represents the Stream Buffer Sourc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694551(v=VS.85).aspx">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource</b> interface inherits from <a href="https://msdn.microsoft.com/d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IMSVidStreamBufferSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694687(v=VS.85).aspx">CurrentRatings</a>
+<a href="https://msdn.microsoft.com/c388d972-07d9-4347-97d3-03a46a6bb50c">CurrentRatings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current ratings information from the data source.
@@ -82,7 +82,7 @@ Retrieves the current ratings information from the data source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694688(v=VS.85).aspx">get_RecordingAttribute</a>
+<a href="https://msdn.microsoft.com/9e7020c8-778d-4a24-ae29-3e66d4ac165a">get_RecordingAttribute</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Stream Buffer Source filter that this object manages.
@@ -91,7 +91,7 @@ Retrieves the Stream Buffer Source filter that this object manages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694689(v=VS.85).aspx">get_SBESource</a>
+<a href="https://msdn.microsoft.com/6ba9cf64-bf26-4a17-ae7a-3e92fc67138d">get_SBESource</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the Stream Buffer Source filter.
@@ -100,7 +100,7 @@ Retrieves a pointer to the Stream Buffer Source filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694690(v=VS.85).aspx">get_Start</a>
+<a href="https://msdn.microsoft.com/4c6ad8b7-93d9-46de-b84a-a4575f3e6183">get_Start</a>
 </td>
 <td align="left" width="63%">
 Retrieves the start time.
@@ -109,7 +109,7 @@ Retrieves the start time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694691(v=VS.85).aspx">MaxRatingsLevel</a>
+<a href="https://msdn.microsoft.com/74dbb008-21c9-4651-8386-761626b7bf19">MaxRatingsLevel</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum ratings level the object is permitted to play.
@@ -118,7 +118,7 @@ Specifies the maximum ratings level the object is permitted to play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694692(v=VS.85).aspx">put_BlockUnrated</a>
+<a href="https://msdn.microsoft.com/9dd59b87-708b-4003-9575-54a02b97c272">put_BlockUnrated</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to block unrated content.
@@ -127,7 +127,7 @@ Specifies whether to block unrated content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694693(v=VS.85).aspx">put_UnratedDelay</a>
+<a href="https://msdn.microsoft.com/7b4e1ac4-dfb8-45c0-9079-16f8babcb494">put_UnratedDelay</a>
 </td>
 <td align="left" width="63%">
 Specifies the amount of time to play unrated content before blocking it.
@@ -151,7 +151,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694551(v=VS.85).aspx">IMSVidFilePlayback</a>
+<a href="https://msdn.microsoft.com/d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5">IMSVidFilePlayback</a>
 
 
 

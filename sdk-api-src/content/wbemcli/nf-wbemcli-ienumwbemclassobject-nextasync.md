@@ -68,7 +68,7 @@ Number of objects being requested.
 ### -param pSink [in]
 
 Sink to receive the objects. The sink must be implemented by the caller. As each batch of objects is requested, they are delivered to the <i>pSink</i> parameter of the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">Indicate</a> method followed by a final call to the <i>pSink</i>parameter of the <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> method. If the sink is going to be used to deliver objects, this method returns <b>WBEM_S_NO_ERROR</b>, even if the number of objects to be delivered is less than requested. However, if there are no more objects remaining, then the <i>pSink</i> parameter is ignored (no calls to the <i>pSink</i>parameter of <b>SetStatus</b> are made). Instead, this method returns <b>WBEM_S_FALSE</b>.
+      <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a> method followed by a final call to the <i>pSink</i>parameter of the <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> method. If the sink is going to be used to deliver objects, this method returns <b>WBEM_S_NO_ERROR</b>, even if the number of objects to be delivered is less than requested. However, if there are no more objects remaining, then the <i>pSink</i> parameter is ignored (no calls to the <i>pSink</i>parameter of <b>SetStatus</b> are made). Instead, this method returns <b>WBEM_S_FALSE</b>.
 
 
 ## -returns
@@ -94,14 +94,14 @@ This call returns immediately and delivery to the sink occurs in the background.
 If the number of requested objects is immediately available, the function returns <b>WBEM_S_NO_ERROR</b>. If less than the number of requested objects are available, the available objects are returned and <b>WBEM_S_NO_ERROR</b> are returned. The remainder of the objects are delivered by the user-supplied sink.
 
 As the objects become available, the caller's implementation of 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> is called zero or more times to deliver the objects. This is followed by a call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> with a value of <b>WBEM_S_NO_ERROR</b> if <i>uCount</i> items are returned.
+<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> is called zero or more times to deliver the objects. This is followed by a call to 
+<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> with a value of <b>WBEM_S_NO_ERROR</b> if <i>uCount</i> items are returned.
 
-If fewer objects are available than the number requested, <a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">Indicate</a> is called for those objects that are available. <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> is then called with a value of <b>WBEM_S_FALSE</b>, or the error code if an error occurred.
+If fewer objects are available than the number requested, <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a> is called for those objects that are available. <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> is then called with a value of <b>WBEM_S_FALSE</b>, or the error code if an error occurred.
 
-If the requested number of objects is delivered, the final object is followed by a call to <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> with a status code of <b>WBEM_S_NO_ERROR</b>. If the enumeration completes before the requested number of objects can be delivered, the <b>SetStatus</b> method has a status code of <b>WBEM_S_FALSE</b>.
+If the requested number of objects is delivered, the final object is followed by a call to <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> with a status code of <b>WBEM_S_NO_ERROR</b>. If the enumeration completes before the requested number of objects can be delivered, the <b>SetStatus</b> method has a status code of <b>WBEM_S_FALSE</b>.
 
-If there are no available objects, <a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">Indicate</a> is not called. However, a final call to <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> always occurs to indicate the status of the entire operation.
+If there are no available objects, <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a> is not called. However, a final call to <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> always occurs to indicate the status of the entire operation.
 
 Because the callback might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 

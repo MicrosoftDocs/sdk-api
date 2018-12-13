@@ -77,7 +77,7 @@ The <b>IWMLanguageList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757215(v=VS.85).aspx">AddLanguageByRFC1766String</a>
+<a href="https://msdn.microsoft.com/3aec575c-8e04-4252-8863-1a458e56dcef">AddLanguageByRFC1766String</a>
 </td>
 <td align="left" width="63%">
 Adds an entry to the list of supported languages for a file based upon a language tag compliant with RFC 1766.
@@ -86,7 +86,7 @@ Adds an entry to the list of supported languages for a file based upon a languag
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757216(v=VS.85).aspx">GetLanguageCount</a>
+<a href="https://msdn.microsoft.com/81c2edae-a793-421b-9aa2-39e280c43aeb">GetLanguageCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of supported languages in the language list.
@@ -95,7 +95,7 @@ Retrieves the total number of supported languages in the language list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757217(v=VS.85).aspx">GetLanguageDetails</a>
+<a href="https://msdn.microsoft.com/beb9f4fb-0acf-4693-b98e-2c197b330de5">GetLanguageDetails</a>
 </td>
 <td align="left" width="63%">
 Retrieves the locale identifier (LCID) and RFC 1766-compliant tag for an entry in the list of supported languages.
@@ -114,7 +114,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 This interface provides support for referencing languages by a string compliant with RFC 1766 – Tags for the Identification of Languages. Other interfaces in this SDK refer to the languages supported in an ASF file by language index. A language index is assigned to every language added to the language list.
 
-This interface manages the list of languages supported for the file. Individual features of the file may not support all of the languages in the list. When selecting a language for playback of an output associated with a set of streams that are mutually exclusive by language, you must get the languages that are supported in that mutual exclusion object. You can retrieve the languages supported for a particular output by using the methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4</a> interface.
+This interface manages the list of languages supported for the file. Individual features of the file may not support all of the languages in the list. When selecting a language for playback of an output associated with a set of streams that are mutually exclusive by language, you must get the languages that are supported in that mutual exclusion object. You can retrieve the languages supported for a particular output by using the methods of the <a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4</a> interface.
 
 When using this interface to add metadata in multiple languages to an MP3 file, only the first half of the language string is important. For example, the RFC 1766 identifier "en-us" designates English in the region of the United States. When written to an MP3 file, the identifier would be "en" without a regional designation.
 

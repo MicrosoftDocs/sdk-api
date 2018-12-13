@@ -112,7 +112,7 @@ The application did not set a custom allocator-presenter.
 
 
 
-To set a custom allocator-presenter, call <a href="https://msdn.microsoft.com/en-us/library/Dd694766(v=VS.85).aspx">IMSVidVMR9::SetAllocator</a>.
+To set a custom allocator-presenter, call <a href="https://msdn.microsoft.com/f654adac-12b6-47c7-99d4-0612b1532df4">IMSVidVMR9::SetAllocator</a>.
 
 
 

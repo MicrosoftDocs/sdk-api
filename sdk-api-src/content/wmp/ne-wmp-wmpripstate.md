@@ -94,7 +94,7 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563102(v=VS.85).aspx">IWMPCdromRip Interface</a>
+<a href="https://msdn.microsoft.com/c3e2db46-bef0-4c79-91b5-97ca5a86c6ba">IWMPCdromRip Interface</a>
  
 
  

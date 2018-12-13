@@ -101,7 +101,7 @@ return Result;
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421024(v=VS.85).aspx">XMVectorFloor</a>
+<a href="https://msdn.microsoft.com/2faedbef-29e5-43b4-9493-0a7a54e84961">XMVectorFloor</a>
  
 
  

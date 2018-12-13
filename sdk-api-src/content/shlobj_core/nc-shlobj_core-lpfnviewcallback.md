@@ -193,7 +193,7 @@ Allows the callback object to specify default sorting parameters.
 
 #### SFVM_GETTOOLTIPTEXT
 
-Allows the callback object to specify a <a href="https://msdn.microsoft.com/en-us/library/Hh449606(v=VS.85).aspx">tooltip</a> text string for menu items or toolbar buttons.
+Allows the callback object to specify a <a href="_win32_Tooltip_Controls">tooltip</a> text string for menu items or toolbar buttons.
 
 
 

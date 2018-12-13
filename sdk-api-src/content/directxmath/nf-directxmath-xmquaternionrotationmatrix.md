@@ -76,7 +76,7 @@ Returns the rotation quaternion.
 
 
 
-This function only uses the upper 3x3 portion of the <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>. Note if the input matrix contains scales, shears, or 
+This function only uses the upper 3x3 portion of the <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>. Note if the input matrix contains scales, shears, or 
     other non-rotation transformations in the upper 3x3 matrix, then the output of this function is ill-defined.
 
 The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quaternions, 

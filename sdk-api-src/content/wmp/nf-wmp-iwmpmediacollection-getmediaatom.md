@@ -115,15 +115,15 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563431(v=VS.85).aspx">IWMPMedia::getItemInfo</a>
+<a href="https://msdn.microsoft.com/ee964f68-d44c-4e66-908b-09070a96d96f">IWMPMedia::getItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563432(v=VS.85).aspx">IWMPMedia::getItemInfoByAtom</a>
+<a href="https://msdn.microsoft.com/c2e803df-84f2-4c23-9872-a5435977d189">IWMPMedia::getItemInfoByAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection Interface</a>
+<a href="https://msdn.microsoft.com/bf975a30-dfb1-4994-9095-510a6b997aff">IWMPMediaCollection Interface</a>
  
 
  

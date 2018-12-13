@@ -60,7 +60,7 @@ Creates a wrapper object that represents the rasterization of a layered window, 
 
 ### -param hwnd [in]
 
-The handle of the layered window for which to create a wrapper. A layered window is created by specifying WS_EX_LAYERED when creating the window with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function or by setting WS_EX_LAYERED via <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a> after the window has been created.
+The handle of the layered window for which to create a wrapper. A layered window is created by specifying WS_EX_LAYERED when creating the window with the <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function or by setting WS_EX_LAYERED via <a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a> after the window has been created.
 
 
 ### -param surface [out]
@@ -90,7 +90,7 @@ The contents of the window are not cached beyond the life of the window. That is
 
 
 
-If the window is moved off-screen or resized to zero, the system stops composing the content of those visuals. You should use the <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a> function with the DWMWA_CLOAK flag to "cloak" the layered child window when you need to hide the original window while allowing the system to continue to compose the content of the visuals.
+If the window is moved off-screen or resized to zero, the system stops composing the content of those visuals. You should use the <a href="https://msdn.microsoft.com/51f6544a-edc4-4d0c-b39a-277a8dcbe94f">DwmSetWindowAttribute</a> function with the DWMWA_CLOAK flag to "cloak" the layered child window when you need to hide the original window while allowing the system to continue to compose the content of the visuals.
 
 
 
@@ -101,11 +101,11 @@ If the window is moved off-screen or resized to zero, the system stops composing
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280350(v=VS.85).aspx">IDCompositionDesktopDevice</a>
+<a href="https://msdn.microsoft.com/0FCDCDC2-541A-4EB5-A7FF-492AB5C25F7B">IDCompositionDesktopDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx">IDCompositionVisual::SetContent</a>
+<a href="https://msdn.microsoft.com/894E6E30-6C28-476D-9AE5-D0664A69E03C">IDCompositionVisual::SetContent</a>
  
 
  

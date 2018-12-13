@@ -65,7 +65,7 @@ A value that specifies a property type that is not valid.
 
 ### -field ENUM_SETUPPROP_CATYPE
 
-A <b>VT_I4</b> value that specifies a value of the <a href="https://msdn.microsoft.com/en-us/library/Bb648652(v=VS.85).aspx">ENUM_CATYPES</a> enumeration.
+A <b>VT_I4</b> value that specifies a value of the <a href="https://msdn.microsoft.com/32b20317-c0ef-4896-a8c6-309e34f87c30">ENUM_CATYPES</a> enumeration.
 
 If the computer is not joined to a domain, or the caller
 

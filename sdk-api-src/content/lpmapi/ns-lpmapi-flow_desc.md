@@ -66,12 +66,12 @@ Union of Tspec and flowspec information.
 
 ### -field u1.stspec
 
-Sender Tspec, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa374418(v=VS.85).aspx">SENDER_TSPEC</a> structure.
+Sender Tspec, expressed as a <a href="https://msdn.microsoft.com/d7905687-1af8-4469-b8de-a2445afa90f4">SENDER_TSPEC</a> structure.
 
 
 ### -field u1.isflow
 
-Integrated Services flowspec information, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373733(v=VS.85).aspx">IS_FLOWSPEC</a> structure.
+Integrated Services flowspec information, expressed as an <a href="https://msdn.microsoft.com/1e0cd196-f53c-4d68-a287-7a98b7215d6d">IS_FLOWSPEC</a> structure.
 
 
 ### -field u2
@@ -81,12 +81,12 @@ Union of sender and filterspec information.
 
 ### -field u2.stemp
 
-Sender template for the flow, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa373698(v=VS.85).aspx">FILTER_SPEC</a> structure.
+Sender template for the flow, expressed as a <a href="https://msdn.microsoft.com/72d08944-7ac9-496f-a18b-e6fcddb59c56">FILTER_SPEC</a> structure.
 
 
 ### -field u2.fspec
 
-Filter spec for the flow, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa373698(v=VS.85).aspx">FILTER_SPEC</a> structure.
+Filter spec for the flow, expressed as a <a href="https://msdn.microsoft.com/72d08944-7ac9-496f-a18b-e6fcddb59c56">FILTER_SPEC</a> structure.
 
 
 ## -see-also
@@ -94,15 +94,15 @@ Filter spec for the flow, expressed as a <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373698(v=VS.85).aspx">FILTER_SPEC</a>
+<a href="https://msdn.microsoft.com/72d08944-7ac9-496f-a18b-e6fcddb59c56">FILTER_SPEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373733(v=VS.85).aspx">IS_FLOWSPEC</a>
+<a href="https://msdn.microsoft.com/1e0cd196-f53c-4d68-a287-7a98b7215d6d">IS_FLOWSPEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374418(v=VS.85).aspx">SENDER_TSPEC</a>
+<a href="https://msdn.microsoft.com/d7905687-1af8-4469-b8de-a2445afa90f4">SENDER_TSPEC</a>
  
 
  

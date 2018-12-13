@@ -156,11 +156,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404788(v=VS.85).aspx">XMVectorGetIntByIndex</a>
+<a href="https://msdn.microsoft.com/a115bc06-deef-48d9-9a81-825cc2c375e2">XMVectorGetIntByIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404814(v=VS.85).aspx">XMVectorSetIntByIndexPtr</a>
+<a href="https://msdn.microsoft.com/d7641192-3033-4dea-8ee2-9c6a27b784b4">XMVectorSetIntByIndexPtr</a>
  
 
  

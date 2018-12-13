@@ -114,11 +114,11 @@ The <b>get_windowlessVideo</b> method is not supported for Netscape Navigator. S
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563515(v=VS.85).aspx">IWMPPlayer2 Interface</a>
+<a href="https://msdn.microsoft.com/bf51d54d-d0aa-42ad-8180-d1f6487baac8">IWMPPlayer2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563520(v=VS.85).aspx">IWMPPlayer2::put_windowlessVideo</a>
+<a href="https://msdn.microsoft.com/736eaf52-29bd-4223-a62d-d3d75cef1863">IWMPPlayer2::put_windowlessVideo</a>
  
 
  

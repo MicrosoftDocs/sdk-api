@@ -80,7 +80,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-For a description of this feature, see <a href="https://msdn.microsoft.com/en-us/library/Dd406831(v=VS.85).aspx">IDirectDrawVideo::UseWhenFullScreen</a>.
+For a description of this feature, see <a href="https://msdn.microsoft.com/e50f7f06-6534-4373-a2b8-fa315158729d">IDirectDrawVideo::UseWhenFullScreen</a>.
 
 
 
@@ -94,7 +94,7 @@ For a description of this feature, see <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
  
 
  

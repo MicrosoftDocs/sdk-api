@@ -126,11 +126,11 @@ This feature requires content caching to be enabled as well. Fast Cache applies 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743516(v=VS.85).aspx">IWMReaderNetworkConfig2::SetEnableFastCache</a>
+<a href="https://msdn.microsoft.com/28a01985-a133-4203-8385-d4497c29bf9c">IWMReaderNetworkConfig2::SetEnableFastCache</a>
  
 
  

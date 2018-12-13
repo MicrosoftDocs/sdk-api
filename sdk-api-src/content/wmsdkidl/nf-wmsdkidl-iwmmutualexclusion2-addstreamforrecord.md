@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>AddStreamForRecord</b> method adds a stream to a record created with <a href="https://msdn.microsoft.com/en-us/library/Dd757240(v=VS.85).aspx">IWMMutualExclusion2::AddRecord</a>.
+The <b>AddStreamForRecord</b> method adds a stream to a record created with <a href="https://msdn.microsoft.com/58eaa4b2-65d3-44b1-8e3d-1aac01057d0f">IWMMutualExclusion2::AddRecord</a>.
 
 
 
@@ -149,11 +149,11 @@ Record numbers are assigned sequentially.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757247(v=VS.85).aspx">IWMMutualExclusion2::RemoveStreamForRecord</a>
+<a href="https://msdn.microsoft.com/a32d78b7-47a3-45b6-9575-c290adf86094">IWMMutualExclusion2::RemoveStreamForRecord</a>
  
 
  

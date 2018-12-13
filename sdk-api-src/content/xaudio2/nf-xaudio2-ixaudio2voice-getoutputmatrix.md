@@ -60,7 +60,7 @@ Gets the volume level of each channel of the final output for the voice. These c
 
 ### -param pDestinationVoice [in]
 
-Pointer specifying the destination <a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a> to retrieve the output matrix for.
+Pointer specifying the destination <a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a> to retrieve the output matrix for.
 
 <div class="alert"><b>Note</b>  If the voice sends to a single target voice then specifying NULL will cause <b>GetOutputMatrix</b> to operate on that target voice.</div>
 <div> </div>
@@ -103,7 +103,7 @@ See <a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WA
 
 
 
-<div class="alert"><b>Note</b>  <b>GetOutputMatrix</b> always returns the levels most recently set by <a href="https://msdn.microsoft.com/en-us/library/Ee418598(v=VS.85).aspx">IXAudio2Voice::SetOutputMatrix</a>. However, they may not actually be in effect yet: they only take effect the next time the audio engine runs after the <b>IXAudio2Voice::SetOutputMatrix</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetOutputMatrix</b> was called with a deferred operation ID).</div>
+<div class="alert"><b>Note</b>  <b>GetOutputMatrix</b> always returns the levels most recently set by <a href="https://msdn.microsoft.com/7ECE4A2B-89DF-4D76-BBE4-C930EBB5F3EA">IXAudio2Voice::SetOutputMatrix</a>. However, they may not actually be in effect yet: they only take effect the next time the audio engine runs after the <b>IXAudio2Voice::SetOutputMatrix</b> call (or after the corresponding <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetOutputMatrix</b> was called with a deferred operation ID).</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -116,7 +116,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
  
 
  

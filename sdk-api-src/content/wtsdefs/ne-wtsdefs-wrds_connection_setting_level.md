@@ -4,7 +4,7 @@ title: WRDS_CONNECTION_SETTING_LEVEL
 author: windows-sdk-content
 description: Specifies the type of structure contained in the WRdsConnectionSetting member of the WRDS_CONNECTION_SETTINGS structure.
 old-location: termserv\wrds_connection_setting_level.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 0D82D26F-1EA6-45A5-90DF-80BE144DC3BF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

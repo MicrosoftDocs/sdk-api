@@ -144,7 +144,7 @@ Additional data.
 
 ### -field cc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms648730(v=VS.85).aspx">CONVCONTEXT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0082c16a-5411-4ed2-a278-cc0f5b136133">CONVCONTEXT</a></b>
 
 The language information used to share data in different languages. 
 
@@ -168,7 +168,7 @@ Contains the first 32 bytes of data being passed with the transaction (<code>8 *
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648730(v=VS.85).aspx">CONVCONTEXT</a>
+<a href="https://msdn.microsoft.com/0082c16a-5411-4ed2-a278-cc0f5b136133">CONVCONTEXT</a>
 
 
 
@@ -176,23 +176,23 @@ Contains the first 32 bytes of data being passed with the transaction (<code>8 *
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648735(v=VS.85).aspx">MONERRSTRUCT</a>
+<a href="https://msdn.microsoft.com/4e7647a0-c41e-4ec9-b441-01538e83aca3">MONERRSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648736(v=VS.85).aspx">MONHSZSTRUCT</a>
+<a href="https://msdn.microsoft.com/d5c6b5f8-e999-4f79-bf7c-b7d74a3e9b46">MONHSZSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648737(v=VS.85).aspx">MONLINKSTRUCT</a>
+<a href="https://msdn.microsoft.com/db02a191-677b-4fae-88ec-c2b500249837">MONLINKSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648738(v=VS.85).aspx">MONMSGSTRUCT</a>
+<a href="https://msdn.microsoft.com/7d971b35-0c88-42c3-83b9-93d5de6c95f9">MONMSGSTRUCT</a>
 
 
 

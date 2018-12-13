@@ -4,7 +4,7 @@ title: IWorkspace::GetProcessId
 author: windows-sdk-content
 description: Retrieves the process ID of the current connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspace_getprocessid.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: f703dfac-a896-472e-847c-cf44a96d9d9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

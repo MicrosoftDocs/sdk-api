@@ -62,9 +62,9 @@ Retrieves the entry identifier of the object that has been designated
 
 ### -param lpIAB
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface 
+Pointer to an <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a> interface 
 				that specifies the address book object.
 
 
@@ -100,9 +100,9 @@ Pointer to a variable of type <b>DWORD</b> that
 
 ### -param lpsbEID
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms528837(v=EXCHG.10).aspx">SBinary</a>*</b>
+Type: <b><a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a>*</b>
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/library/ms528837(v=EXCHG.10).aspx">SBinary</a> 
+Pointer to a variable of type <a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a> 
 				that specifies the entry identifier of the ME object on return.
 
 

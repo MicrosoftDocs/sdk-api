@@ -111,7 +111,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406839(v=VS.85).aspx">IDMOQualityControl Interface</a>
+<a href="https://msdn.microsoft.com/c23211f2-d4ba-45ff-b443-3425c3a3e72f">IDMOQualityControl Interface</a>
  
 
  

@@ -4,7 +4,7 @@ title: WTS_PROCESS_INFOW
 author: windows-sdk-content
 description: Contains information about a process running on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_process_info_str.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5df01ad8-71fd-4831-8eba-1d6cabd61348
 ms.author: windowssdkdev
 ms.date: 12/5/2018

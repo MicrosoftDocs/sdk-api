@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 The <b>DBSETFUNC</b> structure specifies the aggregation function to use in a select operation.
 
@@ -69,7 +69,7 @@ which aggregation method to use
 
 
 
-For valid values of the <b>dwSetQuantifier</b> member, see <a href="https://msdn.microsoft.com/en-us/library/ms690256(v=VS.85).aspx">Aggregate Function Constants</a>.
+For valid values of the <b>dwSetQuantifier</b> member, see <a href="https://msdn.microsoft.com/b9b4ea13-9db7-498e-b62f-acbe76c2bb3b">Aggregate Function Constants</a>.
 
 
 

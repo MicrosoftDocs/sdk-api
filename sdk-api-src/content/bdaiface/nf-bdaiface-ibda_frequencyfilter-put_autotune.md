@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693355(v=VS.85).aspx">IBDA_FrequencyFilter Interface</a>
+<a href="https://msdn.microsoft.com/ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc">IBDA_FrequencyFilter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693356(v=VS.85).aspx">IBDA_FrequencyFilter::get_Autotune</a>
+<a href="https://msdn.microsoft.com/146c4499-a8e9-4794-ab6c-b8e0e73ebad1">IBDA_FrequencyFilter::get_Autotune</a>
  
 
  

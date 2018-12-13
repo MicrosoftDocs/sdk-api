@@ -97,23 +97,23 @@ It does not persist the caption or the hide-when-deactivated flag.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390056(v=VS.85).aspx">IFullScreenVideoEx Interface</a>
+<a href="https://msdn.microsoft.com/4c9de58f-6ceb-4cf5-b1a5-d3e345e08190">IFullScreenVideoEx Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390065(v=VS.85).aspx">IFullScreenVideoEx::HideOnDeactivate</a>
+<a href="https://msdn.microsoft.com/b2839876-40b1-4b41-a3a4-99e5cbdd9ef1">IFullScreenVideoEx::HideOnDeactivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390072(v=VS.85).aspx">IFullScreenVideoEx::SetCaption</a>
+<a href="https://msdn.microsoft.com/6f520ab4-867f-4001-8f2f-25f0d8efe454">IFullScreenVideoEx::SetCaption</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390073(v=VS.85).aspx">IFullScreenVideoEx::SetClipFactor</a>
+<a href="https://msdn.microsoft.com/3e2cefd3-491f-4ba4-a234-047fe4e6c6cc">IFullScreenVideoEx::SetClipFactor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390075(v=VS.85).aspx">IFullScreenVideoEx::SetEnabled</a>
+<a href="https://msdn.microsoft.com/f05c1b3e-3ebc-4753-b3ca-e52907c59121">IFullScreenVideoEx::SetEnabled</a>
  
 
  

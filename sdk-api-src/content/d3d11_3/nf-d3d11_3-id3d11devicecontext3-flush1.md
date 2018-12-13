@@ -77,7 +77,7 @@ An optional event handle. When specified, this method creates an event query.
 
 <b>Flush1</b> operates asynchronously, therefore it can return either before or after the GPU finishes executing the queued graphics commands, which will eventually complete.
               To create an event query, you can call <a href="https://msdn.microsoft.com/ad09a309-862f-462d-8268-62e44397c298">ID3D11Device::CreateQuery</a> with the
-              value <a href="https://msdn.microsoft.com/en-us/library/Ff476191(v=VS.85).aspx">D3D11_QUERY_EVENT</a> value.
+              value <a href="d3d11_query.htm">D3D11_QUERY_EVENT</a> value.
               To determine when the GPU is finished processing the graphics commands,
               you can then use that event query in a call to <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">ID3D11DeviceContext::GetData</a>.
             

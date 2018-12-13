@@ -60,7 +60,7 @@ The <b>get_SuppressEffects</b> method queries whether the <a href="https://msdn.
 
 ### -param bSuppress [out]
 
-Receives a <b>VARIANT_BOOL</b>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694542(v=VS.85).aspx">IMSVidEVR::put_SuppressEffects</a>. The default value is VARIANT_TRUE.
+Receives a <b>VARIANT_BOOL</b>. For more information, see <a href="https://msdn.microsoft.com/399250b6-4f2d-4dbf-b1e8-d32a0673617e">IMSVidEVR::put_SuppressEffects</a>. The default value is VARIANT_TRUE.
 
 
 ## -returns

@@ -60,7 +60,7 @@ The <b>FCICreate</b> function creates an FCI context.
 
 ### -param perf [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure that receives the error information.
+Pointer to an <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure that receives the error information.
 
 
 ### -param pfnfcifp [in]
@@ -115,7 +115,7 @@ Pointer to an application-defined callback function to retrieve a temporary file
 
 ### -param pccab [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff797925(v=VS.85).aspx">CCAB</a> structure that contains the parameters for creating a cabinet.
+Pointer to a <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a01d3a">CCAB</a> structure that contains the parameters for creating a cabinet.
 
 
 ### -param pv [in, optional]
@@ -129,7 +129,7 @@ Pointer to an application-defined value that is passed to callback functions.
 
 If the function succeeds, it returns a non-<b>NULL</b> HFCI context pointer; otherwise, <b>NULL</b>.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure.
+Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure.
 
 
 

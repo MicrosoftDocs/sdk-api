@@ -91,45 +91,53 @@ Callers wishing to attach an image to a second device context should first call 
 
 Here is an example of the correct calling order.
 
-
-```cpp
-pDC1->BeginDraw();
-pDC1->SetTarget(pImage);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>pDC1-&gt;BeginDraw();
+pDC1-&gt;SetTarget(pImage);
 // …
-pDC1->EndDraw();
+pDC1-&gt;EndDraw();
 
-pDC2->BeginDraw();
-pDC2->SetTarget(pImage);
+pDC2-&gt;BeginDraw();
+pDC2-&gt;SetTarget(pImage);
 // …
-pDC2->EndDraw();
-
-```
-
-
+pDC2-&gt;EndDraw();
+</pre>
+</td>
+</tr>
+</table></span></div>
 Here is an example of the incorrect calling order.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>pDC1-&gt;BeginDraw();
+pDC2-&gt;BeginDraw();
 
-```cpp
-pDC1->BeginDraw();
-pDC2->BeginDraw();
-
-pDC1->SetTarget(pImage);
-
-// ...
-
-pDC1->SetTarget(NULL);
-
-pDC2->SetTarget(pImage); // This call is invalid, even though pImage is no longer set on pDC1.
+pDC1-&gt;SetTarget(pImage);
 
 // ...
 
-pDC1->EndDraw(); // This EndDraw SUCCEEDs.
-pDC2->EndDraw(); // This EndDraw FAILs
+pDC1-&gt;SetTarget(NULL);
 
+pDC2-&gt;SetTarget(pImage); // This call is invalid, even though pImage is no longer set on pDC1.
 
-```
+// ...
 
+pDC1-&gt;EndDraw(); // This EndDraw SUCCEEDs.
+pDC2-&gt;EndDraw(); // This EndDraw FAILs
 
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  Changing the target does not change the bitmap that an HWND render target presents from, nor does it change the bitmap that a DC render target blts to/from.</div>
 <div> </div>
 This API makes it easy for an application to use a bitmap as a source (like in <a href="https://msdn.microsoft.com/95F73EBD-989E-4FB1-B1D2-86642E99FA3E">DrawBitmap</a>) and as a destination at the same time.  Attempting to use a bitmap as a source on the same device context to which it is bound as a target will put the device context into the D2DERR_BITMAP_BOUND_AS_TARGET error state.
@@ -151,7 +159,7 @@ If the bitmap and the device context are not in the same resource domain, the co
 
 
 
-<a href="https://msdn.microsoft.com/2dcd9af4-78d7-4271-9113-a91b4bb8145e">ID2D1RenderTarget::GetPixelFormat</a> returns the pixel format of the current target bitmap (or <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_UNKNOWN</a>, <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE_UNKNOWN</a> if there is none).
+<a href="https://msdn.microsoft.com/2dcd9af4-78d7-4271-9113-a91b4bb8145e">ID2D1RenderTarget::GetPixelFormat</a> returns the pixel format of the current target bitmap (or <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_UNKNOWN</a>, <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE_UNKNOWN</a> if there is none).
 
 
 <a href="https://msdn.microsoft.com/42e25099-016e-4656-a412-72dd0fbac1fd">ID2D1Bitmap::CopyFromRenderTarget</a> copies from the currently bound target bitmap.

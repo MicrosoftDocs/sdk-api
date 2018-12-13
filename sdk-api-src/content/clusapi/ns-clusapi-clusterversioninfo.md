@@ -97,7 +97,7 @@ Contains the latest service pack installed on the node. If a Service Pack has no
 ### -field dwClusterHighestVersion
 
 Identifies the highest version of the Cluster service with which the Cluster service installed on the local 
-      node can join to form a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+      node can join to form a <a href="c_gly.htm">cluster</a>.
 
 
 ### -field dwClusterLowestVersion

@@ -436,7 +436,7 @@ After the UNDO request the service always calls each extension agent with the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377955(v=VS.85).aspx">AsnOctetString</a>
+<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a>
 
 
 
@@ -452,7 +452,7 @@ After the UNDO request the service always calls each extension agent with the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a>
+<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a>
  
 
  

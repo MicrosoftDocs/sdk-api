@@ -91,11 +91,11 @@ If you create a visualization for Windows Media Player using the Direct3D® comp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563254(v=VS.85).aspx">IWMPEffects2 Interface</a>
+<a href="https://msdn.microsoft.com/44e044c1-97fd-43cb-9530-4556e485f5ae">IWMPEffects2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563256(v=VS.85).aspx">IWMPEffects2::Destroy</a>
+<a href="https://msdn.microsoft.com/dad290e6-a3be-47f0-a893-7a60eebc2a64">IWMPEffects2::Destroy</a>
  
 
  

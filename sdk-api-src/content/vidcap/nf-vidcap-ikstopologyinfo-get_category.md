@@ -60,7 +60,7 @@ The <code>get_Category</code> method returns one of the filter categories for th
 
 ### -param dwIndex [in]
 
-Index of the category GUID to retrieve. To find the number of categories, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390154(v=VS.85).aspx">IKsTopologyInfo::get_NumCategories</a> method.
+Index of the category GUID to retrieve. To find the number of categories, call the <a href="https://msdn.microsoft.com/86bbe461-37c1-4dbc-bebd-fa8784d49083">IKsTopologyInfo::get_NumCategories</a> method.
 
 
 ### -param pCategory [out]
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo Interface</a>
+<a href="https://msdn.microsoft.com/641a10fe-8e8c-4225-b05e-b09dfb5f2fee">IKsTopologyInfo Interface</a>
  
 
  

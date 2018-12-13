@@ -53,7 +53,7 @@ req.redist:
 
 The <b>INSSBuffer4</b> interface provides methods to enumerate buffer properties. These methods are important when reading files that may have properties of which you are not aware.
 
-An <b>INSSBuffer4</b> interface exists for every buffer object. To retrieve a pointer to an instance of <b>INSSBuffer4</b>, call the <b>QueryInterface</b> method of one of the other interfaces in the buffer object, typically <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a>.
+An <b>INSSBuffer4</b> interface exists for every buffer object. To retrieve a pointer to an instance of <b>INSSBuffer4</b>, call the <b>QueryInterface</b> method of one of the other interfaces in the buffer object, typically <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a>.
 
 
 
@@ -65,19 +65,19 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a>
+<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a>
 </td>
 <td>IID_INSSBuffer</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd743244(v=VS.85).aspx">INSSBuffer2</a>
+<a href="https://msdn.microsoft.com/74d174a1-ede8-482c-ae42-19ca65c6cad4">INSSBuffer2</a>
 </td>
 <td>IID_INSSBuffer2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3</a>
+<a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3</a>
 </td>
 <td>IID_INSSBuffer3</td>
 </tr>
@@ -89,7 +89,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSSBuffer4</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3</a>. <b>INSSBuffer4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSSBuffer4</b> interface inherits from <a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3</a>. <b>INSSBuffer4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -113,7 +113,7 @@ Retrieves a buffer property, also called a data unit extension, using an index i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743258(v=VS.85).aspx">GetPropertyCount</a>
+<a href="https://msdn.microsoft.com/b47f26b3-e816-498d-adc3-c6d3357971e6">GetPropertyCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total count of buffer properties associated with the sample.
@@ -128,11 +128,11 @@ Retrieves the total count of buffer properties associated with the sample.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
+<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3 Interface</a>
+<a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3 Interface</a>
 
 
 

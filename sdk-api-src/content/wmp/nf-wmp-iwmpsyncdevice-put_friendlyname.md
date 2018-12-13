@@ -121,11 +121,11 @@ The friendly name is the string that is displayed in the Windows Media Player us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563722(v=VS.85).aspx">IWMPSyncDevice::get_friendlyName</a>
+<a href="https://msdn.microsoft.com/f72eaa17-fd7a-4844-8380-1a2547644dee">IWMPSyncDevice::get_friendlyName</a>
  
 
  

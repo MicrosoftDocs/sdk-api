@@ -65,13 +65,13 @@ Type: <b>const <a href="https://msdn.microsoft.com/c6f57691-1530-e57a-c1b4-b68b4
 The matrix used by the effect to multiply the RGBA values of the image. The matrix is column major and is applied as shown in the following equation:
           
 
-<img alt="Matrix equation" src="./images/color_matrix_formula.png"/>
+<img alt="Matrix equation" src="images/color_matrix_formula.png"/>
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn919722(v=VS.85).aspx">IDCompositionColorMatrixEffect</a>
+<a href="https://msdn.microsoft.com/75528E11-D041-4192-833A-31679316DF76">IDCompositionColorMatrixEffect</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates an object that implements <a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>.
+Creates an object that implements <a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Creates an object that implements <a href="https://msdn.microsoft.com/en-us/libr
 
 ### -param ppChannel
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a> interface of the newly created secure channel object.
+Address of a pointer to the <a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a> interface of the newly created secure channel object.
 
 
 ## -returns
@@ -77,7 +77,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>
+<a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a>
  
 
  

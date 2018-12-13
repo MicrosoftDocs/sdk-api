@@ -91,11 +91,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358935(v=VS.85).aspx">FaxAccountSet</a>
+<a href="https://msdn.microsoft.com/ae298925-c428-420e-a0a2-ce3f72c5cff4">FaxAccountSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359014(v=VS.85).aspx">IFaxAccountSet</a>
+<a href="https://msdn.microsoft.com/b4733772-92cb-4f4a-8a73-da1812356c30">IFaxAccountSet</a>
  
 
  

@@ -134,9 +134,9 @@ An unspecified error occurred.
 
 Calling this method with Enable set to <b>TRUE</b> causes the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> object to attempt to start the TSF on the attached control.
 
-<b>EnableTsf</b> should be used to enable the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> to use the TSF insertion context rather than the <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> function to send the handwriting recognition results into the control. The result is that text can be inserted even if the field no longer has focus.
+<b>EnableTsf</b> should be used to enable the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> to use the TSF insertion context rather than the <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a> function to send the handwriting recognition results into the control. The result is that text can be inserted even if the field no longer has focus.
 
-When you call <b>EnableTsf</b> with a value of <b>TRUE</b>, the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> object sends an <a href="https://msdn.microsoft.com/en-us/library/Bb774236(v=VS.85).aspx">EM_SETEDITSTYLE</a> message to the attached control. If the control does not support this message, results may be unpredictable. The <a href="https://msdn.microsoft.com/a1dfa254-cade-44c5-8fdd-74bb40849063">InkEdit</a> control does support TSF.
+When you call <b>EnableTsf</b> with a value of <b>TRUE</b>, the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> object sends an <a href="https://msdn.microsoft.com/e48de6b3-0fd2-4791-9863-a6dcdafa3642">EM_SETEDITSTYLE</a> message to the attached control. If the control does not support this message, results may be unpredictable. The <a href="https://msdn.microsoft.com/a1dfa254-cade-44c5-8fdd-74bb40849063">InkEdit</a> control does support TSF.
 
 <h3><a id="Support_for_Legacy_Applications"></a><a id="support_for_legacy_applications"></a><a id="SUPPORT_FOR_LEGACY_APPLICATIONS"></a>Support for Legacy Applications</h3>
 Support has been added to TSF and Microsoft Windows to provide a consistent user interface for all applications across the desktop. This new support enables legacy applications or controls that are not aware of TSF to take advantage of some advanced text services for free. For example, speech dictation and handwriting can now be used to enter text into a document in any application.
@@ -167,7 +167,7 @@ If successful, text is sent to the attached control through TSF. Furthermore, if
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="https://msdn.microsoft.com/AA973F9D-264F-4D08-9D86-C5DAEF1C09D5">IPenInputPanel</a>
 
 
 

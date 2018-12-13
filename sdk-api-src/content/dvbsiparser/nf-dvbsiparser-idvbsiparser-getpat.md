@@ -66,7 +66,7 @@ The <b>GetPAT</b> method retrieves the program association table (PAT).
 
 ### -param ppPAT [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694773(v=VS.85).aspx">IPAT</a> interface pointer. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/31b0e558-0f22-4761-a964-1908c2835478">IPAT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns

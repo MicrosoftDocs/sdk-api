@@ -60,12 +60,12 @@ The <b>IDsAdminNewObjExt::Initialize</b> method initializes an object creation w
 
 ### -param pADsContainerObj [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2">IADsContainer</a> interface of an existing container where the object are created. This parameter must not be <b>NULL</b>. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> or <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a>.
+Pointer to the <a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2">IADsContainer</a> interface of an existing container where the object are created. This parameter must not be <b>NULL</b>. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="_com_iunknown_addref">IUnknown::AddRef</a> or <a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>.
 
 
 ### -param pADsCopySource [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a> interface of the object from which a copy is made. If the new object is not copied from another object, this parameter is <b>NULL</b>. For more information about copy operations, see the Remarks section. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> or <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a>.
+Pointer to the <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a> interface of the object from which a copy is made. If the new object is not copied from another object, this parameter is <b>NULL</b>. For more information about copy operations, see the Remarks section. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="_com_iunknown_addref">IUnknown::AddRef</a> or <a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>.
 
 
 ### -param lpszClassName [in]
@@ -75,12 +75,12 @@ Pointer to a <b>WCHAR</b> string containing the LDAP name of the object class to
 
 ### -param pDsAdminNewObj [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/b38016a2-bbb7-4715-81cc-bd9911fb5a3b">IDsAdminNewObj</a> interface that contains additional data about the wizard. You can also obtain the <a href="https://msdn.microsoft.com/cb46cb8f-28ae-44d0-b1de-dc6c090f8fc6">IDsAdminNewObjPrimarySite</a> interface of the primary extension by calling <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> with <b>IID_IDsAdminNewObjPrimarySite</b> on this interface. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> or <b>IUnknown::QueryInterface</b>.
+Pointer to an <a href="https://msdn.microsoft.com/b38016a2-bbb7-4715-81cc-bd9911fb5a3b">IDsAdminNewObj</a> interface that contains additional data about the wizard. You can also obtain the <a href="https://msdn.microsoft.com/cb46cb8f-28ae-44d0-b1de-dc6c090f8fc6">IDsAdminNewObjPrimarySite</a> interface of the primary extension by calling <a href="_com_iunknown_queryinterface">QueryInterface</a> with <b>IID_IDsAdminNewObjPrimarySite</b> on this interface. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="_com_iunknown_addref">IUnknown::AddRef</a> or <b>IUnknown::QueryInterface</b>.
 
 
 ### -param pDispInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675919(v=VS.85).aspx">DSA_NEWOBJ_DISPINFO</a> structure that contains additional data about the object creation wizard.
+Pointer to a <a href="https://msdn.microsoft.com/966e2093-6ebd-42a0-923d-17f0494a9d0c">DSA_NEWOBJ_DISPINFO</a> structure that contains additional data about the object creation wizard.
 
 
 ## -returns
@@ -106,7 +106,7 @@ An object in Active Directory Domain Services can either be created from nothing
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675919(v=VS.85).aspx">DSA_NEWOBJ_DISPINFO</a>
+<a href="https://msdn.microsoft.com/966e2093-6ebd-42a0-923d-17f0494a9d0c">DSA_NEWOBJ_DISPINFO</a>
 
 
 
@@ -130,11 +130,11 @@ An object in Active Directory Domain Services can either be created from nothing
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a>
+<a href="_com_iunknown_addref">IUnknown::AddRef</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a>
+<a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>
  
 
  

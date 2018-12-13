@@ -108,7 +108,7 @@ Each index entry points to another index. Treat the <b>AVIMETAINDEX</b> structur
 Each index entry points to a data chunk in the file. 
 
 <ul>
-<li>If <b>bIndexSubType</b> is 0,  treat the <b>AVIMETAINDEX</b> structure as an <a href="https://msdn.microsoft.com/b437b333-84a3-44d3-a4cc-0d07a331b010">AVISTDINDEX</a> structure. Each index entry is an <a href="https://msdn.microsoft.com/en-us/library/Ff625870(v=VS.85).aspx">AVISTDINDEX_ENTRY</a> structure.</li>
+<li>If <b>bIndexSubType</b> is 0,  treat the <b>AVIMETAINDEX</b> structure as an <a href="https://msdn.microsoft.com/b437b333-84a3-44d3-a4cc-0d07a331b010">AVISTDINDEX</a> structure. Each index entry is an <a href="https://msdn.microsoft.com/4e408858-b0cb-45dc-a299-a2e35aa6a000">AVISTDINDEX_ENTRY</a> structure.</li>
 <li>If <b>bIndexSubType</b> is <b>AVI_INDEX_SUB_2FIELD</b>, the index is a field index chunk.<div class="alert"><b>Note</b>  DirectShow does not support field indexes.</div>
 <div> </div>
 </li>

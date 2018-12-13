@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-The source filter and the sink filter must be within the same process, but can reside in different filter graphs. If they are in different processes, call <a href="https://msdn.microsoft.com/en-us/library/Dd389983(v=VS.85).aspx">IFileSourceFilter::Load</a> with the same file name used in the <a href="https://msdn.microsoft.com/9e694cc2-090e-43b1-88c7-77175a930bf1">IStreamBufferSink::LockProfile</a> method.
+The source filter and the sink filter must be within the same process, but can reside in different filter graphs. If they are in different processes, call <a href="https://msdn.microsoft.com/a44b8153-19d5-43ad-936c-214c694eeeb6">IFileSourceFilter::Load</a> with the same file name used in the <a href="https://msdn.microsoft.com/9e694cc2-090e-43b1-88c7-77175a930bf1">IStreamBufferSink::LockProfile</a> method.
 
 Several Stream Buffer Source filters can stream from the same sink filter.
 

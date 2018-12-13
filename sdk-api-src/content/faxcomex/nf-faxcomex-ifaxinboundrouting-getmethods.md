@@ -60,9 +60,9 @@ The <b>IFaxInboundRouting::GetMethods</b> method retrieves the ordered collectio
 
 ### -param pFaxInboundRoutingMethods [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a> interface.
+Address of a pointer to an <a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a> interface.
 
 
 ## -returns
@@ -80,9 +80,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Order is based on the <a href="https://msdn.microsoft.com/en-us/library/ms686150(v=VS.85).aspx">Priority</a> property of each routing method. The priority is associated with the order in which the fax service calls the routing method when the service receives a fax job.
+Order is based on the <a href="https://msdn.microsoft.com/23208ac4-68c8-4f62-b588-2d0a5575f87c">Priority</a> property of each routing method. The priority is associated with the order in which the fax service calls the routing method when the service receives a fax job.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 
 
 
@@ -92,11 +92,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684596(v=VS.85).aspx">IFaxInboundRouting</a>
+<a href="https://msdn.microsoft.com/255706ba-cbbd-4dfa-a9da-95bdd90328b5">IFaxInboundRouting</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
  
 
  

@@ -66,7 +66,7 @@ The <b>RegisterForNextTable</b> method registers the client to be notified when 
 
 ### -param hNextTableAvailable [in]
 
-Handle to an event created by the caller. The object signals the event when the <i>next</i> table arrives. When the event is signaled, call the <a href="https://msdn.microsoft.com/en-us/library/Dd694983(v=VS.85).aspx">ITSDT::GetNextTable</a> method to retrieve the table.
+Handle to an event created by the caller. The object signals the event when the <i>next</i> table arrives. When the event is signaled, call the <a href="https://msdn.microsoft.com/7b60647a-b668-4884-967d-044ff0d149c2">ITSDT::GetNextTable</a> method to retrieve the table.
 
 
 ## -returns
@@ -144,7 +144,7 @@ This method applies only to <i>current</i> tables. Otherwise, the method returns
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694980(v=VS.85).aspx">ITSDT Interface</a>
+<a href="https://msdn.microsoft.com/58ec73dc-79bd-415b-b9be-8e9246166391">ITSDT Interface</a>
  
 
  

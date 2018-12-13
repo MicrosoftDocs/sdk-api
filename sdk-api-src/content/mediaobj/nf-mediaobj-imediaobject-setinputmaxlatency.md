@@ -52,7 +52,7 @@ req.redist:
 
 
 
-The <code>SetInputMaxLatency</code> method sets the maximum latency on a specified input stream. For the definition of maximum latency, see <a href="https://msdn.microsoft.com/en-us/library/Dd406948(v=VS.85).aspx">IMediaObject::GetInputMaxLatency</a>.
+The <code>SetInputMaxLatency</code> method sets the maximum latency on a specified input stream. For the definition of maximum latency, see <a href="https://msdn.microsoft.com/f8a18b4c-a59c-4e9d-aff7-62333e9ffda9">IMediaObject::GetInputMaxLatency</a>.
 
 
 
@@ -138,11 +138,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406948(v=VS.85).aspx">IMediaObject::GetInputMaxLatency</a>
+<a href="https://msdn.microsoft.com/f8a18b4c-a59c-4e9d-aff7-62333e9ffda9">IMediaObject::GetInputMaxLatency</a>
  
 
  

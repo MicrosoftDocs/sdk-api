@@ -64,7 +64,7 @@ Resumes drawing on this Microsoft DirectComposition surface object.
 
 
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code, which can include <a href="https://msdn.microsoft.com/en-us/library/Hh437369(v=VS.85).aspx">DCOMPOSITION_ERROR_SURFACE_BEING_RENDERED</a> and <a href="https://msdn.microsoft.com/en-us/library/Hh437369(v=VS.85).aspx">DCOMPOSITION_ERROR_SURFACE_NOT_BEING_RENDERED</a>. 
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code, which can include <a href="directcomposition_error_codes.htm">DCOMPOSITION_ERROR_SURFACE_BEING_RENDERED</a> and <a href="directcomposition_error_codes.htm">DCOMPOSITION_ERROR_SURFACE_NOT_BEING_RENDERED</a>. 
 
 
 
@@ -83,11 +83,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx">IDCompositionSurface</a>
+<a href="https://msdn.microsoft.com/E271B4DC-5F09-426A-A5D3-43A48F30CB24">IDCompositionSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449106(v=VS.85).aspx">IDCompositionSurface::SuspendDraw</a>
+<a href="https://msdn.microsoft.com/B3CD2007-502C-48EF-989E-4C690B2B65D8">IDCompositionSurface::SuspendDraw</a>
  
 
  

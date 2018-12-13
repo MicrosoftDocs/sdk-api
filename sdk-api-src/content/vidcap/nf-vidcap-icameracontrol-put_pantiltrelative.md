@@ -61,17 +61,17 @@ The <code>put_PanTiltRelative</code> method sets the camera's relative pan and t
 
 ### -param PanValue [in]
 
-Specifies the relative pan. See <a href="https://msdn.microsoft.com/en-us/library/Dd376340(v=VS.85).aspx">ICameraControl::put_PanRelative</a>.
+Specifies the relative pan. See <a href="https://msdn.microsoft.com/a4ac28f4-8570-4307-80c1-2960d7c87544">ICameraControl::put_PanRelative</a>.
 
 
 ### -param TiltValue [in]
 
-Specifies the relative tilt. See <a href="https://msdn.microsoft.com/en-us/library/Dd376348(v=VS.85).aspx">ICameraControl::put_TiltRelative</a>.
+Specifies the relative tilt. See <a href="https://msdn.microsoft.com/69aa7ecf-4816-460b-b4f8-480c0d4f8331">ICameraControl::put_TiltRelative</a>.
 
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
  
 
  

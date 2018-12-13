@@ -112,15 +112,15 @@ This method is ignored when using the Netscape Navigator Java applet. In Navigat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563361(v=VS.85).aspx">IWMPEvents::ScriptCommand</a>
+<a href="https://msdn.microsoft.com/1010961f-6d06-455a-9c14-bc06702e9e89">IWMPEvents::ScriptCommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563659(v=VS.85).aspx">IWMPSettings::get_defaultFrame</a>
+<a href="https://msdn.microsoft.com/815289bb-4ca5-45da-a27e-7484ba403316">IWMPSettings::get_defaultFrame</a>
  
 
  

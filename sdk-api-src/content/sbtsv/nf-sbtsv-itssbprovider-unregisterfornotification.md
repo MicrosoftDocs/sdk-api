@@ -4,7 +4,7 @@ title: ITsSbProvider::UnRegisterForNotification
 author: windows-sdk-content
 description: Requests that Remote Desktop Connection Broker (RD Connection Broker) not send notifications about specified events.
 old-location: termserv\itssbprovider_unregisterfornotification.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: e2fa297e-9923-4e60-9e6e-caa6e4b8c963
 ms.author: windowssdkdev
 ms.date: 12/5/2018

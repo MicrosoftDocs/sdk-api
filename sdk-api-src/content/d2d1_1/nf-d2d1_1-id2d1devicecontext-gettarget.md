@@ -84,10 +84,10 @@ If the currently selected target is a bitmap rather than a command list, the app
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd742726(v=VS.85).aspx">CreateHwndRenderTarget</a>
+<a href="https://msdn.microsoft.com/3b55b1b0-a423-40dc-9581-c1fbe8134ca5">CreateHwndRenderTarget</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd742724(v=VS.85).aspx">CreateDxgiSurfaceRenderTarget</a>
+<a href="https://msdn.microsoft.com/101744ea-97bc-4f92-88b0-fcdf0e4aaf4e">CreateDxgiSurfaceRenderTarget</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/93141743-c11d-40b4-83c5-07c9066836c7">CreateWicBitmapRenderTarget</a>
@@ -96,16 +96,16 @@ If the currently selected target is a bitmap rather than a command list, the app
 <a href="https://msdn.microsoft.com/de062068-d2b5-4576-a475-a0e2c9840506">CreateDCRenderTarget</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd742780(v=VS.85).aspx">CreateCompatibleRenderTarget</a>
+<a href="https://msdn.microsoft.com/4a799a7c-0d2f-460f-99f9-24c6cf7c4537">CreateCompatibleRenderTarget</a>
 </li>
 </ul>
 It is not possible for an application to destroy these bitmaps.  All of these bitmaps are bindable as bitmap targets.  However not all of these bitmaps can be used as bitmap sources for  <a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a> methods.
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742724(v=VS.85).aspx">CreateDxgiSurfaceRenderTarget</a> will create a bitmap that is usable as a bitmap source if the DXGI surface is bindable as a shader resource view.
+<a href="https://msdn.microsoft.com/101744ea-97bc-4f92-88b0-fcdf0e4aaf4e">CreateDxgiSurfaceRenderTarget</a> will create a bitmap that is usable as a bitmap source if the DXGI surface is bindable as a shader resource view.
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742780(v=VS.85).aspx">CreateCompatibleRenderTarget</a> will always create bitmaps that are usable as a bitmap source.
+<a href="https://msdn.microsoft.com/4a799a7c-0d2f-460f-99f9-24c6cf7c4537">CreateCompatibleRenderTarget</a> will always create bitmaps that are usable as a bitmap source.
 
 
 <a href="https://msdn.microsoft.com/0562b286-7427-4d76-b699-a39356496a0f">ID2D1RenderTarget::BeginDraw</a> will copy from the HDC to the original bitmap associated with it.  <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> will copy from the original bitmap to the HDC.  
@@ -130,7 +130,7 @@ Direct2D will only lock bitmaps that are not currently locked.
 Calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> for <a href="https://msdn.microsoft.com/cb992ddd-21b2-4eba-b7c4-e391bdd23a9d">ID2D1GdiInteropRenderTarget</a> will always succeed.  <a href="https://msdn.microsoft.com/40797258-84a0-44ee-8b64-04ceb3eb1998">ID2D1GdiInteropRenderTarget::GetDC</a> will return a device context corresponding to the currently bound target bitmap.  GetDC will fail if the target bitmap was not created with the GDI_COMPATIBLE flag set.
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742774(v=VS.85).aspx">ID2D1HwndRenderTarget::Resize</a> will return <b>DXGI_ERROR_INVALID_CALL</b> if there are any outstanding references to the original target bitmap associated with the render target.
+<a href="https://msdn.microsoft.com/b8ea2e96-c69b-4018-9572-c9099bf6202d">ID2D1HwndRenderTarget::Resize</a> will return <b>DXGI_ERROR_INVALID_CALL</b> if there are any outstanding references to the original target bitmap associated with the render target.
 
 Although the target can be a command list, it cannot be any other type of image. It cannot be the output image of an effect.
 

@@ -124,7 +124,7 @@ A language bar balloon acts as a pop-up notification on the language bar.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -118,7 +118,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694693(v=VS.85).aspx">IMSVidStreamBufferSource::put_UnratedDelay</a>
+<a href="https://msdn.microsoft.com/7b4e1ac4-dfb8-45c0-9079-16f8babcb494">IMSVidStreamBufferSource::put_UnratedDelay</a>
  
 
  

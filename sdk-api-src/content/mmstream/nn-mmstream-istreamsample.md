@@ -57,7 +57,7 @@ The <code>IStreamSample</code> interface provides control over the behavior of s
 
 Implement this interface when you implement a media stream for a new media type. The interface is exposed on sample objects created by media streams.
 
-Use this interface when you want to control data samples created by <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> or its derived interfaces.
+Use this interface when you want to control data samples created by <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a> or its derived interfaces.
 
 In addition to the methods inherited from <b>IUnknown</b>, the <code>IStreamSample</code> interface exposes the following methods.
 
@@ -81,7 +81,7 @@ The <b>IStreamSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377144(v=VS.85).aspx">CompletionStatus</a>
+<a href="https://msdn.microsoft.com/bfc3fd16-20b1-4581-abb0-66781aa3d584">CompletionStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.
@@ -90,7 +90,7 @@ Retrieves the status of the current sample's latest asynchronous update. If the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377145(v=VS.85).aspx">GetMediaStream</a>
+<a href="https://msdn.microsoft.com/dfc38480-7b8d-42ad-937b-dd39384796c9">GetMediaStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the media stream object that created the current sample.
@@ -99,7 +99,7 @@ Retrieves a pointer to the media stream object that created the current sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377146(v=VS.85).aspx">GetSampleTimes</a>
+<a href="https://msdn.microsoft.com/d8c716fe-6731-4b54-9b4b-3b0f896f176b">GetSampleTimes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current sample's start and end times.
@@ -108,7 +108,7 @@ Retrieves the current sample's start and end times.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377147(v=VS.85).aspx">SetSampleTimes</a>
+<a href="https://msdn.microsoft.com/c8d21ea2-0104-44e1-9f5b-5c0c23593e43">SetSampleTimes</a>
 </td>
 <td align="left" width="63%">
 Sets the current sample's start and end times.
@@ -117,7 +117,7 @@ Sets the current sample's start and end times.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377148(v=VS.85).aspx">Update</a>
+<a href="https://msdn.microsoft.com/5f56e3f9-443b-4d67-bfed-3210e691ad4b">Update</a>
 </td>
 <td align="left" width="63%">
 Performs a synchronous or an asynchronous update on the current sample.

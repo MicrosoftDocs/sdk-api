@@ -110,11 +110,11 @@ Success.
 
 
 
-This method is equivalent to the <a href="https://msdn.microsoft.com/en-us/library/Dd377297(v=VS.85).aspx">IVideoWindow::get_MessageDrain</a> method.
+This method is equivalent to the <a href="https://msdn.microsoft.com/9a1a3070-5b68-4dd2-bc10-97a8331cc262">IVideoWindow::get_MessageDrain</a> method.
 
-The Full Screen video renderer posts all mouse and keyboard messages to the window designated as a message drain. The exact list of messages that are posted is the same as the list given in <a href="https://msdn.microsoft.com/en-us/library/Dd377323(v=VS.85).aspx">IVideoWindow::put_MessageDrain</a>.
+The Full Screen video renderer posts all mouse and keyboard messages to the window designated as a message drain. The exact list of messages that are posted is the same as the list given in <a href="https://msdn.microsoft.com/aaf8624c-b3ea-4034-845a-6cd74c725c44">IVideoWindow::put_MessageDrain</a>.
 
-Applications do not need to use this method. Use the <a href="https://msdn.microsoft.com/en-us/library/Dd377297(v=VS.85).aspx">IVideoWindow::get_MessageDrain</a> method on the Filter Graph Manager instead.
+Applications do not need to use this method. Use the <a href="https://msdn.microsoft.com/9a1a3070-5b68-4dd2-bc10-97a8331cc262">IVideoWindow::get_MessageDrain</a> method on the Filter Graph Manager instead.
 
 
 
@@ -128,7 +128,7 @@ Applications do not need to use this method. Use the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390056(v=VS.85).aspx">IFullScreenVideoEx Interface</a>
+<a href="https://msdn.microsoft.com/4c9de58f-6ceb-4cf5-b1a5-d3e345e08190">IFullScreenVideoEx Interface</a>
  
 
  

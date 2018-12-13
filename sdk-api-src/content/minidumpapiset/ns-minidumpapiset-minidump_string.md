@@ -4,7 +4,7 @@ title: MINIDUMP_STRING
 author: windows-sdk-content
 description: Describes a string.
 old-location: base\minidump_string_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: b90b2b29-9d39-4a73-b5fb-bb6e04c94811
 ms.author: windowssdkdev
 ms.date: 12/5/2018

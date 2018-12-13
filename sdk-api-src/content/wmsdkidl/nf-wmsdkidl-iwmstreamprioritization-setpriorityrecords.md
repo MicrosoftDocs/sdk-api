@@ -66,7 +66,7 @@ The <b>SetPriorityRecords</b> method assigns the members of an array as the stre
 
 ### -param pRecordArray [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd757994(v=VS.85).aspx">WM_STREAM_PRIORITY_RECORD</a> structures.
+Pointer to an array of <a href="https://msdn.microsoft.com/43c9370c-cd43-4dd0-8258-d6dbdb98f1de">WM_STREAM_PRIORITY_RECORD</a> structures.
 
 
 ### -param cRecords [in]
@@ -146,15 +146,15 @@ This method does not verify that the streams specified are valid for the profile
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798573(v=VS.85).aspx">IWMStreamPrioritization Interface</a>
+<a href="https://msdn.microsoft.com/ef8ae275-c36a-492c-b57c-d640044ede93">IWMStreamPrioritization Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798574(v=VS.85).aspx">IWMStreamPrioritization::GetPriorityRecords</a>
+<a href="https://msdn.microsoft.com/50b105c7-1e4f-435c-8bb6-643ea4d065bb">IWMStreamPrioritization::GetPriorityRecords</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757994(v=VS.85).aspx">WM_STREAM_PRIORITY_RECORD</a>
+<a href="https://msdn.microsoft.com/43c9370c-cd43-4dd0-8258-d6dbdb98f1de">WM_STREAM_PRIORITY_RECORD</a>
  
 
  

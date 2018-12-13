@@ -60,7 +60,7 @@ Returns the name of a cluster's  <a href="https://msdn.microsoft.com/4c2ee30e-4d
 
 ### -param hCluster [in]
 
-Handle to an existing <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to an existing <a href="c_gly.htm">cluster</a>.
 
 
 ### -param lpszResourceName [out]

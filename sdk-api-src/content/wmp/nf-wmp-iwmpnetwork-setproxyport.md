@@ -117,15 +117,15 @@ This method fails unless the calling application is running on the local compute
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563466(v=VS.85).aspx">IWMPNetwork::getProxyPort</a>
+<a href="https://msdn.microsoft.com/0d636e61-a5c1-495a-8d1d-ce2937dd3f18">IWMPNetwork::getProxyPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563467(v=VS.85).aspx">IWMPNetwork::getProxySettings</a>
+<a href="https://msdn.microsoft.com/103e0d53-943d-4aba-9db1-20cdc1d75d52">IWMPNetwork::getProxySettings</a>
  
 
  

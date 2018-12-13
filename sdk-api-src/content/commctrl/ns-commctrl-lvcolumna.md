@@ -381,19 +381,19 @@ If a column is added to a list-view control with index 0 (the leftmost column), 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774894(v=VS.85).aspx">LVM_DELETECOLUMN</a>
+<a href="https://msdn.microsoft.com/1748a70b-9a13-4753-ac23-55b5652164c2">LVM_DELETECOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774911(v=VS.85).aspx">LVM_GETCOLUMN</a>
+<a href="https://msdn.microsoft.com/59b4bbfc-6c38-4faa-8f2e-3ea5d24e55a6">LVM_GETCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761101(v=VS.85).aspx">LVM_INSERTCOLUMN</a>
+<a href="https://msdn.microsoft.com/1326e38e-bb45-4d0d-b5bc-ec684b3b92ef">LVM_INSERTCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761159(v=VS.85).aspx">LVM_SETCOLUMN</a>
+<a href="https://msdn.microsoft.com/8ca1c269-fd86-4561-940d-b75f8ca2b731">LVM_SETCOLUMN</a>
 
 
 

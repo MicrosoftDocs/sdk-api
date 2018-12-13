@@ -85,7 +85,7 @@ Pointer to a variable that specifies the start position
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>interface of the object that contains the LDT. Use this interface to retrieve the information
+Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>interface of the object that contains the LDT. Use this interface to retrieve the information
   in the descriptor. The caller must release the interface.
 
 
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>
+<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>
 
 
 

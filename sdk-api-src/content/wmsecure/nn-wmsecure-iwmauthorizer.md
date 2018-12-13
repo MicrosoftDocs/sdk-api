@@ -73,7 +73,7 @@ The <b>IWMAuthorizer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743288(v=VS.85).aspx">GetCert</a>
+<a href="https://msdn.microsoft.com/e165356c-b14b-47dc-b046-a74499251cab">GetCert</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified certificate.
@@ -82,7 +82,7 @@ Retrieves the specified certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743289(v=VS.85).aspx">GetCertCount</a>
+<a href="https://msdn.microsoft.com/afe8a924-3d2b-42e6-9700-a6075f51ff10">GetCertCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of certificates.
@@ -91,7 +91,7 @@ Retrieves the number of certificates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743290(v=VS.85).aspx">GetSharedData</a>
+<a href="https://msdn.microsoft.com/575df33a-b29e-43eb-84c2-6f9875f26196">GetSharedData</a>
 </td>
 <td align="left" width="63%">
 Retrieves shared  data for the specified certificate.

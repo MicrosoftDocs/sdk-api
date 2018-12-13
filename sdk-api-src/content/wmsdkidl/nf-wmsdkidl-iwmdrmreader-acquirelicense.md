@@ -133,7 +133,7 @@ Not enough memory to complete the task.
 
 This is an asynchronous call that returns immediately.
 
-<b>For silent acquisition: </b>When the license acquisition is complete, <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> is called with the <i>status</i> parameter set to <b>WMT_ACQUIRE_LICENSE</b>. If the license acquisition was successful, the <i>pvalue</i> parameter is set to a byte pointer to a <a href="https://msdn.microsoft.com/7e8053d5-f3f5-4519-97f5-6dbd89982f3a">WM_GET_LICENSE_DATA</a> structure. If there was an error during the license acquisition, the <b>HRESULT</b> from the <b>OnStatus</b> call holds the appropriate error code.
+<b>For silent acquisition: </b>When the license acquisition is complete, <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> is called with the <i>status</i> parameter set to <b>WMT_ACQUIRE_LICENSE</b>. If the license acquisition was successful, the <i>pvalue</i> parameter is set to a byte pointer to a <a href="https://msdn.microsoft.com/7e8053d5-f3f5-4519-97f5-6dbd89982f3a">WM_GET_LICENSE_DATA</a> structure. If there was an error during the license acquisition, the <b>HRESULT</b> from the <b>OnStatus</b> call holds the appropriate error code.
 
 <b>For non-silent acquisition:
           </b><b>OnStatus</b> will return immediately and send a <b>WMT_ACQUIRE_LICENSE</b> event to the application. In that case, the <b>WM_GET_LICENSE_DATA</b> structure contains information about the URL to be used to acquire the license.
@@ -150,15 +150,15 @@ This is an asynchronous call that returns immediately.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
+<a href="https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58">IWMDRMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798349(v=VS.85).aspx">IWMDRMReader::CancelLicenseAcquisition</a>
+<a href="https://msdn.microsoft.com/b6a416d1-0bad-49e0-91ad-19e9ff544a8a">IWMDRMReader::CancelLicenseAcquisition</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757854(v=VS.85).aspx">WMT_STATUS</a>
+<a href="https://msdn.microsoft.com/ebf77e8a-65e8-4da9-bb21-a1e2bf427bbf">WMT_STATUS</a>
  
 
  

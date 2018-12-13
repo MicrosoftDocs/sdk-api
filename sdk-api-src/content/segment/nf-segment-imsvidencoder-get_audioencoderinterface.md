@@ -60,7 +60,7 @@ The <b>get_AudioEncoderInterface</b> method retrieves a pointer to the audio enc
 
 ### -param ppEncInt [out]
 
-Pointer to a variable that receives an <b>IUnknown</b> interface pointer. The caller can query this interface for the <a href="https://msdn.microsoft.com/en-us/library/Dd693975(v=VS.85).aspx">IEncoderAPI</a> interface.
+Pointer to a variable that receives an <b>IUnknown</b> interface pointer. The caller can query this interface for the <a href="https://msdn.microsoft.com/823b79a1-1bf5-4aab-80dd-0e77ba950127">IEncoderAPI</a> interface.
 
 
 ## -returns

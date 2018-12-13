@@ -53,7 +53,7 @@ req.redist:
 Initializes a new instance of <code>XMU565</code> from three <code>float</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565 </a> from three
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/58c9ee71-d038-4664-9fac-5a074b60e9c3">XMU565 </a> from three
 	<code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -132,11 +132,11 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>
+<a href="https://msdn.microsoft.com/58c9ee71-d038-4664-9fac-5a074b60e9c3">XMU565</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415440(v=VS.85).aspx">XMU565 Constructors</a>
+<a href="https://msdn.microsoft.com/d482dbf5-081c-4a1b-a81f-63d21d46a489">XMU565 Constructors</a>
  
 
  

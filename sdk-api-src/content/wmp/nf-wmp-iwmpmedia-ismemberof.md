@@ -117,19 +117,19 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563234(v=VS.85).aspx">IWMPCore::get_playlistCollection</a>
+<a href="https://msdn.microsoft.com/8f6ab34f-e055-4a18-b1b8-e3c7b8f9c76a">IWMPCore::get_playlistCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563554(v=VS.85).aspx">IWMPPlaylistCollection::getByName</a>
+<a href="https://msdn.microsoft.com/9d837c57-8612-47ef-a0fa-a3ffa77ac704">IWMPPlaylistCollection::getByName</a>
  
 
  

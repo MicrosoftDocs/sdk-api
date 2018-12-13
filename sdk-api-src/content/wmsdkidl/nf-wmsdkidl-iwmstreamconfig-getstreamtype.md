@@ -133,11 +133,11 @@ For a table of stream major types, see <a href="https://msdn.microsoft.com/00dcb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798561(v=VS.85).aspx">IWMStreamConfig::GetStreamName</a>
+<a href="https://msdn.microsoft.com/86c65cfe-d482-461b-a187-ce1ce9a30609">IWMStreamConfig::GetStreamName</a>
  
 
  

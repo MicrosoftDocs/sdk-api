@@ -63,7 +63,7 @@ The <code>GetMaxPixelRate</code> method retrieves the maximum pixel rate the dev
 
 ### -param pamvpSize [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373452(v=VS.85).aspx">AMVPSIZE</a> structure containing the desired width and height.
+Pointer to an <a href="https://msdn.microsoft.com/e36163bc-a7ea-421e-b876-2d459ecb11e8">AMVPSIZE</a> structure containing the desired width and height.
 
 
 ### -param pdwMaxPixelsPerSecond [out]
@@ -100,7 +100,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig Interface</a>
+<a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig Interface</a>
  
 
  

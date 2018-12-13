@@ -61,7 +61,7 @@ API to get a unique identifier of the users enrollment.
 
 ### -param keyCredentialManagerInfo [out]
 
-Pointer to a pointer variable that receives a <a href="https://msdn.microsoft.com/en-us/library/Mt830289(v=VS.85).aspx">KeyCredentialManagerInfo</a> data structure.  The caller must free this pointer, when it is no longer required, by using the <a href="https://msdn.microsoft.com/en-us/library/Mt830286(v=VS.85).aspx">KeyCredentialManagerFreeInformation</a> function. 
+Pointer to a pointer variable that receives a <a href="security.keycredentialmanagerinfo">KeyCredentialManagerInfo</a> data structure.  The caller must free this pointer, when it is no longer required, by using the <a href="security.keycredentialmanagerfreeinformation">KeyCredentialManagerFreeInformation</a> function. 
 
 
 ## -returns

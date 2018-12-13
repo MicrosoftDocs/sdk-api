@@ -91,15 +91,15 @@ Immediately after registration, this callback will be invoked with the current v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt830297(v=VS.85).aspx">EFFECTIVE_POWER_MODE</a>
+<a href="base.effective_power_mode">EFFECTIVE_POWER_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt830299(v=VS.85).aspx">PowerRegisterForEffectivePowerModeNotifications</a>
+<a href="base.powerregisterforeffectivepowermodenotifications">PowerRegisterForEffectivePowerModeNotifications</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt830300(v=VS.85).aspx">PowerUnregisterFromEffectivePowerModeNotifications</a>
+<a href="base.powerunregisterfromeffectivepowermodenotifications">PowerUnregisterFromEffectivePowerModeNotifications</a>
  
 
  

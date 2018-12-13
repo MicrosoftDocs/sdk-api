@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains debugging information passed to a <b>WH_DEBUG</b> hook procedure, <a href="https://msdn.microsoft.com/en-us/library/ms644978(v=VS.85).aspx">DebugProc</a>. 
+Contains debugging information passed to a <b>WH_DEBUG</b> hook procedure, <a href="https://msdn.microsoft.com/d9d446a1-1337-4efa-bb33-9e5b762476f8">DebugProc</a>. 
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ A handle to the thread that installed the debugging filter function.
 Type: <b>LPARAM</b>
 
 The value to be passed to the hook in the 
-					<i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms644978(v=VS.85).aspx">DebugProc</a> callback function. 
+					<i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/d9d446a1-1337-4efa-bb33-9e5b762476f8">DebugProc</a> callback function. 
 
 
 ### -field wParam
@@ -85,7 +85,7 @@ The value to be passed to the hook in the
 Type: <b>WPARAM</b>
 
 The value to be passed to the hook in the 
-					<i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms644978(v=VS.85).aspx">DebugProc</a> callback function. 
+					<i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/d9d446a1-1337-4efa-bb33-9e5b762476f8">DebugProc</a> callback function. 
 
 
 ### -field code
@@ -93,7 +93,7 @@ The value to be passed to the hook in the
 Type: <b>int</b>
 
 The value to be passed to the hook in the 
-					<i>nCode</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms644978(v=VS.85).aspx">DebugProc</a> callback function. 
+					<i>nCode</i> parameter of the <a href="https://msdn.microsoft.com/d9d446a1-1337-4efa-bb33-9e5b762476f8">DebugProc</a> callback function. 
 
 
 ## -see-also
@@ -105,11 +105,11 @@ The value to be passed to the hook in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644978(v=VS.85).aspx">DebugProc</a>
+<a href="https://msdn.microsoft.com/d9d446a1-1337-4efa-bb33-9e5b762476f8">DebugProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://msdn.microsoft.com/987095d7-059f-4eae-925d-6723ab6d524c">Hooks</a>
 
 
 
@@ -117,7 +117,7 @@ The value to be passed to the hook in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a>
  
 
  

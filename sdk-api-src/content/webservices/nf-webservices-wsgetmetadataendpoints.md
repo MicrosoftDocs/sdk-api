@@ -51,7 +51,7 @@ req.redist:
 
 
 Returns the "Endpoints" defined within the metadata object documents.
-            Calling this function with <a href="https://msdn.microsoft.com/en-us/library/Dd401970(v=VS.85).aspx">WS_METADATA_STATE</a>set to <b>WS_METADATA_STATE_CREATED</b> will cause the metadata object to resolve
+            Calling this function with <a href="https://msdn.microsoft.com/4d2b8c31-d5ff-4b96-9aaf-57e59d075431">WS_METADATA_STATE</a>set to <b>WS_METADATA_STATE_CREATED</b> will cause the metadata object to resolve
                 all references in the metadata documents. Any
                 additional document validation will also be done.  If this process is
                 successful  the metadata object will be set to <b>WS_METADATA_STATE_RESOLVED</b> and  subsequent document additions to the metadata object are not permitted.   If there is an error the metadata object 

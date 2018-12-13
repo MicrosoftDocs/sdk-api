@@ -113,11 +113,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3 Interface</a>
+<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798759(v=VS.85).aspx">IWMWriterFileSink3::SetUnbufferedIO</a>
+<a href="https://msdn.microsoft.com/51a9c21b-d301-41e4-a9bc-321a5b2decca">IWMWriterFileSink3::SetUnbufferedIO</a>
  
 
  

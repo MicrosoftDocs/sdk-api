@@ -105,7 +105,7 @@ This method is used only when remoting the Windows Media Player control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563534(v=VS.85).aspx">IWMPPlayerServices2 Interface</a>
+<a href="https://msdn.microsoft.com/abbce425-9185-4235-8d8e-28be591be8e5">IWMPPlayerServices2 Interface</a>
 
 
 

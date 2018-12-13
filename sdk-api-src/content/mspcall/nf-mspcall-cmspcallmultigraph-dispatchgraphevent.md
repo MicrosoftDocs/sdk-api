@@ -54,7 +54,7 @@ The
 <b>DispatchGraphEvent</b> method is a static method posted to the 
 <a href="https://msdn.microsoft.com/d0cd8b28-6e20-449a-94dd-cca2be46b812">RegisterWaitForSingleObject</a> function during initialization. This function is called when the filter graph signals the event. The <i>pContext</i> parameter is a pointer to the 
 <a href="https://msdn.microsoft.com/6a7fe6ea-8e25-469a-8505-55d48a661cd8">MSPSTREAMCONTEXT</a> structure. The pointers in the structure carry ref counts. The implementation of this method simply casts the <i>pContext</i> argument to type MSPSTREAMCONTEXT *, and then calls 
-<a href="https://msdn.microsoft.com/en-us/library/ms726569(v=VS.85).aspx">HandleGraphEvent</a> on the MSP call object whose pointer appears in the structure.
+<a href="https://msdn.microsoft.com/6c661341-6ae6-4a0a-88e5-b661a09ec9fe">HandleGraphEvent</a> on the MSP call object whose pointer appears in the structure.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Contains pointer to
 
 Not used. Required for 
 <a href="https://msdn.microsoft.com/d0cd8b28-6e20-449a-94dd-cca2be46b812">RegisterWaitForSingleObject</a>. Set <b>TRUE</b> if wait times out, but time-out in 
-<a href="https://msdn.microsoft.com/en-us/library/ms726610(v=VS.85).aspx">CMSPCallMultiGraph::RegisterWaitEvent</a> is set to INFINITE.
+<a href="https://msdn.microsoft.com/3c75ed75-a0b2-435b-aa49-c1e7dadf260f">CMSPCallMultiGraph::RegisterWaitEvent</a> is set to INFINITE.
 
 
 ## -see-also
@@ -80,7 +80,7 @@ Not used. Required for
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a>
+<a href="https://msdn.microsoft.com/86512d40-380b-4e98-840d-b7be99a86623">CMSPCallMultiGraph</a>
  
 
  

@@ -96,7 +96,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420148(v=VS.85).aspx">XMPlaneNormalize</a>
+<a href="https://msdn.microsoft.com/39543f20-d8d6-4fd2-a900-bf9921281fe2">XMPlaneNormalize</a>
  
 
  

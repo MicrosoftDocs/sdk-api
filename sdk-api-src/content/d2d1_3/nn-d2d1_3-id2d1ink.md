@@ -124,7 +124,7 @@ Removes the given number of segments from the end of this ink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn900442(v=VS.85).aspx">SetSegmentAtEnd</a>
+<a href="https://msdn.microsoft.com/d2901735-724d-502b-bc2e-dc030f8be4fe">SetSegmentAtEnd</a>
 </td>
 <td align="left" width="63%">Overloaded. Updates the last segment in this ink object with new control points.
 

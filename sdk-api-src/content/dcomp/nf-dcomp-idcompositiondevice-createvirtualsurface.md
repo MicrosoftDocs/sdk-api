@@ -76,7 +76,7 @@ The height of the surface, in pixels. The maximum height is 16,777,216 pixels.
 
 ### -param pixelFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
 
 The pixel format of the surface.
 
@@ -129,7 +129,7 @@ The alpha channel should be ignored and the bitmap should be rendered opaquely.
 
 ### -param virtualSurface [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449133(v=VS.85).aspx">IDCompositionVirtualSurface</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC">IDCompositionVirtualSurface</a>**</b>
 
 The newly created surface object. This parameter must not be NULL.
 
@@ -155,7 +155,7 @@ A Microsoft DirectComposition sparse surface is a logical object that behaves li
 
 A newly created surface object is in an uninitialized state. While it is uninitialized, the surface has no effect on the composition of the visual tree. It behaves exactly like a surface that is initialized with 100% transparent pixels. 
 
-To initialize the surface with pixel data, use the <a href="https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx">IDCompositionSurface::BeginDraw</a> method. This method not only provides pixels for the surface, but it also allocates actual storage space for those pixels. The memory allocation persists until the application returns some of the memory to the system. The application can free part or all of the allocated memory by calling the <a href="https://msdn.microsoft.com/en-us/library/Hh449137(v=VS.85).aspx">IDComposition::VirtualSurfaceTrim</a> method.
+To initialize the surface with pixel data, use the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> method. This method not only provides pixels for the surface, but it also allocates actual storage space for those pixels. The memory allocation persists until the application returns some of the memory to the system. The application can free part or all of the allocated memory by calling the <a href="https://msdn.microsoft.com/5A4F516F-B031-47E6-9A3D-068CF2C3D53A">IDComposition::VirtualSurfaceTrim</a> method.
 
 
 
@@ -173,9 +173,13 @@ This method fails if <i>initialWidth</i> or <i>initialHeight</i> exceeds 16,777,
 
 The following example shows how to create a virtual surface and associate it with a visual.
 
-
-```cpp
-HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
                          UINT surfaceWidth, UINT surfaceHeight) 
 {
     // Validate the input parameters.
@@ -190,39 +194,39 @@ HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
     POINT offset = {0};
 
     // Create the rendering target. 
-    hr = pDCompDevice->CreateTargetForHwnd(hwndTarget, TRUE, &pTargetWindow);
+    hr = pDCompDevice-&gt;CreateTargetForHwnd(hwndTarget, TRUE, &amp;pTargetWindow);
 
     if (SUCCEEDED(hr))
     {
         // Create a visual.
-        hr = pDCompDevice->CreateVisual(&pVisual);
+        hr = pDCompDevice-&gt;CreateVisual(&amp;pVisual);
     }
 
     if (SUCCEEDED(hr))
     {
         // Add the visual to the root of the composition tree.
-        hr = pTargetWindow->SetRoot(pVisual);
+        hr = pTargetWindow-&gt;SetRoot(pVisual);
     }
 
     if (SUCCEEDED(hr))
     {
         // Create a virtual surface.
-        hr = pDCompDevice->CreateVirtualSurface(surfaceWidth, surfaceHeight, 
+        hr = pDCompDevice-&gt;CreateVirtualSurface(surfaceWidth, surfaceHeight, 
             DXGI_FORMAT_R8G8B8A8_UNORM, DXGI_ALPHA_MODE_IGNORE, 
-            &pVirtualSurface);
+            &amp;pVirtualSurface);
     }
 
     if (SUCCEEDED(hr))
     {
         // Set the virtual surface as the content of the visual.
-        hr = pVisual->SetContent(pVirtualSurface);
+        hr = pVisual-&gt;SetContent(pVirtualSurface);
     }
     
     if (SUCCEEDED(hr))
     {
         // Retrieve and interface pointer for draw on the surface.
-        hr = pVirtualSurface->BeginDraw(NULL, __uuidof(ID3D10Texture2D), 
-            (void **) &pTex2D, &offset);
+        hr = pVirtualSurface-&gt;BeginDraw(NULL, __uuidof(ID3D10Texture2D), 
+            (void **) &amp;pTex2D, &amp;offset);
     }
 
     //
@@ -232,25 +236,25 @@ HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
     if (SUCCEEDED(hr))
     {
         // Complete the updates to the surface.
-        hr = pVirtualSurface->EndDraw();
+        hr = pVirtualSurface-&gt;EndDraw();
     }
 
     // Commit the composition for rendering.
-    hr = pDCompDevice->Commit();
+    hr = pDCompDevice-&gt;Commit();
 
     // Clean up.
-    SafeRelease(&pTargetWindow);
-    SafeRelease(&pVisual);
-    SafeRelease(&pVirtualSurface);
-    SafeRelease(&pTex2D);
+    SafeRelease(&amp;pTargetWindow);
+    SafeRelease(&amp;pVisual);
+    SafeRelease(&amp;pVirtualSurface);
+    SafeRelease(&amp;pTex2D);
 
     return hr;
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -259,11 +263,11 @@ HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437405(v=VS.85).aspx">IDCompositionDevice::CreateSurface</a>
+<a href="https://msdn.microsoft.com/3B321BF8-A7A5-4E40-B548-D88CA45F6DAF">IDCompositionDevice::CreateSurface</a>
  
 
  

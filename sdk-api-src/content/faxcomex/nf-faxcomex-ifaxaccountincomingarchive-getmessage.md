@@ -75,9 +75,9 @@ TBD
 
 #### - pFaxIncomingMessage2 [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa358995(v=VS.85).aspx">IFaxIncomingMessage2</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/b3dc429e-1470-4e7d-8cd5-9cadb0052051">IFaxIncomingMessage2</a>**</b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa358995(v=VS.85).aspx">IFaxIncomingMessage2</a> object.
+An <a href="https://msdn.microsoft.com/b3dc429e-1470-4e7d-8cd5-9cadb0052051">IFaxIncomingMessage2</a> object.
 
 
 ## -returns
@@ -95,9 +95,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2QUERY_ARCHIVES</a> access right. 
+To use this method, a user must have the <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2QUERY_ARCHIVES</a> access right. 
 
-If the setting 'All incoming faxes are viewable by everyone' is true (see <a href="https://msdn.microsoft.com/en-us/library/Aa358923(v=VS.85).aspx">IncomingFaxesArePublic</a>) or if <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2MANAGE_RECEIVE_FOLDER</a> access rights, then the fax service searches all faxes in the Incoming archive of the Fax Server Receive Folder.
+If the setting 'All incoming faxes are viewable by everyone' is true (see <a href="https://msdn.microsoft.com/f40268ab-6df0-4c4f-9c73-c3129be589cc">IncomingFaxesArePublic</a>) or if <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2MANAGE_RECEIVE_FOLDER</a> access rights, then the fax service searches all faxes in the Incoming archive of the Fax Server Receive Folder.
 
 
 
@@ -107,11 +107,11 @@ If the setting 'All incoming faxes are viewable by everyone' is true (see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358957(v=VS.85).aspx">FaxAccountIncomingArchive</a>
+<a href="https://msdn.microsoft.com/d2ae93a1-6325-4b8f-a227-4eb0678702d2">FaxAccountIncomingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359046(v=VS.85).aspx">IFaxAccountIncomingArchive</a>
+<a href="https://msdn.microsoft.com/8a10e18a-fed1-47b0-bb5b-b9f21f234c5b">IFaxAccountIncomingArchive</a>
  
 
  

@@ -89,7 +89,7 @@ This event corresponds to the STREAMBUFFER_EC_STALE_FILE_DELETED event in the St
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694669(v=VS.85).aspx">IMSVidStreamBufferSourceEvent Interface</a>
+<a href="https://msdn.microsoft.com/6d8e0cf3-b4c7-4f3e-acff-50f12b8340a8">IMSVidStreamBufferSourceEvent Interface</a>
  
 
  

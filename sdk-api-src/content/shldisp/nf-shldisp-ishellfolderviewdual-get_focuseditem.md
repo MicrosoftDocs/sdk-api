@@ -60,7 +60,7 @@ Gets the FolderItem object that represents the item that has input focus.
 
 ### -param ppid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787810(v=VS.85).aspx">FolderItem</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/38c0e049-2f9f-43bc-8bf2-1b7becf16e66">FolderItem</a>**</b>
 
 The FolderItem object with input focus.
 

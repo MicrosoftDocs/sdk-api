@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>DSOBJECT</b> structure contains directory object data. An array of this structure is provided in the <b>aObjects</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms676011(v=VS.85).aspx">DSOBJECTNAMES</a> structure.
+The <b>DSOBJECT</b> structure contains directory object data. An array of this structure is provided in the <b>aObjects</b> member of the <a href="https://msdn.microsoft.com/dfc1e88f-40ff-4ec1-9718-4801f678fa3f">DSOBJECTNAMES</a> structure.
 
 
 ## -struct-fields
@@ -112,7 +112,7 @@ Not used.
 
 ### -field offsetName
 
-Contains the offset, in bytes, from the start of the <a href="https://msdn.microsoft.com/en-us/library/ms676011(v=VS.85).aspx">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the ADSPath of the object.
+Contains the offset, in bytes, from the start of the <a href="https://msdn.microsoft.com/dfc1e88f-40ff-4ec1-9718-4801f678fa3f">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the ADSPath of the object.
 
 The following code example shows how to use this member.
 
@@ -131,7 +131,7 @@ The following code example shows how to use this member.
 
 ### -field offsetClass
 
-Contains the offset, in bytes, from the start of the <a href="https://msdn.microsoft.com/en-us/library/ms676011(v=VS.85).aspx">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the class name of the object. Contains zero if the class name is unknown.
+Contains the offset, in bytes, from the start of the <a href="https://msdn.microsoft.com/dfc1e88f-40ff-4ec1-9718-4801f678fa3f">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the class name of the object. Contains zero if the class name is unknown.
 
 The following code example shows how to use this member.
 
@@ -153,7 +153,7 @@ The following code example shows how to use this member.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676011(v=VS.85).aspx">DSOBJECTNAMES</a>
+<a href="https://msdn.microsoft.com/dfc1e88f-40ff-4ec1-9718-4801f678fa3f">DSOBJECTNAMES</a>
 
 
 

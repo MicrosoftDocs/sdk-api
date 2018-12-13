@@ -59,7 +59,7 @@ req.redist:
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <b>Provider</b> class is the base class for the class or classes that the framework provider supports. The <b>Provider</b> class encapsulates implementations of the methods of <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> and includes several helper functions. A framework provider overrides one of the methods of the <b>Provider</b> class for each feature that it supports. For example, a provider that supports query processing overrides the <a href="https://msdn.microsoft.com/en-us/library/Aa392770(v=VS.85).aspx">Provider::ExecQuery</a> method.
+The <b>Provider</b> class is the base class for the class or classes that the framework provider supports. The <b>Provider</b> class encapsulates implementations of the methods of <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> and includes several helper functions. A framework provider overrides one of the methods of the <b>Provider</b> class for each feature that it supports. For example, a provider that supports query processing overrides the <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">Provider::ExecQuery</a> method.
 
 An instance of the <b>Provider</b> class is created for each WMI class that has a framework provider.
 
@@ -74,7 +74,7 @@ An instance of the <b>Provider</b> class is created for each WMI class that has 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392763(v=VS.85).aspx">Commit</a>
+<a href="https://msdn.microsoft.com/619adf78-26db-4a90-90ba-bdacb3e55975">Commit</a>
 </td>
 <td align="left" width="63%">
 Returns the current instance to WMI.
@@ -83,7 +83,7 @@ Returns the current instance to WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392765(v=VS.85).aspx">CreateNewInstance</a>
+<a href="https://msdn.microsoft.com/cb520b55-9ef8-4f5a-935d-46c2bb01f5dd">CreateNewInstance</a>
 </td>
 <td align="left" width="63%">
 Allocates a new <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> object and returns a pointer to it.
@@ -92,7 +92,7 @@ Allocates a new <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392766(v=VS.85).aspx">DeleteInstance</a>
+<a href="https://msdn.microsoft.com/469d2481-95ea-4d17-b0ef-095ced9c8319">DeleteInstance</a>
 </td>
 <td align="left" width="63%">
 Deletes an instance. Called by WMI.
@@ -101,7 +101,7 @@ Deletes an instance. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392767(v=VS.85).aspx">EnumerateInstances</a>
+<a href="https://msdn.microsoft.com/9566acb0-d7bf-4d3d-b7da-5cfbce150a2c">EnumerateInstances</a>
 </td>
 <td align="left" width="63%">
 Retrieves all instances of a framework provider's class. Called by WMI.
@@ -110,7 +110,7 @@ Retrieves all instances of a framework provider's class. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392769(v=VS.85).aspx">ExecMethod</a>
+<a href="https://msdn.microsoft.com/590f59ad-ea93-42f0-8b0d-c05a49272b1b">ExecMethod</a>
 </td>
 <td align="left" width="63%">
 Invokes a method on a class or instance. Called by WMI.
@@ -119,7 +119,7 @@ Invokes a method on a class or instance. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392770(v=VS.85).aspx">ExecQuery</a>
+<a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">ExecQuery</a>
 </td>
 <td align="left" width="63%">
 Processes a WMI Query Language (WQL) query. Called by WMI.
@@ -128,7 +128,7 @@ Processes a WMI Query Language (WQL) query. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392771(v=VS.85).aspx">Flush</a>
+<a href="https://msdn.microsoft.com/c8be35ec-cd2e-45ec-b47f-48acf5e6f51a">Flush</a>
 </td>
 <td align="left" width="63%">
 Called by the provider framework to delete all unnecessary memory in use by the provider.
@@ -137,7 +137,7 @@ Called by the provider framework to delete all unnecessary memory in use by the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392774(v=VS.85).aspx">GetLocalComputerName</a>
+<a href="https://msdn.microsoft.com/20470353-417d-4067-8df1-c2ec6b330853">GetLocalComputerName</a>
 </td>
 <td align="left" width="63%">
 Returns a constant reference to the computer name in <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> format.
@@ -146,7 +146,7 @@ Returns a constant reference to the computer name in <a href="https://msdn.micro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392775(v=VS.85).aspx">GetLocalInstancePath</a>
+<a href="https://msdn.microsoft.com/c419205f-d07d-4887-8e36-ccde37c2351f">GetLocalInstancePath</a>
 </td>
 <td align="left" width="63%">
 Attempts to build a full object path to a specified instance.
@@ -155,7 +155,7 @@ Attempts to build a full object path to a specified instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392779(v=VS.85).aspx">GetObject</a>
+<a href="https://msdn.microsoft.com/c8e2633a-cbea-422c-9598-1b1b1104bbc2">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves an instance of a class. Called by WMI.
@@ -164,7 +164,7 @@ Retrieves an instance of a class. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392781(v=VS.85).aspx">GetProviderName</a>
+<a href="https://msdn.microsoft.com/9ea7558d-11bd-4f19-b4d3-a711eca632a8">GetProviderName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the provider.
@@ -173,7 +173,7 @@ Retrieves the name of the provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392881(v=VS.85).aspx">MakeLocalPath</a>
+<a href="https://msdn.microsoft.com/8a2476c0-73c0-4a95-8973-e6da451116af">MakeLocalPath</a>
 </td>
 <td align="left" width="63%">
 Builds a full instance path from a relative path.
@@ -182,7 +182,7 @@ Builds a full instance path from a relative path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392883(v=VS.85).aspx">PutInstance</a>
+<a href="https://msdn.microsoft.com/c9921a00-b966-47d0-a2f3-982812ab249c">PutInstance</a>
 </td>
 <td align="left" width="63%">
 Updates an instance. Called by WMI.
@@ -191,7 +191,7 @@ Updates an instance. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392884(v=VS.85).aspx">SetCreationClassName</a>
+<a href="https://msdn.microsoft.com/0a02e767-95b7-42cb-ab82-66e2d28342fc">SetCreationClassName</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>CreationClassName</b> string property of the given instance to the name of this provider.
@@ -200,7 +200,7 @@ Sets the <b>CreationClassName</b> string property of the given instance to the n
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392885(v=VS.85).aspx">ValidateDeletionFlags</a>
+<a href="https://msdn.microsoft.com/eaaf49e3-e768-4494-ba0b-dc2c8c35be47">ValidateDeletionFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for a delete operation.
@@ -209,7 +209,7 @@ Determines whether a set of flags is valid for a delete operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392886(v=VS.85).aspx">ValidateEnumerationFlags</a>
+<a href="https://msdn.microsoft.com/1f5ae240-2314-40c1-a6c8-2c395d284568">ValidateEnumerationFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for an enumeration.
@@ -218,7 +218,7 @@ Determines whether a set of flags is valid for an enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392887(v=VS.85).aspx">ValidateFlags</a>
+<a href="https://msdn.microsoft.com/1d6d1006-99b9-4646-a5c4-835940ce3ac0">ValidateFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid.
@@ -227,7 +227,7 @@ Determines whether a set of flags is valid.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392889(v=VS.85).aspx">ValidateGetObjFlags</a>
+<a href="https://msdn.microsoft.com/5090c47b-062b-4359-b03b-0d05c225447d">ValidateGetObjFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for an instance retrieval operation.
@@ -236,7 +236,7 @@ Determines whether a set of flags is valid for an instance retrieval operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392890(v=VS.85).aspx">ValidateMethodFlags</a>
+<a href="https://msdn.microsoft.com/febc48d8-8952-4e2f-80fc-40344908f8b2">ValidateMethodFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for an execute method operation.
@@ -245,7 +245,7 @@ Determines whether a set of flags is valid for an execute method operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392891(v=VS.85).aspx">ValidatePutInstanceFlags</a>
+<a href="https://msdn.microsoft.com/dd7a480e-9569-45ed-a46d-218c1a9cf2db">ValidatePutInstanceFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for an instance update operation.
@@ -254,7 +254,7 @@ Determines whether a set of flags is valid for an instance update operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa392892(v=VS.85).aspx">ValidateQueryFlags</a>
+<a href="https://msdn.microsoft.com/b35e6f2f-7d40-4b9b-833d-63efafd06a20">ValidateQueryFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for a query operation.

@@ -115,7 +115,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319776(v=VS.85).aspx">IAMStats Interface</a>
+<a href="https://msdn.microsoft.com/01dbaba2-fdca-4f42-8816-fd99c4364dbd">IAMStats Interface</a>
  
 
  

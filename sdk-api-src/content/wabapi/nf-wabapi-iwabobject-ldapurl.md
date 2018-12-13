@@ -69,9 +69,9 @@ Processes an Lightweight Directory Access Protocol (LDAP) URL
 
 ### -param lpIAB
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface 
+Pointer to an <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a> interface 
 				that specifies the address book to use.
 
 
@@ -125,9 +125,9 @@ Value of type <b>LPSTR</b> that specifies the
 
 ### -param lppMailUser
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629507(v=VS.85).aspx">IMailUser</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/7af094d9-b5fd-4214-9604-b7dd93639f5e">IMailUser</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629507(v=VS.85).aspx">IMailUser</a> 
+Address of a pointer to an <a href="https://msdn.microsoft.com/7af094d9-b5fd-4214-9604-b7dd93639f5e">IMailUser</a> 
 				interface that receives the returned Mailuser object, 
 				if requested. Otherwise, it is <b>NULL</b>.
 

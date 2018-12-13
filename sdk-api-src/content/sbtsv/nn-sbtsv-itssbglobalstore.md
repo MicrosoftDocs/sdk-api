@@ -4,7 +4,7 @@ title: ITsSbGlobalStore
 author: windows-sdk-content
 description: Exposes methods that query for target computers, sessions, environments, and farms that have been added to the Remote Desktop Connection Broker (RD Connection Broker) store.
 old-location: termserv\itssbglobalstore.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d25b6f73-ee5f-40e4-9c49-fd48dd3990d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

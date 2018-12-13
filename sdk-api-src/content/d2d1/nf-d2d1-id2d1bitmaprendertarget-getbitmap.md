@@ -69,7 +69,7 @@ When this method returns, contains the address of a pointer to the bitmap for th
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -85,39 +85,43 @@ The DPI for the <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879
 
 #### Examples
 
-The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742780(v=VS.85).aspx">CreateCompatibleRenderTarget</a> method to create an <a href="https://msdn.microsoft.com/f298d4f7-acb8-4fbe-89f7-2410e3b753bd">ID2D1BitmapRenderTarget</a> and uses it to  draw a grid pattern. The grid pattern is used as the source of an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>.
+The following example uses the <a href="https://msdn.microsoft.com/4a799a7c-0d2f-460f-99f9-24c6cf7c4537">CreateCompatibleRenderTarget</a> method to create an <a href="https://msdn.microsoft.com/f298d4f7-acb8-4fbe-89f7-2410e3b753bd">ID2D1BitmapRenderTarget</a> and uses it to  draw a grid pattern. The grid pattern is used as the source of an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>.
 
-
-```cpp
-HRESULT DemoApp::CreateGridPatternBrush(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DemoApp::CreateGridPatternBrush(
     ID2D1RenderTarget *pRenderTarget,
     ID2D1BitmapBrush **ppBitmapBrush
     )
 {
     // Create a compatible render target.
     ID2D1BitmapRenderTarget *pCompatibleRenderTarget = NULL;
-    HRESULT hr = pRenderTarget->CreateCompatibleRenderTarget(
+    HRESULT hr = pRenderTarget-&gt;CreateCompatibleRenderTarget(
         D2D1::SizeF(10.0f, 10.0f),
-        &pCompatibleRenderTarget
+        &amp;pCompatibleRenderTarget
         );
     if (SUCCEEDED(hr))
     {
         // Draw a pattern.
         ID2D1SolidColorBrush *pGridBrush = NULL;
-        hr = pCompatibleRenderTarget->CreateSolidColorBrush(
+        hr = pCompatibleRenderTarget-&gt;CreateSolidColorBrush(
             D2D1::ColorF(D2D1::ColorF(0.93f, 0.94f, 0.96f, 1.0f)),
-            &pGridBrush
+            &amp;pGridBrush
             );
         if (SUCCEEDED(hr))
         {
-            pCompatibleRenderTarget->BeginDraw();
-            pCompatibleRenderTarget->FillRectangle(D2D1::RectF(0.0f, 0.0f, 10.0f, 1.0f), pGridBrush);
-            pCompatibleRenderTarget->FillRectangle(D2D1::RectF(0.0f, 0.1f, 1.0f, 10.0f), pGridBrush);
-            pCompatibleRenderTarget->EndDraw();
+            pCompatibleRenderTarget-&gt;BeginDraw();
+            pCompatibleRenderTarget-&gt;FillRectangle(D2D1::RectF(0.0f, 0.0f, 10.0f, 1.0f), pGridBrush);
+            pCompatibleRenderTarget-&gt;FillRectangle(D2D1::RectF(0.0f, 0.1f, 1.0f, 10.0f), pGridBrush);
+            pCompatibleRenderTarget-&gt;EndDraw();
 
             // Retrieve the bitmap from the render target.
             ID2D1Bitmap *pGridBitmap = NULL;
-            hr = pCompatibleRenderTarget->GetBitmap(&pGridBitmap);
+            hr = pCompatibleRenderTarget-&gt;GetBitmap(&amp;pGridBitmap);
             if (SUCCEEDED(hr))
             {
                 // Choose the tiling mode for the bitmap brush.
@@ -125,36 +129,40 @@ HRESULT DemoApp::CreateGridPatternBrush(
                     D2D1::BitmapBrushProperties(D2D1_EXTEND_MODE_WRAP, D2D1_EXTEND_MODE_WRAP);
 
                 // Create the bitmap brush.
-                hr = m_pRenderTarget->CreateBitmapBrush(pGridBitmap, brushProperties, ppBitmapBrush);
+                hr = m_pRenderTarget-&gt;CreateBitmapBrush(pGridBitmap, brushProperties, ppBitmapBrush);
 
-                pGridBitmap->Release();
+                pGridBitmap-&gt;Release();
             }
 
-            pGridBrush->Release();
+            pGridBrush-&gt;Release();
         }
 
-        pCompatibleRenderTarget->Release();
+        pCompatibleRenderTarget-&gt;Release();
     }
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example uses the brush to paint a pattern.
 
-
-```cpp
-// Paint a grid background.
-m_pRenderTarget->FillRectangle(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Paint a grid background.
+m_pRenderTarget-&gt;FillRectangle(
     D2D1::RectF(0.0f, 0.0f, renderTargetSize.width, renderTargetSize.height),
     m_pGridPatternBitmapBrush
     );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Code has been omitted from this example. 
         
 

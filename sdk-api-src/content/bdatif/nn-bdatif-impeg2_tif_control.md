@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>IMPEG2_TIF_CONTROL</b> is no longer available for use. Instead, use the <a href="https://msdn.microsoft.com/96c76a81-57c9-4c4b-a5f6-7b9862757847">IBDA_TIF_REGISTRATION</a> interface to register the TIF with the Network Provider, and use the <a href="https://msdn.microsoft.com/en-us/library/Dd407132(v=VS.85).aspx">IMPEG2PIDMap</a> interface to map or unmap PIDs.]
+<p class="CCE_Message">[<b>IMPEG2_TIF_CONTROL</b> is no longer available for use. Instead, use the <a href="https://msdn.microsoft.com/96c76a81-57c9-4c4b-a5f6-7b9862757847">IBDA_TIF_REGISTRATION</a> interface to register the TIF with the Network Provider, and use the <a href="https://msdn.microsoft.com/45c09a02-7da8-460a-9a64-f012c2181b94">IMPEG2PIDMap</a> interface to map or unmap PIDs.]
 
 The <b>IMPEG2_TIF_CONTROL</b> interface is implemented by the <a href="https://msdn.microsoft.com/f5de924f-defe-4300-a347-c9d63271dc90">BDA Network Provider</a>. A Transport Information Filter (TIF) can use this interface to register itself and request table sections carried on specific PIDs within the transport stream. The Network Provider Filter instructs the <a href="https://msdn.microsoft.com/99bfc55d-6519-4e85-98ce-cad27bd71ffb">MPEG-2 Demultiplexer</a> (Demux) to send or stop sending the specified packets to the TIF's input pin. All sections are delivered by the Demux to the TIF as complete MPEG-2 table sections.
 

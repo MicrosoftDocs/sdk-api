@@ -146,11 +146,11 @@ Not all device types implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice Interface</a>
+<a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694532(v=VS.85).aspx">IMSVidDevice::put_Power</a>
+<a href="https://msdn.microsoft.com/6a0122a8-6015-4255-a7d6-ab72b4025bd6">IMSVidDevice::put_Power</a>
  
 
  

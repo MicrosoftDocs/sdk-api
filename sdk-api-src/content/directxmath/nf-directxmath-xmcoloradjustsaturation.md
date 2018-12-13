@@ -85,9 +85,13 @@ Returns an <b>XMVECTOR</b> describing the color resulting from the saturation ad
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-XMVector colorOut;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVector colorOut;
 
 // Approximate values for each component's contribution to luminance.
 // Based upon the NTSC standard described in ITU-R Recommendation BT.709.
@@ -98,10 +102,10 @@ colorOut.y = (C.y - Luminance) * Saturation + Luminance;
 colorOut.z = (C.z - Luminance) * Saturation + Luminance;
 colorOut.w = C.w;
 
-return colorOut;
-```
-
-
+return colorOut;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

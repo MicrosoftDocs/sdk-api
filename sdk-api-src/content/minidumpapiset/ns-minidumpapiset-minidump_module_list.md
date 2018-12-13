@@ -4,7 +4,7 @@ title: MINIDUMP_MODULE_LIST
 author: windows-sdk-content
 description: Contains a list of modules.
 old-location: base\minidump_module_list_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 9c30026d-9c72-472f-9d71-b15274459aae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -137,7 +137,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421004(v=VS.85).aspx">XMVectorBaryCentricV</a>
+<a href="https://msdn.microsoft.com/f8394099-74d7-4ec2-bc8c-c2b820b40797">XMVectorBaryCentricV</a>
  
 
  

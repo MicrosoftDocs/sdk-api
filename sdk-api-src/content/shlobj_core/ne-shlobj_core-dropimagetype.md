@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Values used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773268(v=VS.85).aspx">DROPDESCRIPTION</a> structure to specify the drop image.
+Values used with the <a href="https://msdn.microsoft.com/78757001-cac8-412d-a6c3-74bae6eb3ad8">DROPDESCRIPTION</a> structure to specify the drop image.
 
 
 ## -enum-fields

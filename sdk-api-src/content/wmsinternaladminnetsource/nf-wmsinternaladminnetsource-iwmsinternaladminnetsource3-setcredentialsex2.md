@@ -120,11 +120,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743722(v=VS.85).aspx">IWMSInternalAdminNetSource3 Interface</a>
+<a href="https://msdn.microsoft.com/b4ca08a4-6e2d-4646-b101-67bac67300b1">IWMSInternalAdminNetSource3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743724(v=VS.85).aspx">IWMSInternalAdminNetSource3::GetCredentialsEx2</a>
+<a href="https://msdn.microsoft.com/e351f403-4699-4666-b98f-2aed0b80e548">IWMSInternalAdminNetSource3::GetCredentialsEx2</a>
  
 
  

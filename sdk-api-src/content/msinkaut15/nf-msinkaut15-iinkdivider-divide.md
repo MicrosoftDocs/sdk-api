@@ -164,7 +164,7 @@ This method returns a new <a href="https://msdn.microsoft.com/d1a71976-2825-48d2
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
+<a href="https://msdn.microsoft.com/6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9">IInkDivider</a>
 
 
 

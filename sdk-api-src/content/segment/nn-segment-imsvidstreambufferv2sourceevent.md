@@ -70,7 +70,7 @@ The <b>IMSVidStreamBufferV2SourceEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694695(v=VS.85).aspx">BroadcastEvent</a>
+<a href="https://msdn.microsoft.com/f5d5b6d8-9baa-4a9e-8275-e817394c211a">BroadcastEvent</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives any event through the <a href="https://msdn.microsoft.com/90d4fbc7-d552-460b-96b2-77e2347af716">IBroadcastEvent</a> interface, other than  the EVENTID_DTFilterRatingChange event.
@@ -79,7 +79,7 @@ Fired when the SBE2 source filter receives any event through the <a href="https:
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694696(v=VS.85).aspx">BroadcastEventEx</a>
+<a href="https://msdn.microsoft.com/731baecc-72f9-4ecd-bc01-40ad31c67051">BroadcastEventEx</a>
 </td>
 <td align="left" width="63%">
 Fired when an SBE2 source filter receives any event fired by a call to <a href="https://msdn.microsoft.com/b9ad8d9d-9827-44f9-9d2b-3f662c32eb9b">IBroadcastEventEx::FireEx</a>.
@@ -89,7 +89,7 @@ Fired when an SBE2 source filter receives any event fired by a call to <a href="
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694697(v=VS.85).aspx">ContentBecomingStale</a>
+<a href="https://msdn.microsoft.com/b9af548a-9796-4dc0-8b78-46e529a484ce">ContentBecomingStale</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives a TREAMBUFFER_EC_CONTENT_BECOMING_STALE event, which indicates the stream buffer source lags behind the stream buffer sink by more than a preset number of files.
@@ -99,10 +99,10 @@ Fired when the SBE2 source filter receives a TREAMBUFFER_EC_CONTENT_BECOMING_STA
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694698(v=VS.85).aspx">ContentPrimarilyAudio</a>
+<a href="https://msdn.microsoft.com/9056bed3-b4da-4eca-a573-0d9bda3d2127">ContentPrimarilyAudio</a>
 </td>
 <td align="left" width="63%">
-Fired when an SBE2 source filter receives a STREAMBUFFER_EC_PRIMARY_AUDIO event that was fired through the <a href="https://msdn.microsoft.com/en-us/library/Dd694672(v=VS.85).aspx">IMSVidStreamBufferSourceEvent3</a> interface and indicates SBE is processing primarily audio data.
+Fired when an SBE2 source filter receives a STREAMBUFFER_EC_PRIMARY_AUDIO event that was fired through the <a href="https://msdn.microsoft.com/4ff2e05f-1c26-48f2-8c46-beebb8b0b1b3">IMSVidStreamBufferSourceEvent3</a> interface and indicates SBE is processing primarily audio data.
           
           
 
@@ -110,7 +110,7 @@ Fired when an SBE2 source filter receives a STREAMBUFFER_EC_PRIMARY_AUDIO event 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694699(v=VS.85).aspx">RateChange</a>
+<a href="https://msdn.microsoft.com/32af2323-0018-4e77-bf2e-9ff95e59f91e">RateChange</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event, which indicates the playback rate has changed.
@@ -120,7 +120,7 @@ Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event,
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694700(v=VS.85).aspx">RatingsChanged</a>
+<a href="https://msdn.microsoft.com/56ba6126-c3c7-4cbd-9209-7638452d5782">RatingsChanged</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives an EVENTID_DTFilterRatingChange event that was fired through the <a href="https://msdn.microsoft.com/90d4fbc7-d552-460b-96b2-77e2347af716">IBroadcastEvent</a> interface and  indicates  a rating has changed.
@@ -130,7 +130,7 @@ Fired when the SBE2 source filter receives an EVENTID_DTFilterRatingChange event
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694701(v=VS.85).aspx">StaleDataRead</a>
+<a href="https://msdn.microsoft.com/8eb53b77-94a3-4216-a32f-22338d84f5ad">StaleDataRead</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_DATA_READ event, which indicates an <a href="https://msdn.microsoft.com/4043e199-d329-45f3-80a7-cd84fad88979">MSVidStreamBufferSource</a> object has read from a temporary recording file that is marked for deletion.
@@ -140,7 +140,7 @@ Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_DATA_READ eve
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694702(v=VS.85).aspx">StaleFileDeleted</a>
+<a href="https://msdn.microsoft.com/23cd93d9-3615-4fbf-a6de-61ee69cd51e3">StaleFileDeleted</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_FILE_DELETED event, which indicates a temporary file has been deleted.
@@ -151,7 +151,7 @@ Fired when the SBE2 source filter receives a STREAMBUFFER_EC_STALE_FILE_DELETED 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694703(v=VS.85).aspx">TimeHole</a>
+<a href="https://msdn.microsoft.com/2eceda3b-b3d6-4714-85c5-ec8bb0986b6f">TimeHole</a>
 </td>
 <td align="left" width="63%">
 Fired when the SBE2 source filter receives a STREAMBUFFER_EC_TIMEHOLE event, which indicates playback has reached a gap in recorded content.

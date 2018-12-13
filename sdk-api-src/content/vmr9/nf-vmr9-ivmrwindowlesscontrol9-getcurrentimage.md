@@ -149,7 +149,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9 Interface</a>
+<a href="https://msdn.microsoft.com/9db99c31-65b5-4ff1-9c0d-22140a3687e8">IVMRWindowlessControl9 Interface</a>
 
 
 

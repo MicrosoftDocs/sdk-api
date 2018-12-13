@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::EnumerateTargets
 author: windows-sdk-content
 description: Returns an array that contains the specified targets that are present in the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_enumeratetargets.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: bb05847a-e7fb-481b-ad84-9f6dc15f9be0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

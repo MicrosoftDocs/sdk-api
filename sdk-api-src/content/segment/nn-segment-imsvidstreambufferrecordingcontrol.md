@@ -55,10 +55,10 @@ The <b>IMSVidStreamBufferRecordingControl</b> interface enables an application t
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd694655(v=VS.85).aspx">IMSVidStreamBufferSink::get_ContentRecorder</a>
+<a href="https://msdn.microsoft.com/9fecdf37-0ad2-499b-8604-5e60bb0aa6e2">IMSVidStreamBufferSink::get_ContentRecorder</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd694656(v=VS.85).aspx">IMSVidStreamBufferSink::get_ReferenceRecorder</a>
+<a href="https://msdn.microsoft.com/81315825-165a-48ef-be5e-fdeba67765f6">IMSVidStreamBufferSink::get_ReferenceRecorder</a>
 </li>
 </ul>
 
@@ -66,7 +66,7 @@ The <b>IMSVidStreamBufferRecordingControl</b> interface enables an application t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferRecordingControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMSVidStreamBufferRecordingControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferRecordingControl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMSVidStreamBufferRecordingControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ The <b>IMSVidStreamBufferRecordingControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694616(v=VS.85).aspx">get_RecordingAttribute</a>
+<a href="https://msdn.microsoft.com/259d0ca0-0566-443c-aa73-a28c304b9d1d">get_RecordingAttribute</a>
 </td>
 <td align="left" width="63%">
 Retrieves the recording object that is controlled by this interface.
@@ -90,7 +90,7 @@ Retrieves the recording object that is controlled by this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694617(v=VS.85).aspx">get_RecordingStarted</a>
+<a href="https://msdn.microsoft.com/99abd883-5fec-4ac4-a167-aa2d4c3bf470">get_RecordingStarted</a>
 </td>
 <td align="left" width="63%">
 Queries whether the recording has started.
@@ -99,7 +99,7 @@ Queries whether the recording has started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694618(v=VS.85).aspx">get_RecordingStopped</a>
+<a href="https://msdn.microsoft.com/894bed11-7bb6-49b9-8036-c32536949dbd">get_RecordingStopped</a>
 </td>
 <td align="left" width="63%">
 Queries whether the recording has stopped.
@@ -108,7 +108,7 @@ Queries whether the recording has stopped.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694619(v=VS.85).aspx">get_RecordingType</a>
+<a href="https://msdn.microsoft.com/23f63c44-4970-42b2-a19a-0a28e7fb5dea">get_RecordingType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of recording, either content recording or reference recording.
@@ -117,7 +117,7 @@ Retrieves the type of recording, either content recording or reference recording
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694620(v=VS.85).aspx">get_StartTime</a>
+<a href="https://msdn.microsoft.com/3efe3cd3-cd26-4a91-b305-6e8677a0cd88">get_StartTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the start time of the recording.
@@ -126,7 +126,7 @@ Retrieves the start time of the recording.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694621(v=VS.85).aspx">get_StopTime</a>
+<a href="https://msdn.microsoft.com/17abe9d3-1a84-4dcf-bc61-d9eafe7418f7">get_StopTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stop time of the recording.
@@ -135,7 +135,7 @@ Retrieves the stop time of the recording.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694622(v=VS.85).aspx">put_StartTime</a>
+<a href="https://msdn.microsoft.com/923fecbb-00f4-445f-a5cb-ef898580396e">put_StartTime</a>
 </td>
 <td align="left" width="63%">
 Sets the start time for the recording.
@@ -144,7 +144,7 @@ Sets the start time for the recording.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694623(v=VS.85).aspx">put_StopTime</a>
+<a href="https://msdn.microsoft.com/5ff338e8-4b91-4947-9ec6-fe35a3fcad3f">put_StopTime</a>
 </td>
 <td align="left" width="63%">
 Sets the stop time for the recording.
@@ -168,7 +168,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Invoked to write an element when <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_CUSTOM_TYPE</a>has been specified.  This allows writing of XML constructs which do not easily
+Invoked to write an element when <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_CUSTOM_TYPE</a>has been specified.  This allows writing of XML constructs which do not easily
                 map to the core serialization model.
             
 
@@ -68,7 +68,7 @@ A  <b>WS_XML_WRITER</b> pointer to the writer that the value should be written t
 
 ### -param typeMapping [in]
 
-Indicates how the XML is being mapped to this type.  See <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a>for more information.
+Indicates how the XML is being mapped to this type.  See <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a>for more information.
                 
 
 If a mapping does not make sense for this particular type, the callback
@@ -117,7 +117,7 @@ This callback function does not return a value.
 
 
 The callback will be invoked with the same calling sequence as
-                <a href="https://msdn.microsoft.com/cab1b4d6-c18b-4740-b4a4-61e70ea181d9">WsWriteType</a> in the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a>.
+                <a href="https://msdn.microsoft.com/cab1b4d6-c18b-4740-b4a4-61e70ea181d9">WsWriteType</a> in the documentation for <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a>.
                 This defines what parts of the XML that the callback should write.
             
 

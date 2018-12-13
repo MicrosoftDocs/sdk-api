@@ -60,7 +60,7 @@ Gets the index of the matching font face reference in the font set, with the sam
 
 ### -param fontFaceReference
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>*</b>
 
 Font face object that specifies the physical font.
 
@@ -95,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>
+<a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>
  
 
  

@@ -4,7 +4,7 @@ title: IWRdsProtocolLogonErrorRedirector::RedirectLogonError
 author: windows-sdk-content
 description: Queries the protocol for the action to take in response to a logon error.
 old-location: termserv\iwrdsprotocollogonerrorredirector_redirectlogonerror.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 86c919e9-2c45-45dd-8eee-7b50efb00cbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -140,7 +140,7 @@ A pointer to a string that contains the message.
 
 ### -param uType [in]
 
-An integer that contains the message box type. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> function.
+An integer that contains the message box type. For more information, see the <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a> function.
 
 
 ### -param pResponse [out]

@@ -118,15 +118,15 @@ If you want Windows Media Player to use the default SAMI file associated with a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563126(v=VS.85).aspx">IWMPClosedCaption::put_SAMIFileName</a>
+<a href="https://msdn.microsoft.com/ebc05983-3375-4ace-b192-f427b9685310">IWMPClosedCaption::put_SAMIFileName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563223(v=VS.85).aspx">IWMPCore::close</a>
+<a href="https://msdn.microsoft.com/e6e21995-5dbd-4893-a9f2-6ce918d3fbc4">IWMPCore::close</a>
  
 
  

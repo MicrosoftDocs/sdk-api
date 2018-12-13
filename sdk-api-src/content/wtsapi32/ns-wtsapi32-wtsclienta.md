@@ -4,7 +4,7 @@ title: WTSCLIENTA
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Connection (RDC) client.
 old-location: termserv\wtsclient.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 864b7560-3f19-4a73-a02b-b82caa88b2de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

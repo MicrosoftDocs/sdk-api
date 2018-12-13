@@ -139,7 +139,7 @@ To obtain a pointer to this interface, do the following:
 
 <ol>
 <li>Call <a href="https://msdn.microsoft.com/b88a6728-d772-48b8-aebc-7d4cc133320a">IAtscPsipParser::GetEIT</a> to get the <a href="https://msdn.microsoft.com/ab3fd79f-4ca6-418e-8e7c-a5fa196c09e6">IATSC_EIT</a> interface.</li>
-<li>Call <a href="https://msdn.microsoft.com/fdd7f03f-8e03-436f-bfe2-bb46a6a4b415">IATSC_EIT::GetRecordDescriptorByTag</a> and pass in the caption service descriptor tag (0x86). If the descriptor is present, the method returns an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> pointer.</li>
+<li>Call <a href="https://msdn.microsoft.com/fdd7f03f-8e03-436f-bfe2-bb46a6a4b415">IATSC_EIT::GetRecordDescriptorByTag</a> and pass in the caption service descriptor tag (0x86). If the descriptor is present, the method returns an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> pointer.</li>
 <li>Query the returned <b>IGenericDescriptor</b> pointer for the <b>ICaptionServiceDescriptor</b> interface.</li>
 </ol>
 

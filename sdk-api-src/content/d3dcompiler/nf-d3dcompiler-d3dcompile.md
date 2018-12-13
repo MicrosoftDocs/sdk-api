@@ -172,7 +172,7 @@ The difference between <b>D3DCompile</b> and <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
  
 
  

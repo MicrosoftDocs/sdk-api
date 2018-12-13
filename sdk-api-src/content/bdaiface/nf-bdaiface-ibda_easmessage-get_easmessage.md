@@ -91,7 +91,7 @@ This method retrieves a counted reference to an <b>IUnknown</b> interface instan
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693321(v=VS.85).aspx">IBDA_EasMessage Interface</a>
+<a href="https://msdn.microsoft.com/dfacaa47-c844-434f-951a-9ee38fa8af4a">IBDA_EasMessage Interface</a>
  
 
  

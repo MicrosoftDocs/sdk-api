@@ -70,7 +70,7 @@ Reference to an <a href="https://msdn.microsoft.com/83a84eb7-a72c-4ca7-b152-8cc8
 
 ### -param ppMediaStream [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> interface pointer.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a> interface pointer.
 
 
 ## -returns
@@ -137,7 +137,7 @@ If the method succeeds, the caller must release the <b>IMediaStream</b> interfac
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter Interface</a>
+<a href="https://msdn.microsoft.com/1ac4976b-7088-47ac-9689-58c143746f05">IMediaStreamFilter Interface</a>
  
 
  

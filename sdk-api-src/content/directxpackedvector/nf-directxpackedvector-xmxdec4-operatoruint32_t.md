@@ -117,11 +117,11 @@ The last 4 bits (bits 30-31) of the return value are to the <b>w</b>component of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx">XMXDEC4</a>
+<a href="https://msdn.microsoft.com/5b46e0fb-e4a5-49c4-8084-0c631d43d4f7">XMXDEC4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415543(v=VS.85).aspx">XMXDEC4 Operators</a>
+<a href="https://msdn.microsoft.com/ef7caab2-0e73-46a9-82ec-5ed025256a8f">XMXDEC4 Operators</a>
  
 
  

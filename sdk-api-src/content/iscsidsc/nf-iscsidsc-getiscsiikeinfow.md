@@ -77,7 +77,7 @@ This value is reserved.
 
 ### -param AuthInfo [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb870788(v=VS.85).aspx">IKE_AUTHENTICATION_INFORMATION</a> structure that contains data specifying the authentication method. Currently, only the <b>IKE_AUTHENTICATION_PRESHARED_KEY_METHOD</b> is supported.
+A pointer to an <a href="https://msdn.microsoft.com/d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0">IKE_AUTHENTICATION_INFORMATION</a> structure that contains data specifying the authentication method. Currently, only the <b>IKE_AUTHENTICATION_PRESHARED_KEY_METHOD</b> is supported.
 
 
 ## -returns

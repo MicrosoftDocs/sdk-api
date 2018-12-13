@@ -76,7 +76,7 @@ The <b>GetInputFormat</b> method retrieves possible media formats for the specif
 
 ### -param pProps [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps</a> interface.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/d901ac66-d4b3-4256-bd7b-53cccb3de644">IWMInputMediaProps</a> interface.
 
 
 ## -returns
@@ -123,11 +123,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757480(v=VS.85).aspx">IWMWriter::GetInputFormatCount</a>
+<a href="https://msdn.microsoft.com/c3afe9e8-e045-4329-b3e5-6026147322ad">IWMWriter::GetInputFormatCount</a>
 
 
 

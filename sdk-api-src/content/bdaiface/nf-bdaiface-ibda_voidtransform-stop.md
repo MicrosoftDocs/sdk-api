@@ -81,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693461(v=VS.85).aspx">IBDA_VoidTransform Interface</a>
+<a href="https://msdn.microsoft.com/120638ce-b35f-450e-9675-708495ddd082">IBDA_VoidTransform Interface</a>
  
 
  

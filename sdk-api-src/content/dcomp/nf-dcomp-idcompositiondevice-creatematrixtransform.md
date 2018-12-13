@@ -60,7 +60,7 @@ Creates a 2D 3-by-2 matrix transform object.
 
 ### -param matrixTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437424(v=VS.85).aspx">IDCompositionMatrixTransform</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/150e33f2-3d76-44a8-b2fe-5a2b4a532c3c">IDCompositionMatrixTransform</a>**</b>
 
 The new matrix transform object. This parameter must not be NULL.
 
@@ -82,7 +82,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 A new matrix transform object has the identity matrix as its initial value. The identity matrix is the 3x2 matrix with ones on the main diagonal and zeros elsewhere, as shown in the following illustration. 
 
-<img alt="Three-by-two identity matrix" src="./images/identity_3x2matrix.png"/>
+<img alt="Three-by-two identity matrix" src="images/identity_3x2matrix.png"/>
 
 When an identity transform is applied to an object, it does not change the position, shape, or size of the object. It is similar to the way that multiplying a number by one does not change the number. Any transform other than the identity transform will modify the position, shape, and/or size of objects.
 
@@ -94,7 +94,7 @@ When an identity transform is applied to an object, it does not change the posit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
 
 
 

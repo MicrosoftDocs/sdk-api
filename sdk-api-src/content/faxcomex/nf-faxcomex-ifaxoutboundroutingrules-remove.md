@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxOutboundRoutingRules::Remove</b> method removes an outbound routing rule (<a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) from the <a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection using the routing rule's index.
+The <b>IFaxOutboundRoutingRules::Remove</b> method removes an outbound routing rule (<a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a> object) from the <a href="https://msdn.microsoft.com/971819e1-a3cb-4e58-b533-fee15ccb4352">FaxOutboundRoutingRules</a> collection using the routing rule's index.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>IFaxOutboundRoutingRules::Remove</b> method removes an outbound routing r
 
 Type: <b>long</b>
 
-A <b>long</b> value that specifies the index of the outbound routing rule to remove from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of rules returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms687550(v=VS.85).aspx">IFaxOutboundRoutingRules::get_Count</a> method.
+A <b>long</b> value that specifies the index of the outbound routing rule to remove from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of rules returned by a call to the <a href="https://msdn.microsoft.com/3add9157-b82a-4046-ad20-f6a29f92257e">IFaxOutboundRoutingRules::get_Count</a> method.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The default outbound routing rule cannot be removed.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> access right.
 
 
 
@@ -93,15 +93,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>
+<a href="https://msdn.microsoft.com/971819e1-a3cb-4e58-b533-fee15ccb4352">FaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>
+<a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/35bb803d-fce4-46a3-825a-ec3a5138ed67">Visual Basic Example</a>
  
 
  

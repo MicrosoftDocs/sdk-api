@@ -70,7 +70,7 @@ Pointer to an <b>MSPID</b> value that will contain the stream's purpose ID (see 
 
 ### -param pType [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407159(v=VS.85).aspx">STREAM_TYPE</a> enumerated data type value that will contain the stream's media type. If this parameter is <b>NULL</b> on entry, the method won't retrieve the media type.
+Pointer to a <a href="https://msdn.microsoft.com/07ab5ded-28b8-4cac-b4da-76f07ad351ef">STREAM_TYPE</a> enumerated data type value that will contain the stream's media type. If this parameter is <b>NULL</b> on entry, the method won't retrieve the media type.
 
 
 ## -returns
@@ -96,7 +96,7 @@ The value retrieved in the <i>pPurposeId</i> parameter will usually be either MS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream Interface</a>
  
 
  

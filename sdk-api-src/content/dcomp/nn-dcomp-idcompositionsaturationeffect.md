@@ -56,7 +56,7 @@ This effect is used to alter the saturation of an image. The saturation effect i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionSaturationEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionSaturationEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionSaturationEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionSaturationEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,7 +85,7 @@ The <b>IDCompositionSaturationEffect</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
  
 
  

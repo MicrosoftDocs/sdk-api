@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Reads a value when <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a>has been specified.  This allows reading of XML constructs which do not easily
+Reads a value when <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>has been specified.  This allows reading of XML constructs which do not easily
                 map to the core serialization model.
             
 
@@ -133,7 +133,7 @@ This callback function does not return a value.
 
 
 The callback will be invoked with the same calling sequence as
-                <a href="https://msdn.microsoft.com/6d026b2e-f2c2-4990-9178-152585a7749a">WsReadType</a> in the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a>.
+                <a href="https://msdn.microsoft.com/6d026b2e-f2c2-4990-9178-152585a7749a">WsReadType</a> in the documentation for <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a>.
                 This defines what parts of the XML that the callback should read.
             
 

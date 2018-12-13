@@ -78,7 +78,7 @@ to get the number of descriptors for a particular record.
 
 ### -param ppDescriptor [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface implemented by the descriptor. The caller is responsible for freeing the interface.
+Pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface implemented by the descriptor. The caller is responsible for freeing the interface.
 
 
 ## -returns
@@ -95,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>
+<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>
 
 
 

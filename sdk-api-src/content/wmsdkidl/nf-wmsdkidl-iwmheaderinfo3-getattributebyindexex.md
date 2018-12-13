@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetAttributeByIndexEx</b> method retrieves the value of an attribute specified by the attribute index. You can use this method in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/Dd798513(v=VS.85).aspx">GetAttributeCountEx</a> method to retrieve all of the attributes associated with a particular stream number.
+The <b>GetAttributeByIndexEx</b> method retrieves the value of an attribute specified by the attribute index. You can use this method in conjunction with the <a href="https://msdn.microsoft.com/8c56d7b6-4f59-450e-938c-b7d0bd37ea08">GetAttributeCountEx</a> method to retrieve all of the attributes associated with a particular stream number.
 
 
 
@@ -86,7 +86,7 @@ Pointer to a <b>WORD</b> containing the size of <i>pwszName</i>, in wide charact
 
 ### -param pType [out]
 
-Type of data used for the attribute. For more information about the types of data supported, see <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a>.
+Type of data used for the attribute. For more information about the types of data supported, see <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a>.
 
 
 ### -param pwLangIndex [out]
@@ -169,7 +169,7 @@ A pointer is not valid.
 
 
 
-You can use 0xFFFF for the stream number to specify an attribute using its global index. Global index values range from 0 to one less than the count of attributes received from a call to <a href="https://msdn.microsoft.com/en-us/library/Dd798513(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeCountEx</a> where the stream number was set to 0xFFFF.
+You can use 0xFFFF for the stream number to specify an attribute using its global index. Global index values range from 0 to one less than the count of attributes received from a call to <a href="https://msdn.microsoft.com/8c56d7b6-4f59-450e-938c-b7d0bd37ea08">IWMHeaderInfo3::GetAttributeCountEx</a> where the stream number was set to 0xFFFF.
 
 The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
 
@@ -181,7 +181,7 @@ The objects of the Windows Media Format SDK perform type checking on some suppor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3 Interface</a>
  
 
  

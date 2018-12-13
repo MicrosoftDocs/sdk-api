@@ -89,11 +89,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx">XMDECN4</a>
+<a href="https://msdn.microsoft.com/1268ED43-2957-464A-A38E-F7AFFC4EEEE9">XMDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415270(v=VS.85).aspx">XMDECN4 Constructors</a>
+<a href="https://msdn.microsoft.com/3edea240-813d-484a-91bc-cba99ecdbe14">XMDECN4 Constructors</a>
  
 
  

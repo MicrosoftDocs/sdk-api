@@ -86,7 +86,7 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407084(v=VS.85).aspx">IMixerOCX Interface</a>
+<a href="https://msdn.microsoft.com/b80d720d-921d-4d24-a168-49944cfcc411">IMixerOCX Interface</a>
 
 
 

@@ -66,7 +66,7 @@ The <b>GetInitResults</b> method retrieves the results of the playlist file chec
 
 ### -param cFiles [in]
 
-Number of files in the playlist. This is also the number of members in the array referenced by <i>phrStati</i>. This value must be the same as the number of files specified in the original call to <a href="https://msdn.microsoft.com/en-us/library/Dd743563(v=VS.85).aspx">InitPlaylistBurn</a>.
+Number of files in the playlist. This is also the number of members in the array referenced by <i>phrStati</i>. This value must be the same as the number of files specified in the original call to <a href="https://msdn.microsoft.com/a20a70af-49bc-408f-8c64-779525436f8d">InitPlaylistBurn</a>.
 
 
 ### -param phrStati [out]
@@ -106,7 +106,7 @@ The method succeeded.
 
 
 
-This method should be called in response to a WMT_INIT_PLAYLIST_BURN message received by your implementation of the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method. If you call <b>GetInitResults</b> without first calling <b>InitPlaylistBurn</b> and receiving the WMT_INIT_PLAYLIST_BURN message, <b>GetInitResults</b> will return an error code.
+This method should be called in response to a WMT_INIT_PLAYLIST_BURN message received by your implementation of the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> method. If you call <b>GetInitResults</b> without first calling <b>InitPlaylistBurn</b> and receiving the WMT_INIT_PLAYLIST_BURN message, <b>GetInitResults</b> will return an error code.
 
 If, after calling this method, all members of the array referenced by <i>phrStati</i> are set to S_OK, you can begin copying the files in the playlist. However, you must use the same instance of the reader object for retrieving data that you used to get the <b>IWMReaderPlaylistBurn</b> interface.
 
@@ -118,7 +118,7 @@ If, after calling this method, all members of the array referenced by <i>phrStat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743552(v=VS.85).aspx">IWMReaderPlaylistBurn Interface</a>
+<a href="https://msdn.microsoft.com/a0e1a4f3-4226-44a2-b38e-e5512fda2048">IWMReaderPlaylistBurn Interface</a>
  
 
  

@@ -53,7 +53,7 @@ req.redist:
 Sets the completion status for an event that is derived from the <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> interface. The device handling the event sets the completion status in the <b>IESEvent</b> object that is passed in a call to <a href="https://msdn.microsoft.com/3781e50c-ab19-4bfa-86d6-af12223019ca">IESEventService::FireESEvent</a>.
     
 
-If an event originates from a PBDA device, the event object automatically calls the <a href="https://msdn.microsoft.com/en-us/library/Dd693346(v=VS.85).aspx">IBDA_EventingService::CompleteEvent</a> method with the result set in the <b>SetCompletionStatus</b> call at the time it is released.  If the client is a managed application, it should dispose of the event object immediately after it is finished with the event. This disposition ensures that the <b>IBDA_EventingService::CompleteEvent</b> method is called in a timely manner
+If an event originates from a PBDA device, the event object automatically calls the <a href="https://msdn.microsoft.com/399530a7-5a02-485e-aa5e-6b3ddb7f3d54">IBDA_EventingService::CompleteEvent</a> method with the result set in the <b>SetCompletionStatus</b> call at the time it is released.  If the client is a managed application, it should dispose of the event object immediately after it is finished with the event. This disposition ensures that the <b>IBDA_EventingService::CompleteEvent</b> method is called in a timely manner
 
 
 ## -parameters

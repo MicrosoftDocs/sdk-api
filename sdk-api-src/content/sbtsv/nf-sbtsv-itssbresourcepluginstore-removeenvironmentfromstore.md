@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::RemoveEnvironmentFromStore
 author: windows-sdk-content
 description: Removes the specified environment from the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_removeenvironmentfromstore.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: b1922ff2-6322-4868-ab7b-2f18386d7d08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Get the target output <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffers</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage of the pipeline.
+Get the target output <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffers</a> for the <a href="https://msdn.microsoft.com/f902dc93-9612-481b-a6bd-073e924a4c79">StreamOutput</a> stage of the pipeline.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ Number of buffers to get. A maximum of four output buffers can be retrieved.
 
 ### -param ppSOTargets [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer</a>**</b>
 
-An array of output buffers (see <a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>) to be retrieved from the device.
+An array of output buffers (see <a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer</a>) to be retrieved from the device.
 
 
 ### -param pOffsets [out]
@@ -103,7 +103,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

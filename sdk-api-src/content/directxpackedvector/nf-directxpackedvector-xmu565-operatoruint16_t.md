@@ -53,7 +53,7 @@ req.redist:
 Returns an instance of <code>uint16_t</code> containing the components of the <code>XMU555</code>instance in a packed format.
     
 
-This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555 </a> instance in a packed format.
+This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555 </a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
@@ -111,11 +111,11 @@ The third 5 bits (bits 11-15) of the return value are to the <b>z</b>component o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>
+<a href="https://msdn.microsoft.com/58c9ee71-d038-4664-9fac-5a074b60e9c3">XMU565</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415442(v=VS.85).aspx">XMU565 Operators</a>
+<a href="https://msdn.microsoft.com/38869bb0-5b02-4e5c-ba66-d842a39fe417">XMU565 Operators</a>
  
 
  

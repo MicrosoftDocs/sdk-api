@@ -121,7 +121,7 @@ The <i>preroll</i> is the time prior to the start position at which nonrandom ac
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406977(v=VS.85).aspx">IMediaPosition Interface</a>
+<a href="https://msdn.microsoft.com/325dd9a4-80ca-43e3-9ff8-473df1b833e9">IMediaPosition Interface</a>
  
 
  

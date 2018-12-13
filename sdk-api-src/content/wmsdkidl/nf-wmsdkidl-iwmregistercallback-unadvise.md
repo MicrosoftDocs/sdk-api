@@ -66,7 +66,7 @@ The <b>Unadvise</b> method unregisters the application's <b>IWMStatusCallback</b
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> interface of an object.
+Pointer to the <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a> interface of an object.
 
 
 ### -param pvContext [in]
@@ -88,11 +88,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743613(v=VS.85).aspx">IWMRegisterCallback Interface</a>
+<a href="https://msdn.microsoft.com/3831b727-7fdc-4d05-a7b3-86ca5b5c3b17">IWMRegisterCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743615(v=VS.85).aspx">IWMRegisterCallback::Advise</a>
+<a href="https://msdn.microsoft.com/69d12e5c-23fd-4d4b-959e-fe7979bf3fdb">IWMRegisterCallback::Advise</a>
  
 
  

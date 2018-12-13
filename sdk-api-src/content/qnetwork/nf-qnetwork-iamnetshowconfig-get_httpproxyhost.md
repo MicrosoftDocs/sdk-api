@@ -89,11 +89,11 @@ The caller must release the returned <b>BSTR</b>, by calling <b>SysFreeString</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319705(v=VS.85).aspx">IAMNetShowConfig::get_HTTPProxyPort</a>
+<a href="https://msdn.microsoft.com/4a0325bb-83d6-4fbc-a513-0b6002013a60">IAMNetShowConfig::get_HTTPProxyPort</a>
  
 
  

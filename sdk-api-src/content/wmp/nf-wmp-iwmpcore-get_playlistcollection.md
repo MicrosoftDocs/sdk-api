@@ -108,11 +108,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563552(v=VS.85).aspx">IWMPPlaylistCollection Interface</a>
+<a href="https://msdn.microsoft.com/b6861651-f0c3-4b99-8c81-a8a8f8b47692">IWMPPlaylistCollection Interface</a>
  
 
  

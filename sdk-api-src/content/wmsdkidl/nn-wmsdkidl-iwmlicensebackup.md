@@ -56,7 +56,7 @@ req.redist:
 
 The <b>IWMLicenseBackup</b> interface manages the backing up of licenses, typically so that they can be restored onto another computer.
 
-This interface is obtained by using the <a href="https://msdn.microsoft.com/en-us/library/Dd757744(v=VS.85).aspx">WMCreateBackupRestorer</a> function.
+This interface is obtained by using the <a href="https://msdn.microsoft.com/529a5066-df03-4747-bca5-10e3f223d4d2">WMCreateBackupRestorer</a> function.
 
 
 
@@ -78,7 +78,7 @@ The <b>IWMLicenseBackup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757219(v=VS.85).aspx">BackupLicenses</a>
+<a href="https://msdn.microsoft.com/714971d7-8ccb-41fa-92b2-802a503ae228">BackupLicenses</a>
 </td>
 <td align="left" width="63%">
 Saves copies of the licenses.
@@ -87,7 +87,7 @@ Saves copies of the licenses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757220(v=VS.85).aspx">CancelLicenseBackup</a>
+<a href="https://msdn.microsoft.com/aa226875-d59f-4fac-b38b-f94727fa2f4a">CancelLicenseBackup</a>
 </td>
 <td align="left" width="63%">
 Cancels a current backup operation.
@@ -105,13 +105,13 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd743291(v=VS.85).aspx">IWMBackupRestoreProps</a>
+<a href="https://msdn.microsoft.com/3a5af1f3-e652-4729-931b-d0702af408f3">IWMBackupRestoreProps</a>
 </td>
 <td>IID_IWMBackupRestoreProps</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757221(v=VS.85).aspx">IWMLicenseRestore</a>
+<a href="https://msdn.microsoft.com/29444445-7104-4900-a00d-dabd2766d1d7">IWMLicenseRestore</a>
 </td>
 <td>IID_IWMLicenseRestore</td>
 </tr>

@@ -132,9 +132,9 @@ The VMR is not in mixing mode.
 
 
 
-Use this method to replace the VMR's default compositor with a custom compositor provided by the application. The image compositor is a sub-component of the mixer. The mixer must be loaded, through a call to <a href="https://msdn.microsoft.com/en-us/library/Dd377370(v=VS.85).aspx">IVMRFilterConfig9::SetNumberOfStreams</a>,
+Use this method to replace the VMR's default compositor with a custom compositor provided by the application. The image compositor is a sub-component of the mixer. The mixer must be loaded, through a call to <a href="https://msdn.microsoft.com/062aac78-6d7d-4335-963a-bc2c2d339efb">IVMRFilterConfig9::SetNumberOfStreams</a>,
 
-before the compositor can be specified. The VMR manages all reference counting on the <a href="https://msdn.microsoft.com/en-us/library/Dd377381(v=VS.85).aspx">IVMRImageCompositor9</a> interface.
+before the compositor can be specified. The VMR manages all reference counting on the <a href="https://msdn.microsoft.com/19fda7f2-000f-47d0-a7c7-d8421de418a2">IVMRImageCompositor9</a> interface.
 
 
 
@@ -144,7 +144,7 @@ before the compositor can be specified. The VMR manages all reference counting o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377365(v=VS.85).aspx">IVMRFilterConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/089e44c8-6a27-410d-aad5-08816bd4f915">IVMRFilterConfig9 Interface</a>
 
 
 

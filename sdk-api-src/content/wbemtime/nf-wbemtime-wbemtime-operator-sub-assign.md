@@ -67,7 +67,7 @@ The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WB
 
 ### -param sub [ref]
 
-Reference to the <a href="https://msdn.microsoft.com/en-us/library/Aa393989(v=VS.85).aspx">WBEMTimeSpan</a> object, whose time span is subtracted from the specified object.
+Reference to the <a href="https://msdn.microsoft.com/bcec87c1-32ba-451b-92bb-80c8a5007adb">WBEMTimeSpan</a> object, whose time span is subtracted from the specified object.
 
 
 ## -remarks

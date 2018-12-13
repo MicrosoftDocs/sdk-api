@@ -113,11 +113,11 @@ The method was unable to allocate memory to hold the name.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757242(v=VS.85).aspx">IWMMutualExclusion2::GetName</a>
+<a href="https://msdn.microsoft.com/da62ed2e-7356-4b4e-b2c5-6c18ef806ba7">IWMMutualExclusion2::GetName</a>
  
 
  

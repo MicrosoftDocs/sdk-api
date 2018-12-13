@@ -66,7 +66,7 @@ The <b>GetNetworkProtocol</b> method retrieves the network protocol that the net
 
 ### -param pProtocol [out]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757847(v=VS.85).aspx">WMT_NET_PROTOCOL</a> enumeration type.
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/dc8b67a9-33fe-408b-b0b5-62a2b219b6b5">WMT_NET_PROTOCOL</a> enumeration type.
 
 
 ## -returns
@@ -113,15 +113,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
+<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798769(v=VS.85).aspx">IWMWriterNetworkSink::SetNetworkProtocol</a>
+<a href="https://msdn.microsoft.com/8ad6b2a4-b50b-45a0-8aa0-cabfc1e59bb7">IWMWriterNetworkSink::SetNetworkProtocol</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757847(v=VS.85).aspx">WMT_NET_PROTOCOL</a>
+<a href="https://msdn.microsoft.com/dc8b67a9-33fe-408b-b0b5-62a2b219b6b5">WMT_NET_PROTOCOL</a>
  
 
  

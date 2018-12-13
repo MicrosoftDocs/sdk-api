@@ -71,7 +71,7 @@ The <b>IDCompositionTransform3D</b> interface is an abstract interface that repr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
  
 
  

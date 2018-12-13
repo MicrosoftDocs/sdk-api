@@ -66,7 +66,7 @@ This property is read/write.
 
 
 
-This property has meaning only if the <a href="https://msdn.microsoft.com/en-us/library/ms686899(v=VS.85).aspx">ReceiptType</a> property for the document is set to <a href="https://msdn.microsoft.com/en-us/library/ms688004(v=VS.85).aspx">frtMail</a>, indicating that the delivery receipt will be sent by email.
+This property has meaning only if the <a href="https://msdn.microsoft.com/ee8f9070-7f00-4bd4-8022-1d9b00f1bdaa">ReceiptType</a> property for the document is set to <a href="https://msdn.microsoft.com/d334b8e4-bc4f-4f1f-9268-65a2106d3fa6">frtMail</a>, indicating that the delivery receipt will be sent by email.
 
 
 
@@ -76,15 +76,15 @@ This property has meaning only if the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
  
 
  

@@ -113,11 +113,11 @@ There is not enough available memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798569(v=VS.85).aspx">IWMStreamList Interface</a>
+<a href="https://msdn.microsoft.com/076bb0bf-3cf8-48b4-bfca-abbd9c1bf211">IWMStreamList Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798572(v=VS.85).aspx">IWMStreamList::RemoveStream</a>
+<a href="https://msdn.microsoft.com/3b69f516-a321-49f1-a299-666143eaf8a5">IWMStreamList::RemoveStream</a>
  
 
  

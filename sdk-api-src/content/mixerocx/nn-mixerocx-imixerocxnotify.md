@@ -74,7 +74,7 @@ The <b>IMixerOCXNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407086(v=VS.85).aspx">OnDataChange</a>
+<a href="https://msdn.microsoft.com/d8080e5f-99e7-47eb-96ff-53c4ed8d2ff1">OnDataChange</a>
 </td>
 <td align="left" width="63%">
 Notifies the client when the video rectangle's aspect ratio or size, or the display palette, has changed.
@@ -83,7 +83,7 @@ Notifies the client when the video rectangle's aspect ratio or size, or the disp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407087(v=VS.85).aspx">OnInvalidateRect</a>
+<a href="https://msdn.microsoft.com/55d349d4-1a9a-4762-8058-c3f7a559e272">OnInvalidateRect</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the video rectangle has been invalidated.
@@ -92,7 +92,7 @@ Notifies the client that the video rectangle has been invalidated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407088(v=VS.85).aspx">OnStatusChange</a>
+<a href="https://msdn.microsoft.com/b6e49306-59bc-45a2-826b-cea2cf77214b">OnStatusChange</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that a status change has occurred.
@@ -107,7 +107,7 @@ Notifies the client that a status change has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407084(v=VS.85).aspx">IMixerOCX Interface</a>
+<a href="https://msdn.microsoft.com/b80d720d-921d-4d24-a168-49944cfcc411">IMixerOCX Interface</a>
  
 
  

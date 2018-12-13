@@ -95,7 +95,7 @@ Error value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373693(v=VS.85).aspx">ERROR_SPEC</a>
+<a href="https://msdn.microsoft.com/4d20cbb8-c29a-4c0c-bf06-532144da3e33">ERROR_SPEC</a>
 
 
 

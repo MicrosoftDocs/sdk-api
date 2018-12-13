@@ -56,7 +56,7 @@ req.redist:
 
 The <b>IWMDRMTranscryptor</b> interface transforms a DRM-protected ASF file into a secure data stream conforming to the Windows Media DRM 10 for Network Devices protocol. The resulting stream can be sent to devices that support Windows Media DRM 10 for Network Devices.
 
-<b>IWMDRMTranscryptor</b> is the primary interface of the DRM transcryptor object. You can obtain a pointer to an instance of this interface by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd757751(v=VS.85).aspx">WMCreateDRMTranscryptor</a> function.
+<b>IWMDRMTranscryptor</b> is the primary interface of the DRM transcryptor object. You can obtain a pointer to an instance of this interface by calling the <a href="https://msdn.microsoft.com/b8d7607f-5fd0-4f4a-b626-d08324aaa805">WMCreateDRMTranscryptor</a> function.
 
 
 
@@ -78,7 +78,7 @@ The <b>IWMDRMTranscryptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798368(v=VS.85).aspx">Close</a>
+<a href="https://msdn.microsoft.com/c277e3fa-069d-4eaf-947c-220730c5d61e">Close</a>
 </td>
 <td align="left" width="63%">
 Removes the file from the transcryptor and releases all associated resources.
@@ -87,7 +87,7 @@ Removes the file from the transcryptor and releases all associated resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798369(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/084423cc-d10c-4993-b9dd-ace51aa6b7f0">Initialize</a>
 </td>
 <td align="left" width="63%">
 Loads a file into the transcryptor.
@@ -96,7 +96,7 @@ Loads a file into the transcryptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798370(v=VS.85).aspx">Read</a>
+<a href="https://msdn.microsoft.com/55b1c73a-5c00-4e16-b0fe-2352ce09bffc">Read</a>
 </td>
 <td align="left" width="63%">
 Generates encrypted data for streaming to devices that support Windows Media DRM 10 for Network Devices from the file loaded in the transcryptor.
@@ -105,7 +105,7 @@ Generates encrypted data for streaming to devices that support Windows Media DRM
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798371(v=VS.85).aspx">Seek</a>
+<a href="https://msdn.microsoft.com/4962741b-d1ca-4296-ad95-d171d165c5d9">Seek</a>
 </td>
 <td align="left" width="63%">
 Sets the transcryptor to a point in the data stream of the loaded ASF file. Subsequent reads will begin from this point in the file.
@@ -119,9 +119,9 @@ Sets the transcryptor to a point in the data stream of the loaded ASF file. Subs
 
 
 
-The DRM transcryptor is initialized after a policy request message is sent by a device. You can parse a license request and obtain the device certificate, the device serial number, and the requested action by calling <a href="https://msdn.microsoft.com/en-us/library/Dd798322(v=VS.85).aspx">IWMDRMMessageParser::ParseLicenseRequestMsg</a>.
+The DRM transcryptor is initialized after a policy request message is sent by a device. You can parse a license request and obtain the device certificate, the device serial number, and the requested action by calling <a href="https://msdn.microsoft.com/0d51b7f7-5cc2-4dbd-8a61-2901c01734bb">IWMDRMMessageParser::ParseLicenseRequestMsg</a>.
 
-The methods of the <b>IWMDRMTranscryptor</b> interface use the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback method to inform the application of progress. For more information, see <a href="https://msdn.microsoft.com/098cb90b-8c21-4692-a4f9-bacce042520a">Using the Callback Methods</a>.
+The methods of the <b>IWMDRMTranscryptor</b> interface use the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback method to inform the application of progress. For more information, see <a href="https://msdn.microsoft.com/098cb90b-8c21-4692-a4f9-bacce042520a">Using the Callback Methods</a>.
 
 
 

@@ -51,7 +51,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/c23c8ad4-a193-42f2-9e4a-3e814b7bbdb2">WsResetListener</a> call
-                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

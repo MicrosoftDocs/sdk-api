@@ -64,7 +64,7 @@ Suspends the drawing on this Microsoft DirectComposition surface object.
 
 
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code, which can include <a href="https://msdn.microsoft.com/en-us/library/Hh437369(v=VS.85).aspx">DCOMPOSITION_ERROR_SURFACE_BEING_RENDERED</a> and <a href="https://msdn.microsoft.com/en-us/library/Hh437369(v=VS.85).aspx">DCOMPOSITION_ERROR_SURFACE_NOT_BEING_RENDERED</a>. 
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code, which can include <a href="directcomposition_error_codes.htm">DCOMPOSITION_ERROR_SURFACE_BEING_RENDERED</a> and <a href="directcomposition_error_codes.htm">DCOMPOSITION_ERROR_SURFACE_NOT_BEING_RENDERED</a>. 
 
 
 
@@ -73,7 +73,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-Because only one surface can be open for drawing at a time, calling <b>SuspendDraw</b> allows the user to call <a href="https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx">IDCompositionSurface::BeginDraw</a> on a different surface. Drawing to this surface can be resumed by calling <a href="https://msdn.microsoft.com/en-us/library/Hh449104(v=VS.85).aspx">IDCompositionSurface::ResumeDraw</a>.
+Because only one surface can be open for drawing at a time, calling <b>SuspendDraw</b> allows the user to call <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> on a different surface. Drawing to this surface can be resumed by calling <a href="https://msdn.microsoft.com/EE008AAB-0C79-4D60-953C-7A9BCFED2C41">IDCompositionSurface::ResumeDraw</a>.
 
 
 
@@ -83,11 +83,11 @@ Because only one surface can be open for drawing at a time, calling <b>SuspendDr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx">IDCompositionSurface</a>
+<a href="https://msdn.microsoft.com/E271B4DC-5F09-426A-A5D3-43A48F30CB24">IDCompositionSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449104(v=VS.85).aspx">IDCompositionSurface::ResumeDraw</a>
+<a href="https://msdn.microsoft.com/EE008AAB-0C79-4D60-953C-7A9BCFED2C41">IDCompositionSurface::ResumeDraw</a>
  
 
  

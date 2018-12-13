@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Determines the spacing between items in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761051(v=VS.85).aspx">LVM_GETITEMSPACING</a> message explicitly. 
+Determines the spacing between items in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/4e43fb43-468c-4b8a-9e3b-1694e90ffef8">LVM_GETITEMSPACING</a> message explicitly. 
 
 
 ## -parameters

@@ -58,7 +58,7 @@ The <b>IWMPCore</b> interface is the root interface for the Windows Media Player
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPCore</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPCore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPCore</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWMPCore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMPCore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563223(v=VS.85).aspx">close</a>
+<a href="https://msdn.microsoft.com/e6e21995-5dbd-4893-a9f2-6ce918d3fbc4">close</a>
 </td>
 <td align="left" width="63%">
 Closes Windows Media Player.
@@ -82,7 +82,7 @@ Closes Windows Media Player.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563224(v=VS.85).aspx">get_cdromCollection</a>
+<a href="https://msdn.microsoft.com/6bb6500e-7a30-400b-a88b-7ee3596501b1">get_cdromCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPCdromCollection</b> interface.
@@ -91,7 +91,7 @@ Retrieves a pointer to an <b>IWMPCdromCollection</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563225(v=VS.85).aspx">get_closedCaption</a>
+<a href="https://msdn.microsoft.com/7f170430-2ce4-490b-9163-f39221a8db5c">get_closedCaption</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPClosedCaption</b> interface.
@@ -100,7 +100,7 @@ Retrieves a pointer to an <b>IWMPClosedCaption</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563226(v=VS.85).aspx">get_controls</a>
+<a href="https://msdn.microsoft.com/54d013f1-d71b-4b6a-90b4-0226022a2a0f">get_controls</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPControls</b> interface.
@@ -109,7 +109,7 @@ Retrieves a pointer to an <b>IWMPControls</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563227(v=VS.85).aspx">get_currentMedia</a>
+<a href="https://msdn.microsoft.com/4f199336-0555-40de-8d27-780b05ef9510">get_currentMedia</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPMedia</b> interface corresponding to the current media item.
@@ -118,7 +118,7 @@ Retrieves a pointer to an <b>IWMPMedia</b> interface corresponding to the curren
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563228(v=VS.85).aspx">get_currentPlaylist</a>
+<a href="https://msdn.microsoft.com/bb923325-67d2-4d73-b7ec-49e9b52cabba">get_currentPlaylist</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylist</b> interface corresponding to the current playlist.
@@ -127,7 +127,7 @@ Retrieves a pointer to an <b>IWMPPlaylist</b> interface corresponding to the cur
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563229(v=VS.85).aspx">get_error</a>
+<a href="https://msdn.microsoft.com/db00797b-989f-4f92-8fac-aaa147e37383">get_error</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPError</b> interface.
@@ -136,7 +136,7 @@ Retrieves a pointer to an <b>IWMPError</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563230(v=VS.85).aspx">get_isOnline</a>
+<a href="https://msdn.microsoft.com/5507a80f-4bef-4712-af41-49e58d8396aa">get_isOnline</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the user is connected to a network.
@@ -145,7 +145,7 @@ Retrieves a value indicating whether the user is connected to a network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563231(v=VS.85).aspx">get_mediaCollection</a>
+<a href="https://msdn.microsoft.com/41b090ca-edf0-440e-b578-26c5ad064657">get_mediaCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves pointer to an <b>IWMPMediaCollection</b> interface.
@@ -154,7 +154,7 @@ Retrieves pointer to an <b>IWMPMediaCollection</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563232(v=VS.85).aspx">get_network</a>
+<a href="https://msdn.microsoft.com/8100008a-50da-4496-9d5a-77bcca94e903">get_network</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPNetwork</b> interface.
@@ -163,7 +163,7 @@ Retrieves a pointer to an <b>IWMPNetwork</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563233(v=VS.85).aspx">get_openState</a>
+<a href="https://msdn.microsoft.com/66c7e52a-d7b4-4c37-a863-fb42f5415c0a">get_openState</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>WMPOpenState</b> enumeration value indicating the state of the content source.
@@ -172,7 +172,7 @@ Retrieves an <b>WMPOpenState</b> enumeration value indicating the state of the c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563234(v=VS.85).aspx">get_playlistCollection</a>
+<a href="https://msdn.microsoft.com/8f6ab34f-e055-4a18-b1b8-e3c7b8f9c76a">get_playlistCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylistCollection</b> interface.
@@ -181,7 +181,7 @@ Retrieves a pointer to an <b>IWMPPlaylistCollection</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563235(v=VS.85).aspx">get_playState</a>
+<a href="https://msdn.microsoft.com/cadac1c6-fff6-44aa-a6ce-2b2f69da2d78">get_playState</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>WMPPlayState</b> enumeration value indicating the operating state of Windows Media Player.
@@ -190,7 +190,7 @@ Retrieves an <b>WMPPlayState</b> enumeration value indicating the operating stat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563236(v=VS.85).aspx">get_settings</a>
+<a href="https://msdn.microsoft.com/4bbffaff-99e4-4aae-9b8f-cdb86648fdd9">get_settings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer an <b>IWMPSettings</b> interface.
@@ -199,7 +199,7 @@ Retrieves a pointer an <b>IWMPSettings</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563237(v=VS.85).aspx">get_status</a>
+<a href="https://msdn.microsoft.com/ee11cb36-4dd2-4fe4-84fd-b3fc11b13ae0">get_status</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the current status of Windows Media Player.
@@ -208,7 +208,7 @@ Retrieves a value indicating the current status of Windows Media Player.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563238(v=VS.85).aspx">get_URL</a>
+<a href="https://msdn.microsoft.com/54d43a1c-807a-40a5-a703-262d75f88ca0">get_URL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the clip to play.
@@ -217,7 +217,7 @@ Retrieves the name of the clip to play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563239(v=VS.85).aspx">get_versionInfo</a>
+<a href="https://msdn.microsoft.com/8c8bb30b-8f8e-4f49-9506-d4735bccf847">get_versionInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value specifying the version of Windows Media Player.
@@ -226,7 +226,7 @@ Retrieves a value specifying the version of Windows Media Player.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563240(v=VS.85).aspx">launchURL</a>
+<a href="https://msdn.microsoft.com/439bb4a7-801a-4bef-b791-b8a9cb24ab34">launchURL</a>
 </td>
 <td align="left" width="63%">
 Sends a URL to the user's default browser.
@@ -235,7 +235,7 @@ Sends a URL to the user's default browser.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563241(v=VS.85).aspx">put_currentMedia</a>
+<a href="https://msdn.microsoft.com/003d1937-13f0-4d2c-ad5c-a83569295b62">put_currentMedia</a>
 </td>
 <td align="left" width="63%">
 Specifies the <b>IWMPMedia</b> interface that corresponds to the current media item.
@@ -244,7 +244,7 @@ Specifies the <b>IWMPMedia</b> interface that corresponds to the current media i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563242(v=VS.85).aspx">put_currentPlaylist</a>
+<a href="https://msdn.microsoft.com/943641ca-9733-4066-bc69-834e792d93dc">put_currentPlaylist</a>
 </td>
 <td align="left" width="63%">
 Specifies the <b>IWMPPlaylist</b> interface that corresponds to the current playlist.
@@ -253,7 +253,7 @@ Specifies the <b>IWMPPlaylist</b> interface that corresponds to the current play
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563243(v=VS.85).aspx">put_URL</a>
+<a href="https://msdn.microsoft.com/0a8625b9-19a1-41dc-9bb8-afca4bfebf5a">put_URL</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the clip to play.
@@ -268,51 +268,51 @@ Specifies the name of the clip to play.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563097(v=VS.85).aspx">IWMPCdromCollection Interface</a>
+<a href="https://msdn.microsoft.com/ba55ac32-149d-4f7b-a2bb-1fdb0be806cd">IWMPCdromCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563217(v=VS.85).aspx">IWMPCore2 Interface</a>
+<a href="https://msdn.microsoft.com/5f839bfe-bf67-49eb-8743-57713e1be7c5">IWMPCore2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563219(v=VS.85).aspx">IWMPCore3 Interface</a>
+<a href="https://msdn.microsoft.com/3004551e-ce36-4f15-88c3-93b2bfaa72fc">IWMPCore3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563272(v=VS.85).aspx">IWMPError Interface</a>
+<a href="https://msdn.microsoft.com/f22759cd-0ca7-4992-bb17-0272b35d6d75">IWMPError Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection Interface</a>
+<a href="https://msdn.microsoft.com/bf975a30-dfb1-4994-9095-510a6b997aff">IWMPMediaCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563552(v=VS.85).aspx">IWMPPlaylistCollection Interface</a>
+<a href="https://msdn.microsoft.com/b6861651-f0c3-4b99-8c81-a8a8f8b47692">IWMPPlaylistCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
 
 
 
@@ -320,11 +320,11 @@ Specifies the name of the clip to play.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564878(v=VS.85).aspx">WMPOpenState</a>
+<a href="https://msdn.microsoft.com/535c8f56-d854-449b-ad50-72e5dd32710a">WMPOpenState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564881(v=VS.85).aspx">WMPPlayState</a>
+<a href="https://msdn.microsoft.com/15787d18-bc38-4fc7-a920-539d66252035">WMPPlayState</a>
  
 
  

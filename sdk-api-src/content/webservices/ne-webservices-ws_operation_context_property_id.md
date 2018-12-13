@@ -79,7 +79,7 @@ The value represents the contract description. This property is available to ser
 ### -field WS_OPERATION_CONTEXT_PROPERTY_HOST_USER_STATE
 
 The value is a pointer to the host state specified on the <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">service host</a> as the 
-                    <a href="https://msdn.microsoft.com/en-us/library/Dd323431(v=VS.85).aspx">WS_SERVICE_PROPERTY_HOST_USER_STATE</a> service property. This property is available to 
+                    <a href="https://msdn.microsoft.com/305fe7ad-e4a2-499a-b34b-e5b7cde53e22">WS_SERVICE_PROPERTY_HOST_USER_STATE</a> service property. This property is available to 
                      service operations  and to the <a href="https://msdn.microsoft.com/2fcd8905-7002-41b8-b947-14d53c889c21">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
                 
 

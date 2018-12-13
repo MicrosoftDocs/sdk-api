@@ -128,7 +128,7 @@ The method succeeded.
 
 
 
-This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/en-us/library/Dd694785(v=VS.85).aspx">IPAT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
+This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/2a7808b6-2e31-4cd9-a4cc-7a6a7cf46cd4">IPAT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
 
 
 
@@ -138,7 +138,7 @@ This method applies only to <i>next</i> tables that have become current. Before 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694773(v=VS.85).aspx">IPAT Interface</a>
+<a href="https://msdn.microsoft.com/31b0e558-0f22-4761-a964-1908c2835478">IPAT Interface</a>
  
 
  

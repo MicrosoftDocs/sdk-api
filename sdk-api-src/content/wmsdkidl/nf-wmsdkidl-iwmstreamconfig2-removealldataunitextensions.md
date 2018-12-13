@@ -79,7 +79,7 @@ The method always returns S_OK.
 
 
 
-The changes will not take effect in the profile until you call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
+The changes will not take effect in the profile until you call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
 
 
 
@@ -89,19 +89,19 @@ The changes will not take effect in the profile until you call <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798548(v=VS.85).aspx">IWMStreamConfig2::AddDataUnitExtension</a>
+<a href="https://msdn.microsoft.com/db84a33c-bd83-46cb-a97c-76ddeeb74927">IWMStreamConfig2::AddDataUnitExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798549(v=VS.85).aspx">IWMStreamConfig2::GetDataUnitExtension</a>
+<a href="https://msdn.microsoft.com/766124f6-b376-421b-b2ee-2c280af3bd16">IWMStreamConfig2::GetDataUnitExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798550(v=VS.85).aspx">IWMStreamConfig2::GetDataUnitExtensionCount</a>
+<a href="https://msdn.microsoft.com/f9a4ec84-4ea3-4e84-9def-7ca93be0f1ce">IWMStreamConfig2::GetDataUnitExtensionCount</a>
  
 
  

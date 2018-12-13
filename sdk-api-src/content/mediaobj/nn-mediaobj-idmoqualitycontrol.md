@@ -61,8 +61,8 @@ Applications use this interface to enable or disable quality control. Using qual
 
 To use quality control, perform the following steps:
 <ol>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/Dd406841(v=VS.85).aspx">IDMOQualityControl::SetNow</a> method with the reference time of the earliest sample to be processed.</li>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/Dd406842(v=VS.85).aspx">IDMOQualityControl::SetStatus</a> method with the DMO_QUALITY_STATUS_ENABLED flag.</li>
+<li>Call the <a href="https://msdn.microsoft.com/36efee4f-0a06-421f-bc37-688a6499bda7">IDMOQualityControl::SetNow</a> method with the reference time of the earliest sample to be processed.</li>
+<li>Call the <a href="https://msdn.microsoft.com/d22a7a23-6623-4a98-9a0c-5195b29781f9">IDMOQualityControl::SetStatus</a> method with the DMO_QUALITY_STATUS_ENABLED flag.</li>
 </ol>To disable quality control, call <b>SetStatus</b> with no flag.
 
 
@@ -83,7 +83,7 @@ The <b>IDMOQualityControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406840(v=VS.85).aspx">GetStatus</a>
+<a href="https://msdn.microsoft.com/5c45874f-5546-40cc-a113-bea92bd9784b">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Determines whether quality control is active.
@@ -92,7 +92,7 @@ Determines whether quality control is active.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406841(v=VS.85).aspx">SetNow</a>
+<a href="https://msdn.microsoft.com/36efee4f-0a06-421f-bc37-688a6499bda7">SetNow</a>
 </td>
 <td align="left" width="63%">
 Specifies the earliest time stamp for which the DMO should deliver data.
@@ -101,7 +101,7 @@ Specifies the earliest time stamp for which the DMO should deliver data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406842(v=VS.85).aspx">SetStatus</a>
+<a href="https://msdn.microsoft.com/d22a7a23-6623-4a98-9a0c-5195b29781f9">SetStatus</a>
 </td>
 <td align="left" width="63%">
 Enables or disables quality control.

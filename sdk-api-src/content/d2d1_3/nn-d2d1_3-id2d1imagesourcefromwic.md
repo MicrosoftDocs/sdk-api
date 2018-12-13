@@ -70,7 +70,7 @@ The <b>ID2D1ImageSourceFromWic</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn900421(v=VS.85).aspx">EnsureCached</a>
+<a href="https://msdn.microsoft.com/9addc82b-7446-1f2c-5666-f817b8b5707d">EnsureCached</a>
 </td>
 <td align="left" width="63%">Overloaded. Loads image data into caches of image sources if that data is not already cached.
 
@@ -87,7 +87,7 @@ Retrieves the underlying bitmap image source from the Windows Imaging Component 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn900425(v=VS.85).aspx">TrimCache</a>
+<a href="https://msdn.microsoft.com/04e6e010-3642-6775-8a95-f20ff0461b09">TrimCache</a>
 </td>
 <td align="left" width="63%">Overloaded. Trims the populated regions of the image source cache to just the specified rectangle.
 
@@ -101,7 +101,7 @@ Retrieves the underlying bitmap image source from the Windows Imaging Component 
 
 
 Create an an instance of ID2D1ImageSourceFromWic 
-          using <a href="https://msdn.microsoft.com/en-us/library/Dn900366(v=VS.85).aspx">ID2D1DeviceContext2::CreateImageSourceFromWic</a>.
+          using <a href="https://msdn.microsoft.com/af02630d-a9ca-f5b4-6f2a-31a73ef603e5">ID2D1DeviceContext2::CreateImageSourceFromWic</a>.
         
 
 

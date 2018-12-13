@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> in a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>. The <b>PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE</b> type defines a pointer to this function.
+Creates a <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> in a <a href="c_gly.htm">cluster</a>. The <b>PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE</b> type defines a pointer to this function.
 
 
 ## -parameters

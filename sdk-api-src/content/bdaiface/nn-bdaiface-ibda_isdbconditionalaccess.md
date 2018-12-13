@@ -74,7 +74,7 @@ The <b>IBDA_ISDBConditionalAccess</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693395(v=VS.85).aspx">SetIsdbCasRequest</a>
+<a href="https://msdn.microsoft.com/c93351f5-1829-4405-b665-00f2e78391e0">SetIsdbCasRequest</a>
 </td>
 <td align="left" width="63%">
 Sends a CAS command.

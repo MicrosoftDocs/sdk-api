@@ -89,23 +89,27 @@ The new rotation transformation.
 
 When calling this method, specify a <i>centerPoint</i> to rotate the object about, and the rotation <i>angle</i> in degrees. The following illustration shows a square rotated 45 degrees about its center point.
 
-<img alt="Illustration a square rotated clockwise 45 degrees about the center of the original square" src="./images/rotate_ovw.PNG"/>
+<img alt="Illustration a square rotated clockwise 45 degrees about the center of the original square" src="images/rotate_ovw.PNG"/>
 
 #### Examples
 
-The following example uses the <b>D2D1::Matrix3x2F::Rotation</b>  method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the <a href="https://msdn.microsoft.com/en-us/library/Dd742690(v=VS.85).aspx">SetTransform</a> method of the render target (<i>m_pRenderTarget</i>).
+The following example uses the <b>D2D1::Matrix3x2F::Rotation</b>  method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the <a href="https://msdn.microsoft.com/57afadc1-88c9-4a5b-a83f-63c4c69182a7">SetTransform</a> method of the render target (<i>m_pRenderTarget</i>).
 
 The following illustration shows the effect of applying the  preceding rotation transformation to the square. The original square is a dotted outline, and the rotated square is a solid outline. 
 
-<img alt="Illustration a square rotated 45 degrees about the center of the original square" src="./images/rotate_ovw.png"/>
+<img alt="Illustration a square rotated 45 degrees about the center of the original square" src="images/rotate_ovw.png"/>
 
-
-```cpp
-    // Create a rectangle.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // Create a rectangle.
     D2D1_RECT_F rectangle = D2D1::Rect(438.0f, 301.5f, 498.0f, 361.5f);
 
     // Draw the rectangle.
-    m_pRenderTarget->DrawRectangle(
+    m_pRenderTarget-&gt;DrawRectangle(
         rectangle,
         m_pOriginalShapeBrush,
         1.0f,
@@ -113,22 +117,22 @@ The following illustration shows the effect of applying the  preceding rotation 
         );
 
     // Apply the rotation transform to the render target.
-    m_pRenderTarget->SetTransform(
+    m_pRenderTarget-&gt;SetTransform(
         D2D1::Matrix3x2F::Rotation(
             45.0f,
             D2D1::Point2F(468.0f, 331.5f))
         );
 
     // Fill the rectangle.
-    m_pRenderTarget->FillRectangle(rectangle, m_pFillBrush);
+    m_pRenderTarget-&gt;FillRectangle(rectangle, m_pFillBrush);
 
     // Draw the transformed rectangle.
-    m_pRenderTarget->DrawRectangle(rectangle, m_pTransformedShapeBrush);
+    m_pRenderTarget-&gt;DrawRectangle(rectangle, m_pTransformedShapeBrush);
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Code has been omitted from this example. For more information about transforms, see the <a href="https://msdn.microsoft.com/eea8177d-c19e-4972-a9a6-ad5d541b090f">Transforms Overview</a>. 
 
 <div class="code"></div>

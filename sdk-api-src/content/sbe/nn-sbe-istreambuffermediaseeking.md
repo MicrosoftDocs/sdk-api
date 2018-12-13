@@ -52,7 +52,7 @@ req.redist:
 
 The <b>IStreamBufferMediaSeeking</b> interface controls seeking in a stream buffer source graph. The <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter exposes this interface.
 
-The methods in this interface have exactly the same names and parameters as those in the <a href="https://msdn.microsoft.com/en-us/library/Dd407023(v=VS.85).aspx">IMediaSeeking</a> interface. To seek within a stream buffer file, use this interface directly on the source filter instead of calling <b>IMediaSeeking</b> methods on the filter graph.
+The methods in this interface have exactly the same names and parameters as those in the <a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking</a> interface. To seek within a stream buffer file, use this interface directly on the source filter instead of calling <b>IMediaSeeking</b> methods on the filter graph.
 
 
 ## -remarks
@@ -61,7 +61,7 @@ The methods in this interface have exactly the same names and parameters as thos
 
 When the Stream Buffer Source plays a recording created by the <a href="https://msdn.microsoft.com/717a3b99-d998-4e64-aab6-6b06e18991da">Recording</a> object or the <a href="https://msdn.microsoft.com/4f7fcdee-f6e2-4288-a11c-f0076858be67">RecComp</a> object, it can seek anywhere within the file. When it plays a live stream from the Stream Buffer Sink, it can seek anywhere within the sink filter's buffer. This might include recorded content or temporary backing files. Transitions across files are seamless.
 
-Live content from the Stream Buffer Sink grows on one end, as new content is recorded, and shrinks on the other end, as stale backing files are deleted. Therefore, the positioning information for this interface differs somewhat from the regular <a href="https://msdn.microsoft.com/en-us/library/Dd407023(v=VS.85).aspx">IMediaSeeking</a> interface. The following definitions are used.
+Live content from the Stream Buffer Sink grows on one end, as new content is recorded, and shrinks on the other end, as stale backing files are deleted. Therefore, the positioning information for this interface differs somewhat from the regular <a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking</a> interface. The following definitions are used.
 
 <table>
 <tr>
@@ -108,17 +108,17 @@ Given these definition, the following <b>IStreamBufferMediaSeeking</b> methods h
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd407026(v=VS.85).aspx">GetAvailable</a>: Returns content start and content stop.</li>
+<a href="https://msdn.microsoft.com/8c4114e5-ff82-421a-a7fb-9382d4182388">GetAvailable</a>: Returns content start and content stop.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd407028(v=VS.85).aspx">GetCurrentPosition</a>: Returns stream position.</li>
+<a href="https://msdn.microsoft.com/4dca0c9e-ce95-4716-8e4d-ce8bf83628d6">GetCurrentPosition</a>: Returns stream position.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd407029(v=VS.85).aspx">GetDuration</a>: Returns (content start –content stop).</li>
+<a href="https://msdn.microsoft.com/15b98fb0-a0dd-47fc-8046-fa336afa970c">GetDuration</a>: Returns (content start –content stop).</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd407030(v=VS.85).aspx">GetPositions</a>: Returns stream position and segment stop.</li>
+<a href="https://msdn.microsoft.com/1b267c02-ec2d-4251-aac7-f2f711b16062">GetPositions</a>: Returns stream position and segment stop.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd407033(v=VS.85).aspx">GetStopPosition</a>: Returns segment stop.</li>
+<a href="https://msdn.microsoft.com/7205ea09-65c1-4cd5-b76d-55977b0fbab9">GetStopPosition</a>: Returns segment stop.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd407038(v=VS.85).aspx">SetPositions</a>: Sets stream position and segment stop.</li>
+<a href="https://msdn.microsoft.com/aa1369fd-a57a-4246-bb23-969f6ce3cad8">SetPositions</a>: Sets stream position and segment stop.</li>
 </ul>
 The only time format supported by this interface is reference time (TIME_FORMAT_MEDIA_TIME). The Stream Buffer Engine does not support frame-accurate seeking.
 
@@ -127,7 +127,7 @@ For rate changes, the playback speed must be greater than 0.1 or less than -0.1.
 
 The <b>IStreamBufferMediaSeeking::SetRate</b> method may return VFW_E_DVD_WRONG_SPEED if the requested rate is too high for very short content. This error is caused when the Stream Buffer Engine cannot get I frames for the available content at the requested rate.
 
-The <b>SetRate</b> method may also return E_NOTIMPL. This error code can happen if several decoders are registered on the user's system. If so, use the standard <a href="https://msdn.microsoft.com/en-us/library/Dd407039(v=VS.85).aspx">IMediaSeeking::SetRate</a> method on the source graph to set the playback rate. The <a href="https://msdn.microsoft.com/en-us/library/Dd407023(v=VS.85).aspx">IMediaSeeking</a> version of <b>SetRate</b> may return VFW_E_UNSUPPORTED_AUDIO, which indicates that the audio decoder does not support trick mode. It is safe to ignore this error code.
+The <b>SetRate</b> method may also return E_NOTIMPL. This error code can happen if several decoders are registered on the user's system. If so, use the standard <a href="https://msdn.microsoft.com/8cd44480-cadb-4b59-9fe7-4a82b3aed15b">IMediaSeeking::SetRate</a> method on the source graph to set the playback rate. The <a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking</a> version of <b>SetRate</b> may return VFW_E_UNSUPPORTED_AUDIO, which indicates that the audio decoder does not support trick mode. It is safe to ignore this error code.
 
 The <b>IStreamBufferMediaSeeking</b> version of <b>SetRate</b> may also fail if the decoder does not support rates other than 1x speed.
 

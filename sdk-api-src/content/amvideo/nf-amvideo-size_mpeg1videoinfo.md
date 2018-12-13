@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx">MPEG1VIDEOINFO</a> structure, including the sequence header (<b>bSequenceHeader</b>).
+The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="https://msdn.microsoft.com/ae5b8825-7c1c-4a44-b665-098732e6c3bc">MPEG1VIDEOINFO</a> structure, including the sequence header (<b>bSequenceHeader</b>).
 
 
 
@@ -63,7 +63,7 @@ The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="ht
 
 ### -param pv
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx">MPEG1VIDEOINFO</a> structure.
+Pointer to an <a href="https://msdn.microsoft.com/ae5b8825-7c1c-4a44-b665-098732e6c3bc">MPEG1VIDEOINFO</a> structure.
 
 
 ## -see-also

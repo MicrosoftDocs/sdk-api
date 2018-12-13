@@ -116,9 +116,13 @@ If you pass the vertex option <a href="https://msdn.microsoft.com/b308aaf4-edf0-
 
 
 
-
-```cpp
-D2D1_BLEND_DESCRIPTION blendDesc = 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>D2D1_BLEND_DESCRIPTION blendDesc = 
         {
             D2D1_BLEND_ONE,
             D2D1_BLEND_ZERO,
@@ -129,10 +133,10 @@ D2D1_BLEND_DESCRIPTION blendDesc =
             D2D1_BLEND_OPERATION_ADD,
 
             { 1.0f, 1.0f, 1.0f, 1.0f }
-        };
-```
-
-
+        };</pre>
+</td>
+</tr>
+</table></span></div>
 If this call fails, the corresponding <a href="https://msdn.microsoft.com/e90d1830-c356-48f1-ac7b-1d94c8c26569">ID2D1Effect</a> instance is placed into an error state and fails to draw.
 
   If blendDescription is NULL, a foreground-over blend mode is used.

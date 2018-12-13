@@ -4,7 +4,7 @@ title: IWTSSBPlugin::WTSSBX_MachineChangeNotification
 author: windows-sdk-content
 description: Notifies the plug-in that a change occurred in the server environment.
 old-location: termserv\iwtssbplugin_wtssbx_machinechangenotification.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 226ca68e-6c3d-4160-a569-ca0b92cb9316
 ms.author: windowssdkdev
 ms.date: 12/5/2018

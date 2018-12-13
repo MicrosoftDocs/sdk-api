@@ -123,9 +123,9 @@ The display mode is available.
 
 The Full Screen Renderer supports a static set of display modes. However, the video card on the user's system might not support every mode. If a particular display mode is not supported by the video card, this method returns S_FALSE. Even if a particular mode is available, it will not necessarily be used for video playback. The mode must also be compatible with the filters in the filter graph.
 
-You can disable a display mode by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd390075(v=VS.85).aspx">IFullScreenVideoEx::SetEnabled</a> method. The Full Screen Renderer will not use a disabled mode, even if the video card supports it.
+You can disable a display mode by calling the <a href="https://msdn.microsoft.com/f05c1b3e-3ebc-4753-b3ca-e52907c59121">IFullScreenVideoEx::SetEnabled</a> method. The Full Screen Renderer will not use a disabled mode, even if the video card supports it.
 
-Display modes are indexed from zero. The <a href="https://msdn.microsoft.com/en-us/library/Dd390057(v=VS.85).aspx">IFullScreenVideoEx::CountModes</a> method returns the number of modes.
+Display modes are indexed from zero. The <a href="https://msdn.microsoft.com/70d4e124-083b-4729-8f39-778e815ea23b">IFullScreenVideoEx::CountModes</a> method returns the number of modes.
 
 
 
@@ -139,7 +139,7 @@ Display modes are indexed from zero. The <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390056(v=VS.85).aspx">IFullScreenVideoEx Interface</a>
+<a href="https://msdn.microsoft.com/4c9de58f-6ceb-4cf5-b1a5-d3e345e08190">IFullScreenVideoEx Interface</a>
  
 
  

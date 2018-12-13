@@ -54,7 +54,7 @@ req.redist:
 
 The <code>IDMOWrapperFilter</code> interface enables an application to use a DirectX Media Object (DMO) inside a filter graph. The <a href="https://msdn.microsoft.com/ffa6234d-9040-4838-8f51-0cf87df40a5c">DMO Wrapper</a> filter exposes this interface.
 
-To add a DMO to the filter graph, create an instance of the DMO Wrapper filter and query it for the <code>IDMOWrapperFilter</code> interface. Then call the <a href="https://msdn.microsoft.com/en-us/library/Dd406849(v=VS.85).aspx">IDMOWrapperFilter::Init</a> method to initialize the filter with the DMO.
+To add a DMO to the filter graph, create an instance of the DMO Wrapper filter and query it for the <code>IDMOWrapperFilter</code> interface. Then call the <a href="https://msdn.microsoft.com/45f305b5-82bc-44c1-9af7-93aab371ed33">IDMOWrapperFilter::Init</a> method to initialize the filter with the DMO.
 
 
 
@@ -76,7 +76,7 @@ The <b>IDMOWrapperFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406849(v=VS.85).aspx">Init</a>
+<a href="https://msdn.microsoft.com/45f305b5-82bc-44c1-9af7-93aab371ed33">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the DMO Wrapper filter with the specified DMO.

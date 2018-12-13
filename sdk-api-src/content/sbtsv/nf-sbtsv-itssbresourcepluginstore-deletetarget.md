@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::DeleteTarget
 author: windows-sdk-content
 description: Deletes a target.
 old-location: termserv\itssbresourcepluginstore_deletetarget.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d8114126-f518-4a43-8f6e-900fe84052e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

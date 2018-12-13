@@ -68,7 +68,7 @@ A pointer to a location that, on input, contains the number of entries in the <i
 
 ### -param PortalInfo [in, out]
 
-Pointer to an array of elements contained in <a href="https://msdn.microsoft.com/en-us/library/Bb870814(v=VS.85).aspx">ISCSI_TARGET_PORTAL_INFO</a> structures that describe the portals that the iSCSI initiator service utilizes to perform discovery with <b>SendTargets</b> requests. 
+Pointer to an array of elements contained in <a href="https://msdn.microsoft.com/3592b289-9c0d-43dc-918f-23c8ff079186">ISCSI_TARGET_PORTAL_INFO</a> structures that describe the portals that the iSCSI initiator service utilizes to perform discovery with <b>SendTargets</b> requests. 
 
 
 ## -returns
@@ -85,7 +85,7 @@ Pointer to an array of elements contained in <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb870814(v=VS.85).aspx">ISCSI_TARGET_PORTAL_INFO</a>
+<a href="https://msdn.microsoft.com/3592b289-9c0d-43dc-918f-23c8ff079186">ISCSI_TARGET_PORTAL_INFO</a>
  
 
  

@@ -83,19 +83,23 @@ None.
 
 The following pseudocode shows you the operation of the function.
 
-
-```
-uint32_t* pElement = (uint32_t*)pDestination;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>uint32_t* pElement = (uint32_t*)pDestination;
 
 assert(pDestination);
-assert(((uint32_t_PTR)pDestination & 3) == 0);
+assert(((uint32_t_PTR)pDestination &amp; 3) == 0);
 
 pElement[0] = V.u[0];
 pElement[1] = V.u[1];
-pElement[2] = V.u[2];
-```
-
-
+pElement[2] = V.u[2];</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
@@ -111,19 +115,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404659(v=VS.85).aspx">XMINT3</a>
+<a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404702(v=VS.85).aspx">XMStoreSInt3</a>
+<a href="https://msdn.microsoft.com/d30a22ae-fb62-4c6a-873d-1ae34f1aa26a">XMStoreSInt3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404707(v=VS.85).aspx">XMStoreUInt3</a>
+<a href="https://msdn.microsoft.com/86c38bcf-09cf-44d1-a6de-6b0cdc1d01c4">XMStoreUInt3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a>
+<a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a>
  
 
  

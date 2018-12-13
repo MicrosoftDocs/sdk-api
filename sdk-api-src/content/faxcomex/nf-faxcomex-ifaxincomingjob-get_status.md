@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the <b>Status</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object. The <b>Status</b> property is a number that indicates the current status of an inbound fax job in the job queue.
+Retrieves the <b>Status</b> property of a <a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a> object. The <b>Status</b> property is a number that indicates the current status of an inbound fax job in the job queue.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Retrieves the <b>Status</b> property of a <a href="https://msdn.microsoft.com/en
 
 ### -param pStatus [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms690046(v=VS.85).aspx">FAX_JOB_STATUS_ENUM</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7629c51e-2108-4fc6-9870-9500a7fffa62">FAX_JOB_STATUS_ENUM</a>*</b>
 
-Pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/ms690046(v=VS.85).aspx">FAX_JOB_STATUS_ENUM</a> enumeration that specifies the current status of an inbound fax job in the job queue.
+Pointer to a value from the <a href="https://msdn.microsoft.com/7629c51e-2108-4fc6-9870-9500a7fffa62">FAX_JOB_STATUS_ENUM</a> enumeration that specifies the current status of an inbound fax job in the job queue.
 
 
 ## -returns
@@ -81,15 +81,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690046(v=VS.85).aspx">FAX_JOB_STATUS_ENUM</a>
+<a href="https://msdn.microsoft.com/7629c51e-2108-4fc6-9870-9500a7fffa62">FAX_JOB_STATUS_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684823(v=VS.85).aspx">Status</a>
+<a href="https://msdn.microsoft.com/fd84a3b4-a7ce-400c-a8a9-8134d7308bef">Status</a>
  
 
  

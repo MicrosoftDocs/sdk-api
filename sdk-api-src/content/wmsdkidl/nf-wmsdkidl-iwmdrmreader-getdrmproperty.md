@@ -138,7 +138,7 @@ If you specify a "license state" constant, the returned data is a pointer to a <
 <tr>
 <td>g_wszWMDRM_LicenseState_CopyToSDMIDevice</td>
 <td>"LicenseStateData.Transfer.SDMI"</td>
-<td>License restrictions on copying the file to an <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">SDMI</a> device.For DRM version 10 licenses, use g_wszWMDRM_LicenseState_Copy for all copy actions.
+<td>License restrictions on copying the file to an <a href="wmformat_glossary.htm">SDMI</a> device.For DRM version 10 licenses, use g_wszWMDRM_LicenseState_Copy for all copy actions.
 
 </td>
 </tr>
@@ -259,7 +259,7 @@ If you specify a "DRM Header" constant, the returned value is the string literal
 </table>
  
 
-Before calling this method on a new file, always call the helper function <a href="https://msdn.microsoft.com/en-us/library/Dd757830(v=VS.85).aspx">WMIsContentProtected</a> to ensure that the file is protected with DRM. It is important to do this because in some cases this method might succeed when called on unprotected content.
+Before calling this method on a new file, always call the helper function <a href="https://msdn.microsoft.com/a28cdf06-8c4f-41ff-b9dc-eddf9bc9d674">WMIsContentProtected</a> to ensure that the file is protected with DRM. It is important to do this because in some cases this method might succeed when called on unprotected content.
 
 
 
@@ -277,19 +277,19 @@ Before calling this method on a new file, always call the helper function <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798280(v=VS.85).aspx">IWMDRMEditor::GetDRMProperty</a>
+<a href="https://msdn.microsoft.com/b0a7b07d-f0c0-4715-a9c3-7babf3bf7af9">IWMDRMEditor::GetDRMProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
+<a href="https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58">IWMDRMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798354(v=VS.85).aspx">IWMDRMReader::SetDRMProperty</a>
+<a href="https://msdn.microsoft.com/52f606c2-a746-488f-bbf7-0d0e54b89bf9">IWMDRMReader::SetDRMProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a>
+<a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a>
  
 
  

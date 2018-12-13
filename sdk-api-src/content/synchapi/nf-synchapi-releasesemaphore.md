@@ -68,7 +68,7 @@ Increases the count of the specified semaphore object by a specified amount.
 
 A handle to the semaphore object. The 
 <a href="https://msdn.microsoft.com/2e55d67b-99de-4f10-8637-00d9d62e4460">CreateSemaphore</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/ms684326(v=VS.85).aspx">OpenSemaphore</a> function returns this handle.
+<a href="https://msdn.microsoft.com/2ea525b9-f33d-4b72-85e1-6d2cfdc64f5f">OpenSemaphore</a> function returns this handle.
 
 This handle must have the <b>SEMAPHORE_MODIFY_STATE</b> access right. For more information, see 
 <a href="https://msdn.microsoft.com/92478298-617c-4672-a1cc-9a8e9af40327">Synchronization Object Security and Access Rights</a>.
@@ -137,7 +137,7 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684326(v=VS.85).aspx">OpenSemaphore</a>
+<a href="https://msdn.microsoft.com/2ea525b9-f33d-4b72-85e1-6d2cfdc64f5f">OpenSemaphore</a>
 
 
 

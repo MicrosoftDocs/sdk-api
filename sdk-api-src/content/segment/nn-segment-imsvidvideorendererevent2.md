@@ -70,7 +70,7 @@ The <b>IMSVidVideoRendererEvent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694729(v=VS.85).aspx">OverlayUnavailable</a>
+<a href="https://msdn.microsoft.com/52571daa-c955-4bd3-bb97-afc480984cdf">OverlayUnavailable</a>
 </td>
 <td align="left" width="63%">
 This method is not implemented.

@@ -58,7 +58,7 @@ req.redist:
 
 
 
-The <b>ResetFilterList</b> method clears the list of filters that were added using <a href="https://msdn.microsoft.com/en-us/library/Dd694561(v=VS.85).aspx">IMSVidGenericSink2::AddFilter</a>.
+The <b>ResetFilterList</b> method clears the list of filters that were added using <a href="https://msdn.microsoft.com/b0044995-5bca-4f49-a22b-00df8f73b47f">IMSVidGenericSink2::AddFilter</a>.
 
 
 ## -parameters
@@ -101,7 +101,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694560(v=VS.85).aspx">IMSVidGenericSink2 Interface</a>
+<a href="https://msdn.microsoft.com/01acd28b-a17a-413a-ab43-9656e3ab7f60">IMSVidGenericSink2 Interface</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the view for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760998(v=VS.85).aspx">MCM_SETCURRENTVIEW</a> message explicitly.
+Sets the view for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/26ccbb80-0dba-4241-a2eb-b79000fc3618">MCM_SETCURRENTVIEW</a> message explicitly.
 
 
 ## -parameters

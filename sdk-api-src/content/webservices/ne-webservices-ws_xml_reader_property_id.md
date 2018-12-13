@@ -112,11 +112,11 @@ This property defaults to <b>TRUE</b>.
 
 ### -field WS_XML_READER_PROPERTY_CHARSET
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd401789(v=VS.85).aspx">WS_CHARSET</a> value that returns the character set of the xml document.  This value is only available for
+A <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET</a> value that returns the character set of the xml document.  This value is only available for
           text documents.
         
 
-If the reader was initialized with a <a href="https://msdn.microsoft.com/en-us/library/Dd401789(v=VS.85).aspx">WS_CHARSET_AUTO</a> then it will automatically determine this
+If the reader was initialized with a <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET_AUTO</a> then it will automatically determine this
           value.  The reader input source is streamed, then the reader must have enough data buffered to be able to
           inspect initial byte order marks and the xml declaration.  See <a href="https://msdn.microsoft.com/1f4138a2-acc5-4f1d-8e35-544859d2fa49">WsFillReader</a>.
         

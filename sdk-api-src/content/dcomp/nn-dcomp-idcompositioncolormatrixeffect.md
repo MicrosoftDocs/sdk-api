@@ -55,7 +55,7 @@ The color matrix effect alters the RGBA values of a bitmap.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionColorMatrixEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionColorMatrixEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionColorMatrixEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionColorMatrixEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDCompositionColorMatrixEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919723(v=VS.85).aspx">SetAlphaMode</a>
+<a href="https://msdn.microsoft.com/BB1464B4-BCF3-4A38-88F0-2B2637DCCBC6">SetAlphaMode</a>
 </td>
 <td align="left" width="63%">
 Sets the alpha mode of the output for the color matrix effect.
@@ -79,7 +79,7 @@ Sets the alpha mode of the output for the color matrix effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919724(v=VS.85).aspx">SetClampOutput</a>
+<a href="https://msdn.microsoft.com/2C4EF887-18CF-49A2-96F5-02B81939BBA9">SetClampOutput</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the effect clamps color values to between 0 and 1 before the effects passes the values to the next effect in the chain.
@@ -88,7 +88,7 @@ Specifies whether the effect clamps color values to between 0 and 1 before the e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919725(v=VS.85).aspx">SetMatrix</a>
+<a href="https://msdn.microsoft.com/1EE0C9B6-6309-40A3-AE80-A47C45BBA536">SetMatrix</a>
 </td>
 <td align="left" width="63%">
 Sets the matrix used by the effect to multiply the RGBA values of the image.
@@ -97,7 +97,7 @@ Sets the matrix used by the effect to multiply the RGBA values of the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905288(v=VS.85).aspx">SetMatrixElement</a>
+<a href="https://msdn.microsoft.com/47fd4fa3-d10f-7750-c7ef-fd03e8cf933a">SetMatrixElement</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets an element of the color matrix.
 
@@ -111,7 +111,7 @@ Sets the matrix used by the effect to multiply the RGBA values of the image.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
  
 
  

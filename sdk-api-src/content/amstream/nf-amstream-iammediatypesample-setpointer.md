@@ -126,7 +126,7 @@ If the value of the <i>pBuffer</i> parameter is <b>NULL</b>, the method allocate
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319663(v=VS.85).aspx">IAMMediaTypeSample Interface</a>
+<a href="https://msdn.microsoft.com/e0a62251-68ee-4318-b09a-0aac6b73bf54">IAMMediaTypeSample Interface</a>
  
 
  

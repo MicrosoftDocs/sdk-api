@@ -65,7 +65,7 @@ The <code>GetFilterGraph</code> method retrieves the Filter Graph Manager that i
 
 ### -param ppGraphBuilder [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx">IGraphBuilder</a> interface pointer. If there is no filter graph associated with the multimedia stream object, the returned pointer is <b>NULL</b>.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface pointer. If there is no filter graph associated with the multimedia stream object, the returned pointer is <b>NULL</b>.
 
 
 ## -returns
@@ -121,7 +121,7 @@ If the method succeeds and *<i>ppGraphBuilder</i> is non-<b>NULL</b>, the caller
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/2f604156-68ef-4770-9929-6dbfd46c4d6d">IAMMultiMediaStream Interface</a>
  
 
  

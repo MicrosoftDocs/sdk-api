@@ -67,7 +67,7 @@ The <b>CreateWellKnownSid</b> function creates a SID for predefined aliases.
 
 ### -param WellKnownSidType [in]
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa379650(v=VS.85).aspx">WELL_KNOWN_SID_TYPE</a> enumeration that specifies what the SID will identify.
+Member of the <a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WELL_KNOWN_SID_TYPE</a> enumeration that specifies what the SID will identify.
 
 
 ### -param DomainSid [in, optional]
@@ -114,7 +114,7 @@ If the function fails, the return value is zero. For extended error information,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379650(v=VS.85).aspx">WELL_KNOWN_SID_TYPE</a>
+<a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WELL_KNOWN_SID_TYPE</a>
  
 
  

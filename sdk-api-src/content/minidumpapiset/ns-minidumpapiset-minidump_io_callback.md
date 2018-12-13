@@ -4,7 +4,7 @@ title: MINIDUMP_IO_CALLBACK
 author: windows-sdk-content
 description: Contains I/O callback information.
 old-location: base\minidump_io_callback.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: db38f035-1fb8-4715-846f-59392aac2d4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

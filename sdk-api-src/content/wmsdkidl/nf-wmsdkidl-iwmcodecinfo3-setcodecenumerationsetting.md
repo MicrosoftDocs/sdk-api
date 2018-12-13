@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>SetCodecEnumerationSetting</b> method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of <a href="https://msdn.microsoft.com/en-us/library/Dd743313(v=VS.85).aspx">IWMCodecInfo</a>.
+The <b>SetCodecEnumerationSetting</b> method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of <a href="https://msdn.microsoft.com/70661d13-737a-4e83-94e6-9a1af07b0369">IWMCodecInfo</a>.
 
 
 
@@ -89,7 +89,7 @@ GUID identifying the major type of digital media. This must be one of the follow
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743324(v=VS.85).aspx">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/873f8d03-5d7b-424c-91f3-e7c8156565be">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 
 ### -param pszName [in]
@@ -121,7 +121,7 @@ Pointer to a wide-character null-terminated string containing the name of the en
 
 ### -param Type [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> value specifying the data type of the value in <i>pValue</i>.
+A <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> value specifying the data type of the value in <i>pValue</i>.
 
 
 ### -param pValue [in]
@@ -222,11 +222,11 @@ The return value of a call made to this method does not guarantee support of a c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743318(v=VS.85).aspx">GetCodecEnumerationSetting</a>
+<a href="https://msdn.microsoft.com/9a8f34ef-4d52-47d4-b6d5-e6f07f27cc8d">GetCodecEnumerationSetting</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743317(v=VS.85).aspx">IWMCodecInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/fd882612-1f60-4b51-a180-0d34d78c99dd">IWMCodecInfo3 Interface</a>
  
 
  

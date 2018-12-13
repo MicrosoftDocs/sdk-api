@@ -51,7 +51,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">WsCreateChannel</a> call
-                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 
@@ -73,10 +73,10 @@ If the type of channel is not supported by the custom
 ### -param *channelParameters
 
 The pointer to the value that was specified by the
-                    <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property when the custom channel is created using <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">WsCreateChannel</a>.
+                    <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property when the custom channel is created using <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">WsCreateChannel</a>.
                 
 
-If the <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the value will be <b>NULL</b>.
+If the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the value will be <b>NULL</b>.
                 
 
 
@@ -85,7 +85,7 @@ If the <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx"
 The size in bytes of the value pointed to by channelParameters.
                 
 
-If the <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the size will be 0.
+If the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the size will be 0.
                 
 
 

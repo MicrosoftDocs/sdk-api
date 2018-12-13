@@ -128,7 +128,7 @@ The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration Interface</a>
+<a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration Interface</a>
  
 
  

@@ -69,14 +69,14 @@ How frequently the GPU counter increments in Hz.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-If this is <b>TRUE</b>, something occurred in between the query's <a href="https://msdn.microsoft.com/en-us/library/Bb173501(v=VS.85).aspx">ID3D10Asynchronous::Begin</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a> calls that caused the timestamp counter to become discontinuous or disjoint, such as unplugging the AC chord on a laptop, overheating, or throttling up/down due to laptop savings events. The timestamp returned by <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a> for a timestamp query is only reliable if Disjoint is <b>FALSE</b>.
+If this is <b>TRUE</b>, something occurred in between the query's <a href="https://msdn.microsoft.com/53ae44d0-822b-4fc9-ac77-814ac73eb08a">ID3D10Asynchronous::Begin</a> and <a href="https://msdn.microsoft.com/147a93b4-7151-4800-8aa5-286058f49ee8">ID3D10Asynchronous::End</a> calls that caused the timestamp counter to become discontinuous or disjoint, such as unplugging the AC chord on a laptop, overheating, or throttling up/down due to laptop savings events. The timestamp returned by <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a> for a timestamp query is only reliable if Disjoint is <b>FALSE</b>.
 
 
 ## -remarks
 
 
 
-For a list of query types see <a href="https://msdn.microsoft.com/en-us/library/Bb205335(v=VS.85).aspx">D3D10_QUERY</a>.
+For a list of query types see <a href="https://msdn.microsoft.com/f50197d6-48ba-498e-8c1b-9b0ae08a8782">D3D10_QUERY</a>.
 
 
 
@@ -86,7 +86,7 @@ For a list of query types see <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
  
 
  

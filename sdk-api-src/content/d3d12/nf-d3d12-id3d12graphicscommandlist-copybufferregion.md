@@ -124,9 +124,13 @@ Consider using the <a href="https://msdn.microsoft.com/EFC305CF-FBA9-4192-999B-6
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::CopyBufferRegion</b> as follows:
         
 
-
-```cpp
-inline UINT64 UpdateSubresources(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>inline UINT64 UpdateSubresources(
     _In_ ID3D12GraphicsCommandList* pCmdList,
     _In_ ID3D12Resource* pDestinationResource,
     _In_ ID3D12Resource* pIntermediate,
@@ -139,53 +143,53 @@ inline UINT64 UpdateSubresources(
     _In_reads_(NumSubresources) const D3D12_SUBRESOURCE_DATA* pSrcData)
 {
     // Minor validation
-    D3D12_RESOURCE_DESC IntermediateDesc = pIntermediate->GetDesc();
-    D3D12_RESOURCE_DESC DestinationDesc = pDestinationResource->GetDesc();
+    D3D12_RESOURCE_DESC IntermediateDesc = pIntermediate-&gt;GetDesc();
+    D3D12_RESOURCE_DESC DestinationDesc = pDestinationResource-&gt;GetDesc();
     if (IntermediateDesc.Dimension != D3D12_RESOURCE_DIMENSION_BUFFER || 
-        IntermediateDesc.Width < RequiredSize + pLayouts[0].Offset || 
-        RequiredSize > (SIZE_T)-1 || 
-        (DestinationDesc.Dimension == D3D12_RESOURCE_DIMENSION_BUFFER && 
+        IntermediateDesc.Width &lt; RequiredSize + pLayouts[0].Offset || 
+        RequiredSize &gt; (SIZE_T)-1 || 
+        (DestinationDesc.Dimension == D3D12_RESOURCE_DIMENSION_BUFFER &amp;&amp; 
             (FirstSubresource != 0 || NumSubresources != 1)))
     {
         return 0;
     }
     
     BYTE* pData;
-    HRESULT hr = pIntermediate->Map(0, NULL, reinterpret_cast<void**>(&pData));
+    HRESULT hr = pIntermediate-&gt;Map(0, NULL, reinterpret_cast&lt;void**&gt;(&amp;pData));
     if (FAILED(hr))
     {
         return 0;
     }
     
-    for (UINT i = 0; i < NumSubresources; ++i)
+    for (UINT i = 0; i &lt; NumSubresources; ++i)
     {
-        if (pRowSizesInBytes[i] > (SIZE_T)-1) return 0;
+        if (pRowSizesInBytes[i] &gt; (SIZE_T)-1) return 0;
         D3D12_MEMCPY_DEST DestData = { pData + pLayouts[i].Offset, pLayouts[i].Footprint.RowPitch, pLayouts[i].Footprint.RowPitch * pNumRows[i] };
-        MemcpySubresource(&DestData, &pSrcData[i], (SIZE_T)pRowSizesInBytes[i], pNumRows[i], pLayouts[i].Footprint.Depth);
+        MemcpySubresource(&amp;DestData, &amp;pSrcData[i], (SIZE_T)pRowSizesInBytes[i], pNumRows[i], pLayouts[i].Footprint.Depth);
     }
-    pIntermediate->Unmap(0, NULL);
+    pIntermediate-&gt;Unmap(0, NULL);
     
     if (DestinationDesc.Dimension == D3D12_RESOURCE_DIMENSION_BUFFER)
     {
         CD3DX12_BOX SrcBox( UINT( pLayouts[0].Offset ), UINT( pLayouts[0].Offset + pLayouts[0].Footprint.Width ) );
-        pCmdList->CopyBufferRegion(
+        pCmdList-&gt;CopyBufferRegion(
             pDestinationResource, 0, pIntermediate, pLayouts[0].Offset, pLayouts[0].Footprint.Width);
     }
     else
     {
-        for (UINT i = 0; i < NumSubresources; ++i)
+        for (UINT i = 0; i &lt; NumSubresources; ++i)
         {
             CD3DX12_TEXTURE_COPY_LOCATION Dst(pDestinationResource, i + FirstSubresource);
             CD3DX12_TEXTURE_COPY_LOCATION Src(pIntermediate, pLayouts[i]);
-            pCmdList->CopyTextureRegion(&Dst, 0, 0, 0, &Src, nullptr);
+            pCmdList-&gt;CopyTextureRegion(&amp;Dst, 0, 0, 0, &amp;Src, nullptr);
         }
     }
     return RequiredSize;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 

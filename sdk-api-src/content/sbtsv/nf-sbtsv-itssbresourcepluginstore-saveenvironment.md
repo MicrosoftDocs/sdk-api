@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::SaveEnvironment
 author: windows-sdk-content
 description: Saves an environment.
 old-location: termserv\itssbresourcepluginstore_saveenvironment.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 941d5040-e6e4-4f7e-be31-2b52eb16fa9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

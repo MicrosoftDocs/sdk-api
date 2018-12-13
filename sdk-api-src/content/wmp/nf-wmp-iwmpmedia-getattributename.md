@@ -121,11 +121,11 @@ For information about the attributes supported by Windows Media Player, see the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563431(v=VS.85).aspx">IWMPMedia::getItemInfo</a>
+<a href="https://msdn.microsoft.com/ee964f68-d44c-4e66-908b-09070a96d96f">IWMPMedia::getItemInfo</a>
  
 
  

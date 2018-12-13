@@ -70,7 +70,7 @@ The <b>ID2D1GeometrySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742733(v=VS.85).aspx">AddArc</a>
+<a href="https://msdn.microsoft.com/845fed36-8425-45fd-a12e-7537e5ba3c4f">AddArc</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a single arc and adds it to the path geometry.
 
@@ -78,7 +78,7 @@ The <b>ID2D1GeometrySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742735(v=VS.85).aspx">AddBezier</a>
+<a href="https://msdn.microsoft.com/d1e228eb-dac6-485d-b3c9-69b2bd45e531">AddBezier</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates  a cubic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 
@@ -95,7 +95,7 @@ Creates a line segment between the current point and the specified end point and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742737(v=VS.85).aspx">AddQuadraticBezier</a>
+<a href="https://msdn.microsoft.com/142f0823-0d8d-4216-8f40-9dec7f48032e">AddQuadraticBezier</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates  a quadratic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 
@@ -126,60 +126,69 @@ A geometry sink consists of one or more figures. Each figure is made up of one o
 
 The following example creates an <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>, retrieves a sink, and uses it to define an hourglass shape. For the complete example, see <a href="https://msdn.microsoft.com/d7aad487-04e0-448d-bedf-b8dfadc7bbe9">How to Draw and Fill a Complex Shape</a>. 
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1GeometrySink *pSink = NULL;
 
-```cpp
-ID2D1GeometrySink *pSink = NULL;
-
-
-```
-
-```cpp
-// Create a path geometry.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create a path geometry.
 if (SUCCEEDED(hr))
 {
-    hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
+    hr = m_pD2DFactory-&gt;CreatePathGeometry(&amp;m_pPathGeometry);
 
     if (SUCCEEDED(hr))
     {
         // Write to the path geometry using the geometry sink.
-        hr = m_pPathGeometry->Open(&pSink);
+        hr = m_pPathGeometry-&gt;Open(&amp;pSink);
 
         if (SUCCEEDED(hr))
         {
-            pSink->BeginFigure(
+            pSink-&gt;BeginFigure(
                 D2D1::Point2F(0, 0),
                 D2D1_FIGURE_BEGIN_FILLED
                 );
 
-            pSink->AddLine(D2D1::Point2F(200, 0));
+            pSink-&gt;AddLine(D2D1::Point2F(200, 0));
 
-            pSink->AddBezier(
+            pSink-&gt;AddBezier(
                 D2D1::BezierSegment(
                     D2D1::Point2F(150, 50),
                     D2D1::Point2F(150, 150),
                     D2D1::Point2F(200, 200))
                 );
 
-            pSink->AddLine(D2D1::Point2F(0, 200));
+            pSink-&gt;AddLine(D2D1::Point2F(0, 200));
 
-            pSink->AddBezier(
+            pSink-&gt;AddBezier(
                 D2D1::BezierSegment(
                     D2D1::Point2F(50, 150),
                     D2D1::Point2F(50, 50),
                     D2D1::Point2F(0, 0))
                 );
 
-            pSink->EndFigure(D2D1_FIGURE_END_CLOSED);
+            pSink-&gt;EndFigure(D2D1_FIGURE_END_CLOSED);
 
-            hr = pSink->Close();
+            hr = pSink-&gt;Close();
         }
-        SafeRelease(&pSink);
+        SafeRelease(&amp;pSink);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 

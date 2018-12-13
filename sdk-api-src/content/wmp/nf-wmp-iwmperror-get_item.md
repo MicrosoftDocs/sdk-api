@@ -115,11 +115,11 @@ You should set a <b>VARIANT_BOOL</b> to <b>FALSE</b> and pass it into <b>IWMPSet
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563272(v=VS.85).aspx">IWMPError Interface</a>
+<a href="https://msdn.microsoft.com/f22759cd-0ca7-4992-bb17-0272b35d6d75">IWMPError Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
+<a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem Interface</a>
  
 
  

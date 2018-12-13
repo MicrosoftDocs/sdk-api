@@ -133,7 +133,7 @@ If <i>lpApplicationName</i> is <b>NULL</b>, the first white space–delimited to
 <li>The 16-bit Windows system directory. There is no function that obtains the path of this directory, but it is searched. </li>
 <li>The Windows directory. Use the 
 <a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a> function to get the path of this directory.</li>
-<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://msdn.microsoft.com/en-us/library/Hh449546(v=VS.85).aspx">ShellExecute</a> function.</li>
+<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="_win32_ShellExecute_cpp">ShellExecute</a> function.</li>
 </ol>
 The system adds a null character to the command line string to separate the file name from the arguments. This divides the original string into two strings for internal processing.
 
@@ -195,7 +195,7 @@ Note that an ANSI environment block is terminated by two zero bytes: one for the
 
 
 To retrieve a copy of the environment block for a given user, use the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762270(v=VS.85).aspx">CreateEnvironmentBlock</a> function.
+<a href="_shell_createenvironmentblock">CreateEnvironmentBlock</a> function.
 
 
 ### -param lpCurrentDirectory [in, optional]
@@ -261,8 +261,8 @@ By default,
 <b>CreateProcessAsUser</b>, you must change the discretionary access control list (DACL) of both the default interactive window station and the default desktop. The DACLs for the window station and desktop must grant access to the user or the logon session represented by the <i>hToken</i> parameter.
 
 <b>CreateProcessAsUser</b> does not load the specified user's profile into the <b>HKEY_USERS</b> registry key. Therefore, to access the information in the <b>HKEY_CURRENT_USER</b> registry key, you must load the user's profile information into <b>HKEY_USERS</b> with the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762281(v=VS.85).aspx">LoadUserProfile</a> function before calling 
-<b>CreateProcessAsUser</b>. Be sure to call <a href="https://msdn.microsoft.com/en-us/library/Bb762282(v=VS.85).aspx">UnloadUserProfile</a> after the new process exits.
+<a href="_shell_loaduserprofile">LoadUserProfile</a> function before calling 
+<b>CreateProcessAsUser</b>. Be sure to call <a href="_shell_unloaduserprofile">UnloadUserProfile</a> after the new process exits.
 
 If the <i>lpEnvironment</i> parameter is NULL, the new process inherits the environment of the calling process. 
 <b>CreateProcessAsUser</b> does not automatically modify the environment block to include environment variables specific to the user represented by <i>hToken</i>. For example, the USERNAME and USERDOMAIN variables are inherited from the calling process if <i>lpEnvironment</i> is NULL. It is your responsibility to prepare the environment block for the new process and specify it in <i>lpEnvironment</i>.
@@ -310,7 +310,7 @@ To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/library/Aa379608(v=VS.85).aspx">Starting an Interactive Client Process</a>.
+<a href="security.starting_an_interactive_client_process">Starting an Interactive Client Process</a>.
 
 <div class="code"></div>
 
@@ -325,7 +325,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762270(v=VS.85).aspx">CreateEnvironmentBlock</a>
+<a href="_shell_createenvironmentblock">CreateEnvironmentBlock</a>
 
 
 
@@ -349,7 +349,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683230(v=VS.85).aspx">GetStartupInfo</a>
+<a href="https://msdn.microsoft.com/191ea201-dc86-4cde-a0cd-be8d2360b22e">GetStartupInfo</a>
 
 
 
@@ -357,7 +357,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762281(v=VS.85).aspx">LoadUserProfile</a>
+<a href="_shell_loaduserprofile">LoadUserProfile</a>
 
 
 
@@ -377,7 +377,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762138(v=VS.85).aspx">SHCreateProcessAsUserW</a>
+<a href="_win32_SHCreateProcessAsUserW">SHCreateProcessAsUserW</a>
 
 
 

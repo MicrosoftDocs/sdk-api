@@ -86,7 +86,7 @@ The time stamp value when the current frame was read.
 
 
 
-The caller may compare the PerformanceCount with the value returned by the Win32 function <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> to determine if there has been a delay in transitioning back to user-mode after the frame number was read.  The caller can then adjust the starting frame number as needed.
+The caller may compare the PerformanceCount with the value returned by the Win32 function <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a> to determine if there has been a delay in transitioning back to user-mode after the frame number was read.  The caller can then adjust the starting frame number as needed.
 
 
 

@@ -4,7 +4,7 @@ title: CREATE_PROCESS_DEBUG_INFO
 author: windows-sdk-content
 description: Contains process creation information that can be used by a debugger.
 old-location: base\create_process_debug_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 4607aaff-bd05-46b5-86ed-abfffe6c2551
 ms.author: windowssdkdev
 ms.date: 12/5/2018

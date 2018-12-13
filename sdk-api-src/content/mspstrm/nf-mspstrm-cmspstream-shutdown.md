@@ -53,7 +53,7 @@ req.redist:
 The 
 <b>ShutDown</b> method is called by the <b>MSPCall</b> object. It unselects all the terminal objects (via 
 <a href="https://msdn.microsoft.com/ad16ea41-0c02-4bba-bfd9-267b56c481e1">UnselectTerminal</a>). It also calls 
-<a href="https://msdn.microsoft.com/en-us/library/ms726528(v=VS.85).aspx">MSPCallRelease</a> on the call object. This is needed to break the circular refcount.
+<a href="https://msdn.microsoft.com/662361f2-ce0c-4c07-88c1-30393a236bf6">MSPCallRelease</a> on the call object. This is needed to break the circular refcount.
 
 
 ## -parameters

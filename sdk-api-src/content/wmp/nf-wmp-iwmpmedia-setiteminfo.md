@@ -126,19 +126,19 @@ If you embed the Windows Media Player control in your application, file attribut
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563430(v=VS.85).aspx">IWMPMedia::getAttributeName</a>
+<a href="https://msdn.microsoft.com/cb04e464-44dd-41ba-9296-f13aca9ef54e">IWMPMedia::getAttributeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563435(v=VS.85).aspx">IWMPMedia::get_attributeCount</a>
+<a href="https://msdn.microsoft.com/33e29da2-7439-41d1-9dd9-9b66e87aeb4b">IWMPMedia::get_attributeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563447(v=VS.85).aspx">IWMPMedia::isReadOnlyItem</a>
+<a href="https://msdn.microsoft.com/d8b2dd45-3e3f-4325-b4d0-939abbc425e1">IWMPMedia::isReadOnlyItem</a>
  
 
  

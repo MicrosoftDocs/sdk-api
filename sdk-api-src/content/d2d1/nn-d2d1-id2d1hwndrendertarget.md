@@ -88,7 +88,7 @@ Returns the HWND associated with this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742774(v=VS.85).aspx">Resize</a>
+<a href="https://msdn.microsoft.com/b8ea2e96-c69b-4018-9572-c9099bf6202d">Resize</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes the size of the render target to the specified pixel size.
 
@@ -111,7 +111,7 @@ For <b>ID2D1HwndRenderTarget</b>, the only side effect of <b>BeginDraw</b> is ch
 
 
 
-A hardware render target's back-buffer is the size specified by <a href="https://msdn.microsoft.com/d0d736b5-0427-4c0d-8085-8498fd00f6b6">GetPixelSize</a>. If <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> presents the buffer, this bitmap is stretched to cover the surface where it is presented: the entire client area of the window. This stretch is performed using bilinear filtering if the render target is rendering in hardware and using nearest-neighbor filtering if the rendering target is using software. (Typically, an application will call <a href="https://msdn.microsoft.com/en-us/library/Dd742774(v=VS.85).aspx">Resize</a> to ensure the pixel size of the render target and the pixel size of the destination match, and no scaling is necessary, though this is not a requirement.)
+A hardware render target's back-buffer is the size specified by <a href="https://msdn.microsoft.com/d0d736b5-0427-4c0d-8085-8498fd00f6b6">GetPixelSize</a>. If <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> presents the buffer, this bitmap is stretched to cover the surface where it is presented: the entire client area of the window. This stretch is performed using bilinear filtering if the render target is rendering in hardware and using nearest-neighbor filtering if the rendering target is using software. (Typically, an application will call <a href="https://msdn.microsoft.com/b8ea2e96-c69b-4018-9572-c9099bf6202d">Resize</a> to ensure the pixel size of the render target and the pixel size of the destination match, and no scaling is necessary, though this is not a requirement.)
 
 
 
@@ -123,19 +123,23 @@ If the adapter a render target is on has been removed or the driver upgraded whi
 
 
 <h3><a id="Creating_ID2D1HwndRenderTarget_Objects"></a><a id="creating_id2d1hwndrendertarget_objects"></a><a id="CREATING_ID2D1HWNDRENDERTARGET_OBJECTS"></a>Creating ID2D1HwndRenderTarget Objects</h3>
-To create an <b>ID2D1HwndRenderTarget</b>, use the <a href="https://msdn.microsoft.com/en-us/library/Dd742726(v=VS.85).aspx">ID2D1Factory::CreateHwndRenderTarget</a> method.
+To create an <b>ID2D1HwndRenderTarget</b>, use the <a href="https://msdn.microsoft.com/3b55b1b0-a423-40dc-9581-c1fbe8134ca5">ID2D1Factory::CreateHwndRenderTarget</a> method.
 
 Your application should create render targets once and hold onto them for the life of the application or until the render target's  <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> method returns the <a href="https://msdn.microsoft.com/018bfca5-6ef4-497c-a4b6-8502c3cdac1b">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, you need to recreate the render target (and any resources it created).
 
 
 #### Examples
 
-The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742726(v=VS.85).aspx">CreateHwndRenderTarget</a> method to create an <b>ID2D1HwndRenderTarget</b>.
+The following example uses the <a href="https://msdn.microsoft.com/3b55b1b0-a423-40dc-9581-c1fbe8134ca5">CreateHwndRenderTarget</a> method to create an <b>ID2D1HwndRenderTarget</b>.
 
-
-```cpp
-RECT rc;
-GetClientRect(m_hwnd, &rc);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>RECT rc;
+GetClientRect(m_hwnd, &amp;rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
     rc.right - rc.left,
@@ -143,20 +147,24 @@ D2D1_SIZE_U size = D2D1::SizeU(
     );
 
 // Create a Direct2D render target.
-hr = m_pD2DFactory->CreateHwndRenderTarget(
+hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
     D2D1::RenderTargetProperties(),
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
-    &m_pRenderTarget
+    &amp;m_pRenderTarget
     );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next example uses the <b>ID2D1HwndRenderTarget</b> to draw text to the window.
 
-
-```cpp
-//  Called whenever the application needs to display the client
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Called whenever the application needs to display the client
 //  window. This method writes "Hello, World"
 //
 //  Note that this function will automatically discard device-specific
@@ -175,15 +183,15 @@ HRESULT DemoApp::OnRender()
         static const WCHAR sc_helloWorld[] = L"Hello, World!";
 
         // Retrieve the size of the render target.
-        D2D1_SIZE_F renderTargetSize = m_pRenderTarget->GetSize();
+        D2D1_SIZE_F renderTargetSize = m_pRenderTarget-&gt;GetSize();
 
-        m_pRenderTarget->BeginDraw();
+        m_pRenderTarget-&gt;BeginDraw();
 
-        m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
+        m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
 
-        m_pRenderTarget->Clear(D2D1::ColorF(D2D1::ColorF::White));
+        m_pRenderTarget-&gt;Clear(D2D1::ColorF(D2D1::ColorF::White));
 
-        m_pRenderTarget->DrawText(
+        m_pRenderTarget-&gt;DrawText(
             sc_helloWorld,
             ARRAYSIZE(sc_helloWorld) - 1,
             m_pTextFormat,
@@ -191,7 +199,7 @@ HRESULT DemoApp::OnRender()
             m_pBlackBrush
             );
 
-        hr = m_pRenderTarget->EndDraw();
+        hr = m_pRenderTarget-&gt;EndDraw();
 
         if (hr == D2DERR_RECREATE_TARGET)
         {
@@ -202,10 +210,10 @@ HRESULT DemoApp::OnRender()
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Code has been omitted from this example.
 
 <div class="code"></div>

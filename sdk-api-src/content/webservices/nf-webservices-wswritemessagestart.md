@@ -496,16 +496,16 @@ The start of the message, including the current set of headers that exist in the
 This function is like <a href="https://msdn.microsoft.com/213fe780-82f2-4140-92f2-2665317a5cb6">WsWriteEnvelopeStart</a> but is used with channels.
             
 
-The message must be in <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_INITIALIZED</a> state.  Upon success,
+The message must be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_INITIALIZED</a> state.  Upon success,
                 the message will have transitioned to <b>WS_MESSAGE_STATE_WRITING</b> state.
             
 
 To serialize an element of the message body, use <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a>.  To write
                 directly to the XML Writer of the message, first get the reader using
-                the <a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_BODY_WRITER</a> property.
+                the <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_BODY_WRITER</a> property.
             
 
-If the channel output is streamed (<a href="https://msdn.microsoft.com/en-us/library/Dd323477(v=VS.85).aspx">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>), then
+If the channel output is streamed (<a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>), then
                 <a href="https://msdn.microsoft.com/f94c409b-94c0-4440-8587-74322777261f">WsFlushBody</a> must be called to actually transmit each part of the body.
             
 

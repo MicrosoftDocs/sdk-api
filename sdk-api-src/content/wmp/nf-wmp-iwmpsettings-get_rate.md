@@ -132,27 +132,27 @@ The playback rate of some digital media formats cannot be altered. Use the <b>IW
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563195(v=VS.85).aspx">IWMPControls::fastForward</a>
+<a href="https://msdn.microsoft.com/a741da8d-f1a2-4a96-acb6-7c40077f6b5e">IWMPControls::fastForward</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563196(v=VS.85).aspx">IWMPControls::fastReverse</a>
+<a href="https://msdn.microsoft.com/2adec4c7-7aca-4191-8c6f-61e137188ad9">IWMPControls::fastReverse</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563663(v=VS.85).aspx">IWMPSettings::get_isAvailable</a>
+<a href="https://msdn.microsoft.com/0773792f-4046-4d58-9673-cbfef0ec5bf5">IWMPSettings::get_isAvailable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563664(v=VS.85).aspx">IWMPSettings::get_mute</a>
+<a href="https://msdn.microsoft.com/b0bb1c84-d208-4d29-a797-bb18af039f03">IWMPSettings::get_mute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563680(v=VS.85).aspx">IWMPSettings::put_rate</a>
+<a href="https://msdn.microsoft.com/a0c395f0-28d1-4c4d-8274-e26c0f4b1ae2">IWMPSettings::put_rate</a>
  
 
  

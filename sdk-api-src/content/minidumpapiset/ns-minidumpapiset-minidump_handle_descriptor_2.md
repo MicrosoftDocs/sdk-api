@@ -4,7 +4,7 @@ title: MINIDUMP_HANDLE_DESCRIPTOR_2
 author: windows-sdk-content
 description: Describes the state of an individual system handle at the time the minidump was written.
 old-location: base\minidump_handle_descriptor_2.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: c0678315-391c-4ce9-aa77-a88afccf79d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

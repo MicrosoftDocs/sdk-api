@@ -68,7 +68,7 @@ A pointer to the location that receives a count of the elements specified by  <i
 
 ### -param PersistentLoginInfo [in, out]
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Bb870822(v=VS.85).aspx">PERSISTENT_ISCSI_LOGIN_INFO</a> structures that, on output, describe the persistent login targets.
+An array of <a href="https://msdn.microsoft.com/adfd57fb-18dc-440f-988e-f2c01698d987">PERSISTENT_ISCSI_LOGIN_INFO</a> structures that, on output, describe the persistent login targets.
 
 
 ### -param BufferSizeInBytes [in, out]
@@ -91,7 +91,7 @@ Otherwise, <b>ReportIscsiPersistentLogins</b> returns the appropriate Win32 or i
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb870822(v=VS.85).aspx">PERSISTENT_ISCSI_LOGIN_INFO</a> structure provides an initiator with the information required to log in to a target each time the initiator device is started.
+The <a href="https://msdn.microsoft.com/adfd57fb-18dc-440f-988e-f2c01698d987">PERSISTENT_ISCSI_LOGIN_INFO</a> structure provides an initiator with the information required to log in to a target each time the initiator device is started.
 
 
 
@@ -109,7 +109,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Bb870822(v=VS.85).aspx">PE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb870822(v=VS.85).aspx">PERSISTENT_ISCSI_LOGIN_INFO</a>
+<a href="https://msdn.microsoft.com/adfd57fb-18dc-440f-988e-f2c01698d987">PERSISTENT_ISCSI_LOGIN_INFO</a>
 
 
 

@@ -127,11 +127,11 @@ If you pass an empty string as <i>pwszRecordName</i>, the method returns S_OK, b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757244(v=VS.85).aspx">IWMMutualExclusion2::GetRecordName</a>
+<a href="https://msdn.microsoft.com/7508a473-77ae-49ce-b041-2d171193e730">IWMMutualExclusion2::GetRecordName</a>
  
 
  

@@ -97,16 +97,20 @@ The <b>ProviderName</b> property affects the behavior of the following methods:
 
 #### Examples
 
-
-```cpp
-BSTR     bstrProvName = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BSTR     bstrProvName = NULL;
 BSTR     bstrMyProvName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
 
 // get the ProviderName
-hr = pEnroll->get_ProviderName( &bstrProvName );
+hr = pEnroll-&gt;get_ProviderName( &amp;bstrProvName );
 if (FAILED( hr ))
     printf("Failed get_ProviderName - %x\n", hr );
 else
@@ -118,16 +122,16 @@ if ( NULL != bstrProvName )
 // set the ProviderName value
 bstrMyProvName = SysAllocString(TEXT("Microsoft Base DSS")
                                 TEXT(" Cryptographic Provider"));
-hr = pEnroll->put_ProviderName( bstrMyProvName );
+hr = pEnroll-&gt;put_ProviderName( bstrMyProvName );
 if (FAILED( hr ))
     printf("Failed put_ProviderName - %x\n", hr );
 else
     printf( "ProviderName set to %ws\n", bstrMyProvName );
 // free BSTR when done
 if ( NULL != bstrMyProvName )
-    SysFreeString( bstrMyProvName );
-```
-
-
+    SysFreeString( bstrMyProvName );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

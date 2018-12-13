@@ -67,7 +67,7 @@ A handle to the snapshot.
 
 ### -param InformationClass [in]
 
-The type of information to return. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457858(v=VS.85).aspx">PSS_WALK_INFORMATION_CLASS</a>.
+The type of information to return. For more information, see <a href="https://msdn.microsoft.com/93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF">PSS_WALK_INFORMATION_CLASS</a>.
 
 
 ### -param WalkMarkerHandle [in]

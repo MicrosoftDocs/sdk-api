@@ -98,7 +98,7 @@ This method applies only to writable streams.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample Interface</a>
+<a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample Interface</a>
 
 
 

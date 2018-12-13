@@ -60,7 +60,7 @@ The <b>EMI_METADATA_SIZE</b> structure specifies the size of the  Energy Meterin
 
 ### -field MetadataSize
 
-The size of the  EMI metadata (an <a href="https://msdn.microsoft.com/en-us/library/Dn957428(v=VS.85).aspx">EMI_METADATA</a> structure) that can be obtained from the device.
+The size of the  EMI metadata (an <a href="https://msdn.microsoft.com/8992AA5D-7D71-4D00-9B18-FE070D29C26E">EMI_METADATA</a> structure) that can be obtained from the device.
 
 
 ## -remarks

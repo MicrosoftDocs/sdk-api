@@ -103,7 +103,7 @@ If a window in the <i>lprc</i> array is visible, or will be visible when its par
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775731(v=VS.85).aspx">ShowHideMenuCtl</a>
+<a href="https://msdn.microsoft.com/e7445f9a-3857-40a2-a62d-9e4853ebd959">ShowHideMenuCtl</a>
  
 
  

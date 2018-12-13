@@ -106,11 +106,11 @@ Because <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa394018(v=VS.85).aspx">WBEMTime::GetBSTR</a>
+<a href="https://msdn.microsoft.com/f1fe92cc-1d51-4bd7-950b-84c76b001163">WBEMTime::GetBSTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa394019(v=VS.85).aspx">WBEMTime::GetDMTF</a>
+<a href="https://msdn.microsoft.com/3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a">WBEMTime::GetDMTF</a>
  
 
  

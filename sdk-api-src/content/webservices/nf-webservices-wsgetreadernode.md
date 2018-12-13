@@ -106,7 +106,7 @@ One or more arguments are invalid.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd323538(v=VS.85).aspx">nodeType</a> field of the node <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> should be inspected
+The <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">nodeType</a> field of the node <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> should be inspected
         to determine the kind of node returned.  The <b>node</b> may then be cast to the appropriate
         data structure to get the data.
       
@@ -120,7 +120,7 @@ if (SUCCEEDED(WsGetReaderNode(reader, &amp;node, error)))
         // Refer to elementNode-&gt;localName, elementNode-&gt;ns
     }
 }</code></pre>
-The <a href="https://msdn.microsoft.com/en-us/library/Dd323538(v=VS.85).aspx">nodeTypes</a> with extended structures include:
+The <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">nodeTypes</a> with extended structures include:
         <ul>
 <li><b>WS_XML_NODE_TYPE_ELEMENT</b> =&gt; <a href="https://msdn.microsoft.com/32157ddf-ace2-49dc-85d7-b04e25e85693">WS_XML_ELEMENT_NODE</a>
 </li>

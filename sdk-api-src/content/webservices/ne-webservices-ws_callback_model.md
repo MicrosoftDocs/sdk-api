@@ -113,8 +113,8 @@ All callbacks must be able to deal with being invoked short as well as long:
 
 Whether a callback will be invoked long or short is up to the caller implementation.
                 The channel and listener implementations provide a way to control this for async callbacks
-                via the <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_ASYNC_CALLBACK_MODEL</a> and 
-                <a href="https://msdn.microsoft.com/en-us/library/Dd401951(v=VS.85).aspx">WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL</a> properties. 
+                via the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_ASYNC_CALLBACK_MODEL</a> and 
+                <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL</a> properties. 
             
 
 

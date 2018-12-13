@@ -76,7 +76,7 @@ The <b>ModifyAttribute</b> method modifies the settings of an existing attribute
 
 ### -param Type [in]
 
-Type of data used for the new attribute value. For more information about the types of data supported, see <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a>.
+Type of data used for the new attribute value. For more information about the types of data supported, see <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a>.
 
 
 ### -param wLangIndex [in]
@@ -181,7 +181,7 @@ The attribute cannot be changed.
 
 
 
-You can use 0xFFFF for the stream number to specify an attribute using its global index. Global index values range from 0 to one less than the count of attributes received from a call to <a href="https://msdn.microsoft.com/en-us/library/Dd798513(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeCountEx</a> where the stream number was set to 0xFFFF.
+You can use 0xFFFF for the stream number to specify an attribute using its global index. Global index values range from 0 to one less than the count of attributes received from a call to <a href="https://msdn.microsoft.com/8c56d7b6-4f59-450e-938c-b7d0bd37ea08">IWMHeaderInfo3::GetAttributeCountEx</a> where the stream number was set to 0xFFFF.
 
 When setting attributes for MP3 files, the metadata editor will automatically insert a byte-order mark in accordance with the Unicode specification. If you manually insert a byte-order mark, this method will not fail, but the value will then have two marks, which can cause problems when reading the attribute.
 
@@ -195,7 +195,7 @@ The objects of the Windows Media Format SDK perform type checking on some suppor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3 Interface</a>
  
 
  

@@ -69,7 +69,7 @@ Handle to a notification port or <b>INVALID_HANDLE_VALUE</b>, indicating that a 
 
 ### -param hCluster [in]
 
-Handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> to be associated with the 
+Handle to the <a href="c_gly.htm">cluster</a> to be associated with the 
        notification port identified by <i>hChange</i>, or 
        <b>INVALID_HANDLE_VALUE</b>, indicating that the notification port should not be associated 
        with a cluster. If <i>hChange</i> is not set to 
@@ -285,7 +285,7 @@ The queue receives a notification when a resource is deleted.
 The queue receives a notification when the 
          <a href="https://msdn.microsoft.com/b84fe8fe-a49e-4c3c-acbd-f9cfe5ac0782">properties</a>, 
          <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependencies</a>, or 
-         <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owner</a> nodes of a resource change.
+         <a href="p_gly.htm">possible owner</a> nodes of a resource change.
 
 
 

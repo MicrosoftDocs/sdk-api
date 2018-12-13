@@ -64,7 +64,7 @@ Applications use the <code>GetServiceState</code> method to retrieve the current
 
 ### -param lpState [out]
 
-Pointer to a variable that receives the state, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373510(v=VS.85).aspx">AM_WST_STATE</a> enumeration. The following values are possible.
+Pointer to a variable that receives the state, specified as a member of the <a href="https://msdn.microsoft.com/b6548144-7e18-4d5d-9243-51eb7db9821b">AM_WST_STATE</a> enumeration. The following values are possible.
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
  
 
  

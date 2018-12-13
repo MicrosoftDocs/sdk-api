@@ -78,7 +78,7 @@ The child element to be replaced. The oldChild element must be an immediate chil
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code. Returns an error if
             this element cannot accept children of the type of newChild. Returns an error if

@@ -94,7 +94,7 @@ This parameter can be <b>NULL</b>.
 
 ### -param pStreamType [out]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407159(v=VS.85).aspx">STREAM_TYPE</a> enumeration. This value indicates whether the multimedia stream is read-only, write-only, or read/write. This parameter can be <b>NULL</b>.
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/07ab5ded-28b8-4cac-b4da-76f07ad351ef">STREAM_TYPE</a> enumeration. This value indicates whether the multimedia stream is read-only, write-only, or read/write. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -141,7 +141,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream Interface</a>
  
 
  

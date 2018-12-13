@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <code>ConfigureFilterUsingProfileId</code> method sets a Windows Media Format 4.0 profile on the <a href="https://msdn.microsoft.com/1b12f65f-8d77-4d38-aad9-92bb15cc0426">WM ASF Writer</a> filter. This method is deprecated. Applications should use the <a href="https://msdn.microsoft.com/en-us/library/Dd312023(v=VS.85).aspx">IConfigAsfWriter::ConfigureFilterUsingProfile</a> method to set the profile.
+The <code>ConfigureFilterUsingProfileId</code> method sets a Windows Media Format 4.0 profile on the <a href="https://msdn.microsoft.com/1b12f65f-8d77-4d38-aad9-92bb15cc0426">WM ASF Writer</a> filter. This method is deprecated. Applications should use the <a href="https://msdn.microsoft.com/89156f64-7a20-4226-9f01-5b1bd4a1fe98">IConfigAsfWriter::ConfigureFilterUsingProfile</a> method to set the profile.
 
 
 
@@ -138,7 +138,7 @@ This method is now obsolete because it assumes version 4.0 Windows Media Format 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
+<a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter Interface</a>
  
 
  

@@ -51,7 +51,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/cc4fb48a-8282-471a-aed0-1ca3134f9bd0">WsGetListenerProperty</a> call
-                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

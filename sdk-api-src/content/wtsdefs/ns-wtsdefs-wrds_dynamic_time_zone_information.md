@@ -4,7 +4,7 @@ title: WRDS_DYNAMIC_TIME_ZONE_INFORMATION
 author: windows-sdk-content
 description: Contains dynamic time zone information.
 old-location: termserv\wrds_dynamic_time_zone_information.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: D529B7BB-380F-462E-99B8-E565B9636D97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

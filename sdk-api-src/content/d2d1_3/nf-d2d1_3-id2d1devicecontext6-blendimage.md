@@ -70,7 +70,7 @@ The image to be drawn to the device context.
 
 Type: <b>D2D1_BLEND_MODE</b>
 
-The blend mode to be used. See <a href="https://msdn.microsoft.com/en-us/library/Hh706313(v=VS.85).aspx">Blend modes</a> for more info.
+The blend mode to be used. See <a href="blend.htm">Blend modes</a> for more info.
 
 
 ### -param targetOffset [in, optional]

@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetExpectedPacketCount</b> method calculates the expected <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
+The <b>GetExpectedPacketCount</b> method calculates the expected <a href="wmformat_glossary.htm">packet</a> count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
 
 
 
@@ -151,7 +151,7 @@ It is impossible for this method to give exact counts, because there is no way t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
  
 
  

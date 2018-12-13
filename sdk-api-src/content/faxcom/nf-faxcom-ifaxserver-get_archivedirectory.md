@@ -54,7 +54,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxServer::get_ArchiveDirectory</b> method retrieves the <b>ArchiveDirectory</b> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ArchiveDirectory</b> property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes.
+The <b>IFaxServer::get_ArchiveDirectory</b> method retrieves the <b>ArchiveDirectory</b> property for a <a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a> object. The <b>ArchiveDirectory</b> property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes.
 
 This property is read/write.
 
@@ -66,10 +66,10 @@ This property is read/write.
 
 
 
-Set the <a href="https://msdn.microsoft.com/en-us/library/ms692347(v=VS.85).aspx">ArchiveOutboundFaxes</a> property to <b>TRUE</b> to archive faxes in the directory specified by the <b>ArchiveDirectory</b> property. The fax server must have access to the directory to successfully store outbound fax transmissions. 
+Set the <a href="https://msdn.microsoft.com/8cf29336-f41d-4357-a6ea-c0b8ca3344ba">ArchiveOutboundFaxes</a> property to <b>TRUE</b> to archive faxes in the directory specified by the <b>ArchiveDirectory</b> property. The fax server must have access to the directory to successfully store outbound fax transmissions. 
 		
 
-The <b>get_ArchiveDirectory</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+The <b>get_ArchiveDirectory</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
 		
 
 
@@ -80,27 +80,27 @@ The <b>get_ArchiveDirectory</b> method allocates the memory required for the buf
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>
+<a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692375(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/f06b76b5-b6c2-47a0-ad08-7c1bf7b780bb">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692347(v=VS.85).aspx">IFaxServer::get_ArchiveOutboundFaxes</a>
+<a href="https://msdn.microsoft.com/8cf29336-f41d-4357-a6ea-c0b8ca3344ba">IFaxServer::get_ArchiveOutboundFaxes</a>
  
 
  

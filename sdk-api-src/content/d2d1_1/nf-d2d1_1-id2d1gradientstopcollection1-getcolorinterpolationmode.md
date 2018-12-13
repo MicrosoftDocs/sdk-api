@@ -84,7 +84,7 @@ The color interpolation mode.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

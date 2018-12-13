@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Remove</b> method removes an item from the <a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection. 
+The <b>Remove</b> method removes an item from the <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> collection. 
 <div class="alert"><b>Note</b>  You cannot remove the special <b>All Devices</b> routing group.</div><div> </div>
 
 ## -parameters
@@ -64,12 +64,12 @@ The <b>Remove</b> method removes an item from the <a href="https://msdn.microsof
 Type: <b>VARIANT</b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">Variant</a> that specifies the item to remove from the collection.
+<a href="e305240e-9e11-4006-98cc-26f4932d2118">Variant</a> that specifies the item to remove from the collection.
 				
 
 
 
-If this parameter is type VT_I2 or VT_I4, it specifies the index of the item to remove from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of objects returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms689185(v=VS.85).aspx">IFaxOutboundRoutingGroups::get_Count</a> method. The index is 1-based. If this parameter is type VT_BSTR, the parameter is a unique name that identifies the outbound routing group to remove. Other types are not supported.
+If this parameter is type VT_I2 or VT_I4, it specifies the index of the item to remove from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of objects returned by a call to the <a href="https://msdn.microsoft.com/7868b224-29e4-4306-847a-dcbda82fcde2">IFaxOutboundRoutingGroups::get_Count</a> method. The index is 1-based. If this parameter is type VT_BSTR, the parameter is a unique name that identifies the outbound routing group to remove. Other types are not supported.
 
 
 ## -returns
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> access right.
 
 
 
@@ -97,15 +97,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
  
 
  

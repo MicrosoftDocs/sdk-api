@@ -68,19 +68,19 @@ The <b>AddSink</b> method adds a writer sink to receive writer output. The Windo
 <tr>
 <td>File sink</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757790(v=VS.85).aspx">WMCreateWriterFileSink</a>
+<a href="https://msdn.microsoft.com/aeeaf67c-119f-482b-b064-87739499abda">WMCreateWriterFileSink</a>
 </td>
 </tr>
 <tr>
 <td>Network sink</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757791(v=VS.85).aspx">WMCreateWriterNetworkSink</a>
+<a href="https://msdn.microsoft.com/5d391867-dece-4d40-80e2-99071d332984">WMCreateWriterNetworkSink</a>
 </td>
 </tr>
 <tr>
 <td>Push sink</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757792(v=VS.85).aspx">WMCreateWriterPushSink</a>
+<a href="https://msdn.microsoft.com/544aa6d4-a8fe-4ce5-b329-01b031aa3e6f">WMCreateWriterPushSink</a>
 </td>
 </tr>
 </table> 
@@ -95,7 +95,7 @@ New sinks must be added to the writer with this method before they can be used.
 
 ### -param pSink [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink</a> interface.
+Pointer to an <a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink</a> interface.
 
 
 ## -returns
@@ -152,7 +152,7 @@ The writer is not in a configurable state.
 
 
 
-If you only need to write to a single file, you can let the writer object handle the creation and management of a default file sink. To use a default file sink, pass a file name to the writer by calling <a href="https://msdn.microsoft.com/en-us/library/Dd757506(v=VS.85).aspx">IWMWriter::SetOutputFilename</a>.
+If you only need to write to a single file, you can let the writer object handle the creation and management of a default file sink. To use a default file sink, pass a file name to the writer by calling <a href="https://msdn.microsoft.com/352cf497-f7d6-41e8-bdbb-c59215b617a3">IWMWriter::SetOutputFilename</a>.
 
 
 
@@ -166,15 +166,15 @@ If you only need to write to a single file, you can let the writer object handle
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798728(v=VS.85).aspx">IWMWriterAdvanced::GetSink</a>
+<a href="https://msdn.microsoft.com/6775eb89-a3af-42d2-b1e3-197abb1fce61">IWMWriterAdvanced::GetSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798736(v=VS.85).aspx">IWMWriterAdvanced::RemoveSink</a>
+<a href="https://msdn.microsoft.com/e2fc7f82-981a-4f69-b99d-71514ed2c6ae">IWMWriterAdvanced::RemoveSink</a>
  
 
  

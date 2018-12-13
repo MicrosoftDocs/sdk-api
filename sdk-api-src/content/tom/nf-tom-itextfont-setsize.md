@@ -137,11 +137,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774017(v=VS.85).aspx">GetSize</a>
+<a href="https://msdn.microsoft.com/78b4070b-462a-4b19-8958-e2695b0ccf6a">GetSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -149,7 +149,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -64,7 +64,7 @@ The <code>put_WindowState</code> method shows, hides, minimizes, or maximizes th
 
 ### -param WindowState [in]
 
-Flag that specifies how the window is to be shown. The value can be any constant defined for the <i>nCmdShow</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function. 
+Flag that specifies how the window is to be shown. The value can be any constant defined for the <i>nCmdShow</i> parameter of the <a href="winui._win32_ShowWindow">ShowWindow</a> function. 
 
 
 ## -returns
@@ -115,11 +115,11 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377302(v=VS.85).aspx">IVideoWindow::get_WindowState</a>
+<a href="https://msdn.microsoft.com/ecda497c-634b-4a7e-9f21-85bde307c796">IVideoWindow::get_WindowState</a>
  
 
  

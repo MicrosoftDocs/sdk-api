@@ -4,7 +4,7 @@ title: VIRTUALCHANNELOPEN
 author: windows-sdk-content
 description: Opens the client end of a virtual channel.
 old-location: termserv\virtualchannelopen.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -192,7 +192,7 @@ For the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="https://msdn.microsoft.com/4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB">IInkCollector</a>
 
 
 

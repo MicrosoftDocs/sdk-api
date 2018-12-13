@@ -93,7 +93,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt844794(v=WIN.10).aspx">IHolographicSpaceInterop</a>
+<a href="https://msdn.microsoft.com/119299C1-ECD9-46BA-B499-66890225E4E0">IHolographicSpaceInterop</a>
 
 
 

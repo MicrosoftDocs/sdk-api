@@ -4,7 +4,7 @@ title: ReBaseImage function
 author: windows-sdk-content
 description: Changes the load address for the specified image, which reduces the required load time for a DLL.
 old-location: base\rebaseimage.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: b17eb5e6-38de-4baf-a958-189d8c4454af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -74,13 +74,13 @@ The <b>ID2D1DeviceContext3</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 Creates a new, empty sprite batch. After creating a sprite batch, use <a href="https://msdn.microsoft.com/49EA1F42-76C3-4505-B46A-422A336A13F6">ID2D1SpriteBatch::AddSprites</a> 
-        to add sprites to it, then use <a href="https://msdn.microsoft.com/en-us/library/Mt619830(v=VS.85).aspx">ID2D1DeviceContext3::DrawSpriteBatch</a> to draw it.
+        to add sprites to it, then use <a href="https://msdn.microsoft.com/66d049ca-5d4b-1570-3fa3-8991f9fc97a0">ID2D1DeviceContext3::DrawSpriteBatch</a> to draw it.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt619830(v=VS.85).aspx">DrawSpriteBatch</a>
+<a href="https://msdn.microsoft.com/66d049ca-5d4b-1570-3fa3-8991f9fc97a0">DrawSpriteBatch</a>
 </td>
 <td align="left" width="63%">Overloaded. Renders part or all of the given sprite batch to the device context using the specified drawing options.
 

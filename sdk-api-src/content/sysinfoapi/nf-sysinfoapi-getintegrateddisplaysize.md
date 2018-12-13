@@ -90,14 +90,18 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0501
 
 The following function displays the best estimate of the diagonal size of the built-in screen, in inches.
 
-
-```cpp
-void ShowIntegratedDisplaySize()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void ShowIntegratedDisplaySize()
 {
   Platform::String^ buffer;
    
   double sizeInInches;
-  HRESULT result = GetIntegratedDisplaySize(&sizeInInches) ;
+  HRESULT result = GetIntegratedDisplaySize(&amp;sizeInInches) ;
 
   if (SUCCEEDED(result))
   {
@@ -110,10 +114,10 @@ void ShowIntegratedDisplaySize()
 
   // Output the string buffer here... 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

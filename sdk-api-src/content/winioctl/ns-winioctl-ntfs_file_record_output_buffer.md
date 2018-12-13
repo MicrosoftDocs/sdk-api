@@ -62,7 +62,7 @@ Receives output data from the
 ### -field FileReferenceNumber
 
 The file identifier of the returned file record. This is not necessarily the file identifier specified in the <b>FileReferenceNumber</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365252(v=VS.85).aspx">NTFS_FILE_RECORD_INPUT_BUFFER</a> structure. Refer to the Remarks section of the reference page for 
+<a href="https://msdn.microsoft.com/8b0317ca-6d0e-4a04-a05a-1627d22171e3">NTFS_FILE_RECORD_INPUT_BUFFER</a> structure. Refer to the Remarks section of the reference page for 
 <a href="https://msdn.microsoft.com/a7308fa4-0f69-4b69-bb89-5d645e2a9f6e">FSCTL_GET_NTFS_FILE_RECORD</a> for more information.
 
 
@@ -96,7 +96,7 @@ To retrieve data to fill in this structure, use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365252(v=VS.85).aspx">NTFS_FILE_RECORD_INPUT_BUFFER</a>
+<a href="https://msdn.microsoft.com/8b0317ca-6d0e-4a04-a05a-1627d22171e3">NTFS_FILE_RECORD_INPUT_BUFFER</a>
  
 
  

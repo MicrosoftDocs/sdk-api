@@ -71,7 +71,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the path an
 
 ### -param pCallback [in]
 
-Pointer to the object that implements the <a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback</a> interface.
+Pointer to the object that implements the <a href="https://msdn.microsoft.com/69b897a8-cc26-445d-9d41-b917b399fb14">IWMReaderCallback</a> interface.
 
 
 ### -param pvContext [in]
@@ -144,7 +144,7 @@ The method failed for an unspecified reason.
 
 
 
-This method is asynchronous; it returns very quickly and sends a WMT_OPENED status notification to the application's <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method when the file is opened and ready for use.
+This method is asynchronous; it returns very quickly and sends a WMT_OPENED status notification to the application's <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> method when the file is opened and ready for use.
 
 Because the method returns before the file is opened, a return value of S_OK does not necessarily mean that the file has been opened successfully. To ascertain the success of the call, you must check the value of of the <i>hr</i> parameter of <b>OnStatus</b> when the WMT_OPENED notification is received.
 
@@ -160,27 +160,27 @@ Applications that read files from behind a firewall will have better performance
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743588(v=VS.85).aspx">IWMReader::Close</a>
+<a href="https://msdn.microsoft.com/3f320a0c-8586-4fc2-bd70-06ddda435cb5">IWMReader::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a>
+<a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">IWMReader::Start</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743610(v=VS.85).aspx">IWMReader::Stop</a>
+<a href="https://msdn.microsoft.com/781d1882-4b48-4415-9b3a-788207b42151">IWMReader::Stop</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757438(v=VS.85).aspx">IWMReaderAdvanced2::OpenStream</a>
+<a href="https://msdn.microsoft.com/20822e1d-b367-4b03-9d8a-985427f0062d">IWMReaderAdvanced2::OpenStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a>
+<a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a>
  
 
  

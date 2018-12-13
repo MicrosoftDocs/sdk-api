@@ -63,7 +63,7 @@ The <b>GetRecordElementaryPid</b> method returns the packet identifier (PID) for
 
 ### -param dwRecordIndex [in]
 
-Specifies the record number, indexed from zero. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694822(v=VS.85).aspx">IPMT::GetCountOfRecords</a> method to get the number of records in the PMT.
+Specifies the record number, indexed from zero. Call the <a href="https://msdn.microsoft.com/f4e5009b-4c0d-4d0c-b480-4030cedbdb97">IPMT::GetCountOfRecords</a> method to get the number of records in the PMT.
 
 
 ### -param pPidVal [out]
@@ -126,7 +126,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
  
 
  

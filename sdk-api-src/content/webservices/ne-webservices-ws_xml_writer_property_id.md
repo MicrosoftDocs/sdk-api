@@ -134,7 +134,7 @@ This property defaults to 4096.
 
 ### -field WS_XML_WRITER_PROPERTY_CHARSET
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd401789(v=VS.85).aspx">WS_CHARSET</a> value that
+A <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET</a> value that
           returns the character set the writer is using to encode the document.  This value is only available for
           text documents.
         
@@ -161,7 +161,7 @@ This property is not available when using <a href="https://msdn.microsoft.com/8e
 This property is not available on a writer that is set to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
         
 
-This may be less convenient but more efficient than using <a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_BYTES</a> because the
+This may be less convenient but more efficient than using <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_BYTES</a> because the
           writer does not have to concatenate the buffers that comprise the document into a single buffer.
         
 
@@ -205,7 +205,7 @@ This property is not available when using <a href="https://msdn.microsoft.com/8e
 This property is not available on a writer that is set to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
         
 
-This may be more convenient but less efficient than using <a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_BUFFERS</a> because the
+This may be more convenient but less efficient than using <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_BUFFERS</a> because the
           writer may need to concatenate the buffers that comprise the document into a single buffer.
         
 
@@ -237,11 +237,11 @@ A <a href="https://msdn.microsoft.com/0106e372-80bf-4a62-b941-1a4501c92a9c">WS_B
           the buffer in which the bytes are placed.
         
 
-If the size specified is greater than or equal to <a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_BUFFER_MAX_SIZE</a>, then the 
+If the size specified is greater than or equal to <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_BUFFER_MAX_SIZE</a>, then the 
           writer will not allocate from its internal buffers.
         
 
-This buffer may appear as one of the buffers returned by the property <a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_BUFFERS</a>or <b>WS_XML_WRITER_PROPERTY_BYTES</b>.
+This buffer may appear as one of the buffers returned by the property <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_BUFFERS</a>or <b>WS_XML_WRITER_PROPERTY_BYTES</b>.
         
 
 The caller must ensure that the buffer specified is valid for the lifetime of the writer.
@@ -297,7 +297,7 @@ This property is not available on a writer that was set using <a href="https://m
 A <b>ULONG</b> that returns the maximum number of bytes necessary to close any open elements.
         
 
-An application can use <a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_BYTES_WRITTEN</a> and 
+An application can use <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_BYTES_WRITTEN</a> and 
           <b>WS_XML_WRITER_PROPERTY_BYTES_TO_CLOSE</b> to approximate how much additional
           data may be written to the document.  When doing so, the application should take into account
           the encoding of the document being written.

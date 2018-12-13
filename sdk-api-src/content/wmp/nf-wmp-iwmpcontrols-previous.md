@@ -105,15 +105,15 @@ If the playlist is on the first entry when <b>previous</b> is invoked, the last 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563203(v=VS.85).aspx">IWMPControls::next</a>
+<a href="https://msdn.microsoft.com/1f0bbc77-b271-4076-8089-92fe7745d9a8">IWMPControls::next</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563211(v=VS.85).aspx">IWMPControls::stop</a>
+<a href="https://msdn.microsoft.com/97ab009d-5ad9-4049-a212-1ef95941f951">IWMPControls::stop</a>
  
 
  

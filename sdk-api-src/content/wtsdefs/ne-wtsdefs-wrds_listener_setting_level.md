@@ -4,7 +4,7 @@ title: WRDS_LISTENER_SETTING_LEVEL
 author: windows-sdk-content
 description: Used to specify the type of structure that is contained in the WRdsListenerSetting member of the WRDS_LISTENER_SETTINGS structure.
 old-location: termserv\wrds_listener_setting_level.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 09FF31B5-7566-440D-98BB-96C7A4192C30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

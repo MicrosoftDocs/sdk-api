@@ -96,15 +96,15 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563296(v=VS.85).aspx">IWMPEvents3 Interface</a>
+<a href="https://msdn.microsoft.com/654b7d78-97d4-4770-9729-dd1fed0431d9">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564691(v=VS.85).aspx">WMPBurnState</a>
+<a href="https://msdn.microsoft.com/fd286f68-4d36-48ae-800e-ad2be4c613c1">WMPBurnState</a>
 
 
 

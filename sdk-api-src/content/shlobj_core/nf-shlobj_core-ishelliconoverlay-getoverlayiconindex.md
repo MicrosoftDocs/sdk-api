@@ -69,7 +69,7 @@ Pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f70
 
 Type: <b>int*</b>
 
-Pointer to the index of the icon overlay's image in the system image list. This index is equivalent to the <i>iImage</i> value that is specified when you add an overlay image to a private image list with the <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList::SetOverlayImage</a> function.
+Pointer to the index of the icon overlay's image in the system image list. This index is equivalent to the <i>iImage</i> value that is specified when you add an overlay image to a private image list with the <a href="https://msdn.microsoft.com/8cb1babc-01bd-4aae-9bc7-073050242ce4">ImageList::SetOverlayImage</a> function.
 
 
 ## -returns
@@ -128,7 +128,7 @@ The PIDL is invalid.
 
 
 
-To retrieve the overlay's image index in the system image list, you must first call <a href="https://msdn.microsoft.com/20001ae0-05d0-46a7-8bb8-9bb722f5d795">SHGetIconOverlayIndex</a> to retrieve the overlay index. Then use the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro to convert the overlay index into the equivalent image index.
+To retrieve the overlay's image index in the system image list, you must first call <a href="https://msdn.microsoft.com/20001ae0-05d0-46a7-8bb8-9bb722f5d795">SHGetIconOverlayIndex</a> to retrieve the overlay index. Then use the <a href="https://msdn.microsoft.com/6619d390-0c23-41ff-a07b-31425e47712b">INDEXTOOVERLAYMASK</a> macro to convert the overlay index into the equivalent image index.
 
 
 

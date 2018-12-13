@@ -4,7 +4,7 @@ title: OMAP
 author: windows-sdk-content
 description: Describes an entry in an address map.
 old-location: base\omap.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 47f1dc1d-9305-4514-83b8-6d32bd9914f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -138,7 +138,7 @@ OR
 
 
 
-To retrieve the total number of data unit extension systems associated with the stream, call <a href="https://msdn.microsoft.com/en-us/library/Dd798550(v=VS.85).aspx">GetDataUnitExtensionCount</a>.
+To retrieve the total number of data unit extension systems associated with the stream, call <a href="https://msdn.microsoft.com/f9a4ec84-4ea3-4e84-9def-7ca93be0f1ce">GetDataUnitExtensionCount</a>.
 
 
 
@@ -148,11 +148,11 @@ To retrieve the total number of data unit extension systems associated with the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798548(v=VS.85).aspx">IWMStreamConfig2::AddDataUnitExtension</a>
+<a href="https://msdn.microsoft.com/db84a33c-bd83-46cb-a97c-76ddeeb74927">IWMStreamConfig2::AddDataUnitExtension</a>
  
 
  

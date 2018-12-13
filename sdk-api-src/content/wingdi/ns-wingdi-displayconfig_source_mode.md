@@ -70,7 +70,7 @@ The height in pixels of the source mode.
 
 ### -field pixelFormat
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Ff553963(v=VS.85).aspx">DISPLAYCONFIG_PIXELFORMAT</a> enumeration that specifies the pixel format of the source mode.
+A value from the <a href="https://msdn.microsoft.com/dca8433d-89a9-492c-bebb-6a28f485896c">DISPLAYCONFIG_PIXELFORMAT</a> enumeration that specifies the pixel format of the source mode.
 
 
 ### -field position
@@ -94,7 +94,7 @@ The <a href="https://msdn.microsoft.com/9f649fa0-ffb2-44c6-9a66-049f888e3b04">Se
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff553963(v=VS.85).aspx">DISPLAYCONFIG_PIXELFORMAT</a>
+<a href="https://msdn.microsoft.com/dca8433d-89a9-492c-bebb-6a28f485896c">DISPLAYCONFIG_PIXELFORMAT</a>
 
 
 

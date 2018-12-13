@@ -145,7 +145,7 @@ The constants used for <i>dwCertificateType</i> and <i>dwFlags</i> are defined i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757462(v=VS.85).aspx">IWMReaderAdvanced6 Interface</a>
+<a href="https://msdn.microsoft.com/95e8c151-9aae-4930-824c-8809dfc07705">IWMReaderAdvanced6 Interface</a>
  
 
  

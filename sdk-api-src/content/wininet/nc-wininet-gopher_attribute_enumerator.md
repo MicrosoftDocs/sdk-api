@@ -65,7 +65,7 @@ The <b>GOPHER_ATTRIBUTE_ENUMERATOR</b> type defines a pointer to this callback f
 
 ### -param lpAttributeInfo
 
-Pointer to a  <a href="https://msdn.microsoft.com/en-us/library/Aa384213(v=VS.85).aspx">GOPHER_ATTRIBUTE_TYPE</a> structure. The 
+Pointer to a  <a href="https://msdn.microsoft.com/01daae8c-9080-4a8d-9f73-3e364ca868fe">GOPHER_ATTRIBUTE_TYPE</a> structure. The 
 <i>lpBuffer</i> parameter of 
 <a href="https://msdn.microsoft.com/c9e95532-8c65-45fb-acd0-a1f09cee2ce2">GopherGetAttribute</a> is used for storing this structure. The 
 <i>lpBuffer</i> size must be equal to or greater than the value of MIN_GOPHER_ATTRIBUTE_LENGTH.

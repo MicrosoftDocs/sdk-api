@@ -128,7 +128,7 @@ The structure is a <b>USN_RECORD_V2</b> structure and the
 </dl>
 </td>
 <td width="60%">
-The structure is a <a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a> structure and the 
+The structure is a <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a> structure and the 
         remainder of the structure should be parsed using that layout.
 
 </td>
@@ -140,7 +140,7 @@ The structure is a <a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=
 </dl>
 </td>
 <td width="60%">
-The structure is a <a href="https://msdn.microsoft.com/en-us/library/Mt684964(v=VS.85).aspx">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.
+The structure is a <a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.
 
 </td>
 </tr>
@@ -645,15 +645,15 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365481(v=VS.85).aspx">READ_USN_JOURNAL_DATA</a>
+<a href="https://msdn.microsoft.com/f88e71ba-6099-4928-9d71-732a4ca809bc">READ_USN_JOURNAL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a>
+<a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt684964(v=VS.85).aspx">USN_RECORD_V4</a>
+<a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a>
  
 
  

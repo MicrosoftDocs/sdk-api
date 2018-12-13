@@ -247,7 +247,7 @@ The call succeeded and the name was resolved.
 
 
 
-The <b>MAPIResolveName</b> function resolves a message recipient's name (as entered by a user) to an unambiguous address list entry, optionally prompting the user to choose between possible entries, if necessary. A recipient descriptor structure containing fully resolved information about the entry is allocated and returned. The caller should free this <a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a> structure at some point by calling the <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a> function. If <b>MAPIResolveName</b> returns an error value, it is not necessary to deallocate memory with <b>MAPIFreeBuffer</b>.
+The <b>MAPIResolveName</b> function resolves a message recipient's name (as entered by a user) to an unambiguous address list entry, optionally prompting the user to choose between possible entries, if necessary. A recipient descriptor structure containing fully resolved information about the entry is allocated and returned. The caller should free this <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> structure at some point by calling the <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a> function. If <b>MAPIResolveName</b> returns an error value, it is not necessary to deallocate memory with <b>MAPIFreeBuffer</b>.
 
 
 
@@ -265,7 +265,7 @@ The <b>MAPIResolveName</b> function resolves a message recipient's name (as ente
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a>
+<a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a>
 
 
 

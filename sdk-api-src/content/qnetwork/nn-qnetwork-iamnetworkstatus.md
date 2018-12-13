@@ -58,7 +58,7 @@ The <code>IAMNetworkStatus</code> interface reports the quality of the network c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetworkStatus</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMNetworkStatus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetworkStatus</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAMNetworkStatus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAMNetworkStatus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319733(v=VS.85).aspx">get_BufferingCount</a>
+<a href="https://msdn.microsoft.com/82c1994b-9326-48a7-8ff5-2b2df274b3e2">get_BufferingCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of times the network source has buffered the data.
@@ -82,7 +82,7 @@ Retrieves the number of times the network source has buffered the data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319734(v=VS.85).aspx">get_BufferingProgress</a>
+<a href="https://msdn.microsoft.com/76276bdc-1f19-4fb9-8ae9-1edeb5639741">get_BufferingProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the buffering progress.
@@ -91,7 +91,7 @@ Retrieves the buffering progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319735(v=VS.85).aspx">get_IsBroadcast</a>
+<a href="https://msdn.microsoft.com/578fe82b-0c87-47ea-9600-91d68f4c733f">get_IsBroadcast</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the current clip is a broadcast clip.
@@ -100,7 +100,7 @@ Retrieves a value indicating whether the current clip is a broadcast clip.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319736(v=VS.85).aspx">get_LostPackets</a>
+<a href="https://msdn.microsoft.com/814a2ffa-c7f3-47e6-8956-4a705b394469">get_LostPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of lost packets.
@@ -109,7 +109,7 @@ Retrieves the number of lost packets.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319737(v=VS.85).aspx">get_ReceivedPackets</a>
+<a href="https://msdn.microsoft.com/9437489d-87bf-45d4-82f3-22e8adb4df54">get_ReceivedPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of received packets.
@@ -118,7 +118,7 @@ Retrieves the number of received packets.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319738(v=VS.85).aspx">get_ReceptionQuality</a>
+<a href="https://msdn.microsoft.com/6c80f874-c176-4e52-acc9-26c10fac08d9">get_ReceptionQuality</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the reception quality.
@@ -127,7 +127,7 @@ Retrieves a value indicating the reception quality.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319739(v=VS.85).aspx">get_RecoveredPackets</a>
+<a href="https://msdn.microsoft.com/e8362d52-ed20-444e-86ab-26c9eac3087c">get_RecoveredPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of recovered packets.
@@ -157,7 +157,7 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

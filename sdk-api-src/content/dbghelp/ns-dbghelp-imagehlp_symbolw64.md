@@ -4,7 +4,7 @@ title: IMAGEHLP_SYMBOLW64
 author: windows-sdk-content
 description: Contains symbol information.
 old-location: base\imagehlp_symbol64_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 7b39281a-c34b-47ae-a3ff-5f0a7a66a588
 ms.author: windowssdkdev
 ms.date: 12/5/2018

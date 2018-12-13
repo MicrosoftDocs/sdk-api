@@ -113,11 +113,11 @@ The <i>pmsBufferWindow</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798565(v=VS.85).aspx">IWMStreamConfig::SetBufferWindow</a>
+<a href="https://msdn.microsoft.com/ae14f3df-222a-494c-a171-02aed04490d1">IWMStreamConfig::SetBufferWindow</a>
  
 
  

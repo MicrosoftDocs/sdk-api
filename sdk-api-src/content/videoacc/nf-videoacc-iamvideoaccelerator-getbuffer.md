@@ -70,7 +70,7 @@ Specifies the surface type:
 <li>To get a pointer to  a compressed surface, specify one of the DXVA surface types defined in dxva.h. </li>
 <li>To get a pointer to an uncompressed output surface, set this parameter to 0xFFFFFFFF. </li>
 </ul>
-The value 0xFFFFFFFF is valid only between calls to <a href="https://msdn.microsoft.com/en-us/library/Dd375997(v=VS.85).aspx">IAMVideoAccelerator::BeginFrame</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd376001(v=VS.85).aspx">IAMVideoAccelerator::EndFrame</a>.
+The value 0xFFFFFFFF is valid only between calls to <a href="https://msdn.microsoft.com/00077ffe-4acb-4648-9e95-652184e4449b">IAMVideoAccelerator::BeginFrame</a> and <a href="https://msdn.microsoft.com/38944989-2ce2-4275-bae9-faca0d51cca8">IAMVideoAccelerator::EndFrame</a>.
 
 
 ### -param dwBufferIndex [in]
@@ -78,8 +78,8 @@ The value 0xFFFFFFFF is valid only between calls to <a href="https://msdn.micros
 The zero-based index of the surface, within the pool of surfaces that were allocated  for the specified surface type.
 
 <ul>
-<li>Compressed surfaces: To get the number of allocated surfaces for each surface type, call <a href="https://msdn.microsoft.com/en-us/library/Dd376005(v=VS.85).aspx">IAMVideoAccelerator::GetInternalCompBufferInfo</a>.</li>
-<li>Uncompressed surfaces: The buffer index must equal the <b>dwDestSurfaceIndex</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373442(v=VS.85).aspx">AMVABeginFrameInfo</a> structure that was passed to the most recent <a href="https://msdn.microsoft.com/en-us/library/Dd375997(v=VS.85).aspx">IAMVideoAccelerator::BeginFrame</a> call.</li>
+<li>Compressed surfaces: To get the number of allocated surfaces for each surface type, call <a href="https://msdn.microsoft.com/b60c6bf7-6cb6-4a82-bec4-7f1662d4ee95">IAMVideoAccelerator::GetInternalCompBufferInfo</a>.</li>
+<li>Uncompressed surfaces: The buffer index must equal the <b>dwDestSurfaceIndex</b> member of the <a href="https://msdn.microsoft.com/49af9094-86d5-4c11-b871-41f9984e0faf">AMVABeginFrameInfo</a> structure that was passed to the most recent <a href="https://msdn.microsoft.com/00077ffe-4acb-4648-9e95-652184e4449b">IAMVideoAccelerator::BeginFrame</a> call.</li>
 </ul>
 
 ### -param bReadOnly [in]
@@ -90,7 +90,7 @@ Specifies whether the decoder will write to the surface memory. For read-only ac
 
 ### -param ppBuffer [out]
 
-Receives a pointer to the surface memory. To get the size of the buffer in bytes, call the <a href="https://msdn.microsoft.com/en-us/library/Dd376005(v=VS.85).aspx">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method. The size is given in the <b>dwBytesToAllocate</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373445(v=VS.85).aspx">AMVACompBufferInfo</a> structure that corresponds to <i>dwTypeIndex</i>.
+Receives a pointer to the surface memory. To get the size of the buffer in bytes, call the <a href="https://msdn.microsoft.com/b60c6bf7-6cb6-4a82-bec4-7f1662d4ee95">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method. The size is given in the <b>dwBytesToAllocate</b> member of the <a href="https://msdn.microsoft.com/74ef5dfb-1062-40c6-a2dd-76f46ca8db92">AMVACompBufferInfo</a> structure that corresponds to <i>dwTypeIndex</i>.
 
 
 ### -param lpStride [out]
@@ -198,10 +198,10 @@ The pins on the decoder and video renderer filters are not connected.
 
 If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
-This method locks and obtains access to a single buffer. Buffers are identified by type and by index within that type. The <a href="https://msdn.microsoft.com/en-us/library/Dd376005(v=VS.85).aspx">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method returns the number of surface types in its <i>pdwNumTypesCompBuffers</i> parameter. This number defines the valid range for <i>dwTypeIndex</i>. For each type, the <b>dwNumCompBuffers</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373445(v=VS.85).aspx">AMVACompBufferInfo</a> structure gives the number of buffers, which defines the valid range for <i>dwBufferIndex</i>. 
+This method locks and obtains access to a single buffer. Buffers are identified by type and by index within that type. The <a href="https://msdn.microsoft.com/b60c6bf7-6cb6-4a82-bec4-7f1662d4ee95">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method returns the number of surface types in its <i>pdwNumTypesCompBuffers</i> parameter. This number defines the valid range for <i>dwTypeIndex</i>. For each type, the <b>dwNumCompBuffers</b> member of the <a href="https://msdn.microsoft.com/74ef5dfb-1062-40c6-a2dd-76f46ca8db92">AMVACompBufferInfo</a> structure gives the number of buffers, which defines the valid range for <i>dwBufferIndex</i>. 
       
 
-To release the buffer, call <a href="https://msdn.microsoft.com/en-us/library/Dd376010(v=VS.85).aspx">IAMVideoAccelerator::ReleaseBuffer</a>.
+To release the buffer, call <a href="https://msdn.microsoft.com/2170cf7e-85c8-4658-84fd-96ebc0d2704f">IAMVideoAccelerator::ReleaseBuffer</a>.
 
 Until all compressed buffers are released, it is possible that the calling thread will hold the Win16 lock or the DirectDraw lock.
 
@@ -221,7 +221,7 @@ Until all compressed buffers are released, it is possible that the calling threa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator Interface</a>
  
 
  

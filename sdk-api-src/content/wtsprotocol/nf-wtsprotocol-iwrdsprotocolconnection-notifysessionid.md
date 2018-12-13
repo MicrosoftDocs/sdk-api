@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::NotifySessionId
 author: windows-sdk-content
 description: Sends the identifier of the new session to the protocol.
 old-location: termserv\iwrdsprotocolconnection_notifysessionid.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 82bf892e-5e6f-4057-ac36-00e046080c93
 ms.author: windowssdkdev
 ms.date: 12/5/2018

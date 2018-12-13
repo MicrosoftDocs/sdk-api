@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>BFFCallBack</b> function is an application-defined callback function that receives event notifications from the Active Directory Domain Services container browser dialog box. A pointer to this function is supplied to the container browser dialog box in the <b>pfnCallback</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms675966(v=VS.85).aspx">DSBROWSEINFO</a> structure when the <a href="https://msdn.microsoft.com/c95585b3-bf40-4aee-ae47-ca8f43daf0e6">DsBrowseForContainer</a> function is called. <b>BFFCallBack</b> is a placeholder for the application-defined function name.
+The <b>BFFCallBack</b> function is an application-defined callback function that receives event notifications from the Active Directory Domain Services container browser dialog box. A pointer to this function is supplied to the container browser dialog box in the <b>pfnCallback</b> member of the <a href="https://msdn.microsoft.com/eaa2da41-1ddf-42d3-b721-6649ad49acf1">DSBROWSEINFO</a> structure when the <a href="https://msdn.microsoft.com/c95585b3-bf40-4aee-ae47-ca8f43daf0e6">DsBrowseForContainer</a> function is called. <b>BFFCallBack</b> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>BFFCallBack</b> function is an application-defined callback function that
 
 ### -param hwnd [in]
 
-Contains the window handle of the browse dialog box. This handle is used to send messages to the browse dialog box using the <a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a> function.
+Contains the window handle of the browse dialog box. This handle is used to send messages to the browse dialog box using the <a href="_win32_sendmessage_cpp">SendMessage</a> function.
 
 
 The container browser dialog box handles the following messages.
@@ -122,9 +122,9 @@ Reserved.
 
 #### DSBM_CONTEXTMENU
 
-This notification is sent when the dialog box receives a <a href="https://msdn.microsoft.com/en-us/library/ms647592(v=VS.85).aspx">WM_CONTEXTMENU</a> message.
+This notification is sent when the dialog box receives a <a href="_win32_wm_contextmenu_cpp">WM_CONTEXTMENU</a> message.
 
-<i>lParam</i> is the <i>wParam</i> value passed with the <a href="https://msdn.microsoft.com/en-us/library/ms647592(v=VS.85).aspx">WM_CONTEXTMENU</a> message.
+<i>lParam</i> is the <i>wParam</i> value passed with the <a href="_win32_wm_contextmenu_cpp">WM_CONTEXTMENU</a> message.
 
 The return value from this notification is ignored.
 
@@ -132,9 +132,9 @@ The return value from this notification is ignored.
 
 #### DSBM_HELP
 
-This notification is sent when the dialog box receives a <a href="https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx">WM_HELP</a> message.
+This notification is sent when the dialog box receives a <a href="_win32_wm_help_cpp">WM_HELP</a> message.
 
-<i>lParam</i> is the <i>lParam</i> value passed with the <a href="https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx">WM_HELP</a> message.
+<i>lParam</i> is the <i>lParam</i> value passed with the <a href="_win32_wm_help_cpp">WM_HELP</a> message.
 
 The return value from this notification is ignored.
 
@@ -144,9 +144,9 @@ The return value from this notification is ignored.
 
 This notification is sent prior to each container object being inserted into the tree. The application can use this notification to modify the contents of the dialog box.
 
-<i>lParam</i> is a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675964(v=VS.85).aspx">DSBITEM</a> structure that contains data about the item inserted. Some members of this structure, such as <b>szDisplayName</b>, can be modified during this notification to change the way items are displayed.
+<i>lParam</i> is a pointer to a <a href="https://msdn.microsoft.com/580b8aea-8411-41de-a2d9-1c3e3b35dd5a">DSBITEM</a> structure that contains data about the item inserted. Some members of this structure, such as <b>szDisplayName</b>, can be modified during this notification to change the way items are displayed.
 
-Return a nonzero value from this notification if data  in the <a href="https://msdn.microsoft.com/en-us/library/ms675964(v=VS.85).aspx">DSBITEM</a> structure changes. Return zero if the time should be inserted unchanged.
+Return a nonzero value from this notification if data  in the <a href="https://msdn.microsoft.com/580b8aea-8411-41de-a2d9-1c3e3b35dd5a">DSBITEM</a> structure changes. Return zero if the time should be inserted unchanged.
 
 <div class="alert"><b>Note</b>  Only the Unicode version of this message, <b>DSBM_QUERYINSERTW</b>, is supported. <b>DSBM_QUERYINSERTA</b> is not supported.</div>
 <div> </div>
@@ -158,7 +158,7 @@ The value and meaning of this parameter is determined by the notification receiv
 
 ### -param lpData [in]
 
-Contains a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms675966(v=VS.85).aspx">DSBROWSEINFO</a> structure passed to the <a href="https://msdn.microsoft.com/c95585b3-bf40-4aee-ae47-ca8f43daf0e6">DsBrowseForContainer</a> function. This is true for all notification messages.
+Contains a pointer to the <a href="https://msdn.microsoft.com/eaa2da41-1ddf-42d3-b721-6649ad49acf1">DSBROWSEINFO</a> structure passed to the <a href="https://msdn.microsoft.com/c95585b3-bf40-4aee-ae47-ca8f43daf0e6">DsBrowseForContainer</a> function. This is true for all notification messages.
 
 
 ## -remarks
@@ -175,11 +175,11 @@ The <b>DSBM_*</b> message values are defined in Dsclient.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675964(v=VS.85).aspx">DSBITEM</a>
+<a href="https://msdn.microsoft.com/580b8aea-8411-41de-a2d9-1c3e3b35dd5a">DSBITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675966(v=VS.85).aspx">DSBROWSEINFO</a>
+<a href="https://msdn.microsoft.com/eaa2da41-1ddf-42d3-b721-6649ad49acf1">DSBROWSEINFO</a>
 
 
 
@@ -187,15 +187,15 @@ The <b>DSBM_*</b> message values are defined in Dsclient.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="_win32_sendmessage_cpp">SendMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647592(v=VS.85).aspx">WM_CONTEXTMENU</a>
+<a href="_win32_wm_contextmenu_cpp">WM_CONTEXTMENU</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx">WM_HELP</a>
+<a href="_win32_wm_help_cpp">WM_HELP</a>
  
 
  

@@ -127,11 +127,11 @@ To use this method, read access to the library is required. For more information
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563687(v=VS.85).aspx">IWMPStringCollection2 Interface</a>
+<a href="https://msdn.microsoft.com/7aeaf549-3c60-4dd8-9e46-6bab357f4960">IWMPStringCollection2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563691(v=VS.85).aspx">IWMPStringCollection2::getItemInfoByType</a>
+<a href="https://msdn.microsoft.com/ff395caf-9b5a-41e0-94c6-4a5eb96281ca">IWMPStringCollection2::getItemInfoByType</a>
  
 
  

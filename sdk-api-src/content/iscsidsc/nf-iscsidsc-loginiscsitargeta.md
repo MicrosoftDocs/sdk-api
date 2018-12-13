@@ -86,7 +86,7 @@ If <i>InitiatorName</i> is <b>null</b>, <i>InitiatorPortNumber</i> must be <b>IS
 
 ### -param TargetPortal [in, optional]
 
-Pointer to a structure of type <a href="https://msdn.microsoft.com/en-us/library/Bb870808(v=VS.85).aspx">ISCSI_TARGET_PORTAL</a> that indicates the portal that the initiator uses to open the session. The specified portal must belong to a portal group that is associated with the <i>TargetName</i>. If <i>TargetPortal</i> is <b>null</b>, the iSCSI initiator service instructs the initiator to use any portal through which the target is accessible to the initiator. If the caller specifies the value for <i>TargetPortal</i>, the iSCSI initiator service will not verify that the <i>TargetPortal</i> is accessible to the initiator HBA.
+Pointer to a structure of type <a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a> that indicates the portal that the initiator uses to open the session. The specified portal must belong to a portal group that is associated with the <i>TargetName</i>. If <i>TargetPortal</i> is <b>null</b>, the iSCSI initiator service instructs the initiator to use any portal through which the target is accessible to the initiator. If the caller specifies the value for <i>TargetPortal</i>, the iSCSI initiator service will not verify that the <i>TargetPortal</i> is accessible to the initiator HBA.
 
 
 ### -param SecurityFlags [in, optional]
@@ -185,12 +185,12 @@ When set to 1, the other mask values are valid; otherwise, the iSCSI initiator s
 
 ### -param Mappings [in, optional]
 
-An array of structures of type <a href="https://msdn.microsoft.com/en-us/library/Bb870805(v=VS.85).aspx">ISCSI_TARGET_MAPPING</a>, each of which holds information that the initiator uses to assign bus, target and LUN numbers to the devices that are associated with the target. If <i>Mappings</i> is <b>null</b>, the initiator will select the bus, target and LUN numbers.
+An array of structures of type <a href="https://msdn.microsoft.com/bdc27e67-1d64-42cd-adfa-a792012b7142">ISCSI_TARGET_MAPPING</a>, each of which holds information that the initiator uses to assign bus, target and LUN numbers to the devices that are associated with the target. If <i>Mappings</i> is <b>null</b>, the initiator will select the bus, target and LUN numbers.
 
 
 ### -param LoginOptions [in, optional]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/en-us/library/Bb870801(v=VS.85).aspx">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the characteristics of the login session.
+A pointer to a structure of type <a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the characteristics of the login session.
 
 
 ### -param KeySize [in, optional]
@@ -248,11 +248,11 @@ The <b>LoginIscsiTarget</b> function either establishes a single login session w
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb870801(v=VS.85).aspx">ISCSI_LOGIN_OPTIONS</a>
+<a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb870808(v=VS.85).aspx">ISCSI_TARGET_PORTAL</a>
+<a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a>
 
 
 

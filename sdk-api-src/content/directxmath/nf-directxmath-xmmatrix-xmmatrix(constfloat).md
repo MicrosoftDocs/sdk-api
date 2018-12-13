@@ -52,7 +52,7 @@ req.redist:
 
 Default constructor for <code>XMMATRIX</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>.
+Default constructor for <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>.
 <div class="alert"><b>Note</b>  This constructor is only available when developing with C++.</div><div> </div>
 
 ## -parameters
@@ -71,7 +71,7 @@ TBD
 
 
 
-<code>XMMATRIX()</code> constructs a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> structure without
+<code>XMMATRIX()</code> constructs a new instance of the <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a> structure without
     defining the value of any of its members.
 
 
@@ -87,11 +87,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>
+<a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415353(v=VS.85).aspx">XMMATRIX Constructors</a>
+<a href="https://msdn.microsoft.com/5efe5362-fb5a-46ff-b421-887f654a464f">XMMATRIX Constructors</a>
  
 
  

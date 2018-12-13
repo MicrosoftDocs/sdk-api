@@ -93,7 +93,7 @@ Returns S_OK if successful or E_POINTER if one of the parameters is invalid.
 
 For streams that have a clock, the start and end times will be relative to the stream's current time. If the stream doesn't have a clock, the times are media-relative and the current time will be zero.
 
-The <i>pCurrentTime</i> parameter enables you to conveniently track the media stream's current time, so you don't have to call <a href="https://msdn.microsoft.com/en-us/library/Dd390332(v=VS.85).aspx">IMultiMediaStream::GetTime</a>. Unlike <b>GetTime</b>, however, this method returns S_OK if the stream doesn't have a clock; <b>GetTime</b> returns S_FALSE. The value assigned to <i>pCurrentTime</i> is the same as the value produced by the following code fragment.
+The <i>pCurrentTime</i> parameter enables you to conveniently track the media stream's current time, so you don't have to call <a href="https://msdn.microsoft.com/da92c68b-176c-4773-9ae1-63f803bc206e">IMultiMediaStream::GetTime</a>. Unlike <b>GetTime</b>, however, this method returns S_OK if the stream doesn't have a clock; <b>GetTime</b> returns S_FALSE. The value assigned to <i>pCurrentTime</i> is the same as the value produced by the following code fragment.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -128,7 +128,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample Interface</a>
+<a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample Interface</a>
 
 
 

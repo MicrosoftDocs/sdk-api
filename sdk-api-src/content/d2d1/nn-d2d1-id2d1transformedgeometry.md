@@ -96,7 +96,7 @@ Retrieves the matrix used to transform the <b>ID2D1TransformedGeometry</b> objec
 Using an <b>ID2D1TransformedGeometry</b> rather than transforming a geometry by using a render target's transform enables you to transform a geometry without transforming its stroke.
 
 <h3><a id="Creating_ID2D1TransformedGeometry_Objects"></a><a id="creating_id2d1transformedgeometry_objects"></a><a id="CREATING_ID2D1TRANSFORMEDGEOMETRY_OBJECTS"></a>Creating ID2D1TransformedGeometry Objects</h3>
-To create an <b>ID2D1TransformedGeometry</b>, call the <a href="https://msdn.microsoft.com/en-us/library/Dd742730(v=VS.85).aspx">ID2D1Factory::CreateTransformedGeometry</a> method.
+To create an <b>ID2D1TransformedGeometry</b>, call the <a href="https://msdn.microsoft.com/71f26200-0f35-49d7-951d-2962768d16bc">ID2D1Factory::CreateTransformedGeometry</a> method.
 
 Direct2D geometries are immutable and device-independent resources created by <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.
 
@@ -105,64 +105,81 @@ Direct2D geometries are immutable and device-independent resources created by <a
 
 The following example creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
 
-<img alt="Illustration of a rectangle" src="./images/transformedgeometry2_step1.png"/>
-
-```cpp
-hr = m_pD2DFactory->CreateRectangleGeometry(
+<img alt="Illustration of a rectangle" src="images/transformedgeometry2_step1.png"/>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>hr = m_pD2DFactory-&gt;CreateRectangleGeometry(
     D2D1::RectF(150.f, 150.f, 200.f, 200.f),
-    &m_pRectangleGeometry
+    &amp;m_pRectangleGeometry
     );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next example uses the render target to scale the geometry by a factor of 3, then draws it. The following illustration shows the result of drawing the rectangle without the transform and with the transform; notices that the stroke is thicker after the transform, even though the stroke thickness is 1.
 
-<img alt="Illustration of a smaller rectangle inside a larger rectangle with a thicker stroke" src="./images/transformedgeometry2_step2.png"/>
-
-```cpp
-// Transform the render target, then draw the rectangle geometry again.
-m_pRenderTarget->SetTransform(
+<img alt="Illustration of a smaller rectangle inside a larger rectangle with a thicker stroke" src="images/transformedgeometry2_step2.png"/>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Transform the render target, then draw the rectangle geometry again.
+m_pRenderTarget-&gt;SetTransform(
     D2D1::Matrix3x2F::Scale(
         D2D1::SizeF(3.f, 3.f),
         D2D1::Point2F(175.f, 175.f))
     );
 
-m_pRenderTarget->DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
+m_pRenderTarget-&gt;DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
+</pre>
+</td>
+</tr>
+</table></span></div>
+The next example uses the <a href="https://msdn.microsoft.com/71f26200-0f35-49d7-951d-2962768d16bc">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
-```
-
-
-The next example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742730(v=VS.85).aspx">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
-
-<img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="./images/transformedgeometry2_step3.png"/>
-
-```cpp
- // Create a geometry that is a scaled version
+<img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="images/transformedgeometry2_step3.png"/>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> // Create a geometry that is a scaled version
  // of m_pRectangleGeometry.
  // The new geometry is scaled by a factory of 3
  // from the center of the geometry, (35, 35).
 
- hr = m_pD2DFactory->CreateTransformedGeometry(
+ hr = m_pD2DFactory-&gt;CreateTransformedGeometry(
      m_pRectangleGeometry,
      D2D1::Matrix3x2F::Scale(
          D2D1::SizeF(3.f, 3.f),
          D2D1::Point2F(175.f, 175.f)),
-     &m_pTransformedGeometry
+     &amp;m_pTransformedGeometry
      );
-
-```
-
-```cpp
-// Replace the previous render target transform.
-m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Replace the previous render target transform.
+m_pRenderTarget-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
 
 // Draw the transformed geometry.
-m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
-
-```
-
-
+m_pRenderTarget-&gt;DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

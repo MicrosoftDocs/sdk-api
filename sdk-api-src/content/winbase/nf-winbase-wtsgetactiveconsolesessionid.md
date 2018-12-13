@@ -4,7 +4,7 @@ title: WTSGetActiveConsoleSessionId function
 author: windows-sdk-content
 description: Retrieves the session identifier of the console session.
 old-location: termserv\wtsgetactiveconsolesessionid.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 9aa43cfa-9518-428b-95a1-004fa23df90b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

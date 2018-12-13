@@ -170,7 +170,7 @@ For more information about NLS, see <a href="https://msdn.microsoft.com/daf929b2
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846803(v=VS.85).aspx">IInkRecognizers</a>
+<a href="https://msdn.microsoft.com/9BCCCFB1-567A-4CE7-9122-299A5AF52B08">IInkRecognizers</a>
 
 
 

@@ -4,7 +4,7 @@ title: ITsSbGlobalStore::EnumerateFarms
 author: windows-sdk-content
 description: Enumerates all the farms that have been added by the specified resource plug-in.
 old-location: termserv\itssbglobalstore_enumeratefarms.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 51c59f35-667c-4723-aa7b-e8250bbdabe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -71,7 +71,7 @@ The count of farms retrieved.
 
 ### -param pVal [out]
 
-A pointer to an array of farm names. The number of elements in this array is specified by the <i>pdwCount</i> parameter. When you have finished using the array, free the allocated memory by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221702(v=VS.85).aspx">SafeArrayDestroy</a> function.
+A pointer to an array of farm names. The number of elements in this array is specified by the <i>pdwCount</i> parameter. When you have finished using the array, free the allocated memory by calling the <a href="fc94f7e7-b903-4c78-905c-54df1f8d13fa">SafeArrayDestroy</a> function.
 
 
 ## -returns

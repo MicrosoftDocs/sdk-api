@@ -116,11 +116,11 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563307(v=VS.85).aspx">IWMPEvents3::StringCollectionChange</a>
+<a href="https://msdn.microsoft.com/93880116-e354-49d0-ba02-391fbb4d3f8c">IWMPEvents3::StringCollectionChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563686(v=VS.85).aspx">IWMPStringCollection Interface</a>
+<a href="https://msdn.microsoft.com/8cdabea9-7e37-4e63-9d6c-b6f63aa536ea">IWMPStringCollection Interface</a>
 
 
 

@@ -92,7 +92,7 @@ The plug-in must return a URL for radio content.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563167(v=VS.85).aspx">IWMPContentPartner::GetStreamingURL</a>
+<a href="https://msdn.microsoft.com/7b9c25bc-35f7-429a-b465-45e166e2ed1a">IWMPContentPartner::GetStreamingURL</a>
  
 
  

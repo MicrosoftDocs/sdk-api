@@ -93,7 +93,7 @@ Applications should not call this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319657(v=VS.85).aspx">IAMMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/14185e7d-d08d-4fd8-a255-075eaf12a708">IAMMediaStream Interface</a>
  
 
  

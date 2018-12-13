@@ -4,7 +4,7 @@ title: IWRdsProtocolLicenseConnection
 author: windows-sdk-content
 description: Exposes methods used by the Remote Desktop Services service to perform the licensing handshake during a connection sequence.
 old-location: termserv\iwrdsprotocollicenseconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 498c31c5-1cb6-41d7-91fb-7409ea03dda0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

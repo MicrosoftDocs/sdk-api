@@ -61,9 +61,9 @@ Get the pixel shader currently set on the device.
 
 ### -param ppPixelShader [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173821(v=VS.85).aspx">ID3D10PixelShader</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/c2b255ca-cffb-4e24-9395-a4cb727bf421">ID3D10PixelShader</a>**</b>
 
-Address of a pointer to a pixel shader (see <a href="https://msdn.microsoft.com/en-us/library/Bb173821(v=VS.85).aspx">ID3D10PixelShader</a>) to be returned by the method.
+Address of a pointer to a pixel shader (see <a href="https://msdn.microsoft.com/c2b255ca-cffb-4e24-9395-a4cb727bf421">ID3D10PixelShader</a>) to be returned by the method.
 
 
 ## -returns
@@ -89,7 +89,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

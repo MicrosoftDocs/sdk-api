@@ -75,7 +75,7 @@ The <b>IDShowPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406855(v=VS.85).aspx">get_URL</a>
+<a href="https://msdn.microsoft.com/df1a2643-c89e-4edf-bd85-bce1c410d6cd">get_URL</a>
 </td>
 <td align="left" width="63%">
 Gets the URL of the current web page.
@@ -84,7 +84,7 @@ Gets the URL of the current web page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406856(v=VS.85).aspx">get_UserAgent</a>
+<a href="https://msdn.microsoft.com/0bbd3cd2-75d8-4c48-837d-4cb045cad35b">get_UserAgent</a>
 </td>
 <td align="left" width="63%">
 Gets the User-Agent string.

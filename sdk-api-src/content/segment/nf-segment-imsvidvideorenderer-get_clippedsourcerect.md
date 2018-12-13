@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-If the current clipping mode is <b>sslClipByClipRect</b>, the VMR clips the video image to the video source rectangle, and stretches the clipped image to fill the Video Control's video window. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694755(v=VS.85).aspx">IMSVidVideoRenderer::put_SourceSize</a>.
+If the current clipping mode is <b>sslClipByClipRect</b>, the VMR clips the video image to the video source rectangle, and stretches the clipped image to fill the Video Control's video window. For more information, see <a href="https://msdn.microsoft.com/c792f064-a137-4872-8c79-6e924b6023f0">IMSVidVideoRenderer::put_SourceSize</a>.
 
 The returned <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460fc0f1b">IMSVidRect</a> interface has an outstanding reference count. The caller must release the interface.
 
@@ -92,7 +92,7 @@ The returned <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694748(v=VS.85).aspx">IMSVidVideoRenderer::put_ClippedSourceRect</a>
+<a href="https://msdn.microsoft.com/c72d8134-ff6c-46b4-b567-35638aef53cd">IMSVidVideoRenderer::put_ClippedSourceRect</a>
  
 
  

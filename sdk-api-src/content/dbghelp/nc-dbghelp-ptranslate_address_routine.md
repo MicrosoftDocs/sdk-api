@@ -4,7 +4,7 @@ title: PTRANSLATE_ADDRESS_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It provides address translation for 16-bit addresses.
 old-location: base\translateaddressproc64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 56c374df-6b48-4649-a914-5cb2f9575bf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

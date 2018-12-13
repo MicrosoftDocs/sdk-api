@@ -4,7 +4,7 @@ title: SymSrvGetFileIndexInfoW function
 author: windows-sdk-content
 description: Retrieves the index information for the specified .pdb, .dbg, or image file.
 old-location: base\symsrvgetfileindexinfo.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: ee5b0821-2746-467e-9d95-90776882ac95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -67,7 +67,7 @@ The name of the file.
 
 ### -param Info [out]
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms681377(v=VS.85).aspx">SYMSRV_INDEX_INFO</a> structure that receives the index information.
+A <a href="https://msdn.microsoft.com/110cf21c-7768-48fd-bfdc-1f7cd30ca291">SYMSRV_INDEX_INFO</a> structure that receives the index information.
 
 
 ### -param Flags [in]
@@ -110,7 +110,7 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681377(v=VS.85).aspx">SYMSRV_INDEX_INFO</a>
+<a href="https://msdn.microsoft.com/110cf21c-7768-48fd-bfdc-1f7cd30ca291">SYMSRV_INDEX_INFO</a>
  
 
  

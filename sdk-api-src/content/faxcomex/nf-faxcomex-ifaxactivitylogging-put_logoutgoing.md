@@ -68,7 +68,7 @@ This property is read/write.
 
 If this property is equal to <b>TRUE</b>, the fax service logs entries for outgoing fax jobs in the activity log database. If this property is equal to <b>FALSE</b>, the fax service does not log entries.
 
-To read or write to this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To read or write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 
 
 
@@ -78,15 +78,15 @@ To read or write to this property, a user must have the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a>
+<a href="https://msdn.microsoft.com/225afdb8-7249-4aa5-bbde-638adf02eb41">FaxActivityLogging</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684577(v=VS.85).aspx">IFaxActivityLogging</a>
+<a href="https://msdn.microsoft.com/77c3d94d-9076-4efd-833d-47373dc8b13b">IFaxActivityLogging</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/afee6ea0-f63d-4818-9ff0-1887638d232c">Visual Basic Example</a>
  
 
  

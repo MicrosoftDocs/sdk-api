@@ -72,13 +72,13 @@ Indicates what version of the <b>DS_DOMAIN_CONTROLLER_INFO</b> structure should 
 
 #### 1
 
-The function frees the structure that contains  <a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a> data.
+The function frees the structure that contains  <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a> data.
 
 
 
 #### 2
 
-The function frees the structure that contains <a href="https://msdn.microsoft.com/en-us/library/ms676058(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_2</a> data.
+The function frees the structure that contains <a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a> data.
 
 
 ### -param cInfo [in]
@@ -88,17 +88,17 @@ Indicates the number of items in <i>pInfo</i>.
 
 ### -param pInfo [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO</a> structures to be freed.
+Pointer to an array of <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO</a> structures to be freed.
 
 
 ##### - InfoLevel.1
 
-The function frees the structure that contains  <a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a> data.
+The function frees the structure that contains  <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a> data.
 
 
 ##### - InfoLevel.2
 
-The function frees the structure that contains <a href="https://msdn.microsoft.com/en-us/library/ms676058(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_2</a> data.
+The function frees the structure that contains <a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a> data.
 
 
 ## -returns
@@ -115,7 +115,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a>
+<a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a>
 
 
 

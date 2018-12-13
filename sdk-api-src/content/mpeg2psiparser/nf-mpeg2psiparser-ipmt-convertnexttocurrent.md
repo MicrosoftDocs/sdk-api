@@ -128,7 +128,7 @@ The method succeeded.
 
 
 
-This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/en-us/library/Dd694839(v=VS.85).aspx">IPMT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
+This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/4759c813-3a1f-492a-bca9-cb6610f6426b">IPMT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
 
 
 
@@ -138,7 +138,7 @@ This method applies only to <i>next</i> tables that have become current. Before 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
  
 
  

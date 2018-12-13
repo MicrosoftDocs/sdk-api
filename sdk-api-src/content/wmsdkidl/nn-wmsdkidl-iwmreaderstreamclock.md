@@ -75,7 +75,7 @@ The <b>IWMReaderStreamClock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743568(v=VS.85).aspx">GetTime</a>
+<a href="https://msdn.microsoft.com/d44b8701-8065-40a5-abc3-1c7513c618ea">GetTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current value of the stream clock.
@@ -84,7 +84,7 @@ Retrieves the current value of the stream clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743570(v=VS.85).aspx">KillTimer</a>
+<a href="https://msdn.microsoft.com/ebcd965f-8ea1-44e2-b1b4-c34a229058b2">KillTimer</a>
 </td>
 <td align="left" width="63%">
 Cancels a timer on the stream clock.
@@ -93,7 +93,7 @@ Cancels a timer on the stream clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743573(v=VS.85).aspx">SetTimer</a>
+<a href="https://msdn.microsoft.com/15d991e0-a271-4427-844f-5e4a9bbc6507">SetTimer</a>
 </td>
 <td align="left" width="63%">
 Sets a timer on the stream clock.

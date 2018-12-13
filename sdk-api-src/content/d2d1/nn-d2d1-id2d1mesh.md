@@ -94,13 +94,17 @@ A mesh is a device-dependent resource: your application should create meshes aft
 
 The following code example shows how to use <b>ID2D1Mesh</b>  to represent a set of vertices that form a list of triangles.  
 
-
-```cpp
- ID2D1GeometrySink *pGeometrySink = NULL;
- hr = pPathGeometry->Open(&pGeometrySink);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> ID2D1GeometrySink *pGeometrySink = NULL;
+ hr = pPathGeometry-&gt;Open(&amp;pGeometrySink);
  if (SUCCEEDED(hr))
  {
-     hr = pGeometry->Widen(
+     hr = pGeometry-&gt;Widen(
              strokeWidth,
              pIStrokeStyle,
              pWorldTransform,
@@ -109,42 +113,42 @@ The following code example shows how to use <b>ID2D1Mesh</b>  to represent a set
 
      if (SUCCEEDED(hr))
      {
-         hr = pGeometrySink->Close();
+         hr = pGeometrySink-&gt;Close();
          if (SUCCEEDED(hr))
          {
              ID2D1Mesh *pMesh = NULL;
-             hr = m_pRT->CreateMesh(&pMesh);
+             hr = m_pRT-&gt;CreateMesh(&amp;pMesh);
              if (SUCCEEDED(hr))
              {
                  ID2D1TessellationSink *pSink = NULL;
-                 hr = pMesh->Open(&pSink);
+                 hr = pMesh-&gt;Open(&amp;pSink);
                  if (SUCCEEDED(hr))
                  {
-                     hr = pPathGeometry->Tessellate(
+                     hr = pPathGeometry-&gt;Tessellate(
                              NULL, // world transform (already handled in Widen)
                              pSink
                              );
                      if (SUCCEEDED(hr))
                      {
-                         hr = pSink->Close();
+                         hr = pSink-&gt;Close();
                          if (SUCCEEDED(hr))
                          {
-                             SafeReplace(&m_pStrokeMesh, pMesh);
+                             SafeReplace(&amp;m_pStrokeMesh, pMesh);
                          }
                      }
-                     pSink->Release();
+                     pSink-&gt;Release();
                  }
-                 pMesh->Release();
+                 pMesh-&gt;Release();
              }
          }
      }
-     pGeometrySink->Release();
+     pGeometrySink-&gt;Release();
  }
- pPathGeometry->Release();
-
-```
-
-
+ pPathGeometry-&gt;Release();
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 

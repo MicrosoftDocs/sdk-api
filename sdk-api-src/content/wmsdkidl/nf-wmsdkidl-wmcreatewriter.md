@@ -68,7 +68,7 @@ Pointer to an <b>IUnknown</b> interface. This value is not used and should be se
 
 ### -param ppWriter [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter</a> interface of the newly created writer object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter</a> interface of the newly created writer object.
 
 
 ## -returns

@@ -138,7 +138,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404776(v=VS.85).aspx">XMVector3ProjectStream</a>
+<a href="https://msdn.microsoft.com/e1b563cd-c6fa-455b-9c43-53983a40447d">XMVector3ProjectStream</a>
  
 
  

@@ -83,19 +83,23 @@ Returns a vector each of whose components are the logical AND of the correspondi
 
 The following pseudocode demonstrates the operation of the function:
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
-```
-XMVECTOR Result;
+Result.x = V1.x &amp; V2.x;
+Result.y = V1.y &amp; V2.y;
+Result.z = V1.z &amp; V2.z;
+Result.w = V1.w &amp; V2.w;
 
-Result.x = V1.x & V2.x;
-Result.y = V1.y & V2.y;
-Result.z = V1.z & V2.z;
-Result.w = V1.w & V2.w;
-
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
@@ -111,7 +115,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420993(v=VS.85).aspx">XMVectorAndCInt</a>
+<a href="https://msdn.microsoft.com/e7c78708-1261-4907-9fbe-3226b587ed57">XMVectorAndCInt</a>
  
 
  

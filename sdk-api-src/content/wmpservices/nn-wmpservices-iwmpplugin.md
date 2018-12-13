@@ -75,7 +75,7 @@ The <b>IWMPPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563599(v=VS.85).aspx">AdviseWMPServices</a>
+<a href="https://msdn.microsoft.com/203b9363-1363-48be-8ba6-8b152ae9a92f">AdviseWMPServices</a>
 </td>
 <td align="left" width="63%">
 Receives a pointer to a Windows Media Player interface that contains methods that provide stream state information.
@@ -84,7 +84,7 @@ Receives a pointer to a Windows Media Player interface that contains methods tha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563618(v=VS.85).aspx">GetCaps</a>
+<a href="https://msdn.microsoft.com/f8b38453-47a3-4330-88f8-8d8993089f75">GetCaps</a>
 </td>
 <td align="left" width="63%">
 Sets a value that specifies whether the plug-in requires the input format and output format to be identical.
@@ -93,7 +93,7 @@ Sets a value that specifies whether the plug-in requires the input format and ou
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563621(v=VS.85).aspx">GetID</a>
+<a href="https://msdn.microsoft.com/883b6e19-5d1a-4ad9-882b-953772e8e11a">GetID</a>
 </td>
 <td align="left" width="63%">
 Returns the Class ID of the plug-in.
@@ -102,7 +102,7 @@ Returns the Class ID of the plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563623(v=VS.85).aspx">Init</a>
+<a href="https://msdn.microsoft.com/812752d5-4d4b-4d8d-86a7-c7a9daa092e5">Init</a>
 </td>
 <td align="left" width="63%">
 Receives a playback context identifier.
@@ -111,7 +111,7 @@ Receives a playback context identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563625(v=VS.85).aspx">Shutdown</a>
+<a href="https://msdn.microsoft.com/80a8fe19-3660-49cb-8bbb-0267b3f11b63">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Executes when Windows Media Player shuts down the plug-in.
@@ -120,7 +120,7 @@ Executes when Windows Media Player shuts down the plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563627(v=VS.85).aspx">UnAdviseWMPServices</a>
+<a href="https://msdn.microsoft.com/377a6853-94fb-4467-a893-508b56637a16">UnAdviseWMPServices</a>
 </td>
 <td align="left" width="63%">
 Executes when Windows Media Player releases the pointer provided in <b>AdviseWMPServices</b>.

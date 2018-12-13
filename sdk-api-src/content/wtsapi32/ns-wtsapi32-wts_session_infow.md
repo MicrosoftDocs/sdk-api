@@ -4,7 +4,7 @@ title: WTS_SESSION_INFOW
 author: windows-sdk-content
 description: Contains information about a client session on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_session_info_str.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: bb40d928-293a-4e2c-b7cf-2ac038da53c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

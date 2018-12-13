@@ -184,7 +184,7 @@ In most scenarios, the duplicate object is an exact copy of the original object,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
 
 
 

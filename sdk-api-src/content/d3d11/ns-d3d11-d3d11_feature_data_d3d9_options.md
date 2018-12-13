@@ -60,7 +60,7 @@ req.redist:
 
 ### -field FullNonPow2TextureSupport
 
-Specifies whether the driver supports the nonpowers-of-2-unconditionally feature. For more information about this feature, see <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a>. The runtime sets this member to <b>TRUE</b> for hardware at Direct3D 10 and higher feature levels.  For hardware at Direct3D 9.3 and lower feature levels, the runtime sets this member to <b>FALSE</b> if the hardware and driver support the powers-of-2 (2D textures must have widths and heights specified as powers of two) feature or the nonpowers-of-2-conditionally feature. For more information about this feature, see feature level.
+Specifies whether the driver supports the nonpowers-of-2-unconditionally feature. For more information about this feature, see <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a>. The runtime sets this member to <b>TRUE</b> for hardware at Direct3D 10 and higher feature levels.  For hardware at Direct3D 9.3 and lower feature levels, the runtime sets this member to <b>FALSE</b> if the hardware and driver support the powers-of-2 (2D textures must have widths and heights specified as powers of two) feature or the nonpowers-of-2-conditionally feature. For more information about this feature, see feature level.
 
 
 ## -see-also

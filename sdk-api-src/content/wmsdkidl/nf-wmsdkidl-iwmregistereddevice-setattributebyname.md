@@ -105,11 +105,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743632(v=VS.85).aspx">IWMRegisteredDevice::GetAttributeByName</a>
+<a href="https://msdn.microsoft.com/e74bd544-295d-4e83-8804-5a99d7efdbb8">IWMRegisteredDevice::GetAttributeByName</a>
  
 
  

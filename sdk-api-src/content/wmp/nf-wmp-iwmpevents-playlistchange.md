@@ -95,11 +95,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564880(v=VS.85).aspx">WMPPlaylistChangeEventType</a>
+<a href="https://msdn.microsoft.com/ebddaf22-9052-4180-9cc4-75059f9d286c">WMPPlaylistChangeEventType</a>
  
 
  

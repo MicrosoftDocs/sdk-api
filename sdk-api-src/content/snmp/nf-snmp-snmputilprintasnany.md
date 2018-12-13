@@ -64,7 +64,7 @@ The
 ### -param pAny [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377952(v=VS.85).aspx">AsnAny</a> structure for a value to print.
+<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a> structure for a value to print.
 
 
 ## -returns
@@ -91,7 +91,7 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377952(v=VS.85).aspx">AsnAny</a>
+<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a>
 
 
 

@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>HandleGraphEvent</b> method is called by the 
-<a href="https://msdn.microsoft.com/en-us/library/ms726561(v=VS.85).aspx">DispatchGraphEvent</a> static method to let the call object instance handle the event. It asks the filter graph for the event code and parameters, and queues an asynchronous work item on the global worker thread object, which will result in the <b>AsyncMultiGraphEvent</b> function (as defined in MSPCall.h) being executed on the worker thread. This is to allow the thread pool thread to return as quickly as possible, preventing an event storm from DirectShow's manual reset event.
+<a href="https://msdn.microsoft.com/3f6f9145-1968-4067-936e-918f43ccbbcc">DispatchGraphEvent</a> static method to let the call object instance handle the event. It asks the filter graph for the event code and parameters, and queues an asynchronous work item on the global worker thread object, which will result in the <b>AsyncMultiGraphEvent</b> function (as defined in MSPCall.h) being executed on the worker thread. This is to allow the thread pool thread to return as quickly as possible, preventing an event storm from DirectShow's manual reset event.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Contains pointer to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a>
+<a href="https://msdn.microsoft.com/86512d40-380b-4e98-840d-b7be99a86623">CMSPCallMultiGraph</a>
  
 
  

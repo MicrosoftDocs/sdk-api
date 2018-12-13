@@ -61,7 +61,7 @@ The <b>IMSVidDeviceEvent</b> interface is the base interface for device events. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidDeviceEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMSVidDeviceEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidDeviceEvent</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMSVidDeviceEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IMSVidDeviceEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694523(v=VS.85).aspx">StateChange</a>
+<a href="https://msdn.microsoft.com/0f7a5e37-5a0d-415e-aca0-df5f9448b017">StateChange</a>
 </td>
 <td align="left" width="63%">
 Signals that the state of the device has changed.

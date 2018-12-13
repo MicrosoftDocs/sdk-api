@@ -4,7 +4,7 @@ title: ImagehlpApiVersionEx function
 author: windows-sdk-content
 description: Modifies the version information of the library used by the application.
 old-location: base\imagehlpapiversionex.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 86a26160-ebad-4d6e-b559-3d59f2beb5ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

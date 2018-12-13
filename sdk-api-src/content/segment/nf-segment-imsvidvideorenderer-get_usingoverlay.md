@@ -100,7 +100,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694756(v=VS.85).aspx">IMSVidVideoRenderer::put_UsingOverlay</a>
+<a href="https://msdn.microsoft.com/ee7a5c92-bdae-4b67-9b2b-5fb4ae3a8fd7">IMSVidVideoRenderer::put_UsingOverlay</a>
  
 
  

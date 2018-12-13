@@ -80,11 +80,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319704(v=VS.85).aspx">IAMNetShowConfig::get_HTTPProxyHost</a>
+<a href="https://msdn.microsoft.com/d73aefda-2c51-466a-b590-c8f189db4719">IAMNetShowConfig::get_HTTPProxyHost</a>
  
 
  

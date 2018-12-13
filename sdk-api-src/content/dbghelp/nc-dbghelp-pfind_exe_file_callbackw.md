@@ -4,7 +4,7 @@ title: PFIND_EXE_FILE_CALLBACKW
 author: windows-sdk-content
 description: An application-defined callback function used with the FindExecutableImageEx function. It verifies whether the executable file found by FindExecutableImageEx is the correct executable file.
 old-location: base\findexecutableimageproc.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: cbd8cd63-8fdb-4314-8737-9f934de74f89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

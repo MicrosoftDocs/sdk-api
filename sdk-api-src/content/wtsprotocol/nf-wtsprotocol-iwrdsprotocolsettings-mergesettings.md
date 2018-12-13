@@ -4,7 +4,7 @@ title: IWRdsProtocolSettings::MergeSettings
 author: windows-sdk-content
 description: Adds (merges) the specified policy-related settings into the larger group of connection settings.
 old-location: termserv\iwrdsprotocolsettings_mergesettings.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: fa05bcde-e4db-481b-88ab-57d070153517
 ms.author: windowssdkdev
 ms.date: 12/5/2018

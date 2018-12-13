@@ -74,7 +74,7 @@ The <b>IVMRSurfaceAllocatorNotify9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390509(v=VS.85).aspx">AdviseSurfaceAllocator</a>
+<a href="https://msdn.microsoft.com/99f9c549-e4b1-480b-97a4-7a29c9cdb649">AdviseSurfaceAllocator</a>
 </td>
 <td align="left" width="63%">
 Called by an application to instruct the VMR to use a custom allocator-presenter.
@@ -83,7 +83,7 @@ Called by an application to instruct the VMR to use a custom allocator-presenter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390510(v=VS.85).aspx">AllocateSurfaceHelper</a>
+<a href="https://msdn.microsoft.com/b69db9e9-6ab0-40ad-b929-30613c0b9e4b">AllocateSurfaceHelper</a>
 </td>
 <td align="left" width="63%">
 Allocates a Direct3D surface based on specified parameters.
@@ -92,7 +92,7 @@ Allocates a Direct3D surface based on specified parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390511(v=VS.85).aspx">ChangeD3DDevice</a>
+<a href="https://msdn.microsoft.com/42199bdf-0cee-4dd0-98bc-66a8334b743b">ChangeD3DDevice</a>
 </td>
 <td align="left" width="63%">
 Notifies the VMR that the Direct3D playback device has changed.
@@ -101,7 +101,7 @@ Notifies the VMR that the Direct3D playback device has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390512(v=VS.85).aspx">NotifyEvent</a>
+<a href="https://msdn.microsoft.com/04c92e0f-9f6e-484c-96cd-3567c09a2ff6">NotifyEvent</a>
 </td>
 <td align="left" width="63%">
 Called by the allocator-presenter to inform the VMR of any significant DirectShow events during the allocation or presentation processes.
@@ -110,7 +110,7 @@ Called by the allocator-presenter to inform the VMR of any significant DirectSho
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390513(v=VS.85).aspx">SetD3DDevice</a>
+<a href="https://msdn.microsoft.com/f13fd7f4-03b3-4e10-9fe8-b81470b37253">SetD3DDevice</a>
 </td>
 <td align="left" width="63%">
 Sets the initial Direct3D device and monitor to be used for video playback.

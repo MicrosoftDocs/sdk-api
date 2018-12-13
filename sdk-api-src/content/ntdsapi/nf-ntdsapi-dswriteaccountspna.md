@@ -69,7 +69,7 @@ Contains a directory service handle obtained from either the
 
 ### -param Operation [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms676288(v=VS.85).aspx">DS_SPN_WRITE_OP</a> values that specifies the operation that <b>DsWriteAccountSpn</b> will perform.
+Contains one of the <a href="https://msdn.microsoft.com/8367bdaf-3d8d-46b3-9d03-b9753e8e5a1a">DS_SPN_WRITE_OP</a> values that specifies the operation that <b>DsWriteAccountSpn</b> will perform.
 
 
 ### -param pszAccount [in]
@@ -150,7 +150,7 @@ On user accounts there is no "Validated SPN" property or "Write SPN" right.  Rat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676288(v=VS.85).aspx">DS_SPN_WRITE_OP</a>
+<a href="https://msdn.microsoft.com/8367bdaf-3d8d-46b3-9d03-b9753e8e5a1a">DS_SPN_WRITE_OP</a>
 
 
 

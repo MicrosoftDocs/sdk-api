@@ -113,11 +113,11 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743514(v=VS.85).aspx">IWMReaderNetworkConfig2::SetAutoReconnectLimit</a>
+<a href="https://msdn.microsoft.com/0ef6bb5c-6369-4b80-a227-da790b1ab6da">IWMReaderNetworkConfig2::SetAutoReconnectLimit</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Write a value of a given <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a> to XML according to the <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a>.
+Write a value of a given <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> to XML according to the <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a>.
             
 
 
@@ -80,14 +80,14 @@ The type of the value to serialize.
 ### -param typeDescription [in, optional]
 
 Additional information about the type.  Each type has a different description
-                    structure.  This may be <b>NULL</b>, depending on the <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a>.
+                    structure.  This may be <b>NULL</b>, depending on the <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>.
                 
 
 
 ### -param writeOption [in]
 
 Whether the value is required, and how the value is allocated.
-                    See <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for more information.
                 
 
 This parameter must have one of the following values:
@@ -95,10 +95,10 @@ This parameter must have one of the following values:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_REQUIRED_VALUE</a>.
+<a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_REQUIRED_VALUE</a>.
                     </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_REQUIRED_POINTER</a>.
+<a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_REQUIRED_POINTER</a>.
                 </li>
 </ul>
 
@@ -185,7 +185,7 @@ This function may return other errors not listed above.
 
 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> for how to use this function to write values in elements and attributes.                
+See <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> for how to use this function to write values in elements and attributes.                
             
 
 If the API fails, the state of input writer becomes undefined. The only APIs that may be used on the writer

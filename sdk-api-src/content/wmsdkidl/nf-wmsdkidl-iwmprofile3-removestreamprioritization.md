@@ -110,15 +110,15 @@ No stream prioritization object exists in the profile.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757380(v=VS.85).aspx">IWMProfile3::GetStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/09545c1e-8090-4526-9faf-6cb2cb369208">IWMProfile3::GetStreamPrioritization</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757384(v=VS.85).aspx">IWMProfile3::SetStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/16dfb205-2a0b-4dc8-a8f2-8981534018f1">IWMProfile3::SetStreamPrioritization</a>
  
 
  

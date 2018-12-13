@@ -63,7 +63,7 @@ Returns a new iterator (archive cursor) for the archive of outbound fax messages
 
 Type: <b>long</b>
 
-<b>long</b> value that indicates the size of the prefetch buffer. This value determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms689196(v=VS.85).aspx">lDEFAULT_PREFETCH_SIZE</a>.
+<b>long</b> value that indicates the size of the prefetch buffer. This value determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents. The default value is <a href="https://msdn.microsoft.com/447a730c-6033-46ab-9d90-0aad1aa4a429">lDEFAULT_PREFETCH_SIZE</a>.
 
 
 ### -param pFaxOutgoingMessageIterator
@@ -77,7 +77,7 @@ TBD
 
 Type: <b>IFaxOutgoingMessageIterator2**</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a> object.
+A <a href="https://msdn.microsoft.com/4eab8319-23ff-4f25-9402-bcb53a440879">FaxOutgoingMessageIterator</a> object.
 
 
 ## -returns
@@ -96,15 +96,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358948(v=VS.85).aspx">FaxAccountOutgoingArchive</a>
+<a href="https://msdn.microsoft.com/21ed0cc8-23a3-4ac1-853f-8f7d004cf843">FaxAccountOutgoingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a>
+<a href="https://msdn.microsoft.com/4eab8319-23ff-4f25-9402-bcb53a440879">FaxOutgoingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359025(v=VS.85).aspx">IFaxAccountOutgoingArchive</a>
+<a href="https://msdn.microsoft.com/cd2441ba-ed29-4ba5-b3f7-804fbca4d421">IFaxAccountOutgoingArchive</a>
  
 
  

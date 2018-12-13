@@ -63,7 +63,7 @@ Retrieves information about changes  to the specified areas of a virtual hard di
 A handle to the open VHD, which must have been opened using the 
       <b>VIRTUAL_DISK_ACCESS_GET_INFO</b> flag set in the 
       <i>VirtualDiskAccessMask</i> parameter to the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function. For information on how to 
+      <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a> function. For information on how to 
       open a VHD, see the <b>OpenVirtualDisk</b> function.
 
 
@@ -89,12 +89,12 @@ Reserved. Set to <b>QUERY_CHANGES_VIRTUAL_DISK_FLAG_NONE</b>.
 
 ### -param Ranges [out]
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Mt162231(v=VS.85).aspx">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a> structures that indicates the areas of the virtual disk within the area that the <i>ByteOffset</i> and <i>ByteLength</i> parameters specify that have changed since the change tracking identifier that the <i>ChangeTrackingId</i>  parameter specifies was sealed.
+An array of <a href="https://msdn.microsoft.com/9DA53F46-AE1E-425B-BA50-05DC4A327F75">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a> structures that indicates the areas of the virtual disk within the area that the <i>ByteOffset</i> and <i>ByteLength</i> parameters specify that have changed since the change tracking identifier that the <i>ChangeTrackingId</i>  parameter specifies was sealed.
 
 
 ### -param RangeCount [in, out]
 
-An address of an unsigned long integer. On input, the value indicates the number of <a href="https://msdn.microsoft.com/en-us/library/Mt162231(v=VS.85).aspx">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a> structures that the array that the <i>Ranges</i> parameter points to can hold. On output, the value contains the number of <b>QUERY_CHANGES_VIRTUAL_DISK_RANGE</b> structures that the method placed in the array.
+An address of an unsigned long integer. On input, the value indicates the number of <a href="https://msdn.microsoft.com/9DA53F46-AE1E-425B-BA50-05DC4A327F75">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a> structures that the array that the <i>Ranges</i> parameter points to can hold. On output, the value contains the number of <b>QUERY_CHANGES_VIRTUAL_DISK_RANGE</b> structures that the method placed in the array.
 
 
 ### -param ProcessedLength [out]
@@ -126,7 +126,7 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt162231(v=VS.85).aspx">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a>
+<a href="https://msdn.microsoft.com/9DA53F46-AE1E-425B-BA50-05DC4A327F75">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a>
 
 
 

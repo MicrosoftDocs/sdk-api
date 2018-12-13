@@ -120,15 +120,15 @@ The <i>pwszDescription</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757402(v=VS.85).aspx">IWMProfile::GetDescription</a>
+<a href="https://msdn.microsoft.com/fa680ddb-091b-4461-8979-9330f8d59cea">IWMProfile::GetDescription</a>
  
 
  

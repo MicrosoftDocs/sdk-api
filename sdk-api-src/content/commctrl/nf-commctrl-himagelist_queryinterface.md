@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761490(v=VS.85).aspx">IImageList</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb761419(v=VS.85).aspx">IImageList2</a> object that corresponds to the image list's HIMAGELIST handle.
+Retrieves a pointer to an <a href="https://msdn.microsoft.com/02e397a4-22fa-49fb-8103-376aa5ebc77a">IImageList</a> or <a href="https://msdn.microsoft.com/950CA48D-A1DB-448D-B2A0-BCBD17FAC316">IImageList2</a> object that corresponds to the image list's HIMAGELIST handle.
 
 
 ## -parameters

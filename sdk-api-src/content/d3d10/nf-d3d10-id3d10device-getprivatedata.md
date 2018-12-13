@@ -84,9 +84,9 @@ Pointer to the data stored with the device. If pData is <b>NULL</b>, DataSize mu
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,7 +95,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-The data stored in the device is set with <a href="https://msdn.microsoft.com/en-us/library/Bb173616(v=VS.85).aspx">ID3D10Device::SetPrivateData</a>. 
+The data stored in the device is set with <a href="https://msdn.microsoft.com/1fc318f0-feeb-4aac-91e8-ee9e4d785f40">ID3D10Device::SetPrivateData</a>. 
 
 The data retrieved and the guid will typically be application-defined.
 
@@ -107,7 +107,7 @@ The data retrieved and the guid will typically be application-defined.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

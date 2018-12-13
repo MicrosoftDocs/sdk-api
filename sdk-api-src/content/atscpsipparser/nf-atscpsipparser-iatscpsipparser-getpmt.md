@@ -76,7 +76,7 @@ Optional pointer to a variable that contains a table program number. You can use
 
 ### -param ppPMT [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT</a> interface pointer. The caller must release the interface.
+Receives an <a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns

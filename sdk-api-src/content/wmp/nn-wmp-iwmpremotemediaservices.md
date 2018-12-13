@@ -73,7 +73,7 @@ The <b>IWMPRemoteMediaServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563635(v=VS.85).aspx">GetApplicationName</a>
+<a href="https://msdn.microsoft.com/b3a210f9-90ea-4a6e-8aab-9e8cd7e21ab6">GetApplicationName</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to retrieve the name of the program that is hosting the remoted control.
@@ -82,7 +82,7 @@ Called by Windows Media Player to retrieve the name of the program that is hosti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563636(v=VS.85).aspx">GetCustomUIMode</a>
+<a href="https://msdn.microsoft.com/892c2513-9ca2-48fe-b745-0fdc0f445871">GetCustomUIMode</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to retrieve the location of a skin file to apply to the Player control.
@@ -91,7 +91,7 @@ Called by Windows Media Player to retrieve the location of a skin file to apply 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563637(v=VS.85).aspx">GetScriptableObject</a>
+<a href="https://msdn.microsoft.com/c2e313fd-cbf6-4b0f-8eb0-1097af53e77a">GetScriptableObject</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to retrieve a name and interface pointer for an object that can be called from the script code within a skin.
@@ -100,7 +100,7 @@ Called by Windows Media Player to retrieve a name and interface pointer for an o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563638(v=VS.85).aspx">GetServiceType</a>
+<a href="https://msdn.microsoft.com/866e7ee7-5df1-4e6b-8b41-85c6ff8b64d5">GetServiceType</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to determine whether a host program wants to run its embedded control remotely.

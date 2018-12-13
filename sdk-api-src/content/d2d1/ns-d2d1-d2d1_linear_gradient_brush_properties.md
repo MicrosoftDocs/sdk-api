@@ -76,36 +76,40 @@ In the brush's coordinate space, the endpoint  of the gradient axis.
 
 
 
-Use this method when creating new <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a> objects with the <a href="https://msdn.microsoft.com/en-us/library/Dd742783(v=VS.85).aspx">CreateLinearGradientBrush</a> method. For convenience, Direct2D provides the <a href="https://msdn.microsoft.com/dba59936-2b2d-4a9b-aba4-acb6ff84c037">D2D1::LinearGradientBrushProperties</a> helper function for creating new <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structures.
+Use this method when creating new <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a> objects with the <a href="https://msdn.microsoft.com/dc07113f-ff93-4b0f-8328-02dd481dccb0">CreateLinearGradientBrush</a> method. For convenience, Direct2D provides the <a href="https://msdn.microsoft.com/dba59936-2b2d-4a9b-aba4-acb6ff84c037">D2D1::LinearGradientBrushProperties</a> helper function for creating new <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structures.
 
 The following illustration shows how a linear gradient changes as you change its start and end points.  For the first gradient, the start point is set to (0,0) and the end point to (150, 50); this creates a diagonal gradient that starts at the upper-left corner and extends to the lower-right corner of the area being painted. When you set the start point to (0, 25) and the end point to (150, 25), a horizontal gradient is created. Similarly, setting the start point  to (75, 0) and the end point to (75, 50) creates a vertical gradient. Setting the start point to  (0, 50) and the end point to (150, 0)  creates a diagonal gradient that starts at the lower-left corner and extends to the upper-right corner of the area being painted.
 
-<img alt="Illustration of four gradients with different axes" src="./images/Linear_Gradients.png"/>
+<img alt="Illustration of four gradients with different axes" src="images/Linear_Gradients.png"/>
 
 
 #### Examples
 
-The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742783(v=VS.85).aspx">CreateLinearGradientBrush</a> method to create an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a> (<i>m_pLinearGradientBrush</i>). It uses the <a href="https://msdn.microsoft.com/dba59936-2b2d-4a9b-aba4-acb6ff84c037">D2D1::LinearGradientBrushProperties</a> helper method to create a <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structure that contains a start point of (0, 0) and and end point of (150, 150) and passes it to the  <b>CreateLinearGradientBrush</b> method.
+The following example uses the <a href="https://msdn.microsoft.com/dc07113f-ff93-4b0f-8328-02dd481dccb0">CreateLinearGradientBrush</a> method to create an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a> (<i>m_pLinearGradientBrush</i>). It uses the <a href="https://msdn.microsoft.com/dba59936-2b2d-4a9b-aba4-acb6ff84c037">D2D1::LinearGradientBrushProperties</a> helper method to create a <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structure that contains a start point of (0, 0) and and end point of (150, 150) and passes it to the  <b>CreateLinearGradientBrush</b> method.
 
-
-```cpp
-// The line that determines the direction of the gradient starts at
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The line that determines the direction of the gradient starts at
 // the upper-left corner of the square and ends at the lower-right corner.
 
 if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget->CreateLinearGradientBrush(
+    hr = m_pRenderTarget-&gt;CreateLinearGradientBrush(
         D2D1::LinearGradientBrushProperties(
             D2D1::Point2F(0, 0),
             D2D1::Point2F(150, 150)),
         pGradientStops,
-        &m_pLinearGradientBrush
+        &amp;m_pLinearGradientBrush
         );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For more information about creating and using linear gradient brushes, see 
         the <a href="https://msdn.microsoft.com/3cf5acc6-2f17-49d4-aca5-a84a846d1749">How to Create a Linear Gradient Brush</a> topic and 
         the <a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>.

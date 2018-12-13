@@ -69,12 +69,12 @@ Zero-based index of an output stream on the DMO.
 
 ### -param pmt [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx">DMO_MEDIA_TYPE</a> structure that specifies the media type.
+Pointer to a <a href="https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98">DMO_MEDIA_TYPE</a> structure that specifies the media type.
 
 
 ### -param dwFlags
 
-Bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd375514(v=VS.85).aspx">DMO_SET_TYPE_FLAGS</a> enumeration.
+Bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/e0638668-bbd2-4696-8482-d72438510740">DMO_SET_TYPE_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -159,7 +159,7 @@ The media types that are currently set on other streams can affect whether the m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
  
 
  

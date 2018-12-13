@@ -4,7 +4,7 @@ title: MINIDUMP_THREAD
 author: windows-sdk-content
 description: Contains information for a specific thread.
 old-location: base\minidump_thread_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 07d4ba98-e74d-4f50-9afa-d09d93da3d6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

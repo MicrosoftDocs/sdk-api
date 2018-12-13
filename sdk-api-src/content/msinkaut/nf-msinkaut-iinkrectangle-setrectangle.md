@@ -150,7 +150,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
+<a href="https://msdn.microsoft.com/9E438012-0991-46AA-8D0F-2C561F523EC2">IInkRectangle</a>
 
 
 

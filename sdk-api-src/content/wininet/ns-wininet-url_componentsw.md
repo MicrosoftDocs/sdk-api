@@ -80,7 +80,7 @@ Size of the scheme name, in <b>TCHARs</b>.
 ### -field nScheme
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385149(v=VS.85).aspx">INTERNET_SCHEME</a> value that indicates the Internet protocol scheme. 
+<a href="https://msdn.microsoft.com/640d0b62-a44f-4115-be27-9976da4bc73a">INTERNET_SCHEME</a> value that indicates the Internet protocol scheme. 
 
 
 ### -field lpszHostName

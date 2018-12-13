@@ -4,7 +4,7 @@ title: SymFromAddr function
 author: windows-sdk-content
 description: Retrieves symbol information for the specified address.
 old-location: base\symfromaddr.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 20338631-19ab-4ad8-9ba2-56fa4812b33e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -88,7 +88,7 @@ The elapsed time is stored as a <b>DWORD</b> value. Therefore, the time will wra
 
 If you need a higher resolution timer, use a 
 <a href="https://msdn.microsoft.com/25e0b313-64ff-4f30-ae0a-ac364ce3f0cf">multimedia timer</a> or a 
-<a href="https://msdn.microsoft.com/library/ms644900(v=VS.85).aspx">high-resolution timer</a>.
+<a href="_win32_about_timers_cpp">high-resolution timer</a>.
 
 To obtain the time elapsed since the computer was started, retrieve the System Up Time counter in the performance data in the registry key <b>HKEY_PERFORMANCE_DATA</b>. The value returned is an 8-byte value. For more information, see 
 <a href="https://msdn.microsoft.com/9dcb7e84-a7d6-43b5-8fe9-4e33d683c74c">Performance Counters</a>. 

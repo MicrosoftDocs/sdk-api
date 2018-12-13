@@ -109,19 +109,19 @@ To use this method, read access to the library is required. For more information
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563080(v=VS.85).aspx">IWMPCdromInterface</a>
+<a href="https://msdn.microsoft.com/323a6841-ffbd-4bbb-ac04-1d121cf5bd06">IWMPCdromInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563235(v=VS.85).aspx">IWMPCore::get_playState</a>
+<a href="https://msdn.microsoft.com/cadac1c6-fff6-44aa-a6ce-2b2f69da2d78">IWMPCore::get_playState</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563651(v=VS.85).aspx">IWMPSettings2::get_mediaAccessRights</a>
+<a href="https://msdn.microsoft.com/07ca80a3-5175-4b1f-b83c-0df41a010cbf">IWMPSettings2::get_mediaAccessRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563652(v=VS.85).aspx">IWMPSettings2::requestMediaAccessRights</a>
+<a href="https://msdn.microsoft.com/925a4c0b-d613-4248-a341-bfc51d02cb85">IWMPSettings2::requestMediaAccessRights</a>
  
 
  

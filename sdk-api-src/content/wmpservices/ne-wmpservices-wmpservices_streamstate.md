@@ -85,7 +85,7 @@ The stream is playing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563643(v=VS.85).aspx">IWMPServices::GetStreamState</a>
+<a href="https://msdn.microsoft.com/1a73ea54-45ce-47ff-b551-10aab2798420">IWMPServices::GetStreamState</a>
  
 
  

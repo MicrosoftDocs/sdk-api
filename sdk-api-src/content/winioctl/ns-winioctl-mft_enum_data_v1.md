@@ -107,7 +107,7 @@ Indicates the maximum supported major version for the USN change journal.
 </td>
 <td width="60%">
 The data returned from the <a href="https://msdn.microsoft.com/44d20401-a2ed-4756-9fda-878a24eab7c3">FSCTL_ENUM_USN_DATA</a> 
-        control code will contain <a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD_V2</a> 
+        control code will contain <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a> 
         structures.
 
 </td>
@@ -120,7 +120,7 @@ The data returned from the <a href="https://msdn.microsoft.com/44d20401-a2ed-475
 </td>
 <td width="60%">
 The data returned from the <a href="https://msdn.microsoft.com/44d20401-a2ed-4756-9fda-878a24eab7c3">FSCTL_ENUM_USN_DATA</a> 
-        control code will contain <a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD_V2</a> or <a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a> structures.
+        control code will contain <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a> or <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a> structures.
 
 </td>
 </tr>

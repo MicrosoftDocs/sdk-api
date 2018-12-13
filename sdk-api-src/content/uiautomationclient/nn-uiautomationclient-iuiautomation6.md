@@ -71,7 +71,7 @@ The <b>IUIAutomation6</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt830307(v=VS.85).aspx">AddActiveTextPositionChangedEventHandler</a>
+<a href="https://msdn.microsoft.com/05D46393-6B76-415A-A1F9-F28B5DAF2074">AddActiveTextPositionChangedEventHandler</a>
 </td>
 <td align="left" width="63%">
 Registers a method that handles when the active text position changes.
@@ -80,7 +80,7 @@ Registers a method that handles when the active text position changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt830308(v=VS.85).aspx">AddEventHandlerGroup</a>
+<a href="https://msdn.microsoft.com/8F131A7C-BC03-4967-9ED8-624086DEA112">AddEventHandlerGroup</a>
 </td>
 <td align="left" width="63%">
 Registers a collection of event handler methods specified with the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-createeventhandlergroup">CreateEventHandlerGroup</a>.
@@ -98,7 +98,7 @@ Registers a collection of event handler methods specified with the <a href="http
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt830312(v=VS.85).aspx">RemoveActiveTextPositionChangedEventHandler</a>
+<a href="https://msdn.microsoft.com/92A6E9BA-0B68-4890-90EE-16F4B0929340">RemoveActiveTextPositionChangedEventHandler</a>
 </td>
 <td align="left" width="63%">
 Removes an active text position changed event handler.
@@ -107,7 +107,7 @@ Removes an active text position changed event handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt830313(v=VS.85).aspx">RemoveEventHandlerGroup</a>
+<a href="https://msdn.microsoft.com/43BDE7F5-67DF-4DE5-AEDE-068421375E07">RemoveEventHandlerGroup</a>
 </td>
 <td align="left" width="63%">
 Asynchronously removes the specified UI Automation event handler group.
@@ -125,7 +125,7 @@ Asynchronously removes the specified UI Automation event handler group.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt830309(v=VS.85).aspx">CoalesceEvents</a>
+<a href="https://msdn.microsoft.com/44BBBE06-6A41-4DE7-8C1B-E277D3FCB545">CoalesceEvents</a>
 
 
 </td>
@@ -141,7 +141,7 @@ Gets or sets whether an accessible technology client receives all events, or a s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt830310(v=VS.85).aspx">ConnectionRecoveryBehavior</a>
+<a href="https://msdn.microsoft.com/09184E02-1007-4F49-8B03-97430CD6327E">ConnectionRecoveryBehavior</a>
 
 
 </td>

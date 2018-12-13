@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxInboundRoutingMethod::Refresh</b> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a> interface information from the fax server.
+The <b>IFaxInboundRoutingMethod::Refresh</b> method refreshes <a href="https://msdn.microsoft.com/ca33c439-24e7-4b85-8e29-a0a0176f0ae2">IFaxInboundRoutingMethod</a> interface information from the fax server.
 
 
 ## -parameters
@@ -76,9 +76,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When the <b>IFaxInboundRoutingMethod::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/ms684815(v=VS.85).aspx">IFaxInboundRoutingMethod::Save</a> method call are lost.
+When the <b>IFaxInboundRoutingMethod::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/7fd645f1-9162-46ea-89a9-0888d86ec187">IFaxInboundRoutingMethod::Save</a> method call are lost.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 
 
 
@@ -88,15 +88,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a>
+<a href="https://msdn.microsoft.com/8eb68201-4c87-41ce-a401-a039b5ad454d">FaxInboundRoutingMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a>
+<a href="https://msdn.microsoft.com/ca33c439-24e7-4b85-8e29-a0a0176f0ae2">IFaxInboundRoutingMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
  
 
  

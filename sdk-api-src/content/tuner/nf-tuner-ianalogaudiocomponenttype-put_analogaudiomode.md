@@ -63,7 +63,7 @@ The <b>put_AnalogAudioMode</b> method specifies the analog audio mode.
 
 ### -param Mode [in]
 
-Specifies the analog audio mode. This parameter is a variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd407240(v=VS.85).aspx">TVAudioMode</a>.
+Specifies the analog audio mode. This parameter is a variable of type <a href="https://msdn.microsoft.com/70e26550-0a8f-484e-b919-cfefdcf95f6b">TVAudioMode</a>.
 
 
 ## -returns

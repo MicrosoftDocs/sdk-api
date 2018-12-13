@@ -78,7 +78,7 @@ The <b>Enabled</b> property allows objects to be enabled or disabled at run time
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
 
 
 

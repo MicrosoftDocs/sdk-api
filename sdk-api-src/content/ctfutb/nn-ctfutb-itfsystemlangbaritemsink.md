@@ -121,7 +121,7 @@ A system language bar menu is an object on the language bar that supports menu i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

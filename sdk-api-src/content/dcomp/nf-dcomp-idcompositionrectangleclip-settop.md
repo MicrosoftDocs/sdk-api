@@ -98,7 +98,7 @@ If the Top property was previously animated, this method removes the animation a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx">IDCompositionRectangleClip</a>
+<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
  
 
  

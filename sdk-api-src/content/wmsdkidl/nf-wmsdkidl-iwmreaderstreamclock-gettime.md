@@ -113,11 +113,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743566(v=VS.85).aspx">IWMReaderStreamClock Interface</a>
+<a href="https://msdn.microsoft.com/0f170b6d-fd93-4bf8-8a98-f2a80f03b380">IWMReaderStreamClock Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743573(v=VS.85).aspx">IWMReaderStreamClock::SetTimer</a>
+<a href="https://msdn.microsoft.com/15d991e0-a271-4427-844f-5e4a9bbc6507">IWMReaderStreamClock::SetTimer</a>
  
 
  

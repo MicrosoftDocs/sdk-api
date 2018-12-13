@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize. Create a state object by calling <a href="https://msdn.microsoft.com/library/Mt830410(v=VS.85).aspx">ID3D12Device::CreateStateObject</a>. 
+Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize. Create a state object by calling <a href="direct3d12.id3d122device_createstateobject">ID3D12Device::CreateStateObject</a>. 
 
 
 ## -see-also

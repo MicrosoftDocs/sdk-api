@@ -90,7 +90,7 @@ This method returns the average time required to process each buffer. This value
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406939(v=VS.85).aspx">IMediaObjectInPlace Interface</a>
+<a href="https://msdn.microsoft.com/c2105141-6c5e-4edb-aa3b-3227ca223329">IMediaObjectInPlace Interface</a>
  
 
  

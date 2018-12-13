@@ -68,7 +68,7 @@ Sends a control code directly to a specified device driver, causing the correspo
 
 A handle to the device on which the operation is to be performed. The device is typically a volume, 
       directory, file, or stream. To retrieve a device handle, use the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. For more information, see 
+      <a href="base.createfile">CreateFile</a> function. For more information, see 
       Remarks.
 
 
@@ -140,7 +140,7 @@ If <i>lpOverlapped</i> is not <b>NULL</b>,
        <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>. If 
        <i>hDevice</i> is associated with an I/O completion port, you can retrieve the number of 
        bytes returned by calling 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a>.
+       <a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a>.
 
 
 ### -param lpOverlapped [in, out, optional]
@@ -179,19 +179,19 @@ If the operation fails or is pending, the return value is zero. To get extended 
 
 
 To retrieve a handle to the device, you must call the 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function with either the name of a device or 
+     <a href="base.createfile">CreateFile</a> function with either the name of a device or 
      the name of the driver associated with a device. To specify a device name, use the following format:
 
 \\.\<i>DeviceName</i>
 
 <b>DeviceIoControl</b> can accept a handle to a specific 
      device. For example, to open a handle to the logical drive A: with 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>, specify \\.\a:. Alternatively, you can use the 
+     <a href="base.createfile">CreateFile</a>, specify \\.\a:. Alternatively, you can use the 
      names \\.\PhysicalDrive0, \\.\PhysicalDrive1, and so on, to open handles to the physical drives on a system.
 
 You should specify the <b>FILE_SHARE_READ</b> and 
     <b>FILE_SHARE_WRITE</b> access flags when calling 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> to open a handle to a device driver. However, 
+    <a href="base.createfile">CreateFile</a> to open a handle to a device driver. However, 
     when you open a communications resource, such as a serial port, you must specify exclusive access. Use the other 
     <b>CreateFile</b> parameters as follows when opening a device 
     handle:
@@ -248,7 +248,7 @@ For an example that uses <b>DeviceIoControl</b>, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 
@@ -260,7 +260,7 @@ For an example that uses <b>DeviceIoControl</b>, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a>
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
 
 

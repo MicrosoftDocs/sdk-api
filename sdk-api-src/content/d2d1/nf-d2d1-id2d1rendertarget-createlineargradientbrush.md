@@ -98,7 +98,7 @@ Creates an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">CreateGradientStopCollection</a>
 
 
 

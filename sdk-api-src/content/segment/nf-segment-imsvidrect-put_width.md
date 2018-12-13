@@ -81,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694608(v=VS.85).aspx">IMSVidRect::get_Width</a>
+<a href="https://msdn.microsoft.com/7b1d07b8-41e4-44f8-8c28-377c7a9e463d">IMSVidRect::get_Width</a>
  
 
  

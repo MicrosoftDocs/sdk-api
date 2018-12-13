@@ -60,7 +60,7 @@ Creates a clip object that can be used to restrict the rendering of  a visual su
 
 ### -param clip [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx">IDCompositionRectangleClip</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>**</b>
 
 The new clip object. This parameter must not be NULL.
 
@@ -90,11 +90,11 @@ A newly created clip object has a static value of <a href=" http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449155(v=VS.85).aspx">IDCompositionVisual::SetClip</a>
+<a href="https://msdn.microsoft.com/ACEBA4F9-E1B0-459B-8DC2-272A822AB214">IDCompositionVisual::SetClip</a>
  
 
  

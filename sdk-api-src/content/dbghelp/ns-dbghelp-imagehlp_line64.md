@@ -4,7 +4,7 @@ title: IMAGEHLP_LINE64
 author: windows-sdk-content
 description: Represents a source file line.
 old-location: base\imagehlp_line64_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 62124983-8381-4eb4-94f6-220b844aca45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

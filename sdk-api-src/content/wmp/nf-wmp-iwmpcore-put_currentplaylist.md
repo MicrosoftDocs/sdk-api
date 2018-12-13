@@ -110,15 +110,15 @@ You can retrieve an <b>IWMPMedia</b> interface for a given media object by invok
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563228(v=VS.85).aspx">IWMPCore::get_currentPlaylist</a>
+<a href="https://msdn.microsoft.com/bb923325-67d2-4d73-b7ec-49e9b52cabba">IWMPCore::get_currentPlaylist</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
  
 
  

@@ -113,11 +113,11 @@ NULL or invalid argument passed in.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743541(v=VS.85).aspx">IWMReaderNetworkConfig::SetEnableHTTP</a>
+<a href="https://msdn.microsoft.com/20667a28-e6e0-4ec0-905b-6735291063db">IWMReaderNetworkConfig::SetEnableHTTP</a>
  
 
  

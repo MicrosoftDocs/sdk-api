@@ -83,22 +83,26 @@ Returns a vector. The 2D cross product is replicated into each component.
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-XMVECTOR Result;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
 Result.x = V1.x * V2.y - v1.y * V2.x;
 Result.y = V1.x * V2.y - v1.y * V2.x;
 Result.z = V1.x * V2.y - v1.y * V2.x;
 Result.w = V1.x * V2.y - v1.y * V2.x;
 
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 Note that a 'cross-product' in 2D is not well-defined. 
     This function computes a geometric cross-product often used in 2D graphics. 
-    <a href="https://msdn.microsoft.com/en-us/library/Ee420787(v=VS.85).aspx">XMVector2Orthogonal</a> is another possible interpretation of a 'cross-product' in 2D.
+    <a href="https://msdn.microsoft.com/8833c28c-3df3-4ffe-bc02-382e86e83bff">XMVector2Orthogonal</a> is another possible interpretation of a 'cross-product' in 2D.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.

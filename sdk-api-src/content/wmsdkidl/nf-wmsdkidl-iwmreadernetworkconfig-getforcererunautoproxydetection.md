@@ -112,7 +112,7 @@ NULL or invalid argument passed in.
 
 
 
-See the Remarks for <a href="https://msdn.microsoft.com/en-us/library/Dd743545(v=VS.85).aspx">SetForceRerunAutoProxyDetection</a>.
+See the Remarks for <a href="https://msdn.microsoft.com/3c84fc2a-5933-45da-a7a3-728a8837d851">SetForceRerunAutoProxyDetection</a>.
 
 
 
@@ -122,11 +122,11 @@ See the Remarks for <a href="https://msdn.microsoft.com/en-us/library/Dd743545(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743545(v=VS.85).aspx">IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection</a>
+<a href="https://msdn.microsoft.com/3c84fc2a-5933-45da-a7a3-728a8837d851">IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection</a>
  
 
  

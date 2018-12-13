@@ -66,7 +66,7 @@ The <b>GetTransportType</b> method retrieves the type of data communication prot
 
 ### -param pnTransportType [out]
 
-Pointer to a variable that receives one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757859(v=VS.85).aspx">WMT_TRANSPORT_TYPE</a> enumeration type.
+Pointer to a variable that receives one member of the <a href="https://msdn.microsoft.com/1d689487-f71b-4b27-928c-c55bd22579ed">WMT_TRANSPORT_TYPE</a> enumeration type.
 
 
 ## -returns
@@ -113,11 +113,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798553(v=VS.85).aspx">IWMStreamConfig2::SetTransportType</a>
+<a href="https://msdn.microsoft.com/89958c80-2140-49ab-b696-189e8f722e96">IWMStreamConfig2::SetTransportType</a>
  
 
  

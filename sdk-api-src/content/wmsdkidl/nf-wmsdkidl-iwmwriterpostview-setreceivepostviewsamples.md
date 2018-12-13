@@ -140,11 +140,11 @@ Stream does not support postview.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
+<a href="https://msdn.microsoft.com/1d24dbd6-86df-4a0a-8110-15f6a4c1f31d">IWMWriterPostView Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798779(v=VS.85).aspx">IWMWriterPostView::GetReceivePostViewSamples</a>
+<a href="https://msdn.microsoft.com/93120e68-2d1c-4628-8e2e-d22a56fa98a3">IWMWriterPostView::GetReceivePostViewSamples</a>
  
 
  

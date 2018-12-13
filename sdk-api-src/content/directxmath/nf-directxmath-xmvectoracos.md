@@ -93,15 +93,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420990(v=VS.85).aspx">XMVectorACosEst</a>
+<a href="https://msdn.microsoft.com/162da582-d82f-4c48-995f-3c3750ea8df1">XMVectorACosEst</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421009(v=VS.85).aspx">XMVectorCos</a>
+<a href="https://msdn.microsoft.com/87ccfa3f-4770-4fde-b575-80e39d509426">XMVectorCos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421010(v=VS.85).aspx">XMVectorCosEst</a>
+<a href="https://msdn.microsoft.com/8c7ee39d-76b5-476a-bfa0-ab77594e114c">XMVectorCosEst</a>
  
 
  

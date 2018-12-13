@@ -241,15 +241,15 @@ When using IPv6 addresses, they must be enclosed in brackets in
                     the host name portion.
                 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_HTTP_CHANNEL_BINDING</a>.
+For more information, see <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>.
                 
 
-For <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_UDP_CHANNEL_BINDING</a>, the path portion of the URL is
+For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_UDP_CHANNEL_BINDING</a>, the path portion of the URL is
                     ignored.  If a literal IP address is specified, then it is used to listen, otherwise
                     a wildcard IP address is used.
                 
 
-For <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_TCP_CHANNEL_BINDING</a>, the path portion of the URL is
+For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_TCP_CHANNEL_BINDING</a>, the path portion of the URL is
                     is matched as a prefix against the received URL.  
                     If a literal IP address is specified, then it is used to listen, 
                     otherwise a wildcard IP address is used.

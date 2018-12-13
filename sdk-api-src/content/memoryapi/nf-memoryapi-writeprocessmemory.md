@@ -4,7 +4,7 @@ title: WriteProcessMemory function
 author: windows-sdk-content
 description: Writes data to an area of memory in a specified process. The entire area to be written to must be accessible or the operation fails.
 old-location: base\writeprocessmemory.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 9cd91f1c-58ce-4adc-b027-45748543eb06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

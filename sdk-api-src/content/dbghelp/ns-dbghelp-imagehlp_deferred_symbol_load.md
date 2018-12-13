@@ -4,7 +4,7 @@ title: IMAGEHLP_DEFERRED_SYMBOL_LOAD
 author: windows-sdk-content
 description: Contains information about a deferred symbol load.
 old-location: base\imagehlp_deferred_symbol_load64_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 151c47dd-df4a-44c9-ad9f-1ffc80dd81e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

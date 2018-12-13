@@ -58,7 +58,7 @@ When message uses <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6f
             
 
 WsFlushBody is typically used when  channel I/O is set to 
-                <a href="https://msdn.microsoft.com/en-us/library/Dd323477(v=VS.85).aspx">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>, or when using an 
+                <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>, or when using an 
                 XML Writer  set to use <a href="https://msdn.microsoft.com/8ee4ea59-5cdc-43bf-80c0-8f8632fee274">WS_XML_WRITER_STREAM_OUTPUT</a>.
             
 
@@ -177,7 +177,7 @@ This function may return other errors not listed above.
 
 
 
-This function is a "no-op" when <a href="https://msdn.microsoft.com/en-us/library/Dd323477(v=VS.85).aspx">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or when using an
+This function is a "no-op" when <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or when using an
                 XML Writer with <a href="https://msdn.microsoft.com/46c0595c-9aa5-47cf-931a-8dc35e265fa0">WS_XML_WRITER_BUFFER_OUTPUT</a> set.
       
 

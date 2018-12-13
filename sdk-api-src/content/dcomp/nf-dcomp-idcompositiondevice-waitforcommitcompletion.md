@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Waits for the composition engine to finish processing the previous call to the <a href="https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx">IDCompositionDevice::Commit</a> method. 
+Waits for the composition engine to finish processing the previous call to the <a href="https://msdn.microsoft.com/49a6d33d-7454-44be-b8ca-602b247d4eab">IDCompositionDevice::Commit</a> method. 
 
 
 ## -parameters
@@ -74,7 +74,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
  
 
  

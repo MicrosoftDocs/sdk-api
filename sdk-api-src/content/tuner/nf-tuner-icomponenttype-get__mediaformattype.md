@@ -89,7 +89,7 @@ This method is available through C++ only. Note the two underscores in the metho
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a>
+<a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a>
 
 
 

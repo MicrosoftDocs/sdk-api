@@ -89,11 +89,11 @@ This event does not occur when a different playlist becomes the current playlist
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563354(v=VS.85).aspx">PlaylistChange</a>
+<a href="https://msdn.microsoft.com/a2847bda-3003-4c80-abc1-5c873d0810b7">PlaylistChange</a>
  
 
  

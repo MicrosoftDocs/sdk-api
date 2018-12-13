@@ -76,10 +76,10 @@ Vector mask used to select a vector component from either <i>V1</i> or <i>V2</i>
         vector's component. For full details on how the vector mask works, see the "Remarks".
 
 Typically, the vector used for <i>Control</i> will be either the output of a vector comparison function (such as
-        <a href="https://msdn.microsoft.com/en-us/library/Ee421013(v=VS.85).aspx">XMVectorEqual</a>,
-        <a href="https://msdn.microsoft.com/en-us/library/Ee421173(v=VS.85).aspx">XMVectorLess</a>, or
-        <a href="https://msdn.microsoft.com/en-us/library/Ee421155(v=VS.85).aspx">XMVectorGreater</a>) or it will be the output
-        of <a href="https://msdn.microsoft.com/en-us/library/Hh404808(v=VS.85).aspx">XMVectorSelectControl</a>.
+        <a href="https://msdn.microsoft.com/e5e3d343-6baf-4d98-b303-5d1b12bb285d">XMVectorEqual</a>,
+        <a href="https://msdn.microsoft.com/b9923970-cb72-4af3-bd5a-83daba8c59de">XMVectorLess</a>, or
+        <a href="https://msdn.microsoft.com/f28155e6-745e-4ed5-ba3b-218f63c18c92">XMVectorGreater</a>) or it will be the output
+        of <a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">XMVectorSelectControl</a>.
 
 
 ## -returns
@@ -98,25 +98,29 @@ Returns the result of the per-component selection.
 If any given bit of <i>Control</i> is set, the corresponding bit from <i>V2</i> is used, otherwise, the
    corresponding bit from <i>V1</i> is used. The following pseudocode demonstrates the operation of the function:
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
-```
-XMVECTOR Result;
+Result.u[0] = (V1.u[0] &amp; ~Control.u[0]) | (V2.u[0] &amp; Control.u[0]);
+Result.u[1] = (V1.u[1] &amp; ~Control.u[1]) | (V2.u[1] &amp; Control.u[1]);
+Result.u[2] = (V1.u[2] &amp; ~Control.u[2]) | (V2.u[2] &amp; Control.u[2]);
+Result.u[3] = (V1.u[3] &amp; ~Control.u[3]) | (V2.u[3] &amp; Control.u[3]);
 
-Result.u[0] = (V1.u[0] & ~Control.u[0]) | (V2.u[0] & Control.u[0]);
-Result.u[1] = (V1.u[1] & ~Control.u[1]) | (V2.u[1] & Control.u[1]);
-Result.u[2] = (V1.u[2] & ~Control.u[2]) | (V2.u[2] & Control.u[2]);
-Result.u[3] = (V1.u[3] & ~Control.u[3]) | (V2.u[3] & Control.u[3]);
-
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 Manual construction of a control vector is not necessary. There are two simple ways of constructing an appropriate
    control vector:
 
 <ul>
 <li>
-Using the <a href="https://msdn.microsoft.com/en-us/library/Hh404808(v=VS.85).aspx">XMVectorSelectControl</a>function to construct a control vector.
+Using the <a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">XMVectorSelectControl</a>function to construct a control vector.
 
 See <a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">Using XMVectorSelect and
        XMVectorSelectControl</a> for a demonstration of how this function can be used.
@@ -127,20 +131,28 @@ The control vector can be constructed using the XM_SELECT_[0,1] constant (see
        <a href="https://msdn.microsoft.com/a206fe22-12c8-ac2b-ee37-20cfff35841a">DirectXMath Library Constants</a>). As an example, in pseudo-code, an instance of
        <i>Control</i> with the elements:
 
-
-```
-   Control = { XM_SELECT_0,   XM_SELECT_1,   XM_SELECT_0,   XM_SELECT_1 }
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>   Control = { XM_SELECT_0,   XM_SELECT_1,   XM_SELECT_0,   XM_SELECT_1 }</pre>
+</td>
+</tr>
+</table></span></div>
 would return a vector <i>Result</i> with the following components of <i>V1</i> and <i>V2</i>
 
-
-```
-   Result = { V1.X,  V2.Y,   V1.Z,   V2.W }
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>   Result = { V1.X,  V2.Y,   V1.Z,   V2.W }</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 </ul>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
@@ -158,7 +170,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404808(v=VS.85).aspx">XMVectorSelectControl</a>
+<a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">XMVectorSelectControl</a>
  
 
  

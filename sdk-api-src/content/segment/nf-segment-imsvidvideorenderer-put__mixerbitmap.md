@@ -60,7 +60,7 @@ The <b>put__MixerBitmap</b> method specifies the static bitmap image.
 
 ### -param MixerPicture [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407381(v=VS.85).aspx">VMRALPHABITMAP</a> structure that contains information about the bitmap.
+A pointer to a <a href="https://msdn.microsoft.com/03b3e619-4804-42de-88d5-5422089e875a">VMRALPHABITMAP</a> structure that contains information about the bitmap.
 
 
 ## -returns
@@ -81,11 +81,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694747(v=VS.85).aspx">IMSVidVideoRenderer::get__MixerBitmap</a>
+<a href="https://msdn.microsoft.com/714b8222-ab8b-4ece-8ae5-61bb41a7ed3c">IMSVidVideoRenderer::get__MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694751(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmap</a>
+<a href="https://msdn.microsoft.com/fa9d9bea-f711-42f1-a247-322036744c44">IMSVidVideoRenderer::put_MixerBitmap</a>
 
 
 

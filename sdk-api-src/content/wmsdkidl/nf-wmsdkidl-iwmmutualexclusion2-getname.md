@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetName</b> method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the <a href="https://msdn.microsoft.com/en-us/library/Dd757248(v=VS.85).aspx">IWMMutualExclusion2::SetName</a> method.
+The <b>GetName</b> method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the <a href="https://msdn.microsoft.com/b288c28c-04bd-49a4-bf11-21d4968772d4">IWMMutualExclusion2::SetName</a> method.
 
 
 
@@ -129,7 +129,7 @@ If you pass an address as <i>pwszName</i>, and the length you specified in <i>pc
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
  
 
  

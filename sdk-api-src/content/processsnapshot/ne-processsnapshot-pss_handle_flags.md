@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Flags to specify what parts of a <a href="https://msdn.microsoft.com/en-us/library/Dn457843(v=VS.85).aspx">PSS_HANDLE_ENTRY</a> structure are valid.
+Flags to specify what parts of a <a href="https://msdn.microsoft.com/F56E8C35-949A-4DEE-973F-CF24F6596036">PSS_HANDLE_ENTRY</a> structure are valid.
 
 
 ## -enum-fields

@@ -81,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694610(v=VS.85).aspx">IMSVidRect::put_HWnd</a>
+<a href="https://msdn.microsoft.com/bbc7a6d0-2829-4fdb-89da-5ebb7fc803eb">IMSVidRect::put_HWnd</a>
  
 
  

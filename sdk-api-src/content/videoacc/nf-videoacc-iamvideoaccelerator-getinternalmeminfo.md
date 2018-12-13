@@ -70,12 +70,12 @@ Pointer to a GUID that specifies the DXVA profile in use.
 
 ### -param pamvaUncompDataInfo [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373449(v=VS.85).aspx">AMVAUncompDataInfo</a> structure that specifies the size and pixel format of the uncompressed data.
+Pointer to an <a href="https://msdn.microsoft.com/920f88bb-c671-4ab9-b482-b03505cca118">AMVAUncompDataInfo</a> structure that specifies the size and pixel format of the uncompressed data.
 
 
 ### -param pamvaInternalMemInfo [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373447(v=VS.85).aspx">AMVAInternalMemInfo</a> structure that receives the amount of scratch memory the HAL will allocate. 
+Pointer to an <a href="https://msdn.microsoft.com/8ce27daa-cd8e-4dbd-a949-0c07c370d504">AMVAInternalMemInfo</a> structure that receives the amount of scratch memory the HAL will allocate. 
 
 
 ## -returns
@@ -163,7 +163,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator Interface</a>
  
 
  

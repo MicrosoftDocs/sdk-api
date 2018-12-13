@@ -4,7 +4,7 @@ title: SymEnumSourceFilesW function
 author: windows-sdk-content
 description: Enumerates all source files in a process.
 old-location: base\symenumsourcefiles.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 4649bdc6-74c5-4529-bedc-64e0277144d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>AM_MPEGSYSTEMTYPE</b> structure defines the format block for an MPEG-1 system stream. This structure is used when the <b>formattype</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure is FORMAT_MPEG1System.
+The <b>AM_MPEGSYSTEMTYPE</b> structure defines the format block for an MPEG-1 system stream. This structure is used when the <b>formattype</b> member of the <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure is FORMAT_MPEG1System.
         
 
 
@@ -71,14 +71,14 @@ Number of streams.
 
 ### -field Streams
 
-List <a href="https://msdn.microsoft.com/en-us/library/Dd373480(v=VS.85).aspx">AM_MPEGSTREAMTYPE</a> structures that describe the elementary streams. The number of elements in the list is given by the <b>cStream</b> member. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is variable. Use the <b>AM_MPEGSTREAMTYPE_ELEMENTLENGTH</b> macro to calculate the size of each structure.
+List <a href="https://msdn.microsoft.com/8622ffcb-be64-4a8f-8bc7-834b559b0f95">AM_MPEGSTREAMTYPE</a> structures that describe the elementary streams. The number of elements in the list is given by the <b>cStream</b> member. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is variable. Use the <b>AM_MPEGSTREAMTYPE_ELEMENTLENGTH</b> macro to calculate the size of each structure.
 
 
 ## -remarks
 
 
 
-The <b>Streams</b> member contains a list of <a href="https://msdn.microsoft.com/en-us/library/Dd373480(v=VS.85).aspx">AM_MPEGSTREAMTYPE</a> structures. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is aligned to an 8-byte boundary. Given a pointer to an <b>AM_MPEGSTREAMTYPE</b> structure in list, use the <b>AM_MPEGSTREAMTYPE_NEXT</b> macro to get a pointer to the next structure.
+The <b>Streams</b> member contains a list of <a href="https://msdn.microsoft.com/8622ffcb-be64-4a8f-8bc7-834b559b0f95">AM_MPEGSTREAMTYPE</a> structures. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is aligned to an 8-byte boundary. Given a pointer to an <b>AM_MPEGSTREAMTYPE</b> structure in list, use the <b>AM_MPEGSTREAMTYPE_NEXT</b> macro to get a pointer to the next structure.
 
 
 

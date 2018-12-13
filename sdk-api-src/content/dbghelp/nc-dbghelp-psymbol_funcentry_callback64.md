@@ -4,7 +4,7 @@ title: PSYMBOL_FUNCENTRY_CALLBACK64
 author: windows-sdk-content
 description: An application-defined callback function used with the SymRegisterFunctionEntryCallback64 function. It is called by the stack walking procedure.
 old-location: base\symregisterfunctionentrycallbackproc64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: cd10dfeb-451f-4d6d-ae1c-ecca75f86f3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

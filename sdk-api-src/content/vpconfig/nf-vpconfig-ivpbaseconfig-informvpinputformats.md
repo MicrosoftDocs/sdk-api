@@ -102,7 +102,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig Interface</a>
+<a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig Interface</a>
  
 
  

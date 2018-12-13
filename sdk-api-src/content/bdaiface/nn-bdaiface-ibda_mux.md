@@ -71,7 +71,7 @@ The <b>IBDA_MUX</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693404(v=VS.85).aspx">GetPidList</a>
+<a href="https://msdn.microsoft.com/92b13d40-4841-45ce-b232-5e29a93d71c5">GetPidList</a>
 </td>
 <td align="left" width="63%">
 Gets the list of packet PIDs that are enabled to go across the Protected Broadcast Driver Architecture (PBDA) interface.
@@ -80,7 +80,7 @@ Gets the list of packet PIDs that are enabled to go across the Protected Broadca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693405(v=VS.85).aspx">SetPidList</a>
+<a href="https://msdn.microsoft.com/2d77086c-2321-434d-bf24-b4eac395825b">SetPidList</a>
 </td>
 <td align="left" width="63%">
 Sets the list of PIDs that are enabled to go across the PBDA interface.

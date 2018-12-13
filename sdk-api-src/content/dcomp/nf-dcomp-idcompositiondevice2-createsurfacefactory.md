@@ -60,7 +60,7 @@ Creates a Microsoft DirectComposition surface factory object, which can be used 
 
 ### -param renderingDevice [in]
 
-A pointer to a DirectX device to be used to create DirectComposition surface objects. Must be a pointer to an object implementing the <a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a> or <a href="https://msdn.microsoft.com/21f77c38-c115-4fdf-b294-570577a29201">ID2D1Device</a> interfaces. This parameter must not be NULL.
+A pointer to a DirectX device to be used to create DirectComposition surface objects. Must be a pointer to an object implementing the <a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a> or <a href="https://msdn.microsoft.com/21f77c38-c115-4fdf-b294-570577a29201">ID2D1Device</a> interfaces. This parameter must not be NULL.
 
 
 ### -param surfaceFactory [out]
@@ -89,7 +89,7 @@ Each surface factory manages resources independently from the others. In particu
 
 
 
-If the <a href="https://msdn.microsoft.com/en-us/library/Dn280347(v=VS.85).aspx">DCompositionCreateDevice2</a> function is called with a non-NULL <i>renderingDevice</i> parameter, the returned DirectComposition device object has an implicit surface factory under the covers associated with the given rendering device. This implicit surface factory is used to service the <a href="https://msdn.microsoft.com/en-us/library/Hh437405(v=VS.85).aspx">IDCompositionDevice::CreateSurface</a>, <a href="https://msdn.microsoft.com/en-us/library/Hh437413(v=VS.85).aspx">IDCompositionDevice::CreateVirtualSurface</a>, <a href="https://msdn.microsoft.com/en-us/library/Dn280366(v=VS.85).aspx">IDCompositionDevice2::CreateSurface</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn280372(v=VS.85).aspx">IDCompositionDevice2::CreateVirtualSurface</a> methods.
+If the <a href="https://msdn.microsoft.com/C40694CB-7110-4ED0-B2E5-F73ADEA7BEA4">DCompositionCreateDevice2</a> function is called with a non-NULL <i>renderingDevice</i> parameter, the returned DirectComposition device object has an implicit surface factory under the covers associated with the given rendering device. This implicit surface factory is used to service the <a href="https://msdn.microsoft.com/3B321BF8-A7A5-4E40-B548-D88CA45F6DAF">IDCompositionDevice::CreateSurface</a>, <a href="https://msdn.microsoft.com/85619C69-F5AE-4F07-AE56-7305BBECD58F">IDCompositionDevice::CreateVirtualSurface</a>, <a href="https://msdn.microsoft.com/1CBE92B6-AC48-47F1-B50A-B78030D356D8">IDCompositionDevice2::CreateSurface</a> and <a href="https://msdn.microsoft.com/659D79E3-2E7C-4431-B724-7AC2978BD9BC">IDCompositionDevice2::CreateVirtualSurface</a> methods.
 
 
 
@@ -104,15 +104,15 @@ A surface object remains alive as long as any of the surfaces or virtual surface
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280366(v=VS.85).aspx">IDCompositionDevice2::CreateSurface</a>
+<a href="https://msdn.microsoft.com/1CBE92B6-AC48-47F1-B50A-B78030D356D8">IDCompositionDevice2::CreateSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280372(v=VS.85).aspx">IDCompositionDevice2::CreateVirtualSurface</a>
+<a href="https://msdn.microsoft.com/659D79E3-2E7C-4431-B724-7AC2978BD9BC">IDCompositionDevice2::CreateVirtualSurface</a>
  
 
  

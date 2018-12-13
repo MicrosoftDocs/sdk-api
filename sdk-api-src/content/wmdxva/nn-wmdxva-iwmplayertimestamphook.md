@@ -77,7 +77,7 @@ The <b>IWMPlayerTimestampHook</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757264(v=VS.85).aspx">MapTimestamp</a>
+<a href="https://msdn.microsoft.com/67da583f-85da-4a09-be2c-44cf96bf51e7">MapTimestamp</a>
 </td>
 <td align="left" width="63%">
 Provides the decoder with a time stamp that it will apply to the sample before delivering it to the video renderer.

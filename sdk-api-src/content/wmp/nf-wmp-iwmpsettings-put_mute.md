@@ -99,15 +99,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563664(v=VS.85).aspx">IWMPSettings::get_mute</a>
+<a href="https://msdn.microsoft.com/b0bb1c84-d208-4d29-a797-bb18af039f03">IWMPSettings::get_mute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563680(v=VS.85).aspx">IWMPSettings::put_rate</a>
+<a href="https://msdn.microsoft.com/a0c395f0-28d1-4c4d-8274-e26c0f4b1ae2">IWMPSettings::put_rate</a>
  
 
  

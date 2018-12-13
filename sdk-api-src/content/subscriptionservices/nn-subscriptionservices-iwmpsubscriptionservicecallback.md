@@ -75,7 +75,7 @@ The <b>IWMPSubscriptionServiceCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563704(v=VS.85).aspx">onComplete</a>
+<a href="https://msdn.microsoft.com/1a6775b5-a909-49b1-98e8-ccc110294df6">onComplete</a>
 </td>
 <td align="left" width="63%">
 Notifies the Player when a background process is completed.

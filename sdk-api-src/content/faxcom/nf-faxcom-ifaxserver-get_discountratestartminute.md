@@ -54,7 +54,7 @@ req.redist:
 ## -description
 
 
-Sets or retrieves the <b>DiscountRateStartMinute</b> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DiscountRateStartMinute</b> property is a number that represents the minute the discount period begins. The discount period applies only to outgoing fax transmissions.
+Sets or retrieves the <b>DiscountRateStartMinute</b> property for a <a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a> object. The <b>DiscountRateStartMinute</b> property is a number that represents the minute the discount period begins. The discount period applies only to outgoing fax transmissions.
 
 This property is read/write.
 
@@ -66,10 +66,10 @@ This property is read/write.
 
 
 
-To save on transmission costs, a user can queue a fax job and request that the fax server send the transmission during the discount rate period. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691359(v=VS.85).aspx">IFaxDoc::DiscountSend Property</a>.
+To save on transmission costs, a user can queue a fax job and request that the fax server send the transmission during the discount rate period. For more information, see <a href="https://msdn.microsoft.com/d908fa0c-8fd4-469c-9c4c-b96463b2212e">IFaxDoc::DiscountSend Property</a>.
 			
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms690858(v=VS.85).aspx">DiscountRateStartHour</a>, <b>DiscountRateStartMinute</b>, <a href="https://msdn.microsoft.com/en-us/library/ms691317(v=VS.85).aspx">DiscountRateEndHour</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms690899(v=VS.85).aspx">DiscountRateEndMinute</a> properties represent local time.
+The <a href="https://msdn.microsoft.com/b144d4db-bd0e-4198-8653-6b22013c3d2e">DiscountRateStartHour</a>, <b>DiscountRateStartMinute</b>, <a href="https://msdn.microsoft.com/959f2960-2e42-485e-9791-53849166bf88">DiscountRateEndHour</a>, and <a href="https://msdn.microsoft.com/a8e1bf04-7fc4-48b3-8682-b06c550122a7">DiscountRateEndMinute</a> properties represent local time.
 			
 
 If the time the discount rate period ends is less than the time the discount rate period begins, the discount rate period extends into the next day. For example, if the discount rate period begins at 9:00 P.M. and ends at 7:00 A.M., the discount rate period begins in the evening and continues until the morning of the following day.
@@ -83,35 +83,35 @@ If the time the discount rate period ends is less than the time the discount rat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691359(v=VS.85).aspx">DiscountSend</a>
+<a href="https://msdn.microsoft.com/d908fa0c-8fd4-469c-9c4c-b96463b2212e">DiscountSend</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692375(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/f06b76b5-b6c2-47a0-ad08-7c1bf7b780bb">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691317(v=VS.85).aspx">IFaxServer::get_DiscountRateEndHour</a>
+<a href="https://msdn.microsoft.com/959f2960-2e42-485e-9791-53849166bf88">IFaxServer::get_DiscountRateEndHour</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690899(v=VS.85).aspx">IFaxServer::get_DiscountRateEndMinute</a>
+<a href="https://msdn.microsoft.com/a8e1bf04-7fc4-48b3-8682-b06c550122a7">IFaxServer::get_DiscountRateEndMinute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690858(v=VS.85).aspx">IFaxServer::get_DiscountRateStartHour</a>
+<a href="https://msdn.microsoft.com/b144d4db-bd0e-4198-8653-6b22013c3d2e">IFaxServer::get_DiscountRateStartHour</a>
  
 
  

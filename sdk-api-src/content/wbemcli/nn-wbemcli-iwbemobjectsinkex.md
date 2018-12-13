@@ -71,7 +71,7 @@ The <b>IWbemObjectSinkEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">Indicate</a>
+<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a>
 </td>
 <td align="left" width="63%">
 Receives notification objects. Inherited from <a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>.
@@ -89,7 +89,7 @@ TBD
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a>
+<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a>
 </td>
 <td align="left" width="63%">
 Called by sources  to indicate the end of a notification sequence, or to send other status codes to the sink. Inherited from <a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>.

@@ -57,7 +57,7 @@ A 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer 
 
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMU555</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415438(v=VS.85).aspx">XMU555 Extensions</a>.
+	using <code>XMU555</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/89ca4ee3-ab6a-403a-9cd9-18de02d285ac">XMU555 Extensions</a>.
 
 
 ## -struct-fields
@@ -144,7 +144,7 @@ Unsigned 5-bit integer value in the range [0,31] describing the
 	    using <a href="https://msdn.microsoft.com/7023f2db-132d-475a-9b48-a676403567eb">XMLoadU555</a>.
 	
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMU555</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420374(v=VS.85).aspx">XMStoreU555</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMU555</code> with <a href="https://msdn.microsoft.com/20696b43-6890-4551-a865-c7900141e14a">XMStoreU555</a>.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -164,7 +164,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415438(v=VS.85).aspx">XMU555 Extensions</a>
+<a href="https://msdn.microsoft.com/89ca4ee3-ab6a-403a-9cd9-18de02d285ac">XMU555 Extensions</a>
  
 
  

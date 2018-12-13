@@ -60,7 +60,7 @@ Stores signed integer data from an <a href="https://msdn.microsoft.com/1a044094-
 
 ### -param pDestination [out]
 
-Address of an  <a href="https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx">XMINT2</a> structure in which to store the data.
+Address of an  <a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a> structure in which to store the data.
 
 
 ### -param V
@@ -81,14 +81,18 @@ None.
 
 
 
-For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/en-us/library/Ee420362(v=VS.85).aspx">XMStoreInt2A</a> 
+For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/7a27fda0-d8c4-4ed2-8693-7c81982cbad0">XMStoreInt2A</a> 
     with a casting operator.
 
 The following pseudocode shows the operation of this function.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 XMVECTOR N;	
 
 assert(pDestination);
@@ -96,13 +100,13 @@ assert(pDestination);
 N = XMVectorClamp(V, MinInt, MaxInt );
 N = XMVectorRound(N);
 
-pDestination->x = (int32_t)N.v[0];
-pDestination->y = (int32_t)N.v[1];
+pDestination-&gt;x = (int32_t)N.v[0];
+pDestination-&gt;y = (int32_t)N.v[1];
 
-    
-```
-
-
+    </pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

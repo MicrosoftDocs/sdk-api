@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>SetStreamsSelected</b> method configures the samples to be delivered from a list of streams. Each stream can be set to deliver all samples, no samples, or only <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">cleanpoint</a> samples.
+The <b>SetStreamsSelected</b> method configures the samples to be delivered from a list of streams. Each stream can be set to deliver all samples, no samples, or only <a href="wmformat_glossary.htm">cleanpoint</a> samples.
 
 
 
@@ -76,7 +76,7 @@ Pointer to an array of <b>WORD</b> values containing the stream numbers.
 
 ### -param pSelections [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd757857(v=VS.85).aspx">WMT_STREAM_SELECTION</a> enumeration values. These values correspond with the stream numbers listed at <i>pwStreamNumbers</i>. Each value specifies the samples to deliver for the appropriate stream.
+Pointer to an array of <a href="https://msdn.microsoft.com/7191d608-1a25-48c0-858b-c5e93f9d8e6e">WMT_STREAM_SELECTION</a> enumeration values. These values correspond with the stream numbers listed at <i>pwStreamNumbers</i>. Each value specifies the samples to deliver for the appropriate stream.
 
 
 ## -returns
@@ -150,7 +150,7 @@ The method is unable to allocate memory for an internal object.
 
 You can call <b>SetStreamsSelects</b> at any time after a file has been loaded into the synchronous reader. You can continue making calls as needed during playback.
 
-This method is identical to <a href="https://msdn.microsoft.com/en-us/library/Dd743488(v=VS.85).aspx">IWMReaderAdvanced::SetStreamsSelected</a> except that, in the synchronous reader, stream selection is always manual. Also, because <a href="https://msdn.microsoft.com/en-us/library/Dd798587(v=VS.85).aspx">IWMSyncReader::GetNextSample</a> includes a stream number output, you can select as many mutually exclusive streams as you like and receive samples for them.
+This method is identical to <a href="https://msdn.microsoft.com/921ab9fe-757f-4856-9fbc-b615bf92d90f">IWMReaderAdvanced::SetStreamsSelected</a> except that, in the synchronous reader, stream selection is always manual. Also, because <a href="https://msdn.microsoft.com/948047b3-3b87-4381-9320-c9602716ade2">IWMSyncReader::GetNextSample</a> includes a stream number output, you can select as many mutually exclusive streams as you like and receive samples for them.
 
 
 
@@ -160,7 +160,7 @@ This method is identical to <a href="https://msdn.microsoft.com/en-us/library/Dd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
  
 
  

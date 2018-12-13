@@ -91,7 +91,7 @@ This method is not called when Windows Media Player instantiates the visualizati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563254(v=VS.85).aspx">IWMPEffects2 Interface</a>
+<a href="https://msdn.microsoft.com/44e044c1-97fd-43cb-9530-4556e485f5ae">IWMPEffects2 Interface</a>
  
 
  

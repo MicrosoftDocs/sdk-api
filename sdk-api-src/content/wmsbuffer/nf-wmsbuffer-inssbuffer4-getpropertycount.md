@@ -83,7 +83,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743256(v=VS.85).aspx">INSSBuffer4 Interface</a>
+<a href="https://msdn.microsoft.com/d6531e52-b58b-46ed-a47b-444cd98e1ec5">INSSBuffer4 Interface</a>
  
 
  

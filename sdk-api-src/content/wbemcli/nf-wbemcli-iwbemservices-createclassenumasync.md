@@ -68,8 +68,8 @@ The
 <b>IWbemServices::CreateClassEnumAsync</b> method  returns an enumeration of all classes that the class provider supports. The class provider  creates each class definition from scratch and  only returns subclasses of the requested class. As an asynchronous method, 
 <b>CreateClassEnumAsync</b> returns a status message immediately and then updates the sink passed through the <i>pResponseHandler</i> parameter—if necessary.
 
-When a call succeeds, WMI calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on the pointer <i>pResponseHandler</i>, returns immediately, and  then asynchronously calls <i>pResponseHandler</i>– &gt;
-<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">Indicate</a> from another thread with class definitions until the query is satisfied.
+When a call succeeds, WMI calls <a href="_com_iunknown_addref">AddRef</a> on the pointer <i>pResponseHandler</i>, returns immediately, and  then asynchronously calls <i>pResponseHandler</i>– &gt;
+<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a> from another thread with class definitions until the query is satisfied.
 
 
 ## -parameters
@@ -115,7 +115,7 @@ This flag forces the enumeration to include only pure instances of this class, e
 #### WBEM_FLAG_SEND_STATUS
 
 This flag registers  a request in WMI to receive intermediate status reports through the client implementation of 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
+<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
 
 <div class="alert"><b>Note</b>  If <i>strSuperclass</i> is <b>NULL</b> or blank and <b>WBEM_FLAG_DEEP</b> is specified, all classes are returned.</div>
 <div> </div>
@@ -131,8 +131,8 @@ Typically <b>NULL</b>. Otherwise, this is a pointer to an
 
 Pointer to the caller implementation of 
 <a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>. This handler receives the objects as they become available by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> method. When no  objects are available, the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method is called by WMI. If any error code is returned, then the supplied 
+<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> method. When no  objects are available, the 
+<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> method is called by WMI. If any error code is returned, then the supplied 
 <b>IWbemObjectSink</b> pointer is not used. If WBEM_S_NO_ERROR is returned, then the user 
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. WMI only calls <b>AddRef</b> on the pointer when <b>WBEM_S_NO_ERROR</b> returns. When an error code returns, the reference count is the same as no entry. For a detailed explanation of this parameter, see 
 <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
@@ -163,9 +163,13 @@ For more information about using methods semisynchronously, see <a href="https:/
 The following code example shows how to implement 
 <b>CreateClassEnumAsync</b>.
 
-
-```cpp
-HRESULT CStdProvider::CreateClassEnumAsync( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CStdProvider::CreateClassEnumAsync( 
             /* [in] */ BSTR strSuperclass,
             /* [in] */ long lFlags,
             /* [in] */ IWbemContext __RPC_FAR *pCtx,
@@ -178,7 +182,7 @@ HRESULT CStdProvider::CreateClassEnumAsync(
     // Retrieve an 'empty' object that will be built up
     // into the class definition.
     
-    HRESULT hRes = m_pSvc->GetObject(NULL, 0, NULL, &pClass, 0);
+    HRESULT hRes = m_pSvc-&gt;GetObject(NULL, 0, NULL, &amp;pClass, 0);
     if (hRes)
     {
         return hRes;
@@ -186,7 +190,7 @@ HRESULT CStdProvider::CreateClassEnumAsync(
 
     // Prepare an empty object to receive the class definition.
         IWbemClassObject *pNextClass = 0;
-        hRes = pClass->Clone(&pNextClass);
+        hRes = pClass-&gt;Clone(&amp;pNextClass);
 
     // Now loop through the private source of class definitions
     // and create each class.
@@ -197,26 +201,26 @@ HRESULT CStdProvider::CreateClassEnumAsync(
         // FillClassDef(pNextClass);
 
         // Deliver the class to WMI.
-        pResponseHandler->Indicate(1, &pNextClass);
-        pNextClass->Release( );
+        pResponseHandler-&gt;Indicate(1, &amp;pNextClass);
+        pNextClass-&gt;Release( );
 
         // Prepare an empty object to receive the class definition.
         IWbemClassObject *pNextClass = 0;
-        hRes = pClass->Clone(&pNextClass);     
+        hRes = pClass-&gt;Clone(&amp;pNextClass);     
     }
 
-    pClass->Release();
+    pClass-&gt;Release();
 
     // Send a finish message to WMI.
 
-    pResponseHandler->SetStatus(0, hRes, 0, 0);
+    pResponseHandler-&gt;SetStatus(0, hRes, 0, 0);
 
     return hRes;
-}
-```
-
-
-In the previous example, the class provider acquires a thread from WMI to perform the necessary operations. You may want to call the sink <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on the amount of time the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
+}</pre>
+</td>
+</tr>
+</table></span></div>
+In the previous example, the class provider acquires a thread from WMI to perform the necessary operations. You may want to call the sink <a href="_com_iunknown_addref">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on the amount of time the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="code"></div>
 

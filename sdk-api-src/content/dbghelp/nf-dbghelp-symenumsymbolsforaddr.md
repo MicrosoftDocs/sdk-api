@@ -4,7 +4,7 @@ title: SymEnumSymbolsForAddr function
 author: windows-sdk-content
 description: Enumerates the symbols for the specified address.
 old-location: base\symenumsymbolsforaddr.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 1c622d1d-e7be-4b02-8d6d-68b5f07f2e35
 ms.author: windowssdkdev
 ms.date: 12/5/2018

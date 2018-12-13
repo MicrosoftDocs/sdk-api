@@ -71,7 +71,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the desired
 
 ### -param pVal [out]
 
-Pointer to a <b>VARIANT</b> that receives the address of the <b>IDispatch</b> interface on successful return. Use this interface pointer to obtain the interface pointer of the desired network admin interface: <a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd743718(v=VS.85).aspx">IWMSInternalAdminNetSource2</a>, or <a href="https://msdn.microsoft.com/en-us/library/Dd743722(v=VS.85).aspx">IWMSInternalAdminNetSource3</a>.
+Pointer to a <b>VARIANT</b> that receives the address of the <b>IDispatch</b> interface on successful return. Use this interface pointer to obtain the interface pointer of the desired network admin interface: <a href="https://msdn.microsoft.com/0fbdad85-d94a-4598-bb25-f733df33692a">IWMSInternalAdminNetSource</a>, <a href="https://msdn.microsoft.com/6d334725-11d5-4249-a83d-fc8c1c35a56f">IWMSInternalAdminNetSource2</a>, or <a href="https://msdn.microsoft.com/b4ca08a4-6e2d-4646-b101-67bac67300b1">IWMSInternalAdminNetSource3</a>.
 
 
 ## -returns
@@ -140,7 +140,7 @@ The protocol specified by <i>pwszStreamName</i> is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743239(v=VS.85).aspx">INSNetSourceCreator Interface</a>
+<a href="https://msdn.microsoft.com/39e692a6-fb68-447f-bd28-8d216776157a">INSNetSourceCreator Interface</a>
  
 
  

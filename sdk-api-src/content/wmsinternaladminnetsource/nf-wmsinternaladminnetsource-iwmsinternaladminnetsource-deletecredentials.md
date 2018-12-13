@@ -58,7 +58,7 @@ The <b>DeleteCredentials</b> method removes a password from the cache.
 
 
 
-This method has been superseded by <a href="https://msdn.microsoft.com/en-us/library/Dd743719(v=VS.85).aspx">IWMSInternalAdminNetSource2::DeleteCredentialsEx</a>. The methods of <b>IWMSInternalAdminNetSource2</b> are much more secure than the password caching methods in <b>IWMSInternalAdminNetSource</b> and should be used if available.
+This method has been superseded by <a href="https://msdn.microsoft.com/06d82f1d-b965-40fb-8a79-904ba5af7191">IWMSInternalAdminNetSource2::DeleteCredentialsEx</a>. The methods of <b>IWMSInternalAdminNetSource2</b> are much more secure than the password caching methods in <b>IWMSInternalAdminNetSource</b> and should be used if available.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
+<a href="https://msdn.microsoft.com/0fbdad85-d94a-4598-bb25-f733df33692a">IWMSInternalAdminNetSource Interface</a>
  
 
  

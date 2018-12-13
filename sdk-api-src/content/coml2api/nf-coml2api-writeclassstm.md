@@ -88,7 +88,7 @@ The
 <b>WriteClassStm</b> function writes a CLSID to the specified stream object so it can be read by the 
 <a href="https://msdn.microsoft.com/bcf11c5b-e164-4a0f-b30f-ee9e76c4356d">ReadClassStm</a> function. Most applications do not call 
 <b>WriteClassStm</b> directly. OLE calls it before making a call to an object's 
-<a href="https://msdn.microsoft.com/en-us/library/ms691473(v=VS.85).aspx">IPersistStream::Save</a> method.
+<a href="_com_ipersiststream_save">IPersistStream::Save</a> method.
 
 
 

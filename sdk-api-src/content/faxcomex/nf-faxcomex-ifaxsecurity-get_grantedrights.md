@@ -64,9 +64,9 @@ This property is read-only.
 
 
 
-The <b>IFaxSecurity::get_GrantedRights</b> property reflects rights granted by the fax server, while the <a href="https://msdn.microsoft.com/en-us/library/Aa358834(v=VS.85).aspx">IFaxSecurity::Descriptor</a> property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator.
+The <b>IFaxSecurity::get_GrantedRights</b> property reflects rights granted by the fax server, while the <a href="https://msdn.microsoft.com/a8e4a0c4-324a-4337-a69b-c934bc261b34">IFaxSecurity::Descriptor</a> property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator.
 
-To read this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To read this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 
 
 
@@ -76,11 +76,11 @@ To read this property, a user must have the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a>
+<a href="https://msdn.microsoft.com/0c1fe69c-f10b-4c7d-abe5-1a3e93d56c04">FaxSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689510(v=VS.85).aspx">IFaxSecurity</a>
+<a href="https://msdn.microsoft.com/e8dabda0-29aa-4ef2-a797-14aae1d8b539">IFaxSecurity</a>
  
 
  

@@ -110,19 +110,19 @@ During full-screen playback, Windows Media Player hides the mouse cursor when th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
+<a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563539(v=VS.85).aspx">IWMPPlayer::get_enableContextMenu</a>
+<a href="https://msdn.microsoft.com/66769441-7923-45d2-b84f-24770537923c">IWMPPlayer::get_enableContextMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563542(v=VS.85).aspx">IWMPPlayer::get_uiMode</a>
+<a href="https://msdn.microsoft.com/8e05342f-812a-4dca-a491-b237f9a9f1bd">IWMPPlayer::get_uiMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563544(v=VS.85).aspx">IWMPPlayer::put_enabled</a>
+<a href="https://msdn.microsoft.com/c0e29724-1689-4b59-a9bd-b9cc3f391b68">IWMPPlayer::put_enabled</a>
  
 
  

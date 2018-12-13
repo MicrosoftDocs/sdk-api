@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::SendBeep
 author: windows-sdk-content
 description: IWTSProtocolConnection::SendBeep is no longer available.
 old-location: termserv\iwtsprotocolconnection_sendbeep.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 4665917d-4bc3-4017-9b69-3eb95e70337f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

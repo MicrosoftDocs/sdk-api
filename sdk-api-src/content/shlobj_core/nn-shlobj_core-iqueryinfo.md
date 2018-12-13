@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementation. Info tips are usually displayed inside a <a href="https://msdn.microsoft.com/en-us/library/Hh449606(v=VS.85).aspx">tooltip</a> control.
+Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementation. Info tips are usually displayed inside a <a href="_win32_Tooltip_Controls">tooltip</a> control.
 
 
 ## -inheritance

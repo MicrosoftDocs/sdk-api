@@ -76,7 +76,7 @@ The <b>IMSVidVMR9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694762(v=VS.85).aspx">get_Allocator</a>
+<a href="https://msdn.microsoft.com/bd19c85b-21dc-410a-9fa1-99e1f1d8be30">get_Allocator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the application's custom allocator-presenter.
@@ -85,7 +85,7 @@ Retrieves the application's custom allocator-presenter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694763(v=VS.85).aspx">get_Allocator_ID</a>
+<a href="https://msdn.microsoft.com/46ea07af-be29-4621-96cb-f3c17be12f85">get_Allocator_ID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the application's custom allocator-presenter.
@@ -94,7 +94,7 @@ Retrieves the identifier of the application's custom allocator-presenter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694764(v=VS.85).aspx">get_SuppressEffects</a>
+<a href="https://msdn.microsoft.com/7d2d10fe-39c2-4ee1-a5c5-5624b2fbc2ef">get_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Queries whether the Video Control configures the system for optimal video playback.
@@ -103,7 +103,7 @@ Queries whether the Video Control configures the system for optimal video playba
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694765(v=VS.85).aspx">put_SuppressEffects</a>
+<a href="https://msdn.microsoft.com/6e51ed2a-7516-4621-9ecb-0e645c6d416c">put_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the Video Control configures the system for optimal video playback.
@@ -112,7 +112,7 @@ Specifies whether the Video Control configures the system for optimal video play
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694766(v=VS.85).aspx">SetAllocator</a>
+<a href="https://msdn.microsoft.com/f654adac-12b6-47c7-99d4-0612b1532df4">SetAllocator</a>
 </td>
 <td align="left" width="63%">
 Sets a custom allocator-presenter for the VMR-9.

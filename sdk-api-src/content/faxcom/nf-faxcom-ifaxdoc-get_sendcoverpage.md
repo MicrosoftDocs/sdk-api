@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Sets or retrieves the <b>SendCoverpage</b> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The <b>SendCoverpage</b> property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
+Sets or retrieves the <b>SendCoverpage</b> property for a <a href="https://msdn.microsoft.com/11462af9-20c2-4661-801e-dcc3e092283d">FaxDoc</a> object. The <b>SendCoverpage</b> property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
 
 This property is read/write.
 
@@ -71,13 +71,13 @@ To send a cover page with a fax document, the following are required:
 <li>The <b>SendCoverpage</b> property must be equal to <b>TRUE</b>.</li>
 <li>The <b>CoverpageName</b> property must specify a valid cover page file.</li>
 </ul>
-In addition, the <a href="https://msdn.microsoft.com/en-us/library/ms690883(v=VS.85).aspx">ServerCoverpage</a> property must be equal to <b>TRUE</b> if the cover page file is a common cover page file. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691453(v=VS.85).aspx">CoverpageName</a>.
+In addition, the <a href="https://msdn.microsoft.com/c7571a29-c145-4ab6-976e-547f9491cf1f">ServerCoverpage</a> property must be equal to <b>TRUE</b> if the cover page file is a common cover page file. For more information, see <a href="https://msdn.microsoft.com/b15a818b-fd37-4958-8fc7-25a8494cdf12">CoverpageName</a>.
 
-You can call the <a href="https://msdn.microsoft.com/en-us/library/ms691428(v=VS.85).aspx">ServerCoverpage</a> method to determine whether the fax server is configured to permit personal cover pages.
+You can call the <a href="https://msdn.microsoft.com/889e7233-fe5b-41f9-8436-0c7b28d78653">ServerCoverpage</a> method to determine whether the fax server is configured to permit personal cover pages.
 
-The <b>IFaxDoc::get_SendCoverpage</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+The <b>IFaxDoc::get_SendCoverpage</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691363(v=VS.85).aspx">Cover Pages</a> and <a href="https://msdn.microsoft.com/en-us/library/ms690892(v=VS.85).aspx">Sending a Cover Page</a>.
+For more information, see <a href="https://msdn.microsoft.com/37bbff77-08a8-486f-ac26-d7b69a936e05">Cover Pages</a> and <a href="https://msdn.microsoft.com/32e293c8-febb-43c0-801c-f7b4a6675c80">Sending a Cover Page</a>.
 
 
 
@@ -87,27 +87,27 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms69
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692281(v=VS.85).aspx">IFaxDoc</a>
+<a href="https://msdn.microsoft.com/16f68004-fa4d-40c7-90a5-0bb562e72bd7">IFaxDoc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692340(v=VS.85).aspx">IFaxDoc::get_FileName</a>
+<a href="https://msdn.microsoft.com/fe9f0c64-7722-49ca-809c-5e59acacf474">IFaxDoc::get_FileName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690883(v=VS.85).aspx">IFaxDoc::get_ServerCoverpage</a>
+<a href="https://msdn.microsoft.com/c7571a29-c145-4ab6-976e-547f9491cf1f">IFaxDoc::get_ServerCoverpage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

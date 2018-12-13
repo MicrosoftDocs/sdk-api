@@ -104,11 +104,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563347(v=VS.85).aspx">MouseMove</a>
+<a href="https://msdn.microsoft.com/ca0b438f-2093-41b0-9170-ec59656b70e1">MouseMove</a>
  
 
  

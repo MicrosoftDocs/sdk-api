@@ -4,7 +4,7 @@ title: ITsSbProvider::CreateTargetObject
 author: windows-sdk-content
 description: Creates an ITsSbTarget target object.
 old-location: termserv\itssbprovider_createtargetobject.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 9ee426a3-03fa-4535-84b6-f965bd9eba60
 ms.author: windowssdkdev
 ms.date: 12/5/2018

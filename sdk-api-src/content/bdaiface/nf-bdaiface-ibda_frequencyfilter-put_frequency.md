@@ -63,7 +63,7 @@ The <b>put_Frequency</b> method specifies the frequency.
 
 ### -param ulFrequency [in]
 
-Specifies the frequency. The units are 1 Hz x the frequency multiplier, where the <i>frequency multiplier</i> is the value returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd693359(v=VS.85).aspx">IBDA_FrequencyFilter::get_FrequencyMultiplier</a> method. The default frequency multiplier is 1000, so the default units are kilohertz (kHz).
+Specifies the frequency. The units are 1 Hz x the frequency multiplier, where the <i>frequency multiplier</i> is the value returned by the <a href="https://msdn.microsoft.com/463a58f7-a10c-40b5-8183-3e16bcc7c6b2">IBDA_FrequencyFilter::get_FrequencyMultiplier</a> method. The default frequency multiplier is 1000, so the default units are kilohertz (kHz).
 
 
 ## -returns
@@ -93,15 +93,15 @@ Frequencies for DVB-S, DVB-T, and ATSC should all be expressed in kilohertz and 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693355(v=VS.85).aspx">IBDA_FrequencyFilter Interface</a>
+<a href="https://msdn.microsoft.com/ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc">IBDA_FrequencyFilter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693358(v=VS.85).aspx">IBDA_FrequencyFilter::get_Frequency</a>
+<a href="https://msdn.microsoft.com/0eba0f92-45a7-4c5e-9450-f3c7a176288c">IBDA_FrequencyFilter::get_Frequency</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693365(v=VS.85).aspx">IBDA_FrequencyFilter::put_FrequencyMultiplier</a>
+<a href="https://msdn.microsoft.com/b67bd442-26cf-4104-906c-e9510b99ad90">IBDA_FrequencyFilter::put_FrequencyMultiplier</a>
  
 
  

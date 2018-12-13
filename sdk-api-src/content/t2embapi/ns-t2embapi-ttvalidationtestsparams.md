@@ -121,7 +121,7 @@ Pointer to array of Unicode characters.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd145162(v=VS.85).aspx">TTVALIDATIONTESTSPARAMSEX</a>
+<a href="https://msdn.microsoft.com/03bcfb1a-6ed8-4e78-b3c8-64d29dc74dbc">TTVALIDATIONTESTSPARAMSEX</a>
  
 
  

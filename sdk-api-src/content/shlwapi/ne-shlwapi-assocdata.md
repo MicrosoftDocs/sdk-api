@@ -78,7 +78,7 @@ Defaults to user specified association.
 
 ### -field ASSOCDATA_EDITFLAGS
 
-<b>Internet Explorer version 6 or later</b>. Gets the data stored in the EditFlags value of a file association <a href="https://msdn.microsoft.com/f2b666d6-bf22-47b5-87e1-8de5ff51c152">PROGID</a> registry key. This value consists of one or more <a href="https://msdn.microsoft.com/en-us/library/Bb762506(v=VS.85).aspx">FILETYPEATTRIBUTEFLAGS</a>. Compare against those values to determine which attributes have been set.
+<b>Internet Explorer version 6 or later</b>. Gets the data stored in the EditFlags value of a file association <a href="https://msdn.microsoft.com/f2b666d6-bf22-47b5-87e1-8de5ff51c152">PROGID</a> registry key. This value consists of one or more <a href="https://msdn.microsoft.com/63b58659-9c4c-4b39-98d1-743724523dcd">FILETYPEATTRIBUTEFLAGS</a>. Compare against those values to determine which attributes have been set.
 
 
 ### -field ASSOCDATA_VALUE

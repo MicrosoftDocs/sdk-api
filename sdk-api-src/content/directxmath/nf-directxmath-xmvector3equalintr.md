@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Tests whether two 3D vectors are equal, treating each component as an unsigned integer. In addition, this function returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
+Tests whether two 3D vectors are equal, treating each component as an unsigned integer. In addition, this function returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Tests whether two 3D vectors are equal, treating each component as an unsigned i
 
 
 
-Returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
+Returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
 
 
 
@@ -83,14 +83,18 @@ Returns a comparison value that can be examined using functions such as <a href=
 
 This function does the following test:
 
-
-```
-V1.x == V2.x
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>V1.x == V2.x
 V1.y == V2.y
-V1.z == V2.z
-```
-
-
+V1.z == V2.z</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
@@ -106,7 +110,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420809(v=VS.85).aspx">XMVector3EqualInt</a>
+<a href="https://msdn.microsoft.com/5afc34a8-07b6-4b81-8658-5c403eeae826">XMVector3EqualInt</a>
  
 
  

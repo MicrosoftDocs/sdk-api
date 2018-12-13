@@ -98,7 +98,7 @@ Applications can use this method to modify a frequency table or create new frequ
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694086(v=VS.85).aspx">IFrequencyMap Interface</a>
+<a href="https://msdn.microsoft.com/0f7f1b2c-a191-45f5-a645-367e898b6ee2">IFrequencyMap Interface</a>
  
 
  

@@ -4,7 +4,7 @@ title: GetThreadContext function
 author: windows-sdk-content
 description: Retrieves the context of the specified thread.
 old-location: base\getthreadcontext.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 3b65283e-34d2-4374-87fe-fa8ae45fbbcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

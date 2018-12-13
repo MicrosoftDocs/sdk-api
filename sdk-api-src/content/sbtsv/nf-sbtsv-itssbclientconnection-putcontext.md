@@ -4,7 +4,7 @@ title: ITsSbClientConnection::PutContext
 author: windows-sdk-content
 description: Can be used by plug-ins to store context information specific to the connection.
 old-location: termserv\itssbclientconnection_putcontext.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 654714ef-cc86-41e8-8759-bbb66bd61cd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

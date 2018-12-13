@@ -158,15 +158,15 @@ The Windows Media Format SDK provides codecs only for audio and video. If you sp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743313(v=VS.85).aspx">IWMCodecInfo Interface</a>
+<a href="https://msdn.microsoft.com/70661d13-737a-4e83-94e6-9a1af07b0369">IWMCodecInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743322(v=VS.85).aspx">IWMCodecInfo::GetCodecFormat</a>
+<a href="https://msdn.microsoft.com/dbfffc96-2286-4fdf-a76f-ad8e0ecd7aff">IWMCodecInfo::GetCodecFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743323(v=VS.85).aspx">IWMCodecInfo::GetCodecFormatCount</a>
+<a href="https://msdn.microsoft.com/b93bfb01-4179-4a0b-bca0-92b1a9a8e605">IWMCodecInfo::GetCodecFormatCount</a>
  
 
  

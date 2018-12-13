@@ -188,7 +188,7 @@ Skews the matrix in the Y direction.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh848009(v=VS.85).aspx">operator*</a>
+<a href="https://msdn.microsoft.com/2ED3EF0A-84B9-4BE9-825B-EA55DE2BAF47">operator*</a>
 </td>
 <td align="left" width="63%">
 Multiplies this matrix with the specified matrix and returns the result.
@@ -359,7 +359,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Matrix4x4F</b> class has thes
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh848009(v=VS.85).aspx">operator*</a>
+<a href="https://msdn.microsoft.com/2ED3EF0A-84B9-4BE9-825B-EA55DE2BAF47">operator*</a>
 </td>
 <td align="left" width="63%">
 Multiplies this matrix with the specified matrix and returns the result.

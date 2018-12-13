@@ -63,7 +63,7 @@ The <b>ICSeqCompressFrame</b> function compresses one frame in a sequence of fra
 
 ### -param pc
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a> structure initialized with information about the compression.
+Pointer to a <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure initialized with information about the compression.
 
 
 ### -param uiFlags
@@ -99,15 +99,15 @@ Returns the address of the compressed bits if successful or <b>NULL</b> otherwis
 
 
 
-This function uses a <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a> structure to provide settings for the specified compressor and intersperses key frames at the rate specified by the <a href="https://msdn.microsoft.com/90103468-fcdc-4c40-b328-29fe467b9039">ICSeqCompressorFrameStart</a> function. You can specify values for the data rate for the sequence and the key-frame frequency by using the appropriate members of <b>COMPVARS</b>.
+This function uses a <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure to provide settings for the specified compressor and intersperses key frames at the rate specified by the <a href="https://msdn.microsoft.com/90103468-fcdc-4c40-b328-29fe467b9039">ICSeqCompressorFrameStart</a> function. You can specify values for the data rate for the sequence and the key-frame frequency by using the appropriate members of <b>COMPVARS</b>.
 
 Use this function instead of the <a href="https://msdn.microsoft.com/99e7d87a-cbf5-42d3-897c-5f5c8860a13a">ICCompress</a> function to compress a video sequence.
 
-You can allow the user to specify a compressor and initialize a <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a> structure by using the <a href="https://msdn.microsoft.com/4a58df6a-9ac4-44bb-8c49-338bb60193fc">ICCompressorChoose</a> function. Or, you can initialize a <b>COMPVARS</b> structure manually.
+You can allow the user to specify a compressor and initialize a <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure by using the <a href="https://msdn.microsoft.com/4a58df6a-9ac4-44bb-8c49-338bb60193fc">ICCompressorChoose</a> function. Or, you can initialize a <b>COMPVARS</b> structure manually.
 
 Use the <a href="https://msdn.microsoft.com/90103468-fcdc-4c40-b328-29fe467b9039">ICSeqCompressFrameStart</a>, <b>ICSeqCompressFrame</b>, and <a href="https://msdn.microsoft.com/3fdcd18d-4ee7-4b5a-871d-61316c716e06">ICSeqCompressFrameEnd</a> functions to compress a sequence of frames to a specified data rate and number of key frames. Use <b>ICSeqCompressFrame</b> once for each frame to be compressed.
 
-When finished with compression, use the <a href="https://msdn.microsoft.com/6d0c9a7d-6458-4330-af74-3f471555cbfc">ICCompressorFree</a> function to release the resources specified by <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a>.
+When finished with compression, use the <a href="https://msdn.microsoft.com/6d0c9a7d-6458-4330-af74-3f471555cbfc">ICCompressorFree</a> function to release the resources specified by <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a>.
 
 
 

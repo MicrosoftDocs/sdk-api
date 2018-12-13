@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>OnOutputPropsChanged</b> method indicates that the media properties for the specified output have changed. This change occurs as a result of a call to the <a href="https://msdn.microsoft.com/en-us/library/Dd743605(v=VS.85).aspx">IWMReader::SetOutputProps</a> method.
+The <b>OnOutputPropsChanged</b> method indicates that the media properties for the specified output have changed. This change occurs as a result of a call to the <a href="https://msdn.microsoft.com/0a5325d1-880b-4d65-96af-9d311dca989b">IWMReader::SetOutputProps</a> method.
 
 
 
@@ -68,7 +68,7 @@ The <b>OnOutputPropsChanged</b> method indicates that the media properties for t
 
 ### -param pMediaType [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd757963(v=VS.85).aspx">WM_MEDIA_TYPE</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/37a9ac59-e152-47e1-96ee-b816cd645936">WM_MEDIA_TYPE</a> structure.
 
 
 ### -param pvContext [in]
@@ -99,7 +99,7 @@ This method is called by the reader if the caller gets an asynchronous result fr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/9d18961a-5ea4-4f3e-b473-7399e155f800">IWMReaderCallbackAdvanced Interface</a>
  
 
  

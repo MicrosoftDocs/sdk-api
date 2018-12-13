@@ -4,7 +4,7 @@ title: SYMBOL_INFO
 author: windows-sdk-content
 description: Contains symbol information.
 old-location: base\symbol_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 785a9702-8b77-4ce1-99df-143ce78490ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

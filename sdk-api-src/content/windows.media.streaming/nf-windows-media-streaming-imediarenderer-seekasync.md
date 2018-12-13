@@ -60,7 +60,7 @@ Instructs the DMR asynchronously to seek to a particular time offset.
 
 ### -param target [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn467286(v=VS.85).aspx">TimeSpan</a> value that specifies the seek offset. This value must be 0 (indicating the beginning of the content) or greater, but less than the value of <a href="https://msdn.microsoft.com/9601c1ae-3fd2-4761-8aa7-102b72ef4733">PositionInformation.TrackDuration</a> which is obtained by calling <a href="https://msdn.microsoft.com/07011C85-34C5-430A-9551-FFC7C24CCED8">GetPositionInformationAsync</a>.
+A <a href="https://msdn.microsoft.com/c5defb66-819c-4796-85b5-07ed249a5d86">TimeSpan</a> value that specifies the seek offset. This value must be 0 (indicating the beginning of the content) or greater, but less than the value of <a href="https://msdn.microsoft.com/9601c1ae-3fd2-4761-8aa7-102b72ef4733">PositionInformation.TrackDuration</a> which is obtained by calling <a href="https://msdn.microsoft.com/07011C85-34C5-430A-9551-FFC7C24CCED8">GetPositionInformationAsync</a>.
 
 
 ### -param value [out]

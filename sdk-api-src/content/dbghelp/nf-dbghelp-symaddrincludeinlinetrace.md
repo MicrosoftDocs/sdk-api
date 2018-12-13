@@ -4,7 +4,7 @@ title: SymAddrIncludeInlineTrace function
 author: windows-sdk-content
 description: Indicates whether the specified address is within an inline frame.
 old-location: base\symaddrincludeinlinetrace.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 12bb0fbf-3573-4efd-88a6-e94828906413
 ms.author: windowssdkdev
 ms.date: 12/5/2018

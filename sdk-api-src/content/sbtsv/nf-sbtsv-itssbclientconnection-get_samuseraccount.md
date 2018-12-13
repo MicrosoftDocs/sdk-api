@@ -4,7 +4,7 @@ title: ITsSbClientConnection::get_SamUserAccount
 author: windows-sdk-content
 description: Retrieves a value that indicates the domain name and user name of the user who initiated the connection.
 old-location: termserv\itssbclientconnection_samuseraccount.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: eb3d8e6b-60c6-4d24-824c-94b642f44956
 ms.author: windowssdkdev
 ms.date: 12/5/2018

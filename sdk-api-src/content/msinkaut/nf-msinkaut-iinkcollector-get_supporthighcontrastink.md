@@ -90,7 +90,7 @@ Real-time ink application uses the COLOR_WINDOWTEXT color when the system is in 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="https://msdn.microsoft.com/4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB">IInkCollector</a>
 
 
 

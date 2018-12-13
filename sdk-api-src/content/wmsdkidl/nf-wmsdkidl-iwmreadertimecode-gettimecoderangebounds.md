@@ -117,11 +117,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743575(v=VS.85).aspx">IWMReaderTimecode Interface</a>
+<a href="https://msdn.microsoft.com/7f7d5608-c505-46ab-9e1e-e45b383c879b">IWMReaderTimecode Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743580(v=VS.85).aspx">IWMReaderTimecode::GetTimecodeRangeCount</a>
+<a href="https://msdn.microsoft.com/df58f968-23f8-407b-b18c-569732635464">IWMReaderTimecode::GetTimecodeRangeCount</a>
  
 
  

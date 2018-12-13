@@ -275,8 +275,8 @@ The exception is related to remote files. Although
     computer only sees its own writes to the page. When the data gets updated on the disk, it is not merged.
 
 A mapped view of a file is not guaranteed to be coherent with a file that is being accessed by the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> or 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> function.
+    <a href="base.readfile">ReadFile</a> or 
+    <a href="base.writefile">WriteFile</a> function.
 
 Do not store pointers in the memory mapped file; store offsets from the base of the file mapping so that the 
     mapping can be used at any address.

@@ -88,7 +88,7 @@ Specifies the low-order 32 bits of the counter.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a>
+<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a>
  
 
  

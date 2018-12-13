@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifies the visual feedback behaviors available to <a href="https://msdn.microsoft.com/en-us/library/Mt832775(v=VS.85).aspx">CreateSyntheticPointerDevice</a>.
+Identifies the visual feedback behaviors available to <a href="https://msdn.microsoft.com/251F837F-DF9A-4A94-B790-73AA7196E4A9">CreateSyntheticPointerDevice</a>.
 
 
 ## -enum-fields

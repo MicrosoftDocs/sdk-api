@@ -67,7 +67,7 @@ A <a href="https://msdn.microsoft.com/11FC071E-9B73-4960-B675-A43DDF75AA0B">D3D1
 
 ### -field Protections
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh447607(v=VS.85).aspx">D3D11_AUTHENTICATED_PROTECTION_FLAGS</a> union that specifies the protection level.
+A <a href="https://msdn.microsoft.com/037AB541-2E68-460C-8626-7F22C6C3E425">D3D11_AUTHENTICATED_PROTECTION_FLAGS</a> union that specifies the protection level.
 
 
 ## -see-also

@@ -117,19 +117,19 @@ If <b>true</b>, the target information persists across restarts of the iSCSI ini
 
 ### -param Mappings [in, optional]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/en-us/library/Bb870805(v=VS.85).aspx">ISCSI_TARGET_MAPPING</a> that contains a set of mappings that the initiator uses when assigning values for the bus, target, and LUN numbers to the iSCSI LUNs associated with the target. 
+A pointer to a structure of type <a href="https://msdn.microsoft.com/bdc27e67-1d64-42cd-adfa-a792012b7142">ISCSI_TARGET_MAPPING</a> that contains a set of mappings that the initiator uses when assigning values for the bus, target, and LUN numbers to the iSCSI LUNs associated with the target. 
 If <i>Mappings</i> is <b>null</b>, the initiator will select the bus, target, and LUN numbers.
 
 
 ### -param LoginOptions [in, optional]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/en-us/library/Bb870801(v=VS.85).aspx">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the default login parameters that an initiator uses to login to a target. 
+A pointer to a structure of type <a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the default login parameters that an initiator uses to login to a target. 
 
 
 
 ### -param PortalGroup [in, optional]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/en-us/library/Bb870811(v=VS.85).aspx">ISCSI_TARGET_PORTAL_GROUP</a> that indicates the group of portals that an initiator can use login to the target.
+A pointer to a structure of type <a href="https://msdn.microsoft.com/8b7e874b-5d2b-4948-98f2-1bcd6d4f8ca6">ISCSI_TARGET_PORTAL_GROUP</a> that indicates the group of portals that an initiator can use login to the target.
 
 
 ## -returns
@@ -158,15 +158,15 @@ By setting the <b>ISCSI_TARGET_FLAG_HIDE_STATIC_TARGET</b> flag, callers can con
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb870801(v=VS.85).aspx">ISCSI_LOGIN_OPTIONS</a>
+<a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb870805(v=VS.85).aspx">ISCSI_TARGET_MAPPING</a>
+<a href="https://msdn.microsoft.com/bdc27e67-1d64-42cd-adfa-a792012b7142">ISCSI_TARGET_MAPPING</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb870811(v=VS.85).aspx">ISCSI_TARGET_PORTAL_GROUP</a>
+<a href="https://msdn.microsoft.com/8b7e874b-5d2b-4948-98f2-1bcd6d4f8ca6">ISCSI_TARGET_PORTAL_GROUP</a>
 
 
 

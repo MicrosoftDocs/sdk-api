@@ -110,7 +110,7 @@ This property should be set to true when the native video stream is HDTV but the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390473(v=VS.85).aspx">IVMRMixerControl::GetMixingPrefs</a>
+<a href="https://msdn.microsoft.com/ee410a7e-e021-408a-bf40-cb58dc8eca1c">IVMRMixerControl::GetMixingPrefs</a>
 
 
 

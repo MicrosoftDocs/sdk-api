@@ -94,7 +94,7 @@ The system does not free the string pointers that you return in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="authorization_functions.htm">Access Control Editor Functions</a>
 
 
 

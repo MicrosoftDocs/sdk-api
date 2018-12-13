@@ -107,7 +107,7 @@ The full mode of Windows Media Player displays the program name on the <b>View</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563634(v=VS.85).aspx">IWMPRemoteMediaServices Interface</a>
+<a href="https://msdn.microsoft.com/594a614a-8da1-4ef0-a6af-01284fb48ef7">IWMPRemoteMediaServices Interface</a>
 
 
 

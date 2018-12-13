@@ -104,7 +104,7 @@ There may be no more than 255 distinct PIDs mapped at any given time. This inclu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407132(v=VS.85).aspx">IMPEG2PIDMap Interface</a>
+<a href="https://msdn.microsoft.com/45c09a02-7da8-460a-9a64-f012c2181b94">IMPEG2PIDMap Interface</a>
  
 
  

@@ -52,7 +52,7 @@ req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item's</a> creator.
+Sets the name of the <a href="w.htm">work item's</a> creator.
 
 
 ## -parameters

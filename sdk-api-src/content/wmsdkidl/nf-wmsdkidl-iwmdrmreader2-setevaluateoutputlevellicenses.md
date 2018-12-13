@@ -104,7 +104,7 @@ The method succeeded.
 
 If your application supports reading DRM-protected files with licenses that use output protection levels, you must call this method and set <i>fEvaluate</i> to <b>TRUE</b>. The call must be made before opening the file.
 
-When a file is opened with OPL support enabled, you must call either <a href="https://msdn.microsoft.com/en-us/library/Dd798341(v=VS.85).aspx">GetCopyOutputLevels</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd798342(v=VS.85).aspx">GetPlayOutputLevels</a>, depending on the actions your application performs. These methods provide minimum OPLs for the associated action.
+When a file is opened with OPL support enabled, you must call either <a href="https://msdn.microsoft.com/32c8110b-1a96-432d-a82c-5769757dd4f6">GetCopyOutputLevels</a> or <a href="https://msdn.microsoft.com/a53d58cc-655f-4441-9c16-5afc5b53a233">GetPlayOutputLevels</a>, depending on the actions your application performs. These methods provide minimum OPLs for the associated action.
 
 If you do not call this method, the reader object will not open DRM-protected files that have licenses specifying output protection levels.
 
@@ -116,7 +116,7 @@ If you do not call this method, the reader object will not open DRM-protected fi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798340(v=VS.85).aspx">IWMDRMReader2 Interface</a>
+<a href="https://msdn.microsoft.com/9fb7bbeb-d35f-41f7-b39a-2e5a102b5c05">IWMDRMReader2 Interface</a>
  
 
  

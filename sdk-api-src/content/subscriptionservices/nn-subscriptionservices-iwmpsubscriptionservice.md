@@ -75,7 +75,7 @@ The <b>IWMPSubscriptionService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563705(v=VS.85).aspx">allowCDBurn</a>
+<a href="https://msdn.microsoft.com/a17ab1c3-8208-481f-8566-164e2d817e05">allowCDBurn</a>
 </td>
 <td align="left" width="63%">
 Manages permission for Windows Media Player to copy content to a CD.
@@ -84,7 +84,7 @@ Manages permission for Windows Media Player to copy content to a CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563706(v=VS.85).aspx">allowPDATransfer</a>
+<a href="https://msdn.microsoft.com/a824c6c0-0887-41cb-892a-832635ade222">allowPDATransfer</a>
 </td>
 <td align="left" width="63%">
 Manages permission for Windows Media Player to copy content to a device.
@@ -93,7 +93,7 @@ Manages permission for Windows Media Player to copy content to a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563707(v=VS.85).aspx">allowPlay</a>
+<a href="https://msdn.microsoft.com/6350bf9d-f046-494f-8052-2a6f5339b4bd">allowPlay</a>
 </td>
 <td align="left" width="63%">
 Manages permission for Windows Media Player to play content.
@@ -102,7 +102,7 @@ Manages permission for Windows Media Player to play content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563708(v=VS.85).aspx">startBackgroundProcessing</a>
+<a href="https://msdn.microsoft.com/a3bdb4b1-8479-484f-92db-2b73a0c40bfb">startBackgroundProcessing</a>
 </td>
 <td align="left" width="63%">
 Initiates background processing tasks.

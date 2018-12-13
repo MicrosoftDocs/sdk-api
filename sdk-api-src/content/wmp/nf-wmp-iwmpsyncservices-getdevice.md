@@ -124,7 +124,7 @@ Windows Media Player is currently busy initializing devices. Please try again la
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563748(v=VS.85).aspx">IWMPSyncServices Interface</a>
+<a href="https://msdn.microsoft.com/57db3646-2f79-4087-98b2-2bc9d2f3c866">IWMPSyncServices Interface</a>
  
 
  

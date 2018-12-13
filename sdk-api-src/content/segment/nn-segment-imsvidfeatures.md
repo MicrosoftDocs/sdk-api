@@ -60,7 +60,7 @@ This interface is used for two purposes: to retrieve a read-only collection of t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFeatures</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMSVidFeatures</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFeatures</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMSVidFeatures</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IMSVidFeatures</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694546(v=VS.85).aspx">Add</a>
+<a href="https://msdn.microsoft.com/1bdb5e4a-4dd7-49dc-bb9c-b6a9e435219b">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a feature to the collection.
@@ -84,7 +84,7 @@ Adds a feature to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694549(v=VS.85).aspx">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/6c619f62-5041-410b-8ce0-d811992a32d6">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection.
@@ -93,7 +93,7 @@ Retrieves an enumerator for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694547(v=VS.85).aspx">get_Count</a>
+<a href="https://msdn.microsoft.com/45ad322a-d9ec-446d-8c1e-c955049dd257">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the collection.
@@ -102,7 +102,7 @@ Retrieves the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694548(v=VS.85).aspx">get_Item</a>
+<a href="https://msdn.microsoft.com/f5656ba2-7ba6-44ba-bcab-3678fbd10b07">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified item from the collection.
@@ -111,7 +111,7 @@ Retrieves the specified item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694550(v=VS.85).aspx">Remove</a>
+<a href="https://msdn.microsoft.com/6a9e35e2-231e-4ad6-ac57-e6258df2777f">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.
@@ -135,7 +135,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

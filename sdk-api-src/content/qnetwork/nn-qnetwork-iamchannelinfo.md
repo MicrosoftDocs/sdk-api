@@ -60,7 +60,7 @@ This interface is exposed by the <a href="https://msdn.microsoft.com/e59b3086-4f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMChannelInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMChannelInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMChannelInfo</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAMChannelInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IAMChannelInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389155(v=VS.85).aspx">get_ChannelDescription</a>
+<a href="https://msdn.microsoft.com/c39b15af-0766-4512-9720-4cdaef6120ba">get_ChannelDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the description of the channel.
@@ -84,7 +84,7 @@ Gets the description of the channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389156(v=VS.85).aspx">get_ChannelName</a>
+<a href="https://msdn.microsoft.com/6cf4f8aa-d6aa-46bd-83b1-fba762fbb8bb">get_ChannelName</a>
 </td>
 <td align="left" width="63%">
 Gets the channel name.
@@ -93,7 +93,7 @@ Gets the channel name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389157(v=VS.85).aspx">get_ChannelURL</a>
+<a href="https://msdn.microsoft.com/27e1a315-db95-4f24-94b6-b10023e61e7a">get_ChannelURL</a>
 </td>
 <td align="left" width="63%">
 Gets the channel URL.
@@ -102,7 +102,7 @@ Gets the channel URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389158(v=VS.85).aspx">get_ContactAddress</a>
+<a href="https://msdn.microsoft.com/b94ccc71-92d1-4c1a-b34a-c34e6ea7bd91">get_ContactAddress</a>
 </td>
 <td align="left" width="63%">
 Gets the contact address.
@@ -111,7 +111,7 @@ Gets the contact address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389159(v=VS.85).aspx">get_ContactEmail</a>
+<a href="https://msdn.microsoft.com/a8ab9fc0-1370-44a1-95c8-6592c374d8d6">get_ContactEmail</a>
 </td>
 <td align="left" width="63%">
 Gets the contact email address.
@@ -120,7 +120,7 @@ Gets the contact email address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389160(v=VS.85).aspx">get_ContactPhone</a>
+<a href="https://msdn.microsoft.com/b5addbbb-a0f3-4dec-a347-9c69864a0615">get_ContactPhone</a>
 </td>
 <td align="left" width="63%">
 Gets the contact phone number.
@@ -150,7 +150,7 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

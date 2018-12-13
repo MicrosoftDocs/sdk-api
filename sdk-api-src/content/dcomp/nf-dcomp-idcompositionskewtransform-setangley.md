@@ -93,11 +93,11 @@ If the AngleY property was previously animated, this method removes the animatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx">IDCompositionSkewTransform</a>
+<a href="https://msdn.microsoft.com/c1dbc11f-b8e3-487e-84f0-517ebaf65de8">IDCompositionSkewTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449063(v=VS.85).aspx">IDCompositionSkewTransform::SetAngleX</a>
+<a href="https://msdn.microsoft.com/DA4AEE0D-A913-434E-9150-DD6763132041">IDCompositionSkewTransform::SetAngleX</a>
  
 
  

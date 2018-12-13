@@ -62,7 +62,7 @@ Adds a desktop item to the Active Desktop after  displaying user interfaces that
 
 Type: <b>HWND</b>
 
-The handle of the parent window. If <b>NULL</b>, the desktop item is added without displaying any user interface, in accordance with the corresponding security zone permissions. For more information, see <a href="https://msdn.microsoft.com/library/ms537183(v=VS.85).aspx">About URL Security Zones</a>.
+The handle of the parent window. If <b>NULL</b>, the desktop item is added without displaying any user interface, in accordance with the corresponding security zone permissions. For more information, see <a href="ie.URL_Security_Zones_Overview_9kxc">About URL Security Zones</a>.
 
 
 ### -param pcomp [in]
@@ -153,7 +153,7 @@ If the <b>ADDURL_SILENT</b> flag has been set, the desktop item has either been 
 
 
 
-This method creates a second instance of the <a href="https://msdn.microsoft.com/68d72b0f-f5e9-4fff-bb13-4c60d1dd7009">Active Desktop</a> to add the desktop item, so the desktop item does not appear in the current instance. The application must call the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method on this <a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a> interface and then use the <a href="http://msdn.microsoft.com/en-us/library/ms686615(VS.85).aspx">CoCreateInstance</a> function to retrieve the Active Desktop object with the newly added component.
+This method creates a second instance of the <a href="https://msdn.microsoft.com/68d72b0f-f5e9-4fff-bb13-4c60d1dd7009">Active Desktop</a> to add the desktop item, so the desktop item does not appear in the current instance. The application must call the <a href="_com_iunknown_release">IUnknown::Release</a> method on this <a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a> interface and then use the <a href="http://msdn.microsoft.com/en-us/library/ms686615(VS.85).aspx">CoCreateInstance</a> function to retrieve the Active Desktop object with the newly added component.
 
 
 

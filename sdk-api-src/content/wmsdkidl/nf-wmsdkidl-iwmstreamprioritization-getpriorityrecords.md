@@ -142,15 +142,15 @@ Records in a stream prioritization object are given in order of decreasing prior
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798573(v=VS.85).aspx">IWMStreamPrioritization Interface</a>
+<a href="https://msdn.microsoft.com/ef8ae275-c36a-492c-b57c-d640044ede93">IWMStreamPrioritization Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798575(v=VS.85).aspx">IWMStreamPrioritization::SetPriorityRecords</a>
+<a href="https://msdn.microsoft.com/9bd42132-b391-4941-87db-5ce2254e19cf">IWMStreamPrioritization::SetPriorityRecords</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757994(v=VS.85).aspx">WM_STREAM_PRIORITY_RECORD</a>
+<a href="https://msdn.microsoft.com/43c9370c-cd43-4dd0-8258-d6dbdb98f1de">WM_STREAM_PRIORITY_RECORD</a>
  
 
  

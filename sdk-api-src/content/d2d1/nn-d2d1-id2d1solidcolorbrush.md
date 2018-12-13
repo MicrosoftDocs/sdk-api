@@ -93,50 +93,58 @@ Retrieves the color of the solid color brush.
 
 
 <h3><a id="Creating_ID2D1SolidColorBrush_Objects"></a><a id="creating_id2d1solidcolorbrush_objects"></a><a id="CREATING_ID2D1SOLIDCOLORBRUSH_OBJECTS"></a>Creating ID2D1SolidColorBrush Objects</h3>
-To create a solid color brush, use the <a href="https://msdn.microsoft.com/en-us/library/Dd742843(v=VS.85).aspx">ID2D1RenderTarget::CreateSolidColorBrush</a> method of the render target  on which the brush will be used. The brush can only be used with the render target that created it or with  the compatible targets for that render target.
+To create a solid color brush, use the <a href="https://msdn.microsoft.com/3dbfe26f-cf36-47b0-925e-4934e0d7c390">ID2D1RenderTarget::CreateSolidColorBrush</a> method of the render target  on which the brush will be used. The brush can only be used with the render target that created it or with  the compatible targets for that render target.
 
 A solid color brush is a device-dependent resource. (For more information about resources, see <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.)
 
 
 #### Examples
 
-The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742843(v=VS.85).aspx">CreateSolidColorBrush</a> method of a render target (<i>m_pRenderTarget</i>) to create two brushes. The example uses a predefined color (black) to specify the color of the first brush. It uses a hexadecimal color value (yellow) to specify the color of the second brush.
+The following example uses the <a href="https://msdn.microsoft.com/3dbfe26f-cf36-47b0-925e-4934e0d7c390">CreateSolidColorBrush</a> method of a render target (<i>m_pRenderTarget</i>) to create two brushes. The example uses a predefined color (black) to specify the color of the first brush. It uses a hexadecimal color value (yellow) to specify the color of the second brush.
 
-
-```cpp
-if (SUCCEEDED(hr))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget->CreateSolidColorBrush(
+    hr = m_pRenderTarget-&gt;CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black, 1.0f),
-        &m_pBlackBrush
+        &amp;m_pBlackBrush
         );
 }
 
 // Create a solid color brush with its rgb value 0x9ACD32.
 if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget->CreateSolidColorBrush(
+    hr = m_pRenderTarget-&gt;CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF(0x9ACD32, 1.0f)),  
-        &m_pYellowGreenBrush
+        &amp;m_pYellowGreenBrush
         );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next code example calls the <a href="https://msdn.microsoft.com/b5d7ca28-0751-4799-8480-f221fd5fe276">FillRectangle</a> method to paint the interior of a rectangle with the yellow green brush and the <a href="https://msdn.microsoft.com/bc176c12-db06-4f1e-b668-4441723a916a">DrawRectangle</a> method to paint the outline of the rectangle with the black brush:
 
-
-```cpp
-m_pRenderTarget->FillRectangle(&rcBrushRect, m_pYellowGreenBrush);
-m_pRenderTarget->DrawRectangle(&rcBrushRect, m_pBlackBrush, 1, NULL);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>m_pRenderTarget-&gt;FillRectangle(&amp;rcBrushRect, m_pYellowGreenBrush);
+m_pRenderTarget-&gt;DrawRectangle(&amp;rcBrushRect, m_pBlackBrush, 1, NULL);
+</pre>
+</td>
+</tr>
+</table></span></div>
 These examples produce the output shown in the following illustration.
 
-<img alt="Illustration of a rectangle filled with a solid, yellow-green color" src="./images/brushes_ovw_solidcolor.png"/>
+<img alt="Illustration of a rectangle filled with a solid, yellow-green color" src="images/brushes_ovw_solidcolor.png"/>
 
 <div class="code"></div>
 

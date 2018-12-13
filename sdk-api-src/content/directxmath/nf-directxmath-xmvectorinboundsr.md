@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Tests whether the components of a given vector are within certain bounds and sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
+Tests whether the components of a given vector are within certain bounds and sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Tests whether the components of a given vector are within certain bounds and set
 
 ### -param pCR [out]
 
-Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437886(v=VS.85).aspx">XMComparisonAllInBounds</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
+Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/6613221e-bff0-4dba-9918-6094ec3fdc99">XMComparisonAllInBounds</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
 
 
 ### -param V [in]
@@ -88,19 +88,23 @@ Returns a vector containing the results of each component test.
 
 The following pseudocode demonstrates the comparison operation of the function:
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Control;
 
-```
-XMVECTOR Control;
+Control.x = (V.x &lt;= Bounds.x &amp;&amp; V.x &gt;= -Bounds.x) ? 0xFFFFFFFF : 0;
+Control.y = (V.y &lt;= Bounds.y &amp;&amp; V.y &gt;= -Bounds.y) ? 0xFFFFFFFF : 0;
+Control.z = (V.z &lt;= Bounds.z &amp;&amp; V.z &gt;= -Bounds.z) ? 0xFFFFFFFF : 0;
+Control.w = (V.w &lt;= Bounds.w &amp;&amp; V.w &gt;= -Bounds.w) ? 0xFFFFFFFF : 0;
 
-Control.x = (V.x <= Bounds.x && V.x >= -Bounds.x) ? 0xFFFFFFFF : 0;
-Control.y = (V.y <= Bounds.y && V.y >= -Bounds.y) ? 0xFFFFFFFF : 0;
-Control.z = (V.z <= Bounds.z && V.z >= -Bounds.z) ? 0xFFFFFFFF : 0;
-Control.w = (V.w <= Bounds.w && V.w >= -Bounds.w) ? 0xFFFFFFFF : 0;
-
-return Control;
-```
-
-
+return Control;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
@@ -116,7 +120,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421166(v=VS.85).aspx">XMVectorInBounds</a>
+<a href="https://msdn.microsoft.com/96a5c889-1c3e-4f11-a296-974aa65addfa">XMVectorInBounds</a>
  
 
  

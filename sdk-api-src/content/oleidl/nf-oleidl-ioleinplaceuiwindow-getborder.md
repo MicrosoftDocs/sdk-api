@@ -122,7 +122,7 @@ The <b>IOleInPlaceUIWindow::GetBorder</b> function, when called on a document or
 
 If the object is to install these tools, it should negotiate space for the tools within this rectangle using <a href="https://msdn.microsoft.com/fd477b1d-e9a5-4b99-adf1-8e62de975730">IOleInPlaceUIWindow::RequestBorderSpace</a> and then call <a href="https://msdn.microsoft.com/7c806a02-db6d-444e-a049-22c4ae2b19b0">IOleInPlaceUIWindow::SetBorderSpace</a> to get this space allocated.
 
-<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::GetBorder</b>, do not make calls to the <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>GetBorder</b>.</div>
+<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::GetBorder</b>, do not make calls to the <a href="_win32_PeekMessage_cpp">PeekMessage</a> or <a href="_win32_GetMessage_cpp">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>GetBorder</b>.</div>
 <div> </div>
 
 

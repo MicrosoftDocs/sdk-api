@@ -4,7 +4,7 @@ title: ITsSbTarget::get_TargetNetbios
 author: windows-sdk-content
 description: Retrieves or specifies the NetBIOS name of the target.
 old-location: termserv\itssbtarget_targetnetbios.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: c1c91d9c-10ae-4fe3-8742-c0fbe68b7020
 ms.author: windowssdkdev
 ms.date: 12/5/2018

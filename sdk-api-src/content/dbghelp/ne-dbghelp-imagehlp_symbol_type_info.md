@@ -4,7 +4,7 @@ title: IMAGEHLP_SYMBOL_TYPE_INFO
 author: windows-sdk-content
 description: Identifies the type of symbol information to be retrieved.
 old-location: base\imagehlp_symbol_type_info.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 1b21c8dc-240f-4202-bd61-8f9dae0d053a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetSymLoadError function
 author: windows-sdk-content
 description: Gets the last symbol load error.
 old-location: base\getsymloaderror.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: EFCE3FC5-A815-401F-96C1-2A4F12E01C1C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

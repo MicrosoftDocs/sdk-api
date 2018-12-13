@@ -56,7 +56,7 @@ The <b>IDXGIFactory1</b> interface implements methods for generating DXGI object
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>. <b>IDXGIFactory1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory1</b> interface inherits from <a href="https://msdn.microsoft.com/642aac36-ca5a-4c62-b5cb-f9d35965ca2f">IDXGIFactory</a>. <b>IDXGIFactory1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -100,7 +100,7 @@ This interface is not supported by DXGI 1.0, which shipped in Windows Vista and
 To create a factory, call the <a href="https://msdn.microsoft.com/6fb9d7a3-0b59-4b7a-8871-b99d59811d46">CreateDXGIFactory1</a> function.
 
 Because you can create a Direct3D device without creating a swap chain, you might need to retrieve the factory that is used to create the device in order to create a swap chain.
-You can request the <a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a> or <a href="https://msdn.microsoft.com/a0ba0fa3-489a-4eff-9e49-b231ab472ee4">IDXGIDevice1</a> interface from the Direct3D device and then use the <a href="https://msdn.microsoft.com/en-us/library/Bb174542(v=VS.85).aspx">IDXGIObject::GetParent</a> method to locate 
+You can request the <a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a> or <a href="https://msdn.microsoft.com/a0ba0fa3-489a-4eff-9e49-b231ab472ee4">IDXGIDevice1</a> interface from the Direct3D device and then use the <a href="https://msdn.microsoft.com/7e7f7494-445e-4bf1-8b94-fc40b7d9b887">IDXGIObject::GetParent</a> method to locate 
 the factory.  The following code shows how.
 
 <div class="code"><span codelanguage=""><table>
@@ -133,7 +133,7 @@ pDXGIAdapter-&gt;GetParent(__uuidof(IDXGIFactory1), (void **)&amp;pIDXGIFactory)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>
+<a href="https://msdn.microsoft.com/642aac36-ca5a-4c62-b5cb-f9d35965ca2f">IDXGIFactory</a>
  
 
  

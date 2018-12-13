@@ -53,7 +53,7 @@ req.redist:
 ## -description
 
 
-Frees the handle allocated by <a href="https://msdn.microsoft.com/en-us/library/BR229857(v=VS.85).aspx">RoGetParameterizedTypeInstanceIID</a>.
+Frees the handle allocated by <a href="https://msdn.microsoft.com/DE908C82-5D7C-415C-B08B-31786589979B">RoGetParameterizedTypeInstanceIID</a>.
 
 
 ## -parameters

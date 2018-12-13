@@ -70,7 +70,7 @@ The <b>IDWriteFontSetBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933239(v=VS.85).aspx">AddFontFaceReference</a>
+<a href="https://msdn.microsoft.com/2543720f-1b5a-ca1d-9e24-3fcd61a4de37">AddFontFaceReference</a>
 </td>
 <td align="left" width="63%">Overloaded. Adds a reference to a font to the set being built.
 
@@ -78,7 +78,7 @@ The <b>IDWriteFontSetBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933240(v=VS.85).aspx">AddFontSet</a>
+<a href="https://msdn.microsoft.com/F8B94A1B-905B-4A96-9943-12BB516311C2">AddFontSet</a>
 </td>
 <td align="left" width="63%">
 Appends an existing font set to the one being built, allowing
@@ -88,7 +88,7 @@ Appends an existing font set to the one being built, allowing
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933241(v=VS.85).aspx">CreateFontSet</a>
+<a href="https://msdn.microsoft.com/58923F9C-4DAA-4F97-AE25-A2560176E0F2">CreateFontSet</a>
 </td>
 <td align="left" width="63%">
 Creates a font set from all the font face references added so

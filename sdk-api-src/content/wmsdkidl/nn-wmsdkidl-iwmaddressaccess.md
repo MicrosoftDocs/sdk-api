@@ -53,7 +53,7 @@ req.redist:
 
 The <b>IWMAddressAccess</b> interface controls IP access lists on the writer network sink object. Applications can use this interface to exclude specific IP addresses, or ranges of IP addresses, from connecting to the network sink. To obtain this interface, call <b>QueryInterface</b> on another interface of the writer network sink object.
 
-This interface supports only Internet Protocol version 4 (IPv4) addresses. The <a href="https://msdn.microsoft.com/en-us/library/Dd743280(v=VS.85).aspx">IWMAddressAccess2</a> interface inherits <b>IWMAddressAccess</b> and adds support for IPv6 addresses.
+This interface supports only Internet Protocol version 4 (IPv4) addresses. The <a href="https://msdn.microsoft.com/609a20a7-e1a3-4889-abf3-4a6defc7739a">IWMAddressAccess2</a> interface inherits <b>IWMAddressAccess</b> and adds support for IPv6 addresses.
 
 
 
@@ -65,31 +65,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd743280(v=VS.85).aspx">IWMAddressAccess2</a>
+<a href="https://msdn.microsoft.com/609a20a7-e1a3-4889-abf3-4a6defc7739a">IWMAddressAccess2</a>
 </td>
 <td> IID_IWMAddressAccess2 </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd743303(v=VS.85).aspx">IWMClientConnections</a>
+<a href="https://msdn.microsoft.com/fea7cd85-22ab-4f3b-8a0a-301496f0c788">IWMClientConnections</a>
 </td>
 <td>IID_IWMClientConnections</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd743304(v=VS.85).aspx">IWMClientConnections2</a>
+<a href="https://msdn.microsoft.com/7148dd13-e5de-4adb-89e7-3f02a463c2d1">IWMClientConnections2</a>
 </td>
 <td>IID_IWMClientConnections2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink</a>
+<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink</a>
 </td>
 <td>IID_IWMWriterNetworkSink</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink</a>
+<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink</a>
 </td>
 <td>IID_IWMWriterSink</td>
 </tr>
@@ -116,7 +116,7 @@ The <b>IWMAddressAccess</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743283(v=VS.85).aspx">AddAccessEntry</a>
+<a href="https://msdn.microsoft.com/670bea6a-0370-4dc4-a2af-fcdbe2a6656a">AddAccessEntry</a>
 </td>
 <td align="left" width="63%">
 Adds an entry to the access list.
@@ -125,7 +125,7 @@ Adds an entry to the access list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743284(v=VS.85).aspx">GetAccessEntry</a>
+<a href="https://msdn.microsoft.com/b01b921b-0bb8-447b-877c-8ac218422d36">GetAccessEntry</a>
 </td>
 <td align="left" width="63%">
 Retrieves an entry from the access list.
@@ -134,7 +134,7 @@ Retrieves an entry from the access list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743285(v=VS.85).aspx">GetAccessEntryCount</a>
+<a href="https://msdn.microsoft.com/996d8a8a-887e-4e2f-b810-c57a4251f771">GetAccessEntryCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of entries in the access list.
@@ -143,7 +143,7 @@ Retrieves the number of entries in the access list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743286(v=VS.85).aspx">RemoveAccessEntry</a>
+<a href="https://msdn.microsoft.com/f3f9d493-90b4-4b2a-ad18-baf2b09bc72e">RemoveAccessEntry</a>
 </td>
 <td align="left" width="63%">
 Removes an entry from the access list.

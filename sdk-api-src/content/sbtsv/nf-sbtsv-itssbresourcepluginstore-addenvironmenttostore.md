@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::AddEnvironmentToStore
 author: windows-sdk-content
 description: Adds an environment to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addenvironmenttostore.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5f1d995b-10de-4754-9160-fb93a9d8f263
 ms.author: windowssdkdev
 ms.date: 12/5/2018

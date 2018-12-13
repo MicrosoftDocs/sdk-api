@@ -53,7 +53,7 @@ req.redist:
 Initializes a new instance of <code>XMDECN4</code> from four normalized <code>float</code>arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx">XMDECN4</a> from four
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/1268ED43-2957-464A-A38E-F7AFFC4EEEE9">XMDECN4</a> from four
 	normalized <code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -157,11 +157,11 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx">XMDECN4</a>
+<a href="https://msdn.microsoft.com/1268ED43-2957-464A-A38E-F7AFFC4EEEE9">XMDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415270(v=VS.85).aspx">XMDECN4 Constructors</a>
+<a href="https://msdn.microsoft.com/3edea240-813d-484a-91bc-cba99ecdbe14">XMDECN4 Constructors</a>
  
 
  

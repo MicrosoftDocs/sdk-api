@@ -60,7 +60,7 @@ Transforms a stream of 4D vectors by a given matrix.
 
 ### -param pOutputStream [out]
 
-Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a> in the destination stream.
+Address of the first <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> in the destination stream.
 
 
 ### -param OutputStride [in]
@@ -70,7 +70,7 @@ Stride, in bytes, between vectors in the destination stream.
 
 ### -param pInputStream [in]
 
-Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a> in the stream to be transformed.
+Address of the first <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> in the stream to be transformed.
 
 
 ### -param InputStride [in]
@@ -92,7 +92,7 @@ Transformation matrix.
 
 
 
-Returns the address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a> in the destination stream.
+Returns the address of the first <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> in the destination stream.
 
 
 
@@ -116,7 +116,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420986(v=VS.85).aspx">XMVector4Transform</a>
+<a href="https://msdn.microsoft.com/58CB8AD1-3FF2-43A2-8FE2-F20C04080B57">XMVector4Transform</a>
  
 
  

@@ -57,7 +57,7 @@ The WinSNMP
 
 The 
 <b>smiOCTETS</b> structure contains a pointer to an SNMP octet string of variable length. The structure can be a member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a> structure.
+<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a> structure.
 
 
 ## -struct-fields
@@ -123,7 +123,7 @@ Because the WinSNMP application allocates memory for input descriptor objects wi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a>
+<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a>
  
 
  

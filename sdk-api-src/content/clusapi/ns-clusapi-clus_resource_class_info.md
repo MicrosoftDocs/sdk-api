@@ -90,13 +90,13 @@ Resource class is unknown.
 ####### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc.CLUS_RESCLASS_STORAGE (1)
 
 Resource is a storage device, such as a 
-            <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">Physical Disk resource</a>.
+            <a href="p_gly.htm">Physical Disk resource</a>.
 
 
 
 ####### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc.CLUS_RESCLASS_NETWORK (2)
 
-Resource is a <a href="https://msdn.microsoft.com/en-us/library/Aa371763(v=VS.85).aspx">network</a> device.
+Resource is a <a href="n_gly.htm">network</a> device.
 
 
 
@@ -115,7 +115,7 @@ A mask value that further describes the resource class. The following value is v
 ###### DUMMYSTRUCTNAME.SubClass.CLUS_RESSUBCLASS_SHARED (0x80000000)
 
 Indicates that the resource manages a shared resource such as a disk on a shared 
-           <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">SCSI</a> bus.
+           <a href="s_gly.htm">SCSI</a> bus.
 
 
 ### -field DUMMYUNIONNAME.li

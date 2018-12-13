@@ -64,7 +64,7 @@ The <code>GetAspectRatioMode</code> method retrieves the current aspect ratio di
 
 ### -param lpAspectRatioMode [out]
 
-Pointer to a DWORD that receives a <a href="https://msdn.microsoft.com/en-us/library/Dd407361(v=VS.85).aspx">VMR9AspectRatioMode</a> value that indicates the current aspect ratio mode.
+Pointer to a DWORD that receives a <a href="https://msdn.microsoft.com/745e7aad-a598-4be6-b28b-bb5969ef0c77">VMR9AspectRatioMode</a> value that indicates the current aspect ratio mode.
 
 
 ## -returns
@@ -120,11 +120,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9 Interface</a>
+<a href="https://msdn.microsoft.com/9db99c31-65b5-4ff1-9c0d-22140a3687e8">IVMRWindowlessControl9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390547(v=VS.85).aspx">SetAspectRatioMode</a>
+<a href="https://msdn.microsoft.com/5ba46490-0a82-495f-8742-d7a8efa95332">SetAspectRatioMode</a>
 
 
 

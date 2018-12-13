@@ -61,7 +61,7 @@ The
 
 ### -field adspec_header
 
-Adspec header, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a> structure.
+Adspec header, expressed as an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
 
 
 ### -field adspec_body
@@ -74,7 +74,7 @@ Adspec message body.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a>
+<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
  
 
  

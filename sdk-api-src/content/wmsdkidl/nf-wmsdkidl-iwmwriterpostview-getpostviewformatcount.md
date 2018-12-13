@@ -117,7 +117,7 @@ NULL value passed in to <i>pcFormats</i>.
 
 
 
-This method can be used along with <a href="https://msdn.microsoft.com/en-us/library/Dd798775(v=VS.85).aspx">GetPostViewFormat</a> to ascertain all possible format types supported by this output on the reader.
+This method can be used along with <a href="https://msdn.microsoft.com/3636833d-3c96-45d9-bf82-e3ff930c7d9b">GetPostViewFormat</a> to ascertain all possible format types supported by this output on the reader.
 
 
 
@@ -127,7 +127,7 @@ This method can be used along with <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
+<a href="https://msdn.microsoft.com/1d24dbd6-86df-4a0a-8110-15f6a4c1f31d">IWMWriterPostView Interface</a>
  
 
  

@@ -113,11 +113,11 @@ The <i>pwStreamNum</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798568(v=VS.85).aspx">IWMStreamConfig::SetStreamNumber</a>
+<a href="https://msdn.microsoft.com/aea8b219-5b47-4176-ad96-d52646d96578">IWMStreamConfig::SetStreamNumber</a>
  
 
  

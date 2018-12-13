@@ -106,7 +106,7 @@ If, upon entry,  the <b>dwEncryptFlags</b> member of the <a href="https://msdn.m
 <div> </div>
 
 
-You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
+You can use <a href="cryptography_functions.htm">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
 
 You must define different callback functions for CAPI1 keys and Cryptography API: Next Generation (CNG) keys. Both functions have the same signature but use different OIDs. Which function is called depends on the value of the  <b>fCNG</b> member of the <a href="https://msdn.microsoft.com/c53014a0-049c-42ef-b612-8a1e03fb0dfd">CMSG_CONTENT_ENCRYPT_INFO</a> structure pointed to by the <i>pContentEncryptInfo</i> parameter. The following table shows the relationship between the callback function and the value of the <b>fCNG</b> member.
 

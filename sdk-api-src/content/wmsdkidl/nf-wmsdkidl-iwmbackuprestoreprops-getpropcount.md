@@ -89,11 +89,11 @@ The method returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743291(v=VS.85).aspx">IWMBackupRestoreProps Interface</a>
+<a href="https://msdn.microsoft.com/3a5af1f3-e652-4729-931b-d0702af408f3">IWMBackupRestoreProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743297(v=VS.85).aspx">IWMBackupRestoreProps::SetProp</a>
+<a href="https://msdn.microsoft.com/582c1590-8855-409c-9964-a0fb7baa05bd">IWMBackupRestoreProps::SetProp</a>
  
 
  

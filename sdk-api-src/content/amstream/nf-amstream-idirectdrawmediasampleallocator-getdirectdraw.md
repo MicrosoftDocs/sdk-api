@@ -94,7 +94,7 @@ The caller should release the returned <b>IDirectDraw</b> pointer, except when c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406802(v=VS.85).aspx">IDirectDrawMediaSampleAllocator Interface</a>
+<a href="https://msdn.microsoft.com/35fd81ce-058a-4caf-b1de-f669be586f33">IDirectDrawMediaSampleAllocator Interface</a>
  
 
  

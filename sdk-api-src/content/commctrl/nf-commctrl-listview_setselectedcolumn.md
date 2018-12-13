@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the index of the selected column. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761202(v=VS.85).aspx">LVM_SETSELECTEDCOLUMN</a> message explicitly. 
+Sets the index of the selected column. You can use this macro or send the <a href="https://msdn.microsoft.com/11b0838e-24a7-4c1c-b67d-0912b5a6442a">LVM_SETSELECTEDCOLUMN</a> message explicitly. 
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Type: <b>int</b>
 
 
 
-To use <b>ListView_SetSelectedColumn</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetSelectedColumn</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

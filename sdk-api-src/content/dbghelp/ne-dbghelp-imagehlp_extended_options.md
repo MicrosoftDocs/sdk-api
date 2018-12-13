@@ -4,7 +4,7 @@ title: IMAGEHLP_EXTENDED_OPTIONS
 author: windows-sdk-content
 description: Lists the extended symbol options that you can get and set by using the SymGetExtendedOption and SymSetExtendedOption functions.
 old-location: base\imagehlp_extended_options.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 5354F53C-F161-4887-85E4-7A00521034EE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

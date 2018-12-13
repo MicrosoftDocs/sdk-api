@@ -156,7 +156,7 @@ The synchronous reader failed to initialize an internal object.
 
 In some scenarios, such as multiple bit rate streaming, the output encompasses several streams. The size returned is the maximum sample size for all of the streams associated with the specified output.
 
-You can retrieve the maximum sample size for a specific stream by using <a href="https://msdn.microsoft.com/en-us/library/Dd798586(v=VS.85).aspx">IWMSyncReader::GetMaxStreamSampleSize</a>.
+You can retrieve the maximum sample size for a specific stream by using <a href="https://msdn.microsoft.com/8b098985-4eb2-4292-a9b9-cfdd051e9c0e">IWMSyncReader::GetMaxStreamSampleSize</a>.
 
 
 
@@ -166,7 +166,7 @@ You can retrieve the maximum sample size for a specific stream by using <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
  
 
  

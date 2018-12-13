@@ -89,7 +89,7 @@ Chunk size for tracking ranges. A single byte modification will be reflected as 
 
 ### -field FileSizeThreshold
 
-File size threshold to start outputting <a href="https://msdn.microsoft.com/en-us/library/Mt684964(v=VS.85).aspx">USN_RECORD_V4</a> record(s) for modified file, i.e. if the modified file size is less than this threshold, then no <b>USN_RECORD_V4</b> record will be output. 
+File size threshold to start outputting <a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a> record(s) for modified file, i.e. if the modified file size is less than this threshold, then no <b>USN_RECORD_V4</b> record will be output. 
 
 
 ## -remarks

@@ -52,7 +52,7 @@ req.redist:
 
 
 
-The <code>get_DevSyncOffset</code> method retrieves the average time difference between when the video frames should have been displayed and when they actually were. This method is the same as the <a href="https://msdn.microsoft.com/en-us/library/Dd376917(v=VS.85).aspx">IQualProp::get_AvgSyncOffset</a> method except that the value returned is calculated as a standard deviation rather than as a simple average.
+The <code>get_DevSyncOffset</code> method retrieves the average time difference between when the video frames should have been displayed and when they actually were. This method is the same as the <a href="https://msdn.microsoft.com/4bed68f0-d080-46d4-b582-e561ddca33f0">IQualProp::get_AvgSyncOffset</a> method except that the value returned is calculated as a standard deviation rather than as a simple average.
 
 
 
@@ -94,7 +94,7 @@ When playing video from networks, the presentation can often be disrupted by net
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376915(v=VS.85).aspx">IQualProp Interface</a>
+<a href="https://msdn.microsoft.com/428dfb97-0dfa-442c-819e-291e6a58f712">IQualProp Interface</a>
  
 
  

@@ -72,7 +72,7 @@ The <b>IDCompositionMatrixTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh437426(v=VS.85).aspx">SetMatrix</a>
+<a href="https://msdn.microsoft.com/0F1DBC1C-154A-4785-B9B9-924353FD5836">SetMatrix</a>
 </td>
 <td align="left" width="63%">
 Changes all values of the matrix of this 3D transformation effect.
@@ -96,7 +96,7 @@ Changes all values of the matrix of this 3D transformation effect.
 
 A 3D matrix transform represents the following 4-by-4 matrix:
 
-<img alt="Four-by-four 3D transform matrix" src="./images/3D_matrix.png"/>
+<img alt="Four-by-four 3D transform matrix" src="images/3D_matrix.png"/>
 
  The application can set any of the values in the first three columns. Note that the fourth column is padded to allow for matrix concatenation. 
 

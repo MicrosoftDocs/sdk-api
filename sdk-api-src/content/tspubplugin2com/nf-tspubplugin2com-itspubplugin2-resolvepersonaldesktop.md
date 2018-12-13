@@ -4,7 +4,7 @@ title: ItsPubPlugin2::ResolvePersonalDesktop
 author: windows-sdk-content
 description: Called to resolve a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
 old-location: termserv\itspubplugin2_resolvepersonaldesktop.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1f88d7a6-c662-4a14-a288-9c346c8fb7f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Selects or deselects an item in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761352(v=VS.85).aspx">LB_SETSEL</a> message explicitly.
+Selects or deselects an item in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/643783f2-0e00-4b79-b957-47938bb9f8da">LB_SETSEL</a> message explicitly.
 
 
 ## -parameters

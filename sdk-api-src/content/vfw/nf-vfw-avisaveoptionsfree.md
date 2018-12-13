@@ -63,12 +63,12 @@ The <b>AVISaveOptionsFree</b> function frees the resources allocated by the <a h
 
 ### -param nStreams
 
-Count of the <a href="https://msdn.microsoft.com/en-us/library/Dd756791(v=VS.85).aspx">AVICOMPRESSOPTIONS</a> structures referenced in <i>plpOptions</i>.
+Count of the <a href="https://msdn.microsoft.com/8084adc3-792f-4a6c-b407-51e0e435e629">AVICOMPRESSOPTIONS</a> structures referenced in <i>plpOptions</i>.
 
 
 ### -param plpOptions
 
-Pointer to an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Dd756791(v=VS.85).aspx">AVICOMPRESSOPTIONS</a> structures. These structures hold the compression options set by the dialog box. The resources allocated by <a href="https://msdn.microsoft.com/6141272f-a815-4ba8-bc6b-41751d6e0104">AVISaveOptions</a> for each of these structures will be freed.
+Pointer to an array of pointers to <a href="https://msdn.microsoft.com/8084adc3-792f-4a6c-b407-51e0e435e629">AVICOMPRESSOPTIONS</a> structures. These structures hold the compression options set by the dialog box. The resources allocated by <a href="https://msdn.microsoft.com/6141272f-a815-4ba8-bc6b-41751d6e0104">AVISaveOptions</a> for each of these structures will be freed.
 
 
 ## -returns

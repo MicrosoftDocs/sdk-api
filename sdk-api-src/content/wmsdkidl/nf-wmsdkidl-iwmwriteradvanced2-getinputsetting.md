@@ -76,7 +76,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the setting
 
 ### -param pType [out]
 
-Pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type.
+Pointer to a value from the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type.
 
 
 ### -param pValue [out]
@@ -157,11 +157,11 @@ You should make two calls to <b>GetInputSetting</b> for each setting you want to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798721(v=VS.85).aspx">IWMWriterAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/94790b67-690c-4a0f-9b82-801bfcec9eb0">IWMWriterAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798723(v=VS.85).aspx">IWMWriterAdvanced2::SetInputSetting</a>
+<a href="https://msdn.microsoft.com/a920bfe8-1f95-4957-b6c4-9749d5e10ee3">IWMWriterAdvanced2::SetInputSetting</a>
 
 
 

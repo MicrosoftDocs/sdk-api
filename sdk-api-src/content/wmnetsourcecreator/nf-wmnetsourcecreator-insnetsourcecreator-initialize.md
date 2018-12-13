@@ -109,7 +109,7 @@ The method could not allocate memory for an internal resource.
 
 
 
-When you are finished using the network source creator, you must call the <a href="https://msdn.microsoft.com/en-us/library/Dd743242(v=VS.85).aspx">Shutdown</a> method to ensure that all resources are released properly.
+When you are finished using the network source creator, you must call the <a href="https://msdn.microsoft.com/746b2ffa-c5bc-4df0-84fd-c3f1395e0d3e">Shutdown</a> method to ensure that all resources are released properly.
 
 
 
@@ -119,11 +119,11 @@ When you are finished using the network source creator, you must call the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743239(v=VS.85).aspx">INSNetSourceCreator Interface</a>
+<a href="https://msdn.microsoft.com/39e692a6-fb68-447f-bd28-8d216776157a">INSNetSourceCreator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743242(v=VS.85).aspx">INSNetSourceCreator::Shutdown</a>
+<a href="https://msdn.microsoft.com/746b2ffa-c5bc-4df0-84fd-c3f1395e0d3e">INSNetSourceCreator::Shutdown</a>
  
 
  

@@ -60,7 +60,7 @@ The <b>get_Service</b> method sets the closed captioning service.
 
 ### -param On [in]
 
-Specifies the closed captioning service, as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd695118(v=VS.85).aspx">MSVidCCService</a> enumeration.
+Specifies the closed captioning service, as a member of the <a href="https://msdn.microsoft.com/19e6a389-7f5b-40b9-a7e6-e90060e6d7d5">MSVidCCService</a> enumeration.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694467(v=VS.85).aspx">IMSVidClosedCaptioning2 Interface</a>
+<a href="https://msdn.microsoft.com/37fe213a-7778-4448-937d-30ad1015d56c">IMSVidClosedCaptioning2 Interface</a>
  
 
  

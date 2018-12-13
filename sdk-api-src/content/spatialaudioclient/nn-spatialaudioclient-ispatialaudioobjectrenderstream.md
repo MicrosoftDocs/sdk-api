@@ -57,7 +57,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectRenderStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>. <b>ISpatialAudioObjectRenderStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectRenderStream</b> interface inherits from <a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a>. <b>ISpatialAudioObjectRenderStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -86,7 +86,7 @@ Activates an <a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8D
 
 
 
-<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
 <div> </div>
 
 
@@ -96,7 +96,7 @@ Activates an <a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8D
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

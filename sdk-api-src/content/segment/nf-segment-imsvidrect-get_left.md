@@ -81,11 +81,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694605(v=VS.85).aspx">IMSVidRect::get_HWnd</a>
+<a href="https://msdn.microsoft.com/caa56beb-7eba-48a1-8645-f63666ba0593">IMSVidRect::get_HWnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694611(v=VS.85).aspx">IMSVidRect::put_Left</a>
+<a href="https://msdn.microsoft.com/8e61fd8a-9ea0-48c1-8749-780b0363c12d">IMSVidRect::put_Left</a>
  
 
  

@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>SetAcceleratorInterface</b> method is called by the output pin on the player's source filter to pass the <b>IAMVideoAccelerator</b> interface on the Video Mixing Renderer (VMR) to the decoder <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMO</a>.
+The <b>SetAcceleratorInterface</b> method is called by the output pin on the player's source filter to pass the <b>IAMVideoAccelerator</b> interface on the Video Mixing Renderer (VMR) to the decoder <a href="wmformat_glossary.htm">DMO</a>.
 
 
 
@@ -87,7 +87,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743308(v=VS.85).aspx">IWMCodecAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/48cfc4d1-4b79-47a5-9cc9-a1f19d2c0123">IWMCodecAMVideoAccelerator Interface</a>
  
 
  

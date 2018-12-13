@@ -4,7 +4,7 @@ title: SymGetSymPrev function
 author: windows-sdk-content
 description: Retrieves the symbol information for the previous symbol.
 old-location: base\symgetsymprev64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: dbb1353b-5cc1-4986-a2b5-f67be7189ea8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

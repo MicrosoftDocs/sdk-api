@@ -89,7 +89,7 @@ Given a quaternion (
    <i>z</i>,
    <i>w</i>).
 
-Use the <a href="https://msdn.microsoft.com/en-us/library/Ee420168(v=VS.85).aspx">XMQuaternionNormalize</a> function for any quaternion input
+Use the <a href="https://msdn.microsoft.com/7c9f9d16-7880-4e65-845e-3277720ed1c3">XMQuaternionNormalize</a> function for any quaternion input
    that is not already normalized.
 
 

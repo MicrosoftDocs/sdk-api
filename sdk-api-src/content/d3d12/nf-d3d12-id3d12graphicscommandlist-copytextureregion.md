@@ -130,7 +130,7 @@ If the resources are buffers, all coordinates are in bytes; if the resources are
 
 <ul>
 <li>Must be different subresources (although they can be from the same resource).</li>
-<li>Must have compatible <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>s (identical or from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopyTextureRegion</b> can copy between a few format types. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.</li>
+<li>Must have compatible <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>s (identical or from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopyTextureRegion</b> can copy between a few format types. For more info, see <a href="https://msdn.microsoft.com/add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5">Format Conversion using Direct3D 10.1</a>.</li>
 </ul>
 <b>CopyTextureRegion</b> only supports copy; it does not support any stretch, color key, or blend. <b>CopyTextureRegion</b> can reinterpret the resource data between a few format types. 
 
@@ -145,9 +145,13 @@ If your app needs to copy an entire resource, we recommend to use <a href="https
 <h3><a id="Example"></a><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
 The following code snippet copies the box (located at (120,100),(200,220)) from a source texture into the region (10,20),(90,140) in a destination texture.
 
-
-```
-D3D12_BOX sourceRegion;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>D3D12_BOX sourceRegion;
 sourceRegion.left = 120;
 sourceRegion.top = 100;
 sourceRegion.right = 200;
@@ -155,11 +159,11 @@ sourceRegion.bottom = 220;
 sourceRegion.front = 0;
 sourceRegion.back = 1;
 
-pCmdList -> CopyTextureRegion(pDestTexture, 10, 20, 0, pSourceTexture, &sourceRegion);
-
-```
-
-
+pCmdList -&gt; CopyTextureRegion(pDestTexture, 10, 20, 0, pSourceTexture, &amp;sourceRegion);
+</pre>
+</td>
+</tr>
+</table></span></div>
 Notice, that for a 2D texture, front and back are set to 0 and 1 respectively.
 
 
@@ -168,9 +172,13 @@ Notice, that for a 2D texture, front and back are set to 0 and 1 respectively.
 The <b>HelloTriangle</b> sample uses <b>ID3D12GraphicsCommandList::CopyTextureRegion</b> as follows:
         
 
-
-```cpp
-inline UINT64 UpdateSubresources(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>inline UINT64 UpdateSubresources(
     _In_ ID3D12GraphicsCommandList* pCmdList,
     _In_ ID3D12Resource* pDestinationResource,
     _In_ ID3D12Resource* pIntermediate,
@@ -183,53 +191,53 @@ inline UINT64 UpdateSubresources(
     _In_reads_(NumSubresources) const D3D12_SUBRESOURCE_DATA* pSrcData)
 {
     // Minor validation
-    D3D12_RESOURCE_DESC IntermediateDesc = pIntermediate->GetDesc();
-    D3D12_RESOURCE_DESC DestinationDesc = pDestinationResource->GetDesc();
+    D3D12_RESOURCE_DESC IntermediateDesc = pIntermediate-&gt;GetDesc();
+    D3D12_RESOURCE_DESC DestinationDesc = pDestinationResource-&gt;GetDesc();
     if (IntermediateDesc.Dimension != D3D12_RESOURCE_DIMENSION_BUFFER || 
-        IntermediateDesc.Width < RequiredSize + pLayouts[0].Offset || 
-        RequiredSize > (SIZE_T)-1 || 
-        (DestinationDesc.Dimension == D3D12_RESOURCE_DIMENSION_BUFFER && 
+        IntermediateDesc.Width &lt; RequiredSize + pLayouts[0].Offset || 
+        RequiredSize &gt; (SIZE_T)-1 || 
+        (DestinationDesc.Dimension == D3D12_RESOURCE_DIMENSION_BUFFER &amp;&amp; 
             (FirstSubresource != 0 || NumSubresources != 1)))
     {
         return 0;
     }
     
     BYTE* pData;
-    HRESULT hr = pIntermediate->Map(0, NULL, reinterpret_cast<void**>(&pData));
+    HRESULT hr = pIntermediate-&gt;Map(0, NULL, reinterpret_cast&lt;void**&gt;(&amp;pData));
     if (FAILED(hr))
     {
         return 0;
     }
     
-    for (UINT i = 0; i < NumSubresources; ++i)
+    for (UINT i = 0; i &lt; NumSubresources; ++i)
     {
-        if (pRowSizesInBytes[i] > (SIZE_T)-1) return 0;
+        if (pRowSizesInBytes[i] &gt; (SIZE_T)-1) return 0;
         D3D12_MEMCPY_DEST DestData = { pData + pLayouts[i].Offset, pLayouts[i].Footprint.RowPitch, pLayouts[i].Footprint.RowPitch * pNumRows[i] };
-        MemcpySubresource(&DestData, &pSrcData[i], (SIZE_T)pRowSizesInBytes[i], pNumRows[i], pLayouts[i].Footprint.Depth);
+        MemcpySubresource(&amp;DestData, &amp;pSrcData[i], (SIZE_T)pRowSizesInBytes[i], pNumRows[i], pLayouts[i].Footprint.Depth);
     }
-    pIntermediate->Unmap(0, NULL);
+    pIntermediate-&gt;Unmap(0, NULL);
     
     if (DestinationDesc.Dimension == D3D12_RESOURCE_DIMENSION_BUFFER)
     {
         CD3DX12_BOX SrcBox( UINT( pLayouts[0].Offset ), UINT( pLayouts[0].Offset + pLayouts[0].Footprint.Width ) );
-        pCmdList->CopyBufferRegion(
+        pCmdList-&gt;CopyBufferRegion(
             pDestinationResource, 0, pIntermediate, pLayouts[0].Offset, pLayouts[0].Footprint.Width);
     }
     else
     {
-        for (UINT i = 0; i < NumSubresources; ++i)
+        for (UINT i = 0; i &lt; NumSubresources; ++i)
         {
             CD3DX12_TEXTURE_COPY_LOCATION Dst(pDestinationResource, i + FirstSubresource);
             CD3DX12_TEXTURE_COPY_LOCATION Src(pIntermediate, pLayouts[i]);
-            pCmdList->CopyTextureRegion(&Dst, 0, 0, 0, &Src, nullptr);
+            pCmdList-&gt;CopyTextureRegion(&amp;Dst, 0, 0, 0, &amp;Src, nullptr);
         }
     }
     return RequiredSize;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 

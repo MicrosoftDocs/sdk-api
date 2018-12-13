@@ -61,7 +61,7 @@ The <code>put_ExposureRelative</code> method sets the camera's relative exposure
 
 ### -param Value [in]
 
-Specifies the relative exposure. To get the range of possible values, call <a href="https://msdn.microsoft.com/en-us/library/Dd376300(v=VS.85).aspx">ICameraControl::getRange_ExposureRelative</a>.
+Specifies the relative exposure. To get the range of possible values, call <a href="https://msdn.microsoft.com/ab46e893-037a-42bb-a3ae-bef943cd6a5e">ICameraControl::getRange_ExposureRelative</a>.
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ Specifies the relative exposure. To get the range of possible values, call <a hr
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
  
 
  

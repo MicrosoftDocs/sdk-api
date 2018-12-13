@@ -69,7 +69,7 @@ A handle to the top-level window that is used to display any user interface comp
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element. This element represents the device to be uninstalled through this call.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element. This element represents the device to be uninstalled through this call.
 
 
 ### -param DeviceInfoData [in]
@@ -129,7 +129,7 @@ The value that is specified for the <i>Flags</i> parameter is not equal to zero.
 </table>
  
 
-<div class="alert"><b>Note</b>  The return value does not indicate that the removal of all child devnodes has succeeded or failed. Starting with Windows Vista, information about the status of the removal of child devnodes  is available in the <i>Setupapi.dev.log</i> file. For more information about this file, see <a href="https://msdn.microsoft.com/library/Ff550900(v=VS.85).aspx">SetupAPI Text Logs</a>.</div>
+<div class="alert"><b>Note</b>  The return value does not indicate that the removal of all child devnodes has succeeded or failed. Starting with Windows Vista, information about the status of the removal of child devnodes  is available in the <i>Setupapi.dev.log</i> file. For more information about this file, see <a href="devinst.setupapi_text_logs">SetupAPI Text Logs</a>.</div>
 <div> </div>
 
 
@@ -140,7 +140,7 @@ The value that is specified for the <i>Flags</i> parameter is not equal to zero.
 
 <b>DiUninstallDevice</b> performs the same function as <a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a> when used with the <a href="https://msdn.microsoft.com/14429756-c059-46d7-bd1c-0ae57d1ec8b5">DIF_REMOVE</a> code. The key difference is that child devnodes for the top-level device are also deleted. <b>DiUninstallDevice</b> only returns failure if the top-level device node failed to be uninstalled, which is consistent with the behavior of <b>SetupDiCallClassInstaller</b> when used with the <b>DIF_REMOVE</b> code. Detailed information about whether child devnode uninstallation succeeded is available in the Setupapi.dev.log file.
 
-The device to be uninstalled is specified by providing a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that includes the referenced device, and a <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure for the specific device. These are provided in the <i>DeviceInfoSet</i> and <i>DeviceInfoData</i> parameters.
+The device to be uninstalled is specified by providing a <a href="devinst.device_information_sets">device information set</a> that includes the referenced device, and a <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure for the specific device. These are provided in the <i>DeviceInfoSet</i> and <i>DeviceInfoData</i> parameters.
 
 To create a device information set that contains the specified device and to obtain an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure for the device, complete one of the following tasks:
 
@@ -188,7 +188,7 @@ The application is a class installer. In this case, the class installer should s
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">Device information set</a>
+<a href="devinst.device_information_sets">Device information set</a>
 
 
 

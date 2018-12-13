@@ -74,7 +74,7 @@ The <b>IFullScreenVideoEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390057(v=VS.85).aspx">CountModes</a>
+<a href="https://msdn.microsoft.com/70d4e124-083b-4729-8f39-778e815ea23b">CountModes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of display modes that the Full Screen Renderer supports.
@@ -83,7 +83,7 @@ Retrieves the number of display modes that the Full Screen Renderer supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390058(v=VS.85).aspx">GetAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/60d1246b-8719-4f41-9088-2672f51dd6a9">GetAcceleratorTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the accelerator table currently being used to translate keyboard messages. (Not supported.)
@@ -92,7 +92,7 @@ Retrieves the accelerator table currently being used to translate keyboard messa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390059(v=VS.85).aspx">GetCaption</a>
+<a href="https://msdn.microsoft.com/0757da34-cfc5-4a40-9ad0-03bd016ad828">GetCaption</a>
 </td>
 <td align="left" width="63%">
 Retrieves the caption associated with the full-screen window.
@@ -101,7 +101,7 @@ Retrieves the caption associated with the full-screen window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390060(v=VS.85).aspx">GetClipFactor</a>
+<a href="https://msdn.microsoft.com/f45e1736-8130-483b-9f90-614c4b6970db">GetClipFactor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip.
@@ -110,7 +110,7 @@ Retrieves the clip factor, which determines how much of the video the Full Scree
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390061(v=VS.85).aspx">GetCurrentMode</a>
+<a href="https://msdn.microsoft.com/036914da-4223-4601-9e4a-4c7840b7dd22">GetCurrentMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current display mode.
@@ -119,7 +119,7 @@ Retrieves the current display mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390062(v=VS.85).aspx">GetMessageDrain</a>
+<a href="https://msdn.microsoft.com/c1a83ad9-be4b-4adf-a316-d5dfb3df05ef">GetMessageDrain</a>
 </td>
 <td align="left" width="63%">
 Retrieves the window that receives mouse and keyboard messages.
@@ -128,7 +128,7 @@ Retrieves the window that receives mouse and keyboard messages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390063(v=VS.85).aspx">GetModeInfo</a>
+<a href="https://msdn.microsoft.com/c1a4aea8-8c48-4073-80ed-060db5adb514">GetModeInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a specified display mode.
@@ -137,7 +137,7 @@ Retrieves information about a specified display mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390064(v=VS.85).aspx">GetMonitor</a>
+<a href="https://msdn.microsoft.com/18825029-2035-46b3-a6a5-9edd8e0437c6">GetMonitor</a>
 </td>
 <td align="left" width="63%">
 Queries which monitor the Full Screen Renderer is using. (Not supported.)
@@ -146,7 +146,7 @@ Queries which monitor the Full Screen Renderer is using. (Not supported.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390065(v=VS.85).aspx">HideOnDeactivate</a>
+<a href="https://msdn.microsoft.com/b2839876-40b1-4b41-a3a4-99e5cbdd9ef1">HideOnDeactivate</a>
 </td>
 <td align="left" width="63%">
 Specifies the behavior when the user switches to another application.
@@ -155,7 +155,7 @@ Specifies the behavior when the user switches to another application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390066(v=VS.85).aspx">IsHideOnDeactivate</a>
+<a href="https://msdn.microsoft.com/0196215f-4efe-418a-acf3-445b8224a2ab">IsHideOnDeactivate</a>
 </td>
 <td align="left" width="63%">
 Indicates the behavior when the user switches to another application.
@@ -164,7 +164,7 @@ Indicates the behavior when the user switches to another application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390067(v=VS.85).aspx">IsKeepPixelAspectRatio</a>
+<a href="https://msdn.microsoft.com/3f3b55d9-b504-42a3-b60a-65073d1e1447">IsKeepPixelAspectRatio</a>
 </td>
 <td align="left" width="63%">
 Queries whether the pixel aspect ratio is maintained. (Not supported.)
@@ -173,7 +173,7 @@ Queries whether the pixel aspect ratio is maintained. (Not supported.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390068(v=VS.85).aspx">IsModeAvailable</a>
+<a href="https://msdn.microsoft.com/9b05d6c6-522c-46b8-90b5-c4650cee5f6b">IsModeAvailable</a>
 </td>
 <td align="left" width="63%">
 Queries whether a specified display mode is available.
@@ -182,7 +182,7 @@ Queries whether a specified display mode is available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390069(v=VS.85).aspx">IsModeEnabled</a>
+<a href="https://msdn.microsoft.com/97d8b9f8-4dbf-4b49-b32f-4513c9e5186e">IsModeEnabled</a>
 </td>
 <td align="left" width="63%">
 Queries whether a specified display mode is enabled.
@@ -191,7 +191,7 @@ Queries whether a specified display mode is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390070(v=VS.85).aspx">KeepPixelAspectRatio</a>
+<a href="https://msdn.microsoft.com/f2c57560-7ffa-4bd4-8d0c-a048dafa35bc">KeepPixelAspectRatio</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to maintain the pixel aspect ratio. (Not supported.)
@@ -200,7 +200,7 @@ Specifies whether to maintain the pixel aspect ratio. (Not supported.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390071(v=VS.85).aspx">SetAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/aff393e8-e0a5-418d-8706-3fde96dbcfd9">SetAcceleratorTable</a>
 </td>
 <td align="left" width="63%">
 Specifies an accelerator table that will be used to translate keyboard messages. (Not supported.)
@@ -209,7 +209,7 @@ Specifies an accelerator table that will be used to translate keyboard messages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390072(v=VS.85).aspx">SetCaption</a>
+<a href="https://msdn.microsoft.com/6f520ab4-867f-4001-8f2f-25f0d8efe454">SetCaption</a>
 </td>
 <td align="left" width="63%">
 Sets the caption associated with the full-screen window.
@@ -218,7 +218,7 @@ Sets the caption associated with the full-screen window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390073(v=VS.85).aspx">SetClipFactor</a>
+<a href="https://msdn.microsoft.com/3e2cefd3-491f-4ba4-a234-047fe4e6c6cc">SetClipFactor</a>
 </td>
 <td align="left" width="63%">
 Specifies the clip factor.
@@ -227,7 +227,7 @@ Specifies the clip factor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390074(v=VS.85).aspx">SetDefault</a>
+<a href="https://msdn.microsoft.com/1821703c-0da1-4b3e-a921-a66770b8ee0d">SetDefault</a>
 </td>
 <td align="left" width="63%">
 Saves the current settings.
@@ -236,7 +236,7 @@ Saves the current settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390075(v=VS.85).aspx">SetEnabled</a>
+<a href="https://msdn.microsoft.com/f05c1b3e-3ebc-4753-b3ca-e52907c59121">SetEnabled</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a specified display mode.
@@ -245,7 +245,7 @@ Enables or disables a specified display mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390076(v=VS.85).aspx">SetMessageDrain</a>
+<a href="https://msdn.microsoft.com/d0c24da9-c33f-48a7-b644-a7671acca20f">SetMessageDrain</a>
 </td>
 <td align="left" width="63%">
 Specifies a window to receive mouse and keyboard messages from the video window.
@@ -254,7 +254,7 @@ Specifies a window to receive mouse and keyboard messages from the video window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390077(v=VS.85).aspx">SetMonitor</a>
+<a href="https://msdn.microsoft.com/f2db1009-ce5b-4ebe-becb-bed3d1187335">SetMonitor</a>
 </td>
 <td align="left" width="63%">
 Specifies which monitor to use. (Not supported.)

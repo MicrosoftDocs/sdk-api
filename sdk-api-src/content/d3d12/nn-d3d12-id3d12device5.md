@@ -70,7 +70,7 @@ The <b>ID3D122Device5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt847458(v=VS.85).aspx">CheckDriverMatchingIdentifier</a>
+<a href="https://msdn.microsoft.com/765714D4-5133-4CCA-A09F-EDE650B06905">CheckDriverMatchingIdentifier</a>
 </td>
 <td align="left" width="63%">
 Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> with mode  <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE</a>, with the current device/driver.
@@ -79,16 +79,16 @@ Reports the compatibility of serialized data, such as a serialized raytracing ac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt815644(v=VS.85).aspx">CreateStateObject</a>
+<a href="https://msdn.microsoft.com/9CC759D5-6414-4B05-B8F3-FA6056A0A9AF">CreateStateObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Mt815591(v=VS.85).aspx">ID3D12StateObject</a>.
+Creates an <a href="https://msdn.microsoft.com/5BE94583-31DC-4469-9049-7768D64F7F41">ID3D12StateObject</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt847459(v=VS.85).aspx">GetRaytracingAccelerationStructurePrebuildInfo</a>
+<a href="https://msdn.microsoft.com/6B2CB3E8-06F8-4578-8FF0-566246C983B0">GetRaytracingAccelerationStructurePrebuildInfo</a>
 </td>
 <td align="left" width="63%">
 Query the driver for resource requirements to build an acceleration structure. 

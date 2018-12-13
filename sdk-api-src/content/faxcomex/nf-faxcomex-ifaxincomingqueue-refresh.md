@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Refresh</b> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/ms685088(v=VS.85).aspx">Save</a> method call are lost.
+The <b>Refresh</b> method refreshes <a href="https://msdn.microsoft.com/769e4fc5-5607-4fd6-8f78-59b190c94787">FaxIncomingQueue</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/cf58022f-6f59-4194-a358-1871f032f3f0">Save</a> method call are lost.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 
 
 
@@ -86,11 +86,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a>
+<a href="https://msdn.microsoft.com/769e4fc5-5607-4fd6-8f78-59b190c94787">FaxIncomingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686165(v=VS.85).aspx">IFaxIncomingQueue</a>
+<a href="https://msdn.microsoft.com/291f8709-c10f-4041-864f-82431edd7fab">IFaxIncomingQueue</a>
  
 
  

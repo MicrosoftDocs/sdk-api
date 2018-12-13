@@ -55,7 +55,7 @@ req.redist:
 ## -description
 
 
-The <b>CM_Get_Class_Registry_Property</b> function retrieves a <a href="https://msdn.microsoft.com/library/Ff537744(v=VS.85).aspx">device setup class property</a>.
+The <b>CM_Get_Class_Registry_Property</b> function retrieves a <a href="devinst.accessing_device_setup_class_properties">device setup class property</a>.
 
 
 ## -parameters

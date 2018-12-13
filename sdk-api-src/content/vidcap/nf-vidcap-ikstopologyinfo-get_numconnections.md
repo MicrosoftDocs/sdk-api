@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-To get information about the connections, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390151(v=VS.85).aspx">IKsTopologyInfo::get_ConnectionInfo</a> method.
+To get information about the connections, call the <a href="https://msdn.microsoft.com/ef062e0f-0866-48ca-bd27-26000cd4983a">IKsTopologyInfo::get_ConnectionInfo</a> method.
 
 
 
@@ -109,7 +109,7 @@ To get information about the connections, call the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo Interface</a>
+<a href="https://msdn.microsoft.com/641a10fe-8e8c-4225-b05e-b09dfb5f2fee">IKsTopologyInfo Interface</a>
  
 
  

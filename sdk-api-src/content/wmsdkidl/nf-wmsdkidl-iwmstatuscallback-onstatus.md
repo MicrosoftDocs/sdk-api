@@ -63,7 +63,7 @@ The <b>OnStatus</b> method is called when status information must be communicate
 
 ### -param Status [in]
 
-One member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757854(v=VS.85).aspx">WMT_STATUS</a> enumeration type. For a description of possible <b>WMT_STATUS</b> values, see the tables in the Remarks section.
+One member of the <a href="https://msdn.microsoft.com/ebf77e8a-65e8-4da9-bb21-a1e2bf427bbf">WMT_STATUS</a> enumeration type. For a description of possible <b>WMT_STATUS</b> values, see the tables in the Remarks section.
 
 
 ### -param hr [in]
@@ -73,7 +73,7 @@ One member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757854(v=V
 
 ### -param dwType [in]
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. This value specifies the type of data in the buffer at <i>pValue</i>.
+Member of the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type. This value specifies the type of data in the buffer at <i>pValue</i>.
 
 
 ### -param pValue [in]
@@ -83,7 +83,7 @@ Pointer to a byte array containing the value. The contents of this array depend 
 
 ### -param pvContext [in]
 
-Generic pointer provided by the application, for its own use. This pointer matches the context pointer given to the <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd757208(v=VS.85).aspx">IWMIndexer::StartIndexing</a>, and other methods. The SDK makes no assumptions about the use of this pointer; it is simply provided by the application and passed back to the application when a callback is made.
+Generic pointer provided by the application, for its own use. This pointer matches the context pointer given to the <a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">IWMReader::Open</a>, <a href="https://msdn.microsoft.com/67dfb0df-4883-49e1-a085-0b78db3967d0">IWMIndexer::StartIndexing</a>, and other methods. The SDK makes no assumptions about the use of this pointer; it is simply provided by the application and passed back to the application when a callback is made.
 
 
 ## -returns
@@ -256,7 +256,7 @@ The following <b>WMT_STATUS</b> enumeration values can be passed to the callback
 </tr>
 <tr>
 <td>WMT_CLIENT_CONNECT</td>
-<td>A client has connected to the broadcast. The <i>dwType</i> parameter is WMT_TYPE_BINARY, and the <i>pValue</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/Dd757903(v=VS.85).aspx">WM_CLIENT_PROPERTIES</a> structure.</td>
+<td>A client has connected to the broadcast. The <i>dwType</i> parameter is WMT_TYPE_BINARY, and the <i>pValue</i> parameter points to a <a href="https://msdn.microsoft.com/62a5bafd-cc49-4a60-be03-038920e5b073">WM_CLIENT_PROPERTIES</a> structure.</td>
 </tr>
 <tr>
 <td>WMT_CLIENT_DISCONNECT</td>
@@ -345,11 +345,11 @@ The following <b>WMT_STATUS</b> enumeration values can be passed to the callback
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback Interface</a>
+<a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757854(v=VS.85).aspx">WMT_STATUS</a>
+<a href="https://msdn.microsoft.com/ebf77e8a-65e8-4da9-bb21-a1e2bf427bbf">WMT_STATUS</a>
  
 
  

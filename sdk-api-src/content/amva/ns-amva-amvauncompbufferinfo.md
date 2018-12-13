@@ -81,7 +81,7 @@ Maximum number of surfaces to allocate.
 
 
 
-The VMR-7 and VMR-9 filters allocate at least <b>dwMinNumSurfaces</b> surfaces. For interlaced content, the VMR-7 allocates additional surfaces equal to the number of forward and backward reference frames required by the deinterlacer. The VMR-7 gets these values by calling <a href="https://msdn.microsoft.com/en-us/library/Dd377359(v=VS.85).aspx">IVMRDeinterlaceControl::GetDeinterlaceModeCaps</a>. The VMR-9 does not need to allocate additional surfaces for deinterlacing. Thus:
+The VMR-7 and VMR-9 filters allocate at least <b>dwMinNumSurfaces</b> surfaces. For interlaced content, the VMR-7 allocates additional surfaces equal to the number of forward and backward reference frames required by the deinterlacer. The VMR-7 gets these values by calling <a href="https://msdn.microsoft.com/e672f3d4-1009-4c4c-bb1a-08f78c128423">IVMRDeinterlaceControl::GetDeinterlaceModeCaps</a>. The VMR-9 does not need to allocate additional surfaces for deinterlacing. Thus:
 
 <ul>
 <li>For the VMR-7, the number of allocated surfaces is <b>dwMinNumSurfaces</b> + <b>dwNumForwardRefSamples</b> + <b>dwNumBackwardRefSamples</b>. For progressive content, the last two values will be zero.</li>
@@ -101,7 +101,7 @@ Initially, the decoder should set <b>dwMinNumSurfaces</b> equal to the optimal n
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375995(v=VS.85).aspx">IAMVideoAcceleratorNotify::GetUncompSurfacesInfo</a>
+<a href="https://msdn.microsoft.com/ee8cbe71-6ac3-4f41-a9af-f372f825485d">IAMVideoAcceleratorNotify::GetUncompSurfacesInfo</a>
  
 
  

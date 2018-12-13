@@ -93,11 +93,11 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563296(v=VS.85).aspx">IWMPEvents3 Interface</a>
+<a href="https://msdn.microsoft.com/654b7d78-97d4-4770-9729-dd1fed0431d9">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563383(v=VS.85).aspx">IWMPLibrary Interface</a>
+<a href="https://msdn.microsoft.com/add0ed43-d83f-4793-b1f6-ccad0f01854c">IWMPLibrary Interface</a>
 
 
 

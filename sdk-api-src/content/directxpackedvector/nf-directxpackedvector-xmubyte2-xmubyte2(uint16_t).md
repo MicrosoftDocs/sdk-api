@@ -52,7 +52,7 @@ req.redist:
 
 Default constructor for <code>XMUBYTE2</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).aspx">XMUBYTE2</a>.
+Default constructor for <a href="https://msdn.microsoft.com/b22e9c5c-c178-4f49-989c-42e44b2cbd89">XMUBYTE2</a>.
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
 
 ## -parameters
@@ -87,11 +87,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).aspx">XMUBYTE2</a>
+<a href="https://msdn.microsoft.com/b22e9c5c-c178-4f49-989c-42e44b2cbd89">XMUBYTE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449522(v=VS.85).aspx">XMUBYTE2 Constructors</a>
+<a href="https://msdn.microsoft.com/3d240d0c-0c44-46f1-be96-c700637e5cba">XMUBYTE2 Constructors</a>
  
 
  

@@ -91,7 +91,7 @@ This method has no effect when writing from a live source. It is normal for the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798724(v=VS.85).aspx">IWMWriterAdvanced3 Interface</a>
+<a href="https://msdn.microsoft.com/99f7e4f7-0080-498d-b4f1-960c4955b4db">IWMWriterAdvanced3 Interface</a>
  
 
  

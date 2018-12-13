@@ -87,11 +87,11 @@ Returns S_OK if successful, or an error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389386(v=VS.85).aspx">IAMLine21Decoder::GetBackgroundColor</a>
+<a href="https://msdn.microsoft.com/ba75dc5b-207e-4425-a8fe-8da16fc89921">IAMLine21Decoder::GetBackgroundColor</a>
  
 
  

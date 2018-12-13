@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides access to a single frame of DDS image data in its native <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> form, as well as information about the image data.
+Provides access to a single frame of DDS image data in its native <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> form, as well as information about the image data.
 
 
 ## -inheritance

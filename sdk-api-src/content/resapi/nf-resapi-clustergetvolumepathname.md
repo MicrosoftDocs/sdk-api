@@ -148,15 +148,17 @@ Output: "\\?\GLOBALROOT\Device\HarddiskVolume1\ClusterStorage\Volume31\"
 <b>Windows Server 2008 R2:  </b>The initial release of ResApi.h containing the 
       <b>ClusterGetVolumePathName</b> function used 
       <b>TCHAR</b>-based data types instead of <b>WCHAR</b>-based 
-      data types. The UNICODE preprocessor define must be set before ResApi.h is included.
-
-
-```cpp
-#define UNICODE 1
-#include <ResApi.h>
-```
-
-
+      data types. The UNICODE preprocessor define must be set before ResApi.h is included.<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define UNICODE 1
+#include &lt;ResApi.h&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The 

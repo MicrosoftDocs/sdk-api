@@ -73,6 +73,6 @@ There is no SSL connection between the client and the server, or the SSL connect
 ### -field WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL
 
 An SSL connection exists but is terminated at an intermediary. The connection between the intermediary and the server may or may not
-                    use SSL. When this property is set, <a href="https://msdn.microsoft.com/en-us/library/Dd323409(v=VS.85).aspx">WS_SECURITY_PROPERTY_ID</a> must be set as well.
+                    use SSL. When this property is set, <a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_PROPERTY_ID</a> must be set as well.
                 
 

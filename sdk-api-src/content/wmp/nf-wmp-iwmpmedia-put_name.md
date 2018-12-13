@@ -112,11 +112,11 @@ Before calling this method, you must have full access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563442(v=VS.85).aspx">IWMPMedia::get_name</a>
+<a href="https://msdn.microsoft.com/83bb3495-a12d-48a8-864c-3cd636866308">IWMPMedia::get_name</a>
  
 
  

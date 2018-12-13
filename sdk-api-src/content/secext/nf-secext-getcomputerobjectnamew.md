@@ -65,7 +65,7 @@ Retrieves the local computer's name in a specified format.
 ### -param NameFormat [in]
 
 The format for the name. This parameter is a value from the 
-<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be NameUnknown.
+<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be NameUnknown.
 
 
 ### -param lpNameBuffer [out]
@@ -100,7 +100,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a>
+<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a>
 
 
 

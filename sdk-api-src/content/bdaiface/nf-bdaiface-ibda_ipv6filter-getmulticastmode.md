@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693388(v=VS.85).aspx">IBDA_IPV6Filter Interface</a>
+<a href="https://msdn.microsoft.com/b506d382-c56d-4c5b-ad57-e186173ea9a8">IBDA_IPV6Filter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693387(v=VS.85).aspx">PutMulticastMode</a>
+<a href="https://msdn.microsoft.com/d0a12c21-e196-4228-9994-51047271cf57">PutMulticastMode</a>
  
 
  

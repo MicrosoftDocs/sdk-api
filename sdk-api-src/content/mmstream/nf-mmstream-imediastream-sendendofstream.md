@@ -91,7 +91,7 @@ Applications do not call this internal method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream Interface</a>
  
 
  

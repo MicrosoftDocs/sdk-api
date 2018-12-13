@@ -4,7 +4,7 @@ title: ITsSbClientConnection::get_IsFirstAssignment
 author: windows-sdk-content
 description: Whether this is the first assignment.
 old-location: termserv\itssbclientconnection_isfirstassignment.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a086421f-77a4-43c9-8f9f-a24b0d620de2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

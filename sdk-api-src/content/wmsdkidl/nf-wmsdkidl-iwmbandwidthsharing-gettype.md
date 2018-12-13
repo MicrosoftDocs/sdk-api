@@ -140,11 +140,11 @@ The settings of a bandwidth sharing object are purely informational. They are no
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743298(v=VS.85).aspx">IWMBandwidthSharing Interface</a>
+<a href="https://msdn.microsoft.com/fd0e48bb-2e5e-4158-9ff1-5b603f219689">IWMBandwidthSharing Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743302(v=VS.85).aspx">IWMBandwidthSharing::SetType</a>
+<a href="https://msdn.microsoft.com/3f4fc06a-ffbe-4854-8e64-d369acfac271">IWMBandwidthSharing::SetType</a>
  
 
  

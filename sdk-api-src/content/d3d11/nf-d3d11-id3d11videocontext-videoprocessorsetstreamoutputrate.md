@@ -108,7 +108,7 @@ Interpolate frames.
 
 ### -param pCustomRate [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure. If <i>OutputRate</i> is <b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>,  this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure. If <i>OutputRate</i> is <b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>,  this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be <b>NULL</b>.
 
 
 ## -returns

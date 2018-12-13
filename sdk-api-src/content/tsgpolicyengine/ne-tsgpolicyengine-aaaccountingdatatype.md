@@ -4,7 +4,7 @@ title: AAAccountingDataType
 author: windows-sdk-content
 description: Specifies the type of event that the ITSGAccountingEngine::DoAccounting method is being notified of.
 old-location: termserv\aaaccountingdatatype.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 2864d044-266c-44e4-90d3-ccd75bf08348
 ms.author: windowssdkdev
 ms.date: 12/5/2018

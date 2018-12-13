@@ -84,7 +84,7 @@ A software key enables the developer of a DMO to control who uses the DMO. If a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375491(v=VS.85).aspx">DMORegister</a>
+<a href="https://msdn.microsoft.com/4e70569b-8502-4eee-bd23-173269b345d1">DMORegister</a>
  
 
  

@@ -69,13 +69,13 @@ An animation that represents how the saturation of the image changes over time. 
             The effect calculates a color matrix based on the saturation value (s in the equation here) using the following equation:
             
 
-<img alt="Matrix equation" src="./images/saturation_formula.png"/>
+<img alt="Matrix equation" src="images/saturation_formula.png"/>
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn919763(v=VS.85).aspx">IDCompositionSaturationEffect</a>
+<a href="https://msdn.microsoft.com/ADA7C54C-E237-4455-8808-962A631B37E0">IDCompositionSaturationEffect</a>
  
 
  

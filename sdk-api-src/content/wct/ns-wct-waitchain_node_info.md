@@ -4,7 +4,7 @@ title: WAITCHAIN_NODE_INFO
 author: windows-sdk-content
 description: Represents a node in a wait chain.
 old-location: base\waitchain_node_info.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 7a333924-79a3-4522-aa5a-4fc60690667d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

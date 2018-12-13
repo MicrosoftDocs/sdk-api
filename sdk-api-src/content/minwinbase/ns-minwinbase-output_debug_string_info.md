@@ -4,7 +4,7 @@ title: OUTPUT_DEBUG_STRING_INFO
 author: windows-sdk-content
 description: Contains the address, format, and length, in bytes, of a debugging string.
 old-location: base\output_debug_string_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 43594bf5-ee79-4334-b0d4-92b2b41bf35a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

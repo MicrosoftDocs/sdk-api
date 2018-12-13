@@ -60,7 +60,7 @@ The <b>put__CustomCompositor</b> method specifies a custom image compositor for 
 
 ### -param Compositor [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd377380(v=VS.85).aspx">IVMRImageCompositor</a> interface of the image compositor.
+Pointer to the <a href="https://msdn.microsoft.com/d905e871-c156-4140-bb3f-a19fa0cd79be">IVMRImageCompositor</a> interface of the image compositor.
 
 
 ## -returns
@@ -90,11 +90,11 @@ Applications can provide their own compositors to perform custom image compositi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694745(v=VS.85).aspx">IMSVidVideoRenderer::get__CustomCompositor</a>
+<a href="https://msdn.microsoft.com/cafdc512-2994-4374-9396-b0bb946bc490">IMSVidVideoRenderer::get__CustomCompositor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694758(v=VS.85).aspx">IMSVidVideoRenderer::put__CustomCompositorClass</a>
+<a href="https://msdn.microsoft.com/031af4a5-6eed-44c9-9b0c-f472d709db66">IMSVidVideoRenderer::put__CustomCompositorClass</a>
  
 
  

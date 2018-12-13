@@ -68,12 +68,12 @@ Pointer to an <b>IUnknown</b> interface. This value must be set to <b>NULL</b>.
 
 ### -param dwRights [in]
 
-<b>DWORD</b> specifying the desired operation. When playing back non-DRM content, or for an application that does not have DRM rights, this value can be set to zero. Otherwise, this value must be one of the values from the <a href="https://msdn.microsoft.com/en-us/library/Dd757853(v=VS.85).aspx">WMT_RIGHTS</a> enumeration type, indicating the operation that is performed on this file. If multiple operations are being performed, <b>dwRights</b> must consist of multiple values from <b>WMT_RIGHTS</b> combined by using the bitwise <b>OR</b> operator.
+<b>DWORD</b> specifying the desired operation. When playing back non-DRM content, or for an application that does not have DRM rights, this value can be set to zero. Otherwise, this value must be one of the values from the <a href="https://msdn.microsoft.com/52a9a5ec-58fb-4804-8f56-4d863c738934">WMT_RIGHTS</a> enumeration type, indicating the operation that is performed on this file. If multiple operations are being performed, <b>dwRights</b> must consist of multiple values from <b>WMT_RIGHTS</b> combined by using the bitwise <b>OR</b> operator.
 
 
 ### -param ppSyncReader [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader</a> interface of the newly created synchronous reader object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader</a> interface of the newly created synchronous reader object.
 
 
 ## -returns

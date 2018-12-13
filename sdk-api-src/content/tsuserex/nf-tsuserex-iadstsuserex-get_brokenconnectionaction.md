@@ -4,7 +4,7 @@ title: IADsTSUserEx::get_BrokenConnectionAction
 author: windows-sdk-content
 description: A value that specifies the action to take when a Remote Desktop Services session limit is reached.
 old-location: termserv\iadstsuserex_brokenconnectionaction.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 4c5b2982-d8b6-413d-9758-1226074ad613
 ms.author: windowssdkdev
 ms.date: 12/5/2018

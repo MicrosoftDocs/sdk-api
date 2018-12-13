@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::CreateVirtualChannel
 author: windows-sdk-content
 description: Requests that the protocol create a virtual channel.
 old-location: termserv\iwrdsprotocolconnection_createvirtualchannel.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: c0302081-06af-44af-a9ed-936d705e711b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

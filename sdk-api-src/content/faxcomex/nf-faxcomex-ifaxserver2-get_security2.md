@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxServer2::Security2</b> property returns a <a href="https://msdn.microsoft.com/en-us/library/Aa358979(v=VS.85).aspx">IFaxSecurity2</a> object used to configure security on the fax server. 
+The <b>IFaxServer2::Security2</b> property returns a <a href="https://msdn.microsoft.com/a6238a8f-3e19-4dd8-b602-525774d671df">IFaxSecurity2</a> object used to configure security on the fax server. 
 
 This property is read-only.
 
@@ -65,11 +65,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358976(v=VS.85).aspx">IFaxServer2</a>
+<a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>
  
 
  

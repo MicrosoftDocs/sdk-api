@@ -152,7 +152,7 @@ The number of versions or partial residues specified in
 
 ### -param rgpmkOtherInput
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms679705(v=VS.85).aspx">IMoniker</a>**</b>
+Type: <b><a href="_com_imoniker">IMoniker</a>**</b>
 
 The address of an array that contains the addresses of the monikers to use to access the versions or partial residues to be reconciled. 
 
@@ -166,7 +166,7 @@ The address of the variable that receives an index value indicating whether the 
 
 ### -param pstgNewResidues
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a>*</b>
+Type: <b><a href="_stg_IStorage">IStorage</a>*</b>
 
 The address of the 
 					<b>IStorage</b> interface used to store the new residues. This parameter can be <b>NULL</b> to indicate that residues should not be saved. 

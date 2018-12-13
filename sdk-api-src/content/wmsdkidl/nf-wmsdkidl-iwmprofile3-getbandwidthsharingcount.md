@@ -117,11 +117,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757272(v=VS.85).aspx">IWMProfile3::GetBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/be66ff8b-c883-4329-aaa4-e9549d0cbb9e">IWMProfile3::GetBandwidthSharing</a>
  
 
  

@@ -83,26 +83,34 @@ Returns the rotated <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-
 
 The following code demonstrates how this function may be used.
 
-
-```
-XMVECTOR v = XMVectorSet( 10.0f, 20.0f, 30.0f, 40.0f );
-XMVECTOR result = XMVectorRotateLeft( v, 1 );
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR v = XMVectorSet( 10.0f, 20.0f, 30.0f, 40.0f );
+XMVECTOR result = XMVectorRotateLeft( v, 1 );</pre>
+</td>
+</tr>
+</table></span></div>
 The rotated vector (<i>result</i>) will be &lt;20.0f, 30.0f, 40.0f, 10.0f&gt;.
 
-In the case of a constant rotate value, it is more efficient to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855945(v=VS.85).aspx">XMVectorRotateLeft</a>:
+In the case of a constant rotate value, it is more efficient to use the template form of <a href="https://msdn.microsoft.com/ba3698ed-212d-4ef0-846a-4099d0e1abec">XMVectorRotateLeft</a>:
 
-
-```
-
-template<uint32_t Elements>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+template&lt;uint32_t Elements&gt;
     XMVECTOR XMVectorRotateLeft(FXMVECTOR V)
-   
-```
-
-
+   </pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
@@ -118,15 +126,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx">XMVectorPermute</a>
+<a href="https://msdn.microsoft.com/212c9381-6bde-4a09-9710-e2e3fe54f405">XMVectorPermute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx">XMVectorRotateRight</a>
+<a href="https://msdn.microsoft.com/ea47a1a6-6f59-4933-99b1-1b4a67038a6e">XMVectorRotateRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404823(v=VS.85).aspx">XMVectorShiftLeft</a>
+<a href="https://msdn.microsoft.com/0d0a0795-1eb6-4189-8307-52deeb99a4ba">XMVectorShiftLeft</a>
  
 
  

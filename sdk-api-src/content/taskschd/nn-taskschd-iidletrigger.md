@@ -78,7 +78,7 @@ If the initial instance of a task with an idle trigger is still running, then th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

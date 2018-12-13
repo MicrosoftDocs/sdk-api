@@ -4,7 +4,7 @@ title: MINIDUMP_MEMORY_DESCRIPTOR
 author: windows-sdk-content
 description: Describes a range of memory.
 old-location: base\minidump_memory_descriptor_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 34c6de99-8ba5-4199-a382-3e3f7d02571f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

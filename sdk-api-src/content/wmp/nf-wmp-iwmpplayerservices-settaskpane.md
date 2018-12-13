@@ -213,11 +213,11 @@ This method is used only when remoting the Windows Media Player control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563538(v=VS.85).aspx">IWMPPlayerServices::setTaskPaneURL(deprecated)</a>
+<a href="https://msdn.microsoft.com/4ceacaeb-09af-4cdf-84b7-04574a83ec48">IWMPPlayerServices::setTaskPaneURL(deprecated)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563533(v=VS.85).aspx">IWMPPlayerServicesInterface</a>
+<a href="https://msdn.microsoft.com/3d9ca91f-c672-4ecb-a6db-67d7e1ddbe7e">IWMPPlayerServicesInterface</a>
 
 
 

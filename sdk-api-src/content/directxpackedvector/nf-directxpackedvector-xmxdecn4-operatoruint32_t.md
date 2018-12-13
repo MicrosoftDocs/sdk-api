@@ -53,7 +53,7 @@ req.redist:
 Returns an instance of <code>uint32_t</code> containing the components of the <code>XMXDECN4</code>instance in a packed format.
     
 
-Returns an instance of <code>uint32_t</code> containing the components of the <a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4</a> instance in a packed format.
+Returns an instance of <code>uint32_t</code> containing the components of the <a href="https://msdn.microsoft.com/705A1848-26BC-47E5-9209-C0DF843DE6AE">XMXDECN4</a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -118,11 +118,11 @@ The last 2 bits (bits 30-31) of the return value are the <b>w</b> component
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4</a>
+<a href="https://msdn.microsoft.com/705A1848-26BC-47E5-9209-C0DF843DE6AE">XMXDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415549(v=VS.85).aspx">XMXDECN4 Operators</a>
+<a href="https://msdn.microsoft.com/23e966a6-eca1-450d-98c4-3b4e5c6706ab">XMXDECN4 Operators</a>
  
 
  

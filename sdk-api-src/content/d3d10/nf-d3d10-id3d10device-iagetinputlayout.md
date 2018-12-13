@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Get a pointer to the input-layout object that is bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+Get a pointer to the input-layout object that is bound to the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input-assembler stage</a>.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Get a pointer to the input-layout object that is bound to the <a href="https://m
 
 ### -param ppInputLayout [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173815(v=VS.85).aspx">ID3D10InputLayout</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/0a58bfcb-8b32-4fe7-a078-0695ab0d9806">ID3D10InputLayout</a>**</b>
 
-A pointer to the input-layout object (see <a href="https://msdn.microsoft.com/en-us/library/Bb173815(v=VS.85).aspx">ID3D10InputLayout</a>), which describes the input buffers that will be read by the IA stage.
+A pointer to the input-layout object (see <a href="https://msdn.microsoft.com/0a58bfcb-8b32-4fe7-a078-0695ab0d9806">ID3D10InputLayout</a>), which describes the input buffers that will be read by the IA stage.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Returns nothing.
 
 
 
-For information about creating an input-layout object, see <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">Creating the Input-Layout Object</a>.
+For information about creating an input-layout object, see <a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">Creating the Input-Layout Object</a>.
 
 Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
@@ -90,7 +90,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

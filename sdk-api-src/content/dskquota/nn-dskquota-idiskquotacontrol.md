@@ -51,7 +51,7 @@ req.redist:
 
 
 Controls the disk quota facilities of a single NTFS file system volume. The client can query and set volume-specific quota attributes through 
-<b>IDiskQuotaControl</b>. The client can also enumerate all per-user quota entries on the volume. A client instantiates this interface by calling the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function using the class identifier CLSID_DiskQuotaControl.
+<b>IDiskQuotaControl</b>. The client can also enumerate all per-user quota entries on the volume. A client instantiates this interface by calling the <a href="_com_cocreateinstance">CoCreateInstance</a> function using the class identifier CLSID_DiskQuotaControl.
 
 
 ## -inheritance

@@ -73,7 +73,7 @@ The <b>IWMPMediaPluginRegistrar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563426(v=VS.85).aspx">WMPRegisterPlayerPlugin</a>
+<a href="https://msdn.microsoft.com/db042911-c46f-431a-ad1c-ceb2c3b4546c">WMPRegisterPlayerPlugin</a>
 </td>
 <td align="left" width="63%">
 Adds information to the registry that identifies a Windows Media Player plug-in.
@@ -82,7 +82,7 @@ Adds information to the registry that identifies a Windows Media Player plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563428(v=VS.85).aspx">WMPUnRegisterPlayerPlugin</a>
+<a href="https://msdn.microsoft.com/b6165962-3ca6-49c8-826c-ce87e55c09fd">WMPUnRegisterPlayerPlugin</a>
 </td>
 <td align="left" width="63%">
 Removes information from the registry about a Windows Media Player plug-in.

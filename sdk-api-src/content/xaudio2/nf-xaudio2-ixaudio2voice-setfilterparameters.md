@@ -60,7 +60,7 @@ Sets the voice's filter parameters.
 
 ### -param pParameters [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure containing the filter information. 
+Pointer to an <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> structure containing the filter information. 
 
 
 ### -param X2DEFAULT
@@ -94,7 +94,7 @@ Returns S_OK if successful, an error code otherwise. See <a href="https://msdn.m
 
 This method is usable only on source and submix voices and has no effect on mastering voices.
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/en-us/library/Ee418588(v=VS.85).aspx">IXAudio2Voice::GetFilterParameters</a> always returns this voice's actual current filter parameters. However, these may not match the parameters set by the most recent <b>IXAudio2Voice::SetFilterParameters</b> call: the actual parameters are only changed the next time the audio engine runs after the <b>IXAudio2Voice::SetFilterParameters</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetFilterParameters</b> was called with a deferred operation ID).</div>
+<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/7E5B3896-A415-4E06-94EB-F9205B3CFB32">IXAudio2Voice::GetFilterParameters</a> always returns this voice's actual current filter parameters. However, these may not match the parameters set by the most recent <b>IXAudio2Voice::SetFilterParameters</b> call: the actual parameters are only changed the next time the audio engine runs after the <b>IXAudio2Voice::SetFilterParameters</b> call (or after the corresponding <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetFilterParameters</b> was called with a deferred operation ID).</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -107,7 +107,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
  
 
  

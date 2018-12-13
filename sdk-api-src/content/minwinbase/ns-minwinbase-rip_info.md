@@ -4,7 +4,7 @@ title: RIP_INFO
 author: windows-sdk-content
 description: Contains the error that caused the RIP debug event.
 old-location: base\rip_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 2aef4de7-bf3d-4add-9801-e26081f0f76b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

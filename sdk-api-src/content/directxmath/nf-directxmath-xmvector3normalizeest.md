@@ -97,7 +97,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420828(v=VS.85).aspx">XMVector3Normalize</a>
+<a href="https://msdn.microsoft.com/deddf21b-3d5e-4502-8469-3f639b4b7317">XMVector3Normalize</a>
  
 
  

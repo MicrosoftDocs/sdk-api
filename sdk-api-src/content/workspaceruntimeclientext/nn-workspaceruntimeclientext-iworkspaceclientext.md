@@ -4,7 +4,7 @@ title: IWorkspaceClientExt
 author: windows-sdk-content
 description: Exposes methods that allow the runtime to disconnect a custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: f72b0709-1a55-49c9-ab5d-22f9259c41f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

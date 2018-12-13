@@ -67,7 +67,7 @@ The <b>IWMHeaderInfo3</b> interface is implemented by the metadata editor object
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMHeaderInfo3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>. <b>IWMHeaderInfo3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMHeaderInfo3</b> interface inherits from <a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>. <b>IWMHeaderInfo3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IWMHeaderInfo3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798509(v=VS.85).aspx">AddAttribute</a>
+<a href="https://msdn.microsoft.com/15ecb34d-f70d-43a3-b369-2d9c2532945e">AddAttribute</a>
 </td>
 <td align="left" width="63%">
 Adds an attribute for a specified language.
@@ -91,7 +91,7 @@ Adds an attribute for a specified language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798510(v=VS.85).aspx">AddCodecInfo</a>
+<a href="https://msdn.microsoft.com/4c5bc019-e4bb-419b-91ce-779fd36d7b4c">AddCodecInfo</a>
 </td>
 <td align="left" width="63%">
 Adds information about a codec that was used to compress data in the file.
@@ -100,7 +100,7 @@ Adds information about a codec that was used to compress data in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798511(v=VS.85).aspx">DeleteAttribute</a>
+<a href="https://msdn.microsoft.com/a69da90f-c8c5-4bf7-a1d8-7031aa9d1704">DeleteAttribute</a>
 </td>
 <td align="left" width="63%">
 Deletes an attribute using the attribute index.
@@ -109,7 +109,7 @@ Deletes an attribute using the attribute index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798512(v=VS.85).aspx">GetAttributeByIndexEx</a>
+<a href="https://msdn.microsoft.com/c20f4c79-f5b3-45d9-ad70-5fb9745bbf1b">GetAttributeByIndexEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves an attribute by its index.
@@ -118,7 +118,7 @@ Retrieves an attribute by its index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798513(v=VS.85).aspx">GetAttributeCountEx</a>
+<a href="https://msdn.microsoft.com/8c56d7b6-4f59-450e-938c-b7d0bd37ea08">GetAttributeCountEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of attributes in the file header.
@@ -127,7 +127,7 @@ Retrieves the total number of attributes in the file header.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798514(v=VS.85).aspx">GetAttributeIndices</a>
+<a href="https://msdn.microsoft.com/15c8f0c2-f2d4-441a-b6a9-774da820d03c">GetAttributeIndices</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all the indices of attributes for a specified language.
@@ -136,7 +136,7 @@ Retrieves a list of all the indices of attributes for a specified language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798515(v=VS.85).aspx">ModifyAttribute</a>
+<a href="https://msdn.microsoft.com/503099e9-a1a9-406f-abc9-7c632d757cca">ModifyAttribute</a>
 </td>
 <td align="left" width="63%">
 Changes the settings of an existing attribute.
@@ -163,11 +163,11 @@ For information about using the writer for metadata editing, see <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
+<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2 Interface</a>
+<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2 Interface</a>
 
 
 

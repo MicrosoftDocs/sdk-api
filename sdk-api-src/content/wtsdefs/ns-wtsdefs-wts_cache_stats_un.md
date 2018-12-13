@@ -4,7 +4,7 @@ title: WTS_CACHE_STATS_UN
 author: windows-sdk-content
 description: Contains cache statistics.
 old-location: termserv\wts_cache_stats_un.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: e6abb47e-248b-482d-9206-936092c391ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

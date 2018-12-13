@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxEventLogging::Save</b> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms684917(v=VS.85).aspx">IFaxEventLogging</a> interface's data.
+The <b>IFaxEventLogging::Save</b> method saves the <a href="https://msdn.microsoft.com/8acf484d-82c8-477e-bc05-83a0202a42c8">IFaxEventLogging</a> interface's data.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> and <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access rights.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> and <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access rights.
 
 
 
@@ -86,19 +86,19 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684890(v=VS.85).aspx">FaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684893(v=VS.85).aspx">IFaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/91899618-9164-4db4-94d3-a971db9f1ca0">IFaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684917(v=VS.85).aspx">IFaxEventLogging</a>
+<a href="https://msdn.microsoft.com/8acf484d-82c8-477e-bc05-83a0202a42c8">IFaxEventLogging</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/afee6ea0-f63d-4818-9ff0-1887638d232c">Visual Basic Example</a>
  
 
  

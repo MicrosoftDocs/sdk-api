@@ -125,7 +125,7 @@ Only read-only dynamic information and read/write information are available for 
 
 ### -field TcpConnectionEstatsMaximum
 
-The maximum possible value for the <a href="https://msdn.microsoft.com/en-us/library/Bb427395(v=VS.85).aspx">TCP_ESTATS_TYPE</a>_STATE enumeration type. This is not a legal value for the possible type of extended statistics for a TCP connection.
+The maximum possible value for the <a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a>_STATE enumeration type. This is not a legal value for the possible type of extended statistics for a TCP connection.
 
 
 ## -remarks

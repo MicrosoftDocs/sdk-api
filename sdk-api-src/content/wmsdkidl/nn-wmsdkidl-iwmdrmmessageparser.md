@@ -56,7 +56,7 @@ req.redist:
 
 The <b>IWMDRMMessageParser</b> interface parses pertinent information from messages received from a device.
 
-An <b>IWMDRMMessageParser</b> interface exists for every device registration object. You can obtain a pointer to this interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration</a> interface, or any other interface of the device registration object.
+An <b>IWMDRMMessageParser</b> interface exists for every device registration object. You can obtain a pointer to this interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration</a> interface, or any other interface of the device registration object.
 
 
 
@@ -78,7 +78,7 @@ The <b>IWMDRMMessageParser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798322(v=VS.85).aspx">ParseLicenseRequestMsg</a>
+<a href="https://msdn.microsoft.com/0d51b7f7-5cc2-4dbd-8a61-2901c01734bb">ParseLicenseRequestMsg</a>
 </td>
 <td align="left" width="63%">
 Parses a license request message from a device.
@@ -87,7 +87,7 @@ Parses a license request message from a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798323(v=VS.85).aspx">ParseRegistrationReqMsg</a>
+<a href="https://msdn.microsoft.com/d2d142bf-0fed-42c8-a2f1-b539a40ac074">ParseRegistrationReqMsg</a>
 </td>
 <td align="left" width="63%">
 Parses a registration request from a device.

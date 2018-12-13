@@ -107,7 +107,7 @@ Indicates that the filter's video pin has been created.
 
 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dd389336(v=VS.85).aspx">IAMExtendedSeeking::get_ExSeekCapabilities</a> for descriptions of how the <a href="https://msdn.microsoft.com/e59b3086-4f62-4541-8bef-b0581f01906f">Windows Media Source</a> filter sets these flags.
+See <a href="https://msdn.microsoft.com/caae9e8c-6d42-4bbc-a66a-bdde1009469d">IAMExtendedSeeking::get_ExSeekCapabilities</a> for descriptions of how the <a href="https://msdn.microsoft.com/e59b3086-4f62-4541-8bef-b0581f01906f">Windows Media Source</a> filter sets these flags.
 
 
 

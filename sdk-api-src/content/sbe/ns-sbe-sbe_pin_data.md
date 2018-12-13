@@ -76,12 +76,12 @@ Number of samples processed.
 
 ### -field cDiscontinuities
 
-Number of discontinuities. See <a href="https://msdn.microsoft.com/en-us/library/Dd407017(v=VS.85).aspx">IMediaSample::SetDiscontinuity</a>.
+Number of discontinuities. See <a href="https://msdn.microsoft.com/57041c71-4c7e-463a-92f5-c77a76aa545a">IMediaSample::SetDiscontinuity</a>.
 
 
 ### -field cSyncPoints
 
-Number of synchronization points. See <a href="https://msdn.microsoft.com/en-us/library/Dd407021(v=VS.85).aspx">IMediaSample::SetSyncPoint</a>.
+Number of synchronization points. See <a href="https://msdn.microsoft.com/b2770045-c18b-4dbc-b104-873e07c0b5aa">IMediaSample::SetSyncPoint</a>.
 
 
 ### -field cTimestamps

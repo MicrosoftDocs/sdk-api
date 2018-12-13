@@ -111,11 +111,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377391(v=VS.85).aspx">IVMRImagePresenter9 Interface</a>
+<a href="https://msdn.microsoft.com/2c18cdd6-af97-4db2-80b5-bab4cfa25f7d">IVMRImagePresenter9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377394(v=VS.85).aspx">StopPresenting</a>
+<a href="https://msdn.microsoft.com/47f34048-3b07-464e-a1f2-f0b49fe76659">StopPresenting</a>
 
 
 

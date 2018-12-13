@@ -73,7 +73,7 @@ The <b>IADesktopP2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9028beee-295a-422a-904a-cbb73332dc81">UpdateAllDesktopSubscriptions</a>
 </td>
 <td align="left" width="63%">
-Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb762263(v=VS.85).aspx">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
+Calls the <a href="https://msdn.microsoft.com/731bac41-ca1f-4bee-9314-28b5773eb694">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
 
 </td>
 </tr>

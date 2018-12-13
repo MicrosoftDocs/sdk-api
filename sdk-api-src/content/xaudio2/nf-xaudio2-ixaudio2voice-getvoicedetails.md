@@ -61,7 +61,7 @@ Returns information about the creation flags, input channels, and sample rate of
 ### -param pVoiceDetails [in, out]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419245(v=VS.85).aspx">XAUDIO2_VOICE_DETAILS</a> structure containing information about the voice.
+<a href="https://msdn.microsoft.com/22f7f110-1801-41a9-bfcf-974725045e68">XAUDIO2_VOICE_DETAILS</a> structure containing information about the voice.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
  
 
  

@@ -113,7 +113,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694470(v=VS.85).aspx">IMSVidClosedCaptioning3 Interface</a>
+<a href="https://msdn.microsoft.com/0b440d5a-05f0-4499-8398-2a8563f0f935">IMSVidClosedCaptioning3 Interface</a>
  
 
  

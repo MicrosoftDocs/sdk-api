@@ -1,0 +1,118 @@
+---
+UID: NF:winnt.RtlAddGrowableFunctionTable
+title: RtlAddGrowableFunctionTable function
+author: windows-sdk-content
+description: Informs the system of a dynamic function table representing a region of memory containing code.
+old-location: base\rtladdgrowablefunctiontable.htm
+tech.root: debug
+ms.assetid: 84ba7171-a4eb-4807-9883-f4fac6296ed0
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: RtlAddGrowableFunctionTable, RtlAddGrowableFunctionTable function, base.rtladdgrowablefunctiontable, winnt/RtlAddGrowableFunctionTable
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: winnt.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Ntdll.lib
+req.dll: Ntdll.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ntdll.dll
+ - API-MS-Win-Core-RTLSupport-l1-2-0.dll
+api_name:
+ - RtlAddGrowableFunctionTable
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# RtlAddGrowableFunctionTable function
+
+
+## -description
+
+
+Informs the system of a dynamic function table representing a region of memory containing 
+    code.
+
+
+## -parameters
+
+
+
+
+### -param DynamicTable [out]
+
+A pointer to a variable that receives an opaque reference to the newly-added table on success.
+
+
+### -param FunctionTable
+
+A pointer to a partially-filled array of 
+       <a href="https://msdn.microsoft.com/9ed16f9a-3403-4ba9-9968-f51f6788a1f8">RUNTIME_FUNCTION</a> entries which provides 
+       unwind information for the region of code. The entries in this array must remain sorted in ascending order of 
+       the <b>BeginAddress</b> members.
+
+
+### -param EntryCount [in]
+
+The number of entries currently populated in the function table. This value may be zero.
+
+
+### -param MaximumEntryCount [in]
+
+The capacity of the function table.
+
+
+### -param RangeBase [in]
+
+The beginning of the memory range described by the function table.
+
+
+### -param RangeEnd [in]
+
+The end of the memory range described by the function table.
+
+
+## -returns
+
+
+
+This function returns zero on success. (More detail).
+
+See 
+      <a href="http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx">http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx</a> 
+      for a list of <b>NTSTATUS</b> values.
+
+
+
+
+## -remarks
+
+
+
+The function table can grow as code is added to the memory region. The entries in the table must be sorted. 
+     This table is used for dispatching exceptions through runtime-generated code and for collecting stack 
+     backtraces.
+
+
+

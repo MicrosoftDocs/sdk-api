@@ -156,11 +156,11 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx">XMUBYTEN4</a>
+<a href="https://msdn.microsoft.com/552002c1-0000-44a6-9f43-9c958a8d1aa3">XMUBYTEN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415447(v=VS.85).aspx">XMUBYTEN4 Constructors</a>
+<a href="https://msdn.microsoft.com/0bb46e9b-6c76-40b5-9bf0-6387edfed484">XMUBYTEN4 Constructors</a>
  
 
  

@@ -75,7 +75,7 @@ The <b>CThreadBase</b> class is a base class that supplies the internal thread s
 <a href="https://msdn.microsoft.com/B5F1F8DD-9769-40A6-B743-4F4DF4B8C363">FlagDefs</a>
 </td>
 <td align="left" width="63%">
-Specifies which flags are valid for the specified type of operation. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Aa392887(v=VS.85).aspx">Provider::ValidateFlags</a> method.
+Specifies which flags are valid for the specified type of operation. This enumeration is used by the <a href="https://msdn.microsoft.com/1d6d1006-99b9-4646-a5c4-835940ce3ac0">Provider::ValidateFlags</a> method.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Provides thread safety by indicating the end of a data write operation when the 
 <a href="https://msdn.microsoft.com/a17a379d-60ba-4a76-8900-58fabadad5ea">OnFinalRelease</a>
 </td>
 <td align="left" width="63%">
-Virtual function called by <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> when the reference count reaches zero.
+Virtual function called by <a href="_com_iunknown_release">Release</a> when the reference count reaches zero.
 
 </td>
 </tr>

@@ -91,7 +91,7 @@ Return a nonzero value (<b>TRUE</b>) if this function processes the message. Ret
 
 
 
-For information about hooks, see <a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>.
+For information about hooks, see <a href="_win32_hooks_cpp">Hooks</a>.
 
 
 

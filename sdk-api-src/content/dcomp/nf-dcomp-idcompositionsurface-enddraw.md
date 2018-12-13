@@ -66,7 +66,7 @@ Marks the end of drawing on this Microsoft DirectComposition surface object.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code, which can include <a href="https://msdn.microsoft.com/en-us/library/Hh437369(v=VS.85).aspx">DCOMPOSITION_ERROR_SURFACE_NOT_BEING_RENDERED</a>. 
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code, which can include <a href="directcomposition_error_codes.htm">DCOMPOSITION_ERROR_SURFACE_NOT_BEING_RENDERED</a>. 
 
 
 
@@ -75,11 +75,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-This method completes an update that was begun by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx">IDCompositionSurface::BeginDraw</a> method. After this method returns, the application can start another update on the same surface object or on a different one.
+This method completes an update that was begun by a previous call to the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> method. After this method returns, the application can start another update on the same surface object or on a different one.
 
 
 
-If the application calls <a href="https://msdn.microsoft.com/en-us/library/Dn280355(v=VS.85).aspx">IDCompositionDevice2::Commit</a> before calling <b>IDCompositionSurface::EndDraw</b> for a surface with a pending update, that update is not processed by that Commit call. The update only takes effect on screen after the application calls <b>IDCompositionSurface::EndDraw</b> followed by the IDCompositionDevice2::Commit method.
+If the application calls <a href="https://msdn.microsoft.com/8C24DE03-CF1E-4DC4-8C27-913DAD278579">IDCompositionDevice2::Commit</a> before calling <b>IDCompositionSurface::EndDraw</b> for a surface with a pending update, that update is not processed by that Commit call. The update only takes effect on screen after the application calls <b>IDCompositionSurface::EndDraw</b> followed by the IDCompositionDevice2::Commit method.
 
 
 
@@ -89,15 +89,15 @@ If the application calls <a href="https://msdn.microsoft.com/en-us/library/Dn280
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx">IDCompositionSurface</a>
+<a href="https://msdn.microsoft.com/E271B4DC-5F09-426A-A5D3-43A48F30CB24">IDCompositionSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx">IDCompositionSurface::BeginDraw</a>
+<a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449102(v=VS.85).aspx">IDCompositionSurface::EndDraw</a>
+<a href="https://msdn.microsoft.com/127195F7-6000-4D8C-B850-3E4D40BC4082">IDCompositionSurface::EndDraw</a>
  
 
  

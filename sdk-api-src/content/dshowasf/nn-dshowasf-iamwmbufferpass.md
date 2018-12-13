@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>IAMWMBufferPass</b> interface is implemented on the output pins of the <a href="https://msdn.microsoft.com/3d5ca88a-86bd-4d84-b4f4-782564ced58d">WM ASF Reader</a> and the input pins of the <a href="https://msdn.microsoft.com/a902c92e-836d-492c-b2d2-89c216125774">WM ASF Writer</a>. Applications use it to give the pin a pointer to the <a href="https://msdn.microsoft.com/5bf0ae2e-504b-471b-bfc9-aa48f534e03f">IAMWMBufferPassCallback</a> interface on an application-defined object that gets and sets properties and data unit extensions on individual samples in a stream. One common use for this interface is to force key-frame insertion in a variable bit rate video stream during file writing. To do this, you must set the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">cleanpoint</a> property on individual <b>INSSBuffer3</b> samples.
+The <b>IAMWMBufferPass</b> interface is implemented on the output pins of the <a href="https://msdn.microsoft.com/3d5ca88a-86bd-4d84-b4f4-782564ced58d">WM ASF Reader</a> and the input pins of the <a href="https://msdn.microsoft.com/a902c92e-836d-492c-b2d2-89c216125774">WM ASF Writer</a>. Applications use it to give the pin a pointer to the <a href="https://msdn.microsoft.com/5bf0ae2e-504b-471b-bfc9-aa48f534e03f">IAMWMBufferPassCallback</a> interface on an application-defined object that gets and sets properties and data unit extensions on individual samples in a stream. One common use for this interface is to force key-frame insertion in a variable bit rate video stream during file writing. To do this, you must set the <a href="wmformat_glossary.htm">cleanpoint</a> property on individual <b>INSSBuffer3</b> samples.
 
 
 

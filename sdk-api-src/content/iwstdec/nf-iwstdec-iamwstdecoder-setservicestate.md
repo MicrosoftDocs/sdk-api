@@ -64,7 +64,7 @@ Applications use the <code>SetServiceState</code> method to assign the service s
 
 ### -param State [in]
 
-Specifies a member of an <a href="https://msdn.microsoft.com/en-us/library/Dd373510(v=VS.85).aspx">AM_WST_STATE</a> enumeration to assign the service state.
+Specifies a member of an <a href="https://msdn.microsoft.com/b6548144-7e18-4d5d-9243-51eb7db9821b">AM_WST_STATE</a> enumeration to assign the service state.
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <code>HRESUL
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
  
 
  

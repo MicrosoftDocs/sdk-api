@@ -287,7 +287,7 @@ Replaces the oldChild element with the newChild.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt492670(v=VS.85).aspx">SetAttributeValue</a>
+<a href="https://msdn.microsoft.com/33403a07-28d1-4138-ea7f-04f3ac42a8f7">SetAttributeValue</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets an attribute of this element.
 

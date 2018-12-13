@@ -69,7 +69,7 @@ The <b>ReconfigStream</b> method enables changes made to a stream configuration 
 
 ### -param pConfig [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface of the stream configuration object for the stream you want to reconfigure.
+Pointer to the <a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a> interface of the stream configuration object for the stream you want to reconfigure.
 
 
 ## -returns
@@ -126,9 +126,9 @@ The method is working on a stream that is <b>NULL</b> or not valid.
 
 
 
-You can call either <a href="https://msdn.microsoft.com/en-us/library/Dd757406(v=VS.85).aspx">IWMProfile::GetStream</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd757407(v=VS.85).aspx">IWMProfile::GetStreamByNumber</a> to retrieve a stream already added to a profile.
+You can call either <a href="https://msdn.microsoft.com/067c3f03-a79a-4693-b963-7081f79c72d3">IWMProfile::GetStream</a> or <a href="https://msdn.microsoft.com/507b1c55-1ecb-41dd-a6e5-298e1047a7ea">IWMProfile::GetStreamByNumber</a> to retrieve a stream already added to a profile.
 
-If you create a new stream by calling <a href="https://msdn.microsoft.com/en-us/library/Dd757401(v=VS.85).aspx">IWMProfile::CreateNewStream</a>, you must call <a href="https://msdn.microsoft.com/en-us/library/Dd757399(v=VS.85).aspx">IWMProfile::AddStream</a> to include it in the profile. Calling <b>ReconfigStream</b> on a new stream will result in an error.
+If you create a new stream by calling <a href="https://msdn.microsoft.com/4a1478ff-00fb-46e2-97a3-e00e9c1b819a">IWMProfile::CreateNewStream</a>, you must call <a href="https://msdn.microsoft.com/3024fd2b-c261-49bd-b9a7-c1f43b31645b">IWMProfile::AddStream</a> to include it in the profile. Calling <b>ReconfigStream</b> on a new stream will result in an error.
 
 Updating a stream configuration object has no effect on the profile until the application calls <b>ReconfigStream</b>.
 
@@ -144,11 +144,11 @@ Updating a stream configuration object has no effect on the profile until the ap
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
  
 
  

@@ -54,7 +54,7 @@ req.redist:
 
 The 
 				<b>SnmpUtilVarBindListFree</b> function frees the memory allocated for an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a> structure. This function is an element of the SNMP Utility API.
+<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure. This function is an element of the SNMP Utility API.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The
 ### -param pVbl [in, out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a> structure whose allocated memory should be freed.
+<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure whose allocated memory should be freed.
 
 
 ## -returns
@@ -94,7 +94,7 @@ This function has no return values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a>
+<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a>
  
 
  

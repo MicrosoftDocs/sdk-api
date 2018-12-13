@@ -4,7 +4,7 @@ title: IWTSProtocolConnectionCallback::BrokenConnection
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::BrokenConnection is no longer available. Instead, use IWRdsProtocolConnectionCallback::BrokenConnection.
 old-location: termserv\iwtsprotocolconnectioncallback_brokenconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a5878289-9335-4b3b-b66a-4c168b868f87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

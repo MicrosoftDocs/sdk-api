@@ -4,7 +4,7 @@ title: SymGetOptions function
 author: windows-sdk-content
 description: Retrieves the current option mask.
 old-location: base\symgetoptions.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 3d9db826-1c4a-46d6-b007-c0dd5e6b17cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

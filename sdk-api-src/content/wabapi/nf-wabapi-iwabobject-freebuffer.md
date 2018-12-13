@@ -52,7 +52,7 @@ req.product: Internet Explorer 4.0
 
 
 Frees memory allocated with 
-		<a href="https://msdn.microsoft.com/en-us/library/ms629459(v=VS.85).aspx">IWABObject::AllocateBuffer</a> or any of the other 
+		<a href="https://msdn.microsoft.com/59c4362a-2a03-47a0-a606-e8be3be22d28">IWABObject::AllocateBuffer</a> or any of the other 
 		Windows Address Book (WAB) methods.
 
 

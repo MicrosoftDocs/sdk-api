@@ -58,7 +58,7 @@ The composite effect is used to combine 2 or more images. This effect has 13 dif
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionCompositeEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionCompositeEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionCompositeEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionCompositeEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDCompositionCompositeEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919729(v=VS.85).aspx">SetMode</a>
+<a href="https://msdn.microsoft.com/E93FAAA1-A9C3-466A-9023-99745EA6A49B">SetMode</a>
 </td>
 <td align="left" width="63%">
 Sets the mode for the composite effect.
@@ -88,7 +88,7 @@ Sets the mode for the composite effect.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
  
 
  

@@ -108,11 +108,11 @@ An LCID uniquely identifies a particular language dialect, called a locale.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563188(v=VS.85).aspx">IWMPControls3::get_currentAudioLanguage</a>
+<a href="https://msdn.microsoft.com/6ea76479-950d-4bbf-a0e9-0e7b4ddecd52">IWMPControls3::get_currentAudioLanguage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563649(v=VS.85).aspx">IWMPSettings2 Interface</a>
+<a href="https://msdn.microsoft.com/0fb0c7be-015e-4081-8467-c382e0858195">IWMPSettings2 Interface</a>
  
 
  

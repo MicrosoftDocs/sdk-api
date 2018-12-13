@@ -53,16 +53,16 @@ req.redist:
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-This interface contains methods for manipulating stream samples with arbitrary media types. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd319683(v=VS.85).aspx">IAMMediaTypeStream::CreateSample</a> method to create a sample that exposes this interface.
+This interface contains methods for manipulating stream samples with arbitrary media types. Call the <a href="https://msdn.microsoft.com/5bfdbf82-c298-498d-84e4-cd4d8cd13f82">IAMMediaTypeStream::CreateSample</a> method to create a sample that exposes this interface.
 
-The methods in this interface parallel those of the <a href="https://msdn.microsoft.com/en-us/library/Dd407001(v=VS.85).aspx">IMediaSample</a> interface, although <b>IAMMediaTypeSample</b> contains a <a href="https://msdn.microsoft.com/en-us/library/Dd319678(v=VS.85).aspx">SetPointer</a> method in addition to the <a href="https://msdn.microsoft.com/en-us/library/Dd319668(v=VS.85).aspx">GetPointer</a> method.
+The methods in this interface parallel those of the <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface, although <b>IAMMediaTypeSample</b> contains a <a href="https://msdn.microsoft.com/fc7a04c5-3542-41e0-8abc-bb7b40bff2c9">SetPointer</a> method in addition to the <a href="https://msdn.microsoft.com/e1ca46d8-51d6-4dd5-bbcc-463acf53420c">GetPointer</a> method.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaTypeSample</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample</a>. <b>IAMMediaTypeSample</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaTypeSample</b> interface inherits from <a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample</a>. <b>IAMMediaTypeSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IAMMediaTypeSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319664(v=VS.85).aspx">GetActualDataLength</a>
+<a href="https://msdn.microsoft.com/e73672c7-7400-40dd-be65-f6c30c476c91">GetActualDataLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data length of the sample, in bytes.
@@ -86,7 +86,7 @@ Retrieves the data length of the sample, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319665(v=VS.85).aspx">GetMediaTime</a>
+<a href="https://msdn.microsoft.com/0ed66c17-f18b-4c8b-b31a-6dd4f5ab4292">GetMediaTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media time stamps for this sample.
@@ -95,7 +95,7 @@ Retrieves the media time stamps for this sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319667(v=VS.85).aspx">GetMediaType</a>
+<a href="https://msdn.microsoft.com/40a2640e-aaeb-44f2-a772-2deda2fd3999">GetMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media type of the sample.
@@ -104,7 +104,7 @@ Retrieves the media type of the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319668(v=VS.85).aspx">GetPointer</a>
+<a href="https://msdn.microsoft.com/e1ca46d8-51d6-4dd5-bbcc-463acf53420c">GetPointer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a read/write pointer to the buffer's memory.
@@ -113,7 +113,7 @@ Retrieves a read/write pointer to the buffer's memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319669(v=VS.85).aspx">GetSize</a>
+<a href="https://msdn.microsoft.com/57dd7ec9-7615-42c5-9da7-44c4d71535c4">GetSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the buffer data area, in bytes.
@@ -122,7 +122,7 @@ Retrieves the size of the buffer data area, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319670(v=VS.85).aspx">GetTime</a>
+<a href="https://msdn.microsoft.com/ffbbc857-ddcc-4625-b591-b95a256d40ba">GetTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream times at which this sample should start and stop.
@@ -131,7 +131,7 @@ Retrieves the stream times at which this sample should start and stop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319671(v=VS.85).aspx">IsDiscontinuity</a>
+<a href="https://msdn.microsoft.com/857729d9-ef46-461b-a3b5-bce9acb84538">IsDiscontinuity</a>
 </td>
 <td align="left" width="63%">
 Determines if this sample represents a discontinuity in the data stream.
@@ -140,7 +140,7 @@ Determines if this sample represents a discontinuity in the data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319672(v=VS.85).aspx">IsPreroll</a>
+<a href="https://msdn.microsoft.com/57ae9d67-65b9-458e-ad94-f5d5c89d1984">IsPreroll</a>
 </td>
 <td align="left" width="63%">
 Determines if this sample is part of the preroll.
@@ -149,7 +149,7 @@ Determines if this sample is part of the preroll.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319673(v=VS.85).aspx">IsSyncPoint</a>
+<a href="https://msdn.microsoft.com/0494f51e-2602-4574-88dd-0839a1d2f04f">IsSyncPoint</a>
 </td>
 <td align="left" width="63%">
 Determines if the beginning of a sample is a synchronization point.
@@ -158,7 +158,7 @@ Determines if the beginning of a sample is a synchronization point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319674(v=VS.85).aspx">SetActualDataLength</a>
+<a href="https://msdn.microsoft.com/158a1761-7d42-4611-9667-9e717b23a2da">SetActualDataLength</a>
 </td>
 <td align="left" width="63%">
 Sets the sample's data length.
@@ -167,7 +167,7 @@ Sets the sample's data length.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319675(v=VS.85).aspx">SetDiscontinuity</a>
+<a href="https://msdn.microsoft.com/9dcac2ce-c9a0-40be-aa86-b4acbd4d06a7">SetDiscontinuity</a>
 </td>
 <td align="left" width="63%">
 Sets the discontinuity property.
@@ -176,7 +176,7 @@ Sets the discontinuity property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319676(v=VS.85).aspx">SetMediaTime</a>
+<a href="https://msdn.microsoft.com/d255840f-9ff5-4eb0-b3b4-1295d77403f8">SetMediaTime</a>
 </td>
 <td align="left" width="63%">
 Sets the media time stamps for this sample.
@@ -185,7 +185,7 @@ Sets the media time stamps for this sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319677(v=VS.85).aspx">SetMediaType</a>
+<a href="https://msdn.microsoft.com/13c065b4-9a46-42bd-aef9-dd2a87a355df">SetMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type for the sample.
@@ -194,7 +194,7 @@ Sets the media type for the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319678(v=VS.85).aspx">SetPointer</a>
+<a href="https://msdn.microsoft.com/fc7a04c5-3542-41e0-8abc-bb7b40bff2c9">SetPointer</a>
 </td>
 <td align="left" width="63%">
 Sets the pointer to the media sample's memory buffer.
@@ -203,7 +203,7 @@ Sets the pointer to the media sample's memory buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319679(v=VS.85).aspx">SetPreroll</a>
+<a href="https://msdn.microsoft.com/f4815f4f-b919-497a-922e-b4d0d2078e4b">SetPreroll</a>
 </td>
 <td align="left" width="63%">
 Specifies whether this is a preroll sample.
@@ -212,7 +212,7 @@ Specifies whether this is a preroll sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319680(v=VS.85).aspx">SetSyncPoint</a>
+<a href="https://msdn.microsoft.com/d2ff9b33-c49c-4715-b580-f05670a0f405">SetSyncPoint</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the beginning of this sample is a synchronization point.
@@ -221,7 +221,7 @@ Specifies whether the beginning of this sample is a synchronization point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319681(v=VS.85).aspx">SetTime</a>
+<a href="https://msdn.microsoft.com/b8f2c1bd-ea78-43b8-881c-d1f1a64ee575">SetTime</a>
 </td>
 <td align="left" width="63%">
 Sets the stream times at which this sample should start and stop.
@@ -236,7 +236,7 @@ Sets the stream times at which this sample should start and stop.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample</a>
+<a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample</a>
  
 
  

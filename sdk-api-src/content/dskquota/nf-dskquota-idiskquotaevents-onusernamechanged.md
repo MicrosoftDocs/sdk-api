@@ -62,7 +62,7 @@ Notifies the client's connection sink whenever a user's SID has been asynchronou
 ### -param pUser [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface for the quota user object. Do not  call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on this pointer. The <b>DiskQuotaControl</b> object controls the lifetime of the user object.
+<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface for the quota user object. Do not  call <a href="_com_iunknown_release">Release</a> on this pointer. The <b>DiskQuotaControl</b> object controls the lifetime of the user object.
 
 
 ## -returns

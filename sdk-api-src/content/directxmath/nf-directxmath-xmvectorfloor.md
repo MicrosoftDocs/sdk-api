@@ -101,7 +101,7 @@ return Result;
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421007(v=VS.85).aspx">XMVectorCeiling</a>
+<a href="https://msdn.microsoft.com/e07f9174-19ba-4b27-a5c9-23f1061832c0">XMVectorCeiling</a>
  
 
  

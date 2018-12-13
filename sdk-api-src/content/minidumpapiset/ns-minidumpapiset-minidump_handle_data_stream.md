@@ -4,7 +4,7 @@ title: MINIDUMP_HANDLE_DATA_STREAM
 author: windows-sdk-content
 description: Represents the header for a handle data stream.
 old-location: base\minidump_handle_data_stream_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 5674df6b-77e0-4bca-8349-8217388902ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

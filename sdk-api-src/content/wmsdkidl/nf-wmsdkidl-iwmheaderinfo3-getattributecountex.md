@@ -138,7 +138,7 @@ The maximum number of attributes for a single stream is 65535, the capacity of t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3 Interface</a>
  
 
  

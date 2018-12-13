@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::AcquireTargetLock
 author: windows-sdk-content
 description: Locks a target.
 old-location: termserv\itssbresourcepluginstore_acquiretargetlock.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: ee6f22cf-c111-4a11-ab84-b52904a148b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

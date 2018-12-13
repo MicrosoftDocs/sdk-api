@@ -4,7 +4,7 @@ title: WTS_SESSION_ID
 author: windows-sdk-content
 description: Contains a GUID that uniquely identifies a session.
 old-location: termserv\wts_session_id.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: fe0714ec-c670-40b7-9808-2171abae79a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

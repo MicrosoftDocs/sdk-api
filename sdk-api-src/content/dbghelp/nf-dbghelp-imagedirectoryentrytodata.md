@@ -4,7 +4,7 @@ title: ImageDirectoryEntryToData function
 author: windows-sdk-content
 description: Obtains access to image-specific data.
 old-location: base\imagedirectoryentrytodata.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 9a4ef9e9-543a-4b1b-ba22-2f1ece19f7e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -60,7 +60,7 @@ This interface can be obtained by calling the <b>QueryInterface</b> method of an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterFileSink2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798742(v=VS.85).aspx">IWMWriterFileSink</a>. <b>IWMWriterFileSink2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterFileSink2</b> interface inherits from <a href="https://msdn.microsoft.com/af47b130-353e-411d-8432-09ecd20a70d2">IWMWriterFileSink</a>. <b>IWMWriterFileSink2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMWriterFileSink2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798744(v=VS.85).aspx">Close</a>
+<a href="https://msdn.microsoft.com/8d1bce07-a165-45cf-95cb-03b57f0cae03">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the sink.
@@ -84,7 +84,7 @@ Closes the sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798745(v=VS.85).aspx">GetFileDuration</a>
+<a href="https://msdn.microsoft.com/b0685760-929d-4c65-84e0-a9745635eddd">GetFileDuration</a>
 </td>
 <td align="left" width="63%">
 Retrieves the duration of the portion of the file that has been written.
@@ -93,7 +93,7 @@ Retrieves the duration of the portion of the file that has been written.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798746(v=VS.85).aspx">GetFileSize</a>
+<a href="https://msdn.microsoft.com/3a5f0c18-f73a-461e-b3cf-48742e74fed3">GetFileSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the file.
@@ -102,7 +102,7 @@ Retrieves the size of the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798747(v=VS.85).aspx">IsClosed</a>
+<a href="https://msdn.microsoft.com/0ae9137f-ce43-4860-a28f-deac39f216a4">IsClosed</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the file sink has been closed.
@@ -111,7 +111,7 @@ Ascertains whether the file sink has been closed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798748(v=VS.85).aspx">IsStopped</a>
+<a href="https://msdn.microsoft.com/f1e5790a-3cac-4e0e-8a3f-b21afe2711ff">IsStopped</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the file sink has stopped writing.
@@ -120,7 +120,7 @@ Ascertains whether the file sink has stopped writing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798749(v=VS.85).aspx">Start</a>
+<a href="https://msdn.microsoft.com/b4bfddbb-9156-42bf-b8d5-424fff9f4b64">Start</a>
 </td>
 <td align="left" width="63%">
 Starts recording at the specified time.
@@ -129,7 +129,7 @@ Starts recording at the specified time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798750(v=VS.85).aspx">Stop</a>
+<a href="https://msdn.microsoft.com/47377c77-f534-4bb0-be57-49bdb109c309">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops recording at the specified time.
@@ -146,13 +146,13 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798742(v=VS.85).aspx">IWMWriterFileSink</a>
+<a href="https://msdn.microsoft.com/af47b130-353e-411d-8432-09ecd20a70d2">IWMWriterFileSink</a>
 </td>
 <td>IID_IWMWriterFileSink</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3</a>
+<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3</a>
 </td>
 <td>IID_IWMWriterFileSink3</td>
 </tr>
@@ -164,15 +164,15 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798742(v=VS.85).aspx">IWMWriterFileSink Interface</a>
+<a href="https://msdn.microsoft.com/af47b130-353e-411d-8432-09ecd20a70d2">IWMWriterFileSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3 Interface</a>
+<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink Interface</a>
+<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink Interface</a>
 
 
 

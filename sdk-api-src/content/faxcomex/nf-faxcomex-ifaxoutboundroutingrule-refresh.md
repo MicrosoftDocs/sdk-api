@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxOutboundRoutingRule::Refresh</b> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object information from the fax server.
+The <b>IFaxOutboundRoutingRule::Refresh</b> method refreshes <a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a> object information from the fax server.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When the <b>IFaxOutboundRoutingRule::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/ms687544(v=VS.85).aspx">IFaxOutboundRoutingRule::Save</a> method call are lost.
+When the <b>IFaxOutboundRoutingRule::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/5fd084a6-3b74-4e6a-8656-de934e75e923">IFaxOutboundRoutingRule::Save</a> method call are lost.
 
 
 
@@ -86,15 +86,15 @@ When the <b>IFaxOutboundRoutingRule::Refresh</b> method is called, any configura
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a>
+<a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690232(v=VS.85).aspx">IFaxOutboundRoutingRule</a>
+<a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/35bb803d-fce4-46a3-825a-ec3a5138ed67">Visual Basic Example</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Provides methods that enable an application using the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function to retrieve information about the currently selected printer.
+Provides methods that enable an application using the <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a> function to retrieve information about the currently selected printer.
 
 
 ## -inheritance
@@ -70,28 +70,28 @@ The <b>IPrintDialogServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms646899(v=VS.85).aspx">GetCurrentDevMode</a>
+<a href="https://msdn.microsoft.com/f825a5c4-ecc6-4ec3-8500-33a67891337b">GetCurrentDevMode</a>
 </td>
 <td align="left" width="63%">
-Fills a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>.
+Fills a <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms646900(v=VS.85).aspx">GetCurrentPortName</a>
+<a href="https://msdn.microsoft.com/efd12fd2-2242-4a07-a620-0516ca9e160c">GetCurrentPortName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the name of the current port for use with <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>.
+Retrieves the name of the current port for use with <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms646903(v=VS.85).aspx">GetCurrentPrinterName</a>
+<a href="https://msdn.microsoft.com/a3bd1c1d-b6dc-446b-bb8a-2d8871beccec">GetCurrentPrinterName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the name of the currently selected printer, for use with <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>.
+Retrieves the name of the currently selected printer, for use with <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a>.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ Retrieves the name of the currently selected printer, for use with <a href="http
 
 
 
-This printer is indicated on the list of installed printers on the <b>General</b> page of the <a href="https://msdn.microsoft.com/en-us/library/ms646966(v=VS.85).aspx">Print Property Sheet</a>.
+This printer is indicated on the list of installed printers on the <b>General</b> page of the <a href="https://msdn.microsoft.com/b52b71cc-a583-4a21-8a53-501ab442e6f8">Print Property Sheet</a>.
 
 
 

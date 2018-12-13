@@ -64,7 +64,7 @@ The <code>Clone</code> method creates a copy of the DMO in its current state.
 
 ### -param ppMediaObject [out]
 
-Address of a pointer to receive the new DMO's <a href="https://msdn.microsoft.com/en-us/library/Dd406939(v=VS.85).aspx">IMediaObjectInPlace</a> interface.
+Address of a pointer to receive the new DMO's <a href="https://msdn.microsoft.com/c2105141-6c5e-4edb-aa3b-3227ca223329">IMediaObjectInPlace</a> interface.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the method succeeds, the <b>IMediaObjectInPlace</b> interface that it returns
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406939(v=VS.85).aspx">IMediaObjectInPlace Interface</a>
+<a href="https://msdn.microsoft.com/c2105141-6c5e-4edb-aa3b-3227ca223329">IMediaObjectInPlace Interface</a>
  
 
  

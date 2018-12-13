@@ -66,7 +66,7 @@ The zero-based index of the descriptor to retrieve. Call the <a href="https://ms
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface. The caller must release the interface.
 
 
 ## -returns

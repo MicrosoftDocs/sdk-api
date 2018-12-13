@@ -70,7 +70,7 @@ The <b>ID2D1SvgStrokeDashArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt492672(v=VS.85).aspx">GetDashes</a>
+<a href="https://msdn.microsoft.com/d244b59c-2681-1da9-9b89-534b4f3be543">GetDashes</a>
 </td>
 <td align="left" width="63%">Overloaded. Gets dashes from the array.
 
@@ -96,7 +96,7 @@ Removes dashes from the end of the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt492673(v=VS.85).aspx">UpdateDashes</a>
+<a href="https://msdn.microsoft.com/b9be98f2-d215-d009-ec9e-732163539053">UpdateDashes</a>
 </td>
 <td align="left" width="63%">Overloaded. Updates the array.
 

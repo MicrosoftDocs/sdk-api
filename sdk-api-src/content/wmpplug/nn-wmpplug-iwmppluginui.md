@@ -73,7 +73,7 @@ The <b>IWMPPluginUI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563592(v=VS.85).aspx">Create</a>
+<a href="https://msdn.microsoft.com/f7ba2985-42a2-456f-8195-a292c90b440d">Create</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to instantiate the plug-in user interface.
@@ -82,7 +82,7 @@ Called by Windows Media Player to instantiate the plug-in user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563593(v=VS.85).aspx">Destroy</a>
+<a href="https://msdn.microsoft.com/ca78c354-92ae-47d4-82c3-e41eae19f246">Destroy</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to shut down the plug-in user interface.
@@ -91,7 +91,7 @@ Called by Windows Media Player to shut down the plug-in user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563594(v=VS.85).aspx">DisplayPropertyPage</a>
+<a href="https://msdn.microsoft.com/29d1438a-164a-460b-9c3e-804417ce362a">DisplayPropertyPage</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to request that the plug-in display its property page.
@@ -100,7 +100,7 @@ Called by Windows Media Player to request that the plug-in display its property 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563595(v=VS.85).aspx">GetProperty</a>
+<a href="https://msdn.microsoft.com/f01d0700-2399-4e33-8a0c-59bb1f0f2495">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to retrieve name/value property pairs from the plug-in.
@@ -109,7 +109,7 @@ Called by Windows Media Player to retrieve name/value property pairs from the pl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563596(v=VS.85).aspx">SetCore</a>
+<a href="https://msdn.microsoft.com/6b6e6878-1d9d-4f45-94a9-316e86da85df">SetCore</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to provide plug-in access to the core Windows Media Player APIs.
@@ -118,7 +118,7 @@ Called by Windows Media Player to provide plug-in access to the core Windows Med
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563597(v=VS.85).aspx">SetProperty</a>
+<a href="https://msdn.microsoft.com/33b36239-3bda-44d3-8f85-7826bd8d3376">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to set name/value property pairs for the plug-in.
@@ -127,7 +127,7 @@ Called by Windows Media Player to set name/value property pairs for the plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563598(v=VS.85).aspx">TranslateAccelerator</a>
+<a href="https://msdn.microsoft.com/0accc3d7-a194-4f89-a90c-ee3ce10d0e27">TranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Called as part of the Windows Media Player message loop to allow the plug-in to intercept and respond to keyboard events.

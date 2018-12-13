@@ -68,7 +68,7 @@ This property is read/write.
 
 If the time specified has passed, the fax service sends the fax as soon as a device is available. By default, <b>IFaxDocument::get_ScheduleTime</b> is set to zero, meaning that no time is specified.
 
-Note that the fax service ignores this parameter unless you set the <a href="https://msdn.microsoft.com/en-us/library/ms686190(v=VS.85).aspx">IFaxDocument::get_ScheduleType</a> property to <a href="https://msdn.microsoft.com/en-us/library/ms689199(v=VS.85).aspx">fstSpecific_TIME</a>.
+Note that the fax service ignores this parameter unless you set the <a href="https://msdn.microsoft.com/cbcfcdb1-de89-4e74-8f69-b25d4813f28d">IFaxDocument::get_ScheduleType</a> property to <a href="https://msdn.microsoft.com/a93dca50-f5ef-4bf0-b773-5d00929be543">fstSpecific_TIME</a>.
 
 <div class="alert"><b>Note</b>  The value of the <b>IFaxDocument::get_ScheduleTime</b> property must include the date and time for submitting the fax.</div>
 <div> </div>
@@ -80,15 +80,15 @@ Note that the fax service ignores this parameter unless you set the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
  
 
  

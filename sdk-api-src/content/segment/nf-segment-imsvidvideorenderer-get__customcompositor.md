@@ -60,7 +60,7 @@ The <b>get__CustomCompositor</b> method retrieves the Video Mixing Renderer's cu
 
 ### -param Compositor [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd377380(v=VS.85).aspx">IVMRImageCompositor</a> interface pointer .
+Receives an <a href="https://msdn.microsoft.com/d905e871-c156-4140-bb3f-a19fa0cd79be">IVMRImageCompositor</a> interface pointer .
 
 
 ## -returns
@@ -78,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 Applications can provide their own compositors to perform custom image compositing. For more information, see <a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>.
 
-The returned <a href="https://msdn.microsoft.com/en-us/library/Dd377380(v=VS.85).aspx">IVMRImageCompositor</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="https://msdn.microsoft.com/d905e871-c156-4140-bb3f-a19fa0cd79be">IVMRImageCompositor</a> interface has an outstanding reference count. The caller must release the interface.
 
 
 
@@ -92,11 +92,11 @@ The returned <a href="https://msdn.microsoft.com/en-us/library/Dd377380(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694746(v=VS.85).aspx">IMSVidVideoRenderer::get__CustomCompositorClass</a>
+<a href="https://msdn.microsoft.com/0ac48bbb-a0d3-4c37-9f3e-4f4cc79b550b">IMSVidVideoRenderer::get__CustomCompositorClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694757(v=VS.85).aspx">IMSVidVideoRenderer::put__CustomCompositor</a>
+<a href="https://msdn.microsoft.com/ff99b253-20bc-4b8e-8624-ffcbb3b91857">IMSVidVideoRenderer::put__CustomCompositor</a>
  
 
  

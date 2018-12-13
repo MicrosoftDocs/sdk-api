@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxJob::Refresh</b> method updates <a href="https://msdn.microsoft.com/en-us/library/ms692342(v=VS.85).aspx">FaxJob</a> object information for the associated fax job.
+The <b>IFaxJob::Refresh</b> method updates <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> object information for the associated fax job.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Call the <b>IFaxJob::Refresh</b> method to poll the fax service for new information about a specified fax job. After you successfully call <b>IFaxJob::Refresh</b>, you must call the appropriate <a href="https://msdn.microsoft.com/en-us/library/ms692310(v=VS.85).aspx">IFaxJob</a> interface method to retrieve new attribute values that are valid.
+Call the <b>IFaxJob::Refresh</b> method to poll the fax service for new information about a specified fax job. After you successfully call <b>IFaxJob::Refresh</b>, you must call the appropriate <a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a> interface method to retrieve new attribute values that are valid.
 
 It is recommended that you limit calls to this method because frequent calls to <b>IFaxJob::Refresh</b> can degrade system performance.
 
@@ -88,19 +88,19 @@ It is recommended that you limit calls to this method because frequent calls to 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692310(v=VS.85).aspx">IFaxJob</a>
+<a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692372(v=VS.85).aspx">IFaxJobs</a>
+<a href="https://msdn.microsoft.com/c9e548c4-9381-4b7d-9a9d-55fbc59f198f">IFaxJobs</a>
  
 
  

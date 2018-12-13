@@ -61,22 +61,22 @@ The <b>ImageItemData</b> class is used to store and retrieve custom image metada
 
 
 
-To retrieve custom metadata from an image file, call <a href="https://msdn.microsoft.com/en-us/library/ms535382(v=VS.85).aspx">Image::GetItemData</a>. To store custom metadata in an image file, follow these steps:
+To retrieve custom metadata from an image file, call <a href="https://msdn.microsoft.com/cbda0682-7b06-4a7a-92ec-ef5c181a23bb">Image::GetItemData</a>. To store custom metadata in an image file, follow these steps:
 
 		    
 
 <ol>
 <li>Create and initialize an <b>ImageItemData</b> object.</li>
-<li>Create an <a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a> object that has an array of one or more <a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects.</li>
-<li>For one of the <a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects in the array, set the Value member to the address of your <b>ImageItemData</b> object. Set the other members as follows: Guid = EncoderImageItems, Type = EncoderParameterValueTypePointer,  NumberOfValues = 1.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms535407(v=VS.85).aspx">Image::Save</a> method of an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.</li>
+<li>Create an <a href="https://msdn.microsoft.com/347275b5-22d2-47ad-9754-0bd213689bf0">EncoderParameters</a> object that has an array of one or more <a href="https://msdn.microsoft.com/1ea22bdc-c519-466e-ad39-192910785f4b">EncoderParameter</a> objects.</li>
+<li>For one of the <a href="https://msdn.microsoft.com/1ea22bdc-c519-466e-ad39-192910785f4b">EncoderParameter</a> objects in the array, set the Value member to the address of your <b>ImageItemData</b> object. Set the other members as follows: Guid = EncoderImageItems, Type = EncoderParameterValueTypePointer,  NumberOfValues = 1.</li>
+<li>Pass the address of the <a href="https://msdn.microsoft.com/347275b5-22d2-47ad-9754-0bd213689bf0">EncoderParameters</a> object to the <a href="https://msdn.microsoft.com/e2c57259-fe82-40dc-86a3-3f4110e6c0ee">Image::Save</a> method of an <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object.</li>
 </ol>
 
 #### Examples
 
 
 
-The following example saves a piece of custom metadata in a JPEG file. The code relies on a helper function, GetEncoderClsid, to get the class identifier for the JPEG encoder. To see the source code for GetEncoderClsid, see <a href="https://msdn.microsoft.com/en-us/library/ms533843(v=VS.85).aspx">Retrieving the Class Identifier for an Encoder</a>.
+The following example saves a piece of custom metadata in a JPEG file. The code relies on a helper function, GetEncoderClsid, to get the class identifier for the JPEG encoder. To see the source code for GetEncoderClsid, see <a href="https://msdn.microsoft.com/f78dac7c-4bc1-4614-8a26-d99d5619399a">Retrieving the Class Identifier for an Encoder</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

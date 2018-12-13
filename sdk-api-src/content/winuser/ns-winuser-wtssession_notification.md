@@ -4,7 +4,7 @@ title: WTSSESSION_NOTIFICATION
 author: windows-sdk-content
 description: Provides information about the session change notification. A service receives this structure in its HandlerEx function in response to a session change event.
 old-location: termserv\wtssession_notification_str.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 863bd689-796b-4875-81bf-f853354b08b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

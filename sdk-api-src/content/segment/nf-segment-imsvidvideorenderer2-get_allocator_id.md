@@ -105,7 +105,7 @@ The identifier is for application use; it is not used by the VMR.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
+<a href="https://msdn.microsoft.com/caaa2cf1-15be-47dc-82db-06915a55ba03">IMSVidVideoRenderer2 Interface</a>
  
 
  

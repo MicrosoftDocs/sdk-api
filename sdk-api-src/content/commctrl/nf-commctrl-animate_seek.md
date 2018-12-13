@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Directs an animation control to display a particular frame of an AVI clip. The control displays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761899(v=VS.85).aspx">ACM_PLAY</a> message explicitly. 
+Directs an animation control to display a particular frame of an AVI clip. The control displays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/738b7305-bb77-441d-a198-17daf3b76039">ACM_PLAY</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The zero-based index of the frame to display.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761912(v=VS.85).aspx">Animate_Play</a>
+<a href="https://msdn.microsoft.com/41865bd5-2729-423c-866b-e4afafa19b3a">Animate_Play</a>
  
 
  

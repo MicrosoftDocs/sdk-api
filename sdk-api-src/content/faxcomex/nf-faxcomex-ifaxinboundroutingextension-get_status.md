@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-If the extension did not load successfully, the property indicates the reason for the failure, and <a href="https://msdn.microsoft.com/en-us/library/ms687447(v=VS.85).aspx">IFaxInboundRoutingExtension::get_InitErrorCode</a> holds the last error code value. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690089(v=VS.85).aspx">FAX_PROVIDER_STATUS_ENUM</a>.
+If the extension did not load successfully, the property indicates the reason for the failure, and <a href="https://msdn.microsoft.com/64aaac61-00ba-4888-b177-b847d8896e09">IFaxInboundRoutingExtension::get_InitErrorCode</a> holds the last error code value. For more information, see <a href="https://msdn.microsoft.com/e39bbe9b-117e-4d1f-9eda-25368923f832">FAX_PROVIDER_STATUS_ENUM</a>.
 
 
 
@@ -74,15 +74,15 @@ If the extension did not load successfully, the property indicates the reason fo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684580(v=VS.85).aspx">FaxInboundRoutingExtension</a>
+<a href="https://msdn.microsoft.com/cb875610-d6c9-473d-b9c2-0035e67a8949">FaxInboundRoutingExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684581(v=VS.85).aspx">IFaxInboundRoutingExtension</a>
+<a href="https://msdn.microsoft.com/e967c113-a4c0-4a83-949b-eb51fe41fb42">IFaxInboundRoutingExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
  
 
  

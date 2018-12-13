@@ -130,7 +130,7 @@ When <a href="https://msdn.microsoft.com/390fa1a1-254a-4070-806c-c8c478f69254">C
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
 
 
 

@@ -100,7 +100,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420800(v=VS.85).aspx">XMVector3AngleBetweenNormals</a>
+<a href="https://msdn.microsoft.com/24c9a17f-42a2-421a-8f1e-c9e85281cab1">XMVector3AngleBetweenNormals</a>
  
 
  

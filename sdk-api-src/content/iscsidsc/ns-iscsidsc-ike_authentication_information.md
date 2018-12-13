@@ -60,12 +60,12 @@ The <b>IKE_AUTHENTICATION_INFORMATION</b> structure contains Internet Key Exchan
 
 ### -field AuthMethod
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb870789(v=VS.85).aspx">IKE_AUTHENTICATION_METHOD</a> structure that indicates the authentication method. 
+A <a href="https://msdn.microsoft.com/be92f3db-93c5-41e3-bd5a-f929f911da39">IKE_AUTHENTICATION_METHOD</a> structure that indicates the authentication method. 
 
 
 ### -field PsKey
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb870790(v=VS.85).aspx">IKE_AUTHENTICATION_PRESHARED_KEY</a> structure that contains the preshared key that establishes a secure channel between two key management daemons.
+A <a href="https://msdn.microsoft.com/52a188b5-6b59-4ea8-89e0-d05440344dde">IKE_AUTHENTICATION_PRESHARED_KEY</a> structure that contains the preshared key that establishes a secure channel between two key management daemons.
 
 
 ## -see-also
@@ -73,11 +73,11 @@ A <a href="https://msdn.microsoft.com/en-us/library/Bb870790(v=VS.85).aspx">IKE_
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb870789(v=VS.85).aspx">IKE_AUTHENTICATION_METHOD</a>
+<a href="https://msdn.microsoft.com/be92f3db-93c5-41e3-bd5a-f929f911da39">IKE_AUTHENTICATION_METHOD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb870790(v=VS.85).aspx">IKE_AUTHENTICATION_PRESHARED_KEY</a>
+<a href="https://msdn.microsoft.com/52a188b5-6b59-4ea8-89e0-d05440344dde">IKE_AUTHENTICATION_PRESHARED_KEY</a>
  
 
  

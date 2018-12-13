@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419609(v=VS.85).aspx">XMFLOAT4A</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/1cb0c521-3494-4bad-b6c4-3fbe029034f3">XMFLOAT4A</a>.
 
 
 ## -parameters
@@ -83,12 +83,16 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-return (XMFLOAT4A*)XMStoreVector4A(pDestination, V);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>return (XMFLOAT4A*)XMStoreVector4A(pDestination, V);</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

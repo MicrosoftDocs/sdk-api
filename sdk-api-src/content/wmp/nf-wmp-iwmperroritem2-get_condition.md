@@ -110,7 +110,7 @@ The condition code is a value that is used by Microsoft to provide additional in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563274(v=VS.85).aspx">IWMPErrorItem2 Interface</a>
+<a href="https://msdn.microsoft.com/b71d06db-c9bc-44fc-9e23-a16f89c56c1c">IWMPErrorItem2 Interface</a>
  
 
  

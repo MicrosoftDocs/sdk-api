@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-A multithread interface accesses multithread settings and can only be used if the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">thread-safe layer</a> is turned on. 
+A multithread interface accesses multithread settings and can only be used if the <a href="https://msdn.microsoft.com/19c81383-6ac7-49ea-98a3-bf761a32ab40">thread-safe layer</a> is turned on. 
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>ID3D10Multithread</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173817(v=VS.85).aspx">Enter</a>
+<a href="https://msdn.microsoft.com/16617f82-f19c-4ec6-93ae-9f0ec4501a49">Enter</a>
 </td>
 <td align="left" width="63%">
 Enter a device's critical section.
@@ -80,7 +80,7 @@ Enter a device's critical section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173818(v=VS.85).aspx">GetMultithreadProtected</a>
+<a href="https://msdn.microsoft.com/5b3e0e0d-c78c-4bfc-b174-07ed77e880be">GetMultithreadProtected</a>
 </td>
 <td align="left" width="63%">
 Find out if multithreading is turned on or not.
@@ -89,7 +89,7 @@ Find out if multithreading is turned on or not.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173819(v=VS.85).aspx">Leave</a>
+<a href="https://msdn.microsoft.com/739a4659-55db-409c-b67f-9114c205df03">Leave</a>
 </td>
 <td align="left" width="63%">
 Leave a device's critical section.
@@ -98,7 +98,7 @@ Leave a device's critical section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173820(v=VS.85).aspx">SetMultithreadProtected</a>
+<a href="https://msdn.microsoft.com/6023a211-f493-4d2d-b9ff-1208c44d0d8f">SetMultithreadProtected</a>
 </td>
 <td align="left" width="63%">
 Turn multithreading on or off.
@@ -112,7 +112,7 @@ Turn multithreading on or off.
 
 
 
-This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
+This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
 
 
 
@@ -122,7 +122,7 @@ This interface is obtained by querying it from the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/f5ad2db8-da90-4bcd-83a7-7466723a9c3c">Core Interfaces</a>
  
 
  

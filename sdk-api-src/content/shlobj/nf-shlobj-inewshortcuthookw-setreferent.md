@@ -101,7 +101,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For Internet shortcut objects, this method is the same as <a href="https://msdn.microsoft.com/library/Dd565676(v=VS.85).aspx">IUniformResourceLocator::SetURL</a>.
+For Internet shortcut objects, this method is the same as <a href="_inet_IUniformResourceLocator_SetURL_Method">IUniformResourceLocator::SetURL</a>.
 
 
 

@@ -75,11 +75,11 @@ This property is set whenever a method that submits a fax completes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359010(v=VS.85).aspx">IFaxDocument2</a>
+<a href="https://msdn.microsoft.com/20b98e3e-3126-4be1-b9af-228164d0bda6">IFaxDocument2</a>
  
 
  

@@ -87,7 +87,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-Your code needs to handle the <a href="https://msdn.microsoft.com/en-us/library/ms632652(v=VS.85).aspx">WM_WINDOWPOSCHANGED</a> message in addition to the scale change event registered through <a href="https://msdn.microsoft.com/05FAFC9B-DCB7-464A-9933-7166C7E53D40">RegisterScaleChangeEvent</a>, because the app window can be moved between monitors. In response to the <b>WM_WINDOWPOSCHANGED</b> message, call <a href="https://msdn.microsoft.com/fe6505c9-b481-4fec-ae9d-995943234a3a">MonitorFromWindow</a>, followed by <b>GetScaleFactorForMonitor</b> to get the scale factor of the monitor which the app window is on. Your code can then react to any dots per inch (dpi) change by reloading assets and changing layout.
+Your code needs to handle the <a href="https://msdn.microsoft.com/1eabd0b1-1f92-4576-b7fb-8af50fb04526">WM_WINDOWPOSCHANGED</a> message in addition to the scale change event registered through <a href="https://msdn.microsoft.com/05FAFC9B-DCB7-464A-9933-7166C7E53D40">RegisterScaleChangeEvent</a>, because the app window can be moved between monitors. In response to the <b>WM_WINDOWPOSCHANGED</b> message, call <a href="https://msdn.microsoft.com/fe6505c9-b481-4fec-ae9d-995943234a3a">MonitorFromWindow</a>, followed by <b>GetScaleFactorForMonitor</b> to get the scale factor of the monitor which the app window is on. Your code can then react to any dots per inch (dpi) change by reloading assets and changing layout.
 
 
 

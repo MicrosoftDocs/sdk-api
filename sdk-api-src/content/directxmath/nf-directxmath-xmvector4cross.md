@@ -87,13 +87,17 @@ Returns the 4D cross product of <i>V1</i>, <i>V2</i>, and <i>V3</i>.
 
 
 A 4D cross-product is not well-defined. This function computes a geometric analog to the 3D cross product. 
-        <a href="https://msdn.microsoft.com/en-us/library/Ee420980(v=VS.85).aspx">XMVector4Orthogonal</a> is another generalized 'cross-product' for 4D vectors.
+        <a href="https://msdn.microsoft.com/ed3312ce-516e-4708-8632-6ec41a73df9a">XMVector4Orthogonal</a> is another generalized 'cross-product' for 4D vectors.
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 XMVECTOR Result;
 
 Result.x = V1.y * (V2.z * V3.w - V3.z * V2.w)
@@ -113,10 +117,10 @@ Result.w = V1.x * (V3.y * V2.z - V2.y * V3.z)
            + V1.z * (V3.x * V2.y - V2.x * V3.y);
 
 return Result;
-        
-```
-
-
+        </pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

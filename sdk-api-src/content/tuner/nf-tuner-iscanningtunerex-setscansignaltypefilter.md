@@ -74,7 +74,7 @@ Specifies the modulation types, as a bitwise OR of flags from the <a href="https
 
 ### -param AnalogVideoStandard
 
-Specifies the analog standards, as a bitwise OR of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a> enumeration. If the value is 0xFFFFFFFF, the tuner does not filter out any specific analog video standards.
+Specifies the analog standards, as a bitwise OR of flags from the <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> enumeration. If the value is 0xFFFFFFFF, the tuner does not filter out any specific analog video standards.
 
 
 ## -returns

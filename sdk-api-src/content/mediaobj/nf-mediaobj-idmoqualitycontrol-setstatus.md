@@ -110,7 +110,7 @@ Success
 
 
 
-With quality control enabled, the DMO attempts to deliver samples on time. It can skip late samples if necessary. With quality control disabled, the DMO delivers every sample. If you enable quality control, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406841(v=VS.85).aspx">IDMOQualityControl::SetNow</a> method to specify the earliest time stamp that the DMO should process. Otherwise, the call to <code>SetStatus</code> succeeds but the DMO does not perform quality control.
+With quality control enabled, the DMO attempts to deliver samples on time. It can skip late samples if necessary. With quality control disabled, the DMO delivers every sample. If you enable quality control, call the <a href="https://msdn.microsoft.com/36efee4f-0a06-421f-bc37-688a6499bda7">IDMOQualityControl::SetNow</a> method to specify the earliest time stamp that the DMO should process. Otherwise, the call to <code>SetStatus</code> succeeds but the DMO does not perform quality control.
 
 By default, quality control is disabled.
 
@@ -122,7 +122,7 @@ By default, quality control is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406839(v=VS.85).aspx">IDMOQualityControl Interface</a>
+<a href="https://msdn.microsoft.com/c23211f2-d4ba-45ff-b443-3425c3a3e72f">IDMOQualityControl Interface</a>
  
 
  

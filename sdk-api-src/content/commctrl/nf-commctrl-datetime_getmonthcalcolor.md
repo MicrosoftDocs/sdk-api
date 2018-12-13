@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761759(v=VS.85).aspx">DTM_GETMCCOLOR</a> message explicitly. 
+Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="https://msdn.microsoft.com/892e8c23-f0d0-4fd6-98ed-39592c4d316f">DTM_GETMCCOLOR</a> message explicitly. 
 
 
 ## -parameters

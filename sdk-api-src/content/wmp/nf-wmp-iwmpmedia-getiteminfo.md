@@ -172,23 +172,23 @@ attribute, as shown in the following table:<table>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563403(v=VS.85).aspx">IWMPMedia3::getItemInfoByType</a>
+<a href="https://msdn.microsoft.com/2a77029b-fbae-49af-bd91-c688c11b3b16">IWMPMedia3::getItemInfoByType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563430(v=VS.85).aspx">IWMPMedia::getAttributeName</a>
+<a href="https://msdn.microsoft.com/cb04e464-44dd-41ba-9296-f13aca9ef54e">IWMPMedia::getAttributeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563435(v=VS.85).aspx">IWMPMedia::get_attributeCount</a>
+<a href="https://msdn.microsoft.com/33e29da2-7439-41d1-9dd9-9b66e87aeb4b">IWMPMedia::get_attributeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563449(v=VS.85).aspx">IWMPMedia::setItemInfo</a>
+<a href="https://msdn.microsoft.com/919fe92f-9519-4229-8097-4970a8f6cc25">IWMPMedia::setItemInfo</a>
  
 
  

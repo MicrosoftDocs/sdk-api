@@ -360,7 +360,7 @@ For queries that return strings,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385146(v=VS.85).aspx">INTERNET_PER_CONN_OPTION_LIST</a>
+<a href="https://msdn.microsoft.com/5e3178d5-b266-44bd-846c-f14bad0083c4">INTERNET_PER_CONN_OPTION_LIST</a>
 
 
 

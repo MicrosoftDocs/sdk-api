@@ -89,7 +89,7 @@ The <b>ID2D1DeviceContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/JJ841135(v=VS.85).aspx">CreateBitmapFromDxgiSurface</a>
+<a href="https://msdn.microsoft.com/E8C62877-DE26-4819-B9AA-980E473617AD">CreateBitmapFromDxgiSurface</a>
 </td>
 <td align="left" width="63%">Overloaded.  Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.
 

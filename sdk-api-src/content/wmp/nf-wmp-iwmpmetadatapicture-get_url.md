@@ -97,7 +97,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563451(v=VS.85).aspx">IWMPMetadataPicture Interface</a>
+<a href="https://msdn.microsoft.com/385819d0-cf27-4f39-86be-140d1bc87d12">IWMPMetadataPicture Interface</a>
  
 
  

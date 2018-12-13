@@ -66,7 +66,7 @@ The <b>OnHeader</b> method is called by the writer when the ASF header is ready 
 
 ### -param pHeader [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface on an object containing the ASF header.
+Pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface on an object containing the ASF header.
 
 
 ## -returns
@@ -92,7 +92,7 @@ The ASF header will always be sent before any data units, as the header is requi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink Interface</a>
+<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink Interface</a>
  
 
  

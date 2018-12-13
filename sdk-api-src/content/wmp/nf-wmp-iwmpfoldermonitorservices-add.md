@@ -51,7 +51,7 @@ req.redist:
 
 
 
-This method and all other methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices</a> interface are deprecated.
+This method and all other methods of the <a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices</a> interface are deprecated.
 
 The <b>add</b> method adds a folder to the list of monitored folders.
 
@@ -110,11 +110,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices Interface</a>
+<a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563376(v=VS.85).aspx">IWMPFolderMonitorServices::remove</a>
+<a href="https://msdn.microsoft.com/4f075c31-dd09-4d35-88fa-b93a373ad2d0">IWMPFolderMonitorServices::remove</a>
  
 
  

@@ -73,7 +73,7 @@ The parameter type is the client inventory enabled/disabled status in the DHCP s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404364(v=VS.85).aspx">DHCPV6_STATELESS_PARAMS</a>
+<a href="https://msdn.microsoft.com/852249b2-ea0d-4f83-a41f-12ef8cb029e7">DHCPV6_STATELESS_PARAMS</a>
 
 
 

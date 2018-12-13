@@ -174,7 +174,7 @@ After the listener is closed, the listener can safely be released.
 
 This operation is allowed for listener in the   <b>WS_LISTENER_STATE_OPEN</b> or
                 <b>WS_LISTENER_STATE_FAULTED</b> state.
-            (For listener states, see the <a href="https://msdn.microsoft.com/en-us/library/Dd401952(v=VS.85).aspx">WS_LISTENER_STATE</a> enumeration.) 
+            (For listener states, see the <a href="https://msdn.microsoft.com/275d0d36-f9a1-49a7-af74-e8967dff574a">WS_LISTENER_STATE</a> enumeration.) 
 
 When a listener is closed, any pending attempts to accept a channel with the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c638b7">WsAcceptChannel</a> method are aborted. However, <b>WsCloseListener</b> waits for any pending I/O to complete before proceeding with the closing process.
             

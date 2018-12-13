@@ -63,7 +63,7 @@ The <b>RegisterForNextTable</b> method registers the client to be notified when 
 
 ### -param hNextTableAvailable [in]
 
-Handle to an event created by the caller. The object signals the event when the <i>next</i> table arrives. When the event is signaled, call the <a href="https://msdn.microsoft.com/en-us/library/Dd694824(v=VS.85).aspx">IPMT::GetNextTable</a> method to retrieve the table.
+Handle to an event created by the caller. The object signals the event when the <i>next</i> table arrives. When the event is signaled, call the <a href="https://msdn.microsoft.com/a1e6f321-b24b-46dc-8da8-5a4bbda61918">IPMT::GetNextTable</a> method to retrieve the table.
 
 
 ## -returns
@@ -141,7 +141,7 @@ This method applies only to <i>current</i> tables. Otherwise, the method returns
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
  
 
  

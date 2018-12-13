@@ -118,7 +118,7 @@ A pointer to a memory block that receives a pointer to the
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command list.
               See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
@@ -141,32 +141,44 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Create the pipeline objects.
 
-
-```cpp
-ComPtr<ID3D12CommandAllocator> m_commandAllocator;
-ComPtr<ID3D12GraphicsCommandList> m_commandList;
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ComPtr&lt;ID3D12CommandAllocator&gt; m_commandAllocator;
+ComPtr&lt;ID3D12GraphicsCommandList&gt; m_commandList;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Create a command allocator.
 
-
-```cpp
-ThrowIfFailed(m_device->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&m_commandAllocator)));
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ThrowIfFailed(m_device-&gt;CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&amp;m_commandAllocator)));
+</pre>
+</td>
+</tr>
+</table></span></div>
 Creating the direct command list.
 
-
-```cpp
-ThrowIfFailed(m_device->CreateCommandList(0, D3D12_COMMAND_LIST_TYPE_DIRECT, m_commandAllocator.Get(), nullptr, IID_PPV_ARGS(&m_commandList)));
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ThrowIfFailed(m_device-&gt;CreateCommandList(0, D3D12_COMMAND_LIST_TYPE_DIRECT, m_commandAllocator.Get(), nullptr, IID_PPV_ARGS(&amp;m_commandList)));
+</pre>
+</td>
+</tr>
+</table></span></div>
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

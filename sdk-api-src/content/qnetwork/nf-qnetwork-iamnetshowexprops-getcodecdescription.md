@@ -94,11 +94,11 @@ The caller must release the returned <b>BSTR</b>, by calling <b>SysFreeString</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319719(v=VS.85).aspx">IAMNetShowExProps Interface</a>
+<a href="https://msdn.microsoft.com/e68959dc-1a79-4e2c-aeaf-3febcb9c09ce">IAMNetShowExProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319724(v=VS.85).aspx">IAMNetShowExProps::get_CodecCount</a>
+<a href="https://msdn.microsoft.com/7b16727d-565a-431e-8124-124d72816d65">IAMNetShowExProps::get_CodecCount</a>
  
 
  

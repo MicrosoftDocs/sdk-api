@@ -101,7 +101,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420752(v=VS.85).aspx">XMVector2ClampLengthV</a>
+<a href="https://msdn.microsoft.com/89b85065-e7e4-4016-abb2-f4ec51179e23">XMVector2ClampLengthV</a>
  
 
  

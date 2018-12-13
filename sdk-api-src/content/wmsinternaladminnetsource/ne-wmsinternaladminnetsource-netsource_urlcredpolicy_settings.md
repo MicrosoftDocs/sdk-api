@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>NETSOURCE_URLCREDPOLICY_SETTINGS</b> enumeration type is used for an output parameter of <a href="https://msdn.microsoft.com/en-us/library/Dd743720(v=VS.85).aspx">IWMSInternalAdminNetSource2::GetCredentialsEx</a>. It specifies possible security policy settings that can exist on a client computer. When you retrieve credentials, you must proceed as dictated by the user's security preferences. For more information, see <b>GetCredentialsEx</b>.
+The <b>NETSOURCE_URLCREDPOLICY_SETTINGS</b> enumeration type is used for an output parameter of <a href="https://msdn.microsoft.com/5840fe0b-34f6-4e39-b55f-7e07b7795e52">IWMSInternalAdminNetSource2::GetCredentialsEx</a>. It specifies possible security policy settings that can exist on a client computer. When you retrieve credentials, you must proceed as dictated by the user's security preferences. For more information, see <b>GetCredentialsEx</b>.
 
 
 

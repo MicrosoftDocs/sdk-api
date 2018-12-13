@@ -4,7 +4,7 @@ title: RemoteActionType
 author: windows-sdk-content
 description: The action to send to the remote session.
 old-location: termserv\remoteactiontype.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 27E6FB88-54A6-4D0B-B0D0-A46A96299DD1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

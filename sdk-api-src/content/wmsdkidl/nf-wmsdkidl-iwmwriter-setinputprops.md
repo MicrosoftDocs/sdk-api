@@ -71,7 +71,7 @@ The <b>SetInputProps</b> method specifies the media properties of an input strea
 
 ### -param pInput [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps</a> interface. See Remarks.
+Pointer to an <a href="https://msdn.microsoft.com/d901ac66-d4b3-4256-bd7b-53cccb3de644">IWMInputMediaProps</a> interface. See Remarks.
 
 
 ## -returns
@@ -141,7 +141,7 @@ The method failed for an unspecified reason.
 
 Manipulating the <b>IWMInputMediaProps</b> object has no effect on the writer until the application calls this method to configure the input.
 
-Specify <b>NULL</b> for <i>pInput</i> if the input contains compressed samples that will be written directly to the new stream (using <a href="https://msdn.microsoft.com/en-us/library/Dd798741(v=VS.85).aspx">IWMWriterAdvanced::WriteStreamSample</a>) without being recompressed.
+Specify <b>NULL</b> for <i>pInput</i> if the input contains compressed samples that will be written directly to the new stream (using <a href="https://msdn.microsoft.com/498bfb73-bfa5-429d-ae8a-3a691fc25fc2">IWMWriterAdvanced::WriteStreamSample</a>) without being recompressed.
 
 
 
@@ -155,15 +155,15 @@ Specify <b>NULL</b> for <i>pInput</i> if the input contains compressed samples t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757477(v=VS.85).aspx">IWMWriter::GetInputCount</a>
+<a href="https://msdn.microsoft.com/0cb3cd79-0640-4a3b-8e8b-d81df2ff749f">IWMWriter::GetInputCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757482(v=VS.85).aspx">IWMWriter::GetInputProps</a>
+<a href="https://msdn.microsoft.com/2889a1a7-3111-4c13-b15a-659f519c22f6">IWMWriter::GetInputProps</a>
  
 
  

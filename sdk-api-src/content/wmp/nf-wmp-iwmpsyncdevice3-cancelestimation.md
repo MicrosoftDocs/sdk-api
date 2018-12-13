@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="https://msdn.microsoft.com/en-us/library/Dd563715(v=VS.85).aspx">estimateSyncSize</a>.
+The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="https://msdn.microsoft.com/49b07233-df9d-4fd0-836e-62b992408018">estimateSyncSize</a>.
 
 
 
@@ -105,7 +105,7 @@ When you call this method, Windows Media Player raises the<a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563713(v=VS.85).aspx">IWMPSyncDevice3 Interface</a>
+<a href="https://msdn.microsoft.com/4fc8d307-38d4-4f46-bd8c-b05d60d9d0fa">IWMPSyncDevice3 Interface</a>
  
 
  

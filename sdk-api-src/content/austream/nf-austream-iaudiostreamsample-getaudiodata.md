@@ -53,7 +53,7 @@ req.redist:
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-Retrieves the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> object associated with the sample.
+Retrieves the address of a pointer to the <a href="https://msdn.microsoft.com/8b253715-a294-4e95-b730-e6efe7f895af">IAudioData</a> object associated with the sample.
 
 
 
@@ -65,7 +65,7 @@ Retrieves the address of a pointer to the <a href="https://msdn.microsoft.com/en
 
 ### -param ppAudio [out]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> object.
+Address of a pointer to the <a href="https://msdn.microsoft.com/8b253715-a294-4e95-b730-e6efe7f895af">IAudioData</a> object.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Returns S_OK if successful or E_POINTER if the parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389520(v=VS.85).aspx">IAudioStreamSample Interface</a>
+<a href="https://msdn.microsoft.com/53deec43-30ca-472e-9a82-750049686d2a">IAudioStreamSample Interface</a>
  
 
  

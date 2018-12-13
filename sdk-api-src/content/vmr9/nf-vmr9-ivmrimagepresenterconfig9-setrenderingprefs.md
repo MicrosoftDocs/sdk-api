@@ -56,7 +56,7 @@ The <code>SetRenderingPrefs</code> method sets the rendering preferences on the 
 
 
 
-The VMR-9 filter's <a href="https://msdn.microsoft.com/en-us/library/Dd377372(v=VS.85).aspx">IVMRFilterConfig9::SetRenderingPrefs</a> method calls through to this method.
+The VMR-9 filter's <a href="https://msdn.microsoft.com/ce274528-c759-4b43-80c7-0ba1e1275b7d">IVMRFilterConfig9::SetRenderingPrefs</a> method calls through to this method.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The VMR-9 filter's <a href="https://msdn.microsoft.com/en-us/library/Dd377372(v=
 
 ### -param dwRenderFlags [in]
 
-A bitwise OR combination of <a href="https://msdn.microsoft.com/en-us/library/Dd407375(v=VS.85).aspx">VMR9RenderPrefs</a> flags that will be used to configure the allocator-presenter.
+A bitwise OR combination of <a href="https://msdn.microsoft.com/a32119c2-a10d-41a0-b3e9-500323eb3094">VMR9RenderPrefs</a> flags that will be used to configure the allocator-presenter.
 
 
 ## -returns
@@ -111,7 +111,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377396(v=VS.85).aspx">IVMRImagePresenterConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/fc3c9b4d-0213-47d5-96e4-db582c80ca4e">IVMRImagePresenterConfig9 Interface</a>
 
 
 

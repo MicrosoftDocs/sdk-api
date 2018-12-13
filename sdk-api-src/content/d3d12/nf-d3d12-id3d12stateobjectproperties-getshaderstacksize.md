@@ -103,7 +103,7 @@ This API can be called on either collection state objects or raytracing pipeline
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
+<a href="https://msdn.microsoft.com/3971089A-2779-42FA-8FF9-6C7C8E39C7F9">ID3D12StateObjectProperties</a>
  
 
  

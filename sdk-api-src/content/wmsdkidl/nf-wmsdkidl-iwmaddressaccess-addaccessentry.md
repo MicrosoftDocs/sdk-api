@@ -66,12 +66,12 @@ The <b>AddAccessEntry</b> method adds an entry to the IP address access list.
 
 ### -param aeType [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757889(v=VS.85).aspx">WM_AETYPE</a> enumeration specifying the access permissions (exclusion or inclusion).
+A member of the <a href="https://msdn.microsoft.com/514e6745-c521-41bd-81c2-b6c24cfb0192">WM_AETYPE</a> enumeration specifying the access permissions (exclusion or inclusion).
 
 
 ### -param pAddrAccessEntry [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd757887(v=VS.85).aspx">WM_ADDRESS_ACCESSENTRY</a> structure that specifies the IP address or range of addresses.
+Pointer to a <a href="https://msdn.microsoft.com/670c126f-c94b-4fac-b18c-d764f048f401">WM_ADDRESS_ACCESSENTRY</a> structure that specifies the IP address or range of addresses.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743279(v=VS.85).aspx">IWMAddressAccess Interface</a>
+<a href="https://msdn.microsoft.com/7251c600-90a2-4903-b26a-643b4d10b0ce">IWMAddressAccess Interface</a>
  
 
  

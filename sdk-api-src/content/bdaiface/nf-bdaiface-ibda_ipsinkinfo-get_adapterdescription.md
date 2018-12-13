@@ -96,7 +96,7 @@ The caller must free the returned string, using the <b>SysFreeString</b> method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693378(v=VS.85).aspx">IBDA_IPSinkInfo Interface</a>
+<a href="https://msdn.microsoft.com/fbbe12ea-964a-4a83-ac0a-ac8808bd9a63">IBDA_IPSinkInfo Interface</a>
  
 
  

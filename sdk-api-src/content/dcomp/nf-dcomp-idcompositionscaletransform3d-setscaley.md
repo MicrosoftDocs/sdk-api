@@ -95,15 +95,15 @@ If the ScaleY property was previously animated, this method removes the animatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx">IDCompositionScaleTransform3D</a>
+<a href="https://msdn.microsoft.com/8e59c484-b7c5-446a-a5d6-e00371e2c08a">IDCompositionScaleTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449018(v=VS.85).aspx">IDCompositionScaleTransform3D::SetScaleX</a>
+<a href="https://msdn.microsoft.com/96A7B9EC-7CD9-489F-AB97-A297321BDACD">IDCompositionScaleTransform3D::SetScaleX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449030(v=VS.85).aspx">IDCompositionScaleTransform3D::SetScaleZ</a>
+<a href="https://msdn.microsoft.com/CD00FBB3-246E-45D0-A7F6-5A7F9C37376B">IDCompositionScaleTransform3D::SetScaleZ</a>
  
 
  

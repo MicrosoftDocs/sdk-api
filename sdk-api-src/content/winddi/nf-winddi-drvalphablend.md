@@ -159,11 +159,13 @@ The driver will never be called with overlapping source and destination rectangl
 The three possible cases for the AC_SRC_OVER blend function are:
 
 <ul>
-<li>The source bitmap has no per-pixel alpha (AC_SRC_ALPHA is not set), so the blend is applied to the pixel's color channels based on the constant source alpha value specified in SourceConstantAlpha as follows:
-
-
-```
-Dst.Red = Round(((Src.Red * SourceConstantAlpha) + 
+<li>The source bitmap has no per-pixel alpha (AC_SRC_ALPHA is not set), so the blend is applied to the pixel's color channels based on the constant source alpha value specified in SourceConstantAlpha as follows:<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Dst.Red = Round(((Src.Red * SourceConstantAlpha) + 
     ((255 − SourceConstantAlpha) * Dst.Red)) / 255);
 Dst.Green = Round(((Src.Green * SourceConstantAlpha) + 
     ((255 − SourceConstantAlpha) * Dst.Green)) / 255);
@@ -172,16 +174,18 @@ Dst.Blue = Round(((Src.Blue * SourceConstantAlpha) +
 /* Do the next computation only if the destination bitmap 
     has an alpha channel. */
 Dst.Alpha = Round(((Src.Alpha * SourceConstantAlpha) + 
-    ((255 − SourceConstantAlpha) * Dst.Alpha)) / 255);
-```
-
-
+    ((255 − SourceConstantAlpha) * Dst.Alpha)) / 255);</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
-<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is not used (it is set to 255). The blend is computed as follows:
-
-
-```
-Dst.Red = Src.Red + 
+<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is not used (it is set to 255). The blend is computed as follows:<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Dst.Red = Src.Red + 
     Round(((255 − Src.Alpha) * Dst.Red) / 255);
 Dst.Green = Src.Green + 
     Round(((255 − Src.Alpha) * Dst.Green) / 255);
@@ -190,16 +194,18 @@ Dst.Blue = Src.Blue +
 /* Do the next computation only if the destination bitmap 
     has an alpha channel. */
 Dst.Alpha = Src.Alpha + 
-    Round(((255 − Src.Alpha) * Dst.Alpha) / 255);
-```
-
-
+    Round(((255 − Src.Alpha) * Dst.Alpha) / 255);</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
-<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is used (it is not set to 255). The blend is computed as follows:
-
-
-```
-Temp.Red = Round((Src.Red * SourceConstantAlpha) / 255);
+<li>The source bitmap has per-pixel alpha values (AC_SRC_ALPHA is set), and <b>SourceConstantAlpha</b> is used (it is not set to 255). The blend is computed as follows:<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Temp.Red = Round((Src.Red * SourceConstantAlpha) / 255);
 Temp.Green = Round((Src.Green * SourceConstantAlpha) / 255);
 Temp.Blue = Round((Src.Blue * SourceConstantAlpha) / 255);
 /* The next computation must be done even if the 
@@ -217,39 +223,51 @@ Dst.Blue = Temp.Blue +
 /* Do the next computation only if the destination bitmap 
     has an alpha channel.  */
 Dst.Alpha = Temp.Alpha + 
-    Round(((255 − Temp.Alpha) * Dst.Alpha) / 255);
-```
-
-
+    Round(((255 − Temp.Alpha) * Dst.Alpha) / 255);</pre>
+</td>
+</tr>
+</table></span></div>
 </li>
 </ul>
 The <b>Round(x)</b> function rounds to the nearest integer, computed as:
 
-
-```
-Trunc(x + 0.5);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Trunc(x + 0.5);</pre>
+</td>
+</tr>
+</table></span></div>
 <b>DrvAlphaBlend</b> can be optionally implemented in graphics drivers. It can be provided to handle some kinds of alpha blends, such as blends where the source and destination surfaces are the same format and do not contain an alpha channel.
 
 A hardware implementation can use floating point or fixed point in the blend operation. Compatibility tests will account for some numerical error in the results; please see <a href="https://msdn.microsoft.com/f44a89df-6412-442c-8491-3e2f2bbd826f">Special Effects in Display Drivers</a> for information about maximum permissible error. When using fixed point, an acceptable approximation to the term <i>x/255</i> is <i>(x*257)/65536</i>. Incorporating rounding, the expression:
 
-
-```
-((255 - Src.Alpha) * Dst.Red) / 255
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>((255 - Src.Alpha) * Dst.Red) / 255</pre>
+</td>
+</tr>
+</table></span></div>
 can then be approximated as:
 
-
-```
-temp = ((255 - Src.Alpha) * Dst.Red) + 128;
-result = (temp + (temp >> 8)) >> 8;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>temp = ((255 - Src.Alpha) * Dst.Red) + 128;
+result = (temp + (temp &gt;&gt; 8)) &gt;&gt; 8;</pre>
+</td>
+</tr>
+</table></span></div>
 The driver hooks <b>DrvAlphaBlend</b> by setting the HOOK_ALPHABLEND flag when it calls <a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a>. If the driver has hooked <b>DrvAlphaBlend</b> and is called to perform an operation that it does not support, the driver should have GDI handle the operation by punting the data in a call to <a href="https://msdn.microsoft.com/c8839271-0a75-4657-875f-114545f44777">EngAlphaBlend</a>.
 
 

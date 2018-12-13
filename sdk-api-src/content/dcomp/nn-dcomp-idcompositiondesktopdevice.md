@@ -55,7 +55,7 @@ An application must use the IDCompositionDesktopDevice interface in order to use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionDesktopDevice</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>. <b>IDCompositionDesktopDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionDesktopDevice</b> interface inherits from <a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>. <b>IDCompositionDesktopDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDCompositionDesktopDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280351(v=VS.85).aspx">CreateSurfaceFromHandle</a>
+<a href="https://msdn.microsoft.com/BB0F8F27-16D8-42EB-874B-C16E8511B0B5">CreateSurfaceFromHandle</a>
 </td>
 <td align="left" width="63%">
 Creates a new composition surface object that wraps an existing composition surface.
@@ -79,7 +79,7 @@ Creates a new composition surface object that wraps an existing composition surf
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280352(v=VS.85).aspx">CreateSurfaceFromHwnd</a>
+<a href="https://msdn.microsoft.com/89A4F321-26BE-4175-A052-FE5734DDB524">CreateSurfaceFromHwnd</a>
 </td>
 <td align="left" width="63%">
 Creates a wrapper object that represents the rasterization of a layered window, and that can be associated with a visual for composition.
@@ -88,7 +88,7 @@ Creates a wrapper object that represents the rasterization of a layered window, 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280353(v=VS.85).aspx">CreateTargetForHwnd</a>
+<a href="https://msdn.microsoft.com/F3296B55-9A0B-4A31-90E4-05E2DF7B9B15">CreateTargetForHwnd</a>
 </td>
 <td align="left" width="63%">
 Creates a composition target object that is bound to the window that is represented by the specified window handle.
@@ -103,7 +103,7 @@ Creates a composition target object that is bound to the window that is represen
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
  
 
  

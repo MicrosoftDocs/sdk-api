@@ -79,11 +79,11 @@ Number of 32-bit WORDs in the object, excluding this header object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373722(v=VS.85).aspx">IntServMainHdr</a>
+<a href="https://msdn.microsoft.com/b67fdf53-322b-4a70-ae83-63d4365e9b57">IntServMainHdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373724(v=VS.85).aspx">IntServServiceHdr</a>
+<a href="https://msdn.microsoft.com/63e6a944-f16e-4b90-ab77-22e5c8ef3fb2">IntServServiceHdr</a>
  
 
  

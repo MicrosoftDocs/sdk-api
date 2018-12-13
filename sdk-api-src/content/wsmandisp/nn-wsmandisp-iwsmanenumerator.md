@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Represents a stream of results returned from  operations such as a WS-Management protocol <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">WS-Enumeration</a>:Enumerate operation.
+Represents a stream of results returned from  operations such as a WS-Management protocol <a href="windows_remote_management_glossary.htm">WS-Enumeration</a>:Enumerate operation.
 
 
 ## -inheritance

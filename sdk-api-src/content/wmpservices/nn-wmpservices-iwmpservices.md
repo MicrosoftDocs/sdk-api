@@ -73,7 +73,7 @@ The <b>IWMPServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563643(v=VS.85).aspx">GetStreamState</a>
+<a href="https://msdn.microsoft.com/1a73ea54-45ce-47ff-b551-10aab2798420">GetStreamState</a>
 </td>
 <td align="left" width="63%">
 Returns a value that represents the current stream state.
@@ -82,7 +82,7 @@ Returns a value that represents the current stream state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563645(v=VS.85).aspx">GetStreamTime</a>
+<a href="https://msdn.microsoft.com/4e6c8181-3ff9-4ce1-aad5-9d7821771f69">GetStreamTime</a>
 </td>
 <td align="left" width="63%">
 Returns a value that indicates the current stream time.

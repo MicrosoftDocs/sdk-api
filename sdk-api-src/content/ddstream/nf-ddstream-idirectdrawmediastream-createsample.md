@@ -94,7 +94,7 @@ Specifies miscellaneous flags. The following flag is defined:
 
 ### -param ppSample [out]
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd406813(v=VS.85).aspx">IDirectDrawStreamSample</a> interface that will point to the newly created sample.
+Address of a pointer to an <a href="https://msdn.microsoft.com/afc8ac84-4629-4c5d-b4b2-59c1eb1af35d">IDirectDrawStreamSample</a> interface that will point to the newly created sample.
 
 
 ## -returns
@@ -186,11 +186,11 @@ Success.
 
 This method creates a sample from the current stream and attaches the sample to this surface.
 
-If the stream doesn't have an allocated surface and the specified surface doesn't match the stream's format, this method calls the <a href="https://msdn.microsoft.com/en-us/library/Dd406812(v=VS.85).aspx">IDirectDrawMediaStream::SetFormat</a> method on the stream so the two will match.
+If the stream doesn't have an allocated surface and the specified surface doesn't match the stream's format, this method calls the <a href="https://msdn.microsoft.com/465b4f0c-40e1-4aec-be62-0b55c29fa05e">IDirectDrawMediaStream::SetFormat</a> method on the stream so the two will match.
 
 To perform a progressive render, create a single sample and repeatedly use that sample for successive frames of video. Video decompressors use this technique to do partial updates to the previous frame.
 
-The <i>pRect</i> parameter should match the format of the stream (see <a href="https://msdn.microsoft.com/en-us/library/Dd406809(v=VS.85).aspx">IDirectDrawMediaStream::GetFormat</a>). If the wrong clip rectangle is set or no clip rectangle is set, and the surface size does not match the movie size, the movie might not play. If a primary surface is used, it is advisable to use a clipping rectangle because the primary surface size can change if the user changes display settings.
+The <i>pRect</i> parameter should match the format of the stream (see <a href="https://msdn.microsoft.com/3729bbe6-3504-46b3-9978-e66afc56344f">IDirectDrawMediaStream::GetFormat</a>). If the wrong clip rectangle is set or no clip rectangle is set, and the surface size does not match the movie size, the movie might not play. If a primary surface is used, it is advisable to use a clipping rectangle because the primary surface size can change if the user changes display settings.
 
 
 
@@ -200,7 +200,7 @@ The <i>pRect</i> parameter should match the format of the stream (see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406806(v=VS.85).aspx">IDirectDrawMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/858af0c3-9e22-45d8-ab08-307eb39a8977">IDirectDrawMediaStream Interface</a>
  
 
  

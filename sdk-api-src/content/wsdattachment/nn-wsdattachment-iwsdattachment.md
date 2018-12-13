@@ -67,7 +67,7 @@ This interface is used strictly as a common ancestor for the various attachment 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_IUnknown">IUnknown</a>
 
 
 

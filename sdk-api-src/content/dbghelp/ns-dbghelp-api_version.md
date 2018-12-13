@@ -4,7 +4,7 @@ title: API_VERSION
 author: windows-sdk-content
 description: Contains the library version.
 old-location: base\api_version_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: f983f639-6a94-4b83-a443-0d98b85d3950
 ms.author: windowssdkdev
 ms.date: 12/5/2018

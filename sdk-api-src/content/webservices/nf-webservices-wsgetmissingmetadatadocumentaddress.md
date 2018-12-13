@@ -63,7 +63,7 @@ Each document that is added to the metadata object may contain references to
             <ul>
 <li>The host name of any URL previously passed to <a href="https://msdn.microsoft.com/0b824948-e06d-482d-8d53-c4e27d1ecf0f">WsReadMetadata</a>.
                 </li>
-<li>The list of host names specified using the <a href="https://msdn.microsoft.com/en-us/library/Dd401968(v=VS.85).aspx">WS_METADATA_PROPERTY_HOST_NAMES</a> property.
+<li>The list of host names specified using the <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_HOST_NAMES</a> property.
             </li>
 </ul>
 </div><div> </div>

@@ -99,11 +99,11 @@ The device context is normalized by this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects Interface</a>
+<a href="https://msdn.microsoft.com/0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba">IWMPEffects Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564504(v=VS.85).aspx">TimedLevel</a>
+<a href="https://msdn.microsoft.com/a33d4cd1-e888-4ecd-9e6c-113febfefd99">TimedLevel</a>
  
 
  

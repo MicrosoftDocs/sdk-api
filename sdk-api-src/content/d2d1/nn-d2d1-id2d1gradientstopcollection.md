@@ -112,7 +112,7 @@ Copies the gradient stops from the collection into an array of <a href="https://
 
 
 <h3><a id="Creating_ID2D1GradientStopCollection_Objects"></a><a id="creating_id2d1gradientstopcollection_objects"></a><a id="CREATING_ID2D1GRADIENTSTOPCOLLECTION_OBJECTS"></a>Creating ID2D1GradientStopCollection Objects</h3>
-To create an <b>ID2D1GradientStopCollection</b>, use the  <a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a> method.  
+To create an <b>ID2D1GradientStopCollection</b>, use the  <a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a> method.  
 
 A gradient stop collection is a device-dependent resource: your application should create gradient stop collections after it initializes the render target with which the gradient stop collection will be used, and recreate the gradient stop collection whenever the render target needs recreated. (For more information about resources, see <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.)
 
@@ -121,9 +121,13 @@ A gradient stop collection is a device-dependent resource: your application shou
 
 The following example creates an array of gradient stops, then uses them to create an <b>ID2D1GradientStopCollection</b>.
 
-
-```cpp
-// Create an array of gradient stops to put in the gradient stop
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create an array of gradient stops to put in the gradient stop
 // collection that will be used in the gradient brush.
 ID2D1GradientStopCollection *pGradientStops = NULL;
 
@@ -134,38 +138,42 @@ gradientStops[1].color = D2D1::ColorF(D2D1::ColorF::ForestGreen, 1);
 gradientStops[1].position = 1.0f;
 // Create the ID2D1GradientStopCollection from a previously
 // declared array of D2D1_GRADIENT_STOP structs.
-hr = m_pRenderTarget->CreateGradientStopCollection(
+hr = m_pRenderTarget-&gt;CreateGradientStopCollection(
     gradientStops,
     2,
     D2D1_GAMMA_2_2,
     D2D1_EXTEND_MODE_CLAMP,
-    &pGradientStops
+    &amp;pGradientStops
     );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The next code example uses the <b>ID2D1GradientStopCollection</b> to create an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a>.
 
-
-```cpp
-// The line that determines the direction of the gradient starts at
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The line that determines the direction of the gradient starts at
 // the upper-left corner of the square and ends at the lower-right corner.
 
 if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget->CreateLinearGradientBrush(
+    hr = m_pRenderTarget-&gt;CreateLinearGradientBrush(
         D2D1::LinearGradientBrushProperties(
             D2D1::Point2F(0, 0),
             D2D1::Point2F(150, 150)),
         pGradientStops,
-        &m_pLinearGradientBrush
+        &amp;m_pLinearGradientBrush
         );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

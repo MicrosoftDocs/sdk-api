@@ -127,11 +127,11 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377318(v=VS.85).aspx">IVideoWindow::put_BorderColor</a>
+<a href="https://msdn.microsoft.com/c0e249f4-4a17-4c5d-8f16-bb1aceef2064">IVideoWindow::put_BorderColor</a>
  
 
  

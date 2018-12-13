@@ -186,6 +186,6 @@ Specifies how to render the right edge of the mesh.
 
 The following image shows the numbering of control points on a tensor grid.
 
-<img alt="Number of control points on a tensor grid" src="./images/tensorpatch.png"/>
+<img alt="Number of control points on a tensor grid" src="images/tensorpatch.png"/>
 
 

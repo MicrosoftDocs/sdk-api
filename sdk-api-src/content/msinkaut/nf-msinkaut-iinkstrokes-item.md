@@ -231,7 +231,7 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/496234C1-C20B-46FE-A9BB-4B90C14FEB46">IInkStrokes</a>
 
 
 

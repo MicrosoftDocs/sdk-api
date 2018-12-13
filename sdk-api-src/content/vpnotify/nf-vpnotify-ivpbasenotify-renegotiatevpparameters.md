@@ -76,7 +76,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-The <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter negotiates various parameters (by using the <a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig</a> interface) with the decoder or driver. Call this method if any of those parameters (such as the video format or size) change. Currently, the Overlay Mixer repeats the whole connection process. You can call this method even while the graph is playing.
+The <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter negotiates various parameters (by using the <a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig</a> interface) with the decoder or driver. Call this method if any of those parameters (such as the video format or size) change. Currently, the Overlay Mixer repeats the whole connection process. You can call this method even while the graph is playing.
 
 Include Vptype.h before Vpnotify.h.
 
@@ -92,7 +92,7 @@ Include Vptype.h before Vpnotify.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390581(v=VS.85).aspx">IVPBaseNotify Interface</a>
+<a href="https://msdn.microsoft.com/c72bd662-366c-4102-9ad9-9e4c59096ede">IVPBaseNotify Interface</a>
  
 
  

@@ -54,7 +54,7 @@ req.redist:
 
 Opens the root of the 
     <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> subtree for a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters

@@ -149,7 +149,7 @@ You should make two calls to <b>GetHostURL</b>. On the first call, pass <b>NULL<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
+<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
  
 
  

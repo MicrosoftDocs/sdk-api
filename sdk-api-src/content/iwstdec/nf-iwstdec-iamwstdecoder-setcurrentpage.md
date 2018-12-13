@@ -64,7 +64,7 @@ Downstream filters use the <code>SetCurrentPage</code> method to assign the curr
 
 ### -param WstPage [in]
 
-Specifies an <a href="https://msdn.microsoft.com/en-us/library/Dd373508(v=VS.85).aspx">AM_WST_PAGE</a> structure that is used to assign the current page.
+Specifies an <a href="https://msdn.microsoft.com/6bed254f-35e4-40d0-9a59-0a2575aa61e1">AM_WST_PAGE</a> structure that is used to assign the current page.
 
 
 ## -returns
@@ -85,7 +85,7 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
  
 
  

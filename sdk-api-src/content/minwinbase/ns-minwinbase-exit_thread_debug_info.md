@@ -4,7 +4,7 @@ title: EXIT_THREAD_DEBUG_INFO
 author: windows-sdk-content
 description: Contains the exit code for a terminating thread.
 old-location: base\exit_thread_debug_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 8c135992-2adc-4c7a-bd64-130d4d8ef16c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

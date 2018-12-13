@@ -4,7 +4,7 @@ title: IAudioEndpointRT::GetCurrentPadding
 author: windows-sdk-content
 description: Gets the amount, in 100-nanosecond units, of data that is queued up in the endpoint.
 old-location: termserv\iaudioendpointrt_getcurrentpadding.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: f61497c8-35da-4fbf-af83-1f15d5fe94f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

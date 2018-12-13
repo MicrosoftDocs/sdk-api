@@ -66,7 +66,7 @@ The <b>GetReceiveSelectionCallbacks</b> method ascertains whether the option to 
 
 ### -param pfGetCallbacks [out]
 
-Pointer to a Boolean value that is set to True if stream selection notifications are sent to <a href="https://msdn.microsoft.com/en-us/library/Dd743501(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnStreamSelection</a>.
+Pointer to a Boolean value that is set to True if stream selection notifications are sent to <a href="https://msdn.microsoft.com/d0d699b3-e2f3-427c-9159-e2ed875887ca">IWMReaderCallbackAdvanced::OnStreamSelection</a>.
 
 
 ## -returns
@@ -113,11 +113,11 @@ The <i>pfGetCallbacks</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743486(v=VS.85).aspx">IWMReaderAdvanced::SetReceiveSelectionCallbacks</a>
+<a href="https://msdn.microsoft.com/8cb0bd59-2a46-4cdc-9a88-ee6a8f170f3c">IWMReaderAdvanced::SetReceiveSelectionCallbacks</a>
  
 
  

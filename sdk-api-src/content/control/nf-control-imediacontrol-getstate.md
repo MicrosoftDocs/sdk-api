@@ -71,7 +71,7 @@ Duration of the time-out, in milliseconds, or INFINITE to specify an infinite ti
 
 ### -param pfs [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd375789(v=VS.85).aspx">FILTER_STATE</a> enumeration.
+Receives a member of the <a href="https://msdn.microsoft.com/41f88abc-57d1-4f80-a099-d17e624ab8a6">FILTER_STATE</a> enumeration.
 
 
 ## -returns
@@ -139,7 +139,7 @@ Failure.
 
 
 
-Applications can use this method to determine whether playback has started after a call to <a href="https://msdn.microsoft.com/en-us/library/Dd390177(v=VS.85).aspx">IMediaControl::Run</a>. Generally, applications should have their own mechanism for tracking which state they have put the filter graph into. Applications typically use the current state to determine which user interface controls are enabled or disabled. For example, once the graph goes into the running state, the application might disable a "Play" button and enable "Stop" and "Pause" buttons.
+Applications can use this method to determine whether playback has started after a call to <a href="https://msdn.microsoft.com/b52a5fa7-96f8-4949-9cf0-2d526f23bee1">IMediaControl::Run</a>. Generally, applications should have their own mechanism for tracking which state they have put the filter graph into. Applications typically use the current state to determine which user interface controls are enabled or disabled. For example, once the graph goes into the running state, the application might disable a "Play" button and enable "Stop" and "Pause" buttons.
 
 If the filter graph is in a transition to a new state, the returned state is the new state, not the previous state.
 
@@ -147,7 +147,7 @@ This method returns an error if there is a call on another thread to change the 
 
 Avoid specifying a time-out of INFINITE, because threads cannot process messages while waiting in <code>GetState</code>. If you call <code>GetState</code> from the thread that processes Windows messages, specify small wait times on the call in order to remain responsive to user input. This is especially important when the source is streaming over a network or from the Internet because state transitions in these environments can take significantly more time to complete.
 
-The <i>pfs</i> parameter is typed as an <a href="https://msdn.microsoft.com/c0e5d581-a15a-4dd2-b38c-72285cfc2617">OAFilterState</a> pointer but receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd375789(v=VS.85).aspx">FILTER_STATE</a> enumeration. You can cast the variable as follows:
+The <i>pfs</i> parameter is typed as an <a href="https://msdn.microsoft.com/c0e5d581-a15a-4dd2-b38c-72285cfc2617">OAFilterState</a> pointer but receives a member of the <a href="https://msdn.microsoft.com/41f88abc-57d1-4f80-a099-d17e624ab8a6">FILTER_STATE</a> enumeration. You can cast the variable as follows:
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -176,7 +176,7 @@ For more information about filter graph states, see <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390170(v=VS.85).aspx">IMediaControl Interface</a>
+<a href="https://msdn.microsoft.com/bce64088-3751-420c-b9de-b9b5f3119198">IMediaControl Interface</a>
  
 
  

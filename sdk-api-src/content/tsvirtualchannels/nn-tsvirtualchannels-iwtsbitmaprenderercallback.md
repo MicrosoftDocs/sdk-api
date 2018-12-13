@@ -4,7 +4,7 @@ title: IWTSBitmapRendererCallback
 author: windows-sdk-content
 description: A dynamic virtual channel plug-in implements this interface to be notified when the size of the rendering area changes.
 old-location: termserv\iwtsbitmaprenderercallback.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: bdb8280b-6ebc-47e4-9789-47e3bda96efc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

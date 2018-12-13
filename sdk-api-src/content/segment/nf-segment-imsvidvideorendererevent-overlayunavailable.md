@@ -89,7 +89,7 @@ The dispatch identifier (dispid) of this method is <b>eventidOverlayUnavailable<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694727(v=VS.85).aspx">IMSVidVideoRendererEvent Interface</a>
+<a href="https://msdn.microsoft.com/ff451fa3-a755-4969-bccc-3a014865e7a9">IMSVidVideoRendererEvent Interface</a>
  
 
  

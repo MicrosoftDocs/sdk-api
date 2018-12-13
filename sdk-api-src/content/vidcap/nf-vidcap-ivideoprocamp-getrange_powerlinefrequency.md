@@ -80,7 +80,7 @@ Receives the default power line frequency setting.
 
 ### -param pCapsFlag [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -101,7 +101,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
  
 
  

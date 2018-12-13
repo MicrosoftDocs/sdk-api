@@ -53,18 +53,18 @@ req.redist:
 
 The <b>IWMBandwidthSharing</b> interface contains methods to manage the properties of combined streams.
 
-The list of streams that share bandwidth is stored in the bandwidth sharing object. The streams can be manipulated using the methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd798569(v=VS.85).aspx">IWMStreamList</a> interface. <b>IWMBandwidthSharing</b> inherits from <b>IWMStreamList</b>, so the stream list manipulation methods are always exposed through this interface.
+The list of streams that share bandwidth is stored in the bandwidth sharing object. The streams can be manipulated using the methods of the <a href="https://msdn.microsoft.com/076bb0bf-3cf8-48b4-bfca-abbd9c1bf211">IWMStreamList</a> interface. <b>IWMBandwidthSharing</b> inherits from <b>IWMStreamList</b>, so the stream list manipulation methods are always exposed through this interface.
 
 The information in a bandwidth sharing object is purely informational. Nothing in the SDK seeks to enforce or check the accuracy of the bandwidth specified. You might want to use bandwidth sharing so that a reading application can make adjustments based on the information contained in the bandwidth sharing object.
 
-An <b>IWMBandwidthSharing</b> interface is exposed for each bandwidth sharing object upon creation. Bandwidth sharing objects are created using the <a href="https://msdn.microsoft.com/en-us/library/Dd757270(v=VS.85).aspx">IWMProfile3::CreateNewBandwidthSharing</a> method.
+An <b>IWMBandwidthSharing</b> interface is exposed for each bandwidth sharing object upon creation. Bandwidth sharing objects are created using the <a href="https://msdn.microsoft.com/ab6c9903-95ea-499b-be75-ff57328336f0">IWMProfile3::CreateNewBandwidthSharing</a> method.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMBandwidthSharing</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798569(v=VS.85).aspx">IWMStreamList</a>. <b>IWMBandwidthSharing</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMBandwidthSharing</b> interface inherits from <a href="https://msdn.microsoft.com/076bb0bf-3cf8-48b4-bfca-abbd9c1bf211">IWMStreamList</a>. <b>IWMBandwidthSharing</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IWMBandwidthSharing</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743299(v=VS.85).aspx">GetBandwidth</a>
+<a href="https://msdn.microsoft.com/2769328c-5c05-49fb-bfa6-729115dd417e">GetBandwidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bandwidth and maximum buffer size of the streams in the bandwidth sharing object.
@@ -88,7 +88,7 @@ Retrieves the bandwidth and maximum buffer size of the streams in the bandwidth 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743300(v=VS.85).aspx">GetType</a>
+<a href="https://msdn.microsoft.com/acef383f-83cb-45be-80fa-1339b391f32b">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of sharing (exclusive or partial) for the bandwidth sharing object.
@@ -97,7 +97,7 @@ Retrieves the type of sharing (exclusive or partial) for the bandwidth sharing o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743301(v=VS.85).aspx">SetBandwidth</a>
+<a href="https://msdn.microsoft.com/1f2ac613-3674-46d9-ae7c-26389dbede02">SetBandwidth</a>
 </td>
 <td align="left" width="63%">
 Sets the bandwidth and maximum buffer size for streams in the bandwidth sharing object.
@@ -106,7 +106,7 @@ Sets the bandwidth and maximum buffer size for streams in the bandwidth sharing 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743302(v=VS.85).aspx">SetType</a>
+<a href="https://msdn.microsoft.com/3f4fc06a-ffbe-4854-8e64-d369acfac271">SetType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of sharing (exclusive or partial) for the bandwidth sharing object.
@@ -123,7 +123,7 @@ The following interface can be obtained by using the QueryInterface method of th
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798569(v=VS.85).aspx">IWMStreamList</a>
+<a href="https://msdn.microsoft.com/076bb0bf-3cf8-48b4-bfca-abbd9c1bf211">IWMStreamList</a>
 </td>
 <td>IID_IWMStreamList</td>
 </tr>
@@ -142,7 +142,7 @@ The following interface can be obtained by using the QueryInterface method of th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798569(v=VS.85).aspx">IWMStreamList</a>
+<a href="https://msdn.microsoft.com/076bb0bf-3cf8-48b4-bfca-abbd9c1bf211">IWMStreamList</a>
 
 
 

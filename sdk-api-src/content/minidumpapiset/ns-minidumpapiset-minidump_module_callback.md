@@ -4,7 +4,7 @@ title: MINIDUMP_MODULE_CALLBACK
 author: windows-sdk-content
 description: Contains module information for the MiniDumpCallback function when the callback type is ModuleCallback.
 old-location: base\minidump_module_callback_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 8ca48df0-ed0e-4ee3-a20a-d89057be37f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -143,11 +143,11 @@ There is not enough available memory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757232(v=VS.85).aspx">IWMMetadataEditor Interface</a>
+<a href="https://msdn.microsoft.com/ad19cd3e-d1ef-4d6c-ac23-29a56e5c1d66">IWMMetadataEditor Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757235(v=VS.85).aspx">IWMMetadataEditor::Close</a>
+<a href="https://msdn.microsoft.com/7c10d0ea-8a19-4374-94f2-e12d7c1ba553">IWMMetadataEditor::Close</a>
  
 
  

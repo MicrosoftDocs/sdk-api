@@ -4,7 +4,7 @@ title: ITsSbTaskInfo::get_Identifier
 author: windows-sdk-content
 description: Retrieves a GUID that is used as a unique identifier by the task agent.
 old-location: termserv\itssbtaskinfo_identifier.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 96b41588-d634-4cdd-aacc-0456b8e47c3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

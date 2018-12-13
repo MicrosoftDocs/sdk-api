@@ -51,7 +51,7 @@ req.redist:
 
 
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4</a> from four
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a> from four
 	normalized <code>float</code> arguments.
 
 
@@ -105,7 +105,7 @@ A normalized value for the w-coordinate of the vector, the <b>w</b> of the
 		
 
 This argument should be between -1.0 and 1.0; during the instantiation of
-		    an instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>, it is multiplied by <code>3.0f</code> and then
+		    an instance of <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a>, it is multiplied by <code>3.0f</code> and then
 		    stored as the <b>w</b> member of the structure.
 		
 
@@ -159,11 +159,11 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4</a>
+<a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415453(v=VS.85).aspx">XMUDECN4 Constructors</a>
+<a href="https://msdn.microsoft.com/6e513f04-08fc-4f77-a19d-66d719abdb23">XMUDECN4 Constructors</a>
  
 
  

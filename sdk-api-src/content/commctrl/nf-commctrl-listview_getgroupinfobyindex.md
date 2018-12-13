@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets information on a specified group. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774933(v=VS.85).aspx">LVM_GETGROUPINFOBYINDEX</a> message explicitly.
+Gets information on a specified group. Use this macro or send the <a href="https://msdn.microsoft.com/c40cb2c5-47c4-46ca-84fa-c017a9b1be15">LVM_GETGROUPINFOBYINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The index of the group.
 
 Type: <b>PLVGROUP</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774769(v=VS.85).aspx">LVGROUP</a> structure to receive information on the group specified by <i>iIndex</i>. The calling application is responsible for allocating memory for the structure and any buffers in the structure, such as, the one pointed to by <b>pszHeader</b>. Set any contingent members of the structure, such as, <b>cchHeader</b>—the size of the buffer pointed to by <b>pszHeader</b> in <b>WCHAR</b><b>s</b>, including the terminating <b>NULL</b>. Set <b>cbSize</b> to the size of <b>LVGROUP</b> in bytes.
+A pointer to an <a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a> structure to receive information on the group specified by <i>iIndex</i>. The calling application is responsible for allocating memory for the structure and any buffers in the structure, such as, the one pointed to by <b>pszHeader</b>. Set any contingent members of the structure, such as, <b>cchHeader</b>—the size of the buffer pointed to by <b>pszHeader</b> in <b>WCHAR</b><b>s</b>, including the terminating <b>NULL</b>. Set <b>cbSize</b> to the size of <b>LVGROUP</b> in bytes.
 
 The message receiver is responsible for setting the structure members with information for the group specified by <i>iIndex</i>.
 

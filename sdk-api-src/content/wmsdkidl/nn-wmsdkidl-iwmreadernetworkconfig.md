@@ -75,7 +75,7 @@ The <b>IWMReaderNetworkConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743519(v=VS.85).aspx">AddLoggingUrl</a>
+<a href="https://msdn.microsoft.com/471b17c8-20e4-44f3-88ee-48a35cd8930c">AddLoggingUrl</a>
 </td>
 <td align="left" width="63%">
 Adds the specified URL to the list of URLs to receive logging data.
@@ -84,7 +84,7 @@ Adds the specified URL to the list of URLs to receive logging data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743520(v=VS.85).aspx">GetBufferingTime</a>
+<a href="https://msdn.microsoft.com/a3f35230-363c-48e7-bef9-b92e0b50b978">GetBufferingTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of time required by the network source to buffer data before rendering it.
@@ -93,7 +93,7 @@ Retrieves the amount of time required by the network source to buffer data befor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743521(v=VS.85).aspx">GetConnectionBandwidth</a>
+<a href="https://msdn.microsoft.com/cbbc945d-91ea-4d21-a1ac-2fcbcb081447">GetConnectionBandwidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the connection bandwidth for the client.
@@ -102,7 +102,7 @@ Retrieves the connection bandwidth for the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743522(v=VS.85).aspx">GetEnableHTTP</a>
+<a href="https://msdn.microsoft.com/892879a3-8ab2-4d2c-ba47-9f6c2dd2aec3">GetEnableHTTP</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether Hypertext Transfer Protocol (HTTP) is enabled.
@@ -111,7 +111,7 @@ Ascertains whether Hypertext Transfer Protocol (HTTP) is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743523(v=VS.85).aspx">GetEnableMulticast</a>
+<a href="https://msdn.microsoft.com/2fc51a74-18b6-4ddd-9089-9a8bdfce70ea">GetEnableMulticast</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether multicast is enabled.
@@ -120,7 +120,7 @@ Ascertains whether multicast is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743524(v=VS.85).aspx">GetEnableTCP</a>
+<a href="https://msdn.microsoft.com/6623c2f9-24cb-4038-9aa5-2eb634b3f1a2">GetEnableTCP</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether TCP is enabled.
@@ -129,16 +129,16 @@ Ascertains whether TCP is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743525(v=VS.85).aspx">GetEnableUDP</a>
+<a href="https://msdn.microsoft.com/81c6536c-303c-4eac-a75a-54e9df29e299">GetEnableUDP</a>
 </td>
 <td align="left" width="63%">
-Ascertains whether <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">UDP</a> is enabled.
+Ascertains whether <a href="wmformat_glossary.htm">UDP</a> is enabled.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743526(v=VS.85).aspx">GetForceRerunAutoProxyDetection</a>
+<a href="https://msdn.microsoft.com/af4c4f4d-ad19-46b5-b38f-9aa51f2d95ba">GetForceRerunAutoProxyDetection</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether forced rerun detection is enabled.
@@ -147,7 +147,7 @@ Ascertains whether forced rerun detection is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743527(v=VS.85).aspx">GetLoggingUrl</a>
+<a href="https://msdn.microsoft.com/27c5a97b-e04b-4d15-b19a-3c0d78feee95">GetLoggingUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL corresponding to the specified index.
@@ -156,7 +156,7 @@ Retrieves the URL corresponding to the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743528(v=VS.85).aspx">GetLoggingUrlCount</a>
+<a href="https://msdn.microsoft.com/869e093f-8936-4b60-8818-ee2c57924d11">GetLoggingUrlCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of URLs in the current list of logging URLs.
@@ -165,7 +165,7 @@ Retrieves the number of URLs in the current list of logging URLs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743529(v=VS.85).aspx">GetNumProtocolsSupported</a>
+<a href="https://msdn.microsoft.com/6e249d8f-0351-452f-9b53-86f77df2fd70">GetNumProtocolsSupported</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of supported protocols.
@@ -174,7 +174,7 @@ Retrieves the number of supported protocols.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743530(v=VS.85).aspx">GetProxyBypassForLocal</a>
+<a href="https://msdn.microsoft.com/5e960fa9-d71c-4a13-9210-8a2a86e9989c">GetProxyBypassForLocal</a>
 </td>
 <td align="left" width="63%">
 Retrieves the configuration setting for bypassing the proxy for local hosts.
@@ -183,7 +183,7 @@ Retrieves the configuration setting for bypassing the proxy for local hosts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743531(v=VS.85).aspx">GetProxyExceptionList</a>
+<a href="https://msdn.microsoft.com/90cf6e58-8666-4bab-974e-a7e999aeddf1">GetProxyExceptionList</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy exception list.
@@ -192,7 +192,7 @@ Retrieves the proxy exception list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743532(v=VS.85).aspx">GetProxyHostName</a>
+<a href="https://msdn.microsoft.com/a7411ed6-90ee-450c-bb06-408469036d22">GetProxyHostName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the host to be used as the proxy.
@@ -201,7 +201,7 @@ Retrieves the name of the host to be used as the proxy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743533(v=VS.85).aspx">GetProxyPort</a>
+<a href="https://msdn.microsoft.com/042d702e-b4a1-43f6-b2c4-c81922d7c3f2">GetProxyPort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the port to be used as the proxy.
@@ -210,7 +210,7 @@ Retrieves the port to be used as the proxy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743534(v=VS.85).aspx">GetProxySettings</a>
+<a href="https://msdn.microsoft.com/5fdfc651-05f5-48b3-aeaf-4557c72bc0c0">GetProxySettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current proxy settings.
@@ -219,7 +219,7 @@ Retrieves the current proxy settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743535(v=VS.85).aspx">GetSupportedProtocolName</a>
+<a href="https://msdn.microsoft.com/c1047752-c3a2-4555-9dae-ddd91365cd10">GetSupportedProtocolName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a protocol name by index.
@@ -228,7 +228,7 @@ Retrieves a protocol name by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743536(v=VS.85).aspx">GetUDPPortRanges</a>
+<a href="https://msdn.microsoft.com/a1792fd0-e9c3-4e28-9928-a615e1c9aec8">GetUDPPortRanges</a>
 </td>
 <td align="left" width="63%">
 Retrieves the UDP port number ranges that are used for receiving data.
@@ -237,7 +237,7 @@ Retrieves the UDP port number ranges that are used for receiving data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743537(v=VS.85).aspx">ResetLoggingUrlList</a>
+<a href="https://msdn.microsoft.com/0fe71d73-a827-4aed-a37b-db7701cc1180">ResetLoggingUrlList</a>
 </td>
 <td align="left" width="63%">
 Clears the list of logging URLs.
@@ -246,7 +246,7 @@ Clears the list of logging URLs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743538(v=VS.85).aspx">ResetProtocolRollover</a>
+<a href="https://msdn.microsoft.com/10a11131-48bd-49bd-a767-1c6148f84b95">ResetProtocolRollover</a>
 </td>
 <td align="left" width="63%">
 Forces the reader object to use the normal protocol rollover algorithm.
@@ -255,7 +255,7 @@ Forces the reader object to use the normal protocol rollover algorithm.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743539(v=VS.85).aspx">SetBufferingTime</a>
+<a href="https://msdn.microsoft.com/64b8eb13-3b96-4bb7-8d75-0eccb1af5a2f">SetBufferingTime</a>
 </td>
 <td align="left" width="63%">
 Specifies how long the network source buffers data before rendering it.
@@ -264,7 +264,7 @@ Specifies how long the network source buffers data before rendering it.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743540(v=VS.85).aspx">SetConnectionBandwidth</a>
+<a href="https://msdn.microsoft.com/beb84e1b-ebe2-40a0-bcf0-eded9346d7a1">SetConnectionBandwidth</a>
 </td>
 <td align="left" width="63%">
 Specifies the connection bandwidth for the client.
@@ -273,7 +273,7 @@ Specifies the connection bandwidth for the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743541(v=VS.85).aspx">SetEnableHTTP</a>
+<a href="https://msdn.microsoft.com/20667a28-e6e0-4ec0-905b-6735291063db">SetEnableHTTP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables HTTP.
@@ -282,7 +282,7 @@ Enables or disables HTTP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743542(v=VS.85).aspx">SetEnableMulticast</a>
+<a href="https://msdn.microsoft.com/02e3a7cc-1dcf-4aba-a18f-2056742f0777">SetEnableMulticast</a>
 </td>
 <td align="left" width="63%">
 Enables or disables multicast.
@@ -291,7 +291,7 @@ Enables or disables multicast.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743543(v=VS.85).aspx">SetEnableTCP</a>
+<a href="https://msdn.microsoft.com/8afc62b8-a2f6-4470-8005-804e0980b599">SetEnableTCP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables TCP.
@@ -300,7 +300,7 @@ Enables or disables TCP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743544(v=VS.85).aspx">SetEnableUDP</a>
+<a href="https://msdn.microsoft.com/03afdef3-2aa8-4826-8dce-6d501fa42bcd">SetEnableUDP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables UDP.
@@ -309,7 +309,7 @@ Enables or disables UDP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743545(v=VS.85).aspx">SetForceRerunAutoProxyDetection</a>
+<a href="https://msdn.microsoft.com/3c84fc2a-5933-45da-a7a3-728a8837d851">SetForceRerunAutoProxyDetection</a>
 </td>
 <td align="left" width="63%">
 Enables or disables forced rerun detection.
@@ -318,7 +318,7 @@ Enables or disables forced rerun detection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743546(v=VS.85).aspx">SetProxyBypassForLocal</a>
+<a href="https://msdn.microsoft.com/4a012718-a815-4e01-97f8-69ed2ba881ea">SetProxyBypassForLocal</a>
 </td>
 <td align="left" width="63%">
 Specifies the configuration setting for bypassing the proxy for local hosts.
@@ -327,7 +327,7 @@ Specifies the configuration setting for bypassing the proxy for local hosts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743547(v=VS.85).aspx">SetProxyExceptionList</a>
+<a href="https://msdn.microsoft.com/1f6c6bb6-3a42-44da-ab80-e72a19b8d272">SetProxyExceptionList</a>
 </td>
 <td align="left" width="63%">
 Specifies the proxy exception list.
@@ -336,7 +336,7 @@ Specifies the proxy exception list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743548(v=VS.85).aspx">SetProxyHostName</a>
+<a href="https://msdn.microsoft.com/5638a5d6-30f3-43eb-b054-cab85948796c">SetProxyHostName</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the host to be used as the proxy.
@@ -345,7 +345,7 @@ Specifies the name of the host to be used as the proxy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743549(v=VS.85).aspx">SetProxyPort</a>
+<a href="https://msdn.microsoft.com/e2f4e8ff-6ac8-45b5-af93-a278bf92a07a">SetProxyPort</a>
 </td>
 <td align="left" width="63%">
 Specifies the port to be used as the proxy.
@@ -354,7 +354,7 @@ Specifies the port to be used as the proxy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743550(v=VS.85).aspx">SetProxySettings</a>
+<a href="https://msdn.microsoft.com/fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2">SetProxySettings</a>
 </td>
 <td align="left" width="63%">
 Specifies the proxy settings.
@@ -363,7 +363,7 @@ Specifies the proxy settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743551(v=VS.85).aspx">SetUDPPortRanges</a>
+<a href="https://msdn.microsoft.com/9a61943a-8ff9-4504-b76f-25e3c5c8d4a4">SetUDPPortRanges</a>
 </td>
 <td align="left" width="63%">
 Specifies the UDP port number ranges that are used for receiving data.

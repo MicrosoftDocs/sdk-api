@@ -60,7 +60,7 @@ req.redist:
 
 ### -param surface [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f1a9fda9d80">IDXGISurface</a>*</b>
 
 The DXGI surface from which the bitmap can be created.  
 

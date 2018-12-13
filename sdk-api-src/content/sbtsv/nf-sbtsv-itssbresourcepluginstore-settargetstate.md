@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::SetTargetState
 author: windows-sdk-content
 description: Sets the state of a target object.
 old-location: termserv\itssbresourcepluginstore_settargetstate.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5ba5c4c6-b644-45f7-8942-ee8ea543138d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

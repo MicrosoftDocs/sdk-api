@@ -69,7 +69,7 @@ Constructs and initializes an instance of a <a href="https://msdn.microsoft.com/
 
 ### -param eFlags [in]
 
-One of the flags from the <a href="https://msdn.microsoft.com/en-us/library/Bb219435(v=VS.85).aspx">ObjectParserFlags</a> enumeration.
+One of the flags from the <a href="https://msdn.microsoft.com/25e575fc-c8d3-461c-a792-0780ea56612d">ObjectParserFlags</a> enumeration.
 
 
 ## -see-also

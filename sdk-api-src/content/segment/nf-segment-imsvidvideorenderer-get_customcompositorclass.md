@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-This method is provided for Automation clients. C++ applications can use the <a href="https://msdn.microsoft.com/en-us/library/Dd694746(v=VS.85).aspx">IMSVidVideoRenderer::get__CustomCompositorClass</a> method, which returns a <b>GUID</b> rather than a <b>BSTR</b>.
+This method is provided for Automation clients. C++ applications can use the <a href="https://msdn.microsoft.com/0ac48bbb-a0d3-4c37-9f3e-4f4cc79b550b">IMSVidVideoRenderer::get__CustomCompositorClass</a> method, which returns a <b>GUID</b> rather than a <b>BSTR</b>.
 
 The caller must free the returned string, using the <b>SysFreeString</b> function.
 
@@ -92,7 +92,7 @@ The caller must free the returned string, using the <b>SysFreeString</b> functio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694749(v=VS.85).aspx">IMSVidVideoRenderer::put_CustomCompositorClass</a>
+<a href="https://msdn.microsoft.com/399a5151-b26a-4c33-9dd9-e7abb23cbd1c">IMSVidVideoRenderer::put_CustomCompositorClass</a>
 
 
 

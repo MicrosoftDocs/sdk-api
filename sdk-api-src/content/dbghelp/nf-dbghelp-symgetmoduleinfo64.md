@@ -4,7 +4,7 @@ title: SymGetModuleInfo64 function
 author: windows-sdk-content
 description: Retrieves the module information of the specified module.
 old-location: base\symgetmoduleinfo64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e8057cb5-3331-4460-b07c-4338a57024be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

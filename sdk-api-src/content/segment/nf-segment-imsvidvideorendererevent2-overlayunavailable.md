@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694728(v=VS.85).aspx">IMSVidVideoRendererEvent2</a>
+<a href="https://msdn.microsoft.com/a73ab8f4-724f-4d61-909e-7d43a3e373e3">IMSVidVideoRendererEvent2</a>
  
 
  

@@ -94,15 +94,15 @@ Use this method, and <b>GetCodecInfo</b>, to enumerate through the codec informa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2 Interface</a>
+<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798506(v=VS.85).aspx">IWMHeaderInfo2::GetCodecInfo</a>
+<a href="https://msdn.microsoft.com/685eaf9e-6cc8-4c38-be34-afa4b504a326">IWMHeaderInfo2::GetCodecInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
+<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
  
 
  

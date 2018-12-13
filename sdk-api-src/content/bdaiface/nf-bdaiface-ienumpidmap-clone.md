@@ -64,7 +64,7 @@ The <code>Clone</code> method creates a copy the collection.
 
 ### -param ppIEnumPIDMap [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd376605(v=VS.85).aspx">IEnumPIDMap</a> interface pointer, representing the new collection. The caller must release the interface.
+Receives an <a href="https://msdn.microsoft.com/d46010c4-0f16-4c97-ad10-16f7ac250390">IEnumPIDMap</a> interface pointer, representing the new collection. The caller must release the interface.
 
 
 ## -returns
@@ -135,7 +135,7 @@ The caller must release the returned <b>IEnumPIDMap</b> interface.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376605(v=VS.85).aspx">IEnumPIDMap Interface</a>
+<a href="https://msdn.microsoft.com/d46010c4-0f16-4c97-ad10-16f7ac250390">IEnumPIDMap Interface</a>
  
 
  

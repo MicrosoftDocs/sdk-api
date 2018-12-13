@@ -56,7 +56,7 @@ req.redist:
 
 The <b>IWMSInternalAdminNetSource</b> interface manages cached passwords and finds proxy servers.
 
-To obtain a pointer to an instance of this interface, call the <b>QueryInterface</b> method of the <b>IDispatch</b> interface retrieved by <a href="https://msdn.microsoft.com/en-us/library/Dd743240(v=VS.85).aspx">INSNetSourceCreator::GetNetSourceAdminInterface</a>.
+To obtain a pointer to an instance of this interface, call the <b>QueryInterface</b> method of the <b>IDispatch</b> interface retrieved by <a href="https://msdn.microsoft.com/147b431f-84ed-40b9-85a8-3c220b56cd3f">INSNetSourceCreator::GetNetSourceAdminInterface</a>.
 
 
 
@@ -78,7 +78,7 @@ The <b>IWMSInternalAdminNetSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798536(v=VS.85).aspx">DeleteCredentials</a>
+<a href="https://msdn.microsoft.com/16144c10-419c-4e6a-bc96-2f429c793257">DeleteCredentials</a>
 </td>
 <td align="left" width="63%">
 Removes a password from the cache.
@@ -87,7 +87,7 @@ Removes a password from the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798537(v=VS.85).aspx">FindProxyForURL</a>
+<a href="https://msdn.microsoft.com/5c05ed2b-98ff-417c-bc48-4e8a3dd95460">FindProxyForURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DNS name and port number of a proxy server to use for the client.
@@ -96,7 +96,7 @@ Retrieves the DNS name and port number of a proxy server to use for the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798538(v=VS.85).aspx">GetCredentialFlags</a>
+<a href="https://msdn.microsoft.com/781b2868-c8e2-4d92-98f2-c2950fac3d9b">GetCredentialFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's preference for password caching.
@@ -105,7 +105,7 @@ Retrieves the user's preference for password caching.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798539(v=VS.85).aspx">GetCredentials</a>
+<a href="https://msdn.microsoft.com/e4d6bcc3-a32b-4270-8b43-f3b6a5046fd6">GetCredentials</a>
 </td>
 <td align="left" width="63%">
 Retrieves a password from the cache.
@@ -135,7 +135,7 @@ This method is not supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798540(v=VS.85).aspx">RegisterProxyFailure</a>
+<a href="https://msdn.microsoft.com/50a41a98-2827-425e-91fc-5196996abe98">RegisterProxyFailure</a>
 </td>
 <td align="left" width="63%">
 Registers a proxy failure.   
@@ -144,7 +144,7 @@ Registers a proxy failure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798541(v=VS.85).aspx">SetCredentialFlags</a>
+<a href="https://msdn.microsoft.com/af6208b3-84f6-44d1-9587-140044f2b2f0">SetCredentialFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the user's preference for password caching.
@@ -153,7 +153,7 @@ Sets the user's preference for password caching.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798542(v=VS.85).aspx">SetCredentials</a>
+<a href="https://msdn.microsoft.com/c0655ed3-8d14-447a-b74f-054498eb75e9">SetCredentials</a>
 </td>
 <td align="left" width="63%">
 Saves a password to the cache.
@@ -162,7 +162,7 @@ Saves a password to the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798543(v=VS.85).aspx">ShutdownProxyContext</a>
+<a href="https://msdn.microsoft.com/95c6f641-e0b1-4391-b4bd-b43c03a330b4">ShutdownProxyContext</a>
 </td>
 <td align="left" width="63%">
 Releases internally allocated resources used in finding proxy servers.
@@ -176,7 +176,7 @@ Releases internally allocated resources used in finding proxy servers.
 
 
 
-Most of the methods of the <b>IWMSInternalAdminNetSource</b> interface have been updated in <a href="https://msdn.microsoft.com/en-us/library/Dd743718(v=VS.85).aspx">IWMSInternalAdminNetSource2</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd743722(v=VS.85).aspx">IWMSInternalAdminNetSource3</a>. If you are developing an application using a version of the Windows Media Format SDK that supports the later interfaces, you should use them.
+Most of the methods of the <b>IWMSInternalAdminNetSource</b> interface have been updated in <a href="https://msdn.microsoft.com/6d334725-11d5-4249-a83d-fc8c1c35a56f">IWMSInternalAdminNetSource2</a> and <a href="https://msdn.microsoft.com/b4ca08a4-6e2d-4646-b101-67bac67300b1">IWMSInternalAdminNetSource3</a>. If you are developing an application using a version of the Windows Media Format SDK that supports the later interfaces, you should use them.
 
 
 
@@ -186,15 +186,15 @@ Most of the methods of the <b>IWMSInternalAdminNetSource</b> interface have been
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743239(v=VS.85).aspx">INSNetSourceCreator Interface</a>
+<a href="https://msdn.microsoft.com/39e692a6-fb68-447f-bd28-8d216776157a">INSNetSourceCreator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743718(v=VS.85).aspx">IWMSInternalAdminNetSource2 Interface</a>
+<a href="https://msdn.microsoft.com/6d334725-11d5-4249-a83d-fc8c1c35a56f">IWMSInternalAdminNetSource2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743722(v=VS.85).aspx">IWMSInternalAdminNetSource3 Interface</a>
+<a href="https://msdn.microsoft.com/b4ca08a4-6e2d-4646-b101-67bac67300b1">IWMSInternalAdminNetSource3 Interface</a>
 
 
 

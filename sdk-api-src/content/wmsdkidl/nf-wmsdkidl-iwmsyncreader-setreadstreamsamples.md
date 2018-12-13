@@ -149,11 +149,11 @@ You can call <b>SetReadStreamSamples</b> at any time after a file has been loade
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798594(v=VS.85).aspx">IWMSyncReader::GetReadStreamSamples</a>
+<a href="https://msdn.microsoft.com/cb903723-fd4b-4b1c-aa2f-e3c9f74dcebd">IWMSyncReader::GetReadStreamSamples</a>
  
 
  

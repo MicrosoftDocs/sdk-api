@@ -61,7 +61,7 @@ The <b>IDsBrowseDomainTree::FreeDomains</b> method frees the memory allocated by
 ### -param ppDomainTree [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms675909(v=VS.85).aspx">DOMAINTREE</a> data structure.
+<a href="https://msdn.microsoft.com/c4b3f81c-0632-407c-834e-8eec6fefde68">DOMAINTREE</a> data structure.
 
 
 ## -returns

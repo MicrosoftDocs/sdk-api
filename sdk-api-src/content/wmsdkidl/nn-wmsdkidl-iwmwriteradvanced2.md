@@ -60,7 +60,7 @@ The <b>IWMWriterAdvanced2</b> interface provides the ability to set and retrieve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterAdvanced2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced</a>. <b>IWMWriterAdvanced2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterAdvanced2</b> interface inherits from <a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced</a>. <b>IWMWriterAdvanced2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMWriterAdvanced2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798722(v=VS.85).aspx">GetInputSetting</a>
+<a href="https://msdn.microsoft.com/3aea0bc6-94e7-41ab-aec3-7366f183bb01">GetInputSetting</a>
 </td>
 <td align="left" width="63%">
 Retrieves a setting for a particular input by name.
@@ -84,7 +84,7 @@ Retrieves a setting for a particular input by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798723(v=VS.85).aspx">SetInputSetting</a>
+<a href="https://msdn.microsoft.com/a920bfe8-1f95-4957-b6c4-9749d5e10ee3">SetInputSetting</a>
 </td>
 <td align="left" width="63%">
 Specifies a named setting for a particular input.
@@ -102,15 +102,15 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798724(v=VS.85).aspx">IWMWriterAdvanced3 Interface</a>
+<a href="https://msdn.microsoft.com/99f7e4f7-0080-498d-b4f1-960c4955b4db">IWMWriterAdvanced3 Interface</a>
 
 
 

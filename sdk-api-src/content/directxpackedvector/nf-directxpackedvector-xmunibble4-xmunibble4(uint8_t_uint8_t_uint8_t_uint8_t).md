@@ -52,7 +52,7 @@ req.redist:
 
 Default constructor for <code>XMUNIBBLE4</code>
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a>
+Default constructor for <a href="https://msdn.microsoft.com/12807b12-3f95-49fd-949c-f29eee2f44c3">XMUNIBBLE4</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.
     </div><div> </div>
@@ -103,11 +103,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a>
+<a href="https://msdn.microsoft.com/12807b12-3f95-49fd-949c-f29eee2f44c3">XMUNIBBLE4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415488(v=VS.85).aspx">XMUNIBBLE4 Constructors</a>
+<a href="https://msdn.microsoft.com/9e185879-4bed-42fe-92da-f5d96ddb8be7">XMUNIBBLE4 Constructors</a>
  
 
  

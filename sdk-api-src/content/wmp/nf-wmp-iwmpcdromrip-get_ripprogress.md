@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-The progress value represents the completed percentage of the entire ripping process. To determine the progress of a specific track, use <a href="https://msdn.microsoft.com/en-us/library/Dd563431(v=VS.85).aspx">IWMPMedia::getItemInfo</a> with <b>RipProgress</b> as the attribute name. To determine the index of the track currently being ripped, call <a href="https://msdn.microsoft.com/en-us/library/Dd563564(v=VS.85).aspx">IWMPPlaylist::getItemInfo</a> with <b>CurrentRipTrackIndex</b> as the attribute name.
+The progress value represents the completed percentage of the entire ripping process. To determine the progress of a specific track, use <a href="https://msdn.microsoft.com/ee964f68-d44c-4e66-908b-09070a96d96f">IWMPMedia::getItemInfo</a> with <b>RipProgress</b> as the attribute name. To determine the index of the track currently being ripped, call <a href="https://msdn.microsoft.com/c6763274-01e4-4a2f-9467-150e1964193a">IWMPPlaylist::getItemInfo</a> with <b>CurrentRipTrackIndex</b> as the attribute name.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
@@ -110,7 +110,7 @@ The progress value represents the completed percentage of the entire ripping pro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563102(v=VS.85).aspx">IWMPCdromRip Interface</a>
+<a href="https://msdn.microsoft.com/c3e2db46-bef0-4c79-91b5-97ca5a86c6ba">IWMPCdromRip Interface</a>
 
 
 

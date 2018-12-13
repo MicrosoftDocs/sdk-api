@@ -4,7 +4,7 @@ title: SymEnumerateSymbolsW function
 author: windows-sdk-content
 description: Enumerates all the symbols for a specified module.
 old-location: base\symenumeratesymbols64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: f1aa710c-fbe5-4c9a-9956-5bd872b4b5be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

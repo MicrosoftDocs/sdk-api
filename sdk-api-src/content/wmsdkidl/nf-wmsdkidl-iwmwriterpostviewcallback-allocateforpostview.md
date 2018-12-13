@@ -73,7 +73,7 @@ Size of <i>ppBuffer</i>, in bytes.
 
 ### -param ppBuffer [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface.
 
 
 ### -param pvContext [in]
@@ -95,7 +95,7 @@ This method is implemented by the application. It should return S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798771(v=VS.85).aspx">IWMWriterPostViewCallback Interface</a>
+<a href="https://msdn.microsoft.com/987dd3b4-2245-4640-820c-5a9660ab5e37">IWMWriterPostViewCallback Interface</a>
  
 
  

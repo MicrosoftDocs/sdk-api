@@ -99,7 +99,7 @@ There is still input data available for processing, but the output buffer is ful
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a>
+<a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a>
  
 
  

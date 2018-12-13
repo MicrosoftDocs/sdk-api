@@ -4,7 +4,7 @@ title: IMAGEHLP_CBA_EVENTW
 author: windows-sdk-content
 description: Contains information about a debugging event.
 old-location: base\imagehlp_cba_event_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 1d63007a-7542-4626-99a5-41461e00dbb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

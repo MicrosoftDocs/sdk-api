@@ -4,7 +4,7 @@ title: MINIDUMP_MODULE
 author: windows-sdk-content
 description: Contains information for a specific module.
 old-location: base\minidump_module_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 17e32c6e-29df-4308-b22d-39e13bc6a2a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

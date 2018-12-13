@@ -68,7 +68,7 @@ A pointer to a <a href="https://msdn.microsoft.com/b3e9eda5-5e86-4790-8b1b-ca9ba
 
 The type of extended statistics for TCP to set. This parameter determines the data and format of information that is expected in the <i>Rw</i> parameter.
 
-This parameter can be one of the values from the <a href="https://msdn.microsoft.com/en-us/library/Bb427395(v=VS.85).aspx">TCP_ESTATS_TYPE</a> enumeration type defined in the <i>Tcpestats.h</i> header file. 
+This parameter can be one of the values from the <a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a> enumeration type defined in the <i>Tcpestats.h</i> header file. 
 
 <table>
 <tr>
@@ -444,7 +444,7 @@ The <b>SetPerTcp6ConnectionEStats</b> function can only be called by a user logg
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb427395(v=VS.85).aspx">TCP_ESTATS_TYPE</a>
+<a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a>
  
 
  

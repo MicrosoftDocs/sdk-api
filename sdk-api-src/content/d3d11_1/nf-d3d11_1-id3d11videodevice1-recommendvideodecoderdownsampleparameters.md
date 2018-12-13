@@ -81,7 +81,7 @@ The configuration data associated with the decode profile.
 
 ### -param pFrameRate [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>*</b>
 
 The frame rate of the video content. This is used by the driver to determine whether the video can be decoded in real-time. 
 
@@ -97,7 +97,7 @@ Pointer to a <a href="https://msdn.microsoft.com/3B6BF76A-6566-4C58-AD26-5B13E6D
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following error codes.
 

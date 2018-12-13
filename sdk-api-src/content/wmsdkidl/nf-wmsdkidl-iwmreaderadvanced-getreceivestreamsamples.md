@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetReceiveStreamSamples</b> method ascertains whether stream samples are delivered to the <a href="https://msdn.microsoft.com/en-us/library/Dd743500(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnStreamSample</a> call.
+The <b>GetReceiveStreamSamples</b> method ascertains whether stream samples are delivered to the <a href="https://msdn.microsoft.com/6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8">IWMReaderCallbackAdvanced::OnStreamSample</a> call.
 
 
 
@@ -138,11 +138,11 @@ Stream samples are samples received directly from the source file, and are not d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743487(v=VS.85).aspx">IWMReaderAdvanced::SetReceiveStreamSamples</a>
+<a href="https://msdn.microsoft.com/3fb39726-7f43-41ec-9ead-38456b5cd964">IWMReaderAdvanced::SetReceiveStreamSamples</a>
  
 
  

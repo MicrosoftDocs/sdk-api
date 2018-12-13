@@ -82,11 +82,11 @@ Returns S_OK if the renderer is using the default source rectangle, or S_FALSE o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389599(v=VS.85).aspx">IBasicVideo::SetDefaultSourcePosition</a>
+<a href="https://msdn.microsoft.com/f7b440c0-8f91-4f32-adc6-82fa658125d0">IBasicVideo::SetDefaultSourcePosition</a>
  
 
  

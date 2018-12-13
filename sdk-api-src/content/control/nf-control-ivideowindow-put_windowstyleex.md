@@ -124,15 +124,15 @@ This method is a thin wrapper over the <b>SetWindowLong</b> function and must be
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377304(v=VS.85).aspx">IVideoWindow::get_WindowStyleEx</a>
+<a href="https://msdn.microsoft.com/cdffe918-5802-406e-86b1-d1e9ebb6dbf7">IVideoWindow::get_WindowStyleEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377329(v=VS.85).aspx">IVideoWindow::put_WindowStyle</a>
+<a href="https://msdn.microsoft.com/cd1422d1-16a3-4aae-aadb-772a06173ba3">IVideoWindow::put_WindowStyle</a>
  
 
  

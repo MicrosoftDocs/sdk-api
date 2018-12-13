@@ -94,7 +94,7 @@ The property page uses this method to retrieve data from the renderer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376915(v=VS.85).aspx">IQualProp Interface</a>
+<a href="https://msdn.microsoft.com/428dfb97-0dfa-442c-819e-291e6a58f712">IQualProp Interface</a>
  
 
  

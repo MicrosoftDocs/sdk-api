@@ -53,7 +53,7 @@ req.redist:
 Default constructor for <code>XMHALF2</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419652(v=VS.85).aspx">XMHALF2</a>.
+Default constructor for <a href="https://msdn.microsoft.com/0b9229f5-5d6c-4ade-ba2f-e90933dc3289">XMHALF2</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
@@ -83,11 +83,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4196
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419652(v=VS.85).aspx">XMHALF2</a>
+<a href="https://msdn.microsoft.com/0b9229f5-5d6c-4ade-ba2f-e90933dc3289">XMHALF2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415315(v=VS.85).aspx">XMHALF2 Constructors</a>
+<a href="https://msdn.microsoft.com/42a8fc31-2f0a-4a6b-82e7-1f0043fb69cc">XMHALF2 Constructors</a>
  
 
  

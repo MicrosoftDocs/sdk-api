@@ -95,11 +95,11 @@ Indicates a video steam.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694563(v=VS.85).aspx">IMSVidGenericSink::get_SinkStreams</a>
+<a href="https://msdn.microsoft.com/e77f2ee8-081b-4415-87b5-ab27ee0218d2">IMSVidGenericSink::get_SinkStreams</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694564(v=VS.85).aspx">IMSVidGenericSink::put_SinkStreams</a>
+<a href="https://msdn.microsoft.com/a9bb76ad-6b10-4a48-9d94-64e6d28a3b9f">IMSVidGenericSink::put_SinkStreams</a>
 
 
 

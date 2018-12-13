@@ -90,7 +90,7 @@ Pointer to an AVI stream. This parameter is paired with <i>lpOptions</i>. The pa
 
 ### -param lpOptions
 
-Pointer to an application-defined <a href="https://msdn.microsoft.com/en-us/library/Dd756791(v=VS.85).aspx">AVICOMPRESSOPTIONS</a> structure containing the compression options for the stream referenced by <i>pavi</i>. This parameter is paired with pavi. The parameter pair can be repeated as a variable number of arguments.
+Pointer to an application-defined <a href="https://msdn.microsoft.com/8084adc3-792f-4a6c-b407-51e0e435e629">AVICOMPRESSOPTIONS</a> structure containing the compression options for the stream referenced by <i>pavi</i>. This parameter is paired with pavi. The parameter pair can be repeated as a variable number of arguments.
 
 
 ### -param arg7

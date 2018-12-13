@@ -60,9 +60,9 @@ Replaces the effect chain of the voice.
 
 ### -param pEffectChain [in, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> structure that describes the new effect chain to use. If NULL is passed, the current effect chain is removed.
+Pointer to an <a href="https://msdn.microsoft.com/7519f0e0-e063-4849-ba58-675f42e91241">XAUDIO2_EFFECT_CHAIN</a> structure that describes the new effect chain to use. If NULL is passed, the current effect chain is removed.
 
-<div class="alert"><b>Note</b>  If <i>pEffectChain</i> is non-NULL, the <a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> structure that it points to must specify at least one effect.</div>
+<div class="alert"><b>Note</b>  If <i>pEffectChain</i> is non-NULL, the <a href="https://msdn.microsoft.com/7519f0e0-e063-4849-ba58-675f42e91241">XAUDIO2_EFFECT_CHAIN</a> structure that it points to must specify at least one effect.</div>
 <div> </div>
 
 ## -returns
@@ -90,11 +90,11 @@ After you attach an effect to an XAudio2 voice, XAudio2 takes control of the eff
 
 
 
-It is invalid to call <b>SetEffectChain</b> from within a callback (that is, <a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>). If you call <b>SetEffectChain</b> within a callback, it returns XAUDIO2_E_INVALID_CALL.
+It is invalid to call <b>SetEffectChain</b> from within a callback (that is, <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>). If you call <b>SetEffectChain</b> within a callback, it returns XAUDIO2_E_INVALID_CALL.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> that is passed in as the pEffectChain argument and any <a href="https://msdn.microsoft.com/en-us/library/Ee419236(v=VS.85).aspx">XAUDIO2_EFFECT_DESCRIPTOR</a> information contained within it are no longer needed after <b>SetEffectChain</b> successfully completes, and may be deleted immediately after <b>SetEffectChain</b> is called.
+The <a href="https://msdn.microsoft.com/7519f0e0-e063-4849-ba58-675f42e91241">XAUDIO2_EFFECT_CHAIN</a> that is passed in as the pEffectChain argument and any <a href="https://msdn.microsoft.com/d2c7c640-9f6a-4fc0-bc87-35570281cec5">XAUDIO2_EFFECT_DESCRIPTOR</a> information contained within it are no longer needed after <b>SetEffectChain</b> successfully completes, and may be deleted immediately after <b>SetEffectChain</b> is called.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -111,7 +111,7 @@ Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
 
 
 

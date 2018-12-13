@@ -4,7 +4,7 @@ title: PSYM_ENUMERATESYMBOLS_CALLBACKW
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumSymbols, SymEnumTypes, and SymEnumTypesByName functions.
 old-location: base\symenumsymbolsproc.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: c9f9aad8-754d-4ec8-92a3-8cf1929b9d8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

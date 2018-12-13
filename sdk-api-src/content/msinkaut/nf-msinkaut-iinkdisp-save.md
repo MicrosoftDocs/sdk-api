@@ -283,7 +283,7 @@ Attempting to save an empty <a href="https://msdn.microsoft.com/f942d6a3-f303-49
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
 
 
 

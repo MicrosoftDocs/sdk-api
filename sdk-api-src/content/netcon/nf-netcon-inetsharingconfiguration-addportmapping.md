@@ -64,7 +64,7 @@ The
 ### -param bstrName [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> variable that contains the name for this port mapping.
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that contains the name for this port mapping.
 
 
 ### -param ucIPProtocol [in]
@@ -97,7 +97,7 @@ This parameter is reserved and not used at this time.
 ### -param bstrTargetNameOrIPAddress [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> variable that contains the name of the target computer for this port mapping. Specify either the target name or the target IP address, but not both.
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that contains the name of the target computer for this port mapping. Specify either the target name or the target IP address, but not both.
 
 
 ### -param eTargetType [in]

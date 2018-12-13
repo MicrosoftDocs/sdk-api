@@ -168,7 +168,7 @@ If the reference URL is absolute, it is returned unchanged, if the specified fla
             If the reference URL is relative, it is combined with the base URL before being returned.
             
 
-Only the schemes listed in <a href="https://msdn.microsoft.com/en-us/library/Dd323494(v=VS.85).aspx">WS_URL_SCHEME_TYPE</a> are supported.
+Only the schemes listed in <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> are supported.
             
 
 

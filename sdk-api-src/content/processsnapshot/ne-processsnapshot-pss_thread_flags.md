@@ -72,7 +72,7 @@ The thread terminated.
 
 
 
-There is a <b>PSS_THREAD_FLAGS</b> member in the <a href="https://msdn.microsoft.com/en-us/library/Dn457852(v=VS.85).aspx">PSS_THREAD_ENTRY</a> structure that <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns.
+There is a <b>PSS_THREAD_FLAGS</b> member in the <a href="https://msdn.microsoft.com/99C89DBB-8C12-482E-B33D-AE59C37662CF">PSS_THREAD_ENTRY</a> structure that <a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns.
 
 
 

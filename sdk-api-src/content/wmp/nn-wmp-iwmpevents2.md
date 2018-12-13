@@ -67,37 +67,37 @@ In addition to the methods inherited from <b>IWMPEvents</b>, the <b>IWMPEvents2<
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563290(v=VS.85).aspx">CreatePartnershipComplete</a>
+<a href="https://msdn.microsoft.com/3cd9b27d-ceb4-4655-ab3f-3d341774c81a">CreatePartnershipComplete</a>
 </td>
 <td>Occurs when an asynchronous call to <b>IWMPSyncDevice::createPartnership</b> completes.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563291(v=VS.85).aspx">DeviceConnect</a>
+<a href="https://msdn.microsoft.com/ed726579-e0cb-4007-98eb-b6df4b636b12">DeviceConnect</a>
 </td>
 <td>Occurs when the user connects a device to the computer.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563292(v=VS.85).aspx">DeviceDisconnect</a>
+<a href="https://msdn.microsoft.com/a37b72f9-4f71-433c-afad-66caae2d749a">DeviceDisconnect</a>
 </td>
 <td>Occurs when the user disconnects a device from the computer.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563293(v=VS.85).aspx">DeviceStatusChange</a>
+<a href="https://msdn.microsoft.com/f9781dde-e813-4e2d-820d-5a0803bfbe4e">DeviceStatusChange</a>
 </td>
 <td>Occurs when the partnership status of a device changes.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563294(v=VS.85).aspx">DeviceSyncError</a>
+<a href="https://msdn.microsoft.com/41e9a6df-3721-4fd2-aa9d-9874a004aa9a">DeviceSyncError</a>
 </td>
 <td>Occurs when a synchronization error happens.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563295(v=VS.85).aspx">DeviceSyncStateChange</a>
+<a href="https://msdn.microsoft.com/98970d33-8035-49f9-9243-b4832df6e5c9">DeviceSyncStateChange</a>
 </td>
 <td>Occurs when the synchronization state of a device changes.</td>
 </tr>
@@ -113,11 +113,11 @@ In addition to the methods inherited from <b>IWMPEvents</b>, the <b>IWMPEvents2<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563716(v=VS.85).aspx">IWMPSyncDevice::createPartnership</a>
+<a href="https://msdn.microsoft.com/734a8717-3b7f-4a40-895f-b55cfabd665c">IWMPSyncDevice::createPartnership</a>
 
 
 

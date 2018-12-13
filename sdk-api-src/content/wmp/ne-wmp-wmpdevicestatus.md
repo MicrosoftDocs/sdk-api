@@ -73,7 +73,7 @@ A partnership between Windows Media Player and the device exists.
 
 ### -field wmpdsPartnershipDeclined
 
-The user declined to create a partnership with the device. A device will also have this status when the partnership was deleted programmatically by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563717(v=VS.85).aspx">IWMPSyncDevice::deletePartnership</a>.
+The user declined to create a partnership with the device. A device will also have this status when the partnership was deleted programmatically by calling <a href="https://msdn.microsoft.com/ecb525b4-c804-47e6-8d6c-7d943010077a">IWMPSyncDevice::deletePartnership</a>.
 
 
 ### -field wmpdsPartnershipAnother
@@ -114,11 +114,11 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563293(v=VS.85).aspx">IWMPEvents2::DeviceStatusChange</a>
+<a href="https://msdn.microsoft.com/f9781dde-e813-4e2d-820d-5a0803bfbe4e">IWMPEvents2::DeviceStatusChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563741(v=VS.85).aspx">IWMPSyncDevice::get_status</a>
+<a href="https://msdn.microsoft.com/2b194161-c25c-43d9-90ee-dd25ff61034b">IWMPSyncDevice::get_status</a>
 
 
 

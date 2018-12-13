@@ -80,7 +80,7 @@ The <b>IAMLine21Decoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389386(v=VS.85).aspx">GetBackgroundColor</a>
+<a href="https://msdn.microsoft.com/ba75dc5b-207e-4425-a8fe-8da16fc89921">GetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the background color used by the Line 21 Decoder filter for overlay.
@@ -89,7 +89,7 @@ Retrieves the background color used by the Line 21 Decoder filter for overlay.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389387(v=VS.85).aspx">GetCurrentService</a>
+<a href="https://msdn.microsoft.com/bfd1c33d-27e0-4923-9c80-5d1bedb4fd25">GetCurrentService</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current closed captioning service.
@@ -98,7 +98,7 @@ Retrieves the current closed captioning service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389388(v=VS.85).aspx">GetDecoderLevel</a>
+<a href="https://msdn.microsoft.com/6f0fc2c3-cc98-4646-ada0-57d74c6b5dd9">GetDecoderLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the closed-captioned decoder level.
@@ -107,7 +107,7 @@ Retrieves the closed-captioned decoder level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389389(v=VS.85).aspx">GetDrawBackgroundMode</a>
+<a href="https://msdn.microsoft.com/817a47d6-39c4-4186-81d0-ad822814f0ee">GetDrawBackgroundMode</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the filter draws the captions on a transparent background or an opaque background.
@@ -116,7 +116,7 @@ Indicates whether the filter draws the captions on a transparent background or a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389390(v=VS.85).aspx">GetOutputFormat</a>
+<a href="https://msdn.microsoft.com/3d1ded3c-fdeb-4e02-92ee-d0986711c335">GetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Line 21 Decoder filter's output format.
@@ -125,7 +125,7 @@ Retrieves the Line 21 Decoder filter's output format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389391(v=VS.85).aspx">GetRedrawAlways</a>
+<a href="https://msdn.microsoft.com/9ab65d23-816d-4c6f-a0bc-b3334babdc23">GetRedrawAlways</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the filter redraws the entire output bitmap for each sample.
@@ -134,7 +134,7 @@ Indicates whether the filter redraws the entire output bitmap for each sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389392(v=VS.85).aspx">GetServiceState</a>
+<a href="https://msdn.microsoft.com/c88d2328-0338-4c0b-b719-8501bcbb8a69">GetServiceState</a>
 </td>
 <td align="left" width="63%">
 Indicates whether closed captioning is on or off.
@@ -143,7 +143,7 @@ Indicates whether closed captioning is on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389393(v=VS.85).aspx">SetBackgroundColor</a>
+<a href="https://msdn.microsoft.com/a69bb0d0-5afb-420f-a97c-071dc472e1d2">SetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Sets the background color that the filter uses for overlay.
@@ -152,7 +152,7 @@ Sets the background color that the filter uses for overlay.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389394(v=VS.85).aspx">SetCurrentService</a>
+<a href="https://msdn.microsoft.com/2f1945c3-644d-4e72-b2b7-a7e068b59d96">SetCurrentService</a>
 </td>
 <td align="left" width="63%">
 Sets the closed captioning service.
@@ -161,7 +161,7 @@ Sets the closed captioning service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389395(v=VS.85).aspx">SetDrawBackgroundMode</a>
+<a href="https://msdn.microsoft.com/56301cc2-8f27-4530-bb6e-9909eb5bb390">SetDrawBackgroundMode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the filter draws the captions on a transparent background or an opaque background.
@@ -170,7 +170,7 @@ Specifies whether the filter draws the captions on a transparent background or a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319635(v=VS.85).aspx">SetOutputFormat</a>
+<a href="https://msdn.microsoft.com/72d63092-8ac6-42c5-a0da-6c64f3a127c5">SetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the filter's output format. (Not implemented)
@@ -179,7 +179,7 @@ Sets the filter's output format. (Not implemented)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319636(v=VS.85).aspx">SetRedrawAlways</a>
+<a href="https://msdn.microsoft.com/20f2e95a-8362-457d-b562-f7263e698551">SetRedrawAlways</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the filter redraws the entire output bitmap for each sample.
@@ -188,7 +188,7 @@ Specifies whether the filter redraws the entire output bitmap for each sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319637(v=VS.85).aspx">SetServiceState</a>
+<a href="https://msdn.microsoft.com/009e7d14-5946-42f0-8832-7fd8c565a877">SetServiceState</a>
 </td>
 <td align="left" width="63%">
 Enables or disables closed captions.

@@ -69,9 +69,9 @@ Pointer to a GUID that specifies the DXVA profile in use.
 
 ### -param pUncompBufferInfo [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd373448(v=VS.85).aspx">AMVAUncompBufferInfo</a> structure. The decoder fills in this structure with the decoder's requirements for the minimum and maximum number of surfaces and the pixel format.
+Pointer to a <a href="https://msdn.microsoft.com/113cc7ba-d05e-48a7-88cb-13645beb16d1">AMVAUncompBufferInfo</a> structure. The decoder fills in this structure with the decoder's requirements for the minimum and maximum number of surfaces and the pixel format.
 
-To get the list of supported pixel formats, the decoder should call <a href="https://msdn.microsoft.com/en-us/library/Dd376007(v=VS.85).aspx">IAMVideoAccelerator::GetUncompFormatsSupported</a>.
+To get the list of supported pixel formats, the decoder should call <a href="https://msdn.microsoft.com/33f9a4ee-4de9-4853-9581-808d7a07bfc4">IAMVideoAccelerator::GetUncompFormatsSupported</a>.
 
 
 ## -returns
@@ -150,7 +150,7 @@ Success.
 
 
 
-After the video renderer allocates the uncompressed surfaces, it calls the decoder's <a href="https://msdn.microsoft.com/en-us/library/Dd375996(v=VS.85).aspx">IAMVideoAcceleratorNotify::SetUncompSurfacesInfo</a> method.
+After the video renderer allocates the uncompressed surfaces, it calls the decoder's <a href="https://msdn.microsoft.com/e82c73e6-d32e-4875-9f9d-124a1c6ce504">IAMVideoAcceleratorNotify::SetUncompSurfacesInfo</a> method.
 
 
 
@@ -168,7 +168,7 @@ After the video renderer allocates the uncompressed surfaces, it calls the decod
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375993(v=VS.85).aspx">IAMVideoAcceleratorNotify Interface</a>
+<a href="https://msdn.microsoft.com/7fd0290c-8fd6-4af6-b510-7a87bc7937de">IAMVideoAcceleratorNotify Interface</a>
  
 
  

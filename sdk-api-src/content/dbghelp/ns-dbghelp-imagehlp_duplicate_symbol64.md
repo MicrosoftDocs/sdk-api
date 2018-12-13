@@ -4,7 +4,7 @@ title: IMAGEHLP_DUPLICATE_SYMBOL64
 author: windows-sdk-content
 description: Contains duplicate symbol information.
 old-location: base\imagehlp_duplicate_symbol64_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 47ef96d5-94ba-487c-8678-59ddd18ad449
 ms.author: windowssdkdev
 ms.date: 12/5/2018

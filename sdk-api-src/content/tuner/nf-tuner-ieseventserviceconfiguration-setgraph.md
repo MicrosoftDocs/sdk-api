@@ -60,7 +60,7 @@ Attaches an event service that implements the <a href="https://msdn.microsoft.co
 
 ### -param pGraph [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd389989(v=VS.85).aspx">IFilterGraph</a> interface that is attached to the <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> event service.
+Pointer to the <a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph</a> interface that is attached to the <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> event service.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389989(v=VS.85).aspx">IFilterGraph</a>
+<a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph</a>
  
 
  

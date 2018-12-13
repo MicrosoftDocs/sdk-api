@@ -139,11 +139,11 @@ Applications running on the user's computer are not required to use this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563649(v=VS.85).aspx">IWMPSettings2 Interface</a>
+<a href="https://msdn.microsoft.com/0fb0c7be-015e-4081-8467-c382e0858195">IWMPSettings2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563651(v=VS.85).aspx">IWMPSettings2::get_mediaAccessRights</a>
+<a href="https://msdn.microsoft.com/07ca80a3-5175-4b1f-b83c-0df41a010cbf">IWMPSettings2::get_mediaAccessRights</a>
  
 
  

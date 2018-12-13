@@ -4,7 +4,7 @@ title: SymLoadModuleEx function
 author: windows-sdk-content
 description: Loads the symbol table for the specified module.
 old-location: base\symloadmoduleex.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 4a880090-f063-4d03-8fd5-a57ccba262c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

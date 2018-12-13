@@ -275,7 +275,7 @@ LPCWSTR data type.
 
 ### -field m_Const
 
-Value of the first constant. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa393847(v=VS.85).aspx">SWbemRpnConst</a>.
+Value of the first constant. For more information, see <a href="https://msdn.microsoft.com/06b2feff-b604-44d2-8381-719575650e88">SWbemRpnConst</a>.
 
 
 ### -field m_uConst2ApparentType
@@ -327,7 +327,7 @@ LPCWSTR data type.
 
 ### -field m_Const2
 
-Value of the second constant. The fields <b>m_uConst2ApparentType</b> and <b>m_uConst2</b> are used only for BETWEEN phrases. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa393847(v=VS.85).aspx">SWbemRpnConst</a>.
+Value of the second constant. The fields <b>m_uConst2ApparentType</b> and <b>m_uConst2</b> are used only for BETWEEN phrases. For more information, see <a href="https://msdn.microsoft.com/06b2feff-b604-44d2-8381-719575650e88">SWbemRpnConst</a>.
 
 
 ### -field m_pszRightFunc
@@ -353,7 +353,7 @@ Specifies a function on the left of the operator in a WHERE clause. If there is 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa393847(v=VS.85).aspx">SWbemRpnConst</a>
+<a href="https://msdn.microsoft.com/06b2feff-b604-44d2-8381-719575650e88">SWbemRpnConst</a>
 
 
 

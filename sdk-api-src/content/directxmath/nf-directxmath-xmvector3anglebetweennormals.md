@@ -96,7 +96,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420801(v=VS.85).aspx">XMVector3AngleBetweenNormalsEst</a>
+<a href="https://msdn.microsoft.com/76b78c6b-2ed9-49e8-8a5b-78aee5f49a30">XMVector3AngleBetweenNormalsEst</a>
  
 
  

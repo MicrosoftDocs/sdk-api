@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>AMVABeginFrameInfo</b> structure contains information for the <a href="https://msdn.microsoft.com/en-us/library/Dd375997(v=VS.85).aspx">IAMVideoAccelerator::BeginFrame</a> method.
+The <b>AMVABeginFrameInfo</b> structure contains information for the <a href="https://msdn.microsoft.com/00077ffe-4acb-4648-9e95-652184e4449b">IAMVideoAccelerator::BeginFrame</a> method.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ The <b>AMVABeginFrameInfo</b> structure contains information for the <a href="ht
 
 ### -field dwDestSurfaceIndex
 
-The zero-based index of the uncompressed destination surface. The number of uncompressed surfaces is specified in the <a href="https://msdn.microsoft.com/en-us/library/Dd375996(v=VS.85).aspx">IAMVideoAcceleratorNotify::SetUncompSurfacesInfo</a> method.
+The zero-based index of the uncompressed destination surface. The number of uncompressed surfaces is specified in the <a href="https://msdn.microsoft.com/e82c73e6-d32e-4875-9f9d-124a1c6ce504">IAMVideoAcceleratorNotify::SetUncompSurfacesInfo</a> method.
 
 
 ### -field pInputData
@@ -109,7 +109,7 @@ The video accelerator might not use the same surface memory in two consecutive c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375997(v=VS.85).aspx">IAMVideoAccelerator::BeginFrame</a>
+<a href="https://msdn.microsoft.com/00077ffe-4acb-4648-9e95-652184e4449b">IAMVideoAccelerator::BeginFrame</a>
  
 
  

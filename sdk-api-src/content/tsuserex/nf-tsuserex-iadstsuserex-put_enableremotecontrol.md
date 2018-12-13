@@ -4,7 +4,7 @@ title: IADsTSUserEx::put_EnableRemoteControl
 author: windows-sdk-content
 description: A value that specifies whether to allow remote observation or remote control of the user's Remote Desktop Services session.
 old-location: termserv\iadstsuserex_enableremotecontrol.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 197d9d7e-118c-413e-952e-2186f79b6633
 ms.author: windowssdkdev
 ms.date: 12/5/2018

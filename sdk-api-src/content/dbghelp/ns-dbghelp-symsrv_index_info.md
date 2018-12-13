@@ -4,7 +4,7 @@ title: SYMSRV_INDEX_INFO
 author: windows-sdk-content
 description: Contains symbol server index information.
 old-location: base\symsrv_index_info.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 110cf21c-7768-48fd-bfdc-1f7cd30ca291
 ms.author: windowssdkdev
 ms.date: 12/5/2018

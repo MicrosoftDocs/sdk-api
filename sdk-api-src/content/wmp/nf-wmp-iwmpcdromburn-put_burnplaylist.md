@@ -108,15 +108,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563085(v=VS.85).aspx">IWMPCdromBurn::get_burnPlaylist</a>
+<a href="https://msdn.microsoft.com/b31f4e87-2029-4001-94c7-268b14807cf0">IWMPCdromBurn::get_burnPlaylist</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
  
 
  

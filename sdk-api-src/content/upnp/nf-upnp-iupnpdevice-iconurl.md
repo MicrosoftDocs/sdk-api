@@ -81,7 +81,7 @@ Specifies the bit depth of the icon. Standard values are 8, 16, or 24.
 
 ### -param pbstrIconURL [out]
 
-Receives a reference to a string that contains the URL from which the icon is to be loaded. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
+Receives a reference to a string that contains the URL from which the icon is to be loaded. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
 
 
 ## -returns

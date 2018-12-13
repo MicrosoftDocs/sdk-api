@@ -4,7 +4,7 @@ title: SymGetSourceFileTokenW function
 author: windows-sdk-content
 description: Retrieves token for the specified source file from the source server.
 old-location: base\symgetsourcefiletoken.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 7a8c7d68-421e-41fd-8cab-750c44a5f028
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -86,7 +86,7 @@ Full volume is 0 and silence is –10,000. Multiply the desired decibel level by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389538(v=VS.85).aspx">IBasicAudio::put_Volume</a>
+<a href="https://msdn.microsoft.com/95171b87-e558-450b-8a48-f43a19069218">IBasicAudio::put_Volume</a>
 
 
 
@@ -94,7 +94,7 @@ Full volume is 0 and silence is –10,000. Multiply the desired decibel level by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694463(v=VS.85).aspx">IMSVidAudioRenderer::get_Volume</a>
+<a href="https://msdn.microsoft.com/7dbbdb17-b077-4e36-a5d4-c8e343feb930">IMSVidAudioRenderer::get_Volume</a>
  
 
  

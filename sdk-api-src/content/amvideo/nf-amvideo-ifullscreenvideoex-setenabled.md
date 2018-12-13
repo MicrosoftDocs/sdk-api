@@ -129,9 +129,9 @@ Disable the specified display mode.
 
 
 
-The Full Screen Renderer supports a static set of display modes. By default, every mode is enabled. You can use this method to enable or disable a particular display mode. The video card on the user's system might not support every mode. The Full Screen Renderer will not use a mode that the video card does not support, even if that mode is enabled. To determine whether the card supports a particular mode, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390068(v=VS.85).aspx">IFullScreenVideoEx::IsModeAvailable</a> method. If a mode is disabled, the Full Screen Renderer will not use it, even if the card supports it.
+The Full Screen Renderer supports a static set of display modes. By default, every mode is enabled. You can use this method to enable or disable a particular display mode. The video card on the user's system might not support every mode. The Full Screen Renderer will not use a mode that the video card does not support, even if that mode is enabled. To determine whether the card supports a particular mode, call the <a href="https://msdn.microsoft.com/9b05d6c6-522c-46b8-90b5-c4650cee5f6b">IFullScreenVideoEx::IsModeAvailable</a> method. If a mode is disabled, the Full Screen Renderer will not use it, even if the card supports it.
 
-Display modes are indexed from zero. The <a href="https://msdn.microsoft.com/en-us/library/Dd390057(v=VS.85).aspx">IFullScreenVideoEx::CountModes</a> method returns the number of modes. To retrieve the width, height, and bit depth of a particular display mode, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390063(v=VS.85).aspx">IFullScreenVideoEx::GetModeInfo</a> method.
+Display modes are indexed from zero. The <a href="https://msdn.microsoft.com/70d4e124-083b-4729-8f39-778e815ea23b">IFullScreenVideoEx::CountModes</a> method returns the number of modes. To retrieve the width, height, and bit depth of a particular display mode, call the <a href="https://msdn.microsoft.com/c1a4aea8-8c48-4073-80ed-060db5adb514">IFullScreenVideoEx::GetModeInfo</a> method.
 
 
 
@@ -145,7 +145,7 @@ Display modes are indexed from zero. The <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390056(v=VS.85).aspx">IFullScreenVideoEx Interface</a>
+<a href="https://msdn.microsoft.com/4c9de58f-6ceb-4cf5-b1a5-d3e345e08190">IFullScreenVideoEx Interface</a>
  
 
  

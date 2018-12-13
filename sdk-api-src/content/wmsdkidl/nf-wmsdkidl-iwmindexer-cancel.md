@@ -80,7 +80,7 @@ This method always returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798531(v=VS.85).aspx">IWMIndexer Interface</a>
+<a href="https://msdn.microsoft.com/00627b0c-4484-417a-8680-0fd97aac41fe">IWMIndexer Interface</a>
  
 
  

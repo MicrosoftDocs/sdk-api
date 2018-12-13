@@ -62,7 +62,7 @@ The <b>MPEG2VIDEOINFO</b> structure describes an MPEG-2 video stream.
 ### -field hdr
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx">VIDEOINFOHEADER2</a> structure.
+<a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> structure.
           
 
 
@@ -80,13 +80,13 @@ Length of the sequence header, in bytes. For DVD, set this field to zero. The se
 
 ### -field dwProfile
 
-Specifies the MPEG-2 profile as an <a href="https://msdn.microsoft.com/en-us/library/Dd373479(v=VS.85).aspx">AM_MPEG2Profile</a> enumeration type.
+Specifies the MPEG-2 profile as an <a href="https://msdn.microsoft.com/1f03a556-feb7-40c7-a3df-818de6873049">AM_MPEG2Profile</a> enumeration type.
           
 
 
 ### -field dwLevel
 
-Specifies the MPEG-2 level as an <a href="https://msdn.microsoft.com/en-us/library/Dd373478(v=VS.85).aspx">AM_MPEG2Level</a> enumeration type.
+Specifies the MPEG-2 level as an <a href="https://msdn.microsoft.com/78446b44-7b83-4266-a591-5f70a0542c20">AM_MPEG2Level</a> enumeration type.
           
 
 
@@ -227,7 +227,7 @@ Start of an array that contains the sequence header, including quantization matr
 
 
 
-The <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure contained in the <a href="https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx">VIDEOINFOHEADER2</a> structure (<b>hdr</b>) cannot be followed by any pallette entries or color masks, because this structure is immediately followed by the <b>dwStartTimeCode</b> member.
+The <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure contained in the <a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> structure (<b>hdr</b>) cannot be followed by any pallette entries or color masks, because this structure is immediately followed by the <b>dwStartTimeCode</b> member.
 
 
 

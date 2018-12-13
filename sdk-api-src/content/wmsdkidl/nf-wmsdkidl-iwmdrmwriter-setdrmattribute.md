@@ -79,7 +79,7 @@ Pointer to a null-terminated string containing the attribute name. See Remarks f
 
 ### -param Type [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type specifying the data type of the attribute data.
+A value from the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type specifying the data type of the attribute data.
 
 
 ### -param pValue [in]
@@ -139,7 +139,7 @@ hr = pDRMWriter-&gt;SetDRMAttribute( 0, g_wszWMDRM_ContentID,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798372(v=VS.85).aspx">IWMDRMWriter Interface</a>
+<a href="https://msdn.microsoft.com/fd466cf8-b1f8-49aa-a486-8fd347b29178">IWMDRMWriter Interface</a>
  
 
  

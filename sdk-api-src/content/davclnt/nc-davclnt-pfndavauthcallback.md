@@ -110,7 +110,7 @@ Basic authentication is to be used.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/Aa384067(v=VS.85).aspx">Passport authentication</a> is to be used.
+<a href="http.passport">Passport authentication</a> is to be used.
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ A pointer to a <a href="https://msdn.microsoft.com/5414d7b5-b506-4d0a-a4b8-89ab7
 
 ### -param *NextStep [in, out]
 
-A pointer to an  <a href="https://msdn.microsoft.com/en-us/library/Dd408151(v=VS.85).aspx">AUTHNEXTSTEP</a> enumeration value that specifies the next action that the WebDAV client should take after  a successful call to the <i>DavAuthCallback</i> callback function.
+A pointer to an  <a href="https://msdn.microsoft.com/e9ce9e61-c395-4f6b-843c-c1caa13ac3b4">AUTHNEXTSTEP</a> enumeration value that specifies the next action that the WebDAV client should take after  a successful call to the <i>DavAuthCallback</i> callback function.
 
 
 ### -param *pFreeCred [out]

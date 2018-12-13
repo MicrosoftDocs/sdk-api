@@ -79,7 +79,7 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 
 
-This method applies only when the WM ASF Writer filter is configured with a system profile. If the application provided its own ASF profile instead of a system profile (as is recommended), the profile GUID is GUID_NULL. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd312026(v=VS.85).aspx">IConfigAsfWriter::GetCurrentProfile</a> to get the current profile.
+This method applies only when the WM ASF Writer filter is configured with a system profile. If the application provided its own ASF profile instead of a system profile (as is recommended), the profile GUID is GUID_NULL. Applications should call <a href="https://msdn.microsoft.com/1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91">IConfigAsfWriter::GetCurrentProfile</a> to get the current profile.
 
 
 
@@ -97,7 +97,7 @@ This method applies only when the WM ASF Writer filter is configured with a syst
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
+<a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter Interface</a>
  
 
  

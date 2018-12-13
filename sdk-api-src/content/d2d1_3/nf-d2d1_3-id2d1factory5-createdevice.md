@@ -61,7 +61,7 @@ Creates an <a href="https://msdn.microsoft.com/B91E4E63-5FB5-4470-A3B9-F94008EAE
 
 ### -param dxgiDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>*</b>
 
 The IDXGIDevice object used when creating the <a href="https://msdn.microsoft.com/B91E4E63-5FB5-4470-A3B9-F94008EAE4E9">ID2D1Device4</a>.
 
@@ -77,7 +77,7 @@ The requested <a href="https://msdn.microsoft.com/B91E4E63-5FB5-4470-A3B9-F94008
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

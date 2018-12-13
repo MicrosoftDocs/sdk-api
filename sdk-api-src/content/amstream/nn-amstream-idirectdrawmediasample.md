@@ -56,9 +56,9 @@ The <code>IDirectDrawMediaSample</code> interface provides access to DirectDraw 
 
 The allocator for the Overlay Mixer filter creates samples that expose this interface. These samples are used for connections between the Overlay Mixer and upstream decoder filters. Decoder filters can use this interface to unlock the DirectDraw surface while still holding it, so that other components can access the surface.
 
-Samples that support this interface also support the <a href="https://msdn.microsoft.com/en-us/library/Dd407001(v=VS.85).aspx">IMediaSample</a> interface.
+Samples that support this interface also support the <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface.
 
-The Overlay Mixer's allocator exposes the <a href="https://msdn.microsoft.com/en-us/library/Dd406802(v=VS.85).aspx">IDirectDrawMediaSampleAllocator</a>.
+The Overlay Mixer's allocator exposes the <a href="https://msdn.microsoft.com/35fd81ce-058a-4caf-b1de-f669be586f33">IDirectDrawMediaSampleAllocator</a>.
 
 
 
@@ -80,7 +80,7 @@ The <b>IDirectDrawMediaSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406804(v=VS.85).aspx">GetSurfaceAndReleaseLock</a>
+<a href="https://msdn.microsoft.com/f2b30974-ed4a-4783-bda5-9e7f4f9b4aab">GetSurfaceAndReleaseLock</a>
 </td>
 <td align="left" width="63%">
 Retrieves and unlocks the surface that the sample represents.
@@ -89,7 +89,7 @@ Retrieves and unlocks the surface that the sample represents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406805(v=VS.85).aspx">LockMediaSamplePointer</a>
+<a href="https://msdn.microsoft.com/f711a82d-7560-43f8-8689-7f2fca77ae64">LockMediaSamplePointer</a>
 </td>
 <td align="left" width="63%">
 Locks the surface that the sample represents.

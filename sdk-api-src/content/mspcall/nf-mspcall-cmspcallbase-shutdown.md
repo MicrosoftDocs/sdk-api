@@ -53,7 +53,7 @@ req.redist:
 The 
 <b>ShutDown</b> method is called by the <b>MSPAddress</b> object (in the method 
 <a href="https://msdn.microsoft.com/6527db85-cad8-4b0d-977a-9ab8b047e44e">ShutdownMSPCall</a>) to shut down the call. The derived class implementation should shut down all the streams on the call. (See also 
-<a href="https://msdn.microsoft.com/en-us/library/ms726907(v=VS.85).aspx">CMSPCallMultiGraph::ShutDown</a>.)
+<a href="https://msdn.microsoft.com/cfcdf443-00c3-4cb5-abb1-1ec072272c0d">CMSPCallMultiGraph::ShutDown</a>.)
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>
+<a href="https://msdn.microsoft.com/77b53b66-38fa-4823-9051-e857da8a7dd7">CMSPCallBase</a>
  
 
  

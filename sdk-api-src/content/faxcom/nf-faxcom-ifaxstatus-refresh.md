@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Refresh</b> method updates <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object information for the associated parent <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object.
+The <b>Refresh</b> method updates <a href="https://msdn.microsoft.com/88f02cb1-df32-4fb8-9fe7-6c3abe1948dc">FaxStatus</a> object information for the associated parent <a href="https://msdn.microsoft.com/cc59452b-194e-4a68-955b-ac39cd5325ff">FaxPort</a> object.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Call the <b>IFaxStatus::Refresh</b> method to update the information for a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object. An application must call this method to poll a fax port for new status information. After you successfully call <b>IFaxStatus::Refresh</b>, you must call the appropriate <a href="https://msdn.microsoft.com/en-us/library/ms690794(v=VS.85).aspx">IFaxStatus</a> interface method to retrieve new attribute values that are valid.
+Call the <b>IFaxStatus::Refresh</b> method to update the information for a <a href="https://msdn.microsoft.com/88f02cb1-df32-4fb8-9fe7-6c3abe1948dc">FaxStatus</a> object. An application must call this method to poll a fax port for new status information. After you successfully call <b>IFaxStatus::Refresh</b>, you must call the appropriate <a href="https://msdn.microsoft.com/823cbedb-052a-4ac1-a73c-4bbafeac2523">IFaxStatus</a> interface method to retrieve new attribute values that are valid.
 
 It is recommended that you limit calls to this method because frequent calls to <b>IFaxStatus::Refresh</b> can affect system performance.
 
@@ -88,7 +88,7 @@ It is recommended that you limit calls to this method because frequent calls to 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690794(v=VS.85).aspx">IFaxStatus</a>
+<a href="https://msdn.microsoft.com/823cbedb-052a-4ac1-a73c-4bbafeac2523">IFaxStatus</a>
  
 
  

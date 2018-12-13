@@ -90,7 +90,7 @@ Fails with E_NOTIMPL if the effect does not support a generic parameter control 
 
 
 
-<b>GetEffectParameters</b> always returns the effect's actual current parameters. However, these may not match the parameters set by the most recent call to <a href="https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>: the actual parameters are only changed the next time the audio engine runs after the <b>IXAudio2Voice::SetEffectParameters</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetEffectParameters</b> was called with a deferred operation ID).
+<b>GetEffectParameters</b> always returns the effect's actual current parameters. However, these may not match the parameters set by the most recent call to <a href="https://msdn.microsoft.com/7A5217AE-D7D6-4D92-A14E-DA36854F4D3E">IXAudio2Voice::SetEffectParameters</a>: the actual parameters are only changed the next time the audio engine runs after the <b>IXAudio2Voice::SetEffectParameters</b> call (or after the corresponding <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetEffectParameters</b> was called with a deferred operation ID).
 
 
 
@@ -105,11 +105,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418443(v=VS.85).aspx">IXAPOParameters::GetParameters</a>
+<a href="https://msdn.microsoft.com/FBF27BCD-6B20-4D8A-BD9D-8E0889889F8B">IXAPOParameters::GetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
 
 
 

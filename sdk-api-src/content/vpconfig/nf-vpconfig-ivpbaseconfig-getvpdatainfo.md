@@ -63,7 +63,7 @@ The <code>GetVPDataInfo</code> method retrieves the current video port data info
 
 ### -param pamvpDataInfo [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373450(v=VS.85).aspx">AMVPDATAINFO</a> structure allocated by the caller. The device fills in the structure with information about the video port.
+Pointer to an <a href="https://msdn.microsoft.com/b71fc468-b0ba-4c75-b1db-b7802e598e96">AMVPDATAINFO</a> structure allocated by the caller. The device fills in the structure with information about the video port.
 
 
 ## -returns
@@ -93,7 +93,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig Interface</a>
+<a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig Interface</a>
  
 
  

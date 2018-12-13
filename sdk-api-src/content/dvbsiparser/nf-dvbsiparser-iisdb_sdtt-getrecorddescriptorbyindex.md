@@ -79,7 +79,7 @@ Specifies which descriptor to retrieve, indexed from zero.
 
 ### -param ppDescriptor [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface for the descriptor being retrieved. The caller is responsible for freeing this memory.
+Pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface for the descriptor being retrieved. The caller is responsible for freeing this memory.
 
 
 ## -returns
@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>
+<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>
 
 
 

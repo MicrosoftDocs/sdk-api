@@ -82,12 +82,12 @@ The size of the certificate data in bytes.
 
 ### -param SerialNumber [in]
 
-128-bit device identifier, stored in a <a href="https://msdn.microsoft.com/en-us/library/Dd798047(v=VS.85).aspx">DRM_VAL16</a> structure.
+128-bit device identifier, stored in a <a href="https://msdn.microsoft.com/8981042a-f11d-458d-be27-3b1749f9e995">DRM_VAL16</a> structure.
 
 
 ### -param ppDevice [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice</a> interface. This interface provides access to information about the registered device in the list that matches the other identifying parameters.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice</a> interface. This interface provides access to information about the registered device in the list that matches the other identifying parameters.
 
 
 ## -returns
@@ -148,7 +148,7 @@ The specified device is not registered.
 
 
 
-When your application receives messages from a device, you can use the methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd798321(v=VS.85).aspx">IWMDRMMessageParser</a> interface to extract the device certificate and device identifier. You can identify the device by using that data as inputs to this method.
+When your application receives messages from a device, you can use the methods of the <a href="https://msdn.microsoft.com/76e504e2-5978-4afd-9556-68f78c49a313">IWMDRMMessageParser</a> interface to extract the device certificate and device identifier. You can identify the device by using that data as inputs to this method.
 
 The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used in this release.
 
@@ -160,7 +160,7 @@ The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration Interface</a>
+<a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration Interface</a>
  
 
  

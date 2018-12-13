@@ -95,7 +95,7 @@ If the filter graph is already built and running, an application can call <b>Vie
 
 If the <b>View</b> method succeeds, you can obtain the input device by calling the <a href="https://msdn.microsoft.com/3451002b-5339-4b43-aefd-d66c48f7ae57">IMSVidCtl::get_InputActive</a> method.
 
-You can specify a particular input device by calling the <a href="https://msdn.microsoft.com/696d8ece-a377-4fe8-a790-a68d1a24e65a">IMSVidCtl::put_InputActive</a> method and then calling <a href="https://msdn.microsoft.com/en-us/library/Dd694577(v=VS.85).aspx">IMSVidInputDevice::View</a> on the device, instead of calling <b>View</b> on the Video Control. This might be useful if the local system has multiple devices of the same type. The <b>View</b> method is preferred, however, because it automatically locates the correct device type.
+You can specify a particular input device by calling the <a href="https://msdn.microsoft.com/696d8ece-a377-4fe8-a790-a68d1a24e65a">IMSVidCtl::put_InputActive</a> method and then calling <a href="https://msdn.microsoft.com/f106e520-86e5-4b7e-8e16-1f82797f128f">IMSVidInputDevice::View</a> on the device, instead of calling <b>View</b> on the Video Control. This might be useful if the local system has multiple devices of the same type. The <b>View</b> method is preferred, however, because it automatically locates the correct device type.
 
 
 #### Examples

@@ -156,7 +156,7 @@ Returns a nonzero error code if an error occurs. Returns E_ACCESSDENIED if the u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="authorization_functions.htm">Access Control Editor Functions</a>
 
 
 

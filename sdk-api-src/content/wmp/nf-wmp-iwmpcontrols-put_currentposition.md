@@ -99,11 +99,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563199(v=VS.85).aspx">IWMPControls::get_currentPosition</a>
+<a href="https://msdn.microsoft.com/ba7d42b4-2025-4881-b1eb-98636bb1c5ce">IWMPControls::get_currentPosition</a>
  
 
  

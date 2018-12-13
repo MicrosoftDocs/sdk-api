@@ -89,7 +89,7 @@ Sample duration, in 100-nanosecond units. This will usually be 10000 (1 millisec
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
@@ -109,7 +109,7 @@ Sample duration, in 100-nanosecond units. This will usually be 10000 (1 millisec
 
 ### -param pSample [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface on an object that contains the sample.
+Pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface on an object that contains the sample.
 
 
 ### -param pvContext [in]
@@ -140,11 +140,11 @@ Postview data is available only for video.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a>
+<a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798771(v=VS.85).aspx">IWMWriterPostViewCallback Interface</a>
+<a href="https://msdn.microsoft.com/987dd3b4-2245-4640-820c-5a9660ab5e37">IWMWriterPostViewCallback Interface</a>
  
 
  

@@ -4,7 +4,7 @@ title: MINIDUMP_CALLBACK_INPUT
 author: windows-sdk-content
 description: Contains information used by the MiniDumpCallback function.
 old-location: base\minidump_callback_input_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 0ce3083c-21c9-48a4-9099-1dab31afcafa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -89,11 +89,11 @@ The flags that can be specified have the following uses.
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
-<td>This is the same as a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">key frame</a>. It indicates a good point to go to during a seek, for example.</td>
+<td>This is the same as a <a href="wmformat_glossary.htm">key frame</a>. It indicates a good point to go to during a seek, for example.</td>
 </tr>
 <tr>
 <td>WM_SF_DISCONTINUITY</td>
@@ -109,7 +109,7 @@ The flags that can be specified have the following uses.
 
 ### -param pSample [in]
 
-Pointer to a sample stored in an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface. The reader calls <b>SAFE_RELEASE</b> on this pointer after your <b>OnStreamSample</b> method returns. You can call <b>AddRef</b> on this pointer if you need to keep a reference count on the buffer. Do not call <b>Release</b> on this pointer unless you have called <b>AddRef</b>.
+Pointer to a sample stored in an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface. The reader calls <b>SAFE_RELEASE</b> on this pointer after your <b>OnStreamSample</b> method returns. You can call <b>AddRef</b> on this pointer if you need to keep a reference count on the buffer. Do not call <b>Release</b> on this pointer unless you have called <b>AddRef</b>.
 
 
 ### -param pvContext [in]
@@ -138,9 +138,9 @@ If you receive compressed samples, you must either keep them compressed, or deco
 
 This method is not able to deliver secure content. If protected content is used, the method will return NS_E_PROTECTEDCONTENT.
 
-The samples delivered by this method are compressed, but are in all other ways exactly the same as samples delivered through <a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a>.
+The samples delivered by this method are compressed, but are in all other ways exactly the same as samples delivered through <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a>.
 
-To get samples for a particular stream, call <a href="https://msdn.microsoft.com/en-us/library/Dd743487(v=VS.85).aspx">IWMReaderAdvanced::SetReceiveStreamSamples</a>.
+To get samples for a particular stream, call <a href="https://msdn.microsoft.com/3fb39726-7f43-41ec-9ead-38456b5cd964">IWMReaderAdvanced::SetReceiveStreamSamples</a>.
 
 
 
@@ -150,7 +150,7 @@ To get samples for a particular stream, call <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/9d18961a-5ea4-4f3e-b473-7399e155f800">IWMReaderCallbackAdvanced Interface</a>
  
 
  

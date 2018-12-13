@@ -101,7 +101,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419970(v=VS.85).aspx">XMMatrixLookAtRH</a>
+<a href="https://msdn.microsoft.com/3367e751-e46f-49a2-a17a-18acec7bd901">XMMatrixLookAtRH</a>
  
 
  

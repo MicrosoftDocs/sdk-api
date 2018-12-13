@@ -129,15 +129,15 @@ Wildcard characters can be used in the list entries (using the * character). For
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743531(v=VS.85).aspx">IWMReaderNetworkConfig::GetProxyExceptionList</a>
+<a href="https://msdn.microsoft.com/90cf6e58-8666-4bab-974e-a7e999aeddf1">IWMReaderNetworkConfig::GetProxyExceptionList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743550(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxySettings</a>
+<a href="https://msdn.microsoft.com/fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2">IWMReaderNetworkConfig::SetProxySettings</a>
  
 
  

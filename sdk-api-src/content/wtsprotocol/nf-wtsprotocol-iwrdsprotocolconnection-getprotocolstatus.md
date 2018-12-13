@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::GetProtocolStatus
 author: windows-sdk-content
 description: Retrieves information about the protocol status.
 old-location: termserv\iwrdsprotocolconnection_getprotocolstatus.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: A89C2E3F-AC75-4CFB-9DA7-00DCEDCA1C1A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

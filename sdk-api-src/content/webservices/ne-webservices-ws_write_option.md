@@ -74,8 +74,8 @@ Api(..., &amp;value, sizeof(value), ...);</code></pre>
 <pre class="syntax" xml:space="preserve"><code>// always written
 &lt;element&gt;123&lt;/element&gt;</code></pre>
 This option is not supported for pointer types
-                    (<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>).  
-                    The <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_REQUIRED_POINTER</a> option should be used for these types.
+                    (<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>).  
+                    The <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_REQUIRED_POINTER</a> option should be used for these types.
                 
 
 
@@ -121,13 +121,13 @@ This option is only supported for the following types, listed below,
                     for each type for information on how nil is represented.
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_XML_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_BYTES_TYPE</a>
+<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_BYTES_TYPE</a>
 </li>
 </ul>
 

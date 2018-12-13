@@ -63,7 +63,7 @@ The <b>WMCreateDeviceRegistration</b> function creates a device registration obj
 
 ### -param ppDevReg [out]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration</a> interface of the newly created device registration object.
+Address of a pointer to the <a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration</a> interface of the newly created device registration object.
 
 
 ## -returns

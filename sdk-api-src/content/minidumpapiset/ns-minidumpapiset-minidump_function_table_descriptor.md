@@ -4,7 +4,7 @@ title: MINIDUMP_FUNCTION_TABLE_DESCRIPTOR
 author: windows-sdk-content
 description: Represents a function table stream.
 old-location: base\minidump_function_table_descriptor_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 284435dc-3443-4b26-9c13-ce9567482628
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TouchFileTimes function
 author: windows-sdk-content
 description: Updates the date and time at which the specified file was last modified.
 old-location: base\touchfiletimes.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: add84ca7-2497-4859-bc69-270ad493a08a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -98,7 +98,7 @@ Sets the pre-transform nib shape for this style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn900433(v=VS.85).aspx">SetNibTransform</a>
+<a href="https://msdn.microsoft.com/e2caee05-192c-1ea5-103c-e1d44e8c30a8">SetNibTransform</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the transform to apply to this style's nib shape.
 

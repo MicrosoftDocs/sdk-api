@@ -98,15 +98,15 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563289(v=VS.85).aspx">IWMPEvents2 Interface</a>
+<a href="https://msdn.microsoft.com/61cd0a2e-b94f-4c10-b3e2-ad1dc2a0b17d">IWMPEvents2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563743(v=VS.85).aspx">IWMPSyncDevice::isIdentical</a>
+<a href="https://msdn.microsoft.com/4335d480-5af0-4764-b8f8-0e6edc1598b7">IWMPSyncDevice::isIdentical</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564891(v=VS.85).aspx">WMPSyncState</a>
+<a href="https://msdn.microsoft.com/8f1e8026-bbde-42bc-8ac8-555cc363b0b9">WMPSyncState</a>
 
 
 

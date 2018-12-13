@@ -61,7 +61,7 @@ Creates a <a href="https://msdn.microsoft.com/5a04580d-c89f-4505-a4b7-0724ffb788
 ### -param listener [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> structure representing the listener for which to create a channel.  The listener 
-                    can be in any state. (For listener states, see the <a href="https://msdn.microsoft.com/en-us/library/Dd401952(v=VS.85).aspx">WS_LISTENER_STATE</a>  enumeration.)
+                    can be in any state. (For listener states, see the <a href="https://msdn.microsoft.com/275d0d36-f9a1-49a7-af74-e8967dff574a">WS_LISTENER_STATE</a>  enumeration.)
 
 
 ### -param properties
@@ -152,7 +152,7 @@ The security characteristics of the channel are the same as those
                 specified for the listener.
             
 
-When you create a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value of the <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CHANNEL_BINDING</a> enumeration), you can specify only the following channel properties: 
+When you create a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value of the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration), you can specify only the following channel properties: 
 
 <ul>
 <li>WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_CALLBACKS </li>

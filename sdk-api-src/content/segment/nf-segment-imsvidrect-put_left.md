@@ -90,11 +90,11 @@ Setting the left x-coordinate also changes the width of the rectangle. For examp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694605(v=VS.85).aspx">IMSVidRect::get_HWnd</a>
+<a href="https://msdn.microsoft.com/caa56beb-7eba-48a1-8645-f63666ba0593">IMSVidRect::get_HWnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694606(v=VS.85).aspx">IMSVidRect::get_Left</a>
+<a href="https://msdn.microsoft.com/9e64e560-033b-475a-a281-57af5f893e65">IMSVidRect::get_Left</a>
  
 
  

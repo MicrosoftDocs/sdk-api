@@ -72,7 +72,7 @@ The <b>IDCompositionFilterEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919731(v=VS.85).aspx">SetInput</a>
+<a href="https://msdn.microsoft.com/8DFF137E-2979-42D4-A8A5-F831A33468CA">SetInput</a>
 </td>
 <td align="left" width="63%">
 Sets the the input at an index to the specified filter effect.
@@ -91,7 +91,7 @@ Sets the the input at an index to the specified filter effect.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
  
 
  

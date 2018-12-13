@@ -58,7 +58,7 @@ The <b>IWMPControls3</b> interface provides methods that supplement the <b>IWMPC
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563180(v=VS.85).aspx">IWMPControls2</a>. <b>IWMPControls3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls3</b> interface inherits from <a href="https://msdn.microsoft.com/aadbd924-b583-4136-8d6c-e3c8c0b3872e">IWMPControls2</a>. <b>IWMPControls3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMPControls3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563187(v=VS.85).aspx">get_audioLanguageCount</a>
+<a href="https://msdn.microsoft.com/7c714f97-4f6b-4a8b-904c-3ce0f8057533">get_audioLanguageCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of supported audio languages.
@@ -82,7 +82,7 @@ Retrieves the count of supported audio languages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563188(v=VS.85).aspx">get_currentAudioLanguage</a>
+<a href="https://msdn.microsoft.com/6ea76479-950d-4bbf-a0e9-0e7b4ddecd52">get_currentAudioLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the locale identifier (LCID) of the audio language for playback.
@@ -100,7 +100,7 @@ Retrieves the one-based index that corresponds to the audio language for playbac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563190(v=VS.85).aspx">get_currentPositionTimecode</a>
+<a href="https://msdn.microsoft.com/dbf981d7-1787-462c-b0d2-fd705f07ee23">get_currentPositionTimecode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current position in the current media using a time code format. This property supports SMPTE time code.
@@ -109,7 +109,7 @@ Retrieves the current position in the current media using a time code format. Th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563184(v=VS.85).aspx">getAudioLanguageDescription</a>
+<a href="https://msdn.microsoft.com/4530267c-8b43-4778-a396-f365f6dae5f3">getAudioLanguageDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description for the audio language corresponding to the specified one-based index.
@@ -118,7 +118,7 @@ Retrieves the description for the audio language corresponding to the specified 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563185(v=VS.85).aspx">getAudioLanguageID</a>
+<a href="https://msdn.microsoft.com/50874485-23fc-48cc-9149-7cbc3b8c0c00">getAudioLanguageID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the LCID for a specified audio language index.
@@ -127,7 +127,7 @@ Retrieves the LCID for a specified audio language index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563186(v=VS.85).aspx">getLanguageName</a>
+<a href="https://msdn.microsoft.com/cbae09f6-be4d-4736-9e02-d5b85b82ae77">getLanguageName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the audio language with the specified LCID.
@@ -136,7 +136,7 @@ Retrieves the name of the audio language with the specified LCID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563191(v=VS.85).aspx">put_currentAudioLanguage</a>
+<a href="https://msdn.microsoft.com/7050ed77-f4bd-4c20-a661-fb0ea26af3a3">put_currentAudioLanguage</a>
 </td>
 <td align="left" width="63%">
 Specifies the LCID of the audio language for playback.
@@ -154,7 +154,7 @@ Specifies the one-based index that corresponds to the audio language for playbac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563193(v=VS.85).aspx">put_currentPositionTimecode</a>
+<a href="https://msdn.microsoft.com/35e32043-e613-4f23-b5ce-03bfe648a4c9">put_currentPositionTimecode</a>
 </td>
 <td align="left" width="63%">
 Specifies the current position in the current media using SMPTE time code format.
@@ -163,7 +163,7 @@ Specifies the current position in the current media using SMPTE time code format
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPControls3</b> interface by calling the <b>QueryInterface</b> method of an <a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls</a> interface.
+Retrieve a pointer to an <b>IWMPControls3</b> interface by calling the <b>QueryInterface</b> method of an <a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls</a> interface.
 	
 
 
@@ -172,11 +172,11 @@ Retrieve a pointer to an <b>IWMPControls3</b> interface by calling the <b>QueryI
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563180(v=VS.85).aspx">IWMPControls2 Interface</a>
+<a href="https://msdn.microsoft.com/aadbd924-b583-4136-8d6c-e3c8c0b3872e">IWMPControls2 Interface</a>
 
 
 

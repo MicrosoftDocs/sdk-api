@@ -56,14 +56,14 @@ req.redist:
 
 The <b>IWMSInternalAdminNetSource3</b> interface provides improved methods to find proxy servers.
 
-To obtain a pointer to an instance of this interface, call the <b>QueryInterface</b> method of the <b>IDispatch</b> method retrieved by <a href="https://msdn.microsoft.com/en-us/library/Dd743240(v=VS.85).aspx">INSNetSourceCreator::GetNetSourceAdminInterface</a>.
+To obtain a pointer to an instance of this interface, call the <b>QueryInterface</b> method of the <b>IDispatch</b> method retrieved by <a href="https://msdn.microsoft.com/147b431f-84ed-40b9-85a8-3c220b56cd3f">INSNetSourceCreator::GetNetSourceAdminInterface</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSInternalAdminNetSource3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd743718(v=VS.85).aspx">IWMSInternalAdminNetSource2</a>. <b>IWMSInternalAdminNetSource3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSInternalAdminNetSource3</b> interface inherits from <a href="https://msdn.microsoft.com/6d334725-11d5-4249-a83d-fc8c1c35a56f">IWMSInternalAdminNetSource2</a>. <b>IWMSInternalAdminNetSource3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IWMSInternalAdminNetSource3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798536(v=VS.85).aspx">DeleteCredentials</a>
+<a href="https://msdn.microsoft.com/16144c10-419c-4e6a-bc96-2f429c793257">DeleteCredentials</a>
 </td>
 <td align="left" width="63%">
 Removes a password from the cache.
@@ -87,7 +87,7 @@ Removes a password from the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743719(v=VS.85).aspx">DeleteCredentialsEx</a>
+<a href="https://msdn.microsoft.com/06d82f1d-b965-40fb-8a79-904ba5af7191">DeleteCredentialsEx</a>
 </td>
 <td align="left" width="63%">
 Removes a password from the cache.
@@ -96,7 +96,7 @@ Removes a password from the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798537(v=VS.85).aspx">FindProxyForURL</a>
+<a href="https://msdn.microsoft.com/5c05ed2b-98ff-417c-bc48-4e8a3dd95460">FindProxyForURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DNS name and port number of a proxy server that should be used for the client.
@@ -105,7 +105,7 @@ Retrieves the DNS name and port number of a proxy server that should be used for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743723(v=VS.85).aspx">FindProxyForURLEx2</a>
+<a href="https://msdn.microsoft.com/03c52ed2-bf77-4013-89d6-544d048f1056">FindProxyForURLEx2</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DNS name and port number of a proxy server that should be used for the client.
@@ -114,7 +114,7 @@ Retrieves the DNS name and port number of a proxy server that should be used for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798538(v=VS.85).aspx">GetCredentialFlags</a>
+<a href="https://msdn.microsoft.com/781b2868-c8e2-4d92-98f2-c2950fac3d9b">GetCredentialFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's preference for password caching.
@@ -123,7 +123,7 @@ Retrieves the user's preference for password caching.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798539(v=VS.85).aspx">GetCredentials</a>
+<a href="https://msdn.microsoft.com/e4d6bcc3-a32b-4270-8b43-f3b6a5046fd6">GetCredentials</a>
 </td>
 <td align="left" width="63%">
 Retrieves a password from the cache.
@@ -132,7 +132,7 @@ Retrieves a password from the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743720(v=VS.85).aspx">GetCredentialsEx</a>
+<a href="https://msdn.microsoft.com/5840fe0b-34f6-4e39-b55f-7e07b7795e52">GetCredentialsEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves a cached password.
@@ -141,7 +141,7 @@ Retrieves a cached password.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743724(v=VS.85).aspx">GetCredentialsEx2</a>
+<a href="https://msdn.microsoft.com/e351f403-4699-4666-b98f-2aed0b80e548">GetCredentialsEx2</a>
 </td>
 <td align="left" width="63%">
 Retrieves a cached password.
@@ -164,7 +164,7 @@ This method is not supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798540(v=VS.85).aspx">RegisterProxyFailure</a>
+<a href="https://msdn.microsoft.com/50a41a98-2827-425e-91fc-5196996abe98">RegisterProxyFailure</a>
 </td>
 <td align="left" width="63%">
 Registers a proxy failure.   
@@ -180,7 +180,7 @@ This method is not supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798541(v=VS.85).aspx">SetCredentialFlags</a>
+<a href="https://msdn.microsoft.com/af6208b3-84f6-44d1-9587-140044f2b2f0">SetCredentialFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the user's preference for password caching.
@@ -189,7 +189,7 @@ Sets the user's preference for password caching.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798542(v=VS.85).aspx">SetCredentials</a>
+<a href="https://msdn.microsoft.com/c0655ed3-8d14-447a-b74f-054498eb75e9">SetCredentials</a>
 </td>
 <td align="left" width="63%">
 Saves a password to the cache.
@@ -198,7 +198,7 @@ Saves a password to the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743721(v=VS.85).aspx">SetCredentialsEx</a>
+<a href="https://msdn.microsoft.com/ca45626e-3f4d-415d-a4d1-90ce0177bd10">SetCredentialsEx</a>
 </td>
 <td align="left" width="63%">
 Saves a password to the cache.
@@ -207,7 +207,7 @@ Saves a password to the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798534(v=VS.85).aspx">SetCredentialsEx2</a>
+<a href="https://msdn.microsoft.com/6d4fbd40-46f8-4f9e-b2bc-43c09acf4d67">SetCredentialsEx2</a>
 </td>
 <td align="left" width="63%">
 Adds a password to the cache.
@@ -216,7 +216,7 @@ Adds a password to the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798543(v=VS.85).aspx">ShutdownProxyContext</a>
+<a href="https://msdn.microsoft.com/95c6f641-e0b1-4391-b4bd-b43c03a330b4">ShutdownProxyContext</a>
 </td>
 <td align="left" width="63%">
 Releases internally allocated resources used in finding proxy servers.
@@ -225,7 +225,7 @@ Releases internally allocated resources used in finding proxy servers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798535(v=VS.85).aspx">ShutdownProxyContext2</a>
+<a href="https://msdn.microsoft.com/83f4f504-6447-4792-9fc2-1bf479f1e6a2">ShutdownProxyContext2</a>
 </td>
 <td align="left" width="63%">
 Releases internally allocated resources used in finding proxy servers.
@@ -240,11 +240,11 @@ Releases internally allocated resources used in finding proxy servers.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
+<a href="https://msdn.microsoft.com/0fbdad85-d94a-4598-bb25-f733df33692a">IWMSInternalAdminNetSource Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743718(v=VS.85).aspx">IWMSInternalAdminNetSource2 Interface</a>
+<a href="https://msdn.microsoft.com/6d334725-11d5-4249-a83d-fc8c1c35a56f">IWMSInternalAdminNetSource2 Interface</a>
 
 
 

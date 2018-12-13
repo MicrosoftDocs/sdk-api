@@ -93,7 +93,7 @@ If the <i>ProcessInformationClass</i> parameter is
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessLeapSecondInfo</b>, this parameter must point to a 
-       <a href="https://msdn.microsoft.com/en-us/library/Mt829716(v=VS.85).aspx">PROCESS_LEAP_SECOND_INFO</a> structure.
+       <a href="base.process_leap_second_info">PROCESS_LEAP_SECOND_INFO</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessAppMemoryInfo</b>, this parameter must point to a 

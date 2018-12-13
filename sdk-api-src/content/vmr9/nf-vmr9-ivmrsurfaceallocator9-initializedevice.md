@@ -64,12 +64,12 @@ The <b>InitializeDevice</b> method is called by the Video Mixing Renderer 9 (VMR
 
 ### -param dwUserID [in]
 
-Application-defined identifier. This value is the same value that the application passed to the <a href="https://msdn.microsoft.com/en-us/library/Dd390509(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator</a> method in the <i>dwUserID</i> parameter.
+Application-defined identifier. This value is the same value that the application passed to the <a href="https://msdn.microsoft.com/99f9c549-e4b1-480b-97a4-7a29c9cdb649">IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator</a> method in the <i>dwUserID</i> parameter.
 
 
 ### -param lpAllocInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407358(v=VS.85).aspx">VMR9AllocationInfo</a> structure that contains a description of the surfaces to create.
+Pointer to a <a href="https://msdn.microsoft.com/d263b004-30e6-4dff-9df2-f4ca492f09f7">VMR9AllocationInfo</a> structure that contains a description of the surfaces to create.
 
 
 ### -param lpNumBuffers [in, out]
@@ -109,7 +109,7 @@ The method succeeded.
 
 
 
-Implement this method if you are providing a custom allocator-presenter for the VMR-9. You can use the <a href="https://msdn.microsoft.com/en-us/library/Dd390510(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper</a> method on the VMR-9 to allocate the surfaces.
+Implement this method if you are providing a custom allocator-presenter for the VMR-9. You can use the <a href="https://msdn.microsoft.com/b69db9e9-6ab0-40ad-b929-30613c0b9e4b">IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper</a> method on the VMR-9 to allocate the surfaces.
 
 Include DShow.h and D3d9.h before Vmr9.h.
       
@@ -126,7 +126,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390500(v=VS.85).aspx">IVMRSurfaceAllocator9 Interface</a>
+<a href="https://msdn.microsoft.com/dd187168-19c7-414c-a764-f180d1d310f2">IVMRSurfaceAllocator9 Interface</a>
 
 
 

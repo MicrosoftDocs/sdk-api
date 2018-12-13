@@ -75,7 +75,7 @@ The <b>IWMWriterPostView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798774(v=VS.85).aspx">GetAllocateForPostView</a>
+<a href="https://msdn.microsoft.com/bd17eeec-a1ce-42db-a807-008ca2c4194f">GetAllocateForPostView</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the application, and not the writer, must supply the buffers.
@@ -84,7 +84,7 @@ Ascertains whether the application, and not the writer, must supply the buffers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798775(v=VS.85).aspx">GetPostViewFormat</a>
+<a href="https://msdn.microsoft.com/3636833d-3c96-45d9-bf82-e3ff930c7d9b">GetPostViewFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media properties for the specified output stream and output format.
@@ -93,7 +93,7 @@ Retrieves the media properties for the specified output stream and output format
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798776(v=VS.85).aspx">GetPostViewFormatCount</a>
+<a href="https://msdn.microsoft.com/b34b2418-5ae4-49a2-913a-bb4ac604ac4e">GetPostViewFormatCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of possible output formats.
@@ -102,7 +102,7 @@ Retrieves the number of possible output formats.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798778(v=VS.85).aspx">GetPostViewProps</a>
+<a href="https://msdn.microsoft.com/39dc32d1-53e5-43b5-bc96-074dc286890e">GetPostViewProps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties for the specified output stream.
@@ -111,7 +111,7 @@ Retrieves the properties for the specified output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798779(v=VS.85).aspx">GetReceivePostViewSamples</a>
+<a href="https://msdn.microsoft.com/93120e68-2d1c-4628-8e2e-d22a56fa98a3">GetReceivePostViewSamples</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether delivery of postview samples is enabled for the specified stream.
@@ -120,7 +120,7 @@ Ascertains whether delivery of postview samples is enabled for the specified str
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798780(v=VS.85).aspx">SetAllocateForPostView</a>
+<a href="https://msdn.microsoft.com/995bf3fa-3e10-46a2-ad51-55375d6af447">SetAllocateForPostView</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the application, and not the writer, must supply the buffers.
@@ -129,7 +129,7 @@ Specifies whether the application, and not the writer, must supply the buffers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798781(v=VS.85).aspx">SetPostViewCallback</a>
+<a href="https://msdn.microsoft.com/c2814f32-1787-44a6-8ffc-5d2a9aca8601">SetPostViewCallback</a>
 </td>
 <td align="left" width="63%">
 Specifies the callback interface to use for receiving postview samples.
@@ -138,7 +138,7 @@ Specifies the callback interface to use for receiving postview samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798782(v=VS.85).aspx">SetPostViewProps</a>
+<a href="https://msdn.microsoft.com/e5b92065-fff3-41d2-b263-375ae14869e5">SetPostViewProps</a>
 </td>
 <td align="left" width="63%">
 Specifies the properties for the output stream.
@@ -147,7 +147,7 @@ Specifies the properties for the output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798783(v=VS.85).aspx">SetReceivePostViewSamples</a>
+<a href="https://msdn.microsoft.com/6d58671a-357b-412b-ad77-61866b0dcce3">SetReceivePostViewSamples</a>
 </td>
 <td align="left" width="63%">
 Enables or disables delivery of postview samples for the specified stream.
@@ -165,7 +165,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798771(v=VS.85).aspx">IWMWriterPostViewCallback Interface</a>
+<a href="https://msdn.microsoft.com/987dd3b4-2245-4640-820c-5a9660ab5e37">IWMWriterPostViewCallback Interface</a>
 
 
 

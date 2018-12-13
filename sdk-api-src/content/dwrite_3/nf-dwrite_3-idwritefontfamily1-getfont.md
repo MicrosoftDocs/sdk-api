@@ -67,9 +67,9 @@ Zero-based index of the font in the font list.
 
 ### -param font [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a> interface for the newly created font object.
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a> interface for the newly created font object.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894590(v=VS.85).aspx">IDWriteFontFamily1</a>
+<a href="https://msdn.microsoft.com/0642C2FA-03D0-4233-B8C4-27E4549B30BB">IDWriteFontFamily1</a>
  
 
  

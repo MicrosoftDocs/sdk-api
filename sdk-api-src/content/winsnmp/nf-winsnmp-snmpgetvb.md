@@ -79,13 +79,13 @@ Valid values for this parameter are in the range from 1 to n, where 1 indicates 
 ### -param name [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure to receive the variable name of the variable binding entry.
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure to receive the variable name of the variable binding entry.
 
 
 ### -param value [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a> structure to receive the value associated with the variable identified by the <i>name</i> parameter. 
+<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a> structure to receive the value associated with the variable identified by the <i>name</i> parameter. 
 
 
 
@@ -339,8 +339,8 @@ The
 
 On input, the 
 <b>SnmpGetVb</b> function ignores the members of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a> structures pointed to by the <i>name</i> and <i>value</i> parameters respectively. The Microsoft WinSNMP implementation overwrites the members if the function completes successfully.
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> and 
+<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a> structures pointed to by the <i>name</i> and <i>value</i> parameters respectively. The Microsoft WinSNMP implementation overwrites the members if the function completes successfully.
 
 Valid values for a WinSNMP application to use for the <i>index</i> parameter are as follows:
 
@@ -352,11 +352,11 @@ Valid values for a WinSNMP application to use for the <i>index</i> parameter are
 </ul>
 The WinSNMP application must call the 
 <a href="https://msdn.microsoft.com/535f728d-6964-47b6-9913-7cd38356053d">SnmpFreeDescriptor</a> function to free resources allocated for the <b>ptr</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure pointed to by the <i>name</i> parameter. The application must also call the 
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure pointed to by the <i>name</i> parameter. The application must also call the 
 <b>SnmpFreeDescriptor</b> function to release resources allocated for the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a> structure pointed to by the <i>value</i> parameter under the conditions following. If the <b>value</b> member is an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> or an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure, the application must call 
+<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a> structure pointed to by the <i>value</i> parameter under the conditions following. If the <b>value</b> member is an 
+<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> or an 
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure, the application must call 
 <a href="https://msdn.microsoft.com/535f728d-6964-47b6-9913-7cd38356053d">SnmpFreeDescriptor</a> to free the resources allocated for these structures. For additional information, see 
 <a href="https://msdn.microsoft.com/52e911f3-9b28-4ac3-a080-44fb18f5633e">WinSNMP Data Management Concepts</a>.
 
@@ -389,15 +389,15 @@ The WinSNMP application must call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a>
+<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a>
+<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a>
+<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a>
  
 
  

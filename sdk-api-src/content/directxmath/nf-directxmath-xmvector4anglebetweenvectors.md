@@ -81,7 +81,7 @@ Returns a vector. The radian angle between <i>V1</i> and <i>V2</i> is replicated
 
 
 
-If V1 and V2 are normalized 4D vectors, it is faster to use <a href="https://msdn.microsoft.com/en-us/library/Ee420951(v=VS.85).aspx">XMVector4AngleBetweenNormals</a>.
+If V1 and V2 are normalized 4D vectors, it is faster to use <a href="https://msdn.microsoft.com/4740feb6-a054-4434-b6e8-0f97ad292253">XMVector4AngleBetweenNormals</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.

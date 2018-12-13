@@ -60,7 +60,7 @@ Creates a 3D 4-by-4 matrix transform object.
 
 ### -param matrixTransform3D [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437425(v=VS.85).aspx">IDCompositionMatrixTransform3D</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/56C9A564-2504-4940-B850-D280C8E0CF82">IDCompositionMatrixTransform3D</a>**</b>
 
 The new 3D matrix transform object. This parameter must not be NULL.
 
@@ -82,7 +82,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 The new 3D matrix transform has the identity matrix as its value. The identity matrix is the 4-by-4 matrix with ones on the main diagonal and zeros elsewhere, as shown in the following illustration. 
 
-<img alt="Four-by-four identity matrix" src="./images/identity_4x4matrix.png"/>
+<img alt="Four-by-four identity matrix" src="images/identity_4x4matrix.png"/>
 
 When an identity transform is applied to an object, it does not change the position, shape, or size of the object. It is similar to the way that multiplying a number by one does not change the number. Any transform other than the identity transform will modify the position, shape, and/or size of objects.
 
@@ -94,11 +94,11 @@ When an identity transform is applied to an object, it does not change the posit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">DCompositionEffectGroup::SetTransform3D</a>
+<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">DCompositionEffectGroup::SetTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
  
 
  

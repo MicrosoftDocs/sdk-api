@@ -58,7 +58,7 @@ The <b>IWMPQuery</b> interface represents a compound query.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPQuery</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPQuery</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPQuery</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWMPQuery</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMPQuery</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563631(v=VS.85).aspx">addCondition</a>
+<a href="https://msdn.microsoft.com/d60474ce-a785-40b1-a4fb-80dc22fddedb">addCondition</a>
 </td>
 <td align="left" width="63%">
 Adds a condition to the compound query using AND logic.
@@ -82,7 +82,7 @@ Adds a condition to the compound query using AND logic.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563632(v=VS.85).aspx">beginNextGroup</a>
+<a href="https://msdn.microsoft.com/c81a8125-2cfa-40e2-afc5-672c2866b880">beginNextGroup</a>
 </td>
 <td align="left" width="63%">
 Begins a new condition group.
@@ -97,15 +97,15 @@ Begins a new condition group.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563407(v=VS.85).aspx">IWMPMediaCollection2::createQuery</a>
+<a href="https://msdn.microsoft.com/b1e6bf08-3b81-4c04-92ff-73eac5f7495a">IWMPMediaCollection2::createQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563409(v=VS.85).aspx">IWMPMediaCollection2::getPlaylistByQuery</a>
+<a href="https://msdn.microsoft.com/b3d4586b-c999-447c-b974-15bd0ef160a6">IWMPMediaCollection2::getPlaylistByQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563410(v=VS.85).aspx">IWMPMediaCollection2::getStringCollectionByQuery</a>
+<a href="https://msdn.microsoft.com/070bc947-bf2b-4c06-9ffa-6a23625d178a">IWMPMediaCollection2::getStringCollectionByQuery</a>
 
 
 

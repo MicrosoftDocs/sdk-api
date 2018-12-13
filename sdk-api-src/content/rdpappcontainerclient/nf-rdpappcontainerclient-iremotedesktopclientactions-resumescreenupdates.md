@@ -4,7 +4,7 @@ title: IRemoteDesktopClientActions::ResumeScreenUpdates
 author: windows-sdk-content
 description: Resumes screen updates being sent to the client.
 old-location: termserv\iremotedesktopclientactions_resumescreenupdates.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: be11f1c8-eb55-4ed3-80ca-eda9ee21c92c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

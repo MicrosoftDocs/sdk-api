@@ -53,7 +53,7 @@ req.redist:
 Specifies a collection of information about a physical disk resource, such as its device name and volume label. 
     The <b>CLUSPROP_PARTITION_INFO_EX</b> 
     structure contains information relevant to 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resources</a>. It is 
+    <a href="s_gly.htm">storage class resources</a>. It is 
     used as an entry in a <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> and consists of:
 <ul>
 <li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing the format, 

@@ -97,15 +97,15 @@ If the AxisZ property was previously animated, this method removes the animation
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx">IDCompositionRotateTransform3D</a>
+<a href="https://msdn.microsoft.com/BEC58B57-66A1-4645-A0B8-D546334E1E23">IDCompositionRotateTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448939(v=VS.85).aspx">IDCompositionRotateTransform3D::SetAxisX</a>
+<a href="https://msdn.microsoft.com/6ADBB027-8F80-4DF3-9199-DDB6570DF81B">IDCompositionRotateTransform3D::SetAxisX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448945(v=VS.85).aspx">IDCompositionRotateTransform3D::SetAxisY</a>
+<a href="https://msdn.microsoft.com/C86E4D59-4E9D-44BF-BA9D-91714D0C2D37">IDCompositionRotateTransform3D::SetAxisY</a>
  
 
  

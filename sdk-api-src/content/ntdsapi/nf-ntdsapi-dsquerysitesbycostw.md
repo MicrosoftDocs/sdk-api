@@ -87,7 +87,7 @@ Reserved.
 
 ### -param prgSiteInfo [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms676286(v=VS.85).aspx">DS_SITE_COST_INFO</a> structures that receives the cost data. Each element in this array contains the cost data between the site identified by the <i>pwszFromSite</i> parameter and the site identified by the corresponding <i>rgwszToSites</i> element.
+Pointer to an array of <a href="https://msdn.microsoft.com/1920e824-992f-4d69-9b6d-586f58fa2ef7">DS_SITE_COST_INFO</a> structures that receives the cost data. Each element in this array contains the cost data between the site identified by the <i>pwszFromSite</i> parameter and the site identified by the corresponding <i>rgwszToSites</i> element.
 
 The caller must free this memory when it is no longer required by calling <a href="https://msdn.microsoft.com/810caa4f-8275-4ad8-ad3e-72061fc073dd">DsQuerySitesFree</a>.
 
@@ -116,7 +116,7 @@ The cost values obtained by this function are only used to compare and have no m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676286(v=VS.85).aspx">DS_SITE_COST_INFO</a>
+<a href="https://msdn.microsoft.com/1920e824-992f-4d69-9b6d-586f58fa2ef7">DS_SITE_COST_INFO</a>
 
 
 

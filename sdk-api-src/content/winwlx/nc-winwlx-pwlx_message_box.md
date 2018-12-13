@@ -274,7 +274,7 @@ The caller is a service notifying the user of an event. The function brings up a
 </td>
 <td width="60%">
 The message box becomes the foreground window. Internally, Windows calls the 
-<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function for the message box.
+<a href="_win32_setforegroundwindow_cpp">SetForegroundWindow</a> function for the message box.
 
 </td>
 </tr>
@@ -430,7 +430,7 @@ The <b>WlxMessageBox</b> function does not handle <a href="https://msdn.microsof
 <a href="https://msdn.microsoft.com/98541411-45c7-4c23-95a0-c76022184db3">WlxDialogBoxIndirectParam</a> function for security dialog boxes.
 
 <b>WlxMessageBox</b> duplicates the Windows 
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> function, with the exception that this function also allows Winlogon to time out the dialog box. For more information, see 
+<a href="_win32_messagebox_cpp">MessageBox</a> function, with the exception that this function also allows Winlogon to time out the dialog box. For more information, see 
 <b>MessageBox</b>.
 
 
@@ -441,11 +441,11 @@ The <b>WlxMessageBox</b> function does not handle <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>
+<a href="_win32_messagebox_cpp">MessageBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="_win32_setforegroundwindow_cpp">SetForegroundWindow</a>
 
 
 

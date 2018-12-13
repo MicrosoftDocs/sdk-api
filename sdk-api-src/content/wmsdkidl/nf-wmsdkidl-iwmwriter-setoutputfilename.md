@@ -123,9 +123,9 @@ The writer is not in a configurable state.
 
 
 
-This method is equivalent to creating a file sink with an index of 0 and adding it through a call to <a href="https://msdn.microsoft.com/en-us/library/Dd798727(v=VS.85).aspx">IWMWriterAdvanced::AddSink</a>, and is provided for convenience.
+This method is equivalent to creating a file sink with an index of 0 and adding it through a call to <a href="https://msdn.microsoft.com/65763ac3-fba0-4de6-9c2e-4e241bbe5f13">IWMWriterAdvanced::AddSink</a>, and is provided for convenience.
 
-You can obtain a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink</a> interface of the file sink created by this method by calling <a href="https://msdn.microsoft.com/en-us/library/Dd798728(v=VS.85).aspx">IWMWriterAdvanced::GetSink</a>. This is important because the writer does not deliver status messages for the sinks associated with it. You can call <b>QueryInterface</b> on <b>IWMWriterSink</b> to obtain a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743613(v=VS.85).aspx">IWMRegisterCallback</a>, which is used to set an <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback method to which the sink will deliver status messages.
+You can obtain a pointer to the <a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink</a> interface of the file sink created by this method by calling <a href="https://msdn.microsoft.com/6775eb89-a3af-42d2-b1e3-197abb1fce61">IWMWriterAdvanced::GetSink</a>. This is important because the writer does not deliver status messages for the sinks associated with it. You can call <b>QueryInterface</b> on <b>IWMWriterSink</b> to obtain a pointer to the <a href="https://msdn.microsoft.com/3831b727-7fdc-4d05-a7b3-86ca5b5c3b17">IWMRegisterCallback</a>, which is used to set an <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback method to which the sink will deliver status messages.
 
 
 
@@ -135,7 +135,7 @@ You can obtain a pointer to the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
 
 
 

@@ -83,19 +83,23 @@ Returns a vector containing the results of each component test.
 
 The following pseudocode demonstrates the operation of the function:
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
-```
-XMVECTOR Result;
+Result.x = (V1.x &gt; V2.x) ? 0xFFFFFFFF : 0;
+Result.y = (V1.y &gt; V2.y) ? 0xFFFFFFFF : 0;
+Result.z = (V1.z &gt; V2.z) ? 0xFFFFFFFF : 0;
+Result.w = (V1.w &gt; V2.w) ? 0xFFFFFFFF : 0;
 
-Result.x = (V1.x > V2.x) ? 0xFFFFFFFF : 0;
-Result.y = (V1.y > V2.y) ? 0xFFFFFFFF : 0;
-Result.z = (V1.z > V2.z) ? 0xFFFFFFFF : 0;
-Result.w = (V1.w > V2.w) ? 0xFFFFFFFF : 0;
-
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
@@ -111,7 +115,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404799(v=VS.85).aspx">XMVectorGreaterR</a>
+<a href="https://msdn.microsoft.com/af896b54-c2a9-476f-871a-6fa9f387eb99">XMVectorGreaterR</a>
  
 
  

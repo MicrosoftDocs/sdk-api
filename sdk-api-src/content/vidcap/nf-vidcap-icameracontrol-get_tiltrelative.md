@@ -67,7 +67,7 @@ The <code>get_TiltRelative</code> method returns the camera's relative tilt. The
 
 ### -param pValue [out]
 
-Receives the relative tilt. The size of the value represents the desired tilt speed; a higher value represents a higher speed. To get the range of possible values, call <a href="https://msdn.microsoft.com/en-us/library/Dd376310(v=VS.85).aspx">ICameraControl::getRange_TiltRelative</a>.
+Receives the relative tilt. The size of the value represents the desired tilt speed; a higher value represents a higher speed. To get the range of possible values, call <a href="https://msdn.microsoft.com/8b78e961-8b05-4339-ad66-49f2d892d4dc">ICameraControl::getRange_TiltRelative</a>.
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ Receives the relative tilt. The size of the value represents the desired tilt sp
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>.
 
 
 ## -returns
@@ -115,7 +115,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
  
 
  

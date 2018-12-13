@@ -4,7 +4,7 @@ title: SymGetTypeInfo function
 author: windows-sdk-content
 description: Retrieves type information for the specified type index.
 old-location: base\symgettypeinfo.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: bc94a5b1-d49d-425a-89a8-c584c3979930
 ms.author: windowssdkdev
 ms.date: 12/5/2018

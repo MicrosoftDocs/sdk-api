@@ -72,9 +72,9 @@ A reference to the <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-d
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a></b>
+Type: <b><a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a></b>
 
-Flags that specify special options used in the retrieval of the known folder <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>. This value can be <b>KF_FLAG_DEFAULT</b>; otherwise, one or more of the <a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a> values.
+Flags that specify special options used in the retrieval of the known folder <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>. This value can be <b>KF_FLAG_DEFAULT</b>; otherwise, one or more of the <a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a> values.
 
 
 ### -param hToken [in]

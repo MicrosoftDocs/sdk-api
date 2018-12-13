@@ -64,7 +64,7 @@ The <code>SetColorKey</code> method sets the color key being used by a video str
 
 ### -param pColorKey [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd387889(v=VS.85).aspx">COLORKEY</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/1563488a-e4e5-472d-b665-5bbcb13fad1a">COLORKEY</a> structure.
 
 
 ## -returns

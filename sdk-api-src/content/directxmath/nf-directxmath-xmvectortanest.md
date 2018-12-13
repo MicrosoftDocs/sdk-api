@@ -95,7 +95,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421361(v=VS.85).aspx">XMVectorTan</a>
+<a href="https://msdn.microsoft.com/6555d1a8-fb83-4e29-877f-3efb845eb620">XMVectorTan</a>
  
 
  

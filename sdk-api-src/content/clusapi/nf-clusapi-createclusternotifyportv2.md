@@ -71,7 +71,7 @@ A handle to a notification port or <b>INVALID_HANDLE_VALUE</b>, indicating that 
 
 ### -param hCluster [in]
 
-A handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> to be associated with the 
+A handle to the <a href="c_gly.htm">cluster</a> to be associated with the 
        notification port that is  identified by the  <i>hChange</i>    parameter or 
        <b>INVALID_HANDLE_VALUE</b>, indicating that the notification port should not be associated 
        with a cluster. If the  <i>hChange</i>  parameter  is not set to 

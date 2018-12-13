@@ -139,7 +139,7 @@ Pointer to  a  null-terminated Unicode string that contains the name of the serv
 
 
 
-This structure is specific to the <b>CLSID_DsQuery</b> query handler. This structure is used for the <b>pHandlerParameters</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms677622(v=VS.85).aspx">OPENQUERYWINDOW</a> structure when <b>CLSID_DsQuery</b> is set for the <b>clsidHandler</b> member of the 
+This structure is specific to the <b>CLSID_DsQuery</b> query handler. This structure is used for the <b>pHandlerParameters</b> member of the <a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a> structure when <b>CLSID_DsQuery</b> is set for the <b>clsidHandler</b> member of the 
 <b>OPENQUERYWINDOW</b> structure. For more information, and a code example for  using this, and other related APIs, see 
 <a href="https://msdn.microsoft.com/604c4d7a-1f85-4e5b-9879-be502c5c7bff">ICommonQuery::OpenQueryWindow</a>.
 
@@ -164,7 +164,7 @@ This structure is specific to the <b>CLSID_DsQuery</b> query handler. This struc
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms677622(v=VS.85).aspx">OPENQUERYWINDOW</a>
+<a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a>
  
 
  

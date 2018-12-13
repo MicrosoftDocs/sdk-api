@@ -157,7 +157,7 @@ This method is called to enable logging of certain ASX events when an ASX file c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
 
 
 

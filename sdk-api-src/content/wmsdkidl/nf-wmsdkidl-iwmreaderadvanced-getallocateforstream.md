@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetAllocateForStream</b> method ascertains whether the reader is configured to use <a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced</a> to allocate stream samples delivered by the <a href="https://msdn.microsoft.com/en-us/library/Dd743500(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnStreamSample</a> callback.
+The <b>GetAllocateForStream</b> method ascertains whether the reader is configured to use <a href="https://msdn.microsoft.com/9d18961a-5ea4-4f3e-b473-7399e155f800">IWMReaderCallbackAdvanced</a> to allocate stream samples delivered by the <a href="https://msdn.microsoft.com/6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8">IWMReaderCallbackAdvanced::OnStreamSample</a> callback.
 
 
 
@@ -97,11 +97,11 @@ Stream numbers are in the range of 1 through 63.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743482(v=VS.85).aspx">IWMReaderAdvanced::SetAllocateForStream</a>
+<a href="https://msdn.microsoft.com/58c396a9-5d1e-4a13-a877-5289649a6375">IWMReaderAdvanced::SetAllocateForStream</a>
  
 
  

@@ -112,11 +112,11 @@ Each time playback is stopped and restarted, the value retrieved from this metho
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563243(v=VS.85).aspx">IWMPCore::put_URL</a>
+<a href="https://msdn.microsoft.com/0a8625b9-19a1-41dc-9bb8-afca4bfebf5a">IWMPCore::put_URL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the array of 32-bit floating point values that is stored in the current <a href="https://msdn.microsoft.com/en-us/library/BR224510(v=VS.85).aspx">IPropertyValue</a> object.
+Gets the array of 32-bit floating point values that is stored in the current <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">IPropertyValue</a> object.
 
 
 ## -parameters

@@ -104,7 +104,7 @@ This method returns CLSID_StdURLMoniker.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389526(v=VS.85).aspx">IBaseFilter</a>
+<a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a>
 
 
 

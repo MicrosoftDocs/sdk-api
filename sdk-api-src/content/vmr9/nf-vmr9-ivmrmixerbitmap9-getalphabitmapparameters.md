@@ -64,7 +64,7 @@ The <code>GetAlphaBitmapParameters</code> method retrieves a copy of the current
 
 ### -param pBmpParms [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407359(v=VS.85).aspx">VMR9AlphaBitmap</a> structure that receives the bitmap, information about the blending values, and the location to blend it.
+Pointer to a <a href="https://msdn.microsoft.com/62214c24-0a4b-43c3-91dc-3eb6e5df3d94">VMR9AlphaBitmap</a> structure that receives the bitmap, information about the blending values, and the location to blend it.
 
 
 ## -returns
@@ -131,7 +131,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390449(v=VS.85).aspx">IVMRMixerBitmap9 Interface</a>
+<a href="https://msdn.microsoft.com/de48307a-3522-49a0-b0a5-73ce7cf90517">IVMRMixerBitmap9 Interface</a>
 
 
 

@@ -72,7 +72,7 @@ The <b>IDCompositionMatrixTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh437430(v=VS.85).aspx">SetMatrix</a>
+<a href="https://msdn.microsoft.com/1f164dfd-8bd4-4f6e-a5d2-d455808b5b0f">SetMatrix</a>
 </td>
 <td align="left" width="63%">
 Changes all values of the matrix of this 2D transform.

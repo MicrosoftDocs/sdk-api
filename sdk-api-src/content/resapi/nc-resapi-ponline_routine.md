@@ -94,7 +94,7 @@ On input, <i>EventHandle</i> is <b>NULL</b>. On output,
 </td>
 <td width="60%">
 The operation was successful, and the resource is now 
-         <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">online</a>.
+         <a href="o_gly.htm">online</a>.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The operation was successful, and the resource is now
 </td>
 <td width="60%">
 The resource was arbitrated with some other systems, and one of the other systems won the arbitration. Only 
-         <a href="https://msdn.microsoft.com/en-us/library/Aa371820(v=VS.85).aspx">quorum-capable resources</a> return this 
+         <a href="q_gly.htm">quorum-capable resources</a> return this 
          value.
 
 </td>
@@ -157,7 +157,7 @@ For effective implementation strategies of the <i>Online</i>
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

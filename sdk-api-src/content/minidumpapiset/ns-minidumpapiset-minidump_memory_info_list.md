@@ -4,7 +4,7 @@ title: MINIDUMP_MEMORY_INFO_LIST
 author: windows-sdk-content
 description: Contains a list of memory regions.
 old-location: base\minidump_memory_info_list_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: c1c9a79b-a35a-47e8-be4c-10b3c4ace937
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -114,7 +114,7 @@ The <i>pwszInputName</i> parameter is <b>NULL</b>.
 
 This method is purely for the convenience of the developer during profile manipulation and file writing. The name assigned using this method is not stored in the header section of ASF files created using the profile and is therefore not available through the reader object or synchronous reader object.
 
-The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
+The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
 
 
 
@@ -124,11 +124,11 @@ The new value will not take effect in the profile until you call <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798560(v=VS.85).aspx">IWMStreamConfig::GetConnectionName</a>
+<a href="https://msdn.microsoft.com/04d50606-c355-45d4-9cc1-a8ef37113bf7">IWMStreamConfig::GetConnectionName</a>
  
 
  

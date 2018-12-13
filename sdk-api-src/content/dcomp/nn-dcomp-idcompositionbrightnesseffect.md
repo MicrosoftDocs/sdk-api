@@ -55,7 +55,7 @@ The brightness effect controls the brightness of the image.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionBrightnessEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionBrightnessEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionBrightnessEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionBrightnessEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDCompositionBrightnessEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919712(v=VS.85).aspx">SetBlackPoint</a>
+<a href="https://msdn.microsoft.com/C63F0F4C-6C25-495A-8AD8-F1A453E0B4BA">SetBlackPoint</a>
 </td>
 <td align="left" width="63%">
 Specifies the lower portion of the brightness transfer curve for the brightness effect.
@@ -79,7 +79,7 @@ Specifies the lower portion of the brightness transfer curve for the brightness 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905284(v=VS.85).aspx">SetBlackPointX</a>
+<a href="https://msdn.microsoft.com/05fc473f-4dc6-b64d-830e-4153b1e0e392">SetBlackPointX</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the x value of the black point.
 
@@ -87,7 +87,7 @@ Specifies the lower portion of the brightness transfer curve for the brightness 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905285(v=VS.85).aspx">SetBlackPointY</a>
+<a href="https://msdn.microsoft.com/8d0aa548-90ad-4025-2e7a-8e5b07134665">SetBlackPointY</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the y value of the black point.
 
@@ -95,7 +95,7 @@ Specifies the lower portion of the brightness transfer curve for the brightness 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919717(v=VS.85).aspx">SetWhitePoint</a>
+<a href="https://msdn.microsoft.com/C06DFD2A-9B97-4254-BFB5-058FB0ED3F83">SetWhitePoint</a>
 </td>
 <td align="left" width="63%">
 Sets the upper portion of the brightness transfer curve. 
@@ -104,7 +104,7 @@ Sets the upper portion of the brightness transfer curve.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905286(v=VS.85).aspx">SetWhitePointX</a>
+<a href="https://msdn.microsoft.com/a35c4a79-bf30-3334-1cea-ddd055427a0f">SetWhitePointX</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the x value of the white point.
 
@@ -112,7 +112,7 @@ Sets the upper portion of the brightness transfer curve.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905287(v=VS.85).aspx">SetWhitePointY</a>
+<a href="https://msdn.microsoft.com/b8111c61-cb02-e23f-6257-36708f775d02">SetWhitePointY</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the y value of the white point.
 
@@ -126,7 +126,7 @@ Sets the upper portion of the brightness transfer curve.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
  
 
  

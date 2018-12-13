@@ -53,7 +53,7 @@ req.redist:
 Initializes a new instance of <code>XMUNIBBLE4</code> from four <code>float</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4 </a> from four
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/12807b12-3f95-49fd-949c-f29eee2f44c3">XMUNIBBLE4 </a> from four
 	<code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -143,11 +143,11 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a>
+<a href="https://msdn.microsoft.com/12807b12-3f95-49fd-949c-f29eee2f44c3">XMUNIBBLE4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415488(v=VS.85).aspx">XMUNIBBLE4 Constructors</a>
+<a href="https://msdn.microsoft.com/9e185879-4bed-42fe-92da-f5d96ddb8be7">XMUNIBBLE4 Constructors</a>
  
 
  

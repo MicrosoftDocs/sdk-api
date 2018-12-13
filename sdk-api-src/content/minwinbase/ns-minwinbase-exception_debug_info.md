@@ -4,7 +4,7 @@ title: EXCEPTION_DEBUG_INFO
 author: windows-sdk-content
 description: Contains exception information that can be used by a debugger.
 old-location: base\exception_debug_info_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: f5917ae3-cc45-42c4-a3fb-5d0aef2a3bdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

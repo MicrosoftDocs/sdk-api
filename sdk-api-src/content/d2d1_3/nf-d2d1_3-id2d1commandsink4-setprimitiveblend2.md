@@ -60,7 +60,7 @@ Sets a new primitive blend mode. Allows access to the MAX primitive blend mode.
 
 ### -param primitiveBlend
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447008(v=VS.85).aspx">D2D1_PRIMITIVE_BLEND</a></b>
+Type: <b><a href="direct2d.d2d1_primitive_blend">D2D1_PRIMITIVE_BLEND</a></b>
 
 The primitive blend that will apply to subsequent primitives.
 
@@ -69,7 +69,7 @@ The primitive blend that will apply to subsequent primitives.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, it returns S_OK. If it fails, it returns an HRESULT error code. 
 

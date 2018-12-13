@@ -64,7 +64,7 @@ The <code>SetAspectRatioMode</code> method specifies whether the VMR preserves t
 
 ### -param dwARMode [in]
 
-Specifies a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd390954(v=VS.85).aspx">VMR_ASPECT_RATIO_MODE</a> enumeration type.
+Specifies a member of the <a href="https://msdn.microsoft.com/dd1d1d99-008b-4234-a38a-314ba02bb116">VMR_ASPECT_RATIO_MODE</a> enumeration type.
 
 
 ## -returns
@@ -115,7 +115,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377343(v=VS.85).aspx">IVMRAspectRatioControl9 Interface</a>
+<a href="https://msdn.microsoft.com/ae850eea-c283-4500-baa0-e26641576852">IVMRAspectRatioControl9 Interface</a>
 
 
 

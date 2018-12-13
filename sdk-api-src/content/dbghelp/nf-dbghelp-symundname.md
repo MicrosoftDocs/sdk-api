@@ -4,7 +4,7 @@ title: SymUnDName function
 author: windows-sdk-content
 description: Undecorates a decorated C++ symbol name.
 old-location: base\symundname64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: f7bea3a4-5e17-4743-894f-8eb8f9992cac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

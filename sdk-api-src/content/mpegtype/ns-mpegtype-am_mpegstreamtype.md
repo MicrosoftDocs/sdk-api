@@ -72,7 +72,7 @@ Reserved.
 ### -field mt
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure describing the type for the substeam. The <b>pbFormat</b> member of this structure must <b>NULL</b>. The format data normally conveyed in <b>pbFormat</b> is stored in the <b>bFormat</b> member.
+<a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure describing the type for the substeam. The <b>pbFormat</b> member of this structure must <b>NULL</b>. The format data normally conveyed in <b>pbFormat</b> is stored in the <b>bFormat</b> member.
 
 
 ### -field bFormat
@@ -90,7 +90,7 @@ Stream identifier of the stream to process.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd373481(v=VS.85).aspx">AM_MPEGSYSTEMTYPE</a>
+<a href="https://msdn.microsoft.com/218bf0c3-e618-4dcc-8618-34cd1fb5c0a8">AM_MPEGSYSTEMTYPE</a>
 
 
 

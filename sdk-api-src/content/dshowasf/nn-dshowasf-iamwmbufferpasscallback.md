@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>IAMWMBufferPassCallback</b> interface is provided for advanced scenarios in which applications need access to an <b>INSSBuffer3</b> sample before it is passed downstream for further processing. Use this technique to set or retrieve data unit extensions such as the SMPTE time code for each sample. One common use for this interface is to force key-frame insertion in a variable bit rate video stream during file writing. To do this, you must set the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">cleanpoint</a> property on individual <b>INSSBuffer3</b> samples. This interface is implemented by applications and called by the WM ASF Writer or <a href="https://msdn.microsoft.com/3d5ca88a-86bd-4d84-b4f4-782564ced58d">WM ASF Reader</a> filter each time a new sample is delivered to the filter.
+The <b>IAMWMBufferPassCallback</b> interface is provided for advanced scenarios in which applications need access to an <b>INSSBuffer3</b> sample before it is passed downstream for further processing. Use this technique to set or retrieve data unit extensions such as the SMPTE time code for each sample. One common use for this interface is to force key-frame insertion in a variable bit rate video stream during file writing. To do this, you must set the <a href="wmformat_glossary.htm">cleanpoint</a> property on individual <b>INSSBuffer3</b> samples. This interface is implemented by applications and called by the WM ASF Writer or <a href="https://msdn.microsoft.com/3d5ca88a-86bd-4d84-b4f4-782564ced58d">WM ASF Reader</a> filter each time a new sample is delivered to the filter.
 
 
 
@@ -96,7 +96,7 @@ Called by the filter for each buffer that is delivered during streaming.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3 Interface</a>
+<a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3 Interface</a>
  
 
  

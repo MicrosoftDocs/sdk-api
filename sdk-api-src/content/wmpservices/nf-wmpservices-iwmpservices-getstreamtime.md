@@ -91,7 +91,7 @@ The values provided in the <b>rtTimestamp</b> member of <b>IMediaObject::Process
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563642(v=VS.85).aspx">IWMPServices Interface</a>
+<a href="https://msdn.microsoft.com/26d68b4b-4eeb-42e2-a1d1-0d0e73725059">IWMPServices Interface</a>
  
 
  

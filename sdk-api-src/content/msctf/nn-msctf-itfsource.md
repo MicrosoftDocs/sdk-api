@@ -125,102 +125,122 @@ For more information about advise sinks that can be installed by each implementa
 <b>ITfThreadMgr</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
-hr = pThreadManager->QueryInterface(IID_ITfSource, (LPVOID*)&pSource);
+hr = pThreadManager-&gt;QueryInterface(IID_ITfSource, (LPVOID*)&amp;pSource);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSource interface. 
     
-    pSource->Release();
+    pSource-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>ITfContext</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
-hr = pContext->QueryInterface(IID_ITfSource, (LPVOID*)&pSource);
+hr = pContext-&gt;QueryInterface(IID_ITfSource, (LPVOID*)&amp;pSource);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSource interface. 
     
-    pSource->Release();
+    pSource-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>ITfCompartment</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
-hr = pCompartmentManager->QueryInterface(IID_ITfSource, (LPVOID*)&pSource);
+hr = pCompartmentManager-&gt;QueryInterface(IID_ITfSource, (LPVOID*)&amp;pSource);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSource interface. 
     
-    pSource->Release();
+    pSource-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>ITfInputProcessorProfiles</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
-hr = pProfiles->QueryInterface(IID_ITfSource, (LPVOID*)&pSource);
+hr = pProfiles-&gt;QueryInterface(IID_ITfSource, (LPVOID*)&amp;pSource);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSource interface. 
     
-    pSource->Release();
+    pSource-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>ITfLangBarItem</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
-hr = pLangBarItem->QueryInterface(IID_ITfSource, (LPVOID*)&pSource);
+hr = pLangBarItem-&gt;QueryInterface(IID_ITfSource, (LPVOID*)&amp;pSource);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSource interface. 
     
-    pSource->Release();
+    pSource-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

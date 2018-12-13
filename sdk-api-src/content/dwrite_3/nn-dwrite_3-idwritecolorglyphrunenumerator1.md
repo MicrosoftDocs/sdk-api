@@ -71,7 +71,7 @@ The <b>IDWriteColorGlyphRunEnumerator1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt761991(v=VS.85).aspx">GetCurrentRun</a>
+<a href="https://msdn.microsoft.com/0FEFD8EB-20E7-4E04-9C31-1A763D2FB816">GetCurrentRun</a>
 </td>
 <td align="left" width="63%">
 Gets the current color glyph run.

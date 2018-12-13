@@ -145,15 +145,15 @@ The host name is ignored if the proxy setting is WMT_PROXY_SETTING_AUTO or WMT_P
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743548(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxyHostName</a>
+<a href="https://msdn.microsoft.com/5638a5d6-30f3-43eb-b054-cab85948796c">IWMReaderNetworkConfig::SetProxyHostName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743550(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxySettings</a>
+<a href="https://msdn.microsoft.com/fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2">IWMReaderNetworkConfig::SetProxySettings</a>
  
 
  

@@ -79,7 +79,7 @@ The <b>IWMCodecInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743322(v=VS.85).aspx">GetCodecFormat</a>
+<a href="https://msdn.microsoft.com/dbfffc96-2286-4fdf-a76f-ad8e0ecd7aff">GetCodecFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves a structure describing the format of a specified codec.
@@ -88,7 +88,7 @@ Retrieves a structure describing the format of a specified codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743323(v=VS.85).aspx">GetCodecFormatCount</a>
+<a href="https://msdn.microsoft.com/b93bfb01-4179-4a0b-bca0-92b1a9a8e605">GetCodecFormatCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of formats supported by the specified codec.
@@ -97,7 +97,7 @@ Retrieves the number of formats supported by the specified codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743324(v=VS.85).aspx">GetCodecInfoCount</a>
+<a href="https://msdn.microsoft.com/873f8d03-5d7b-424c-91f3-e7c8156565be">GetCodecInfoCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of supported codecs.
@@ -113,31 +113,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd743314(v=VS.85).aspx">IWMCodecInfo2</a>
+<a href="https://msdn.microsoft.com/0cfb355e-af68-400d-aa64-57f17e7d936b">IWMCodecInfo2</a>
 </td>
 <td>IID_IWMCodecInfo2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd743317(v=VS.85).aspx">IWMCodecInfo3</a>
+<a href="https://msdn.microsoft.com/fd882612-1f60-4b51-a180-0d34d78c99dd">IWMCodecInfo3</a>
 </td>
 <td>IID_IWMCodecInfo3</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager</a>
+<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager</a>
 </td>
 <td>IID_IWMProfileManager</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757386(v=VS.85).aspx">IWMProfileManager2</a>
+<a href="https://msdn.microsoft.com/eb5d904e-15ee-4066-ab05-c4e133bc89d7">IWMProfileManager2</a>
 </td>
 <td>IID_IWMProfileManager2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757389(v=VS.85).aspx">IWMProfileManagerLanguage</a>
+<a href="https://msdn.microsoft.com/54875162-65fe-4959-b567-38c17ba2894d">IWMProfileManagerLanguage</a>
 </td>
 <td>IID_IWMProfileManagerLanguage</td>
 </tr>
@@ -152,15 +152,15 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743314(v=VS.85).aspx">IWMCodecInfo2 Interface</a>
+<a href="https://msdn.microsoft.com/0cfb355e-af68-400d-aa64-57f17e7d936b">IWMCodecInfo2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743317(v=VS.85).aspx">IWMCodecInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/fd882612-1f60-4b51-a180-0d34d78c99dd">IWMCodecInfo3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
 
 
 

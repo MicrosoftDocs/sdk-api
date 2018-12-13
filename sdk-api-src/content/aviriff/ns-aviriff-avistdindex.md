@@ -105,7 +105,7 @@ Reserved. Set to zero.
 
 ### -field aIndex
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Ff625870(v=VS.85).aspx">AVISTDINDEX_ENTRY</a> structures. The number of elements in the array is calculated from the value of <b>cb</b>.
+An array of <a href="https://msdn.microsoft.com/4e408858-b0cb-45dc-a299-a2e35aa6a000">AVISTDINDEX_ENTRY</a> structures. The number of elements in the array is calculated from the value of <b>cb</b>.
 
 
 ## -remarks

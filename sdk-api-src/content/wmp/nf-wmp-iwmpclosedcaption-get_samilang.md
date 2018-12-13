@@ -130,11 +130,11 @@ The value you specify using <b>put_SAMILang</b> must match the <b>Name</b> attri
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563127(v=VS.85).aspx">IWMPClosedCaption::put_SAMILang</a>
+<a href="https://msdn.microsoft.com/2027d8cd-2528-45ad-9f36-f03cc3001ba7">IWMPClosedCaption::put_SAMILang</a>
  
 
  

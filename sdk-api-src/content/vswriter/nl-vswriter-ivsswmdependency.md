@@ -57,10 +57,10 @@ The
 
 <b>IVssWMDependency</b> is used to determine the writer ID, logical path, and component name of components that must be restored or backed up along with the target component.
 
-Dependencies are created by writers while handling <a href="https://msdn.microsoft.com/en-us/library/Aa384659(v=VS.85).aspx">Identify</a> events (<a href="https://msdn.microsoft.com/542d479a-695a-4b1f-94e7-f2ffa08440b7">CVssWriter::OnIdentify</a>) using the 
+Dependencies are created by writers while handling <a href="vssgloss_i.htm">Identify</a> events (<a href="https://msdn.microsoft.com/542d479a-695a-4b1f-94e7-f2ffa08440b7">CVssWriter::OnIdentify</a>) using the 
 <a href="https://msdn.microsoft.com/cc6c8ab6-3706-4c75-ba31-cc8c1dc4dd06">IVssCreateWriterMetadata::AddComponentDependency</a> method.
 
-Calling applications are responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release resources held by a returned 
+Calling applications are responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release resources held by a returned 
 <b>IVssWMDependency</b> object when it is no longer needed.
 
 The 

@@ -108,7 +108,7 @@ If neither flag is set, the attachment is treated as a data file.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">ULONG</a></b>
 
-An integer used to indicate where the attachment is rendered in the message text. The message text is stored in the <b>NoteText</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Hh707273(v=VS.85).aspx">MapiMessageW</a> structure, and the integer is used as an index to identify a specific character in the message string, <b>NoteText</b>[<b>nPosition</b>], that is replaced by the attachment.
+An integer used to indicate where the attachment is rendered in the message text. The message text is stored in the <b>NoteText</b> member of the <a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a> structure, and the integer is used as an index to identify a specific character in the message string, <b>NoteText</b>[<b>nPosition</b>], that is replaced by the attachment.
 
 A value of   -1 (0xFFFFFFFF) means the attachment position is not indicated and the client application must provide a way for the user to access the attachment.
 
@@ -133,7 +133,7 @@ If the <b>lpszFileName</b> member is empty or <b>NULL</b>, the filename from <b>
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PVOID</a></b>
 
-Pointer to the attachment file type, which can be represented with a <a href="https://msdn.microsoft.com/en-us/library/Dd296727(v=VS.85).aspx">MapiFileTagExt</a> structure.
+Pointer to the attachment file type, which can be represented with a <a href="https://msdn.microsoft.com/5f6de637-14a8-46bb-a53e-f355d7592222">MapiFileTagExt</a> structure.
 
 A value of <b>NULL</b> indicates an unknown file type or a file type determined by the operating system.
 
@@ -176,11 +176,11 @@ When using the <b>MapiFileDescW</b> member <b>nPosition</b>, the client applicat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd296737(v=VS.85).aspx">MapiFileDesc</a>
+<a href="https://msdn.microsoft.com/c2193551-85c3-4293-b632-d6c8ab84800a">MapiFileDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh707273(v=VS.85).aspx">MapiMessageW</a>
+<a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a>
  
 
  

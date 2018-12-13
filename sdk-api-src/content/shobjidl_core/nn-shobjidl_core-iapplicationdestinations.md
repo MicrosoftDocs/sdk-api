@@ -120,7 +120,7 @@ An application should call <b>IApplicationDestinations</b> methods in the follow
 </ul>
 
 
-If the user turns off usage tracking in the application's privacy setting, the application is responsible for clearing the existing data and also stopping the system from collecting usage data on that item in the future. This is done by setting the NoRecentDocs value in all of the application's file type registrations. See <a href="https://msdn.microsoft.com/en-us/library/Bb762506(v=VS.85).aspx">FTA_NoRecentDocs</a> for more information.
+If the user turns off usage tracking in the application's privacy setting, the application is responsible for clearing the existing data and also stopping the system from collecting usage data on that item in the future. This is done by setting the NoRecentDocs value in all of the application's file type registrations. See <a href="https://msdn.microsoft.com/63b58659-9c4c-4b39-98d1-743724523dcd">FTA_NoRecentDocs</a> for more information.
 
 <b>IApplicationDestinations</b> methods are used only with the automatically generated <b>Recent</b> or <b>Frequent</b> categories. They do not remove items that the user has pinned to the Jump List. Those items cannot be removed programmatically; only the user can remove them. These methods also have no effect on <a href="https://msdn.microsoft.com/65a3dab8-3136-416d-bd8a-ca813bfe0533">custom categories</a> or the task list.
 

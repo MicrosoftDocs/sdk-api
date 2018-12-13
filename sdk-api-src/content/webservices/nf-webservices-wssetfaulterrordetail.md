@@ -71,7 +71,7 @@ A pointer to a description of the fault detail.
                 
 
 If the action field of the fault detail description is non-<b>NULL</b>,
-                    then it is set as the <a href="https://msdn.microsoft.com/en-us/library/Dd401880(v=VS.85).aspx">WS_FAULT_ERROR_PROPERTY_ACTION</a>of the <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a>.
+                    then it is set as the <a href="https://msdn.microsoft.com/f5ae9ee9-18de-428d-9367-aa4a554577ea">WS_FAULT_ERROR_PROPERTY_ACTION</a>of the <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a>.
                 
 
 The element description of the fault detail description 
@@ -82,7 +82,7 @@ The element description of the fault detail description
 ### -param writeOption [in]
 
 Information about how the value is allocated.
-                    See <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for more information.
                 
 
 
@@ -170,9 +170,9 @@ This functions supports the following scenarios, based on the contents
                 the type of the value being serialized.  
                 </li>
 <li>Writing multiple elements as a single value.  In this case, the elementLocalName and elementNs
-                fields of the <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_STRUCT_TYPE</a>and <a href="https://msdn.microsoft.com/b426a07e-9993-4cea-8847-fc80e9d0b451">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
+                fields of the <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRUCT_TYPE</a>and <a href="https://msdn.microsoft.com/b426a07e-9993-4cea-8847-fc80e9d0b451">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
                 structure value being serialized should correspond to element(s) to write within the fault detail.
-                The writeOption parameter must be either <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_REQUIRED_VALUE</a> or 
+                The writeOption parameter must be either <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_REQUIRED_VALUE</a> or 
                 <b>WS_WRITE_REQUIRED_POINTER</b>.                
                 </li>
 </ul>

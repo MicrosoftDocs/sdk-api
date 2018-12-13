@@ -4,7 +4,7 @@ title: StackWalk function
 author: windows-sdk-content
 description: Obtains a stack trace.
 old-location: base\stackwalk64.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: e2bdaa4c-5474-41a0-bcea-927570c8402c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

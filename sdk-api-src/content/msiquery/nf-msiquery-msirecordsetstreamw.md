@@ -108,7 +108,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

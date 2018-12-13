@@ -63,7 +63,7 @@ The <b>get_AnalogAudioMode</b> method retrieves the analog audio mode.
 
 ### -param Mode [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407240(v=VS.85).aspx">TVAudioMode</a> variable that receives the analog audio mode.
+Pointer to a <a href="https://msdn.microsoft.com/70e26550-0a8f-484e-b919-cfefdcf95f6b">TVAudioMode</a> variable that receives the analog audio mode.
 
 
 ## -returns

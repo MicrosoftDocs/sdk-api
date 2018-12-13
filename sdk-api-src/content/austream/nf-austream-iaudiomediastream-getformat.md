@@ -91,7 +91,7 @@ Currently, Microsoft DirectShow supports only PCM wave data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389516(v=VS.85).aspx">IAudioMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/b4098876-6c11-4cc6-8b6d-16edc02316f3">IAudioMediaStream Interface</a>
  
 
  

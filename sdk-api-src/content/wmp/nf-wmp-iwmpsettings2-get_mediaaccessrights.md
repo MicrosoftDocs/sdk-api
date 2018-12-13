@@ -134,11 +134,11 @@ Applications running on the user's computer always have full access rights.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563649(v=VS.85).aspx">IWMPSettings2 Interface</a>
+<a href="https://msdn.microsoft.com/0fb0c7be-015e-4081-8467-c382e0858195">IWMPSettings2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563652(v=VS.85).aspx">IWMPSettings2::requestMediaAccessRights</a>
+<a href="https://msdn.microsoft.com/925a4c0b-d613-4248-a341-bfc51d02cb85">IWMPSettings2::requestMediaAccessRights</a>
  
 
  

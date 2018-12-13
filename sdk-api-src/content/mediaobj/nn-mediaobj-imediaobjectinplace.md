@@ -60,7 +60,7 @@ The <code>IMediaObjectInPlace</code> interface provides methods for processing d
 <li>It has one input stream and one output stream.</li>
 <li>Both streams use the same media type.</li>
 <li>The output is produced in place on the buffer; that is, without copying data.</li>
-</ul>This interface provides an optimized way to process data. The application calls a single <a href="https://msdn.microsoft.com/en-us/library/Dd406942(v=VS.85).aspx">IMediaObjectInPlace::Process</a> method instead of the <a href="https://msdn.microsoft.com/en-us/library/Dd406959(v=VS.85).aspx">IMediaObject::ProcessInput</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a> methods. However, any DMO that implements this interface must also implement the <a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject</a> interface. Therefore, an application is never obligated to use this interface, and a DMO is never guaranteed to implement it.
+</ul>This interface provides an optimized way to process data. The application calls a single <a href="https://msdn.microsoft.com/567117cd-db7b-4764-9c88-ab898a64b56a">IMediaObjectInPlace::Process</a> method instead of the <a href="https://msdn.microsoft.com/f52e9586-f65d-418f-8c1a-c97c0a81d253">IMediaObject::ProcessInput</a> and <a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a> methods. However, any DMO that implements this interface must also implement the <a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject</a> interface. Therefore, an application is never obligated to use this interface, and a DMO is never guaranteed to implement it.
 
 
 ## -inheritance
@@ -80,7 +80,7 @@ The <b>IMediaObjectInPlace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406940(v=VS.85).aspx">Clone</a>
+<a href="https://msdn.microsoft.com/6660afa8-3502-4e88-925b-192e06346243">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the DMO in its current state.
@@ -89,7 +89,7 @@ Creates a copy of the DMO in its current state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406941(v=VS.85).aspx">GetLatency</a>
+<a href="https://msdn.microsoft.com/f6ed4824-bc18-4a12-82d3-d68e98f6d964">GetLatency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the latency introduced by this DMO.
@@ -98,7 +98,7 @@ Retrieves the latency introduced by this DMO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406942(v=VS.85).aspx">Process</a>
+<a href="https://msdn.microsoft.com/567117cd-db7b-4764-9c88-ab898a64b56a">Process</a>
 </td>
 <td align="left" width="63%">
 Processes a block of data.

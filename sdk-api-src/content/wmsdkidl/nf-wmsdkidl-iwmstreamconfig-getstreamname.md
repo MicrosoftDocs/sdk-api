@@ -130,7 +130,7 @@ The name value contained in the <i>pcchStreamName</i> parameter is too large for
 
 You should make two calls to <b>GetStreamName</b>. On the first call, pass <b>NULL</b> as <i>pwszStreamName</i>. On return, the value pointed to by <i>pcchStreamName</i> is set to the number of wide characters, including the terminating <b>null</b> character, required to hold the stream name. Then you can allocate the required amount of memory for the string and pass a pointer to it as <i>pwszStreamName</i> on the second call.
 
-The stream name is not written to the header section of an ASF file. If you obtain the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface from the reader object or synchronous reader object, you cannot retrieve the original stream name.
+The stream name is not written to the header section of an ASF file. If you obtain the <a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a> interface from the reader object or synchronous reader object, you cannot retrieve the original stream name.
 
 
 
@@ -140,15 +140,15 @@ The stream name is not written to the header section of an ASF file. If you obta
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798563(v=VS.85).aspx">IWMStreamConfig::GetStreamType</a>
+<a href="https://msdn.microsoft.com/a8dc8c37-da52-4d0f-b143-aaa45e6f77b8">IWMStreamConfig::GetStreamType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798567(v=VS.85).aspx">IWMStreamConfig::SetStreamName</a>
+<a href="https://msdn.microsoft.com/90ab1591-eee7-4504-8d7f-475d90fa3b40">IWMStreamConfig::SetStreamName</a>
  
 
  

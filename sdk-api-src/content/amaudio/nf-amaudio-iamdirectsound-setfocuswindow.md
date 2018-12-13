@@ -108,7 +108,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389193(v=VS.85).aspx">IAMDirectSound Interface</a>
+<a href="https://msdn.microsoft.com/a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28">IAMDirectSound Interface</a>
  
 
  

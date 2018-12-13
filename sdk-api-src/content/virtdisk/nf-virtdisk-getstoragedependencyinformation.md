@@ -73,7 +73,7 @@ If the <i>Flags</i> parameter specifies the
 ### -param Flags [in]
 
 A valid combination of 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd323673(v=VS.85).aspx">GET_STORAGE_DEPENDENCY_FLAG</a> values.
+     <a href="https://msdn.microsoft.com/6a438edf-698b-4b2d-8864-c97fbf9eaa9f">GET_STORAGE_DEPENDENCY_FLAG</a> values.
 
 
 ### -param StorageDependencyInfoSize [in]
@@ -85,7 +85,7 @@ Size, in bytes, of the buffer that the <i>StorageDependencyInfo</i> parameter re
 ### -param StorageDependencyInfo [in, out]
 
 A pointer to a buffer to receive the populated 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd323688(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO</a> structure, which is a 
+     <a href="https://msdn.microsoft.com/67648a4d-3f66-407e-9036-c7072bc7e460">STORAGE_DEPENDENCY_INFO</a> structure, which is a 
      variable-length structure.
 
 

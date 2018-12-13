@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693284(v=VS.85).aspx">IBDA_DigitalDemodulator Interface</a>
+<a href="https://msdn.microsoft.com/13ecd348-dc2b-4e80-9875-927f4ed55c95">IBDA_DigitalDemodulator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693307(v=VS.85).aspx">IBDA_DigitalDemodulator::put_SymbolRate</a>
+<a href="https://msdn.microsoft.com/ec37e7a5-d2e8-468a-8b5b-d1a1fa538bfe">IBDA_DigitalDemodulator::put_SymbolRate</a>
  
 
  

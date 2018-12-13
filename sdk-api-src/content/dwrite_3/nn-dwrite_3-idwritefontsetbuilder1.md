@@ -56,7 +56,7 @@ Contains methods for building a font set.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSetBuilder1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn933236(v=VS.85).aspx">IDWriteFontSetBuilder</a>. <b>IDWriteFontSetBuilder1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSetBuilder1</b> interface inherits from <a href="https://msdn.microsoft.com/CC6C95CA-BA8B-47C4-A241-650EC8477192">IDWriteFontSetBuilder</a>. <b>IDWriteFontSetBuilder1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteFontSetBuilder1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt807691(v=VS.85).aspx">AddFontFile</a>
+<a href="https://msdn.microsoft.com/3858EF37-F545-4C2E-BC3D-E4732B49911C">AddFontFile</a>
 </td>
 <td align="left" width="63%">
 Adds references to all the fonts in the specified font file. 

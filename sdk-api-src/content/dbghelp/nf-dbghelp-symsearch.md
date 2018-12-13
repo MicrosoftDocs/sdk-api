@@ -4,7 +4,7 @@ title: SymSearch function
 author: windows-sdk-content
 description: Searches for PDB symbols that meet the specified criteria.
 old-location: base\symsearch.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: d6b3c06b-fcfd-436c-b267-99ec1380e744
 ms.author: windowssdkdev
 ms.date: 12/5/2018

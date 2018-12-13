@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the callback mask for a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774909(v=VS.85).aspx">LVM_GETCALLBACKMASK</a> message explicitly. 
+Gets the callback mask for a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/fb05593d-14b9-4e53-acb3-d5ac61e517ec">LVM_GETCALLBACKMASK</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761157(v=VS.85).aspx">LVM_SETCALLBACKMASK</a>
+<a href="https://msdn.microsoft.com/d7828bab-9897-408c-99ca-fad42b431be8">LVM_SETCALLBACKMASK</a>
  
 
  

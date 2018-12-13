@@ -4,7 +4,7 @@ title: MINIDUMP_THREAD_INFO_LIST
 author: windows-sdk-content
 description: Contains a list of threads.
 old-location: base\minidump_thread_info_list_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: ee02a8fa-c81d-4b23-b8a2-6ff31cdaf3de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

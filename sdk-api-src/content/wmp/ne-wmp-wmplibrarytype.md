@@ -115,11 +115,11 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563394(v=VS.85).aspx">IWMPLibrary::get_type</a>
+<a href="https://msdn.microsoft.com/95f36972-2227-4fe8-88d7-41f7aebbf67a">IWMPLibrary::get_type</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563384(v=VS.85).aspx">IWMPLibraryServices Interface</a>
+<a href="https://msdn.microsoft.com/9ed6d02e-15ca-425f-8642-e32a5adfaa55">IWMPLibraryServices Interface</a>
  
 
  

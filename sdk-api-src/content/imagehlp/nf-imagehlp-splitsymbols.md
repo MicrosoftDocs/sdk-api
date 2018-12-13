@@ -4,7 +4,7 @@ title: SplitSymbols function
 author: windows-sdk-content
 description: Strips symbols from the specified image.
 old-location: base\splitsymbols.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: b9b940ce-8349-472e-b802-b477bd195b63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

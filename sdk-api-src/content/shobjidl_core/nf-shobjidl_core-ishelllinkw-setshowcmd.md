@@ -64,7 +64,7 @@ Sets the show command for a Shell link object. The show command sets the initial
 
 Type: <b>int</b>
 
-Command. <b>SetShowCmd</b> accepts one of the following <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> commands.
+Command. <b>SetShowCmd</b> accepts one of the following <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> commands.
 
 
 

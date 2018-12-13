@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>ExtractFiles</b> method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see  the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369815(v=VS.85).aspx">ExtractFiles</a> method of the 
+<a href="https://msdn.microsoft.com/846355d6-32f2-4b04-91dc-acd60445fbd9">ExtractFiles</a> method of the 
 <a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object.  
 
 <b>IMsmMerge2::ExtractFiles</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::ExtractFiles</b>      All Mergemod.dll versions.

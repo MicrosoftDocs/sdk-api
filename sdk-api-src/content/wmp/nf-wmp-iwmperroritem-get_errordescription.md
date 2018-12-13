@@ -108,11 +108,11 @@ You should set a <b>VARIANT_BOOL</b> to <b>FALSE</b> and pass it into <b>IWMPSet
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
+<a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563675(v=VS.85).aspx">IWMPSettings::put_enableErrorDialogs</a>
+<a href="https://msdn.microsoft.com/c2a0e2bf-d0e4-4b2c-a8d4-15bae4214393">IWMPSettings::put_enableErrorDialogs</a>
  
 
  

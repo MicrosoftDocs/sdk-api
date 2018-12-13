@@ -99,7 +99,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694625(v=VS.85).aspx">IMSVidStreamBufferSink2 Interface</a>
+<a href="https://msdn.microsoft.com/d279378b-2309-4d46-8fef-a00b3121c6c7">IMSVidStreamBufferSink2 Interface</a>
  
 
  

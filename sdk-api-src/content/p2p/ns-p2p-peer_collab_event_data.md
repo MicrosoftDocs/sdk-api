@@ -61,7 +61,7 @@ The <b>PEER_COLLAB_EVENT_DATA</b> union contains variant data for each possible 
 ### -field eventType
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371332(v=VS.85).aspx">PEER_COLLAB_EVENT_TYPE</a> enumeration value that contains the type of the event whose corresponding data structure appears in the subsequent union arm.
+<a href="p2p.peer_collab_event_type">PEER_COLLAB_EVENT_TYPE</a> enumeration value that contains the type of the event whose corresponding data structure appears in the subsequent union arm.
 
 
 ### -field watchListChangedData

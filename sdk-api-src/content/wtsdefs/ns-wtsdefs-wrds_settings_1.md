@@ -4,7 +4,7 @@ title: WRDS_SETTINGS_1
 author: windows-sdk-content
 description: Contains policy-related settings for a remote session.
 old-location: termserv\wrds_settings_1.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 47100A84-49F4-4FF1-8CCB-731638F27C4F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

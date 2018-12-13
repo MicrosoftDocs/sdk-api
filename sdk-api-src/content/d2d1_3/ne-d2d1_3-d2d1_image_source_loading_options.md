@@ -74,8 +74,8 @@ Indicates the image source should release its reference to the WIC bitmap source
 ### -field D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND
 
 Indicates the image source should only populate subregions of the image cache on-demand. You can control this behavior using 
-        the <a href="https://msdn.microsoft.com/en-us/library/Dn900421(v=VS.85).aspx">EnsureCached</a> 
-          and <a href="https://msdn.microsoft.com/en-us/library/Dn900425(v=VS.85).aspx">TrimCache</a> methods. 
+        the <a href="https://msdn.microsoft.com/9addc82b-7446-1f2c-5666-f817b8b5707d">EnsureCached</a> 
+          and <a href="https://msdn.microsoft.com/04e6e010-3642-6775-8a95-f20ff0461b09">TrimCache</a> methods. 
         This options provides the ability to improve memory usage by only keeping needed portions of the image in memory. 
         This option requires that the image source has a reference to the WIC bitmap source, and is incompatible with D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE.
 

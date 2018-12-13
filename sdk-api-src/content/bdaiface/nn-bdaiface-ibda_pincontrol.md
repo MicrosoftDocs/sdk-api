@@ -73,7 +73,7 @@ The <b>IBDA_PinControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693422(v=VS.85).aspx">GetPinID</a>
+<a href="https://msdn.microsoft.com/90f6db23-d708-4773-b91a-e4b23d1e3c5b">GetPinID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the pin.
@@ -82,7 +82,7 @@ Retrieves the identifier of the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693423(v=VS.85).aspx">GetPinType</a>
+<a href="https://msdn.microsoft.com/97ab3873-be75-48a5-b854-303aec3d7058">GetPinType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the pin.
@@ -91,7 +91,7 @@ Retrieves the type of the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693424(v=VS.85).aspx">RegistrationContext</a>
+<a href="https://msdn.microsoft.com/6e54bb4e-9c65-4f57-ba4a-c5b35ccaae1f">RegistrationContext</a>
 </td>
 <td align="left" width="63%">
 Retrieves the registration context of a particular pin.

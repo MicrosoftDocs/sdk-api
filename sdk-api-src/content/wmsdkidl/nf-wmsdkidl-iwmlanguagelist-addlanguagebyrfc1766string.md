@@ -116,7 +116,7 @@ For a list of common RFC 1766-compliant language identifiers, see <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757214(v=VS.85).aspx">IWMLanguageList Interface</a>
+<a href="https://msdn.microsoft.com/63ef282c-d1ab-4ce9-a56b-209407c7839b">IWMLanguageList Interface</a>
  
 
  

@@ -66,12 +66,12 @@ Contains the handle of the window to use as the parent to the query dialog box. 
 ### -param pQueryWnd [in]
 
 Address of an 
-<a href="https://msdn.microsoft.com/en-us/library/ms677622(v=VS.85).aspx">OPENQUERYWINDOW</a> structure that defines the query to perform and the characteristics of the query dialog.
+<a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a> structure that defines the query to perform and the characteristics of the query dialog.
 
 
 ### -param ppDataObject [out]
 
-Address of an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface pointer that receives the results of the query. This parameter only receives valid data if this method returns <b>S_OK</b>. This <b>IDataObject</b> supports the following clipboard formats.
+Address of an <a href="_ole_idataobject">IDataObject</a> interface pointer that receives the results of the query. This parameter only receives valid data if this method returns <b>S_OK</b>. This <b>IDataObject</b> supports the following clipboard formats.
 
 
 
@@ -118,11 +118,11 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676018(v=VS.85).aspx">DSQUERYINITPARAMS</a>
+<a href="https://msdn.microsoft.com/ff1cb792-efb0-46f5-bc9b-95c9fb2959db">DSQUERYINITPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676019(v=VS.85).aspx">DSQUERYPARAMS</a>
+<a href="https://msdn.microsoft.com/78c3fb1c-275e-45b6-bbe9-ae2d85864e6a">DSQUERYPARAMS</a>
 
 
 
@@ -134,11 +134,11 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms677622(v=VS.85).aspx">OPENQUERYWINDOW</a>
+<a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a>
  
 
  

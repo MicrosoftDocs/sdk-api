@@ -181,7 +181,7 @@ This method cannot be called from <a href="https://msdn.microsoft.com/542d479a-6
 To report component-level errors, writers should use the <a href="https://msdn.microsoft.com/f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1">IVssComponentEx2::SetFailure</a> method.
 
 If a writer's event handler (such as <a href="https://msdn.microsoft.com/2aff5e87-4053-46a0-a7fb-7411e76166ba">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384993(v=VS.85).aspx">Writer Event Handling</a>.
+<a href="writers.htm">Writer Event Handling</a>.
 
 
 

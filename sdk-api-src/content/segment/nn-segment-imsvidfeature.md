@@ -60,7 +60,7 @@ The <b>IMSVidFeature</b> interface represents a feature that is available throug
 To obtain a collection of the features that are available, call the <a href="https://msdn.microsoft.com/73da686c-0c25-4dfb-8a13-681f1dac6a4a">IMSVidCtl::get_FeaturesAvailable</a> method on the Video Control. To activate a feature, create a new <a href="https://msdn.microsoft.com/dd826afd-b6a1-449e-937b-8341506d3e1a">MSVidFeatures</a> collection object and assign it to the Video Control by calling the <a href="https://msdn.microsoft.com/293506fa-3208-468e-982a-3c1f8ce0269b">IMSVidCtl::put_FeaturesActive</a> method.
       
 
-Feature objects do not implement the <a href="https://msdn.microsoft.com/en-us/library/Dd694527(v=VS.85).aspx">IMSVidDevice::get_Power</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd694528(v=VS.85).aspx">IMSVidDevice::get_Status</a> method.
+Feature objects do not implement the <a href="https://msdn.microsoft.com/3be4247b-43d4-4a32-8643-7eb2637aee6f">IMSVidDevice::get_Power</a> or <a href="https://msdn.microsoft.com/b11df7f3-d227-4c74-89a3-90716b3b3a12">IMSVidDevice::get_Status</a> method.
       
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidFeature)</code>.
@@ -73,7 +73,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a>
+<a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice</a>
 
 
 

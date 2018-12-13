@@ -4,7 +4,7 @@ title: IWRdsRemoteFXGraphicsConnection
 author: windows-sdk-content
 description: Exposes methods relating to the manipulation and understanding of graphics on the client connection.
 old-location: termserv\iwrdsremotefxgraphicsconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: ff8d2dd0-adbb-40de-a074-3228d803f4c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

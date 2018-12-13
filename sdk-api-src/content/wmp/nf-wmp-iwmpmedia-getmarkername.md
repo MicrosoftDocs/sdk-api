@@ -121,11 +121,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563441(v=VS.85).aspx">IWMPMedia::get_markerCount</a>
+<a href="https://msdn.microsoft.com/e97c8d26-fa6a-4791-a698-b742eaf980eb">IWMPMedia::get_markerCount</a>
  
 
  

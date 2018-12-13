@@ -75,7 +75,7 @@ This format displays a time with a specific timezone.  The time is followed by "
         
 
 If the system is unable to convert the time to a local format because timezone information for the time
-          specified it not available, then it will format the time as <a href="https://msdn.microsoft.com/en-us/library/Dd401807(v=VS.85).aspx">WS_DATETIME_FORMAT_UTC</a>.
+          specified it not available, then it will format the time as <a href="https://msdn.microsoft.com/e5859797-90dd-4509-ae41-f8d8c83cfd9c">WS_DATETIME_FORMAT_UTC</a>.
         
 
 

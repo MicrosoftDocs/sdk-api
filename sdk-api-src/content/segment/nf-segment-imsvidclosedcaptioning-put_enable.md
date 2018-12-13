@@ -99,7 +99,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694472(v=VS.85).aspx">IMSVidClosedCaptioning::get_Enable</a>
+<a href="https://msdn.microsoft.com/2bb46aa7-fd94-4afa-9bba-769472e014ff">IMSVidClosedCaptioning::get_Enable</a>
  
 
  

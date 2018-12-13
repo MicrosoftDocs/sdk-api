@@ -60,7 +60,7 @@ Gets the driver's response to a Digital Satellite Equipment Control (DiSEqC) com
 
 ### -param ulRequestId [in]
 
-The identifier of the command. The application assigns this value when it calls <a href="https://msdn.microsoft.com/en-us/library/Dd693312(v=VS.85).aspx">IBDA_DiseqCommand::put_DiseqSendCommand</a>.
+The identifier of the command. The application assigns this value when it calls <a href="https://msdn.microsoft.com/5ee77311-0b1d-43b1-af8e-bb886170701d">IBDA_DiseqCommand::put_DiseqSendCommand</a>.
 
 
 ### -param pulcbResponseLen [in, out]
@@ -117,7 +117,7 @@ The buffer given in the <i>pbResponse</i> parameter is too small.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693308(v=VS.85).aspx">IBDA_DiseqCommand</a>
+<a href="https://msdn.microsoft.com/0148a32d-b131-46ba-bbf0-82e2cf9c7d86">IBDA_DiseqCommand</a>
  
 
  

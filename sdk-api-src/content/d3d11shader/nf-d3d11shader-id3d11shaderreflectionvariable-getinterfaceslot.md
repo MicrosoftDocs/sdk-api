@@ -90,19 +90,23 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 Retrieving and using an interface slot
           
 
-
-```
-
-ID3D11ShaderReflectionVariable* pAmbientLightingVar = pReflector->GetVariableByName("g_abstractAmbientLighting");
-g_iAmbientLightingOffset = pAmbientLightingVar->GetInterfaceSlot(0);
-g_pPSClassLinkage->GetClassInstance( "g_hemiAmbientLight", 0, &g_pHemiAmbientLightClass );
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+ID3D11ShaderReflectionVariable* pAmbientLightingVar = pReflector-&gt;GetVariableByName("g_abstractAmbientLighting");
+g_iAmbientLightingOffset = pAmbientLightingVar-&gt;GetInterfaceSlot(0);
+g_pPSClassLinkage-&gt;GetClassInstance( "g_hemiAmbientLight", 0, &amp;g_pHemiAmbientLightClass );
 g_dynamicLinkageArray[g_iAmbientLightingOffset] = g_pHemiAmbientLightClass; 
 ...
-pd3dImmediateContext->PSSetShader( g_pPixelShader, g_dynamicLinkageArray, g_iNumPSInterfaces );
-      
-```
-
-
+pd3dImmediateContext-&gt;PSSetShader( g_pPixelShader, g_dynamicLinkageArray, g_iNumPSInterfaces );
+      </pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 

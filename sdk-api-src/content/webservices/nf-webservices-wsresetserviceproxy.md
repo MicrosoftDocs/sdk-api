@@ -53,7 +53,7 @@ req.redist:
 Resets service proxy.
 
 WsResetServiceProxy provides a convenient way to reuse the service proxy. 
-                Once the proxy is <a href="https://msdn.microsoft.com/en-us/library/Dd323433(v=VS.85).aspx">closed</a>,
+                Once the proxy is <a href="https://msdn.microsoft.com/82156e64-ae95-4a4a-aaad-e3dd69832c97">closed</a>,
                 the application can call WsResetServiceProxy to reuse it.
             
 

@@ -53,8 +53,8 @@ req.redist:
 The 
 <b>Init</b> method is called by the MSP address object (in the method 
 <a href="https://msdn.microsoft.com/56ed10e3-e711-43ae-aad6-65a5992fca0f">CreateMSPCall</a>) to initialize the MSP call object. The 
-<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a> implementation initializes its members using the passed-in information. It calls 
-<a href="https://msdn.microsoft.com/en-us/library/ms726447(v=VS.85).aspx">MSPAddressAddRef</a> on the MSP address object. Derived MSPs will want to override this method and call it in the overridden method; the overridden method should create the default streams based on the passed-in media types.
+<a href="https://msdn.microsoft.com/86512d40-380b-4e98-840d-b7be99a86623">CMSPCallMultiGraph</a> implementation initializes its members using the passed-in information. It calls 
+<a href="https://msdn.microsoft.com/74a68851-f1c2-41ed-94cd-ec043be0f0d1">MSPAddressAddRef</a> on the MSP address object. Derived MSPs will want to override this method and call it in the overridden method; the overridden method should create the default streams based on the passed-in media types.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The
 ### -param pMSPAddress
 
 Pointer to 
-<a href="https://msdn.microsoft.com/en-us/library/ms726419(v=VS.85).aspx">CMSPAddress</a> for call being initialized.
+<a href="https://msdn.microsoft.com/864bf814-43dd-4d2b-a5a7-fff12520accb">CMSPAddress</a> for call being initialized.
 
 
 ### -param htCall
@@ -89,7 +89,7 @@ Reserved parameter.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a>
+<a href="https://msdn.microsoft.com/86512d40-380b-4e98-840d-b7be99a86623">CMSPCallMultiGraph</a>
  
 
  

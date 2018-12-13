@@ -80,15 +80,15 @@ This method always returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757232(v=VS.85).aspx">IWMMetadataEditor Interface</a>
+<a href="https://msdn.microsoft.com/ad19cd3e-d1ef-4d6c-ac23-29a56e5c1d66">IWMMetadataEditor Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757236(v=VS.85).aspx">IWMMetadataEditor::Flush</a>
+<a href="https://msdn.microsoft.com/b17992f7-ed93-4f62-bf50-8fb2fd41caee">IWMMetadataEditor::Flush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757237(v=VS.85).aspx">IWMMetadataEditor::Open</a>
+<a href="https://msdn.microsoft.com/01dd09ff-35d2-4e00-9eab-5110a426449f">IWMMetadataEditor::Open</a>
  
 
  

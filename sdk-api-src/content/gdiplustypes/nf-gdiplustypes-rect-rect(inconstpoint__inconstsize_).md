@@ -51,9 +51,9 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object by using a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object to initialize the 
+Creates a <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object by using a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object to initialize the 
 			<b>X</b> and 
-			<b>Y</b> data members and a <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object to initialize the 
+			<b>Y</b> data members and a <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object to initialize the 
 			<b>Width</b> and 
 			<b>Height</b> data members.
 
@@ -65,16 +65,16 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).as
 
 ### -param location [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object that specifies the upper-left corner of this rectangle. 
+Reference to a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object that specifies the upper-left corner of this rectangle. 
 
 
 ### -param size [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object that specifies the width and height of this rectangle. 
+Reference to a <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object that specifies the width and height of this rectangle. 
 
 
 ## -see-also
@@ -82,31 +82,31 @@ Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534960(v=VS.85).aspx">Rect Constructors</a>
+<a href="https://msdn.microsoft.com/dc690522-efab-4a56-995d-b4eb96d5e295">Rect Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a>
+<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

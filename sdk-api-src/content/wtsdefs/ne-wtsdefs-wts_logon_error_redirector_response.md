@@ -4,7 +4,7 @@ title: WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
 author: windows-sdk-content
 description: Contains values that specify the preferred response of the protocol to a logon error.
 old-location: termserv\wts_logon_error_redirector_response.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 67ed8d6f-641c-4739-911c-e61379e14048
 ms.author: windowssdkdev
 ms.date: 12/5/2018

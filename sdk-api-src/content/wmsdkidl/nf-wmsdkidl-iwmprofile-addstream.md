@@ -61,9 +61,9 @@ The <b>AddStream</b> method adds a stream to the profile by copying the stream c
 
 
 
-Use <b>AddStream</b> only to include a stream that is new to the profile. New streams can be created by calling <a href="https://msdn.microsoft.com/en-us/library/Dd757401(v=VS.85).aspx">IWMProfile::CreateNewStream</a>, but will not be added to the profile until <b>AddStream</b> is called.
+Use <b>AddStream</b> only to include a stream that is new to the profile. New streams can be created by calling <a href="https://msdn.microsoft.com/4a1478ff-00fb-46e2-97a3-e00e9c1b819a">IWMProfile::CreateNewStream</a>, but will not be added to the profile until <b>AddStream</b> is called.
 
-If you edit an existing stream using <a href="https://msdn.microsoft.com/en-us/library/Dd757406(v=VS.85).aspx">IWMProfile::GetStream</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd757407(v=VS.85).aspx">IWMProfile::GetStreamByNumber</a>, you should not call <b>AddStream</b> to include the changes. To include changes made to an existing stream, call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
+If you edit an existing stream using <a href="https://msdn.microsoft.com/067c3f03-a79a-4693-b963-7081f79c72d3">IWMProfile::GetStream</a> or <a href="https://msdn.microsoft.com/507b1c55-1ecb-41dd-a6e5-298e1047a7ea">IWMProfile::GetStreamByNumber</a>, you should not call <b>AddStream</b> to include the changes. To include changes made to an existing stream, call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ If you edit an existing stream using <a href="https://msdn.microsoft.com/en-us/l
 
 ### -param pConfig [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface of the stream configuration object to be added to the profile. The stream must be configured by using the methods of the <b>IWMStreamConfig</b> interface before this method is used to add the stream to the profile.
+Pointer to the <a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a> interface of the stream configuration object to be added to the profile. The stream must be configured by using the methods of the <b>IWMStreamConfig</b> interface before this method is used to add the stream to the profile.
 
 
 ## -returns
@@ -166,23 +166,23 @@ When a stream is added, its configuration is copied into the profile. A maximum 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757406(v=VS.85).aspx">IWMProfile::GetStream</a>
+<a href="https://msdn.microsoft.com/067c3f03-a79a-4693-b963-7081f79c72d3">IWMProfile::GetStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757412(v=VS.85).aspx">IWMProfile::RemoveStream</a>
+<a href="https://msdn.microsoft.com/82817b72-fde5-492e-b197-87bf145d0be9">IWMProfile::RemoveStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
  
 
  

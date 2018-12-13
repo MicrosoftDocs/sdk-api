@@ -164,9 +164,9 @@ When an application switches to full-screen mode, the Filter Graph Manager searc
 <li>The <a href="https://msdn.microsoft.com/59332096-bdfe-4208-b99a-1f434652f287">Full Screen Renderer</a> filter.</li>
 <li>Any video renderer in the filter graph that supports <b>IVideoWindow</b>.</li>
 </ol>
-For the first option, the Filter Graph Manager calls <a href="https://msdn.microsoft.com/en-us/library/Dd377294(v=VS.85).aspx">IVideoWindow::get_FullScreenMode</a> on every video renderer in the graph. Most renderers return E_NOTIMPL, indicating the filter does not natively support full-screen mode. If any renderer returns a value not equal to E_NOTIMPL, the Filter Graph Manager uses that one.
+For the first option, the Filter Graph Manager calls <a href="https://msdn.microsoft.com/742587c7-545a-4c5f-bff1-511ed6d0b1d5">IVideoWindow::get_FullScreenMode</a> on every video renderer in the graph. Most renderers return E_NOTIMPL, indicating the filter does not natively support full-screen mode. If any renderer returns a value not equal to E_NOTIMPL, the Filter Graph Manager uses that one.
 
-For the second option, the Filter Graph Manager calls <a href="https://msdn.microsoft.com/en-us/library/Dd377282(v=VS.85).aspx">IVideoWindow::GetMaxIdealImageSize</a> and <b>GetMinIdealImageSize</b> on every video renderer in the graph. If the size of the display falls within the filter's reported range, it indicates that the filter can stretch the video without a significant performance cost.
+For the second option, the Filter Graph Manager calls <a href="https://msdn.microsoft.com/ee9f6803-c8b8-48e0-9be0-3d61a453014e">IVideoWindow::GetMaxIdealImageSize</a> and <b>GetMinIdealImageSize</b> on every video renderer in the graph. If the size of the display falls within the filter's reported range, it indicates that the filter can stretch the video without a significant performance cost.
 
 <div class="alert"><b>Note</b>  If the graph is stopped, the Filter Graph Manager pauses each renderer before calling these methods. This gives the renderer an opportunity to initialize any resources it needs, because many renderers cannot determine these values while they are stopped.</div>
 <div> </div>
@@ -184,11 +184,11 @@ Except on older hardware, the second option will generally succeed. The third op
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377294(v=VS.85).aspx">IVideoWindow::get_FullScreenMode</a>
+<a href="https://msdn.microsoft.com/742587c7-545a-4c5f-bff1-511ed6d0b1d5">IVideoWindow::get_FullScreenMode</a>
  
 
  

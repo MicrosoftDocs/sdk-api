@@ -94,7 +94,7 @@ Be careful when you enable an effect while the voice that hosts it is running. S
 
 
 
-The effects in a given XAudio2 voice's effect chain must consume and produce audio at that voice's processing sample rate. The only aspect of the audio format they can change is the channel count. For example a reverb effect can convert mono data to 5.1. The client can use the <a href="https://msdn.microsoft.com/en-us/library/Ee419236(v=VS.85).aspx">XAUDIO2_EFFECT_DESCRIPTOR</a> structure's <b>OutputChannels</b> field to specify the number of channels it wants each effect to produce. Each effect in an effect chain must produce a number of channels that the next effect can consume. Any calls to <b>IXAudio2Voice::EnableEffect</b> or <a href="https://msdn.microsoft.com/en-us/library/Ee418583(v=VS.85).aspx">IXAudio2Voice::DisableEffect</a> that would make the effect chain stop fulfilling these requirements will fail.
+The effects in a given XAudio2 voice's effect chain must consume and produce audio at that voice's processing sample rate. The only aspect of the audio format they can change is the channel count. For example a reverb effect can convert mono data to 5.1. The client can use the <a href="https://msdn.microsoft.com/d2c7c640-9f6a-4fc0-bc87-35570281cec5">XAUDIO2_EFFECT_DESCRIPTOR</a> structure's <b>OutputChannels</b> field to specify the number of channels it wants each effect to produce. Each effect in an effect chain must produce a number of channels that the next effect can consume. Any calls to <b>IXAudio2Voice::EnableEffect</b> or <a href="https://msdn.microsoft.com/5613C03D-4447-4779-8619-F3F562140B5A">IXAudio2Voice::DisableEffect</a> that would make the effect chain stop fulfilling these requirements will fail.
 
 
 
@@ -111,7 +111,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
 
 
 

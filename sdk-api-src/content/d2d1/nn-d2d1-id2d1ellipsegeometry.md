@@ -85,7 +85,7 @@ Gets the <a href="https://msdn.microsoft.com/6fed6c49-ba83-4c2b-af8a-04156ee317f
 
 
 <h3><a id="Creating_ID2D1EllipseGeometry_Objects"></a><a id="creating_id2d1ellipsegeometry_objects"></a><a id="CREATING_ID2D1ELLIPSEGEOMETRY_OBJECTS"></a>Creating ID2D1EllipseGeometry Objects</h3>
-To create an elipse geometry, use the <a href="https://msdn.microsoft.com/en-us/library/Dd742725(v=VS.85).aspx">ID2D1Factory::CreateEllipseGeometry</a> method.
+To create an elipse geometry, use the <a href="https://msdn.microsoft.com/4c03bb0b-74fe-456a-aa26-5449d758c0ea">ID2D1Factory::CreateEllipseGeometry</a> method.
 
 Direct2D geometries are immutable and device-independent resources created by <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.
 

@@ -98,9 +98,9 @@ Returns S_OK if successful, or E_POINTER if the <i>lplNoNotifyFlags</i> paramete
 
 
 
-By default, the Filter Graph Manager posts event notifications for the application. To disable event notification, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406899(v=VS.85).aspx">IMediaEventEx::SetNotifyFlags</a> method with the value AM_MEDIAEVENT_NONOTIFY.
+By default, the Filter Graph Manager posts event notifications for the application. To disable event notification, call the <a href="https://msdn.microsoft.com/6a41b6eb-3fe9-4b2e-bcbb-a407e0e6ab5e">IMediaEventEx::SetNotifyFlags</a> method with the value AM_MEDIAEVENT_NONOTIFY.
 
-If event notifications are disabled, the handle returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd406908(v=VS.85).aspx">IMediaEvent::GetEventHandle</a> method is signaled at the end of each stream—that is, whenever the Filter Graph Manager receives an <a href="https://msdn.microsoft.com/46037d53-085d-4fd0-91a0-408702cbfce5">EC_COMPLETE</a> event.
+If event notifications are disabled, the handle returned by the <a href="https://msdn.microsoft.com/83db8d24-d872-4a90-a896-1cc51273b551">IMediaEvent::GetEventHandle</a> method is signaled at the end of each stream—that is, whenever the Filter Graph Manager receives an <a href="https://msdn.microsoft.com/46037d53-085d-4fd0-91a0-408702cbfce5">EC_COMPLETE</a> event.
 
 
 
@@ -114,7 +114,7 @@ If event notifications are disabled, the handle returned by the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406897(v=VS.85).aspx">IMediaEventEx Interface</a>
+<a href="https://msdn.microsoft.com/9d367b0a-c7ec-49d4-a41e-045ac81d2c51">IMediaEventEx Interface</a>
  
 
  

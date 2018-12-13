@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Refreshes <a href="https://msdn.microsoft.com/en-us/library/Aa358873(v=VS.85).aspx">FaxSecurity2</a> object information from the fax server.
+Refreshes <a href="https://msdn.microsoft.com/213e555a-1509-4081-a21b-f33fc4653f32">FaxSecurity2</a> object information from the fax server.
 
 
 ## -parameters
@@ -76,9 +76,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When the <b>IFaxSecurity2::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/Aa358983(v=VS.85).aspx">IFaxSecurity2::Save</a> method call are lost.
+When the <b>IFaxSecurity2::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/7ae27584-956c-464a-8c0c-48b06ac9e309">IFaxSecurity2::Save</a> method call are lost.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2QUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2QUERY_CONFIG</a> access right.
 
 
 
@@ -88,11 +88,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358873(v=VS.85).aspx">FaxSecurity2</a>
+<a href="https://msdn.microsoft.com/213e555a-1509-4081-a21b-f33fc4653f32">FaxSecurity2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358979(v=VS.85).aspx">IFaxSecurity2</a>
+<a href="https://msdn.microsoft.com/a6238a8f-3e19-4dd8-b602-525774d671df">IFaxSecurity2</a>
  
 
  

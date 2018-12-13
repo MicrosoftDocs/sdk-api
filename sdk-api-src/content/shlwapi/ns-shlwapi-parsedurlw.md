@@ -99,5 +99,5 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-[out] A value from the <a href="https://msdn.microsoft.com/en-us/library/Bb762576(v=VS.85).aspx">URL_SCHEME</a> enumeration that specifies the URL's scheme.
+[out] A value from the <a href="https://msdn.microsoft.com/45686920-356d-4dd7-8482-2427854a92ed">URL_SCHEME</a> enumeration that specifies the URL's scheme.
 

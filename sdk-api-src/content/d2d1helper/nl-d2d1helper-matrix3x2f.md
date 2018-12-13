@@ -305,7 +305,7 @@ Transforms can be applied to objects or to an entire drawing surface.  To apply 
 
 #### Examples
 
-The following example uses the <a href="https://msdn.microsoft.com/9bb3ee14-3637-41fc-9164-1114619a59e4">D2D1::Matrix3x2F::Rotation</a>  method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the <a href="https://msdn.microsoft.com/en-us/library/Dd742690(v=VS.85).aspx">SetTransform</a> method of the render target (<i>m_pRenderTarget</i>).
+The following example uses the <a href="https://msdn.microsoft.com/9bb3ee14-3637-41fc-9164-1114619a59e4">D2D1::Matrix3x2F::Rotation</a>  method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the <a href="https://msdn.microsoft.com/57afadc1-88c9-4a5b-a83f-63c4c69182a7">SetTransform</a> method of the render target (<i>m_pRenderTarget</i>).
 
 The following illustration shows the effect of applying the  preceding rotation transformation to the square. The original square is a dotted outline, and the rotated square is a solid outline. 
 

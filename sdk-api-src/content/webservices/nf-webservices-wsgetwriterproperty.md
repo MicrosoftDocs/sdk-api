@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves a specified XML Writer property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML WRITER_PROPERTY_ID</a> input parameter.
+Retrieves a specified XML Writer property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML WRITER_PROPERTY_ID</a> input parameter.
             
 
 

@@ -60,7 +60,7 @@ Indicates <b>FILETYPEATTRIBUTEFLAGS</b> constants that are used in the EditFlags
 
 ### -field FTA_None
 
-No <a href="https://msdn.microsoft.com/en-us/library/Bb762506(v=VS.85).aspx">FILETYPEATTRIBUTEFLAGS</a> options set.
+No <a href="https://msdn.microsoft.com/63b58659-9c4c-4b39-98d1-743724523dcd">FILETYPEATTRIBUTEFLAGS</a> options set.
 
 
 ### -field FTA_Exclude

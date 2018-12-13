@@ -94,7 +94,7 @@ This parameter can be the following value.
 #### WBEM_FLAG_SEND_STATUS
 
 This flag registers with Windows Management a request to receive intermediate status reports through the client's implementation of 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
+<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
 
 
 ### -param pCtx [in]
@@ -109,10 +109,10 @@ Typically <b>NULL</b>. Otherwise, this is a pointer to an
 Pointer to the caller's implementation of 
 <a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>. This handler receives the objects in the query result set as they become available. To cease receiving events, the caller must call 
 <a href="https://msdn.microsoft.com/803a7831-1e3d-4940-8d2b-1a74dd16f51a">IWbemServices::CancelAsyncCall</a> using the same pointer value for <i>pResponseHandler</i>. As events become available, the supplied 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> implementation is called to deliver the event objects. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method is not called at any time, because there is no final or terminating condition. The call executes indefinitely until canceled. If any error code is returned, then the supplied 
+<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> implementation is called to deliver the event objects. The 
+<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> method is not called at any time, because there is no final or terminating condition. The call executes indefinitely until canceled. If any error code is returned, then the supplied 
 <b>IWbemObjectSink</b> pointer is not used. If <b>WBEM_S_NO_ERROR</b> is returned, then the user's 
-<b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management only calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For a detailed explanation of this parameter, see 
+<b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management only calls <a href="_com_iunknown_addref">AddRef</a> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For a detailed explanation of this parameter, see 
 <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
 
@@ -136,8 +136,8 @@ COM-specific error codes also can be returned if network problems cause you to l
 
 
 The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> if error conditions occur.
+<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
+<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> if error conditions occur.
 
 Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 

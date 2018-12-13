@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Tests whether the <a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a> is contained by a frustum.
+Tests whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> is contained by a frustum.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ A plane describing the frustum.
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh449605(v=VS.85).aspx">ContainmentType</a> indicating whether the frustum contains the <a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a>.
+A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> indicating whether the frustum contains the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
 
 
 
@@ -112,11 +112,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a>
+<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855866(v=VS.85).aspx">Methods</a>
+<a href="https://msdn.microsoft.com/98aa4c21-2dac-4e7a-95ef-ca87fb5e5082">Methods</a>
 
 
 

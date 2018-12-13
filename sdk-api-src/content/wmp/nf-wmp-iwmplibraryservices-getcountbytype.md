@@ -64,7 +64,7 @@ The <b>getCountByType</b> method retrieves the count of available libraries of a
 ### -param wmplt [in]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564875(v=VS.85).aspx">WMPLibraryType</a> enumeration value that specifies the type of library to count.
+<a href="https://msdn.microsoft.com/bf0e7140-5a33-4841-bd55-ac07dae09c41">WMPLibraryType</a> enumeration value that specifies the type of library to count.
 
 
 ### -param plCount [out]
@@ -118,11 +118,11 @@ You must initialize the <i>plCount</i> variable before passing in its pointer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563384(v=VS.85).aspx">IWMPLibraryServices Interface</a>
+<a href="https://msdn.microsoft.com/9ed6d02e-15ca-425f-8642-e32a5adfaa55">IWMPLibraryServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564875(v=VS.85).aspx">WMPLibraryType</a>
+<a href="https://msdn.microsoft.com/bf0e7140-5a33-4841-bd55-ac07dae09c41">WMPLibraryType</a>
  
 
  

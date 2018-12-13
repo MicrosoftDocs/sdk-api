@@ -133,11 +133,11 @@ After you remove a record, it cannot be restored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757240(v=VS.85).aspx">IWMMutualExclusion2::AddRecord</a>
+<a href="https://msdn.microsoft.com/58eaa4b2-65d3-44b1-8e3d-1aac01057d0f">IWMMutualExclusion2::AddRecord</a>
  
 
  

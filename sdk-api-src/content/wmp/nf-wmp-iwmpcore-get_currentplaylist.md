@@ -100,15 +100,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563242(v=VS.85).aspx">IWMPCore::put_currentPlaylist</a>
+<a href="https://msdn.microsoft.com/943641ca-9733-4066-bc69-834e792d93dc">IWMPCore::put_currentPlaylist</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
  
 
  

@@ -90,7 +90,7 @@ The callback is specified when <a href="https://msdn.microsoft.com/f2b20e6b-fac0
             
 
 The callback should assume that it is invoked as a 
-                <a href="https://msdn.microsoft.com/en-us/library/Dd401768(v=VS.85).aspx">WS_SHORT_CALLBACK</a>, since it will be invoked on the same 
+                <a href="https://msdn.microsoft.com/6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055">WS_SHORT_CALLBACK</a>, since it will be invoked on the same 
                 thread that calls <a href="https://msdn.microsoft.com/50e08300-9445-4741-9298-bd80fc777041">WsFreeMessage</a> or <a href="https://msdn.microsoft.com/90a62cc8-a7e0-4451-8490-f6384bf3e7b6">WsResetMessage</a>.
             
 

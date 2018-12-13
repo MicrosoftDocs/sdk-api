@@ -160,11 +160,11 @@ The message drain window does not need to be a parent of the video window, so fu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377297(v=VS.85).aspx">IVideoWindow::get_MessageDrain</a>
+<a href="https://msdn.microsoft.com/9a1a3070-5b68-4dd2-bc10-97a8331cc262">IVideoWindow::get_MessageDrain</a>
  
 
  

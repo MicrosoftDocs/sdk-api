@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693385(v=VS.85).aspx">GetMulticastMode</a>
+<a href="https://msdn.microsoft.com/231c20f6-3204-48a3-ad07-3df9c6d87bd7">GetMulticastMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693382(v=VS.85).aspx">IBDA_IPV4Filter Interface</a>
+<a href="https://msdn.microsoft.com/3db86e21-6d05-4b7f-be83-a3fa506a0e3b">IBDA_IPV4Filter Interface</a>
  
 
  

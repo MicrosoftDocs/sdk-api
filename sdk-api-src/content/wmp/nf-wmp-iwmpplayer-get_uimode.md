@@ -85,20 +85,20 @@ Pointer to a <b>BSTR</b> containing one of the following values.
 <tr>
 <td>none</td>
 <td>Windows Media Player is embedded without controls, and with only the video or visualization window displayed.</td>
-<td><img alt='uiMode="none" with audio' border="0" src="./images/uimode_none_audio_v11.png"/></td>
-<td><img alt='uiMode="none" with video' border="0" src="./images/uimode_none_video_v11.png"/></td>
+<td><img alt='uiMode="none" with audio' border="0" src="images/uimode_none_audio_v11.png"/></td>
+<td><img alt='uiMode="none" with video' border="0" src="images/uimode_none_video_v11.png"/></td>
 </tr>
 <tr>
 <td>mini</td>
 <td>Windows Media Player is embedded with the status window, play/pause, stop, mute, and volume controls shown in addition to the video or visualization window.</td>
-<td><img alt='uiMode="mini" with audio' border="0" src="./images/uimode_mini_audio_v11.png"/></td>
-<td><img alt='uiMode="mini" with video' border="0" src="./images/uimode_mini_video_v11.png"/></td>
+<td><img alt='uiMode="mini" with audio' border="0" src="images/uimode_mini_audio_v11.png"/></td>
+<td><img alt='uiMode="mini" with video' border="0" src="images/uimode_mini_video_v11.png"/></td>
 </tr>
 <tr>
 <td>full</td>
 <td>Default. Windows Media Player is embedded with the status window, seek bar, play/pause, stop, mute, next, previous, fast forward, fast reverse, and volume controls in addition to the video or visualization window.</td>
-<td><img alt='uiMode="full" with audio' border="0" src="./images/uimode_full_audio_v11.png"/></td>
-<td><img alt='uiMode="full" with video' border="0" src="./images/uimode_full_video_v11.png"/></td>
+<td><img alt='uiMode="full" with audio' border="0" src="images/uimode_full_audio_v11.png"/></td>
+<td><img alt='uiMode="full" with video' border="0" src="images/uimode_full_video_v11.png"/></td>
 </tr>
 <tr>
 <td>custom</td>
@@ -164,23 +164,23 @@ During full-screen playback, Windows Media Player hides the mouse cursor when th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
+<a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563539(v=VS.85).aspx">IWMPPlayer::get_enableContextMenu</a>
+<a href="https://msdn.microsoft.com/66769441-7923-45d2-b84f-24770537923c">IWMPPlayer::get_enableContextMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563546(v=VS.85).aspx">IWMPPlayer::put_uiMode</a>
+<a href="https://msdn.microsoft.com/154db914-a0c3-44de-b692-e1b7f9c681f6">IWMPPlayer::put_uiMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563634(v=VS.85).aspx">IWMPRemoteMediaServices Interface</a>
+<a href="https://msdn.microsoft.com/594a614a-8da1-4ef0-a6af-01284fb48ef7">IWMPRemoteMediaServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563636(v=VS.85).aspx">IWMPRemoteMediaServices::GetCustomUIMode</a>
+<a href="https://msdn.microsoft.com/892c2513-9ca2-48fe-b745-0fdc0f445871">IWMPRemoteMediaServices::GetCustomUIMode</a>
  
 
  

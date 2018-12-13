@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>AddBandwidthSharing</b> method adds an existing bandwidth sharing object to the profile. Bandwidth sharing objects are created with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757270(v=VS.85).aspx">CreateNewBandwidthSharing</a>. You must configure the bandwidth sharing object before adding it to the profile.
+The <b>AddBandwidthSharing</b> method adds an existing bandwidth sharing object to the profile. Bandwidth sharing objects are created with a call to <a href="https://msdn.microsoft.com/ab6c9903-95ea-499b-be75-ff57328336f0">CreateNewBandwidthSharing</a>. You must configure the bandwidth sharing object before adding it to the profile.
 
 
 
@@ -66,7 +66,7 @@ The <b>AddBandwidthSharing</b> method adds an existing bandwidth sharing object 
 
 ### -param pBS [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743298(v=VS.85).aspx">IWMBandwidthSharing</a> interface of a bandwidth sharing object.
+Pointer to the <a href="https://msdn.microsoft.com/fd0e48bb-2e5e-4158-9ff1-5b603f219689">IWMBandwidthSharing</a> interface of a bandwidth sharing object.
 
 
 ## -returns
@@ -163,15 +163,15 @@ Making a call to <b>AddBandwidthSharing</b> without first using the methods of <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757272(v=VS.85).aspx">IWMProfile3::GetBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/be66ff8b-c883-4329-aaa4-e9549d0cbb9e">IWMProfile3::GetBandwidthSharing</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757381(v=VS.85).aspx">IWMProfile3::RemoveBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/3c0a90aa-154a-49c9-ab8e-0d1c4ce02641">IWMProfile3::RemoveBandwidthSharing</a>
  
 
  

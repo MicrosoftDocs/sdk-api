@@ -66,7 +66,7 @@ This method is not currently implemented and returns E_NOTIMPL.
 
 ### -param pMode [out]
 
-Pointer to the retrieved mode. This value is a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373453(v=VS.85).aspx">AMVP_MODE</a> enumerated data type.
+Pointer to the retrieved mode. This value is a member of the <a href="https://msdn.microsoft.com/73d63ca2-17fb-4e27-9ea5-62686117254a">AMVP_MODE</a> enumerated data type.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Include Vptype.h before Vpnotify.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390589(v=VS.85).aspx">IVPNotify Interface</a>
+<a href="https://msdn.microsoft.com/6b40ba9e-8562-4d31-beaf-e4d4858bf145">IVPNotify Interface</a>
  
 
  

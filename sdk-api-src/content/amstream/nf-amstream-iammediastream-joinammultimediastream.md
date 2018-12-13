@@ -53,7 +53,7 @@ req.redist:
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-The <a href="https://msdn.microsoft.com/en-us/library/Dd319689(v=VS.85).aspx">IAMMultiMediaStream::AddMediaStream</a> method calls this method, which adds the specified media stream to the current multimedia stream.
+The <a href="https://msdn.microsoft.com/3ccfb776-6a4e-48da-857d-6693cf916c40">IAMMultiMediaStream::AddMediaStream</a> method calls this method, which adds the specified media stream to the current multimedia stream.
 
 
 
@@ -65,7 +65,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd319689(v=VS.85).aspx">IA
 
 ### -param pAMMultiMediaStream [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream</a> object to add the current media stream to.
+Pointer to the <a href="https://msdn.microsoft.com/2f604156-68ef-4770-9929-6dbfd46c4d6d">IAMMultiMediaStream</a> object to add the current media stream to.
 
 
 ## -returns
@@ -93,7 +93,7 @@ Applications should not call this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319657(v=VS.85).aspx">IAMMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/14185e7d-d08d-4fd8-a255-075eaf12a708">IAMMediaStream Interface</a>
  
 
  

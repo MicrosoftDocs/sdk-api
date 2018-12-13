@@ -62,21 +62,21 @@ Retrieves the value of a <b>BOOL</b> property from the SysMetrics section of the
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param iPartId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part containing the BOOL property. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the part containing the BOOL property. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iPropId [in]
@@ -96,7 +96,7 @@ Value of type <b>int</b> that specifies the property to retrieve. May be one of 
 </dl>
 </td>
 <td width="60%">
-<b>TRUE</b> if the image associated with the part and state have transparent areas. See <a href="https://msdn.microsoft.com/en-us/library/Bb773397(v=VS.85).aspx">GetThemeColor</a> for the definition of the TMT_TRANSPARENTCOLOR value that defines the transparent color.
+<b>TRUE</b> if the image associated with the part and state have transparent areas. See <a href="https://msdn.microsoft.com/1cc234c4-e9c3-46c6-9e9a-1413837d9dc3">GetThemeColor</a> for the definition of the TMT_TRANSPARENTCOLOR value that defines the transparent color.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Value of type <b>int</b> that specifies the property to retrieve. May be one of 
 </dl>
 </td>
 <td width="60%">
-<b>TRUE</b> if the glyph associated with this part and state have transparent areas. See <a href="https://msdn.microsoft.com/en-us/library/Bb773397(v=VS.85).aspx">GetThemeColor</a> for the definition of the TMT_GLYPHCOLOR value that defines the transparent color.
+<b>TRUE</b> if the glyph associated with this part and state have transparent areas. See <a href="https://msdn.microsoft.com/1cc234c4-e9c3-46c6-9e9a-1413837d9dc3">GetThemeColor</a> for the definition of the TMT_GLYPHCOLOR value that defines the transparent color.
 
 </td>
 </tr>
@@ -257,7 +257,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>
+<a href="https://msdn.microsoft.com/b0e22022-fea9-43d1-8ef0-7a1c518760f1">Property Identifiers</a>
  
 
  

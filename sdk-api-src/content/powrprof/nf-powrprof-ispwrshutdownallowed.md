@@ -77,7 +77,7 @@ If the computer supports soft off (power state S5), the function returns <b>TRUE
 
 This information is also available through the 
 <a href="https://msdn.microsoft.com/adc0052d-e2dd-4c55-996c-6af8f5987d79">CallNtPowerInformation</a> function. The value is returned in the <b>SystemS5</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373215(v=VS.85).aspx">SYSTEM_POWER_CAPABILITIES</a> structure.
+<a href="https://msdn.microsoft.com/aa0af56e-59b3-4d0d-b356-a4046d8754ef">SYSTEM_POWER_CAPABILITIES</a> structure.
 
 Starting with Windows Vista, computers must support the soft off power state. Therefore, this function is relevant only to Windows Server 2003 and earlier operating systems.
 
@@ -99,7 +99,7 @@ For more information on using PowrProf.h, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373215(v=VS.85).aspx">SYSTEM_POWER_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/aa0af56e-59b3-4d0d-b356-a4046d8754ef">SYSTEM_POWER_CAPABILITIES</a>
  
 
  

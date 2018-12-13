@@ -60,7 +60,7 @@ Loads unsigned integer  data into an <a href="https://msdn.microsoft.com/1a04409
 
 ### -param pSource [in]
 
-Address of an <a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a> structure containing the data to load. 
+Address of an <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a> structure containing the data to load. 
 
 
 ## -returns
@@ -80,22 +80,26 @@ For 16-byte aligned memory, it may be faster to use <a href="https://msdn.micros
 
 The following pseudocode shows the operation of this function.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 XMVECTOR vectorOut;
 
-vectorOut.x = (float)pSource->x;
-vectorOut.y = (float)pSource->y;
-vectorOut.z = (float)pSource->z;
-vectorOut.w = (float)pSource->w;
+vectorOut.x = (float)pSource-&gt;x;
+vectorOut.y = (float)pSource-&gt;y;
+vectorOut.z = (float)pSource-&gt;z;
+vectorOut.w = (float)pSource-&gt;w;
 
 return vectorOut;
 
-    
-```
-
-
+    </pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

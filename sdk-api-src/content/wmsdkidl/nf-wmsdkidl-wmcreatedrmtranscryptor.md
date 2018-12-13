@@ -63,7 +63,7 @@ Creates a DRM transcryptor object.
 
 ### -param ppTranscryptor [out]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798367(v=VS.85).aspx">IWMDRMTranscryptor</a> interface of the newly created DRM transcryptor object.
+Address of a pointer to the <a href="https://msdn.microsoft.com/cd154077-eebe-4a0f-ae70-5268d5af4898">IWMDRMTranscryptor</a> interface of the newly created DRM transcryptor object.
 
 
 ## -returns

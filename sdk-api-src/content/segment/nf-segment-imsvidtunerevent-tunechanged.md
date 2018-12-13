@@ -92,7 +92,7 @@ The dispatch identifier (dispid) of this method is <b>eventidOnTuneChanged</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694705(v=VS.85).aspx">IMSVidTunerEvent Interface</a>
+<a href="https://msdn.microsoft.com/cdffe6ca-00b0-4230-963d-b4409413e5f5">IMSVidTunerEvent Interface</a>
  
 
  

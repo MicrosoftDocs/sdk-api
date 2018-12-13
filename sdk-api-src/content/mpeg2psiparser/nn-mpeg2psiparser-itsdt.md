@@ -76,7 +76,7 @@ The <b>ITSDT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694981(v=VS.85).aspx">ConvertNextToCurrent</a>
+<a href="https://msdn.microsoft.com/a8ce79ed-516a-44bf-b9c9-ff6d693cdd30">ConvertNextToCurrent</a>
 </td>
 <td align="left" width="63%">
 Converts a <i>next</i> table to a <i>current</i> table.
@@ -85,7 +85,7 @@ Converts a <i>next</i> table to a <i>current</i> table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694982(v=VS.85).aspx">GetCountOfTableDescriptors</a>
+<a href="https://msdn.microsoft.com/29e2f3f7-4ff4-447b-bd17-36cd05829844">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors in the TSDT.
@@ -94,7 +94,7 @@ Returns the number of descriptors in the TSDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694983(v=VS.85).aspx">GetNextTable</a>
+<a href="https://msdn.microsoft.com/7b60647a-b668-4884-967d-044ff0d149c2">GetNextTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <i>next</i> table that follows the current table.
@@ -112,7 +112,7 @@ Retrieves a table descriptor for the TSDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694985(v=VS.85).aspx">GetTableDescriptorByTag</a>
+<a href="https://msdn.microsoft.com/cb2f544b-02fd-4a48-838f-56815710a5bd">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches the TSDT for a descriptor with the specified descriptor tag.
@@ -121,7 +121,7 @@ Searches the TSDT for a descriptor with the specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694986(v=VS.85).aspx">GetVersionNumber</a>
+<a href="https://msdn.microsoft.com/4784b7d6-1a20-4018-9ad5-7e8bafb700f8">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the TSDT.
@@ -130,7 +130,7 @@ Returns the version number for the TSDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694987(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/6682de14-50a8-48be-839f-b15824c1dd6e">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -139,7 +139,7 @@ Initializes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694988(v=VS.85).aspx">RegisterForNextTable</a>
+<a href="https://msdn.microsoft.com/36d597e2-0a65-48f3-8220-bb3481185af7">RegisterForNextTable</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
@@ -148,7 +148,7 @@ Registers the client to be notified when a <i>next</i> table arrives that will r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694989(v=VS.85).aspx">RegisterForWhenCurrent</a>
+<a href="https://msdn.microsoft.com/f2ce7908-3650-4ecf-8014-6bae377dcb5c">RegisterForWhenCurrent</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when the table becomes current.

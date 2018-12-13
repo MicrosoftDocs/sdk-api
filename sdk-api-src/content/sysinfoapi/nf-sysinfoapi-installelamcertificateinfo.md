@@ -59,7 +59,7 @@ req.redist:
 Installs the certificate information specified in the resource file, which is linked into the ELAM 
     driver at build time. This API is used by anti-malware vendors to launch the anti-malware software's user-mode 
     service as protected. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Dn313124(v=VS.85).aspx">Protecting Anti-Malware Services</a>.
+    <a href="m_whitepapers.protecting_anti-malware_services_">Protecting Anti-Malware Services</a>.
 
 
 ## -parameters
@@ -94,18 +94,22 @@ Anti-malware vendors can use this API to register their anti-malware user-mode s
     only and must not be shareable for write access.
 
 For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Dn313124(v=VS.85).aspx">Protecting Anti-Malware Services</a>.
+    <a href="m_whitepapers.protecting_anti-malware_services_">Protecting Anti-Malware Services</a>.
 
 
 #### Examples
 
 Code example:
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HANDLE FileHandle = NULL;
 
-```cpp
-HANDLE FileHandle = NULL;
-
-FileHandle = CreateFile(<Insert Elam driver file name>,
+FileHandle = CreateFile(&lt;Insert Elam driver file name&gt;,
                         FILE_READ_DATA,
                         FILE_SHARE_READ,
                         NULL,
@@ -118,9 +122,9 @@ if (InstallElamCertificateInfo(FileHandle) == FALSE)
 {
     Result = GetLastError();
     goto exitFunc;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

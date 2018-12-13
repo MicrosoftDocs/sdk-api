@@ -53,7 +53,7 @@ req.redist:
 ## -description
 
 
-Sets the name for a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>. The <b>PCLUSAPI_SetClusterName</b> type defines a pointer to this function.
+Sets the name for a <a href="c_gly.htm">cluster</a>. The <b>PCLUSAPI_SetClusterName</b> type defines a pointer to this function.
 
 
 ## -parameters

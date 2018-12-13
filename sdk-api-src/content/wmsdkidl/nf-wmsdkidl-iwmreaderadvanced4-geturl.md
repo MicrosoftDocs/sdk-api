@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetURL</b> method retrieves the URL of the file being read. This URL might be different from the URL that was passed to <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>, because the reader might have been redirected.
+The <b>GetURL</b> method retrieves the URL of the file being read. This URL might be different from the URL that was passed to <a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">IWMReader::Open</a>, because the reader might have been redirected.
 
 
 
@@ -127,7 +127,7 @@ Call this method twice. The first time, pass <b>NULL</b> as the value for <i>pws
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
  
 
  

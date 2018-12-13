@@ -59,7 +59,7 @@ req.redist:
 
 The <b>CInstance</b> class is used to retrieve and update the values of properties defined for the instances supported by the WMI Provider Framework. The <b>CInstance</b> class also provides access to the provider framework's implementation of the <b>CInstance</b> interface.
 
-It is not expected that provider writers will need to derive from this class. Use <a href="https://msdn.microsoft.com/en-us/library/Aa392765(v=VS.85).aspx">Provider::CreateNewInstance</a> to create an instance of this class.
+It is not expected that provider writers will need to derive from this class. Use <a href="https://msdn.microsoft.com/cb520b55-9ef8-4f5a-935d-46c2bb01f5dd">Provider::CreateNewInstance</a> to create an instance of this class.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CInstance</b> has these types of members:
 <ul>

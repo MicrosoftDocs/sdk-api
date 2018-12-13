@@ -72,7 +72,7 @@ The ID for the Command, which is specified in the Markup resource file.
 
 Type: <b>REFPROPERTYKEY</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371196(v=VS.85).aspx">Property Key</a> to update.
+The <a href="https://msdn.microsoft.com/12bc7fda-ff69-4316-8baf-cc97e19a231c">Property Key</a> to update.
 				
 
 
@@ -110,7 +110,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method should be allowed to return before any subsequent calls to the Ribbon framework are made.
 
-The values of Command properties, such as <a href="https://msdn.microsoft.com/en-us/library/Dd940400(v=VS.85).aspx">UI_PKEY_Enabled</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd371287(v=VS.85).aspx">UI_PKEY_Label</a>, are set through calls to <a href="https://msdn.microsoft.com/en-us/library/Dd371478(v=VS.85).aspx">SetUICommandProperty</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd371375(v=VS.85).aspx">InvalidateUICommand</a>.
+The values of Command properties, such as <a href="https://msdn.microsoft.com/bb75487c-a222-4d92-87cb-1c11d137af7b">UI_PKEY_Enabled</a> or <a href="https://msdn.microsoft.com/4d704133-bba7-4c32-a552-d748b66455eb">UI_PKEY_Label</a>, are set through calls to <a href="https://msdn.microsoft.com/d04071d1-f3f2-4327-bf4c-6348dec4e2f1">SetUICommandProperty</a> or <a href="https://msdn.microsoft.com/6f6f6815-5523-42d9-a6b2-a21dd26756c0">InvalidateUICommand</a>.
 
 
 
@@ -120,11 +120,11 @@ The values of Command properties, such as <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>
+<a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

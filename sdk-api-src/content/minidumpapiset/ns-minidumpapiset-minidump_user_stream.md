@@ -4,7 +4,7 @@ title: MINIDUMP_USER_STREAM
 author: windows-sdk-content
 description: Contains user-defined information stored in a data stream.
 old-location: base\minidump_user_stream_str.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 43eae98c-fba3-43a4-97e6-8b81874e856e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

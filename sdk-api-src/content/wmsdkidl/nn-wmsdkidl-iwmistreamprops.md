@@ -75,7 +75,7 @@ The <b>IWMIStreamProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757213(v=VS.85).aspx">GetProperty</a>
+<a href="https://msdn.microsoft.com/1873e20f-376a-45fe-ad02-0c28c894af18">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a named property from the <b>IStream</b>.

@@ -60,7 +60,7 @@ Determines the supported metadata version number.
 
 ### -param Origin [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb736248(v=VS.85).aspx">DFS_NAMESPACE_VERSION_ORIGIN</a> enumeration value that specifies the origin of the DFS namespace version.
+A <a href="https://msdn.microsoft.com/b260e132-41fd-460b-87e6-c6e0490dc8b4">DFS_NAMESPACE_VERSION_ORIGIN</a> enumeration value that specifies the origin of the DFS namespace version.
 
 
 ### -param pName [in]
@@ -107,7 +107,7 @@ Thus, the maximum DFS metadata version number that can be used for a new DFS nam
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736248(v=VS.85).aspx">DFS_NAMESPACE_VERSION_ORIGIN</a>
+<a href="https://msdn.microsoft.com/b260e132-41fd-460b-87e6-c6e0490dc8b4">DFS_NAMESPACE_VERSION_ORIGIN</a>
 
 
 

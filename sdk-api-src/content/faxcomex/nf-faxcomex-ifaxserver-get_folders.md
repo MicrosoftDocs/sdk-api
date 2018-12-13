@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxServer::get_Folders</b> property accesses a <a href="https://msdn.microsoft.com/en-us/library/ms684838(v=VS.85).aspx">IFaxFolders</a> configuration interface. You can use the interface to access the folders, jobs, and messages on a connected fax server.
+The <b>IFaxServer::get_Folders</b> property accesses a <a href="https://msdn.microsoft.com/98e650c7-fc8e-4bf3-91ca-d9dc2ab09f50">IFaxFolders</a> configuration interface. You can use the interface to access the folders, jobs, and messages on a connected fax server.
 
 This property is read-only.
 
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692976(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/bdc7cdaa-0e37-4124-a9b3-9f9eabbe329e">Visual Basic Example</a>
  
 
  

@@ -112,7 +112,7 @@ For more information, see <a href="https://msdn.microsoft.com/b9ad8d9d-9827-44f9
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694672(v=VS.85).aspx">IMSVidStreamBufferSourceEvent3 Interface</a>
+<a href="https://msdn.microsoft.com/4ff2e05f-1c26-48f2-8c46-beebb8b0b1b3">IMSVidStreamBufferSourceEvent3 Interface</a>
  
 
  

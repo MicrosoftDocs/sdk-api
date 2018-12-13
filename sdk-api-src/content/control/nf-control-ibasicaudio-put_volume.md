@@ -137,7 +137,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389532(v=VS.85).aspx">IBasicAudio Interface</a>
+<a href="https://msdn.microsoft.com/0335b263-8d32-4690-a606-ba2b3e382680">IBasicAudio Interface</a>
  
 
  

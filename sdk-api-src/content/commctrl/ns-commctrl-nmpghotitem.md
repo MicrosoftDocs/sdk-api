@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760865(v=VS.85).aspx">PGN_HOTITEMCHANGE</a> notification code. 
+Contains information used with the <a href="https://msdn.microsoft.com/0f59677c-0251-49f4-b909-6fac6d93f354">PGN_HOTITEMCHANGE</a> notification code. 
 
 
 
@@ -61,10 +61,10 @@ Contains information used with the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field idOld

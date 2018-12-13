@@ -205,27 +205,27 @@ You should make two calls to <b>GetScript</b> for each script you want to retrie
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
+<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
+<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
+<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798517(v=VS.85).aspx">IWMHeaderInfo::AddScript</a>
+<a href="https://msdn.microsoft.com/e20644fb-077e-4eee-8802-6099002f3969">IWMHeaderInfo::AddScript</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798524(v=VS.85).aspx">IWMHeaderInfo::GetScriptCount</a>
+<a href="https://msdn.microsoft.com/c1a0b35c-db05-402a-9bde-684bead1eedf">IWMHeaderInfo::GetScriptCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798526(v=VS.85).aspx">IWMHeaderInfo::RemoveScript</a>
+<a href="https://msdn.microsoft.com/c66e808d-25f9-4745-8bcc-731f2556f470">IWMHeaderInfo::RemoveScript</a>
  
 
  

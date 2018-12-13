@@ -73,7 +73,7 @@ The <b>IWMPLibraryServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563385(v=VS.85).aspx">getCountByType</a>
+<a href="https://msdn.microsoft.com/e592fc2e-97d8-4d3c-bbef-7cbaa63a6909">getCountByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of available libraries of a specified type.
@@ -82,7 +82,7 @@ Retrieves the count of available libraries of a specified type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563386(v=VS.85).aspx">getLibraryByType</a>
+<a href="https://msdn.microsoft.com/766cfd4e-53e6-44a8-87e6-2b9c1fa2ff3f">getLibraryByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPLibrary</b> interface that represents the library that has the specified type and index.
@@ -91,7 +91,7 @@ Retrieves a pointer to an <b>IWMPLibrary</b> interface that represents the libra
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPLibraryServices</b> by calling <b>QueryInterface</b> through <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a> from a local or remoted Windows Media Player ActiveX control.
+Retrieve a pointer to <b>IWMPLibraryServices</b> by calling <b>QueryInterface</b> through <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a> from a local or remoted Windows Media Player ActiveX control.
 	
 	
 
@@ -101,11 +101,11 @@ Retrieve a pointer to <b>IWMPLibraryServices</b> by calling <b>QueryInterface</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563383(v=VS.85).aspx">IWMPLibrary Interface</a>
+<a href="https://msdn.microsoft.com/add0ed43-d83f-4793-b1f6-ccad0f01854c">IWMPLibrary Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
+<a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer Interface</a>
 
 
 

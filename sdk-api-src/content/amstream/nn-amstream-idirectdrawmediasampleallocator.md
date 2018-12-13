@@ -54,7 +54,7 @@ req.redist:
 
 The <code>IDirectDrawMediaSampleAllocator</code> interface allocates samples that contain DirectDraw surfaces.
 
-The <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter's input pin creates an allocator that implements this interface. This allocator allocates <a href="https://msdn.microsoft.com/en-us/library/Dd406801(v=VS.85).aspx">IDirectDrawMediaSample</a> media samples that also support the <a href="https://msdn.microsoft.com/en-us/library/Dd407001(v=VS.85).aspx">IMediaSample</a> interface.
+The <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter's input pin creates an allocator that implements this interface. This allocator allocates <a href="https://msdn.microsoft.com/0a83b257-e88f-4870-924c-56ddc325f17f">IDirectDrawMediaSample</a> media samples that also support the <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface.
 
 Decoder filters should not have to use this interface to connect to the Overlay Mixer. Applications never use this interface.
 
@@ -78,7 +78,7 @@ The <b>IDirectDrawMediaSampleAllocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406803(v=VS.85).aspx">GetDirectDraw</a>
+<a href="https://msdn.microsoft.com/6d6eed9d-635d-424b-ba14-213bbe56f66c">GetDirectDraw</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DirectDraw instance used to allocate surfaces.

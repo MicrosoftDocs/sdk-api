@@ -76,7 +76,7 @@ The <b>IMSVidGenericSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694563(v=VS.85).aspx">get_SinkStreams</a>
+<a href="https://msdn.microsoft.com/e77f2ee8-081b-4415-87b5-ab27ee0218d2">get_SinkStreams</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -85,7 +85,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694564(v=VS.85).aspx">put_SinkStreams</a>
+<a href="https://msdn.microsoft.com/a9bb76ad-6b10-4a48-9d94-64e6d28a3b9f">put_SinkStreams</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -94,7 +94,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694565(v=VS.85).aspx">SetSinkFilter</a>
+<a href="https://msdn.microsoft.com/51a26dc5-a551-4f97-9dd4-6522a14989a8">SetSinkFilter</a>
 </td>
 <td align="left" width="63%">
 Sets the filter for the sink.

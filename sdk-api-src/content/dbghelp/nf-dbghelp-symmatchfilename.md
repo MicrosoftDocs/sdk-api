@@ -4,7 +4,7 @@ title: SymMatchFileName function
 author: windows-sdk-content
 description: Compares a string to a file name and path.
 old-location: base\symmatchfilename.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 69787cc7-db84-4c60-8d7d-f8eae18c82e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Implements methods that get information from a Protected Broadcast Driver Architecture (PBDA) <b>IsdbCasResponse</b> event. An Integrated Services Digital Broadcasting (ISDB) PBDA media transform device (MTD) fires an <b>IsdbCasResponse</b> event after a media sink device (MSD)  calls the <a href="https://msdn.microsoft.com/en-us/library/Dd693395(v=VS.85).aspx">IBDA_ISDBConditionalAccess::SetIsdbCasRequest</a> method to indicate communication with a conditional access system (CAS) card. The MTD fires the <b>IsdbCasResponse</b> event to signal that response data is available.
+Implements methods that get information from a Protected Broadcast Driver Architecture (PBDA) <b>IsdbCasResponse</b> event. An Integrated Services Digital Broadcasting (ISDB) PBDA media transform device (MTD) fires an <b>IsdbCasResponse</b> event after a media sink device (MSD)  calls the <a href="https://msdn.microsoft.com/c93351f5-1829-4405-b665-00f2e78391e0">IBDA_ISDBConditionalAccess::SetIsdbCasRequest</a> method to indicate communication with a conditional access system (CAS) card. The MTD fires the <b>IsdbCasResponse</b> event to signal that response data is available.
 
 
 ## -inheritance

@@ -52,7 +52,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 The <b>ITfFnConfigure</b> interface is implemented by a text service to enable the Text Services control panel application to allow the text service to display a configuration dialog box.
 
-The Text Services control panel application obtains an instance of this interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the class identifier passed to <a href="https://msdn.microsoft.com/264bc32e-60a2-4dff-a212-5682d30a769e">ITfInputProcessorProfiles::Register</a> and IID_ITfFnConfigure.
+The Text Services control panel application obtains an instance of this interface by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with the class identifier passed to <a href="https://msdn.microsoft.com/264bc32e-60a2-4dff-a212-5682d30a769e">ITfInputProcessorProfiles::Register</a> and IID_ITfFnConfigure.
 
 
 ## -inheritance
@@ -87,7 +87,7 @@ Called when the user opens the Text Services control panel application, selects 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 
@@ -101,7 +101,7 @@ Called when the user opens the Text Services control panel application, selects 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -4,7 +4,7 @@ title: WTSSBX_MACHINE_STATE
 author: windows-sdk-content
 description: Contains values that indicate the current state of a server.
 old-location: termserv\wtssbx_machine_state.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8913e159-9b97-4575-9718-6f2906896a32
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -70,7 +70,7 @@ Size of the array passed in the <i>pInputTypes</i> parameter.
 
 ### -param pulInputTypesSupplied
 
-Pointer to a variable that receives the number of <a href="https://msdn.microsoft.com/en-us/library/Dd375510(v=VS.85).aspx">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pInputTypes</i> that the function fills in.
+Pointer to a variable that receives the number of <a href="https://msdn.microsoft.com/53bf4c34-d180-4edd-b59a-55d7d90708b5">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pInputTypes</i> that the function fills in.
 
 
 ### -param pInputTypes
@@ -85,12 +85,12 @@ Size of the array passed in the <i>pOutputTypes</i> parameter.
 
 ### -param pulOutputTypesSupplied
 
-Pointer to a variable that receives the number of <a href="https://msdn.microsoft.com/en-us/library/Dd375510(v=VS.85).aspx">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pOutputTypes</i> that the function fills in.
+Pointer to a variable that receives the number of <a href="https://msdn.microsoft.com/53bf4c34-d180-4edd-b59a-55d7d90708b5">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pOutputTypes</i> that the function fills in.
 
 
 ### -param pOutputTypes
 
-Pointer to a caller-allocated array of <a href="https://msdn.microsoft.com/en-us/library/Dd375510(v=VS.85).aspx">DMO_PARTIAL_MEDIATYPE</a> structures. The size of the array is given in the <i>ulOutputTypesRequested</i> parameter. The function fills the array with the DMO output types registered for the DMO.
+Pointer to a caller-allocated array of <a href="https://msdn.microsoft.com/53bf4c34-d180-4edd-b59a-55d7d90708b5">DMO_PARTIAL_MEDIATYPE</a> structures. The size of the array is given in the <i>ulOutputTypesRequested</i> parameter. The function fills the array with the DMO output types registered for the DMO.
 
 
 ## -returns

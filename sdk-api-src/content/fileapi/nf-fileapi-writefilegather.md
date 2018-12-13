@@ -80,7 +80,7 @@ A handle to the file. The file handle must be created with the <b>GENERIC_WRITE<
 
 ### -param aSegmentArray [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Gg258119(v=VS.85).aspx">FILE_SEGMENT_ELEMENT</a> 
+A pointer to an array of <a href="https://msdn.microsoft.com/dde79dcb-95ec-4a9e-87a4-9ad99ac6266e">FILE_SEGMENT_ELEMENT</a> 
        buffers that contain the data. For a description of this union, see Remarks.
 
 Each element contains the address of one page of data. 
@@ -171,7 +171,7 @@ If the function returns before the write operation is complete, the function ret
 
 This function is not supported for 32-bit applications by WOW64 on the Itanium-based systems.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Gg258119(v=VS.85).aspx">FILE_SEGMENT_ELEMENT</a> union is defined as follows:
+The <a href="https://msdn.microsoft.com/dde79dcb-95ec-4a9e-87a4-9ad99ac6266e">FILE_SEGMENT_ELEMENT</a> union is defined as follows:
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -271,7 +271,7 @@ If there is a transaction bound to the file handle, then the operation is transa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Gg258119(v=VS.85).aspx">FILE_SEGMENT_ELEMENT</a>
+<a href="https://msdn.microsoft.com/dde79dcb-95ec-4a9e-87a4-9ad99ac6266e">FILE_SEGMENT_ELEMENT</a>
 
 
 

@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil</a> state of the output-merger stage.
+Gets the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">depth-stencil</a> state of the output-merger stage.
 
 
 ## -parameters
@@ -61,16 +61,16 @@ Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).asp
 
 ### -param ppDepthStencilState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/7cb79259-5575-4307-ab02-8bf11a0acf90">ID3D10DepthStencilState</a>**</b>
 
-Address of a pointer to a depth-stencil state interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState</a>) to be filled with information from the device.
+Address of a pointer to a depth-stencil state interface (see <a href="https://msdn.microsoft.com/7cb79259-5575-4307-ab02-8bf11a0acf90">ID3D10DepthStencilState</a>) to be filled with information from the device.
 
 
 ### -param pStencilRef [out]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
-Pointer to the stencil reference value used in the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil</a> test.
+Pointer to the stencil reference value used in the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">depth-stencil</a> test.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

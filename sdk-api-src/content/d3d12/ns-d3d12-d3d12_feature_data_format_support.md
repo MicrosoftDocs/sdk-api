@@ -60,7 +60,7 @@ Describes which resources are supported by the current graphics driver for a giv
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the format to return info about.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value for the format to return info about.
 
 
 ### -field Support1
@@ -77,7 +77,7 @@ A combination of <a href="https://msdn.microsoft.com/29B53FBE-2FF3-4A3A-8392-307
 
 
 
-Refer to <a href="https://msdn.microsoft.com/en-us/library/Dn914603(v=VS.85).aspx">Typed unordered access view loads</a> for an example use of this structure.
+Refer to <a href="/windows/desktop/direct3d12/typed-unordered-access-view-loads">Typed unordered access view loads</a> for an example use of this structure.
 
 Also see <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
 
@@ -98,7 +98,7 @@ To view tables of DXGI formats and hardware features, refer to:
 <a href="https://msdn.microsoft.com/735CDA40-557F-4D47-87B7-97A8E120B9D2">DXGI Format  Support for Direct3D Feature Level 11.0 Hardware</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/Ff471324(v=VS.85).aspx">Hardware Support for Direct3D 10Level9 Formats</a>
+<a href="direct3ddxgi.d3d11_graphics_programming_guide_dxgi_hw_formats_10level9">Hardware Support for Direct3D 10Level9 Formats</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/011ad888-1c1d-4cbd-ab70-12fb8adc000f">Hardware Support for Direct3D 10.1 Formats</a>
@@ -123,7 +123,7 @@ To view tables of DXGI formats and hardware features, refer to:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn914603(v=VS.85).aspx">Typed unordered access view loads</a>
+<a href="/windows/desktop/direct3d12/typed-unordered-access-view-loads">Typed unordered access view loads</a>
  
 
  

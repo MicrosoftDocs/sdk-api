@@ -175,7 +175,7 @@ A placeholder is a type of reserved memory region.
 </td>
 <td width="60%">
  To create a placeholder, call 
-         <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> with 
+         <a href="base.virtualalloc2">VirtualAlloc2</a> with 
          <code>MEM_RESERVE | MEM_RESERVE_PLACEHOLDER</code> and <i>PageProtection</i> set to <b>PAGE_NOACCESS</b>. To free/split/coalesce a placeholder, see the <i>dwFreeType</i> parameter of <a href="https://msdn.microsoft.com/d6f27be8-8929-4a4d-b52c-fa99044ca243">VirtualFree</a> and <a href="https://msdn.microsoft.com/2e5c862c-1251-49da-9c3a-90b09e488d89">VirtualFreeEx</a>.
 
 A placeholder is a type of reserved memory region.
@@ -322,7 +322,7 @@ The memory protection for the region of pages to be allocated. If the pages are 
 
 ### -param ExtendedParameters [in, out, optional]
 
-An optional pointer to one or more  extended parameters of type <a href="https://msdn.microsoft.com/en-us/library/Mt832847(v=VS.85).aspx">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>/<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
+An optional pointer to one or more  extended parameters of type <a href="base.mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>/<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
 
 
 ### -param ParameterCount [in]
@@ -399,7 +399,7 @@ When creating a region that will be executable, the calling program bears respon
 
 #### Examples
 
-For code examples, see <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">Virtual2Alloc</a>.
+For code examples, see <a href="base.virtualalloc2">Virtual2Alloc</a>.
 
 <div class="code"></div>
 

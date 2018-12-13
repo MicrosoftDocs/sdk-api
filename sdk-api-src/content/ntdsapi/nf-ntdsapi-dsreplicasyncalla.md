@@ -142,7 +142,7 @@ Pointer to application-defined data passed as the first argument of the <a href=
 ### -param pErrors [out, optional]
 
 A NULL-terminated array of pointers to  
-<a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a> structures that contain errors that occurred during synchronization. The memory used to hold both the array of pointers and the MsCS\mscs\clusctl_resource_type_get_private_property_fmts.xml data is allocated as a single block of memory and should be freed when no longer required  by a single call to <b>LocalFree</b> with the pointer value returned in <i>pErrors</i> used as the argument.
+<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a> structures that contain errors that occurred during synchronization. The memory used to hold both the array of pointers and the MsCS\mscs\clusctl_resource_type_get_private_property_fmts.xml data is allocated as a single block of memory and should be freed when no longer required  by a single call to <b>LocalFree</b> with the pointer value returned in <i>pErrors</i> used as the argument.
 
 
 ## -returns
@@ -174,11 +174,11 @@ The <b>DsReplicaSyncAll</b> function can use the callback function pointed to by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a>
+<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676282(v=VS.85).aspx">DS_REPSYNCALL_UPDATE</a>
+<a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a>
 
 
 

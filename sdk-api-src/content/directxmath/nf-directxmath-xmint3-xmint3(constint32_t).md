@@ -52,7 +52,7 @@ req.redist:
 
 Initializes a new instance of <code>XMINT3</code> from a three element <code>int32_t</code> array argument.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh404659(v=VS.85).aspx">XMINT3</a> from a from a three element
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a> from a from a three element
   <code>int32_t</code> array argument.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -100,11 +100,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404659(v=VS.85).aspx">XMINT3</a>
+<a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449510(v=VS.85).aspx">XMINT3 Constructors</a>
+<a href="https://msdn.microsoft.com/69eb08b8-a533-40cc-8efb-ccb9106e0e24">XMINT3 Constructors</a>
  
 
  

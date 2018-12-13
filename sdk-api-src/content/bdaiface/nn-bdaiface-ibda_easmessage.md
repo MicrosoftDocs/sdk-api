@@ -70,7 +70,7 @@ The <b>IBDA_EasMessage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693322(v=VS.85).aspx">get_EasMessage</a>
+<a href="https://msdn.microsoft.com/ac6454f2-28e6-4cb2-8b48-517d4dd8509c">get_EasMessage</a>
 </td>
 <td align="left" width="63%">
 Retrieves an EAS message.

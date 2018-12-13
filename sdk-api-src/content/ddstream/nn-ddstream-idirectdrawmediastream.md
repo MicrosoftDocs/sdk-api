@@ -66,7 +66,7 @@ Use this interface when you want to send a video stream to a DirectDraw surface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawMediaStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a>. <b>IDirectDrawMediaStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawMediaStream</b> interface inherits from <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a>. <b>IDirectDrawMediaStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ The <b>IDirectDrawMediaStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406807(v=VS.85).aspx">CreateSample</a>
+<a href="https://msdn.microsoft.com/85041c71-f9fc-48fc-8fe2-fec21efb831b">CreateSample</a>
 </td>
 <td align="left" width="63%">
 Creates a stream sample using the specified DirectDraw surface object.
@@ -90,7 +90,7 @@ Creates a stream sample using the specified DirectDraw surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406808(v=VS.85).aspx">GetDirectDraw</a>
+<a href="https://msdn.microsoft.com/44c505fe-70d9-49bd-9135-8a6dc2c72e98">GetDirectDraw</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the DirectDraw object used by the current media stream.
@@ -99,7 +99,7 @@ Retrieves a pointer to the DirectDraw object used by the current media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406809(v=VS.85).aspx">GetFormat</a>
+<a href="https://msdn.microsoft.com/3729bbe6-3504-46b3-9978-e66afc56344f">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current media stream's format and, optionally, its desired format.
@@ -108,7 +108,7 @@ Retrieves the current media stream's format and, optionally, its desired format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406810(v=VS.85).aspx">GetTimePerFrame</a>
+<a href="https://msdn.microsoft.com/24133185-0d5f-41fc-b381-ef982db46dd1">GetTimePerFrame</a>
 </td>
 <td align="left" width="63%">
 Retrieves the average frames per second from a video stream.
@@ -117,7 +117,7 @@ Retrieves the average frames per second from a video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406811(v=VS.85).aspx">SetDirectDraw</a>
+<a href="https://msdn.microsoft.com/ffa425c5-5f81-4963-bf23-2139d8b245b3">SetDirectDraw</a>
 </td>
 <td align="left" width="63%">
 Sets the current media stream's DirectDraw object.
@@ -126,7 +126,7 @@ Sets the current media stream's DirectDraw object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406812(v=VS.85).aspx">SetFormat</a>
+<a href="https://msdn.microsoft.com/465b4f0c-40e1-4aec-be62-0b55c29fa05e">SetFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the current media stream's format. If the stream already has allocated samples and the sample format doesn't match the specified format, this method fails.
@@ -141,7 +141,7 @@ Sets the current media stream's format. If the stream already has allocated samp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a>
+<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a>
  
 
  

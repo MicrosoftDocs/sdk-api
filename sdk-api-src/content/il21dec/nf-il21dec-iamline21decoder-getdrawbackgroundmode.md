@@ -64,7 +64,7 @@ The <code>GetDrawBackgroundMode</code> method indicates whether the <a href="htt
 
 ### -param lpMode
 
-Pointer a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373476(v=VS.85).aspx">AM_LINE21_DRAWBGMODE</a> enumeration.
+Pointer a variable that receives a member of the <a href="https://msdn.microsoft.com/efd8ee53-702b-45af-a3dc-e6afe26b01c9">AM_LINE21_DRAWBGMODE</a> enumeration.
 
 
 ## -returns
@@ -115,11 +115,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389395(v=VS.85).aspx">IAMLine21Decoder::SetDrawBackgroundMode</a>
+<a href="https://msdn.microsoft.com/56301cc2-8f27-4530-bb6e-9909eb5bb390">IAMLine21Decoder::SetDrawBackgroundMode</a>
  
 
  

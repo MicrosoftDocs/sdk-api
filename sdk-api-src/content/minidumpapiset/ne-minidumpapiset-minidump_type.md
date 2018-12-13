@@ -4,7 +4,7 @@ title: MINIDUMP_TYPE
 author: windows-sdk-content
 description: Identifies the type of information that will be written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\minidump_type.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 89ae3a75-5f02-4c5e-9d72-95fb8ef94985
 ms.author: windowssdkdev
 ms.date: 12/5/2018

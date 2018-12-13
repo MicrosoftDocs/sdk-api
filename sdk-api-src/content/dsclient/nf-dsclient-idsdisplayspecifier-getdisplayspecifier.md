@@ -97,33 +97,37 @@ This method uses the server and user credentials set by a previous call to
 
 The following code example demonstrates how to call this method.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 IDsDisplaySpecifier *pDS;
 
 hr = CoCreateInstance(CLSID_DsDisplaySpecifier,
                         NULL,
                         CLSCTX_INPROC_SERVER,
                         IID_IDsDisplaySpecifier,
-                        (void**)&pDS);
+                        (void**)&amp;pDS);
 if(SUCCEEDED(hr))
 {
     IADs *pads;
 
-    hr = pDS->GetDisplaySpecifier(L"user", IID_IADs, (LPVOID*)&pads);
+    hr = pDS-&gt;GetDisplaySpecifier(L"user", IID_IADs, (LPVOID*)&amp;pads);
 
     if(SUCCEEDED(hr))
     {
-        pads->Release();
+        pads-&gt;Release();
     }
 
-    pDS->Release();
+    pDS-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

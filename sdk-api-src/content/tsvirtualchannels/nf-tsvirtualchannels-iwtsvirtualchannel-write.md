@@ -4,7 +4,7 @@ title: IWTSVirtualChannel::Write
 author: windows-sdk-content
 description: Starts a write request on the channel.
 old-location: termserv\iwtsvirtualchannel_write.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: fef7067c-6d81-42b7-8534-191bc98906d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

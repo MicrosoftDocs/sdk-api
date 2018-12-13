@@ -4,7 +4,7 @@ title: SymCompareInlineTrace function
 author: windows-sdk-content
 description: Compares two inline traces.
 old-location: base\symcompareinlinetrace.htm
-tech.root: Debug
+tech.root: debug
 ms.assetid: 24daca16-834c-424a-8569-e448f515d76f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

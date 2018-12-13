@@ -81,11 +81,11 @@ If any other voice is currently sending audio to this voice, the method fails.
 
 
 
-To avoid title thread interruptions from a blocking <b>DestroyVoice</b> call, the application can destroy voices on a separate non-critical thread, or the application can use voice pooling strategies to reuse voices rather than destroying them. Note that voices can only be reused with audio that has the same data format and the same number of channels the voice was created with. A voice can play audio data with different sample rates than that of the voice by calling <a href="https://msdn.microsoft.com/en-us/library/Ee418469(v=VS.85).aspx">IXAudio2SourceVoice::SetFrequencyRatio</a> with an appropriate ratio parameter.
+To avoid title thread interruptions from a blocking <b>DestroyVoice</b> call, the application can destroy voices on a separate non-critical thread, or the application can use voice pooling strategies to reuse voices rather than destroying them. Note that voices can only be reused with audio that has the same data format and the same number of channels the voice was created with. A voice can play audio data with different sample rates than that of the voice by calling <a href="https://msdn.microsoft.com/58D458C3-528B-4696-8A24-2D66B93695C3">IXAudio2SourceVoice::SetFrequencyRatio</a> with an appropriate ratio parameter.
 
 
 
-It is invalid to call <b>DestroyVoice</b> from within a callback (that is, <a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>).
+It is invalid to call <b>DestroyVoice</b> from within a callback (that is, <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>).
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); 
@@ -99,7 +99,7 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
  
 
  

@@ -128,7 +128,7 @@ Uncompressed RGB with color masks. Valid for 16-bpp and 32-bpp bitmaps.
 
 See Remarks for more information. Note that <b>BI_JPG</b> and <b>BI_PNG</b> are not valid video formats.
 
-For 16-bpp bitmaps, if <b>biCompression</b> equals <b>BI_RGB</b>, the format is always RGB 555. If <b>biCompression</b> equals <b>BI_BITFIELDS</b>, the format is either RGB 555 or RGB 565. Use the subtype GUID in the <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure to determine the specific RGB type.
+For 16-bpp bitmaps, if <b>biCompression</b> equals <b>BI_RGB</b>, the format is always RGB 555. If <b>biCompression</b> equals <b>BI_BITFIELDS</b>, the format is either RGB 555 or RGB 565. Use the subtype GUID in the <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure to determine the specific RGB type.
 
 
 ### -field biSizeImage
@@ -197,9 +197,9 @@ Decoders and video sources should propose formats where biWidth is the width of 
 
 <ul>
 <li>It sets <b>biWidth</b> equal to the surface stride in pixels.</li>
-<li>It sets the <b>rcTarget</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx">VIDEOINFOHEADER2</a> structure equal to the image width, in pixels.</li>
+<li>It sets the <b>rcTarget</b> member of the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> or <a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> structure equal to the image width, in pixels.</li>
 </ul>
-Then the video renderer proposes the modified format by calling <a href="https://msdn.microsoft.com/en-us/library/Dd390428(v=VS.85).aspx">IPin::QueryAccept</a> on the upstream pin. For more information about this mechanism, see <a href="https://msdn.microsoft.com/ff60de5a-3edc-405d-aa02-8704b96d5e87">Dynamic Format Changes</a>.
+Then the video renderer proposes the modified format by calling <a href="https://msdn.microsoft.com/ed11eeef-464b-4a75-958b-2bc6dbc7af04">IPin::QueryAccept</a> on the upstream pin. For more information about this mechanism, see <a href="https://msdn.microsoft.com/ff60de5a-3edc-405d-aa02-8704b96d5e87">Dynamic Format Changes</a>.
 
 If there is padding in the image buffer, never dereference a pointer into the memory that has been reserved for the padding. If the image buffer has been allocated in video memory, the padding might not be readable memory.
 
@@ -215,11 +215,11 @@ If there is padding in the image buffer, never dereference a pointer into the me
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER Structure</a>
+<a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx">VIDEOINFOHEADER2 Structure</a>
+<a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2 Structure</a>
 
 
 

@@ -75,7 +75,7 @@ This method returns the color space.
 
 
 
-If you create using <a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns <a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE_SRGB</a>. 
+If you create using <a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns <a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE_SRGB</a>. 
 
 
 
@@ -97,7 +97,7 @@ If you create using <a href="https://msdn.microsoft.com/en-us/library/Dd742781(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

@@ -60,17 +60,17 @@ Merges a child virtual hard disk (VHD) in a differencing chain with one or more 
 
 ### -param VirtualDiskHandle [in]
 
-A handle to the open virtual disk, which must have been opened using the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see the <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.
+A handle to the open virtual disk, which must have been opened using the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see the <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a> function.
 
 
 ### -param Flags [in]
 
-Must be the <b>MERGE_VIRTUAL_DISK_FLAG_NONE</b> value of the <a href="https://msdn.microsoft.com/en-us/library/Dd323677(v=VS.85).aspx">MERGE_VIRTUAL_DISK_FLAG</a> enumeration.
+Must be the <b>MERGE_VIRTUAL_DISK_FLAG_NONE</b> value of the <a href="https://msdn.microsoft.com/a7f7701d-a9d9-4bc9-8d3c-a1a14222abc2">MERGE_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Dd323678(v=VS.85).aspx">MERGE_VIRTUAL_DISK_PARAMETERS</a> structure that contains merge parameter data.
+A pointer to a valid <a href="https://msdn.microsoft.com/5bb84e11-677d-42f5-b5b6-59f23b9a8ab7">MERGE_VIRTUAL_DISK_PARAMETERS</a> structure that contains merge parameter data.
 
 
 ### -param Overlapped [in, optional]
@@ -103,7 +103,7 @@ Merging a disk requires that the affected disks be detached during the operation
 
 The caller must have READ|WRITE access to the backing store for the affected disks.
 
-The RWDepth of the disk must be greater than the merge depth  specified by the <b>MergeDepth</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd323678(v=VS.85).aspx">MERGE_VIRTUAL_DISK_PARAMETERS</a> structure (passed in the <i>Parameters</i> parameter). For more information about RWDepth, see <a href="https://msdn.microsoft.com/en-us/library/Dd323682(v=VS.85).aspx">OPEN_VIRTUAL_DISK_PARAMETERS</a>.
+The RWDepth of the disk must be greater than the merge depth  specified by the <b>MergeDepth</b> member of the <a href="https://msdn.microsoft.com/5bb84e11-677d-42f5-b5b6-59f23b9a8ab7">MERGE_VIRTUAL_DISK_PARAMETERS</a> structure (passed in the <i>Parameters</i> parameter). For more information about RWDepth, see <a href="https://msdn.microsoft.com/ad67bc3e-a0fe-4198-9307-819577abef7f">OPEN_VIRTUAL_DISK_PARAMETERS</a>.
 
 Merge modifies the parent disk being merged into, therefore any other differencing disks dependent on that parent will no longer be valid.
 

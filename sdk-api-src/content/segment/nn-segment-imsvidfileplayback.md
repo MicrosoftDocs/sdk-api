@@ -58,7 +58,7 @@ The <b>IMSVidFilePlayback</b> interface enables the client to specify a local fi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFilePlayback</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback</a>. <b>IMSVidFilePlayback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFilePlayback</b> interface inherits from <a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback</a>. <b>IMSVidFilePlayback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IMSVidFilePlayback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694557(v=VS.85).aspx">get_FileName</a>
+<a href="https://msdn.microsoft.com/c8e01204-fb8e-4ebb-97d9-04dda15c491a">get_FileName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the file to play.
@@ -82,7 +82,7 @@ Sets the name of the file to play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694558(v=VS.85).aspx">put_FileName</a>
+<a href="https://msdn.microsoft.com/1055a053-28d3-470f-aff5-ade71eebc809">put_FileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the file to play.
@@ -108,7 +108,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback</a>
+<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback</a>
 
 
 

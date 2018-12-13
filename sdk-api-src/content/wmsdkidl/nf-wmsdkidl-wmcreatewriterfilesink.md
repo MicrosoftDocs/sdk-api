@@ -63,7 +63,7 @@ The <b>WMCreateWriterFileSink</b> function creates a writer file sink object.
 
 ### -param ppSink [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798742(v=VS.85).aspx">IWMWriterFileSink</a> interface of the newly created writer file sink object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/af47b130-353e-411d-8432-09ecd20a70d2">IWMWriterFileSink</a> interface of the newly created writer file sink object.
 
 
 ## -returns

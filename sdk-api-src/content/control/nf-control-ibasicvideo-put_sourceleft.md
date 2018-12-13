@@ -135,7 +135,7 @@ This method moves the entire source rectangle to the left or right. It does not 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
  
 
  

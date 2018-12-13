@@ -4,7 +4,7 @@ title: WTS_SMALL_RECT
 author: windows-sdk-content
 description: Contains client window coordinates.
 old-location: termserv\wts_small_rect.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5f139077-8ef4-4c8e-ae33-0dd3aee58ef6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

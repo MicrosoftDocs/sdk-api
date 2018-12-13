@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>CanSaveFileAs</b> method ascertains whether the content being played by the reader can be saved using the <a href="https://msdn.microsoft.com/en-us/library/Dd757440(v=VS.85).aspx">IWMReaderAdvanced2::SaveFileAs</a> method.
+The <b>CanSaveFileAs</b> method ascertains whether the content being played by the reader can be saved using the <a href="https://msdn.microsoft.com/97bdac1f-8830-45c0-9229-322ad72b3954">IWMReaderAdvanced2::SaveFileAs</a> method.
 
 
 
@@ -102,7 +102,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
  
 
  

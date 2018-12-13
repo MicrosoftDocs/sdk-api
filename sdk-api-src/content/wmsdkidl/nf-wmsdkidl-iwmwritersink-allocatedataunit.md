@@ -71,7 +71,7 @@ Size of the data unit that the writer needs to deliver, in bytes. The buffer you
 
 ### -param ppDataUnit [out]
 
-On return, set to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface of a buffer object.
+On return, set to a pointer to the <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface of a buffer object.
 
 
 ## -returns
@@ -88,7 +88,7 @@ This method is implemented by the application. It should always return S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink Interface</a>
+<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink Interface</a>
  
 
  

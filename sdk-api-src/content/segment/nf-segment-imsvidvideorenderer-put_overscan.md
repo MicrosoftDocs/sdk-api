@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-If the current clipping mode is <b>sslClipByOverScan</b>, the VMR clips the video image by the specified amount. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694755(v=VS.85).aspx">IMSVidVideoRenderer::put_SourceSize</a>.
+If the current clipping mode is <b>sslClipByOverScan</b>, the VMR clips the video image by the specified amount. For more information, see <a href="https://msdn.microsoft.com/c792f064-a137-4872-8c79-6e924b6023f0">IMSVidVideoRenderer::put_SourceSize</a>.
 
 
 
@@ -90,7 +90,7 @@ If the current clipping mode is <b>sslClipByOverScan</b>, the VMR clips the vide
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694742(v=VS.85).aspx">IMSVidVideoRenderer::get_OverScan</a>
+<a href="https://msdn.microsoft.com/2c4946e6-b25c-4e6a-b640-73982c0da871">IMSVidVideoRenderer::get_OverScan</a>
  
 
  

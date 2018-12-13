@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb762263(v=VS.85).aspx">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
+Calls the <a href="https://msdn.microsoft.com/731bac41-ca1f-4bee-9314-28b5773eb694">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
 
 
 ## -parameters
