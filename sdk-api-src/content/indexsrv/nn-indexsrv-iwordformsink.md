@@ -94,12 +94,12 @@ Puts the original word form in the <b>IWordFormSink</b> object.
 
 
 
-Windows Search creates and initializes instances of the StemSink object. The <b>IWordFormSink</b> object receives the <i>ulMaxTokenSize</i> parameter during initialization. The value for this parameter is determined by the <a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementation and determines the maximum length, in characters, for a single word that the <b>IWordFormSink</b> handles.
+Windows Search creates and initializes instances of the StemSink object. The <b>IWordFormSink</b> object receives the <i>ulMaxTokenSize</i> parameter during initialization. The value for this parameter is determined by the <a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation and determines the maximum length, in characters, for a single word that the <b>IWordFormSink</b> handles.
 
 
 
 
-<a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementations receive a pointer to the <b>IWordFormSink</b> object in the <a href="https://msdn.microsoft.com/7996468d-3b5f-4bfc-837d-51082655cbbc">GenerateWordForms</a> method.
+<a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementations receive a pointer to the <b>IWordFormSink</b> object in the <a href="https://msdn.microsoft.com/en-us/library/Bb266434(v=VS.85).aspx">GenerateWordForms</a> method.
 
 
 
@@ -111,7 +111,7 @@ Windows Search creates and initializes instances of the StemSink object. The <b>
 
 
 
-<a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a>
  
 
  

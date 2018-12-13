@@ -135,11 +135,11 @@ The caller must free the returned string, using the <b>SysFreeString</b> functio
 
 
 
-<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d16dca01-95ba-4573-b9c4-ab996dcf21e4">IVideoWindow::put_Caption</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377319(v=VS.85).aspx">IVideoWindow::put_Caption</a>
  
 
  

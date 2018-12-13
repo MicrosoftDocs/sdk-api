@@ -52,7 +52,7 @@ req.redist:
 
 Initializes a new instance of <code>XMUBYTE2</code> from two <code>int8_t</code> arguments.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/b22e9c5c-c178-4f49-989c-42e44b2cbd89">XMUBYTE2</a> from two <code>uint8_t</code> arguments.
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).aspx">XMUBYTE2</a> from two <code>uint8_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
 
 ## -parameters
@@ -103,11 +103,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/b22e9c5c-c178-4f49-989c-42e44b2cbd89">XMUBYTE2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).aspx">XMUBYTE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d240d0c-0c44-46f1-be96-c700637e5cba">XMUBYTE2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449522(v=VS.85).aspx">XMUBYTE2 Constructors</a>
  
 
  

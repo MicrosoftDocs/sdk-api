@@ -97,7 +97,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/77d0d63b-bd99-46c4-8687-18297fe252aa">XMColorXYZToSRGB</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437879(v=VS.85).aspx">XMColorXYZToSRGB</a>
  
 
  

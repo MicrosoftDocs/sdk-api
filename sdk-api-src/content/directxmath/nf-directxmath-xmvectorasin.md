@@ -93,11 +93,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/1cffeed1-7214-491d-8434-38f9d6269f0e">XMVectorASinEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420996(v=VS.85).aspx">XMVectorASinEst</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f1c424a-1fef-42dd-9976-49f79372076d">XMVectorSin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421238(v=VS.85).aspx">XMVectorSin</a>
  
 
  

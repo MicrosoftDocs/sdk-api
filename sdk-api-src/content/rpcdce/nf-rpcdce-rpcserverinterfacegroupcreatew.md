@@ -62,7 +62,7 @@ The <b>RpcServerInterfaceGroupCreate</b> function creates an RPC server interfac
 
 ### -param Interfaces [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/4DBD0B43-659B-4074-954B-FE9ABB0DCE63">RPC_INTERFACE_TEMPLATE</a> structures that define the interfaces exposed by the interface group.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/JJ553450(v=VS.85).aspx">RPC_INTERFACE_TEMPLATE</a> structures that define the interfaces exposed by the interface group.
 
 
 ### -param NumIfs [in]
@@ -72,7 +72,7 @@ The number of elements in <i>Interfaces</i>.
 
 ### -param Endpoints [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/F1C4A10B-D7DA-4A2A-B166-F814E6926ADD">RPC_ENDPOINT_TEMPLATE</a> structures that define the endpoints used by the interface group.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/JJ553448(v=VS.85).aspx">RPC_ENDPOINT_TEMPLATE</a> structures that define the endpoints used by the interface group.
 
 
 ### -param NumEndpoints [in]

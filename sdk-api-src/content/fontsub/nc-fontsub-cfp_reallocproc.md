@@ -94,7 +94,7 @@ Returns a void pointer to the reallocated (and possibly moved) memory block. The
 
 
 
-<a href="2b2239de-810b-4b11-9438-32ab0a244185">realloc</a>conforms to this type; the application can either use <b>realloc</b> or a more specialized function for memory reallocation. Whatever function is chosen, there must also be appropriate functions for initial allocation and to free this memory.
+<a href="https://msdn.microsoft.com/library/xbebcx7d(v=VS.100).aspx">realloc</a>conforms to this type; the application can either use <b>realloc</b> or a more specialized function for memory reallocation. Whatever function is chosen, there must also be appropriate functions for initial allocation and to free this memory.
 
 
 

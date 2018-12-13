@@ -52,7 +52,7 @@ req.redist:
 
 Default constructor for <code>XMFLOAT3SE</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +82,11 @@ Default constructor for <a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-8
 
 
 
-<a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx">XMFLOAT3SE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a38e913-d4ad-4efd-b948-e58019de9e78">XMFLOAT3SE Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415285(v=VS.85).aspx">XMFLOAT3SE Constructors</a>
  
 
  

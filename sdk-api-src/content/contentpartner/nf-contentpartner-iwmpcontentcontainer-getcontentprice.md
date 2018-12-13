@@ -137,7 +137,7 @@ The format of the string returned in <i>pbstrPrice</i> is known only to the onli
 
 
 
-<a href="https://msdn.microsoft.com/32a68af3-9270-4ac1-b133-a2770220dfcb">IWMPContentContainer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563130(v=VS.85).aspx">IWMPContentContainer Interface</a>
  
 
  

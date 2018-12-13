@@ -54,7 +54,7 @@ req.redist:
 ## -description
 
 
-The <b>CM_Locate_DevNode</b> function obtains a device instance handle to the device node that is associated with a specified <a href="devinst.device_instance_ids">device instance ID</a> on the local machine.
+The <b>CM_Locate_DevNode</b> function obtains a device instance handle to the device node that is associated with a specified <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> on the local machine.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A pointer to a device instance handle that <b>CM_Locate_DevNode</b> retrieves. T
 
 ### -param pDeviceID [in, optional]
 
-A pointer to a NULL-terminated string representing a <a href="devinst.device_instance_ids">device instance ID</a>. If this value is <b>NULL</b>, or if it points to a zero-length string, the function retrieves a device instance handle to the device at the root of the <a href="https://msdn.microsoft.com/3220389a-06cc-4a43-8164-b785d1a16365">device tree</a>.
+A pointer to a NULL-terminated string representing a <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>. If this value is <b>NULL</b>, or if it points to a zero-length string, the function retrieves a device instance handle to the device at the root of the <a href="https://msdn.microsoft.com/3220389a-06cc-4a43-8164-b785d1a16365">device tree</a>.
 
 
 ### -param ulFlags [in]

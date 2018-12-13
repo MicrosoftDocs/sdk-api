@@ -107,9 +107,9 @@ where:
 <li>
             Lmin, Lmax = Minimum and maximum objective focal length.</li>
 <li>
-            Zcur = Current zoom setting. See <a href="https://msdn.microsoft.com/7c1fe500-bccf-46ed-bcd9-f65b25e8ccb7">ICameraControl::get_Zoom</a>.</li>
+            Zcur = Current zoom setting. See <a href="https://msdn.microsoft.com/en-us/library/Dd376330(v=VS.85).aspx">ICameraControl::get_Zoom</a>.</li>
 <li>
-            Zmin, Zmax = Minimum and maximum zoom setting. See <a href="https://msdn.microsoft.com/93a81b65-4b63-45c9-b065-f4aa5cf2e4ae">ICameraControl::getRange_Zoom</a>.</li>
+            Zmin, Zmax = Minimum and maximum zoom setting. See <a href="https://msdn.microsoft.com/en-us/library/Dd376311(v=VS.85).aspx">ICameraControl::getRange_Zoom</a>.</li>
 </ul>
 From 
 
@@ -132,7 +132,7 @@ Lcur
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

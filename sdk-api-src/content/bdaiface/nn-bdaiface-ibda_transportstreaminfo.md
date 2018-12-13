@@ -78,7 +78,7 @@ The <b>IBDA_TransportStreamInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ad1a680-0037-40d5-9263-2a2f0862154c">get_PatTableTickCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693460(v=VS.85).aspx">get_PatTableTickCount</a>
 </td>
 <td align="left" width="63%">
 Returns the time when the most recent PAT section was received.

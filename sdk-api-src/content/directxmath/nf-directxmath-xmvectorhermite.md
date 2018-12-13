@@ -134,7 +134,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/f18acdc6-6d1c-4955-a3e5-5a6d738f767d">XMVectorHermiteV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421160(v=VS.85).aspx">XMVectorHermiteV</a>
  
 
  

@@ -81,7 +81,7 @@ The <b>IMediaStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a035797d-ebf2-40c2-b1a3-b903a691b7d2">AllocateSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407052(v=VS.85).aspx">AllocateSample</a>
 </td>
 <td align="left" width="63%">
 Allocates a new stream sample object for the current media stream.
@@ -90,7 +90,7 @@ Allocates a new stream sample object for the current media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/acefa476-e607-45b4-854d-840e948af029">CreateSharedSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407053(v=VS.85).aspx">CreateSharedSample</a>
 </td>
 <td align="left" width="63%">
 Creates a new stream sample that shares the same backing object as the existing sample.
@@ -99,7 +99,7 @@ Creates a new stream sample that shares the same backing object as the existing 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4ecae45-e2bf-44dd-8901-0892c02d708c">GetInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407054(v=VS.85).aspx">GetInformation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream's purpose ID and media type.
@@ -108,7 +108,7 @@ Retrieves the stream's purpose ID and media type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09af4bfc-2427-4992-b508-fe9a7ac150d7">GetMultiMediaStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407055(v=VS.85).aspx">GetMultiMediaStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the multimedia stream that contains the specified media stream.
@@ -117,7 +117,7 @@ Retrieves a pointer to the multimedia stream that contains the specified media s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa774875-1cf2-4792-a492-fef64571ae8f">SendEndOfStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407056(v=VS.85).aspx">SendEndOfStream</a>
 </td>
 <td align="left" width="63%">
 Forces the current stream to end. If the current stream isn't writable, this method does nothing.
@@ -126,7 +126,7 @@ Forces the current stream to end. If the current stream isn't writable, this met
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a228547-7187-4a7a-8850-2681e0ccb13e">SetSameFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407057(v=VS.85).aspx">SetSameFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the media stream to the same format as a previous stream.

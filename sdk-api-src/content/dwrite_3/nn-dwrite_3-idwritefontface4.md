@@ -57,7 +57,7 @@ Represents an absolute reference to a font face. It contains font face type, app
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFace4</b> interface inherits from <a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>. <b>IDWriteFontFace4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFace4</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>. <b>IDWriteFontFace4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDWriteFontFace4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2517A029-5ACF-4CB2-8A20-98253946DF5E">GetGlyphImageData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt725321(v=VS.85).aspx">GetGlyphImageData</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the glyph data based on the desired image format.
@@ -81,7 +81,7 @@ Gets a pointer to the glyph data based on the desired image format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bbbb399a-fdcd-5e08-4c50-1bec4784d696">GetGlyphImageFormats</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt725324(v=VS.85).aspx">GetGlyphImageFormats</a>
 </td>
 <td align="left" width="63%">Overloaded. Gets supported glyph image formats.
 
@@ -89,7 +89,7 @@ Gets a pointer to the glyph data based on the desired image format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2A3211C1-90EB-42AE-BCE7-BDDA1D1E6312">ReleaseGlyphImageData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt725325(v=VS.85).aspx">ReleaseGlyphImageData</a>
 </td>
 <td align="left" width="63%">
 Releases the table data obtained from ReadGlyphData.

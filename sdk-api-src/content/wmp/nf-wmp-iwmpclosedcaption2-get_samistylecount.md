@@ -114,15 +114,15 @@ This method cannot be used until a digital media file is open.
 
 
 
-<a href="https://msdn.microsoft.com/21067ac1-d29e-4f1b-b123-34b24929369a">IWMPClosedCaption2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563114(v=VS.85).aspx">IWMPClosedCaption2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0dfdbe70-2aa8-4cae-8886-6b770707652e">IWMPClosedCaption2::getSAMIStyleName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563117(v=VS.85).aspx">IWMPClosedCaption2::getSAMIStyleName</a>
 
 
 
-<a href="https://msdn.microsoft.com/27040145-af7a-4d09-9c80-e0907df08f01">IWMPClosedCaption::get_SAMIStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563124(v=VS.85).aspx">IWMPClosedCaption::get_SAMIStyle</a>
  
 
  

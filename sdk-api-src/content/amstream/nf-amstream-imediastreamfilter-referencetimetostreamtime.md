@@ -121,7 +121,7 @@ Stream time equals the current reference time minus the reference time when the 
 
 
 
-<a href="https://msdn.microsoft.com/1ac4976b-7088-47ac-9689-58c143746f05">IMediaStreamFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter Interface</a>
  
 
  

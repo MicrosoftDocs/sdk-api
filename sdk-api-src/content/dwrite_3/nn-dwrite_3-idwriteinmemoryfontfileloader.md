@@ -52,7 +52,7 @@ req.redist:
 
 
 Represents a font file loader that can access in-memory fonts. 
-        The <a href="https://msdn.microsoft.com/BA36B91C-C6B8-43B8-BEDA-0089FAE1BAAD">IDWriteFactory5::CreateInMemoryFontFileLoader</a> method returns an instance of this interface,
+        The <a href="https://msdn.microsoft.com/en-us/library/Mt807688(v=VS.85).aspx">IDWriteFactory5::CreateInMemoryFontFileLoader</a> method returns an instance of this interface,
         which the client can use to load in-memory fonts without having to implement a custom loader. 
         A client can also create its own custom implementation, however. In either case, the client is responsible for registering and unregistering the loader 
         using <a href="https://msdn.microsoft.com/f5b28c3d-c3ad-4435-92c8-07841e8d160a">IDWriteFactory::RegisterFontFileLoader</a> 
@@ -77,7 +77,7 @@ The <b>IDWriteInMemoryFontFileLoader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16570F56-5894-475B-A6AF-6C4BA2C82784">CreateInMemoryFontFileReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807693(v=VS.85).aspx">CreateInMemoryFontFileReference</a>
 </td>
 <td align="left" width="63%">
 Creates a font file reference (<a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a> object) from an array of bytes. 
@@ -86,7 +86,7 @@ Creates a font file reference (<a href="https://msdn.microsoft.com/d4be5466-0b6c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02385843-FDE6-408A-BD48-BBDC7DE4CA67">GetFileCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807694(v=VS.85).aspx">GetFileCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of font file references that have been created using this loader instance.

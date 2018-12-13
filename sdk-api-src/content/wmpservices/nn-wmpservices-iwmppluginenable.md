@@ -73,7 +73,7 @@ The <b>IWMPPluginEnable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29a08f6e-17a7-4bff-9aea-d5586d2b55b3">GetEnable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563585(v=VS.85).aspx">GetEnable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current enable state.
@@ -82,7 +82,7 @@ Retrieves the current enable state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0b8e79b-e9bd-40e5-ab58-11469406110a">SetEnable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563587(v=VS.85).aspx">SetEnable</a>
 </td>
 <td align="left" width="63%">
 Sets the current enable state.

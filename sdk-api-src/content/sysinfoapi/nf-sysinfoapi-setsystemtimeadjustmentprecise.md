@@ -96,7 +96,7 @@ the code example below.
 
 #### Examples
 
-This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="base.getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
+This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="https://msdn.microsoft.com/en-us/library/Mt846358(v=VS.85).aspx">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
 
 
 ```cpp
@@ -288,7 +288,7 @@ RunNewAdjustmentSequence(DWORD dwPPMAdjustment)
 
 
 
-<a href="base.GetSystemTimeAdjustmentPrecise">GetSystemTimeAdjustmentPrecise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846358(v=VS.85).aspx">GetSystemTimeAdjustmentPrecise</a>
  
 
  

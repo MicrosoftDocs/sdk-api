@@ -88,7 +88,7 @@ Changing the OffsetY property transforms the coordinate system of the entire vis
 
 
 
-A transformation that is specified by the Transform property is applied after the OffsetY property.  In other words, the effect of setting the Transform property and the OffsetY property is the same as setting only the Transform property on a transform group object where the first member of the group is an <a href="https://msdn.microsoft.com/2215721e-a10d-4c9e-b5b7-1698afa547d8">IDCompositionTranslateTransform</a> object that has the same OffsetY value as <i>offsetY</i>. However, you should use  <b>IDCompositionVisual::SetOffsetY</b> whenever possible because it is slightly faster.
+A transformation that is specified by the Transform property is applied after the OffsetY property.  In other words, the effect of setting the Transform property and the OffsetY property is the same as setting only the Transform property on a transform group object where the first member of the group is an <a href="https://msdn.microsoft.com/en-us/library/Hh449113(v=VS.85).aspx">IDCompositionTranslateTransform</a> object that has the same OffsetY value as <i>offsetY</i>. However, you should use  <b>IDCompositionVisual::SetOffsetY</b> whenever possible because it is slightly faster.
 
 If the OffsetX and OffsetY properties are set to 0, and the Transform property is set to NULL, the coordinate system of the visual is the same as that of its parent.
 
@@ -109,7 +109,7 @@ For an example, see <a href="https://msdn.microsoft.com/86006C3C-67A8-4931-BE76-
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
 
 
 

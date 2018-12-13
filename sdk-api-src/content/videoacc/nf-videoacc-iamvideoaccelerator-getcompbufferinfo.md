@@ -69,7 +69,7 @@ Pointer to a GUID that specifies the DXVA profile in use.
 
 ### -param pamvaUncompDataInfo [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/920f88bb-c671-4ab9-b482-b03505cca118">AMVAUncompDataInfo</a> structure that specifies the size and pixel format of the uncompressed data.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373449(v=VS.85).aspx">AMVAUncompDataInfo</a> structure that specifies the size and pixel format of the uncompressed data.
 
 
 ### -param pdwNumTypesCompBuffers [in, out]
@@ -82,7 +82,7 @@ On output, if <i>pamvaCompBufferInfo</i> is <b>NULL</b>, <i>pdwNumTypesCompBuffe
 
 ### -param pamvaCompBufferInfo [out]
 
-Address of an array of <a href="https://msdn.microsoft.com/74ef5dfb-1062-40c6-a2dd-76f46ca8db92">AMVACompBufferInfo</a> structures, or <b>NULL</b>. If the value is non-<b>NULL</b>, the method copies a list of <b>AMVACompBufferInfo</b> structures to this array. Each structure corresponds to one type of compressed data buffer used by the video accelerator.
+Address of an array of <a href="https://msdn.microsoft.com/en-us/library/Dd373445(v=VS.85).aspx">AMVACompBufferInfo</a> structures, or <b>NULL</b>. If the value is non-<b>NULL</b>, the method copies a list of <b>AMVACompBufferInfo</b> structures to this array. Each structure corresponds to one type of compressed data buffer used by the video accelerator.
 
 Set all of the array elements to zero before calling this method.
 
@@ -166,9 +166,9 @@ Success.
 
 
 The decoder can use this method to get compressed buffer information during the pin connection 
-      process. After the pins are connected, the decoder can call <a href="https://msdn.microsoft.com/b60c6bf7-6cb6-4a82-bec4-7f1662d4ee95">IAMVideoAccelerator::GetInternalCompBufferInfo</a> to get this information.
+      process. After the pins are connected, the decoder can call <a href="https://msdn.microsoft.com/en-us/library/Dd376005(v=VS.85).aspx">IAMVideoAccelerator::GetInternalCompBufferInfo</a> to get this information.
 
-The <a href="https://msdn.microsoft.com/74ef5dfb-1062-40c6-a2dd-76f46ca8db92">AMVACompBufferInfo</a> structure contains information that is needed for the <a href="https://msdn.microsoft.com/3385cad2-8885-4b17-83fa-f40f25b0c433">IAMVideoAccelerator::GetBuffer</a> method.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd373445(v=VS.85).aspx">AMVACompBufferInfo</a> structure contains information that is needed for the <a href="https://msdn.microsoft.com/en-us/library/Dd376003(v=VS.85).aspx">IAMVideoAccelerator::GetBuffer</a> method.
 
 
 
@@ -178,7 +178,7 @@ The <a href="https://msdn.microsoft.com/74ef5dfb-1062-40c6-a2dd-76f46ca8db92">AM
 
 
 
-<a href="https://msdn.microsoft.com/74ef5dfb-1062-40c6-a2dd-76f46ca8db92">AMVACompBufferInfo Structure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd373445(v=VS.85).aspx">AMVACompBufferInfo Structure</a>
 
 
 
@@ -190,7 +190,7 @@ The <a href="https://msdn.microsoft.com/74ef5dfb-1062-40c6-a2dd-76f46ca8db92">AM
 
 
 
-<a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
  
 
  

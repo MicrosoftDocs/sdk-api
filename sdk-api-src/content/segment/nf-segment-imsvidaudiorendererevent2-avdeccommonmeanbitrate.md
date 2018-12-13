@@ -74,11 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ec5749d5-1ee0-4b3e-9e5d-cf07a62991ae">AVDecCommonMeanBitRate Property</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694460(v=VS.85).aspx">AVDecCommonMeanBitRate Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/f37d3abb-e8ad-4aae-884a-1c6c4fa445e2">IMSVidAudioRendererEvent2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694453(v=VS.85).aspx">IMSVidAudioRendererEvent2</a>
  
 
  

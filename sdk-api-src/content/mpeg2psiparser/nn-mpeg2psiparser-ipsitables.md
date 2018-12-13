@@ -72,7 +72,7 @@ The <b>IPSITables</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b2362c7-bfcb-40b8-813d-1a904149600e">GetTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694841(v=VS.85).aspx">GetTable</a>
 </td>
 <td align="left" width="63%">
 Gets an MPEG-2 PSI table from an MPEG-2 transport stream.

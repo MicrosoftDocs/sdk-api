@@ -89,7 +89,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 You can allocate your own buffers for file reading to reduce the overhead required by the reader object to allocate a new buffer for every sample. The reader object will make calls to the <b>IWMReaderCallbackAdvanced::AllocateForOutput</b> method.
 
-If the application's callback implements the <a href="https://msdn.microsoft.com/be727c7b-b252-44db-825b-5c683e551fd2">IWMReaderAllocatorEx</a> interface, the <a href="https://msdn.microsoft.com/e2e4881b-2186-47c9-b74e-3a59a9fac7c9">AllocateForOutputEx</a> method is called instead of <b>AllocateForOutput</b>.
+If the application's callback implements the <a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx</a> interface, the <a href="https://msdn.microsoft.com/en-us/library/Dd743491(v=VS.85).aspx">AllocateForOutputEx</a> method is called instead of <b>AllocateForOutput</b>.
 
 
 
@@ -99,11 +99,11 @@ If the application's callback implements the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0da74ff-37d9-4bb3-85f2-f8e1585c2d7f">IWMReaderAdvanced::GetAllocateForOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743470(v=VS.85).aspx">IWMReaderAdvanced::GetAllocateForOutput</a>
  
 
  

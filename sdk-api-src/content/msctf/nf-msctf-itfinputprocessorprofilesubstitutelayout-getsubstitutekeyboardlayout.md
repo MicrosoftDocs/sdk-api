@@ -118,7 +118,7 @@ The method was successful.
 
 
 
-<a href="_win32_loadkeyboardlayout">LoadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
 
 
 

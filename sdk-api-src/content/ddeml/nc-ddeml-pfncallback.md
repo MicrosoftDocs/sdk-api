@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-An application-defined callback function used with the <a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a> (DDEML) functions. It processes Dynamic Data Exchange (DDE) transactions. The 
+An application-defined callback function used with the <a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a> (DDEML) functions. It processes Dynamic Data Exchange (DDE) transactions. The 
 			<b>PFNCALLBACK</b> type defines a pointer to this callback function. <i>DdeCallback</i> is a placeholder for the application-defined function name. 
 
 
@@ -135,10 +135,10 @@ A DDE callback function should return <b>TRUE</b> or <b>FALSE</b> when it finish
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/8911e722-5656-4ca6-8b0a-6bdf8281611a">XTYP_ADVSTART</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648716(v=VS.85).aspx">XTYP_ADVSTART</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/74f43b10-f7ac-4370-9caa-7b9ddf3413ed">XTYP_CONNECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648718(v=VS.85).aspx">XTYP_CONNECT</a>
 </li>
 </ul>
 
@@ -150,13 +150,13 @@ A DDE callback function should return a DDE handle, the <b>CBR_BLOCK</b> return 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/9bd43e61-cbd6-4d53-bab3-90e85819b16b">XTYP_ADVREQ</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648715(v=VS.85).aspx">XTYP_ADVREQ</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/e776b995-6a64-4398-9e29-c151f3ef4c1d">XTYP_REQUEST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648726(v=VS.85).aspx">XTYP_REQUEST</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4651e14f-ca13-412e-853d-326a13db78e4">XTYP_WILDCONNECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648728(v=VS.85).aspx">XTYP_WILDCONNECT</a>
 </li>
 </ul>
 
@@ -168,13 +168,13 @@ A DDE callback function should return <b>DDE_FACK</b>, <b>DDE_FBUSY</b>, or <b>D
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/c6e61785-b98c-4ffa-9d23-339e1c66cb4d">XTYP_ADVDATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648714(v=VS.85).aspx">XTYP_ADVDATA</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6001eb7d-59c0-49ec-97ce-26132891188c">XTYP_EXECUTE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648722(v=VS.85).aspx">XTYP_EXECUTE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63c6115e-24f8-4f35-8397-8be63110b21f">XTYP_POKE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648724(v=VS.85).aspx">XTYP_POKE</a>
 </li>
 </ul>
 
@@ -186,28 +186,28 @@ The transaction types that belong to this class are for notification purposes on
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/67dfa463-6a44-43a5-93be-a39c19c87c1c">XTYP_ADVSTOP</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648717(v=VS.85).aspx">XTYP_ADVSTOP</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4db67539-9322-44d7-bf2b-749bd6cfcbb4">XTYP_CONNECT_CONFIRM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648719(v=VS.85).aspx">XTYP_CONNECT_CONFIRM</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/22a9ec63-8a74-4829-ad02-d07dd0e8fa9b">XTYP_DISCONNECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648720(v=VS.85).aspx">XTYP_DISCONNECT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/710daa04-ed83-42e3-a55e-6ccf891a3d52">XTYP_ERROR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648721(v=VS.85).aspx">XTYP_ERROR</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a27791b1-c1b4-4516-b050-71da164fa80a">XTYP_MONITOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648723(v=VS.85).aspx">XTYP_MONITOR</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/465e9c10-1526-4e2a-8a46-5984043f5a93">XTYP_REGISTER</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648725(v=VS.85).aspx">XTYP_REGISTER</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d34a6fab-0e3c-44fe-b25f-7011228fe261">XTYP_XACT_COMPLETE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648729(v=VS.85).aspx">XTYP_XACT_COMPLETE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a57a5d53-7919-4698-8c84-6142dd29bb2a">XTYP_UNREGISTER</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648727(v=VS.85).aspx">XTYP_UNREGISTER</a>
 </li>
 </ul>
 
@@ -228,7 +228,7 @@ The return value depends on the transaction class. For more information about th
 
 The callback function is called asynchronously for transactions that do not involve the creation or termination of conversations. An application that does not frequently accept incoming messages will have reduced DDE performance because the Dynamic Data Exchange Management Library (DDEML) uses messages to initiate transactions. 
 
-An application must register the callback function by specifying a pointer to the function in a call to the <a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a> function. 
+An application must register the callback function by specifying a pointer to the function in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
 
 
 
@@ -242,15 +242,15 @@ An application must register the callback function by specifying a pointer to th
 
 
 
-<a href="https://msdn.microsoft.com/1fb9c17b-829a-4c7e-947b-41b15b0db142">DdeEnableCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648751(v=VS.85).aspx">DdeEnableCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 

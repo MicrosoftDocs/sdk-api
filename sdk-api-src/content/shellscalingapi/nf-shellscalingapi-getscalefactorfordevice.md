@@ -64,7 +64,7 @@ Gets the preferred scale factor for a display device.
 
 ### -param deviceType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/C8964494-339B-4198-A544-3BBCCFEB9596">DISPLAY_DEVICE_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh802761(v=VS.85).aspx">DISPLAY_DEVICE_TYPE</a></b>
 
 The value that indicates the type of the display device.
 
@@ -75,7 +75,7 @@ The value that indicates the type of the display device.
 
 Type: <b><a href="https://msdn.microsoft.com/DB42E7D5-4E42-4b78-89F8-0B76320E2C5F">DEVICE_SCALE_FACTOR</a></b>
 
-A value that indicates the scale factor that should be used with the specified <a href="https://msdn.microsoft.com/C8964494-339B-4198-A544-3BBCCFEB9596">DISPLAY_DEVICE_TYPE</a>.
+A value that indicates the scale factor that should be used with the specified <a href="https://msdn.microsoft.com/en-us/library/Hh802761(v=VS.85).aspx">DISPLAY_DEVICE_TYPE</a>.
 
 <table>
 <tr>
@@ -128,7 +128,7 @@ Use a scale factor of 1.8x.
 
 
 
-The default <a href="https://msdn.microsoft.com/DB42E7D5-4E42-4b78-89F8-0B76320E2C5F">DEVICE_SCALE_FACTOR</a> is <a href="DEVICE_SCALE_FACTOR.htm">SCALE_100_PERCENT</a>.
+The default <a href="https://msdn.microsoft.com/DB42E7D5-4E42-4b78-89F8-0B76320E2C5F">DEVICE_SCALE_FACTOR</a> is <a href="https://msdn.microsoft.com/en-us/library/Hh706892(v=VS.85).aspx">SCALE_100_PERCENT</a>.
 
 Use the scale factor that is returned to scale point values for fonts and pixel values.
 

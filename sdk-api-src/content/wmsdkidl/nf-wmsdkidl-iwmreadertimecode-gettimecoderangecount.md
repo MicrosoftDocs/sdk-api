@@ -107,11 +107,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/7f7d5608-c505-46ab-9e1e-e45b383c879b">IWMReaderTimecode Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743575(v=VS.85).aspx">IWMReaderTimecode Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bc1f21c-0aca-4e45-ac82-898cb8b9f4cc">IWMReaderTimecode::GetTimecodeRangeBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743578(v=VS.85).aspx">IWMReaderTimecode::GetTimecodeRangeBounds</a>
  
 
  

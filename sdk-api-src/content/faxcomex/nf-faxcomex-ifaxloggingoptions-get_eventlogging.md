@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-The <b>EventLogging</b> property retrieves the <a href="https://msdn.microsoft.com/c46f1b55-8211-4c9b-a622-356f2ea2db36">FaxEventLogging</a> configuration object.
+The <b>EventLogging</b> property retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms684912(v=VS.85).aspx">FaxEventLogging</a> configuration object.
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/438e4e89-88c9-431d-b774-98e65cf57064">FaxLoggingOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686863(v=VS.85).aspx">FaxLoggingOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6cbb0e8-fc98-431c-add6-6a6538051db7">IFaxLoggingOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686873(v=VS.85).aspx">IFaxLoggingOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/afee6ea0-f63d-4818-9ff0-1887638d232c">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

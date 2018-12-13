@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/2b36265a-023c-4083-a755-769461f3804b">HDM_GETUNICODEFORMAT</a> message explicitly. 
+Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775347(v=VS.85).aspx">HDM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/07b1d105-771c-4913-89f8-fefa552432a2">Header_SetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775427(v=VS.85).aspx">Header_SetUnicodeFormat</a>
  
 
  

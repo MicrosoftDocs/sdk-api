@@ -139,7 +139,7 @@ Unexpected error.
 
 
 
-The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://msdn.microsoft.com/46a3b579-a027-4c80-9f7a-f81dd9af4d0d">IMSVidAudioRendererDevices::get_Count</a> - 1.
+The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://msdn.microsoft.com/en-us/library/Dd694438(v=VS.85).aspx">IMSVidAudioRendererDevices::get_Count</a> - 1.
 
 
 
@@ -153,7 +153,7 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 
 
-<a href="https://msdn.microsoft.com/663ca24a-9f27-4642-b8e1-901f93090bd7">IMSVidAudioRendererDevices::Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694437(v=VS.85).aspx">IMSVidAudioRendererDevices::Add</a>
  
 
  

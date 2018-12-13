@@ -60,7 +60,7 @@ Contains information about a pointer device. An array of these structures is ret
 
 ### -field displayOrientation
 
- One of the values from <a href="https://msdn.microsoft.com/82709d44-45e6-47ec-9caa-5a947a568c52">DISPLAYCONFIG_ROTATION</a>, which identifies the orientation of the input digitizer.
+ One of the values from <a href="https://msdn.microsoft.com/en-us/library/Ff553970(v=VS.85).aspx">DISPLAYCONFIG_ROTATION</a>, which identifies the orientation of the input digitizer.
 
 <div class="alert"><b>Note</b>  This value is 0 when the source of input is <a href="https://msdn.microsoft.com/9B82898C-92DF-4F12-9440-D3D5CFD4D0A0">Touch Injection</a>.</div>
 <div> </div>

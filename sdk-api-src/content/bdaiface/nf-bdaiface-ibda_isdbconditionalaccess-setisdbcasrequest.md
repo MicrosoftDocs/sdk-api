@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0e45e5ea-9f38-4a96-be44-8ee123492aa9">IBDA_ISDBConditionalAccess</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693394(v=VS.85).aspx">IBDA_ISDBConditionalAccess</a>
  
 
  

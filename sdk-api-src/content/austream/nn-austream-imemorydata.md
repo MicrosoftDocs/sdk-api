@@ -53,11 +53,11 @@ req.redist:
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-The <code>IMemoryData</code> interface contains methods that set and retrieve memory data on audio data objects. Audio data objects provide the underlying data which stream samples access. This interface provides a way to initialize memory buffers and to set actual amounts of audio data in the objects. Additionally, the <a href="https://msdn.microsoft.com/9e9538c4-2f11-401e-a3c1-f8aa6c24f725">GetInfo</a> method can be used to retrieve audio memory data.
+The <code>IMemoryData</code> interface contains methods that set and retrieve memory data on audio data objects. Audio data objects provide the underlying data which stream samples access. This interface provides a way to initialize memory buffers and to set actual amounts of audio data in the objects. Additionally, the <a href="https://msdn.microsoft.com/en-us/library/Dd407081(v=VS.85).aspx">GetInfo</a> method can be used to retrieve audio memory data.
 
 Implement this interface on underlying audio data objects that audio stream sample objects will access.
 
-Typically these methods are called by the <a href="https://msdn.microsoft.com/b4098876-6c11-4cc6-8b6d-16edc02316f3">IAudioMediaStream</a> or <a href="https://msdn.microsoft.com/53deec43-30ca-472e-9a82-750049686d2a">IAudioStreamSample</a> object, rather than by the application.
+Typically these methods are called by the <a href="https://msdn.microsoft.com/en-us/library/Dd389516(v=VS.85).aspx">IAudioMediaStream</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd389520(v=VS.85).aspx">IAudioStreamSample</a> object, rather than by the application.
 
 In addition to the methods inherited from <b>IUnknown</b>, the <code>IMemoryData</code> interface exposes the following methods.
 
@@ -81,7 +81,7 @@ The <b>IMemoryData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e9538c4-2f11-401e-a3c1-f8aa6c24f725">GetInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407081(v=VS.85).aspx">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information describing an audio data object.
@@ -90,7 +90,7 @@ Retrieves information describing an audio data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22d9c24b-deb0-429a-ad9c-f6d286c7cdeb">SetActual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407082(v=VS.85).aspx">SetActual</a>
 </td>
 <td align="left" width="63%">
 Sets the amount of audio data currently in the object, in bytes.
@@ -99,7 +99,7 @@ Sets the amount of audio data currently in the object, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d565b493-0ee6-4a10-9af3-ff9d9ba48ba8">SetBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407083(v=VS.85).aspx">SetBuffer</a>
 </td>
 <td align="left" width="63%">
 Initializes a memory buffer with a pointer to memory and length.

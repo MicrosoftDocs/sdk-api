@@ -112,11 +112,11 @@ Generally, applications should not call this method. The downstream mixer or ren
 
 
 
-<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ab65d23-816d-4c6f-a0bc-b3334babdc23">IAMLine21Decoder::GetRedrawAlways</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389391(v=VS.85).aspx">IAMLine21Decoder::GetRedrawAlways</a>
  
 
  

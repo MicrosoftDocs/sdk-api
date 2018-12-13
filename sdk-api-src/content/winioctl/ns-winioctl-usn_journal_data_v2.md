@@ -169,7 +169,7 @@ File size threshold to start tracking range for files with equal or larger size.
 
 
 
-<a href="https://msdn.microsoft.com/6b75eab2-aa10-4b48-8918-e4b03b5d8564">USN_JOURNAL_DATA_V0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365721(v=VS.85).aspx">USN_JOURNAL_DATA_V0</a>
 
 
 

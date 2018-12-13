@@ -61,7 +61,7 @@ The <b>IMSVidStreamBufferSinkEvent2</b> interface is used to receive events from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSinkEvent2</b> interface inherits from <a href="https://msdn.microsoft.com/e828d3e0-5a2a-499a-a718-11aa76a01b1b">IMSVidStreamBufferSinkEvent</a>. <b>IMSVidStreamBufferSinkEvent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSinkEvent2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694646(v=VS.85).aspx">IMSVidStreamBufferSinkEvent</a>. <b>IMSVidStreamBufferSinkEvent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IMSVidStreamBufferSinkEvent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4798851-b8e1-4b49-aba9-b8b06d91280d">EncryptionOff</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694648(v=VS.85).aspx">EncryptionOff</a>
 </td>
 <td align="left" width="63%">
 The stream is no longer encrypted.
@@ -85,7 +85,7 @@ The stream is no longer encrypted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/753f33bc-2430-4c76-bf9b-ccd5aeaf6676">EncryptionOn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694649(v=VS.85).aspx">EncryptionOn</a>
 </td>
 <td align="left" width="63%">
 The stream is now encrypted
@@ -109,7 +109,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/e828d3e0-5a2a-499a-a718-11aa76a01b1b">IMSVidStreamBufferSinkEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694646(v=VS.85).aspx">IMSVidStreamBufferSinkEvent</a>
 
 
 

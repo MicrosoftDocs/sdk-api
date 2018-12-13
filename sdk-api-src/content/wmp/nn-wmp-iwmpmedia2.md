@@ -58,7 +58,7 @@ The <b>IWMPMedia2</b> interface provides a method that supplements the <b>IWMPMe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMedia2</b> interface inherits from <a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia</a>. <b>IWMPMedia2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMedia2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia</a>. <b>IWMPMedia2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMPMedia2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55df580e-1a51-450e-80d9-53398f3b4d9d">get_error</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563399(v=VS.85).aspx">get_error</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPErrorItem</b> interface if the media item has an error condition.
@@ -88,7 +88,7 @@ Retrieves a pointer to an <b>IWMPErrorItem</b> interface if the media item has a
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 

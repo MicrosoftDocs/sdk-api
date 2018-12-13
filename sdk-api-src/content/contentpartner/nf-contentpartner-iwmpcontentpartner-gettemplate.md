@@ -65,7 +65,7 @@ The <b>GetTemplate</b> method retrieves the URL of the discovery page to be disp
 
 ### -param task [in]
 
-A member of the <a href="https://msdn.microsoft.com/7abc17b1-5ce7-4741-9a6a-d5a444046418">WMPTaskType</a> enumeration that specifies the active task pane.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564892(v=VS.85).aspx">WMPTaskType</a> enumeration that specifies the active task pane.
 
 
 ### -param location [in]
@@ -105,7 +105,7 @@ Pointer to a <b>BSTR</b> that receives the URL of the discovery page to display.
 
 ### -param pTemplateSize [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/c63185a7-b2a4-4c3d-b455-220e1954a31a">WMPTemplateSize</a> enumeration that indicates the size of the template in which the Player will display the discovery page.
+Receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564893(v=VS.85).aspx">WMPTemplateSize</a> enumeration that indicates the size of the template in which the Player will display the discovery page.
 
 
 ## -returns
@@ -158,7 +158,7 @@ Windows Media Player calls <b>GetTemplate</b> to retrieve the URL of the discove
 
 
 
-<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
  
 
  

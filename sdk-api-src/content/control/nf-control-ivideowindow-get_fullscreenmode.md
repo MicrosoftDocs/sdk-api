@@ -147,11 +147,11 @@ When the Filter Graph Manager is switching to full-screen mode, it calls this me
 
 
 
-<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/efa1c6ed-bea5-4c25-89c2-1b6fcdad3834">IVideoWindow::put_FullScreenMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377320(v=VS.85).aspx">IVideoWindow::put_FullScreenMode</a>
  
 
  

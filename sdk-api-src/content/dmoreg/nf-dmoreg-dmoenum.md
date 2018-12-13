@@ -77,7 +77,7 @@ Number of input media types to use in the search criteria. Use zero to match any
 
 ### -param pInTypes
 
-Pointer to an array of <a href="https://msdn.microsoft.com/53bf4c34-d180-4edd-b59a-55d7d90708b5">DMO_PARTIAL_MEDIATYPE</a> structures that contain the input media types. Specify the size of the array in the cInTypes parameter.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd375510(v=VS.85).aspx">DMO_PARTIAL_MEDIATYPE</a> structures that contain the input media types. Specify the size of the array in the cInTypes parameter.
 
 
 ### -param cOutTypes
@@ -92,7 +92,7 @@ Pointer to an array of DMO_PARTIAL_MEDIATYPE structures that contain the output 
 
 ### -param ppEnum
 
-Address of a variable to receive the <a href="https://msdn.microsoft.com/221248f2-5c8f-442e-a6ad-e0372ddc1aae">IEnumDMO</a> interface of the enumerator.
+Address of a variable to receive the <a href="https://msdn.microsoft.com/en-us/library/Dd376585(v=VS.85).aspx">IEnumDMO</a> interface of the enumerator.
 
 
 ## -returns
@@ -149,7 +149,7 @@ Success
 
 
 
-This method returns a pointer to an enumerator object that supports the <a href="https://msdn.microsoft.com/221248f2-5c8f-442e-a6ad-e0372ddc1aae">IEnumDMO</a> interface. The application uses the <b>IEnumDMO</b> interface to enumerate over the set of DMOs that match the search criteria.
+This method returns a pointer to an enumerator object that supports the <a href="https://msdn.microsoft.com/en-us/library/Dd376585(v=VS.85).aspx">IEnumDMO</a> interface. The application uses the <b>IEnumDMO</b> interface to enumerate over the set of DMOs that match the search criteria.
 
 
 #### Examples

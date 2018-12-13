@@ -74,7 +74,7 @@ A pointer to a description of how to serialize the element.
 ### -param writeOption [in]
 
 Information about how the value is allocated.
-                    See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> for more information.
                 
 
 

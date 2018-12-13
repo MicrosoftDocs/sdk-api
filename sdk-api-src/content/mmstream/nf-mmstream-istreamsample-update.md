@@ -65,7 +65,7 @@ Performs a synchronous or an asynchronous update on the current sample.
 
 ### -param dwFlags [in]
 
-Flag that specifies whether the update is synchronous or asynchronous. The SSUPDATE_ASYNC flag specifies an asynchronous update, which you can set if both <i>hEvent</i> and <i>pfnAPC</i> are <b>NULL</b>. Use SSUPDATE_CONTINUOUS to continuously update the sample until you call the <a href="https://msdn.microsoft.com/bfc3fd16-20b1-4581-abb0-66781aa3d584">IStreamSample::CompletionStatus</a> method.
+Flag that specifies whether the update is synchronous or asynchronous. The SSUPDATE_ASYNC flag specifies an asynchronous update, which you can set if both <i>hEvent</i> and <i>pfnAPC</i> are <b>NULL</b>. Use SSUPDATE_CONTINUOUS to continuously update the sample until you call the <a href="https://msdn.microsoft.com/en-us/library/Dd377144(v=VS.85).aspx">IStreamSample::CompletionStatus</a> method.
 
 
 ### -param hEvent [in]
@@ -210,7 +210,7 @@ If an application creates multiple streams, it must perform an asynchronous upda
 
 
 
-<a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample Interface</a>
  
 
  

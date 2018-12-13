@@ -62,7 +62,7 @@ Attaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an 
 ### -param VirtualDiskHandle [in]
 
 A handle to an open virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a> function.
+      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.
 
 
 ### -param SecurityDescriptor [in, optional]
@@ -79,7 +79,7 @@ Ensure that the security descriptor that <b>AttachVirtualDisk</b> applies to the
 ### -param Flags [in]
 
 A valid combination of values of the 
-      <a href="https://msdn.microsoft.com/5792c2e2-0598-43ff-8c0f-5fb4a1a37656">ATTACH_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="https://msdn.microsoft.com/en-us/library/Dd323693(v=VS.85).aspx">ATTACH_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param ProviderSpecificFlags [in]
@@ -90,7 +90,7 @@ Flags specific to the type of virtual disk being attached. May be zero if none a
 ### -param Parameters [in, optional]
 
 A pointer to a valid 
-      <a href="https://msdn.microsoft.com/2bccad87-ddfe-4db4-9bf3-1892d8dd1237">ATTACH_VIRTUAL_DISK_PARAMETERS</a> 
+      <a href="https://msdn.microsoft.com/en-us/library/Dd323694(v=VS.85).aspx">ATTACH_VIRTUAL_DISK_PARAMETERS</a> 
       structure that contains attachment parameter data.
 
 
@@ -132,7 +132,7 @@ If the <b>AttachVirtualDisk</b> function fails with an
 
 <ul>
 <li>The <i>VirtualDiskHandle</i> parameter is not a valid handle created by the 
-      <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a> function.</li>
+      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.</li>
 <li>The <i>Flags</i> parameter is set to a value larger than 
       <code>0x020</code>.</li>
 <li>The <b>Version</b> member of the <i>Parameters</i> parameter is not 
@@ -149,8 +149,8 @@ The intended access mode of the virtual disk must be considered when opening the
     example, if the virtual disk is being attached for read/write access, the 
     <i>VirtualDiskHandle</i> parameter must have been opened using the 
     <b>VIRTUAL_DISK_ACCESS_ATTACH_RW</b> access flag. For more information, see 
-    <a href="https://msdn.microsoft.com/2b1f02ab-dc32-4af1-880b-73e7db8602be">VIRTUAL_DISK_ACCESS_MASK</a> and 
-    <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Dd323702(v=VS.85).aspx">VIRTUAL_DISK_ACCESS_MASK</a> and 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a>.
 
 CD and DVD image files (ISO) are not supported before Windows 8 and 
     Windows Server 2012.

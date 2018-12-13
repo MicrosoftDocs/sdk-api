@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains the information for an update sequence number (USN) change journal version 4.0 record. The version 2.0 and 3.0 records are defined by the <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a> (also called <b>USN_RECORD</b>) and <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a> structures  respectively.
+Contains the information for an update sequence number (USN) change journal version 4.0 record. The version 2.0 and 3.0 records are defined by the <a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD_V2</a> (also called <b>USN_RECORD</b>) and <a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a> structures  respectively.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Contains the information for an update sequence number (USN) change journal vers
 
 ### -field Header
 
-A <a href="https://msdn.microsoft.com/7B193D8E-FEED-4289-B40F-33BC27889F15">USN_RECORD_COMMON_HEADER</a> structure that describes the record length, major version, and minor  version for the record.
+A <a href="https://msdn.microsoft.com/en-us/library/Mt684962(v=VS.85).aspx">USN_RECORD_COMMON_HEADER</a> structure that describes the record length, major version, and minor  version for the record.
 
 
 ### -field FileReferenceNumber
@@ -456,7 +456,7 @@ The operation is modifying a file on client systems to match the contents of the
 
 ### -field RemainingExtents
 
-The number of extents that remain after the current <b>USN_RECORD_V4</b> record.  Multiple version 4.0  records may be required to describe all of the modified extents for a given file.  When the <b>RemainingExtents</b> member is  0,  the current <b>USN_RECORD_V4</b> record is the last <b>USN_RECORD_V4</b> record for the file.  The last <b>USN_RECORD_V4</b> entry for a given file is always  followed by a <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a> record with at least the <b>USN_REASON_CLOSE</b> flag set.
+The number of extents that remain after the current <b>USN_RECORD_V4</b> record.  Multiple version 4.0  records may be required to describe all of the modified extents for a given file.  When the <b>RemainingExtents</b> member is  0,  the current <b>USN_RECORD_V4</b> record is the last <b>USN_RECORD_V4</b> record for the file.  The last <b>USN_RECORD_V4</b> entry for a given file is always  followed by a <a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a> record with at least the <b>USN_REASON_CLOSE</b> flag set.
 
 
 ### -field NumberOfExtents
@@ -466,19 +466,19 @@ The number of extents in current <b>USN_RECORD_V4</b> entry.
 
 ### -field ExtentSize
 
-The size of each <a href="https://msdn.microsoft.com/7D569FCB-06D4-4348-B75A-D087D1D37851">USN_RECORD_EXTENT</a> structure in the <b>Extents</b> member, in bytes.
+The size of each <a href="https://msdn.microsoft.com/en-us/library/Mt684963(v=VS.85).aspx">USN_RECORD_EXTENT</a> structure in the <b>Extents</b> member, in bytes.
 
 
 ### -field Extents
 
-An array of <a href="https://msdn.microsoft.com/7D569FCB-06D4-4348-B75A-D087D1D37851">USN_RECORD_EXTENT</a> structures that represent the extents in the <b>USN_RECORD_V4</b> entry.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Mt684963(v=VS.85).aspx">USN_RECORD_EXTENT</a> structures that represent the extents in the <b>USN_RECORD_V4</b> entry.
 
 
 ## -remarks
 
 
 
-A <b>USN_RECORD_V4</b> record is only output when range tracking is turned on and the file size is equal or larger than the value of the <b>RangeTrackFileSizeThreshold</b> member. The user always receives one or more <b>USN_RECORD_V4</b> records followed by one <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a> record.
+A <b>USN_RECORD_V4</b> record is only output when range tracking is turned on and the file size is equal or larger than the value of the <b>RangeTrackFileSizeThreshold</b> member. The user always receives one or more <b>USN_RECORD_V4</b> records followed by one <a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a> record.
 
 To provide a path forward compatibility in change journal clients, Microsoft provides a major and minor version number of the change journal software in the <b>USN_RECORD_V4</b> structure. Your code should examine these values, examine its own compatibility with the change journal software, and gracefully handle any incompatibility if necessary.
 
@@ -519,23 +519,23 @@ For more information, see <a href="https://msdn.microsoft.com/26cbacc2-d26b-434b
 
 
 
-<a href="https://msdn.microsoft.com/f88e71ba-6099-4928-9d71-732a4ca809bc">READ_USN_JOURNAL_DATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365481(v=VS.85).aspx">READ_USN_JOURNAL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/7B193D8E-FEED-4289-B40F-33BC27889F15">USN_RECORD_COMMON_HEADER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt684962(v=VS.85).aspx">USN_RECORD_COMMON_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/7D569FCB-06D4-4348-B75A-D087D1D37851">USN_RECORD_EXTENT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt684963(v=VS.85).aspx">USN_RECORD_EXTENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a>
 
 
 

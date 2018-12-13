@@ -58,7 +58,7 @@ The <b>IWMReaderAdvanced2</b> interface provides additional advanced methods for
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderAdvanced2</b> interface inherits from <a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced</a>. <b>IWMReaderAdvanced2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderAdvanced2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced</a>. <b>IWMReaderAdvanced2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMReaderAdvanced2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0419f53-9962-4d81-9153-0538c60861eb">GetBufferProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757431(v=VS.85).aspx">GetBufferProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the percentage of data that has been buffered, and the time remaining to completion.
@@ -82,7 +82,7 @@ Retrieves the percentage of data that has been buffered, and the time remaining 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06bff83f-c3f2-4eca-85dd-7e7b93cfd73d">GetDownloadProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757432(v=VS.85).aspx">GetDownloadProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the percentage and amount of data that has been downloaded, and the time remaining to completion.
@@ -91,7 +91,7 @@ Retrieves the percentage and amount of data that has been downloaded, and the ti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/034ad344-2266-4662-9797-70031f58f0cd">GetLogClientID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757433(v=VS.85).aspx">GetLogClientID</a>
 </td>
 <td align="left" width="63%">
 Queries whether the reader logs the client's unique ID or an anonymous session ID.
@@ -100,7 +100,7 @@ Queries whether the reader logs the client's unique ID or an anonymous session I
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a46da973-8f2f-48b8-9a74-d54e67f68a83">GetOutputSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757434(v=VS.85).aspx">GetOutputSetting</a>
 </td>
 <td align="left" width="63%">
 Retrieves a setting for a particular output by name.
@@ -109,7 +109,7 @@ Retrieves a setting for a particular output by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45c7e2c2-fff4-41a9-b5ce-76d8d6257e77">GetPlayMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757435(v=VS.85).aspx">GetPlayMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current play mode.
@@ -118,7 +118,7 @@ Retrieves the current play mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/056d5f3f-79bf-4e21-9f2c-cda05eaca13d">GetProtocolName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757436(v=VS.85).aspx">GetProtocolName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the protocol that is currently being used.
@@ -127,7 +127,7 @@ Retrieves the name of the protocol that is currently being used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0317f010-4b7f-4f79-9460-ba6b1e904ffa">GetSaveAsProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757437(v=VS.85).aspx">GetSaveAsProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the percentage of data that has been saved.
@@ -136,7 +136,7 @@ Retrieves the percentage of data that has been saved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20822e1d-b367-4b03-9d8a-985427f0062d">OpenStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757438(v=VS.85).aspx">OpenStream</a>
 </td>
 <td align="left" width="63%">
 Opens a Windows Media stream for reading.
@@ -145,7 +145,7 @@ Opens a Windows Media stream for reading.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c216adf1-390c-45cc-acae-645fe29f55de">Preroll</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757439(v=VS.85).aspx">Preroll</a>
 </td>
 <td align="left" width="63%">
 Begins prerolling the reader.
@@ -154,7 +154,7 @@ Begins prerolling the reader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97bdac1f-8830-45c0-9229-322ad72b3954">SaveFileAs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757440(v=VS.85).aspx">SaveFileAs</a>
 </td>
 <td align="left" width="63%">
 Saves the current file.
@@ -163,7 +163,7 @@ Saves the current file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/818b7a0e-bbf4-42b2-a5a4-75078834c9f6">SetLogClientID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757441(v=VS.85).aspx">SetLogClientID</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the reader logs the client's unique ID or an anonymous session ID..
@@ -172,7 +172,7 @@ Specifies whether the reader logs the client's unique ID or an anonymous session
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/035a74d2-288d-4754-8cb2-4508b7fe4649">SetOutputSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757442(v=VS.85).aspx">SetOutputSetting</a>
 </td>
 <td align="left" width="63%">
 Specifies a named setting for a particular output.
@@ -181,7 +181,7 @@ Specifies a named setting for a particular output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1b20a0c-fedf-46d4-a76b-7596dcf8fcf8">SetPlayMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757443(v=VS.85).aspx">SetPlayMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the current play mode.
@@ -190,16 +190,16 @@ Specifies the current play mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/444adb2f-4289-4950-8841-07353479ef43">StartAtMarker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757445(v=VS.85).aspx">StartAtMarker</a>
 </td>
 <td align="left" width="63%">
-Starts the reader from a specified <a href="wmformat_glossary.htm">marker</a>.
+Starts the reader from a specified <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c380a68-d86c-421a-8102-019848893c35">StopBuffering</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757446(v=VS.85).aspx">StopBuffering</a>
 </td>
 <td align="left" width="63%">
 Requests that the reader stops buffering as soon as possible.
@@ -217,27 +217,27 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/20bf3c00-0f35-4b8e-b78d-a36fbfd865b7">IWMReaderAdvanced3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757447(v=VS.85).aspx">IWMReaderAdvanced3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/28d697d8-99b5-4968-a765-ba01b86914f6">IWMReaderAdvanced5 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757460(v=VS.85).aspx">IWMReaderAdvanced5 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/95e8c151-9aae-4930-824c-8809dfc07705">IWMReaderAdvanced6 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757462(v=VS.85).aspx">IWMReaderAdvanced6 Interface</a>
 
 
 

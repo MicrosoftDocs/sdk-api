@@ -53,7 +53,7 @@ req.redist:
 
 The <b>IWMReader</b> interface is used to open, close, start, pause, resume, and unlock the <b>WMReader</b> object. It is also used to stop reading files, and to get and set the output properties.
 
-Many of the methods in this interface are asynchronous and send status notifications to the application through an <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> method implemented in the application.
+Many of the methods in this interface are asynchronous and send status notifications to the application through an <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method implemented in the application.
 
 
 
@@ -75,7 +75,7 @@ The <b>IWMReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f320a0c-8586-4fc2-bd70-06ddda435cb5">Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743588(v=VS.85).aspx">Close</a>
 </td>
 <td align="left" width="63%">
 Deletes all outputs on the reader and releases the file resources.
@@ -84,7 +84,7 @@ Deletes all outputs on the reader and releases the file resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f04fad9-a638-45c6-b924-50f57472dfe3">GetOutputCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743589(v=VS.85).aspx">GetOutputCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of uncompressed media streams sent from the reader.
@@ -93,7 +93,7 @@ Retrieves the number of uncompressed media streams sent from the reader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e73d13b9-3fca-4de1-b89d-5cacc6311cd3">GetOutputFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743592(v=VS.85).aspx">GetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the supported formats for a specified output media stream.
@@ -102,7 +102,7 @@ Retrieves the supported formats for a specified output media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/282c5fb6-6b8a-4a13-8a20-4926c6f68800">GetOutputFormatCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743593(v=VS.85).aspx">GetOutputFormatCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of format types supported by this output media stream on the reader.
@@ -111,7 +111,7 @@ Retrieves the number of format types supported by this output media stream on th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8958abd0-cc2b-4d02-a831-c998d468fb06">GetOutputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743595(v=VS.85).aspx">GetOutputProps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current properties of an uncompressed output stream.
@@ -120,7 +120,7 @@ Retrieves the current properties of an uncompressed output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">Open</a>
 </td>
 <td align="left" width="63%">
 Opens an ASF file for reading.
@@ -129,7 +129,7 @@ Opens an ASF file for reading.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c9d60df-fa9e-42ac-907a-1958a38e430e">Pause</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743600(v=VS.85).aspx">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the current read operation.
@@ -138,7 +138,7 @@ Pauses the current read operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4af00d1f-c78a-4f43-be2d-9561e3c7cf36">Resume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743602(v=VS.85).aspx">Resume</a>
 </td>
 <td align="left" width="63%">
 Restarts read operation from the current time offset.
@@ -147,7 +147,7 @@ Restarts read operation from the current time offset.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a5325d1-880b-4d65-96af-9d311dca989b">SetOutputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743605(v=VS.85).aspx">SetOutputProps</a>
 </td>
 <td align="left" width="63%">
 Specifies the properties of an uncompressed output stream.
@@ -156,16 +156,16 @@ Specifies the properties of an uncompressed output stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">Start</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">Start</a>
 </td>
 <td align="left" width="63%">
-Starts reading from the current time offset. Uncompressed data is passed to <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a>.
+Starts reading from the current time offset. Uncompressed data is passed to <a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/781d1882-4b48-4415-9b3a-788207b42151">Stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743610(v=VS.85).aspx">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops reading, after which there is no current read position.
@@ -183,27 +183,27 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/20bf3c00-0f35-4b8e-b78d-a36fbfd865b7">IWMReaderAdvanced3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757447(v=VS.85).aspx">IWMReaderAdvanced3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/69b897a8-cc26-445d-9d41-b917b399fb14">IWMReaderCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d18961a-5ea4-4f3e-b473-7399e155f800">IWMReaderCallbackAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced Interface</a>
 
 
 

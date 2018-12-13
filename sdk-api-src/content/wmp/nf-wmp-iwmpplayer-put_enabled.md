@@ -108,15 +108,15 @@ If the <b>VARIANT_BOOL</b> specified in <b>put_enabled</b> is set to <b>FALSE</b
 
 
 
-<a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/42dc1774-686c-4336-9a61-b658a75ba257">IWMPPlayer::get_enabled</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563540(v=VS.85).aspx">IWMPPlayer::get_enabled</a>
 
 
 
-<a href="https://msdn.microsoft.com/1fd79fc3-34c6-4d76-a726-bbf64ee983c9">IWMPPlayer::put_enableContextMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563543(v=VS.85).aspx">IWMPPlayer::put_enableContextMenu</a>
  
 
  

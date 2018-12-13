@@ -59,7 +59,7 @@ Use the
 
 To get a pointer to the 
 <b>IBITSExtensionSetupFactory</b> interface, call the 
-<a href="_com_cocreateinstance">CoCreateInstance</a> function as shown in Example Code.
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function as shown in Example Code.
 
 
 ## -inheritance

@@ -102,7 +102,7 @@ This function should be called to set the color table for DIBs that use 1, 4, or
 <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER
         </a> structure specifies the number of bits-per-pixel. Device-independent bitmaps with a <b>biBitCount</b> value greater than 8 do not have a color table.
 
-The <b>bV5BitCount</b> member of a bitmap's associated <a href="https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3">BITMAPV5HEADER</a> structure specifies the number of bits-per-pixel. Device-independent bitmaps with a <b>bV5BitCount</b> value greater than 8 do not have a color table.
+The <b>bV5BitCount</b> member of a bitmap's associated <a href="https://msdn.microsoft.com/en-us/library/Dd183381(v=VS.85).aspx">BITMAPV5HEADER</a> structure specifies the number of bits-per-pixel. Device-independent bitmaps with a <b>bV5BitCount</b> value greater than 8 do not have a color table.
 
 <b>ICM:</b> No color management is performed.
 

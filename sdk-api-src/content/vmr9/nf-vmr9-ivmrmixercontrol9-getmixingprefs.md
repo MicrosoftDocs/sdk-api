@@ -64,7 +64,7 @@ The <code>GetMixingPrefs</code> method retrieves the mixing preferences for the 
 
 ### -param pdwMixerPrefs [out]
 
-Address of a variable that receives a bitwise OR combination of <a href="https://msdn.microsoft.com/59d3af89-248e-43cd-b6dc-e6c0a4d5f5fb">VMR9MixerPrefs</a> flags.
+Address of a variable that receives a bitwise OR combination of <a href="https://msdn.microsoft.com/en-us/library/Dd407366(v=VS.85).aspx">VMR9MixerPrefs</a> flags.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f311303a-8270-40b6-8153-e0bd8b232c69">IVMRMixerControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390457(v=VS.85).aspx">IVMRMixerControl9 Interface</a>
 
 
 

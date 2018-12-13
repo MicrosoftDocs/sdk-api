@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/2629d6a4-74d4-499c-b442-1c52c5818e75">XMFLOAT4X3A</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee419612(v=VS.85).aspx">XMFLOAT4X3A</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,16 +60,16 @@ Loads an <a href="https://msdn.microsoft.com/2629d6a4-74d4-499c-b442-1c52c5818e7
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/2629d6a4-74d4-499c-b442-1c52c5818e75">XMFLOAT4X3A</a> structure to load.
+Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee419612(v=VS.85).aspx">XMFLOAT4X3A</a> structure to load.
 
 
 ## -returns
 
 
 
-Returns an <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a> loaded with the data from the <i>pSource</i> parameter.
+Returns an <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> loaded with the data from the <i>pSource</i> parameter.
 
-This function performs a partial load of the returned <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>. See <a href="https://msdn.microsoft.com/9972e382-7a0f-88a7-ad44-18521af3520d">Getting Started</a> for more information.
+This function performs a partial load of the returned <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>. See <a href="https://msdn.microsoft.com/9972e382-7a0f-88a7-ad44-18521af3520d">Getting Started</a> for more information.
 
 
 
@@ -79,11 +79,11 @@ This function performs a partial load of the returned <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/2629d6a4-74d4-499c-b442-1c52c5818e75">XMFLOAT4X3A</a> is a row-major form of the matrix. This function cannot be used to read column-major data since it assumes the last column is 0 0 0 1.
+<a href="https://msdn.microsoft.com/en-us/library/Ee419612(v=VS.85).aspx">XMFLOAT4X3A</a> is a row-major form of the matrix. This function cannot be used to read column-major data since it assumes the last column is 0 0 0 1.
 
-The members of the <a href="https://msdn.microsoft.com/30563f47-6990-4d94-a587-5c64a389762f">XMFLOAT4X4A</a> structure (<b>_11</b>, <b>_12</b>,
+The members of the <a href="https://msdn.microsoft.com/en-us/library/Ee419623(v=VS.85).aspx">XMFLOAT4X4A</a> structure (<b>_11</b>, <b>_12</b>,
    <b>_13</b>, and so on) are loaded into the corresponding members of the
-   <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>. The remaining members of the returned
+   <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>. The remaining members of the returned
    <b>XMMATRIX</b> are 0.0f, except for <b>_44</b>, which is 1.0f.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

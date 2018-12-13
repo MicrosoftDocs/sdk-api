@@ -89,11 +89,11 @@ The DMO_SET_TYPEF_TEST_ONLY and DMO_SET_TYPEF_CLEAR flags are mutually exclusive
 
 
 
-<a href="https://msdn.microsoft.com/6b466fe4-97a0-46f9-9e4b-461ee66095f1">IMediaObject::SetInputType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406962(v=VS.85).aspx">IMediaObject::SetInputType</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dda3c55-d37b-4e04-9509-0e5197d6b019">IMediaObject::SetOutputType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406963(v=VS.85).aspx">IMediaObject::SetOutputType</a>
  
 
  

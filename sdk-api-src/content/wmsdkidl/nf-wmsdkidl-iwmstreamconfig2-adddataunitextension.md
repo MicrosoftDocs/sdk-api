@@ -66,7 +66,7 @@ The <b>AddDataUnitExtension</b> method adds a data unit extension system to the 
 
 ### -param guidExtensionSystemID [in]
 
-A GUID that identifies the data unit extension system. This can be one of the predefined GUIDs listed in <a href="https://msdn.microsoft.com/5aede025-65ae-4615-9511-af22b8c0dc00">INSSBuffer3::SetProperty</a>, or a GUID whose value is understood by a custom player application.
+A GUID that identifies the data unit extension system. This can be one of the predefined GUIDs listed in <a href="https://msdn.microsoft.com/en-us/library/Dd743255(v=VS.85).aspx">INSSBuffer3::SetProperty</a>, or a GUID whose value is understood by a custom player application.
 
 
 ### -param cbExtensionDataSize [in]
@@ -140,7 +140,7 @@ The method cannot allocate memory to hold the new data unit extension.
 
 Passing the GUID of an existing data unit extension system does not cause an error. The old system is destroyed and replaced by the new one.
 
-The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
+The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
 
 
 
@@ -150,11 +150,11 @@ The new value will not take effect in the profile until you call <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/766124f6-b376-421b-b2ee-2c280af3bd16">IWMStreamConfig2::GetDataUnitExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798549(v=VS.85).aspx">IWMStreamConfig2::GetDataUnitExtension</a>
  
 
  

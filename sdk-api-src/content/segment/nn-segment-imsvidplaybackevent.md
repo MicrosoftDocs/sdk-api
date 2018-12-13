@@ -78,7 +78,7 @@ The <b>IMSVidPlaybackEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00c73b5e-dc0f-4ffd-930f-e93ce3d1e179">EndOfMedia</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694588(v=VS.85).aspx">EndOfMedia</a>
 </td>
 <td align="left" width="63%">
 Called when playback has reached the end of the source media.

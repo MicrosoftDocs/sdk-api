@@ -81,13 +81,13 @@ Identifies the ATM address that could be either in E.164 or NSAP-style ATM End S
 ### -field satm_blli
 
 Identifies the fields in the B-LLI information element that are used along with <b>satm_bhli</b> to identify an application. See 
-<a href="https://msdn.microsoft.com/15f600eb-8a73-4bb4-9405-8c6ea9b6ea8a">ATM_BLLI</a> for more details. Note that the B-LLI layer two information is treated as not present if its <b>Layer2Protocol</b> field contains SAP_FIELD_ABSENT, or as a wildcard if it contains SAP_FIELD_ANY. Similarly, the B-LLI layer three information is treated as not present if its <b>Layer3Protocol</b> field contains SAP_FIELD_ABSENT, or as a wildcard if it contains SAP_FIELD_ANY.
+<a href="https://msdn.microsoft.com/en-us/library/ms737540(v=VS.85).aspx">ATM_BLLI</a> for more details. Note that the B-LLI layer two information is treated as not present if its <b>Layer2Protocol</b> field contains SAP_FIELD_ABSENT, or as a wildcard if it contains SAP_FIELD_ANY. Similarly, the B-LLI layer three information is treated as not present if its <b>Layer3Protocol</b> field contains SAP_FIELD_ABSENT, or as a wildcard if it contains SAP_FIELD_ANY.
 
 
 ### -field satm_bhli
 
 Identifies the fields in the B-HLI information element that are used along with <b>satm_blli</b> to identify an application. See 
-<a href="https://msdn.microsoft.com/a7e09a8e-5990-4493-bd73-016363b57427">ATM_BHLI</a> for information about the 
+<a href="https://msdn.microsoft.com/en-us/library/ms737539(v=VS.85).aspx">ATM_BHLI</a> for information about the 
 <b>ATM_BHLI</b> structure. 
 
 
@@ -137,15 +137,15 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/794d4070-45d7-41c3-8229-660ba3c5f72a">ATM_ADDRESS</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms737538(v=VS.85).aspx">ATM_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7e09a8e-5990-4493-bd73-016363b57427">ATM_BHLI</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms737539(v=VS.85).aspx">ATM_BHLI</a>
 
 
 
-<a href="https://msdn.microsoft.com/15f600eb-8a73-4bb4-9405-8c6ea9b6ea8a">ATM_BLLI</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms737540(v=VS.85).aspx">ATM_BLLI</a>
 
 
 

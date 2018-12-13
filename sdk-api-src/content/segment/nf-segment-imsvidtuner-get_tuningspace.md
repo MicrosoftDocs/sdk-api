@@ -86,11 +86,11 @@ The returned <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3
 
 
 
-<a href="https://msdn.microsoft.com/b11f3ac4-c351-4017-9801-98d8edec7449">IMSVidTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1da0078-0c5e-439e-9419-670e9e0f812c">IMSVidTuner::put_TuningSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694710(v=VS.85).aspx">IMSVidTuner::put_TuningSpace</a>
 
 
 

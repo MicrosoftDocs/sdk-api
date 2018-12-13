@@ -92,7 +92,7 @@ This method operates asynchronously, and a call to this method cancels a restore
 
 
 
-<a href="https://msdn.microsoft.com/29444445-7104-4900-a00d-dabd2766d1d7">IWMLicenseRestore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757221(v=VS.85).aspx">IWMLicenseRestore Interface</a>
  
 
  

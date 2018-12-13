@@ -76,7 +76,7 @@ The operations for which access by the client context is checked. This is a vari
 
 ### -param varParameterNames [in, optional]
 
-The names of the parameters available to business rules (BizRules) through the <a href="https://msdn.microsoft.com/9c956eea-92a5-4da8-abe0-a5ab4e41ab85">AzBizRuleContext::GetParameter</a> method. This is a variant that contains either a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> or the  JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds a <b>VT_BSTR</b> that contains a parameter name. This array must be sorted alphabetically by the caller; the sort order is as defined by a case-sensitive <a href="00b96fa7-446c-450b-bd06-a966e1acb5ce">VarCmp</a>. The order of the <i>varParameterValues</i> array must match the order of this array. The default value is <b>VT_NULL</b>.
+The names of the parameters available to business rules (BizRules) through the <a href="https://msdn.microsoft.com/9c956eea-92a5-4da8-abe0-a5ab4e41ab85">AzBizRuleContext::GetParameter</a> method. This is a variant that contains either a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> or the  JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds a <b>VT_BSTR</b> that contains a parameter name. This array must be sorted alphabetically by the caller; the sort order is as defined by a case-sensitive <a href="https://msdn.microsoft.com/en-us/library/ms221006(v=VS.85).aspx">VarCmp</a>. The order of the <i>varParameterValues</i> array must match the order of this array. The default value is <b>VT_NULL</b>.
 
 
 ### -param varParameterValues [in, optional]
@@ -86,17 +86,17 @@ The values of the parameters that are available to business rules (BizRules) thr
 
 ### -param varInterfaceNames [in, optional]
 
-The names by which the interfaces in the <i>varInterfaces</i> array will be known in a BizRule script. This is a variant that contains either a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> or the  JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds a string variant that contains an interface name. This method calls the <a href="a7c6317d-948f-4bb3-b169-1bbe5b7c7cc5">IActiveScript::AddNamedItem</a> method for each entry in the array. The default value is <b>VT_NULL</b>.
+The names by which the interfaces in the <i>varInterfaces</i> array will be known in a BizRule script. This is a variant that contains either a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> or the  JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds a string variant that contains an interface name. This method calls the <a href="https://msdn.microsoft.com/library/s8eyc3sh(v=VS.85).aspx">IActiveScript::AddNamedItem</a> method for each entry in the array. The default value is <b>VT_NULL</b>.
 
 
 ### -param varInterfaceFlags [in, optional]
 
-Flags that will be passed in the call to <a href="a7c6317d-948f-4bb3-b169-1bbe5b7c7cc5">IActiveScript::AddNamedItem</a>. This is a variant that contains either a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> or the  JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds a <b>VT_I4</b>. The SCRIPTITEM_ISVISIBLE flag is implied; the SCRIPTITEM_ISPERSISTENT flag is ignored. Each entry in the array must match the corresponding element in the <i>varInterfaceNames</i> array. The default value is <b>VT_NULL</b>.
+Flags that will be passed in the call to <a href="https://msdn.microsoft.com/library/s8eyc3sh(v=VS.85).aspx">IActiveScript::AddNamedItem</a>. This is a variant that contains either a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> or the  JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds a <b>VT_I4</b>. The SCRIPTITEM_ISVISIBLE flag is implied; the SCRIPTITEM_ISPERSISTENT flag is ignored. Each entry in the array must match the corresponding element in the <i>varInterfaceNames</i> array. The default value is <b>VT_NULL</b>.
 
 
 ### -param varInterfaces [in, optional]
 
-The <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interfaces that will be made available to the BizRule script. This is a variant that contains either a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> or the  JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds an <b>IDispatch</b> interface. Each entry in the array must match the corresponding element in the <i>varInterfaceNames</i> array. The default value is <b>VT_NULL</b>.
+The <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interfaces that will be made available to the BizRule script. This is a variant that contains either a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> or the  JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds an <b>IDispatch</b> interface. Each entry in the array must match the corresponding element in the <i>varInterfaceNames</i> array. The default value is <b>VT_NULL</b>.
 
 
 ### -param pvarResults [out]

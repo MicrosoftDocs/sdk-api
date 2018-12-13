@@ -124,11 +124,11 @@ If you want to determine the connection bandwidth before receiving a sample, use
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/beb84e1b-ebe2-40a0-bcf0-eded9346d7a1">IWMReaderNetworkConfig::SetConnectionBandwidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743540(v=VS.85).aspx">IWMReaderNetworkConfig::SetConnectionBandwidth</a>
  
 
  

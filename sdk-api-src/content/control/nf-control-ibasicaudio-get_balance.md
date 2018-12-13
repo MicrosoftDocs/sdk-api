@@ -135,7 +135,7 @@ The balance ranges from -10,000 to 10,000. The value -10,000 means the right cha
 
 
 
-<a href="https://msdn.microsoft.com/0335b263-8d32-4690-a606-ba2b3e382680">IBasicAudio Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389532(v=VS.85).aspx">IBasicAudio Interface</a>
  
 
  

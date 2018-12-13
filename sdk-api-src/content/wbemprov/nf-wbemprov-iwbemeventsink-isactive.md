@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>IWbemEventSink::IsActive</b> method is used by the provider to determine if there is interest in the events that the sink is filtering. In the case of a restricted sink, these events are defined by the queries passed to 
-<a href="https://msdn.microsoft.com/f72ab8f7-e4de-4f64-80db-6981b0bd13d3">GetRestrictedSink</a>. In the case where it is not a restricted sink, these events are defined by the queries in the event provider's registration. In the latter, the sink is always active.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391746(v=VS.85).aspx">GetRestrictedSink</a>. In the case where it is not a restricted sink, these events are defined by the queries in the event provider's registration. In the latter, the sink is always active.
 
 
 ## -parameters

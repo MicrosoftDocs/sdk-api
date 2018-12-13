@@ -87,7 +87,7 @@ Large template. Windows Media Player allocates as much room as possible while al
 
 
 
-<a href="https://msdn.microsoft.com/4bfe7d84-9f65-4bd4-867a-65c96291397d">IWMPContentPartner::GetTemplate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563168(v=VS.85).aspx">IWMPContentPartner::GetTemplate</a>
  
 
  

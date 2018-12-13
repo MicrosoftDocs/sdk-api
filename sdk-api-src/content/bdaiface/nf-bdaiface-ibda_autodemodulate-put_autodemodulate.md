@@ -81,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/91588290-bae9-4c6d-9ec7-5d3777208e2a">IBDA_AutoDemodulate Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693252(v=VS.85).aspx">IBDA_AutoDemodulate Interface</a>
  
 
  

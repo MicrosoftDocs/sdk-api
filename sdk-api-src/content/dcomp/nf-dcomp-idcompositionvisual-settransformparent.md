@@ -60,7 +60,7 @@ Sets the TransformParent property of this visual. The TransformParent property e
 
 ### -param visual [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>*</b>
 
 The new visual that establishes the base coordinate system for this visual. This parameter can be NULL.
 
@@ -88,7 +88,7 @@ If the <i>visual</i> parameter is NULL, the coordinate system is always transfor
 
 
 
-This method fails if the <i>visual</i> parameter is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if the <i>visual</i> parameter is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> interface as this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 
@@ -99,7 +99,7 @@ This method fails if the <i>visual</i> parameter is an invalid pointer or if it 
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
  
 
  

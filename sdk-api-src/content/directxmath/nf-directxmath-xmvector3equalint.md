@@ -96,7 +96,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/a808eadd-9b2b-49e0-a2ca-24585dfc4572">XMVector3EqualIntR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420810(v=VS.85).aspx">XMVector3EqualIntR</a>
  
 
  

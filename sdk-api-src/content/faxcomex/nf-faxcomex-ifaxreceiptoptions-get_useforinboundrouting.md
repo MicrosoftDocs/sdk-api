@@ -54,7 +54,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxReceiptOptions::get_UseForInboundRouting </b> property sets or retrieves whether to use the <a href="https://msdn.microsoft.com/6c3d1358-6819-42e3-9be0-896ed7e2d463">FaxReceiptOptions</a> settings for the Microsoft Routing Extension, which allows incoming faxes to be routed to email addresses. 
+The <b>IFaxReceiptOptions::get_UseForInboundRouting </b> property sets or retrieves whether to use the <a href="https://msdn.microsoft.com/en-us/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a> settings for the Microsoft Routing Extension, which allows incoming faxes to be routed to email addresses. 
 
 This property is read/write.
 
@@ -68,7 +68,7 @@ This property is read/write.
 
 If the settings are not used (property is set to <b>FALSE</b>), then the Microsoft Routing Extension is disabled, and users will not be able to receive faxes to email addresses. If the settings are used (property is set to <b>TRUE</b>), then the Microsoft Routing Extension is enabled, and users will be able to receive faxes to email addresses.
 
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -78,15 +78,15 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/6c3d1358-6819-42e3-9be0-896ed7e2d463">FaxReceiptOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/95bcade2-eb0c-4e6f-8f3b-9d001f999992">IFaxReceiptOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690119(v=VS.85).aspx">IFaxReceiptOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4558e770-c6ae-4892-a2b3-40c59f6275fa">Setting Receipt Options</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693387(v=VS.85).aspx">Setting Receipt Options</a>
  
 
  

@@ -67,7 +67,7 @@ The <b>SetProtectStreamSamples</b> method configures the writer to accept encryp
 
 ### -param pImportInitStruct [in]
 
-Address of a <a href="https://msdn.microsoft.com/191b844e-5760-44d7-9b27-9fa87fead90f">WMDRM_IMPORT_INIT_STRUCT</a> structure containing initialization information needed to import protected content.
+Address of a <a href="https://msdn.microsoft.com/en-us/library/Dd757824(v=VS.85).aspx">WMDRM_IMPORT_INIT_STRUCT</a> structure containing initialization information needed to import protected content.
 
 
 ## -returns
@@ -115,7 +115,7 @@ The method succeeded.
 
 <b>SetProtectStreamSamples</b> is used to configure the writer object for importing protected content.
 
-When importing protected content, this method must be called after configuring the writer but before calling <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a>. Before you can call this method, you must validate and extract the machine Windows Media DRM public key from the machine certificate collection.
+When importing protected content, this method must be called after configuring the writer but before calling <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a>. Before you can call this method, you must validate and extract the machine Windows Media DRM public key from the machine certificate collection.
 
 
 
@@ -137,7 +137,7 @@ When importing protected content, this method must be called after configuring t
 
 
 
-<a href="https://msdn.microsoft.com/b300b97b-e558-4c33-a84a-e92c28a3a606">IWMDRMWriter3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798375(v=VS.85).aspx">IWMDRMWriter3 Interface</a>
  
 
  

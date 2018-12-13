@@ -87,11 +87,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/27c5a97b-e04b-4d15-b19a-3c0d78feee95">IWMReaderNetworkConfig::GetLoggingUrl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743527(v=VS.85).aspx">IWMReaderNetworkConfig::GetLoggingUrl</a>
  
 
  

@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>LoadProfileByData</b> method creates a profile object and populates it with data from a stored string. You must use this method to manipulate custom profiles. System profiles should be accessed using either <a href="https://msdn.microsoft.com/16104e70-c800-49a6-a9cf-2b4669c865eb">LoadProfileByID</a> or <a href="https://msdn.microsoft.com/5de4bd41-953b-4f50-b495-1d852831ae34">LoadSystemProfile</a>.
+The <b>LoadProfileByData</b> method creates a profile object and populates it with data from a stored string. You must use this method to manipulate custom profiles. System profiles should be accessed using either <a href="https://msdn.microsoft.com/en-us/library/Dd757395(v=VS.85).aspx">LoadProfileByID</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd757396(v=VS.85).aspx">LoadSystemProfile</a>.
 
 
 
@@ -128,7 +128,7 @@ Either the <i>ppProfile</i> or <i>pwszProfile</i> parameter is <b>NULL</b>.
 
 
 
-This string must match an XML-formatted string created by <a href="https://msdn.microsoft.com/806def9b-1842-4443-9a63-fba380545018">IWMProfileManager::SaveProfile</a>. By convention, when such strings are saved to disk they are given the ".prx" extension.
+This string must match an XML-formatted string created by <a href="https://msdn.microsoft.com/en-us/library/Dd757397(v=VS.85).aspx">IWMProfileManager::SaveProfile</a>. By convention, when such strings are saved to disk they are given the ".prx" extension.
 
 
 
@@ -138,7 +138,7 @@ This string must match an XML-formatted string created by <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
  
 
  

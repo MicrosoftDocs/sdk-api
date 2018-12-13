@@ -113,7 +113,7 @@ pdwCount is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/0e51a9be-afd4-430b-8339-f45e8f9a7d20">IWMPropertyVault Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault Interface</a>
  
 
  

@@ -61,7 +61,7 @@ The
 
 ### -field spec_mh
 
-General information and length information for the  flowspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/b67fdf53-322b-4a70-ae83-63d4365e9b57">IntServMainHdr</a> structure.
+General information and length information for the  flowspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373722(v=VS.85).aspx">IntServMainHdr</a> structure.
 
 
 ### -field spec_u
@@ -72,19 +72,19 @@ Union containing flowspec information.
 
 #### CL_spec
 
-Controlled load flowspec information, expressed as a <a href="https://msdn.microsoft.com/def835ae-f0d2-4cdc-a498-315c4ef1245b">CtrlLoadFlowspec</a> structure.
+Controlled load flowspec information, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa373430(v=VS.85).aspx">CtrlLoadFlowspec</a> structure.
 
 
 
 #### G_spec
 
-Guaranteed service flowspec information, expressed as a <a href="https://msdn.microsoft.com/549380cc-b4ac-414a-9058-f506741f1e76">GuarFlowSpec</a> structure.
+Guaranteed service flowspec information, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa373710(v=VS.85).aspx">GuarFlowSpec</a> structure.
 
 
 
 #### Q_spec
 
-Qualitative application flowspec information, expressed as a <a href="https://msdn.microsoft.com/4e15b094-4250-4699-b66e-6734cf37cbb6">QualAppFlowSpec</a> structure.
+Qualitative application flowspec information, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa374106(v=VS.85).aspx">QualAppFlowSpec</a> structure.
 
 
 ### -field CL_spec
@@ -109,15 +109,15 @@ Qualitative application flowspec information, expressed as a <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/def835ae-f0d2-4cdc-a498-315c4ef1245b">CtrlLoadFlowspec</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373430(v=VS.85).aspx">CtrlLoadFlowspec</a>
 
 
 
-<a href="https://msdn.microsoft.com/549380cc-b4ac-414a-9058-f506741f1e76">GuarFlowSpec</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373710(v=VS.85).aspx">GuarFlowSpec</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e15b094-4250-4699-b66e-6734cf37cbb6">QualAppFlowSpec</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374106(v=VS.85).aspx">QualAppFlowSpec</a>
  
 
  

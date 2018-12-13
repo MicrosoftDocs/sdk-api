@@ -108,15 +108,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1352e2f6-cad8-4d86-b973-b7d4d8f0c448">IWMPCdromBurn::put_burnFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563090(v=VS.85).aspx">IWMPCdromBurn::put_burnFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/5761dbfb-4e7d-4063-bde7-2aa9d7869d7c">WMPBurnFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564690(v=VS.85).aspx">WMPBurnFormat</a>
  
 
  

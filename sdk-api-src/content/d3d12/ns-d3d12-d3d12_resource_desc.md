@@ -98,13 +98,13 @@ Specifies the number of MIP levels.
 
 ### -field Format
 
-Specifies one member of  <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>.
+Specifies one member of  <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
           
 
 
 ### -field SampleDesc
 
-Specifies a <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> structure.
+Specifies a <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure.
           
 
 

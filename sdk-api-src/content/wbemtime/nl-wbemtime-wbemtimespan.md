@@ -71,7 +71,7 @@ The <b>WBEMTimeSpan</b> class holds time spans in nanoseconds.<b>WBEMTimeSpan</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/337dc247-9904-457a-a1f3-e1cf29b61126">WBEMTimeSpan</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa394007(v=VS.85).aspx">WBEMTimeSpan</a>
 </td>
 <td align="left" width="63%">
 Constructor that creates a time span object.
@@ -87,7 +87,7 @@ Constructor that creates a time span object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8bd964ed-d815-489a-8ddf-c92970701b05">Clear</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa393990(v=VS.85).aspx">Clear</a>
 </td>
 <td align="left" width="63%">
 Sets the time span to INVALID_TIME.
@@ -96,7 +96,7 @@ Sets the time span to INVALID_TIME.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5db5a7a-0590-4598-bde7-e90cfc7cd932">GetBSTR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa393997(v=VS.85).aspx">GetBSTR</a>
 </td>
 <td align="left" width="63%">
 Gets the time span as a <b>BSTR</b> in WMI time span format.
@@ -105,7 +105,7 @@ Gets the time span as a <b>BSTR</b> in WMI time span format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58ea0741-1927-4cbf-abfb-059e4490accc">GetTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa393998(v=VS.85).aspx">GetTime</a>
 </td>
 <td align="left" width="63%">
 Returns the time span as a 64-bit integer.
@@ -114,7 +114,7 @@ Returns the time span as a 64-bit integer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/855b4c2f-5379-4dd9-9638-072e256e955a">IsOk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa394001(v=VS.85).aspx">IsOk</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the <b>WBEMTimeSpan</b> object represents a valid time span.

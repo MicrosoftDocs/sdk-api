@@ -70,7 +70,7 @@ The <b>ID2D1GeometrySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/845fed36-8425-45fd-a12e-7537e5ba3c4f">AddArc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742733(v=VS.85).aspx">AddArc</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a single arc and adds it to the path geometry.
 
@@ -78,7 +78,7 @@ The <b>ID2D1GeometrySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1e228eb-dac6-485d-b3c9-69b2bd45e531">AddBezier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742735(v=VS.85).aspx">AddBezier</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates  a cubic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 
@@ -95,7 +95,7 @@ Creates a line segment between the current point and the specified end point and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/142f0823-0d8d-4216-8f40-9dec7f48032e">AddQuadraticBezier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742737(v=VS.85).aspx">AddQuadraticBezier</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates  a quadratic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 

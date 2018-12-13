@@ -115,7 +115,7 @@ If this method retrieves an empty string, the Windows Media Player ActiveX contr
 
 
 
-<a href="https://msdn.microsoft.com/743dae18-985a-405a-8025-ead54e06a4ea">IWMPAudioRenderConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563077(v=VS.85).aspx">IWMPAudioRenderConfig</a>
  
 
  

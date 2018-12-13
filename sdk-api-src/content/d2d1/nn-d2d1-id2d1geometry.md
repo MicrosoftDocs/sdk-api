@@ -120,7 +120,7 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3932189a-7c6b-4144-9d4a-32d2aba70835">GetBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742751(v=VS.85).aspx">GetBounds</a>
 </td>
 <td align="left" width="63%">Overloaded. Retrieves the bounds of the geometry.
 

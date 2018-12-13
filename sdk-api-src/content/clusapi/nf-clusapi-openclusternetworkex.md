@@ -61,7 +61,7 @@ Opens a connection to a <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b
 
 ### -param hCluster [in]
 
-Handle to a <a href="c_gly.htm">cluster</a>.
+Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
 
 
 ### -param lpszNetworkName [in, optional]

@@ -61,7 +61,7 @@ The <code>get_ExposureRelative</code> method returns the camera's relative expos
 
 ### -param pValue [out]
 
-Receives the relative exposure. To get the range of possible values, call <a href="https://msdn.microsoft.com/ab46e893-037a-42bb-a3ae-bef943cd6a5e">ICameraControl::getRange_ExposureRelative</a>.
+Receives the relative exposure. To get the range of possible values, call <a href="https://msdn.microsoft.com/en-us/library/Dd376300(v=VS.85).aspx">ICameraControl::getRange_ExposureRelative</a>.
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ Receives the relative exposure. To get the range of possible values, call <a hre
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

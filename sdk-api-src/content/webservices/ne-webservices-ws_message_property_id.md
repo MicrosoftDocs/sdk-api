@@ -65,7 +65,7 @@ Each message property is of type <a href="https://msdn.microsoft.com/40751692-a8
 This property is used with <a href="https://msdn.microsoft.com/369f7690-6d70-401a-84aa-e5761dc874b5">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structure is the current <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE</a> of the message.
+The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structure is the current <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE</a> of the message.
 
 This property is available in all message states.
                 
@@ -89,7 +89,7 @@ The message object will not use the heap object unless one of
                     the message APIs is invoked.
                 
 
-This property is available in all message states except <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>. 
+This property is available in all message states except <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>. 
                     Using the heap of an empty message will result in undefined behavior.
                 
 
@@ -99,7 +99,7 @@ This property is available in all message states except <a href="https://msdn.mi
 This property is used with <a href="https://msdn.microsoft.com/369f7690-6d70-401a-84aa-e5761dc874b5">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://msdn.microsoft.com/2a6f6148-d37d-4ac2-8fd0-409eae71a3d8">WS_ENVELOPE_VERSION</a> of the message.
+The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://msdn.microsoft.com/en-us/library/Dd401836(v=VS.85).aspx">WS_ENVELOPE_VERSION</a> of the message.
                 
 
 When creating a message using <a href="https://msdn.microsoft.com/1c48647e-9e77-4b7a-add3-e035c7f9f27e">WsCreateMessage</a>, the
@@ -111,7 +111,7 @@ This property may be specified when message properties are specified using
                     the <a href="https://msdn.microsoft.com/74ad74fd-457a-4408-8032-15d365f98b14">WS_MESSAGE_PROPERTIES</a> structure.
                 
 
-This property is available in all message states except <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+This property is available in all message states except <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -120,7 +120,7 @@ This property is available in all message states except <a href="https://msdn.mi
 This property is used with <a href="https://msdn.microsoft.com/369f7690-6d70-401a-84aa-e5761dc874b5">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION</a> of the message.
+The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION</a> of the message.
                 
 
 When creating a message using <a href="https://msdn.microsoft.com/1c48647e-9e77-4b7a-add3-e035c7f9f27e">WsCreateMessage</a>, the
@@ -132,7 +132,7 @@ This property may be specified when message properties are specified using
                     the <a href="https://msdn.microsoft.com/74ad74fd-457a-4408-8032-15d365f98b14">WS_MESSAGE_PROPERTIES</a> structure.
                 
 
-This property is available in all message states except <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+This property is available in all message states except <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -148,7 +148,7 @@ The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/
 This buffer is valid until the message is reset/freed.
                 
 
-This property is available in all message states except <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+This property is available in all message states except <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -158,7 +158,7 @@ This property is used with <a href="https://msdn.microsoft.com/369f7690-6d70-401
 
 The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://msdn.microsoft.com/40ca058c-04e1-4358-b330-360a094a8791">WS_XML_NODE_POSITION</a>of the header element within the header buffer (the element that contains all
                     the message headers as children).  The header buffer itself can be
-                    obtained using <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_HEADER_BUFFER</a>.
+                    obtained using <a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_HEADER_BUFFER</a>.
                 
 
 An application can use the <a href="https://msdn.microsoft.com/40ca058c-04e1-4358-b330-360a094a8791">WS_XML_NODE_POSITION</a> returned as a starting 
@@ -177,7 +177,7 @@ When the headers of a message are read (via <a href="https://msdn.microsoft.com/
                     to the message.
                 
 
-This property is available in all message states except <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+This property is available in all message states except <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 The header position is valid until the message is reset or freed.
@@ -198,7 +198,7 @@ The reader is owned by the message object, and is valid only
                 
 
 This property is only available when the message is 
-                    in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_READING</a> state.
+                    in <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_READING</a> state.
                 
 
 
@@ -212,7 +212,7 @@ The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/
                 
 
 This property is only available when the message is in 
-                    <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_WRITING</a> state.
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_WRITING</a> state.
                 
 
 The writer is owned by the message object, and is valid only
@@ -238,7 +238,7 @@ When a message is read (<a href="https://msdn.microsoft.com/e4f92e99-f272-47b5-8
                     set to <b>TRUE</b>.
                 
 
-This property is available in all message states except <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+This property is available in all message states except <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 See <a href="https://msdn.microsoft.com/30b2dbd1-7232-4ff1-b30a-920df8bfe423">WsAddressMessage</a> for more information.
@@ -262,10 +262,10 @@ The following heap properties may be specified:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_MAX_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401901(v=VS.85).aspx">WS_HEAP_PROPERTY_MAX_SIZE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_TRIM_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401901(v=VS.85).aspx">WS_HEAP_PROPERTY_TRIM_SIZE</a>
 </li>
 </ul>
 
@@ -288,34 +288,34 @@ The following properties may be specified:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_MAX_DEPTH</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_MAX_DEPTH</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_MAX_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_MAX_ATTRIBUTES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_READ_DECLARATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_READ_DECLARATION</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_UTF8_TRIM_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_UTF8_TRIM_SIZE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_STREAM_BUFFER_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_STREAM_BUFFER_SIZE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_MAX_MIME_PARTS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_MAX_MIME_PARTS</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_MAX_NAMESPACES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_MAX_NAMESPACES</a>
 </li>
 </ul>
 
@@ -338,25 +338,25 @@ The following properties may be specified:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_MAX_DEPTH</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_MAX_DEPTH</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_WRITE_DECLARATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_WRITE_DECLARATION</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_BUFFER_TRIM_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_BUFFER_TRIM_SIZE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_MAX_MIME_PARTS_BUFFER_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_MAX_MIME_PARTS_BUFFER_SIZE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_MAX_NAMESPACES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_MAX_NAMESPACES</a>
 </li>
 </ul>
 
@@ -371,7 +371,7 @@ When a message is read (<a href="https://msdn.microsoft.com/e4f92e99-f272-47b5-8
                     this property is set according to whether the first element of the body is a fault
                     element.  An application can test this property as a way of deciding whether
                     to read the body as a fault.  To read the body as a fault, use <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a> 
-                    with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_FAULT_TYPE</a> to obtain a <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7c94e">WS_FAULT</a>.
+                    with <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_FAULT_TYPE</a> to obtain a <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7c94e">WS_FAULT</a>.
                 
 
 When a message is written (<a href="https://msdn.microsoft.com/43cc43a5-7853-4170-911d-e514ac722da5">WsWriteMessageStart</a> or <a href="https://msdn.microsoft.com/213fe780-82f2-4140-92f2-2665317a5cb6">WsWriteEnvelopeStart</a>)
@@ -381,11 +381,11 @@ When a message is written (<a href="https://msdn.microsoft.com/43cc43a5-7853-417
                 
 
 When a message is initialized using <a href="https://msdn.microsoft.com/26eafc5f-6636-4f96-a037-7935cdac5900">WsInitializeMessage</a> with
-                    <a href="https://msdn.microsoft.com/f4a674c1-4017-49c8-aa9a-68f1d2b84378">WS_FAULT_MESSAGE</a>, the property is set to <b>TRUE</b>.  
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401956(v=VS.85).aspx">WS_FAULT_MESSAGE</a>, the property is set to <b>TRUE</b>.  
                     For other <b>WS_MESSAGE_INITIALIZATION</b> values, the property is set to <b>FALSE</b>.
                 
 
-This property is available in all message states except <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+This property is available in all message states except <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -429,7 +429,7 @@ A custom channel can use <a href="https://msdn.microsoft.com/f1e6616f-63ac-4afb-
                 
 
 This property is available in all message states except 
-                    <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -452,7 +452,7 @@ A custom channel can use <a href="https://msdn.microsoft.com/f1e6616f-63ac-4afb-
                 
 
 This property is available in all message states except
-                    <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -486,7 +486,7 @@ A custom channel can use <a href="https://msdn.microsoft.com/f1e6616f-63ac-4afb-
                 
 
 This property is available in all message states except
-                    <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -509,7 +509,7 @@ A custom channel can use <a href="https://msdn.microsoft.com/f1e6616f-63ac-4afb-
                 
 
 This property is available in all message states except
-                    <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -532,7 +532,7 @@ A custom channel can use <a href="https://msdn.microsoft.com/f1e6616f-63ac-4afb-
                 
 
 This property is available in all message states except
-                    <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -555,7 +555,7 @@ A custom channel can use <a href="https://msdn.microsoft.com/f1e6616f-63ac-4afb-
                 
 
 This property is available in all message states except
-                    <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -575,13 +575,13 @@ The returned value is good until the message is freed or reset.
 
 This property is used with <a href="https://msdn.microsoft.com/369f7690-6d70-401a-84aa-e5761dc874b5">WsGetMessageProperty</a> to retrieve the message's security protection level.
 
-The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://msdn.microsoft.com/2b673728-1050-4005-bbb6-64b81ec19174">WS_PROTECTION_LEVEL</a> value.
+The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://msdn.microsoft.com/en-us/library/Dd401995(v=VS.85).aspx">WS_PROTECTION_LEVEL</a> value.
 
 If the channel does not use security, or if security verification failed, the protection level is set to 
-                <a href="https://msdn.microsoft.com/2b673728-1050-4005-bbb6-64b81ec19174">WS_PROTECTION_LEVEL_NONE</a>. Otherwise it is set to the level requested by the application.            
+                <a href="https://msdn.microsoft.com/en-us/library/Dd401995(v=VS.85).aspx">WS_PROTECTION_LEVEL_NONE</a>. Otherwise it is set to the level requested by the application.            
             
 
-This property may be used to dermine the status of the security verification when <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_ALLOW_UNSECURED_FAULTS</a> 
+This property may be used to dermine the status of the security verification when <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_ALLOW_UNSECURED_FAULTS</a> 
                 is set to <b>FALSE</b>.
             
 
@@ -590,6 +590,6 @@ A custom channel can use <a href="https://msdn.microsoft.com/f1e6616f-63ac-4afb-
             
 
 This property is available in all message states except
-                <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+                <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
             
 

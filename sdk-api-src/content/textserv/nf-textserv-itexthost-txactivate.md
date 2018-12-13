@@ -105,10 +105,10 @@ It is legal for the host to refuse an activation request; for example, the contr
 
 The caller should be able to gracefully handle failure to activate.
 
-No matter how many times this method is called, only one <a href="https://msdn.microsoft.com/f7d102e1-4082-44aa-b930-a8dc371ed591">ITextHost::TxDeactivate</a> call is necessary to deactivate the control.
+No matter how many times this method is called, only one <a href="https://msdn.microsoft.com/en-us/library/Bb787642(v=VS.85).aspx">ITextHost::TxDeactivate</a> call is necessary to deactivate the control.
 
 This function returns an opaque handle in 
-				<i>plOldState</i>. The caller (the text services object) should save this handle and use it in a subsequent call to <a href="https://msdn.microsoft.com/f7d102e1-4082-44aa-b930-a8dc371ed591">ITextHost::TxDeactivate</a>.
+				<i>plOldState</i>. The caller (the text services object) should save this handle and use it in a subsequent call to <a href="https://msdn.microsoft.com/en-us/library/Bb787642(v=VS.85).aspx">ITextHost::TxDeactivate</a>.
 
 
 
@@ -122,7 +122,7 @@ This function returns an opaque handle in
 
 
 
-<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
 
 
 
@@ -130,11 +130,11 @@ This function returns an opaque handle in
 
 
 
-<a href="https://msdn.microsoft.com/f7d102e1-4082-44aa-b930-a8dc371ed591">TxDeactivate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787642(v=VS.85).aspx">TxDeactivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

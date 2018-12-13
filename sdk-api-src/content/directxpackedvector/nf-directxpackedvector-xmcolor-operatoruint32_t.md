@@ -119,11 +119,11 @@ The fourth 8 bits (bits 24-31) of the return value are the <b>b</b> member (blue
 
 
 
-<a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ffa02ad-4a7e-474e-9e7f-d2148ca42d57">XMCOLOR Operators</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415266(v=VS.85).aspx">XMCOLOR Operators</a>
  
 
  

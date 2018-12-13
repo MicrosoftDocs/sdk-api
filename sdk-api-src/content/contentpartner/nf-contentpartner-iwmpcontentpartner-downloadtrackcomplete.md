@@ -75,7 +75,7 @@ Content ID of the track in question.
 
 ### -param downloadTrackParam [in]
 
-Parameter that the plug-in previously passed to <a href="https://msdn.microsoft.com/fe8772fa-2eb4-4dfe-b677-e667b6021690">IWMPContentPartnerCallback::DownloadTrack</a>. This parameter is meaningful only to the online store; it is not interpreted by Windows Media Player.
+Parameter that the plug-in previously passed to <a href="https://msdn.microsoft.com/en-us/library/Dd563146(v=VS.85).aspx">IWMPContentPartnerCallback::DownloadTrack</a>. This parameter is meaningful only to the online store; it is not interpreted by Windows Media Player.
 
 
 ## -returns
@@ -120,11 +120,11 @@ To learn how the Player and the plug-in work together to download a set of track
 
 
 
-<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0fa3ed40-e155-4e42-b031-d6cb8f8b4ac4">IWMPContentPartner::Download</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563160(v=VS.85).aspx">IWMPContentPartner::Download</a>
  
 
  

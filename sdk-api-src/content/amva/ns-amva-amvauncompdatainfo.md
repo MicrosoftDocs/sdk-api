@@ -84,7 +84,7 @@ A <b>DDPIXELFORMAT</b> structure that specifies the pixel format of the uncompre
 
 
 
-<a href="https://msdn.microsoft.com/c32fb94d-396f-460a-9e69-1baaf14eff6e">IAMVideoAccelerator::GetCompBufferInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376004(v=VS.85).aspx">IAMVideoAccelerator::GetCompBufferInfo</a>
  
 
  

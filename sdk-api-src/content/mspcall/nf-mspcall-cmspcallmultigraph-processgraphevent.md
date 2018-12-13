@@ -85,7 +85,7 @@ Filled in by filter graph. Implementation dependent.
 
 
 
-<a href="https://msdn.microsoft.com/86512d40-380b-4e98-840d-b7be99a86623">CMSPCallMultiGraph</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Creates a drag image list for the specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/face4c8f-01ff-4f5a-a468-e306a50dae35">LVM_CREATEDRAGIMAGE</a> message explicitly. 
+Creates a drag image list for the specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774890(v=VS.85).aspx">LVM_CREATEDRAGIMAGE</a> message explicitly. 
 
 
 ## -parameters

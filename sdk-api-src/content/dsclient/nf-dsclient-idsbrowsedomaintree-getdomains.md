@@ -61,7 +61,7 @@ The <b>IDsBrowseDomainTree::GetDomains</b> method retrieves the trust domains of
 
 ### -param ppDomainTree [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/c4b3f81c-0632-407c-834e-8eec6fefde68">DOMAINTREE</a> structure pointer that receives the trust domain data. The caller must free this memory when no longer required by calling <a href="https://msdn.microsoft.com/d9334f4c-d5b0-445a-ad1b-8628f206b715">IDsBrowseDomainTree::FreeDomains</a>.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675909(v=VS.85).aspx">DOMAINTREE</a> structure pointer that receives the trust domain data. The caller must free this memory when no longer required by calling <a href="https://msdn.microsoft.com/d9334f4c-d5b0-445a-ad1b-8628f206b715">IDsBrowseDomainTree::FreeDomains</a>.
 
 
 ### -param dwFlags [in]
@@ -126,7 +126,7 @@ For more information about how to access and use the data provided by this metho
 
 
 
-<a href="https://msdn.microsoft.com/c4b3f81c-0632-407c-834e-8eec6fefde68">DOMAINTREE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms675909(v=VS.85).aspx">DOMAINTREE</a>
 
 
 

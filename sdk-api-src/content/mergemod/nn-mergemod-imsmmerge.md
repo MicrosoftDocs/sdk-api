@@ -60,7 +60,7 @@ Merge object provides access to other top-level objects. A
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmMerge</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMsmMerge</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmMerge</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMsmMerge</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -121,7 +121,7 @@ Extracts the embedded CAB of a Merge Module to a disk file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/846355d6-32f2-4b04-91dc-acd60445fbd9">ExtractFiles</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369815(v=VS.85).aspx">ExtractFiles</a>
 </td>
 <td align="left" width="63%">
 Creates a source image of the Merge Module beneath the specified path.

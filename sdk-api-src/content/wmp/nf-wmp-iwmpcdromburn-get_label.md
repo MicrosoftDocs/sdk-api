@@ -108,11 +108,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/84407961-5d79-4845-a81a-283b3689e562">IWMPCdromBurn::put_label</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563092(v=VS.85).aspx">IWMPCdromBurn::put_label</a>
  
 
  

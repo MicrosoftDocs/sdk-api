@@ -91,7 +91,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/656ba7ef-fd5c-4464-b651-3cbde18f3ef6">XMVector4ReciprocalLengthEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420982(v=VS.85).aspx">XMVector4ReciprocalLengthEst</a>
  
 
  

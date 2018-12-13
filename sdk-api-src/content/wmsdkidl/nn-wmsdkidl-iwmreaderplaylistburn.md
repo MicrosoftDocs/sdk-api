@@ -75,7 +75,7 @@ The <b>IWMReaderPlaylistBurn</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d126f13b-90ac-489e-8dd0-e507f4003a7a">Cancel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743556(v=VS.85).aspx">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels an initiated playlist burn.
@@ -84,7 +84,7 @@ Cancels an initiated playlist burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/355f23eb-3cdb-4c27-bc48-499f349aef2b">EndPlaylistBurn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743558(v=VS.85).aspx">EndPlaylistBurn</a>
 </td>
 <td align="left" width="63%">
 Ends the playlist burning process, releasing any resources and updating counts for any DRM licenses involved.
@@ -93,7 +93,7 @@ Ends the playlist burning process, releasing any resources and updating counts f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f9db03b-0bcc-4442-b97e-f6a2f8d179fa">GetInitResults</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743560(v=VS.85).aspx">GetInitResults</a>
 </td>
 <td align="left" width="63%">
 Retrieves the results of the playlist file check. This check is initiated by the <b>InitPlaylistBurn</b> method.
@@ -102,7 +102,7 @@ Retrieves the results of the playlist file check. This check is initiated by the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a20a70af-49bc-408f-8c64-779525436f8d">InitPlaylistBurn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743563(v=VS.85).aspx">InitPlaylistBurn</a>
 </td>
 <td align="left" width="63%">
 Starts the playlist file check.

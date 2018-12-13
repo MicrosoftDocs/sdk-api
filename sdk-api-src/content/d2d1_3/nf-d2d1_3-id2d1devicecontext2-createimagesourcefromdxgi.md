@@ -60,7 +60,7 @@ Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are
 
 ### -param surfaces [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f1a9fda9d80">IDXGISurface</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>**</b>
 
 The DXGI surfaces to create the image source from.
 
@@ -104,7 +104,7 @@ The regions of the surfaces to create the image source from.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 

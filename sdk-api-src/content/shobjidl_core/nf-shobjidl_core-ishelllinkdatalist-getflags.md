@@ -62,7 +62,7 @@ Gets the current option settings.
 
 Type: <b>DWORD*</b>
 
-Pointer to one or more of the <a href="https://msdn.microsoft.com/3b810223-b2d9-40ca-92bd-4d9f31981355">SHELL_LINK_DATA_FLAGS</a> that indicate the current option settings.
+Pointer to one or more of the <a href="https://msdn.microsoft.com/en-us/library/Bb762540(v=VS.85).aspx">SHELL_LINK_DATA_FLAGS</a> that indicate the current option settings.
 
 
 ## -returns

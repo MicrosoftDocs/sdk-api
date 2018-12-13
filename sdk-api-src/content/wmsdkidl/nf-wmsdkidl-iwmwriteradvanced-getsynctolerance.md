@@ -122,11 +122,11 @@ The default tolerance is 3000 milliseconds.
 
 
 
-<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d60020bf-52f1-46a0-aeae-367e3b179fac">IWMWriterAdvanced::SetSyncTolerance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798739(v=VS.85).aspx">IWMWriterAdvanced::SetSyncTolerance</a>
  
 
  

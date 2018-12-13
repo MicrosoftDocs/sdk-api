@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Defines a control vector for use in <a href="https://msdn.microsoft.com/8136ef58-fcbe-4cfb-9f8e-04ae4e56b979">XMVectorSelect</a>.
+Defines a control vector for use in <a href="https://msdn.microsoft.com/en-us/library/Ee421211(v=VS.85).aspx">XMVectorSelect</a>.
 
 
 ## -parameters
@@ -60,22 +60,22 @@ Defines a control vector for use in <a href="https://msdn.microsoft.com/8136ef58
 
 ### -param VectorIndex0 [in]
 
-Index that determines which vector in <a href="https://msdn.microsoft.com/8136ef58-fcbe-4cfb-9f8e-04ae4e56b979">XMVectorSelect</a> will be selected. If zero, the first vector's first component will be selected. Otherwise, the second vector's component will be selected.
+Index that determines which vector in <a href="https://msdn.microsoft.com/en-us/library/Ee421211(v=VS.85).aspx">XMVectorSelect</a> will be selected. If zero, the first vector's first component will be selected. Otherwise, the second vector's component will be selected.
 
 
 ### -param VectorIndex1 [in]
 
-Index that determines which vector in <a href="https://msdn.microsoft.com/8136ef58-fcbe-4cfb-9f8e-04ae4e56b979">XMVectorSelect</a> will be selected. If zero, the first vector's second component will be selected. Otherwise, the second vector's component will be selected.
+Index that determines which vector in <a href="https://msdn.microsoft.com/en-us/library/Ee421211(v=VS.85).aspx">XMVectorSelect</a> will be selected. If zero, the first vector's second component will be selected. Otherwise, the second vector's component will be selected.
 
 
 ### -param VectorIndex2 [in]
 
-Index that determines which vector in <a href="https://msdn.microsoft.com/8136ef58-fcbe-4cfb-9f8e-04ae4e56b979">XMVectorSelect</a> will be selected. If zero, the first vector's third component will be selected. Otherwise, the second vector's component will be selected.
+Index that determines which vector in <a href="https://msdn.microsoft.com/en-us/library/Ee421211(v=VS.85).aspx">XMVectorSelect</a> will be selected. If zero, the first vector's third component will be selected. Otherwise, the second vector's component will be selected.
 
 
 ### -param VectorIndex3 [in]
 
-Index that determines which vector in <a href="https://msdn.microsoft.com/8136ef58-fcbe-4cfb-9f8e-04ae4e56b979">XMVectorSelect</a> will be selected. If zero, the first vector's fourth component will be selected. Otherwise, the second vector's component will be selected.
+Index that determines which vector in <a href="https://msdn.microsoft.com/en-us/library/Ee421211(v=VS.85).aspx">XMVectorSelect</a> will be selected. If zero, the first vector's fourth component will be selected. Otherwise, the second vector's component will be selected.
 
 
 ## -returns
@@ -150,7 +150,7 @@ XMVECTOR result = XMVectorSelect( three, five, control );
 
 
 
-<a href="https://msdn.microsoft.com/8136ef58-fcbe-4cfb-9f8e-04ae4e56b979">XMVectorSelect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421211(v=VS.85).aspx">XMVectorSelect</a>
  
 
  

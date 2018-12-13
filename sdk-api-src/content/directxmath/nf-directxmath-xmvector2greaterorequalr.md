@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Tests whether one 2D vector is greater-than-or-equal-to another 2D vector and returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
+Tests whether one 2D vector is greater-than-or-equal-to another 2D vector and returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Tests whether one 2D vector is greater-than-or-equal-to another 2D vector and re
 
 
 
-Returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
+Returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
 
 
 
@@ -105,7 +105,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/582daecc-3612-42b3-b39f-08a1bd3bcef7">XMVector2GreaterOrEqual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420766(v=VS.85).aspx">XMVector2GreaterOrEqual</a>
  
 
  

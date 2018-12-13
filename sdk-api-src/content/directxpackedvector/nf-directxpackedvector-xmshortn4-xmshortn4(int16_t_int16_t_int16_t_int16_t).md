@@ -53,7 +53,7 @@ req.redist:
 Initializes a new instance of <code>XMSHORTN4</code> from four <code>int16_t</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/1dfe894e-bc5f-4bfd-a4ba-71fb3e4c9728">XMSHORTN4</a> from four
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a> from four
 	<code>int16_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -129,11 +129,11 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 
 
 
-<a href="https://msdn.microsoft.com/1dfe894e-bc5f-4bfd-a4ba-71fb3e4c9728">XMSHORTN4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/87b4befb-7267-4346-928e-25eaeaf1db5e">XMSHORTN4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415434(v=VS.85).aspx">XMSHORTN4 Constructors</a>
  
 
  

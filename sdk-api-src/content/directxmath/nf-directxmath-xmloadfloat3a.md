@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/bad51162-3eaa-44e1-9032-6db3e75f0e99">XMFLOAT3A</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee419476(v=VS.85).aspx">XMFLOAT3A</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/bad51162-3eaa-44e1-9032-6db3e75f0e9
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/bad51162-3eaa-44e1-9032-6db3e75f0e99">XMFLOAT3A</a> structure to load.
+Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee419476(v=VS.85).aspx">XMFLOAT3A</a> structure to load.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 
 
-The <b>x</b>, <b>y</b>, and <b>z</b> members of the <a href="https://msdn.microsoft.com/bad51162-3eaa-44e1-9032-6db3e75f0e99">XMFLOAT3A</a> are loaded
+The <b>x</b>, <b>y</b>, and <b>z</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Ee419476(v=VS.85).aspx">XMFLOAT3A</a> are loaded
    into the corresponding members of the returned <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>. The <b>w</b> member of the
    <b>XMVECTOR</b> is initialized to 0.
 

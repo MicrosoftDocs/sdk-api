@@ -95,7 +95,7 @@ The number of elements in the <i>pprgItems</i> array.
 
 ### -param pprgItems [out]
 
-Address of a variable that receives a pointer to an array of <a href="https://msdn.microsoft.com/a37ddbe1-7c66-4060-b93d-bd494cdc4521">WMPContextMenuInfo</a> structures.
+Address of a variable that receives a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd564694(v=VS.85).aspx">WMPContextMenuInfo</a> structures.
 
 
 ## -returns
@@ -140,7 +140,7 @@ This method must call <b>CoTaskMemAlloc</b> to allocate the array that it return
 
 
 
-<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
  
 
  

@@ -124,7 +124,7 @@ The method succeeded.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/f2b4285c-3cf8-40dc-87eb-57419ef7343e">IMSVidPlayback::put_EnableResetOnStop</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694597(v=VS.85).aspx">IMSVidPlayback::put_EnableResetOnStop</a>.
 
 
 
@@ -134,7 +134,7 @@ For more information, see <a href="https://msdn.microsoft.com/f2b4285c-3cf8-40dc
 
 
 
-<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
  
 
  

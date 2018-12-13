@@ -75,7 +75,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/7347601e-e889-4a45-8b94-081678df68d9">IMSVidPlaybackEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694587(v=VS.85).aspx">IMSVidPlaybackEvent</a>
 
 
 

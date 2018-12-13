@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Ends the editing of a tree-view item's label. You can use this macro or send the <a href="https://msdn.microsoft.com/68de2020-9311-4958-859a-de55f5e41fcf">TVM_ENDEDITLABELNOW</a> message explicitly. 
+Ends the editing of a tree-view item's label. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773564(v=VS.85).aspx">TVM_ENDEDITLABELNOW</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Variable that indicates whether the editing is canceled without being saved to t
 
 
 
-This macro causes the <a href="https://msdn.microsoft.com/82eb9fcd-de10-4efb-8501-78c5af5e089e">TVN_ENDLABELEDIT</a> notification code to be sent to the parent window of the tree-view control. 
+This macro causes the <a href="https://msdn.microsoft.com/en-us/library/Bb773515(v=VS.85).aspx">TVN_ENDLABELEDIT</a> notification code to be sent to the parent window of the tree-view control. 
 
 
 

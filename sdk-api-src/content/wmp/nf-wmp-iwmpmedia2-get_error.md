@@ -109,11 +109,11 @@ If the media item cannot be played, this property retrieves an <b>IWMPErrorItem<
 
 
 
-<a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5d1e4f8-4a31-427e-ac2e-e7d4c3194a21">IWMPMedia2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563398(v=VS.85).aspx">IWMPMedia2 Interface</a>
  
 
  

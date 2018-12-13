@@ -65,7 +65,7 @@ Sets the priority order for the set of <a href="https://msdn.microsoft.com/57d16
 
 ### -param hCluster [in]
 
-Handle to the <a href="c_gly.htm">cluster</a> to be affected.
+Handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> to be affected.
 
 
 ### -param NetworkCount [in]

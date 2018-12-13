@@ -68,20 +68,20 @@ token will be presented.
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION
 
-A <a href="https://msdn.microsoft.com/02a080f5-3d0d-4483-8215-bcb5b9f27b9c">WS_TRUST_VERSION</a> value that specifies the version of WS-Trust to use.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323478(v=VS.85).aspx">WS_TRUST_VERSION</a> value that specifies the version of WS-Trust to use.
 
-If this property is not specified, it defaults to <a href="https://msdn.microsoft.com/02a080f5-3d0d-4483-8215-bcb5b9f27b9c">WS_TRUST_VERSION_FEBRUARY_2005</a>.
+If this property is not specified, it defaults to <a href="https://msdn.microsoft.com/en-us/library/Dd323478(v=VS.85).aspx">WS_TRUST_VERSION_FEBRUARY_2005</a>.
                 
 
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_SECURE_CONVERSATION_VERSION
 
-A <a href="https://msdn.microsoft.com/17c21a3a-1cb5-4174-8300-a5c3d87e3e0f">WS_SECURE_CONVERSATION_VERSION</a> value that
-            specifies the version of WS-SecureConversation to use when <a href="https://msdn.microsoft.com/1ef2ab60-c0a6-461a-9c93-fce74e8d76ba">WS_REQUEST_SECURITY_TOKEN_ACTION_NEW_CONTEXT</a> 
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323374(v=VS.85).aspx">WS_SECURE_CONVERSATION_VERSION</a> value that
+            specifies the version of WS-SecureConversation to use when <a href="https://msdn.microsoft.com/en-us/library/Dd323364(v=VS.85).aspx">WS_REQUEST_SECURITY_TOKEN_ACTION_NEW_CONTEXT</a> 
             or <b>WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT</b> are specified.
           
 
-If this property is not specified, it defaults to <a href="https://msdn.microsoft.com/17c21a3a-1cb5-4174-8300-a5c3d87e3e0f">WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</a>.
+If this property is not specified, it defaults to <a href="https://msdn.microsoft.com/en-us/library/Dd323374(v=VS.85).aspx">WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</a>.
           
 
 
@@ -95,7 +95,7 @@ A pointer to a <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_REQUEST_ACTION
 
-A <a href="https://msdn.microsoft.com/1ef2ab60-c0a6-461a-9c93-fce74e8d76ba">WS_REQUEST_SECURITY_TOKEN_ACTION</a> value that specifies the action to be used with the request. The default is <b>WS_REQUEST_SECURITY_TOKEN_ACTION_ISSUE</b>.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323364(v=VS.85).aspx">WS_REQUEST_SECURITY_TOKEN_ACTION</a> value that specifies the action to be used with the request. The default is <b>WS_REQUEST_SECURITY_TOKEN_ACTION_ISSUE</b>.
           
 
 
@@ -104,17 +104,17 @@ A <a href="https://msdn.microsoft.com/1ef2ab60-c0a6-461a-9c93-fce74e8d76ba">WS_R
 A pointer to a <a href="https://msdn.microsoft.com/050a2ce5-279e-48fb-85da-1d0b11cd8229">WS_SECURITY_TOKEN</a> structure that, 
             if specified, instead of requesting a new token, the provided token is renewed by requesting a new token based on 
             the existing one. The old token becomes invalid if this operation succeeds. 
-            Only supported with <a href="https://msdn.microsoft.com/1ef2ab60-c0a6-461a-9c93-fce74e8d76ba">WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT</a>.
+            Only supported with <a href="https://msdn.microsoft.com/en-us/library/Dd323364(v=VS.85).aspx">WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT</a>.
           
 
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_TYPE
 
-A <a href="https://msdn.microsoft.com/95915a10-ba8f-41ca-89eb-777c85d2a411">WS_SECURITY_KEY_TYPE</a> value that specifies the type of the cryptographic key to be requested for the
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323405(v=VS.85).aspx">WS_SECURITY_KEY_TYPE</a> value that specifies the type of the cryptographic key to be requested for the
                     issued security token.                      This must be set to <b>WS_SECURITY_KEY_TYPE_NONE</b> or <b>WS_SECURITY_KEY_TYPE_SYMMETRIC</b>.
 
 
-The value <a href="https://msdn.microsoft.com/95915a10-ba8f-41ca-89eb-777c85d2a411">WS_SECURITY_KEY_TYPE_NONE</a> specifies a bearer token without
+The value <a href="https://msdn.microsoft.com/en-us/library/Dd323405(v=VS.85).aspx">WS_SECURITY_KEY_TYPE_NONE</a> specifies a bearer token without
                     proof-of-possession keys. Such tokens will not produce a signature when used to secure a message.
                 
 
@@ -135,7 +135,7 @@ A <b>ULONG</b> that specifies the size (in bits) of the cryptographic key to be 
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY
 
-A <a href="https://msdn.microsoft.com/dd6bca9a-e47b-46b3-b9ac-23aecb101337">WS_SECURITY_KEY_ENTROPY_MODE</a> value that specifies how entropy is contributed to the cryptographic key of the
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323402(v=VS.85).aspx">WS_SECURITY_KEY_ENTROPY_MODE</a> value that specifies how entropy is contributed to the cryptographic key of the
                     issued token.  This property may be specified only for issued tokens
                     with symmetric keys.  If this property is not specified, the mode <b>WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY</b> is used.
                 
@@ -151,7 +151,7 @@ A pointer to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca
                     when requesting a security token.
                 
 
-Unlike <a href="https://msdn.microsoft.com/7a2063eb-ab60-43d5-bd8c-41ef132abf50">WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS</a>, local request 
+Unlike <a href="https://msdn.microsoft.com/en-us/library/Dd323367(v=VS.85).aspx">WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS</a>, local request 
                     parameters are defined by the client as a means to add parameters to the token request.
                 
 
@@ -165,12 +165,12 @@ A pointer to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca
                     parameters are not emitted.
                 
 
-If <a href="https://msdn.microsoft.com/02a080f5-3d0d-4483-8215-bcb5b9f27b9c">WS_TRUST_VERSION_FEBRUARY_2005</a> is specified this buffer is serialized
+If <a href="https://msdn.microsoft.com/en-us/library/Dd323478(v=VS.85).aspx">WS_TRUST_VERSION_FEBRUARY_2005</a> is specified this buffer is serialized
                     into the RequestSecurityToken element following the
-                    <a href="https://msdn.microsoft.com/7a2063eb-ab60-43d5-bd8c-41ef132abf50">WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS</a>.
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd323367(v=VS.85).aspx">WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS</a>.
                 
 
-If <a href="https://msdn.microsoft.com/02a080f5-3d0d-4483-8215-bcb5b9f27b9c">WS_TRUST_VERSION_1_3</a> is specified this buffer is serialized into the
+If <a href="https://msdn.microsoft.com/en-us/library/Dd323478(v=VS.85).aspx">WS_TRUST_VERSION_1_3</a> is specified this buffer is serialized into the
                     RequestSecurityToken/SecondaryParameters element.
                  
 

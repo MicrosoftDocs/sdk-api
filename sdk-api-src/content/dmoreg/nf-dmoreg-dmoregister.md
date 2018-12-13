@@ -76,7 +76,7 @@ GUID that specifies the category of the DMO. See <a href="https://msdn.microsoft
 
 ### -param dwFlags
 
-Bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/472be505-a13c-4612-b799-1e9add3ee3fc">DMO_REGISTER_FLAGS</a> enumeration.
+Bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd375513(v=VS.85).aspx">DMO_REGISTER_FLAGS</a> enumeration.
 
           
 
@@ -88,7 +88,7 @@ Number of input media types to register. Can be zero.
 
 ### -param pInTypes
 
-Pointer to an array of <a href="https://msdn.microsoft.com/53bf4c34-d180-4edd-b59a-55d7d90708b5">DMO_PARTIAL_MEDIATYPE</a> structures that specify the input media types. The size of the array is specified in the cInTypes parameter
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd375510(v=VS.85).aspx">DMO_PARTIAL_MEDIATYPE</a> structures that specify the input media types. The size of the array is specified in the cInTypes parameter
           
 
 
@@ -156,10 +156,10 @@ Success
 
 
 
-This function adds information about a DMO to the registry. Applications or software components can use this information to locate the DMOs they need to use, by calling the <a href="https://msdn.microsoft.com/2cb69d28-15be-44fb-a180-98b560848c08">DMOEnum</a> function. For example, to encode a video stream, you would search in the DMOCATEGORY_VIDEO_ENCODER category for a DMO whose media types matched your requirements.
+This function adds information about a DMO to the registry. Applications or software components can use this information to locate the DMOs they need to use, by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd375487(v=VS.85).aspx">DMOEnum</a> function. For example, to encode a video stream, you would search in the DMOCATEGORY_VIDEO_ENCODER category for a DMO whose media types matched your requirements.
         
 
-The media types registered by this function are only for the purpose of finding the DMO. They do not necessarily match the types returned by the <a href="https://msdn.microsoft.com/22693a22-97be-487d-ad17-31a2d8ee874c">IMediaObject::GetInputType</a> and <a href="https://msdn.microsoft.com/a7652472-4091-4ecf-b623-5c6eb01be44a">IMediaObject::GetOutputType</a> methods. For example, a decoder might register just its main input types. After the DMO is created and its input type has been set, its <b>GetOutputType</b> method will return all of the decompressed types it can generate.
+The media types registered by this function are only for the purpose of finding the DMO. They do not necessarily match the types returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd406952(v=VS.85).aspx">IMediaObject::GetInputType</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd406956(v=VS.85).aspx">IMediaObject::GetOutputType</a> methods. For example, a decoder might register just its main input types. After the DMO is created and its input type has been set, its <b>GetOutputType</b> method will return all of the decompressed types it can generate.
         
 
 

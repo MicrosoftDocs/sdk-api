@@ -86,15 +86,15 @@ Do not confuse the international country/region code with the LCID. The country/
 
 
 
-<a href="https://msdn.microsoft.com/d733f829-5600-4f75-9bc9-de8dc8dd8031">IAMTuner::put_CountryCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375956(v=VS.85).aspx">IAMTuner::put_CountryCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/640143d3-6712-4e92-a1d9-0689637b3d90">IMSVidAnalogTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8efd47f-2a89-4982-88dd-3bfc6c00801b">IMSVidAnalogTuner::get_CountryCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694429(v=VS.85).aspx">IMSVidAnalogTuner::get_CountryCode</a>
 
 
 

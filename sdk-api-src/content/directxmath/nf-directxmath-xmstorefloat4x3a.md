@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/2629d6a4-74d4-499c-b442-1c52c5818e75">XMFLOAT4X3A</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419612(v=VS.85).aspx">XMFLOAT4X3A</a>.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/2629d6a4-74d4-499c-b442-1c52c5818e75">XMFLOAT4X3A</a> is a row-major matrix form. This function cannot be used 
+<a href="https://msdn.microsoft.com/en-us/library/Ee419612(v=VS.85).aspx">XMFLOAT4X3A</a> is a row-major matrix form. This function cannot be used 
    to write out column-major data since it assumes the last column is 
 
 

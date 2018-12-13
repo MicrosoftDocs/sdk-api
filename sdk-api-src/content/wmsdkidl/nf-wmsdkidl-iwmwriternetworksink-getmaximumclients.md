@@ -113,11 +113,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/619f0684-28bb-4412-acbf-27434672083a">IWMWriterNetworkSink::SetMaximumClients</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798768(v=VS.85).aspx">IWMWriterNetworkSink::SetMaximumClients</a>
  
 
  

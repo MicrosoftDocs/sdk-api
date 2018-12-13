@@ -63,10 +63,10 @@ Contains information about a tree-view notification message. This structure is i
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification message. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification message. 
 
 
 ### -field action
@@ -77,35 +77,35 @@ Notification-specific action flag. This member is used with the following notifi
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec">TVN_ITEMEXPANDING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/18d9d61d-6ec5-4d3b-9c02-36d0e61ed232">TVN_ITEMEXPANDED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/53f24ee0-433c-4680-9075-5e2b21117ed9">TVN_SELCHANGING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773547(v=VS.85).aspx">TVN_SELCHANGING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/682170d3-5843-4d92-afeb-c37f3502ed5d">TVN_SELCHANGED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773544(v=VS.85).aspx">TVN_SELCHANGED</a>
 </li>
 </ul>
-For the possible action flag values, see <a href="https://msdn.microsoft.com/d6c2e5b2-ce36-4c2b-b527-91c6de56e305">TVM_EXPAND</a> and <a href="https://msdn.microsoft.com/682170d3-5843-4d92-afeb-c37f3502ed5d">TVN_SELCHANGED</a>. 
+For the possible action flag values, see <a href="https://msdn.microsoft.com/en-us/library/Bb773568(v=VS.85).aspx">TVM_EXPAND</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773544(v=VS.85).aspx">TVN_SELCHANGED</a>. 
 
 
 ### -field itemOld
 
-Type: <b><a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a></b>
 
 
-<a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> structure that contains information about the old item state. This member is zero for notification messages that do not use it. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that contains information about the old item state. This member is zero for notification messages that do not use it. 
 
 
 ### -field itemNew
 
-Type: <b><a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a></b>
 
 
-<a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> structure that contains information about the new item state. This member is zero for notification messages that do not use it. 
+<a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that contains information about the new item state. This member is zero for notification messages that do not use it. 
 
 
 ### -field ptDrag
@@ -121,7 +121,7 @@ Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7
 
 
 
-<a href="https://msdn.microsoft.com/23ff9dc1-3d92-4e94-8df5-7a645039ce27">WM_NOTIFY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>
  
 
  

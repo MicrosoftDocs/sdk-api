@@ -251,7 +251,7 @@ Only users with administrative privileges, users in the Performance Log Users gr
 
 Event trace controllers call this function.
 
-Up to eight trace sessions can enable and receive events from the same <a href="about_event_tracing.htm">manifest-based</a> provider; however, only one trace session can enable a <a href="about_event_tracing.htm">classic</a> provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
+Up to eight trace sessions can enable and receive events from the same <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">manifest-based</a> provider; however, only one trace session can enable a <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">classic</a> provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
 
 The provider remains enabled for the session until the session disables the provider. If the application that started the session ends without disabling the provider, the provider remains enabled.
 

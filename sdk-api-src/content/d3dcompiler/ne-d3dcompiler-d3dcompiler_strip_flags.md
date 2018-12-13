@@ -96,7 +96,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-These flags are used by <a href="https://msdn.microsoft.com/d6f51f57-02e1-485d-8f49-60a9bfb62cf5">D3DStripShader</a>.
+These flags are used by <a href="https://msdn.microsoft.com/en-us/library/Dd607335(v=VS.85).aspx">D3DStripShader</a>.
 
 
 
@@ -106,7 +106,7 @@ These flags are used by <a href="https://msdn.microsoft.com/d6f51f57-02e1-485d-8
 
 
 
-<a href="https://msdn.microsoft.com/684508d8-2289-4124-9910-93c6bf0a1f99">Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd607341(v=VS.85).aspx">Enumerations</a>
  
 
  

@@ -95,11 +95,11 @@ Player users sometimes experiment with network settings when they are having con
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/03afdef3-2aa8-4826-8dce-6d501fa42bcd">IWMReaderNetworkConfig::SetEnableUDP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743544(v=VS.85).aspx">IWMReaderNetworkConfig::SetEnableUDP</a>
  
 
  

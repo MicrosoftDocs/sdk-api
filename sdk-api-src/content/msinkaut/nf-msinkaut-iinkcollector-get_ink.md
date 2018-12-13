@@ -86,7 +86,7 @@ An <a href="https://msdn.microsoft.com/189f430e-9d00-4e29-bb8c-8ac195896793">Ink
 
 
 
-<a href="https://msdn.microsoft.com/4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB">IInkCollector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
 
 
 

@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>IWMWriter</b> interface is used to write ASF files. It includes methods for allocating buffers, setting and retrieving input properties, and setting profiles and output file names. The writer object exposes this interface. To create the writer object, call the <a href="https://msdn.microsoft.com/26d42213-40a1-4e2c-805b-c0803ee015b4">WMCreateWriter</a> function.
+The <b>IWMWriter</b> interface is used to write ASF files. It includes methods for allocating buffers, setting and retrieving input properties, and setting profiles and output file names. The writer object exposes this interface. To create the writer object, call the <a href="https://msdn.microsoft.com/en-us/library/Dd757789(v=VS.85).aspx">WMCreateWriter</a> function.
 
 
 
@@ -73,7 +73,7 @@ The <b>IWMWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b23b2364-fb36-479f-bf92-76a5bb4722de">AllocateSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757473(v=VS.85).aspx">AllocateSample</a>
 </td>
 <td align="left" width="63%">
 Allocates a buffer that the application can use to supply samples to the writer.
@@ -82,7 +82,7 @@ Allocates a buffer that the application can use to supply samples to the writer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">BeginWriting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">BeginWriting</a>
 </td>
 <td align="left" width="63%">
 Initializes the writing process.
@@ -91,7 +91,7 @@ Initializes the writing process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/020e2c9d-9581-48c9-bc7b-a0e9e5a60c63">EndWriting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757475(v=VS.85).aspx">EndWriting</a>
 </td>
 <td align="left" width="63%">
 Terminates the writing process.
@@ -100,7 +100,7 @@ Terminates the writing process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fa0c482-f1f5-4d3c-8268-731914caefa3">Flush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757476(v=VS.85).aspx">Flush</a>
 </td>
 <td align="left" width="63%">
 Functionality removed. Always returns S_OK.
@@ -109,7 +109,7 @@ Functionality removed. Always returns S_OK.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0cb3cd79-0640-4a3b-8e8b-d81df2ff749f">GetInputCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757477(v=VS.85).aspx">GetInputCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of uncompressed input streams.
@@ -118,7 +118,7 @@ Retrieves the number of uncompressed input streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c058de81-a29a-4bcd-a819-3cdef11cae9f">GetInputFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757478(v=VS.85).aspx">GetInputFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves possible media formats for the specified input.
@@ -127,7 +127,7 @@ Retrieves possible media formats for the specified input.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3afe9e8-e045-4329-b3e5-6026147322ad">GetInputFormatCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757480(v=VS.85).aspx">GetInputFormatCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of format types supported by this input on the writer.
@@ -136,7 +136,7 @@ Retrieves the number of format types supported by this input on the writer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2889a1a7-3111-4c13-b15a-659f519c22f6">GetInputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757482(v=VS.85).aspx">GetInputProps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media properties of a specified input stream.
@@ -145,7 +145,7 @@ Retrieves the media properties of a specified input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15084a4d-06e8-4f74-9697-ced794d2cdae">SetInputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757484(v=VS.85).aspx">SetInputProps</a>
 </td>
 <td align="left" width="63%">
 Specifies the media properties of a specified input stream.
@@ -154,7 +154,7 @@ Specifies the media properties of a specified input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/352cf497-f7d6-41e8-bdbb-c59215b617a3">SetOutputFilename</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757506(v=VS.85).aspx">SetOutputFilename</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the file to be written.
@@ -163,7 +163,7 @@ Specifies the name of the file to be written.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a931896-c102-4b3b-a5a3-b3ef85b276b9">SetProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757507(v=VS.85).aspx">SetProfile</a>
 </td>
 <td align="left" width="63%">
 Specifies the profile to use for the current writing task, using a pointer to an <b>IWMProfile</b> object.
@@ -172,7 +172,7 @@ Specifies the profile to use for the current writing task, using a pointer to an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/743212fd-a1e7-47c5-a220-c203cc2788e6">SetProfileByID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757508(v=VS.85).aspx">SetProfileByID</a>
 </td>
 <td align="left" width="63%">
 Specifies the profile to use for the current writing task, identifying the profile by its globally unique identifier.
@@ -181,7 +181,7 @@ Specifies the profile to use for the current writing task, identifying the profi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba1cf121-1d01-4e90-9ab0-95af0b6e3850">WriteSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757509(v=VS.85).aspx">WriteSample</a>
 </td>
 <td align="left" width="63%">
 Passes in uncompressed data to be compressed and appended to the Windows Media file that is being created.
@@ -199,19 +199,19 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/af47b130-353e-411d-8432-09ecd20a70d2">IWMWriterFileSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798742(v=VS.85).aspx">IWMWriterFileSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink Interface</a>
 
 
 

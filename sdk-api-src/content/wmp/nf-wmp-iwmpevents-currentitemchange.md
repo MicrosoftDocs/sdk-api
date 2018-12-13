@@ -80,11 +80,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/190cec53-5cd9-4bd0-b8d9-23c5389fe231">IWMPControls::put_currentItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563208(v=VS.85).aspx">IWMPControls::put_currentItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
  
 
  

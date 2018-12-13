@@ -123,7 +123,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/485ee90a-33a5-480c-8274-a66263a3edf1">XMVectorSqrt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421356(v=VS.85).aspx">XMVectorSqrt</a>
  
 
  

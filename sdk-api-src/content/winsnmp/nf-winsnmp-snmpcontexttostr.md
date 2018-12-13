@@ -54,7 +54,7 @@ req.redist:
 
 The WinSNMP 
 <b>SnmpContextToStr</b> function returns a string that identifies an SNMP context, which is a set of managed object resources. The function returns the string in an 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Handle to the SNMP context of interest.
 ### -param string [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure to receive the string that identifies the context of interest. The string can have a null-terminating byte.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure to receive the string that identifies the context of interest. The string can have a null-terminating byte.
 
 
 ## -returns
@@ -148,7 +148,7 @@ The current setting of the entity and context translation mode determines the ty
 <a href="https://msdn.microsoft.com/2550f235-1351-440a-8b4e-f0d30b058229">Setting the Entity and Context Translation Mode</a>.
 
 The WinSNMP application must provide the address of a valid 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure for the <i>string</i> parameter. If the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure for the <i>string</i> parameter. If the 
 <b>SnmpContextToStr</b> function completes successfully, the Microsoft WinSNMP implementation initializes the <b>len</b> and <b>ptr</b> members of the structure. The WinSNMP application must call the 
 <a href="https://msdn.microsoft.com/535f728d-6964-47b6-9913-7cd38356053d">SnmpFreeDescriptor</a> function to enable the implementation to free the resources for these members.
 
@@ -178,7 +178,7 @@ When the entity and context translation mode is SNMPAPI_UNTRANSLATED_V1 or SNMPA
 
 
 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a>
  
 
  

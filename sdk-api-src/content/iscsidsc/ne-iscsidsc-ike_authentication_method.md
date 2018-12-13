@@ -81,7 +81,7 @@ Used in conjunction with the <a href="https://msdn.microsoft.com/db020346-45cf-4
 
 
 
-<a href="https://msdn.microsoft.com/d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0">IKE_AUTHENTICATION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870788(v=VS.85).aspx">IKE_AUTHENTICATION_INFORMATION</a>
  
 
  

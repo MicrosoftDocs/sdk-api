@@ -83,19 +83,19 @@ Contains a value that indicates the version of the <b>DS_DOMAIN_CONTROLLER_INFO<
 
 #### 1
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a> structure format.
+The function provides the domain data in the <a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a> structure format.
 
 
 
 #### 2
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a> structure format.
+The function provides the domain data in the <a href="https://msdn.microsoft.com/en-us/library/ms676058(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_2</a> structure format.
 
 
 
 #### 3
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/510f458e-4c08-41c7-b290-1372ac9c8beb">DS_DOMAIN_CONTROLLER_INFO_3</a> structure format.
+The function provides the domain data in the <a href="https://msdn.microsoft.com/en-us/library/Ee828589(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_3</a> structure format.
 
 
 ### -param pcOut [out]
@@ -125,15 +125,15 @@ If the function fails, the return value can be one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676058(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/510f458e-4c08-41c7-b290-1372ac9c8beb">DS_DOMAIN_CONTROLLER_INFO_3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee828589(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_3</a>
 
 
 

@@ -165,7 +165,7 @@ If the publishing point specified in <i>pwsURL</i> does not exist, the server cr
 
 
 
-<a href="https://msdn.microsoft.com/47bee154-0d29-4f4c-ac38-af8747088024">IWMWriterPushSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798790(v=VS.85).aspx">IWMWriterPushSink Interface</a>
  
 
  

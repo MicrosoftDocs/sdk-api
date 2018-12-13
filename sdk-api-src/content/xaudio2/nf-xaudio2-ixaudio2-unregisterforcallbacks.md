@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Removes an <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> pointer from the <a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">XAudio2</a> engine callback list.
+Removes an <a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> pointer from the <a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">XAudio2</a> engine callback list.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Removes an <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5
 ### -param pCallback [in]
 
 
-<a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> pointer to remove from the <a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">XAudio2</a> engine callback list. 
+<a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> pointer to remove from the <a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">XAudio2</a> engine callback list. 
 If the given pointer is present more than once in the list, only the first instance in the list will be removed.
 
 
@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-It is invalid to call <b>UnregisterForCallbacks</b> from within a callback (that is, <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>). 
+It is invalid to call <b>UnregisterForCallbacks</b> from within a callback (that is, <a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>). 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -93,7 +93,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
 
 
 

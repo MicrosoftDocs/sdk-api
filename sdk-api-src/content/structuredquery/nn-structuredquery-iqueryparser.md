@@ -50,7 +50,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Provides methods to parse an input string into an <a href="https://msdn.microsoft.com/a4987e80-7ad9-400d-8c6d-ec3b9a6bf3f1">IQuerySolution</a> object.
+Provides methods to parse an input string into an <a href="https://msdn.microsoft.com/en-us/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object.
         
 
 
@@ -71,7 +71,7 @@ The <b>IQueryParser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85216ad7-6988-43cd-87b3-49a2ca1173b6">GetOption</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231351(v=VS.85).aspx">GetOption</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified simple option value for this query parser.
@@ -80,7 +80,7 @@ Retrieves a specified simple option value for this query parser.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18006c38-e620-40c4-9e94-e11d8636ef35">GetSchemaProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231352(v=VS.85).aspx">GetSchemaProvider</a>
 </td>
 <td align="left" width="63%">
 Retrieves a schema provider for browsing the currently loaded schema.
@@ -90,16 +90,16 @@ Retrieves a schema provider for browsing the currently loaded schema.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ca6ddfa-821c-4d84-abbf-61d25b633180">Parse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231354(v=VS.85).aspx">Parse</a>
 </td>
 <td align="left" width="63%">
-Parses an input string that contains Structured Query keywords and/or contents to produce an <a href="https://msdn.microsoft.com/a4987e80-7ad9-400d-8c6d-ec3b9a6bf3f1">IQuerySolution</a> object.
+Parses an input string that contains Structured Query keywords and/or contents to produce an <a href="https://msdn.microsoft.com/en-us/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f430f685-6700-4d62-84d2-b5269c704569">ParsePropertyValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231355(v=VS.85).aspx">ParsePropertyValue</a>
 </td>
 <td align="left" width="63%">
 Parses a condition for a specified property. 
@@ -108,7 +108,7 @@ Parses a condition for a specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fa0270f-2f13-4469-bc54-7f8562789959">RestatePropertyValueToString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231356(v=VS.85).aspx">RestatePropertyValueToString</a>
 </td>
 <td align="left" width="63%">
 Restates a specified property for a condition as a query string. 
@@ -117,7 +117,7 @@ Restates a specified property for a condition as a query string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d9f57c7-43a0-4898-8495-aa10f0c87bf6">RestateToString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231357(v=VS.85).aspx">RestateToString</a>
 </td>
 <td align="left" width="63%">
 Restates a condition as a structured query string. If the condition was the result of parsing an original query string, the keywords of that query string are used to a great extent. If not, default keywords are used.
@@ -126,7 +126,7 @@ Restates a condition as a structured query string. If the condition was the resu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f1d1bed-65b9-4eec-84a0-d77719bc9540">SetMultiOption</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231358(v=VS.85).aspx">SetMultiOption</a>
 </td>
 <td align="left" width="63%">
 Sets a complex option, such as a specified condition generator, to use when parsing an input string. 
@@ -135,7 +135,7 @@ Sets a complex option, such as a specified condition generator, to use when pars
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a7c2d4d7-7ccf-4daa-b4d5-cf23ed1e88b4">SetOption</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231359(v=VS.85).aspx">SetOption</a>
 </td>
 <td align="left" width="63%">
 Sets a single option, such as a specified wordbreaker, for parsing an input string.
@@ -159,7 +159,7 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="search._search_2x_WDS_AqsReference">Advanced Query Syntax</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965711(v=VS.85).aspx">Advanced Query Syntax</a>
  
 
  

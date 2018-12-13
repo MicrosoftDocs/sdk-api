@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetMinPacketSize</b> method retrieves the minimum <a href="wmformat_glossary.htm">packet</a> size for files created with the profile. If you use this method from an interface belonging to a reader or synchronous reader object, the retrieved minimum packet size will always be zero.
+The <b>GetMinPacketSize</b> method retrieves the minimum <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> size for files created with the profile. If you use this method from an interface belonging to a reader or synchronous reader object, the retrieved minimum packet size will always be zero.
 
 
 
@@ -113,11 +113,11 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/4af4c088-9fc3-46a9-8451-518b11bc94e3">IWMPacketSize2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757256(v=VS.85).aspx">IWMPacketSize2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d58da65-710c-46ea-8fb9-9d161df06483">IWMPacketSize2::SetMinPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757258(v=VS.85).aspx">IWMPacketSize2::SetMinPacketSize</a>
  
 
  

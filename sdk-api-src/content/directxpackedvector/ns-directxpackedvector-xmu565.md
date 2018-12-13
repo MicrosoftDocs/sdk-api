@@ -54,7 +54,7 @@ A 3D vector with x- and z- components represented as 5-bit unsigned integer valu
     and the y- component as a 6-bit unsigned integer value.
 
 For a list of more functionality such as constructors and operators that are available
-	using <code>XMU565</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/c661e018-f8c7-40bf-ab5a-211a3b9300a3">XMU565 Extensions</a>.
+	using <code>XMU565</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415441(v=VS.85).aspx">XMU565 Extensions</a>.
 
 
 ## -struct-fields
@@ -126,7 +126,7 @@ You can use <a href="https://msdn.microsoft.com/968c828d-331a-40de-b3a4-0ee07f71
       of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a>.
 	
 
-You can use <a href="https://msdn.microsoft.com/0398e438-e018-4d1e-b710-33690260baad">XMStoreU565</a> to store instances of <code>XMVECTOR</code> 
+You can use <a href="https://msdn.microsoft.com/en-us/library/Ee420375(v=VS.85).aspx">XMStoreU565</a> to store instances of <code>XMVECTOR</code> 
     into an instance of <code>XMU565</code>.
 	
 
@@ -147,7 +147,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/c661e018-f8c7-40bf-ab5a-211a3b9300a3">XMU565 Extensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415441(v=VS.85).aspx">XMU565 Extensions</a>
  
 
  

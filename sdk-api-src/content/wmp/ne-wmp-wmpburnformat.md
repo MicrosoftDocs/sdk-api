@@ -89,11 +89,11 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/564a3978-555e-4cbc-90fe-b29f61349260">IWMPCdromBurn::get_burnFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563084(v=VS.85).aspx">IWMPCdromBurn::get_burnFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/1352e2f6-cad8-4d86-b973-b7d4d8f0c448">IWMPCdromBurn::put_burnFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563090(v=VS.85).aspx">IWMPCdromBurn::put_burnFormat</a>
  
 
  

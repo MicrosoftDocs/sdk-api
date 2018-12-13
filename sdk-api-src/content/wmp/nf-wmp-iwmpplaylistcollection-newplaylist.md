@@ -119,27 +119,27 @@ Before calling this method, you must have full access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6db41d8-a4d5-4cab-9612-0562f3e92c25">IWMPPlaylist::appendItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563561(v=VS.85).aspx">IWMPPlaylist::appendItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/2db2d28d-4cbf-423c-824f-e1e212c46f7a">IWMPPlaylist::insertItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563572(v=VS.85).aspx">IWMPPlaylist::insertItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ce0058c-8839-43da-aad8-4bc423ff3cde">IWMPPlaylistArray::get_count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563549(v=VS.85).aspx">IWMPPlaylistArray::get_count</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6861651-f0c3-4b99-8c81-a8a8f8b47692">IWMPPlaylistCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563552(v=VS.85).aspx">IWMPPlaylistCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d837c57-8612-47ef-a0fa-a3ffa77ac704">IWMPPlaylistCollection::getByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563554(v=VS.85).aspx">IWMPPlaylistCollection::getByName</a>
  
 
  

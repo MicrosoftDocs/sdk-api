@@ -74,7 +74,7 @@ The <b>IVMRImagePresenter9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c642958-88df-48b2-8eb1-0d032af71f71">PresentImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377392(v=VS.85).aspx">PresentImage</a>
 </td>
 <td align="left" width="63%">
 Called at precisely the moment this video frame should be presented.
@@ -83,7 +83,7 @@ Called at precisely the moment this video frame should be presented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/654ac7eb-d6ea-4b9a-8dfb-7ba7bc7e8429">StartPresenting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377393(v=VS.85).aspx">StartPresenting</a>
 </td>
 <td align="left" width="63%">
 Called just before the video starts playing.
@@ -92,7 +92,7 @@ Called just before the video starts playing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47f34048-3b07-464e-a1f2-f0b49fe76659">StopPresenting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377394(v=VS.85).aspx">StopPresenting</a>
 </td>
 <td align="left" width="63%">
 Called just after the video stops playing.

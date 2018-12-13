@@ -73,7 +73,7 @@ The <b>IBDA_VoidTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc89fd31-56c2-4de0-b2aa-239173e1997d">Start</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693462(v=VS.85).aspx">Start</a>
 </td>
 <td align="left" width="63%">
 Restarts data flow through a control node.
@@ -82,7 +82,7 @@ Restarts data flow through a control node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff061aef-1058-4d1d-802e-89e7f4ebfe3c">Stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693463(v=VS.85).aspx">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops data flow through a control node.

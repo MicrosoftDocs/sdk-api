@@ -64,7 +64,7 @@ The <code>SetAspectRatioMode</code> method sets the current aspect ratio display
 
 ### -param AspectRatioMode [in]
 
-A <a href="https://msdn.microsoft.com/745e7aad-a598-4be6-b28b-bb5969ef0c77">VMR9AspectRatioMode</a> value that specifies the aspect ratio mode.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd407361(v=VS.85).aspx">VMR9AspectRatioMode</a> value that specifies the aspect ratio mode.
 
 
 ## -returns
@@ -120,11 +120,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/c18ab567-5e0d-400a-8dc1-e9ad83650b7c">GetAspectRatioMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390539(v=VS.85).aspx">GetAspectRatioMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/9db99c31-65b5-4ff1-9c0d-22140a3687e8">IVMRWindowlessControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9 Interface</a>
 
 
 

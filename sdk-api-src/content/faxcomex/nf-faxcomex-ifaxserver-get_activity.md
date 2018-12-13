@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxServer::get_Activity</b> property creates a <a href="https://msdn.microsoft.com/fa967b8f-ad6d-4fa6-a6d3-d7bbe901b51d">IFaxActivity</a> interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
+The <b>IFaxServer::get_Activity</b> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms686149(v=VS.85).aspx">IFaxActivity</a> interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
 
 This property is read-only.
 
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf85750a-56ac-41d5-b6c0-5444934afce7">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693455(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

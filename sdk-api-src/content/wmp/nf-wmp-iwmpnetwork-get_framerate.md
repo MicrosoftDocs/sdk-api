@@ -108,11 +108,11 @@ The frame rate value is returned in frames per hundred seconds. For example, a v
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d42133cf-3b81-4d22-b83d-d8a5756d9d9c">IWMPNetwork::get_encodedFrameRate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563474(v=VS.85).aspx">IWMPNetwork::get_encodedFrameRate</a>
  
 
  

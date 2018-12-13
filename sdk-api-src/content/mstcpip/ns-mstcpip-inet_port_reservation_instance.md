@@ -106,7 +106,7 @@ The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is returned by the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/1AA2FF8C-BEAB-4D38-B53A-68E0628748FF">INET_PORT_RESERVATION_TOKEN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Gg699719(v=VS.85).aspx">INET_PORT_RESERVATION_TOKEN</a>
 
 
 

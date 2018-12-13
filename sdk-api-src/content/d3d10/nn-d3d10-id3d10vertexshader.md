@@ -51,16 +51,16 @@ req.redist:
 ## -description
 
 
-A vertex-shader interface manages an executable program (a vertex shader) that controls the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">vertex-shader stage</a>.
+A vertex-shader interface manages an executable program (a vertex shader) that controls the <a href="https://msdn.microsoft.com/library/Bb205146(v=VS.85).aspx">vertex-shader stage</a>.
 
 
 ## -remarks
 
 
 
-The vertex-shader interface has no methods; use HLSL to implement your shader functionality. All shaders in Direct3D 10 are implemented from a common set of features referred to as the <a href="https://msdn.microsoft.com/f3cf2969-83a4-461f-8177-d336536194ba">common shader core</a>.
+The vertex-shader interface has no methods; use HLSL to implement your shader functionality. All shaders in Direct3D 10 are implemented from a common set of features referred to as the <a href="https://msdn.microsoft.com/en-us/library/Bb509580(v=VS.85).aspx">common shader core</a>.
 
-To create a vertex shader interface, call <a href="https://msdn.microsoft.com/a7449878-b0a7-44b6-acbc-172449523098">ID3D10Device::CreateVertexShader</a>. Before using a vertex shader you must bind it to the device by calling <a href="https://msdn.microsoft.com/9ebc673d-d3e0-4678-8c6e-b11fb75e1ed1">ID3D10Device::VSSetShader</a>.
+To create a vertex shader interface, call <a href="https://msdn.microsoft.com/en-us/library/Bb173562(v=VS.85).aspx">ID3D10Device::CreateVertexShader</a>. Before using a vertex shader you must bind it to the device by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173628(v=VS.85).aspx">ID3D10Device::VSSetShader</a>.
 
 This interface is defined in D3D10.h.
 
@@ -72,11 +72,11 @@ This interface is defined in D3D10.h.
 
 
 
-<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8770b45-a05c-4dd8-9fa7-08fb4330d734">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205158(v=VS.85).aspx">Shader Interfaces</a>
  
 
  

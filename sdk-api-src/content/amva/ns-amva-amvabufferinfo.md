@@ -51,7 +51,7 @@ req.redist:
 
 
 The <b>AMVABUFFERINFO</b> structure specifies a buffer for the 
-        <a href="https://msdn.microsoft.com/12794739-9120-4dc1-b95d-6d390d25726b">IAMVideoAccelerator::Execute</a>  method.
+        <a href="https://msdn.microsoft.com/en-us/library/Dd376002(v=VS.85).aspx">IAMVideoAccelerator::Execute</a>  method.
 
 
 ## -struct-fields
@@ -251,7 +251,7 @@ Size of the relevant data in the buffer, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/12794739-9120-4dc1-b95d-6d390d25726b">IAMVideoAccelerator::Execute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376002(v=VS.85).aspx">IAMVideoAccelerator::Execute</a>
  
 
  

@@ -61,7 +61,7 @@ The <b>IExtendPropertySheet2::GetWatermarks</b> method gets the watermark bitmap
 ### -param lpIDataObject [in]
 
 A pointer to the 
-<a href="_ole_idataobject">IDataObject</a> interface on the object that contains context information about the scope or result item.
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the object that contains context information about the scope or result item.
 
 
 ### -param lphWatermark [out]

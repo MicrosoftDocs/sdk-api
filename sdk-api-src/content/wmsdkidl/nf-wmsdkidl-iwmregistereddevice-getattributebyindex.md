@@ -64,7 +64,7 @@ The <b>GetAttributeByIndex</b> method retrieves an attribute associated with the
 
 ### -param dwIndex [in]
 
-Attribute index. Valid indexes range from zero to one less than the number of attributes returned by <a href="https://msdn.microsoft.com/6032cb18-4c4a-4cd7-905e-5cb390bfc37b">GetAttributeCount</a>.
+Attribute index. Valid indexes range from zero to one less than the number of attributes returned by <a href="https://msdn.microsoft.com/en-us/library/Dd743633(v=VS.85).aspx">GetAttributeCount</a>.
 
 
 ### -param pbstrName [out]
@@ -110,7 +110,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
  
 
  

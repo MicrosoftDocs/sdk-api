@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the working areas within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/87ac192d-f481-43ac-b8a5-c754cf33e487">LVM_SETWORKAREAS</a> message explicitly. 
+Sets the working areas within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761223(v=VS.85).aspx">LVM_SETWORKAREAS</a> message explicitly. 
 
 
 ## -parameters
@@ -85,7 +85,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-
 
 
 
-<a href="https://msdn.microsoft.com/6953cdfc-8c59-4c6d-8998-f828cea3a315">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
  
 
  

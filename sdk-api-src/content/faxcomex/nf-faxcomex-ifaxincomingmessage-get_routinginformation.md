@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-For more information about routing information, see the <a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">RoutingInfo</a> member of the <b>FAX_DEV_STATUS</b> structure.
+For more information about routing information, see the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">RoutingInfo</a> member of the <b>FAX_DEV_STATUS</b> structure.
 
 
 
@@ -74,15 +74,15 @@ For more information about routing information, see the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/29fa30c9-d4f2-4ed5-95fc-873f2263c7bb">IFaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e66b30d-e74f-4c73-b005-acd2d0fd8893">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693406(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

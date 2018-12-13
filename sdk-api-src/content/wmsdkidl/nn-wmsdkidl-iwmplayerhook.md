@@ -73,7 +73,7 @@ The <b>IWMPlayerHook</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88a78360-3e67-4425-8c65-3f746c6c807d">PreDecode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757262(v=VS.85).aspx">PreDecode</a>
 </td>
 <td align="left" width="63%">
 Callback method that performs application-specific processing when called by the reader.
@@ -87,7 +87,7 @@ Callback method that performs application-specific processing when called by the
 
 
 
-To assign an implementation of the <b>IWMPlayerHook</b> interface to an output in the reader object, call <a href="https://msdn.microsoft.com/499c6c31-8cdf-4b99-964a-1fd51c14c5bd">IWMReaderAdvanced5::SetPlayerHook</a>.
+To assign an implementation of the <b>IWMPlayerHook</b> interface to an output in the reader object, call <a href="https://msdn.microsoft.com/en-us/library/Dd757461(v=VS.85).aspx">IWMReaderAdvanced5::SetPlayerHook</a>.
 
 
 

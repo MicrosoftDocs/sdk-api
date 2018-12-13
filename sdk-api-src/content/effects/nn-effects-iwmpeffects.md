@@ -69,7 +69,7 @@ The <b>IWMPEffects</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dadde782-577d-4dcb-b8ae-2f6ddca77a40">DisplayPropertyPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563261(v=VS.85).aspx">DisplayPropertyPage</a>
 </td>
 <td align="left" width="63%">
 Displays the property page of a visualization, if it exists.
@@ -78,7 +78,7 @@ Displays the property page of a visualization, if it exists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2efb0cd-417f-4b96-a4d7-c02c41a6244d">GetCapabilities</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563262(v=VS.85).aspx">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of the visualization.
@@ -87,7 +87,7 @@ Gets the capabilities of the visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09ad671b-612d-4e00-8fa9-d9d76954a010">GetCurrentPreset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563263(v=VS.85).aspx">GetCurrentPreset</a>
 </td>
 <td align="left" width="63%">
 Gets the current preset by number.
@@ -96,7 +96,7 @@ Gets the current preset by number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6eee859b-8f39-4951-814a-41913df152db">GetPresetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563264(v=VS.85).aspx">GetPresetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the preset count.
@@ -105,7 +105,7 @@ Gets the preset count.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73e80221-2170-4724-b902-5c30796cb6a4">GetPresetTitle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563265(v=VS.85).aspx">GetPresetTitle</a>
 </td>
 <td align="left" width="63%">
 Gets the title of the current preset.
@@ -114,7 +114,7 @@ Gets the title of the current preset.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/051a0d25-0773-4b9d-879e-5cc60633e406">GetTitle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563266(v=VS.85).aspx">GetTitle</a>
 </td>
 <td align="left" width="63%">
 Gets the display title of the visualization.
@@ -123,7 +123,7 @@ Gets the display title of the visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/daf69206-5756-4504-9738-e16b9af39790">GoFullscreen</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563267(v=VS.85).aspx">GoFullscreen</a>
 </td>
 <td align="left" width="63%">
 Instructs the visualization to switch to full-screen mode.
@@ -132,7 +132,7 @@ Instructs the visualization to switch to full-screen mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1267cb11-1b45-4f38-ad3c-02213405ed66">MediaInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563268(v=VS.85).aspx">MediaInfo</a>
 </td>
 <td align="left" width="63%">
 Sends channel and sample-rate data to the visualization.
@@ -141,7 +141,7 @@ Sends channel and sample-rate data to the visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9040c309-5e45-41d2-9a02-b17c6d764f59">Render</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563269(v=VS.85).aspx">Render</a>
 </td>
 <td align="left" width="63%">
 Renders the visualization
@@ -150,7 +150,7 @@ Renders the visualization
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08b170fd-b40a-4beb-8c18-0a011b9486af">RenderFullScreen</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563270(v=VS.85).aspx">RenderFullScreen</a>
 </td>
 <td align="left" width="63%">
 Renders the visualization in full-screen mode.
@@ -159,7 +159,7 @@ Renders the visualization in full-screen mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/090e5f9b-e7f1-48b6-9018-3d0797493d42">SetCurrentPreset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563271(v=VS.85).aspx">SetCurrentPreset</a>
 </td>
 <td align="left" width="63%">
 Sets the current preset by number.
@@ -178,7 +178,7 @@ Sets the current preset by number.
 
 
 
-<a href="https://msdn.microsoft.com/44e044c1-97fd-43cb-9530-4556e485f5ae">IWMPEffects2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563254(v=VS.85).aspx">IWMPEffects2 Interface</a>
  
 
  

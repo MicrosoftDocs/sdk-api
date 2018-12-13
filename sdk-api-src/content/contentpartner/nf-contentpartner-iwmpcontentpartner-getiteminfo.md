@@ -148,7 +148,7 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the webp
 
 g_szItemInfo_ErrorDescription
 
-The <i>pContext</i> parameter supplies a <b>VT_ERROR</b> that is an <b>HRESULT</b> that the plug-in previously supplied to the Player. For example, the plug-in supplies an <b>HRESULT</b> when it calls <a href="https://msdn.microsoft.com/4e9ab15f-3418-472d-afc4-0f9fae852da2">IWMPContentPartnerCallback::BuyComplete</a>.
+The <i>pContext</i> parameter supplies a <b>VT_ERROR</b> that is an <b>HRESULT</b> that the plug-in previously supplied to the Player. For example, the plug-in supplies an <b>HRESULT</b> when it calls <a href="https://msdn.microsoft.com/en-us/library/Dd563144(v=VS.85).aspx">IWMPContentPartnerCallback::BuyComplete</a>.
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the error description created by the online store and associated with the <b>HRESULT</b>. Windows Media Player displays the error message but does not interpret it.
 
@@ -208,7 +208,7 @@ The <i>pContext</i> parameter supplies a <b>VT_UI4</b> that is the index of a we
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the webpage.
 
-Windows Media Player previously obtained the index when the online store's plug-in called <a href="https://msdn.microsoft.com/e8402662-7e14-4be7-bc2d-45338bf2a226">IWMPContentPartnerCallback::Notify</a>, passing wmpcnLoginStateChange in the <i>type</i> parameter. The indexes of log-in failure webpages are not interpreted by Windows Media Player; they have meaning only to the online store.
+Windows Media Player previously obtained the index when the online store's plug-in called <a href="https://msdn.microsoft.com/en-us/library/Dd563150(v=VS.85).aspx">IWMPContentPartnerCallback::Notify</a>, passing wmpcnLoginStateChange in the <i>type</i> parameter. The indexes of log-in failure webpages are not interpreted by Windows Media Player; they have meaning only to the online store.
 
 g_szItemInfo_PopupURL
 
@@ -242,7 +242,7 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the art 
 
 
 
-<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
  
 
  

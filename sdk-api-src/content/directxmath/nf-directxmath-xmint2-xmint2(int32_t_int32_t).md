@@ -53,7 +53,7 @@ req.redist:
 Initializes a new instance of <code>XMINT2</code> from two <code>int32_t</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a> from two
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx">XMINT2</a> from two
 	<code>int32_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -86,11 +86,11 @@ Value of the y-coordinate of the vector, the <b>y</b> member of the new
 
 
 
-<a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx">XMINT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f5f83a3-4a1a-44e5-835c-0eede90a32b1">XMINT2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449504(v=VS.85).aspx">XMINT2 Constructors</a>
  
 
  

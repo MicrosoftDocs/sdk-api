@@ -60,7 +60,7 @@ Opens the root of the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a
 
 ### -param hCluster [in]
 
-Handle to a <a href="c_gly.htm">cluster</a>.
+Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
 
 
 ### -param lpszTypeName [in]

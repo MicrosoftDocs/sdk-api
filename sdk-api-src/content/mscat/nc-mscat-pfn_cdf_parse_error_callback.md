@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>PFN_CDF_PARSE_ERROR_CALLBACK</b> function is called for <a href="cryptography_functions.htm">Catalog Definition Function</a> errors while parsing a catalog definition file (CDF).
+The <b>PFN_CDF_PARSE_ERROR_CALLBACK</b> function is called for <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Catalog Definition Function</a> errors while parsing a catalog definition file (CDF).
 
 
 ## -parameters
@@ -162,7 +162,7 @@ The <i>dwLocalError</i> parameter can have the following possible values.
 
 
 
-<a href="cryptography_functions.htm">Catalog Definition Function</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Catalog Definition Function</a>
  
 
  

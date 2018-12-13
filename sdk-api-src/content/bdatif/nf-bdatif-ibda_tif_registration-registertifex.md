@@ -63,7 +63,7 @@ The <b>RegisterTIFEx</b> method registers a Transport Information Filter (TIF) w
 
 ### -param pTIFInputPin [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface of the input pin on the TIF.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd390397(v=VS.85).aspx">IPin</a> interface of the input pin on the TIF.
 
 
 ### -param ppvRegistrationContext [in, out]
@@ -73,7 +73,7 @@ Receives a token identifying the connection. Pass this token in the <b>Unregiste
 
 ### -param ppMpeg2DataControl [in, out]
 
-Receives a pointer to an <b>IUnknown</b> interface, which the TIF queries for the <a href="https://msdn.microsoft.com/45c09a02-7da8-460a-9a64-f012c2181b94">IMPEG2PIDMap</a> interface. It uses the <b>IMPEG2PIDMap</b> to map and unmap PID values.
+Receives a pointer to an <b>IUnknown</b> interface, which the TIF queries for the <a href="https://msdn.microsoft.com/en-us/library/Dd407132(v=VS.85).aspx">IMPEG2PIDMap</a> interface. It uses the <b>IMPEG2PIDMap</b> to map and unmap PID values.
 
 
 ## -returns

@@ -53,8 +53,8 @@ req.product: Internet Explorer 4.0
 
 Allocates memory for buffers that are passed to 
 		Windows Address Book (WAB) methods.  The buffer must be freed with 
-		<a href="https://msdn.microsoft.com/ded42aaf-8ed0-4e21-9905-37629d2919a1">IWABObject::FreeBuffer</a>, and may be reallocated with 
-		<a href="https://msdn.microsoft.com/f36171ce-7059-4a07-ad74-e3c092128821">IWABObject::AllocateMore</a>.
+		<a href="https://msdn.microsoft.com/en-us/library/ms629463(v=VS.85).aspx">IWABObject::FreeBuffer</a>, and may be reallocated with 
+		<a href="https://msdn.microsoft.com/en-us/library/ms629460(v=VS.85).aspx">IWABObject::AllocateMore</a>.
 
 
 ## -parameters

@@ -77,7 +77,7 @@ Contains the number of elements in the <b>rItems</b> array.
 
 ### -field rItems
 
-Contains an array of <a href="https://msdn.microsoft.com/50a4488f-e2d4-4671-b0e7-fb8cb4096c5c">DS_NAME_RESULT_ITEM</a> structure pointers. Each element of this array represents a single converted name.
+Contains an array of <a href="https://msdn.microsoft.com/en-us/library/ms676247(v=VS.85).aspx">DS_NAME_RESULT_ITEM</a> structure pointers. Each element of this array represents a single converted name.
 
 
 ## -see-also
@@ -85,7 +85,7 @@ Contains an array of <a href="https://msdn.microsoft.com/50a4488f-e2d4-4671-b0e7
 
 
 
-<a href="https://msdn.microsoft.com/50a4488f-e2d4-4671-b0e7-fb8cb4096c5c">DS_NAME_RESULT_ITEM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676247(v=VS.85).aspx">DS_NAME_RESULT_ITEM</a>
 
 
 

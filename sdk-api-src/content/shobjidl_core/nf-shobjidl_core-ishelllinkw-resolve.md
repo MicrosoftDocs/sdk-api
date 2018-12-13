@@ -143,7 +143,7 @@ Action flags. This parameter can be a combination of the following values.
 
 #### SLR_MACHINE_IN_LOCAL_TARGET (0x0800)
 
-0x0800. <b>Windows 7 and later</b>. Resolve the computer name in UNC targets that point to a local computer. This value is used with <a href="https://msdn.microsoft.com/3b810223-b2d9-40ca-92bd-4d9f31981355">SLDF_KEEP_LOCAL_IDLIST_FOR_UNC_TARGET</a>.
+0x0800. <b>Windows 7 and later</b>. Resolve the computer name in UNC targets that point to a local computer. This value is used with <a href="https://msdn.microsoft.com/en-us/library/Bb762540(v=VS.85).aspx">SLDF_KEEP_LOCAL_IDLIST_FOR_UNC_TARGET</a>.
 
 
 
@@ -169,7 +169,7 @@ Action flags. This parameter can be a combination of the following values.
 
 ##### - fFlags.SLR_MACHINE_IN_LOCAL_TARGET (0x0800)
 
-0x0800. <b>Windows 7 and later</b>. Resolve the computer name in UNC targets that point to a local computer. This value is used with <a href="https://msdn.microsoft.com/3b810223-b2d9-40ca-92bd-4d9f31981355">SLDF_KEEP_LOCAL_IDLIST_FOR_UNC_TARGET</a>.
+0x0800. <b>Windows 7 and later</b>. Resolve the computer name in UNC targets that point to a local computer. This value is used with <a href="https://msdn.microsoft.com/en-us/library/Bb762540(v=VS.85).aspx">SLDF_KEEP_LOCAL_IDLIST_FOR_UNC_TARGET</a>.
 
 
 ##### - fFlags.SLR_NOLINKINFO (0x0040)

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can use this macro or send the <a href="https://msdn.microsoft.com/d52a7f68-e0c9-4646-a4aa-97129dffeb5d">MCM_SIZERECTTOMIN</a> message explicitly.
+Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761020(v=VS.85).aspx">MCM_SIZERECTTOMIN</a> message explicitly.
 
 
 ## -parameters

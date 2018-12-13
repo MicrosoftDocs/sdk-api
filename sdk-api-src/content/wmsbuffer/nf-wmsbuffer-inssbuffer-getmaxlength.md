@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetMaxLength</b> method retrieves the maximum size to which a buffer can be set. The maximum value is set when the sample is created. If you are using <a href="https://msdn.microsoft.com/b23b2364-fb36-479f-bf92-76a5bb4722de">IWMWriter::AllocateSample</a>, the size you specify becomes the maximum buffer length. The actual amount of the buffer that is used can be retrieved by calling <a href="https://msdn.microsoft.com/a964124d-f25b-442c-a29d-0ee595bdbcce">INSSBuffer::GetLength</a>.
+The <b>GetMaxLength</b> method retrieves the maximum size to which a buffer can be set. The maximum value is set when the sample is created. If you are using <a href="https://msdn.microsoft.com/en-us/library/Dd757473(v=VS.85).aspx">IWMWriter::AllocateSample</a>, the size you specify becomes the maximum buffer length. The actual amount of the buffer that is used can be retrieved by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743261(v=VS.85).aspx">INSSBuffer::GetLength</a>.
 
 
 
@@ -126,11 +126,11 @@ The maximum size of the buffer as returned by this method does not affect or ref
 
 
 
-<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a964124d-f25b-442c-a29d-0ee595bdbcce">INSSBuffer::GetLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743261(v=VS.85).aspx">INSSBuffer::GetLength</a>
  
 
  

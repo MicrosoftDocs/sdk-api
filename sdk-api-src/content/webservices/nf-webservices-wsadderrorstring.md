@@ -130,7 +130,7 @@ This function may return other errors not listed above.
 
 
 This function requires that the string be in the language specified by the LANGID of the 
-                error object.  You can retrieve this LANGID value by calling the  <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a>function with the WS_ERROR_PROPERTY_LANGID value of the <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ID</a> enumeration.
+                error object.  You can retrieve this LANGID value by calling the  <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a>function with the WS_ERROR_PROPERTY_LANGID value of the <a href="https://msdn.microsoft.com/en-us/library/Dd401839(v=VS.85).aspx">WS_ERROR_PROPERTY_ID</a> enumeration.
             
 
 

@@ -118,7 +118,7 @@ The <i>hpage</i> parameter represents an unknown page.
      <a href="https://msdn.microsoft.com/1ab81008-42d8-4863-8836-0508e49ceca9">IWEExtendWizard97::CreateWizard97Pages</a> 
      methods. Before calling 
      <b>AddWizard97Page</b>, extensions must 
-     call the function <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a> 
+     call the function <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> 
      to retrieve a handle to pass in the <i>hpage</i> parameter.
 
 To add non-Wizard97 pages, use 

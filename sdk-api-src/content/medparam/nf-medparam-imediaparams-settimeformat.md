@@ -141,9 +141,9 @@ The meaning of the <i>mpTimeData</i> parameter depends on the value of the <i>gu
 </table>
  
 
-When you call this method, also call the <a href="https://msdn.microsoft.com/574d6573-ea5d-4419-ad65-f5f7d711e720">FlushEnvelope</a> method, to flush any envelopes that were set using the previous time format.
+When you call this method, also call the <a href="https://msdn.microsoft.com/en-us/library/Dd406973(v=VS.85).aspx">FlushEnvelope</a> method, to flush any envelopes that were set using the previous time format.
 
-To determine what time formats an object supports, call the <a href="https://msdn.microsoft.com/04e4c9ea-4570-4fd0-986b-c835c692b73b">IMediaParamInfo::GetSupportedTimeFormat</a> method. To retrieve the current format, call the <a href="https://msdn.microsoft.com/b93b929c-c1a7-4e8e-93cf-118fcd6a3de9">IMediaParamInfo::GetCurrentTimeFormat</a> method.
+To determine what time formats an object supports, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406970(v=VS.85).aspx">IMediaParamInfo::GetSupportedTimeFormat</a> method. To retrieve the current format, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406965(v=VS.85).aspx">IMediaParamInfo::GetCurrentTimeFormat</a> method.
 
 
 
@@ -153,7 +153,7 @@ To determine what time formats an object supports, call the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/68ea8f6a-4b6d-4d79-a986-6032b767147b">IMediaParams Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406971(v=VS.85).aspx">IMediaParams Interface</a>
 
 
 

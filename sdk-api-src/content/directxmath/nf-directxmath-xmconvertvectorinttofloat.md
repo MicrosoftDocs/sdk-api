@@ -98,11 +98,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/0642e272-63a1-4595-a6ca-0ec77af01559">XMConvertVectorFloatToInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437932(v=VS.85).aspx">XMConvertVectorFloatToInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f93353d-a00b-47a5-b7cb-99b1e79a51f1">XMConvertVectorUIntToFloat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437937(v=VS.85).aspx">XMConvertVectorUIntToFloat</a>
  
 
  

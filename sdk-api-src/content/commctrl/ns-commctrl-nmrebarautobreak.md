@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/b7a63027-6cfa-4d5a-9ea6-fdd8b4fb6864">RBN_AUTOBREAK</a> notification code.
+Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774403(v=VS.85).aspx">RBN_AUTOBREAK</a> notification code.
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information used with the <a href="https://msdn.microsoft.com/b7a63027-
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that provides additional information about this notification code.
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that provides additional information about this notification code.
 
 
 ### -field uBand
@@ -84,7 +84,7 @@ Application-defined ID of the band.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
-Application-defined value from the <b>lParam</b> member of the <a href="https://msdn.microsoft.com/67a59093-f387-47e2-b3bf-b12a7707da31">REBARBANDINFO</a> structure that defines the rebar band.
+Application-defined value from the <b>lParam</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774393(v=VS.85).aspx">REBARBANDINFO</a> structure that defines the rebar band.
 
 
 ### -field uMsg

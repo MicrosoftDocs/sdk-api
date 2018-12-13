@@ -70,7 +70,7 @@ The image to be drawn to the device context.
 
 Type: <b>D2D1_BLEND_MODE</b>
 
-The blend mode to be used. See <a href="blend.htm">Blend modes</a> for more info.
+The blend mode to be used. See <a href="https://msdn.microsoft.com/en-us/library/Hh706313(v=VS.85).aspx">Blend modes</a> for more info.
 
 
 ### -param targetOffset [in, optional]
@@ -101,7 +101,7 @@ The interpolation mode that will be used to scale the image if necessary. The de
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

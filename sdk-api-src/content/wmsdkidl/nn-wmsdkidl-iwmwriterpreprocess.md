@@ -75,7 +75,7 @@ The <b>IWMWriterPreprocess</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/593aaa1f-b0eb-43a0-bf73-e90225c07cdf">BeginPreprocessingPass</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798785(v=VS.85).aspx">BeginPreprocessingPass</a>
 </td>
 <td align="left" width="63%">
 Begins preprocessing a stream.
@@ -84,7 +84,7 @@ Begins preprocessing a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04ec12fb-946b-46cc-aa3f-515a86b9a217">EndPreprocessingPass</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798786(v=VS.85).aspx">EndPreprocessingPass</a>
 </td>
 <td align="left" width="63%">
 Ends preprocessing a stream.
@@ -93,7 +93,7 @@ Ends preprocessing a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6acdc536-8b38-4fd4-9705-f4399dfc3faa">GetMaxPreprocessingPasses</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798787(v=VS.85).aspx">GetMaxPreprocessingPasses</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum number of preprocessing passes supported for a specified stream.
@@ -102,7 +102,7 @@ Retrieves the maximum number of preprocessing passes supported for a specified s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95223ace-0c74-48d8-b49a-98b27c7b735f">PreprocessSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798788(v=VS.85).aspx">PreprocessSample</a>
 </td>
 <td align="left" width="63%">
 Retrieves a sample for preprocessing.
@@ -111,7 +111,7 @@ Retrieves a sample for preprocessing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81ff36e1-cce5-4c99-bf3a-ee2f1050c026">SetNumPreprocessingPasses</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798789(v=VS.85).aspx">SetNumPreprocessingPasses</a>
 </td>
 <td align="left" width="63%">
 Sets the number of preprocessing passes to perform.

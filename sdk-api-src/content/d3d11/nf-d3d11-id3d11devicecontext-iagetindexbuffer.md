@@ -68,9 +68,9 @@ A pointer to an index buffer returned by the method (see <a href="https://msdn.m
 
 ### -param Format [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>*</b>
 
-Specifies format of the data in the index buffer (see <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>). These formats provide the size and type of 
+Specifies format of the data in the index buffer (see <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>). These formats provide the size and type of 
           the data in the buffer. The only formats allowed for index buffer data are 16-bit (DXGI_FORMAT_R16_UINT) and 32-bit (DXGI_FORMAT_R32_UINT) 
           integers.
 

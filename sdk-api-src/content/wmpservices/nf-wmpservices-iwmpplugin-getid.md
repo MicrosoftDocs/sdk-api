@@ -89,7 +89,7 @@ For more information on the <b>GUID</b> structure, see the Platform SDK.
 
 
 
-<a href="https://msdn.microsoft.com/e384aa43-72ab-44b7-b6bd-7a29335b5197">IWMPPlugin Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563582(v=VS.85).aspx">IWMPPlugin Interface</a>
  
 
  

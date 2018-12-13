@@ -65,7 +65,7 @@ Specifies the digital zoom multiplier.
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>. If the VideoProcAmp_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>. If the VideoProcAmp_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-For more information about the digital zoom multiplier, see <a href="https://msdn.microsoft.com/0b7ab1a3-193c-4682-af35-ae0cc5f28f45">IVideoProcAmp::get_DigitalMultiplier</a>.
+For more information about the digital zoom multiplier, see <a href="https://msdn.microsoft.com/en-us/library/Dd377254(v=VS.85).aspx">IVideoProcAmp::get_DigitalMultiplier</a>.
 
 
 
@@ -95,7 +95,7 @@ For more information about the digital zoom multiplier, see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

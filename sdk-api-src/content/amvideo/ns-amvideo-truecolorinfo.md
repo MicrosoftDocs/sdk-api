@@ -89,7 +89,7 @@ This structure is not used for some RGB formats. For more information about whic
 
 
 
-<a href="https://msdn.microsoft.com/f08a449c-fed4-400b-a2fc-817bd59ba3fd">VIDEOINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a>
  
 
  

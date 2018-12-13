@@ -53,7 +53,7 @@ req.redist:
 
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
-The <b>IWMPContentContainerList</b> interface represents a list of one or more content containers. Content containers are represented by the <a href="https://msdn.microsoft.com/32a68af3-9270-4ac1-b133-a2770220dfcb">IWMPContentContainer</a> interface.
+The <b>IWMPContentContainerList</b> interface represents a list of one or more content containers. Content containers are represented by the <a href="https://msdn.microsoft.com/en-us/library/Dd563130(v=VS.85).aspx">IWMPContentContainer</a> interface.
 
 
 
@@ -75,7 +75,7 @@ The <b>IWMPContentContainerList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8922aeed-0598-4dc8-86ac-e113697fcea9">GetContainer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563132(v=VS.85).aspx">GetContainer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the content container at the specified index.
@@ -84,7 +84,7 @@ Retrieves the content container at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1ed4873-5d07-4a96-bd99-31ceeb423f98">GetContainerCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563133(v=VS.85).aspx">GetContainerCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of content containers in the container list.
@@ -93,7 +93,7 @@ Retrieves the count of content containers in the container list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8712d134-9dd3-4964-ae53-f63c8b69818d">GetTransactionType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563134(v=VS.85).aspx">GetTransactionType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the current transaction.

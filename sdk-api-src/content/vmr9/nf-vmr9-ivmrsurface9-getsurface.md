@@ -133,7 +133,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/b24dae7d-5e88-4973-8507-8bd13cdccbde">IVMRSurface9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390494(v=VS.85).aspx">IVMRSurface9 Interface</a>
 
 
 

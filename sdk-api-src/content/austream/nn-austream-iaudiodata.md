@@ -64,7 +64,7 @@ Applications use this interface to set and retrieve information on underlying da
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioData</b> interface inherits from <a href="https://msdn.microsoft.com/0e809ae7-381c-4ada-8940-5d42bf5c03da">IMemoryData</a>. <b>IAudioData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioData</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd407080(v=VS.85).aspx">IMemoryData</a>. <b>IAudioData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IAudioData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b06592d-2b9d-4f5a-bf74-331b07a13f0f">GetFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389514(v=VS.85).aspx">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current data format.
@@ -88,7 +88,7 @@ Retrieves the current data format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/792112a6-b10a-432f-854a-07bd74173e84">SetFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389515(v=VS.85).aspx">SetFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the current data format.
@@ -103,7 +103,7 @@ Sets the current data format.
 
 
 
-<a href="https://msdn.microsoft.com/0e809ae7-381c-4ada-8940-5d42bf5c03da">IMemoryData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407080(v=VS.85).aspx">IMemoryData</a>
  
 
  

@@ -75,7 +75,7 @@ This method returns the color space.
 
 
 
-If this object was created using <a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method  returns the color space related to the color interpolation gamma.
+If this object was created using <a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method  returns the color space related to the color interpolation gamma.
  
 
 
@@ -98,7 +98,7 @@ If this object was created using <a href="https://msdn.microsoft.com/674ffba5-18
 
 
 
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

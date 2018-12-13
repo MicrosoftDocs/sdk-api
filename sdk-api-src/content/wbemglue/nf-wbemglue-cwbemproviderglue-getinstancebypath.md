@@ -53,7 +53,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa389781(v=VS.85).aspx">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -61,7 +61,7 @@ req.redist:
 
 The <b>GetInstanceByPath</b> method 
     retrieves the instance identified by a particular object path by calling the provider 
-    <a href="https://msdn.microsoft.com/c8e2633a-cbea-422c-9598-1b1b1104bbc2">GetObject</a> method.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa392779(v=VS.85).aspx">GetObject</a> method.
 
 
 ## -parameters
@@ -84,8 +84,8 @@ A pointer to a pointer to a <a href="https://msdn.microsoft.com/aed29340-eb64-43
 
 A pointer to the current context. A context must be provided to prevent deadlocks. Either use the context 
       passed into the provider by 
-      <a href="https://msdn.microsoft.com/9566acb0-d7bf-4d3d-b7da-5cfbce150a2c">Provider::EnumerateInstances</a> or 
-      <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">Provider::ExecQuery</a>, or else obtain it from the 
+      <a href="https://msdn.microsoft.com/en-us/library/Aa392767(v=VS.85).aspx">Provider::EnumerateInstances</a> or 
+      <a href="https://msdn.microsoft.com/en-us/library/Aa392770(v=VS.85).aspx">Provider::ExecQuery</a>, or else obtain it from the 
       instance using <a href="https://msdn.microsoft.com/a2033754-4fd0-405f-9ad9-737eb8931016">CInstance::GetMethodContext</a>. 
       This parameter must not be <b>NULL</b>.
 
@@ -116,8 +116,8 @@ In the current version of the provider framework, <i>pszInstancePath</i> must re
 
 Although <i>pMethodContext</i> has a default value of <b>NULL</b>, a 
     context must be provided to prevent deadlocks. Either use the context passed into the provider by 
-    <a href="https://msdn.microsoft.com/9566acb0-d7bf-4d3d-b7da-5cfbce150a2c">Provider::EnumerateInstances</a> or 
-    <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">Provider::ExecQuery</a>, or else obtain it from the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa392767(v=VS.85).aspx">Provider::EnumerateInstances</a> or 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa392770(v=VS.85).aspx">Provider::ExecQuery</a>, or else obtain it from the 
     instance using 
     <a href="https://msdn.microsoft.com/a2033754-4fd0-405f-9ad9-737eb8931016">CInstance::GetMethodContext</a>.
 

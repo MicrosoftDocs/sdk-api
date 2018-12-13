@@ -69,7 +69,7 @@ Pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736
 
 Type: <b>VARIANT*</b>
 
-When this method returns, contains a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> that specifies the role.
+When this method returns, contains a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> that specifies the role.
 
 
 ## -returns

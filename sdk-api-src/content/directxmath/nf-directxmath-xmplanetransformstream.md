@@ -60,7 +60,7 @@ Transforms a stream of planes by a given matrix.
 
 ### -param pOutputStream [out]
 
-Address of the first <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> in the destination stream. The components of each
+Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a> in the destination stream. The components of each
         <b>XMFLOAT4</b> are the plane coefficients (A, B, C, D) for the plane equation
         <code>Ax+By+Cz+D=0</code>.
 
@@ -72,7 +72,7 @@ Stride, in bytes, between planes in the destination stream.
 
 ### -param pInputStream [in]
 
-Address of the first <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> in the stream to be transformed. The components of each
+Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a> in the stream to be transformed. The components of each
         <b>XMFLOAT4</b> are the plane coefficients (A, B, C, D) for the plane equation
         <code>Ax+By+Cz+D=0</code>.
 
@@ -96,7 +96,7 @@ Transformation matrix.
 
 
 
-Returns the address of the first <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> in the destination stream. The components of
+Returns the address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a> in the destination stream. The components of
        each <b>XMFLOAT4</b> are the plane coefficients (A, B, C, D) for the plane equation <code>Ax+By+Cz+D=0</code>.
 
 
@@ -121,7 +121,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/dfea2bfd-653a-4de4-9aac-2be3fad43f3f">XMPlaneTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420151(v=VS.85).aspx">XMPlaneTransform</a>
  
 
  

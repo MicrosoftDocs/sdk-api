@@ -73,7 +73,7 @@ The <b>IBDA_AutoDemodulate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0d2356d-3954-44e9-af55-664764076f4d">put_AutoDemodulate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693257(v=VS.85).aspx">put_AutoDemodulate</a>
 </td>
 <td align="left" width="63%">
 Instructs the BDA device filter to automatically detect signal characteristics.

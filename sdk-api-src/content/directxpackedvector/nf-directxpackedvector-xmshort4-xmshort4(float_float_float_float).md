@@ -53,7 +53,7 @@ req.redist:
 Initializes a new instance of <code>XMSHORT4</code> from four <code>float</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/49DAD98F-14D6-45B9-9D30-0EC553BB32EF">XMSHORT4</a> from four
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420202(v=VS.85).aspx">XMSHORT4</a> from four
 	<code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -132,11 +132,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/49DAD98F-14D6-45B9-9D30-0EC553BB32EF">XMSHORT4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420202(v=VS.85).aspx">XMSHORT4</a>
 
 
 
-<a href="https://msdn.microsoft.com/be67ae9d-d787-4d9b-b30a-b295fa98ef28">XMSHORT4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415428(v=VS.85).aspx">XMSHORT4 Constructors</a>
  
 
  

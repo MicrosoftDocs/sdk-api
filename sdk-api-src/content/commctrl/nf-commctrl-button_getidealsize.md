@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the <a href="https://msdn.microsoft.com/c1bc2043-bf1a-4129-a005-f04048c4c1db">BCM_GETIDEALSIZE</a> message explicitly. 
+Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775961(v=VS.85).aspx">BCM_GETIDEALSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -80,7 +80,7 @@ This macro is most applicable to PushButtons. When sent to a PushButton, the mac
 
 When sent to a button of any other type, the size of the control's window rectangle is retrieved.
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -90,7 +90,7 @@ When sent to a button of any other type, the size of the control's window rectan
 
 
 
-<a href="https://msdn.microsoft.com/c1bc2043-bf1a-4129-a005-f04048c4c1db">BCM_GETIDEALSIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775961(v=VS.85).aspx">BCM_GETIDEALSIZE</a>
 
 
 

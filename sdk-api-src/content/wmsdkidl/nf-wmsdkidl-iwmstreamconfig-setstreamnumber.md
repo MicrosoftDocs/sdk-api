@@ -82,7 +82,7 @@ This method always returns S_OK.
 
 
 
-The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
+The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
 
 
 
@@ -92,11 +92,11 @@ The new value will not take effect in the profile until you call <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2996c897-eb38-4432-8bf7-549023ab00f5">IWMStreamConfig::GetStreamNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798562(v=VS.85).aspx">IWMStreamConfig::GetStreamNumber</a>
  
 
  

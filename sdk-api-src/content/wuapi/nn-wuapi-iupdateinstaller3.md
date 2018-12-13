@@ -73,7 +73,7 @@ The <b>IUpdateInstaller3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="wua.iupdateinstaller3_get_attemptcloseappsifnecessary">get_AttemptCloseAppsIfNecessary</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829693(v=VS.85).aspx">get_AttemptCloseAppsIfNecessary</a>
 </td>
 <td align="left" width="63%">
 Gets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.
@@ -82,7 +82,7 @@ Gets a value indicating whether the update installer will attempt to close appli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="wua.iupdateinstaller3_put_attemptcloseappsifnecessary">put_AttemptCloseAppsIfNecessary</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829694(v=VS.85).aspx">put_AttemptCloseAppsIfNecessary</a>
 </td>
 <td align="left" width="63%">
 Sets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.

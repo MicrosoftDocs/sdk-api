@@ -89,7 +89,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/8a1b3b1f-1c9c-429f-958e-757b383c7e2a">IWMPlayerTimestampHook Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757263(v=VS.85).aspx">IWMPlayerTimestampHook Interface</a>
  
 
  

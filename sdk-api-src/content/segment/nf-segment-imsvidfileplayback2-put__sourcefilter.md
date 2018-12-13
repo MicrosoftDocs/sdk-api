@@ -101,7 +101,7 @@ The method succeeded.
 
 
 
-If the CLSID is GUID_NULL, the <a href="https://msdn.microsoft.com/da8a1d86-b3a5-4488-8bbc-82dd09aeeaca">MSVidFilePlaybackDevice</a> object uses the default source filter for the file name given in <a href="https://msdn.microsoft.com/1055a053-28d3-470f-aff5-ade71eebc809">IMSVidFilePlayback::put_FileName</a>.
+If the CLSID is GUID_NULL, the <a href="https://msdn.microsoft.com/da8a1d86-b3a5-4488-8bbc-82dd09aeeaca">MSVidFilePlaybackDevice</a> object uses the default source filter for the file name given in <a href="https://msdn.microsoft.com/en-us/library/Dd694558(v=VS.85).aspx">IMSVidFilePlayback::put_FileName</a>.
 
 
 
@@ -111,7 +111,7 @@ If the CLSID is GUID_NULL, the <a href="https://msdn.microsoft.com/da8a1d86-b3a5
 
 
 
-<a href="https://msdn.microsoft.com/5779d5f8-74b1-4318-9fda-1dae3bf4a3f5">IMSVidFilePlayback2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694552(v=VS.85).aspx">IMSVidFilePlayback2 Interface</a>
  
 
  

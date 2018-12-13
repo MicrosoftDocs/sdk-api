@@ -77,7 +77,7 @@ Pointer to the <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88
 
 ### -param M [in]
 
-Pointer to an input <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a> matrix to decompose.
+Pointer to an input <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> matrix to decompose.
 
 
 ## -returns
@@ -93,7 +93,7 @@ If the function succeeds, the return value is true. If the function fails, the r
 
 
 
-<b>XMMatrixDecompose</b> provides the same basic functionality found in both <a href="https://msdn.microsoft.com/73d3c248-1254-444e-9fd8-4f144424ddb7">D3DXMatrixDecompose (Direct3D 9)</a> and <a href="https://msdn.microsoft.com/3694769f-56e7-4983-924e-021c129462a2">D3DXMatrixDecompose (Direct3D 10)</a>.
+<b>XMMatrixDecompose</b> provides the same basic functionality found in both <a href="https://msdn.microsoft.com/en-us/library/Bb205337(v=VS.85).aspx">D3DXMatrixDecompose (Direct3D 9)</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb204933(v=VS.85).aspx">D3DXMatrixDecompose (Direct3D 10)</a>.
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

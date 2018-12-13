@@ -61,23 +61,23 @@ Instantiates a new instance of a <a href="https://msdn.microsoft.com/71ED0CD5-6E
 
 ### -param format
 
-Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
-A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that specifies the texture format.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the texture format.
 
 
 ### -param width
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Texture width (in texels). The  range is from 1 to <b>D3D11_REQ_TEXTURE1D_U_DIMENSION</b> (16384). However, the range is actually constrained by the <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> at which you create the rendering device.
+Texture width (in texels). The  range is from 1 to <b>D3D11_REQ_TEXTURE1D_U_DIMENSION</b> (16384). However, the range is actually constrained by the <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> at which you create the rendering device.
 
 
 ### -param arraySize
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Number of textures in the array. The  range is from 1 to <b>D3D11_REQ_TEXTURE1D_ARRAY_AXIS_DIMENSION</b> (2048). However, the range is actually constrained by the <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> at which you create the rendering device.
+Number of textures in the array. The  range is from 1 to <b>D3D11_REQ_TEXTURE1D_ARRAY_AXIS_DIMENSION</b> (2048). However, the range is actually constrained by the <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> at which you create the rendering device.
 
 
 ### -param mipLevels

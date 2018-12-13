@@ -74,7 +74,7 @@ Zero-based index on the set of acceptable media types.
 
 ### -param pmt [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98">DMO_MEDIA_TYPE</a> structure allocated by the caller, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, the method fills the structure with the media type. You can use the value <b>NULL</b> to test whether the type index is in range, by checking the return code.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx">DMO_MEDIA_TYPE</a> structure allocated by the caller, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, the method fills the structure with the media type. You can use the value <b>NULL</b> to test whether the type index is in range, by checking the return code.
 
 
 ## -returns
@@ -157,9 +157,9 @@ Call this method to enumerate an input stream's preferred media types. The DMO a
 
 The format block in the returned type might be <b>NULL</b>. If so, the format type is GUID_NULL. Check the format type before dereferencing the format block.
 
-If the method succeeds, call <a href="https://msdn.microsoft.com/a1f0949d-a590-4759-87b5-f47307bc3ec0">MoFreeMediaType</a> to free the format block. (This function is also safe to call when the format block is <b>NULL</b>.)
+If the method succeeds, call <a href="https://msdn.microsoft.com/en-us/library/Dd390698(v=VS.85).aspx">MoFreeMediaType</a> to free the format block. (This function is also safe to call when the format block is <b>NULL</b>.)
 
-To set the media type, call the <a href="https://msdn.microsoft.com/6b466fe4-97a0-46f9-9e4b-461ee66095f1">IMediaObject::SetInputType</a> method. Setting the media type on one stream can change another stream's preferred types. In fact, a stream might not have a preferred type until the type is set on another stream. For example, a decoder might not have a preferred output type until the input type is set. However, the DMO is not required to update its preferred types dynamically in this fashion. Thus, the types returned by this method are not guaranteed to be valid; they might fail when used in the <b>SetInputType</b> method.
+To set the media type, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406962(v=VS.85).aspx">IMediaObject::SetInputType</a> method. Setting the media type on one stream can change another stream's preferred types. In fact, a stream might not have a preferred type until the type is set on another stream. For example, a decoder might not have a preferred output type until the input type is set. However, the DMO is not required to update its preferred types dynamically in this fashion. Thus, the types returned by this method are not guaranteed to be valid; they might fail when used in the <b>SetInputType</b> method.
 
 To test whether a particular media type is acceptable, call <b>SetInputType</b> with the DMO_SET_TYPEF_TEST_ONLY flag.
 
@@ -173,7 +173,7 @@ To test whether the <i>dwTypeIndex</i> parameter is in range, set <i>pmt</i> to 
 
 
 
-<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
  
 
  

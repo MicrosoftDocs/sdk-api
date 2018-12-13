@@ -63,7 +63,7 @@ The <b>GraphicsPathIterator::NextPathType</b> method gets the starting index and
 
 Type: <b>BYTE*</b>
 
-Pointer to a <b>BYTE</b> that receives the point type shared by all points in the group. Possible values are PathPointTypeLine and PathPointTypeBezier, which are elements of the <a href="https://msdn.microsoft.com/daad4301-f338-4cce-bb31-ddcf09c0c59c">PathPointType</a> enumeration. 
+Pointer to a <b>BYTE</b> that receives the point type shared by all points in the group. Possible values are PathPointTypeLine and PathPointTypeBezier, which are elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534162(v=VS.85).aspx">PathPointType</a> enumeration. 
 
 
 ### -param startIndex [out]
@@ -98,7 +98,7 @@ This method returns the number of data points in the group. If there are no more
 
 A path has an array of data points that define its lines and curves. All curves in the path are represented as Bézier splines, so a given point in the array has one of two types: PathPointTypeLine or PathPointTypeBezier.
 
-The first time you call the <a href="https://msdn.microsoft.com/e7ad0477-10f6-43e0-9788-47373a40e7cd">GraphicsPathIterator::NextSubpath</a> method of an iterator, it gets the starting and ending indices of the first group of points that all have the same type. The second time, it gets the second group, and so on. Each time you call <b>GraphicsPathIterator::NextSubpath</b>, it returns the number of data points in the obtained group. When there are no groups remaining, it returns 0.
+The first time you call the <a href="https://msdn.microsoft.com/en-us/library/ms535462(v=VS.85).aspx">GraphicsPathIterator::NextSubpath</a> method of an iterator, it gets the starting and ending indices of the first group of points that all have the same type. The second time, it gets the second group, and so on. Each time you call <b>GraphicsPathIterator::NextSubpath</b>, it returns the number of data points in the obtained group. When there are no groups remaining, it returns 0.
 
 
 
@@ -108,31 +108,31 @@ The first time you call the <a href="https://msdn.microsoft.com/e7ad0477-10f6-43
 
 
 
-<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b58521e-3093-45c7-93b4-ca658b67601f">GraphicsPathIterator::CopyData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535452(v=VS.85).aspx">GraphicsPathIterator::CopyData</a>
 
 
 
-<a href="https://msdn.microsoft.com/6eb9e19c-df28-4cf9-a434-c27478ba1fa5">GraphicsPathIterator::NextMarker Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535457(v=VS.85).aspx">GraphicsPathIterator::NextMarker Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/91137029-182d-4dc5-89a3-f3835f55d327">GraphicsPathIterator::NextSubpath Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535458(v=VS.85).aspx">GraphicsPathIterator::NextSubpath Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
  
 
  

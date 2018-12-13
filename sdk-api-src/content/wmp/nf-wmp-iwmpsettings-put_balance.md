@@ -108,11 +108,11 @@ The value zero indicates that the audio plays at equal volume on both left and r
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/457ee1a8-44da-424d-9cc5-0f0421791757">IWMPSettings::get_balance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563657(v=VS.85).aspx">IWMPSettings::get_balance</a>
  
 
  

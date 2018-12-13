@@ -54,11 +54,11 @@ req.redist:
 
 
 
-The <b>SetCredentialsEx</b> method adds a password to the cache. This improved version of <a href="https://msdn.microsoft.com/c0655ed3-8d14-447a-b74f-054498eb75e9">IWMSInternalAdminNetSource::SetCredentials</a> uses the combination of realm, URL, and proxy use to identify the credentials. This is an improvement over using the realm by itself, which can easily be spoofed by malicious code.
+The <b>SetCredentialsEx</b> method adds a password to the cache. This improved version of <a href="https://msdn.microsoft.com/en-us/library/Dd798542(v=VS.85).aspx">IWMSInternalAdminNetSource::SetCredentials</a> uses the combination of realm, URL, and proxy use to identify the credentials. This is an improvement over using the realm by itself, which can easily be spoofed by malicious code.
 
 
 
-This method has been superseded by <a href="https://msdn.microsoft.com/6d4fbd40-46f8-4f9e-b2bc-43c09acf4d67">IWMSInternalAdminNetSource3::SetCredentialsEx2</a>.
+This method has been superseded by <a href="https://msdn.microsoft.com/en-us/library/Dd798534(v=VS.85).aspx">IWMSInternalAdminNetSource3::SetCredentialsEx2</a>.
 
 
 ## -parameters
@@ -117,11 +117,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/6d334725-11d5-4249-a83d-fc8c1c35a56f">IWMSInternalAdminNetSource2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743718(v=VS.85).aspx">IWMSInternalAdminNetSource2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5840fe0b-34f6-4e39-b55f-7e07b7795e52">IWMSInternalAdminNetSource2::GetCredentialsEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743720(v=VS.85).aspx">IWMSInternalAdminNetSource2::GetCredentialsEx</a>
  
 
  

@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/ee8b25d5-d39b-42ac-9f6a-0825e396241c">IBDA_SignalStatistics Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693432(v=VS.85).aspx">IBDA_SignalStatistics Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/086fd3ad-26d7-4b5b-b73a-a7d4db44d2c2">IBDA_SignalStatistics::put_SampleTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693438(v=VS.85).aspx">IBDA_SignalStatistics::put_SampleTime</a>
  
 
  

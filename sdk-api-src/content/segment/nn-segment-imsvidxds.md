@@ -78,7 +78,7 @@ The <b>IMSVidXDS</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/078bd274-b8dc-425b-b14f-3dacff6744bb">get_ChannelChangeInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694772(v=VS.85).aspx">get_ChannelChangeInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the channel change interface.

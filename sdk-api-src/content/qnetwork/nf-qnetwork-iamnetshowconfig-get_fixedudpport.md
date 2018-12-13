@@ -80,11 +80,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a4b1f3b-c630-4820-a9d1-0e93f295b7f7">IAMNetShowConfig::get_UseFixedUDPPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319706(v=VS.85).aspx">IAMNetShowConfig::get_UseFixedUDPPort</a>
  
 
  

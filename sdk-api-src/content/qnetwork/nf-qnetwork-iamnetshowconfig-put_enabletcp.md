@@ -98,11 +98,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2573573e-97e0-4ed4-b702-8c54ef47c5f4">IAMNetShowConfig::put_EnableUDP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319713(v=VS.85).aspx">IAMNetShowConfig::put_EnableUDP</a>
  
 
  

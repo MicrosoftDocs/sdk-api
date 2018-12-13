@@ -87,7 +87,7 @@ If <b>notification</b> is <b>PRJ_NOTIFICATION_PRE_RENAME </b>or <b>PRJ_NOTIFICAT
 
 ### -param operationParameters [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/596DC712-C6DD-4834-9E0F-CA21B0BC3BB3">PRJ_NOTIFICATION_PARAMETERS</a> union specifying extra parameters for certain values of <i>notification</i>:
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt815627(v=VS.85).aspx">PRJ_NOTIFICATION_PARAMETERS</a> union specifying extra parameters for certain values of <i>notification</i>:
 
 <b>PRJ_NOTIFICATION_FILE_OPENED</b>, <b>PRJ_NOTIFICATION_NEW_FILE_CREATED</b>, or <b>PRJ_NOTIFICATION_FILE_OVERWRITTEN</b><dl>
 <dd>

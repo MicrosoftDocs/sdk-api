@@ -111,7 +111,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/a55a4fb4-ff6c-4b50-bc14-9e43c4c1683f">XMVectorInBoundsR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404800(v=VS.85).aspx">XMVectorInBoundsR</a>
  
 
  

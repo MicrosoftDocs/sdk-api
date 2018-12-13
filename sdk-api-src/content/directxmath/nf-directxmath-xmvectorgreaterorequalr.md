@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Performs a per-component test for greater-than-or-equal between two vectors  and sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
+Performs a per-component test for greater-than-or-equal between two vectors  and sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Performs a per-component test for greater-than-or-equal between two vectors  and
 
 ### -param pCR [out]
 
-Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
+Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
 
 
 ### -param V1 [in]
@@ -101,7 +101,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/62f036c5-4b4d-482b-b456-03fe21a7a5f4">XMVectorGreaterOrEqual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421156(v=VS.85).aspx">XMVectorGreaterOrEqual</a>
  
 
  

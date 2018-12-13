@@ -64,7 +64,7 @@ The <code>SetRenderingPrefs</code> method sets various application preferences r
 
 ### -param dwRenderFlags [in]
 
-Double word containing a bitwise OR of <a href="https://msdn.microsoft.com/a32119c2-a10d-41a0-b3e9-500323eb3094">VMR9RenderPrefs</a> values specifying the rendering preferences.
+Double word containing a bitwise OR of <a href="https://msdn.microsoft.com/en-us/library/Dd407375(v=VS.85).aspx">VMR9RenderPrefs</a> values specifying the rendering preferences.
 
 
 ## -returns
@@ -121,7 +121,7 @@ No allocator-presenter is present.
 
 
 
-This method calls through to the allocator-presenter's <a href="https://msdn.microsoft.com/53ca84c5-6f6e-403f-baff-6b2ce66c2ce9">IVMRImagePresenterConfig9::SetRenderingPrefs</a> method. (The default allocator-presenter exposes <b>IVMRImagePresenterConfig9</b>. Custom allocator-presenters can also expose this interface if desired.) If the VMR-9 has not yet created the default allocator-presenter, or if the application provided a custom allocator-presenter which does not support <b>IVMRImagePresenterConfig9</b>, this method returns VFW_E_WRONG_STATE. To create the default allocator-presenter, call <a href="https://msdn.microsoft.com/d7a27d7c-5cd4-4a20-ba15-7056d502e3e3">IVMRFilterConfig9::SetRenderingMode</a> with the value VMR9Mode_Windowed or VMR9Mode_Windowed.
+This method calls through to the allocator-presenter's <a href="https://msdn.microsoft.com/en-us/library/Dd377398(v=VS.85).aspx">IVMRImagePresenterConfig9::SetRenderingPrefs</a> method. (The default allocator-presenter exposes <b>IVMRImagePresenterConfig9</b>. Custom allocator-presenters can also expose this interface if desired.) If the VMR-9 has not yet created the default allocator-presenter, or if the application provided a custom allocator-presenter which does not support <b>IVMRImagePresenterConfig9</b>, this method returns VFW_E_WRONG_STATE. To create the default allocator-presenter, call <a href="https://msdn.microsoft.com/en-us/library/Dd377371(v=VS.85).aspx">IVMRFilterConfig9::SetRenderingMode</a> with the value VMR9Mode_Windowed or VMR9Mode_Windowed.
 
 
 
@@ -131,7 +131,7 @@ This method calls through to the allocator-presenter's <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/089e44c8-6a27-410d-aad5-08816bd4f915">IVMRFilterConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377365(v=VS.85).aspx">IVMRFilterConfig9 Interface</a>
 
 
 

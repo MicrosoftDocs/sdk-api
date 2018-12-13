@@ -79,7 +79,7 @@ Object C-Type. Must be one of the following:
 
 
 
-<a href="https://msdn.microsoft.com/8fbe41f2-c7c7-4476-b5e6-f3306ce74cf6">Session_IPv4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374427(v=VS.85).aspx">Session_IPv4</a>
  
 
  

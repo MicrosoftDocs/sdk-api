@@ -89,7 +89,7 @@ Indicates that the Video Control is playing.
 
 
 
-<a href="https://msdn.microsoft.com/0f7a5e37-5a0d-415e-aca0-df5f9448b017">IMSVidDeviceEvent::StateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694523(v=VS.85).aspx">IMSVidDeviceEvent::StateChange</a>
 
 
 

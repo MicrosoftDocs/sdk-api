@@ -54,7 +54,7 @@ Initializes a new instance of the <code>XMFLOAT4X4</code> structure from sixteen
 	<code>float</code> values.
     
 
-Initializes a new instance of the <a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a> structure from sixteen
+Initializes a new instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx">XMFLOAT4X4</a> structure from sixteen
 	scalar <code>float</code> values.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -254,11 +254,11 @@ Or
 
 
 
-<a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx">XMFLOAT4X4</a>
 
 
 
-<a href="https://msdn.microsoft.com/943d7238-57e0-4908-bc58-bf434f2fbde0">XMFLOAT4X4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415303(v=VS.85).aspx">XMFLOAT4X4 Constructors</a>
  
 
  

@@ -70,7 +70,7 @@ The <b>IBDA_DRMService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/474ea991-6fb4-4eb4-9146-c76914765dc1">GetDRMStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693317(v=VS.85).aspx">GetDRMStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the current DRM status.
@@ -79,7 +79,7 @@ Gets the current DRM status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89da348f-c79c-4c77-8270-51a71b0a1a89">SetDRM</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693318(v=VS.85).aspx">SetDRM</a>
 </td>
 <td align="left" width="63%">
 Activates a DRM system on the media transform device (MTD).

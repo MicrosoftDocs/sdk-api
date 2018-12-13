@@ -80,11 +80,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/dab1a9c4-487c-4b20-909e-05f3504698f5">IWMSyncReader::Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798597(v=VS.85).aspx">IWMSyncReader::Open</a>
  
 
  

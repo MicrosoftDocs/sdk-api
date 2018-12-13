@@ -65,7 +65,7 @@ The <code>SetState</code> method runs or stops the multimedia stream object.
 
 ### -param NewState [in]
 
-A member of the <a href="https://msdn.microsoft.com/0be95819-0a42-4459-a891-194aacd26e2e">STREAM_STATE</a> enumeration, specifying the new state (running or stopped).
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407156(v=VS.85).aspx">STREAM_STATE</a> enumeration, specifying the new state (running or stopped).
 
 
 ## -returns
@@ -121,7 +121,7 @@ Stopping the multimedia stream object deletes any data that is pending.
 
 
 
-<a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream Interface</a>
  
 
  

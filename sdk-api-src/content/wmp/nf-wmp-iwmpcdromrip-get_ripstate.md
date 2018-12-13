@@ -108,7 +108,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/c3e2db46-bef0-4c79-91b5-97ca5a86c6ba">IWMPCdromRip Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563102(v=VS.85).aspx">IWMPCdromRip Interface</a>
 
 
 
@@ -116,7 +116,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/bd62cae1-3f63-4355-afc7-e429a444189d">WMPRipState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564884(v=VS.85).aspx">WMPRipState</a>
  
 
  

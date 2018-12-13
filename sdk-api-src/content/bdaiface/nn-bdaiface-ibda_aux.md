@@ -71,7 +71,7 @@ The <b>IBDA_AUX</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f04c080-81c9-4aa9-ba54-5e16a538f10a">EnumCapability</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693259(v=VS.85).aspx">EnumCapability</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of an auxiliary connector, specified by index.
@@ -80,7 +80,7 @@ Gets the capabilities of an auxiliary connector, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7bb80ae2-050e-4fe6-9dd4-9cc6b2bcdd3c">QueryCapabilities</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693260(v=VS.85).aspx">QueryCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the number of auxiliary connectors on the device.

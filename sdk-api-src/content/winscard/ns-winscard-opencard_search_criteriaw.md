@@ -196,7 +196,7 @@ Used for internal connection as described in <b>dwShareMode</b>.
 
 
 
-<a href="https://msdn.microsoft.com/fb9e64a9-441a-4c7b-b404-79682778c694">OPENCARDNAME_EX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378815(v=VS.85).aspx">OPENCARDNAME_EX</a>
 
 
 

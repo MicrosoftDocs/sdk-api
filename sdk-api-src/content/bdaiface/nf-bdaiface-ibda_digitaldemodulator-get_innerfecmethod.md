@@ -84,15 +84,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/13ecd348-dc2b-4e80-9875-927f4ed55c95">IBDA_DigitalDemodulator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693284(v=VS.85).aspx">IBDA_DigitalDemodulator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fbedcba-4b76-4cf0-8fa1-c71140d49643">IBDA_DigitalDemodulator::get_OuterFECMethod</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693297(v=VS.85).aspx">IBDA_DigitalDemodulator::get_OuterFECMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/618074c0-5139-4373-8bcd-9a8fd90a4ed7">IBDA_DigitalDemodulator::put_InnerFECMethod</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693301(v=VS.85).aspx">IBDA_DigitalDemodulator::put_InnerFECMethod</a>
  
 
  

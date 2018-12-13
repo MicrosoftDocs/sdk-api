@@ -108,7 +108,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/24cac18c-a3aa-4cd0-b5f7-025db2eed0b8">IWMPLibrarySharingServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563388(v=VS.85).aspx">IWMPLibrarySharingServices Interface</a>
  
 
  

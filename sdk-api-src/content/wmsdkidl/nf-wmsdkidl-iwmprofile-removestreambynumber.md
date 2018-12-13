@@ -142,19 +142,19 @@ Stream numbers are in the range of 1 through 63.
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/507b1c55-1ecb-41dd-a6e5-298e1047a7ea">IWMProfile::GetStreamByNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757407(v=VS.85).aspx">IWMProfile::GetStreamByNumber</a>
 
 
 
-<a href="https://msdn.microsoft.com/82817b72-fde5-492e-b197-87bf145d0be9">IWMProfile::RemoveStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757412(v=VS.85).aspx">IWMProfile::RemoveStream</a>
  
 
  

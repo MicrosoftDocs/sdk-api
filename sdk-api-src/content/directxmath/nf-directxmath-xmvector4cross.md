@@ -87,7 +87,7 @@ Returns the 4D cross product of <i>V1</i>, <i>V2</i>, and <i>V3</i>.
 
 
 A 4D cross-product is not well-defined. This function computes a geometric analog to the 3D cross product. 
-        <a href="https://msdn.microsoft.com/ed3312ce-516e-4708-8632-6ec41a73df9a">XMVector4Orthogonal</a> is another generalized 'cross-product' for 4D vectors.
+        <a href="https://msdn.microsoft.com/en-us/library/Ee420980(v=VS.85).aspx">XMVector4Orthogonal</a> is another generalized 'cross-product' for 4D vectors.
 
 The following pseudocode demonstrates the operation of the function:
 

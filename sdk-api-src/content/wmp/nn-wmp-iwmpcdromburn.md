@@ -73,7 +73,7 @@ The <b>IWMPCdromBurn</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93a37f59-4269-4f84-93dc-8350aabd4ebe">erase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563082(v=VS.85).aspx">erase</a>
 </td>
 <td align="left" width="63%">
 Erases the current CD.
@@ -82,7 +82,7 @@ Erases the current CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/564a3978-555e-4cbc-90fe-b29f61349260">get_burnFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563084(v=VS.85).aspx">get_burnFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates the type of CD to burn.
@@ -91,7 +91,7 @@ Retrieves a value that indicates the type of CD to burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b31f4e87-2029-4001-94c7-268b14807cf0">get_burnPlaylist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563085(v=VS.85).aspx">get_burnPlaylist</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current playlist to burn to the CD.
@@ -100,7 +100,7 @@ Retrieves the current playlist to burn to the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4941e1be-1ed2-4d8e-ad16-79ddbdcd71bf">get_burnProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563086(v=VS.85).aspx">get_burnProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CD burning progress as percent complete.
@@ -109,7 +109,7 @@ Retrieves the CD burning progress as percent complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6bcb8d6-07ad-4d8f-a94a-6b8c1b7f0c2b">get_burnState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563087(v=VS.85).aspx">get_burnState</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration value that indicates the current burn state.
@@ -118,7 +118,7 @@ Retrieves an enumeration value that indicates the current burn state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89197e65-036c-4ffb-8b08-4ab8c194f92f">get_label</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563088(v=VS.85).aspx">get_label</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CD volume label string.
@@ -127,7 +127,7 @@ Retrieves the CD volume label string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f54b406f-0441-4ed3-8f8b-6794ab2180d9">getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563083(v=VS.85).aspx">getItemInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the specified attribute for the CD.
@@ -136,7 +136,7 @@ Retrieves the value of the specified attribute for the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11876b73-10a1-49e2-ad45-33d9641c3647">isAvailable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563089(v=VS.85).aspx">isAvailable</a>
 </td>
 <td align="left" width="63%">
 Provides information about the CD drive and media.
@@ -145,7 +145,7 @@ Provides information about the CD drive and media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1352e2f6-cad8-4d86-b973-b7d4d8f0c448">put_burnFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563090(v=VS.85).aspx">put_burnFormat</a>
 </td>
 <td align="left" width="63%">
 Specifies the type of CD to burn.
@@ -154,7 +154,7 @@ Specifies the type of CD to burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26fad65c-d371-4e7c-a86e-1ddb24175909">put_burnPlaylist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563091(v=VS.85).aspx">put_burnPlaylist</a>
 </td>
 <td align="left" width="63%">
 Specifies the playlist to burn to CD.
@@ -163,7 +163,7 @@ Specifies the playlist to burn to CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84407961-5d79-4845-a81a-283b3689e562">put_label</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563092(v=VS.85).aspx">put_label</a>
 </td>
 <td align="left" width="63%">
 Specifies the label string for the CD volume.
@@ -172,7 +172,7 @@ Specifies the label string for the CD volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a1ca071-0a61-4ef5-b8c1-18336cf5b1b0">refreshStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563093(v=VS.85).aspx">refreshStatus</a>
 </td>
 <td align="left" width="63%">
 Updates the status information for the current burn playlist.
@@ -181,7 +181,7 @@ Updates the status information for the current burn playlist.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35357dca-4093-4c83-9cc9-f0dee1241e76">startBurn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563094(v=VS.85).aspx">startBurn</a>
 </td>
 <td align="left" width="63%">
 Burns the CD.
@@ -190,7 +190,7 @@ Burns the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf001a08-97e9-4f88-919a-54651e3bfd5d">stopBurn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563095(v=VS.85).aspx">stopBurn</a>
 </td>
 <td align="left" width="63%">
 Stops the CD burning process.

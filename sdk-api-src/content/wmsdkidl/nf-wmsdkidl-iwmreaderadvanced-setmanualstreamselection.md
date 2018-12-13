@@ -82,9 +82,9 @@ This method always returns S_OK.
 
 
 
-When you call this method to enable manual stream selection, all streams in the file are selected. To select specific streams, pass an array of the desired stream numbers to the <a href="https://msdn.microsoft.com/921ab9fe-757f-4856-9fbc-b615bf92d90f">IWMReaderAdvanced::SetStreamsSelected</a> method.
+When you call this method to enable manual stream selection, all streams in the file are selected. To select specific streams, pass an array of the desired stream numbers to the <a href="https://msdn.microsoft.com/en-us/library/Dd743488(v=VS.85).aspx">IWMReaderAdvanced::SetStreamsSelected</a> method.
 
-When manual stream selection is enabled, you can manage the selected streams using <a href="https://msdn.microsoft.com/083fc743-79be-43c6-ac4b-458c74f42fa0">GetStreamSelected</a> and <b>SetStreamsSelected</b>.
+When manual stream selection is enabled, you can manage the selected streams using <a href="https://msdn.microsoft.com/en-us/library/Dd743478(v=VS.85).aspx">GetStreamSelected</a> and <b>SetStreamsSelected</b>.
 
 Stream numbers are in the range of 1 through 63.
 
@@ -100,11 +100,11 @@ Stream numbers are in the range of 1 through 63.
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3205f508-a24b-4d24-a5e6-be16885e941b">IWMReaderAdvanced::GetManualStreamSelection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743472(v=VS.85).aspx">IWMReaderAdvanced::GetManualStreamSelection</a>
 
 
 

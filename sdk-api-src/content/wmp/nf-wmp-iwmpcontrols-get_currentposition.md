@@ -99,15 +99,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8843852b-f98a-469f-8541-44b3c51ebd6c">IWMPControls::get_currentPositionString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563200(v=VS.85).aspx">IWMPControls::get_currentPositionString</a>
 
 
 
-<a href="https://msdn.microsoft.com/7deedeed-8ce9-4fd7-9825-817204a9cb3e">IWMPControls::put_currentPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563210(v=VS.85).aspx">IWMPControls::put_currentPosition</a>
  
 
  

@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-A fax client application can use the <b>IFaxPort::get_DeviceId</b> property to uniquely identify a fax port. A fax client can call the <a href="https://msdn.microsoft.com/245641d0-1449-46df-a83a-283871612e0e">IFaxPort::get_Name</a> property to retrieve the user-friendly name for the fax port. Note, however, that it is possible for multiple fax ports to have the same user-friendly name.
+A fax client application can use the <b>IFaxPort::get_DeviceId</b> property to uniquely identify a fax port. A fax client can call the <a href="https://msdn.microsoft.com/en-us/library/ms690887(v=VS.85).aspx">IFaxPort::get_Name</a> property to retrieve the user-friendly name for the fax port. Note, however, that it is possible for multiple fax ports to have the same user-friendly name.
 
 
 
@@ -73,23 +73,23 @@ A fax client application can use the <b>IFaxPort::get_DeviceId</b> property to u
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/abdd91dd-7734-411a-9b7c-0da312269e6d">IFaxPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691281(v=VS.85).aspx">IFaxPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/245641d0-1449-46df-a83a-283871612e0e">IFaxPort::get_Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690887(v=VS.85).aspx">IFaxPort::get_Name</a>
 
 
 
-<a href="https://msdn.microsoft.com/e61b13b3-d86c-4f95-bf5a-6b0545a76d03">IFaxPorts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690893(v=VS.85).aspx">IFaxPorts</a>
  
 
  

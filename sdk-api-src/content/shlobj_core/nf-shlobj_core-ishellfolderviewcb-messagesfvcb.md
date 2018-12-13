@@ -177,7 +177,7 @@ One of the following notifications.
 <td>
 <a href="https://msdn.microsoft.com/29849218-0d30-4412-86c8-5d320bc5dd26">SFVM_GETTOOLTIPTEXT</a>
 </td>
-<td>Allows the callback object to specify a <a href="https://msdn.microsoft.com/1020cec7-57b4-4463-9419-f80fd14fa12c">tooltip</a> text string for menu items or toolbar buttons.</td>
+<td>Allows the callback object to specify a <a href="https://msdn.microsoft.com/en-us/library/Bb760250(v=VS.85).aspx">tooltip</a> text string for menu items or toolbar buttons.</td>
 </tr>
 <tr>
 <td>

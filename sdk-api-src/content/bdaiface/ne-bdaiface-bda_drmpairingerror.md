@@ -130,7 +130,7 @@ The handshake was successful but will soon time out. The client should refresh t
 
 
 
-<a href="https://msdn.microsoft.com/dff38609-9e90-491c-b8c4-33fd07471895">IBDA_DRM::GetDRMPairingStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693319(v=VS.85).aspx">IBDA_DRM::GetDRMPairingStatus</a>
  
 
  

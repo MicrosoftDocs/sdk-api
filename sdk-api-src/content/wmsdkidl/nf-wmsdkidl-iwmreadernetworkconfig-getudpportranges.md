@@ -66,7 +66,7 @@ The <b>GetUDPPortRanges</b> method retrieves the UDP port number ranges used for
 
 ### -param pRangeArray [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/122db3fa-36bb-4d0c-9d05-0b7ae37f9187">WM_PORT_NUMBER_RANGE</a> structures allocated by the caller. Pass <b>NULL</b> to get the size of the array.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd757979(v=VS.85).aspx">WM_PORT_NUMBER_RANGE</a> structures allocated by the caller. Pass <b>NULL</b> to get the size of the array.
 
 
 ### -param pcRanges [in, out]
@@ -138,11 +138,11 @@ You should make two calls to this method. On the first call, pass <b>NULL</b> fo
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a61943a-8ff9-4504-b76f-25e3c5c8d4a4">IWMReaderNetworkConfig::SetUDPPortRanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743551(v=VS.85).aspx">IWMReaderNetworkConfig::SetUDPPortRanges</a>
  
 
  

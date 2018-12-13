@@ -75,7 +75,7 @@ The <b>IWMPCdromRip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7140bc9-bf79-48f0-aaf0-155660c8b2c9">get_ripProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563103(v=VS.85).aspx">get_ripProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CD ripping progress as percent complete.
@@ -84,7 +84,7 @@ Retrieves the CD ripping progress as percent complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81c7ba1d-81d7-4f64-9f7d-c88d6959bee0">get_ripState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563104(v=VS.85).aspx">get_ripState</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration value that indicates the current state of the ripping process.
@@ -93,7 +93,7 @@ Retrieves an enumeration value that indicates the current state of the ripping p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88ba1e83-a3c5-4922-8c58-37993ccb4afc">startRip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563105(v=VS.85).aspx">startRip</a>
 </td>
 <td align="left" width="63%">
 Rips the CD.
@@ -102,7 +102,7 @@ Rips the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a6c5a25-f69c-4258-a92f-7f693b201a01">stopRip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563106(v=VS.85).aspx">stopRip</a>
 </td>
 <td align="left" width="63%">
 Stops the CD ripping process.

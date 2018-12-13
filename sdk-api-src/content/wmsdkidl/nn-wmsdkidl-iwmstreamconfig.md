@@ -53,9 +53,9 @@ req.redist:
 
 The <b>IWMStreamConfig</b> interface is the primary interface of a stream configuration object. It provides methods to configure basic properties for streams to be used in a profile.
 
-Every profile contains one or more stream configuration objects. You can get the <b>IWMStreamConfig</b> interface of a stream configuration object by calling the <a href="https://msdn.microsoft.com/067c3f03-a79a-4693-b963-7081f79c72d3">IWMProfile::GetStream</a> method or the <a href="https://msdn.microsoft.com/507b1c55-1ecb-41dd-a6e5-298e1047a7ea">IWMProfile::GetStreamByNumber</a> method. The difference between these two methods is that <b>GetStream</b> retrieves the stream using an index ranging from zero to one less than the total stream count, and <b>GetStreamByNumber</b> retrieves the stream using the assigned stream number. You can also retrieve a stream configuration object using the <a href="https://msdn.microsoft.com/4a1478ff-00fb-46e2-97a3-e00e9c1b819a">IWMProfile::CreateNewStream</a> method. All of the methods that create stream configuration objects set a pointer to this interface.
+Every profile contains one or more stream configuration objects. You can get the <b>IWMStreamConfig</b> interface of a stream configuration object by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd757406(v=VS.85).aspx">IWMProfile::GetStream</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Dd757407(v=VS.85).aspx">IWMProfile::GetStreamByNumber</a> method. The difference between these two methods is that <b>GetStream</b> retrieves the stream using an index ranging from zero to one less than the total stream count, and <b>GetStreamByNumber</b> retrieves the stream using the assigned stream number. You can also retrieve a stream configuration object using the <a href="https://msdn.microsoft.com/en-us/library/Dd757401(v=VS.85).aspx">IWMProfile::CreateNewStream</a> method. All of the methods that create stream configuration objects set a pointer to this interface.
 
-<div class="alert"><b>Important</b>  After calling one or more of the <b>IWMStreamConfig::Set...</b> methods, you must call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a> for all the changes to take effect in the profile.</div>
+<div class="alert"><b>Important</b>  After calling one or more of the <b>IWMStreamConfig::Set...</b> methods, you must call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a> for all the changes to take effect in the profile.</div>
 <div> </div>
 
 
@@ -77,7 +77,7 @@ The <b>IWMStreamConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d34bea45-758e-4c4a-928f-229ce6b4241c">GetBitrate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798558(v=VS.85).aspx">GetBitrate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bit rate for the stream.
@@ -86,7 +86,7 @@ Retrieves the bit rate for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a78cd61-e7ae-42e2-9d64-f3344fefc59d">GetBufferWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798559(v=VS.85).aspx">GetBufferWindow</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum latency between when a stream is received and when it begins to be displayed.
@@ -95,7 +95,7 @@ Retrieves the maximum latency between when a stream is received and when it begi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04d50606-c355-45d4-9cc1-a8ef37113bf7">GetConnectionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798560(v=VS.85).aspx">GetConnectionName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the connection name given to the stream.
@@ -104,7 +104,7 @@ Retrieves the connection name given to the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86c65cfe-d482-461b-a187-ce1ce9a30609">GetStreamName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798561(v=VS.85).aspx">GetStreamName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream name.
@@ -113,7 +113,7 @@ Retrieves the stream name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2996c897-eb38-4432-8bf7-549023ab00f5">GetStreamNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798562(v=VS.85).aspx">GetStreamNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream number.
@@ -122,7 +122,7 @@ Retrieves the stream number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8dc8c37-da52-4d0f-b143-aaa45e6f77b8">GetStreamType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798563(v=VS.85).aspx">GetStreamType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the major type of the stream (audio, video, or script).
@@ -131,7 +131,7 @@ Retrieves the major type of the stream (audio, video, or script).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/202be688-e739-4e80-9574-f85b2eb168fc">SetBitrate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798564(v=VS.85).aspx">SetBitrate</a>
 </td>
 <td align="left" width="63%">
 Specifies the bit rate for the stream.
@@ -140,7 +140,7 @@ Specifies the bit rate for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae14f3df-222a-494c-a171-02aed04490d1">SetBufferWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798565(v=VS.85).aspx">SetBufferWindow</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum latency between when a stream is received and when it begins to be displayed.
@@ -149,7 +149,7 @@ Specifies the maximum latency between when a stream is received and when it begi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd67e0b5-3bfa-46c1-996d-6b026c1144cb">SetConnectionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798566(v=VS.85).aspx">SetConnectionName</a>
 </td>
 <td align="left" width="63%">
 Specifies the connection name given to a stream.
@@ -158,7 +158,7 @@ Specifies the connection name given to a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90ab1591-eee7-4504-8d7f-475d90fa3b40">SetStreamName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798567(v=VS.85).aspx">SetStreamName</a>
 </td>
 <td align="left" width="63%">
 Specifies the stream name.
@@ -167,7 +167,7 @@ Specifies the stream name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aea8b219-5b47-4176-ad96-d52646d96578">SetStreamNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798568(v=VS.85).aspx">SetStreamNumber</a>
 </td>
 <td align="left" width="63%">
 Specifies the stream number.
@@ -184,31 +184,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a>
 </td>
 <td>IID_IWMMediaProps</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/0e51a9be-afd4-430b-8339-f45e8f9a7d20">IWMPropertyVault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault</a>
 </td>
 <td>IID_IWMPropertyVault</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2</a>
 </td>
 <td>IID_IWMStreamConfig2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/c79ddfb8-b1ff-475c-8c9d-01e0dbe3f681">IWMStreamConfig3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798554(v=VS.85).aspx">IWMStreamConfig3</a>
 </td>
 <td>IID_IWMStreamConfig3</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4d6ba1d8-b046-450b-a3f9-4810faba5b77">IWMVideoMediaProps</a> (on video streams only)</td>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps</a> (on video streams only)</td>
 <td>IID_IWMVideoMediaProps</td>
 </tr>
 </table> 
@@ -219,15 +219,15 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/d901ac66-d4b3-4256-bd7b-53cccb3de644">IWMInputMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757252(v=VS.85).aspx">IWMOutputMediaProps Interface</a>
 
 
 
@@ -235,15 +235,15 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c79ddfb8-b1ff-475c-8c9d-01e0dbe3f681">IWMStreamConfig3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798554(v=VS.85).aspx">IWMStreamConfig3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d6ba1d8-b046-450b-a3f9-4810faba5b77">IWMVideoMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
 
 
 

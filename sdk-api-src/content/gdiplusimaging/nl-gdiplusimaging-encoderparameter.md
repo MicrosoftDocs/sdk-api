@@ -62,23 +62,23 @@ An <b>EncoderParameter</b> object holds a parameter that can be passed to an ima
 
 
 
-<a href="https://msdn.microsoft.com/0ab532b0-0738-4cac-82d4-e2e25a955b2e">EncoderParameterValueType</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534116(v=VS.85).aspx">EncoderParameterValueType</a>
 
 
 
-<a href="https://msdn.microsoft.com/347275b5-22d2-47ad-9754-0bd213689bf0">EncoderParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534435(v=VS.85).aspx">EncoderParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a7f40dc-1132-429b-bc44-79f28c9098d7">Image::GetEncoderParameterList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535374(v=VS.85).aspx">Image::GetEncoderParameterList</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7b0f80c-8fff-4fb7-bd7d-0b82275bd92d">Image::GetEncoderParameterListSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535375(v=VS.85).aspx">Image::GetEncoderParameterListSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9a5b4b1-4e25-42c8-a96b-a3104841e5f3">Using Image Encoders and Decoders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
  
 
  

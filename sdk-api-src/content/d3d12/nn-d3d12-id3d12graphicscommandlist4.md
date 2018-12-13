@@ -79,7 +79,7 @@ Marks the beginning of a render pass by binding a set of output resources for th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B714530C-40E6-4C67-8908-373BB26E6635">BuildRaytracingAccelerationStructure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847461(v=VS.85).aspx">BuildRaytracingAccelerationStructure</a>
 </td>
 <td align="left" width="63%">
 Performs a raytracing acceleration structure build on the GPU and optionally outputs post-build information immediately after the build.  
@@ -88,7 +88,7 @@ Performs a raytracing acceleration structure build on the GPU and optionally out
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13E0E477-9CD5-484B-9532-AB6D415CF6CB">CopyRaytracingAccelerationStructure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847462(v=VS.85).aspx">CopyRaytracingAccelerationStructure</a>
 </td>
 <td align="left" width="63%">
 Copies a source acceleration structure to destination memory while applying the specified transformation.
@@ -97,7 +97,7 @@ Copies a source acceleration structure to destination memory while applying the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/157F4609-B9AF-40EC-A2E6-33D5A897A813">DispatchRays</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847463(v=VS.85).aspx">DispatchRays</a>
 </td>
 <td align="left" width="63%">
 Launch the threads of a ray generation shader.
@@ -106,7 +106,7 @@ Launch the threads of a ray generation shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05E4B38B-1A3A-4121-8BD7-A437534C8B9A">EmitRaytracingAccelerationStructurePostbuildInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847464(v=VS.85).aspx">EmitRaytracingAccelerationStructurePostbuildInfo</a>
 </td>
 <td align="left" width="63%">
 Emits post-build properties for a set of acceleration structures.  This enables applications to know the output resource requirements for performing acceleration structure operations via <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure</a>.
@@ -124,7 +124,7 @@ Marks the ending of a render pass.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CD408074-2B2A-461C-9CA8-DC967BC61067">SetPipelineState1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847465(v=VS.85).aspx">SetPipelineState1</a>
 </td>
 <td align="left" width="63%">
 Sets a state object on the command list. 

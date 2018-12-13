@@ -52,7 +52,7 @@ req.redist:
 
 
 
-The <code>IVMRFilterConfig9</code> interface is implemented by the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a>. Applications use this interface to configure the VMR's operating mode and video rendering mechanisms. Applications must add the VMR to the graph and configure it before it is connected to any upstream filters (for example, in a call to <a href="https://msdn.microsoft.com/449aec08-c03e-41d6-8c04-0e871e532d11">IGraphBuilder::RenderFile</a>). Once a filter has been connected to the VMR, the VMR's configuration is locked and all future attempts to alter it fail.
+The <code>IVMRFilterConfig9</code> interface is implemented by the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a>. Applications use this interface to configure the VMR's operating mode and video rendering mechanisms. Applications must add the VMR to the graph and configure it before it is connected to any upstream filters (for example, in a call to <a href="https://msdn.microsoft.com/en-us/library/Dd390090(v=VS.85).aspx">IGraphBuilder::RenderFile</a>). Once a filter has been connected to the VMR, the VMR's configuration is locked and all future attempts to alter it fail.
 
 
 
@@ -74,7 +74,7 @@ The <b>IVMRFilterConfig9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34b26c3a-ac5d-479e-ac9d-c782cd5dded8">GetNumberOfStreams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377366(v=VS.85).aspx">GetNumberOfStreams</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of input streams being mixed.
@@ -83,7 +83,7 @@ Retrieves the number of input streams being mixed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e39077ce-737f-4dd9-ab7d-4dc087828fdf">GetRenderingMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377367(v=VS.85).aspx">GetRenderingMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the rendering mode currently being used by the VMR.
@@ -92,7 +92,7 @@ Retrieves the rendering mode currently being used by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b82a9dbe-aa86-4153-945b-fe8968faa5ca">GetRenderingPrefs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377368(v=VS.85).aspx">GetRenderingPrefs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current set of rendering preferences being used by the VMR.
@@ -101,7 +101,7 @@ Retrieves the current set of rendering preferences being used by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e4a66e8-d4ab-49e0-8773-c79b5965124b">SetImageCompositor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377369(v=VS.85).aspx">SetImageCompositor</a>
 </td>
 <td align="left" width="63%">
 Installs an application-provided image compositor object.
@@ -110,7 +110,7 @@ Installs an application-provided image compositor object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/062aac78-6d7d-4335-963a-bc2c2d339efb">SetNumberOfStreams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377370(v=VS.85).aspx">SetNumberOfStreams</a>
 </td>
 <td align="left" width="63%">
 Sets the number of streams to be mixed and instructs the VMR to go into mixer mode.
@@ -119,7 +119,7 @@ Sets the number of streams to be mixed and instructs the VMR to go into mixer mo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7a27d7c-5cd4-4a20-ba15-7056d502e3e3">SetRenderingMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377371(v=VS.85).aspx">SetRenderingMode</a>
 </td>
 <td align="left" width="63%">
 Sets the rendering mode used by the VMR.
@@ -128,7 +128,7 @@ Sets the rendering mode used by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce274528-c759-4b43-80c7-0ba1e1275b7d">SetRenderingPrefs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377372(v=VS.85).aspx">SetRenderingPrefs</a>
 </td>
 <td align="left" width="63%">
 Sets various application preferences related to video rendering.

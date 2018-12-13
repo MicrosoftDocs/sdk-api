@@ -108,11 +108,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/492eb07a-f757-47ce-8474-1edfeb49e55f">IWMPSettings::get_playCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563665(v=VS.85).aspx">IWMPSettings::get_playCount</a>
  
 
  

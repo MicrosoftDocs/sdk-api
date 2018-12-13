@@ -70,7 +70,7 @@ The channel to do the request-reply operation on.
 The message object to use to send the request.
                 
 
-The message object should be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a> or
+The message object should be in <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a> or
                     <b>WS_MESSAGE_STATE_INITIALIZED</b>.
                 
 
@@ -91,7 +91,7 @@ The bodyElementDescription field of the <a href="https://msdn.microsoft.com/399b
 ### -param writeOption [in]
 
 Whether the body element is required, and how the value is allocated.
-                    See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> for more information.
                 
 
 
@@ -112,7 +112,7 @@ The size of the request value being serialized, in bytes.
 The message object to use to receive the reply.
                 
 
-The message object should be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+The message object should be in <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -132,7 +132,7 @@ The bodyElementDescription field of the <a href="https://msdn.microsoft.com/399b
 
 ### -param readOption [in]
 
-Whether the reply body element is required, and how to allocate the value.                    For more information, see <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> and <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a>.
+Whether the reply body element is required, and how to allocate the value.                    For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a> and <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a>.
 
                 
 
@@ -150,7 +150,7 @@ The heap used to allocate deserialized reply body values.
 Where to store the deserialized values of the body.
                 
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a>.
                 
 
 If the bodyElementDescription of the reply <a href="https://msdn.microsoft.com/399b3363-004b-499a-9726-0b2513826f43">WS_MESSAGE_DESCRIPTION</a> 
@@ -161,7 +161,7 @@ If the bodyElementDescription of the reply <a href="https://msdn.microsoft.com/3
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a>.
                 
 
 
@@ -597,7 +597,7 @@ This function may return other errors not listed above.
 
 
 
-The messages are correlated as appropriate to the <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION</a>.
+The messages are correlated as appropriate to the <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION</a>.
                 See <a href="https://msdn.microsoft.com/d7dddcc6-8eb0-4ee6-8cf5-7701a2be7a19">Channel Layer Overview</a> for more information about correlating
                 request reply messages.
             

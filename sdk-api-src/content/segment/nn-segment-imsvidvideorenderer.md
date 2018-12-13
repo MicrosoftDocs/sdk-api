@@ -75,7 +75,7 @@ The <b>IMSVidVideoRenderer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05287e53-a988-43cc-ac41-5024a217621a">Capture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694731(v=VS.85).aspx">Capture</a>
 </td>
 <td align="left" width="63%">
 Captures the video frame that is currently being rendered by the VMR.
@@ -84,7 +84,7 @@ Captures the video frame that is currently being rendered by the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cafdc512-2994-4374-9396-b0bb946bc490">get__CustomCompositor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694745(v=VS.85).aspx">get__CustomCompositor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the VMR's current image compositor.
@@ -93,7 +93,7 @@ Retrieves the VMR's current image compositor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ac48bbb-a0d3-4c37-9f3e-4f4cc79b550b">get__CustomCompositorClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694746(v=VS.85).aspx">get__CustomCompositorClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves the class identifier (CLSID) of the VMR's current image compositor, as a <b>GUID</b>
@@ -102,16 +102,16 @@ Retrieves the class identifier (CLSID) of the VMR's current image compositor, as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/714b8222-ab8b-4ece-8ae5-61bb41a7ed3c">get__MixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694747(v=VS.85).aspx">get__MixerBitmap</a>
 </td>
 <td align="left" width="63%">
-Retrieves the VMR's <a href="https://msdn.microsoft.com/ac7da3f9-2c17-4517-bb64-6b56257a65c3">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap
+Retrieves the VMR's <a href="https://msdn.microsoft.com/en-us/library/Dd390448(v=VS.85).aspx">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/33747e97-3e1c-4220-89c9-cc8310b77c4e">get_AvailableSourceRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694732(v=VS.85).aspx">get_AvailableSourceRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the native video.
@@ -120,7 +120,7 @@ Retrieves the size of the native video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d40d39d9-41a4-42e1-b0d0-4a6299fd1cff">get_ClippedSourceRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694733(v=VS.85).aspx">get_ClippedSourceRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the clipping rectangle on the video source.
@@ -129,7 +129,7 @@ Retrieves the clipping rectangle on the video source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d6ff1968-e891-432d-9271-f6d6a6a8a756">get_CustomCompositorClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694734(v=VS.85).aspx">get_CustomCompositorClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CLSID of the VMR's current image compositor, as a <b>BSTR</b>.
@@ -138,7 +138,7 @@ Retrieves the CLSID of the VMR's current image compositor, as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f533b85-175b-4381-b7a9-eac0d8e313ed">get_DecimateInput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694735(v=VS.85).aspx">get_DecimateInput</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the VMR will decimate the video (that is, reduce the native video size) before processing it.
@@ -147,7 +147,7 @@ Indicates whether the VMR will decimate the video (that is, reduce the native vi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94634499-748d-42d1-8d06-fb52d10d4656">get_FramesPerSecond</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694736(v=VS.85).aspx">get_FramesPerSecond</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current frame rate.
@@ -156,7 +156,7 @@ Retrieves the current frame rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4c4b2da-0749-463c-aaa1-04d0d456327a">get_MaxVidRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694737(v=VS.85).aspx">get_MaxVidRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum ideal size of the video rectangle.
@@ -165,7 +165,7 @@ Retrieves the maximum ideal size of the video rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e65f2b2-d479-429a-b5c7-8c5cbb6c833d">get_MinVidRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694738(v=VS.85).aspx">get_MinVidRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum ideal size of the video rectangle.
@@ -174,7 +174,7 @@ Retrieves the minimum ideal size of the video rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cfcfab14-7084-4716-8955-574168cd3506">get_MixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694739(v=VS.85).aspx">get_MixerBitmap</a>
 </td>
 <td align="left" width="63%">
 Retrieves the static bitmap image, as an <b>IPictureDisp</b> type.
@@ -183,7 +183,7 @@ Retrieves the static bitmap image, as an <b>IPictureDisp</b> type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/830eff1a-e70e-440c-81be-69058d14f314">get_MixerBitmapOpacity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694740(v=VS.85).aspx">get_MixerBitmapOpacity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the opacity of the static bitmap image.
@@ -192,7 +192,7 @@ Retrieves the opacity of the static bitmap image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2270786-5289-4c41-898e-651ed881842b">get_MixerBitmapPositionRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694741(v=VS.85).aspx">get_MixerBitmapPositionRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position of the static bitmap image, relative to the video window.
@@ -201,7 +201,7 @@ Retrieves the position of the static bitmap image, relative to the video window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c4946e6-b25c-4e6a-b640-73982c0da871">get_OverScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694742(v=VS.85).aspx">get_OverScan</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of clipping to perform on all sides of the video frame, in order to cut off random video noise.
@@ -210,7 +210,7 @@ Retrieves the amount of clipping to perform on all sides of the video frame, in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/312a2c1e-5332-4a2d-ada9-1dc8236f4170">get_SourceSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694743(v=VS.85).aspx">get_SourceSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of clipping to apply to the video rectangle, if any.
@@ -219,7 +219,7 @@ Retrieves the type of clipping to apply to the video rectangle, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd41cbcc-b8a8-4b08-9b25-399e366614ce">get_UsingOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694744(v=VS.85).aspx">get_UsingOverlay</a>
 </td>
 <td align="left" width="63%">
 Queries whether the VMR is using the hardware overlay.
@@ -228,7 +228,7 @@ Queries whether the VMR is using the hardware overlay.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff99b253-20bc-4b8e-8624-ffcbb3b91857">put__CustomCompositor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694757(v=VS.85).aspx">put__CustomCompositor</a>
 </td>
 <td align="left" width="63%">
 Specifies a custom image compositor for the VMR to use.
@@ -237,7 +237,7 @@ Specifies a custom image compositor for the VMR to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/031af4a5-6eed-44c9-9b0c-f472d709db66">put__CustomCompositorClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694758(v=VS.85).aspx">put__CustomCompositorClass</a>
 </td>
 <td align="left" width="63%">
 Specifies the CLSID of a custom image compositor, as a <b>GUID</b>.
@@ -246,7 +246,7 @@ Specifies the CLSID of a custom image compositor, as a <b>GUID</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6dd7b83e-6ed6-4c57-8a00-a4ed2c78840d">put__MixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694759(v=VS.85).aspx">put__MixerBitmap</a>
 </td>
 <td align="left" width="63%">
 Specifies the static bitmap image.
@@ -255,7 +255,7 @@ Specifies the static bitmap image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c72d8134-ff6c-46b4-b567-35638aef53cd">put_ClippedSourceRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694748(v=VS.85).aspx">put_ClippedSourceRect</a>
 </td>
 <td align="left" width="63%">
 Specifies the clipping rectangle on the video source.
@@ -264,7 +264,7 @@ Specifies the clipping rectangle on the video source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/399a5151-b26a-4c33-9dd9-e7abb23cbd1c">put_CustomCompositorClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694749(v=VS.85).aspx">put_CustomCompositorClass</a>
 </td>
 <td align="left" width="63%">
 Specifies the CLSID of a custom image compositor, as a <b>BSTR</b>.
@@ -273,7 +273,7 @@ Specifies the CLSID of a custom image compositor, as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e048a572-3a96-4610-9266-0e97b5a09778">put_DecimateInput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694750(v=VS.85).aspx">put_DecimateInput</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the VMR will decimate the video (that is, reduce the native video size) before processing it.
@@ -282,7 +282,7 @@ Specifies whether the VMR will decimate the video (that is, reduce the native vi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa9d9bea-f711-42f1-a247-322036744c44">put_MixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694751(v=VS.85).aspx">put_MixerBitmap</a>
 </td>
 <td align="left" width="63%">
 Specifies the static bitmap image, as an <b>IPictureDisp</b> type.
@@ -291,7 +291,7 @@ Specifies the static bitmap image, as an <b>IPictureDisp</b> type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5dba67ab-9522-48a3-be09-8ed8c27bffee">put_MixerBitmapOpacity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694752(v=VS.85).aspx">put_MixerBitmapOpacity</a>
 </td>
 <td align="left" width="63%">
 Specifies the opacity of the static bitmap image.
@@ -300,7 +300,7 @@ Specifies the opacity of the static bitmap image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05542d75-1723-4581-ac8b-6a577e0085cb">put_MixerBitmapPositionRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694753(v=VS.85).aspx">put_MixerBitmapPositionRect</a>
 </td>
 <td align="left" width="63%">
 Specifies the position of the static bitmap image, relative to the video window.
@@ -309,7 +309,7 @@ Specifies the position of the static bitmap image, relative to the video window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/141df99b-4fc7-439c-953e-1fa1c544258e">put_OverScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694754(v=VS.85).aspx">put_OverScan</a>
 </td>
 <td align="left" width="63%">
 Specifies the amount of clipping to perform on all sides of the video frame, in order to cut off random video noise.
@@ -318,7 +318,7 @@ Specifies the amount of clipping to perform on all sides of the video frame, in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c792f064-a137-4872-8c79-6e924b6023f0">put_SourceSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694755(v=VS.85).aspx">put_SourceSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the type of clipping to apply to the video rectangle, if any.
@@ -327,7 +327,7 @@ Specifies the type of clipping to apply to the video rectangle, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee7a5c92-bdae-4b67-9b2b-5fb4ae3a8fd7">put_UsingOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694756(v=VS.85).aspx">put_UsingOverlay</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the VMR will use the hardware overlay.
@@ -336,7 +336,7 @@ Specifies whether the VMR will use the hardware overlay.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a91561e3-469b-412a-b5ab-af2a5a0855a6">SetupMixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694760(v=VS.85).aspx">SetupMixerBitmap</a>
 </td>
 <td align="left" width="63%">
 Configures the VMR to display an alpha-blended bitmap on top of the video.

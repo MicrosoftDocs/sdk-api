@@ -74,8 +74,8 @@ Identifies the instance of the module that creates the dialog box.
 ### -param hDialogTemplate [in]
 
 Specifies the address of a global memory object that contains a dialog box template used to create the dialog box. The template is in the form of a 
-<a href="_win32_dlgtemplate_str_cpp">DLGTEMPLATE</a> structure followed by one or more 
-<a href="_win32_dlgitemtemplate_str_cpp">DLGITEMTEMPLATE</a> structures. For a full description of these structures, see the Platform SDK.
+<a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> structure followed by one or more 
+<a href="https://msdn.microsoft.com/en-us/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a> structures. For a full description of these structures, see the Platform SDK.
 
 
 ### -param hwndOwner [in]
@@ -86,7 +86,7 @@ Identifies the window that owns the dialog box.
 ### -param dlgprc [in]
 
 Points to the dialog box procedure. For more information about the dialog box procedure, see 
-<a href="_win32_dialogproc_cpp">DialogProc</a>.
+<a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a>.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Points to the dialog box procedure. For more information about the dialog box pr
 
 
 If the <b>WlxDialogBoxIndirect</b> function succeeds, the return value is the <i>nResult</i> parameter given in the call to the 
-<a href="_win32_enddialog_cpp">EndDialog</a> function used to terminate the dialog box. The following table lists some possible success return values.
+<a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a> function used to terminate the dialog box. The following table lists some possible success return values.
 
 <table>
 <tr>
@@ -157,7 +157,7 @@ If the function fails, the return value is –1.
 
 
 
-<b>WlxDialogBoxIndirect</b> duplicates the Windows <a href="_win32_dialogboxindirect_cpp">DialogBoxIndirect</a> macro, and also allows Winlogon to terminate the dialog box. For more information, see 
+<b>WlxDialogBoxIndirect</b> duplicates the Windows <a href="https://msdn.microsoft.com/en-us/library/ms645457(v=VS.85).aspx">DialogBoxIndirect</a> macro, and also allows Winlogon to terminate the dialog box. For more information, see 
 <b>DialogBoxIndirect</b>.
 
 
@@ -168,23 +168,23 @@ If the function fails, the return value is –1.
 
 
 
-<a href="_win32_dlgitemtemplate_str_cpp">DLGITEMTEMPLATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a>
 
 
 
-<a href="_win32_dlgtemplate_str_cpp">DLGTEMPLATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a>
 
 
 
-<a href="_win32_dialogboxindirect_cpp">DialogBoxIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645457(v=VS.85).aspx">DialogBoxIndirect</a>
 
 
 
-<a href="_win32_dialogproc_cpp">DialogProc</a>
+<a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a>
 
 
 
-<a href="_win32_enddialog_cpp">EndDialog</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a>
 
 
 

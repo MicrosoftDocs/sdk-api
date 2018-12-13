@@ -73,7 +73,7 @@ The <b>IBDA_NetworkProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38d9f099-b639-41fe-b0fd-82f056622de0">GetNetworkType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693411(v=VS.85).aspx">GetNetworkType</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the network type.
@@ -82,7 +82,7 @@ Called by a BDA device filter to retrieve the network type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/943b3c1f-4aea-4c16-b730-74b63397ad9f">GetSignalSource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693412(v=VS.85).aspx">GetSignalSource</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the signal source.
@@ -91,7 +91,7 @@ Called by a BDA device filter to retrieve the signal source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c7305a1-4a63-42a9-abc2-ae5394c3be9a">GetTuningSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693413(v=VS.85).aspx">GetTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the network provider.
@@ -100,7 +100,7 @@ Called by a BDA device filter to retrieve the network provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e461ff83-c3fc-43f2-934b-3f4c3afd0061">PutSignalSource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693414(v=VS.85).aspx">PutSignalSource</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to specify the network provider.
@@ -109,7 +109,7 @@ Called by a BDA device filter to specify the network provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4541a675-875b-4a6c-8251-e13abdd46b38">PutTuningSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693415(v=VS.85).aspx">PutTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to specify the tuning space.
@@ -118,7 +118,7 @@ Called by a BDA device filter to specify the tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88050024-5960-4ce5-8645-82db3e17b12c">RegisterDeviceFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693416(v=VS.85).aspx">RegisterDeviceFilter</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to register itself in the filter graph.
@@ -127,7 +127,7 @@ Called by a BDA device filter to register itself in the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d54830f-93cc-44c0-9bb7-43c439f4aa8e">UnRegisterDeviceFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693417(v=VS.85).aspx">UnRegisterDeviceFilter</a>
 </td>
 <td align="left" width="63%">
 Called by BDA device filters when they are removed from the filter graph.

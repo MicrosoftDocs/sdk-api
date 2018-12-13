@@ -58,11 +58,11 @@ A predicate interface determines whether geometry should be processed depending 
 
 
 
-A predicate can be created with <a href="https://msdn.microsoft.com/472d782b-a9ea-49b2-8489-4e074e48c15e">ID3D10Device::CreatePredicate</a>, and used with <a href="https://msdn.microsoft.com/175c4905-834a-4f18-bbf6-3bbe20e06d4d">ID3D10Device::SetPredication</a>.
+A predicate can be created with <a href="https://msdn.microsoft.com/en-us/library/Bb173552(v=VS.85).aspx">ID3D10Device::CreatePredicate</a>, and used with <a href="https://msdn.microsoft.com/en-us/library/Bb173615(v=VS.85).aspx">ID3D10Device::SetPredication</a>.
 
 There are two types of predicates in Direct3D 10: stream-output-overflow predicates and occlusion predicates. Stream-output-overflow predicates will cause any geometry residing in stream-output buffers that were overflowed to not be processed. Occlusion predicates will cause any geometry that did not have a single sample pass the depth/stencil tests to not be processed.
 
-For an example of occlusion-predicated rendering, see <a href="6677cf3c-c360-49f4-c8e5-b1664f783dc0">Draw Predicated Sample</a>. 
+For an example of occlusion-predicated rendering, see <a href="https://msdn.microsoft.com/library/Ee416402(v=VS.85).aspx">Draw Predicated Sample</a>. 
 
 
 
@@ -72,11 +72,11 @@ For an example of occlusion-predicated rendering, see <a href="6677cf3c-c360-49f
 
 
 
-<a href="https://msdn.microsoft.com/f5ad2db8-da90-4bcd-83a7-7466723a9c3c">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffa69b76-ce8d-4386-b0be-fecada85d37c">ID3D10Query</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173823(v=VS.85).aspx">ID3D10Query</a>
  
 
  

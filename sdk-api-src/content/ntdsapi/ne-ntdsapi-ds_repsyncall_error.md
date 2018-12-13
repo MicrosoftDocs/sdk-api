@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>DS_REPSYNCALL_ERROR</b> enumeration is used with the <a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a> structure to indicate where in the replication process an error occurred.
+The <b>DS_REPSYNCALL_ERROR</b> enumeration is used with the <a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a> structure to indicate where in the replication process an error occurred.
 
 
 ## -enum-fields
@@ -60,17 +60,17 @@ The <b>DS_REPSYNCALL_ERROR</b> enumeration is used with the <a href="https://msd
 
 ### -field DS_REPSYNCALL_WIN32_ERROR_CONTACTING_SERVER
 
-The server referred to by the <b>pszSvrId</b> member of the <a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a> structure cannot be contacted.
+The server referred to by the <b>pszSvrId</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a> structure cannot be contacted.
 
 
 ### -field DS_REPSYNCALL_WIN32_ERROR_REPLICATING
 
-An error occurred during replication of the server identified by the <b>pszSvrId</b> member of the <a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a> structure.
+An error occurred during replication of the server identified by the <b>pszSvrId</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a> structure.
 
 
 ### -field DS_REPSYNCALL_SERVER_UNREACHABLE
 
-The server identified by the <b>pszSvrId</b> member of the <a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a> structure cannot be contacted.
+The server identified by the <b>pszSvrId</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a> structure cannot be contacted.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ The server identified by the <b>pszSvrId</b> member of the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a>
 
 
 

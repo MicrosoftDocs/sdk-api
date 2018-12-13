@@ -73,7 +73,7 @@ The <b>IWMCredentialCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5dce8281-b5d3-42cd-93f6-d76af0050a89">AcquireCredentials</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743356(v=VS.85).aspx">AcquireCredentials</a>
 </td>
 <td align="left" width="63%">
 Acquires the credentials of the user, to verify that the user has permission to access a remote site.

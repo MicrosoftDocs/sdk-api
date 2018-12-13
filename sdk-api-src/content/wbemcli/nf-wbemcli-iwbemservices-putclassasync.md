@@ -114,7 +114,7 @@ This flag is for class creation only. The call fails if the class already exists
 #### WBEM_FLAG_SEND_STATUS
 
 This flag registers with Windows Management a request to receive intermediate status reports through the client's implementation of 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
 
 
 
@@ -154,7 +154,7 @@ Typically <b>NULL</b>. Otherwise, this is a pointer to an
 Pointer to the caller's implementation of 
 <a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>. This handler receives the status of the 
 <b>Put</b> request when the status becomes available using the 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> method. If any error code is returned, then the supplied 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> method. If any error code is returned, then the supplied 
 <b>IWbemObjectSink</b> pointer is not used. If <b>WBEM_S_NO_ERROR</b> is returned, then the user's 
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management only calls <b>AddRef</b> to the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For a detailed explanation of this parameter, see 
 <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
@@ -189,9 +189,9 @@ Because returning <b>WBEM_E_FAILED</b> causes other providers to not have a chan
 If multiple class providers are installed for one particular class, WMI will not recognize which class 
     provider is capable of creating that class.
 
-The <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> method is 
+The <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method is 
     called to indicate the end of the result set. It may also be called with no intervening calls to 
-    <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> if error conditions 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> if error conditions 
     occur.
 
 Because the call-back might not be returned at the same authentication level as the client requires, it is 

@@ -51,9 +51,9 @@ req.redist:
 
 
 
-The <b>VIDEOINFO</b> structure is equivalent to a <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure, but it contains enough memory to hold three color masks plus a color table with 256 colors.
+The <b>VIDEOINFO</b> structure is equivalent to a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure, but it contains enough memory to hold three color masks plus a color table with 256 colors.
 
-If you are writing a video filter, you can use this structure to guarantee that the format block always has enough memory to contain the largest possible <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
+If you are writing a video filter, you can use this structure to guarantee that the format block always has enough memory to contain the largest possible <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure.
 
 
 
@@ -89,7 +89,7 @@ Bit error rate for this stream.
 
 ### -field AvgTimePerFrame
 
-The desired average time per frame, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
+The desired average time per frame, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure.
           
 
 
@@ -115,7 +115,7 @@ Array of <b>DWORD</b> values that specify true-color bitmasks.
 ### -field TrueColorInfo
 
 
-<a href="https://msdn.microsoft.com/8269d8c2-ff8e-48e0-b4f6-06900a7ecfdc">TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
+<a href="https://msdn.microsoft.com/en-us/library/Dd407231(v=VS.85).aspx">TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
             
 
 
@@ -123,9 +123,9 @@ Array of <b>DWORD</b> values that specify true-color bitmasks.
 
 
 
-Never use this structure unless you are sure that you will use it only to store standard RGB formats. If you store anything other than standard RGB, the variable size of the <b>bmiHeader</b> structure will almost certainly cause problems, and you should use the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure instead. If you find it absolutely necessary to use the <b>VIDEOINFO</b> structure, do not access the <b>TrueColorInfo</b>, <b>dwBitMasks</b>, or <b>bmiColors</b> members directly. Instead, use the <a href="https://msdn.microsoft.com/544e9ff2-186a-40d4-a0bd-d75e2091f268">TRUECOLOR</a>, <a href="https://msdn.microsoft.com/32541ee4-53ef-4f0a-b823-bb475a93a195">COLORS</a>, and <a href="https://msdn.microsoft.com/e90ddeab-a3d6-4d34-8608-4d8831d81fe5">BITMASKS</a> macros to return the pointers to the color information. Which of these members is valid depends on the contents of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure.
+Never use this structure unless you are sure that you will use it only to store standard RGB formats. If you store anything other than standard RGB, the variable size of the <b>bmiHeader</b> structure will almost certainly cause problems, and you should use the <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure instead. If you find it absolutely necessary to use the <b>VIDEOINFO</b> structure, do not access the <b>TrueColorInfo</b>, <b>dwBitMasks</b>, or <b>bmiColors</b> members directly. Instead, use the <a href="https://msdn.microsoft.com/544e9ff2-186a-40d4-a0bd-d75e2091f268">TRUECOLOR</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd387891(v=VS.85).aspx">COLORS</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd318230(v=VS.85).aspx">BITMASKS</a> macros to return the pointers to the color information. Which of these members is valid depends on the contents of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure.
 
-The first five data members are equivalent to a <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure. They are expanded in full simply to reduce the amount of dereferencing needed when dealing with a pointer to a <b>VIDEOINFO</b> structure.
+The first five data members are equivalent to a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure. They are expanded in full simply to reduce the amount of dereferencing needed when dealing with a pointer to a <b>VIDEOINFO</b> structure.
 
 For information about using the <b>rcSource</b> and <b>rcTarget</b> members, see <a href="https://msdn.microsoft.com/fdddbffb-c44f-4364-9e2e-b721ba39c74f">Source and Target Rectangles in Video Renderers</a>.
 

@@ -140,7 +140,7 @@ The connection name is the same as the input name specified on one (or more) of 
 
 
 
-<a href="https://msdn.microsoft.com/d901ac66-d4b3-4256-bd7b-53cccb3de644">IWMInputMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps Interface</a>
  
 
  

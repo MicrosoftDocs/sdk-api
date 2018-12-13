@@ -53,7 +53,7 @@ req.redist:
 
 The <b>IWMLicenseRevocationAgent</b> interface handles messages from a DRM license server that involve license revocation.
 
-<b>IWMLicenseRevocationAgent</b> is the primary interface of the license revocation agent object. You can create an instance of the object and retrieve a pointer to its <b>IWMLicenseRevocationAgent</b> interface by calling the <a href="https://msdn.microsoft.com/46898846-780f-4a86-93c7-826f55c358ba">WMCreateLicenseRevocationAgent</a> function.
+<b>IWMLicenseRevocationAgent</b> is the primary interface of the license revocation agent object. You can create an instance of the object and retrieve a pointer to its <b>IWMLicenseRevocationAgent</b> interface by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd757759(v=VS.85).aspx">WMCreateLicenseRevocationAgent</a> function.
 
 
 
@@ -75,7 +75,7 @@ The <b>IWMLicenseRevocationAgent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9006f6c5-f9e7-4d00-a7c2-bbdfcfdd85e7">GetLRBChallenge</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757226(v=VS.85).aspx">GetLRBChallenge</a>
 </td>
 <td align="left" width="63%">
 Generates a response to a license revocation challenge message.
@@ -84,7 +84,7 @@ Generates a response to a license revocation challenge message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/185611f8-beef-47b8-a9c2-abcda7651a18">ProcessLRB</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757227(v=VS.85).aspx">ProcessLRB</a>
 </td>
 <td align="left" width="63%">
 Performs license revocation.

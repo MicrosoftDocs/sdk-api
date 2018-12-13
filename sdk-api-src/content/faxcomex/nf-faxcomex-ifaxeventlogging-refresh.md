@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxEventLogging::Refresh</b> method refreshes <a href="https://msdn.microsoft.com/8acf484d-82c8-477e-bc05-83a0202a42c8">IFaxEventLogging</a> interface information from the fax server.
+The <b>IFaxEventLogging::Refresh</b> method refreshes <a href="https://msdn.microsoft.com/en-us/library/ms684917(v=VS.85).aspx">IFaxEventLogging</a> interface information from the fax server.
 
 
 ## -parameters
@@ -76,9 +76,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When the <a href="https://msdn.microsoft.com/c46f1b55-8211-4c9b-a622-356f2ea2db36">FaxEventLogging</a> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/04783d57-a568-4848-b563-a8ef8544089d">IFaxEventLogging::Save</a> method call are lost.
+When the <a href="https://msdn.microsoft.com/en-us/library/ms684912(v=VS.85).aspx">FaxEventLogging</a> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/ms684805(v=VS.85).aspx">IFaxEventLogging::Save</a> method call are lost.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -88,15 +88,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/c46f1b55-8211-4c9b-a622-356f2ea2db36">FaxEventLogging</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684912(v=VS.85).aspx">FaxEventLogging</a>
 
 
 
-<a href="https://msdn.microsoft.com/8acf484d-82c8-477e-bc05-83a0202a42c8">IFaxEventLogging</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684917(v=VS.85).aspx">IFaxEventLogging</a>
 
 
 
-<a href="https://msdn.microsoft.com/afee6ea0-f63d-4818-9ff0-1887638d232c">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

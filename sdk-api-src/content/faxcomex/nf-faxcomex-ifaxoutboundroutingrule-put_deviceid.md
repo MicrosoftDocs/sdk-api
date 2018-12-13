@@ -66,9 +66,9 @@ This property is read/write.
 
 
 
-This property is valid only if the <a href="https://msdn.microsoft.com/64b1778a-a53f-468b-8ec0-93db23036730">IFaxOutboundRoutingRule::get_UseDevice</a> property is equal to <b>TRUE</b>.
+This property is valid only if the <a href="https://msdn.microsoft.com/en-us/library/ms688614(v=VS.85).aspx">IFaxOutboundRoutingRule::get_UseDevice</a> property is equal to <b>TRUE</b>.
 
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -78,11 +78,11 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690232(v=VS.85).aspx">IFaxOutboundRoutingRule</a>
  
 
  

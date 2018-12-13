@@ -64,7 +64,7 @@ The <code>GetServiceState</code> method indicates whether closed captioning is o
 
 ### -param lpState
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/fdd1dec4-660c-46d0-b18c-b725b813c6a7">AM_LINE21_CCSTATE</a> enumeration.
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373475(v=VS.85).aspx">AM_LINE21_CCSTATE</a> enumeration.
 
 
 ## -returns
@@ -124,7 +124,7 @@ By default, the <a href="https://msdn.microsoft.com/48fa5484-1f8c-4133-b2e1-888c
 
 
 
-<a href="https://msdn.microsoft.com/009e7d14-5946-42f0-8832-7fd8c565a877">IAMLine21Decoder::SetServiceState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319637(v=VS.85).aspx">IAMLine21Decoder::SetServiceState</a>
  
 
  

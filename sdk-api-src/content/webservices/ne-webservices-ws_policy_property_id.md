@@ -63,7 +63,7 @@ Identifies each policy property and its associated
 ### -field WS_POLICY_PROPERTY_STATE
 
 This property is used with <a href="https://msdn.microsoft.com/eebf1729-8492-47d3-90b2-6700d886de4a">WsGetPolicyProperty</a>.
-                 It is of type <a href="https://msdn.microsoft.com/0f6252f4-ab99-4244-be77-92144eed4e3a">WS_POLICY_STATE</a>.
+                 It is of type <a href="https://msdn.microsoft.com/en-us/library/Dd401994(v=VS.85).aspx">WS_POLICY_STATE</a>.
 
 The current state of the policy object.
 
@@ -71,7 +71,7 @@ The current state of the policy object.
 ### -field WS_POLICY_PROPERTY_MAX_ALTERNATIVES
 
 This property is used with <a href="https://msdn.microsoft.com/c3b6f926-331b-46a7-8180-36762abf63d7">WsCreateMetadata</a> when
-                    specifying <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a> as part of the <a href="https://msdn.microsoft.com/72c37aa9-f9d8-4fc5-8ad8-854e01cb54f4">WS_METADATA_PROPERTY*</a> parameter.  It is of type <b>ULONG</b>.
+                    specifying <a href="https://msdn.microsoft.com/en-us/library/Dd401968(v=VS.85).aspx">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a> as part of the <a href="https://msdn.microsoft.com/72c37aa9-f9d8-4fc5-8ad8-854e01cb54f4">WS_METADATA_PROPERTY*</a> parameter.  It is of type <b>ULONG</b>.
                 
 
 This property controls the maximum number of alternatives
@@ -94,7 +94,7 @@ The default value is 32.
 ### -field WS_POLICY_PROPERTY_MAX_DEPTH
 
 This property is used with <a href="https://msdn.microsoft.com/c3b6f926-331b-46a7-8180-36762abf63d7">WsCreateMetadata</a> when
-                    specifying <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a>.
+                    specifying <a href="https://msdn.microsoft.com/en-us/library/Dd401968(v=VS.85).aspx">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a>.
                   It is of type <b>ULONG</b>.
 
 This property controls the maximum depth of any policy that is
@@ -116,7 +116,7 @@ The default value is 32.
 ### -field WS_POLICY_PROPERTY_MAX_EXTENSIONS
 
 This property is used with <a href="https://msdn.microsoft.com/c3b6f926-331b-46a7-8180-36762abf63d7">WsCreateMetadata</a> when
-                    specifying <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a>.
+                    specifying <a href="https://msdn.microsoft.com/en-us/library/Dd401968(v=VS.85).aspx">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a>.
                  It is of type <b>ULONG</b>.
 
 This property controls the maximum number of policy extensions 

@@ -53,7 +53,7 @@ req.redist:
 Initializes a new instance of <code>XMCOLOR</code> from four <code>float</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR </a> from four
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR </a> from four
 	<code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -146,11 +146,11 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 
-<a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d700016-8a5c-4699-b9cb-f9e91296a2a7">XMCOLOR Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415264(v=VS.85).aspx">XMCOLOR Constructors</a>
  
 
  

@@ -61,7 +61,7 @@ Stores unsigned integer data from an <a href="https://msdn.microsoft.com/1a04409
 
 ### -param pDestination [out]
 
-Address of an  <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a> structure in which to store the data.
+Address of an  <a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a> structure in which to store the data.
 
 
 ### -param V
@@ -82,7 +82,7 @@ None.
 
 
 
-For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/189369e9-cb05-4702-a011-3f4fbed7bc2b">XMStoreInt4A</a> 
+For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/en-us/library/Ee420366(v=VS.85).aspx">XMStoreInt4A</a> 
     with a casting operator.
 
 The following pseudocode shows the operation of this function.

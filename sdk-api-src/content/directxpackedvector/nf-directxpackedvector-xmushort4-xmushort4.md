@@ -53,7 +53,7 @@ req.redist:
 Default constructor for <code>XMUSHORT4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/313a6fd0-d681-453a-8390-e0dafa309064">XMUSHORT4</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -83,11 +83,11 @@ Default constructor for <a href="https://msdn.microsoft.com/313a6fd0-d681-453a-8
 
 
 
-<a href="https://msdn.microsoft.com/313a6fd0-d681-453a-8390-e0dafa309064">XMUSHORT4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f822c43-69a6-442a-bb30-adfafe5399ff">XMUSHORT4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415500(v=VS.85).aspx">XMUSHORT4 Constructors</a>
  
 
  

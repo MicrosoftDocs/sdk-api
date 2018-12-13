@@ -110,7 +110,7 @@ No default handling for this event.
 
 
 
-By default, the Filter Graph Manager handles some events (such as <a href="https://msdn.microsoft.com/2e756dea-366c-4024-8fc8-6feabaef1954">EC_REPAINT</a>) without passing them to the application. If you call the <a href="https://msdn.microsoft.com/955d0494-8418-42a1-ab6e-2c779165f578">IMediaEvent::CancelDefaultHandling</a> method to override the default handling for an event, you can restore the default behavior by calling <code>RestoreDefaultHandling</code> with the same event code.
+By default, the Filter Graph Manager handles some events (such as <a href="https://msdn.microsoft.com/2e756dea-366c-4024-8fc8-6feabaef1954">EC_REPAINT</a>) without passing them to the application. If you call the <a href="https://msdn.microsoft.com/en-us/library/Dd406903(v=VS.85).aspx">IMediaEvent::CancelDefaultHandling</a> method to override the default handling for an event, you can restore the default behavior by calling <code>RestoreDefaultHandling</code> with the same event code.
 
 
 
@@ -124,7 +124,7 @@ By default, the Filter Graph Manager handles some events (such as <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent Interface</a>
  
 
  

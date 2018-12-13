@@ -62,7 +62,7 @@ The
 ### -param EventItem
 
 Pointer to 
-<a href="https://msdn.microsoft.com/fc99fd05-4d87-4b6e-b2f3-e00ac61ddafc">MSPEVENTITEM</a>, a struct containing a linked list of 
+<a href="https://msdn.microsoft.com/en-us/library/ms733445(v=VS.85).aspx">MSPEVENTITEM</a>, a struct containing a linked list of 
 <a href="https://msdn.microsoft.com/5286fbe6-3553-42f1-82e6-5bb6f75f3305">MSP_EVENT_INFO</a> structures.
 
 
@@ -71,7 +71,7 @@ Pointer to
 
 
 
-<a href="https://msdn.microsoft.com/77b53b66-38fa-4823-9051-e857da8a7dd7">CMSPCallBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>
  
 
  

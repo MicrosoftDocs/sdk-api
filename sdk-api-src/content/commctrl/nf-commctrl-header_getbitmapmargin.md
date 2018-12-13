@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the width of the margin (in pixels) of a bitmap in an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/67794ad4-3c22-4fad-a1d7-7a5d5cc6ad67">HDM_GETBITMAPMARGIN</a> message explicitly. 
+Gets the width of the margin (in pixels) of a bitmap in an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775314(v=VS.85).aspx">HDM_GETBITMAPMARGIN</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to a header control.
 
 
 
-<a href="https://msdn.microsoft.com/78c33277-2823-4830-92ba-37f89d55f63b">Header_SetBitmapMargin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775413(v=VS.85).aspx">Header_SetBitmapMargin</a>
  
 
  

@@ -101,7 +101,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/3665c06e-0e9f-4a8a-bb72-eb0c402ce7c9">IBDA_IPSinkControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693375(v=VS.85).aspx">IBDA_IPSinkControl Interface</a>
  
 
  

@@ -106,7 +106,7 @@ Pointer to a <a href="https://msdn.microsoft.com/1a319d79-7866-4121-a80f-22e3bf9
 
 
 The callback function receives the address of a single 
-<a href="https://msdn.microsoft.com/01daae8c-9080-4a8d-9f73-3e364ca868fe">GOPHER_ATTRIBUTE_TYPE</a> structure with each call. The enumeration callback function allows the application to avoid having to parse the Gopher attribute information.
+<a href="https://msdn.microsoft.com/en-us/library/Aa384213(v=VS.85).aspx">GOPHER_ATTRIBUTE_TYPE</a> structure with each call. The enumeration callback function allows the application to avoid having to parse the Gopher attribute information.
 
 
 ### -param dwContext [in]

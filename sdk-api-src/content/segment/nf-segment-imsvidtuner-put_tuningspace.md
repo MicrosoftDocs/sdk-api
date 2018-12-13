@@ -77,11 +77,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/b11f3ac4-c351-4017-9801-98d8edec7449">IMSVidTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d46e7d8a-5111-4737-897b-9e1357e3249a">IMSVidTuner::get_TuningSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694708(v=VS.85).aspx">IMSVidTuner::get_TuningSpace</a>
 
 
 

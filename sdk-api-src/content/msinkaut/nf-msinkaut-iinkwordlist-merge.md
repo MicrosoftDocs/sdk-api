@@ -145,7 +145,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/4E872C5A-1223-48EB-9B7D-04B3ADB84B2B">IInkWordList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt832804(v=VS.85).aspx">IInkWordList</a>
 
 
 

@@ -121,11 +121,11 @@ where the last six bytes are randomly generated.
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/034ad344-2266-4662-9797-70031f58f0cd">IWMReaderAdvanced2::GetLogClientID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757433(v=VS.85).aspx">IWMReaderAdvanced2::GetLogClientID</a>
  
 
  

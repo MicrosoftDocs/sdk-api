@@ -79,7 +79,7 @@ Returns a vector whose components are two raised to the power of the correspondi
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8.1. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-<b>XMVectorExp2</b> is new for DirectXMath version 3.05, but it's just a renamed version of the existing <a href="https://msdn.microsoft.com/c9d97292-49ee-4c55-92b4-bcc851cfd23b">XMVectorExp</a> function for Windows 8. 
+<b>XMVectorExp2</b> is new for DirectXMath version 3.05, but it's just a renamed version of the existing <a href="https://msdn.microsoft.com/en-us/library/Ee421017(v=VS.85).aspx">XMVectorExp</a> function for Windows 8. 
 
 
 

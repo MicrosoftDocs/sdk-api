@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>IWMPacketSize</b> interface controls the maximum size of <a href="wmformat_glossary.htm">packets</a> in an ASF file. Its methods are used to control the size of <a href="wmformat_glossary.htm">UDP</a> datagrams when the content, live or on-demand, is streamed across a network.
+The <b>IWMPacketSize</b> interface controls the maximum size of <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packets</a> in an ASF file. Its methods are used to control the size of <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">UDP</a> datagrams when the content, live or on-demand, is streamed across a network.
 
 An <b>IWMPacketSize</b> interface can be obtained for either a profile object, a reader object, or a synchronous reader object. You can obtain a pointer to <b>IWMPacketSize</b> by calling the <b>QueryInterface</b> method of any of the other interfaces in one of the supported objects.
 
@@ -75,7 +75,7 @@ The <b>IWMPacketSize</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8410c524-9c27-48ac-9a48-c17cae782764">GetMaxPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757259(v=VS.85).aspx">GetMaxPacketSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum size of a packet in an ASF file.
@@ -84,7 +84,7 @@ Retrieves the maximum size of a packet in an ASF file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8230c08-e60f-454d-93a5-037685d6151c">SetMaxPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757260(v=VS.85).aspx">SetMaxPacketSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum size of a packet in an ASF file.
@@ -99,7 +99,7 @@ Specifies the maximum size of a packet in an ASF file.
 
 
 
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
 
 
 

@@ -52,7 +52,7 @@ req.redist:
 
 Retrieves names and descriptive strings for codecs and formats.
 
-This interface is implemented by all of the codec encoder objects. You can retrieve a pointer to the <b>IWMCodecStrings</b> interface for any encoder by calling the <b>QueryInterface</b> method of any other interface on the object, such as <a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject</a> or <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>, This interface is not implemented on any of the decoder DMOs.
+This interface is implemented by all of the codec encoder objects. You can retrieve a pointer to the <b>IWMCodecStrings</b> interface for any encoder by calling the <b>QueryInterface</b> method of any other interface on the object, such as <a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject</a> or <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>, This interface is not implemented on any of the decoder DMOs.
 
 
 ## -inheritance

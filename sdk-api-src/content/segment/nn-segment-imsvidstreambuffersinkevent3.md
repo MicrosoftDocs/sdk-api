@@ -63,7 +63,7 @@ This interface is an outgoing connection-point interface. To receive events from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSinkEvent3</b> interface inherits from <a href="https://msdn.microsoft.com/9e44b248-fc8a-44c1-9da6-8afb7649f6f4">IMSVidStreamBufferSinkEvent2</a>. <b>IMSVidStreamBufferSinkEvent3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSinkEvent3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694647(v=VS.85).aspx">IMSVidStreamBufferSinkEvent2</a>. <b>IMSVidStreamBufferSinkEvent3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IMSVidStreamBufferSinkEvent3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2477f082-50a6-4b4b-89ba-ccf4c8894a4b">LicenseChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694651(v=VS.85).aspx">LicenseChange</a>
 </td>
 <td align="left" width="63%">
 The license for the content has changed.
@@ -102,7 +102,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/9e44b248-fc8a-44c1-9da6-8afb7649f6f4">IMSVidStreamBufferSinkEvent2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694647(v=VS.85).aspx">IMSVidStreamBufferSinkEvent2</a>
 
 
 

@@ -80,7 +80,7 @@ Codec of an unknown type.
 
 
 
-This type is used when adding or retrieving the codecs used in a file using <a href="https://msdn.microsoft.com/685eaf9e-6cc8-4c38-be34-afa4b504a326">IWMHeaderInfo2::GetCodecInfo</a> and <a href="https://msdn.microsoft.com/4c5bc019-e4bb-419b-91ce-779fd36d7b4c">IWMHeaderInfo3::AddCodecInfo</a>. When enumerating codecs with the methods of <b>IWMCodecInfo</b>, <b>IWMCodecInfo2</b>, and <b>IWMCodecInfo3</b>, you do not use this type. Those methods use the major media type GUIDs instead.
+This type is used when adding or retrieving the codecs used in a file using <a href="https://msdn.microsoft.com/en-us/library/Dd798506(v=VS.85).aspx">IWMHeaderInfo2::GetCodecInfo</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd798510(v=VS.85).aspx">IWMHeaderInfo3::AddCodecInfo</a>. When enumerating codecs with the methods of <b>IWMCodecInfo</b>, <b>IWMCodecInfo2</b>, and <b>IWMCodecInfo3</b>, you do not use this type. Those methods use the major media type GUIDs instead.
 
 
 

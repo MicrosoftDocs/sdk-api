@@ -83,7 +83,7 @@ Return S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/3d76be50-0e67-4e23-8ce0-8ac9f4ad0c1c">IMSVidStreamBufferSinkEvent3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694650(v=VS.85).aspx">IMSVidStreamBufferSinkEvent3 Interface</a>
  
 
  

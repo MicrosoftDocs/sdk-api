@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
- Gets a flag from a <b>LicenseRenewalResult</b> event that indicates whether the client should check the entitlement token from the license. The client can call the <a href="https://msdn.microsoft.com/ea581065-b10b-4a2a-9090-99d6fd140ea9">IBDA_ConditionalAccessEx::CheckEntitlementToken</a> method to validate the entitlement token.
+ Gets a flag from a <b>LicenseRenewalResult</b> event that indicates whether the client should check the entitlement token from the license. The client can call the <a href="https://msdn.microsoft.com/en-us/library/Dd693263(v=VS.85).aspx">IBDA_ConditionalAccessEx::CheckEntitlementToken</a> method to validate the entitlement token.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ea581065-b10b-4a2a-9090-99d6fd140ea9">IBDA_ConditionalAccessEx::CheckEntitlementToken</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693263(v=VS.85).aspx">IBDA_ConditionalAccessEx::CheckEntitlementToken</a>
 
 
 

@@ -63,7 +63,7 @@ The <b>put_MediaType</b> method sets the DirectShow <b>AM_MEDIA_TYPE</b> structu
 
 ### -param MediaType [in]
 
-An <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that specifies the major type, subtype, format, and so on.
+An <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure that specifies the major type, subtype, format, and so on.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a>
 
 
 

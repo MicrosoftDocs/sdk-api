@@ -81,7 +81,7 @@ On input, a pointer to a <b>DWORD</b> containing the length, in wide characters,
 
 ### -param pType [out]
 
-Pointer to a member of the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
+Pointer to a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
 
 
 ### -param pValue [out]
@@ -162,15 +162,15 @@ You must make two calls to <b>GetPropertyByIndex</b> to properly retrieve all of
 
 
 
-<a href="https://msdn.microsoft.com/0e51a9be-afd4-430b-8339-f45e8f9a7d20">IWMPropertyVault Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/65740366-ac0a-4d18-9f61-a79670998e6a">IWMPropertyVault::GetPropertyByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757420(v=VS.85).aspx">IWMPropertyVault::GetPropertyByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/0fae0ecf-efa9-46d0-8324-4065f351291e">IWMPropertyVault::SetProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757422(v=VS.85).aspx">IWMPropertyVault::SetProperty</a>
  
 
  

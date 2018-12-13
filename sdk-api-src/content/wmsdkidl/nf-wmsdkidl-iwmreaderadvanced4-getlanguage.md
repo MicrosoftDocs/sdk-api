@@ -126,11 +126,11 @@ When setting the language to use for an output, you must set the value of the <b
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c63084cb-f4cf-413b-a3f1-eb6b1400ac93">IWMReaderAdvanced4::GetLanguageCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757455(v=VS.85).aspx">IWMReaderAdvanced4::GetLanguageCount</a>
  
 
  

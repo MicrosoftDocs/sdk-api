@@ -171,7 +171,7 @@ An appropriate HRESULT error code if the provider fails the operation.
 
 
 
-ProjFS invokes this callback one or more times after invoking <a href="https://msdn.microsoft.com/09F284D4-BF39-42C9-A89B-DDC8201362EE">PRJ_START_DIRECTORY_ENUMERATION_CB</a>.  See the Remarks section of <i>PRJ_START_DIRECTORY_ENUMERATION_CB</i> for more information.
+ProjFS invokes this callback one or more times after invoking <a href="https://msdn.microsoft.com/en-us/library/Mt815635(v=VS.85).aspx">PRJ_START_DIRECTORY_ENUMERATION_CB</a>.  See the Remarks section of <i>PRJ_START_DIRECTORY_ENUMERATION_CB</i> for more information.
 
 
 

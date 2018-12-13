@@ -84,11 +84,11 @@ This enumeration is used in two methods, <b>GetNetworkProtocol</b> and <b>SetNet
 
 
 
-<a href="https://msdn.microsoft.com/5007b5be-9521-46f4-8e5c-85e70d48e99f">IWMWriterNetworkSink::GetNetworkProtocol</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798766(v=VS.85).aspx">IWMWriterNetworkSink::GetNetworkProtocol</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ad6b2a4-b50b-45a0-8aa0-cabfc1e59bb7">IWMWriterNetworkSink::SetNetworkProtocol</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798769(v=VS.85).aspx">IWMWriterNetworkSink::SetNetworkProtocol</a>
  
 
  

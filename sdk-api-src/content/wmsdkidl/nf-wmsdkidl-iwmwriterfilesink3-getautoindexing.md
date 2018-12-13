@@ -115,11 +115,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8f1c25-d752-42b6-87b7-9d6a6e38642f">IWMWriterFileSink3::SetAutoIndexing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798757(v=VS.85).aspx">IWMWriterFileSink3::SetAutoIndexing</a>
  
 
  

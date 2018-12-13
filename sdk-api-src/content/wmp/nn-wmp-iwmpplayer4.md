@@ -75,7 +75,7 @@ The <b>IWMPPlayer4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b4f76f2-f62a-4c91-bbc4-166c450608dd">get_isRemote</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563523(v=VS.85).aspx">get_isRemote</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the Windows Media Player control is running in remote mode.
@@ -84,7 +84,7 @@ Retrieves a value indicating whether the Windows Media Player control is running
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37b4b0b1-f16e-42ed-830e-9b0468a66eeb">get_playerApplication</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563524(v=VS.85).aspx">get_playerApplication</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlayerApplication</b> interface when a remoted Windows Media Player control is running.
@@ -93,7 +93,7 @@ Retrieves a pointer to an <b>IWMPPlayerApplication</b> interface when a remoted 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2f08758-cd72-4b6b-bc9c-86f93d1d76c2">openPlayer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563525(v=VS.85).aspx">openPlayer</a>
 </td>
 <td align="left" width="63%">
 Opens Windows Media Player using the specified URL.
@@ -102,7 +102,7 @@ Opens Windows Media Player using the specified URL.
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPPlayer4</b> interface either by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a> interface or by calling the COM <b>CoCreateInstance</b> method.
+Retrieve a pointer to an <b>IWMPPlayer4</b> interface either by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a> interface or by calling the COM <b>CoCreateInstance</b> method.
 
 	
 
@@ -112,31 +112,31 @@ Retrieve a pointer to an <b>IWMPPlayer4</b> interface either by calling the <b>Q
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f839bfe-bf67-49eb-8743-57713e1be7c5">IWMPCore2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563217(v=VS.85).aspx">IWMPCore2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3004551e-ce36-4f15-88c3-93b2bfaa72fc">IWMPCore3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563219(v=VS.85).aspx">IWMPCore3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf51d54d-d0aa-42ad-8180-d1f6487baac8">IWMPPlayer2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563515(v=VS.85).aspx">IWMPPlayer2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d8a9414-5c5c-40e0-a34c-430ead01ef26">IWMPPlayer3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563521(v=VS.85).aspx">IWMPPlayer3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcdd7ea9-66b2-40e9-89a1-0fec073ccd92">IWMPPlayerApplication Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563527(v=VS.85).aspx">IWMPPlayerApplication Interface</a>
 
 
 

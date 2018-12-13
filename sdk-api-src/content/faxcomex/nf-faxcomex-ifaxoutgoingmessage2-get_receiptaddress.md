@@ -65,11 +65,11 @@ Specifies the address to which the delivery report is sent.
 
 
 
-The type of address will vary according to the value of the <a href="https://msdn.microsoft.com/507c6944-a399-42a3-9118-6f05f204e358">IFaxOutgoingMessage2::ReceiptType</a> property as indicated in this table.
+The type of address will vary according to the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa358988(v=VS.85).aspx">IFaxOutgoingMessage2::ReceiptType</a> property as indicated in this table.
 
 <table class="clsStd">
 <tr>
-<th>Value of <a href="https://msdn.microsoft.com/507c6944-a399-42a3-9118-6f05f204e358">IFaxOutgoingMessage2::ReceiptType</a> property</th>
+<th>Value of <a href="https://msdn.microsoft.com/en-us/library/Aa358988(v=VS.85).aspx">IFaxOutgoingMessage2::ReceiptType</a> property</th>
 <th>Type of address</th>
 </tr>
 <tr>
@@ -91,11 +91,11 @@ The type of address will vary according to the value of the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6468db0-ea8d-4460-b389-43608337bd96">IFaxOutgoingMessage2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358984(v=VS.85).aspx">IFaxOutgoingMessage2</a>
  
 
  

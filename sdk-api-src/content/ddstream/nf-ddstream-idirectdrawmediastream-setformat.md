@@ -137,7 +137,7 @@ If the stream already has allocated samples and the sample format doesn't match 
 
 
 
-<a href="https://msdn.microsoft.com/858af0c3-9e22-45d8-ab08-307eb39a8977">IDirectDrawMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406806(v=VS.85).aspx">IDirectDrawMediaStream Interface</a>
  
 
  

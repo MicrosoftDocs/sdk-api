@@ -170,7 +170,7 @@ The flag is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/98052ECB-9385-45C9-A03C-3F312ADD9872">IInkTablets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846807(v=VS.85).aspx">IInkTablets</a>
 
 
 

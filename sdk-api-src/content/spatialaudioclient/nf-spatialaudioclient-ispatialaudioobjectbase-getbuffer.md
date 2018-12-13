@@ -133,7 +133,7 @@ The pointers retrieved by <b>GetBuffer</b> should not be used after
 
 
 
-<a href="https://msdn.microsoft.com/54721875-D93A-4C7E-A07E-C286E1A409D3">ISpatialAudioObjectBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>
  
 
  

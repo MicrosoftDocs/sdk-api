@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>HEADER</b> macro returns the address of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> within a <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a>. 
+The <b>HEADER</b> macro returns the address of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> within a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a>. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>HEADER</b> macro returns the address of the <a href="https://msdn.microso
 
 ### -param pVideoInfo
 
-Pointer to a <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure. 
 
 
 ## -see-also

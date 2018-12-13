@@ -73,7 +73,7 @@ Integer that specifies the maximum time interval, in hours, that stateless IPv6 
 
 
 
-<a href="https://msdn.microsoft.com/8670c69b-1fc0-4b60-b5cc-a616d56c9319">DHCPV6_STATELESS_PARAM_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404366(v=VS.85).aspx">DHCPV6_STATELESS_PARAM_TYPE</a>
 
 
 

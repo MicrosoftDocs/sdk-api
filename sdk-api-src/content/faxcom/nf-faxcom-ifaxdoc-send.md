@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>Send</b> method transmits the document specified by the <a href="https://msdn.microsoft.com/fe9f0c64-7722-49ca-809c-5e59acacf474">FileName</a> property of a <a href="https://msdn.microsoft.com/11462af9-20c2-4661-801e-dcc3e092283d">FaxDoc</a> object. The method can send the fax to the fax number specified by the <a href="https://msdn.microsoft.com/462ce14c-3440-4e01-919b-9587c19c31a4">FaxNumber</a> property.
+The <b>Send</b> method transmits the document specified by the <a href="https://msdn.microsoft.com/en-us/library/ms692340(v=VS.85).aspx">FileName</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The method can send the fax to the fax number specified by the <a href="https://msdn.microsoft.com/en-us/library/ms692360(v=VS.85).aspx">FaxNumber</a> property.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://msdn.microsoft.com/fe9f0c64-7722-49ca-809c-5e59acacf474">FileName</a> property is required to send a fax transmission using a call to the <b>IFaxDoc::Send</b> method. The <a href="https://msdn.microsoft.com/462ce14c-3440-4e01-919b-9587c19c31a4">FaxNumber</a> property is also required. For more information, see <a href="https://msdn.microsoft.com/bee4d50b-d6e3-432b-9db6-c7df837079f4">Transmitting Faxes</a>.
+The <a href="https://msdn.microsoft.com/en-us/library/ms692340(v=VS.85).aspx">FileName</a> property is required to send a fax transmission using a call to the <b>IFaxDoc::Send</b> method. The <a href="https://msdn.microsoft.com/en-us/library/ms692360(v=VS.85).aspx">FaxNumber</a> property is also required. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
 
 
 
@@ -91,15 +91,15 @@ The <a href="https://msdn.microsoft.com/fe9f0c64-7722-49ca-809c-5e59acacf474">Fi
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/16f68004-fa4d-40c7-90a5-0bb562e72bd7">IFaxDoc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692281(v=VS.85).aspx">IFaxDoc</a>
  
 
  

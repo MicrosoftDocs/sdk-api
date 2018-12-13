@@ -81,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/83925bca-8cb2-4f79-9aca-1bee0fb4a96a">IMSVidRect::get_Height</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694604(v=VS.85).aspx">IMSVidRect::get_Height</a>
  
 
  

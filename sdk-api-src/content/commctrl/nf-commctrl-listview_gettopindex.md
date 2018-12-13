@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Gets the index of the topmost visible item when in list or report view. You can use this macro or send the <a href="https://msdn.microsoft.com/b5692de3-338b-422c-9dee-d3ba96f2b53d">LVM_GETTOPINDEX</a> message explicitly. 
+Gets the index of the topmost visible item when in list or report view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761087(v=VS.85).aspx">LVM_GETTOPINDEX</a> message explicitly. 
 
 
 ## -parameters

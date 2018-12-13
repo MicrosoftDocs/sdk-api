@@ -64,19 +64,19 @@ The <b>DS_REPSYNCALL_UPDATE</b> structure contains status data about the replica
 
 ### -field event
 
-Contains a <a href="https://msdn.microsoft.com/a732a906-0e26-45f6-b89c-58f2277057ba">DS_REPSYNCALL_EVENT</a> value that describes the event which the <b>DS_REPSYNCALL_UPDATE</b> structure represents.
+Contains a <a href="https://msdn.microsoft.com/en-us/library/ms676280(v=VS.85).aspx">DS_REPSYNCALL_EVENT</a> value that describes the event which the <b>DS_REPSYNCALL_UPDATE</b> structure represents.
 
 
 ### -field pErrInfo
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a> structure that contains error data about the replication performed by the <a href="https://msdn.microsoft.com/2608adde-4f18-4048-a96f-d736ff09cd4b">DsReplicaSyncAll</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a> structure that contains error data about the replication performed by the <a href="https://msdn.microsoft.com/2608adde-4f18-4048-a96f-d736ff09cd4b">DsReplicaSyncAll</a> function.
 
 
 ### -field pSync
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/54a6695e-3493-428b-9e8d-7f781e7b3961">DS_REPSYNCALL_SYNC</a> structure that identifies the source and destination servers that have either initiated or finished synchronization.
+<a href="https://msdn.microsoft.com/en-us/library/ms676281(v=VS.85).aspx">DS_REPSYNCALL_SYNC</a> structure that identifies the source and destination servers that have either initiated or finished synchronization.
 
 
 ## -see-also
@@ -84,15 +84,15 @@ Pointer to a
 
 
 
-<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a732a906-0e26-45f6-b89c-58f2277057ba">DS_REPSYNCALL_EVENT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676280(v=VS.85).aspx">DS_REPSYNCALL_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/54a6695e-3493-428b-9e8d-7f781e7b3961">DS_REPSYNCALL_SYNC</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676281(v=VS.85).aspx">DS_REPSYNCALL_SYNC</a>
 
 
 

@@ -52,7 +52,7 @@ req.redist:
 
 
 
-The <b>IMediaEventEx</b> interface inherits the <a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent</a> interface, which contains methods for retrieving event notifications and for overriding the filter graph's default handling of events. <b>IMediaEventEx</b> adds methods that enable an application window to receive messages when events occur. 
+The <b>IMediaEventEx</b> interface inherits the <a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent</a> interface, which contains methods for retrieving event notifications and for overriding the filter graph's default handling of events. <b>IMediaEventEx</b> adds methods that enable an application window to receive messages when events occur. 
 
 The Filter Graph Manager implements this interface.
 
@@ -63,7 +63,7 @@ For more information about event notification, see <a href="https://msdn.microso
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEventEx</b> interface inherits from <a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent</a>. <b>IMediaEventEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEventEx</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent</a>. <b>IMediaEventEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IMediaEventEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/797c5ee2-5a3c-4e95-b4b8-e29b39460ee0">GetNotifyFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406898(v=VS.85).aspx">GetNotifyFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether event notifications are enabled.
@@ -87,7 +87,7 @@ Determines whether event notifications are enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a41b6eb-3fe9-4b2e-bcbb-a407e0e6ab5e">SetNotifyFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406899(v=VS.85).aspx">SetNotifyFlags</a>
 </td>
 <td align="left" width="63%">
 Enables or disables event notifications.
@@ -96,7 +96,7 @@ Enables or disables event notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e582c79-b8c7-40be-97fd-75d5b7965570">SetNotifyWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406900(v=VS.85).aspx">SetNotifyWindow</a>
 </td>
 <td align="left" width="63%">
 Registers a window to process event notifications.
@@ -111,7 +111,7 @@ Registers a window to process event notifications.
 
 
 
-<a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent</a>
  
 
  

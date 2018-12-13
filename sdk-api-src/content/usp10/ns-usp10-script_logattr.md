@@ -195,7 +195,7 @@ The character is not a valid position for showing the caret upon a word movement
 
 ### -field fInvalid
 
-Value used to mark characters that form an invalid or undisplayable combination. Possible values are defined in the following table. A script that can set this member has the <b>fInvalidLogAttr</b> member set in its <a href="https://msdn.microsoft.com/473c1265-1c2c-48f3-a852-c701bebcf9eb">SCRIPT_PROPERTIES</a> structure.
+Value used to mark characters that form an invalid or undisplayable combination. Possible values are defined in the following table. A script that can set this member has the <b>fInvalidLogAttr</b> member set in its <a href="https://msdn.microsoft.com/en-us/library/Dd374042(v=VS.85).aspx">SCRIPT_PROPERTIES</a> structure.
 
 <table>
 <tr>
@@ -236,7 +236,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/473c1265-1c2c-48f3-a852-c701bebcf9eb">SCRIPT_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd374042(v=VS.85).aspx">SCRIPT_PROPERTIES</a>
 
 
 

@@ -156,15 +156,15 @@ You should make two calls to <b>GetDescription</b>. On the first call, pass <b>N
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/79ff6ba8-b94b-4c06-a7a5-18b6a8ebc222">IWMProfile::SetDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757414(v=VS.85).aspx">IWMProfile::SetDescription</a>
  
 
  

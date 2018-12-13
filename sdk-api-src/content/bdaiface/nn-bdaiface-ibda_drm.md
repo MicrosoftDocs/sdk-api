@@ -72,7 +72,7 @@ The <b>IBDA_DRM</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dff38609-9e90-491c-b8c4-33fd07471895">GetDRMPairingStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693319(v=VS.85).aspx">GetDRMPairingStatus</a>
 </td>
 <td align="left" width="63%">
 Queries the status of the DRM handshake.
@@ -81,7 +81,7 @@ Queries the status of the DRM handshake.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3cd9e0c-cfb1-445f-bafc-c1a4f24550f8">PerformDRMPairing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693320(v=VS.85).aspx">PerformDRMPairing</a>
 </td>
 <td align="left" width="63%">
 Requests the tuner to perform a DRM handshake.

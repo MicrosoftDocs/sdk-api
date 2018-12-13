@@ -70,7 +70,7 @@ Anchor position at which to end retrieval of formatted text.
 
 ### -param ppDataObject [out]
 
-Pointer to the <a href="_ole_idataobject">IDataObject</a> object that contains the formatted text.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> object that contains the formatted text.
 
 
 ## -returns
@@ -148,7 +148,7 @@ Text, embedded objects, and any formatting are wrapped into a single <b>IDataObj
 
 
 
-<a href="_ole_idataobject">IDataObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
 
 
 

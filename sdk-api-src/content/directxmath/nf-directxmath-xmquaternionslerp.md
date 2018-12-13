@@ -108,7 +108,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/ca448ac9-455c-4f77-97c1-be31f8108874">XMQuaternionSlerpV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420178(v=VS.85).aspx">XMQuaternionSlerpV</a>
  
 
  

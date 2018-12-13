@@ -52,7 +52,7 @@ req.redist:
 
 Default constructor for <code>XMUINT3</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -87,11 +87,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3737cb1-36a0-4dbc-94d5-237e7395670e">XMUINT3 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449560(v=VS.85).aspx">XMUINT3 Constructors</a>
  
 
  

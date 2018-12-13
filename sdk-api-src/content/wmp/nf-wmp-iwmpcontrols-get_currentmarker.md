@@ -110,19 +110,19 @@ Until the current media item is set (using <b>IWMPCore::put_URL</b> or <b>IWMPCo
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b48e50b3-46d2-4994-bbbf-668f4986109a">IWMPControls::put_currentMarker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563209(v=VS.85).aspx">IWMPControls::put_currentMarker</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a8625b9-19a1-41dc-9bb8-afca4bfebf5a">IWMPCore::put_URL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563243(v=VS.85).aspx">IWMPCore::put_URL</a>
 
 
 
-<a href="https://msdn.microsoft.com/003d1937-13f0-4d2c-ad5c-a83569295b62">IWMPCore::put_currentMedia</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563241(v=VS.85).aspx">IWMPCore::put_currentMedia</a>
  
 
  

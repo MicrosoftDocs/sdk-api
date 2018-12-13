@@ -52,16 +52,16 @@ req.redist:
 
 
 
-With this interface, the application can specify additional video-specific parameters not available on the <a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps</a> interface.
+With this interface, the application can specify additional video-specific parameters not available on the <a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a> interface.
 
-To get access to the methods of this interface, call <b>QueryInterface</b> on a stream configuration object. For more information, see <a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>).
+To get access to the methods of this interface, call <b>QueryInterface</b> on a stream configuration object. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>).
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMVideoMediaProps</b> interface inherits from <a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps</a>. <b>IWMVideoMediaProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMVideoMediaProps</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a>. <b>IWMVideoMediaProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IWMVideoMediaProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/125d352e-b181-4baa-8763-21315534beea">GetMaxKeyFrameSpacing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798712(v=VS.85).aspx">GetMaxKeyFrameSpacing</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum interval between key frames.
@@ -85,7 +85,7 @@ Retrieves the maximum interval between key frames.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9edfe229-ffc5-4266-93af-1938bbd577c2">GetQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798713(v=VS.85).aspx">GetQuality</a>
 </td>
 <td align="left" width="63%">
 Retrieves the quality setting for the video stream.
@@ -94,7 +94,7 @@ Retrieves the quality setting for the video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d1a9090-2658-45bd-8893-30e063d10aa8">SetMaxKeyFrameSpacing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798714(v=VS.85).aspx">SetMaxKeyFrameSpacing</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum interval between key frames.
@@ -103,7 +103,7 @@ Specifies the maximum interval between key frames.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f91380d-b8c8-47db-99ca-12c897bdff20">SetQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798715(v=VS.85).aspx">SetQuality</a>
 </td>
 <td align="left" width="63%">
 Specifies the quality setting for the video stream.
@@ -120,31 +120,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a>
 </td>
 <td>IID_IWMMediaProps</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/0e51a9be-afd4-430b-8339-f45e8f9a7d20">IWMPropertyVault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault</a>
 </td>
 <td>IID_IWMPropertyVault</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a>
 </td>
 <td>IID_IWMStreamConfig</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2</a>
 </td>
 <td>IID_IWMStreamConfig2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/c79ddfb8-b1ff-475c-8c9d-01e0dbe3f681">IWMStreamConfig3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798554(v=VS.85).aspx">IWMStreamConfig3</a>
 </td>
 <td>IID_IWMStreamConfig3</td>
 </tr>
@@ -156,7 +156,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a>
 
 
 

@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-You should call this method to cancel the playlist burn process only after calling <a href="https://msdn.microsoft.com/a20a70af-49bc-408f-8c64-779525436f8d">InitPlaylistBurn</a> and before your status callback receives the WMT_INIT_PLAYLIST_BURN message. If you need to cancel the playlist burn after initialization is finished, you should call the <a href="https://msdn.microsoft.com/355f23eb-3cdb-4c27-bc48-499f349aef2b">EndPlaylistBurn</a> method and pass the E_ABORT error code.
+You should call this method to cancel the playlist burn process only after calling <a href="https://msdn.microsoft.com/en-us/library/Dd743563(v=VS.85).aspx">InitPlaylistBurn</a> and before your status callback receives the WMT_INIT_PLAYLIST_BURN message. If you need to cancel the playlist burn after initialization is finished, you should call the <a href="https://msdn.microsoft.com/en-us/library/Dd743558(v=VS.85).aspx">EndPlaylistBurn</a> method and pass the E_ABORT error code.
 
 
 
@@ -108,7 +108,7 @@ You should call this method to cancel the playlist burn process only after calli
 
 
 
-<a href="https://msdn.microsoft.com/a0e1a4f3-4226-44a2-b38e-e5512fda2048">IWMReaderPlaylistBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743552(v=VS.85).aspx">IWMReaderPlaylistBurn Interface</a>
  
 
  

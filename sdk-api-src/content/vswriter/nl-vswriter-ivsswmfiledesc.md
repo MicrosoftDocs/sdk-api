@@ -54,7 +54,7 @@ req.redist:
 The 
 <b>IVssWMFiledesc</b> interface is a C++ (not COM) interface returned to a calling application by a number of query methods. It provides detailed information about a file or set of files (a file set).
 
-The calling application is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources held by the returned 
+The calling application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources held by the returned 
 <b>IVssWMFiledesc</b> interface when it is no longer needed.
 
 The following methods return an 

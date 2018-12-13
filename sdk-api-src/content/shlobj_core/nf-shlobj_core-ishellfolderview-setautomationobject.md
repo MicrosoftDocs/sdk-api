@@ -62,7 +62,7 @@ Replaces the internal automation object of the <a href="https://msdn.microsoft.c
 
 ### -param pdisp [in, optional]
 
-Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>*</b>
 
 A pointer to the new automation object.
 

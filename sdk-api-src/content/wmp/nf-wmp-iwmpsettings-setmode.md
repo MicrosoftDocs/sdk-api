@@ -139,11 +139,11 @@ When the showFrame mode is active, Windows Media Player must access the track co
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5275cb99-8007-4af2-9137-694de18c5434">IWMPSettings::getMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563654(v=VS.85).aspx">IWMPSettings::getMode</a>
  
 
  

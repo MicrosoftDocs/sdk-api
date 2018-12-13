@@ -60,7 +60,7 @@ The <b>get_SuppressEffects</b> method retrieves settings that control power mana
 
 ### -param bSuppress [out]
 
-Receives the value VARIANT_TRUE or VARIANT_FALSE. For more information, see <a href="https://msdn.microsoft.com/d362addb-626a-42f8-9b95-82189a338527">IMSVidVideoRenderer2::put_SuppressEffects</a>.
+Receives the value VARIANT_TRUE or VARIANT_FALSE. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694718(v=VS.85).aspx">IMSVidVideoRenderer2::put_SuppressEffects</a>.
 
 
 ## -returns
@@ -107,7 +107,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/caaa2cf1-15be-47dc-82db-06915a55ba03">IMSVidVideoRenderer2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
  
 
  

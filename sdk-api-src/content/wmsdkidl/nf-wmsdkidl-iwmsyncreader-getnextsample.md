@@ -97,7 +97,7 @@ Pointer to a <b>DWORD</b> containing one or more of the following flags.
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
@@ -217,11 +217,11 @@ OR
 
 
 
-Both compressed and uncompressed samples are delivered by this method, depending upon whether you have called <a href="https://msdn.microsoft.com/cf998ecc-e80e-4eb3-9cba-61bd0b665d51">SetReadStreamSamples</a> for the streams in the file. This is the only method to retrieve samples using the synchronous reader.
+Both compressed and uncompressed samples are delivered by this method, depending upon whether you have called <a href="https://msdn.microsoft.com/en-us/library/Dd798706(v=VS.85).aspx">SetReadStreamSamples</a> for the streams in the file. This is the only method to retrieve samples using the synchronous reader.
 
-To begin receiving samples from anywhere in the file other than the beginning, you must first specify a range for playback. To specify a playback range based on presentation times, use the <a href="https://msdn.microsoft.com/d96c97ad-085d-4753-8efb-8a6bcb284e78">SetRange</a> method. To set a range using frame numbers, use the <a href="https://msdn.microsoft.com/3d53838c-0d07-4aa6-8797-9ed7e07cb8fe">SetRangeByFrame</a> method. When you have received all of the samples in the file, or in the range if you specified one, the next call made to <b>GetNextSample</b> returns NS_E_NO_MORE_SAMPLES.
+To begin receiving samples from anywhere in the file other than the beginning, you must first specify a range for playback. To specify a playback range based on presentation times, use the <a href="https://msdn.microsoft.com/en-us/library/Dd798704(v=VS.85).aspx">SetRange</a> method. To set a range using frame numbers, use the <a href="https://msdn.microsoft.com/en-us/library/Dd798705(v=VS.85).aspx">SetRangeByFrame</a> method. When you have received all of the samples in the file, or in the range if you specified one, the next call made to <b>GetNextSample</b> returns NS_E_NO_MORE_SAMPLES.
 
-The timeline is presentation time if no output setting is specified. To get early delivery for a stream, use <a href="https://msdn.microsoft.com/8deb322f-8b52-46cf-9b5c-76fa34b6bde2">SetOutputSetting</a>.
+The timeline is presentation time if no output setting is specified. To get early delivery for a stream, use <a href="https://msdn.microsoft.com/en-us/library/Dd798600(v=VS.85).aspx">SetOutputSetting</a>.
 
 You can call <b>GetNextSample</b> in one of three ways:
 
@@ -232,7 +232,7 @@ You can call <b>GetNextSample</b> in one of three ways:
 </ul>
 You can also use <i>GetNextSample</i> to retrieve precise times for video frames when reading compressed data. For more information, see To Retrieve Accurate Presentation Times for Compressed Samples by Frame.
 
-<div class="alert"><b>Note</b>  To ensure that you get correct sample durations from this method, you must configure the output for the stream. Call the <a href="https://msdn.microsoft.com/8deb322f-8b52-46cf-9b5c-76fa34b6bde2">SetOutputSetting</a> method to set the g_wszVideoSampleDurations setting to <b>TRUE</b>. Subsequent calls to <b>GetNextSample</b> will return correct sample durations.</div>
+<div class="alert"><b>Note</b>  To ensure that you get correct sample durations from this method, you must configure the output for the stream. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd798600(v=VS.85).aspx">SetOutputSetting</a> method to set the g_wszVideoSampleDurations setting to <b>TRUE</b>. Subsequent calls to <b>GetNextSample</b> will return correct sample durations.</div>
 <div> </div>
 
 
@@ -242,11 +242,11 @@ You can also use <i>GetNextSample</i> to retrieve precise times for video frames
 
 
 
-<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
  
 
  

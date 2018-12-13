@@ -290,7 +290,7 @@ Returns the number of characters converted, including the terminating zero chara
 
 
 
-<a href="cryptography_functions.htm">Data Conversion Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Conversion Functions</a>
  
 
  

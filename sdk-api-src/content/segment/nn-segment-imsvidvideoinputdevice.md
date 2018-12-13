@@ -52,7 +52,7 @@ req.redist:
 
 The <b>IMSVidVideoInputDevice</b> interface represents a video input device. This interface inherits from the <a href="https://msdn.microsoft.com/5b413ade-4ab2-45fa-98b2-fd93c8f89a43">IMSVidInputDevice</a> interface but adds no methods to it. It exists to support polymorphism.
 
-The <a href="https://msdn.microsoft.com/b11f3ac4-c351-4017-9801-98d8edec7449">IMSVidTuner</a> interface, which represents video tuning devices, inherits from this interface.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner</a> interface, which represents video tuning devices, inherits from this interface.
 
 
 ## -remarks

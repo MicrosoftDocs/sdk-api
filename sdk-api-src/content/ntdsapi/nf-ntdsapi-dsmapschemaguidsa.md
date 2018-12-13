@@ -80,7 +80,7 @@ Pointer to an array of <b>GUID</b> values for the objects to be mapped.
 ### -param ppGuidMap [out]
 
 Pointer to a variable that receives a pointer to an array of 
-<a href="https://msdn.microsoft.com/8128f511-ebdc-479d-b99c-ed210c72d151">DS_SCHEMA_GUID_MAP</a> structures that contain the display names of the objects in <i>rGuids</i>. This array must be deallocated using 
+<a href="https://msdn.microsoft.com/en-us/library/ms676283(v=VS.85).aspx">DS_SCHEMA_GUID_MAP</a> structures that contain the display names of the objects in <i>rGuids</i>. This array must be deallocated using 
 <a href="https://msdn.microsoft.com/54d6acb9-5602-4996-a483-08534143bc0a">DsFreeSchemaGuidMap</a>.
 
 
@@ -98,7 +98,7 @@ Returns a standard error code that includes the following values.
 
 
 
-<a href="https://msdn.microsoft.com/8128f511-ebdc-479d-b99c-ed210c72d151">DS_SCHEMA_GUID_MAP</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676283(v=VS.85).aspx">DS_SCHEMA_GUID_MAP</a>
 
 
 

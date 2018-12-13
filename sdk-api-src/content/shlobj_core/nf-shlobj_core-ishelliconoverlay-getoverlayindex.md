@@ -69,7 +69,7 @@ Pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f70
 
 Type: <b>int*</b>
 
-Pointer to a value that states the overlay index (one-based) in the system image list. This index is equivalent to the <i>iOverlay</i> value that is specified when you add an overlay image to a private image list with the <a href="https://msdn.microsoft.com/8cb1babc-01bd-4aae-9bc7-073050242ce4">ImageList::SetOverlayImage</a> function.
+Pointer to a value that states the overlay index (one-based) in the system image list. This index is equivalent to the <i>iOverlay</i> value that is specified when you add an overlay image to a private image list with the <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList::SetOverlayImage</a> function.
 
 
 ## -returns

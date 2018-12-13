@@ -70,7 +70,7 @@ The <b>IBDA_FDC</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28bc019c-1b5e-43e2-9fb4-7274d9c0e275">AddPid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693348(v=VS.85).aspx">AddPid</a>
 </td>
 <td align="left" width="63%">
 Adds one or more packet identifiers (PIDs) to the MPEG flow.
@@ -79,7 +79,7 @@ Adds one or more packet identifiers (PIDs) to the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2cd39bbc-106b-4411-bc42-a1adc360e121">AddTid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693349(v=VS.85).aspx">AddTid</a>
 </td>
 <td align="left" width="63%">
 Adds one or more table identifiers (TIDs) to the MPEG flow.
@@ -88,7 +88,7 @@ Adds one or more table identifiers (TIDs) to the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/feaa3d72-353f-45ed-b458-7345bbe07dd2">GetStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693350(v=VS.85).aspx">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the tuning status of the FDC stream.
@@ -97,7 +97,7 @@ Gets the tuning status of the FDC stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77c83234-c752-4f94-a3f1-cc62a5da894a">GetTableSection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693351(v=VS.85).aspx">GetTableSection</a>
 </td>
 <td align="left" width="63%">
 Gets the latest table section.
@@ -106,7 +106,7 @@ Gets the latest table section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1277726c-6443-416c-a5d4-044d5f885af7">RemovePid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693352(v=VS.85).aspx">RemovePid</a>
 </td>
 <td align="left" width="63%">
 Removes one or more PIDs from the MPEG flow.
@@ -115,7 +115,7 @@ Removes one or more PIDs from the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fac8f486-e24e-4996-a90f-f8947d43d209">RemoveTid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693353(v=VS.85).aspx">RemoveTid</a>
 </td>
 <td align="left" width="63%">
 Removes one or more TIDs from the MPEG flow.
@@ -124,7 +124,7 @@ Removes one or more TIDs from the MPEG flow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff8483d3-6c4c-4786-a99b-bf3575a18fdb">RequestTables</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693354(v=VS.85).aspx">RequestTables</a>
 </td>
 <td align="left" width="63%">
 Requests MPEG-2 table sections, filtered by TID.

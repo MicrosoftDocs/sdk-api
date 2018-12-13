@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-A <b>MapiRecipDesc</b> structure contains information about a message sender or recipient. For Unicode support, use the <a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a> structure.
+A <b>MapiRecipDesc</b> structure contains information about a message sender or recipient. For Unicode support, use the <a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">MapiRecipDescW</a> structure.
 
 
 ## -struct-fields
@@ -159,15 +159,15 @@ Pointer to an opaque entry identifier used by a messaging system service provide
 
 
 
-<a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh707273(v=VS.85).aspx">MapiMessageW</a>
 
 
 
-<a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">MapiRecipDescW</a>
  
 
  

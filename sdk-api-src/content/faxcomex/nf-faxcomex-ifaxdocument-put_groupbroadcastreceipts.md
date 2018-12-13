@@ -67,15 +67,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/82a9e599-35d3-4fca-954f-dbc579c023f5">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693479(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

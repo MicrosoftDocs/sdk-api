@@ -106,7 +106,7 @@ This flag forces the enumeration to include only pure instances of this class, e
 #### WBEM_FLAG_SEND_STATUS
 
 This flag registers with Windows Management a request to receive intermediate status reports through the clients implementation of 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
 
 
 
@@ -133,7 +133,7 @@ Typically NULL. Otherwise, this is a pointer to an
 Pointer to the caller's implementation of 
 <a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>. This handler receives the objects as they become available. If any error code is returned, then the supplied 
 <b>IWbemObjectSink</b> pointer is not used. If <b>WBEM_S_NO_ERROR</b> is returned, then the user's 
-<b>IWbemObjectSink</b> implementation will be called to indicate the result of the operation. Windows Management only calls <a href="_com_iunknown_addref">AddRef</a> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For more information, see 
+<b>IWbemObjectSink</b> implementation will be called to indicate the result of the operation. Windows Management only calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For more information, see 
 <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
 
@@ -149,12 +149,12 @@ COM-specific error codes also may be returned if network problems cause you to l
 
 An instance provider can report success or failure with either the return code from 
 <b>CreateInstanceEnumAsync</b>, or through a call to 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> made through <i>pResponseHandler</i>. If you choose to call 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> made through <i>pResponseHandler</i>. If you choose to call 
 <b>SetStatus</b>, the return code sent through <i>pResponseHandler</i> takes precedence.
 
 If 
 <b>CreateInstanceEnumAsync</b> returns <b>WBEM_S_NO_ERROR</b>, WMI waits for a result from the 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> method of the response handler. WMI waits indefinitely on a local connection, or until a remote connection time-out occurs.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> method of the response handler. WMI waits indefinitely on a local connection, or until a remote connection time-out occurs.
 
 
 
@@ -164,8 +164,8 @@ If
 
 
 The 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
-<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> if error conditions occur.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> if error conditions occur.
 
 Because the callback might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.
 
@@ -226,7 +226,7 @@ HRESULT CStdProvider::CreateInstanceEnumAsync(
 ```
 
 
-In the previous example, the instance provider acquires a thread from WMI to perform any necessary operations. You may want to call the sink <a href="_com_iunknown_addref">AddRef</a> method and create another thread for delivering the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether or not  the provider chooses the single thread design over the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
+In the previous example, the instance provider acquires a thread from WMI to perform any necessary operations. You may want to call the sink <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method and create another thread for delivering the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether or not  the provider chooses the single thread design over the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="code"></div>
 

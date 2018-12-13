@@ -175,7 +175,7 @@ The facility should not use the process heap for any persistent or transient all
 
 ### -field PSS_CREATE_MEASURE_PERFORMANCE
 
-Measure performance of the facility. Performance counters can be retrieved via <a href="https://msdn.microsoft.com/D9580147-28ED-4FF5-B7DB-844ACB19769F">PssQuerySnapshot</a> with the <b>PSS_QUERY_PERFORMANCE_COUNTERS</b> information class of <a href="https://msdn.microsoft.com/1C3E5BF4-5AC9-4012-B29D-49C35C0AF90B">PSS_QUERY_INFORMATION_CLASS</a>.
+Measure performance of the facility. Performance counters can be retrieved via <a href="https://msdn.microsoft.com/D9580147-28ED-4FF5-B7DB-844ACB19769F">PssQuerySnapshot</a> with the <b>PSS_QUERY_PERFORMANCE_COUNTERS</b> information class of <a href="https://msdn.microsoft.com/en-us/library/Dn457851(v=VS.85).aspx">PSS_QUERY_INFORMATION_CLASS</a>.
 
 
 ### -field PSS_CREATE_RELEASE_SECTION

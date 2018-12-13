@@ -90,7 +90,7 @@ The <a href="https://msdn.microsoft.com/7719ed9d-e3b9-4c84-b587-4e120b5cabf8">Vi
 <h3><a id="Video_Renderer_only_"></a><a id="video_renderer_only_"></a><a id="VIDEO_RENDERER_ONLY_"></a>Video Renderer only:</h3>
 This method fails if the renderer is using DirectDraw acceleration. Unfortunately, this depends on the end-user's hardware configuration, so in practice this method is not reliable.
 
-Pause the Video Renderer before calling this method. Otherwise, the method returns VFW_E_NOT_PAUSED. Make sure that the pause operation has completed by calling <a href="https://msdn.microsoft.com/653a94ff-6929-41b1-9b94-dccaff0f7ec7">IMediaControl::GetState</a>; if the pause operation has not completed, the <b>GetCurrentImage</b> method returns E_UNEXPECTED. Depending on what data the source filter has available, the video renderer is not guaranteed to service this request. If no image is available, it returns E_FAIL.
+Pause the Video Renderer before calling this method. Otherwise, the method returns VFW_E_NOT_PAUSED. Make sure that the pause operation has completed by calling <a href="https://msdn.microsoft.com/en-us/library/Dd390172(v=VS.85).aspx">IMediaControl::GetState</a>; if the pause operation has not completed, the <b>GetCurrentImage</b> method returns E_UNEXPECTED. Depending on what data the source filter has available, the video renderer is not guaranteed to service this request. If no image is available, it returns E_FAIL.
 
 <h3><a id="Video_Mixing_Renderer_only_"></a><a id="video_mixing_renderer_only_"></a><a id="VIDEO_MIXING_RENDERER_ONLY_"></a>Video Mixing Renderer only:</h3>
 This method is reliable regardless of whether the VMR is using DirectDraw acceleration and regardless of the current graph state (running, stopped, or paused).
@@ -115,7 +115,7 @@ If the method succeeds, the buffer is filled with the entire DIB image, includin
 
 
 
-<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
  
 
  

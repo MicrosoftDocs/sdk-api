@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>WMT_CREDENTIAL_FLAGS</b> enumeration type contains values used in the <a href="https://msdn.microsoft.com/5dce8281-b5d3-42cd-93f6-d76af0050a89">IWMCredentialCallback::AcquireCredentials</a> method.
+The <b>WMT_CREDENTIAL_FLAGS</b> enumeration type contains values used in the <a href="https://msdn.microsoft.com/en-us/library/Dd743356(v=VS.85).aspx">IWMCredentialCallback::AcquireCredentials</a> method.
 
 
 

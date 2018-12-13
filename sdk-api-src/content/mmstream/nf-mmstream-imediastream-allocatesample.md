@@ -70,7 +70,7 @@ Flags. Must be zero.
 
 ### -param ppSample [out]
 
-Address of a pointer to the newly created stream sample's <a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample</a> interface.
+Address of a pointer to the newly created stream sample's <a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample</a> interface.
 
 
 ## -returns
@@ -127,7 +127,7 @@ Success.
 
 
 
-This method allocates the sample and its associated backing object or buffer. The backing object is either the DirectDraw surface for video or the <a href="https://msdn.microsoft.com/8b253715-a294-4e95-b730-e6efe7f895af">IAudioData</a> object for audio.
+This method allocates the sample and its associated backing object or buffer. The backing object is either the DirectDraw surface for video or the <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> object for audio.
 
 
 
@@ -137,7 +137,7 @@ This method allocates the sample and its associated backing object or buffer. Th
 
 
 
-<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream Interface</a>
  
 
  

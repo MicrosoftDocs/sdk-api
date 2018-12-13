@@ -60,7 +60,7 @@ The <b>PALETTE_ENTRIES</b> macro retrieves the maximum number of colors in the p
 
 ### -param pbmi
 
-Pointer to a <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure.
 
 
 ## -see-also

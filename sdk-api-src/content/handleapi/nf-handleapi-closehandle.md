@@ -140,7 +140,7 @@ For an example, see
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 
@@ -148,15 +148,15 @@ For an example, see
 
 
 
-<a href="base.deletefile">DeleteFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363915(v=VS.85).aspx">DeleteFile</a>
 
 
 
-<a href="base.findclose">FindClose</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364413(v=VS.85).aspx">FindClose</a>
 
 
 
-<a href="base.findfirstfile">FindFirstFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364418(v=VS.85).aspx">FindFirstFile</a>
 
 
 

@@ -118,7 +118,7 @@ When using the <b>SetThreadToken</b> function to impersonate, you must have the 
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

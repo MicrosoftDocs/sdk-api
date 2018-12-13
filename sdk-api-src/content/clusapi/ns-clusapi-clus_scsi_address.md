@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Contains <a href="s_gly.htm">SCSI</a> address data. It is 
+Contains <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">SCSI</a> address data. It is 
     used as the data member of a <a href="https://msdn.microsoft.com/30907886-0c86-4e8a-9a95-5b62f6ffff76">CLUSPROP_SCSI_ADDRESS</a> 
     structure and as the return value of some <a href="https://msdn.microsoft.com/47618915-0985-4415-b7d4-5959fb27eb9f">control code</a> 
     operations.

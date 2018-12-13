@@ -54,7 +54,7 @@ req.redist:
 ]
 
 
-The <b>IWMDRMEditor</b> interface is exposed on the metadata editor object. It can be obtained by calling <b>QueryInterface</b> from <a href="https://msdn.microsoft.com/ad19cd3e-d1ef-4d6c-ac23-29a56e5c1d66">IWMMetadataEditor</a>. The <b>IWMDRMEditor</b> interface enables applications to examine the <a href="wmformat_glossary.htm">DRM</a> attributes of an ASF file, for example to query the number of times a file is allowed to be played, without having the wmstubdrm.lib static library. The <a href="https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58">IWMDRMReader</a> interface contains a similar method, but the application must be linked to a valid wmstubdrm.lib library in order to use that interface.
+The <b>IWMDRMEditor</b> interface is exposed on the metadata editor object. It can be obtained by calling <b>QueryInterface</b> from <a href="https://msdn.microsoft.com/en-us/library/Dd757232(v=VS.85).aspx">IWMMetadataEditor</a>. The <b>IWMDRMEditor</b> interface enables applications to examine the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a> attributes of an ASF file, for example to query the number of times a file is allowed to be played, without having the wmstubdrm.lib static library. The <a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader</a> interface contains a similar method, but the application must be linked to a valid wmstubdrm.lib library in order to use that interface.
 
 
 
@@ -76,7 +76,7 @@ The <b>IWMDRMEditor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0a7b07d-f0c0-4715-a9c3-7babf3bf7af9">GetDRMProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798280(v=VS.85).aspx">GetDRMProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified DRM property or file attribute.
@@ -94,7 +94,7 @@ For information on other interfaces that can be obtained by using the QueryInter
 
 
 
-<a href="https://msdn.microsoft.com/86ee18be-38a9-4f76-810c-e33281df8c23">IWMDRMReader::GetDRMProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798351(v=VS.85).aspx">IWMDRMReader::GetDRMProperty</a>
 
 
 

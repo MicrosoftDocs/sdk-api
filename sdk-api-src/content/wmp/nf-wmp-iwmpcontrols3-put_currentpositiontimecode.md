@@ -118,11 +118,11 @@ Specifying and retrieving values using <b>put_currentPositionTimecode</b> and <b
 
 
 
-<a href="https://msdn.microsoft.com/ee902912-4f09-4f61-9b81-f4bd50ace892">IWMPControls3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563183(v=VS.85).aspx">IWMPControls3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbf981d7-1787-462c-b0d2-fd705f07ee23">IWMPControls3::get_currentPositionTimecode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563190(v=VS.85).aspx">IWMPControls3::get_currentPositionTimecode</a>
  
 
  

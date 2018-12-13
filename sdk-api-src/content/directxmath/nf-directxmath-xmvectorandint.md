@@ -111,7 +111,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/e7c78708-1261-4907-9fbe-3226b587ed57">XMVectorAndCInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420993(v=VS.85).aspx">XMVectorAndCInt</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the current border size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/5d2f49ad-d940-4a0b-b5a0-05d742151b1c">PGM_GETBORDER</a> message explicitly. 
+Retrieves the current border size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760869(v=VS.85).aspx">PGM_GETBORDER</a> message explicitly. 
 
 
 ## -parameters

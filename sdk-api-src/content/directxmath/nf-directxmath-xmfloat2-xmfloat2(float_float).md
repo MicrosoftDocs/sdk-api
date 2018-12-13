@@ -53,7 +53,7 @@ req.redist:
 Initializes a new instance of <code>XMFLOAT2</code> from two <code>float</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a> from two
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a> from two
 	<code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -112,11 +112,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b679681-f50c-4028-8a0d-28d283e0e9e7">XMFLOAT2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415279(v=VS.85).aspx">XMFLOAT2 Constructors</a>
  
 
  

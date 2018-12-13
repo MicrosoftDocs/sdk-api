@@ -80,7 +80,7 @@ Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPP
 
 ### -param pPeerDistStatus [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/d693dc1c-39ce-4a2b-b769-9d370abc3d3c">PEERDIST_STATUS</a> enumeration that indicates the current status of the Peer Distribution service.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd408036(v=VS.85).aspx">PEERDIST_STATUS</a> enumeration that indicates the current status of the Peer Distribution service.
 
 
 ## -returns

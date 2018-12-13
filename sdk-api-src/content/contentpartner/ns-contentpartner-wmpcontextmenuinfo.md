@@ -77,7 +77,7 @@ The help text to display for the command.
 
 
 
-This structure is retrieved by a call to <a href="https://msdn.microsoft.com/bc6dfd97-50bb-438c-9cd6-3eac91e99cab">IWMPContentPartner::GetCommands</a>.
+This structure is retrieved by a call to <a href="https://msdn.microsoft.com/en-us/library/Dd563163(v=VS.85).aspx">IWMPContentPartner::GetCommands</a>.
 
 
 

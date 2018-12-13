@@ -70,7 +70,7 @@ Integer that specifies the expression index that corresponds to this constituent
 
 ### -param Operator [in]
 
-A <a href="https://msdn.microsoft.com/e8faffdc-2fd4-4d7a-ae9f-fd93932b8c10">DHCP_POL_LOGIC_OPER</a> enumeration that defines how the expression is to be evaluated in terms of the results of its constituents.
+A <a href="https://msdn.microsoft.com/en-us/library/Hh404406(v=VS.85).aspx">DHCP_POL_LOGIC_OPER</a> enumeration that defines how the expression is to be evaluated in terms of the results of its constituents.
 
 
 ### -param ExprIndex [out]

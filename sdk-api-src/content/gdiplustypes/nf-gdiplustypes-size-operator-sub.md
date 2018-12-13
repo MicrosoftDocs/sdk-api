@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Size::operator-</b> method subtracts the <b>Width</b> and <b>Height</b> data members of two <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> objects.
+The <b>Size::operator-</b> method subtracts the <b>Width</b> and <b>Height</b> data members of two <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> objects.
 
 
 ## -parameters
@@ -61,19 +61,19 @@ The <b>Size::operator-</b> method subtracts the <b>Width</b> and <b>Height</b> d
 
 ### -param sz [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object whose <b>Width</b> and <b>Height</b> data members are subtracted from the <b>Width</b> and <b>Height</b> data members of this <b>Size</b> object. 
+Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object whose <b>Width</b> and <b>Height</b> data members are subtracted from the <b>Width</b> and <b>Height</b> data members of this <b>Size</b> object. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a></b>
 </strong>
 
-This method returns the difference of this <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object and another <b>Size</b> object.
+This method returns the difference of this <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object and another <b>Size</b> object.
 
 
 
@@ -82,7 +82,7 @@ This method returns the difference of this <a href="https://msdn.microsoft.com/d
 
 
 
-This method overloads the subtraction operator for <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> objects. If A, B, and C are <b>Size</b> objects, the statement <b>C = A - B</b> is equivalent to <b>C = A.operator-(B)</b>.
+This method overloads the subtraction operator for <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> objects. If A, B, and C are <b>Size</b> objects, the statement <b>C = A - B</b> is equivalent to <b>C = A.operator-(B)</b>.
 
 
 #### Examples
@@ -120,15 +120,15 @@ This method overloads the subtraction operator for <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fd88c51-dcf1-4682-9bae-8821c5d553eb">Size::operator+</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534751(v=VS.85).aspx">Size::operator+</a>
 
 
 
-<a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>
  
 
  

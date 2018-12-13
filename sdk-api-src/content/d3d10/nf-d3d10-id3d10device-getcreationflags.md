@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Get the flags used during the call to create the device with <a href="https://msdn.microsoft.com/da48d6d4-f35b-4cd1-a358-8eec63dfa674">D3D10CreateDevice</a>.
+Get the flags used during the call to create the device with <a href="https://msdn.microsoft.com/en-us/library/Bb205086(v=VS.85).aspx">D3D10CreateDevice</a>.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Get the flags used during the call to create the device with <a href="https://ms
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A bitfield containing the flags used to create the device. See <a href="https://msdn.microsoft.com/4926d630-9748-4416-9af0-287cb06b86f0">D3D10_CREATE_DEVICE_FLAG</a>.
+A bitfield containing the flags used to create the device. See <a href="https://msdn.microsoft.com/en-us/library/Bb204909(v=VS.85).aspx">D3D10_CREATE_DEVICE_FLAG</a>.
 
 
 
@@ -77,7 +77,7 @@ A bitfield containing the flags used to create the device. See <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

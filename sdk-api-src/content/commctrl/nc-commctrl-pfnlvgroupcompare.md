@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>LVGroupCompare</b> function is an application-defined callback function used with the <a href="https://msdn.microsoft.com/8ad1660b-8b64-4f02-ac1b-b7edeeea38ab">LVM_INSERTGROUPSORTED</a> and <a href="https://msdn.microsoft.com/553e96d6-a982-4482-8fba-ef11a74fb82e">LVM_SORTGROUPS</a> messages. It defines the ordering of the groups, based on the ID. The 
+The <b>LVGroupCompare</b> function is an application-defined callback function used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761105(v=VS.85).aspx">LVM_INSERTGROUPSORTED</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb761225(v=VS.85).aspx">LVM_SORTGROUPS</a> messages. It defines the ordering of the groups, based on the ID. The 
 			<b>LVGROUPCOMPARE</b> type defines a pointer to this callback function. <b>LVGroupCompare</b> is a placeholder for the application-defined function name. 
 
 
@@ -92,7 +92,7 @@ The ID of the second group.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">VOID</a>*</b>
 
-A pointer to the application-defined information. This comes from the message that was called; for <a href="https://msdn.microsoft.com/8ad1660b-8b64-4f02-ac1b-b7edeeea38ab">LVM_INSERTGROUPSORTED</a> it is <a href="https://msdn.microsoft.com/0643dc9f-0890-4f17-ae65-0ef5a0679fb0">LVINSERTGROUPSORTED.pvData</a>, and for <a href="https://msdn.microsoft.com/553e96d6-a982-4482-8fba-ef11a74fb82e">LVM_SORTGROUPS</a> it is the <i>plv</i> parameter.
+A pointer to the application-defined information. This comes from the message that was called; for <a href="https://msdn.microsoft.com/en-us/library/Bb761105(v=VS.85).aspx">LVM_INSERTGROUPSORTED</a> it is <a href="https://msdn.microsoft.com/en-us/library/Bb774756(v=VS.85).aspx">LVINSERTGROUPSORTED.pvData</a>, and for <a href="https://msdn.microsoft.com/en-us/library/Bb761225(v=VS.85).aspx">LVM_SORTGROUPS</a> it is the <i>plv</i> parameter.
 
 
 ## -returns
@@ -111,15 +111,15 @@ Returns a negative value if the data for <i>Group1_ID</i> is less than the data 
 
 
 
-<a href="https://msdn.microsoft.com/0643dc9f-0890-4f17-ae65-0ef5a0679fb0">LVINSERTGROUPSORTED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774756(v=VS.85).aspx">LVINSERTGROUPSORTED</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ad1660b-8b64-4f02-ac1b-b7edeeea38ab">LVM_INSERTGROUPSORTED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761105(v=VS.85).aspx">LVM_INSERTGROUPSORTED</a>
 
 
 
-<a href="https://msdn.microsoft.com/553e96d6-a982-4482-8fba-ef11a74fb82e">LVM_SORTGROUPS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761225(v=VS.85).aspx">LVM_SORTGROUPS</a>
 
 
 

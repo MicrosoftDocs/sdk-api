@@ -81,9 +81,9 @@ Returns S_OK if successful, or E_INVALIDARG if the argument is not valid.
 
 
 The antialiasing mode of a newly-created bitmap render target defaults to 
-     <a href="dwrite_text_antialias_mode.htm">DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE</a>. An app can change the antialiasing
+     <a href="https://msdn.microsoft.com/en-us/library/JJ127237(v=VS.85).aspx">DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE</a>. An app can change the antialiasing
      mode by calling <b>SetTextAntialiasMode</b>. For example, an app might specify
-    <a href="dwrite_text_antialias_mode.htm">DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE</a> for grayscale antialiasing when it renders text onto a transparent bitmap.
+    <a href="https://msdn.microsoft.com/en-us/library/JJ127237(v=VS.85).aspx">DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE</a> for grayscale antialiasing when it renders text onto a transparent bitmap.
 
 
 

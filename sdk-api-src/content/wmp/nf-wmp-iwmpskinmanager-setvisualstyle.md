@@ -105,7 +105,7 @@ Windows XP calls this method when the user changes the current theme. The curren
 
 
 
-<a href="https://msdn.microsoft.com/c1f27a79-837f-4833-af62-2181406ed725">IWMPSkinManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563684(v=VS.85).aspx">IWMPSkinManager Interface</a>
  
 
  

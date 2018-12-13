@@ -60,7 +60,7 @@ The <b>_SetAllocator</b> method specifies an allocator-presenter for the VMR. Ap
 
 ### -param AllocPresent [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/bbcbe152-80fd-469b-a79b-c8db6f97da22">IVMRSurfaceAllocator</a> interface of the allocator-presenter object.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd390499(v=VS.85).aspx">IVMRSurfaceAllocator</a> interface of the allocator-presenter object.
 
 
 ### -param ID [in]
@@ -101,7 +101,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/caaa2cf1-15be-47dc-82db-06915a55ba03">IMSVidVideoRenderer2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
  
 
  

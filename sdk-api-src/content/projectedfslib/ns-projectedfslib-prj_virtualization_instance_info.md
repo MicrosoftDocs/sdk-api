@@ -65,5 +65,5 @@ An ID corresponding to a specific virtualization instance.
 
 ### -field WriteAlignment
 
-The value used for the byteOffset and length parameters of <a href="https://msdn.microsoft.com/A09D8E74-D574-41C6-A586-86E03839DA89">PrjWriteFileData</a>.
+The value used for the byteOffset and length parameters of <a href="https://msdn.microsoft.com/en-us/library/Mt815611(v=VS.85).aspx">PrjWriteFileData</a>.
 

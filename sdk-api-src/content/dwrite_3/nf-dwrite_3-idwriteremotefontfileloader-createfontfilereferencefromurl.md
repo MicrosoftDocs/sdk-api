@@ -92,7 +92,7 @@ Receives a pointer to the newly created font file reference.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -117,7 +117,7 @@ If baseUrl is a non-empty string, then baseUrl concatenated with fontFileUrl sho
 
 
 
-<a href="https://msdn.microsoft.com/16CFF7ED-642A-48D8-8C72-3EC68B702E50">IDWriteRemoteFontFileLoader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807695(v=VS.85).aspx">IDWriteRemoteFontFileLoader</a>
  
 
  

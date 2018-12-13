@@ -55,7 +55,7 @@ Describes a 3D vector with X and Y components stored as 11 bit floating point nu
     
 
 For a list of additional functionality, such as constructors and operators, available using
-	<code>XMFLOAT3PK</code> when programming in C++, see <a href="https://msdn.microsoft.com/cca32fd6-9f41-49c2-8e2a-247bbf78edca">XMFLOAT3PK Extensions</a>.
+	<code>XMFLOAT3PK</code> when programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415283(v=VS.85).aspx">XMFLOAT3PK Extensions</a>.
 
 
 ## -struct-fields
@@ -216,7 +216,7 @@ Bits 27-31 of <b>v</b> are the 5 bit <i>exponent</i> of the
 <code>XMFLOAT3PK</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a> by using <a href="https://msdn.microsoft.com/2d96b209-0374-465b-bb81-1df17996550d">XMLoadFloat3PK</a>.
 
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3PK</code> with <a href="https://msdn.microsoft.com/b358dce3-2444-47c7-9b26-44a9abf8cdb5">XMStoreFloat3PK</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3PK</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420336(v=VS.85).aspx">XMStoreFloat3PK</a>.
 
 
 MIN_F10 / MIN_F11 = 6.10352e-5
@@ -242,7 +242,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/cca32fd6-9f41-49c2-8e2a-247bbf78edca">XMFLOAT3PK Extensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415283(v=VS.85).aspx">XMFLOAT3PK Extensions</a>
  
 
  

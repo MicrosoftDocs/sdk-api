@@ -64,7 +64,7 @@ The <code>SetRenderingMode</code> method sets the rendering mode used by the VMR
 
 ### -param Mode [in]
 
-Specifies the rendering mode as a <a href="https://msdn.microsoft.com/708c45e4-e92b-4fe5-900f-7cd806011f5e">VMR9Mode</a> value.
+Specifies the rendering mode as a <a href="https://msdn.microsoft.com/en-us/library/Dd407367(v=VS.85).aspx">VMR9Mode</a> value.
 
 
 ## -returns
@@ -133,7 +133,7 @@ The mode cannot be changed after any pin has been connected. Also, the mode cann
 
 
 
-<a href="https://msdn.microsoft.com/089e44c8-6a27-410d-aad5-08816bd4f915">IVMRFilterConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377365(v=VS.85).aspx">IVMRFilterConfig9 Interface</a>
 
 
 

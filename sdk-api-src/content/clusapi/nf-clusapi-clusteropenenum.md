@@ -55,7 +55,7 @@ req.redist:
 
 Opens an enumerator for iterating through 
     <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> in a 
-    <a href="c_gly.htm">cluster</a>. The 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>. The 
     <b>PCLUSAPI_CLUSTER_OPEN_ENUM</b> type defines a pointer to this function.
 
 

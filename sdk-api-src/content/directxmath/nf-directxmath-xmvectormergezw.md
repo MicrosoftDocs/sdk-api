@@ -112,7 +112,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/925fb6b1-5588-437f-b753-2fa51257f67e">XMVectorMergeXY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421179(v=VS.85).aspx">XMVectorMergeXY</a>
  
 
  

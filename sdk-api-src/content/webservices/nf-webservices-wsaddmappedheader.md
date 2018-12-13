@@ -66,7 +66,7 @@ Adds a specified mapped header to the <a href="https://msdn.microsoft.com/edc810
 Pointer to a <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure representing the  <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae41">message</a> to to which to add the mapped header.
                 
 
-The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE</a> enumeration.
+The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE</a> enumeration.
                 
 
 
@@ -78,20 +78,20 @@ Pointer to a <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff7220
 
 ### -param valueType [in]
 
-The type of header value to deserialize.  For possible types and the corresponding headers, see the <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a>
+The type of header value to deserialize.  For possible types and the corresponding headers, see the <a href="https://msdn.microsoft.com/en-us/library/Dd401897(v=VS.85).aspx">WS_HEADER_TYPE</a>
 
 
 
 ### -param writeOption [in]
 
 Whether the header is required, and how the value is allocated.
-                    For more information, see the <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> enumeration.
+                    For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> enumeration.
                 
 
 
 ### -param value [in]
 
-The header value to serialize.  For more information, see  the <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> enumeration.
+The header value to serialize.  For more information, see  the <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> enumeration.
                 
 
 

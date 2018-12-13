@@ -87,7 +87,7 @@ On input, contains the length of <i>pwszName</i>. On output, points to a variabl
 
 ### -param pType [out]
 
-Pointer to a variable containing one member of the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type.
+Pointer to a variable containing one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type.
 
 
 ### -param pValue [out]
@@ -123,11 +123,11 @@ You should make two calls to <b>GetPropByIndex</b>. On the first call, pass <b>N
 
 
 
-<a href="https://msdn.microsoft.com/3a5af1f3-e652-4729-931b-d0702af408f3">IWMBackupRestoreProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743291(v=VS.85).aspx">IWMBackupRestoreProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/582c1590-8855-409c-9964-a0fb7baa05bd">IWMBackupRestoreProps::SetProp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743297(v=VS.85).aspx">IWMBackupRestoreProps::SetProp</a>
  
 
  

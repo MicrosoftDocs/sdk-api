@@ -92,7 +92,7 @@ The number of bytes allocated by the caller to
 ### -param heap [in, optional]
 
 Heap to store additional property data. This parameter must be non-<b>NULL</b> when the queried property is
-                    <a href="https://msdn.microsoft.com/d5ba0170-2345-4144-9a60-25c0e638a283">WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY</a> and must be <b>NULL</b> otherwise.
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd323412(v=VS.85).aspx">WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY</a> and must be <b>NULL</b> otherwise.
                 
 
 

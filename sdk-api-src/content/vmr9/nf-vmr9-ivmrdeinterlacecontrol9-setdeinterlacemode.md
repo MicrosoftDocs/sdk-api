@@ -137,13 +137,13 @@ The VMR is not in mixer mode.
 
 
 
-If the application does not specify the mode, the VMR defaults to the first mode reported by the driver. In either case, if the VMR cannot use the preferred mode, it falls back to another mode as specified in the <a href="https://msdn.microsoft.com/5d5b450f-bb87-41a2-bbb1-06b3956ba225">IVMRDeinterlaceControl9::SetDeinterlacePrefs</a> method.
+If the application does not specify the mode, the VMR defaults to the first mode reported by the driver. In either case, if the VMR cannot use the preferred mode, it falls back to another mode as specified in the <a href="https://msdn.microsoft.com/en-us/library/Dd377356(v=VS.85).aspx">IVMRDeinterlaceControl9::SetDeinterlacePrefs</a> method.
 
 The <b>SetDeinterlaceMode</b> method is effective only for new connections made to the VMR. Some deinterlacing mode require that additional reference samples be available; the exact number depends on the mode. The VMR allocates surfaces for these additional samples. The client must set the deinterlace mode before the surfaces have been allocated. Surface allocation occurs after any of the following:
 
 <ul>
 <li>Pin connections, including dynamic reconnections</li>
-<li>Dynamic format changes (the upstream filter calls <a href="https://msdn.microsoft.com/b2013e95-88bc-4f4a-87af-2b13c120ec46">IPin::ReceiveConnection</a> to specify a new format)</li>
+<li>Dynamic format changes (the upstream filter calls <a href="https://msdn.microsoft.com/en-us/library/Dd390433(v=VS.85).aspx">IPin::ReceiveConnection</a> to specify a new format)</li>
 <li>Resolution changes</li>
 <li>Monitor changes</li>
 </ul>
@@ -159,7 +159,7 @@ The <b>SetDeinterlaceMode</b> method is effective only for new connections made 
 
 
 
-<a href="https://msdn.microsoft.com/685f3627-30bd-4c78-9eda-0b06203dd46e">IVMRDeinterlaceControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377349(v=VS.85).aspx">IVMRDeinterlaceControl9 Interface</a>
 
 
 

@@ -149,7 +149,7 @@ The RemoteNoDialogs value is supported for backward compatibility with Windows M
 
 
 
-<a href="https://msdn.microsoft.com/594a614a-8da1-4ef0-a6af-01284fb48ef7">IWMPRemoteMediaServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563634(v=VS.85).aspx">IWMPRemoteMediaServices Interface</a>
 
 
 

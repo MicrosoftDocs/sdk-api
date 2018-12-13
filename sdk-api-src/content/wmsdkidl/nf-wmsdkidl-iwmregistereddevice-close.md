@@ -106,11 +106,11 @@ Although this method returns immediately, it does not release resources associat
 
 
 
-<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/277f2724-5d82-4db7-96d9-af392b39fccf">IWMRegisteredDevice::Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743697(v=VS.85).aspx">IWMRegisteredDevice::Open</a>
  
 
  

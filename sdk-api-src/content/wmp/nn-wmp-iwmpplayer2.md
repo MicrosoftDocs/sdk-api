@@ -75,7 +75,7 @@ The <b>IWMPPlayer2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d477800d-fb16-49a7-ab80-a0f5f7c68fc7">get_stretchToFit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563516(v=VS.85).aspx">get_stretchToFit</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether video will stretch to fit size of the Windows Media Player control video display.
@@ -84,7 +84,7 @@ Retrieves a value indicating whether video will stretch to fit size of the Windo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da1cfa7c-aa79-4711-8de2-d83317e5598f">get_windowlessVideo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563518(v=VS.85).aspx">get_windowlessVideo</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the Windows Media Player control renders video in windowless mode.
@@ -93,7 +93,7 @@ Retrieves a value indicating whether the Windows Media Player control renders vi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1da60976-5f84-4dc7-8186-32f6d3bb9165">put_stretchToFit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563519(v=VS.85).aspx">put_stretchToFit</a>
 </td>
 <td align="left" width="63%">
 Specifies whether video will stretch to fit the size of the Windows Media Player control video display.
@@ -102,7 +102,7 @@ Specifies whether video will stretch to fit the size of the Windows Media Player
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/736eaf52-29bd-4223-a62d-d3d75cef1863">put_windowlessVideo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563520(v=VS.85).aspx">put_windowlessVideo</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the Windows Media Player control renders video in windowless mode.
@@ -111,7 +111,7 @@ Specifies whether the Windows Media Player control renders video in windowless m
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPPlayer2</b> interface either by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a> interface or by calling the COM <b>CoCreateInstance</b> method.
+Retrieve a pointer to an <b>IWMPPlayer2</b> interface either by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a> interface or by calling the COM <b>CoCreateInstance</b> method.
 
 	
 
@@ -121,27 +121,27 @@ Retrieve a pointer to an <b>IWMPPlayer2</b> interface either by calling the <b>Q
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f839bfe-bf67-49eb-8743-57713e1be7c5">IWMPCore2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563217(v=VS.85).aspx">IWMPCore2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3004551e-ce36-4f15-88c3-93b2bfaa72fc">IWMPCore3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563219(v=VS.85).aspx">IWMPCore3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d8a9414-5c5c-40e0-a34c-430ead01ef26">IWMPPlayer3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563521(v=VS.85).aspx">IWMPPlayer3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/afe5dbd1-96e1-4abe-b843-ec6130fa02d0">IWMPPlayer4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563522(v=VS.85).aspx">IWMPPlayer4 Interface</a>
 
 
 

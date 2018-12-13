@@ -107,7 +107,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/549f8eac-e9fb-4bf5-8a35-3fff686e557a">XMVectorSinCos</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421239(v=VS.85).aspx">XMVectorSinCos</a>
  
 
  

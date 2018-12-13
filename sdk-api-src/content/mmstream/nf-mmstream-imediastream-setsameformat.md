@@ -87,7 +87,7 @@ Returns S_OK if successful or E_POINTER if one of the parameters is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream Interface</a>
  
 
  

@@ -109,7 +109,7 @@ The network sink is not connected.
 
 
 
-See the Remarks and Example Code sections for <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a>.
+See the Remarks and Example Code sections for <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a>.
 
 
 
@@ -119,11 +119,11 @@ See the Remarks and Example Code sections for <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2cfd4693-794c-46c8-b72d-b7529c63f16e">IWMWriterNetworkSink::Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798767(v=VS.85).aspx">IWMWriterNetworkSink::Open</a>
  
 
  

@@ -118,7 +118,7 @@ The node is turned off or not operational.
 </td>
 <td width="60%">
 The node is in the process of joining a 
-        <a href="c_gly.htm">cluster</a>.
+        <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
 
 </td>
 </tr>

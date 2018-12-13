@@ -79,7 +79,7 @@ Adds pages to a property sheet.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00e90217-ebc3-4942-9cdc-c5e2c3c250c9">QueryPagesFor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300856(v=VS.85).aspx">QueryPagesFor</a>
 </td>
 <td align="left" width="63%">
 Determines whether the object needs pages.

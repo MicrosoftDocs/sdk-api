@@ -53,9 +53,9 @@ req.product: GDI+ 1.0
 
 
 The <b>BitmapData</b> class is used by the 
-			<a href="https://msdn.microsoft.com/f67a53d1-62bb-4e68-aef2-c3282de1ef40">Bitmap::LockBits</a> and 
-			<a href="https://msdn.microsoft.com/45d92c06-8d86-40ca-b721-efe092a4aea9">Bitmap::UnlockBits</a> methods of the 
-			<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> class. A <b>BitmapData</b> object stores attributes of a bitmap.
+			<a href="https://msdn.microsoft.com/en-us/library/ms536298(v=VS.85).aspx">Bitmap::LockBits</a> and 
+			<a href="https://msdn.microsoft.com/en-us/library/ms536301(v=VS.85).aspx">Bitmap::UnlockBits</a> methods of the 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> class. A <b>BitmapData</b> object stores attributes of a bitmap.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">BitmapData</b> has these types of members:
 

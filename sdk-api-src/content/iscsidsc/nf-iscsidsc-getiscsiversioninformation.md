@@ -60,7 +60,7 @@ The <b>GetIscsiVersionInformation</b> function retrieves information about the i
 
 ### -param VersionInfo
 
-Pointer to an <a href="https://msdn.microsoft.com/04b9e0c0-2c1e-4553-8eef-697819075bc4">ISCSI_VERSION_INFO</a> structure that contains  initiator version information.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb870819(v=VS.85).aspx">ISCSI_VERSION_INFO</a> structure that contains  initiator version information.
 
 
 ## -returns
@@ -77,7 +77,7 @@ Returns <b>ERROR_SUCCESS</b> if the operation is successful. If the operation fa
 
 
 
-<a href="https://msdn.microsoft.com/04b9e0c0-2c1e-4553-8eef-697819075bc4">ISCSI_VERSION_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870819(v=VS.85).aspx">ISCSI_VERSION_INFO</a>
  
 
  

@@ -99,7 +99,7 @@ The  <b>INET_PORT_RESERVATION_TOKEN</b> structure is used by the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/F2332474-453F-40A3-8A0B-03A97300B724">INET_PORT_RESERVATION_INSTANCE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Gg699718(v=VS.85).aspx">INET_PORT_RESERVATION_INSTANCE</a>
 
 
 

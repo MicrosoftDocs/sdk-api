@@ -89,17 +89,17 @@ GUID identifying the major type of digital media. This must be one of the follow
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/873f8d03-5d7b-424c-91f3-e7c8156565be">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743324(v=VS.85).aspx">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 
 ### -param dwFormatIndex [in]
 
-<b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="https://msdn.microsoft.com/b93bfb01-4179-4a0b-bca0-92b1a9a8e605">IWMCodecInfo::GetCodecFormatCount</a> method.
+<b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743323(v=VS.85).aspx">IWMCodecInfo::GetCodecFormatCount</a> method.
 
 
 ### -param ppIStreamConfig [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a> interface of a stream configuration object containing the settings of the specified format. When calling <b>GetCodecFormatDesc</b> to retrieve the size of the description string, pass <b>NULL</b> for this parameter.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface of a stream configuration object containing the settings of the specified format. When calling <b>GetCodecFormatDesc</b> to retrieve the size of the description string, pass <b>NULL</b> for this parameter.
 
 
 ### -param wszDesc [out]
@@ -167,7 +167,7 @@ Some formats of the Windows Media Audio 9 codec and Windows Media Audio 9 Profes
 
 
 
-<a href="https://msdn.microsoft.com/0cfb355e-af68-400d-aa64-57f17e7d936b">IWMCodecInfo2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743314(v=VS.85).aspx">IWMCodecInfo2 Interface</a>
  
 
  
