@@ -2,7 +2,7 @@
 UID: TP:directcomp
 ms.assetid: efb19c94-b4cc-3005-83ee-8d631642e8f9
 ms.author: windowssdkdev
-ms.date: 12/11/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

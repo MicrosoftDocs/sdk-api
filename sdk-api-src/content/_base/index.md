@@ -2,7 +2,7 @@
 UID: TP:base
 ms.assetid: e0daa3a7-613f-39bd-87ba-ff1ef0bec914
 ms.author: windowssdkdev
-ms.date: 12/11/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,6 +50,7 @@ To develop System Services, you need these headers:
  * [threadpoolapiset.h](../threadpoolapiset/index.md)
  * [timeprov.h](../timeprov/index.md)
  * [timezoneapi.h](../timezoneapi/index.md)
+ * [utilapiset.h](../utilapiset/index.md)
  * [vds.h](../vds/index.md)
  * [vdshwprv.h](../vdshwprv/index.md)
  * [vdslun.h](../vdslun/index.md)

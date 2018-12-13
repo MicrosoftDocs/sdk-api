@@ -2,7 +2,7 @@
 UID: TP:multimedia
 ms.assetid: a1710ddf-acd2-3419-b799-1773d9f162a5
 ms.author: windowssdkdev
-ms.date: 12/11/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
