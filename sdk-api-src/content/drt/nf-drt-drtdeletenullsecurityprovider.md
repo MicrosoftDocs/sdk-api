@@ -7,7 +7,7 @@ old-location: p2p\drtdeletenullsecurityprovider.htm
 tech.root: P2PSdk
 ms.assetid: 950a43f3-1c1d-4fb3-988b-d58ac9eff2f8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DrtDeleteNullSecurityProvider, DrtDeleteNullSecurityProvider function [Distributed Routing Tables], drt/DrtDeleteNullSecurityProvider, p2p.drtdeletenullsecurityprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

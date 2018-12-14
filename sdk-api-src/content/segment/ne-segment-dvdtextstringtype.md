@@ -225,7 +225,7 @@ Identifies a content string pertaining to a particular take in a movie or video.
 
 
 
-A <a href="https://msdn.microsoft.com/e8308432-a9a1-40d5-abec-aa6f86af9e5b">DVD_TextStringType</a> value is returned in the <a href="https://msdn.microsoft.com/en-us/library/Dd693066(v=VS.85).aspx">DVDTextStringType</a> method to identify how the disc authors have categorized the specified text string. 
+A <a href="https://msdn.microsoft.com/en-us/library/Dd388628(v=VS.85).aspx">DVD_TextStringType</a> value is returned in the <a href="https://msdn.microsoft.com/en-us/library/Dd693066(v=VS.85).aspx">DVDTextStringType</a> method to identify how the disc authors have categorized the specified text string. 
 
 Not every DVD text string identifier is included in this enumeration, so an authored DVD might include other values.
 

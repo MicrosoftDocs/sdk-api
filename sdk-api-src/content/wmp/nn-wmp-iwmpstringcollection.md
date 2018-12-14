@@ -73,7 +73,7 @@ The <b>IWMPStringCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97865752-e4bf-4f91-b481-22d9c8b3e090">get_count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563694(v=VS.85).aspx">get_count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the string collection.
@@ -82,7 +82,7 @@ Retrieves the number of items in the string collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05e7fd0c-1226-4680-a9aa-543111fd2bdf">item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563695(v=VS.85).aspx">item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the string at the specified index.
@@ -100,7 +100,7 @@ Retrieve a pointer to an <b>IWMPStringCollection</b> interface with the followin
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/bf975a30-dfb1-4994-9095-510a6b997aff">IWMPMediaCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection</a>
 </td>
 <td>
 <a href="https://msdn.microsoft.com/c3699acb-58a1-4efa-a42c-c84534abca96">getAttributeStringCollection</a>

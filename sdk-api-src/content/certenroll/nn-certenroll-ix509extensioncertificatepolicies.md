@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IX509ExtensionCertificatePolicies</b> interface enables you to specify a collection of policy information terms, each of which consists of an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) and optional policy qualifiers. A single policy term is defined by an <a href="https://msdn.microsoft.com/en-us/library/Aa375225(v=VS.85).aspx">ICertificatePolicy</a> object. The following syntax shows the <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Distinguished Encoding Rules</a> (DER) and included in the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate request</a>.
+The <b>IX509ExtensionCertificatePolicies</b> interface enables you to specify a collection of policy information terms, each of which consists of an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and optional policy qualifiers. A single policy term is defined by an <a href="https://msdn.microsoft.com/2162de70-edcc-4f01-807d-79ff200d0016">ICertificatePolicy</a> object. The following syntax shows the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) and included in the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>.
 <pre class="syntax" xml:space="preserve"><code>
 ----------------------------------------------------------------------
 -- CertificatePolicies
@@ -104,9 +104,9 @@ CpsURLs ::= SEQUENCE OF SEQUENCE
 
 CertificatePolicies95 ::= SEQUENCE OF PolicyQualifiers
     
-</code></pre>When included in a certificate issued to an end entity, this extension identifies the policies under which the certificate was issued and the purposes for which the certificate can be used. Applications that have specific policy requirements should compare these to the collection of policy <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifiers</a> (OIDs) in the certificate.
+</code></pre>When included in a certificate issued to an end entity, this extension identifies the policies under which the certificate was issued and the purposes for which the certificate can be used. Applications that have specific policy requirements should compare these to the collection of policy <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs) in the certificate.
 
-When included in a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> certificate, this extension limits the set of policies for the certification paths extending from the certification authority certificate. If a certification authority does not want to limit this set, it can assert <b>XCN_OID_ANY_CERT_POLICY</b> (2.5.29.32.0).
+When included in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> certificate, this extension limits the set of policies for the certification paths extending from the certification authority certificate. If a certification authority does not want to limit this set, it can assert <b>XCN_OID_ANY_CERT_POLICY</b> (2.5.29.32.0).
 
 This extension is supported on Windows Server 2003 and later  certification authorities. The following policies are predefined. The <i>x.y.z</i> portion of each OID represents a randomly generated numeric sequence that is unique for each forest. You can also create custom OIDs to represent custom issuance policies.<table>
 <tr>
@@ -135,14 +135,14 @@ This extension is supported on Windows Server 2003 and later  certification aut
 <td>High Assurance (1.3.6.1.4.1.311.21.8.x.y.z.1.402)
 
 </td>
-<td>Indicates that the certificate is issued with the highest security. For example, the issuance of a key recovery agent certificate can require additional background checks and a digital signature from a designated approver because a person holding this certificate can recover <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> material from the certification authority.</td>
+<td>Indicates that the certificate is issued with the highest security. For example, the issuance of a key recovery agent certificate can require additional background checks and a digital signature from a designated approver because a person holding this certificate can recover <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> material from the certification authority.</td>
 </tr>
 </table>
  
 
 
 
- Policy qualifiers can be used when an OID is considered insufficient to fully identify a policy. Qualifiers are defined by using the <a href="https://msdn.microsoft.com/en-us/library/Aa376803(v=VS.85).aspx">IPolicyQualifier</a> interface and can be associated with a policy by adding qualifiers to the <a href="https://msdn.microsoft.com/en-us/library/Aa376804(v=VS.85).aspx">IPolicyQualifiers</a> collection retrieved from an  <a href="https://msdn.microsoft.com/en-us/library/Aa375225(v=VS.85).aspx">ICertificatePolicy</a> object. A Windows certification authority supports the following qualifiers.<table>
+ Policy qualifiers can be used when an OID is considered insufficient to fully identify a policy. Qualifiers are defined by using the <a href="https://msdn.microsoft.com/3804e372-17bb-458d-8da5-85d760fe5e60">IPolicyQualifier</a> interface and can be associated with a policy by adding qualifiers to the <a href="https://msdn.microsoft.com/da8b6289-379e-4dff-b15a-b0967f245c3d">IPolicyQualifiers</a> collection retrieved from an  <a href="https://msdn.microsoft.com/2162de70-edcc-4f01-807d-79ff200d0016">ICertificatePolicy</a> object. A Windows certification authority supports the following qualifiers.<table>
 <tr>
 <th>Value</th>
 <th>Description</th>
@@ -164,15 +164,15 @@ This extension is supported on Windows Server 2003 and later  certification aut
 
 
 
-To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a> collection and use the collection to initialize an <a href="https://msdn.microsoft.com/en-us/library/Aa377090(v=VS.85).aspx">IX509AttributeExtensions</a> object. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Aa379077(v=VS.85).aspx">PKCS #10 Extensions</a> and the <a href="https://msdn.microsoft.com/en-us/library/Aa374900(v=VS.85).aspx">CMC Extensions</a> topics.
+To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a> collection and use the collection to initialize an <a href="https://msdn.microsoft.com/d216bcfd-50be-4445-87a5-d1cb223aa70c">IX509AttributeExtensions</a> object. For more information, see the <a href="https://msdn.microsoft.com/26fa8476-a0ad-4114-a1e7-ed3d4fc9d30e">PKCS #10 Extensions</a> and the <a href="https://msdn.microsoft.com/3aa9175b-f889-4d5d-8eb2-a8a42f9fe750">CMC Extensions</a> topics.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionCertificatePolicies</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a>. <b>IX509ExtensionCertificatePolicies</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionCertificatePolicies</b> interface inherits from <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>. <b>IX509ExtensionCertificatePolicies</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -185,7 +185,7 @@ The <b>IX509ExtensionCertificatePolicies</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378123(v=VS.85).aspx">InitializeDecode</a>
+<a href="https://msdn.microsoft.com/bd542fbd-4cba-4584-9a14-b22cf0ae5705">InitializeDecode</a>
 </td>
 <td align="left" width="63%">
 Initializes the  object from a DER-encoded byte array that contains the extension value.
@@ -194,10 +194,10 @@ Initializes the  object from a DER-encoded byte array that contains the extensio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378124(v=VS.85).aspx">InitializeEncode</a>
+<a href="https://msdn.microsoft.com/3134c668-afe6-447b-9f0e-8c21df36e131">InitializeEncode</a>
 </td>
 <td align="left" width="63%">
-Initializes the object from an <a href="https://msdn.microsoft.com/en-us/library/Aa375214(v=VS.85).aspx">ICertificatePolicies</a> collection.
+Initializes the object from an <a href="https://msdn.microsoft.com/2503adcb-0b73-42ef-98cf-a2b906e34ef7">ICertificatePolicies</a> collection.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ Initializes the object from an <a href="https://msdn.microsoft.com/en-us/library
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378129(v=VS.85).aspx">Policies</a>
+<a href="https://msdn.microsoft.com/eefb515d-62dc-4ad7-b0c4-c65a4da5742e">Policies</a>
 
 
 </td>
@@ -228,7 +228,7 @@ Retrieves a collection of certificate policies.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374874(v=VS.85).aspx">Certificate Enrollment API</a>
+<a href="https://msdn.microsoft.com/ae6ab5fc-598e-43b8-a260-2cd94dc2648f">Certificate Enrollment API</a>
 
 
 
@@ -236,7 +236,7 @@ Retrieves a collection of certificate policies.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a>
+<a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>
  
 
  

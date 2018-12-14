@@ -62,7 +62,7 @@ Describes a video stream for a Microsoft Direct3D 11 video decoder or video pro
 
 ### -field Guid
 
-The decoding profile. To get the list of profiles supported by the device, call the <a href="https://msdn.microsoft.com/en-us/library/Hh447795(v=VS.85).aspx">ID3D11VideoDevice::GetVideoDecoderProfile</a> method.
+The decoding profile. To get the list of profiles supported by the device, call the <a href="https://msdn.microsoft.com/8D958469-7FC3-4B4F-82BF-271662CF0088">ID3D11VideoDevice::GetVideoDecoderProfile</a> method.
 
 
 ### -field SampleWidth
@@ -89,7 +89,7 @@ The output surface format, specified as a <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
  
 
  

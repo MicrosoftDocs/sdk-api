@@ -66,7 +66,7 @@ This property is read-only.
 
 If the TSID is not available, <b>IFaxJob::get_Tsid</b> is an empty string. 
 
-You can use the <a href="https://msdn.microsoft.com/a27d55e8-68c0-4700-becb-d56ecddbef44">UseDeviceTsid</a> property to determine if the fax server is configured to permit user-specified TSIDs. 
+You can use the <a href="https://msdn.microsoft.com/en-us/library/ms690868(v=VS.85).aspx">UseDeviceTsid</a> property to determine if the fax server is configured to permit user-specified TSIDs. 
 
 Note that the T.30 specification of the International Telecommunication Union (ITU) restricts the value of a TSID to 20 ASCII characters. If a fax client application specifies a TSID that contains non-ASCII characters, the fax service removes them. If the TSID exceeds 20 characters, the service truncates the extra characters. 
 
@@ -97,7 +97,7 @@ Note that the T.30 specification of the International Telecommunication Union (I
 
 
 
-<a href="https://msdn.microsoft.com/a27d55e8-68c0-4700-becb-d56ecddbef44">UseDeviceTsid</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690868(v=VS.85).aspx">UseDeviceTsid</a>
  
 
  

@@ -72,7 +72,7 @@ The multicast address group that should be filtered. This may be either an IPv6 
 
 The multicast filter mode. 
 
-This member can be one of the values from the <a href="https://msdn.microsoft.com/7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0">MULTICAST_MODE_TYPE</a> enumeration type defined in the <i>Ws2ipdef.h</i> header file. This member determines if the list of IP addresses in the <b>gf_numsrc</b> member should be included or excluded.
+This member can be one of the values from the <a href="https://msdn.microsoft.com/en-us/library/Bb427442(v=VS.85).aspx">MULTICAST_MODE_TYPE</a> enumeration type defined in the <i>Ws2ipdef.h</i> header file. This member determines if the list of IP addresses in the <b>gf_numsrc</b> member should be included or excluded.
 
 <table>
 <tr>
@@ -151,7 +151,7 @@ The <b>GROUP_FILTER</b> structure is defined in the <i>Ws2ipdef.h</i> header fil
 
 
 
-<a href="https://msdn.microsoft.com/7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0">MULTICAST_MODE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb427442(v=VS.85).aspx">MULTICAST_MODE_TYPE</a>
 
 
 

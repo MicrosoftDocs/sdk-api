@@ -71,7 +71,7 @@ Pointer to a wide-character null-terminated string containing the protocol.
 
 ### -param pProxySetting [out]
 
-Pointer to one member of the <a href="https://msdn.microsoft.com/a055259e-e207-426c-b6ca-a27bc3d0e88c">WMT_PROXY_SETTINGS</a> enumeration type.
+Pointer to one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757852(v=VS.85).aspx">WMT_PROXY_SETTINGS</a> enumeration type.
 
 
 ## -returns
@@ -118,11 +118,11 @@ NULL or invalid argument passed in.
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2">IWMReaderNetworkConfig::SetProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743550(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxySettings</a>
  
 
  

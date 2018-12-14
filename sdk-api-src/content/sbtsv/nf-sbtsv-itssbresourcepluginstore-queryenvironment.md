@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::QueryEnvironment
 author: windows-sdk-content
 description: Returns the specified environment object.
 old-location: termserv\itssbresourcepluginstore_queryenvironment.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1497c638-ba9d-467e-8fbb-8467a43666cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

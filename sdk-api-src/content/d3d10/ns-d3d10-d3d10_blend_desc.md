@@ -60,14 +60,14 @@ Describes the blend state.
 
 ### -field AlphaToCoverageEnable
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Determines whether or not to use <a href="https://msdn.microsoft.com/en-us/library/Bb205072(v=VS.85).aspx">alpha-to-coverage</a> as a multisampling technique when setting a pixel to a rendertarget.
 
 
 ### -field BlendEnable
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Enable (or disable) blending. There are eight elements in this array; these correspond to the eight rendertargets that can be set to output-merger stage at one time.
 

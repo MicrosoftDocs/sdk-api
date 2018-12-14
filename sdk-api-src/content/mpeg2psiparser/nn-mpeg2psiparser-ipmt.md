@@ -75,7 +75,7 @@ The <b>IPMT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc3eb6f3-c539-42c4-847a-5d1e80c53255">ConvertNextToCurrent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694821(v=VS.85).aspx">ConvertNextToCurrent</a>
 </td>
 <td align="left" width="63%">
 Converts a <i>next</i> table to a <i>current</i> table.
@@ -84,7 +84,7 @@ Converts a <i>next</i> table to a <i>current</i> table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4e5009b-4c0d-4d0c-b480-4030cedbdb97">GetCountOfRecords</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694822(v=VS.85).aspx">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Returns the number of records in the PMT.
@@ -93,7 +93,7 @@ Returns the number of records in the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1f91a13-afec-4703-8f1c-be64c8a8b8f9">GetCountOfTableDescriptors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694823(v=VS.85).aspx">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of table-wide descriptors in the PMT.
@@ -102,7 +102,7 @@ Returns the number of table-wide descriptors in the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1e6f321-b24b-46dc-8da8-5a4bbda61918">GetNextTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694824(v=VS.85).aspx">GetNextTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <i>next</i> table that follows the current table.
@@ -111,7 +111,7 @@ Retrieves the <i>next</i> table that follows the current table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0099e5b3-d573-47b9-9581-fbb9fee3ca16">GetPcrPid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694825(v=VS.85).aspx">GetPcrPid</a>
 </td>
 <td align="left" width="63%">
 Returns the packet identifier (PID) of the packets that contain the Program Clock Reference (PCR) fields for this program.
@@ -120,7 +120,7 @@ Returns the packet identifier (PID) of the packets that contain the Program Cloc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39006f8b-7dd4-4f19-badc-3a288a7b6520">GetProgramNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694826(v=VS.85).aspx">GetProgramNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the program number for the PMT.
@@ -129,7 +129,7 @@ Returns the program number for the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2470267-25a6-4ed3-91a1-30fd3ac7bbea">GetRecordCountOfDescriptors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694827(v=VS.85).aspx">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors for a record in the PMT.
@@ -147,7 +147,7 @@ Retrieves a descriptor for a specified record in the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ed3dd22-331a-419a-ab30-5645e259e36a">GetRecordDescriptorByTag</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694829(v=VS.85).aspx">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches a record in the PMT for a descriptor with a specified descriptor tag.
@@ -156,7 +156,7 @@ Searches a record in the PMT for a descriptor with a specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed4790ee-97ce-482e-834e-4081a310f4bb">GetRecordElementaryPid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694830(v=VS.85).aspx">GetRecordElementaryPid</a>
 </td>
 <td align="left" width="63%">
 Returns the PID for a given elementary stream in the program.
@@ -165,7 +165,7 @@ Returns the PID for a given elementary stream in the program.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3e17c0c-88ea-4143-aa9b-da2c5bf2069f">GetRecordStreamType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694831(v=VS.85).aspx">GetRecordStreamType</a>
 </td>
 <td align="left" width="63%">
 Returns the stream type for a given elementary stream in the program.
@@ -183,7 +183,7 @@ Retrieves a table-wide descriptor for the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e70bcffb-41ea-4f25-bb93-dc43339ae6ba">GetTableDescriptorByTag</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694833(v=VS.85).aspx">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches the PMT for a table-wide descriptor with the specified descriptor tag.
@@ -192,7 +192,7 @@ Searches the PMT for a table-wide descriptor with the specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00385ea4-27a9-47f4-91af-22fa82d83668">GetVersionNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694834(v=VS.85).aspx">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the PMT.
@@ -201,7 +201,7 @@ Returns the version number for the PMT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9f5e6b0-4317-40cd-9664-e2cc6d1a8833">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694835(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -210,7 +210,7 @@ Initializes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14611397-7885-4553-905e-db56404f5e97">QueryMPEInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694836(v=VS.85).aspx">QueryMPEInfo</a>
 </td>
 <td align="left" width="63%">
 Returns the Multi-Protocol Encapsulation (MPE) information in the PMT, if any.
@@ -219,7 +219,7 @@ Returns the Multi-Protocol Encapsulation (MPE) information in the PMT, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fead4140-5585-44eb-9d1f-7a686b79ac26">QueryServiceGatewayInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694837(v=VS.85).aspx">QueryServiceGatewayInfo</a>
 </td>
 <td align="left" width="63%">
 Returns the DSM-CC service gateway information in the PMT, if any.
@@ -228,7 +228,7 @@ Returns the DSM-CC service gateway information in the PMT, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6794c94a-8efe-4d53-a4f4-e25d14644270">RegisterForNextTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694838(v=VS.85).aspx">RegisterForNextTable</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
@@ -237,7 +237,7 @@ Registers the client to be notified when a <i>next</i> table arrives that will r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4759c813-3a1f-492a-bca9-cb6610f6426b">RegisterForWhenCurrent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694839(v=VS.85).aspx">RegisterForWhenCurrent</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when the table becomes current.

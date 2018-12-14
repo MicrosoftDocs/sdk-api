@@ -75,7 +75,7 @@ The <b>IWMPacketSize</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8410c524-9c27-48ac-9a48-c17cae782764">GetMaxPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757259(v=VS.85).aspx">GetMaxPacketSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum size of a packet in an ASF file.
@@ -84,7 +84,7 @@ Retrieves the maximum size of a packet in an ASF file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8230c08-e60f-454d-93a5-037685d6151c">SetMaxPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757260(v=VS.85).aspx">SetMaxPacketSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum size of a packet in an ASF file.
@@ -99,7 +99,7 @@ Specifies the maximum size of a packet in an ASF file.
 
 
 
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
 
 
 

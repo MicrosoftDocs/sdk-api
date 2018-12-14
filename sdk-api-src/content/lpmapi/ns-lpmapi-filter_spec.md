@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.FILTER_SPEC
+UID: NS:lpmapi.__unnamed_struct_8
 title: FILTER_SPEC
 author: windows-sdk-content
 description: The FILTER_SPEC structure stores information about an RSVP FILTERSPEC.
@@ -7,7 +7,7 @@ old-location: qos\filter_spec.htm
 tech.root: QOS
 ms.assetid: 72d08944-7ac9-496f-a18b-e6fcddb59c56
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FILTER_SPEC, FILTER_SPEC structure [QOS], SENDER_TEMPLATE, lpmapi/FILTER_SPEC, qos.filter_spec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,20 +61,34 @@ The
 
 ### -field filt_header
 
-RSVP Object Header for the FILTERSPEC, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+RSVP Object Header for the FILTERSPEC, in the form of an <a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a> structure.
 
 
 ### -field filt_u
 
 
-### -field filt_u.filt_ipv4
 
-FILTERSPEC, in the form of a <a href="https://msdn.microsoft.com/b17a45b2-e50b-4ec2-9f1c-e1ab80ce572e">Filter_Spec_IPv4</a> header.
+#### filt_ipv4
+
+FILTERSPEC, in the form of a <a href="https://msdn.microsoft.com/en-us/library/Aa373699(v=VS.85).aspx">Filter_Spec_IPv4</a> header.
 
 
-### -field filt_u.filt_ipv4gpi
 
-FILTERSPEC GPI information, in the form of a <a href="https://msdn.microsoft.com/c1546673-d1b5-4a7f-82d0-a8cc1c7c8752">Filter_Spec_IPv4GPI</a> header.
+#### filt_ipv4gpi
+
+FILTERSPEC GPI information, in the form of a <a href="https://msdn.microsoft.com/en-us/library/Aa373700(v=VS.85).aspx">Filter_Spec_IPv4GPI</a> header.
+
+
+### -field filt_ipv4
+
+ 
+
+
+### -field filt_ipv4gpi
+
+ 
+
+
 
 
 ## -see-also
@@ -82,15 +96,15 @@ FILTERSPEC GPI information, in the form of a <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/b17a45b2-e50b-4ec2-9f1c-e1ab80ce572e">Filter_Spec_IPv4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373699(v=VS.85).aspx">Filter_Spec_IPv4</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1546673-d1b5-4a7f-82d0-a8cc1c7c8752">Filter_Spec_IPv4GPI</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373700(v=VS.85).aspx">Filter_Spec_IPv4GPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a>
  
 
  

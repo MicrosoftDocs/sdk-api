@@ -140,7 +140,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The handle returned is not global or inheritable. It cannot be duplicated or used by another process.
 
-If <i>lpModuleName</i> does not include a path and there is more than one loaded module with the same base name and extension, you cannot predict which module handle will be returned. To work around this problem, you could specify a path, use <a href="setup.isolated_applications_and_side_by_side_assemblies_start_page">side-by-side assemblies</a>, or specify a memory location rather than a DLL name in the <i>lpModuleName</i> parameter. 
+If <i>lpModuleName</i> does not include a path and there is more than one loaded module with the same base name and extension, you cannot predict which module handle will be returned. To work around this problem, you could specify a path, use <a href="https://msdn.microsoft.com/en-us/library/Aa371852(v=VS.85).aspx">side-by-side assemblies</a>, or specify a memory location rather than a DLL name in the <i>lpModuleName</i> parameter. 
 
 If <i>dwFlags</i> contains GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT, the <b>GetModuleHandleEx</b> function returns a handle to a mapped module without incrementing its reference count. However, if this handle is passed to the <a href="https://msdn.microsoft.com/823d3147-4ba8-4fe5-ade4-e5604f47eb0a">FreeLibrary</a> function, the reference count of the mapped module will be decremented. Therefore, do not pass a handle returned by <b>GetModuleHandleEx</b> with GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT to the 
 <a href="https://msdn.microsoft.com/823d3147-4ba8-4fe5-ade4-e5604f47eb0a">FreeLibrary</a> function. Doing so can cause a DLL module to be unmapped prematurely.

@@ -105,11 +105,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/35357dca-4093-4c83-9cc9-f0dee1241e76">IWMPCdromBurn::startBurn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563094(v=VS.85).aspx">IWMPCdromBurn::startBurn</a>
  
 
  

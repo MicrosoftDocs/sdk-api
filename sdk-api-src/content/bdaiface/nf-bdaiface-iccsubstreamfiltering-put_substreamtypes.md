@@ -66,7 +66,7 @@ The <b>get_SubstreamTypes</b> method sets the closed captioning services the pin
 
 ### -param Types [in]
 
-Bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://msdn.microsoft.com/en-us/library/Dd695076(v=VS.85).aspx">KS_CC_SUBSTREAM Constants</a>. Any services that are not selected are simply dropped.
+Bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://msdn.microsoft.com/1a55a9b1-6784-4a29-93aa-95aadaf6fb7e">KS_CC_SUBSTREAM Constants</a>. Any services that are not selected are simply dropped.
 
 
 ## -returns

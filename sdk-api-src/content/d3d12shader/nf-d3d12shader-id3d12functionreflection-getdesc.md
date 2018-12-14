@@ -61,9 +61,9 @@ Fills the function descriptor structure for the function.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960192(v=VS.85).aspx">D3D12_FUNCTION_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/6FF99C49-B5B1-4969-86E2-828D584D1EA9">D3D12_FUNCTION_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960192(v=VS.85).aspx">D3D12_FUNCTION_DESC</a> structure that receives a description of the function.
+A pointer to a <a href="https://msdn.microsoft.com/6FF99C49-B5B1-4969-86E2-828D584D1EA9">D3D12_FUNCTION_DESC</a> structure that receives a description of the function.
           
 
 

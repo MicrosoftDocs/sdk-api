@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <code>BIT_MASKS_MATCH</code> macro compares the color masks for two <a href="https://msdn.microsoft.com/f08a449c-fed4-400b-a2fc-817bd59ba3fd">VIDEOINFO</a> structures.
+The <code>BIT_MASKS_MATCH</code> macro compares the color masks for two <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structures.
 
 
 

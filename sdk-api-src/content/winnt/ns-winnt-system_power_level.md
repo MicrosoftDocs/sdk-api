@@ -1,5 +1,5 @@
 ---
-UID: NS:winnt.SYSTEM_POWER_LEVEL
+UID: NS:winnt.__unnamed_struct_22
 title: SYSTEM_POWER_LEVEL
 author: windows-sdk-content
 description: Contains information about system battery drain policy settings.
@@ -7,7 +7,7 @@ old-location: base\system_power_level_str.htm
 tech.root: power
 ms.assetid: 4efa847d-92da-4cf7-95c2-c329de1691f4
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL structure pointer, SYSTEM_POWER_LEVEL, SYSTEM_POWER_LEVEL structure, _win32_system_power_level_str, base.system_power_level_str, winnt/PSYSTEM_POWER_LEVEL, winnt/SYSTEM_POWER_LEVEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices

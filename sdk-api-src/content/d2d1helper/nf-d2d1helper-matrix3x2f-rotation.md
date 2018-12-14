@@ -67,7 +67,7 @@ The rotation angle in degrees. A positive angle creates a clockwise rotation, an
 
 ### -param center
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The point about which the rotation is performed.
 
@@ -129,7 +129,7 @@ The following illustration shows the effect of applying the  preceding rotation 
 ```
 
 
-Code has been omitted from this example. For more information about transforms, see the <a href="https://msdn.microsoft.com/en-us/library/Dd756655(v=VS.85).aspx">Transforms Overview</a>. 
+Code has been omitted from this example. For more information about transforms, see the <a href="https://msdn.microsoft.com/eea8177d-c19e-4972-a9a6-ad5d541b090f">Transforms Overview</a>. 
 
 <div class="code"></div>
 

@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>LoadSystemProfile</b> method loads a system profile identified by its index. If you do not know the index of the desired system profile, you must use <a href="https://msdn.microsoft.com/16104e70-c800-49a6-a9cf-2b4669c865eb">IWMProfileManager::LoadProfileByID</a>. To load a custom profile, use <a href="https://msdn.microsoft.com/c645b6cc-e10d-4335-91c4-8bfd430ca76b">IWMProfileManager::LoadProfileByData</a>.
+The <b>LoadSystemProfile</b> method loads a system profile identified by its index. If you do not know the index of the desired system profile, you must use <a href="https://msdn.microsoft.com/en-us/library/Dd757395(v=VS.85).aspx">IWMProfileManager::LoadProfileByID</a>. To load a custom profile, use <a href="https://msdn.microsoft.com/en-us/library/Dd757394(v=VS.85).aspx">IWMProfileManager::LoadProfileByData</a>.
 
 
 
@@ -130,9 +130,9 @@ The <i>ppProfile</i> parameter is <b>NULL</b>.
 
 Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="https://msdn.microsoft.com/e2263c3a-56cd-4505-acd7-510dc7bac166">Reusing Stream Configurations</a>.
 
-This method can be used with <a href="https://msdn.microsoft.com/895fa99d-66a5-4f5f-82ce-394264a945f7">GetSystemProfileCount</a> to iterate through the system profiles.
+This method can be used with <a href="https://msdn.microsoft.com/en-us/library/Dd757393(v=VS.85).aspx">GetSystemProfileCount</a> to iterate through the system profiles.
 
-Applications must not rely on the index of a profile (used in this call and elsewhere in the SDK) being a constant. Upgrades to the Windows Media Format components can cause these indexes to change. If an application must maintain a fixed profile, it must call <a href="https://msdn.microsoft.com/82e3e086-4b19-4eb9-91ad-d30392f97a28">IWMProfile2::GetProfileID</a> and <b>IWMProfileManager::LoadProfileByID</b>.
+Applications must not rely on the index of a profile (used in this call and elsewhere in the SDK) being a constant. Upgrades to the Windows Media Format components can cause these indexes to change. If an application must maintain a fixed profile, it must call <a href="https://msdn.microsoft.com/en-us/library/Dd757267(v=VS.85).aspx">IWMProfile2::GetProfileID</a> and <b>IWMProfileManager::LoadProfileByID</b>.
 
 
 
@@ -142,7 +142,7 @@ Applications must not rely on the index of a profile (used in this call and else
 
 
 
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
  
 
  

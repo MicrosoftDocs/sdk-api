@@ -4,7 +4,7 @@ title: WTSOpenServerW function
 author: windows-sdk-content
 description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsopenserver.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

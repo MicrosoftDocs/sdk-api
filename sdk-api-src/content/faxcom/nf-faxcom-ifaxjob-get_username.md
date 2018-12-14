@@ -88,7 +88,7 @@ You can use the <b>IFaxJob::get_UserName</b> property to retrieve the name of th
 
 
 
-<a href="https://msdn.microsoft.com/31a02244-4ea4-4231-aec3-3d699defcfc4">IFaxJob::get_SenderName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691367(v=VS.85).aspx">IFaxJob::get_SenderName</a>
 
 
 

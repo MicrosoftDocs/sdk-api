@@ -76,10 +76,10 @@ Vector mask used to select a vector component from either <i>V1</i> or <i>V2</i>
         vector's component. For full details on how the vector mask works, see the "Remarks".
 
 Typically, the vector used for <i>Control</i> will be either the output of a vector comparison function (such as
-        <a href="https://msdn.microsoft.com/e5e3d343-6baf-4d98-b303-5d1b12bb285d">XMVectorEqual</a>,
-        <a href="https://msdn.microsoft.com/b9923970-cb72-4af3-bd5a-83daba8c59de">XMVectorLess</a>, or
-        <a href="https://msdn.microsoft.com/f28155e6-745e-4ed5-ba3b-218f63c18c92">XMVectorGreater</a>) or it will be the output
-        of <a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">XMVectorSelectControl</a>.
+        <a href="https://msdn.microsoft.com/en-us/library/Ee421013(v=VS.85).aspx">XMVectorEqual</a>,
+        <a href="https://msdn.microsoft.com/en-us/library/Ee421173(v=VS.85).aspx">XMVectorLess</a>, or
+        <a href="https://msdn.microsoft.com/en-us/library/Ee421155(v=VS.85).aspx">XMVectorGreater</a>) or it will be the output
+        of <a href="https://msdn.microsoft.com/en-us/library/Hh404808(v=VS.85).aspx">XMVectorSelectControl</a>.
 
 
 ## -returns
@@ -116,7 +116,7 @@ Manual construction of a control vector is not necessary. There are two simple w
 
 <ul>
 <li>
-Using the <a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">XMVectorSelectControl</a>function to construct a control vector.
+Using the <a href="https://msdn.microsoft.com/en-us/library/Hh404808(v=VS.85).aspx">XMVectorSelectControl</a>function to construct a control vector.
 
 See <a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">Using XMVectorSelect and
        XMVectorSelectControl</a> for a demonstration of how this function can be used.
@@ -158,7 +158,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/307660ea-09d4-49ce-b4ed-4a0e5ad1f021">XMVectorSelectControl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404808(v=VS.85).aspx">XMVectorSelectControl</a>
  
 
  

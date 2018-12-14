@@ -78,7 +78,7 @@ The <b>IMSVidEVREvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2eee9fd9-ed8d-482d-833a-c785d65cbf6a">OnUserEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694538(v=VS.85).aspx">OnUserEvent</a>
 </td>
 <td align="left" width="63%">
 Forwards custom events from the enhanced video renderer (EVR) filter.

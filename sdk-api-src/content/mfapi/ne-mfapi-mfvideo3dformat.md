@@ -1,0 +1,99 @@
+---
+UID: NE:mfapi._MFVideo3DFormat
+title: MFVideo3DFormat
+author: windows-sdk-content
+description: Specifies how 3D video frames are stored in memory.
+old-location: mf\mfvideo3dformat.htm
+tech.root: medfound
+ms.assetid: 0E31BC98-E69D-405E-9EA6-026916123091
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: MFVideo3DFormat, MFVideo3DFormat enumeration [Media Foundation], MFVideo3DSampleFormat_BaseView, MFVideo3DSampleFormat_MultiView, MFVideo3DSampleFormat_Packed_LeftRight, MFVideo3DSampleFormat_Packed_TopBottom, mf.mfvideo3dformat, mfapi/MFVideo3DFormat, mfapi/MFVideo3DSampleFormat_BaseView, mfapi/MFVideo3DSampleFormat_MultiView, mfapi/MFVideo3DSampleFormat_Packed_LeftRight, mfapi/MFVideo3DSampleFormat_Packed_TopBottom
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: mfapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfapi.h
+api_name:
+ - MFVideo3DFormat
+product: Windows
+targetos: Windows
+req.typenames: MFVideo3DFormat
+req.redist: 
+---
+
+# MFVideo3DFormat enumeration
+
+
+## -description
+
+
+Specifies how 3D video frames are stored in memory.
+
+
+## -enum-fields
+
+
+
+
+### -field MFVideo3DSampleFormat_BaseView
+
+The base view is stored in a single buffer. The other view is discarded.
+
+
+### -field MFVideo3DSampleFormat_MultiView
+
+Each media sample contains multiple buffers, one for each view.
+
+
+### -field MFVideo3DSampleFormat_Packed_LeftRight
+
+Each media sample contains one buffer, with both views packed side-by-side into a single frame. 
+
+
+### -field MFVideo3DSampleFormat_Packed_TopBottom
+
+Each media sample contains one buffer, with both views packed top-and-bottom into a single frame. 
+
+
+## -remarks
+
+
+
+This enumeration is used with the <a href="https://msdn.microsoft.com/880DF017-5841-4C0A-82AF-F092DEF5406B">MF_MT_VIDEO_3D_FORMAT</a> attribute.
+
+
+
+
+## -see-also
+
+
+
+
+Media Foundation Enumerations
+ 
+
+ 
+

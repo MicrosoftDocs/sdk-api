@@ -99,7 +99,7 @@ In some cases, the DMO Wrapper filter performs optimizations based on the catego
 
 
 
-<a href="https://msdn.microsoft.com/c85b828c-095d-4991-85a8-65b96529f305">IDMOWrapperFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406848(v=VS.85).aspx">IDMOWrapperFilter Interface</a>
  
 
  

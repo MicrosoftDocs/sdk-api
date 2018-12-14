@@ -60,9 +60,9 @@ Fills the parameter descriptor structure for the function's parameter.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280419(v=VS.85).aspx">D3D11_PARAMETER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/C6F1079C-A686-44EA-933B-9DE2D70CFA33">D3D11_PARAMETER_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280419(v=VS.85).aspx">D3D11_PARAMETER_DESC</a> structure that receives a description of the function's parameter. 
+A pointer to a <a href="https://msdn.microsoft.com/C6F1079C-A686-44EA-933B-9DE2D70CFA33">D3D11_PARAMETER_DESC</a> structure that receives a description of the function's parameter. 
 
 
 ## -returns
@@ -71,7 +71,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280419(v=VS.8
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280544(v=VS.85).aspx">ID3D11FunctionParameterReflection</a>
+<a href="https://msdn.microsoft.com/EFF60EF7-C060-4148-916C-D971B65561F5">ID3D11FunctionParameterReflection</a>
  
 
  

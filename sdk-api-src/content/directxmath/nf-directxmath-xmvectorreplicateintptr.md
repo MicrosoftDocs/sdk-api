@@ -95,7 +95,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/5cc2c83b-08b0-4069-b76c-cd4063142739">XMVectorReplicateInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404803(v=VS.85).aspx">XMVectorReplicateInt</a>
 
 
 

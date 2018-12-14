@@ -73,7 +73,7 @@ The <b>IWMPPlayerApplication</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a356929a-51de-49b6-bf7a-b3bd7fa35ea2">get_hasDisplay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563528(v=VS.85).aspx">get_hasDisplay</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether video can display through the remoted Windows Media Player control.
@@ -82,7 +82,7 @@ Retrieves a value indicating whether video can display through the remoted Windo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca590b80-433d-4a9f-9d6b-cbb33d328fda">get_playerDocked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563529(v=VS.85).aspx">get_playerDocked</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether Windows Media Player is in a docked state.
@@ -91,7 +91,7 @@ Retrieves a value indicating whether Windows Media Player is in a docked state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15be3a28-4e51-46bf-bb64-e45e20ae3524">switchToControl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563530(v=VS.85).aspx">switchToControl</a>
 </td>
 <td align="left" width="63%">
 Switches a remoted Windows Media Player control to the docked state.
@@ -118,10 +118,10 @@ Retrieve a pointer to an <b>IWMPPlayerApplication</b> interface with the followi
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/afe5dbd1-96e1-4abe-b843-ec6130fa02d0">IWMPPlayer4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563522(v=VS.85).aspx">IWMPPlayer4</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/37b4b0b1-f16e-42ed-830e-9b0468a66eeb">get_playerApplication</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563524(v=VS.85).aspx">get_playerApplication</a>
 </td>
 </tr>
 </table> 

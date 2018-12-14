@@ -1,13 +1,13 @@
 ---
-UID: NE:wtsdefs.WTS_RCM_SERVICE_STATE
+UID: NE:wtsdefs.__unnamed_enum_0
 title: WTS_RCM_SERVICE_STATE
 author: windows-sdk-content
 description: Contains information about the state of the Remote Desktop Services service.
 old-location: termserv\wts_rcm_service_state.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5f022d92-b048-4c87-918c-6e8f297cc1a6
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: WRDS_RCM_SERVICE_STATE, WRDS_RCM_SERVICE_STATE enumeration [Remote Desktop Services], WTS_RCM_SERVICE_STATE, WTS_RCM_SERVICE_STATE enumeration [Remote Desktop Services], WTS_SERVICE_NONE, WTS_SERVICE_START, WTS_SERVICE_STOP, termserv.wts_rcm_service_state, wtsdefs/WRDS_RCM_SERVICE_STATE, wtsdefs/WTS_RCM_SERVICE_STATE, wtsdefs/WTS_SERVICE_NONE, wtsdefs/WTS_SERVICE_START, wtsdefs/WTS_SERVICE_STOP
 ms.prod: windows-hardware
 ms.technology: windows-devices

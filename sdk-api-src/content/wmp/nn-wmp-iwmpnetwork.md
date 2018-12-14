@@ -73,7 +73,7 @@ The <b>IWMPNetwork</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/910356d8-3d43-4516-ad30-b0ed288e5098">get_bandWidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563468(v=VS.85).aspx">get_bandWidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current bandwidth of the media item.
@@ -82,7 +82,7 @@ Retrieves the current bandwidth of the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfac8b29-47d9-4cee-801b-f43fa2bba6ed">get_bitRate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563469(v=VS.85).aspx">get_bitRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current bit rate being received.
@@ -91,7 +91,7 @@ Retrieves the current bit rate being received.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ba9be8d-9b2b-4620-8572-317555d51bdf">get_bufferingCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563470(v=VS.85).aspx">get_bufferingCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of times buffering occurred during playback.
@@ -100,7 +100,7 @@ Retrieves the number of times buffering occurred during playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c8cc541-3fc2-49b8-8a1a-f4959989aafe">get_bufferingProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563471(v=VS.85).aspx">get_bufferingProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the percentage of buffering completed.
@@ -109,7 +109,7 @@ Retrieves the percentage of buffering completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a42a7187-9bf2-4db5-8176-6912e18c4d50">get_bufferingTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563472(v=VS.85).aspx">get_bufferingTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of buffering time in milliseconds before playback begins.
@@ -118,7 +118,7 @@ Retrieves the amount of buffering time in milliseconds before playback begins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e9ed2027-cba4-4701-a416-a2190b51570c">get_downloadProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563473(v=VS.85).aspx">get_downloadProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the percentage of downloading completed.
@@ -127,7 +127,7 @@ Retrieves the percentage of downloading completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d42133cf-3b81-4d22-b83d-d8a5756d9d9c">get_encodedFrameRate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563474(v=VS.85).aspx">get_encodedFrameRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the video frame rate specified by the content author.
@@ -136,7 +136,7 @@ Retrieves the video frame rate specified by the content author.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1521c462-b054-46d6-8646-4d20a836eadc">get_frameRate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563475(v=VS.85).aspx">get_frameRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current video frame rate.
@@ -145,7 +145,7 @@ Retrieves the current video frame rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ca3e280-4f3e-4460-884d-186199e3edd6">get_framesSkipped</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563476(v=VS.85).aspx">get_framesSkipped</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of frames skipped during playback.
@@ -154,7 +154,7 @@ Retrieves the total number of frames skipped during playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/821b9bfc-931c-4e83-a899-4755bad3e7ae">get_lostPackets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563477(v=VS.85).aspx">get_lostPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of packets lost.
@@ -163,7 +163,7 @@ Retrieves the number of packets lost.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b3b1b845-7aa5-49d7-a9da-52dea06e51c4">get_maxBandwidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563478(v=VS.85).aspx">get_maxBandwidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum allowed bandwidth.
@@ -172,7 +172,7 @@ Retrieves the maximum allowed bandwidth.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42917ca3-07d3-4d32-a2f3-5f0ef9d387d7">get_maxBitRate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563479(v=VS.85).aspx">get_maxBitRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum possible video bit rate.
@@ -181,7 +181,7 @@ Retrieves the maximum possible video bit rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a896a67-ef0c-4fd7-b352-3c091bea1ad8">get_receivedPackets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563480(v=VS.85).aspx">get_receivedPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of packets received.
@@ -190,7 +190,7 @@ Retrieves the number of packets received.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/835f56a4-26d3-480c-bf3e-49c269e9cc5a">get_receptionQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563481(v=VS.85).aspx">get_receptionQuality</a>
 </td>
 <td align="left" width="63%">
 Retrieves the percentage of packets received in the last 30 seconds.
@@ -199,7 +199,7 @@ Retrieves the percentage of packets received in the last 30 seconds.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c1b41c3-286c-4d1f-ab2f-ce088289eaae">get_recoveredPackets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563482(v=VS.85).aspx">get_recoveredPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of recovered packets.
@@ -208,7 +208,7 @@ Retrieves the number of recovered packets.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6703ce88-9ca8-4401-b297-f765c4b15b84">get_sourceProtocol</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563483(v=VS.85).aspx">get_sourceProtocol</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source protocol used to receive the data.
@@ -217,7 +217,7 @@ Retrieves the source protocol used to receive the data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/33cc24ab-9eb4-48ef-9483-058a3af04983">getProxyBypassForLocal</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563462(v=VS.85).aspx">getProxyBypassForLocal</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the proxy server should be bypassed if the origin server is on a local network.
@@ -226,7 +226,7 @@ Retrieves a value indicating whether the proxy server should be bypassed if the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ddd3a6b2-3637-4da1-b3ce-f01364e8b818">getProxyExceptionList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563464(v=VS.85).aspx">getProxyExceptionList</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy exception list.
@@ -235,7 +235,7 @@ Retrieves the proxy exception list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7bf3adaa-a89d-4ffe-8233-a9c606b39350">getProxyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563465(v=VS.85).aspx">getProxyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a proxy server to use.
@@ -244,7 +244,7 @@ Retrieves the name of a proxy server to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0d636e61-a5c1-495a-8d1d-ce2937dd3f18">getProxyPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563466(v=VS.85).aspx">getProxyPort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy port to use.
@@ -253,7 +253,7 @@ Retrieves the proxy port to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/103e0d53-943d-4aba-9db1-20cdc1d75d52">getProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563467(v=VS.85).aspx">getProxySettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy settings for a given protocol.
@@ -262,7 +262,7 @@ Retrieves the proxy settings for a given protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f25992f-e3a0-477b-b445-1f3fb7d9eae1">put_bufferingTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563484(v=VS.85).aspx">put_bufferingTime</a>
 </td>
 <td align="left" width="63%">
 Specifies the amount of buffering time in milliseconds before playback begins.
@@ -271,7 +271,7 @@ Specifies the amount of buffering time in milliseconds before playback begins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7259a5e2-dbc6-4ac0-946e-e79d542edb06">put_maxBandwidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563485(v=VS.85).aspx">put_maxBandwidth</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum allowed bandwidth.
@@ -280,7 +280,7 @@ Specifies the maximum allowed bandwidth.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4477bc81-e52b-4924-a31b-6f005a5bd158">setProxyBypassForLocal</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563486(v=VS.85).aspx">setProxyBypassForLocal</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the proxy server is bypassed if the origin server is on a local network.
@@ -289,7 +289,7 @@ Specifies whether the proxy server is bypassed if the origin server is on a loca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af9202aa-fa4e-4726-908f-3fc5370e06df">setProxyExceptionList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563487(v=VS.85).aspx">setProxyExceptionList</a>
 </td>
 <td align="left" width="63%">
 Specifies the proxy exception list.
@@ -298,7 +298,7 @@ Specifies the proxy exception list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f484f5b-195c-496d-932e-3e1fdbf873d8">setProxyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563488(v=VS.85).aspx">setProxyName</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of a proxy server to use.
@@ -307,7 +307,7 @@ Specifies the name of a proxy server to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36b7290d-c359-45bb-b77b-46b696e9edcf">setProxyPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563489(v=VS.85).aspx">setProxyPort</a>
 </td>
 <td align="left" width="63%">
 Specifies the proxy port to use.
@@ -316,7 +316,7 @@ Specifies the proxy port to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3ce07bf8-8521-4240-9859-3bf790ccbf48">setProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563491(v=VS.85).aspx">setProxySettings</a>
 </td>
 <td align="left" width="63%">
 Specifies the proxy settings for a given protocol.
@@ -334,10 +334,10 @@ Retrieve a pointer to an <b>IWMPNetwork</b> interface with the following method.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/8100008a-50da-4496-9d5a-77bcca94e903">get_network</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563232(v=VS.85).aspx">get_network</a>
 </td>
 </tr>
 </table> 

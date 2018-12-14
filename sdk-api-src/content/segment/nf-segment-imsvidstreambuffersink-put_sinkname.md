@@ -117,7 +117,7 @@ The method succeeded.
 
 
 
-Call this method before calling <a href="https://msdn.microsoft.com/0195d515-4018-4a96-9af9-566fcdeffaf7">NameSetLock</a>, while the graph is stopped. Otherwise, the method fails and returns E_FAIL.
+Call this method before calling <a href="https://msdn.microsoft.com/en-us/library/Dd694659(v=VS.85).aspx">NameSetLock</a>, while the graph is stopped. Otherwise, the method fails and returns E_FAIL.
 
 
 

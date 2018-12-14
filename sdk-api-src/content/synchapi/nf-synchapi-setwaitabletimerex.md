@@ -66,7 +66,7 @@ Activates the specified waitable timer and provides context information for the 
 
 ### -param hTimer [in]
 
-A handle to the timer object. The <a href="https://msdn.microsoft.com/9ef51567-7d0f-4a2e-a798-289564733410">CreateWaitableTimer</a> or <a href="https://msdn.microsoft.com/0f9b49ea-5d04-449c-9b7d-f79ab28b548b">OpenWaitableTimer</a> function returns this handle.
+A handle to the timer object. The <a href="https://msdn.microsoft.com/en-us/library/ms682494(v=VS.85).aspx">CreateWaitableTimer</a> or <a href="https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx">OpenWaitableTimer</a> function returns this handle.
 
 The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more information, see 
 <a href="https://msdn.microsoft.com/92478298-617c-4672-a1cc-9a8e9af40327">Synchronization Object Security and Access Rights</a>.

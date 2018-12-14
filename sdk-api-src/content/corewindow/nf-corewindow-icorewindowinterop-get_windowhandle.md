@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn302117(v=VS.85).aspx">ICoreWindowInterop</a>
+<a href="https://msdn.microsoft.com/6928FA3A-C367-4C99-A67E-8ED0153D6349">ICoreWindowInterop</a>
  
 
  

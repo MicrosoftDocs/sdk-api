@@ -130,13 +130,13 @@ This method blocks until the time-out expires, or one of the following events oc
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd319485(v=VS.85).aspx">EC_COMPLETE</a>
+<a href="https://msdn.microsoft.com/46037d53-085d-4fd0-91a0-408702cbfce5">EC_COMPLETE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd319538(v=VS.85).aspx">EC_ERRORABORT</a>
+<a href="https://msdn.microsoft.com/b41546ce-cfac-4cc3-a9ad-413ae2d5d6d5">EC_ERRORABORT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd319623(v=VS.85).aspx">EC_USERABORT</a>
+<a href="https://msdn.microsoft.com/974a9c3e-cfc9-4608-9f98-732aeaa0a752">EC_USERABORT</a>
 </li>
 </ul>
 During the wait, the method discards all other event notifications.
@@ -151,7 +151,7 @@ If the return value is S_OK, the <i>pEvCode</i> parameter receives the event cod
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

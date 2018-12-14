@@ -119,15 +119,15 @@ This method fails unless the calling application is running on the local compute
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/103e0d53-943d-4aba-9db1-20cdc1d75d52">IWMPNetwork::getProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563467(v=VS.85).aspx">IWMPNetwork::getProxySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/af9202aa-fa4e-4726-908f-3fc5370e06df">IWMPNetwork::setProxyExceptionList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563487(v=VS.85).aspx">IWMPNetwork::setProxyExceptionList</a>
  
 
  

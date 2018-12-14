@@ -1,0 +1,100 @@
+---
+UID: NE:cscobj.tagOFFLINEFILES_COMPARE
+title: OFFLINEFILES_COMPARE
+author: windows-sdk-content
+description: Specifies the type of comparison to perform in the IOfflineFilesItemFilter::GetTimeFilter method.
+old-location: of\offlinefiles_compare.htm
+tech.root: offlinefiles
+ms.assetid: 17972c96-4ce1-43c0-bb6d-730787f0f93a
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: OFFLINEFILES_COMPARE, OFFLINEFILES_COMPARE enumeration [Offline Files], OFFLINEFILES_COMPARE_EQ, OFFLINEFILES_COMPARE_GT, OFFLINEFILES_COMPARE_GTE, OFFLINEFILES_COMPARE_LT, OFFLINEFILES_COMPARE_LTE, OFFLINEFILES_COMPARE_NEQ, cscobj/OFFLINEFILES_COMPARE, cscobj/OFFLINEFILES_COMPARE_EQ, cscobj/OFFLINEFILES_COMPARE_GT, cscobj/OFFLINEFILES_COMPARE_GTE, cscobj/OFFLINEFILES_COMPARE_LT, cscobj/OFFLINEFILES_COMPARE_LTE, cscobj/OFFLINEFILES_COMPARE_NEQ, of.offlinefiles_compare
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: cscobj.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CscObj.h
+api_name:
+ - OFFLINEFILES_COMPARE
+product: Windows
+targetos: Windows
+req.typenames: OFFLINEFILES_COMPARE
+req.redist: 
+---
+
+# OFFLINEFILES_COMPARE enumeration
+
+
+## -description
+
+
+Specifies the type of comparison to perform in the <a href="https://msdn.microsoft.com/397611e7-60e5-46d6-b90b-5aed7fff6a43">IOfflineFilesItemFilter::GetTimeFilter</a> method.
+
+
+## -enum-fields
+
+
+
+
+### -field OFFLINEFILES_COMPARE_EQ
+
+Check whether the item value is equal to the filter value.
+
+
+### -field OFFLINEFILES_COMPARE_NEQ
+
+Check whether the item value is not equal to the filter value.
+
+
+### -field OFFLINEFILES_COMPARE_LT
+
+Check whether the item value is less than the filter value.
+
+
+### -field OFFLINEFILES_COMPARE_GT
+
+Check whether the item value is greater than the filter value.
+
+
+### -field OFFLINEFILES_COMPARE_LTE
+
+Check whether the item value is less than or equal to the filter value.
+
+
+### -field OFFLINEFILES_COMPARE_GTE
+
+Check whether the item value is greater than or equal to the filter value.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/397611e7-60e5-46d6-b90b-5aed7fff6a43">IOfflineFilesItemFilter::GetTimeFilter</a>
+ 
+
+ 
+

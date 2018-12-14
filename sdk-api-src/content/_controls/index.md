@@ -2,7 +2,7 @@
 UID: TP:controls
 ms.assetid: 8fd04b8c-ce59-322c-a20f-91a83d03f80a
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,6 @@ To develop Windows Controls, you need these headers:
  * [commoncontrols.h](../commoncontrols/index.md)
  * [dpa_dsa.h](../dpa_dsa/index.md)
  * [prsht.h](../prsht/index.md)
- * [richedit.h](../richedit/index.md)
  * [richole.h](../richole/index.md)
  * [shlobj.h](../shlobj/index.md)
  * [textserv.h](../textserv/index.md)

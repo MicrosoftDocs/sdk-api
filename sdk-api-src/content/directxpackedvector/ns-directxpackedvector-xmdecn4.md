@@ -57,9 +57,9 @@ A 4D vector for storing signed, normalized values as 10 bit signed x-,y-, and z-
 
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMDECN4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/7144ae8f-8c9d-41e6-8f75-6d388c3f297c">XMDECN4 Extensions</a>.
+	using <code>XMDECN4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415271(v=VS.85).aspx">XMDECN4 Extensions</a>.
 <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>,and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.
+	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>,and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -134,7 +134,7 @@ Those <code>XMDECN4</code> constructors using floating point arguments require n
 	  an <code>XMVECTOR</code> instance.
       
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMDECN4</code>using <a href="https://msdn.microsoft.com/0d348a81-18ce-4db8-9646-d5fad395c1c0">XMStoreDecN4</a>, which multiplies the x-, y-,and z-components by
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMDECN4</code>using <a href="https://msdn.microsoft.com/en-us/library/Ee420317(v=VS.85).aspx">XMStoreDecN4</a>, which multiplies the x-, y-,and z-components by
 	  511.0f , rounding the result, before assigning the values to the appropriate <code>XMDECN4</code>members.
       
 
@@ -155,7 +155,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/7144ae8f-8c9d-41e6-8f75-6d388c3f297c">XMDECN4 Extensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415271(v=VS.85).aspx">XMDECN4 Extensions</a>
  
 
  

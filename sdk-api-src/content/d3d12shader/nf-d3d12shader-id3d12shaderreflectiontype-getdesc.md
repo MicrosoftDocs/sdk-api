@@ -61,9 +61,9 @@ Gets the description of a shader-reflection-variable type.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960202(v=VS.85).aspx">D3D12_SHADER_TYPE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/B0AF7987-B25B-4496-9B8F-1D9C16DF5E50">D3D12_SHADER_TYPE_DESC</a>*</b>
 
-A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/en-us/library/Dn960202(v=VS.85).aspx">D3D12_SHADER_TYPE_DESC</a>).
+A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/B0AF7987-B25B-4496-9B8F-1D9C16DF5E50">D3D12_SHADER_TYPE_DESC</a>).
           
 
 

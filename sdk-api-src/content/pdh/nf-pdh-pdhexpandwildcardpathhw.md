@@ -7,7 +7,7 @@ old-location: perf\pdhexpandwildcardpathh.htm
 tech.root: perfctrs
 ms.assetid: d7d13beb-02ab-4204-808e-d395197f09e1
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPathH, PdhExpandWildCardPathH function [Perf], PdhExpandWildCardPathHA, PdhExpandWildCardPathHW, _win32_pdhexpandwildcardpathh, base.pdhexpandwildcardpathh, pdh/PdhExpandWildCardPathH, pdh/PdhExpandWildCardPathHA, pdh/PdhExpandWildCardPathHW, perf.pdhexpandwildcardpathh
 ms.prod: windows-hardware
 ms.technology: windows-devices

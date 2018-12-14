@@ -110,7 +110,7 @@ The method succeeded.
 
 
 
-To learn how the Player and the plug-in work together to download a set of tracks, see <a href="https://msdn.microsoft.com/en-us/library/Dd562756(v=VS.85).aspx">Downloading Media Content</a>.
+To learn how the Player and the plug-in work together to download a set of tracks, see <a href="https://msdn.microsoft.com/0a057e13-6e0c-4a8f-9cab-051183e6b222">Downloading Media Content</a>.
 
 
 

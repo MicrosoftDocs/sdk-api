@@ -92,7 +92,7 @@ The buffer's indicated time length is valid.
 
 
 
-<a href="https://msdn.microsoft.com/f52e9586-f65d-418f-8c1a-c97c0a81d253">IMediaObject::ProcessInput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406959(v=VS.85).aspx">IMediaObject::ProcessInput</a>
  
 
  

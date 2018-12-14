@@ -112,9 +112,9 @@ The <i>pwszFilename</i> parameter is <b>NULL</b>.
 
 
 
-There is no close method in this interface as the closing of the writer sink file is done automatically by a call to <a href="https://msdn.microsoft.com/020e2c9d-9581-48c9-bc7b-a0e9e5a60c63">IWMWriter::EndWriting</a>.
+There is no close method in this interface as the closing of the writer sink file is done automatically by a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757475(v=VS.85).aspx">IWMWriter::EndWriting</a>.
 
-See the Remarks and Example Code sections for <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a>.
+See the Remarks and Example Code sections for <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a>.
 
 
 
@@ -124,7 +124,7 @@ See the Remarks and Example Code sections for <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/af47b130-353e-411d-8432-09ecd20a70d2">IWMWriterFileSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798742(v=VS.85).aspx">IWMWriterFileSink Interface</a>
  
 
  

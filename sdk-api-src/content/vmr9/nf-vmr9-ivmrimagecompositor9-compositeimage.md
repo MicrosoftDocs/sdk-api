@@ -74,7 +74,7 @@ Specifies the Direct3D surface that all drawing should be performed on.
 
 ### -param pmtRenderTarget [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that contains the media type of the target surface.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure that contains the media type of the target surface.
 
 
 ### -param rtStart [in]
@@ -94,7 +94,7 @@ Specifies the background color, as a <b>D3DCOLOR</b> type.
 
 ### -param pVideoStreamInfo [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/e2da0c1e-d592-49ce-937c-0d75ce270282">VMR9VideoStreamInfo</a> structures, which descibe each video stream.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd407378(v=VS.85).aspx">VMR9VideoStreamInfo</a> structures, which descibe each video stream.
 
 
 ### -param cStreams [in]
@@ -144,7 +144,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/19fda7f2-000f-47d0-a7c7-d8421de418a2">IVMRImageCompositor9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377381(v=VS.85).aspx">IVMRImageCompositor9 Interface</a>
 
 
 

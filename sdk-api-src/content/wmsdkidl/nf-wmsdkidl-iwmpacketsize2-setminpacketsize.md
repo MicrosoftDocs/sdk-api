@@ -94,11 +94,11 @@ Although larger packets result in a smaller file, they can also make the file mo
 
 
 
-<a href="https://msdn.microsoft.com/4af4c088-9fc3-46a9-8451-518b11bc94e3">IWMPacketSize2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757256(v=VS.85).aspx">IWMPacketSize2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b15f5b9-b7c1-4427-81d9-bbcd0bb0ce45">IWMPacketSize2::GetMinPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757257(v=VS.85).aspx">IWMPacketSize2::GetMinPacketSize</a>
  
 
  

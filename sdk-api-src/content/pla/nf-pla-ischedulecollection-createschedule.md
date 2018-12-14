@@ -7,7 +7,7 @@ old-location: pla\ischedulecollection_createschedule.htm
 tech.root: pla
 ms.assetid: 8fa10cd9-d1ae-47c7-80e2-416165164491
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CreateSchedule, CreateSchedule method [PLA], CreateSchedule method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],CreateSchedule method, IScheduleCollection.CreateSchedule, IScheduleCollection::CreateSchedule, pla.ischedulecollection_createschedule, pla/IScheduleCollection::CreateSchedule
 ms.prod: windows-hardware
 ms.technology: windows-devices

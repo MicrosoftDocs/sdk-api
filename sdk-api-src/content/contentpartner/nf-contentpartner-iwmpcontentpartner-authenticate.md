@@ -108,7 +108,7 @@ The method succeeded.
 Certain links on a discovery page have targets that should be displayed only after the user has been authenticated. The discovery page, Windows Media Player, and the online store's plug-in use the following steps to authenticate the user and display the target webpage:
 
 <ol>
-<li>Script on a discovery page calls the <a href="https://msdn.microsoft.com/en-us/library/Dd562951(v=VS.85).aspx">External.authenticate</a> method.</li>
+<li>Script on a discovery page calls the <a href="https://msdn.microsoft.com/db4cd2c6-b735-40b1-af96-82a40bda9d97">External.authenticate</a> method.</li>
 <li>Windows Media Player displays a dialog box to obtain a user name and password.</li>
 <li>Windows Media Player calls <b>IWMPContentPartner::Authenticate</b>, which initiates the authentication attempt and returns immediately.</li>
 <li>When the authentication attempt is complete, the online store's plug-in calls <a href="https://msdn.microsoft.com/en-us/library/Dd563150(v=VS.85).aspx">IWMPContentPartnerCallback::Notify</a>, passing wmpcnAuthResult and a Boolean value that indicates whether the attempt was successful.</li>

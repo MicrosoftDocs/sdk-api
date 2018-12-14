@@ -2,7 +2,7 @@
 UID: TP:vstor
 ms.assetid: 7572d149-9532-3543-a1bd-0a81a813d12c
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

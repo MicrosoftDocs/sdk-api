@@ -191,7 +191,7 @@ This operation will have a custom string.
 
 ### -param resourceUri [in]
 
-Specifies the <a href="windows_remote_management_glossary.htm">resource URI</a> of the inbound operation.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource URI</a> of the inbound operation.
 
 
 ## -returns

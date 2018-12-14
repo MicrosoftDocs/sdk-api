@@ -52,7 +52,7 @@ req.redist:
 
 The <b>get_Allocator</b> method retrieves the allocator-presenter from the VMR as an <b>IUnknown</b> pointer.
 
-This method is provided for Automation clients. C++ applications can also use the <a href="https://msdn.microsoft.com/b22d643e-f458-4293-9f2b-e8bfe1499905">get__Allocator</a> method, which returns an <a href="https://msdn.microsoft.com/bbcbe152-80fd-469b-a79b-c8db6f97da22">IVMRSurfaceAllocator</a> pointer.
+This method is provided for Automation clients. C++ applications can also use the <a href="https://msdn.microsoft.com/en-us/library/Dd694717(v=VS.85).aspx">get__Allocator</a> method, which returns an <a href="https://msdn.microsoft.com/en-us/library/Dd390499(v=VS.85).aspx">IVMRSurfaceAllocator</a> pointer.
 
 
 ## -parameters
@@ -107,7 +107,7 @@ The caller must release the returned <b>IUnknown</b> interface.
 
 
 
-<a href="https://msdn.microsoft.com/caaa2cf1-15be-47dc-82db-06915a55ba03">IMSVidVideoRenderer2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
  
 
  

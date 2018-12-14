@@ -66,7 +66,7 @@ The <b>SetNetworkProtocol</b> method sets the network protocol that the network 
 
 ### -param protocol [in]
 
-Specifies the procotcol, as a value from the <a href="https://msdn.microsoft.com/dc8b67a9-33fe-408b-b0b5-62a2b219b6b5">WMT_NET_PROTOCOL</a> enumeration type.
+Specifies the procotcol, as a value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757847(v=VS.85).aspx">WMT_NET_PROTOCOL</a> enumeration type.
 
 
 ## -returns
@@ -113,11 +113,11 @@ Invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5007b5be-9521-46f4-8e5c-85e70d48e99f">IWMWriterNetworkSink::GetNetworkProtocol</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798766(v=VS.85).aspx">IWMWriterNetworkSink::GetNetworkProtocol</a>
  
 
  

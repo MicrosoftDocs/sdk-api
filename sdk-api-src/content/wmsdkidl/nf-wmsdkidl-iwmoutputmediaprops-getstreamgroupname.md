@@ -138,7 +138,7 @@ You should make two calls to <b>GetStreamGroupName</b>. On the first call, pass 
 
 
 
-<a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757252(v=VS.85).aspx">IWMOutputMediaProps Interface</a>
  
 
  

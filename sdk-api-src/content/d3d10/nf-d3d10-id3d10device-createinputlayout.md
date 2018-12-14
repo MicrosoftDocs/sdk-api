@@ -68,7 +68,7 @@ An array of the input-assembler stage input data types; each type is described b
 
 ### -param NumElements [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The number of input-data types in the array of input-elements.
 
@@ -82,7 +82,7 @@ A pointer to the compiled shader. To get this pointer see <a href="https://msdn.
 
 ### -param BytecodeLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">SIZE_T</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
 
 Size of the compiled shader.
 

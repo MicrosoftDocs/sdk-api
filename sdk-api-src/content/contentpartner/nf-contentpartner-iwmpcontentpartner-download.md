@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-This method initiates the process of inspecting the container list passed in <i>pInfo</i> and then returns immediately. As the plug-in inspects the container list, it calls <a href="https://msdn.microsoft.com/en-us/library/Dd563146(v=VS.85).aspx">IWMPContentPartnerCallback::DownloadTrack</a> once for each track in the container list. For more information about the download procedure, see <a href="https://msdn.microsoft.com/en-us/library/Dd562756(v=VS.85).aspx">Downloading Media Content</a>.
+This method initiates the process of inspecting the container list passed in <i>pInfo</i> and then returns immediately. As the plug-in inspects the container list, it calls <a href="https://msdn.microsoft.com/en-us/library/Dd563146(v=VS.85).aspx">IWMPContentPartnerCallback::DownloadTrack</a> once for each track in the container list. For more information about the download procedure, see <a href="https://msdn.microsoft.com/0a057e13-6e0c-4a8f-9cab-051183e6b222">Downloading Media Content</a>.
 
 
 

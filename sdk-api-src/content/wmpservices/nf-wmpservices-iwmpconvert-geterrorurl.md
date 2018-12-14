@@ -91,7 +91,7 @@ This is a synchronous call. Your code must complete and return as quickly as pos
 
 
 
-<a href="https://msdn.microsoft.com/316d1a13-0803-4414-8c51-0d5c4768b06d">IWMPConvert Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563213(v=VS.85).aspx">IWMPConvert Interface</a>
  
 
  

@@ -1,0 +1,83 @@
+---
+UID: NE:fwptypes.FWP_ETHER_ENCAP_METHOD_
+title: FWP_ETHER_ENCAP_METHOD
+author: windows-sdk-content
+description: Specifies the method of encapsulating Ethernet II and SNAP traffic. Reserved.
+old-location: fwp\fwp_ether_encap_method.htm
+tech.root: fwp
+ms.assetid: fd94a02e-ba2d-4f99-a340-11f2e594f319
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: FWP_ETHER_ENCAP_METHOD, FWP_ETHER_ENCAP_METHOD enumeration [Filtering], FWP_ETHER_ENCAP_METHOD_ETHER_V2, FWP_ETHER_ENCAP_METHOD_SNAP, FWP_ETHER_ENCAP_METHOD_SNAP_W_OUI_ZERO, fwp.fwp_ether_encap_method, fwptypes/FWP_ETHER_ENCAP_METHOD, fwptypes/FWP_ETHER_ENCAP_METHOD_ETHER_V2, fwptypes/FWP_ETHER_ENCAP_METHOD_SNAP, fwptypes/FWP_ETHER_ENCAP_METHOD_SNAP_W_OUI_ZERO
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: fwptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Fwptypes.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwptypes.h
+api_name:
+ - FWP_ETHER_ENCAP_METHOD
+product: Windows
+targetos: Windows
+req.typenames: FWP_ETHER_ENCAP_METHOD
+req.redist: 
+---
+
+# FWP_ETHER_ENCAP_METHOD enumeration
+
+
+## -description
+
+
+The <b>FWP_ETHER_ENCAP_METHOD</b> enumerated type specifies the method of encapsulating Ethernet II and SNAP traffic. Reserved.
+
+
+## -enum-fields
+
+
+
+
+### -field FWP_ETHER_ENCAP_METHOD_ETHER_V2
+
+Specifies Ethernet V2 encapsulation.
+
+
+### -field FWP_ETHER_ENCAP_METHOD_SNAP
+
+Specifies Subnet Access Protocol (SNAP) encapsulation with an unknown Organizationally Unique Identifier (OUI) and Service Access Point (SAP) prefix.
+
+
+### -field FWP_ETHER_ENCAP_METHOD_SNAP_W_OUI_ZERO
+
+Specifies SNAP encapsulation with a recognized OUI and a SAP prefix of 03.AA.AA.00.00.00 + Ethertype. 
+
+
+## -remarks
+
+
+
+This enumeration is reserved.
+
+
+

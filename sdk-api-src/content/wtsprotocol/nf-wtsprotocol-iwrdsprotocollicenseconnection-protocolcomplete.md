@@ -4,7 +4,7 @@ title: IWRdsProtocolLicenseConnection::ProtocolComplete
 author: windows-sdk-content
 description: Notifies the protocol whether the licensing process completed successfully.
 old-location: termserv\iwrdsprotocollicenseconnection_protocolcomplete.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d9b0efe8-2988-4797-921a-544f410ac6d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -74,11 +74,11 @@ This method does not return a value.
 
 
 
-<a href="direct3d12.id3d12graphicscommandlist4_beginrenderpass">BeginRenderPass</a>
+<a href="https://msdn.microsoft.com/6A7CF754-F2E6-48D4-8A4D-CE64B31267F7">BeginRenderPass</a>
 
 
 
-<a href="https://msdn.microsoft.com/2385E66F-CD42-4826-B508-3EF6144179BD">ID3D12GraphicsCommandList4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
  
 
  

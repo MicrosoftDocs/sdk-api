@@ -96,7 +96,7 @@ Number of elements in the <i>pamvaBufferInfo</i> array.
 
 ### -param pamvaBufferInfo [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/8b018c40-44ae-4033-97b3-efa4b4c1bfb2">AMVABUFFERINFO</a> structures.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd373443(v=VS.85).aspx">AMVABUFFERINFO</a> structures.
           
 
 
@@ -222,7 +222,7 @@ Private data can be passed to and from a driver.
 
 
 
-<a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
  
 
  

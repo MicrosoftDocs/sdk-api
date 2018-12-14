@@ -2,7 +2,7 @@
 UID: NA:wsdhost
 ms.assetid: 97d10f0f-65b0-3f1e-8378-85903b52bb8a
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

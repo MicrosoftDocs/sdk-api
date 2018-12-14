@@ -132,7 +132,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/259ab263-7f1f-4184-83e8-d01d475a735c">XMVector4RefractV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420985(v=VS.85).aspx">XMVector4RefractV</a>
  
 
  

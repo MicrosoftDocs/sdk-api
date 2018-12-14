@@ -92,7 +92,7 @@ The returned <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460f
 
 
 
-<a href="https://msdn.microsoft.com/2e65f2b2-d479-429a-b5c7-8c5cbb6c833d">IMSVidVideoRenderer::get_MinVidRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694738(v=VS.85).aspx">IMSVidVideoRenderer::get_MinVidRect</a>
  
 
  

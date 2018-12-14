@@ -131,11 +131,11 @@ Miniclass drivers that supply a fully functional <i>BatteryMiniDisableStatusNoti
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536269(v=VS.85).aspx">BatteryClassStatusNotify</a>
+<a href="https://msdn.microsoft.com/b74466e0-d900-49c6-a92e-d10a994fa948">BatteryClassStatusNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536277(v=VS.85).aspx">BatteryMiniSetStatusNotify</a>
+<a href="https://msdn.microsoft.com/ec463202-4c08-475a-b612-73413f1376fc">BatteryMiniSetStatusNotify</a>
  
 
  

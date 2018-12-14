@@ -7,7 +7,7 @@ old-location: base\powerdeletescheme.htm
 tech.root: power
 ms.assetid: 5f9969a1-e598-4ca8-a5b8-f8bb3410223d
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: PowerDeleteScheme, PowerDeleteScheme function, base.powerdeletescheme, powrprof/PowerDeleteScheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

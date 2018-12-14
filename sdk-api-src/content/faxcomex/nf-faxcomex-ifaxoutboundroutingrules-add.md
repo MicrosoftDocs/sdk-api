@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxOutboundRoutingRules::Add</b> method adds an outbound routing rule (<a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a> interface) to the collection defined by the <a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a> interface.
+The <b>IFaxOutboundRoutingRules::Add</b> method adds an outbound routing rule (<a href="https://msdn.microsoft.com/en-us/library/ms690232(v=VS.85).aspx">IFaxOutboundRoutingRule</a> interface) to the collection defined by the <a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a> interface.
 
 
 ## -parameters
@@ -95,9 +95,9 @@ Specifies the device to associate with the outbound routing rule. If <i>bUseDevi
 
 ### -param pFaxOutboundRoutingRule [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms690232(v=VS.85).aspx">IFaxOutboundRoutingRule</a>**</b>
 
-An address of a pointer that receives a <a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a> interface.
+An address of a pointer that receives a <a href="https://msdn.microsoft.com/en-us/library/ms690232(v=VS.85).aspx">IFaxOutboundRoutingRule</a> interface.
 
 
 ## -returns

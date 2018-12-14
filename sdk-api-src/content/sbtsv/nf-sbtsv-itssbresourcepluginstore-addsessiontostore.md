@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::AddSessionToStore
 author: windows-sdk-content
 description: Adds a new session to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addsessiontostore.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 354ca945-cefe-42f6-a255-9918b8ffc339
 ms.author: windowssdkdev
 ms.date: 12/5/2018

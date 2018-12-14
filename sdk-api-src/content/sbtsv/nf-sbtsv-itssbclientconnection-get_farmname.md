@@ -4,7 +4,7 @@ title: ITsSbClientConnection::get_FarmName
 author: windows-sdk-content
 description: Farm name.
 old-location: termserv\itssbclientconnection_farmname.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 7c11f511-b7f4-4367-9fa8-6c0f06396481
 ms.author: windowssdkdev
 ms.date: 12/5/2018

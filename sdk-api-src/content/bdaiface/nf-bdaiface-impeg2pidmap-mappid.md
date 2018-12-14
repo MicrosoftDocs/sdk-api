@@ -74,7 +74,7 @@ Pointer to an array of size <i>culPID</i>, allocated by the caller. Each element
 
 ### -param MediaSampleContent [in]
 
-Variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd390669(v=VS.85).aspx">MEDIA_SAMPLE_CONTENT</a> that specifies the contents of the stream.
+Variable of type <a href="https://msdn.microsoft.com/989ad56b-b5af-4811-889e-c79fcd3f7f01">MEDIA_SAMPLE_CONTENT</a> that specifies the contents of the stream.
 
 
 ## -returns
@@ -100,7 +100,7 @@ There may be no more than 255 distinct PIDs mapped at any given time. This inclu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.SENDER_TSPEC
+UID: NS:lpmapi.__unnamed_struct_24
 title: SENDER_TSPEC
 author: windows-sdk-content
 description: The SENDER_TSPEC structure contains information for an RSVP sender Tspec.
@@ -7,7 +7,7 @@ old-location: qos\sender_tspec.htm
 tech.root: QOS
 ms.assetid: d7905687-1af8-4469-b8de-a2445afa90f4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: SENDER_TSPEC, SENDER_TSPEC structure [QOS], lpmapi/SENDER_TSPEC, qos.sender_tspec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,12 +61,12 @@ The
 
 ### -field stspec_header
 
-Object header, expressed as an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+Object header, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a> structure.
 
 
 ### -field stspec_body
 
-Sender Tspec body information, expressed as an <a href="https://msdn.microsoft.com/c4244dba-237a-437b-94b7-fd814edb3506">IntServTspecBody</a> structure.
+Sender Tspec body information, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373725(v=VS.85).aspx">IntServTspecBody</a> structure.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ Sender Tspec body information, expressed as an <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/c4244dba-237a-437b-94b7-fd814edb3506">IntServTspecBody</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373725(v=VS.85).aspx">IntServTspecBody</a>
 
 
 
-<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a>
  
 
  

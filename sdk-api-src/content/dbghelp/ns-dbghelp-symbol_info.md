@@ -1,0 +1,366 @@
+---
+UID: NS:dbghelp._SYMBOL_INFO
+title: SYMBOL_INFO
+author: windows-sdk-content
+description: Contains symbol information.
+old-location: base\symbol_info_str.htm
+tech.root: debug
+ms.assetid: 785a9702-8b77-4ce1-99df-143ce78490ab
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PSYMBOL_INFO, PSYMBOL_INFO, PSYMBOL_INFO structure pointer, SYMBOL_INFO, SYMBOL_INFO structure, SYMBOL_INFOW, SYMFLAG_CLR_TOKEN, SYMFLAG_CONSTANT, SYMFLAG_EXPORT, SYMFLAG_FORWARDER, SYMFLAG_FRAMEREL, SYMFLAG_FUNCTION, SYMFLAG_ILREL, SYMFLAG_LOCAL, SYMFLAG_METADATA, SYMFLAG_PARAMETER, SYMFLAG_REGISTER, SYMFLAG_REGREL, SYMFLAG_SLOT, SYMFLAG_THUNK, SYMFLAG_TLSREL, SYMFLAG_VALUEPRESENT, SYMFLAG_VIRTUAL, _SYMBOL_INFO, _SYMBOL_INFOW, _win32_symbol_info_str, base.symbol_info_str, dbghelp/PSYMBOL_INFO, dbghelp/SYMBOL_INFO, dbghelp/SYMBOL_INFOW"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: dbghelp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: SYMBOL_INFOW (Unicode) and SYMBOL_INFO (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgHelp.h
+api_name:
+ - SYMBOL_INFO
+ - SYMBOL_INFO
+ - SYMBOL_INFOW
+product: Windows
+targetos: Windows
+req.typenames: SYMBOL_INFO, *PSYMBOL_INFO
+req.redist: DbgHelp.dll 5.1 or later
+---
+
+# SYMBOL_INFO structure
+
+
+## -description
+
+
+Contains symbol information.
+
+
+## -struct-fields
+
+
+
+
+### -field SizeOfStruct
+
+The size of the structure, in bytes. This member must be set to <code>sizeof(SYMBOL_INFO)</code>. Note that the total size of the data is the <code>SizeOfStruct + (MaxNameLen - 1) * sizeof(TCHAR)</code>. The reason to subtract one is that the first character in the name is accounted for in the size of the structure.
+
+
+### -field TypeIndex
+
+A unique value that identifies the type data that describes the symbol.  This value does not persist between sessions. 
+
+
+### -field Reserved
+
+This member is reserved for system use.
+
+
+### -field Index
+
+The unique value for the symbol. The value associated with a symbol is not guaranteed to be the same each time you run the process.
+
+For PDB symbols, the index value for a symbol is not generated until the symbol is enumerated or retrieved through a search by name or address. The index values for all CodeView and COFF symbols are generated when the symbols are loaded.
+
+
+### -field Size
+
+The symbol size, in bytes. This value is meaningful only if the module symbols are from a pdb file;  otherwise, this value is typically zero and should be ignored.
+
+
+### -field ModBase
+
+The base address of the module that contains the symbol.
+
+
+### -field Flags
+
+This member can be one or more of the following values. 
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_CLR_TOKEN"></a><a id="symflag_clr_token"></a><dl>
+<dt><b>SYMFLAG_CLR_TOKEN</b></dt>
+<dt>0x00040000</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is a CLR token.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_CONSTANT"></a><a id="symflag_constant"></a><dl>
+<dt><b>SYMFLAG_CONSTANT</b></dt>
+<dt>0x00000100</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is a constant.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_EXPORT"></a><a id="symflag_export"></a><dl>
+<dt><b>SYMFLAG_EXPORT</b></dt>
+<dt>0x00000200</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is from the export table.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_FORWARDER"></a><a id="symflag_forwarder"></a><dl>
+<dt><b>SYMFLAG_FORWARDER</b></dt>
+<dt>0x00000400</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is a forwarder.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_FRAMEREL"></a><a id="symflag_framerel"></a><dl>
+<dt><b>SYMFLAG_FRAMEREL</b></dt>
+<dt>0x00000020</dt>
+</dl>
+</td>
+<td width="60%">
+Offsets are frame relative.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_FUNCTION"></a><a id="symflag_function"></a><dl>
+<dt><b>SYMFLAG_FUNCTION</b></dt>
+<dt>0x00000800</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is a known function.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_ILREL"></a><a id="symflag_ilrel"></a><dl>
+<dt><b>SYMFLAG_ILREL</b></dt>
+<dt>0x00010000</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol address is an offset relative to the beginning of the intermediate language block. This applies to managed code only.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_LOCAL"></a><a id="symflag_local"></a><dl>
+<dt><b>SYMFLAG_LOCAL</b></dt>
+<dt>0x00000080</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is a local variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_METADATA"></a><a id="symflag_metadata"></a><dl>
+<dt><b>SYMFLAG_METADATA</b></dt>
+<dt>0x00020000</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is managed metadata.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_PARAMETER"></a><a id="symflag_parameter"></a><dl>
+<dt><b>SYMFLAG_PARAMETER</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is a parameter.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_REGISTER"></a><a id="symflag_register"></a><dl>
+<dt><b>SYMFLAG_REGISTER</b></dt>
+<dt>0x00000008</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is a register. The <b>Register</b> member is used.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_REGREL"></a><a id="symflag_regrel"></a><dl>
+<dt><b>SYMFLAG_REGREL</b></dt>
+<dt>0x00000010</dt>
+</dl>
+</td>
+<td width="60%">
+Offsets are register relative.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_SLOT"></a><a id="symflag_slot"></a><dl>
+<dt><b>SYMFLAG_SLOT</b></dt>
+<dt>0x00008000</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is a managed code slot.
+							
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_THUNK"></a><a id="symflag_thunk"></a><dl>
+<dt><b>SYMFLAG_THUNK</b></dt>
+<dt>0x00002000</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is a thunk.
+							
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_TLSREL"></a><a id="symflag_tlsrel"></a><dl>
+<dt><b>SYMFLAG_TLSREL</b></dt>
+<dt>0x00004000</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is an offset into the TLS data area.
+							
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_VALUEPRESENT"></a><a id="symflag_valuepresent"></a><dl>
+<dt><b>SYMFLAG_VALUEPRESENT</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+The <b>Value</b> member is used.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SYMFLAG_VIRTUAL"></a><a id="symflag_virtual"></a><dl>
+<dt><b>SYMFLAG_VIRTUAL</b></dt>
+<dt>0x00001000</dt>
+</dl>
+</td>
+<td width="60%">
+The symbol is a virtual symbol created by the 
+<a href="https://msdn.microsoft.com/28405993-035f-4946-91c3-0e3e34fd8824">SymAddSymbol</a> function.
+							
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field Value
+
+The value of a constant.
+
+
+### -field Address
+
+The virtual address of the start of the symbol.
+
+
+### -field Register
+
+The register.
+
+
+### -field Scope
+
+The DIA scope. For more information, see the <i>Debug Interface Access SDK</i> in the Visual Studio documentation. (This resource may not be available in some languages 
+
+and countries.)
+
+
+### -field Tag
+
+The PDB classification. These values are defined in Dbghelp.h in the <a href="http://go.microsoft.com/fwlink/p/?linkid=207077">SymTagEnum</a> enumeration type.
+
+
+### -field NameLen
+
+The length of the name, in characters, not including the null-terminating character.
+
+
+### -field MaxNameLen
+
+The size of the <b>Name</b> buffer, in characters. If this member is 0, the <b>Name</b> member is not used.
+
+
+### -field Name
+
+The name of the symbol. The name can be undecorated if the SYMOPT_UNDNAME option is used with the 
+<a href="https://msdn.microsoft.com/15d72415-829f-4ba3-af80-1f3762cbebda">SymSetOptions</a> function.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c9f9aad8-754d-4ec8-92a3-8cf1929b9d8a">SymEnumSymbolsProc</a>
+
+
+
+<a href="https://msdn.microsoft.com/20338631-19ab-4ad8-9ba2-56fa4812b33e">SymFromAddr</a>
+
+
+
+<a href="https://msdn.microsoft.com/26b9eba7-2038-4640-aeb2-3052889b14ea">SymFromName</a>
+
+
+
+<a href="https://msdn.microsoft.com/3a48365f-3b8a-493d-9fd9-dde77be9ced2">SymGetTypeFromName</a>
+ 
+
+ 
+

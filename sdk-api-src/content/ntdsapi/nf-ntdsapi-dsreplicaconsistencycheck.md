@@ -101,7 +101,7 @@ If the function performs its operation successfully, the return value is <b>ERRO
 
 
 
-<a href="https://msdn.microsoft.com/61A2BB61-E3AE-4530-96CA-E7F85CB82DB2">DS_KCC_TASKID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt445929(v=VS.85).aspx">DS_KCC_TASKID</a>
 
 
 

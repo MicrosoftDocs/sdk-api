@@ -60,7 +60,7 @@ Gets either the surface that was specified when the bitmap was created, or the d
 
 ### -param dxgiSurface [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f1a9fda9d80">IDXGISurface</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>**</b>
 
 The underlying DXGI surface for the bitmap.
 
@@ -98,7 +98,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 The bitmap used must have been created from a DXGI surface render target, a derived render target, or a device context created from an <a href="https://msdn.microsoft.com/21f77c38-c115-4fdf-b294-570577a29201">ID2D1Device</a>.
 
-The returned surface can be used with Microsoft Direct3D or any other API that interoperates with shared surfaces. The application must transitively ensure that the surface is usable on the Direct3D device that is used in this context. For example, if using the surface with Direct2D  then the Direct2D render target must have been created through <a href="https://msdn.microsoft.com/101744ea-97bc-4f92-88b0-fcdf0e4aaf4e">ID2D1Factory::CreateDxgiSurfaceRenderTarget</a> or on a device context created on the same device.
+The returned surface can be used with Microsoft Direct3D or any other API that interoperates with shared surfaces. The application must transitively ensure that the surface is usable on the Direct3D device that is used in this context. For example, if using the surface with Direct2D  then the Direct2D render target must have been created through <a href="https://msdn.microsoft.com/en-us/library/Dd742724(v=VS.85).aspx">ID2D1Factory::CreateDxgiSurfaceRenderTarget</a> or on a device context created on the same device.
 
 
 

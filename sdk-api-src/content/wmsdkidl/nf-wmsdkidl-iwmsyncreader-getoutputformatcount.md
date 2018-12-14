@@ -129,11 +129,11 @@ There is no file loaded in the synchronous reader.
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7faac9e7-ad5f-42a4-ba6e-562ae973f81b">IWMSyncReader::GetOutputFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798589(v=VS.85).aspx">IWMSyncReader::GetOutputFormat</a>
  
 
  

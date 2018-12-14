@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>OpenScope2</b> method opens an <a href="https://msdn.microsoft.com/en-us/library/Aa378239(v=VS.85).aspx">IAzScope2</a> object with the specified name.
+The <b>OpenScope2</b> method opens an <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object with the specified name.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ The <b>OpenScope2</b> method opens an <a href="https://msdn.microsoft.com/en-us/
 
 ### -param bstrScopeName [in]
 
-A string that contains the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa378239(v=VS.85).aspx">IAzScope2</a> object to open.
+A string that contains the name of the <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object to open.
 
 
 ### -param ppScope2 [out]
 
-The address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa378239(v=VS.85).aspx">IAzScope2</a> object that this method opens.
+The address of a pointer to the <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object that this method opens.
 
-When you have finished using the <a href="https://msdn.microsoft.com/en-us/library/Aa378239(v=VS.85).aspx">IAzScope2</a> object, release it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+When you have finished using the <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object, release it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns
@@ -76,7 +76,7 @@ When you have finished using the <a href="https://msdn.microsoft.com/en-us/libra
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 

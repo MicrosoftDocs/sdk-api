@@ -81,11 +81,11 @@ This method always returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/4d6ba1d8-b046-450b-a3f9-4810faba5b77">IWMVideoMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9edfe229-ffc5-4266-93af-1938bbd577c2">IWMVideoMediaProps::GetQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798713(v=VS.85).aspx">IWMVideoMediaProps::GetQuality</a>
  
 
  

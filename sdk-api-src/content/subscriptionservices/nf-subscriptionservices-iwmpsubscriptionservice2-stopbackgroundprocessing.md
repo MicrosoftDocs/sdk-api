@@ -107,7 +107,7 @@ Calls to <b>stopBackgroundProcessing</b> occur after calls to <b>startBackground
 
 
 
-<a href="https://msdn.microsoft.com/5338a3c1-c44a-4c03-a21a-6cd5cfeef064">IWMPSubscriptionService2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563698(v=VS.85).aspx">IWMPSubscriptionService2 Interface</a>
  
 
  

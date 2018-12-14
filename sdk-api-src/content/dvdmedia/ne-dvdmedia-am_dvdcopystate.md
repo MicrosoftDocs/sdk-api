@@ -1,5 +1,5 @@
 ---
-UID: NE:dvdmedia.AM_DVDCOPYSTATE
+UID: NE:dvdmedia.__unnamed_enum_3
 title: AM_DVDCOPYSTATE
 author: windows-sdk-content
 description: Specifies the copy protection state.
@@ -7,7 +7,7 @@ old-location: dshow\am_dvdcopystate.htm
 tech.root: DirectShow
 ms.assetid: 32a9783e-f9f1-4e37-8cd2-3ff5634d75f6
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AM_DVDCOPYSTATE, AM_DVDCOPYSTATE enumeration [DirectShow], AM_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED, AM_DVDCOPYSTATE_AUTHENTICATION_REQUIRED, AM_DVDCOPYSTATE_DONE, AM_DVDCOPYSTATE_INITIALIZE, AM_DVDCOPYSTATE_INITIALIZE_TITLE, dshow.am_dvdcopystate, dvdmedia/AM_DVDCOPYSTATE, dvdmedia/AM_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED, dvdmedia/AM_DVDCOPYSTATE_AUTHENTICATION_REQUIRED, dvdmedia/AM_DVDCOPYSTATE_DONE, dvdmedia/AM_DVDCOPYSTATE_INITIALIZE, dvdmedia/AM_DVDCOPYSTATE_INITIALIZE_TITLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,7 +90,7 @@ Key exchange negotiation is complete.
 
 
 
-The <a href="https://msdn.microsoft.com/0ad15402-096c-4967-bebc-10652535e502">AM_DVDCOPY_SET_COPY_STATE</a> structure uses this data type.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd373463(v=VS.85).aspx">AM_DVDCOPY_SET_COPY_STATE</a> structure uses this data type.
 
 
 

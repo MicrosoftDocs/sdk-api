@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxOutboundRoutingGroups::get_Item</b> method returns a <a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a> interface from the collection.
+The <b>IFaxOutboundRoutingGroups::get_Item</b> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a> interface from the collection.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>IFaxOutboundRoutingGroups::get_Item</b> method returns a <a href="https:/
 Type: <b>VARIANT</b>
 
 
-<a href="e305240e-9e11-4006-98cc-26f4932d2118">Variant</a> that specifies the item to retrieve from the collection. 
+<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">Variant</a> that specifies the item to retrieve from the collection. 
 
 
 
@@ -74,9 +74,9 @@ If this parameter is type VT_I2 or VT_I4, the parameter specifies the index of t
 
 ### -param pFaxOutboundRoutingGroup [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a>**</b>
 
-An address of a pointer that receives the <a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a> interface.
+An address of a pointer that receives the <a href="https://msdn.microsoft.com/en-us/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a> interface.
 
 
 ## -returns

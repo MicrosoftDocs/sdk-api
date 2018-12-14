@@ -4,7 +4,7 @@ title: ITsSbProvisioningPluginNotifySink
 author: windows-sdk-content
 description: Exposes methods that notify Remote Desktop Connection Broker (RD Connection Broker) about the provisioning of virtual machines.
 old-location: termserv\itssbprovisioningpluginnotifysink.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 6f91021c-d7a5-4131-bef7-b4f5f37f9f8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

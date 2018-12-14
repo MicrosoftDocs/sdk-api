@@ -63,12 +63,12 @@ Opens a handle to the specified virtual disk file and returns an <a href="https:
 
 ### -param AccessMask [in]
 
-A bitmask of <a href="https://msdn.microsoft.com/2b1f02ab-dc32-4af1-880b-73e7db8602be">VIRTUAL_DISK_ACCESS_MASK</a> flags specifying the access rights to be applied to the opened virtual disk.
+A bitmask of <a href="https://msdn.microsoft.com/en-us/library/Dd323702(v=VS.85).aspx">VIRTUAL_DISK_ACCESS_MASK</a> flags specifying the access rights to be applied to the opened virtual disk.
 
 
 ### -param Flags [in]
 
-A bitmask of <a href="https://msdn.microsoft.com/edc7d3ad-23a0-4e7a-82d5-8ac4df785f35">OPEN_VIRTUAL_DISK_FLAG</a> flags specifying how the virtual disk is to be opened.
+A bitmask of <a href="https://msdn.microsoft.com/en-us/library/Dd323681(v=VS.85).aspx">OPEN_VIRTUAL_DISK_FLAG</a> flags specifying how the virtual disk is to be opened.
 
 
 ### -param ReadWriteDepth [in]

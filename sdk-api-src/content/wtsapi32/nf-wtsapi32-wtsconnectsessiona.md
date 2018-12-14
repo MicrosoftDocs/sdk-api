@@ -4,7 +4,7 @@ title: WTSConnectSessionA function
 author: windows-sdk-content
 description: Connects a Remote Desktop Services session to an existing session on the local computer.
 old-location: termserv\wtsconnectsession.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 3911b02c-43df-4a8d-9cd6-92d2e5323f61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

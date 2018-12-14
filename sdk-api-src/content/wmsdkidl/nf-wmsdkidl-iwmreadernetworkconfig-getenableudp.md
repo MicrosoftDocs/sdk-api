@@ -113,19 +113,19 @@ NULL or invalid argument passed in.
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6623c2f9-24cb-4038-9aa5-2eb634b3f1a2">IWMReaderNetworkConfig::GetEnableTCP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743524(v=VS.85).aspx">IWMReaderNetworkConfig::GetEnableTCP</a>
 
 
 
-<a href="https://msdn.microsoft.com/8afc62b8-a2f6-4470-8005-804e0980b599">IWMReaderNetworkConfig::SetEnableTCP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743543(v=VS.85).aspx">IWMReaderNetworkConfig::SetEnableTCP</a>
 
 
 
-<a href="https://msdn.microsoft.com/03afdef3-2aa8-4826-8dce-6d501fa42bcd">IWMReaderNetworkConfig::SetEnableUDP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743544(v=VS.85).aspx">IWMReaderNetworkConfig::SetEnableUDP</a>
  
 
  

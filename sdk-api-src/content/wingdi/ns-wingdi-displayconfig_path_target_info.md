@@ -95,17 +95,17 @@ A valid index into the mode array of the <a href="https://msdn.microsoft.com/c81
 
 ### -field outputTechnology
 
-The target's connector type. For a list of possible values, see the <a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumerated type.
+The target's connector type. For a list of possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Ff554003(v=VS.85).aspx">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumerated type.
 
 
 ### -field rotation
 
-A value that specifies the rotation of the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/82709d44-45e6-47ec-9caa-5a947a568c52">DISPLAYCONFIG_ROTATION</a> enumerated type.
+A value that specifies the rotation of the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Ff553970(v=VS.85).aspx">DISPLAYCONFIG_ROTATION</a> enumerated type.
 
 
 ### -field scaling
 
-A value that specifies how the source image is scaled to the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/6f073aa6-2647-4a51-9256-b2da488fd382">DISPLAYCONFIG_SCALING</a> enumerated type. For more information about scaling, see <a href="https://msdn.microsoft.com/e27c7510-45b0-46e6-878f-b901cdd1cd57">Scaling the Desktop Image</a>. 
+A value that specifies how the source image is scaled to the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Ff553974(v=VS.85).aspx">DISPLAYCONFIG_SCALING</a> enumerated type. For more information about scaling, see <a href="https://msdn.microsoft.com/e27c7510-45b0-46e6-878f-b901cdd1cd57">Scaling the Desktop Image</a>. 
 
 
 ### -field refreshRate
@@ -115,7 +115,7 @@ A <a href="https://msdn.microsoft.com/1f2f25f7-5ea1-46f4-ad9f-c50c367bb600">DISP
 
 ### -field scanLineOrdering
 
-A value that specifies the scan-line ordering of the output on the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/5b8d6c83-e8fb-4529-8d61-557ed0e4da37">DISPLAYCONFIG_SCANLINE_ORDERING</a> enumerated type. If the caller specifies target mode information, the operating system will instead use the scan-line ordering that is stored in the <b>scanLineOrdering</b> member of the <a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structure. In this case, the caller specifies this value in the <b>targetVideoSignalInfo</b> member of the <a href="https://msdn.microsoft.com/c81768f0-67d3-4ddd-94c8-013b1e4cf83e">DISPLAYCONFIG_TARGET_MODE</a> structure. 
+A value that specifies the scan-line ordering of the output on the target. For a list of possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Ff553977(v=VS.85).aspx">DISPLAYCONFIG_SCANLINE_ORDERING</a> enumerated type. If the caller specifies target mode information, the operating system will instead use the scan-line ordering that is stored in the <b>scanLineOrdering</b> member of the <a href="https://msdn.microsoft.com/960089fe-dbb7-41a1-af73-0002cfce6da2">DISPLAYCONFIG_VIDEO_SIGNAL_INFO</a> structure. In this case, the caller specifies this value in the <b>targetVideoSignalInfo</b> member of the <a href="https://msdn.microsoft.com/c81768f0-67d3-4ddd-94c8-013b1e4cf83e">DISPLAYCONFIG_TARGET_MODE</a> structure. 
 
 
 ### -field targetAvailable
@@ -188,15 +188,15 @@ The <b>statusFlags</b> member is set when you call the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/82709d44-45e6-47ec-9caa-5a947a568c52">DISPLAYCONFIG_ROTATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff553970(v=VS.85).aspx">DISPLAYCONFIG_ROTATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f073aa6-2647-4a51-9256-b2da488fd382">DISPLAYCONFIG_SCALING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff553974(v=VS.85).aspx">DISPLAYCONFIG_SCALING</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b8d6c83-e8fb-4529-8d61-557ed0e4da37">DISPLAYCONFIG_SCANLINE_ORDERING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff553977(v=VS.85).aspx">DISPLAYCONFIG_SCANLINE_ORDERING</a>
 
 
 
@@ -204,7 +204,7 @@ The <b>statusFlags</b> member is set when you call the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff554003(v=VS.85).aspx">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 
 

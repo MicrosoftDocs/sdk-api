@@ -4,7 +4,7 @@ title: ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a client connection.
 old-location: termserv\itssbresourcenotificationex_notifyclientconnectionstatechangeex.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 79f59e18-f9ca-4e64-b8a1-8b0dd2b2715e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

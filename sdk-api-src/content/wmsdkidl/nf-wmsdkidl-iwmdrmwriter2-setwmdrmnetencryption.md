@@ -114,11 +114,11 @@ The method succeeded.
 
 
 
-You must use this method to prepare the writer if you have samples that are already encoded for delivery to a device that supports Windows Media DRM 10 for Network Devices. Call this method before calling <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a>.
+You must use this method to prepare the writer if you have samples that are already encoded for delivery to a device that supports Windows Media DRM 10 for Network Devices. Call this method before calling <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a>.
 
-After configuring the writer to receive encrypted samples, the writer will not accept samples from calls to <a href="https://msdn.microsoft.com/ba1cf121-1d01-4e90-9ab0-95af0b6e3850">IWMWriter::WriteSample</a>. Instead, you must use <a href="https://msdn.microsoft.com/498bfb73-bfa5-429d-ae8a-3a691fc25fc2">IWMWriterAdvanced::WriteStreamSample</a>.
+After configuring the writer to receive encrypted samples, the writer will not accept samples from calls to <a href="https://msdn.microsoft.com/en-us/library/Dd757509(v=VS.85).aspx">IWMWriter::WriteSample</a>. Instead, you must use <a href="https://msdn.microsoft.com/en-us/library/Dd798741(v=VS.85).aspx">IWMWriterAdvanced::WriteStreamSample</a>.
 
-This method is intended only to create new files from existing data that is encoded for delivery to devices that support Windows Media DRM 10 for Network Devices. To generate data for streaming to secure devices from an existing DRM-protected ASF file, use the methods of the <a href="https://msdn.microsoft.com/cd154077-eebe-4a0f-ae70-5268d5af4898">IWMDRMTranscryptor</a> interface.
+This method is intended only to create new files from existing data that is encoded for delivery to devices that support Windows Media DRM 10 for Network Devices. To generate data for streaming to secure devices from an existing DRM-protected ASF file, use the methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd798367(v=VS.85).aspx">IWMDRMTranscryptor</a> interface.
 
 
 
@@ -128,7 +128,7 @@ This method is intended only to create new files from existing data that is enco
 
 
 
-<a href="https://msdn.microsoft.com/8511b464-1f47-4184-9cb7-9aca0cb6660f">IWMDRMWriter2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798373(v=VS.85).aspx">IWMDRMWriter2 Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_syncfileresult.htm
 tech.root: offlinefiles
 ms.assetid: 3770e966-7481-449e-9b57-44a7329d26db
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncFileResult method, IOfflineFilesEvents.SyncFileResult, IOfflineFilesEvents::SyncFileResult, SyncFileResult, SyncFileResult method [Offline Files], SyncFileResult method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncFileResult, of.iofflinefilesevents_syncfileresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ Reports the result of synchronizing a particular file.
 
 ### -param rSyncId [in]
 
-Unique identifier for the synchronization operation that generated this event.  Provided by the caller of the <a href="https://msdn.microsoft.com/en-us/library/Bb530502(v=VS.85).aspx">IOfflineFilesCache::Synchronize</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb530498(v=VS.85).aspx">IOfflineFilesCache::Pin</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb530503(v=VS.85).aspx">IOfflineFilesCache::Unpin</a> method.  This is GUID_NULL if no ID was provided.
+Unique identifier for the synchronization operation that generated this event.  Provided by the caller of the <a href="https://msdn.microsoft.com/4a9dd105-ea68-40ce-b1cb-6126ca932095">IOfflineFilesCache::Synchronize</a>, <a href="https://msdn.microsoft.com/6005d755-5e1b-4eba-95a2-b6c9c00b1a64">IOfflineFilesCache::Pin</a>, or <a href="https://msdn.microsoft.com/32d81a75-8845-4bd5-a0ff-e056a06ac11c">IOfflineFilesCache::Unpin</a> method.  This is GUID_NULL if no ID was provided.
 
 
 ### -param pszFile [in]
@@ -88,7 +88,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

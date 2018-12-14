@@ -7,7 +7,7 @@ old-location: p2p\peergraphimportdatabase.htm
 tech.root: P2PSdk
 ms.assetid: 85f7dc2b-c159-48e0-ac58-8a66eb0ec73b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerGraphImportDatabase, PeerGraphImportDatabase function [Peer Networking], p2p.peergraphimportdatabase, p2p/PeerGraphImportDatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

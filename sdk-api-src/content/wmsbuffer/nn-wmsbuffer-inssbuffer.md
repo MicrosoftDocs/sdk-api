@@ -56,9 +56,9 @@ The <b>INSSBuffer</b> interface is the basic interface of a buffer object. A buf
 In both writing and reading ASF files, buffer objects are used to contain samples. Depending upon where you use a sample, you will obtain a reference to the <b>INSSBuffer</b> interface in one of three ways:
 
 <ul>
-<li>When passing samples to the writer, you can obtain buffer objects by calling <a href="https://msdn.microsoft.com/b23b2364-fb36-479f-bf92-76a5bb4722de">IWMWriter::AllocateSample</a>.</li>
-<li>When you are receiving samples from the asynchronous reader, buffer objects are created automatically, and references to an <b>INSSBuffer</b> interface are passed with every call the reader makes to the <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a> callback method.</li>
-<li>When you are receiving samples from the synchronous reader, a reference to an <b>INSSBuffer</b> interface is set with every call you make to <a href="https://msdn.microsoft.com/948047b3-3b87-4381-9320-c9602716ade2">IWMSyncReader::GetNextSample</a>.</li>
+<li>When passing samples to the writer, you can obtain buffer objects by calling <a href="https://msdn.microsoft.com/en-us/library/Dd757473(v=VS.85).aspx">IWMWriter::AllocateSample</a>.</li>
+<li>When you are receiving samples from the asynchronous reader, buffer objects are created automatically, and references to an <b>INSSBuffer</b> interface are passed with every call the reader makes to the <a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a> callback method.</li>
+<li>When you are receiving samples from the synchronous reader, a reference to an <b>INSSBuffer</b> interface is set with every call you make to <a href="https://msdn.microsoft.com/en-us/library/Dd798587(v=VS.85).aspx">IWMSyncReader::GetNextSample</a>.</li>
 </ul>
 
 
@@ -70,19 +70,19 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/74d174a1-ede8-482c-ae42-19ca65c6cad4">INSSBuffer2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743244(v=VS.85).aspx">INSSBuffer2</a>
 </td>
 <td>IID_INSSBuffer2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3</a>
 </td>
 <td>IID_INSSBuffer3</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/d6531e52-b58b-46ed-a47b-444cd98e1ec5">INSSBuffer4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743256(v=VS.85).aspx">INSSBuffer4</a>
 </td>
 <td>IID_INSSBuffer4</td>
 </tr>
@@ -109,7 +109,7 @@ The <b>INSSBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f9e8408-52ce-48aa-ba85-51bdbbfd8b51">GetBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743259(v=VS.85).aspx">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the location of the buffer.
@@ -118,7 +118,7 @@ Retrieves the location of the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb03d006-fbaa-4971-8022-41a7fa29fb87">GetBufferAndLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743260(v=VS.85).aspx">GetBufferAndLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the location and size of the used portion of the buffer.
@@ -127,7 +127,7 @@ Retrieves the location and size of the used portion of the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a964124d-f25b-442c-a29d-0ee595bdbcce">GetLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743261(v=VS.85).aspx">GetLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the used portion of the buffer.
@@ -136,7 +136,7 @@ Retrieves the size of the used portion of the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b386c24-1737-4e30-98fa-444fc8a34503">GetMaxLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743262(v=VS.85).aspx">GetMaxLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum size to which a buffer can be set.
@@ -145,7 +145,7 @@ Retrieves the maximum size to which a buffer can be set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f0e8d8a-efc7-4f1b-8a42-7907439ed8af">SetLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743263(v=VS.85).aspx">SetLength</a>
 </td>
 <td align="left" width="63%">
 Specifies the size of the used portion of the buffer.

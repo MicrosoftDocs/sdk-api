@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>WMT_STATUS</b> enumeration type defines a range of file status information. Members of <b>WMT_STATUS</b> are passed to the common callback function, <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a>, so that the application can respond to the changing status of the objects being used.
+The <b>WMT_STATUS</b> enumeration type defines a range of file status information. Members of <b>WMT_STATUS</b> are passed to the common callback function, <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a>, so that the application can respond to the changing status of the objects being used.
 
 
 
@@ -165,12 +165,12 @@ The reader has stopped saving a file from a server.
 
 ### -field WMT_NEW_SOURCEFLAGS
 
-The current file's header object contains certain attributes that are different from those of the previous file. This event is sent when playing a server-side playlist. Use the <a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo</a> interface to query for any of the following attributes in a new file: <a href="https://msdn.microsoft.com/9e03025a-e2ab-47ba-8426-a573d85be6f6">Stridable</a>, <a href="https://msdn.microsoft.com/da2adf16-a9b5-4678-896e-2be8f5ca27e4">Broadcast</a>, <a href="https://msdn.microsoft.com/9653e368-4782-4506-9c44-54c9406b61b5">Seekable</a>, and <a href="https://msdn.microsoft.com/3b67288f-4f04-47a4-91ca-c456107d9d7b">HasImage</a>.
+The current file's header object contains certain attributes that are different from those of the previous file. This event is sent when playing a server-side playlist. Use the <a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo</a> interface to query for any of the following attributes in a new file: <a href="https://msdn.microsoft.com/9e03025a-e2ab-47ba-8426-a573d85be6f6">Stridable</a>, <a href="https://msdn.microsoft.com/da2adf16-a9b5-4678-896e-2be8f5ca27e4">Broadcast</a>, <a href="https://msdn.microsoft.com/9653e368-4782-4506-9c44-54c9406b61b5">Seekable</a>, and <a href="https://msdn.microsoft.com/3b67288f-4f04-47a4-91ca-c456107d9d7b">HasImage</a>.
 
 
 ### -field WMT_NEW_METADATA
 
-The current file's header object contains metadata attributes that are different from those of the previous file. This event is sent when playing a server-side playlist. Use the <a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo</a> interface to query for any metadata attribute you are interested in.
+The current file's header object contains metadata attributes that are different from those of the previous file. This event is sent when playing a server-side playlist. Use the <a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo</a> interface to query for any metadata attribute you are interested in.
 
 
 ### -field WMT_BACKUPRESTORE_BEGIN
@@ -230,12 +230,12 @@ The backup restorer object cannot back up one or more <a href="https://msdn.micr
 
 ### -field WMT_CLIENT_CONNECT
 
-Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://msdn.microsoft.com/62a5bafd-cc49-4a60-be03-038920e5b073">WM_CLIENT_PROPERTIES</a> structure. New applications should wait for <b>WMT_CLIENT_CONNECT_EX</b> instead.
+Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://msdn.microsoft.com/en-us/library/Dd757903(v=VS.85).aspx">WM_CLIENT_PROPERTIES</a> structure. New applications should wait for <b>WMT_CLIENT_CONNECT_EX</b> instead.
 
 
 ### -field WMT_CLIENT_DISCONNECT
 
-Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://msdn.microsoft.com/62a5bafd-cc49-4a60-be03-038920e5b073">WM_CLIENT_PROPERTIES</a> structure. The values in this structure are identical to those sent on connection. New applications should wait for <b>WMT_CLIENT_DISCONNECT_EX</b> instead.
+Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://msdn.microsoft.com/en-us/library/Dd757903(v=VS.85).aspx">WM_CLIENT_PROPERTIES</a> structure. The values in this structure are identical to those sent on connection. New applications should wait for <b>WMT_CLIENT_DISCONNECT_EX</b> instead.
 
 
 ### -field WMT_NATIVE_OUTPUT_PROPS_CHANGED
@@ -255,12 +255,12 @@ End of automatic reconnection to a server.
 
 ### -field WMT_CLIENT_CONNECT_EX
 
-Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://msdn.microsoft.com/981a466d-576b-4774-bd7b-785b0ef80e72">WM_CLIENT_PROPERTIES_EX</a> structure.
+Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://msdn.microsoft.com/en-us/library/Dd757904(v=VS.85).aspx">WM_CLIENT_PROPERTIES_EX</a> structure.
 
 
 ### -field WMT_CLIENT_DISCONNECT_EX
 
-Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://msdn.microsoft.com/981a466d-576b-4774-bd7b-785b0ef80e72">WM_CLIENT_PROPERTIES_EX</a> structure. The client properties are identical to those sent on connection except for the <b>pwszDNSName</b> member, which may have changed.
+Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://msdn.microsoft.com/en-us/library/Dd757904(v=VS.85).aspx">WM_CLIENT_PROPERTIES_EX</a> structure. The client properties are identical to those sent on connection except for the <b>pwszDNSName</b> member, which may have changed.
 
 
 ### -field WMT_SET_FEC_SPAN
@@ -280,17 +280,17 @@ The reader is finished buffering.
 
 ### -field WMT_CLIENT_PROPERTIES
 
-Sent by a writer network sink when one or more properties of a connected client changes. The <i>pValue</i> parameter of the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://msdn.microsoft.com/981a466d-576b-4774-bd7b-785b0ef80e72">WM_CLIENT_PROPERTIES_EX</a> structure. This usually means that a DNS name is present for a client for which none was available at connection.
+Sent by a writer network sink when one or more properties of a connected client changes. The <i>pValue</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://msdn.microsoft.com/en-us/library/Dd757904(v=VS.85).aspx">WM_CLIENT_PROPERTIES_EX</a> structure. This usually means that a DNS name is present for a client for which none was available at connection.
 
 
 ### -field WMT_LICENSEURL_SIGNATURE_STATE
 
-Sent before a <b>WMT_NO_RIGHTS</b> or <b>WMT_NO_RIGHTS_EX</b> status message. The <i>pValue</i> parameter is set to one of the <a href="https://msdn.microsoft.com/48c62532-1cb5-4073-8fa9-cab5a8355bc3">WMT_DRMLA_TRUST</a> constants indicating whether the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">license acquisition</a> URL is completely trusted.
+Sent before a <b>WMT_NO_RIGHTS</b> or <b>WMT_NO_RIGHTS_EX</b> status message. The <i>pValue</i> parameter is set to one of the <a href="https://msdn.microsoft.com/en-us/library/Dd757840(v=VS.85).aspx">WMT_DRMLA_TRUST</a> constants indicating whether the <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">license acquisition</a> URL is completely trusted.
 
 
 ### -field WMT_INIT_PLAYLIST_BURN
 
-Sent when the <a href="https://msdn.microsoft.com/a20a70af-49bc-408f-8c64-779525436f8d">IWMReaderPlaylistBurn::InitPlaylistBurn</a> method returns.
+Sent when the <a href="https://msdn.microsoft.com/en-us/library/Dd743563(v=VS.85).aspx">IWMReaderPlaylistBurn::InitPlaylistBurn</a> method returns.
 
 
 ### -field WMT_TRANSCRYPTOR_INIT
@@ -320,7 +320,7 @@ Sent when the proximity detection protocol has finished.
 
 ### -field WMT_PROXIMITY_COMPLETED
 
-Sent when proximity detection thread has stopped running. The application must not release the <a href="https://msdn.microsoft.com/0897ad8f-8e06-4de9-840e-1588e0e20c54">IWMProximityDetection</a> interface until this message is received. Once launched, the thread runs for two minutes; there is no way to terminate the thread before two minutes have elapsed.
+Sent when proximity detection thread has stopped running. The application must not release the <a href="https://msdn.microsoft.com/en-us/library/Dd757423(v=VS.85).aspx">IWMProximityDetection</a> interface until this message is received. Once launched, the thread runs for two minutes; there is no way to terminate the thread before two minutes have elapsed.
 
 
 
@@ -333,7 +333,7 @@ Sent when a content enabler is required.
 
 
 
-For more information on how this enumeration type is used, see the Remarks section for the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> method.
+For more information on how this enumeration type is used, see the Remarks section for the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method.
 
 
 

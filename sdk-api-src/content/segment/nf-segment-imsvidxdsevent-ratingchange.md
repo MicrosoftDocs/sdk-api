@@ -110,7 +110,7 @@ Return S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/c89f378d-daa6-4e01-a087-6082d368585b">IMSVidXDSEvent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694770(v=VS.85).aspx">IMSVidXDSEvent Interface</a>
  
 
  

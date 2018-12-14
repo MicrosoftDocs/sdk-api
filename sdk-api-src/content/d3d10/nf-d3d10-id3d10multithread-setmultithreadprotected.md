@@ -61,7 +61,7 @@ Turn multithreading on or off.
 
 ### -param bMTProtect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 True to turn multithreading on, false to turn it off.
 
@@ -70,7 +70,7 @@ True to turn multithreading on, false to turn it off.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 True if multithreading was turned on prior to calling this method, false otherwise.
 

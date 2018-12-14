@@ -2,7 +2,7 @@
 UID: TP:msdtcwmi
 ms.assetid: ef7c9398-7333-3ac3-8703-41dad3372c6d
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

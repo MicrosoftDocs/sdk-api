@@ -7,7 +7,7 @@ old-location: pla\idatacollectorsetcollection_addrange.htm
 tech.root: pla
 ms.assetid: 52a7d9ba-9bff-428e-a43c-cc354157fd24
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],AddRange method, IDataCollectorSetCollection.AddRange, IDataCollectorSetCollection::AddRange, base.idatacollectorsetcollection_addrange, pla.idatacollectorsetcollection_addrange, pla/IDataCollectorSetCollection::AddRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

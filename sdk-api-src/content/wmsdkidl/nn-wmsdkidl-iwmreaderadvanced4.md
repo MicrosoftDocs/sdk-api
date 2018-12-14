@@ -60,7 +60,7 @@ An <b>IWMReaderAdvanced4</b> interface exists for every reader object. You can o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderAdvanced4</b> interface inherits from <a href="https://msdn.microsoft.com/20bf3c00-0f35-4b8e-b78d-a36fbfd865b7">IWMReaderAdvanced3</a>. <b>IWMReaderAdvanced4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderAdvanced4</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd757447(v=VS.85).aspx">IWMReaderAdvanced3</a>. <b>IWMReaderAdvanced4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMReaderAdvanced4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d117895-b61f-4890-8cb6-3e4ecf49ca99">AddLogParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757451(v=VS.85).aspx">AddLogParam</a>
 </td>
 <td align="left" width="63%">
 Adds a named value to the logging information that the reader object will send to the server.
@@ -84,7 +84,7 @@ Adds a named value to the logging information that the reader object will send t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fcf43e86-daa3-4944-b687-b8c9afab7336">CancelSaveFileAs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757452(v=VS.85).aspx">CancelSaveFileAs</a>
 </td>
 <td align="left" width="63%">
 Cancels a file save in progress.
@@ -93,16 +93,16 @@ Cancels a file save in progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed4f31b6-e20f-432c-a1ec-954d85ce3a3d">CanSaveFileAs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757453(v=VS.85).aspx">CanSaveFileAs</a>
 </td>
 <td align="left" width="63%">
-Determines whether content being read by the reader object can be saved using the <a href="https://msdn.microsoft.com/97bdac1f-8830-45c0-9229-322ad72b3954">IWMReaderAdvanced2::SaveFileAs</a> method.
+Determines whether content being read by the reader object can be saved using the <a href="https://msdn.microsoft.com/en-us/library/Dd757440(v=VS.85).aspx">IWMReaderAdvanced2::SaveFileAs</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2af443f5-941a-466a-8eef-d4742f8e1ae1">GetLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757454(v=VS.85).aspx">GetLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a language supported by an output.
@@ -111,7 +111,7 @@ Retrieves information about a language supported by an output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c63084cb-f4cf-413b-a3f1-eb6b1400ac93">GetLanguageCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757455(v=VS.85).aspx">GetLanguageCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of languages supported by an output.
@@ -120,7 +120,7 @@ Retrieves the total number of languages supported by an output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5617304f-30ed-4072-a0d7-28463ef90a10">GetMaxSpeedFactor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757456(v=VS.85).aspx">GetMaxSpeedFactor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum playback rate that can be delivered by the source.
@@ -129,7 +129,7 @@ Retrieves the maximum playback rate that can be delivered by the source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c17be57-da35-40f2-a216-97d6953c7311">GetURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757457(v=VS.85).aspx">GetURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL of the file being read.
@@ -138,7 +138,7 @@ Retrieves the URL of the file being read.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29d8d12c-db4c-4c2c-8747-30c8a5577f43">IsUsingFastCache</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757458(v=VS.85).aspx">IsUsingFastCache</a>
 </td>
 <td align="left" width="63%">
 Queries whether the reader is using Fast Cache streaming.
@@ -147,7 +147,7 @@ Queries whether the reader is using Fast Cache streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b345573-bdca-4a1f-b272-716e2ca4c88c">SendLogParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757459(v=VS.85).aspx">SendLogParams</a>
 </td>
 <td align="left" width="63%">
 Sends log entries to the originating server.
@@ -165,27 +165,27 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/20bf3c00-0f35-4b8e-b78d-a36fbfd865b7">IWMReaderAdvanced3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757447(v=VS.85).aspx">IWMReaderAdvanced3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/28d697d8-99b5-4968-a765-ba01b86914f6">IWMReaderAdvanced5 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757460(v=VS.85).aspx">IWMReaderAdvanced5 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/95e8c151-9aae-4930-824c-8809dfc07705">IWMReaderAdvanced6 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757462(v=VS.85).aspx">IWMReaderAdvanced6 Interface</a>
 
 
 

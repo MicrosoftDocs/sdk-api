@@ -71,7 +71,7 @@ Integer that specifies the expression index that corresponds to this constituent
 ### -param Type [in]
 
 
-<a href="https://msdn.microsoft.com/02a84c55-402c-40fe-8dad-6ed3f58052a1">DHCP_POL_ATTR_TYPE</a> enumeration that specifies the attribute type for this condition.
+<a href="https://msdn.microsoft.com/en-us/library/Hh404386(v=VS.85).aspx">DHCP_POL_ATTR_TYPE</a> enumeration that specifies the attribute type for this condition.
 
 
 ### -param OptionID [in]
@@ -94,7 +94,7 @@ A pointer to a null-terminated Unicode string that represents the vendor name.
 ### -param Operator [in]
 
 
-<a href="https://msdn.microsoft.com/7b34e9ec-a3c6-4b85-bb36-d4f834912a64">DHCP_POL_COMPARATOR</a> enumeration that specifies the comparison operator for the condition.
+<a href="https://msdn.microsoft.com/en-us/library/Hh404396(v=VS.85).aspx">DHCP_POL_COMPARATOR</a> enumeration that specifies the comparison operator for the condition.
 
 
 ### -param Value

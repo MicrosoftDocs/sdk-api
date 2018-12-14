@@ -84,7 +84,7 @@ The writing box provides a margin of error to users who write outside the drawn 
 
 
 
-<a href="https://msdn.microsoft.com/2B0302A8-EA85-44D4-8877-EFF23DBD9271">IInkRecognizerGuide</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846802(v=VS.85).aspx">IInkRecognizerGuide</a>
 
 
 

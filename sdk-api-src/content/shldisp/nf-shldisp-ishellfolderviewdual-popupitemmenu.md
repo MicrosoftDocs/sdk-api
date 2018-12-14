@@ -60,7 +60,7 @@ Creates a shortcut menu for the specified item and returns the selected command 
 
 ### -param pfi [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/38c0e049-2f9f-43bc-8bf2-1b7becf16e66">FolderItem</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787810(v=VS.85).aspx">FolderItem</a>*</b>
 
 The FolderItem for which to create a shortcut menu.
 

@@ -75,7 +75,7 @@ The <b>IMSVidStreamBufferSource2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/310e59e1-afde-45ed-b2d1-eecf59319935">get_AudioCounter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694663(v=VS.85).aspx">get_AudioCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Source for the audio stream.
@@ -84,7 +84,7 @@ Enables the caller to get performance statistics from the Stream Buffer Source f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58aa567a-6ef3-4e8b-9155-f262ac1a7557">get_CCCounter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694664(v=VS.85).aspx">get_CCCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Source for the closed captioning stream.
@@ -93,7 +93,7 @@ Enables the caller to get performance statistics from the Stream Buffer Source f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9def9b51-bae7-49a2-b32f-61811be63c58">get_VideoCounter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694665(v=VS.85).aspx">get_VideoCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Source for the video stream.
@@ -102,7 +102,7 @@ Enables the caller to get performance statistics from the Stream Buffer Source f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a506a152-c0e7-497b-a494-5464f712f432">get_WSTCounter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694667(v=VS.85).aspx">get_WSTCounter</a>
 </td>
 <td align="left" width="63%">
 Enables the caller to get performance statistics from the Stream Buffer Source for the World Standard Teletext (WST) stream.
@@ -111,7 +111,7 @@ Enables the caller to get performance statistics from the Stream Buffer Source f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b213ad08-8a72-4b4a-bffa-b68783693340">put_RateEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694668(v=VS.85).aspx">put_RateEx</a>
 </td>
 <td align="left" width="63%">
 Sets the playback rate, and sets the frame rate for fast-forward play ("trick mode").

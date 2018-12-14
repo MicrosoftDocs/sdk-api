@@ -66,7 +66,7 @@ The <b>get_SubstreamTypes</b> method retrieves the list of closed captioning ser
 
 ### -param pTypes [out]
 
-Receives a bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://msdn.microsoft.com/en-us/library/Dd695076(v=VS.85).aspx">KS_CC_SUBSTREAM Constants</a>.
+Receives a bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://msdn.microsoft.com/1a55a9b1-6784-4a29-93aa-95aadaf6fb7e">KS_CC_SUBSTREAM Constants</a>.
 
 
 ## -returns

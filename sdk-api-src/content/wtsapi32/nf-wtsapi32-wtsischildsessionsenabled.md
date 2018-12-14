@@ -4,7 +4,7 @@ title: WTSIsChildSessionsEnabled function
 author: windows-sdk-content
 description: Determines whether child sessions are enabled.
 old-location: termserv\wtsischildsessionsenabled.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 814828A8-1FFB-4ED2-A695-11C87723D5BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

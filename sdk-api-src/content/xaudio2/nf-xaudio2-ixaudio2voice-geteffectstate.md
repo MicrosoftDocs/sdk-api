@@ -81,7 +81,7 @@ This method does not return a value.
 
 
 
-<b>GetEffectState</b> always returns the effect's actual current state. However, this may not be the state set by the most recent <a href="https://msdn.microsoft.com/CA5B0467-D811-4A42-99B1-9F7DCFECA979">IXAudio2Voice::EnableEffect</a> or <a href="https://msdn.microsoft.com/5613C03D-4447-4779-8619-F3F562140B5A">IXAudio2Voice::DisableEffect</a> call: the actual state is only changed the next time the audio engine runs after the <b>IXAudio2Voice::EnableEffect</b> or <b>IXAudio2Voice::DisableEffect</b> call (or after the corresponding <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> call, if EnableEffect/DisableEffect was called with a deferred operation ID).
+<b>GetEffectState</b> always returns the effect's actual current state. However, this may not be the state set by the most recent <a href="https://msdn.microsoft.com/en-us/library/Ee418584(v=VS.85).aspx">IXAudio2Voice::EnableEffect</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee418583(v=VS.85).aspx">IXAudio2Voice::DisableEffect</a> call: the actual state is only changed the next time the audio engine runs after the <b>IXAudio2Voice::EnableEffect</b> or <b>IXAudio2Voice::DisableEffect</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if EnableEffect/DisableEffect was called with a deferred operation ID).
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -94,7 +94,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
 
 
 

@@ -76,7 +76,7 @@ The <b>IQualProp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31e326e2-56de-4c7c-b26a-836c9fc76342">get_AvgFrameRate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376916(v=VS.85).aspx">get_AvgFrameRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the average frame rate achieved.
@@ -85,7 +85,7 @@ Retrieves the average frame rate achieved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4bed68f0-d080-46d4-b582-e561ddca33f0">get_AvgSyncOffset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376917(v=VS.85).aspx">get_AvgSyncOffset</a>
 </td>
 <td align="left" width="63%">
 Retrieves the average time difference between when a frame was due for rendering and when rendering actually began (this is returned as a value in milliseconds).
@@ -94,7 +94,7 @@ Retrieves the average time difference between when a frame was due for rendering
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69160479-7c72-46ed-9421-2a6c2c2861db">get_DevSyncOffset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376918(v=VS.85).aspx">get_DevSyncOffset</a>
 </td>
 <td align="left" width="63%">
 Retrieves the average time difference between when a frame was due for rendering and when rendering actually began (this is returned as a standard deviation).
@@ -103,7 +103,7 @@ Retrieves the average time difference between when a frame was due for rendering
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a5d4aee-dd35-432f-b6a6-4b1b59ad9b78">get_FramesDrawn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376919(v=VS.85).aspx">get_FramesDrawn</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of frames drawn since streaming started.
@@ -112,7 +112,7 @@ Retrieves the number of frames drawn since streaming started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/342aff30-ed1c-406d-8fbe-0524acbcd2d7">get_FramesDroppedInRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376920(v=VS.85).aspx">get_FramesDroppedInRenderer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of frames dropped by the renderer.
@@ -121,7 +121,7 @@ Retrieves the number of frames dropped by the renderer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1f6e93f-58d6-41b4-b16f-e9f02bfec0fe">get_Jitter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376921(v=VS.85).aspx">get_Jitter</a>
 </td>
 <td align="left" width="63%">
 Gets the jitter (variation in time) between successive frames delivered to the video renderer

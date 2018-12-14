@@ -4,7 +4,7 @@ title: IWTSSBPlugin::Initialize
 author: windows-sdk-content
 description: Initializes the plug-in and returns a value that indicates the redirection capabilities of the plug-in.
 old-location: termserv\iwtssbplugin_initialize.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: b9304f4a-49ed-4a5e-87a1-7a9bc1c01b3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -131,11 +131,11 @@ If no SAMI style is specified, the first style defined in the SAMI file is used 
 
 
 
-<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/27040145-af7a-4d09-9c80-e0907df08f01">IWMPClosedCaption::get_SAMIStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563124(v=VS.85).aspx">IWMPClosedCaption::get_SAMIStyle</a>
  
 
  

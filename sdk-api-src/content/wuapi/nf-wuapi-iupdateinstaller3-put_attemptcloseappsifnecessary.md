@@ -80,7 +80,7 @@ Returns S_OK on success.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>
  
 
  

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_TRANSFER_MODE
+UID: NE:webservices.__unnamed_enum_20
 title: WS_TRANSFER_MODE
 author: windows-sdk-content
 description: Whether messages that are sent or received are streamed or buffered.
@@ -7,7 +7,7 @@ old-location: wsw\ws_transfer_mode.htm
 tech.root: wsw
 ms.assetid: 6153bef6-f37f-4bc6-b1c5-5fbedd6bd234
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_BUFFERED_TRANSFER_MODE, WS_STREAMED_INPUT_TRANSFER_MODE, WS_STREAMED_OUTPUT_TRANSFER_MODE, WS_STREAMED_TRANSFER_MODE, WS_TRANSFER_MODE, WS_TRANSFER_MODE enumeration [Web Services for Windows], webservices/WS_BUFFERED_TRANSFER_MODE, webservices/WS_STREAMED_INPUT_TRANSFER_MODE, webservices/WS_STREAMED_OUTPUT_TRANSFER_MODE, webservices/WS_STREAMED_TRANSFER_MODE, webservices/WS_TRANSFER_MODE, wsw.ws_transfer_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,7 +93,7 @@ Messages that are written or read are buffered.
                 
 
 This is equivalent to specifying neither
-                    <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_INPUT_TRANSFER_MODE</a> nor
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd323477(v=VS.85).aspx">WS_STREAMED_INPUT_TRANSFER_MODE</a> nor
                     <b>WS_STREAMED_OUTPUT_TRANSFER_MODE</b>.
                 
 
@@ -104,7 +104,7 @@ Messages that are written or read are streamed.
                 
 
 This is equivalent to specifying both
-                    <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_INPUT_TRANSFER_MODE</a> and
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd323477(v=VS.85).aspx">WS_STREAMED_INPUT_TRANSFER_MODE</a> and
                     <b>WS_STREAMED_OUTPUT_TRANSFER_MODE</b>.
                 
 
@@ -114,7 +114,7 @@ This is equivalent to specifying both
 
 
 This value is specified for a channel using the 
-                <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_TRANSFER_MODE</a> channel property.
+                <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_TRANSFER_MODE</a> channel property.
             
 
 The streaming programming model can be used regardless of which 

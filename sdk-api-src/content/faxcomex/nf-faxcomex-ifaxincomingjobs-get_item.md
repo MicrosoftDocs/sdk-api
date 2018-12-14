@@ -67,7 +67,7 @@ Type: <b>VARIANT</b>
 
 ### -param pFaxIncomingJob [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>**</b>
 
 Receives an indirect pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object.
 
@@ -88,11 +88,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/970a6047-4c85-404d-ad7e-39703f09f856">IFaxIncomingJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684964(v=VS.85).aspx">IFaxIncomingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1c84f4b-5184-4233-bd97-3b7c586f45a3">Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686184(v=VS.85).aspx">Item</a>
  
 
  

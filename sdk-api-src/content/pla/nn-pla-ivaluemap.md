@@ -7,7 +7,7 @@ old-location: pla\ivaluemap.htm
 tech.root: pla
 ms.assetid: a7134395-91c6-4ea1-8b76-63830048289f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IValueMap, IValueMap interface [PLA], IValueMap interface [PLA],described, base.ivaluemap, pla.ivaluemap, pla/IValueMap
 ms.prod: windows-hardware
 ms.technology: windows-devices

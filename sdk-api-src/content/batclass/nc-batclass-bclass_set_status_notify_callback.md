@@ -127,7 +127,7 @@ The miniclass driver cannot distinguish the target condition.
 
 
 
-The battery class driver calls a miniclass driver's <i>BatteryMiniSetStatusNotify</i> routine to set criteria for an acceptable range of battery conditions. When the battery's capacity or power state deviates from these criteria, the miniclass driver must call <a href="https://msdn.microsoft.com/en-us/library/Ff536269(v=VS.85).aspx">BatteryClassStatusNotify</a> to notify the class driver.
+The battery class driver calls a miniclass driver's <i>BatteryMiniSetStatusNotify</i> routine to set criteria for an acceptable range of battery conditions. When the battery's capacity or power state deviates from these criteria, the miniclass driver must call <a href="https://msdn.microsoft.com/b74466e0-d900-49c6-a92e-d10a994fa948">BatteryClassStatusNotify</a> to notify the class driver.
 
 In the <b>PowerState</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff536288(v=VS.85).aspx">BATTERY_NOTIFY</a> structure, the class driver specifies one or more battery power states. Any time the battery enters a power state that is not in <b>PowerState</b>, the miniclass driver must notify the class driver.
 
@@ -143,11 +143,11 @@ Some batteries might be unable to distinguish the precise capacities requested b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536269(v=VS.85).aspx">BatteryClassStatusNotify</a>
+<a href="https://msdn.microsoft.com/b74466e0-d900-49c6-a92e-d10a994fa948">BatteryClassStatusNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536272(v=VS.85).aspx">BatteryMiniDisableStatusNotify</a>
+<a href="https://msdn.microsoft.com/5120205f-0d55-4391-a560-3089fbe11d82">BatteryMiniDisableStatusNotify</a>
  
 
  

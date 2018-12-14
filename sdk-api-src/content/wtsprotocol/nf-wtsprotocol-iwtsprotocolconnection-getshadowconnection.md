@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::GetShadowConnection
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetShadowConnection is no longer available. Instead, use IWRdsProtocolConnection::GetShadowConnection.
 old-location: termserv\iwtsprotocolconnection_getshadowconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 6496deba-6166-48d2-9294-286a448de231
 ms.author: windowssdkdev
 ms.date: 12/5/2018

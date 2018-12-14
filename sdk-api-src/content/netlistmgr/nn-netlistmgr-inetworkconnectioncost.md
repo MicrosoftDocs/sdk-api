@@ -7,7 +7,7 @@ old-location: nla\inetworkconnectcost.htm
 tech.root: nla
 ms.assetid: D04A5C34-6E5D-4F5B-B54D-3FDF7A936D9E
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INetworkConnectionCost, INetworkConnectionCost interface [Network Awareness], INetworkConnectionCost interface [Network Awareness],described, netlistmgr/INetworkConnectionCost, nla.inetworkconnectcost
 ms.prod: windows-hardware
 ms.technology: windows-devices

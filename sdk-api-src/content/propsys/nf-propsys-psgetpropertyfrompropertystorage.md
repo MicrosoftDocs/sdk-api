@@ -76,7 +76,7 @@ The size, in bytes, of the <b>USERIALIZESPROPSTORAGE</b> buffer pointed to by <i
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to the <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> that identifies the property for which to get the value.
+Reference to the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> that identifies the property for which to get the value.
 
 
 ### -param ppropvar [out]
@@ -101,16 +101,16 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-This function is intended to be called if the calling application already has a serialized property storage and needs no more than a few properties from storage. If many properties need to be retrieved, performance can be enhanced by creating a memory property store through <a href="https://msdn.microsoft.com/en-us/library/Bb776489(v=VS.85).aspx">PSCreateMemoryPropertyStore</a>, initializing the property store by calling <a href="https://msdn.microsoft.com/5b6d14ba-3de3-493e-8551-0f3caa02f339">IPersistSerializedPropStorage::SetPropertyStorage</a>, and by using <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> to retrieve the properties.
+This function is intended to be called if the calling application already has a serialized property storage and needs no more than a few properties from storage. If many properties need to be retrieved, performance can be enhanced by creating a memory property store through <a href="shell.PSCreateMemoryPropertyStore">PSCreateMemoryPropertyStore</a>, initializing the property store by calling <a href="https://msdn.microsoft.com/5b6d14ba-3de3-493e-8551-0f3caa02f339">IPersistSerializedPropStorage::SetPropertyStorage</a>, and by using <a href="shell.IPropertyStore">IPropertyStore</a> to retrieve the properties.
 
-Note that <a href="https://msdn.microsoft.com/en-us/library/Bb762080(v=VS.85).aspx">PSGetPropertyFromPropertyStorage</a> works only on serialized buffers created by the system implementation of <a href="https://msdn.microsoft.com/d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8">IPersistSerializedPropStorage</a>. You must first obtain a memory property store by calling <a href="https://msdn.microsoft.com/en-us/library/Bb776489(v=VS.85).aspx">PSCreateMemoryPropertyStore</a>. That store can then create a serialized buffer using the <b>IPersistSerializedPropStorage</b> interface.
+Note that <a href="shell.PSGetPropertyFromPropertyStorage">PSGetPropertyFromPropertyStorage</a> works only on serialized buffers created by the system implementation of <a href="https://msdn.microsoft.com/d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8">IPersistSerializedPropStorage</a>. You must first obtain a memory property store by calling <a href="shell.PSCreateMemoryPropertyStore">PSCreateMemoryPropertyStore</a>. That store can then create a serialized buffer using the <b>IPersistSerializedPropStorage</b> interface.
 
 Although SERIALIZEDPROPSTORAGE is an opaque serialized data structure whose format may change in the future, earlier formats will be supported on subsequent versions of Windows. Because the format is opaque, applications should use supported property storage APIs to access and manipulate the serialized buffer (see <a href="https://msdn.microsoft.com/d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8">IPersistSerializedPropStorage</a>).
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762080(v=VS.85).aspx">PSGetPropertyFromPropertyStorage</a> to read a value from serialized property storage.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyFromPropertyStorage">PSGetPropertyFromPropertyStorage</a> to read a value from serialized property storage.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -142,7 +142,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776501(v=VS.85).aspx">PSGetNamedPropertyFromPropertyStorage</a>
+<a href="shell.PSGetNamedPropertyFromPropertyStorage">PSGetNamedPropertyFromPropertyStorage</a>
  
 
  

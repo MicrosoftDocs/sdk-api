@@ -64,7 +64,7 @@ Adds or replaces the specified standard header in the message.
 The message to set the header in.
                 
 
-The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -76,7 +76,7 @@ The type of header to serialize.
 
 ### -param valueType [in]
 
-The type of the value to serialize.  See <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a> for
+The type of the value to serialize.  See <a href="https://msdn.microsoft.com/en-us/library/Dd401897(v=VS.85).aspx">WS_HEADER_TYPE</a> for
                     the set of types supported for each type of header.
                 
 
@@ -84,8 +84,8 @@ The type of the value to serialize.  See <a href="https://msdn.microsoft.com/4c9
 ### -param writeOption [in]
 
 Whether the header element is required, and how the value is allocated.
-                    <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_NILLABLE_VALUE</a> and <b>WS_WRITE_NILLABLE_POINTER</b> 
-                    write options cannot be specified since the header types in <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a> 
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_NILLABLE_VALUE</a> and <b>WS_WRITE_NILLABLE_POINTER</b> 
+                    write options cannot be specified since the header types in <a href="https://msdn.microsoft.com/en-us/library/Dd401897(v=VS.85).aspx">WS_HEADER_TYPE</a> 
                     are not allowed to be nillable in the respective standards specifications.
                     See <b>WS_WRITE_OPTION</b> for more information.
                 
@@ -93,7 +93,7 @@ Whether the header element is required, and how the value is allocated.
 
 ### -param value
 
-The header value to serialize.  See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for
+The header value to serialize.  See <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> for
                     more information.
                 
 
@@ -178,7 +178,7 @@ This function may return other errors not listed above.
 
 
 
-This API allows setting of standard header types (see <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a>).
+This API allows setting of standard header types (see <a href="https://msdn.microsoft.com/en-us/library/Dd401897(v=VS.85).aspx">WS_HEADER_TYPE</a>).
                 For application defined header types, use <a href="https://msdn.microsoft.com/4b95085a-e522-4ab2-b7c9-d332599c5598">WsAddCustomHeader</a>.
             
 

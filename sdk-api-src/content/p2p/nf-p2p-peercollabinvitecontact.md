@@ -7,7 +7,7 @@ old-location: p2p\peercollabinvitecontact.htm
 tech.root: P2PSdk
 ms.assetid: 65c6cdb5-33af-435c-9444-42f8689e13a8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerCollabInviteContact, PeerCollabInviteContact function [Peer Networking], p2p.peercollabinvitecontact, p2p/PeerCollabInviteContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

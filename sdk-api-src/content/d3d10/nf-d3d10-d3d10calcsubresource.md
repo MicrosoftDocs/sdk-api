@@ -60,21 +60,21 @@ Calculate a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).
 
 ### -param MipSlice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 A zero-based index into an array of subtextures; 0 indicates the first, most detailed subtexture (or mipmap level).
 
 
 ### -param ArraySlice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The zero-based index of the first texture to use (in an array of textures).
 
 
 ### -param MipLevels [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of mipmap levels (or subtextures) to use.
 

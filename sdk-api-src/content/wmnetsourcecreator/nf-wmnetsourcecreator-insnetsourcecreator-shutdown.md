@@ -80,11 +80,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/39e692a6-fb68-447f-bd28-8d216776157a">INSNetSourceCreator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743239(v=VS.85).aspx">INSNetSourceCreator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/53c1a15e-3ced-44e5-b512-b381ae11aa65">INSNetSourceCreator::Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743241(v=VS.85).aspx">INSNetSourceCreator::Initialize</a>
  
 
  

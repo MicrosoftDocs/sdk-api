@@ -2,7 +2,7 @@
 UID: NA:fsrmenums
 ms.assetid: 55538567-5437-307b-a79d-afe4a7f74133
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -203,7 +203,7 @@ Create a stand-alone DFS namespace.
 
 
 
-<a href="https://msdn.microsoft.com/b260e132-41fd-460b-87e6-c6e0490dc8b4">DFS_NAMESPACE_VERSION_ORIGIN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736248(v=VS.85).aspx">DFS_NAMESPACE_VERSION_ORIGIN</a>
 
 
 

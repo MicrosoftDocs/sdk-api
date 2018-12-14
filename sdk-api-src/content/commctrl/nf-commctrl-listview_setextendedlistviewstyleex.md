@@ -60,14 +60,14 @@ Sets extended styles for list-view controls using the style mask. You can use th
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control that will receive the style change. 
 
 
 ### -param dwMask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 A <b>DWORD</b> value that specifies which styles in 
 					<i>dwExStyle</i> are to be affected. This parameter can be a combination of <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">Extended List-View Styles</a>. Only the extended styles in <i>dwExMask</i> will be changed. All other styles will be maintained as they are. If this parameter is zero, all of the styles in <i>dwExStyle</i> will be affected. 
@@ -75,7 +75,7 @@ A <b>DWORD</b> value that specifies which styles in
 
 ### -param dw
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 A <b>DWORD</b> value that specifies the extended list-view control styles to set. This parameter can be a combination of <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">Extended List-View Styles</a>. Styles that are not set, but that are specified in <i>dwExMask</i>, are removed.
 

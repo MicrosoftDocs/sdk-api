@@ -323,7 +323,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/191ea201-dc86-4cde-a0cd-be8d2360b22e">GetStartupInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683230(v=VS.85).aspx">GetStartupInfo</a>
 
 
 

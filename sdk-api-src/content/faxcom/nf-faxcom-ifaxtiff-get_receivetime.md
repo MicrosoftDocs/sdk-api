@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-A fax client application must  set the <a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
+A fax client application must  set the <a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
 
 The <b>get_ReceiveTime</b> method sets the <i>pVal</i> parameter to the time at which reception began for an inbound fax file, if it is available. If the information is not available, the method returns an empty string.
 
@@ -75,7 +75,7 @@ The fax service formats the string according to the user's locale. It is a conca
 
 10/02/98@10:15AM
 
-The <a href="https://msdn.microsoft.com/1bc248b7-a8ff-430a-9ab7-1bad9186696c">RawReceiveTime</a> property contains the time expressed in Coordinated Universal Time (UTC).
+The <a href="https://msdn.microsoft.com/en-us/library/ms692842(v=VS.85).aspx">RawReceiveTime</a> property contains the time expressed in Coordinated Universal Time (UTC).
 
 
 
@@ -97,11 +97,11 @@ The <a href="https://msdn.microsoft.com/1bc248b7-a8ff-430a-9ab7-1bad9186696c">Ra
 
 
 
-<a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">IFaxTiff::get_Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">IFaxTiff::get_Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bc248b7-a8ff-430a-9ab7-1bad9186696c">IFaxTiff::get_RawReceiveTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692842(v=VS.85).aspx">IFaxTiff::get_RawReceiveTime</a>
 
 
 

@@ -82,7 +82,7 @@ Returns S_OK if successful or E_POINTER if the pointer is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/858af0c3-9e22-45d8-ab08-307eb39a8977">IDirectDrawMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406806(v=VS.85).aspx">IDirectDrawMediaStream Interface</a>
  
 
  

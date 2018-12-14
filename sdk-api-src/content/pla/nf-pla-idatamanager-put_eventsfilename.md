@@ -7,7 +7,7 @@ old-location: pla\idatamanager_eventsfilename.htm
 tech.root: pla
 ms.assetid: ce67779a-3312-496f-a793-ac8720e63fb4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: EventsFileName property [PLA], EventsFileName property [PLA],IDataManager interface, IDataManager interface [PLA],EventsFileName property, IDataManager.EventsFileName, IDataManager.put_EventsFileName, IDataManager::EventsFileName, IDataManager::get_EventsFileName, IDataManager::put_EventsFileName, base.idatamanager_eventsfilename, pla.idatamanager_eventsfilename, pla/IDataManager::EventsFileName, pla/IDataManager::get_EventsFileName, pla/IDataManager::put_EventsFileName, put_EventsFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

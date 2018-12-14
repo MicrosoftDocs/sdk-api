@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::SaveTarget
 author: windows-sdk-content
 description: Saves a target.
 old-location: termserv\itssbresourcepluginstore_savetarget.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 323ac6ee-6a50-433b-85b3-a4409be08226
 ms.author: windowssdkdev
 ms.date: 12/5/2018

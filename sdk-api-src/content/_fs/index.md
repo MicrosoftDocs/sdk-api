@@ -2,7 +2,7 @@
 UID: TP:fs
 ms.assetid: a9f12332-38ed-3ca3-94de-b920c35101cd
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,6 @@ To develop Data Access and Storage, you need these headers:
  * [lmshare.h](../lmshare/index.md)
  * [lmstats.h](../lmstats/index.md)
  * [lzexpand.h](../lzexpand/index.md)
- * [minwinbase.h](../minwinbase/index.md)
  * [ntmsapi.h](../ntmsapi/index.md)
  * [ntmsmli.h](../ntmsmli/index.md)
  * [txfw32.h](../txfw32/index.md)

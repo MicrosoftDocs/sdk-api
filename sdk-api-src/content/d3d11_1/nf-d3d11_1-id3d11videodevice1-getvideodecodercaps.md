@@ -104,7 +104,7 @@ The type of cryptography used to encrypt the video stream. A value of NULL indic
 
 Type: <b>UINT*</b>
 
-A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/en-us/library/Dn894120(v=VS.85).aspx">D3D11_VIDEO_DECODER_CAPS</a> values specifying the decoder capabilities.
+A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/8E3C86A4-5F73-4E6F-8F93-5564EA0BC113">D3D11_VIDEO_DECODER_CAPS</a> values specifying the decoder capabilities.
 
 
 
@@ -137,7 +137,7 @@ This method returns one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894141(v=VS.85).aspx">ID3D11VideoDevice1</a>
+<a href="https://msdn.microsoft.com/10E68945-6103-491D-8846-3B7C880FEAFD">ID3D11VideoDevice1</a>
  
 
  

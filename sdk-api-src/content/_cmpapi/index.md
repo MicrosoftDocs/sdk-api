@@ -2,7 +2,7 @@
 UID: TP:cmpapi
 ms.assetid: 865b4105-cb5f-37f2-b782-91e1abe4269c
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

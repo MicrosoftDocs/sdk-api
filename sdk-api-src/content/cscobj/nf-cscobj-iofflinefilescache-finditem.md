@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_finditem.htm
 tech.root: offlinefiles
 ms.assetid: 15696dbf-09a9-42e3-8400-20f7b9b171b7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FindItem, FindItem method [Offline Files], FindItem method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],FindItem method, IOfflineFilesCache.FindItem, IOfflineFilesCache::FindItem, OFFLINEFILES_ITEM_QUERY_ADMIN, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesCache::FindItem, of.iofflinefilescache_finditem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ Allows administrators to find items cached by any user.  If this flag is set and
 
 ### -param ppItem [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a> interface of the cache item.
+Pointer to the <a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a> interface of the cache item.
 
 
 ## -returns
@@ -128,7 +128,7 @@ Returns <code>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</code> if the cache entry
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530492(v=VS.85).aspx">FindItemEx</a> is an enhanced version of <b>FindItem</b> that provides filtering capabilities similar to what is offered by cache item enumeration.  Calling <b>FindItem</b> is equivalent to calling <b>FindItemEx</b> with all four filter parameters set to <b>NULL</b>.
+<a href="https://msdn.microsoft.com/f7a247c0-1bb2-40d5-8914-758c8f6c4c51">FindItemEx</a> is an enhanced version of <b>FindItem</b> that provides filtering capabilities similar to what is offered by cache item enumeration.  Calling <b>FindItem</b> is equivalent to calling <b>FindItemEx</b> with all four filter parameters set to <b>NULL</b>.
 
 
 
@@ -138,7 +138,7 @@ Returns <code>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</code> if the cache entry
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

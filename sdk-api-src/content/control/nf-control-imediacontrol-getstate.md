@@ -147,7 +147,7 @@ This method returns an error if there is a call on another thread to change the 
 
 Avoid specifying a time-out of INFINITE, because threads cannot process messages while waiting in <code>GetState</code>. If you call <code>GetState</code> from the thread that processes Windows messages, specify small wait times on the call in order to remain responsive to user input. This is especially important when the source is streaming over a network or from the Internet because state transitions in these environments can take significantly more time to complete.
 
-The <i>pfs</i> parameter is typed as an <a href="https://msdn.microsoft.com/en-us/library/Dd390936(v=VS.85).aspx">OAFilterState</a> pointer but receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd375789(v=VS.85).aspx">FILTER_STATE</a> enumeration. You can cast the variable as follows:
+The <i>pfs</i> parameter is typed as an <a href="https://msdn.microsoft.com/c0e5d581-a15a-4dd2-b38c-72285cfc2617">OAFilterState</a> pointer but receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd375789(v=VS.85).aspx">FILTER_STATE</a> enumeration. You can cast the variable as follows:
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -162,7 +162,7 @@ hr = pControl-&gt;GetState(msTimeOut, (OAFilterState*)&amp;fs);
 </td>
 </tr>
 </table></span></div>
-For more information about filter graph states, see <a href="https://msdn.microsoft.com/en-us/library/Dd375790(v=VS.85).aspx">Filter States</a>.
+For more information about filter graph states, see <a href="https://msdn.microsoft.com/97418307-eb50-4c8e-b03b-a2cd08139bdc">Filter States</a>.
 
 
 
@@ -172,7 +172,7 @@ For more information about filter graph states, see <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

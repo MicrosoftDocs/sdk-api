@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706326(v=VS.85).aspx">Spot-diffuse lighting effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/9048D664-28DB-4DB6-9B95-3A61A1EDF5EC">Spot-diffuse lighting effect</a>.
         
 
 
@@ -149,7 +149,7 @@ The default value is {1.0f, 1.0f}.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934265(v=VS.85).aspx">D2D1_SPOTDIFFUSE_SCALE_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/020EE783-9792-4A0F-AA1B-39B787007BEE">D2D1_SPOTDIFFUSE_SCALE_MODE</a>.
             
 
 The default value is D2D1_SPOTDIFFUSE_SCALE_MODE_LINEAR.

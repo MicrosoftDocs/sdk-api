@@ -7,7 +7,7 @@ old-location: p2p\peeridentitysetfriendlyname.htm
 tech.root: P2PSdk
 ms.assetid: 018e95b5-b817-44f8-909f-cc7c3edb84c8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerIdentitySetFriendlyName, PeerIdentitySetFriendlyName function [Peer Networking], p2p.peeridentitysetfriendlyname, p2p/PeerIdentitySetFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

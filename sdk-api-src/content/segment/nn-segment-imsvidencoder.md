@@ -73,7 +73,7 @@ The <b>IMSVidEncoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b22a062-7da5-411e-ac85-fb9c7b3650a7">get_AudioEncoderInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694534(v=VS.85).aspx">get_AudioEncoderInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the audio encoder interface.
@@ -82,7 +82,7 @@ Retrieves a pointer to the audio encoder interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6ee3169-ba24-495f-b446-161c899aab16">get_VideoEncoderInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694535(v=VS.85).aspx">get_VideoEncoderInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the video encoder interface.

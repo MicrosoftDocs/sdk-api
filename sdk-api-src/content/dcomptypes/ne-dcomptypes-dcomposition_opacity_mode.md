@@ -78,7 +78,7 @@ The opacity mode is the same as that of the target visual’s parent visual.
 
 
 
-<a href="https://msdn.microsoft.com/785DE91D-718B-4704-88E4-B8FB12586E5F">IDCompositionEffectGroup::SetOpacity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437422(v=VS.85).aspx">IDCompositionEffectGroup::SetOpacity</a>
 
 
 

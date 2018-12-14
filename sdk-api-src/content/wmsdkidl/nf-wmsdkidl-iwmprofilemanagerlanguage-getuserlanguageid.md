@@ -111,11 +111,11 @@ The default language is U.S. English (0x409).
 
 
 
-<a href="https://msdn.microsoft.com/54875162-65fe-4959-b567-38c17ba2894d">IWMProfileManagerLanguage Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757389(v=VS.85).aspx">IWMProfileManagerLanguage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2154057-ea76-43bb-92d9-b52f16eb6b1b">IWMProfileManagerLanguage::SetUserLanguageID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757391(v=VS.85).aspx">IWMProfileManagerLanguage::SetUserLanguageID</a>
 
 
 

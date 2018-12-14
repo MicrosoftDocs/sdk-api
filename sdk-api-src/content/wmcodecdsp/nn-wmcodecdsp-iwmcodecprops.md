@@ -52,7 +52,7 @@ req.redist:
 
 Provides methods that retrieve format-specific codec properties.
 
-This interface is implemented by the video encoder objects. You can obtain a pointer to <a href="https://msdn.microsoft.com/en-us/library/Ff819243(v=VS.85).aspx">IWMCodecProps</a> by calling the <b>QueryInterface</b> method of any other interface on the object, such as <a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject</a> or <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>.
+This interface is implemented by the video encoder objects. You can obtain a pointer to <a href="https://msdn.microsoft.com/en-us/library/Ff819243(v=VS.85).aspx">IWMCodecProps</a> by calling the <b>QueryInterface</b> method of any other interface on the object, such as <a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject</a> or <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>.
 
 This interface enables you to receive information about a specific media type that is supported by a video encoder.
 

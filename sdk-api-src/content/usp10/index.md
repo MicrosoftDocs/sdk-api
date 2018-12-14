@@ -2,7 +2,7 @@
 UID: NA:usp10
 ms.assetid: c0950729-82e0-39b8-bd02-08df109a66ad
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

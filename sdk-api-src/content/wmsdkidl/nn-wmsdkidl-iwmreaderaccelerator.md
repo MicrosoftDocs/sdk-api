@@ -73,7 +73,7 @@ The <b>IWMReaderAccelerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e38c02bb-335c-4f93-9e98-1a9dc65a37c5">GetCodecInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757427(v=VS.85).aspx">GetCodecInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves pointers to interfaces exposed on the decoder DMO.
@@ -82,7 +82,7 @@ Retrieves pointers to interfaces exposed on the decoder DMO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5381f3a-e120-4db3-8463-5286e4318b13">Notify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757428(v=VS.85).aspx">Notify</a>
 </td>
 <td align="left" width="63%">
 Called by the source filter to pass in the negotiated media type.

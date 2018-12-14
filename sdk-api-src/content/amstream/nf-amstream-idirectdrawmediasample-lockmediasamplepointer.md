@@ -77,7 +77,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-Call this method only after calling <a href="https://msdn.microsoft.com/f2b30974-ed4a-4783-bda5-9e7f4f9b4aab">IDirectDrawMediaSample::GetSurfaceAndReleaseLock</a>.
+Call this method only after calling <a href="https://msdn.microsoft.com/en-us/library/Dd406804(v=VS.85).aspx">IDirectDrawMediaSample::GetSurfaceAndReleaseLock</a>.
 
 
 
@@ -91,7 +91,7 @@ Call this method only after calling <a href="https://msdn.microsoft.com/f2b30974
 
 
 
-<a href="https://msdn.microsoft.com/0a83b257-e88f-4870-924c-56ddc325f17f">IDirectDrawMediaSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406801(v=VS.85).aspx">IDirectDrawMediaSample Interface</a>
  
 
  

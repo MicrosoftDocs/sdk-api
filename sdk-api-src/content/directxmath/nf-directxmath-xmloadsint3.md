@@ -61,7 +61,7 @@ Loads signed integer data into the x, y, and z components
 
 ### -param pSource [in]
 
-Address of an <a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a> structure containing the data to load. 
+Address of an <a href="https://msdn.microsoft.com/en-us/library/Hh404659(v=VS.85).aspx">XMINT3</a> structure containing the data to load. 
         
 
 

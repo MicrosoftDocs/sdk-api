@@ -61,65 +61,65 @@ Updates mappings of tile locations in tiled resources to memory locations in a t
 
 ### -param pTiledResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>*</b>
 
 A pointer to the tiled resource.
 
 
 ### -param NumTiledResourceRegions [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The number of tiled resource regions.
 
 
 ### -param pTiledResourceRegionStartCoordinates [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn280437(v=VS.85).aspx">D3D11_TILED_RESOURCE_COORDINATE</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4639E5FA-44D7-4F6E-8843-17EE862BD9C4">D3D11_TILED_RESOURCE_COORDINATE</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Dn280437(v=VS.85).aspx">D3D11_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3D11_TILED_RESOURCE_COORDINATE</b> structures in the array.
+An array of <a href="https://msdn.microsoft.com/4639E5FA-44D7-4F6E-8843-17EE862BD9C4">D3D11_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3D11_TILED_RESOURCE_COORDINATE</b> structures in the array.
         
 
 
 ### -param pTiledResourceRegionSizes [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn280442(v=VS.85).aspx">D3D11_TILE_REGION_SIZE</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/D4A93462-9A2F-416A-9CC1-AC24DFF35890">D3D11_TILE_REGION_SIZE</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Dn280442(v=VS.85).aspx">D3D11_TILE_REGION_SIZE</a> structures that describe the sizes of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3D11_TILE_REGION_SIZE</b> structures in the array.
+An array of <a href="https://msdn.microsoft.com/D4A93462-9A2F-416A-9CC1-AC24DFF35890">D3D11_TILE_REGION_SIZE</a> structures that describe the sizes of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3D11_TILE_REGION_SIZE</b> structures in the array.
         
 
 
 ### -param pTilePool [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>*</b>
 
 A pointer to the tile pool.
 
 
 ### -param NumRanges [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The number of tile-pool ranges.
 
 
 ### -param pRangeFlags [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Dn280441(v=VS.85).aspx">D3D11_TILE_RANGE_FLAG</a> values that describe each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array. 
+An array of <a href="https://msdn.microsoft.com/3bab77f9-f18b-4b30-a1d8-09409253bfca">D3D11_TILE_RANGE_FLAG</a> values that describe each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array. 
 
 
 ### -param pTilePoolStartOffsets [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 An array of offsets into the tile pool. These are 0-based tile offsets, counting in tiles (not bytes).
 
 
 ### -param pRangeTileCounts [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 An array of tiles. 
 
@@ -129,9 +129,9 @@ An array of values that specify the number of tiles in each tile-pool range. The
 
 ### -param Flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Dn280440(v=VS.85).aspx">D3D11_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation.
+A combination of <a href="https://msdn.microsoft.com/13B4665C-F8A2-45A7-BBE9-FEB45FB08963">D3D11_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation.
         
 
 
@@ -165,7 +165,7 @@ In a single call to <b>UpdateTileMappings</b>, you can map one or more ranges of
 You can organize the parameters of  <b>UpdateTileMappings</b> in these ways to perform an update:
 
 <ul>
-<li><b>Tiled resource whose mappings are updated.</b> This is a resource that was created with the <a href="https://msdn.microsoft.com/en-us/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_TILED</a> flag. Mappings start off all NULL when a resource is initially created.</li>
+<li><b>Tiled resource whose mappings are updated.</b> This is a resource that was created with the <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_TILED</a> flag. Mappings start off all NULL when a resource is initially created.</li>
 <li><b>Set of tile regions on the tiled resource whose mappings are updated.</b> You can make one <b>UpdateTileMappings</b> call to update many mappings or multiple calls with a bit more API call overhead as well if that is more convenient. <i>NumTiledResourceRegions</i> specifies how many regions there are, <i>pTiledResourceRegionStartCoordinates</i> and <i>pTiledResourceRegionSizes</i> are each arrays that identify the start location and extend of each region. If <i>NumTiledResourceRegions</i> is 1, for convenience either or both of the arrays that describe the regions can be NULL.  NULL for <i>pTiledResourceRegionStartCoordinates</i> means the start coordinate is all 0s, and NULL for <i>pTiledResourceRegionSizes</i> identifies a default region that is the full set of tiles for the entire tiled resource, including all mipmaps, array slices, or both.  If <i>pTiledResourceRegionStartCoordinates</i> isn't NULL and <i>pTiledResourceRegionSizes</i> is NULL, the region size defaults to 1 tile for all regions.  This makes it easy to define mappings for a set of individual tiles each at disparate locations by providing an array of locations in <i>pTiledResourceRegionStartCoordinates</i> without having to send an array of <i>pTiledResourceRegionSizes</i> all set to 1.
 
 The updates are applied from first region to last; so, if regions overlap in a single call, the updates later in the list overwrite the areas that overlap with previous updates.
@@ -185,12 +185,12 @@ The updates are applied from first region to last; so, if regions overlap in a s
 </li>
 <li><b>Flags parameter for overall options.</b> <b>D3D11_TILE_MAPPING_NO_OVERWRITE</b> means the caller promises that previously submitted commands to the device that may still be executing do not reference any of the tile region being updated. This allows the device to avoid having to flush previously submitted work in order to do the tile mapping  update.  If the app violates this promise by updating tile mappings for locations in tiled resources still being referenced by outstanding commands, undefined rendering behavior results, which includes the potential for significant slowdowns on some architectures.  This is like the "no overwrite" concept that exists elsewhere in the Direct3D API, except applied to tile mapping data structure itself, which in hardware is a page table. The absence of this flag requires that tile mapping updates specified by this <b>UpdateTileMappings</b> call must be completed before any subsequent Direct3D command can proceed.</li>
 </ul>
-If tile mappings have changed on a tiled resource that the app will render via <a href="https://msdn.microsoft.com/en-us/library/Ff476582(v=VS.85).aspx">RenderTargetView</a> or <a href="https://msdn.microsoft.com/en-us/library/Ff476377(v=VS.85).aspx">DepthStencilView</a>, the app must clear, by using the fixed function <b>Clear</b> APIs, the tiles that have changed within the area being rendered (mapped or not). If an app doesn't clear in these situations, the app receives undefined values when it reads from the tiled resource.  
+If tile mappings have changed on a tiled resource that the app will render via <a href="https://msdn.microsoft.com/3ae7c255-2403-493a-9fb9-fc9795f6d920">RenderTargetView</a> or <a href="https://msdn.microsoft.com/10be1fd1-8700-4c0a-b447-d3c2569f8e81">DepthStencilView</a>, the app must clear, by using the fixed function <b>Clear</b> APIs, the tiles that have changed within the area being rendered (mapped or not). If an app doesn't clear in these situations, the app receives undefined values when it reads from the tiled resource.  
 
 
-<div class="alert"><b>Note</b>  In Direct3D 11.2, hardware can now support <a href="https://msdn.microsoft.com/en-us/library/Hh404601(v=VS.85).aspx">ClearView</a> on depth-only formats. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Dn280377(v=VS.85).aspx">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a>.</div>
+<div class="alert"><b>Note</b>  In Direct3D 11.2, hardware can now support <a href="https://msdn.microsoft.com/7CC8DEB6-075C-40EB-822D-8A627E285FA2">ClearView</a> on depth-only formats. For more info, see <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a>.</div>
 <div> </div>
-If an app needs to preserve existing memory contents of areas in a tiled resource where mappings have changed, the app can first save the contents where tile mappings have changed, by copying them to a temporary surface, for example using <a href="https://msdn.microsoft.com/en-us/library/Dn280501(v=VS.85).aspx">CopyTiles</a>, issuing the required <b>Clear</b>, and then copying the contents back.
+If an app needs to preserve existing memory contents of areas in a tiled resource where mappings have changed, the app can first save the contents where tile mappings have changed, by copying them to a temporary surface, for example using <a href="https://msdn.microsoft.com/C336B0C7-DB99-466C-B689-5D6634EE0B36">CopyTiles</a>, issuing the required <b>Clear</b>, and then copying the contents back.
 
 
 Suppose a tile is mapped into multiple tiled resources at the same time and tile contents are manipulated by any means (render, copy, and so on) via one of the tiled resources. Then, if the same tile is to be rendered via any other tiled resource, the tile must be cleared first as previously described.
@@ -437,7 +437,7 @@ CopyTileMappings
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a>
+<a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>
  
 
  

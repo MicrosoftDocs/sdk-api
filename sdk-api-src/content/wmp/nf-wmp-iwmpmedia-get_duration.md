@@ -116,23 +116,23 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/4f199336-0555-40de-8d27-780b05ef9510">IWMPCore::get_currentMedia</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563227(v=VS.85).aspx">IWMPCore::get_currentMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/66c7e52a-d7b4-4c37-a863-fb42f5415c0a">IWMPCore::get_openState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563233(v=VS.85).aspx">IWMPCore::get_openState</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f228bc5-39a4-4bf8-a887-43ba13c1c414">IWMPEvents::OpenStateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563351(v=VS.85).aspx">IWMPEvents::OpenStateChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/540f4780-850f-41ec-940c-e8f7d3c96e6b">IWMPMedia::get_durationString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563437(v=VS.85).aspx">IWMPMedia::get_durationString</a>
  
 
  

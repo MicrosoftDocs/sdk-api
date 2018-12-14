@@ -84,7 +84,7 @@ A software key enables the developer of a DMO to control who uses the DMO. If a 
 
 
 
-<a href="https://msdn.microsoft.com/2cb69d28-15be-44fb-a180-98b560848c08">DMOEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375487(v=VS.85).aspx">DMOEnum</a>
  
 
  

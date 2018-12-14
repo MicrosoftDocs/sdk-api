@@ -78,7 +78,7 @@ The <b>IAMExtendedErrorInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7ab81a5-bc62-48f5-a2c8-ee53e86aea89">get_ErrorCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389328(v=VS.85).aspx">get_ErrorCode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current error code.
@@ -87,7 +87,7 @@ Retrieves the current error code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d417855e-7df6-4978-b971-a91b79c5fa2c">get_ErrorDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389329(v=VS.85).aspx">get_ErrorDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the error description.
@@ -96,7 +96,7 @@ Retrieves the error description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8aad2849-5a99-484a-8830-e014672e62fb">get_HasError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389330(v=VS.85).aspx">get_HasError</a>
 </td>
 <td align="left" width="63%">
 Queries whether an error occurred.

@@ -111,11 +111,11 @@ When using Fast Start, the server running Windows Media Services will send some 
 
 
 
-<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8feda02-113a-4763-b695-c4cd48781ade">IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743506(v=VS.85).aspx">IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration</a>
  
 
  

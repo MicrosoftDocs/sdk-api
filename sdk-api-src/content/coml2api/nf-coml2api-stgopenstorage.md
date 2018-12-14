@@ -54,9 +54,9 @@ req.redist:
 
 
 The <b>StgOpenStorage</b> function opens an existing root storage object in the file system. Use this function to open compound files. Do not use it to open directories, files, or summary catalogs. Nested storage objects can only be opened using their parent 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380024(v=VS.85).aspx">IStorage::OpenStorage</a> method.
+<a href="https://msdn.microsoft.com/f1f0564e-0ecd-4b73-8863-9d6b6746fd02">IStorage::OpenStorage</a> method.
 <div class="alert"><b>Note</b>  Applications should use the new function, 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380342(v=VS.85).aspx">StgOpenStorageEx</a>, instead of 
+<a href="https://msdn.microsoft.com/4f2138fb-1f80-4345-a3cb-9c11023457b1">StgOpenStorageEx</a>, instead of 
 <b>StgOpenStorage</b>, to take advantage of the enhanced  and Windows Structured Storage features. This function, 
 <b>StgOpenStorage</b>, still exists for compatibility with applications running on Windows 2000.</div><div> </div>
 
@@ -73,7 +73,7 @@ A pointer to the path of the <b>null</b>-terminated Unicode string file that con
 ### -param pstgPriority [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a> interface that should be <b>NULL</b>. If not <b>NULL</b>, this parameter is used as described below in the Remarks section.
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface that should be <b>NULL</b>. If not <b>NULL</b>, this parameter is used as described below in the Remarks section.
 
 After <b>StgOpenStorage</b> returns, the storage object specified in <i>pStgPriority</i> may have been released and should no longer be used.
 
@@ -96,7 +96,7 @@ Indicates reserved for future use; must be zero.
 ### -param ppstgOpen [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a>* pointer variable that receives the interface pointer to the opened storage.
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>* pointer variable that receives the interface pointer to the opened storage.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The <b>StgOpenStorage</b> function can also return any file system errors or sys
 
 The 
 <b>StgOpenStorage</b> function opens the specified root storage object according to the access mode in the <i>grfMode</i> parameter, and, if successful, supplies an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a> pointer to the opened storage object in the <i>ppstgOpen</i> parameter.
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> pointer to the opened storage object in the <i>ppstgOpen</i> parameter.
 
 To support the simple mode for saving a storage object with no substorages, the 
 <b>StgOpenStorage</b> function accepts one of the following two flag combinations as valid modes in the <i>grfMode</i> parameter.
@@ -176,15 +176,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a>
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380323(v=VS.85).aspx">StgCreateDocfile</a>
+<a href="https://msdn.microsoft.com/3292484b-8eff-438d-b989-b58ae323872b">StgCreateDocfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380342(v=VS.85).aspx">StgOpenStorageEx</a>
+<a href="https://msdn.microsoft.com/4f2138fb-1f80-4345-a3cb-9c11023457b1">StgOpenStorageEx</a>
  
 
  

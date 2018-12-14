@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>GetAllocateForOutput</b> method ascertains whether the reader is configured to use the <a href="https://msdn.microsoft.com/9d18961a-5ea4-4f3e-b473-7399e155f800">IWMReaderCallbackAdvanced</a> interface to allocate samples delivered by the <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a> callback.
+The <b>GetAllocateForOutput</b> method ascertains whether the reader is configured to use the <a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced</a> interface to allocate samples delivered by the <a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a> callback.
 
 
 
@@ -88,11 +88,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fba76c75-6179-4e10-9a3c-8e604e392cca">IWMReaderAdvanced::SetAllocateForOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743481(v=VS.85).aspx">IWMReaderAdvanced::SetAllocateForOutput</a>
  
 
  

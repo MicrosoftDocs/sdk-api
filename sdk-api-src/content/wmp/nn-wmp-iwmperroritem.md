@@ -73,7 +73,7 @@ The <b>IWMPErrorItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3cf54c10-a06d-49fc-aa8e-e6264ce23061">get_customUrl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563277(v=VS.85).aspx">get_customUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL of a website that displays specific information about codec download failure.
@@ -82,7 +82,7 @@ Retrieves the URL of a website that displays specific information about codec do
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e809a1bf-1c7e-4006-9d27-e9921f2f14b2">get_errorCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563278(v=VS.85).aspx">get_errorCode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current error code.
@@ -91,7 +91,7 @@ Retrieves the current error code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/575f14e7-7a5b-4000-9957-253c40b1ef62">get_errorContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563279(v=VS.85).aspx">get_errorContext</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the context of the error.
@@ -100,7 +100,7 @@ Retrieves a value indicating the context of the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb322580-2cc6-4094-9da3-9b8d78a5cb48">get_errorDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563280(v=VS.85).aspx">get_errorDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the error.
@@ -109,7 +109,7 @@ Retrieves a description of the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f37ec43a-cf58-4e90-9b2a-aef8afc30744">get_remedy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563281(v=VS.85).aspx">get_remedy</a>
 </td>
 <td align="left" width="63%">
 Reserved for future use.
@@ -127,10 +127,10 @@ Retrieve a pointer to an <b>IWMPErrorItem</b> interface with the following metho
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/f22759cd-0ca7-4992-bb17-0272b35d6d75">IWMPError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563272(v=VS.85).aspx">IWMPError</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/6fda2f53-e8d8-4b67-9aa1-72273fc68f6c">get_item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563285(v=VS.85).aspx">get_item</a>
 </td>
 </tr>
 </table> 
@@ -141,7 +141,7 @@ Retrieve a pointer to an <b>IWMPErrorItem</b> interface with the following metho
 
 
 
-<a href="https://msdn.microsoft.com/b71d06db-c9bc-44fc-9e23-a16f89c56c1c">IWMPErrorItem2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563274(v=VS.85).aspx">IWMPErrorItem2 Interface</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: perf\pdhgetdllversion.htm
 tech.root: perfctrs
 ms.assetid: 09c9ecf6-43e0-480c-b607-537632b56576
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: PDH_CVERSION_WIN50, PDH_VERSION, PdhGetDllVersion, PdhGetDllVersion function [Perf], _win32_pdhgetdllversion, base.pdhgetdllversion, pdh/PdhGetDllVersion, perf.pdhgetdllversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-This method is equivalent to the <a href="https://msdn.microsoft.com/7e36b94b-e6d3-46a0-8874-edd545e0e5b1">IWMWriterNetworkSink::Close</a> method, except that it does not release the port.
+This method is equivalent to the <a href="https://msdn.microsoft.com/en-us/library/Dd798762(v=VS.85).aspx">IWMWriterNetworkSink::Close</a> method, except that it does not release the port.
 
 
 
@@ -108,7 +108,7 @@ This method is equivalent to the <a href="https://msdn.microsoft.com/7e36b94b-e6
 
 
 
-<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
  
 
  

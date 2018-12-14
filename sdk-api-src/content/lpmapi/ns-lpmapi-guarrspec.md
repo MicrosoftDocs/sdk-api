@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.GuarRspec
+UID: NS:lpmapi.__unnamed_struct_26
 title: GuarRspec
 author: windows-sdk-content
 description: The GuarRspec structure contains guaranteed Rspec information.
@@ -7,7 +7,7 @@ old-location: qos\guarrspec.htm
 tech.root: QOS
 ms.assetid: b5a2daa1-9783-44c2-baa6-5164dedf498f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GuarRspec, GuarRspec structure [QOS], lpmapi/GuarRspec, qos.guarrspec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,7 @@ Slack term, in  seconds.
 
 
 
-<a href="https://msdn.microsoft.com/549380cc-b4ac-414a-9058-f506741f1e76">GuarFlowSpec</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373710(v=VS.85).aspx">GuarFlowSpec</a>
  
 
  

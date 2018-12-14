@@ -60,7 +60,7 @@ Specifies whether or not protected resources can be accessed by subsequent comma
 
 ### -param pProtectedResourceSession [in, optional]
 
-A pointer to a <a href="direct3d12.id3d12protectedresourcesession">ID3D12ProtectedResourceSession</a>.
+A pointer to a <a href="https://msdn.microsoft.com/9D4833DB-DF9E-46A8-9EF7-667A95F3EFDD">ID3D12ProtectedResourceSession</a>.
 
 
 ## -returns
@@ -77,7 +77,7 @@ A pointer to a <a href="direct3d12.id3d12protectedresourcesession">ID3D12Protect
 
 
 
-<a href="direct3d12.id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
+<a href="https://msdn.microsoft.com/934CB757-495A-45DA-A942-1852D8E94934">ID3D12GraphicsCommandList3</a>
  
 
  

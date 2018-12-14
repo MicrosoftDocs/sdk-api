@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.PSS_HANDLE_INFORMATION
+UID: NS:processsnapshot.__unnamed_struct_4
 title: PSS_HANDLE_INFORMATION
 author: windows-sdk-content
 description: Holds handle information returned by PssQuerySnapshot.
@@ -7,7 +7,7 @@ old-location: proc_snap\pss_handle_information.htm
 tech.root: proc_snap
 ms.assetid: 77192849-D919-4947-9BFF-343C166C5A51
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PSS_HANDLE_INFORMATION, PSS_HANDLE_INFORMATION structure, proc_snap.pss_handle_information, processsnapshot/PSS_HANDLE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ The count of handles captured.
 
 
 
-<a href="https://msdn.microsoft.com/D9580147-28ED-4FF5-B7DB-844ACB19769F">PssQuerySnapshot</a> returns a <b>PSS_HANDLE_INFORMATION</b> structure when the <a href="https://msdn.microsoft.com/1C3E5BF4-5AC9-4012-B29D-49C35C0AF90B">PSS_QUERY_INFORMATION_CLASS</a> member that the caller provides it is  <b>PSS_QUERY_HANDLE_INFORMATION</b>.
+<a href="https://msdn.microsoft.com/D9580147-28ED-4FF5-B7DB-844ACB19769F">PssQuerySnapshot</a> returns a <b>PSS_HANDLE_INFORMATION</b> structure when the <a href="https://msdn.microsoft.com/en-us/library/Dn457851(v=VS.85).aspx">PSS_QUERY_INFORMATION_CLASS</a> member that the caller provides it is  <b>PSS_QUERY_HANDLE_INFORMATION</b>.
 
 
 

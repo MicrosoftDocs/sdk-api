@@ -51,7 +51,7 @@ req.redist:
 
 
 
-This interface is exposed by the Windows Media Decoder <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMO</a> and is called by a media player source filter to set up the various connections required to enable DirectX® video acceleration (VA) for decoding of Windows Media-based video content. A player obtains this interface by calling the <a href="https://msdn.microsoft.com/e38c02bb-335c-4f93-9e98-1a9dc65a37c5">IWMReaderAccelerator::GetCodecInterface</a> method, which is exposed on the reader object.
+This interface is exposed by the Windows Media Decoder <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMO</a> and is called by a media player source filter to set up the various connections required to enable DirectX® video acceleration (VA) for decoding of Windows Media-based video content. A player obtains this interface by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd757427(v=VS.85).aspx">IWMReaderAccelerator::GetCodecInterface</a> method, which is exposed on the reader object.
 
 
 
@@ -73,7 +73,7 @@ The <b>IWMCodecAMVideoAccelerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/547c43ed-7e04-4323-9e10-019ecfdbb641">NegotiateConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743309(v=VS.85).aspx">NegotiateConnection</a>
 </td>
 <td align="left" width="63%">
 Called by the output pin on the player's source filter during the connection process when it has been given a DirectX VA media type.
@@ -82,7 +82,7 @@ Called by the output pin on the player's source filter during the connection pro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ffaa2dc-65d6-4ba0-9688-8b59fe593ecd">SetAcceleratorInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743311(v=VS.85).aspx">SetAcceleratorInterface</a>
 </td>
 <td align="left" width="63%">
 Called by the output pin on the player's source filter to pass the VMR's <b>IAMVideoAccelerator</b> interface to the decoder DMO.
@@ -91,7 +91,7 @@ Called by the output pin on the player's source filter to pass the VMR's <b>IAMV
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3be015c4-a641-44b9-9be8-a76b5dd4f998">SetPlayerNotify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743312(v=VS.85).aspx">SetPlayerNotify</a>
 </td>
 <td align="left" width="63%">
 Called by the output pin on the source filter to provide the decoder DMO with the source filter's <b>IWMPlayerTimestampHook</b> interface to enable the filter to update the time stamps on the samples before they are delivered to the renderer.

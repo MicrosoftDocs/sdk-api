@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Use <a href="https://msdn.microsoft.com/en-us/library/Aa363431(v=VS.85).aspx">RegisterDeviceNotification</a> instead of <b>CM_Register_Notification</b> if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use <a href="https://msdn.microsoft.com/06fd10ab-3478-4b01-b678-24944f17fa9d">IoRegisterPlugPlayNotification</a> instead.
+Use <a href="https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3">RegisterDeviceNotification</a> instead of <b>CM_Register_Notification</b> if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use <a href="https://msdn.microsoft.com/06fd10ab-3478-4b01-b678-24944f17fa9d">IoRegisterPlugPlayNotification</a> instead.
 
 The <b>CM_Register_Notification</b> function registers an application callback routine to be called when a PnP event of the specified type occurs.
 
@@ -76,7 +76,7 @@ Pointer to a caller-allocated buffer containing the context to be passed to the 
 
 Pointer to the routine to be called when the specified PnP event occurs. See the <b>Remarks</b> section for the callback function's prototype.
 
-The callback routine’s <i>Action</i> parameter will be a value from the <a href="https://msdn.microsoft.com/en-us/library/Mt299054(v=VS.85).aspx">CM_NOTIFY_ACTION</a> enumeration.
+The callback routine’s <i>Action</i> parameter will be a value from the <a href="https://msdn.microsoft.com/587AF979-8BA2-45A3-90C2-7E0EBB2390EC">CM_NOTIFY_ACTION</a> enumeration.
 
 Upon receiving a notification, how the callback examines the notification will depend on the <b>FilterType</b> member of the callback routine's <i>EventData</i> parameter:
 
@@ -140,7 +140,7 @@ typedef __callback DWORD (CALLBACK *PCM_NOTIFY_CALLBACK)(
 ```
 
 
-If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the PCM_NOTIFY_CALLBACK callback should return either ERROR_SUCCESS or ERROR_CANCELLED, as appropriate.  Otherwise, the callback should return ERROR_SUCCESS. The callback should not return any other values. For a description of other actions, please refer to the <a href="https://msdn.microsoft.com/en-us/library/Mt299054(v=VS.85).aspx">CM_NOTIFY_ACTION</a> documentation.  Also see <a href="https://msdn.microsoft.com/61bd4ea3-9910-4feb-a330-3e0bcdac1ce2">CM_NOTIFY_EVENT_DATA</a> for information about the structure that this callback receives in the <i>EventData</i> parameter.
+If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the PCM_NOTIFY_CALLBACK callback should return either ERROR_SUCCESS or ERROR_CANCELLED, as appropriate.  Otherwise, the callback should return ERROR_SUCCESS. The callback should not return any other values. For a description of other actions, please refer to the <a href="https://msdn.microsoft.com/587AF979-8BA2-45A3-90C2-7E0EBB2390EC">CM_NOTIFY_ACTION</a> documentation.  Also see <a href="https://msdn.microsoft.com/61bd4ea3-9910-4feb-a330-3e0bcdac1ce2">CM_NOTIFY_EVENT_DATA</a> for information about the structure that this callback receives in the <i>EventData</i> parameter.
 
 
 #### Examples
@@ -157,7 +157,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt299054(v=VS.85).aspx">CM_NOTIFY_ACTION</a>
+<a href="https://msdn.microsoft.com/587AF979-8BA2-45A3-90C2-7E0EBB2390EC">CM_NOTIFY_ACTION</a>
 
 
 
@@ -169,7 +169,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363431(v=VS.85).aspx">RegisterDeviceNotification</a>
+<a href="https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3">RegisterDeviceNotification</a>
 
 
 

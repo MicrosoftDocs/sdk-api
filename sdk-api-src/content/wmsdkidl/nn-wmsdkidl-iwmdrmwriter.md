@@ -78,7 +78,7 @@ The <b>IWMDRMWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11eff02d-af0a-4047-80fd-d92be2f40d86">GenerateKeyID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798377(v=VS.85).aspx">GenerateKeyID</a>
 </td>
 <td align="left" width="63%">
 Generates a DRM <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">key ID</a> that will be used in conjunction with a key seed to encrypt and decrypt files.
@@ -87,7 +87,7 @@ Generates a DRM <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3664dec-5ba4-4842-80f1-6652d526295d">GenerateKeySeed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798378(v=VS.85).aspx">GenerateKeySeed</a>
 </td>
 <td align="left" width="63%">
 Generates a DRM key seed that will be used in conjunction with a key ID to create protected files.
@@ -96,7 +96,7 @@ Generates a DRM key seed that will be used in conjunction with a key ID to creat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ad66a22-b088-423c-b726-63bc6372f3c2">GenerateSigningKeyPair</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798500(v=VS.85).aspx">GenerateSigningKeyPair</a>
 </td>
 <td align="left" width="63%">
 Generates a public and a private key that will be used to sign the ASF header object.
@@ -105,7 +105,7 @@ Generates a public and a private key that will be used to sign the ASF header ob
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f54bba2a-872e-4ed1-b2c6-3e6b85a48df6">SetDRMAttribute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798501(v=VS.85).aspx">SetDRMAttribute</a>
 </td>
 <td align="left" width="63%">
 Sets DRM header attributes as well as other DRM run-time properties.
@@ -131,7 +131,7 @@ For information on other interfaces that can be obtained by using the QueryInter
 
 
 
-<a href="https://msdn.microsoft.com/8511b464-1f47-4184-9cb7-9aca0cb6660f">IWMDRMWriter2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798373(v=VS.85).aspx">IWMDRMWriter2 Interface</a>
 
 
 

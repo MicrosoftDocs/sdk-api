@@ -2,7 +2,7 @@
 UID: NA:setupapi
 ms.assetid: d22e4459-0e65-31ad-8af9-4583b00c5d57
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

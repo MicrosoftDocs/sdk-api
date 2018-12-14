@@ -4,7 +4,7 @@ title: ITsSbSession::get_SessionId
 author: windows-sdk-content
 description: Retrieves the session ID.
 old-location: termserv\itssbsession_sessionid.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: aede96ba-2fad-4cff-a710-dd1f668a2a34
 ms.author: windowssdkdev
 ms.date: 12/5/2018

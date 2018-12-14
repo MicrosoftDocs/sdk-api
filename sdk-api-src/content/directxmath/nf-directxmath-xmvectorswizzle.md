@@ -115,7 +115,7 @@ The swizzled vector (<i>result</i>) will be &lt;40.0f, 40.0f, 10.0f, 30.0f&gt;.
    evaluate to 0, 1, 2, and 3 respectively for use with <b>XMVectorSwizzle</b>. 
    This is identical to <code>XM_PERMUTE_0X</code>, <code>XM_PERMUTE_0Y</code>, <code>XM_PERMUTE_0Z</code>, and <code>XM_PERMUTE_0W</code>.
 
-For the case of constant indices (E0, E1, E2, E3), it is much more efficent to use the template form of <a href="https://msdn.microsoft.com/75608e80-5911-45a8-beca-ceac1f4d2c1c">XMVectorSwizzle</a>:
+For the case of constant indices (E0, E1, E2, E3), it is much more efficent to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855948(v=VS.85).aspx">XMVectorSwizzle</a>:
 
 
 ```
@@ -143,7 +143,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/212c9381-6bde-4a09-9710-e2e3fe54f405">XMVectorPermute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx">XMVectorPermute</a>
  
 
  

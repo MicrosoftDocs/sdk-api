@@ -1,5 +1,5 @@
 ---
-UID: NS:iscsidsc.ISCSI_TARGET_PORTAL_INFO_EXA
+UID: NS:iscsidsc.__unnamed_struct_11
 title: ISCSI_TARGET_PORTAL_INFO_EXA
 author: windows-sdk-content
 description: The ISCSI_TARGET_PORTAL_INFO_EX structure contains information about login credentials to a target portal.
@@ -7,7 +7,7 @@ old-location: iscsidisc\iscsi_target_portal_info_ex.htm
 tech.root: iSCSIDisc
 ms.assetid: 1c7035db-a71d-43b5-8595-82097ae5433d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PISCSI_TARGET_PORTAL_INFO_EXA, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, ISCSI_TARGET_PORTAL_INFO_EX, ISCSI_TARGET_PORTAL_INFO_EX structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_INFO_EXA, ISCSI_TARGET_PORTAL_INFO_EXW, PISCSI_TARGET_PORTAL_INFO_EX, PISCSI_TARGET_PORTAL_INFO_EX structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_info_ex, iscsidsc/ISCSI_TARGET_PORTAL_INFO_EX, iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXA, iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXW, iscsidsc/PISCSI_TARGET_PORTAL_INFO_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -174,7 +174,7 @@ When set to 1, the other mask values are valid; otherwise, the iSCSI initiator s
 
 ### -field LoginOptions
 
-A pointer to an <a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a> structure that defines the login data.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb870801(v=VS.85).aspx">ISCSI_LOGIN_OPTIONS</a> structure that defines the login data.
 
 
 ## -see-also
@@ -182,7 +182,7 @@ A pointer to an <a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e0
 
 
 
-<a href="https://msdn.microsoft.com/3592b289-9c0d-43dc-918f-23c8ff079186">ISCSI_TARGET_PORTAL_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870814(v=VS.85).aspx">ISCSI_TARGET_PORTAL_INFO</a>
  
 
  

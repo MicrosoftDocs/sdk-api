@@ -7,7 +7,7 @@ old-location: base\getpwrdiskspindownrange.htm
 tech.root: power
 ms.assetid: c56f679d-512a-4bf9-89dc-8905bba8c6ce
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GetPwrDiskSpindownRange, GetPwrDiskSpindownRange function, _win32_getpwrdiskspindownrange, base.getpwrdiskspindownrange, powrprof/GetPwrDiskSpindownRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

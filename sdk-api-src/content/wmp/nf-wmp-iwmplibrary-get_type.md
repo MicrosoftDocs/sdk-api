@@ -108,15 +108,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/add0ed43-d83f-4793-b1f6-ccad0f01854c">IWMPLibrary Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563383(v=VS.85).aspx">IWMPLibrary Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/28f1e3bc-3692-4fd0-a0b3-fecc3a173103">IWMPLibrary::get_name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563393(v=VS.85).aspx">IWMPLibrary::get_name</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf0e7140-5a33-4841-bd55-ac07dae09c41">WMPLibraryType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564875(v=VS.85).aspx">WMPLibraryType</a>
  
 
  

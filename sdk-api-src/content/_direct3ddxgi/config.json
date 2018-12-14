@@ -1,6 +1,7 @@
 {
   "tech": "direct3ddxgi",
   "headers": [
+    "winnt.h",
     "winerror.h",
     "dxgi.h",
     "dxgi1_2.h",

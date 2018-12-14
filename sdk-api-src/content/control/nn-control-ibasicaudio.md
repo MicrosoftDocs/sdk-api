@@ -54,7 +54,7 @@ req.redist:
 
 The <code>IBasicAudio</code> interface controls the volume and balance of the audio stream.
 
-This interface is implemented on the <a href="https://msdn.microsoft.com/en-us/library/Dd317589(v=VS.85).aspx">Audio Renderer (WaveOut)</a> filter and the <a href="https://msdn.microsoft.com/en-us/library/Dd375473(v=VS.85).aspx">DirectSound Renderer</a> filter, but is exposed to applications through the Filter Graph Manager. Applications should always retrieve this interface from the Filter Graph Manager.
+This interface is implemented on the <a href="https://msdn.microsoft.com/a3f2776b-974b-4886-82a3-38e00b607a07">Audio Renderer (WaveOut)</a> filter and the <a href="https://msdn.microsoft.com/ec6cc790-8c1f-4de4-a7ca-a7073894380e">DirectSound Renderer</a> filter, but is exposed to applications through the Filter Graph Manager. Applications should always retrieve this interface from the Filter Graph Manager.
 
 
 
@@ -63,7 +63,7 @@ This interface is implemented on the <a href="https://msdn.microsoft.com/en-us/l
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicAudio</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IBasicAudio</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

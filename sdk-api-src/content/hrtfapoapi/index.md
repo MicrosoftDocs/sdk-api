@@ -2,7 +2,7 @@
 UID: NA:hrtfapoapi
 ms.assetid: a07594a7-e212-3edf-a078-4ba9668a61c4
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

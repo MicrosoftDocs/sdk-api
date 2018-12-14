@@ -108,11 +108,11 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/15787d18-bc38-4fc7-a920-539d66252035">WMPPlayState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564881(v=VS.85).aspx">WMPPlayState</a>
  
 
  

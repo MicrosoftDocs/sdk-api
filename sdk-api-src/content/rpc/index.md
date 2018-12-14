@@ -2,7 +2,7 @@
 UID: NA:rpc
 ms.assetid: 95e4d8fd-5323-369a-90e4-cd95eab3841f
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -63,7 +63,7 @@ Creates a virtual disk.
 
 ### -param VirtualDeviceType [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/9f0c1848-fa8e-4747-a3b1-71a274695280">VIRTUAL_STORAGE_TYPE</a> structure that specifies the type of virtual disk to be created.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure that specifies the type of virtual disk to be created.
 
 
 ### -param pPath [in]
@@ -79,7 +79,7 @@ A <b>NULL</b>-terminated wide-character string containing the security descripto
 
 ### -param Flags [in]
 
-A bitmask of <a href="https://msdn.microsoft.com/35dba6c6-2825-425a-b432-a6ac8ad4ea4b">CREATE_VIRTUAL_DISK_FLAG</a> enumeration values specifying how the virtual disk is to be created.
+A bitmask of <a href="https://msdn.microsoft.com/en-us/library/Dd323660(v=VS.85).aspx">CREATE_VIRTUAL_DISK_FLAG</a> enumeration values specifying how the virtual disk is to be created.
 
 <table>
 <tr>

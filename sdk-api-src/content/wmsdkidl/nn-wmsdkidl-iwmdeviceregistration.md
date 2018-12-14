@@ -56,7 +56,7 @@ req.redist:
 
 The <b>IWMDeviceRegistration</b> interface registers playback devices for secure data delivery.
 
-You can create a device registration object and retrieve a pointer to its <b>IWMDeviceRegistration</b> interface by calling the <a href="https://msdn.microsoft.com/0e318691-07dc-421b-951d-9e65e9160bb0">WMCreateDeviceRegistration</a> function.
+You can create a device registration object and retrieve a pointer to its <b>IWMDeviceRegistration</b> interface by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd757747(v=VS.85).aspx">WMCreateDeviceRegistration</a> function.
 
 
 
@@ -78,7 +78,7 @@ The <b>IWMDeviceRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a11249f5-0604-4de7-9dd2-152d570183c3">GetFirstRegisteredDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743358(v=VS.85).aspx">GetFirstRegisteredDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves information for the first device in the device registration database.
@@ -87,7 +87,7 @@ Retrieves information for the first device in the device registration database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/396e60a8-5845-45fa-8393-6f0defbd38bb">GetNextRegisteredDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743359(v=VS.85).aspx">GetNextRegisteredDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves information for the second and subsequent devices in the device registration database.
@@ -96,7 +96,7 @@ Retrieves information for the second and subsequent devices in the device regist
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26ded37b-1169-4c47-8880-bd19c977171e">GetRegisteredDeviceByID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743360(v=VS.85).aspx">GetRegisteredDeviceByID</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a device specified by the device identifier.
@@ -105,7 +105,7 @@ Retrieves information about a device specified by the device identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56c5b2c7-46c2-42e4-a7d4-f1b3e56ffbcb">GetRegistrationStats</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743361(v=VS.85).aspx">GetRegistrationStats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of devices of a specified type that exist in the device registration database.
@@ -114,7 +114,7 @@ Retrieves the number of devices of a specified type that exist in the device reg
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cdce6941-dac9-4de5-8230-904c26e82642">RegisterDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743362(v=VS.85).aspx">RegisterDevice</a>
 </td>
 <td align="left" width="63%">
 Adds a device to the device registration database.
@@ -123,7 +123,7 @@ Adds a device to the device registration database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5cb1282a-5744-4264-8f73-ecad2854a125">UnregisterDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743363(v=VS.85).aspx">UnregisterDevice</a>
 </td>
 <td align="left" width="63%">
 Removes a device from the device registration database.

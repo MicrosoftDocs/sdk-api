@@ -55,8 +55,8 @@ Describes the operational condition of a resource. These values are used by the
     <a href="https://msdn.microsoft.com/c3897c96-743e-4753-8fef-b8defe4f2b00">GetClusterResourceState</a> function, the 
     <b>State</b> property of the 
     <a href="https://msdn.microsoft.com/en-us/library/Aa371464(v=VS.85).aspx">MSCluster_Resource</a> class, and the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa368775(v=VS.85).aspx">State</a> property of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa368759(v=VS.85).aspx">ClusResource</a> object.
+    <a href="https://msdn.microsoft.com/3bae66a8-cc45-49e6-acea-c506623b25bc">State</a> property of the 
+    <a href="https://msdn.microsoft.com/c1b66495-c428-4ee4-94e2-263fd31f61ad">ClusResource</a> object.
 
 
 ## -enum-fields
@@ -116,15 +116,15 @@ The resource is in the process of going offline.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309201(v=VS.85).aspx">CLUS_MAINTENANCE_MODE_INFOEX</a>
+<a href="https://msdn.microsoft.com/d68b187d-39c5-42d3-b268-d5061da257c4">CLUS_MAINTENANCE_MODE_INFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309205(v=VS.85).aspx">CLUS_PROVIDER_STATE_CHANGE_INFO</a>
+<a href="https://msdn.microsoft.com/53e25d02-6dfa-4a74-8ff3-01c868d2fd44">CLUS_PROVIDER_STATE_CHANGE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
@@ -136,7 +136,7 @@ The resource is in the process of going offline.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368775(v=VS.85).aspx">State Property of the ClusResource Object</a>
+<a href="https://msdn.microsoft.com/3bae66a8-cc45-49e6-acea-c506623b25bc">State Property of the ClusResource Object</a>
  
 
  

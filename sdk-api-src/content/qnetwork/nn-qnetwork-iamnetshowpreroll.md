@@ -73,7 +73,7 @@ The <b>IAMNetShowPreroll</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c868a997-9d22-452b-9d57-6bd34b054d35">get_Preroll</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319730(v=VS.85).aspx">get_Preroll</a>
 </td>
 <td align="left" width="63%">
 Queries whether the filter is currently prerolling.
@@ -82,7 +82,7 @@ Queries whether the filter is currently prerolling.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3296f0ab-2be8-4693-99bd-5dae0672df26">put_Preroll</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319731(v=VS.85).aspx">put_Preroll</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the filter should start prerolling.

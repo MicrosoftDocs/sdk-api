@@ -88,11 +88,11 @@ A fax client application can use the <b>IFaxRoutingMethod::get_Guid</b> property
 
 
 
-<a href="https://msdn.microsoft.com/b2d01012-9c84-4f86-9b20-68d813f9f52a">IFaxRoutingMethod::get_FriendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692373(v=VS.85).aspx">IFaxRoutingMethod::get_FriendlyName</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a6798a7-3017-4a47-a288-91a1ae453e7f">IFaxRoutingMethod::get_FunctionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690894(v=VS.85).aspx">IFaxRoutingMethod::get_FunctionName</a>
 
 
 

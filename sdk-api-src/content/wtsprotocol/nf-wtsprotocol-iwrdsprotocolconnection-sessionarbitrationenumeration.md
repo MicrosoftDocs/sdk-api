@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::SessionArbitrationEnumeration
 author: windows-sdk-content
 description: Called after arbitration to allow the protocol to specify the sessions to be reconnected.
 old-location: termserv\iwrdsprotocolconnection_sessionarbitrationenumeration.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d0e93014-1f79-47ac-bf3a-c100eb652751
 ms.author: windowssdkdev
 ms.date: 12/5/2018

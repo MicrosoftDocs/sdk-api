@@ -51,7 +51,7 @@ req.redist:
 
 
 Adds a property page to a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> property sheet.
+    <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> property sheet.
 
 
 ## -parameters
@@ -114,7 +114,7 @@ The <i>hpage</i> parameter is invalid.
 Call the 
      <b>AddPropertySheetPage</b> 
      method from your 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370720(v=VS.85).aspx">IWEExtendPropertySheet::CreatePropertySheetPages</a> 
+     <a href="https://msdn.microsoft.com/00eca370-a2c6-4f5c-94a9-7d7e4334ccd5">IWEExtendPropertySheet::CreatePropertySheetPages</a> 
      implementation. However, before you call 
      <b>AddPropertySheetPage</b>, 
      call the function <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> 
@@ -128,11 +128,11 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370507(v=VS.85).aspx">IWCPropertySheetCallback</a>
+<a href="https://msdn.microsoft.com/f90f9eb3-5568-4db1-8ff8-fda2d3bea952">IWCPropertySheetCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370720(v=VS.85).aspx">IWEExtendPropertySheet::CreatePropertySheetPages</a>
+<a href="https://msdn.microsoft.com/00eca370-a2c6-4f5c-94a9-7d7e4334ccd5">IWEExtendPropertySheet::CreatePropertySheetPages</a>
  
 
  

@@ -95,7 +95,7 @@ Restores access to resources that were previously offered by calling <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/af02630d-a9ca-f5b4-6f2a-31a73ef603e5">I2D1DeviceContext2::CreateImageSourceFromWic</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900366(v=VS.85).aspx">I2D1DeviceContext2::CreateImageSourceFromWic</a>
 
 
 

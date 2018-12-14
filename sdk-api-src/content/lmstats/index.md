@@ -2,7 +2,7 @@
 UID: NA:lmstats
 ms.assetid: 7a9cf5d1-d058-35c7-a22f-3ae2f9c85abb
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

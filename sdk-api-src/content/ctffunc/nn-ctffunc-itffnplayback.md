@@ -54,14 +54,14 @@ The <b>ITfFnPlayBack</b> interface is implemented by the Speech API (SAPI) text 
 
 Each spoken word or phrase has audio data stored with the text. This interface is used to obtain the range that covers the spoken text and to play back the audio data.
 
-A client obtains an instance of this interface by obtaining the <a href="https://msdn.microsoft.com/en-us/library/ms538979(v=VS.85).aspx">ITfFunctionProvider</a> for the SAPI text service and calling <a href="https://msdn.microsoft.com/en-us/library/ms538981(v=VS.85).aspx">ITfFunctionProvider::GetFunction</a> with IID_ITfFnPlayBack.
+A client obtains an instance of this interface by obtaining the <a href="https://msdn.microsoft.com/e63fd561-1157-49b1-a981-e578d9538876">ITfFunctionProvider</a> for the SAPI text service and calling <a href="https://msdn.microsoft.com/a8ec629a-9ac6-4f25-82f2-42af6ce52ddc">ITfFunctionProvider::GetFunction</a> with IID_ITfFnPlayBack.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnPlayBack</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfFnPlayBack</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnPlayBack</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFnPlayBack</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>ITfFnPlayBack</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538960(v=VS.85).aspx">Play</a>
+<a href="https://msdn.microsoft.com/9945bc65-fe9f-42d1-ade1-db016dc7489c">Play</a>
 </td>
 <td align="left" width="63%">
 Causes the audio data for a range of text to be played.
@@ -83,7 +83,7 @@ Causes the audio data for a range of text to be played.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538962(v=VS.85).aspx">QueryRange</a>
+<a href="https://msdn.microsoft.com/d6113703-5515-4f1a-8e2e-1373077dafc2">QueryRange</a>
 </td>
 <td align="left" width="63%">
 Obtains the range of text for a word or phrase that contains audio data.

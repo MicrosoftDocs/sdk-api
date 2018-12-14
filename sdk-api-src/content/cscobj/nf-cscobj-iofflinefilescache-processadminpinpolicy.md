@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_processadminpinpolicy.htm
 tech.root: offlinefiles
 ms.assetid: 25ee4586-3031-4815-9a35-ce57cf9366d7
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],ProcessAdminPinPolicy method, IOfflineFilesCache.ProcessAdminPinPolicy, IOfflineFilesCache::ProcessAdminPinPolicy, ProcessAdminPinPolicy, ProcessAdminPinPolicy method [Offline Files], ProcessAdminPinPolicy method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::ProcessAdminPinPolicy, of.iofflinefilescache_processadminpinpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,12 +61,12 @@ Causes Offline Files to process the "administratively assigned offline files" gr
 
 ### -param pPinProgress [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb530637(v=VS.85).aspx">IOfflineFilesSyncProgress</a> interface that receives progress notifications as items are being pinned in the Offline Files cache.
+Pointer to the <a href="https://msdn.microsoft.com/7fc5ff29-be9d-4fad-96a8-94058bb708fa">IOfflineFilesSyncProgress</a> interface that receives progress notifications as items are being pinned in the Offline Files cache.
 
 
 ### -param pUnpinProgress [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb530637(v=VS.85).aspx">IOfflineFilesSyncProgress</a> interface that receives progress notifications as items are being unpinned from the Offline Files cache.
+Pointer to the <a href="https://msdn.microsoft.com/7fc5ff29-be9d-4fad-96a8-94058bb708fa">IOfflineFilesSyncProgress</a> interface that receives progress notifications as items are being unpinned from the Offline Files cache.
 
 
 ## -returns
@@ -92,7 +92,7 @@ The "administratively assigned offline files" group policy provides a way for ad
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

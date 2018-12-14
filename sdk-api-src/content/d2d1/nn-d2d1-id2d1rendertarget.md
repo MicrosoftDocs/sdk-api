@@ -111,7 +111,7 @@ Initiates drawing on this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a799a7c-0d2f-460f-99f9-24c6cf7c4537">CreateCompatibleRenderTarget</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742780(v=VS.85).aspx">CreateCompatibleRenderTarget</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a new  bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target .
 
@@ -119,7 +119,7 @@ Initiates drawing on this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">CreateGradientStopCollection</a>
 </td>
 <td align="left" width="63%">Overloaded.      Creates an <a href="https://msdn.microsoft.com/982abf9c-4778-4871-a494-5843f0c0addc">ID2D1GradientStopCollection</a> from the specified array of <a href="https://msdn.microsoft.com/f6798542-382a-4074-bbe1-707bc00b3575">D2D1_GRADIENT_STOP</a> structures. 
 
@@ -127,7 +127,7 @@ Initiates drawing on this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7">CreateLayer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742782(v=VS.85).aspx">CreateLayer</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a layer resource that can be used with this render target and its compatible render targets. 
 
@@ -135,7 +135,7 @@ Initiates drawing on this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dc07113f-ff93-4b0f-8328-02dd481dccb0">CreateLinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742783(v=VS.85).aspx">CreateLinearGradientBrush</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a> object for painting areas with a linear gradient.
 
@@ -152,7 +152,7 @@ Create a mesh that uses triangles to describe a shape.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/985a4c1b-d29b-46ed-bc55-6dcd313718a8">CreateRadialGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742842(v=VS.85).aspx">CreateRadialGradientBrush</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> object that can be used to paint areas with a radial gradient.
 
@@ -169,7 +169,7 @@ Creates an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5df
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3dbfe26f-cf36-47b0-925e-4934e0d7c390">CreateSolidColorBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742843(v=VS.85).aspx">CreateSolidColorBrush</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a> that can be used to paint areas with a solid color.
 
@@ -185,7 +185,7 @@ Creates an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5df
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dabbb399-2d72-41c3-8b2f-aea49d7ad0cb">DrawEllipse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742845(v=VS.85).aspx">DrawEllipse</a>
 </td>
 <td align="left" width="63%">Overloaded. Draws the outline of an ellipse with the specified dimensions and stroke.
 
@@ -220,7 +220,7 @@ Draws a line between the specified points using the specified stroke style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f8c0754-fa68-4b5b-812f-24d8b544ba6e">DrawRectangle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742846(v=VS.85).aspx">DrawRectangle</a>
 </td>
 <td align="left" width="63%">Overloaded. Draws the outline of a rectangle that has the specified dimensions and stroke style.
     
@@ -229,7 +229,7 @@ Draws a line between the specified points using the specified stroke style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d718c355-ffd8-4a7f-90f3-9a10d37a19c8">DrawRoundedRectangle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742847(v=VS.85).aspx">DrawRoundedRectangle</a>
 </td>
 <td align="left" width="63%">Overloaded. Draws the outline of the specified rounded rectangle using the specified stroke style.
 
@@ -263,7 +263,7 @@ Ends drawing operations  on the render target and indicates the current error st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/149fb303-d2e8-416c-b28f-8bc5f1482ba6">FillEllipse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742849(v=VS.85).aspx">FillEllipse</a>
 </td>
 <td align="left" width="63%">Overloaded. Paints the interior of the specified ellipse.
 
@@ -297,7 +297,7 @@ Paints the interior of the specified mesh.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08e498f9-b564-4da6-ba9b-bff08964ce08">FillRectangle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742851(v=VS.85).aspx">FillRectangle</a>
 </td>
 <td align="left" width="63%">Overloaded. Paints the interior of the specified rectangle.
 
@@ -305,7 +305,7 @@ Paints the interior of the specified mesh.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c4765b0-858f-4a20-b044-0acf87a1f131">FillRoundedRectangle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742852(v=VS.85).aspx">FillRoundedRectangle</a>
 </td>
 <td align="left" width="63%">Overloaded. Paints the interior of the specified rounded rectangle.
 
@@ -439,7 +439,7 @@ Stops redirecting drawing operations to the layer that is specified by the last 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b777425-07b1-4494-889a-0c947fb61315">PushAxisAlignedClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742855(v=VS.85).aspx">PushAxisAlignedClip</a>
 </td>
 <td align="left" width="63%">Overloaded. Specifies a rectangle to which all subsequent drawing operations are clipped.
 
@@ -447,7 +447,7 @@ Stops redirecting drawing operations to the layer that is specified by the last 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9336662c-e94e-40ba-adbe-066d704958bc">PushLayer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742856(v=VS.85).aspx">PushLayer</a>
 </td>
 <td align="left" width="63%">Overloaded. Adds the specified layer to the render target so that it receives all subsequent drawing operations until <a href="https://msdn.microsoft.com/6ab05160-4f42-477f-a5bf-f16863b0635c">PopLayer</a> is called. 
 

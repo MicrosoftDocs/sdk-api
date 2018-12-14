@@ -74,7 +74,7 @@ The <b>IAMWstDecoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6251c9fa-1149-47ac-b776-7d10d153dde5">GetAnswerMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376042(v=VS.85).aspx">GetAnswerMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether hidden text is exposed or not.
@@ -83,7 +83,7 @@ Retrieves whether hidden text is exposed or not.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1661f2cd-8e6c-4e55-b5fd-995ef2962cb7">GetBackgroundColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376043(v=VS.85).aspx">GetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current physical color used in color keying the background for overlay mixing.
@@ -92,7 +92,7 @@ Retrieves the current physical color used in color keying the background for ove
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4e52723-27ad-487a-a547-7ad7ade6f099">GetCurrentPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376044(v=VS.85).aspx">GetCurrentPage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current WST page.
@@ -101,7 +101,7 @@ Retrieves the current WST page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d16b3501-efee-48e6-8d5d-d76f206d77ed">GetCurrentService</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376045(v=VS.85).aspx">GetCurrentService</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current WST service.
@@ -110,7 +110,7 @@ Retrieves the current WST service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/629ee71d-7d79-4fa9-b169-3b5328659435">GetDecoderLevel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376046(v=VS.85).aspx">GetDecoderLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the WST decoder level.
@@ -119,7 +119,7 @@ Retrieves the WST decoder level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5bf3a83-5f74-4ef1-81b6-6c99e3832725">GetDrawBackgroundMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376047(v=VS.85).aspx">GetDrawBackgroundMode</a>
 </td>
 <td align="left" width="63%">
 Determines whether the caption text background is opaque or transparent.
@@ -128,7 +128,7 @@ Determines whether the caption text background is opaque or transparent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db09b2a2-7f92-421a-8582-4ed648563119">GetHoldPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376048(v=VS.85).aspx">GetHoldPage</a>
 </td>
 <td align="left" width="63%">
 Determines whether the current WST page is held by the WST decoder.
@@ -137,7 +137,7 @@ Determines whether the current WST page is held by the WST decoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63ef7dbe-138b-442a-bf54-1f409c969418">GetOutputFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376049(v=VS.85).aspx">GetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current output video format.
@@ -146,7 +146,7 @@ Retrieves the current output video format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4035bd0-9a86-4deb-b4eb-4aa5b4b4ff35">GetRedrawAlways</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376050(v=VS.85).aspx">GetRedrawAlways</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether the whole output bitmap should be redrawn for each sample.
@@ -155,7 +155,7 @@ Retrieves whether the whole output bitmap should be redrawn for each sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a927341-6ff4-41f5-918b-ea5b9e1ebe9a">GetServiceState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376051(v=VS.85).aspx">GetServiceState</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether closed captioning is on or off.
@@ -164,7 +164,7 @@ Retrieves whether closed captioning is on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d26b22d2-2c88-4347-80fb-aca8abae50ab">SetAnswerMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376052(v=VS.85).aspx">SetAnswerMode</a>
 </td>
 <td align="left" width="63%">
 Assigns whether hidden text is exposed or not.
@@ -173,7 +173,7 @@ Assigns whether hidden text is exposed or not.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d65726aa-a826-41d4-95f3-40c86d7b9347">SetBackgroundColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376053(v=VS.85).aspx">SetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Assigns the current physical color used in color keying the background for overlay mixing.
@@ -182,7 +182,7 @@ Assigns the current physical color used in color keying the background for overl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84f8854d-77a7-4ae3-9fec-c4d6fce7eead">SetCurrentPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376054(v=VS.85).aspx">SetCurrentPage</a>
 </td>
 <td align="left" width="63%">
 Assigns the current WST page.
@@ -191,7 +191,7 @@ Assigns the current WST page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d237d3dc-b3c9-44b2-9277-798c4830b361">SetDrawBackgroundMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376055(v=VS.85).aspx">SetDrawBackgroundMode</a>
 </td>
 <td align="left" width="63%">
 Assigns the caption text background to be opaque or transparent.
@@ -200,7 +200,7 @@ Assigns the caption text background to be opaque or transparent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2fea6f52-bae3-4679-a89b-fe85f1232d34">SetHoldPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376056(v=VS.85).aspx">SetHoldPage</a>
 </td>
 <td align="left" width="63%">
 Instructs the WST decoder to hold the current page.
@@ -209,7 +209,7 @@ Instructs the WST decoder to hold the current page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92d19d2b-dce5-4dd6-ac96-a39fa48fa1aa">SetOutputFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376057(v=VS.85).aspx">SetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Assigns an output video format.
@@ -218,7 +218,7 @@ Assigns an output video format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4663a9c0-3d08-4f25-8742-458081536f98">SetRedrawAlways</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376058(v=VS.85).aspx">SetRedrawAlways</a>
 </td>
 <td align="left" width="63%">
 Sets whether the whole output bitmap should be redrawn for each sample.
@@ -227,7 +227,7 @@ Sets whether the whole output bitmap should be redrawn for each sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c65d056e-0f39-4372-9060-37859798cade">SetServiceState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376059(v=VS.85).aspx">SetServiceState</a>
 </td>
 <td align="left" width="63%">
 Sets closed captioning on or off.

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_TYPE
+UID: NE:webservices.__unnamed_enum_81
 title: WS_TYPE
 author: windows-sdk-content
 description: The types supported for serialization.
@@ -7,7 +7,7 @@ old-location: wsw\ws_type.htm
 tech.root: wsw
 ms.assetid: eb3732fd-1197-4e1c-b5b5-9a34aaa0951e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ANY_ATTRIBUTES_TYPE, WS_BOOL_TYPE, WS_BYTES_TYPE, WS_BYTE_ARRAY_TYPE, WS_CHAR_ARRAY_TYPE, WS_CUSTOM_TYPE, WS_DATETIME_TYPE, WS_DECIMAL_TYPE, WS_DESCRIPTION_TYPE, WS_DOUBLE_TYPE, WS_DURATION_TYPE, WS_ENDPOINT_ADDRESS_TYPE, WS_ENUM_TYPE, WS_FAULT_TYPE, WS_FLOAT_TYPE, WS_GUID_TYPE, WS_INT16_TYPE, WS_INT32_TYPE, WS_INT64_TYPE, WS_INT8_TYPE, WS_STRING_TYPE, WS_STRUCT_TYPE, WS_TIMESPAN_TYPE, WS_TYPE, WS_TYPE enumeration [Web Services for Windows], WS_UINT16_TYPE, WS_UINT32_TYPE, WS_UINT64_TYPE, WS_UINT8_TYPE, WS_UNION_TYPE, WS_UNIQUE_ID_TYPE, WS_UTF8_ARRAY_TYPE, WS_VOID_TYPE, WS_WSZ_TYPE, WS_XML_BUFFER_TYPE, WS_XML_QNAME_TYPE, WS_XML_STRING_TYPE, webservices/WS_ANY_ATTRIBUTES_TYPE, webservices/WS_BOOL_TYPE, webservices/WS_BYTES_TYPE, webservices/WS_BYTE_ARRAY_TYPE, webservices/WS_CHAR_ARRAY_TYPE, webservices/WS_CUSTOM_TYPE, webservices/WS_DATETIME_TYPE, webservices/WS_DECIMAL_TYPE, webservices/WS_DESCRIPTION_TYPE, webservices/WS_DOUBLE_TYPE, webservices/WS_DURATION_TYPE, webservices/WS_ENDPOINT_ADDRESS_TYPE, webservices/WS_ENUM_TYPE, webservices/WS_FAULT_TYPE, webservices/WS_FLOAT_TYPE, webservices/WS_GUID_TYPE, webservices/WS_INT16_TYPE, webservices/WS_INT32_TYPE, webservices/WS_INT64_TYPE, webservices/WS_INT8_TYPE, webservices/WS_STRING_TYPE, webservices/WS_STRUCT_TYPE, webservices/WS_TIMESPAN_TYPE, webservices/WS_TYPE, webservices/WS_UINT16_TYPE, webservices/WS_UINT32_TYPE, webservices/WS_UINT64_TYPE, webservices/WS_UINT8_TYPE, webservices/WS_UNION_TYPE, webservices/WS_UNIQUE_ID_TYPE, webservices/WS_UTF8_ARRAY_TYPE, webservices/WS_VOID_TYPE, webservices/WS_WSZ_TYPE, webservices/WS_XML_BUFFER_TYPE, webservices/WS_XML_QNAME_TYPE, webservices/WS_XML_STRING_TYPE, wsw.ws_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,41 +68,41 @@ The <a href="https://msdn.microsoft.com/2f013802-c564-4544-946f-534afd402474">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -128,7 +128,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                
 
@@ -142,41 +142,41 @@ The <a href="https://msdn.microsoft.com/8085c256-fb1a-4537-bbad-9a1b3e8149ee">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -202,7 +202,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -216,41 +216,41 @@ The <a href="https://msdn.microsoft.com/06cf286f-971b-46e1-92b4-655d6d55606a">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -276,7 +276,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -290,41 +290,41 @@ The <a href="https://msdn.microsoft.com/98761df2-b195-4f22-90ba-3dac8920f3ef">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -350,7 +350,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -364,41 +364,41 @@ The <a href="https://msdn.microsoft.com/b8e355c0-2695-4162-aa77-703367ee117e">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -424,7 +424,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -438,41 +438,41 @@ The <a href="https://msdn.microsoft.com/0e878a19-8f64-4fa2-a6a7-9a12c2ec8efc">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -498,7 +498,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -512,41 +512,41 @@ The <a href="https://msdn.microsoft.com/62bc0e6c-a8f0-4b57-89bc-a2832d785703">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -572,7 +572,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -586,41 +586,41 @@ The <a href="https://msdn.microsoft.com/dcb864f2-f162-41ca-b3ef-5b592a311299">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -646,7 +646,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -660,41 +660,41 @@ The <a href="https://msdn.microsoft.com/62a8da3a-3e5d-4ce8-bda5-08f84255ba3f">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -720,7 +720,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -734,41 +734,41 @@ The <a href="https://msdn.microsoft.com/54af331f-92bd-4970-945d-13f3a2e62c4b">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -794,7 +794,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -808,41 +808,41 @@ The <a href="https://msdn.microsoft.com/cc845d24-4bbd-4491-9d4e-7a39c6c251da">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -868,7 +868,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -882,41 +882,41 @@ The <a href="https://msdn.microsoft.com/c2e8fc81-1a09-456c-b8bb-9160bc286ec2">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -942,7 +942,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -956,41 +956,41 @@ The <a href="https://msdn.microsoft.com/f6a7094f-56c0-4d8e-9050-fe41c4a82bf4">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1016,7 +1016,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -1030,41 +1030,41 @@ The <a href="https://msdn.microsoft.com/8c74c30e-6793-490b-bc36-b7c60ef35232">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1090,7 +1090,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -1104,41 +1104,41 @@ The <a href="https://msdn.microsoft.com/e0a98163-66c3-4b6d-a91c-f143b3aad864">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1164,7 +1164,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -1178,41 +1178,41 @@ The <a href="https://msdn.microsoft.com/d00695e6-2c3d-4eff-b5cd-f4f81954fb0f">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1238,7 +1238,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -1252,44 +1252,44 @@ The <a href="https://msdn.microsoft.com/10abb773-ec10-4e72-bce8-13fe3c41cb52">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_XML_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_XML_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1319,7 +1319,7 @@ A nil value is represented by setting the chars field to <b>NULL</b> and specify
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -1337,44 +1337,44 @@ Deserialization will return an error if the wire form of the string
                     contains an embedded zero.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_XML_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_XML_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1402,7 +1402,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                     The default value should point to the address of a WCHAR*, and 
                     the size should be sizeof(WCHAR*).
@@ -1418,41 +1418,41 @@ The <a href="https://msdn.microsoft.com/0c5384f9-0f6c-4523-bacb-ec3dd7321648">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1482,7 +1482,7 @@ A nil value is represented by setting the bytes field to <b>NULL</b> and specify
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -1499,41 +1499,41 @@ The <a href="https://msdn.microsoft.com/5b3c28ed-ed2c-4d65-a641-a653eddd021e">WS
 Embedded zeros are allowed in the array of utf8 bytes.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1563,7 +1563,7 @@ A nil value is represented by setting the bytes field to <b>NULL</b> and specify
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -1577,41 +1577,41 @@ The <a href="https://msdn.microsoft.com/300c5fd1-1a66-40b8-9f26-0f0711f7a527">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1638,7 +1638,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -1651,41 +1651,41 @@ Used when serializing an <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-
 This type has no associated type description structure.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ANY_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ANY_ELEMENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ANY_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_CONTENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ANY_CONTENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1720,7 +1720,7 @@ The interpretation of the contents of the <a href="https://msdn.microsoft.com/75
 
 <ul>
 <li>
-When used at the top level or with <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>, the
+When used at the top level or with <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>, the
                         <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> should contain a single element which represents
                         the attribute and element content.  The local name and namespace of the
                         element in the buffer is ignored; it is replaced with actual element
@@ -1753,14 +1753,14 @@ When the value is deserialized, the element name and namespace will correspond
 
 </li>
 <li>
-When used with <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ELEMENT_FIELD_MAPPING</a>, the
+When used with <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ANY_ELEMENT_FIELD_MAPPING</a>, the
                         <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> should contain a single element which 
                         represents a single element in the XML content.
                     
 
 </li>
 <li>
-When used with <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, each
+When used with <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, each
                         of the <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>s that are serialized in the array
                         has the same convention as with <b>WS_ELEMENT_FIELD_MAPPING</b>described above (each WS_XML_BUFFER represents a single element
                         in the XML content).
@@ -1768,14 +1768,14 @@ When used with <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f7
 
 </li>
 <li>
-When used with <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</a>, each
+When used with <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</a>, each
                         of the <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>s that are serialized in the array
                         represents a single element in the XML content.
                     
 
 </li>
 <li>
-When used with <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_CONTENT_FIELD_MAPPING</a>, the
+When used with <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ANY_CONTENT_FIELD_MAPPING</a>, the
                         <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> may contain zero or more top level elements
                         or text.  This content corresponds to the remaining XML content of the 
                         containing structure.
@@ -1812,36 +1812,36 @@ The <a href="https://msdn.microsoft.com/3a489963-9ed3-40ca-be42-485415e7fa4a">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type cannot be used with any <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values.
+This type cannot be used with any <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values.
                 
 
 This type may only be used within a <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_XML_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_XML_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1902,30 +1902,30 @@ The <a href="https://msdn.microsoft.com/f4aa8194-06b0-4da7-b4cc-b59c0a046711">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type cannot be used with any <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values.
+This type cannot be used with any <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values.
                 
 
 This type may only be used within a <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -1974,30 +1974,30 @@ The <a href="https://msdn.microsoft.com/4bdc2956-387e-4cf6-93e1-3a3879c74ccf">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type cannot be used with any <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values.
+This type cannot be used with any <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values.
                 
 
 This type may only be used within a <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2031,7 +2031,7 @@ Used to represent the XML type of the structure being serialized.  This can be u
 This type does not have an associated type description.
                 
 
-This type cannot be used with any <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values.
+This type cannot be used with any <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values.
                 
 
 This type may only be used within a <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
@@ -2040,15 +2040,15 @@ This type may only be used within a <a href="https://msdn.microsoft.com/8b562fab
 This type does not support specifying a <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a>.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TYPE_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TYPE_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2067,64 +2067,64 @@ This type requires a <a href="https://msdn.microsoft.com/b426a07e-9993-4cea-8847
                     to be supplied which provides information about how to serialize the type.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values,
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values,
                     as long as the fields defined by the structure follow the stated restrictions:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>.  All field mappings are supported.
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>.  All field mappings are supported.
                     </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>.
                         Only the following mappings are supported:
                         <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>.
                     Only the following mappings are supported:
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
 </li>
 <li></li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2167,53 +2167,53 @@ This type requires a <a href="https://msdn.microsoft.com/7ae3d16c-0755-4226-844e
                     are used to read and write the type.
                 
 
-The callbacks are passed the <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> and make the determination
+The callbacks are passed the <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> and make the determination
                     as to whether the mapping is supported.
                 
 
-The support for each <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> value is dependent on the 
-                    <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> support determined by the callback.  The rules
+The support for each <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> value is dependent on the 
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> support determined by the callback.  The rules
                     are as follows:
                 
 
 <ul>
-<li>If <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a> is supported, then the following field mappings are supported:
+<li>If <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a> is supported, then the following field mappings are supported:
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 </ul>
 </li>
-<li>If <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a> is supported, then the following field mappings are supported:
+<li>If <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a> is supported, then the following field mappings are supported:
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 </ul>
 </li>
-<li>If <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a> is supported, then the following field mappings are supported:
+<li>If <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a> is supported, then the following field mappings are supported:
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 </ul>
 </li>
-<li>If <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ANY_ELEMENT_TYPE_MAPPING</a> is supported, then the following field mappings are supported:
+<li>If <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ANY_ELEMENT_TYPE_MAPPING</a> is supported, then the following field mappings are supported:
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ANY_ELEMENT_FIELD_MAPPING</a>
 </li>
 </ul>
 </li>
 </ul>
-Regardless of what <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values are supported, the type
-                    can always be used with <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>.
+Regardless of what <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values are supported, the type
+                    can always be used with <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2237,7 +2237,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -2252,29 +2252,29 @@ This type requires a <a href="https://msdn.microsoft.com/2d79d917-5ebc-4be4-b7ce
                     to be supplied which provides information about the serialization format.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2312,29 +2312,29 @@ This type requires a <a href="https://msdn.microsoft.com/6634faec-5491-4332-b815
                     to be supplied which provides information about the serialization format.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2371,14 +2371,14 @@ A <a href="https://msdn.microsoft.com/92373e0d-3fe1-4486-8e79-deb0fc24cb63">WS_V
                     to specify the size of the type.
                 
 
-This type cannot be used with any <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values.
+This type cannot be used with any <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values.
                 
 
 This type can only be used within the <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a> of a
                     <a href="https://msdn.microsoft.com/b426a07e-9993-4cea-8847-fc80e9d0b451">WS_STRUCT_DESCRIPTION</a>.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2393,15 +2393,15 @@ This type can be used with the following <a href="https://msdn.microsoft.com/852
 <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_POINTER</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>.  This is used to initialize a field of a structure 
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>.  This is used to initialize a field of a structure 
                     to a default value when deserializing.  This is used for the case where the 
                     particular field does not have a mapping to the XML content, and the type 
-                    is not one of the other <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>s.  The value will be initialized as
+                    is not one of the other <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a>s.  The value will be initialized as
                     follows:
                     <ul>
 <li>If <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_POINTER</a> is specified, then the field will
@@ -2415,7 +2415,7 @@ This type can be used with the following <a href="https://msdn.microsoft.com/14f
 </ul>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ELEMENT_FIELD_MAPPING</a>, <b>WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</b>,
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ANY_ELEMENT_FIELD_MAPPING</a>, <b>WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</b>,
                     <b>WS_ELEMENT_FIELD_MAPPING</b>, <b>WS_ATTRIBUTE_FIELD_MAPPING</b>, 
                     <b>WS_ANY_CONTENT_FIELD_MAPPING</b> or
                     <b>WS_ANY_ATTRIBUTES_FIELD_MAPPING</b>.   This is 
@@ -2438,41 +2438,41 @@ This type requires a <a href="https://msdn.microsoft.com/cf7c9254-c806-4ada-8852
                     and their corresponding serialized form.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2498,7 +2498,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -2512,41 +2512,41 @@ The <a href="https://msdn.microsoft.com/51084a56-f666-4ca0-b98c-9f41e28b99c0">WS
                     specified for this type in order to constrain the allowed values.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ATTRIBUTE_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_TEXT_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_TEXT_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_NO_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_NO_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2572,7 +2572,7 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 A <a href="https://msdn.microsoft.com/496b9ea6-2979-4245-ad07-9c62c396ebde">WS_DEFAULT_VALUE</a> may be specified for this type.
-                    See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> to see
+                    See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
 
@@ -2601,29 +2601,29 @@ This type requires a <a href="https://msdn.microsoft.com/04eddc88-f0ba-4a0b-8078
                     their corresponding serialized form.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_TYPE_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_ELEMENT_CONTENT_TYPE_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_CHOICE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ELEMENT_CHOICE_FIELD_MAPPING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>
@@ -2651,21 +2651,21 @@ Used when serializing a set of attributes that are not mapped to fields
 This type does not have an associated type description.
                 
 
-This type cannot be used with any <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> values.
+This type cannot be used with any <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> values.
                 
 
 This type may only be used within a <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
                 
 
-This type can be used with the following <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values:
+This type can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values:
                 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ATTRIBUTES_FIELD_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ANY_ATTRIBUTES_FIELD_MAPPING</a>
 </li>
 </ul>
-This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
+This type can be used with the following <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
                 
 
 <ul>

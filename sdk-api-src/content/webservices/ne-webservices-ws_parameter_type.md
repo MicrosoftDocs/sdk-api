@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_PARAMETER_TYPE
+UID: NE:webservices.__unnamed_enum_90
 title: WS_PARAMETER_TYPE
 author: windows-sdk-content
 description: The different parameter types.
@@ -7,7 +7,7 @@ old-location: wsw\ws_parameter_type.htm
 tech.root: wsw
 ms.assetid: c847940a-f97e-4605-a940-1d72de6a3695
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_PARAMETER_TYPE, WS_PARAMETER_TYPE enumeration [Web Services for Windows], WS_PARAMETER_TYPE_ARRAY, WS_PARAMETER_TYPE_ARRAY_COUNT, WS_PARAMETER_TYPE_MESSAGES, WS_PARAMETER_TYPE_NORMAL, webservices/WS_PARAMETER_TYPE, webservices/WS_PARAMETER_TYPE_ARRAY, webservices/WS_PARAMETER_TYPE_ARRAY_COUNT, webservices/WS_PARAMETER_TYPE_MESSAGES, webservices/WS_PARAMETER_TYPE_NORMAL, wsw.ws_parameter_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

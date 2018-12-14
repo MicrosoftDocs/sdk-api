@@ -2,7 +2,7 @@
 UID: TP:wds
 ms.assetid: a2f5b90c-451d-365d-a3fa-82d6ea954496
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

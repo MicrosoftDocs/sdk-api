@@ -1,0 +1,127 @@
+---
+UID: NE:dhcpsapi._QuarantineStatus
+title: QuarantineStatus
+author: windows-sdk-content
+description: The QuarantineStatus enumeration specifies possible health status values for the DHCPv4 client, as validated at the NAP server.
+old-location: dhcp\quarantinestatus.htm
+tech.root: DHCP
+ms.assetid: 29C165D1-9870-4398-97F9-DA1586797FF0
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: DEFAULTQUARSETTING, DROPPACKET, EXEMPT, NOQUARANTINE, NOQUARINFO, PROBATION, QuarantineStatus, QuarantineStatus enumeration [DHCP], RESTRICTEDACCESS, dhcp.quarantinestatus, dhcpsapi/DEFAULTQUARSETTING, dhcpsapi/DROPPACKET, dhcpsapi/EXEMPT, dhcpsapi/NOQUARANTINE, dhcpsapi/NOQUARINFO, dhcpsapi/PROBATION, dhcpsapi/QuarantineStatus, dhcpsapi/RESTRICTEDACCESS
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: dhcpsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dhcpsapi.h
+api_name:
+ - QuarantineStatus
+product: Windows
+targetos: Windows
+req.typenames: QuarantineStatus
+req.redist: 
+---
+
+# QuarantineStatus enumeration
+
+
+## -description
+
+
+The <b>QuarantineStatus</b> enumeration specifies possible health status values for the DHCPv4 client, as validated at the NAP server.
+
+
+
+## -enum-fields
+
+
+
+
+### -field NOQUARANTINE
+
+The DHCP client is compliant with the health policies defined by the administrator and has normal access to the network.
+
+
+### -field RESTRICTEDACCESS
+
+The DHCP client is not compliant with the health policies defined by the administrator and is being quarantined with restricted access to the network.
+
+
+### -field DROPPACKET
+
+The DHCP client is not compliant with the health policies defined by the administrator and is being denied access to the network. The DHCP server does not grant an IP address lease to this client.
+
+
+### -field PROBATION
+
+The DHCP client is not compliant with the health policies defined by the administrator and is being granted normal access to the network for a limited time.
+
+
+### -field EXEMPT
+
+The DHCP client is exempt from compliance with the health policies defined by the administrator and is granted normal access to the network.
+
+
+### -field DEFAULTQUARSETTING
+
+The DHCP client is put into the default quarantine state configured on the DHCP NAP server. When a network policy server (NPS) is unavailable, the DHCP client can be put in any of the states NOQUARANTINE, RESTRICTEDACCESS, or DROPPACKET, depending on the default setting on the DHCP NAP server.
+
+
+### -field NOQUARINFO
+
+No quarantine.
+
+
+## -remarks
+
+
+
+The <b>QuarantineStatus</b> enumeration is used in the <a href="https://msdn.microsoft.com/71b36ce1-e3de-4904-bbf2-8d305bae06b0">DHCP_CLIENT_FILTER_STATUS_INFO</a>, <a href="https://msdn.microsoft.com/f7bd832d-b4a4-404c-8959-e9653b62d434">DHCP_CLIENT_INFO_VQ</a>, <a href="https://msdn.microsoft.com/3ee224fb-650f-4468-848b-960424202ac3">DHCP_CLIENT_INFO_PB</a>, and <a href="https://msdn.microsoft.com/46e4fb62-5b8e-44f8-b3a0-92535ca690f0">DHCPV4_FAILOVER_CLIENT_INFO</a> structures.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/46e4fb62-5b8e-44f8-b3a0-92535ca690f0">DHCPV4_FAILOVER_CLIENT_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/71b36ce1-e3de-4904-bbf2-8d305bae06b0">DHCP_CLIENT_FILTER_STATUS_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/3ee224fb-650f-4468-848b-960424202ac3">DHCP_CLIENT_INFO_PB</a>
+
+
+
+<a href="https://msdn.microsoft.com/f7bd832d-b4a4-404c-8959-e9653b62d434">DHCP_CLIENT_INFO_VQ</a>
+ 
+
+ 
+

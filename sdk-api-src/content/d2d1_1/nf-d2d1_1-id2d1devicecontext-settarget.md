@@ -151,7 +151,7 @@ If the bitmap and the device context are not in the same resource domain, the co
 
 
 
-<a href="https://msdn.microsoft.com/2dcd9af4-78d7-4271-9113-a91b4bb8145e">ID2D1RenderTarget::GetPixelFormat</a> returns the pixel format of the current target bitmap (or <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_UNKNOWN</a>, <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE_UNKNOWN</a> if there is none).
+<a href="https://msdn.microsoft.com/2dcd9af4-78d7-4271-9113-a91b4bb8145e">ID2D1RenderTarget::GetPixelFormat</a> returns the pixel format of the current target bitmap (or <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_UNKNOWN</a>, <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE_UNKNOWN</a> if there is none).
 
 
 <a href="https://msdn.microsoft.com/42e25099-016e-4656-a412-72dd0fbac1fd">ID2D1Bitmap::CopyFromRenderTarget</a> copies from the currently bound target bitmap.

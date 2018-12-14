@@ -4,7 +4,7 @@ title: IWTSVirtualChannelCallback
 author: windows-sdk-content
 description: Receives notifications about channel state changes or data received.
 old-location: termserv\iwtsvirtualchannelcallback.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d90c6f80-ed4c-4b99-af85-d2c5816ade85
 ms.author: windowssdkdev
 ms.date: 12/5/2018

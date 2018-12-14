@@ -67,7 +67,7 @@ Specifies the job ID.
 
 ### -param pFaxOutgoingJob [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>**</b>
 
 The address of a pointer that receives a <a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object. 
 

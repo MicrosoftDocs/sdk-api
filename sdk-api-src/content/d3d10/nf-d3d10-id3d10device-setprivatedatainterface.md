@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Associate an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>-derived interface with this device and associate that interface with an application-defined guid.
+Associate an <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a>-derived interface with this device and associate that interface with an application-defined guid.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Guid associated with the interface.
 
 Type: <b>const IUnknown*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>-derived interface to be associated with the device.
+Pointer to an <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a>-derived interface to be associated with the device.
 
 
 ## -returns
@@ -88,7 +88,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-When this method is called ::addref() will be called on the IUnknown-derived interface, and when the device is detroyed ::release() will be called on the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>-derived interface.
+When this method is called ::addref() will be called on the IUnknown-derived interface, and when the device is detroyed ::release() will be called on the <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a>-derived interface.
 
 
 

@@ -108,7 +108,7 @@ If you want a visual to be drawn with antialiasing, use <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/2F8C7930-6BBC-4CA9-86C0-168BF0F9C0BD">IDCompositionVisual::SetCompositeMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802902(v=VS.85).aspx">IDCompositionVisual::SetCompositeMode</a>
  
 
  

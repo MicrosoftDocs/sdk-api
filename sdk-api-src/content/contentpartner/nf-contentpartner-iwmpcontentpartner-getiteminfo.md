@@ -122,7 +122,7 @@ g_szItemInfo_ALTLoginURL
 
 The <i>pContext</i> parameter has type <b>VT_EMPTY</b> and supplies no information.
 
-The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of a webpage that Windows Media Player will display as an alternative to the standard log-in dialog box. Windows Media Player requests the alternative log-in URL only if the <b>SUBSCRIPTION_CAP_ALTLOGIN</b> flag is set in the <b>Capabilities</b> registry entry for the online store's plug-in. For more information about the <b>Capabilities</b> registry entry, see <a href="https://msdn.microsoft.com/en-us/library/Dd564255(v=VS.85).aspx">Registry Keys and Entries for a Type 1 Online Store</a>.
+The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of a webpage that Windows Media Player will display as an alternative to the standard log-in dialog box. Windows Media Player requests the alternative log-in URL only if the <b>SUBSCRIPTION_CAP_ALTLOGIN</b> flag is set in the <b>Capabilities</b> registry entry for the online store's plug-in. For more information about the <b>Capabilities</b> registry entry, see <a href="https://msdn.microsoft.com/cf25a004-e0c3-407c-8704-54be3601528b">Registry Keys and Entries for a Type 1 Online Store</a>.
 
 The online store can specify the size of the window that hosts the alternative log-in page by appending the parameter string ?DlgX=<i>width</i>&amp;DlgY=<i>height</i> to the URL. In the parameter string, <i>width</i> and <i>height</i> are the width and height of the window in pixels. For example <b>GetItemInfo</b> could return the following string to specify that AltLogin.htm should be displayed in a window that has a width of 800 pixels and a height of 400 pixels:
 
@@ -190,7 +190,7 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the art 
 
 g_szItemInfo_HTMLViewURL
 
-The <i>pContext</i> parameter supplies a <b>VT_BSTR</b> that is a string that Windows Media Player obtained from a <a href="https://msdn.microsoft.com/en-us/library/Dd563989(v=VS.85).aspx">PARAM</a> element in a Windows Media metafile (ASX file).
+The <i>pContext</i> parameter supplies a <b>VT_BSTR</b> that is a string that Windows Media Player obtained from a <a href="https://msdn.microsoft.com/d905a42a-ac89-4c99-94ca-b3b7060ebbdc">PARAM</a> element in a Windows Media metafile (ASX file).
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the webpage that Windows Media Player will display.
 

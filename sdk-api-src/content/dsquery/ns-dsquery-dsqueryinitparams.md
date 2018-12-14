@@ -1,5 +1,5 @@
 ---
-UID: NS:dsquery.DSQUERYINITPARAMS
+UID: NS:dsquery.__unnamed_struct_0
 title: DSQUERYINITPARAMS
 author: windows-sdk-content
 description: Describes the data used to initialize a browse dialog box in the directory service query.
@@ -7,7 +7,7 @@ old-location: ad\dsqueryinitparams.htm
 tech.root: ad
 ms.assetid: ff1cb792-efb0-46f5-bc9b-95c9fb2959db
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDSQUERYINITPARAMS, DSQPF_ENABLEADMINFEATURES, DSQPF_ENABLEADVANCEDFEATURES, DSQPF_HASCREDENTIALS, DSQPF_NOCHOOSECOLUMNS, DSQPF_NOSAVE, DSQPF_SAVELOCATION, DSQPF_SHOWHIDDENOBJECTS, DSQUERYINITPARAMS, DSQUERYINITPARAMS structure [Active Directory], LPDSQUERYINITPARAMS, LPDSQUERYINITPARAMS structure pointer [Active Directory], _glines_dsqueryinitparams, ad.dsqueryinitparams, dsquery/DSQUERYINITPARAMS, dsquery/LPDSQUERYINITPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Uses features supported by the directory service administration tools, such as A
 
 #### DSQPF_ENABLEADVANCEDFEATURES
 
-Specifies advanced features in the <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> instance passed to context menus and property pages.
+Specifies advanced features in the <a href="_ole_idataobject">IDataObject</a> instance passed to context menus and property pages.
 
 
 
@@ -139,7 +139,7 @@ Pointer to  a  null-terminated Unicode string that contains the name of the serv
 
 
 
-This structure is specific to the <b>CLSID_DsQuery</b> query handler. This structure is used for the <b>pHandlerParameters</b> member of the <a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a> structure when <b>CLSID_DsQuery</b> is set for the <b>clsidHandler</b> member of the 
+This structure is specific to the <b>CLSID_DsQuery</b> query handler. This structure is used for the <b>pHandlerParameters</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms677622(v=VS.85).aspx">OPENQUERYWINDOW</a> structure when <b>CLSID_DsQuery</b> is set for the <b>clsidHandler</b> member of the 
 <b>OPENQUERYWINDOW</b> structure. For more information, and a code example for  using this, and other related APIs, see 
 <a href="https://msdn.microsoft.com/604c4d7a-1f85-4e5b-9879-be502c5c7bff">ICommonQuery::OpenQueryWindow</a>.
 
@@ -160,11 +160,11 @@ This structure is specific to the <b>CLSID_DsQuery</b> query handler. This struc
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/07ef2af1-230e-41d9-ad19-d002d0579d66">OPENQUERYWINDOW</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms677622(v=VS.85).aspx">OPENQUERYWINDOW</a>
  
 
  

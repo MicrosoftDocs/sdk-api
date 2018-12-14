@@ -78,7 +78,7 @@ The <b>IWMDRMReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/757e0926-81aa-48f2-9820-67c8dd51579d">AcquireLicense</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798347(v=VS.85).aspx">AcquireLicense</a>
 </td>
 <td align="left" width="63%">
 Begins the license acquisition process for a DRM version 7 license.
@@ -87,7 +87,7 @@ Begins the license acquisition process for a DRM version 7 license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/837d6fee-d5ba-49d8-ac69-e8ff010a787d">CancelIndividualization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798348(v=VS.85).aspx">CancelIndividualization</a>
 </td>
 <td align="left" width="63%">
 Cancels a current call to the <b>Individualize</b> method.
@@ -96,7 +96,7 @@ Cancels a current call to the <b>Individualize</b> method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6a416d1-0bad-49e0-91ad-19e9ff544a8a">CancelLicenseAcquisition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798349(v=VS.85).aspx">CancelLicenseAcquisition</a>
 </td>
 <td align="left" width="63%">
 Cancels a current call to the <b>AcquireLicense</b> method.
@@ -105,7 +105,7 @@ Cancels a current call to the <b>AcquireLicense</b> method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d33f727-9213-4744-bf65-42b971e3f7da">CancelMonitorLicenseAcquisition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798350(v=VS.85).aspx">CancelMonitorLicenseAcquisition</a>
 </td>
 <td align="left" width="63%">
 Cancels a current call to the <b>MonitorLicenseAcquisition</b> method.
@@ -114,7 +114,7 @@ Cancels a current call to the <b>MonitorLicenseAcquisition</b> method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86ee18be-38a9-4f76-810c-e33281df8c23">GetDRMProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798351(v=VS.85).aspx">GetDRMProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DRM</a>-specific file attributes or run-time properties.
@@ -123,7 +123,7 @@ Retrieves <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51bf9aa0-4c96-4c0b-8e5e-b63fd20dcc4d">Individualize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798352(v=VS.85).aspx">Individualize</a>
 </td>
 <td align="left" width="63%">
 Individualizes the client.
@@ -132,7 +132,7 @@ Individualizes the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b15dce6-7591-479a-b28e-5006418a1c7b">MonitorLicenseAcquisition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798353(v=VS.85).aspx">MonitorLicenseAcquisition</a>
 </td>
 <td align="left" width="63%">
 In non-silent license acquisition, informs the application when a license has been successfully acquired.
@@ -141,7 +141,7 @@ In non-silent license acquisition, informs the application when a license has be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52f606c2-a746-488f-bbf7-0d0e54b89bf9">SetDRMProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798354(v=VS.85).aspx">SetDRMProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the DRM_Rights that will be requested for the next file that is opened.
@@ -171,15 +171,15 @@ For information on other interfaces that can be obtained by using the QueryInter
 
 
 
-<a href="https://msdn.microsoft.com/9fb7bbeb-d35f-41f7-b39a-2e5a102b5c05">IWMDRMReader2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798340(v=VS.85).aspx">IWMDRMReader2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9474e06a-9519-456c-b304-efc875a4accc">IWMDRMReader3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798345(v=VS.85).aspx">IWMDRMReader3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 

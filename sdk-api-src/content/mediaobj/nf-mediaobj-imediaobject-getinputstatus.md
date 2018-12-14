@@ -115,7 +115,7 @@ Success
 
 
 
-If the input stream will accept more data, the method returns the DMO_INPUT_STATUSF_ACCEPT_DATA flag in the <i>dwFlags</i> parameter. Otherwise, it sets this parameter to zero. If the stream will accept more data, the application can call the <a href="https://msdn.microsoft.com/f52e9586-f65d-418f-8c1a-c97c0a81d253">IMediaObject::ProcessInput</a> method.
+If the input stream will accept more data, the method returns the DMO_INPUT_STATUSF_ACCEPT_DATA flag in the <i>dwFlags</i> parameter. Otherwise, it sets this parameter to zero. If the stream will accept more data, the application can call the <a href="https://msdn.microsoft.com/en-us/library/Dd406959(v=VS.85).aspx">IMediaObject::ProcessInput</a> method.
 
 The status of an input stream can change only as the result of one of the following method calls.
 
@@ -128,25 +128,25 @@ The status of an input stream can change only as the result of one of the follow
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/1a8e51e2-5d19-423d-acd2-8f1c0a143cf3">IMediaObject::Discontinuity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406944(v=VS.85).aspx">IMediaObject::Discontinuity</a>
 </td>
 <td>Signals a discontinuity on the specified input stream.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/c80001b8-5648-430a-b565-e90486c48ac5">IMediaObject::Flush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406945(v=VS.85).aspx">IMediaObject::Flush</a>
 </td>
 <td>Flushes all internally buffered data.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/f52e9586-f65d-418f-8c1a-c97c0a81d253">IMediaObject::ProcessInput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406959(v=VS.85).aspx">IMediaObject::ProcessInput</a>
 </td>
 <td>Delivers a buffer to the specified input stream.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a>
 </td>
 <td>Generates output from the current input data.</td>
 </tr>
@@ -161,7 +161,7 @@ The status of an input stream can change only as the result of one of the follow
 
 
 
-<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
  
 
  

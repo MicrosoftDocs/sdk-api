@@ -76,7 +76,7 @@ The <b>IVMRMonitorConfig9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cebd40c2-ea41-4ed1-87d1-37f9d427c539">GetAvailableMonitors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390483(v=VS.85).aspx">GetAvailableMonitors</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the monitors currently available on the system.
@@ -85,7 +85,7 @@ Retrieves information about the monitors currently available on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5d5bf77-5261-42eb-b79b-d72dfb2d9f21">GetDefaultMonitor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390484(v=VS.85).aspx">GetDefaultMonitor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default monitor that all future instances of the VMR will use for video playback.
@@ -94,7 +94,7 @@ Retrieves the default monitor that all future instances of the VMR will use for 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b3e19d2-23de-42ae-9e5b-d53e24bb764a">GetMonitor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390485(v=VS.85).aspx">GetMonitor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the monitor that this instance of the VMR is using for video playback.
@@ -103,7 +103,7 @@ Retrieves the monitor that this instance of the VMR is using for video playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e02e0b6-8c0e-4c32-9059-91b1b8be165f">SetDefaultMonitor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390486(v=VS.85).aspx">SetDefaultMonitor</a>
 </td>
 <td align="left" width="63%">
 Specifies the default monitor that all future instances of the VMR should use for video playback.
@@ -112,7 +112,7 @@ Specifies the default monitor that all future instances of the VMR should use fo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21b0db95-3b70-4d9a-b533-393e89e106ae">SetMonitor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390487(v=VS.85).aspx">SetMonitor</a>
 </td>
 <td align="left" width="63%">
 On a multi-monitor system, specifies the monitor that this instance of the VMR should use for video playback.

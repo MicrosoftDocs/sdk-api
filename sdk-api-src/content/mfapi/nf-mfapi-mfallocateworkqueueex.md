@@ -60,7 +60,7 @@ Creates a new work queue. This function extends the capabilities of the  <a href
 
 ### -param WorkQueueType [in]
 
-A member of the <a href="https://msdn.microsoft.com/a3627dbc-1794-4e2e-b7ed-869ed50ca893">MFASYNC_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd388081(v=VS.85).aspx">MFASYNC_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
 
 <table>
 <tr>

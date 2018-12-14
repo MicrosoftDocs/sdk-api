@@ -58,7 +58,7 @@ The <b>IWMWriterFileSink3</b> interface provides additional functionality to the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterFileSink3</b> interface inherits from <a href="https://msdn.microsoft.com/229ae2a5-103a-4a33-b7ca-c9b2854c6741">IWMWriterFileSink2</a>. <b>IWMWriterFileSink3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterFileSink3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798743(v=VS.85).aspx">IWMWriterFileSink2</a>. <b>IWMWriterFileSink3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMWriterFileSink3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6eb4f09f-627e-4409-9f08-8f655aa7d0ec">CompleteOperations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798752(v=VS.85).aspx">CompleteOperations</a>
 </td>
 <td align="left" width="63%">
 Stops writing after completing all operations in progress.
@@ -82,7 +82,7 @@ Stops writing after completing all operations in progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6412ce4-03ac-4777-8eb2-ef9f265a6d6c">GetAutoIndexing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798753(v=VS.85).aspx">GetAutoIndexing</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether automatic indexing is set for the file.
@@ -91,7 +91,7 @@ Ascertains whether automatic indexing is set for the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8a7003e-e59f-451c-9f45-75d6d094a03b">GetMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798754(v=VS.85).aspx">GetMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the supported file sink mode.
@@ -100,7 +100,7 @@ Retrieves the supported file sink mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e87222eb-6ed1-49b7-a544-27703ba9806b">GetUnbufferedIO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798755(v=VS.85).aspx">GetUnbufferedIO</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether unbuffered I/O is used for the file sink.
@@ -109,7 +109,7 @@ Ascertains whether unbuffered I/O is used for the file sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1dbcb27b-7588-4475-99fe-3e547d1659d3">OnDataUnitEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798756(v=VS.85).aspx">OnDataUnitEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about data units.
@@ -118,7 +118,7 @@ Retrieves information about data units.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c8f1c25-d752-42b6-87b7-9d6a6e38642f">SetAutoIndexing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798757(v=VS.85).aspx">SetAutoIndexing</a>
 </td>
 <td align="left" width="63%">
 Enables or disables automatic indexing.
@@ -127,7 +127,7 @@ Enables or disables automatic indexing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c103d205-a568-4206-a66e-5473e16cfa3f">SetControlStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798758(v=VS.85).aspx">SetControlStream</a>
 </td>
 <td align="left" width="63%">
 Sets a stream as a control stream or removes control from a control stream.
@@ -136,7 +136,7 @@ Sets a stream as a control stream or removes control from a control stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51a9c21b-d301-41e4-a9bc-321a5b2decca">SetUnbufferedIO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798759(v=VS.85).aspx">SetUnbufferedIO</a>
 </td>
 <td align="left" width="63%">
 Specifies whether unbuffered I/O is used for the file sink.
@@ -153,13 +153,13 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/af47b130-353e-411d-8432-09ecd20a70d2">IWMWriterFileSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798742(v=VS.85).aspx">IWMWriterFileSink</a>
 </td>
 <td>IID_IWMWriterFileSink</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/229ae2a5-103a-4a33-b7ca-c9b2854c6741">IWMWriterFileSink2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798743(v=VS.85).aspx">IWMWriterFileSink2</a>
 </td>
 <td>IID_IWMWriterFileSink2</td>
 </tr>
@@ -171,15 +171,15 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/af47b130-353e-411d-8432-09ecd20a70d2">IWMWriterFileSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798742(v=VS.85).aspx">IWMWriterFileSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/229ae2a5-103a-4a33-b7ca-c9b2854c6741">IWMWriterFileSink2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798743(v=VS.85).aspx">IWMWriterFileSink2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink Interface</a>
 
 
 

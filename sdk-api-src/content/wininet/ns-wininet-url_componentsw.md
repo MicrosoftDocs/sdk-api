@@ -1,13 +1,13 @@
 ---
-UID: NS:wininet.URL_COMPONENTSW
+UID: NS:wininet.__unnamed_struct_11
 title: URL_COMPONENTSW
 author: windows-sdk-content
 description: Contains the constituent parts of a URL. This structure is used with the InternetCrackUrl and InternetCreateUrl functions.
 old-location: wininet\url_components.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: faebdd29-f746-486b-b779-cceeecac9163
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPURL_COMPONENTSW, LPURL_COMPONENTS, LPURL_COMPONENTS structure pointer [WinINet], URL_COMPONENTS, URL_COMPONENTS structure [WinINet], URL_COMPONENTSA, URL_COMPONENTSW, _inet_url_components_structure, wininet.url_components, wininet/LPURL_COMPONENTS, wininet/URL_COMPONENTS, wininet/URL_COMPONENTSA, wininet/URL_COMPONENTSW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,7 +80,7 @@ Size of the scheme name, in <b>TCHARs</b>.
 ### -field nScheme
 
 
-<a href="https://msdn.microsoft.com/640d0b62-a44f-4115-be27-9976da4bc73a">INTERNET_SCHEME</a> value that indicates the Internet protocol scheme. 
+<a href="https://msdn.microsoft.com/en-us/library/Aa385149(v=VS.85).aspx">INTERNET_SCHEME</a> value that indicates the Internet protocol scheme. 
 
 
 ### -field lpszHostName

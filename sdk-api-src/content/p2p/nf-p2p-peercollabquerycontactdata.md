@@ -7,7 +7,7 @@ old-location: p2p\peercollabquerycontactdata.htm
 tech.root: P2PSdk
 ms.assetid: 278c7622-988e-441d-a6b9-f62947f881e8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerCollabQueryContactData, PeerCollabQueryContactData function [Peer Networking], p2p.peercollabquerycontactdata, p2p/PeerCollabQueryContactData
 ms.prod: windows-hardware
 ms.technology: windows-devices

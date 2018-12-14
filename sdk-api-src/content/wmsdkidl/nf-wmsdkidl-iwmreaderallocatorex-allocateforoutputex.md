@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>AllocateForOutputEx</b> method allocates a user-created buffer for samples delivered to the <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a> method.
+The <b>AllocateForOutputEx</b> method allocates a user-created buffer for samples delivered to the <a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a> method.
 
 
 
@@ -111,7 +111,7 @@ Specifies the sample duration, in 100-nanosecond units.
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This pointer is the context pointer given to the <a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">IWMReader::Start</a> method.
+Generic pointer, for use by the application. This pointer is the context pointer given to the <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a> method.
 
 
 ## -returns
@@ -127,9 +127,9 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-This method differs from <a href="https://msdn.microsoft.com/bd7340c9-9380-4dba-b8ac-2a616ce9949f">IWMReaderCallbackAdvanced::AllocateForOutput</a> in that sample time and duration values can be passed.
+This method differs from <a href="https://msdn.microsoft.com/en-us/library/Dd743495(v=VS.85).aspx">IWMReaderCallbackAdvanced::AllocateForOutput</a> in that sample time and duration values can be passed.
 
-When you allocate a sample in your implementation of this method, you should call <a href="https://msdn.microsoft.com/3f0e8d8a-efc7-4f1b-8a42-7907439ed8af">INSSBuffer::SetLength</a> to set the length of the buffer to the length passed by the reader in the <i>cbBuffer</i> parameter. If you do not set the current length on the buffer, the reader may encounter an error.
+When you allocate a sample in your implementation of this method, you should call <a href="https://msdn.microsoft.com/en-us/library/Dd743263(v=VS.85).aspx">INSSBuffer::SetLength</a> to set the length of the buffer to the length passed by the reader in the <i>cbBuffer</i> parameter. If you do not set the current length on the buffer, the reader may encounter an error.
 
 
 
@@ -139,11 +139,11 @@ When you allocate a sample in your implementation of this method, you should cal
 
 
 
-<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/be727c7b-b252-44db-825b-5c683e551fd2">IWMReaderAllocatorEx Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx Interface</a>
  
 
  

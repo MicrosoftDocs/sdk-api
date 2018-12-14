@@ -2,7 +2,7 @@
 UID: TP:vhd
 ms.assetid: 0d9a4add-3ac3-3ff9-b349-c6ddc48ae052
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

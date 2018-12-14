@@ -123,7 +123,7 @@ A <b>NULL</b> service proxy was passed to the function.
 
 
 
-Calls are identified by a call ID. This call ID is associated with the call by the WS_CALL_PROPERTY_CALL_ID  value of the <a href="https://msdn.microsoft.com/d61b6763-9770-4f1d-b16f-c63fc09e8af5">WS_CALL_PROPERTY_ID</a> enumeration. 
+Calls are identified by a call ID. This call ID is associated with the call by the WS_CALL_PROPERTY_CALL_ID  value of the <a href="https://msdn.microsoft.com/en-us/library/Dd401770(v=VS.85).aspx">WS_CALL_PROPERTY_ID</a> enumeration. 
               
 
 If the call ID is 0,  all pending calls on the service proxy are abandoned.

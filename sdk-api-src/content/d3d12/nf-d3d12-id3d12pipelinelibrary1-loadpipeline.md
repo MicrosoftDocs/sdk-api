@@ -119,7 +119,7 @@ This function takes the pipeline description as a <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt492661(v=VS.85).aspx">ID3D12PipelineLibrary1</a>
+<a href="https://msdn.microsoft.com/66890F5B-7C1F-4E47-B141-253FC2A166B1">ID3D12PipelineLibrary1</a>
  
 
  

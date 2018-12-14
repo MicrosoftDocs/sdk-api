@@ -54,9 +54,9 @@ Initiates a mirror operation for a virtual disk.  Once the mirroring operation i
     it will not complete until either <a href="https://msdn.microsoft.com/b28162dc-0da8-41c6-9901-29381d2d72c4">CancelIo</a> or 
     <a href="https://msdn.microsoft.com/a2ce13b8-7da6-4848-848d-901d9667c2e3">CancelIoEx</a> is called to cancel all I/O on the 
     <i>VirtualDiskHandle</i>, leaving the original file as the current  or 
-    <a href="https://msdn.microsoft.com/bf70ee43-9fba-4856-a1bc-85eec61f5763">BreakMirrorVirtualDisk</a> is called to stop using 
+    <a href="https://msdn.microsoft.com/en-us/library/Hh448676(v=VS.85).aspx">BreakMirrorVirtualDisk</a> is called to stop using 
     the original file and only use the mirror. 
-    <a href="https://msdn.microsoft.com/392a5258-306d-4c06-a632-85e6fc65ddc9">GetVirtualDiskOperationProgress</a> can be 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd323671(v=VS.85).aspx">GetVirtualDiskOperationProgress</a> can be 
     used to determine if the disks are fully mirrored and writes go to both virtual disks.
 
 
@@ -68,13 +68,13 @@ Initiates a mirror operation for a virtual disk.  Once the mirroring operation i
 ### -param VirtualDiskHandle [in]
 
 A handle to the open virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a> function.
+      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.
 
 
 ### -param Flags [in]
 
 A valid combination of values from the 
-      <a href="https://msdn.microsoft.com/14051691-eacb-40b8-a8ae-822bc054d0a1">MIRROR_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="https://msdn.microsoft.com/en-us/library/Hh448679(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_FLAG</a> enumeration.
 
 <table>
 <tr>
@@ -110,7 +110,7 @@ Create the mirror using an existing file.
 ### -param Parameters [in]
 
 Address of a 
-      <a href="https://msdn.microsoft.com/bcde890e-24d5-41ac-8e5a-ba0d99e395e1">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
+      <a href="https://msdn.microsoft.com/en-us/library/Hh448680(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
       containing mirror parameter data.
 
 
@@ -139,11 +139,11 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/14051691-eacb-40b8-a8ae-822bc054d0a1">MIRROR_VIRTUAL_DISK_FLAG</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448679(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_FLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcde890e-24d5-41ac-8e5a-ba0d99e395e1">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448680(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
 
 
 

@@ -57,7 +57,7 @@ req.redist:
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-<b>CWbemProviderGlue</b>  ties the Component Object Model (COM) interfaces of the Windows Management Instrumentation (WMI) API to the classes derived from the <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class, and supplies methods for providers to use to query each other. It is not expected that provider writers ever derive from this class, or create instances of this class. Typically, the provider writer  uses the static methods listed here to retrieve information from WMI. The <b>CWbemProviderGlue</b> is a COM interface, and it relies on COM security for  interprocess communication. For more information, see <a href="https://msdn.microsoft.com/dd453e0e-aa1f-4ef1-ab21-613630b2758c">Setting the Security Levels on a WMI Connection</a> and <a href="https://msdn.microsoft.com/83c04a96-3829-4c07-91a7-06e5b75b2c12">Setting the Security on IWbemServices and Other Proxies</a>.
+<b>CWbemProviderGlue</b>  ties the Component Object Model (COM) interfaces of the Windows Management Instrumentation (WMI) API to the classes derived from the <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class, and supplies methods for providers to use to query each other. It is not expected that provider writers ever derive from this class, or create instances of this class. Typically, the provider writer  uses the static methods listed here to retrieve information from WMI. The <b>CWbemProviderGlue</b> is a COM interface, and it relies on COM security for  interprocess communication. For more information, see <a href="https://msdn.microsoft.com/dd453e0e-aa1f-4ef1-ab21-613630b2758c">Setting the Security Levels on a WMI Connection</a> and <a href="https://msdn.microsoft.com/83c04a96-3829-4c07-91a7-06e5b75b2c12">Setting the Security on IWbemServices and Other Proxies</a>.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CWbemProviderGlue</b> has these types of members:
 <ul>
@@ -70,7 +70,7 @@ req.redist:
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b701c70a-73f6-48b7-ab90-bbde1d29c9a2">FrameworkLoginDLL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389782(v=VS.85).aspx">FrameworkLoginDLL</a>
 </td>
 <td align="left" width="63%">
 Called when the DLL_PROCESS_ATTACH value is sent to <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> to determine whether the provider server can be loaded.
@@ -79,7 +79,7 @@ Called when the DLL_PROCESS_ATTACH value is sent to <a href="https://msdn.micros
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5157d823-d3a1-46d2-8ae8-07e904001a14">FrameworkLogoffDLL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389783(v=VS.85).aspx">FrameworkLogoffDLL</a>
 </td>
 <td align="left" width="63%">
 Called by <a href="https://msdn.microsoft.com/en-us/library/ms690368(v=VS.85).aspx">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
@@ -88,7 +88,7 @@ Called by <a href="https://msdn.microsoft.com/en-us/library/ms690368(v=VS.85).as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ecdca316-12a0-46c3-97df-85a087533837">GetAllDerivedInstances</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389784(v=VS.85).aspx">GetAllDerivedInstances</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of instances derived from a particular base class.
@@ -97,7 +97,7 @@ Retrieves a list of instances derived from a particular base class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d58f8aca-2176-443e-b82a-87ee8bae8cf8">GetAllDerivedInstancesAsynch</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389785(v=VS.85).aspx">GetAllDerivedInstancesAsynch</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of instances supported by a particular provider and derived from a particular base class. Returns one instance at a time.
@@ -106,7 +106,7 @@ Retrieves a list of instances supported by a particular provider and derived fro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/510d0711-ee82-4270-a7e3-f6bb214716a0">GetAllInstances</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389786(v=VS.85).aspx">GetAllInstances</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of instances supported by a particular provider.
@@ -115,7 +115,7 @@ Retrieves a list of instances supported by a particular provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58fe7757-c130-4859-9b60-d08bfb445eb1">GetAllInstancesAsynch</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389787(v=VS.85).aspx">GetAllInstancesAsynch</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of instances supported by a particular provider. Returns one instance at a time.
@@ -124,7 +124,7 @@ Retrieves a list of instances supported by a particular provider. Returns one in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2873b466-3782-4d63-a777-5b25e3fb7615">GetEmptyInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389788(v=VS.85).aspx">GetEmptyInstance</a>
 </td>
 <td align="left" width="63%">Overloaded. Retrieves a single instance from a particular provider.
 
@@ -132,7 +132,7 @@ Retrieves a list of instances supported by a particular provider. Returns one in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/788b5f5f-b300-4c86-afbd-416b938f21c1">GetInstanceByPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389791(v=VS.85).aspx">GetInstanceByPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the instance identified by a particular object path.
@@ -141,7 +141,7 @@ Retrieves the instance identified by a particular object path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ae95850-59e9-4382-b88d-c51eb3077176">GetInstanceKeysByPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389792(v=VS.85).aspx">GetInstanceKeysByPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the instance identified by a particular object path, with only the key properties populated.
@@ -150,7 +150,7 @@ Retrieves the instance identified by a particular object path, with only the key
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9232dc0-6df9-440d-bf7a-bf524acbe505">GetInstancePropertiesByPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389793(v=VS.85).aspx">GetInstancePropertiesByPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the instance identified by a particular object path, with only the specified properties populated.
@@ -159,7 +159,7 @@ Retrieves the instance identified by a particular object path, with only the spe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf086577-8964-4b6b-8863-78b53f73397e">GetInstancesByQuery</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389794(v=VS.85).aspx">GetInstancesByQuery</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of instances that match a particular query.
@@ -168,7 +168,7 @@ Retrieves a list of instances that match a particular query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51eccecb-5b92-4e06-89eb-552d97074629">GetInstancesByQueryAsynch</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389795(v=VS.85).aspx">GetInstancesByQueryAsynch</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of instances supported by a particular provider that match a particular query. Returns one instance at a time.
@@ -177,7 +177,7 @@ Retrieves a list of instances supported by a particular provider that match a pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abbc7099-400d-47a0-9673-3d102effa897">GetNamespaceConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389796(v=VS.85).aspx">GetNamespaceConnection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a namespace connection.
@@ -186,7 +186,7 @@ Retrieves a namespace connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8245511-d192-4489-b907-45de1d354c49">IsDerivedFrom</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389797(v=VS.85).aspx">IsDerivedFrom</a>
 </td>
 <td align="left" width="63%">
 Determines whether one class is derived from another.
@@ -195,7 +195,7 @@ Determines whether one class is derived from another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f094359-66ea-4604-85f8-1f6bc9a81cd1">SetStatusObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389798(v=VS.85).aspx">SetStatusObject</a>
 </td>
 <td align="left" width="63%">
 Sets the parameters of a status object which is used to supply more information when an error occurs.

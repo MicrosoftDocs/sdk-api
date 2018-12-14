@@ -126,7 +126,7 @@ The handshake was successful but will soon time out. The client should refresh t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693015(v=VS.85).aspx">BDA Reference</a>
+<a href="https://msdn.microsoft.com/f6df89f3-6611-4aa3-ae74-babff88e23fa">BDA Reference</a>
 
 
 

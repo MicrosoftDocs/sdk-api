@@ -75,7 +75,7 @@ The <b>IWMPSyncDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/734a8717-3b7f-4a40-895f-b55cfabd665c">createPartnership</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563716(v=VS.85).aspx">createPartnership</a>
 </td>
 <td align="left" width="63%">
 Creates a partnership between Windows Media Player and the device.
@@ -84,7 +84,7 @@ Creates a partnership between Windows Media Player and the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ecb525b4-c804-47e6-8d6c-7d943010077a">deletePartnership</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563717(v=VS.85).aspx">deletePartnership</a>
 </td>
 <td align="left" width="63%">
 Terminates the partnership between Windows Media Player and the device.
@@ -93,7 +93,7 @@ Terminates the partnership between Windows Media Player and the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c22f4247-8df9-4ac6-ad27-a0e34780b832">get_connected</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563719(v=VS.85).aspx">get_connected</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the device is connected to Windows Media Player.
@@ -102,7 +102,7 @@ Retrieves a value indicating whether the device is connected to Windows Media Pl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36d40dc4-5641-49dd-9ef4-31d2acd0f41d">get_deviceId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563720(v=VS.85).aspx">get_deviceId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device identifier string.
@@ -111,7 +111,7 @@ Retrieves the device identifier string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/daa490a9-d7b8-4162-a4e2-f88b8f091fa3">get_deviceName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563721(v=VS.85).aspx">get_deviceName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the device.
@@ -120,7 +120,7 @@ Retrieves the name of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f72eaa17-fd7a-4844-8380-1a2547644dee">get_friendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563722(v=VS.85).aspx">get_friendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user-defined name of the device.
@@ -138,7 +138,7 @@ Retrieves the index of the device partnership.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc125107-0013-4c5b-aa44-9d48557d370d">get_progress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563724(v=VS.85).aspx">get_progress</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the synchronization progress as percent complete.
@@ -147,7 +147,7 @@ Retrieves a value indicating the synchronization progress as percent complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b194161-c25c-43d9-90ee-dd25ff61034b">get_status</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563741(v=VS.85).aspx">get_status</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the status of the relationship between Windows Media Player and the device.
@@ -156,7 +156,7 @@ Retrieves a value indicating the status of the relationship between Windows Medi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c93263a1-7976-43db-b514-97d9a263a60c">get_syncState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563742(v=VS.85).aspx">get_syncState</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the current synchronization state for the device.
@@ -165,7 +165,7 @@ Retrieves a value indicating the current synchronization state for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a25b91b8-fe14-4fde-8b68-4e61515e0e5c">getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563718(v=VS.85).aspx">getItemInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves a metadata value from the device.
@@ -174,7 +174,7 @@ Retrieves a metadata value from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4335d480-5af0-4764-b8f8-0e6edc1598b7">isIdentical</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563743(v=VS.85).aspx">isIdentical</a>
 </td>
 <td align="left" width="63%">
 Compares the device to the specified device and retrieves a value indicating whether they are the same device.
@@ -183,7 +183,7 @@ Compares the device to the specified device and retrieves a value indicating whe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/caea8f34-8d0c-49ce-ae86-fda6c6b0b68b">put_friendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563744(v=VS.85).aspx">put_friendlyName</a>
 </td>
 <td align="left" width="63%">
 Specifies the user defined name of the device.
@@ -192,7 +192,7 @@ Specifies the user defined name of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/496bb3b6-d942-4d53-8e66-5aed5f574343">showSettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563745(v=VS.85).aspx">showSettings</a>
 </td>
 <td align="left" width="63%">
 Displays the Windows Media Player synchronization settings dialog box.
@@ -201,7 +201,7 @@ Displays the Windows Media Player synchronization settings dialog box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f12e5abe-3d1b-48ab-8a03-420a40ae8b4f">start</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563746(v=VS.85).aspx">start</a>
 </td>
 <td align="left" width="63%">
 Begins synchronization.
@@ -210,7 +210,7 @@ Begins synchronization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30e6787e-851b-420c-934c-5f8e5e4d83df">stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563747(v=VS.85).aspx">stop</a>
 </td>
 <td align="left" width="63%">
 Ends synchronization.
@@ -219,7 +219,7 @@ Ends synchronization.
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPSyncDevice</b> by calling  <a href="https://msdn.microsoft.com/4c34b823-57ce-4053-9e98-308a5d4ffdef">IWMPSyncServices::getDevice</a>.
+Retrieve a pointer to <b>IWMPSyncDevice</b> by calling  <a href="https://msdn.microsoft.com/en-us/library/Dd563749(v=VS.85).aspx">IWMPSyncServices::getDevice</a>.
 
 	
 

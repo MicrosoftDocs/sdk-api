@@ -70,7 +70,7 @@ The maximum number of bytes to be written.
 
 #### - err
 
-Pointer to the error code value. This value is used when providing extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+Pointer to the error code value. This value is used when providing extended error information in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure used to create the FCI context.
 
 
 #### - memory

@@ -60,9 +60,9 @@ The <b>IFaxOutboundRouting::GetGroups</b> method retrieves an interface that rep
 
 ### -param pFaxOutboundRoutingGroups [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>**</b>
 
-An address of a pointer that receives an <a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a> interface.
+An address of a pointer that receives an <a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a> interface.
 
 
 ## -returns

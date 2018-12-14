@@ -112,7 +112,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/07049354-6843-4453-8104-0a241477dd00">XMPlaneNormalizeEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420149(v=VS.85).aspx">XMPlaneNormalizeEst</a>
  
 
  

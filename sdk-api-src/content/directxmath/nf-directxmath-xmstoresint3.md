@@ -60,7 +60,7 @@ Stores signed integer data from an <a href="https://msdn.microsoft.com/1a044094-
 
 ### -param pDestination [out]
 
-Address of an  <a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a> structure in which to store the data.
+Address of an  <a href="https://msdn.microsoft.com/en-us/library/Hh404659(v=VS.85).aspx">XMINT3</a> structure in which to store the data.
 
 
 ### -param V
@@ -81,7 +81,7 @@ None.
 
 
 
-For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/705c3169-2549-4eee-b7cb-ca8842d788c6">XMStoreInt3A</a> with a casting operator.
+For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/en-us/library/Ee420364(v=VS.85).aspx">XMStoreInt3A</a> with a casting operator.
 
 The following pseudocode shows the operation of this function.
 

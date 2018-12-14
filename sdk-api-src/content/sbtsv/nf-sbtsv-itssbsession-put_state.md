@@ -4,7 +4,7 @@ title: ITsSbSession::put_State
 author: windows-sdk-content
 description: Retrieves or specifies the session state.
 old-location: termserv\itssbsession_state.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 4e769ff7-2bd5-4fcb-b2d7-4dedc853482b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

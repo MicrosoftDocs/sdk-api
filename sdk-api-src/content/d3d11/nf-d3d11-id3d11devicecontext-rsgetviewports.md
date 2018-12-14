@@ -73,9 +73,9 @@ A pointer to a variable that, on input, specifies the number of viewports (range
 
 ### -param pViewports [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476260(v=VS.85).aspx">D3D11_VIEWPORT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Ff476260(v=VS.85).aspx">D3D11_VIEWPORT</a> structures for the viewports that are bound to the rasterizer stage. If the number of viewports (in the variable to which <i>pNumViewports</i> points) is
+An array of <a href="https://msdn.microsoft.com/7ef29e40-4b42-4794-83b6-44581c0d529f">D3D11_VIEWPORT</a> structures for the viewports that are bound to the rasterizer stage. If the number of viewports (in the variable to which <i>pNumViewports</i> points) is
             greater than the actual number of viewports currently bound, unused elements of the array contain 0.
             For info about how the viewport size depends on the device <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a>, which has changed between Direct3D 11
             and Direct3D 10, see <b>D3D11_VIEWPORT</b>.
@@ -107,7 +107,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

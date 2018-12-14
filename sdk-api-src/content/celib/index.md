@@ -2,7 +2,7 @@
 UID: NA:celib
 ms.assetid: 79c14376-de1c-3334-96fc-a8b62cfd75cf
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

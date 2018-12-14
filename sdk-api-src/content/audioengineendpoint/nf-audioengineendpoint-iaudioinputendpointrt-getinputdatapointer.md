@@ -4,7 +4,7 @@ title: IAudioInputEndpointRT::GetInputDataPointer
 author: windows-sdk-content
 description: Gets a pointer to the buffer from which data will be read by the audio engine.
 old-location: termserv\iaudioinputendpointrt_getinputdatapointer.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1da81a49-d421-4643-9be6-b13d45d678f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

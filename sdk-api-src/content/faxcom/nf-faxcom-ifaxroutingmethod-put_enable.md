@@ -75,7 +75,7 @@ If a fax client application passes a value of <b>TRUE</b> to the <b>IFaxRoutingM
 
 
 
-<a href="https://msdn.microsoft.com/b09b6e5f-fa1d-4d0b-8581-e0ba779b72bb">CanModify</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692798(v=VS.85).aspx">CanModify</a>
 
 
 

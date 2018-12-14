@@ -153,7 +153,7 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 
 
-<a href="https://msdn.microsoft.com/1bdb5e4a-4dd7-49dc-bb9c-b6a9e435219b">IMSVidFeatures::Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694546(v=VS.85).aspx">IMSVidFeatures::Add</a>
  
 
  

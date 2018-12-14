@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for the properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706311(v=VS.85).aspx">Arithmetic composite effect</a>.
+Identifiers for the properties of the <a href="https://msdn.microsoft.com/6EC8CD61-5B51-4A8E-8A61-B291ABB5C5E0">Arithmetic composite effect</a>.
         
 
 

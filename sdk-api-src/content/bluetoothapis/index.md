@@ -2,7 +2,7 @@
 UID: NA:bluetoothapis
 ms.assetid: 7e6756ab-d600-3ad6-98c6-23228515bb5c
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::TestAndSetServerState
 author: windows-sdk-content
 description: Conditionally sets a new state on a server.
 old-location: termserv\itssbresourcepluginstore_testandsetserverstate.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5b209587-090e-4338-95b3-542e50412587
 ms.author: windowssdkdev
 ms.date: 12/5/2018

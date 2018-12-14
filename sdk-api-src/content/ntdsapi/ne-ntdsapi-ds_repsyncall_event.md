@@ -1,5 +1,5 @@
 ---
-UID: NE:ntdsapi.DS_REPSYNCALL_EVENT
+UID: NE:ntdsapi.__unnamed_enum_6
 title: DS_REPSYNCALL_EVENT
 author: windows-sdk-content
 description: The DS_REPSYNCALL_EVENT enumeration is used with the DS_REPSYNCALL_UPDATE structure to define which event the DS_REPSYNCALL_UPDATE structure represents.
@@ -7,7 +7,7 @@ old-location: ad\ds_repsyncall_event.htm
 tech.root: ad
 ms.assetid: a732a906-0e26-45f6-b89c-58f2277057ba
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: DS_REPSYNCALL_EVENT, DS_REPSYNCALL_EVENT enumeration [Active Directory], DS_REPSYNCALL_EVENT_ERROR, DS_REPSYNCALL_EVENT_FINISHED, DS_REPSYNCALL_EVENT_SYNC_COMPLETED, DS_REPSYNCALL_EVENT_SYNC_STARTED, ad.ds_repsyncall_event, ntdsapi/DS_REPSYNCALL_EVENT, ntdsapi/DS_REPSYNCALL_EVENT_ERROR, ntdsapi/DS_REPSYNCALL_EVENT_FINISHED, ntdsapi/DS_REPSYNCALL_EVENT_SYNC_COMPLETED, ntdsapi/DS_REPSYNCALL_EVENT_SYNC_STARTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>DS_REPSYNCALL_EVENT</b> enumeration is used with the <a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a> structure to define which event the <b>DS_REPSYNCALL_UPDATE</b> structure represents.
+The <b>DS_REPSYNCALL_EVENT</b> enumeration is used with the <a href="https://msdn.microsoft.com/en-us/library/ms676282(v=VS.85).aspx">DS_REPSYNCALL_UPDATE</a> structure to define which event the <b>DS_REPSYNCALL_UPDATE</b> structure represents.
 
 
 ## -enum-fields
@@ -60,22 +60,22 @@ The <b>DS_REPSYNCALL_EVENT</b> enumeration is used with the <a href="https://msd
 
 ### -field DS_REPSYNCALL_EVENT_ERROR
 
-An error occurred. Error data is stored in the <b>pErrInfo</b> member of the <a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a> structure.
+An error occurred. Error data is stored in the <b>pErrInfo</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms676282(v=VS.85).aspx">DS_REPSYNCALL_UPDATE</a> structure.
 
 
 ### -field DS_REPSYNCALL_EVENT_SYNC_STARTED
 
-Synchronization of two servers has started. Both the <b>pErrInfo</b> and <b>pSync</b> members of the <a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a> structure are <b>NULL</b>.
+Synchronization of two servers has started. Both the <b>pErrInfo</b> and <b>pSync</b> members of the <a href="https://msdn.microsoft.com/en-us/library/ms676282(v=VS.85).aspx">DS_REPSYNCALL_UPDATE</a> structure are <b>NULL</b>.
 
 
 ### -field DS_REPSYNCALL_EVENT_SYNC_COMPLETED
 
-Synchronization of two servers has just finished. The servers involved in the synchronization are identified by the <b>pSync</b> member of the <a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a> structure. The <b>pErrInfo</b> member of the <b>DS_REPSYNCALL_UPDATE</b> structure is <b>NULL</b>.
+Synchronization of two servers has just finished. The servers involved in the synchronization are identified by the <b>pSync</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms676282(v=VS.85).aspx">DS_REPSYNCALL_UPDATE</a> structure. The <b>pErrInfo</b> member of the <b>DS_REPSYNCALL_UPDATE</b> structure is <b>NULL</b>.
 
 
 ### -field DS_REPSYNCALL_EVENT_FINISHED
 
-Execution of <a href="https://msdn.microsoft.com/2608adde-4f18-4048-a96f-d736ff09cd4b">DsReplicaSyncAll</a> is complete. Both the <b>pErrInfo</b> and <b>pSync</b> members of the <a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a> structure are <b>NULL</b>. The return value of the callback function is ignored.
+Execution of <a href="https://msdn.microsoft.com/2608adde-4f18-4048-a96f-d736ff09cd4b">DsReplicaSyncAll</a> is complete. Both the <b>pErrInfo</b> and <b>pSync</b> members of the <a href="https://msdn.microsoft.com/en-us/library/ms676282(v=VS.85).aspx">DS_REPSYNCALL_UPDATE</a> structure are <b>NULL</b>. The return value of the callback function is ignored.
 
 
 ## -see-also
@@ -83,7 +83,7 @@ Execution of <a href="https://msdn.microsoft.com/2608adde-4f18-4048-a96f-d736ff0
 
 
 
-<a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676282(v=VS.85).aspx">DS_REPSYNCALL_UPDATE</a>
  
 
  

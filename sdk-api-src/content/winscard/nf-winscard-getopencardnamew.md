@@ -65,7 +65,7 @@ The <b>GetOpenCardName</b> function displays the <a href="https://msdn.microsoft
 ### -param Arg1 [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/b409a6fc-2cfd-491e-8f4c-f8567df7b08f">OPENCARDNAME</a> structure for the "select card" dialog box.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378814(v=VS.85).aspx">OPENCARDNAME</a> structure for the "select card" dialog box.
 
 
 ## -returns
@@ -116,7 +116,7 @@ An error code. For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/b409a6fc-2cfd-491e-8f4c-f8567df7b08f">OPENCARDNAME</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378814(v=VS.85).aspx">OPENCARDNAME</a>
  
 
  

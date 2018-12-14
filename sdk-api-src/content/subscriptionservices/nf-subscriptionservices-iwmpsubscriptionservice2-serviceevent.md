@@ -65,7 +65,7 @@ The <b>serviceEvent</b> method is called when the online store is activated or d
 
 ### -param event [in]
 
-A <a href="https://msdn.microsoft.com/9d04e534-083b-4227-82aa-4f7e50a492df">WMPSubscriptionServiceEvent</a> enumeration value indicating whether the service is activated or deactivated.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd564890(v=VS.85).aspx">WMPSubscriptionServiceEvent</a> enumeration value indicating whether the service is activated or deactivated.
 
 
 ## -returns
@@ -110,11 +110,11 @@ Your code should not perform lengthy operations synchronously when Windows Media
 
 
 
-<a href="https://msdn.microsoft.com/5338a3c1-c44a-4c03-a21a-6cd5cfeef064">IWMPSubscriptionService2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563698(v=VS.85).aspx">IWMPSubscriptionService2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d04e534-083b-4227-82aa-4f7e50a492df">WMPSubscriptionServiceEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564890(v=VS.85).aspx">WMPSubscriptionServiceEvent</a>
  
 
  

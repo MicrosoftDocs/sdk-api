@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-You can use the <b>IFaxJob::get_JobId</b> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <a href="https://msdn.microsoft.com/45ba0af1-25cc-4020-ae5c-355e318a63bf">IFaxJob::get_DisplayName</a> property. Note that the fax job identifier can be different from the identifier of a fax print job.
+You can use the <b>IFaxJob::get_JobId</b> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <a href="https://msdn.microsoft.com/en-us/library/ms692370(v=VS.85).aspx">IFaxJob::get_DisplayName</a> property. Note that the fax job identifier can be different from the identifier of a fax print job.
 
 
 
@@ -85,7 +85,7 @@ You can use the <b>IFaxJob::get_JobId</b> property to uniquely identify a fax jo
 
 
 
-<a href="https://msdn.microsoft.com/45ba0af1-25cc-4020-ae5c-355e318a63bf">IFaxJob::get_DisplayName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692370(v=VS.85).aspx">IFaxJob::get_DisplayName</a>
 
 
 

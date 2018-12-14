@@ -163,7 +163,7 @@ Success.
 
 
 
-After you call this method, you can either conform to the current format or attempt to change the format by calling the <a href="https://msdn.microsoft.com/465b4f0c-40e1-4aec-be62-0b55c29fa05e">IDirectDrawMediaStream::SetFormat</a> method.
+After you call this method, you can either conform to the current format or attempt to change the format by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd406812(v=VS.85).aspx">IDirectDrawMediaStream::SetFormat</a> method.
 
 All of this method's parameters are optional; set any of them to <b>NULL</b> to indicate that you don't want to retrieve that information.
 
@@ -181,7 +181,7 @@ The DDSD_CAPS flag will return one of the values listed in the <b>DDSCAPS</b> st
 
 
 
-<a href="https://msdn.microsoft.com/858af0c3-9e22-45d8-ab08-307eb39a8977">IDirectDrawMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406806(v=VS.85).aspx">IDirectDrawMediaStream Interface</a>
  
 
  

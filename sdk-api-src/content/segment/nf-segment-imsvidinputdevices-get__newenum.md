@@ -119,7 +119,7 @@ NULL pointer argument.
 
 This method is provided so that Automation clients can iterate through the collection using a <code>For...Each</code> loop.
 
-The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread. (C++ applications should generally use the <a href="https://msdn.microsoft.com/4d8b2d88-e591-4280-966b-9c23f05d55f9">IMSVidInputDevices::get_Item</a> method instead.)
+The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread. (C++ applications should generally use the <a href="https://msdn.microsoft.com/en-us/library/Dd694573(v=VS.85).aspx">IMSVidInputDevices::get_Item</a> method instead.)
 
 If the method succeeds, the <b>IEnumVARIANT</b> interface has an outstanding reference count. The caller must release the interface.
 

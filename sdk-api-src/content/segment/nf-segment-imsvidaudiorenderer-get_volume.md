@@ -88,7 +88,7 @@ Full volume is 0 and silence is –10,000. Divide by 100 to get the equivalent d
 
 
 
-<a href="https://msdn.microsoft.com/3258da5a-ab44-4c8a-813b-79a0c28693a3">IBasicAudio::get_Volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389535(v=VS.85).aspx">IBasicAudio::get_Volume</a>
 
 
 
@@ -96,7 +96,7 @@ Full volume is 0 and silence is –10,000. Divide by 100 to get the equivalent d
 
 
 
-<a href="https://msdn.microsoft.com/a0fa96bb-a903-41e1-bd2a-6ef1733adbd4">IMSVidAudioRenderer::put_Volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694465(v=VS.85).aspx">IMSVidAudioRenderer::put_Volume</a>
  
 
  

@@ -2,7 +2,7 @@
 UID: NA:tapi3ds
 ms.assetid: 5994c4b2-a026-3192-a48c-739747588690
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

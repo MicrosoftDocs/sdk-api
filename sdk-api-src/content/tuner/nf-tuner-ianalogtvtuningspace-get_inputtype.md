@@ -63,7 +63,7 @@ The <b>get_InputType</b> method gets the input type (antenna or cable) intended 
 
 ### -param InputTypeVal [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/e25ec8e2-6d94-4059-a34e-a9e7887582fb">TunerInputType</a> that receives the input type.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd407232(v=VS.85).aspx">TunerInputType</a> that receives the input type.
 
 
 ## -returns

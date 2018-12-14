@@ -1,11 +1,12 @@
 {
   "tech": "multimedia",
   "headers": [
-    "objbase.h",
+    "combaseapi.h",
     "mmreg.h",
     "mmsystem.h",
     "digitalv.h",
     "msacm.h",
+    "mmeapi.h",
     "vfw.h",
     "joystickapi.h",
     "mmddk.h",
@@ -13,7 +14,6 @@
     "timeapi.h",
     "mciapi.h",
     "vcr.h",
-    "mmeapi.h",
     "minwindef.h",
     "corecrt_io.h"
   ],

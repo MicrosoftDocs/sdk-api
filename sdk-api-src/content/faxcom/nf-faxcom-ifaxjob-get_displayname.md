@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-You can use the <a href="https://msdn.microsoft.com/81e6f533-1d92-4bb6-b69e-033e2ac0a0b4">IFaxJob::get_JobId</a> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <b>IFaxJob::get_DisplayName</b> property.
+You can use the <a href="https://msdn.microsoft.com/en-us/library/ms690870(v=VS.85).aspx">IFaxJob::get_JobId</a> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <b>IFaxJob::get_DisplayName</b> property.
 
 <b>IFaxJob::get_DisplayName</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -89,7 +89,7 @@ You can use the <a href="https://msdn.microsoft.com/81e6f533-1d92-4bb6-b69e-033e
 
 
 
-<a href="https://msdn.microsoft.com/81e6f533-1d92-4bb6-b69e-033e2ac0a0b4">IFaxJob::get_JobId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690870(v=VS.85).aspx">IFaxJob::get_JobId</a>
 
 
 

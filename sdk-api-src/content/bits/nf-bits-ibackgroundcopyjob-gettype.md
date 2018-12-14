@@ -61,7 +61,7 @@ Retrieves the type of transfer being performed, such as a file download or uploa
 ### -param pVal [out]
 
 Type of transfer being performed. For a list of transfer types, see the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362811(v=VS.85).aspx">BG_JOB_TYPE</a> enumeration.
+<a href="https://msdn.microsoft.com/b341a63f-3a1d-4518-8f05-17d28af603b4">BG_JOB_TYPE</a> enumeration.
 
 
 ## -returns
@@ -108,7 +108,7 @@ The <i>pJobType</i> parameter cannot be <b>NULL</b>.
 
 
 Specify the type of transfer when you 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">create the job</a>.
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">create the job</a>.
 
 
 
@@ -118,11 +118,11 @@ Specify the type of transfer when you
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362811(v=VS.85).aspx">BG_JOB_TYPE</a>
+<a href="https://msdn.microsoft.com/b341a63f-3a1d-4518-8f05-17d28af603b4">BG_JOB_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">IBackgroundCopyManager::CreateJob</a>
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a>
  
 
  

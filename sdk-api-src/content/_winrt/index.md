@@ -2,7 +2,7 @@
 UID: TP:winrt
 ms.assetid: 19ccb9a3-b0f9-3246-95d5-0d1c2650a2d5
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -25,12 +25,12 @@ To develop Windows Runtime C++ reference, you need these headers:
  * [hstring.h](../hstring/index.md)
  * [inputpaneinterop.h](../inputpaneinterop/index.md)
  * [inspectable.h](../inspectable/index.md)
+ * [memorybuffer.h](../memorybuffer/index.md)
  * [playtomanagerinterop.h](../playtomanagerinterop/index.md)
  * [printmanagerinterop.h](../printmanagerinterop/index.md)
  * [remotesystemadditionalinfo.h](../remotesystemadditionalinfo/index.md)
  * [restrictederrorinfo.h](../restrictederrorinfo/index.md)
  * [robuffer.h](../robuffer/index.md)
- * [roerrorapi.h](../roerrorapi/index.md)
  * [rometadata.h](../rometadata/index.md)
  * [rometadataapi.h](../rometadataapi/index.md)
  * [rometadataresolution.h](../rometadataresolution/index.md)

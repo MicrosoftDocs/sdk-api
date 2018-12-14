@@ -114,11 +114,11 @@ The element name specified can be any HTML element in the webpage as long as it 
 
 
 
-<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/46736a28-e05d-404c-8bad-a51ac58435f0">IWMPClosedCaption::put_captioningId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563125(v=VS.85).aspx">IWMPClosedCaption::put_captioningId</a>
  
 
  

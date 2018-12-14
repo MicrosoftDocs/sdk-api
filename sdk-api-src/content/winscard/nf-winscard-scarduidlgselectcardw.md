@@ -63,7 +63,7 @@ The <b>SCardUIDlgSelectCard</b> function displays the <a href="https://msdn.micr
 ### -param Arg1 [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/fb9e64a9-441a-4c7b-b404-79682778c694">OPENCARDNAME_EX</a> structure for the <b>Select Card</b> dialog box.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378815(v=VS.85).aspx">OPENCARDNAME_EX</a> structure for the <b>Select Card</b> dialog box.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If the function fails, it returns an error code. For more information, see
 
 
 
-The <b>SCardUIDlgSelectCard</b> function provides a method for connecting to a specific <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>. When called, this function performs a search for appropriate smart cards matching the <a href="https://msdn.microsoft.com/f20874ca-a714-45b7-abcb-85bedc4e6245">OPENCARD_SEARCH_CRITERIA</a> member specified by the <i>pDlgStruc</i> parameter. Depending on the <b>dwFlags</b> member of <b>pDlgStruc</b>, this function takes the following actions.
+The <b>SCardUIDlgSelectCard</b> function provides a method for connecting to a specific <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>. When called, this function performs a search for appropriate smart cards matching the <a href="https://msdn.microsoft.com/en-us/library/Aa378816(v=VS.85).aspx">OPENCARD_SEARCH_CRITERIA</a> member specified by the <i>pDlgStruc</i> parameter. Depending on the <b>dwFlags</b> member of <b>pDlgStruc</b>, this function takes the following actions.
 
 <table>
 <tr>
@@ -186,7 +186,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/fb9e64a9-441a-4c7b-b404-79682778c694">OPENCARDNAME_EX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378815(v=VS.85).aspx">OPENCARDNAME_EX</a>
  
 
  

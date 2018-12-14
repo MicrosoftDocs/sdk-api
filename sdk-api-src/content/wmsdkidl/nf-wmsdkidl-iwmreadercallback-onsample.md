@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>OnSample</b> method is called during the reading of a file (due to a <a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">Start</a> call) indicating that new data is available.
+The <b>OnSample</b> method is called during the reading of a file (due to a <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">Start</a> call) indicating that new data is available.
 
 
 
@@ -73,7 +73,7 @@ The <b>OnSample</b> method is called during the reading of a file (due to a <a h
 
 ### -param cnsSampleDuration [in]
 
-<b>QWORD</b> containing the sample duration, in 100-nanosecond units. For video streams, if the SampleDuration data unit extension was set on this sample when the file was created, then this parameter will contain that value. For more information on SampleDuration , see <a href="https://msdn.microsoft.com/b7733df5-f764-4996-b324-fa050b1db0af">INSSBuffer3::GetProperty</a>.
+<b>QWORD</b> containing the sample duration, in 100-nanosecond units. For video streams, if the SampleDuration data unit extension was set on this sample when the file was created, then this parameter will contain that value. For more information on SampleDuration , see <a href="https://msdn.microsoft.com/en-us/library/Dd743254(v=VS.85).aspx">INSSBuffer3::GetProperty</a>.
 
 
 ### -param dwFlags [in]
@@ -109,12 +109,12 @@ The flags that can be specified in <i>dwFlags</i> have the following uses.
 
 ### -param pSample [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface of an object containing the sample. The reader calls <b>SAFE_RELEASE</b> on this pointer after your <b>OnSample</b> method returns. You can call <b>AddRef</b> on this pointer if you need to keep a reference count on the buffer. Do not call <b>Release</b> on this pointer unless you have called <b>AddRef</b>.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface of an object containing the sample. The reader calls <b>SAFE_RELEASE</b> on this pointer after your <b>OnSample</b> method returns. You can call <b>AddRef</b> on this pointer if you need to keep a reference count on the buffer. Do not call <b>Release</b> on this pointer unless you have called <b>AddRef</b>.
 
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This pointer is the context pointer given to the <a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">IWMReader::Start</a> method.
+Generic pointer, for use by the application. This pointer is the context pointer given to the <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a> method.
 
 
 ## -returns
@@ -130,7 +130,7 @@ To use this method, you must implement it in your application. The method should
 
 
 
-This method is for receipt of uncompressed samples by output number only. If you need to receive samples for multiple streams in a single output (as in the case of mutually exclusive streams), you must use <a href="https://msdn.microsoft.com/6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8">IWMReaderCallbackAdvanced::OnStreamSample</a>. In this case, you will receive compressed samples. There is no way to use the reader to receive uncompressed samples by stream number.
+This method is for receipt of uncompressed samples by output number only. If you need to receive samples for multiple streams in a single output (as in the case of mutually exclusive streams), you must use <a href="https://msdn.microsoft.com/en-us/library/Dd743500(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnStreamSample</a>. In this case, you will receive compressed samples. There is no way to use the reader to receive uncompressed samples by stream number.
 
 
 
@@ -140,7 +140,7 @@ This method is for receipt of uncompressed samples by output number only. If you
 
 
 
-<a href="https://msdn.microsoft.com/69b897a8-cc26-445d-9d41-b917b399fb14">IWMReaderCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback Interface</a>
  
 
  

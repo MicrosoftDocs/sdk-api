@@ -101,7 +101,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </td>
 <td width="60%">
 The channel is not in the WS_CHANNEL_STATE_OPEN or  WS_CHANNEL_STATE_FAULTED state.
-                (For channel states, see the <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE</a> enumeration.)
+                (For channel states, see the <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE</a> enumeration.)
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ For read operations, an application typically calls <b>WsAbandonMessage</b> when
                 generated an error while reading the message.  
 
 If the channel is streamed 
-                (see the WS_STREAMED_INPUT_TRANSFER_MODE value of the <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_TRANSFER_MODE</a> enumeration),  the remainder of the 
+                (see the WS_STREAMED_INPUT_TRANSFER_MODE value of the <a href="https://msdn.microsoft.com/en-us/library/Dd323477(v=VS.85).aspx">WS_TRANSFER_MODE</a> enumeration),  the remainder of the 
                 streamed message data is read and automatically discarded with the next call to 
                 <a href="https://msdn.microsoft.com/e4f92e99-f272-47b5-8eaa-56713b22df7e">WsReadMessageStart</a> or <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a> for the 
                 channel.  If the channel is not streamed, the unread buffered message data 
@@ -152,7 +152,7 @@ If the channel is streamed
 For write operations, an application typically calls <b>WsAbandonMessage</b> when the application cannot continue writing the message because it has encountered some error, such as one returned by the <a href="https://msdn.microsoft.com/69d50793-1d5b-4fc7-bf69-128f8e23a98d">XML writer</a>, or must stop generating the message for some other reason.  
 
 If the 
-                channel is streamed (see the WS_STREAMED_INPUT_TRANSFER_MODE value of the <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_TRANSFER_MODE</a> enumeration), the message data will be truncated and may result in errors when read by the 
+                channel is streamed (see the WS_STREAMED_INPUT_TRANSFER_MODE value of the <a href="https://msdn.microsoft.com/en-us/library/Dd323477(v=VS.85).aspx">WS_TRANSFER_MODE</a> enumeration), the message data will be truncated and may result in errors when read by the 
                 remote party.  If the channel is not streamed,  the buffered data for the 
                 message is simply  discarded (since it was never transmitted).
             
@@ -169,7 +169,7 @@ This function does not perform any blocking I/O.
 
 This function is only valid when the channel is in the WS_CHANNEL_STATE_OPEN 
                  or WS_CHANNEL_STATE_FAULTED states.
-            (For channel states, see the <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE</a> enumeration.)
+            (For channel states, see the <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE</a> enumeration.)
 
 The message specified must be the current message being read or the current message being written
                 for the specified channel.

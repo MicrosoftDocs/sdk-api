@@ -2,7 +2,7 @@
 UID: NA:vsprov
 ms.assetid: 68baf870-49c1-3fa2-94a4-bc343ab5df48
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

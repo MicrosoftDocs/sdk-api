@@ -161,7 +161,7 @@ This method is called to enable logging of certain ASX events when an ASX file c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564667(v=VS.85).aspx">Windows Media Metafiles Overview</a>
+<a href="https://msdn.microsoft.com/5b7742c0-f416-4bf4-ae03-9554b51fe620">Windows Media Metafiles Overview</a>
  
 
  

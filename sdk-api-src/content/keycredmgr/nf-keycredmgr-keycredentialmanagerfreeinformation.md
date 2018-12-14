@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-API to free the <a href="security.keycredentialmanagerinfo">KeyCredentialManagerInfo</a> pointer variable from the <a href="security.keycredentialmanagergetinformation">KeyCredentialManagerGetInformation</a> call.
+API to free the <a href="https://msdn.microsoft.com/en-us/library/Mt830289(v=VS.85).aspx">KeyCredentialManagerInfo</a> pointer variable from the <a href="https://msdn.microsoft.com/en-us/library/Mt830287(v=VS.85).aspx">KeyCredentialManagerGetInformation</a> call.
 
 
 ## -parameters
@@ -61,5 +61,5 @@ API to free the <a href="security.keycredentialmanagerinfo">KeyCredentialManager
 
 ### -param keyCredentialManagerInfo [in]
 
-Pointer variable to <a href="security.keycredentialmanagerinfo">KeyCredentialManagerInfo</a> data structure returned by the <a href="security.keycredentialmanagergetinformation">KeyCredentialManagerGetInformation</a> API.
+Pointer variable to <a href="https://msdn.microsoft.com/en-us/library/Mt830289(v=VS.85).aspx">KeyCredentialManagerInfo</a> data structure returned by the <a href="https://msdn.microsoft.com/en-us/library/Mt830287(v=VS.85).aspx">KeyCredentialManagerGetInformation</a> API.
 

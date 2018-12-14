@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="https://msdn.microsoft.com/f08a449c-fed4-400b-a2fc-817bd59ba3fd">VIDEOINFO</a> structure with zeroes.
+The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structure with zeroes.
 
 
 
@@ -63,7 +63,7 @@ The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="htt
 
 ### -param pbmi
 
-Pointer to a <a href="https://msdn.microsoft.com/f08a449c-fed4-400b-a2fc-817bd59ba3fd">VIDEOINFO</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structure.
 
 
 ## -see-also

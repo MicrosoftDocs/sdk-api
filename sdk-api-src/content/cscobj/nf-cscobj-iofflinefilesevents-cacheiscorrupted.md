@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_cacheiscorrupted.htm
 tech.root: offlinefiles
 ms.assetid: d76d9af4-bfc4-4584-b014-31a62a2894cf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CacheIsCorrupted, CacheIsCorrupted method [Offline Files], CacheIsCorrupted method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheIsCorrupted method, IOfflineFilesEvents.CacheIsCorrupted, IOfflineFilesEvents::CacheIsCorrupted, cscobj/IOfflineFilesEvents::CacheIsCorrupted, of.iofflinefilesevents_cacheiscorrupted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

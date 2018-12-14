@@ -1,0 +1,83 @@
+---
+UID: NN:d3d10.ID3D10VertexShader
+title: ID3D10VertexShader
+author: windows-sdk-content
+description: A vertex-shader interface manages an executable program (a vertex shader) that controls the vertex-shader stage.
+old-location: direct3d10\id3d10vertexshader.htm
+tech.root: direct3d10
+ms.assetid: VS|directx_sdk|~\id3d10vertexshader.htm
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: 1037a0d0-ff92-5834-5b3b-282125a9ccca, ID3D10VertexShader, ID3D10VertexShader interface [Direct3D 10], ID3D10VertexShader interface [Direct3D 10],described, d3d10/ID3D10VertexShader, direct3d10.id3d10vertexshader
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: interface
+req.header: d3d10.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10VertexShader
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# ID3D10VertexShader interface
+
+
+## -description
+
+
+A vertex-shader interface manages an executable program (a vertex shader) that controls the <a href="https://msdn.microsoft.com/library/Bb205146(v=VS.85).aspx">vertex-shader stage</a>.
+
+
+## -remarks
+
+
+
+The vertex-shader interface has no methods; use HLSL to implement your shader functionality. All shaders in Direct3D 10 are implemented from a common set of features referred to as the <a href="https://msdn.microsoft.com/en-us/library/Bb509580(v=VS.85).aspx">common shader core</a>.
+
+To create a vertex shader interface, call <a href="https://msdn.microsoft.com/en-us/library/Bb173562(v=VS.85).aspx">ID3D10Device::CreateVertexShader</a>. Before using a vertex shader you must bind it to the device by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173628(v=VS.85).aspx">ID3D10Device::VSSetShader</a>.
+
+This interface is defined in D3D10.h.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/Bb205158(v=VS.85).aspx">Shader Interfaces</a>
+ 
+
+ 
+

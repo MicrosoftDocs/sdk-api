@@ -174,7 +174,7 @@ An unexpected exception occurred.
 
 
 This method does not actually remove the quota entry from the volume. It marks the entry for deletion. The NTFS file system performs the actual deletion at a later time. Following a call to <b>IDiskQuotaControl::DeleteUser</b>, the 
-<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface is still active. This method does not delete the user object from memory. To release the user object, call <a href="_com_iunknown_release">IUnknown::Release</a>.
+<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface is still active. This method does not delete the user object from memory. To release the user object, call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a>.
 
 
 

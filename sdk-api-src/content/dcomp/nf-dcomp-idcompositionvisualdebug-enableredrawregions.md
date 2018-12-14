@@ -83,15 +83,15 @@ Highlighting redraw regions can be enabled by calling <b>EnableRedrawRegions</b>
 
 
 
-<a href="https://msdn.microsoft.com/B8D17570-9729-45DB-99E1-A2EBBDAA5996">IDCompositionDeviceDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280378(v=VS.85).aspx">IDCompositionDeviceDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4">IDCompositionVisualDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280429(v=VS.85).aspx">IDCompositionVisualDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/5F1712D4-B3F4-475E-9AB0-868B1DCB8F42">IDCompositionVisualDebug::DisableRedrawRegions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280431(v=VS.85).aspx">IDCompositionVisualDebug::DisableRedrawRegions</a>
  
 
  

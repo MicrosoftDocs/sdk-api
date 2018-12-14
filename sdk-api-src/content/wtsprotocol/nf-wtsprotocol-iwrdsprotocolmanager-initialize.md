@@ -4,7 +4,7 @@ title: IWRdsProtocolManager::Initialize
 author: windows-sdk-content
 description: Initializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_initialize.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: c63c794c-41a0-4f07-be93-ba24dc156ca2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

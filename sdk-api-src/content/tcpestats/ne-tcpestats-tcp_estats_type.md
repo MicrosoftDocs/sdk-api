@@ -1,5 +1,5 @@
 ---
-UID: NE:tcpestats.TCP_ESTATS_TYPE
+UID: NE:tcpestats.__unnamed_enum_0
 title: TCP_ESTATS_TYPE
 author: windows-sdk-content
 description: Defines the type of extended statistics for a TCP connection that is requested or being set.
@@ -7,7 +7,7 @@ old-location: iphlp\tcp_estats_type.htm
 tech.root: IpHlp
 ms.assetid: 96f55528-e74a-4360-a7a2-54ba19c3a284
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTCP_ESTATS_TYPE, TCP_ESTATS_TYPE, TCP_ESTATS_TYPE enumeration [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsMaximum, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.tcp_estats_type, tcpestats/TCP_ESTATS_TYPE, tcpestats/TcpConnectionEstatsBandwidth, tcpestats/TcpConnectionEstatsData, tcpestats/TcpConnectionEstatsFineRtt, tcpestats/TcpConnectionEstatsMaximum, tcpestats/TcpConnectionEstatsObsRec, tcpestats/TcpConnectionEstatsPath, tcpestats/TcpConnectionEstatsRec, tcpestats/TcpConnectionEstatsSendBuff, tcpestats/TcpConnectionEstatsSndCong, tcpestats/TcpConnectionEstatsSynOpts"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,7 +125,7 @@ Only read-only dynamic information and read/write information are available for 
 
 ### -field TcpConnectionEstatsMaximum
 
-The maximum possible value for the <a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a>_STATE enumeration type. This is not a legal value for the possible type of extended statistics for a TCP connection.
+The maximum possible value for the <a href="https://msdn.microsoft.com/en-us/library/Bb427395(v=VS.85).aspx">TCP_ESTATS_TYPE</a>_STATE enumeration type. This is not a legal value for the possible type of extended statistics for a TCP connection.
 
 
 ## -remarks

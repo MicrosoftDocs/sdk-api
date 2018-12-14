@@ -70,9 +70,9 @@ Number of viewports to bind.
 
 ### -param pViewports [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn770454(v=VS.85).aspx">D3D12_VIEWPORT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Dn770454(v=VS.85).aspx">D3D12_VIEWPORT</a> structures to bind to the device.
+An array of <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a> structures to bind to the device.
           
 
 
@@ -96,13 +96,13 @@ All viewports must be set atomically as one operation. Any viewports not defined
 Which viewport to use is determined by the <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
         
 
-<div class="alert"><b>Note</b>  Even though you specify float values to the members of the <a href="https://msdn.microsoft.com/en-us/library/Dn770454(v=VS.85).aspx">D3D12_VIEWPORT</a> structure for the <i>pViewports</i> array in a call to  <b>RSSetViewports</b> for <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow.
+<div class="alert"><b>Note</b>  Even though you specify float values to the members of the <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a> structure for the <i>pViewports</i> array in a call to  <b>RSSetViewports</b> for <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow.
       </div>
 <div> </div>
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetViewports</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetViewports</b> as follows:
         
 
 
@@ -164,7 +164,7 @@ void D3D12HelloTriangle::PopulateCommandList()
 ```
 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -176,7 +176,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Ex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
  
 
  

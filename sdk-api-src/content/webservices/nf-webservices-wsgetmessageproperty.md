@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves a specified Message object  property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_ID</a> input parameter.
+Retrieves a specified Message object  property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_ID</a> input parameter.
             
 
 

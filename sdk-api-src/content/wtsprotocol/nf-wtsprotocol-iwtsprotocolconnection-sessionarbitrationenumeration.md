@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::SessionArbitrationEnumeration
 author: windows-sdk-content
 description: IWTSProtocolConnection::SessionArbitrationEnumeration is no longer available. Instead, use IWRdsProtocolConnection::SessionArbitrationEnumeration.
 old-location: termserv\iwtsprotocolconnection_sessionarbitrationenumeration.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 413d6df5-419f-4a68-bb91-dfec9f455b42
 ms.author: windowssdkdev
 ms.date: 12/5/2018

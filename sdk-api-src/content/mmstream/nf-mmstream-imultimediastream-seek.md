@@ -112,7 +112,7 @@ Success.
 
 
 
-To determine whether the media streams support seeking, call the <a href="https://msdn.microsoft.com/27be6104-9ca4-48d7-aeda-5b633460e252">IMultiMediaStream::GetInformation</a> method.
+To determine whether the media streams support seeking, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390329(v=VS.85).aspx">IMultiMediaStream::GetInformation</a> method.
 
 
 
@@ -122,7 +122,7 @@ To determine whether the media streams support seeking, call the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream Interface</a>
  
 
  

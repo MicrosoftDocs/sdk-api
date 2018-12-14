@@ -114,7 +114,7 @@ The <i>pdwMaxPacketSize</i> parameter is <b>NULL</b>.
 
 
 
-For more information, see the Remarks section of <a href="https://msdn.microsoft.com/a8230c08-e60f-454d-93a5-037685d6151c">SetMaxPacketSize</a>.
+For more information, see the Remarks section of <a href="https://msdn.microsoft.com/en-us/library/Dd757260(v=VS.85).aspx">SetMaxPacketSize</a>.
 
 
 
@@ -124,11 +124,11 @@ For more information, see the Remarks section of <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/002442fe-46de-49d9-8aff-ad7c9aabc8d1">IWMPacketSize Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757255(v=VS.85).aspx">IWMPacketSize Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4af4c088-9fc3-46a9-8451-518b11bc94e3">IWMPacketSize2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757256(v=VS.85).aspx">IWMPacketSize2</a>
  
 
  

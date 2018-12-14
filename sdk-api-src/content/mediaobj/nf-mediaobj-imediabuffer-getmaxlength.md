@@ -81,7 +81,7 @@ Returns S_OK if successful. Otherwise, returns an <b>HRESULT</b> value indicatin
 
 
 
-<a href="https://msdn.microsoft.com/74d72ca6-f899-43fc-bdea-5208d920f314">IMediaBuffer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390166(v=VS.85).aspx">IMediaBuffer Interface</a>
 
 
 

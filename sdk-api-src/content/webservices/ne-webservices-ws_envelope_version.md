@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_ENVELOPE_VERSION
+UID: NE:webservices.__unnamed_enum_45
 title: WS_ENVELOPE_VERSION
 author: windows-sdk-content
 description: The version of the specification used for the envelope structure.
@@ -7,7 +7,7 @@ old-location: wsw\ws_envelope_version.htm
 tech.root: wsw
 ms.assetid: 2a6f6148-d37d-4ac2-8fd0-409eae71a3d8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ENVELOPE_VERSION, WS_ENVELOPE_VERSION enumeration [Web Services for Windows], WS_ENVELOPE_VERSION_SOAP_1_1, WS_ENVELOPE_VERSION_SOAP_1_2, webservices/WS_ENVELOPE_VERSION, webservices/WS_ENVELOPE_VERSION_SOAP_1_1, webservices/WS_ENVELOPE_VERSION_SOAP_1_2, wsw.ws_envelope_version
 ms.prod: windows-hardware
 ms.technology: windows-devices

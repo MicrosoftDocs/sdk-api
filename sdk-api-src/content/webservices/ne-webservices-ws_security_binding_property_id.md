@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_SECURITY_BINDING_PROPERTY_ID
+UID: NE:webservices.__unnamed_enum_69
 title: WS_SECURITY_BINDING_PROPERTY_ID
 author: windows-sdk-content
 description: Identifies the properties used to specify security binding settings. Security binding settings are present in security bindingsthat are used, in turn, in a security description.
@@ -7,7 +7,7 @@ old-location: wsw\ws_security_binding_property_id.htm
 tech.root: wsw
 ms.assetid: 6c8b3277-3f49-469b-9783-c552a4c44558
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL, WS_SECURITY_BINDING_PROPERTY_ALLOW_ANONYMOUS_CLIENTS, WS_SECURITY_BINDING_PROPERTY_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE, WS_SECURITY_BINDING_PROPERTY_DISABLE_CERT_REVOCATION_CHECK, WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_BASIC_REALM, WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_DOMAIN, WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_REALM, WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME, WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET, WS_SECURITY_BINDING_PROPERTY_ID, WS_SECURITY_BINDING_PROPERTY_ID enumeration [Web Services for Windows], WS_SECURITY_BINDING_PROPERTY_MESSAGE_PROPERTIES, WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH, WS_SECURITY_BINDING_PROPERTY_REQUIRE_SSL_CLIENT_CERT, WS_SECURITY_BINDING_PROPERTY_SECURE_CONVERSATION_VERSION, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_ENTROPY_MODE, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_SIZE, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_MAX_ACTIVE_CONTEXTS, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_MAX_PENDING_CONTEXTS, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_RENEWAL_INTERVAL, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_ROLLOVER_INTERVAL, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_SUPPORT_RENEW, WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE, webservices/WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL, webservices/WS_SECURITY_BINDING_PROPERTY_ALLOW_ANONYMOUS_CLIENTS, webservices/WS_SECURITY_BINDING_PROPERTY_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, webservices/WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE, webservices/WS_SECURITY_BINDING_PROPERTY_DISABLE_CERT_REVOCATION_CHECK, webservices/WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_BASIC_REALM, webservices/WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_DOMAIN, webservices/WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_REALM, webservices/WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME, webservices/WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET, webservices/WS_SECURITY_BINDING_PROPERTY_ID, webservices/WS_SECURITY_BINDING_PROPERTY_MESSAGE_PROPERTIES, webservices/WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH, webservices/WS_SECURITY_BINDING_PROPERTY_REQUIRE_SSL_CLIENT_CERT, webservices/WS_SECURITY_BINDING_PROPERTY_SECURE_CONVERSATION_VERSION, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_ENTROPY_MODE, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_SIZE, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_MAX_ACTIVE_CONTEXTS, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_MAX_PENDING_CONTEXTS, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_RENEWAL_INTERVAL, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_ROLLOVER_INTERVAL, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_SUPPORT_RENEW, webservices/WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE, wsw.ws_security_binding_property_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,7 @@ Identifies the properties used to specify security
 
 This enumeration is used within the <a href="https://msdn.microsoft.com/f2790fd7-6f51-45a5-b2b6-e5aaaaca9660">WS_SECURITY_BINDING_PROPERTY</a> structure, which in turn is used in a <a href="https://msdn.microsoft.com/6c0663e8-ae73-41a2-9273-50f53534926b">WS_SECURITY_BINDING</a> structure. Not all values are applicable to all security bindings. Please see the individual descriptions for a list of security bindings that support the respective property.
 
-Note that the related enum <a href="https://msdn.microsoft.com/d5ba0170-2345-4144-9a60-25c0e638a283">WS_SECURITY_TOKEN_PROPERTY_ID</a>defines the keys for extracting fields from a security token instance.
+Note that the related enum <a href="https://msdn.microsoft.com/en-us/library/Dd323412(v=VS.85).aspx">WS_SECURITY_TOKEN_PROPERTY_ID</a>defines the keys for extracting fields from a security token instance.
 Thus, <a href="https://msdn.microsoft.com/f2790fd7-6f51-45a5-b2b6-e5aaaaca9660">WS_SECURITY_BINDING_PROPERTY</a> enables specifying security binding
 settings at channel / listener creation time to influence how a
 security token is created and used, whereas <b>WS_SECURITY_TOKEN_PROPERTY_ID</b>enables extracting fields out of a security token -- typically a
@@ -84,7 +84,7 @@ server-side <a href="https://msdn.microsoft.com/078efc1d-a1bc-4035-919c-f927a8ce
 
 ### -field WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE
 
-A <a href="https://msdn.microsoft.com/7aa0bbf3-afc0-4deb-9cb3-62e297dd8702">WS_WINDOWS_INTEGRATED_AUTH_PACKAGE</a> value that specifies the specific SSP package (among Kerberos, NTLM, SPNEGO) to be used
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323508(v=VS.85).aspx">WS_WINDOWS_INTEGRATED_AUTH_PACKAGE</a> value that specifies the specific SSP package (among Kerberos, NTLM, SPNEGO) to be used
 when performing Windows Integrated Authentication.  The default is <b>WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO</b>.
                 
 
@@ -196,7 +196,7 @@ This setting may be specified in the security binding properties of <a href="htt
 
 ### -field WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET
 
-A <a href="https://msdn.microsoft.com/d8e9b1b9-70b7-41b3-bbf0-7cd04ebabf55">WS_HTTP_HEADER_AUTH_TARGET</a> value that specifies the HTTP header authentication target to use. This property can be specified 
+A <a href="https://msdn.microsoft.com/en-us/library/Dd401912(v=VS.85).aspx">WS_HTTP_HEADER_AUTH_TARGET</a> value that specifies the HTTP header authentication target to use. This property can be specified 
 on the client side to indicate whether the http header authentication security binding 
 is for the target server or the proxy server. Default value is <b>WS_HTTP_HEADER_AUTH_TARGET_SERVICE</b>.
                 
@@ -247,7 +247,7 @@ issuer.  If unspecified, the issuer decides the size. May be used with the <a hr
 
 ### -field WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_ENTROPY_MODE
 
-A <a href="https://msdn.microsoft.com/dd6bca9a-e47b-46b3-b9ac-23aecb101337">WS_SECURITY_KEY_ENTROPY_MODE</a> value that specifies how entropy contributes to the key in issued symmetric key
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323402(v=VS.85).aspx">WS_SECURITY_KEY_ENTROPY_MODE</a> value that specifies how entropy contributes to the key in issued symmetric key
 tokens.  The default is <b>WS_SECURITY_KEY_ENTROPY_MODE_COMBINED</b>. 
 This setting may be specified in the security binding properties of the <a href="https://msdn.microsoft.com/c7f45f44-25e9-4124-a0a2-eb9969f0eb99">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> structure.
                 
@@ -280,7 +280,7 @@ A <b>ULONG</b> that specifies the maximum number of active security contexts on 
 
 ### -field WS_SECURITY_BINDING_PROPERTY_SECURE_CONVERSATION_VERSION
 
-A <a href="https://msdn.microsoft.com/17c21a3a-1cb5-4174-8300-a5c3d87e3e0f">WS_SECURE_CONVERSATION_VERSION</a> value that specifies the version of WS-SecureConversation to use. The default is <b>WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</b>.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323374(v=VS.85).aspx">WS_SECURE_CONVERSATION_VERSION</a> value that specifies the version of WS-SecureConversation to use. The default is <b>WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</b>.
             This setting may be specified in the security binding properties of the <a href="https://msdn.microsoft.com/c7f45f44-25e9-4124-a0a2-eb9969f0eb99">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> structure.
           
 

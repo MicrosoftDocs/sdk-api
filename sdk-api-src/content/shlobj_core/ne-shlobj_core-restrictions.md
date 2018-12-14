@@ -450,7 +450,7 @@ If nonzero, the system administrator has disabled the ability to encrypt and dec
 
 ### -field REST_DONTSHOWSUPERHIDDEN
 
-If nonzero, the system administrator has disabled the ability to view files marked System and Hidden ("super-hidden files"), overriding the <b>fShowSuperHidden</b> member of the <a href="https://msdn.microsoft.com/a5ba0e9f-d164-4fe6-97ab-34d61289ce1c">SHELLSTATE</a> structure. Applications should not show files that have both the FILE_ATTRIBUTE_SYSTEM and FILE_ATTRIBUTE_HIDDEN attributes to the user.
+If nonzero, the system administrator has disabled the ability to view files marked System and Hidden ("super-hidden files"), overriding the <b>fShowSuperHidden</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb759788(v=VS.85).aspx">SHELLSTATE</a> structure. Applications should not show files that have both the FILE_ATTRIBUTE_SYSTEM and FILE_ATTRIBUTE_HIDDEN attributes to the user.
 
 
 ### -field REST_NOSHELLSEARCHBUTTON

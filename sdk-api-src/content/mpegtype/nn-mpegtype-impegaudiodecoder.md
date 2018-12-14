@@ -54,7 +54,7 @@ req.redist:
 
 The <code>IMpegAudioDecoder</code> interface is exposed on the <a href="https://msdn.microsoft.com/2f695ac6-7d4b-41a8-b4c5-83fb9d20ab9d">MPEG-1 Audio Decoder</a> filter and it enables applications to control decoding parameters. Most of these methods are useful only when an application is running on an older system and needs to sacrifice quality to increase performance. The default values provide the optimal decoding quality.
 
-The two methods that are still useful in some scenarios are <a href="https://msdn.microsoft.com/3b536e8c-91eb-4c32-955f-b343f2c8e16f">get_DualMode</a> and <a href="https://msdn.microsoft.com/b183f669-14bf-44d4-a17d-09cbc593309d">put_DualMode</a>. These methods enable applications to access either the right or left channel in VCD-based karaoke discs.
+The two methods that are still useful in some scenarios are <a href="https://msdn.microsoft.com/en-us/library/Dd376670(v=VS.85).aspx">get_DualMode</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd376676(v=VS.85).aspx">put_DualMode</a>. These methods enable applications to access either the right or left channel in VCD-based karaoke discs.
 
 
 
@@ -76,7 +76,7 @@ The <b>IMpegAudioDecoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7634504-d3f5-46a9-be25-08293190c27b">get_AudioFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376657(v=VS.85).aspx">get_AudioFormat</a>
 </td>
 <td align="left" width="63%">
 Returns the audio format of the connected input pin.
@@ -85,7 +85,7 @@ Returns the audio format of the connected input pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b0776f2-4340-4ebc-9d28-a2a2c2a4571e">get_DecoderAccuracy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376658(v=VS.85).aspx">get_DecoderAccuracy</a>
 </td>
 <td align="left" width="63%">
 Returns the decoder accuracy as a three-level quality setting.
@@ -94,7 +94,7 @@ Returns the decoder accuracy as a three-level quality setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92528359-cdbf-4490-badd-1ad20643ec1a">get_DecoderWordSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376659(v=VS.85).aspx">get_DecoderWordSize</a>
 </td>
 <td align="left" width="63%">
 Returns the word size used to decode, either eight or 16 bit.
@@ -103,7 +103,7 @@ Returns the word size used to decode, either eight or 16 bit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b536e8c-91eb-4c32-955f-b343f2c8e16f">get_DualMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376670(v=VS.85).aspx">get_DualMode</a>
 </td>
 <td align="left" width="63%">
 Returns which channel is currently being decoded.
@@ -112,7 +112,7 @@ Returns which channel is currently being decoded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b9b2a3f-2495-4da3-8a09-2ba31538bdb0">get_FrequencyDivider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376671(v=VS.85).aspx">get_FrequencyDivider</a>
 </td>
 <td align="left" width="63%">
 Returns the frequency divider as a quality setting equal to CD Audio, FM Radio, or AM Radio.
@@ -121,7 +121,7 @@ Returns the frequency divider as a quality setting equal to CD Audio, FM Radio, 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3cb73c5a-8bca-4dc3-a48c-cac57f3d7fbf">get_IntegerDecode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376672(v=VS.85).aspx">get_IntegerDecode</a>
 </td>
 <td align="left" width="63%">
 Returns whether the decoder is currently using integer-based decoding as opposed to floating point decoding.
@@ -130,7 +130,7 @@ Returns whether the decoder is currently using integer-based decoding as opposed
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb2b4b26-7588-42fd-a915-c09d512cb152">get_Stereo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376673(v=VS.85).aspx">get_Stereo</a>
 </td>
 <td align="left" width="63%">
 Returns whether the decoder is decoding the encoded stream into stereo or mono PCM.
@@ -139,7 +139,7 @@ Returns whether the decoder is decoding the encoded stream into stereo or mono P
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fcacbbc-a3e4-4c7b-a9d0-1ecf6a3dca07">put_DecoderAccuracy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376674(v=VS.85).aspx">put_DecoderAccuracy</a>
 </td>
 <td align="left" width="63%">
 Specifies the quality as high, full or best.
@@ -148,7 +148,7 @@ Specifies the quality as high, full or best.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd5ea824-5ac7-44e3-b7db-636e1b350d4e">put_DecoderWordSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376675(v=VS.85).aspx">put_DecoderWordSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the word size used by the decoder.
@@ -157,7 +157,7 @@ Specifies the word size used by the decoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b183f669-14bf-44d4-a17d-09cbc593309d">put_DualMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376676(v=VS.85).aspx">put_DualMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the channel to be decoded.
@@ -166,7 +166,7 @@ Specifies the channel to be decoded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/96e5d8f3-b658-408d-a615-e681d8731442">put_FrequencyDivider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376677(v=VS.85).aspx">put_FrequencyDivider</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency divider as a three-level setting corresponding to the quality of CD Audio, FM Radio, or AM Radio.
@@ -175,7 +175,7 @@ Specifies the frequency divider as a three-level setting corresponding to the qu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a92fbcbf-0cd5-4c7a-bcde-a616a7d022bd">put_IntegerDecode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376678(v=VS.85).aspx">put_IntegerDecode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the decoder will use integer-based decoding.
@@ -184,7 +184,7 @@ Specifies whether the decoder will use integer-based decoding.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/238e33ba-f35c-423c-be5f-73d1ca14cebd">put_Stereo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376679(v=VS.85).aspx">put_Stereo</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the decoder will decode the encoded stream into stereo or mono PCM.

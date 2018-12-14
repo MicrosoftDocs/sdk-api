@@ -59,7 +59,7 @@ The <b>IWMSecureChannel</b> interface provides methods that allow two DLLs to va
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSecureChannel</b> interface inherits from <a href="https://msdn.microsoft.com/eece7e36-7c3e-4bc4-9b5a-8142a062dbce">IWMAuthorizer</a>. <b>IWMSecureChannel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSecureChannel</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd743287(v=VS.85).aspx">IWMAuthorizer</a>. <b>IWMSecureChannel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMSecureChannel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0e5fbd9e-1669-4e0e-90b6-1542cc6d2ae4">WMSC_AddCertificate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743706(v=VS.85).aspx">WMSC_AddCertificate</a>
 </td>
 <td align="left" width="63%">
 Adds certificates that this object can present to other securechannel objects.
@@ -85,7 +85,7 @@ Adds certificates that this object can present to other securechannel objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08fa8ec6-8832-4b5d-bb0d-0a7485ca63d3">WMSC_AddSignature</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743707(v=VS.85).aspx">WMSC_AddSignature</a>
 </td>
 <td align="left" width="63%">
     Adds signatures that this object will look for when trying to connect. 
@@ -95,7 +95,7 @@ Adds certificates that this object can present to other securechannel objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8386b23-6319-4687-9de2-a81e661a60e6">WMSC_Connect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743708(v=VS.85).aspx">WMSC_Connect</a>
 </td>
 <td align="left" width="63%">
 Initializes the secure connection.
@@ -104,7 +104,7 @@ Initializes the secure connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c477c1f9-0264-4d3f-8670-f0c52df9e6a6">WMSC_Decrypt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743709(v=VS.85).aspx">WMSC_Decrypt</a>
 </td>
 <td align="left" width="63%">
 Decrypts data across DLL boundaries.
@@ -113,7 +113,7 @@ Decrypts data across DLL boundaries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13956668-2fd3-45ac-a96c-7dfc5c8fcb26">WMSC_Disconnect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743710(v=VS.85).aspx">WMSC_Disconnect</a>
 </td>
 <td align="left" width="63%">
 Destroys the secure connection.
@@ -122,7 +122,7 @@ Destroys the secure connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fdb90fbc-9504-4b72-83ab-b410c3bd2e1e">WMSC_Encrypt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743711(v=VS.85).aspx">WMSC_Encrypt</a>
 </td>
 <td align="left" width="63%">
 Encrypts data across DLL boundaries.
@@ -131,7 +131,7 @@ Encrypts data across DLL boundaries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ecc25c5-238e-4415-952e-7d830ba1c317">WMSC_GetValidCertificate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743712(v=VS.85).aspx">WMSC_GetValidCertificate</a>
 </td>
 <td align="left" width="63%">
  Returns a copy of the certificate that was used provided by the other side
@@ -142,7 +142,7 @@ Encrypts data across DLL boundaries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/162bb01f-ba64-4563-a257-28931190ac96">WMSC_IsConnected</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743713(v=VS.85).aspx">WMSC_IsConnected</a>
 </td>
 <td align="left" width="63%">
 Checks to see if the secure connection is valid.
@@ -151,7 +151,7 @@ Checks to see if the secure connection is valid.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fbb9f71c-49ee-45d8-bb9a-945290e11ea9">WMSC_Lock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743714(v=VS.85).aspx">WMSC_Lock</a>
 </td>
 <td align="left" width="63%">
 Used to lock access to the secure connection.
@@ -160,7 +160,7 @@ Used to lock access to the secure connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6a87115-f781-4283-b343-301fdf7c5845">WMSC_SetSharedData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743715(v=VS.85).aspx">WMSC_SetSharedData</a>
 </td>
 <td align="left" width="63%">
 Used during the connection negotiation process.
@@ -169,7 +169,7 @@ Used during the connection negotiation process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3127a3bb-380d-46f9-82a3-d584705b1c60">WMSC_Unlock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743716(v=VS.85).aspx">WMSC_Unlock</a>
 </td>
 <td align="left" width="63%">
 Used to unlock access to the secure connection.
@@ -184,7 +184,7 @@ Used to unlock access to the secure connection.
 
 
 
-<a href="https://msdn.microsoft.com/eece7e36-7c3e-4bc4-9b5a-8142a062dbce">IWMAuthorizer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743287(v=VS.85).aspx">IWMAuthorizer</a>
  
 
  

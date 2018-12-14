@@ -64,12 +64,12 @@ The <code>GetColorKey</code> method retrieves the color key being used by a vide
 
 ### -param pColorKey [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/1563488a-e4e5-472d-b665-5bbcb13fad1a">COLORKEY</a> structure that contains the key type and a palette index.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd387889(v=VS.85).aspx">COLORKEY</a> structure that contains the key type and a palette index.
 
 
 ### -param pColor [out]
 
-Pointer to a value indicating the 8-bit palette index of the <a href="https://msdn.microsoft.com/1563488a-e4e5-472d-b665-5bbcb13fad1a">COLORKEY</a> returned if the current display mode is 8-bit palettized. Otherwise it is a value representing the color key in the pixel format of the current display mode.
+Pointer to a value indicating the 8-bit palette index of the <a href="https://msdn.microsoft.com/en-us/library/Dd387889(v=VS.85).aspx">COLORKEY</a> returned if the current display mode is 8-bit palettized. Otherwise it is a value representing the color key in the pixel format of the current display mode.
 
 
 ## -returns

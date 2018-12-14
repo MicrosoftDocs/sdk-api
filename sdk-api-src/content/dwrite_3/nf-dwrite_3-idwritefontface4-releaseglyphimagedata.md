@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/08A0E6F3-611B-4C19-835B-1353D4938181">IDWriteFontFace4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt725320(v=VS.85).aspx">IDWriteFontFace4</a>
  
 
  

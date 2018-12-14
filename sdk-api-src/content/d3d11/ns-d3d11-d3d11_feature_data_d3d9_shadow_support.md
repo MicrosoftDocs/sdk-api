@@ -74,7 +74,7 @@ You can control the shadow filter quality by the Mag and Min filter settings in 
 
 <div class="alert"><b>Note</b>  If you use a separate setting for Mag versus Min filter options, you produce an undefined result.  Anisotropic filtering is not supported. The Mip filter choice is not relevant because <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.x does not allow mipmapped depth buffers.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  On <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.x, you can't compile a shader with the <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero</a> intrinsic functions by using older versions of the compiler. For example,  you can't use the <a href="https://msdn.microsoft.com/en-us/library/Bb232919(v=VS.85).aspx">fxc.exe</a> compiler that ships with the DirectX SDK or use the <b>D3DCompile**</b> functions (like <a href="https://msdn.microsoft.com/en-us/library/Hh446872(v=VS.85).aspx">D3DCompileFromFile</a>) that are implemented in D3DCompiler_43.dll and earlier. These intrinsic functions on feature level 9.x are only supported in the fxc.exe compiler that ships with the Windows 8 SDK and later and with the <b>D3DCompile**</b> functions that are implemented in D3DCompiler_44.dll and later.
+<div class="alert"><b>Note</b>  On <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.x, you can't compile a shader with the <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero</a> intrinsic functions by using older versions of the compiler. For example,  you can't use the <a href="https://msdn.microsoft.com/en-us/library/Bb232919(v=VS.85).aspx">fxc.exe</a> compiler that ships with the DirectX SDK or use the <b>D3DCompile**</b> functions (like <a href="https://msdn.microsoft.com/09F1DB4F-C279-4E25-8A1C-34272EB62C07">D3DCompileFromFile</a>) that are implemented in D3DCompiler_43.dll and earlier. These intrinsic functions on feature level 9.x are only supported in the fxc.exe compiler that ships with the Windows 8 SDK and later and with the <b>D3DCompile**</b> functions that are implemented in D3DCompiler_44.dll and later.
 But these intrinsic functions are present in shader models for feature levels higher than 9.x.</div>
 <div> </div>
 
@@ -85,11 +85,11 @@ But these intrinsic functions are present in shader models for feature levels hi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE</a>
+<a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/6067d4b2-8609-4172-8228-5e3d43638015">XMFLOAT3X3</a> into an <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>.
+Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx">XMFLOAT3X3</a> into an <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/6067d4b2-8609-4172-8228-5e3d4363801
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/6067d4b2-8609-4172-8228-5e3d43638015">XMFLOAT3X3</a> structure to load. This parameter must point to cached
+Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx">XMFLOAT3X3</a> structure to load. This parameter must point to cached
         memory.
 
 
@@ -68,9 +68,9 @@ Address of the <a href="https://msdn.microsoft.com/6067d4b2-8609-4172-8228-5e3d4
 
 
 
-Returns an <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a> loaded with the data from the <i>pSource</i> parameter.
+Returns an <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> loaded with the data from the <i>pSource</i> parameter.
 
-This function performs a partial load of the returned <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>. See <a href="https://msdn.microsoft.com/9972e382-7a0f-88a7-ad44-18521af3520d">Getting Started</a> for more information.
+This function performs a partial load of the returned <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>. See <a href="https://msdn.microsoft.com/9972e382-7a0f-88a7-ad44-18521af3520d">Getting Started</a> for more information.
 
 
 
@@ -80,12 +80,12 @@ This function performs a partial load of the returned <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/6067d4b2-8609-4172-8228-5e3d43638015">XMFLOAT3X3</a> is a row-major form of the matrix. This function could be used to read column-major data, 
-    but would then need to be transposed with <a href="https://msdn.microsoft.com/6267c6c3-1fda-44b1-8809-f0ad8988a49f">XMMatrixTranpose</a> before use in other XMMATRIX functions.
+<a href="https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx">XMFLOAT3X3</a> is a row-major form of the matrix. This function could be used to read column-major data, 
+    but would then need to be transposed with <a href="https://msdn.microsoft.com/en-us/library/Ee420022(v=VS.85).aspx">XMMatrixTranpose</a> before use in other XMMATRIX functions.
 
-The members of the <a href="https://msdn.microsoft.com/6067d4b2-8609-4172-8228-5e3d43638015">XMFLOAT3X3</a> structures (<b>_11</b>, <b>_12</b>,
+The members of the <a href="https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx">XMFLOAT3X3</a> structures (<b>_11</b>, <b>_12</b>,
    <b>_13</b>, and so on) are loaded into the corresponding members of the
-   <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>. The remaining members of the returned
+   <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>. The remaining members of the returned
    <b>XMMATRIX</b> are 0.0f, except for <b>_44</b>, which is 1.0f.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

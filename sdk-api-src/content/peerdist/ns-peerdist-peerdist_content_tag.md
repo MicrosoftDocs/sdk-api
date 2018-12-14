@@ -1,0 +1,79 @@
+---
+UID: NS:peerdist.peerdist_content_tag_tag
+title: PEERDIST_CONTENT_TAG
+author: windows-sdk-content
+description: PEERDIST_CONTENT_TAG structure contains a client supplied content tag as an input to the PeerDistClientOpenContent API.
+old-location: p2p\peerdist_content_tag.htm
+tech.root: P2PSdk
+ms.assetid: 09eab22b-0534-44db-9954-ff5a9c5667f9
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PPEERDIST_CONTENT_TAG, PEERDIST_CONTENT_TAG, PEERDIST_CONTENT_TAG structure [Peer Networking], PPEERDIST_CONTENT_TAG, PPEERDIST_CONTENT_TAG structure pointer [Peer Networking], p2p.peerdist_content_tag, peerdist/PEERDIST_CONTENT_TAG, peerdist/PPEERDIST_CONTENT_TAG"
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: peerdist.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - peerdist.h
+api_name:
+ - PEERDIST_CONTENT_TAG
+product: Windows
+targetos: Windows
+req.typenames: PEERDIST_CONTENT_TAG, *PPEERDIST_CONTENT_TAG
+req.redist: 
+---
+
+# PEERDIST_CONTENT_TAG structure
+
+
+## -description
+
+
+The <b>PEERDIST_CONTENT_TAG</b> structure contains a client supplied content tag as an input to the <a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a> API.
+
+
+## -struct-fields
+
+
+
+
+### -field Data
+
+A 16 byte tag associated with the open content.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bb77499b-520b-4def-97d8-504983953d4b">PeerDistClientFlushContent</a>
+
+
+
+<a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a>
+ 
+
+ 
+

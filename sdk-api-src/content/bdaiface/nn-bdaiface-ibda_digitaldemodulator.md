@@ -53,16 +53,16 @@ req.redist:
 
 The <b>IBDA_DigitalDemodulator</b> interface is exposed on BDA device filters, specifically demodulators, that are not capable of automatically detecting the characteristics of a signal. A Network Provider calls these methods on the filter to provide the demodulator with the information it needs to acquire a particular signal. The Network Provider obtains these values from the <a href="https://msdn.microsoft.com/81ed8c43-311c-47b1-bb86-8e86877648f5">Locator</a> object associated with the tune request or tuning space.
 
-<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://msdn.microsoft.com/en-us/library/Dd695266(v=VS.85).aspx">OCUR Devices</a>.
+<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://msdn.microsoft.com/7b641b94-9854-4ca8-8362-a9e1e49bbdd2">OCUR Devices</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DigitalDemodulator</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_DigitalDemodulator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DigitalDemodulator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_DigitalDemodulator</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -93,7 +93,7 @@ Retrieves the inner forward error correction rate being used on the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693296(v=VS.85).aspx">get_ModulationType</a>
+<a href="https://msdn.microsoft.com/0f00553f-c0b1-4ff5-9c92-fe3a1990ef20">get_ModulationType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the modulation type for the signal.
@@ -120,7 +120,7 @@ Retrieves the outer forward error correction rate for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693299(v=VS.85).aspx">get_SpectralInversion</a>
+<a href="https://msdn.microsoft.com/eaab17e3-8070-4f70-a31c-cd130edf1a4a">get_SpectralInversion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the spectral inversion value for the signal.
@@ -192,7 +192,7 @@ Specifies the spectral inversion value for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec37e7a5-d2e8-468a-8b5b-d1a1fa538bfe">put_SymbolRate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693307(v=VS.85).aspx">put_SymbolRate</a>
 </td>
 <td align="left" width="63%">
 Specifies the symbol rate for the signal.

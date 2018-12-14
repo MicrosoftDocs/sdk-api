@@ -54,15 +54,15 @@ req.redist:
 Clients implement the <b>IBackgroundCopyCallback3</b> interface to receive notification that ranges of a file have completed downloading.
 
 Instead of polling for the download status of a file, clients use this interface.
-To receive notifications, call the <a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your <a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> implementation. To specify which notifications you want to receive, call the <a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyFlags</a> method.
-You must implement all methods of this interface and the <a href="https://msdn.microsoft.com/en-us/library/Aa362870(v=VS.85).aspx">IBackgroundCopyCallback2</a> and <b>IBackgroundCopyCallback</b> interface. For example, if you do not register for the file transferred callback, your <a href="https://msdn.microsoft.com/en-us/library/Aa362871(v=VS.85).aspx">FileTransferred</a> method must still return <b>S_OK</b>. If you do not want to receive the file ranges   transferred callback, you can simply implement the <b>IBackgroundCopyCallback</b> or <b>IBackgroundCopyCallback2</b> instead.
+To receive notifications, call the <a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your <a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> implementation. To specify which notifications you want to receive, call the <a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">IBackgroundCopyJob::SetNotifyFlags</a> method.
+You must implement all methods of this interface and the <a href="https://msdn.microsoft.com/9bbc323c-0caf-46a9-ba25-e72a2c6ae363">IBackgroundCopyCallback2</a> and <b>IBackgroundCopyCallback</b> interface. For example, if you do not register for the file transferred callback, your <a href="https://msdn.microsoft.com/c7e22911-9c14-48ef-8283-f0787b089432">FileTransferred</a> method must still return <b>S_OK</b>. If you do not want to receive the file ranges   transferred callback, you can simply implement the <b>IBackgroundCopyCallback</b> or <b>IBackgroundCopyCallback2</b> instead.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa362870(v=VS.85).aspx">IBackgroundCopyCallback2</a>. <b>IBackgroundCopyCallback3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback3</b> interface inherits from <a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> and <a href="https://msdn.microsoft.com/9bbc323c-0caf-46a9-ba25-e72a2c6ae363">IBackgroundCopyCallback2</a>. <b>IBackgroundCopyCallback3</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -75,10 +75,10 @@ The <b>IBackgroundCopyCallback3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt492761(v=VS.85).aspx">FileRangesTransferred</a>
+<a href="https://msdn.microsoft.com/F47293D5-E21E-472A-AE62-4781D61D0430">FileRangesTransferred</a>
 </td>
 <td align="left" width="63%">
-BITS calls your implementation of the <a href="https://msdn.microsoft.com/en-us/library/Mt492761(v=VS.85).aspx">FileRangesTransferred</a> method when one or more file ranges have been downloaded.  File ranges are added to the job using the <a href="https://msdn.microsoft.com/en-us/library/Mt492766(v=VS.85).aspx">IBackgroundCopyFile6::RequestFileRanges</a> method.
+BITS calls your implementation of the <a href="https://msdn.microsoft.com/F47293D5-E21E-472A-AE62-4781D61D0430">FileRangesTransferred</a> method when one or more file ranges have been downloaded.  File ranges are added to the job using the <a href="https://msdn.microsoft.com/C36BDE94-03AC-4F06-B17B-B8729226F8AC">IBackgroundCopyFile6::RequestFileRanges</a> method.
 
 </td>
 </tr>
@@ -90,19 +90,19 @@ BITS calls your implementation of the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a>
+<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362870(v=VS.85).aspx">IBackgroundCopyCallback2</a>
+<a href="https://msdn.microsoft.com/9bbc323c-0caf-46a9-ba25-e72a2c6ae363">IBackgroundCopyCallback2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyFlags</a>
+<a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">IBackgroundCopyJob::SetNotifyFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a>
+<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a>
  
 
  

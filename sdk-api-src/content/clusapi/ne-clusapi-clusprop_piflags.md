@@ -74,7 +74,7 @@ The storage class resource is removable.
 ### -field CLUSPROP_PIFLAG_USABLE
 
 The storage class resource is formatted with a file system that is usable by the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a>.
+      <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a>.
 
 
 ### -field CLUSPROP_PIFLAG_DEFAULT_QUORUM
@@ -114,7 +114,7 @@ The partition uses an unknown file system type.
 
 
 
-For <a href="https://msdn.microsoft.com/en-us/library/Aa371789(v=VS.85).aspx">Physical Disk</a> resources, the smallest NTFS partition 
+For <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a> resources, the smallest NTFS partition 
      larger than 50 MB automatically receives the <b>CLUSPROP_PIFLAG_DEFAULT_QUORUM</b> flag.
 
 
@@ -125,7 +125,7 @@ For <a href="https://msdn.microsoft.com/en-us/library/Aa371789(v=VS.85).aspx">Ph
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368381(v=VS.85).aspx">CLUSPROP_PARTITION_INFO</a>
+<a href="https://msdn.microsoft.com/cda1e334-dba8-4fe9-b035-4e475245869c">CLUSPROP_PARTITION_INFO</a>
 
 
 
@@ -141,11 +141,11 @@ For <a href="https://msdn.microsoft.com/en-us/library/Aa371789(v=VS.85).aspx">Ph
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368118(v=VS.85).aspx">Flags Property of the ClusPartition Object</a>
+<a href="https://msdn.microsoft.com/19a69c92-495c-486d-9f42-6b0531dfb992">Flags Property of the ClusPartition Object</a>
  
 
  

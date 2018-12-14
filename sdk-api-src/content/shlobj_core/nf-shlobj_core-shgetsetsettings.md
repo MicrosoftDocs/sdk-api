@@ -64,7 +64,7 @@ Sets or retrieves Shell state settings.
 
 Type: <b>LPSHELLSTATE</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/a5ba0e9f-d164-4fe6-97ab-34d61289ce1c">SHELLSTATE</a> structure that provides or receives the Shell state settings.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb759788(v=VS.85).aspx">SHELLSTATE</a> structure that provides or receives the Shell state settings.
 
 
 ### -param dwMask [in]

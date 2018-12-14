@@ -103,7 +103,7 @@ If you want a visual to be drawn with antialiasing, use <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/88C77869-B08D-43F6-8A1E-A112743C0404">IDCompositionVisual::SetBorderMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449149(v=VS.85).aspx">IDCompositionVisual::SetBorderMode</a>
  
 
  

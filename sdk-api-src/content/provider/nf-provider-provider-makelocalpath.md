@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -83,7 +83,7 @@ Returns the full path in <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-
 
 
 
-Consider using <a href="https://msdn.microsoft.com/c419205f-d07d-4887-8e36-ccde37c2351f">Provider::GetLocalInstancePath</a> before using this method.
+Consider using <a href="https://msdn.microsoft.com/en-us/library/Aa392775(v=VS.85).aspx">Provider::GetLocalInstancePath</a> before using this method.
 
 
 

@@ -61,12 +61,12 @@ A generic method for setting BITS job properties.
 
 ### -param PropertyId [in]
 
-The ID of the property that is being set specified as a <a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a> enum value.
+The ID of the property that is being set specified as a <a href="https://msdn.microsoft.com/4ED7419E-3435-4F12-B293-1FDC24F40D63">BITS_JOB_PROPERTY_ID</a> enum value.
 
 
 ### -param PropertyValue [in]
 
-The value of the property that is being set. In order to hold a value whose type is appropriate to the property, this value is specified via the <a href="https://msdn.microsoft.com/en-us/library/Hh446784(v=VS.85).aspx">BITS_JOB_PROPERTY_VALUE</a> union that is composed of all the known property types.
+The value of the property that is being set. In order to hold a value whose type is appropriate to the property, this value is specified via the <a href="https://msdn.microsoft.com/DF1DDB37-F16F-47FF-B6C1-8C545A827CCB">BITS_JOB_PROPERTY_VALUE</a> union that is composed of all the known property types.
 
 
 ## -returns
@@ -102,7 +102,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446781(v=VS.85).aspx">IBackgroundCopyJob5</a>
+<a href="https://msdn.microsoft.com/97481F9D-1F7B-473A-B288-A52E527478A0">IBackgroundCopyJob5</a>
 
 
 

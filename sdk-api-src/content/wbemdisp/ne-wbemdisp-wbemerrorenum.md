@@ -456,7 +456,7 @@ Reserved for future use.
 
 ### -field wbemErrServerTooBusy
 
-A call to <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> has 
+A call to <a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> has 
      failed. The provider may choose to refire the event.
 
 

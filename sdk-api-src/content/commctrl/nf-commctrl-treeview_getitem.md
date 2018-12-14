@@ -60,7 +60,7 @@ Retrieves some or all of a tree-view item's attributes. You can use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -69,7 +69,7 @@ Handle to the tree-view control.
 
 Type: <b>LPTVITEM</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that specifies the information to retrieve and receives information about the item. With <a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">version 4.71</a> and later, you can use a <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure instead. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that specifies the information to retrieve and receives information about the item. With <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">version 4.71</a> and later, you can use a <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure instead. 
 
 
 ## -remarks

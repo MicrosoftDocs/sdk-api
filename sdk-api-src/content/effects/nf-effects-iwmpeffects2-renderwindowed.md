@@ -96,15 +96,15 @@ The <i>fRequiredRender</i> parameter informs you that your visualization must re
 
 
 
-<a href="https://msdn.microsoft.com/44e044c1-97fd-43cb-9530-4556e485f5ae">IWMPEffects2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563254(v=VS.85).aspx">IWMPEffects2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9040c309-5e45-41d2-9a02-b17c6d764f59">IWMPEffects::Render</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563269(v=VS.85).aspx">IWMPEffects::Render</a>
 
 
 
-<a href="https://msdn.microsoft.com/a33d4cd1-e888-4ecd-9e6c-113febfefd99">TimedLevel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564504(v=VS.85).aspx">TimedLevel</a>
  
 
  

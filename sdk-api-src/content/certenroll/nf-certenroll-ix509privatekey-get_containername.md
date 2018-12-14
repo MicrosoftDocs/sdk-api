@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-If you do not specify a name, one is created when the <a href="https://msdn.microsoft.com/en-us/library/Aa378957(v=VS.85).aspx">Create</a> method is called.
+If you do not specify a name, one is created when the <a href="https://msdn.microsoft.com/e8c6564a-6009-437e-9b83-3711e43a7374">Create</a> method is called.
 
 
 
@@ -74,7 +74,7 @@ If you do not specify a name, one is created when the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

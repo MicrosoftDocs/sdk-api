@@ -70,7 +70,7 @@ The <b>IDWriteRenderingParams3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3C8CBE42-D7F5-4646-A1C4-1C9C8C4EBAD1">GetRenderingMode1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900390(v=VS.85).aspx">GetRenderingMode1</a>
 </td>
 <td align="left" width="63%">
 Gets the rendering mode.

@@ -130,7 +130,7 @@ The name value contained in the <i>pcchInputName</i> parameter is too large for 
 
 You should make two calls to <b>GetConnectionName</b>. On the first call, pass <b>NULL</b> as <i>pwszInputName</i>. On return, the value pointed to by <i>pcchInputName</i> is set to the number of wide characters, including the terminating <b>null</b> character, required to hold the connection name. Then you can allocate the required amount of memory for the string and pass a pointer to it as <i>pwszInputName</i> on the second call.
 
-The connection name is not written to the header section of an ASF file. If you obtain the <a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a> interface from the reader object or synchronous reader object, you cannot retrieve the original connection name.
+The connection name is not written to the header section of an ASF file. If you obtain the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface from the reader object or synchronous reader object, you cannot retrieve the original connection name.
 
 
 
@@ -140,11 +140,11 @@ The connection name is not written to the header section of an ASF file. If you 
 
 
 
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd67e0b5-3bfa-46c1-996d-6b026c1144cb">IWMStreamConfig::SetConnectionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798566(v=VS.85).aspx">IWMStreamConfig::SetConnectionName</a>
  
 
  

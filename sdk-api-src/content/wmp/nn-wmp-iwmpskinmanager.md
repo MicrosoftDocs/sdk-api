@@ -73,7 +73,7 @@ The <b>IWMPSkinManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16d0020f-7650-4300-bd34-6f79ecca5175">SetVisualStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563685(v=VS.85).aspx">SetVisualStyle</a>
 </td>
 <td align="left" width="63%">
 Specifies the path to a theme file in Windows XP to which Windows Media Player synchronizes the skin.

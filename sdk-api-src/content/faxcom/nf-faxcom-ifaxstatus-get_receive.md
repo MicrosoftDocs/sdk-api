@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-To determine if a specified port is currently sending a fax, you can call the <a href="https://msdn.microsoft.com/239b98c5-be46-4e54-83f7-eb7f6250fa57">IFaxStatus::get_Send</a> method.
+To determine if a specified port is currently sending a fax, you can call the <a href="https://msdn.microsoft.com/en-us/library/ms691890(v=VS.85).aspx">IFaxStatus::get_Send</a> method.
 
 
 
@@ -93,7 +93,7 @@ To determine if a specified port is currently sending a fax, you can call the <a
 
 
 
-<a href="https://msdn.microsoft.com/239b98c5-be46-4e54-83f7-eb7f6250fa57">IFaxStatus::get_Send</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691890(v=VS.85).aspx">IFaxStatus::get_Send</a>
  
 
  

@@ -96,7 +96,7 @@ Retrieves the matrix used to transform the <b>ID2D1TransformedGeometry</b> objec
 Using an <b>ID2D1TransformedGeometry</b> rather than transforming a geometry by using a render target's transform enables you to transform a geometry without transforming its stroke.
 
 <h3><a id="Creating_ID2D1TransformedGeometry_Objects"></a><a id="creating_id2d1transformedgeometry_objects"></a><a id="CREATING_ID2D1TRANSFORMEDGEOMETRY_OBJECTS"></a>Creating ID2D1TransformedGeometry Objects</h3>
-To create an <b>ID2D1TransformedGeometry</b>, call the <a href="https://msdn.microsoft.com/71f26200-0f35-49d7-951d-2962768d16bc">ID2D1Factory::CreateTransformedGeometry</a> method.
+To create an <b>ID2D1TransformedGeometry</b>, call the <a href="https://msdn.microsoft.com/en-us/library/Dd742730(v=VS.85).aspx">ID2D1Factory::CreateTransformedGeometry</a> method.
 
 Direct2D geometries are immutable and device-independent resources created by <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.
 
@@ -133,7 +133,7 @@ m_pRenderTarget->DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
 ```
 
 
-The next example uses the <a href="https://msdn.microsoft.com/71f26200-0f35-49d7-951d-2962768d16bc">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
+The next example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742730(v=VS.85).aspx">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
 <img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="./images/transformedgeometry2_step3.png"/>
 

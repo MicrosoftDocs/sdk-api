@@ -96,7 +96,7 @@ Returns a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718cae
 
 
 
-<a href="https://msdn.microsoft.com/2036813b-f991-4ca3-95d3-8bbe858aae09">CHString::Mid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385623(v=VS.85).aspx">CHString::Mid</a>
  
 
  

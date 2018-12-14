@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>EncryptedKeyHashBlob</b> property retrieves a string that contains a <a href="https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx">hash</a> of the encrypted <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a>.
+The <b>EncryptedKeyHashBlob</b> property retrieves a string that contains a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the encrypted <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377063(v=VS.85).aspx">InitializeEncodeFromEncryptedKeyBlob</a> method or the  <a href="https://msdn.microsoft.com/en-us/library/Aa377062(v=VS.85).aspx">InitializeDecode</a> method to initialize the <b>EncryptedKeyHashBlob</b> property.
+Call the <a href="https://msdn.microsoft.com/2101f15f-b71b-4dea-8ec8-2d3c1926ae15">InitializeEncodeFromEncryptedKeyBlob</a> method or the  <a href="https://msdn.microsoft.com/c8f59fba-c6ce-4e11-bb25-8a6fd23218d1">InitializeDecode</a> method to initialize the <b>EncryptedKeyHashBlob</b> property.
 
 
 
@@ -73,7 +73,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377063(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377060(v=VS.85).aspx">IX509AttributeArchiveKeyHash</a>
+<a href="https://msdn.microsoft.com/52c92629-4c9e-4996-80a2-30e2212b3009">IX509AttributeArchiveKeyHash</a>
  
 
  

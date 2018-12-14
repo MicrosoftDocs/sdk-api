@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_MESSAGE_STATE
+UID: NE:webservices.__unnamed_enum_39
 title: WS_MESSAGE_STATE
 author: windows-sdk-content
 description: The different states that a message can be in.
@@ -7,7 +7,7 @@ old-location: wsw\ws_message_state.htm
 tech.root: wsw
 ms.assetid: 2c5ddedd-b0b4-4c26-a5c0-a5851f0408de
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_MESSAGE_STATE, WS_MESSAGE_STATE enumeration [Web Services for Windows], WS_MESSAGE_STATE_DONE, WS_MESSAGE_STATE_EMPTY, WS_MESSAGE_STATE_INITIALIZED, WS_MESSAGE_STATE_READING, WS_MESSAGE_STATE_WRITING, webservices/WS_MESSAGE_STATE, webservices/WS_MESSAGE_STATE_DONE, webservices/WS_MESSAGE_STATE_EMPTY, webservices/WS_MESSAGE_STATE_INITIALIZED, webservices/WS_MESSAGE_STATE_READING, webservices/WS_MESSAGE_STATE_WRITING, wsw.ws_message_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ The body of the message is being read, for example
                     when a message is received.
                     In this state, the headers can be accessed, and the body can
                     be read (see <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a> or
-                    <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_BODY_READER</a>).
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_BODY_READER</a>).
                 
 
 
@@ -91,7 +91,7 @@ The body of the message is being written, for example
                     when a message is being sent.
                     In this state, the headers can be accessed, and the body can
                     be written (see <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a> or
-                    <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_BODY_WRITER</a>).
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_BODY_WRITER</a>).
                 
 
 

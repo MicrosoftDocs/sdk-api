@@ -1,5 +1,5 @@
 ---
-UID: NS:ntdsapi.DS_NAME_RESULT_ITEMW
+UID: NS:ntdsapi.__unnamed_struct_2
 title: DS_NAME_RESULT_ITEMW
 author: windows-sdk-content
 description: The DS_NAME_RESULT_ITEM structure contains a name converted by the DsCrackNames function, along with associated error and domain data.
@@ -7,7 +7,7 @@ old-location: ad\ds_name_result_item.htm
 tech.root: ad
 ms.assetid: 50a4488f-e2d4-4671-b0e7-fb8cb4096c5c
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDS_NAME_RESULT_ITEMW, DS_NAME_RESULT_ITEM, DS_NAME_RESULT_ITEM structure [Active Directory], DS_NAME_RESULT_ITEMA, DS_NAME_RESULT_ITEMW, PDS_NAME_RESULT_ITEM, PDS_NAME_RESULT_ITEM structure pointer [Active Directory], _glines_ds_name_result_item, ad.ds__name__result__item, ad.ds_name_result_item, ntdsapi/DS_NAME_RESULT_ITEM, ntdsapi/DS_NAME_RESULT_ITEMA, ntdsapi/DS_NAME_RESULT_ITEMW, ntdsapi/PDS_NAME_RESULT_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,32 +63,22 @@ The <b>DS_NAME_RESULT_ITEM</b> structure contains a name converted by the
 
 ### -field status
 
-Contains one of the <a href="https://msdn.microsoft.com/8475133c-4bc8-4545-bd54-15d4e7b07869">DS_NAME_ERROR</a> values that indicates the status of this name conversion.
+Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms676061(v=VS.85).aspx">DS_NAME_ERROR</a> values that indicates the status of this name conversion.
 
 
-### -field pDomain.string
-
- 
-
-
-### -field pDomain.unique
+### -field string
 
  
 
 
-### -field pName.string
-
- 
-
-
-### -field pName.unique
+### -field unique
 
  
 
 
 ### -field pDomain
 
-Pointer to a null-terminated string that specifies the DNS domain in which the object resides. This member will contain valid data if <b>status</b> contains <a href="https://msdn.microsoft.com/8475133c-4bc8-4545-bd54-15d4e7b07869">DS_NAME_NO_ERROR</a> or <b>DS_NAME_ERROR_DOMAIN_ONLY</b>.
+Pointer to a null-terminated string that specifies the DNS domain in which the object resides. This member will contain valid data if <b>status</b> contains <a href="https://msdn.microsoft.com/en-us/library/ms676061(v=VS.85).aspx">DS_NAME_NO_ERROR</a> or <b>DS_NAME_ERROR_DOMAIN_ONLY</b>.
 
 
 ### -field pName
@@ -100,7 +90,7 @@ Pointer to a null-terminated string that specifies the newly formatted object na
 
 
 
-The <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> function returns an array of <b>DS_NAME_RESULT_ITEM</b> structures as part of the <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure.
+The <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> function returns an array of <b>DS_NAME_RESULT_ITEM</b> structures as part of the <a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure.
 
 
 
@@ -110,7 +100,7 @@ The <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">Ds
 
 
 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a>
 
 
 

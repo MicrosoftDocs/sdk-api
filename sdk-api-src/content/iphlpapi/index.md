@@ -2,7 +2,7 @@
 UID: NA:iphlpapi
 ms.assetid: 7576ad9b-d288-3512-965c-f5d418dd3f3f
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

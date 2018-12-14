@@ -132,7 +132,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/617127e5-2f20-42fb-93c3-e5d68fa07a82">XMVector3NormalizeEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420829(v=VS.85).aspx">XMVector3NormalizeEst</a>
  
 
  

@@ -78,7 +78,7 @@ The <b>IMSVidGenericSink2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0044995-5bca-4f49-a22b-00df8f73b47f">AddFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694561(v=VS.85).aspx">AddFilter</a>
 </td>
 <td align="left" width="63%">
 Specifies a DirectShow filter that is added to the graph when this segment is built.
@@ -87,10 +87,10 @@ Specifies a DirectShow filter that is added to the graph when this segment is bu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fc899c48-703a-4bdc-849e-73633ae748d0">ResetFilterList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694562(v=VS.85).aspx">ResetFilterList</a>
 </td>
 <td align="left" width="63%">
-Clears the list of filters that were added using <a href="https://msdn.microsoft.com/b0044995-5bca-4f49-a22b-00df8f73b47f">AddFilter</a>.
+Clears the list of filters that were added using <a href="https://msdn.microsoft.com/en-us/library/Dd694561(v=VS.85).aspx">AddFilter</a>.
 
 </td>
 </tr>

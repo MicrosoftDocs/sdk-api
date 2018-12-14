@@ -2,7 +2,7 @@
 UID: TP:vpc
 ms.assetid: dd7271cc-ebc1-369a-9ee2-f14414a4a2f6
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

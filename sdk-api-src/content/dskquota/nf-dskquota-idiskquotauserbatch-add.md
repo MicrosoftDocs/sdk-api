@@ -51,7 +51,7 @@ req.redist:
 
 
 Adds an 
-<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> pointer to the batch list. This method calls <b>AddRef</b> on the <i>pUser</i> interface pointer. <a href="_com_iunknown_release">Release</a> is automatically called on each contained 
+<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> pointer to the batch list. This method calls <b>AddRef</b> on the <i>pUser</i> interface pointer. <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> is automatically called on each contained 
 <a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface pointer when the batch object is destroyed.
 
 When setting values on a quota user object in preparation for batch processing, specify <b>FALSE</b> for the <i>fWriteThrough</i> parameter in the 

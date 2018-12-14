@@ -4,7 +4,7 @@ title: ITsSbPlugin::Initialize
 author: windows-sdk-content
 description: Initializes the plug-in.
 old-location: termserv\itssbplugin_initialize.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1ff0b1a2-042d-4df2-9ae4-cfa4b7c644ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

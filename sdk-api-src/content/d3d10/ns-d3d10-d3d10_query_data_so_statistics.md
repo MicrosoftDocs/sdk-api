@@ -60,14 +60,14 @@ Query information about the amount of data streamed out to the stream-output buf
 
 ### -field NumPrimitivesWritten
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT64</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
 
 Number of primitives (that is, points, lines, and triangles) written to the stream-output buffers.
 
 
 ### -field PrimitivesStorageNeeded
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT64</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
 
 Number of primitives that would have been written to the stream-output buffers if there had been enough space for them all.
 

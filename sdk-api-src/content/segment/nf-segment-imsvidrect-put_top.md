@@ -90,11 +90,11 @@ Setting the top y-coordinate also changes the height of the rectangle. For examp
 
 
 
-<a href="https://msdn.microsoft.com/caa56beb-7eba-48a1-8645-f63666ba0593">IMSVidRect::get_HWnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694605(v=VS.85).aspx">IMSVidRect::get_HWnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/3596141c-e359-4ea5-8d6a-9ec374c1f854">IMSVidRect::get_Top</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694607(v=VS.85).aspx">IMSVidRect::get_Top</a>
  
 
  

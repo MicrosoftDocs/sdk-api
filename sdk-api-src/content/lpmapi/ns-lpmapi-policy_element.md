@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.POLICY_ELEMENT
+UID: NS:lpmapi.__unnamed_struct_14
 title: POLICY_ELEMENT
 author: windows-sdk-content
 description: The POLICY_ELEMENT structure contains an RSVP policy element.
@@ -7,7 +7,7 @@ old-location: qos\policy_element.htm
 tech.root: QOS
 ms.assetid: 710ed81d-d455-4912-8aee-2f06db894c95
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: POLICY_ELEMENT, POLICY_ELEMENT structure [QOS], _POLICY_ELEMENT, infocard/POLICY_ELEMENT, qos.policy_element
 ms.prod: windows-hardware
 ms.technology: windows-devices

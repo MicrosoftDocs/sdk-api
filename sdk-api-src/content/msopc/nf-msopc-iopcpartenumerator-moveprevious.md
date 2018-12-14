@@ -7,7 +7,7 @@ old-location: opc\iopcpartenumerator_moveprevious.htm
 tech.root: OPC
 ms.assetid: 6405bf6f-da60-463c-9acc-820b586e42e1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcPartEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcPartEnumerator.MovePrevious, IOpcPartEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcPartEnumerator interface, msopc/IOpcPartEnumerator::MovePrevious, opc.iopcpartenumerator_moveprevious
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -75,7 +75,7 @@ The <b>IWMClientConnections</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/208b40cd-c138-4311-8702-18a61713b71a">GetClientCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743306(v=VS.85).aspx">GetClientCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of connected clients.
@@ -84,7 +84,7 @@ Retrieves the number of connected clients.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a05d7d1e-21dc-4e2a-a17b-5f04e639b143">GetClientProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743307(v=VS.85).aspx">GetClientProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves information, including the IP address and protocol, about a connected client.
@@ -101,25 +101,25 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/7148dd13-e5de-4adb-89e7-3f02a463c2d1">IWMClientConnections2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743304(v=VS.85).aspx">IWMClientConnections2</a>
 </td>
 <td>IID_IWMClientConnections2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3831b727-7fdc-4d05-a7b3-86ca5b5c3b17">IWMRegisterCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743613(v=VS.85).aspx">IWMRegisterCallback</a>
 </td>
 <td>IID_IWMRegisterCallback</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink</a>
 </td>
 <td>IID_IWMWriterNetworkSink</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink</a>
 </td>
 <td>IID_IWMWriterSink</td>
 </tr>
@@ -134,7 +134,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/7148dd13-e5de-4adb-89e7-3f02a463c2d1">IWMClientConnections2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743304(v=VS.85).aspx">IWMClientConnections2 Interface</a>
 
 
 

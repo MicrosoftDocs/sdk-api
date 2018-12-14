@@ -160,7 +160,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/13119f30-2a1e-44f2-a553-71a352f4a9e2">XMQuaternionBaryCentricV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420154(v=VS.85).aspx">XMQuaternionBaryCentricV</a>
  
 
  

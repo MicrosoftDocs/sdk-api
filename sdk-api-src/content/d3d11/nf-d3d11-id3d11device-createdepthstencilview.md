@@ -95,7 +95,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/c08
 
 
 
-A depth-stencil view can be bound to the output-merger stage by calling <a href="https://msdn.microsoft.com/en-us/library/Ff476464(v=VS.85).aspx">ID3D11DeviceContext::OMSetRenderTargets</a>.
+A depth-stencil view can be bound to the output-merger stage by calling <a href="https://msdn.microsoft.com/65514812-7433-4c13-a6cb-53980dacdf65">ID3D11DeviceContext::OMSetRenderTargets</a>.
 
 
 
@@ -105,7 +105,7 @@ A depth-stencil view can be bound to the output-merger stage by calling <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

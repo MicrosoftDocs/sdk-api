@@ -62,7 +62,7 @@ Notifies the system that an item has been accessed, for the purposes of tracking
 
 Type: <b>UINT</b>
 
-A value from the <a href="https://msdn.microsoft.com/efc9e018-41bb-44ef-9ca8-85d9e34c9899">SHARD</a> enumeration that indicates the form of the information pointed to by the <i>pv</i> parameter.
+A value from the <a href="https://msdn.microsoft.com/en-us/library/Dd378453(v=VS.85).aspx">SHARD</a> enumeration that indicates the form of the information pointed to by the <i>pv</i> parameter.
 
 
 ### -param pv [in, optional]
@@ -160,7 +160,7 @@ If <b>SHAddToRecentDocs</b> is attempting the registration as the result of a dr
 </li>
 </ul>
 <h3><a id="Suppressing_Calls_to_SHAddToRecentDocs"></a><a id="suppressing_calls_to_shaddtorecentdocs"></a><a id="SUPPRESSING_CALLS_TO_SHADDTORECENTDOCS"></a>Suppressing Calls to SHAddToRecentDocs</h3>
-In versions of Windows before Windows 7, a file type could set the <a href="https://msdn.microsoft.com/63b58659-9c4c-4b39-98d1-743724523dcd">FTA_NoRecentDocs</a> flag to prevent that file type from being added to the <b>Recent</b> folder. This mechanism is also supported under Windows 7 and later. See <a href="https://msdn.microsoft.com/055648cd-46ce-4e61-80b2-bcf1d1823e20">File Types</a> for more information.
+In versions of Windows before Windows 7, a file type could set the <a href="https://msdn.microsoft.com/en-us/library/Bb762506(v=VS.85).aspx">FTA_NoRecentDocs</a> flag to prevent that file type from being added to the <b>Recent</b> folder. This mechanism is also supported under Windows 7 and later. See <a href="https://msdn.microsoft.com/055648cd-46ce-4e61-80b2-bcf1d1823e20">File Types</a> for more information.
 
 <b>SHAddToRecentDocs</b> tracks document usage statistics through the verbs that are invoked to access those documents. Verbs supplied by registered <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a> handlers are tracked, those items appear in <b>My Recent Documents</b> (Windows XP) and <b>Recent Items</b> (Windows Vista). In Windows 7, the parent folders of the documents appear in the Jump List for the Windows Explorer taskbar button. However, the documents accessed through those <b>IContextMenu</b> verbs do not appear in application Jump Lists. For those items to appear in an application's Jump List, an application must call <b>SHAddToRecentDocs</b> explicitly.
 

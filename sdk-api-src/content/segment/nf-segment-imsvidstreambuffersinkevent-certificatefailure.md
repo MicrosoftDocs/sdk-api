@@ -80,7 +80,7 @@ Returns S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/e828d3e0-5a2a-499a-a718-11aa76a01b1b">IMSVidStreamBufferSinkEvent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694646(v=VS.85).aspx">IMSVidStreamBufferSinkEvent Interface</a>
  
 
  

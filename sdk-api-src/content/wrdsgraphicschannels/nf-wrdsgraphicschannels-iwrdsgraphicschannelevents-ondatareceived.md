@@ -4,7 +4,7 @@ title: IWRdsGraphicsChannelEvents::OnDataReceived
 author: windows-sdk-content
 description: Called when a full message is received from the server.
 old-location: termserv\iwrdsgraphicschannelevents_ondatareceived.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: ac202fa0-6277-440a-8292-a785bbc78730
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -71,7 +71,7 @@ The <b>GetPostViewProps</b> method retrieves the properties for the specified ou
 
 ### -param ppOutput [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps</a> interface.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a> interface.
 
 
 ## -returns
@@ -117,7 +117,7 @@ NULL value passed in to <i>ppOutput</i>.
 
 
 
-An application can enumerate through the various outputs, and retrieve the output format properties for that data. Manipulating the object retrieved has no effect on the output, unless the application also calls <a href="https://msdn.microsoft.com/e5b92065-fff3-41d2-b263-375ae14869e5">SetPostViewProps</a>.
+An application can enumerate through the various outputs, and retrieve the output format properties for that data. Manipulating the object retrieved has no effect on the output, unless the application also calls <a href="https://msdn.microsoft.com/en-us/library/Dd798782(v=VS.85).aspx">SetPostViewProps</a>.
 
 
 
@@ -127,11 +127,11 @@ An application can enumerate through the various outputs, and retrieve the outpu
 
 
 
-<a href="https://msdn.microsoft.com/0a5325d1-880b-4d65-96af-9d311dca989b">IWMReader::SetOutputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743605(v=VS.85).aspx">IWMReader::SetOutputProps</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d24dbd6-86df-4a0a-8110-15f6a4c1f31d">IWMWriterPostView Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
  
 
  

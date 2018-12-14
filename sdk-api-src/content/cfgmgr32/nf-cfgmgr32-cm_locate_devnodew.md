@@ -136,7 +136,7 @@ If the operation succeeds, <b>CM_Locate_DevNode</b> returns CR_SUCCESS. Otherwis
 
 
 
-For information about using device instance handles that are bound to the local machine, see <a href="https://msdn.microsoft.com/en-us/library/Ff538074(v=VS.85).aspx">CM_Get_Child</a>.
+For information about using device instance handles that are bound to the local machine, see <a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>.
 
 
 
@@ -146,11 +146,11 @@ For information about using device instance handles that are bound to the local 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538074(v=VS.85).aspx">CM_Get_Child</a>
+<a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538751(v=VS.85).aspx">CM_Locate_DevNode_Ex</a>
+<a href="https://msdn.microsoft.com/255d828c-5a71-4d53-80ee-b0a0b3e97414">CM_Locate_DevNode_Ex</a>
  
 
  

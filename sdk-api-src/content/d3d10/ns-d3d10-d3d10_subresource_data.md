@@ -67,7 +67,7 @@ Pointer to the initialization data.
 
 ### -field SysMemPitch
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The distance (in bytes) from the beginning of one line of a texture to the next line.  
         System-memory pitch is used only for 2D and 3D texture data as it is has no meaning for the other resource types.
@@ -75,7 +75,7 @@ The distance (in bytes) from the beginning of one line of a texture to the next 
 
 ### -field SysMemSlicePitch
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The distance (in bytes) from the beginning of one depth level to the next.  
         System-memory-slice pitch is only used for 3D texture data as it has no meaning for the other resource types.

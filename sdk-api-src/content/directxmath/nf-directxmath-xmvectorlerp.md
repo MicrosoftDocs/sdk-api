@@ -132,7 +132,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6cc4f0b8-dce5-45d3-a7cf-30d296206bf9">XMVectorLerpV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421172(v=VS.85).aspx">XMVectorLerpV</a>
  
 
  

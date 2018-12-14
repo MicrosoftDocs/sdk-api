@@ -60,7 +60,7 @@ Sets the state of a specified list-view item. Use this macro or send the <a href
 
 ### -param hwndLV [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -74,14 +74,14 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774762(v=VS.
 
 ### -param data [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The state to set on the item as one or more (as a bitwise combination) of the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">List-View Item States</a> flags.
 
 
 ### -param mask [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The valid bits of the state specified by parameter <i>data</i>. For more information, see the <i>stateMask</i> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a>) structure.
 

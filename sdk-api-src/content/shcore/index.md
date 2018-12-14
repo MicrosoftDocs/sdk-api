@@ -2,7 +2,7 @@
 UID: NA:shcore
 ms.assetid: 494a9804-c77a-386e-a4da-1ed00acd8f60
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -67,7 +67,7 @@ Type: <b>VARIANT</b>
 
 ### -param pFaxAccount [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>**</b>
 
 The <a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).aspx">FaxAccount</a> object.
 
@@ -92,7 +92,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/eab831e4-a260-4822-8582-532f7717dab8">Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358941(v=VS.85).aspx">Item</a>
  
 
  

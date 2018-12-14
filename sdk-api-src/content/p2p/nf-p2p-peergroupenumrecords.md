@@ -7,7 +7,7 @@ old-location: p2p\peergroupenumrecords.htm
 tech.root: P2PSdk
 ms.assetid: d9a0654a-850a-40bb-9112-03ec9bf47370
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerGroupEnumRecords, PeerGroupEnumRecords function [Peer Networking], p2p.peergroupenumrecords, p2p/PeerGroupEnumRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.DROPDESCRIPTION
+UID: NS:shlobj_core.__unnamed_struct_8
 title: DROPDESCRIPTION
 author: windows-sdk-content
 description: Describes the image and accompanying text for a drop object.
@@ -7,7 +7,7 @@ old-location: shell\DROPDESCRIPTION.htm
 tech.root: shell
 ms.assetid: 78757001-cac8-412d-a6c3-74bae6eb3ad8
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DROPDESCRIPTION, DROPDESCRIPTION structure [Windows Shell], _shell_DROPDESCRIPTION, shell.DROPDESCRIPTION, shlobj_core/DROPDESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,9 +60,9 @@ Describes the image and accompanying text for a drop object.
 
 ### -field type
 
-Type: <b><a href="https://msdn.microsoft.com/eeaf8bd4-25ab-4ec3-9da9-9a72ba3813b9">DROPIMAGETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762498(v=VS.85).aspx">DROPIMAGETYPE</a></b>
 
-A <a href="https://msdn.microsoft.com/eeaf8bd4-25ab-4ec3-9da9-9a72ba3813b9">DROPIMAGETYPE</a> indicating the stock image to use.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb762498(v=VS.85).aspx">DROPIMAGETYPE</a> indicating the stock image to use.
 
 
 ### -field szMessage

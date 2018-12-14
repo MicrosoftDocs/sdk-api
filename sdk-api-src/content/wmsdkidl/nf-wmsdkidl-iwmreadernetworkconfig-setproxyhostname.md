@@ -127,11 +127,11 @@ By default, the proxy host name is <b>NULL</b>, and must be set if a proxy is be
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7411ed6-90ee-450c-bb06-408469036d22">IWMReaderNetworkConfig::GetProxyHostName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743532(v=VS.85).aspx">IWMReaderNetworkConfig::GetProxyHostName</a>
  
 
  

@@ -64,11 +64,11 @@ This property is read/write.
 
 
 
-To specify a server-based cover page file, you must set the <a href="https://msdn.microsoft.com/ca6b43c6-7b06-448c-b715-3c92a5c4a853">IFaxDocument::get_CoverPageType</a> property to <a href="https://msdn.microsoft.com/e5a86019-a2f4-4919-a8b3-8df8f81258e4">fcptSERVER</a>.
+To specify a server-based cover page file, you must set the <a href="https://msdn.microsoft.com/en-us/library/ms686003(v=VS.85).aspx">IFaxDocument::get_CoverPageType</a> property to <a href="https://msdn.microsoft.com/en-us/library/ms689603(v=VS.85).aspx">fcptSERVER</a>.
 
                 
 
-To specify a local or personal cover page file, you must set the <a href="https://msdn.microsoft.com/ca6b43c6-7b06-448c-b715-3c92a5c4a853">IFaxDocument::get_CoverPageType</a> property to <a href="https://msdn.microsoft.com/e5a86019-a2f4-4919-a8b3-8df8f81258e4">fcptLOCAL</a>.
+To specify a local or personal cover page file, you must set the <a href="https://msdn.microsoft.com/en-us/library/ms686003(v=VS.85).aspx">IFaxDocument::get_CoverPageType</a> property to <a href="https://msdn.microsoft.com/en-us/library/ms689603(v=VS.85).aspx">fcptLOCAL</a>.
 
 
 

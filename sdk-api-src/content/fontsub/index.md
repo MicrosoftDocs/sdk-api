@@ -2,7 +2,7 @@
 UID: NA:fontsub
 ms.assetid: 6833a040-f023-32b7-89ca-6053ded43f00
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

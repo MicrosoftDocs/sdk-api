@@ -66,7 +66,7 @@ If the thread is impersonating a client,
 ### -param NameFormat [in]
 
 The format of the name. This parameter is a value from the 
-<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be <b>NameUnknown</b>. If the user account is not in a domain, only <b>NameSamCompatible</b> is supported.
+<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be <b>NameUnknown</b>. If the user account is not in a domain, only <b>NameSamCompatible</b> is supported.
 
 
 ### -param lpNameBuffer [out]
@@ -142,7 +142,7 @@ The user name is not available in the specified format.
 
 
 
-<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a>
 
 
 

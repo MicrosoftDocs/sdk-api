@@ -80,7 +80,7 @@ The <b>IMSVidXDSEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2832f99b-16e9-4c09-903d-8d89f2cc7715">RatingChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694771(v=VS.85).aspx">RatingChange</a>
 </td>
 <td align="left" width="63%">
 Called when the current rating changes.

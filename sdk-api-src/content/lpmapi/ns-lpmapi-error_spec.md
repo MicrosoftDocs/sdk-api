@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.ERROR_SPEC
+UID: NS:lpmapi.__unnamed_struct_12
 title: ERROR_SPEC
 author: windows-sdk-content
 description: The ERROR_SPEC structure contains RSVP error messages.
@@ -7,7 +7,7 @@ old-location: qos\error_spec.htm
 tech.root: QOS
 ms.assetid: 4d20cbb8-c29a-4c0c-bf06-532144da3e33
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ERROR_SPEC, ERROR_SPEC structure [QOS], lpmapi/ERROR_SPEC, qos.error_spec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,7 +61,7 @@ The
 
 ### -field errs_header
 
-Error header, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+Error header, in the form of an <a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a> structure.
 
 
 ### -field errs_u
@@ -69,9 +69,17 @@ Error header, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e6
 Union containing RSVP error information.
 
 
-### -field errs_u.errs_ipv4
 
-Error information, expressed as an <a href="https://msdn.microsoft.com/23df7278-8f37-426f-98ff-0cf02d780b76">Error_Spec_IPv4</a> structure.
+#### errs_ipv4
+
+Error information, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373694(v=VS.85).aspx">Error_Spec_IPv4</a> structure.
+
+
+### -field errs_ipv4
+
+ 
+
+
 
 
 ## -see-also
@@ -79,11 +87,11 @@ Error information, expressed as an <a href="https://msdn.microsoft.com/23df7278-
 
 
 
-<a href="https://msdn.microsoft.com/23df7278-8f37-426f-98ff-0cf02d780b76">Error_Spec_IPv4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373694(v=VS.85).aspx">Error_Spec_IPv4</a>
 
 
 
-<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a>
  
 
  

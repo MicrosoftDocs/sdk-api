@@ -75,7 +75,7 @@ The <b>IWMWatermarkInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f303233-cd20-40ff-b564-4c44bf17a5f4">GetWatermarkEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798717(v=VS.85).aspx">GetWatermarkEntry</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about one available watermarking system.
@@ -84,7 +84,7 @@ Retrieves information about one available watermarking system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27a102b7-a495-49ee-9d65-a0276ca2cf76">GetWatermarkEntryCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798718(v=VS.85).aspx">GetWatermarkEntryCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of watermarking systems available.

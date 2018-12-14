@@ -94,7 +94,7 @@ If a root compound file has been created in transacted mode but not yet committe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380335(v=VS.85).aspx">StgIsStorageILockBytes</a>
+<a href="https://msdn.microsoft.com/ce0e29fd-1b21-4064-8e37-1a5d5df8bb61">StgIsStorageILockBytes</a>
  
 
  

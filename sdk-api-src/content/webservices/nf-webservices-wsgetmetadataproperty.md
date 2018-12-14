@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves a specified <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a> object  property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_ID</a> input parameter.
+Retrieves a specified <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a> object  property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/en-us/library/Dd401968(v=VS.85).aspx">WS_METADATA_PROPERTY_ID</a> input parameter.
             
 <div class="alert"><b>Note</b>  The data returned by this function is valid until the metadata
                 object is released or reset.  The data should not be modified.

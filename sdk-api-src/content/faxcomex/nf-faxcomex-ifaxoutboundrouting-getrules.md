@@ -60,9 +60,9 @@ The <b>IFaxOutboundRouting::GetRules</b> method retrieves an interface that repr
 
 ### -param pFaxOutboundRoutingRules [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>**</b>
 
-An address of a pointer that receives an <a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a> interface.
+An address of a pointer that receives an <a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a> interface.
 
 
 ## -returns

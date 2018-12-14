@@ -2,7 +2,7 @@
 UID: NA:wmsecure
 ms.assetid: 14a0419b-7f8b-3112-a842-d00a93875faa
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

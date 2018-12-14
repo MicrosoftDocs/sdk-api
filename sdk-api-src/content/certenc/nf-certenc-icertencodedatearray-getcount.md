@@ -71,7 +71,7 @@ A pointer to a <b>LONG</b> that receives the number of <b>DATE</b> values contai
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of <b>DATE</b> values contained in the <b>DATE</b> array.
@@ -84,15 +84,15 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383991(v=VS.85).aspx">ICertEncodeDateArray</a>
+<a href="https://msdn.microsoft.com/9973c49a-d886-4cc4-b75e-7ff46f56d51c">ICertEncodeDateArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384021(v=VS.85).aspx">ICertEncodeDateArray::GetValue</a>
+<a href="https://msdn.microsoft.com/db108b2a-c3ee-4ef8-be5c-74dc739dacee">ICertEncodeDateArray::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384030(v=VS.85).aspx">ICertEncodeDateArray::Reset</a>
+<a href="https://msdn.microsoft.com/f09087aa-ae10-4a59-9b59-5f8b72254ce6">ICertEncodeDateArray::Reset</a>
  
 
  

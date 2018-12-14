@@ -53,7 +53,7 @@ req.redist:
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-The <code>IAudioMediaStream</code> interface controls audio media streams by providing methods that set and get the stream's format. This interface inherits from the <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a> interface and is used to create one or more <a href="https://msdn.microsoft.com/53deec43-30ca-472e-9a82-750049686d2a">IAudioStreamSample</a> objects. You can also use it to set and retrieve the stream data's current format.
+The <code>IAudioMediaStream</code> interface controls audio media streams by providing methods that set and get the stream's format. This interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> interface and is used to create one or more <a href="https://msdn.microsoft.com/en-us/library/Dd389520(v=VS.85).aspx">IAudioStreamSample</a> objects. You can also use it to set and retrieve the stream data's current format.
 
 This interface is currently defined only for PCM format audio data.
 
@@ -68,7 +68,7 @@ Use this interface when you want to generate audio in your application.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioMediaStream</b> interface inherits from <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a>. <b>IAudioMediaStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioMediaStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a>. <b>IAudioMediaStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -83,7 +83,7 @@ The <b>IAudioMediaStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7d62a2c-54a9-4690-8ba0-34e927f9f093">CreateSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389517(v=VS.85).aspx">CreateSample</a>
 </td>
 <td align="left" width="63%">
 Creates an audio stream sample for use with this stream.
@@ -92,7 +92,7 @@ Creates an audio stream sample for use with this stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df582b90-f537-42cf-a83e-109a20446d8a">GetFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389518(v=VS.85).aspx">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream data's current format.
@@ -101,7 +101,7 @@ Retrieves the stream data's current format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5925f373-c862-4215-9877-5bb4d5411d36">SetFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389519(v=VS.85).aspx">SetFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the format for the stream.
@@ -116,7 +116,7 @@ Sets the format for the stream.
 
 
 
-<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a>
  
 
  

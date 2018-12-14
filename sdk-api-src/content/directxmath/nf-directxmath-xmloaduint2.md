@@ -61,7 +61,7 @@ Loads unsigned integer data into the x and y components
 
 ### -param pSource [in]
 
-Address of an <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a> structure containing the data to load. 
+Address of an <a href="https://msdn.microsoft.com/en-us/library/Ff728761(v=VS.85).aspx">XMUINT2</a> structure containing the data to load. 
         
 
 

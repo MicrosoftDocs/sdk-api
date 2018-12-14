@@ -87,7 +87,7 @@ A fax client application can use the <b>IFaxRoutingMethod::get_ImageName</b> pro
 
 
 
-<a href="https://msdn.microsoft.com/a205f9f6-719e-4520-b8ee-0e303b6c5113">IFaxRoutingMethod::get_ExtensionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690798(v=VS.85).aspx">IFaxRoutingMethod::get_ExtensionName</a>
 
 
 

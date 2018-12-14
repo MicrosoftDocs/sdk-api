@@ -65,7 +65,7 @@ Specifies the name of the file to hold the recording.
 
 ### -param pRecordingIUnknown [out]
 
-Receives a pointer to the recording object's <a href="https://msdn.microsoft.com/a61414dc-a9a0-4c65-8f5a-eaabc79783e3">IMSVidStreamBufferRecordingControl</a> interface.
+Receives a pointer to the recording object's <a href="https://msdn.microsoft.com/en-us/library/Dd694615(v=VS.85).aspx">IMSVidStreamBufferRecordingControl</a> interface.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The method succeeded.
 
 
 
-The caller must release the <a href="https://msdn.microsoft.com/a61414dc-a9a0-4c65-8f5a-eaabc79783e3">IMSVidStreamBufferRecordingControl</a> interface.
+The caller must release the <a href="https://msdn.microsoft.com/en-us/library/Dd694615(v=VS.85).aspx">IMSVidStreamBufferRecordingControl</a> interface.
 
 
 

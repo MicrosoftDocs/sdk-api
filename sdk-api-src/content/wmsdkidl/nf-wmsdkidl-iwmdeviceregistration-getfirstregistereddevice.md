@@ -72,7 +72,7 @@ The type of device for which to retrieve information. Devices that support Windo
 
 ### -param ppDevice [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice</a> interface. This interface provides access to information about the first registered device in the database that matches the type specified by <i>dwRegisterType</i>.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice</a> interface. This interface provides access to information about the first registered device in the database that matches the type specified by <i>dwRegisterType</i>.
 
 
 ## -returns
@@ -129,7 +129,7 @@ There are no registered devices to enumerate. When this value is returned, the a
 
 
 
-To enumerate registered devices of a given type, begin by calling this method to retrieve the first device entry. Then make repeated calls to <a href="https://msdn.microsoft.com/396e60a8-5845-45fa-8393-6f0defbd38bb">GetNextRegisteredDevice</a> to get subsequent device entries from the database.
+To enumerate registered devices of a given type, begin by calling this method to retrieve the first device entry. Then make repeated calls to <a href="https://msdn.microsoft.com/en-us/library/Dd743359(v=VS.85).aspx">GetNextRegisteredDevice</a> to get subsequent device entries from the database.
 
 The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used in this release.
 
@@ -141,7 +141,7 @@ The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used i
 
 
 
-<a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration Interface</a>
  
 
  

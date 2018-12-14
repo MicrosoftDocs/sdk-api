@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>IMSVidGraphSegmentContainer</b> interface is exposed by the Video Control and contains one supported method, <a href="https://msdn.microsoft.com/fecc2953-84d6-4d1b-bb3f-5b966debef1e">get_Graph</a>, which obtains a pointer to the Filter Graph Manager. 
+The <b>IMSVidGraphSegmentContainer</b> interface is exposed by the Video Control and contains one supported method, <a href="https://msdn.microsoft.com/en-us/library/Dd694567(v=VS.85).aspx">get_Graph</a>, which obtains a pointer to the Filter Graph Manager. 
 
 
 
@@ -73,7 +73,7 @@ The <b>IMSVidGraphSegmentContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fecc2953-84d6-4d1b-bb3f-5b966debef1e">get_Graph</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694567(v=VS.85).aspx">get_Graph</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the Filter Graph Manager.

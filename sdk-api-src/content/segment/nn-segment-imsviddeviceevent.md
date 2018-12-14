@@ -76,7 +76,7 @@ The <b>IMSVidDeviceEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f7a5e37-5a0d-415e-aca0-df5f9448b017">StateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694523(v=VS.85).aspx">StateChange</a>
 </td>
 <td align="left" width="63%">
 Signals that the state of the device has changed.

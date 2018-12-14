@@ -103,7 +103,7 @@ The following table lists the property names supported by the <b>IWMPropertyVaul
 <td>g_wszComplexity</td>
 <td><b>WMT_TYPE_WORD
                 </b></td>
-<td>Set to the complexity setting desired. You can find the complexity levels supported by a codec by calling <a href="https://msdn.microsoft.com/444f5789-c5e5-4eeb-a2b4-11f959641206">IWMCodecInfo3::GetCodecProp</a>.</td>
+<td>Set to the complexity setting desired. You can find the complexity levels supported by a codec by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743320(v=VS.85).aspx">IWMCodecInfo3::GetCodecProp</a>.</td>
 </tr>
 <tr>
 <td>g_wszDecoderComplexityRequested</td>
@@ -155,7 +155,7 @@ In addition to the values in the table, the settings for variable bit rate encod
 
 ### -param pType [in]
 
-Pointer to a member of the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
+Pointer to a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
 
 
 ### -param pValue [in]
@@ -248,7 +248,7 @@ You can remove a property using <b>SetProperty</b> by passing either <b>NULL</b>
 
 
 
-<a href="https://msdn.microsoft.com/0e51a9be-afd4-430b-8339-f45e8f9a7d20">IWMPropertyVault Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault Interface</a>
  
 
  

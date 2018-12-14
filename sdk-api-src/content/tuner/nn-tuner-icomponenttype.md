@@ -148,7 +148,7 @@ Retrieves the DirectShow media subtype as a <b>BSTR</b>.
 <a href="https://msdn.microsoft.com/ca13cfc0-3e51-41cd-9405-aaa96927a35c">get_MediaType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the DirectShow <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> media type structure for the component.
+Retrieves the DirectShow <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> media type structure for the component.
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ Sets the subtype member for the component.
 <a href="https://msdn.microsoft.com/6f77a391-232f-46ef-a028-763ebc706784">put_MediaType</a>
 </td>
 <td align="left" width="63%">
-Sets the DirectShow <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> media type structure for the component.
+Sets the DirectShow <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> media type structure for the component.
 
 </td>
 </tr>

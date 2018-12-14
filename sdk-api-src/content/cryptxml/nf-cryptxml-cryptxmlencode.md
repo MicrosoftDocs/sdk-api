@@ -72,7 +72,7 @@ A value of the <a href="https://msdn.microsoft.com/en-us/library/Dd433845(v=VS.8
 
 ### -param rgProperty [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd433860(v=VS.85).aspx">CRYPT_XML_PROPERTY</a> structures that contain additional properties.
+A pointer to an array of <a href="https://msdn.microsoft.com/287c205a-56ba-40ae-a664-9bccef2e9655">CRYPT_XML_PROPERTY</a> structures that contain additional properties.
 
 
 ### -param cProperty [in]

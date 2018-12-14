@@ -94,11 +94,11 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 
 
 
-<a href="https://msdn.microsoft.com/9e0e49af-61ef-408c-8c26-bb29ab26a1f5">IAMExtendedSeeking Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389331(v=VS.85).aspx">IAMExtendedSeeking Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/719e87c5-7d38-4b02-8342-055e42405511">IAMExtendedSeeking::GetMarkerTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389334(v=VS.85).aspx">IAMExtendedSeeking::GetMarkerTime</a>
  
 
  

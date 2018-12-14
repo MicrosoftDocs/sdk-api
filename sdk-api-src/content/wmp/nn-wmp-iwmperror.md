@@ -73,7 +73,7 @@ The <b>IWMPError</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8c965b48-d178-4b41-add7-0b7d208380a3">clearErrorQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563283(v=VS.85).aspx">clearErrorQueue</a>
 </td>
 <td align="left" width="63%">
 Clears the errors from the error queue.
@@ -82,7 +82,7 @@ Clears the errors from the error queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ad21e08-4566-4f3a-8506-308432996481">get_errorCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563284(v=VS.85).aspx">get_errorCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of errors in the error queue.
@@ -91,7 +91,7 @@ Retrieves the number of errors in the error queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6fda2f53-e8d8-4b67-9aa1-72273fc68f6c">get_item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563285(v=VS.85).aspx">get_item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPErrorItem</b> interface at the given index.
@@ -100,7 +100,7 @@ Retrieves a pointer to an <b>IWMPErrorItem</b> interface at the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98ece2f3-36c4-4bb2-9a06-c3ce57cbcbe7">webHelp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563287(v=VS.85).aspx">webHelp</a>
 </td>
 <td align="left" width="63%">
 Launches the Microsoft Windows Media Player Web Help page to display further information about the error.
@@ -118,10 +118,10 @@ Retrieve a pointer to an <b>IWMPError</b> interface with the following method.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/db00797b-989f-4f92-8fac-aaa147e37383">get_error</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563229(v=VS.85).aspx">get_error</a>
 </td>
 </tr>
 </table> 
@@ -132,7 +132,7 @@ Retrieve a pointer to an <b>IWMPError</b> interface with the following method.
 
 
 
-<a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
 
 
 

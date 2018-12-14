@@ -2,7 +2,7 @@
 UID: NA:callobj
 ms.assetid: 4f9d8388-f254-38ce-8079-ea72ba0796f4
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

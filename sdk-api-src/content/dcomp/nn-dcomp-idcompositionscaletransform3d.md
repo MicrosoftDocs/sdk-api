@@ -94,7 +94,7 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/96A7B9EC-7CD9-489F-AB97-A297321BDACD">SetScaleX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449018(v=VS.85).aspx">SetScaleX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleX property of a 3D scale transform.
 
@@ -102,7 +102,7 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90E48F55-B9A3-464D-9FB2-03AA27AA5A08">SetScaleY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449024(v=VS.85).aspx">SetScaleY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleY property of a scale transform.
 
@@ -110,7 +110,7 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CD00FBB3-246E-45D0-A7F6-5A7F9C37376B">SetScaleZ</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449030(v=VS.85).aspx">SetScaleZ</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleZ property of a scale transform.
 
@@ -137,7 +137,7 @@ The effect is to scale the blending of the visual's subtree up or down, and appl
 
 
 
-<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">IDCompositionEffectGroup::SetTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">IDCompositionEffectGroup::SetTransform3D</a>
 
 
 
@@ -145,7 +145,7 @@ The effect is to scale the blending of the visual's subtree up or down, and appl
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

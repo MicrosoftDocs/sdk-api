@@ -115,31 +115,31 @@ To use this method, read access to the library is required. For more information
 
 
 
-<a href="https://msdn.microsoft.com/323a6841-ffbd-4bbb-ac04-1d121cf5bd06">IWMPCdrom Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563080(v=VS.85).aspx">IWMPCdrom Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba55ac32-149d-4f7b-a2bb-1fdb0be806cd">IWMPCdromCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563097(v=VS.85).aspx">IWMPCdromCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e0c73b3-463c-43de-b1b8-5644a377bfd1">IWMPCdromCollection::get_count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563099(v=VS.85).aspx">IWMPCdromCollection::get_count</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bc7766b-1e5d-4ed4-8016-aa1e8e0a7cc1">IWMPCdromCollection::get_driveSpecifier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563109(v=VS.85).aspx">IWMPCdromCollection::get_driveSpecifier</a>
 
 
 
-<a href="https://msdn.microsoft.com/547a8ebe-b7c7-4dbc-96c4-1d5f5ef77f97">IWMPPlaylist::get_name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563571(v=VS.85).aspx">IWMPPlaylist::get_name</a>
 
 
 
-<a href="https://msdn.microsoft.com/07ca80a3-5175-4b1f-b83c-0df41a010cbf">IWMPSettings2::get_mediaAccessRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563651(v=VS.85).aspx">IWMPSettings2::get_mediaAccessRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/925a4c0b-d613-4248-a341-bfc51d02cb85">IWMPSettings2::requestMediaAccessRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563652(v=VS.85).aspx">IWMPSettings2::requestMediaAccessRights</a>
  
 
  

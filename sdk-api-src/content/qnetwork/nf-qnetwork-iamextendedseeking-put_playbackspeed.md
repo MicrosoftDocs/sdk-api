@@ -80,11 +80,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/9e0e49af-61ef-408c-8c26-bb29ab26a1f5">IAMExtendedSeeking Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389331(v=VS.85).aspx">IAMExtendedSeeking Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a92309fb-185a-4d6c-81c2-9613634c7170">IAMExtendedSeeking::get_PlaybackSpeed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389338(v=VS.85).aspx">IAMExtendedSeeking::get_PlaybackSpeed</a>
  
 
  

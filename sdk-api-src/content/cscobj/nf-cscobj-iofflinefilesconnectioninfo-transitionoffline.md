@@ -7,7 +7,7 @@ old-location: of\iofflinefilesconnectioninfo_transitionoffline.htm
 tech.root: offlinefiles
 ms.assetid: cb32238d-c8f2-4228-8472-4a699b24c621
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOffline method, IOfflineFilesConnectionInfo.TransitionOffline, IOfflineFilesConnectionInfo::TransitionOffline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOffline, TransitionOffline method [Offline Files], TransitionOffline method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::TransitionOffline, of.iofflinefilesconnectioninfo_transitionoffline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,11 +120,11 @@ Here is an example of how this method is used: When transitioning a scope offlin
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530511(v=VS.85).aspx">IOfflineFilesConnectionInfo</a>
+<a href="https://msdn.microsoft.com/923c5657-67e7-498a-a46b-97d44368cf3b">IOfflineFilesConnectionInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530515(v=VS.85).aspx">IOfflineFilesConnectionInfo::TransitionOnline</a>
+<a href="https://msdn.microsoft.com/b8cac664-598d-43fd-a77e-e8406c197afc">IOfflineFilesConnectionInfo::TransitionOnline</a>
  
 
  

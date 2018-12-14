@@ -87,7 +87,7 @@ Reserved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/147b431f-84ed-40b9-85a8-3c220b56cd3f">GetNetSourceAdminInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743240(v=VS.85).aspx">GetNetSourceAdminInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an administrative network source object.
@@ -124,7 +124,7 @@ Reserved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53c1a15e-3ced-44e5-b512-b381ae11aa65">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743241(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the network source creator.
@@ -133,7 +133,7 @@ Initializes the network source creator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/746b2ffa-c5bc-4df0-84fd-c3f1395e0d3e">Shutdown</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743242(v=VS.85).aspx">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the network source creator.

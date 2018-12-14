@@ -7,7 +7,7 @@ old-location: policy\irsopinformation_geteventlogentrytext.htm
 tech.root: policy
 ms.assetid: ee408c0a-437e-4caa-90b7-9717d43e1452
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetEventLogEntryText, GetEventLogEntryText method [Group Policy], GetEventLogEntryText method [Group Policy],IRSOPInformation interface, IRSOPInformation interface [Group Policy],GetEventLogEntryText method, IRSOPInformation.GetEventLogEntryText, IRSOPInformation::GetEventLogEntryText, _win32_irsopinformation_geteventlogentrytext, gpedit/IRSOPInformation::GetEventLogEntryText, policy.irsopinformation_geteventlogentrytext
 ms.prod: windows-hardware
 ms.technology: windows-devices

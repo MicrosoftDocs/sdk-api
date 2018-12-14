@@ -4,7 +4,7 @@ title: IWorkspaceClientExt::GetResourceId
 author: windows-sdk-content
 description: Returns the ID of the custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext_getresourceid.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: c7a0c77c-0579-48dd-bc06-8ffe48358661
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -76,7 +76,7 @@ The index of the image to replace. If
 
 ### -param hicon [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HICON</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HICON</a></b>
 
 The handle to the icon or cursor that contains the bitmap and mask for the new image. 
 

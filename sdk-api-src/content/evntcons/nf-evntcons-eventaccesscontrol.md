@@ -70,7 +70,7 @@ GUID that uniquely identifies the provider or session whose permissions you want
 ### -param Operation [in]
 
 Type of operation to perform, for example, add a DACL to the session's GUID or provider's GUID. For 
-      possible values, see the <a href="https://msdn.microsoft.com/81f6cf07-2705-4075-b085-d5aebba17121">EVENTSECURITYOPERATION</a> 
+      possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa363745(v=VS.85).aspx">EVENTSECURITYOPERATION</a> 
       enumeration.
 
 

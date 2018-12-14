@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>ICertificationAuthority</b> interface represents a single certification authority. A collection of certification authorities is represented by the <a href="https://msdn.microsoft.com/en-us/library/Ee338611(v=VS.85).aspx">ICertificationAuthorities</a> interface.
+The <b>ICertificationAuthority</b> interface represents a single certification authority. A collection of certification authorities is represented by the <a href="https://msdn.microsoft.com/8dad280a-1fe7-4a4b-9392-eee3aa9bcde9">ICertificationAuthorities</a> interface.
 
 
 ## -see-also
@@ -58,7 +58,7 @@ The <b>ICertificationAuthority</b> interface represents a single certification a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338611(v=VS.85).aspx">ICertificationAuthorities</a>
+<a href="https://msdn.microsoft.com/8dad280a-1fe7-4a4b-9392-eee3aa9bcde9">ICertificationAuthorities</a>
 
 
 

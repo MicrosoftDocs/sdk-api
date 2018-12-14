@@ -61,23 +61,23 @@ Creates a render-target view for accessing resource data.
 
 ### -param pResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a> that represents a render target. This resource must have been created with the <a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">D3D11_BIND_RENDER_TARGET</a> flag.
+Pointer to a <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a> that represents a render target. This resource must have been created with the <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_RENDER_TARGET</a> flag.
 
 
 ### -param pDesc1 [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn899158(v=VS.85).aspx">D3D11_RENDER_TARGET_VIEW_DESC1</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/D87F06B4-7574-4BBD-A481-653CA35B8FB2">D3D11_RENDER_TARGET_VIEW_DESC1</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899158(v=VS.85).aspx">D3D11_RENDER_TARGET_VIEW_DESC1</a> that represents a render-target view description. Set this parameter to <b>NULL</b> to create a view that accesses all of the subresources in mipmap level 0.
+Pointer to a <a href="https://msdn.microsoft.com/D87F06B4-7574-4BBD-A481-653CA35B8FB2">D3D11_RENDER_TARGET_VIEW_DESC1</a> that represents a render-target view description. Set this parameter to <b>NULL</b> to create a view that accesses all of the subresources in mipmap level 0.
 
 
 ### -param ppRTView1 [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn899240(v=VS.85).aspx">ID3D11RenderTargetView1</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/6063229D-A85A-46E8-9034-D1C2C26A5274">ID3D11RenderTargetView1</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899240(v=VS.85).aspx">ID3D11RenderTargetView1</a> interface for the created render-target view. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/6063229D-A85A-46E8-9034-D1C2C26A5274">ID3D11RenderTargetView1</a> interface for the created render-target view. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
 
 
 ## -returns
@@ -86,7 +86,7 @@ A pointer to a memory block that receives a pointer to a <a href="https://msdn.m
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
 
 
@@ -95,7 +95,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-A render-target view can be bound to the output-merger stage by calling <a href="https://msdn.microsoft.com/en-us/library/Ff476464(v=VS.85).aspx">ID3D11DeviceContext::OMSetRenderTargets</a>.
+A render-target view can be bound to the output-merger stage by calling <a href="https://msdn.microsoft.com/65514812-7433-4c13-a6cb-53980dacdf65">ID3D11DeviceContext::OMSetRenderTargets</a>.
 
 
 
@@ -105,7 +105,7 @@ A render-target view can be bound to the output-merger stage by calling <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899218(v=VS.85).aspx">ID3D11Device3</a>
+<a href="https://msdn.microsoft.com/0AA10851-0077-4075-BD41-72FCD7BC0556">ID3D11Device3</a>
  
 
  

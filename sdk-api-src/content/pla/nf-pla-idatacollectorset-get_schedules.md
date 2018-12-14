@@ -7,7 +7,7 @@ old-location: pla\idatacollectorset_get_schedules.htm
 tech.root: pla
 ms.assetid: 6654c101-5179-41db-8fd9-ae281691073f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],Schedules property, IDataCollectorSet.Schedules, IDataCollectorSet.get_Schedules, IDataCollectorSet::Schedules, IDataCollectorSet::get_Schedules, Schedules property [PLA], Schedules property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_schedules, get_Schedules, pla.idatacollectorset_get_schedules, pla/IDataCollectorSet::Schedules, pla/IDataCollectorSet::get_Schedules
 ms.prod: windows-hardware
 ms.technology: windows-devices

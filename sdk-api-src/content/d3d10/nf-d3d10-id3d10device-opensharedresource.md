@@ -60,7 +60,7 @@ Give a device access to a shared resource created on a different Direct3d device
 
 ### -param hResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HANDLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a></b>
 
 A resource handle. See remarks.
 

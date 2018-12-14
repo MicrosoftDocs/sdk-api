@@ -4,7 +4,7 @@ title: ITsSbTarget::put_FarmName
 author: windows-sdk-content
 description: Retrieves or specifies the name of the farm to which this target is joined.
 old-location: termserv\itssbtarget_farmname.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 83e168ae-f985-40f9-912b-496c0695f82a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

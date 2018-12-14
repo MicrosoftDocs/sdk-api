@@ -91,7 +91,7 @@ This method is called by Windows Media Player only for plug-ins that provide a p
 
 
 
-<a href="https://msdn.microsoft.com/f292a3e6-87bf-4e68-8737-f7d6351c4ff4">IWMPPluginUI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563591(v=VS.85).aspx">IWMPPluginUI Interface</a>
  
 
  

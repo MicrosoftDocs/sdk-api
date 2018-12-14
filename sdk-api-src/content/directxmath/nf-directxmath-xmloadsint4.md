@@ -60,7 +60,7 @@ Loads signed integer data into an <a href="https://msdn.microsoft.com/1a044094-4
 
 ### -param pSource [in]
 
-Address of an <a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a> structure containing the data to load. 
+Address of an <a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a> structure containing the data to load. 
 
 
 ## -returns

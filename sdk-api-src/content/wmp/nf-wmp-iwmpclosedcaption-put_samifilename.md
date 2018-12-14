@@ -116,15 +116,15 @@ Once you specify a value using <b>put_SAMIFileName</b>, that value persists unti
 
 
 
-<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f09df76-3bfc-48ce-881f-c905656ecbbf">IWMPClosedCaption::get_SAMIFileName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563122(v=VS.85).aspx">IWMPClosedCaption::get_SAMIFileName</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6e21995-5dbd-4893-a9f2-6ce918d3fbc4">IWMPCore::close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563223(v=VS.85).aspx">IWMPCore::close</a>
  
 
  

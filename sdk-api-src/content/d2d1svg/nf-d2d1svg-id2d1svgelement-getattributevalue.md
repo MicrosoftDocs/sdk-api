@@ -90,7 +90,7 @@ The number of elements in the returned value.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code. Returns an error if the attribute name is not valid on this
             element. Returns an error if the attribute cannot be expressed as the specified

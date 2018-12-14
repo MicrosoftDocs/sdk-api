@@ -4,7 +4,7 @@ title: IRemoteDesktopClientTouchPointer::put_Enabled
 author: windows-sdk-content
 description: Whether the touch pointer feature is enabled on the RDP app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer_enabled.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: f1e2f2f2-1b96-4c5a-b0dd-fd57627c5ec3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

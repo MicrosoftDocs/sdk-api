@@ -55,9 +55,9 @@ The <b>IEnumTfCandidates</b> interface is implemented by a text service and used
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfCandidates</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumTfCandidates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfCandidates</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumTfCandidates</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IEnumTfCandidates</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538127(v=VS.85).aspx">Clone</a>
+<a href="https://msdn.microsoft.com/7e7fc6d9-69eb-4457-be28-2b28b9eeeabb">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the enumerator object.
@@ -79,7 +79,7 @@ Creates a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538129(v=VS.85).aspx">Next</a>
+<a href="https://msdn.microsoft.com/50aaa3c0-6998-49de-9753-7be38625a10d">Next</a>
 </td>
 <td align="left" width="63%">
 Obtains, from the current position, the specified number of elements in the enumeration sequence.
@@ -88,7 +88,7 @@ Obtains, from the current position, the specified number of elements in the enum
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538131(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/2c5527ff-5f26-4e94-93ea-15273ec5a315">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
@@ -97,7 +97,7 @@ Resets the enumerator object by moving the current position to the beginning of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538133(v=VS.85).aspx">Skip</a>
+<a href="https://msdn.microsoft.com/f32587f2-cdfa-4cbc-8a5c-f6630c7866f9">Skip</a>
 </td>
 <td align="left" width="63%">
 Moves the current position forward in the enumeration sequence by the specified number of elements.

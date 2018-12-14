@@ -60,7 +60,7 @@ The <b>DsQuerySitesFree</b> function frees the memory allocated by the <a href="
 
 ### -param rgSiteInfo [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/1920e824-992f-4d69-9b6d-586f58fa2ef7">DS_SITE_COST_INFO</a> structures allocated by a call to <a href="https://msdn.microsoft.com/7a4cbd1c-8445-4882-8559-d44b6e5693e7">DsQuerySitesByCost</a>.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms676286(v=VS.85).aspx">DS_SITE_COST_INFO</a> structures allocated by a call to <a href="https://msdn.microsoft.com/7a4cbd1c-8445-4882-8559-d44b6e5693e7">DsQuerySitesByCost</a>.
 
 
 ## -returns
@@ -77,7 +77,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/1920e824-992f-4d69-9b6d-586f58fa2ef7">DS_SITE_COST_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676286(v=VS.85).aspx">DS_SITE_COST_INFO</a>
 
 
 

@@ -65,7 +65,7 @@ This property is read-only.
 
 If the sender's name is not available, the <b>IFaxJob::get_SenderName</b> property contains an empty string.
 
-You can call the <a href="https://msdn.microsoft.com/811ad121-1602-4829-bf6c-aef680eebe3f">IFaxJob::get_UserName</a> method to retrieve the name of the account that queued the fax job. 
+You can call the <a href="https://msdn.microsoft.com/en-us/library/ms691960(v=VS.85).aspx">IFaxJob::get_UserName</a> method to retrieve the name of the account that queued the fax job. 
 
 <b>IFaxJob::get_SenderName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -89,7 +89,7 @@ You can call the <a href="https://msdn.microsoft.com/811ad121-1602-4829-bf6c-aef
 
 
 
-<a href="https://msdn.microsoft.com/811ad121-1602-4829-bf6c-aef680eebe3f">IFaxJob::get_UserName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691960(v=VS.85).aspx">IFaxJob::get_UserName</a>
 
 
 

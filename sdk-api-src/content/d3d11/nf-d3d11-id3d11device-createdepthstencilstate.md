@@ -61,16 +61,16 @@ Create a depth-stencil state object that encapsulates depth-stencil test informa
 
 ### -param pDepthStencilDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Ff476110(v=VS.85).aspx">D3D11_DEPTH_STENCIL_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/5e136ca8-8655-4c75-9bc0-bcf3a7af930a">D3D11_DEPTH_STENCIL_DESC</a>*</b>
 
-Pointer to a depth-stencil state description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476110(v=VS.85).aspx">D3D11_DEPTH_STENCIL_DESC</a>).
+Pointer to a depth-stencil state description (see <a href="https://msdn.microsoft.com/5e136ca8-8655-4c75-9bc0-bcf3a7af930a">D3D11_DEPTH_STENCIL_DESC</a>).
 
 
 ### -param ppDepthStencilState [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476375(v=VS.85).aspx">ID3D11DepthStencilState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/cac22076-2ba6-4ab1-918e-8c9a7773acf6">ID3D11DepthStencilState</a>**</b>
 
-Address of a pointer to the depth-stencil state object created (see <a href="https://msdn.microsoft.com/en-us/library/Ff476375(v=VS.85).aspx">ID3D11DepthStencilState</a>).
+Address of a pointer to the depth-stencil state object created (see <a href="https://msdn.microsoft.com/cac22076-2ba6-4ab1-918e-8c9a7773acf6">ID3D11DepthStencilState</a>).
 
 
 ## -returns
@@ -79,7 +79,7 @@ Address of a pointer to the depth-stencil state object created (see <a href="htt
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
 
 
@@ -100,7 +100,7 @@ If an application attempts to create a depth-stencil-state interface with the sa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

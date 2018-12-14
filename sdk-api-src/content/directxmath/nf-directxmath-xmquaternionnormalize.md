@@ -94,7 +94,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/fabc66dc-2930-4ef3-b202-13436176d5a5">XMQuaternionNormalizeEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420169(v=VS.85).aspx">XMQuaternionNormalizeEst</a>
  
 
  

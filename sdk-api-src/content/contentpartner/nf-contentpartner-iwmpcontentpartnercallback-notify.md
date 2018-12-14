@@ -115,7 +115,7 @@ If the type of the <i>pContext</i> parameter is <b>VT_BOOL</b>, this call notifi
 
 If the type of the <i>pContext</i> parameter is <b>VT_UI4</b>, this call notifies Windows Media Player that a log-in attempt failed. The <b>ulVal</b> member of <i>pContext</i> specifies the index of a webpage, provided by the online store, that will handle the failure. The Player obtains the URL of the webpage by passing the index to <a href="https://msdn.microsoft.com/en-us/library/Dd563165(v=VS.85).aspx">IWMPContentPartner::GetItemInfo</a>, which is implemented by the online store's plug-in. Note that the webpage index is not interpreted by Windows Media Player; it has meaning only to the online store.
 
-For more information about logging in and out, see <a href="https://msdn.microsoft.com/en-us/library/Dd563807(v=VS.85).aspx">Managing Login</a>.
+For more information about logging in and out, see <a href="https://msdn.microsoft.com/5cafcd3a-e819-4524-b7a9-580ff36fc4f8">Managing Login</a>.
 
 wmpcnAuthResult
 

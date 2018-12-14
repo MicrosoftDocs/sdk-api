@@ -4,7 +4,7 @@ title: ITsSbTarget::put_TargetFQDN
 author: windows-sdk-content
 description: Retrieves or specifies the fully qualified domain name of the target.
 old-location: termserv\itssbtarget_targetfqdn.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 37fa2889-e218-499f-b0e1-6172b04f5328
 ms.author: windowssdkdev
 ms.date: 12/5/2018

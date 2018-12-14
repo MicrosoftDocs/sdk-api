@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.SHELLSTATEW
+UID: NS:shlobj_core.__unnamed_struct_14
 title: SHELLSTATEW
 author: windows-sdk-content
 description: Contains settings for the Shell's state. This structure is used with the SHGetSetSettings function.
@@ -7,7 +7,7 @@ old-location: shell\SHELLSTATE.htm
 tech.root: shell
 ms.assetid: a5ba0e9f-d164-4fe6-97ab-34d61289ce1c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPSHELLSTATEW, LPSHELLSTATE, LPSHELLSTATE structure pointer [Windows Shell], SHELLSTATE, SHELLSTATE structure [Windows Shell], SHELLSTATEA, SHELLSTATEW, _win32_SHELLSTATE, shell.SHELLSTATE, shlobj_core/LPSHELLSTATE, shlobj_core/SHELLSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

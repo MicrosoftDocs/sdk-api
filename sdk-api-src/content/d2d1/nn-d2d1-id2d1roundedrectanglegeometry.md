@@ -85,7 +85,7 @@ Retrieves a rounded rectangle that describes this rounded rectangle geometry.
 
 
 <h3><a id="Creating_ID2D1RoundedRectangleGeometry_Objects"></a><a id="creating_id2d1roundedrectanglegeometry_objects"></a><a id="CREATING_ID2D1ROUNDEDRECTANGLEGEOMETRY_OBJECTS"></a>Creating ID2D1RoundedRectangleGeometry Objects</h3>
-To create a rectangle geometry, use the <a href="https://msdn.microsoft.com/b0f7ccb0-5733-4f96-a532-8f665fbc257e">ID2D1Factory::CreateRoundedRectangleGeometry</a> method.
+To create a rectangle geometry, use the <a href="https://msdn.microsoft.com/en-us/library/Dd742728(v=VS.85).aspx">ID2D1Factory::CreateRoundedRectangleGeometry</a> method.
 
 Direct2D geometries are immutable and device-independent resources created by <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>. 
 

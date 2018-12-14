@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.PSS_ALLOCATOR
+UID: NS:processsnapshot.__unnamed_struct_12
 title: PSS_ALLOCATOR
 author: windows-sdk-content
 description: Specifies custom functions which the Process Snapshotting functions use to allocate and free the internal walk marker structures.
@@ -7,7 +7,7 @@ old-location: proc_snap\pss_allocator.htm
 tech.root: proc_snap
 ms.assetid: 54225F76-9A2E-4CB3-A3B5-9F9DB5551D53
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PSS_ALLOCATOR, PSS_ALLOCATOR structure, proc_snap.pss_allocator, processsnapshot/PSS_ALLOCATOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

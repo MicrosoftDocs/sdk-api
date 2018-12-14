@@ -90,7 +90,7 @@ The DMO performs lookahead on the incoming data, and may hold multiple input buf
 
 
 
-<a href="https://msdn.microsoft.com/9e18bf5e-cf29-4446-a1ba-422b41e02edc">IMediaObject::GetInputStreamInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406951(v=VS.85).aspx">IMediaObject::GetInputStreamInfo</a>
  
 
  

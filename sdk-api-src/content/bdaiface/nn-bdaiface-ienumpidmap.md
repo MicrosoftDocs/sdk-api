@@ -52,7 +52,7 @@ req.redist:
 
 
 
-The <code>IEnumPIDMap</code> interface enumerates a collection of Packet ID (PID) maps. Each PID map describes how the <a href="https://msdn.microsoft.com/en-us/library/Dd390715(v=VS.85).aspx">MPEG-2 Demultiplexer</a> filter maps a PID to an output pin on the filter. PID mappings are created by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd407134(v=VS.85).aspx">IMPEG2PIDMap::MapPID</a> method on the filter's output pin.
+The <code>IEnumPIDMap</code> interface enumerates a collection of Packet ID (PID) maps. Each PID map describes how the <a href="https://msdn.microsoft.com/99bfc55d-6519-4e85-98ce-cad27bd71ffb">MPEG-2 Demultiplexer</a> filter maps a PID to an output pin on the filter. PID mappings are created by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd407134(v=VS.85).aspx">IMPEG2PIDMap::MapPID</a> method on the filter's output pin.
 
 To obtain the <code>IEnumPIDMap</code> interface, call the <a href="https://msdn.microsoft.com/en-us/library/Dd407133(v=VS.85).aspx">IMPEG2PIDMap::EnumPIDMap</a> method on the output pin. Typically, output pins for audio and video streams have at most one PID mapped at any given time.
 
@@ -63,9 +63,9 @@ This interface implements a standard Component Object Model (COM) collection obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPIDMap</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumPIDMap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPIDMap</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumPIDMap</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

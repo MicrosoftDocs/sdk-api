@@ -61,7 +61,7 @@ The <b>IMSVidFilePlayback2</b> interface enables the client to specify a DirectS
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFilePlayback2</b> interface inherits from <a href="https://msdn.microsoft.com/d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5">IMSVidFilePlayback</a>. <b>IMSVidFilePlayback2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFilePlayback2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694551(v=VS.85).aspx">IMSVidFilePlayback</a>. <b>IMSVidFilePlayback2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IMSVidFilePlayback2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/257e93ec-fb26-45fb-b07b-4491dbf2528a">put___SourceFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694554(v=VS.85).aspx">put___SourceFilter</a>
 </td>
 <td align="left" width="63%">
 Sets the CLSID of a DirectShow source filter to use for this source.
@@ -85,7 +85,7 @@ Sets the CLSID of a DirectShow source filter to use for this source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef536087-dd2b-417f-b139-916d930e3d25">put__SourceFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694553(v=VS.85).aspx">put__SourceFilter</a>
 </td>
 <td align="left" width="63%">
 Sets the CLSID of a DirectShow source filter to use for this source. The CLSID is specified as a string.
@@ -109,7 +109,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5">IMSVidFilePlayback</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694551(v=VS.85).aspx">IMSVidFilePlayback</a>
 
 
 

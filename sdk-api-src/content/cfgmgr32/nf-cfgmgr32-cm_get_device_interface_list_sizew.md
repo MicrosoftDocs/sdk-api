@@ -56,7 +56,7 @@ req.redist:
 
 The <b>CM_Get_Device_Interface_List_Size</b> function retrieves the buffer size 
      that must be passed to the 
-     <a href="https://msdn.microsoft.com/en-us/library/Ff538463(v=VS.85).aspx">CM_Get_Device_Interface_List</a> 
+     <a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a> 
      function.
 
 
@@ -139,7 +139,7 @@ If the operation succeeds, the function returns <b>CR_SUCCESS</b>. Otherwise, it
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538463(v=VS.85).aspx">CM_Get_Device_Interface_List</a>
+<a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a>
  
 
  

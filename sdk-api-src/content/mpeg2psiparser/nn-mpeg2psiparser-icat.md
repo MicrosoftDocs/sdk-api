@@ -76,7 +76,7 @@ The <b>ICAT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bdd8f7a6-0c77-4058-bcca-9d712da781e0">ConvertNextToCurrent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693492(v=VS.85).aspx">ConvertNextToCurrent</a>
 </td>
 <td align="left" width="63%">
 Converts a <i>next</i> table to a <i>current</i> table.
@@ -85,7 +85,7 @@ Converts a <i>next</i> table to a <i>current</i> table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3111eecc-b869-4235-8af4-cc0ef9cc5e4e">GetCountOfTableDescriptors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693493(v=VS.85).aspx">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors in the CAT.
@@ -94,7 +94,7 @@ Returns the number of descriptors in the CAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/466643d5-02d1-4ac1-9143-867f503aad09">GetNextTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693494(v=VS.85).aspx">GetNextTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <i>next</i> table that follows the current table.
@@ -112,7 +112,7 @@ Retrieves a table descriptor for the CAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f28fb2c1-d9bb-4786-b3cc-db9583752e1b">GetTableDescriptorByTag</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693496(v=VS.85).aspx">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches the CAT for a descriptor with the specified descriptor tag.
@@ -121,7 +121,7 @@ Searches the CAT for a descriptor with the specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d117e4dd-5e7f-4f60-b657-25eae0f655cc">GetVersionNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693497(v=VS.85).aspx">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the CAT.
@@ -130,7 +130,7 @@ Returns the version number for the CAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74751ee7-4cc9-451b-b4da-29df3ebf0df5">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693498(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -139,7 +139,7 @@ Initializes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17d77207-253f-48e2-a7ec-3bcc549d2d5e">RegisterForNextTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693499(v=VS.85).aspx">RegisterForNextTable</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
@@ -148,7 +148,7 @@ Registers the client to be notified when a <i>next</i> table arrives that will r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74a5c410-314e-4f49-b294-a4788e85cbef">RegisterForWhenCurrent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693500(v=VS.85).aspx">RegisterForWhenCurrent</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when the table becomes current.

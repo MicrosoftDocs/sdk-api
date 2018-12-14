@@ -73,7 +73,7 @@ The <b>IMSVidAudioRendererDevices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/663ca24a-9f27-4642-b8e1-901f93090bd7">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694437(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an audio renderer to the collection.
@@ -82,7 +82,7 @@ Adds an audio renderer to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/afc8efc7-7e1f-4900-be6b-f41871ad4ebe">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694450(v=VS.85).aspx">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection.
@@ -91,7 +91,7 @@ Retrieves an enumerator for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46a3b579-a027-4c80-9f7a-f81dd9af4d0d">get_Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694438(v=VS.85).aspx">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the collection.
@@ -100,7 +100,7 @@ Retrieves the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba6e9161-0881-4f95-9507-acf2a01e05e6">get_Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694439(v=VS.85).aspx">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified item from the collection
@@ -109,7 +109,7 @@ Retrieves the specified item from the collection
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a9cf752-e3f8-40bf-89e8-e223654e4080">Remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694451(v=VS.85).aspx">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.

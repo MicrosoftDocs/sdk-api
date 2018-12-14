@@ -214,11 +214,11 @@ When the SNMP service receives an SNMP PDU request, it calls the
 <b>SnmpExtensionQuery</b> function to process the request. The extension agent must follow the rules in RFC 1157 to either resolve the variable bindings or generate an error.
 
 If the extension agent cannot resolve the variable bindings on a <b>Get Next</b> request, it must change the <b>name</b> field of the 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure to the value of the object identifier immediately following that of the currently supported MIB subtree view. For example, if the extension agent supports view ".1.3.6.1.4.1.77.1", a <b>Get Next</b> request on ".1.3.6.1.4.1.77.1.5.1" would result in a modified <b>name</b> field of ".1.3.6.1.4.1.77.2". This signals the SNMP service to continue the attempt to resolve the variable bindings with other extension agents.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a> structure to the value of the object identifier immediately following that of the currently supported MIB subtree view. For example, if the extension agent supports view ".1.3.6.1.4.1.77.1", a <b>Get Next</b> request on ".1.3.6.1.4.1.77.1.5.1" would result in a modified <b>name</b> field of ".1.3.6.1.4.1.77.2". This signals the SNMP service to continue the attempt to resolve the variable bindings with other extension agents.
 
 It is important to note that the SNMP service and the extension agent may need to exchange dynamically allocated memory during a call to the 
 <b>SnmpExtensionQuery</b> function. The service dynamically allocates the object identifier in each 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure it passes to the extension agent. However, the extension agent must release this memory in order to replace the object identifier when it processes a <b>Get Next</b> request. The extension agent allocates dynamic memory for variable-length object types. The SNMP service releases this memory after the object is placed in the response PDU.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a> structure it passes to the extension agent. However, the extension agent must release this memory in order to replace the object identifier when it processes a <b>Get Next</b> request. The extension agent allocates dynamic memory for variable-length object types. The SNMP service releases this memory after the object is placed in the response PDU.
 
 In order to avoid heap corruption and memory leaks, both the SNMP service and the extension agent must use memory allocation routines that resolve to the same heap. The extension agent must use the 
 <a href="https://msdn.microsoft.com/85e293da-4c5b-4b32-9b86-e63074d37274">SnmpUtilMemAlloc</a> function to allocate memory that it passes to the SNMP service. It must use the 
@@ -252,7 +252,7 @@ In order to avoid heap corruption and memory leaks, both the SNMP service and th
 
 
 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a>
  
 
  

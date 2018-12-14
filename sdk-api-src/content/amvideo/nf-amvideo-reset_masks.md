@@ -51,7 +51,7 @@ req.redist:
 
 
 
-The <b>RESET_MASKS</b> macro fills the color mask fields in a <a href="https://msdn.microsoft.com/f08a449c-fed4-400b-a2fc-817bd59ba3fd">VIDEOINFO</a> structure with zeroes.
+The <b>RESET_MASKS</b> macro fills the color mask fields in a <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structure with zeroes.
 
 
 
@@ -63,7 +63,7 @@ The <b>RESET_MASKS</b> macro fills the color mask fields in a <a href="https://m
 
 ### -param pbmi
 
-Pointer to a <a href="https://msdn.microsoft.com/f08a449c-fed4-400b-a2fc-817bd59ba3fd">VIDEOINFO</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structure.
 
 
 ## -remarks

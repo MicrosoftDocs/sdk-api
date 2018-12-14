@@ -60,7 +60,7 @@ The <b>IWMHeaderInfo2</b> interface is implemented by the metadata editor object
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMHeaderInfo2</b> interface inherits from <a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo</a>. <b>IWMHeaderInfo2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMHeaderInfo2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo</a>. <b>IWMHeaderInfo2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMHeaderInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/685eaf9e-6cc8-4c38-be34-afa4b504a326">GetCodecInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798506(v=VS.85).aspx">GetCodecInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a codec.
@@ -84,7 +84,7 @@ Retrieves information about a codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f77f362-5cc7-4d12-9b5f-0436d490b46d">GetCodecInfoCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798507(v=VS.85).aspx">GetCodecInfoCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of codecs for which information is available.
@@ -111,11 +111,11 @@ For information about using the writer for metadata editing, see <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3 Interface</a>
 
 
 

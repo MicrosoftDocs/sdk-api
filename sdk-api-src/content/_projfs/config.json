@@ -1,7 +1,6 @@
 {
   "tech": "projfs",
   "headers": [
-    "tbd",
     "projectedfslib.h"
   ],
   "displayName": "Projected File System"

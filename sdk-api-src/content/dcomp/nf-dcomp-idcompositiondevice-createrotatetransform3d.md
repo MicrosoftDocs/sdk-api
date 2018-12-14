@@ -60,7 +60,7 @@ Creates a 3D rotation transform object.
 
 ### -param rotateTransform3D [out]
 
-Type: <b><a href="https://msdn.microsoft.com/BEC58B57-66A1-4645-A0B8-D546334E1E23">IDCompositionRotateTransform3D</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx">IDCompositionRotateTransform3D</a>**</b>
 
 The new 3D rotation transform object. This parameter must not be NULL.
 
@@ -90,7 +90,7 @@ A new 3D rotation transform object has a default static value of zero for the An
 
 
 
-<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
 
 
 
@@ -98,7 +98,7 @@ A new 3D rotation transform object has a default static value of zero for the An
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

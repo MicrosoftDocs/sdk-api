@@ -7,7 +7,7 @@ old-location: base\powerunregisterfromeffectivepowermodenotifications.htm
 tech.root: power
 ms.assetid: 6E9AB09B-B082-406C-8F2D-43BEA04C19E0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: PowerUnregisterFromEffectivePowerModeNotifications, PowerUnregisterFromEffectivePowerModeNotifications function, base.powerunregisterfromeffectivepowermodenotifications, powersetting/PowerUnregisterFromEffectivePowerModeNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ Unregisters from effective power mode change notifications. This function is int
 
 ### -param RegistrationHandle
 
-The handle corresponding to a single power mode registration. This handle should have been saved by the caller after the call to <a href="base.powerregisterforeffectivepowermodenotifications">PowerRegisterForEffectivePowerModeNotifications</a> and passed in here. 
+The handle corresponding to a single power mode registration. This handle should have been saved by the caller after the call to <a href="https://msdn.microsoft.com/en-us/library/Mt830299(v=VS.85).aspx">PowerRegisterForEffectivePowerModeNotifications</a> and passed in here. 
 
 
 ## -returns
@@ -86,7 +86,7 @@ Immediately after registration, the callback will be invoked with the current va
 
 
 
-<a href="base.powerregisterforeffectivepowermodenotifications">PowerRegisterForEffectivePowerModeNotifications</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt830299(v=VS.85).aspx">PowerRegisterForEffectivePowerModeNotifications</a>
  
 
  

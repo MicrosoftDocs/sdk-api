@@ -4,7 +4,7 @@ title: ITsSbGlobalStore::QuerySessionBySessionId
 author: windows-sdk-content
 description: Retrieves the ITsSbSession object associated with the given session ID.
 old-location: termserv\itssbglobalstore_querysessionbysessionid.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d710842a-9bd5-4791-8f6e-bac2fe07c93f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

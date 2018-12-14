@@ -103,7 +103,7 @@ Similarly, a device that supports deinterlacing is not required to support deint
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447678(v=VS.85).aspx">Direct3D 11 Video Enumerations</a>
+<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
  
 
  

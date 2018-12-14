@@ -89,7 +89,7 @@ The <b>GetCodecFormatCount</b> method retrieves the number of formats supported 
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major media type, use the <a href="https://msdn.microsoft.com/873f8d03-5d7b-424c-91f3-e7c8156565be">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major media type, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743324(v=VS.85).aspx">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 
 ### -param pcFormat [out]
@@ -165,11 +165,11 @@ You do not need to call this method for the Windows Media Video codecs; each vid
 
 
 
-<a href="https://msdn.microsoft.com/70661d13-737a-4e83-94e6-9a1af07b0369">IWMCodecInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743313(v=VS.85).aspx">IWMCodecInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbfffc96-2286-4fdf-a76f-ad8e0ecd7aff">IWMCodecInfo::GetCodecFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743322(v=VS.85).aspx">IWMCodecInfo::GetCodecFormat</a>
  
 
  

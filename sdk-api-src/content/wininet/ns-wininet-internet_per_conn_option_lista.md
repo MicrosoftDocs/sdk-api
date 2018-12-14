@@ -1,13 +1,13 @@
 ---
-UID: NS:wininet.INTERNET_PER_CONN_OPTION_LISTA
+UID: NS:wininet.__unnamed_struct_5
 title: INTERNET_PER_CONN_OPTION_LISTA
 author: windows-sdk-content
 description: Contains the list of options for a particular Internet connection.
 old-location: wininet\internet_per_conn_option_list.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 5e3178d5-b266-44bd-846c-f14bad0083c4
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPINTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LIST, INTERNET_PER_CONN_OPTION_LIST structure [WinINet], INTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LISTW, LPINTERNET_PER_CONN_OPTION_LIST, LPINTERNET_PER_CONN_OPTION_LIST structure pointer [WinINet], _inet_internet_per_conn_option_list_structure, wininet.internet_per_conn_option_list, wininet/INTERNET_PER_CONN_OPTION_LIST, wininet/INTERNET_PER_CONN_OPTION_LISTA, wininet/INTERNET_PER_CONN_OPTION_LISTW, wininet/LPINTERNET_PER_CONN_OPTION_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ Options that failed, if an error occurs.
 ### -field pOptions
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/35cfc768-1f1d-4be9-8d56-c56c7440513e">INTERNET_PER_CONN_OPTION</a> structures containing the options to query or set. 
+<a href="https://msdn.microsoft.com/en-us/library/Aa385145(v=VS.85).aspx">INTERNET_PER_CONN_OPTION</a> structures containing the options to query or set. 
 
 
 ## -remarks
@@ -107,7 +107,7 @@ In Microsoft Internet Explorer 5, only the ANSI versions of
 
 
 
-<a href="https://msdn.microsoft.com/35cfc768-1f1d-4be9-8d56-c56c7440513e">INTERNET_PER_CONN_OPTION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385145(v=VS.85).aspx">INTERNET_PER_CONN_OPTION</a>
 
 
 

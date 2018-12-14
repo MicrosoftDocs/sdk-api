@@ -436,9 +436,9 @@ Each filter type has its own size or entity limits based on the specific <b>Type
  
 
 To include all events that a provider provides, set <i>MatchAnyKeyword</i> to zero (for a 
-    <a href="about_event_tracing.htm">manifest-based</a> provider or <a href="https://msdn.microsoft.com/8C6A9E91-98F9-4D6B-A937-A22BA7CEB1E4">TraceLogging</a> provider 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">manifest-based</a> provider or <a href="https://msdn.microsoft.com/8C6A9E91-98F9-4D6B-A937-A22BA7CEB1E4">TraceLogging</a> provider 
     and 0xFFFFFFFF for a 
-    <a href="about_event_tracing.htm">classic</a> provider). To 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">classic</a> provider). To 
     include specific events, set the <i>MatchAnyKeyword</i> mask to those specific events. To indicate that you wish to enable a Provider Group, use the EVENT_ENABLE_PROPERTY_PROVIDER_GROUP flag on the <b>EnableProperty</b> member of  <i>EnableParameters</i>. For 
     example, if the provider defines an event for its initialization and cleanup routines (set keyword bit 0), an 
     event for its file operations (set keyword bit 1), and an event for its calculation operations (set keyword bit 
@@ -484,7 +484,7 @@ You do not call <b>EnableTraceEx2</b> to enable kernel
      <b>StartTrace</b> function enables the selected kernel 
      providers.
 
-Up to eight trace sessions can enable and receive events from the same <a href="about_event_tracing.htm">manifest-based</a> provider or <a href="https://msdn.microsoft.com/8C6A9E91-98F9-4D6B-A937-A22BA7CEB1E4">TraceLogging</a> provider; however, only one trace session can enable a <a href="about_event_tracing.htm">classic</a> provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
+Up to eight trace sessions can enable and receive events from the same <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">manifest-based</a> provider or <a href="https://msdn.microsoft.com/8C6A9E91-98F9-4D6B-A937-A22BA7CEB1E4">TraceLogging</a> provider; however, only one trace session can enable a <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">classic</a> provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
 
 The provider remains enabled for the session until the session disables the provider. If the application that started the session ends without disabling the provider, the provider remains enabled.
 

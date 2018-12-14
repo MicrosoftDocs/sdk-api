@@ -54,7 +54,7 @@ req.redist:
 
 
 
-The <b>ShutdownProxyContext2</b> method releases the internal resources used by <a href="https://msdn.microsoft.com/03c52ed2-bf77-4013-89d6-544d048f1056">IWMSInternalAdminNetSource3::FindProxyForURLEx2</a>. To avoid memory leaks, you must call this method after you are finished making calls to <b>FindProxyForURLEx2</b>.
+The <b>ShutdownProxyContext2</b> method releases the internal resources used by <a href="https://msdn.microsoft.com/en-us/library/Dd743723(v=VS.85).aspx">IWMSInternalAdminNetSource3::FindProxyForURLEx2</a>. To avoid memory leaks, you must call this method after you are finished making calls to <b>FindProxyForURLEx2</b>.
 
 
 
@@ -83,7 +83,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/b4ca08a4-6e2d-4646-b101-67bac67300b1">IWMSInternalAdminNetSource3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743722(v=VS.85).aspx">IWMSInternalAdminNetSource3 Interface</a>
  
 
  

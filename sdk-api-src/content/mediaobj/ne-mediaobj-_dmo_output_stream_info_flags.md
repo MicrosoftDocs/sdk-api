@@ -78,7 +78,7 @@ All the samples in this stream are the same size.
 
 ### -field DMO_OUTPUT_STREAMF_DISCARDABLE
 
-The stream is discardable. Within calls to <a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a>, the DMO can discard data for this stream without copying it to an output buffer.
+The stream is discardable. Within calls to <a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a>, the DMO can discard data for this stream without copying it to an output buffer.
 
 
 ### -field DMO_OUTPUT_STREAMF_OPTIONAL
@@ -104,7 +104,7 @@ The DMO_OUTPUT_STREAMF_DISCARDABLE and DMO_OUTPUT_STREAMF_OPTIONAL flags are mut
 
 
 
-<a href="https://msdn.microsoft.com/a21e9943-4aaf-4f0e-a92a-5fcd551fe7e1">IMediaObject::GetOutputStreamInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406955(v=VS.85).aspx">IMediaObject::GetOutputStreamInfo</a>
  
 
  

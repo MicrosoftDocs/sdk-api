@@ -4,7 +4,7 @@ title: ITsSbClientConnection::get_LoadBalanceResult
 author: windows-sdk-content
 description: Retrieves a value that indicates the name of the target computer returned by load balancing.
 old-location: termserv\itssbclientconnection_loadbalanceresult.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: fdcd094c-d50b-4cdd-8164-23c24bb7017b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

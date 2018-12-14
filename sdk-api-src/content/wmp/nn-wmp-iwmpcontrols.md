@@ -73,7 +73,7 @@ The <b>IWMPControls</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a741da8d-f1a2-4a96-acb6-7c40077f6b5e">fastForward</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563195(v=VS.85).aspx">fastForward</a>
 </td>
 <td align="left" width="63%">
 Starts fast play of the media item in the forward direction.
@@ -82,7 +82,7 @@ Starts fast play of the media item in the forward direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2adec4c7-7aca-4191-8c6f-61e137188ad9">fastReverse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563196(v=VS.85).aspx">fastReverse</a>
 </td>
 <td align="left" width="63%">
 Starts fast play of the media item in the reverse direction.
@@ -91,7 +91,7 @@ Starts fast play of the media item in the reverse direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c2443cd-d7e6-466f-b728-ad04a415d192">get_currentItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563197(v=VS.85).aspx">get_currentItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current media item.
@@ -100,7 +100,7 @@ Retrieves the current media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42576961-a9bd-4f64-bf56-a5d6bd07e82f">get_currentMarker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563198(v=VS.85).aspx">get_currentMarker</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current marker number.
@@ -109,7 +109,7 @@ Retrieves the current marker number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba7d42b4-2025-4881-b1eb-98636bb1c5ce">get_currentPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563199(v=VS.85).aspx">get_currentPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current position in the media item in seconds from the beginning.
@@ -118,7 +118,7 @@ Retrieves the current position in the media item in seconds from the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8843852b-f98a-469f-8541-44b3c51ebd6c">get_currentPositionString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563200(v=VS.85).aspx">get_currentPositionString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current position in the media item as a <b>string</b>.
@@ -127,7 +127,7 @@ Retrieves the current position in the media item as a <b>string</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/702e09f2-e086-45e3-9ae1-b62ec3e9561f">get_isAvailable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563201(v=VS.85).aspx">get_isAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether a specified type of information is available or a given action can be performed.
@@ -136,7 +136,7 @@ Retrieves a value indicating whether a specified type of information is availabl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f0bbc77-b271-4076-8089-92fe7745d9a8">next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563203(v=VS.85).aspx">next</a>
 </td>
 <td align="left" width="63%">
 Sets the current item to the next item in the playlist.
@@ -145,7 +145,7 @@ Sets the current item to the next item in the playlist.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef8a3f0e-b424-43ab-bb42-83e9f80f5d19">pause</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563204(v=VS.85).aspx">pause</a>
 </td>
 <td align="left" width="63%">
 Pauses playback of the media item.
@@ -154,7 +154,7 @@ Pauses playback of the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45b5634b-6d23-4e61-90e4-ef0cc9d90a14">play</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563205(v=VS.85).aspx">play</a>
 </td>
 <td align="left" width="63%">
 Begins playback of the media item.
@@ -163,7 +163,7 @@ Begins playback of the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d4282b0-08a9-4c66-ab8b-93429e77e05d">playItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563206(v=VS.85).aspx">playItem</a>
 </td>
 <td align="left" width="63%">
 Begins playback of the current media item, or resumes playback of a paused item.
@@ -172,7 +172,7 @@ Begins playback of the current media item, or resumes playback of a paused item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e26eca59-1e2d-4a1f-b133-e337a934014b">previous</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563207(v=VS.85).aspx">previous</a>
 </td>
 <td align="left" width="63%">
 Sets the current item to the previous item in the playlist.
@@ -181,7 +181,7 @@ Sets the current item to the previous item in the playlist.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/190cec53-5cd9-4bd0-b8d9-23c5389fe231">put_currentItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563208(v=VS.85).aspx">put_currentItem</a>
 </td>
 <td align="left" width="63%">
 Specifies the current media item.
@@ -190,7 +190,7 @@ Specifies the current media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b48e50b3-46d2-4994-bbbf-668f4986109a">put_currentMarker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563209(v=VS.85).aspx">put_currentMarker</a>
 </td>
 <td align="left" width="63%">
 Specifies the current marker number.
@@ -199,7 +199,7 @@ Specifies the current marker number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7deedeed-8ce9-4fd7-9825-817204a9cb3e">put_currentPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563210(v=VS.85).aspx">put_currentPosition</a>
 </td>
 <td align="left" width="63%">
 Specifies the current position in the media item in seconds from the beginning.
@@ -208,7 +208,7 @@ Specifies the current position in the media item in seconds from the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97ab009d-5ad9-4049-a212-1ef95941f951">stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563211(v=VS.85).aspx">stop</a>
 </td>
 <td align="left" width="63%">
 Stops playback of the media item.
@@ -226,10 +226,10 @@ Retrieve a pointer to an <b>IWMPControls</b> interface with the following method
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/54d013f1-d71b-4b6a-90b4-0226022a2a0f">get_controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563226(v=VS.85).aspx">get_controls</a>
 </td>
 </tr>
 </table> 
@@ -240,11 +240,11 @@ Retrieve a pointer to an <b>IWMPControls</b> interface with the following method
 
 
 
-<a href="https://msdn.microsoft.com/aadbd924-b583-4136-8d6c-e3c8c0b3872e">IWMPControls2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563180(v=VS.85).aspx">IWMPControls2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee902912-4f09-4f61-9b81-f4bd50ace892">IWMPControls3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563183(v=VS.85).aspx">IWMPControls3 Interface</a>
 
 
 

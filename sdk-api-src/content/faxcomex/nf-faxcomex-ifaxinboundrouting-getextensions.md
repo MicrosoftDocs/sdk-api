@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/ecd9a5bb-1624-4cfe-a2d9-b9a5ed722fc4">GetExtensions</a> method retrieves the collection of inbound routing extensions registered with the fax service.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687088(v=VS.85).aspx">GetExtensions</a> method retrieves the collection of inbound routing extensions registered with the fax service.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ The <a href="https://msdn.microsoft.com/ecd9a5bb-1624-4cfe-a2d9-b9a5ed722fc4">Ge
 
 ### -param pFaxInboundRoutingExtensions [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/6daf0614-c0d4-42ba-96de-60f35a39aff1">IFaxInboundRoutingExtensions</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms684901(v=VS.85).aspx">IFaxInboundRoutingExtensions</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/6daf0614-c0d4-42ba-96de-60f35a39aff1">IFaxInboundRoutingExtensions</a> interface.
+Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms684901(v=VS.85).aspx">IFaxInboundRoutingExtensions</a> interface.
 
 
 ## -returns
@@ -90,7 +90,7 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/255706ba-cbbd-4dfa-a9da-95bdd90328b5">IFaxInboundRouting</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684596(v=VS.85).aspx">IFaxInboundRouting</a>
 
 
 

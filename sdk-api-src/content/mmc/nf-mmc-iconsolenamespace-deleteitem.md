@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>IConsoleNameSpace2::DeleteItem</b> method <a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>enables the snap-in to delete a single item from the scope pane.
+The <b>IConsoleNameSpace2::DeleteItem</b> method <a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>enables the snap-in to delete a single item from the scope pane.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>
 
 
 

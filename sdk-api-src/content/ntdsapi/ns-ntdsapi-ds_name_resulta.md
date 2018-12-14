@@ -1,5 +1,5 @@
 ---
-UID: NS:ntdsapi.DS_NAME_RESULTA
+UID: NS:ntdsapi.__unnamed_struct_1
 title: DS_NAME_RESULTA
 author: windows-sdk-content
 description: The DS_NAME_RESULT structure is used with the DsCrackNames function to contain the names converted by the function.
@@ -7,7 +7,7 @@ old-location: ad\ds_name_result.htm
 tech.root: ad
 ms.assetid: 8c3cedae-f998-482c-95db-33bca94e119b
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDS_NAME_RESULTA, DS_NAME_RESULT, DS_NAME_RESULT structure [Active Directory], DS_NAME_RESULTA, DS_NAME_RESULTW, PDS_NAME_RESULT, PDS_NAME_RESULT structure pointer [Active Directory], _glines_ds_name_result, ad.ds__name__result, ad.ds_name_result, ntdsapi/DS_NAME_RESULT, ntdsapi/DS_NAME_RESULTA, ntdsapi/DS_NAME_RESULTW, ntdsapi/PDS_NAME_RESULT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,19 +65,19 @@ The <b>DS_NAME_RESULT</b> structure is used with the <a href="https://msdn.micro
 Contains the number of elements in the <b>rItems</b> array.
 
 
-### -field rItems.size_is
+### -field size_is
 
  
 
 
-### -field rItems.size_is.cItems
+### -field size_is.cItems
 
  
 
 
 ### -field rItems
 
-Contains an array of <a href="https://msdn.microsoft.com/50a4488f-e2d4-4671-b0e7-fb8cb4096c5c">DS_NAME_RESULT_ITEM</a> structure pointers. Each element of this array represents a single converted name.
+Contains an array of <a href="https://msdn.microsoft.com/en-us/library/ms676247(v=VS.85).aspx">DS_NAME_RESULT_ITEM</a> structure pointers. Each element of this array represents a single converted name.
 
 
 ## -see-also
@@ -85,7 +85,7 @@ Contains an array of <a href="https://msdn.microsoft.com/50a4488f-e2d4-4671-b0e7
 
 
 
-<a href="https://msdn.microsoft.com/50a4488f-e2d4-4671-b0e7-fb8cb4096c5c">DS_NAME_RESULT_ITEM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676247(v=VS.85).aspx">DS_NAME_RESULT_ITEM</a>
 
 
 

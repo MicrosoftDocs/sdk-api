@@ -177,7 +177,7 @@ The message state must be set to <b>WS_MESSAGE_STATE_INITIALIZED</b>.  On succes
             
 
 To write an element of the message body use <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a>.  To write
-                directly to the Writer of the Message obtain the Reader with the  <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_ID</a> set to <b>WS_MESSAGE_PROPERTY_BODY_WRITER</b> property.
+                directly to the Writer of the Message obtain the Reader with the  <a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_ID</a> set to <b>WS_MESSAGE_PROPERTY_BODY_WRITER</b> property.
             
 
 

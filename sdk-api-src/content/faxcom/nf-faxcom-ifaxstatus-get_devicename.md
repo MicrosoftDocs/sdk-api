@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-Note that it is possible for multiple fax ports to have the same user-friendly name. You can use the <a href="https://msdn.microsoft.com/dd6c8cce-b2fd-4c77-8e74-dc1d851c0de6">DeviceId</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object to uniquely identify a fax port, and associate a FaxStatus object with a <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object.
+Note that it is possible for multiple fax ports to have the same user-friendly name. You can use the <a href="https://msdn.microsoft.com/en-us/library/ms690754(v=VS.85).aspx">DeviceId</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object to uniquely identify a fax port, and associate a FaxStatus object with a <a href="https://msdn.microsoft.com/en-us/library/ms691338(v=VS.85).aspx">FaxPort</a> object.
 
 The <b>IFaxStatus::get_DeviceName</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -95,7 +95,7 @@ The <b>IFaxStatus::get_DeviceName</b> method allocates the memory required for t
 
 
 
-<a href="https://msdn.microsoft.com/dd6c8cce-b2fd-4c77-8e74-dc1d851c0de6">IFaxStatus::get_DeviceId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690754(v=VS.85).aspx">IFaxStatus::get_DeviceId</a>
 
 
 

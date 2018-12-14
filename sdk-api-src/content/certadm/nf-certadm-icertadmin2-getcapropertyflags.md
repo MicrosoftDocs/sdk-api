@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>GetCAPropertyFlags</b> method retrieves the property flags for a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) property. This method was first defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a> interface.
+The <b>GetCAPropertyFlags</b> method retrieves the property flags for a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) property. This method was first defined in the <a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a> interface.
 
 The property flags can be examined to determine the data type and to determine whether the property is indexed.
 
@@ -65,13 +65,13 @@ The property flags can be examined to determine the data type and to determine w
 
 Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see <b>ICertConfig</b>.
 
-<div class="alert"><b>Important</b>  <b>GetCAPropertyFlags</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>GetCAPropertyFlags</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param PropId [in]
 
 Specifies the property identifier. For information about this parameter, see the table in 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383238(v=VS.85).aspx">ICertAdmin2::GetCAProperty</a>.
+<a href="https://msdn.microsoft.com/8eaa2e36-4358-4abd-a7c2-2c9768766597">ICertAdmin2::GetCAProperty</a>.
 
 
 ### -param pPropFlags [out]
@@ -101,7 +101,7 @@ The <b>LONG</b> value retrieved by calling this method can be examined to determ
 
 #### Examples
 
-The following example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a> interface pointer is valid.
+The following example assumes the <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin2</a> interface pointer is valid.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

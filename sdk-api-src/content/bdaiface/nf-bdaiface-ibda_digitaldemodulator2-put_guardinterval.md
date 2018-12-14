@@ -60,7 +60,7 @@ Sets the demodulator's guard interval.
 
 ### -param pGuardInterval [in]
 
-Pointer to a variable that contains the guard interval, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd693090(v=VS.85).aspx">GuardInterval</a> enumeration.
+Pointer to a variable that contains the guard interval, specified as a member of the <a href="https://msdn.microsoft.com/a3ff1c61-f80d-40f2-a22f-069f0690fb1b">GuardInterval</a> enumeration.
 
 
 ## -returns

@@ -70,10 +70,10 @@ Contains a directory service handle obtained from either the
 ### -param ppRoles [out]
 
 Pointer to a variable that receives a pointer to a 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure containing the roles the server recognizes. The returned structure must be deallocated using 
+<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure containing the roles the server recognizes. The returned structure must be deallocated using 
 <a href="https://msdn.microsoft.com/210650a6-70b9-4d4f-b99a-106afd3fe615">DsFreeNameResult</a>.
 
-The indexes of the array in the <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure indicate what data are contained by each array element. The following constants may be used to specify the desired index for a particular piece of data.
+The indexes of the array in the <a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure indicate what data are contained by each array element. The following constants may be used to specify the desired index for a particular piece of data.
 
 
 
@@ -139,7 +139,7 @@ If the function returns a list of roles, the return value is <b>NO_ERROR</b>.
 
 If the function fails, the return value can be one of the following error codes.
 
-Individual name conversion errors are reported in the returned <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure.
+Individual name conversion errors are reported in the returned <a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure.
 
 
 
@@ -149,7 +149,7 @@ Individual name conversion errors are reported in the returned <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a>
 
 
 

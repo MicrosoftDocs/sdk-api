@@ -65,7 +65,7 @@ The <b>GetUncompFormatsSupported</b> method gets a list of uncompressed pixel fo
 ### -param pGuid [in]
 
 Pointer to a GUID that specifies the DXVA profile. To get a list of supported profiles, call 
-          <a href="https://msdn.microsoft.com/808ba120-f0e1-4348-94e7-69a27c77cf42">IAMVideoAccelerator::GetVideoAcceleratorGUIDs</a>.
+          <a href="https://msdn.microsoft.com/en-us/library/Dd376008(v=VS.85).aspx">IAMVideoAccelerator::GetVideoAcceleratorGUIDs</a>.
 
 
 ### -param pdwNumFormatsSupported [in, out]
@@ -144,7 +144,7 @@ The driver should return the formats in decreasing order of preference, with the
 
 
 
-<a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
  
 
  

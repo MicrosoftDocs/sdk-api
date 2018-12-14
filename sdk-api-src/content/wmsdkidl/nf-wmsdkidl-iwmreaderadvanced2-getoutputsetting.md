@@ -76,7 +76,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the setting
 
 ### -param pType [out]
 
-Pointer to a member of the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type that specifies the type of the value.
+Pointer to a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type that specifies the type of the value.
 
 
 ### -param pValue [out]
@@ -112,7 +112,7 @@ You should make two calls to <b>GetOutputSetting</b>. On the first call, pass <b
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
  
 
  

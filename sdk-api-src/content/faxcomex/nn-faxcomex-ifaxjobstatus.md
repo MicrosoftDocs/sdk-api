@@ -57,7 +57,7 @@ The <b>IFaxJobStatus</b> interface is used for notifications and to hold the dyn
 
 
 
-You do not create the <a href="https://msdn.microsoft.com/en-us/library/ms685964(v=VS.85).aspx">FaxJobStatus</a> object. It is received as part of a notification when you implement <a href="https://msdn.microsoft.com/en-us/library/ms688427(v=VS.85).aspx">IFaxServerNotify::OnIncomingJobChanged</a> or <a href="https://msdn.microsoft.com/en-us/library/ms688641(v=VS.85).aspx">IFaxServerNotify::OnOutgoingJobChanged</a>, which include a parameter of the type <b>FaxJobStatus</b>. When the event occurs and the implemented function is called, you receive this object containing the dynamic information.
+You do not create the <a href="https://msdn.microsoft.com/en-us/library/ms685964(v=VS.85).aspx">FaxJobStatus</a> object. It is received as part of a notification when you implement <a href="https://msdn.microsoft.com/109f1f7d-f2e3-4db8-8800-3efa41b08942">IFaxServerNotify::OnIncomingJobChanged</a> or <a href="https://msdn.microsoft.com/132747ed-04b4-4803-976c-5274d8c9f73d">IFaxServerNotify::OnOutgoingJobChanged</a>, which include a parameter of the type <b>FaxJobStatus</b>. When the event occurs and the implemented function is called, you receive this object containing the dynamic information.
 
 
 

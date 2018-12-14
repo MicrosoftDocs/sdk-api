@@ -122,11 +122,11 @@ This setting applies only to a protocol rollover or MMS:// URL. Even if this set
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/892879a3-8ab2-4d2c-ba47-9f6c2dd2aec3">IWMReaderNetworkConfig::GetEnableHTTP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743522(v=VS.85).aspx">IWMReaderNetworkConfig::GetEnableHTTP</a>
  
 
  

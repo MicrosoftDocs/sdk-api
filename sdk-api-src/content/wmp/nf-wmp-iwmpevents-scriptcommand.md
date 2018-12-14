@@ -171,27 +171,27 @@ Param = http://myweb/mypage.html&amp;&amp;myframe
 
 
 
-<a href="https://msdn.microsoft.com/c6aa1710-9686-439b-b098-7a3e5da532ee">IWMPClosedCaption::get_captioningId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563121(v=VS.85).aspx">IWMPClosedCaption::get_captioningId</a>
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a29ea1ba-8994-4d0f-8c53-8abba8fe997d">IWMPSettings::get_invokeURLs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563662(v=VS.85).aspx">IWMPSettings::get_invokeURLs</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae070004-e90e-4f1e-b8b8-15deccdc48ad">IWMPSettings::put_baseURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563673(v=VS.85).aspx">IWMPSettings::put_baseURL</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b035e4e-84c5-46ea-aa8a-2e66810284b2">IWMPSettings::put_defaultFrame</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563674(v=VS.85).aspx">IWMPSettings::put_defaultFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c62ba8e-8fca-4cfe-9a52-6b6ac2c7c0de">IWMPSettings::put_invokeURLs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563676(v=VS.85).aspx">IWMPSettings::put_invokeURLs</a>
  
 
  

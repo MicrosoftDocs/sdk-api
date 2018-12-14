@@ -111,11 +111,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/e5e3d343-6baf-4d98-b303-5d1b12bb285d">XMVectorEqual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421013(v=VS.85).aspx">XMVectorEqual</a>
 
 
 
-<a href="https://msdn.microsoft.com/214e1125-e635-4a1c-80e8-7b7ec0989949">XMVectorEqualIntR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404784(v=VS.85).aspx">XMVectorEqualIntR</a>
  
 
  

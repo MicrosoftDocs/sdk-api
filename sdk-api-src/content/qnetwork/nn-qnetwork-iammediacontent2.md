@@ -73,7 +73,7 @@ The <b>IAMMediaContent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87e018bb-2073-46df-860a-c4de99a88189">get_MediaParameter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319640(v=VS.85).aspx">get_MediaParameter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a custom parameter.
@@ -82,7 +82,7 @@ Retrieves the value of a custom parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67eb8a01-312a-45ee-8da3-59a1f9f952ec">get_MediaParameterName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319641(v=VS.85).aspx">get_MediaParameterName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a custom parameter.
@@ -91,7 +91,7 @@ Retrieves the name of a custom parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f1a388e-de23-4441-bc65-33ce13519d70">get_PlaylistCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319642(v=VS.85).aspx">get_PlaylistCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of playlist entries.

@@ -433,7 +433,7 @@ If
 
 If 
       <i>dwControl</i> is <b>SERVICE_CONTROL_POWEREVENT</b> and <i>dwEventType</i> is PBT_POWERSETTINGCHANGE, this data is a pointer to a 
-      <a href="https://msdn.microsoft.com/13fa8220-bad2-4bb6-b652-38fc11a31215">POWERBROADCAST_SETTING</a> structure. 
+      <a href="https://msdn.microsoft.com/en-us/library/Aa372723(v=VS.85).aspx">POWERBROADCAST_SETTING</a> structure. 
 
 If 
       <i>dwControl</i> is <b>SERVICE_CONTROL_SESSIONCHANGE</b>, this parameter is a pointer to a 
@@ -534,7 +534,7 @@ Services can also use the
 
 
 
-<a href="https://msdn.microsoft.com/13fa8220-bad2-4bb6-b652-38fc11a31215">POWERBROADCAST_SETTING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372723(v=VS.85).aspx">POWERBROADCAST_SETTING</a>
 
 
 

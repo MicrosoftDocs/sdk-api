@@ -52,7 +52,7 @@ req.redist:
 
 Defines options for placing the cluster.
 
-This enumeration contains the values for the <a href="https://msdn.microsoft.com/en-us/library/Mt705450(v=VS.85).aspx">PlacementOptions</a> property.
+This enumeration contains the values for the <a href="https://msdn.microsoft.com/704DD1EB-5763-46B0-9B53-5B37A2AE2299">PlacementOptions</a> property.
 
 
 ## -enum-fields
@@ -118,7 +118,7 @@ Maximum value
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

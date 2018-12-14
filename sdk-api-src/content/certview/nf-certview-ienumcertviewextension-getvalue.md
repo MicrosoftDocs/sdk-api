@@ -225,7 +225,7 @@ A pointer to a value of <b>VARIANT</b> type that contains the data for the curre
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a <b>Variant</b> that represents the data in the extension.
@@ -244,14 +244,14 @@ If the extension-enumeration sequence is not referencing a valid extension, <b>G
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386225(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Reset</a>: Moves to the next extension in the enumeration sequence.</li>
+<a href="https://msdn.microsoft.com/7af29b1f-5b43-4ab7-81fa-d03e065f014f">IEnumCERTVIEWEXTENSION::Reset</a>: Moves to the next extension in the enumeration sequence.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386220(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Next</a>: Moves to the next extension in the enumeration sequence.</li>
+<a href="https://msdn.microsoft.com/658daf9d-0f61-4c93-9688-a7c74464ca89">IEnumCERTVIEWEXTENSION::Next</a>: Moves to the next extension in the enumeration sequence.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa386227(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Skip</a>: Skips a specified number of extensions.</li>
+<a href="https://msdn.microsoft.com/b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d">IEnumCERTVIEWEXTENSION::Skip</a>: Skips a specified number of extensions.</li>
 </ul>
 This method fails if the extension-enumeration sequence was obtained by a call to the  
-<a href="https://msdn.microsoft.com/en-us/library/Aa385422(v=VS.85).aspx">ICertView::EnumCertViewColumn</a> method because  enumeration sequences obtained by that method contain only schema information.
+<a href="https://msdn.microsoft.com/a51162f9-cc3d-4f06-993a-e5c9f57dd8a1">ICertView::EnumCertViewColumn</a> method because  enumeration sequences obtained by that method contain only schema information.
 
 
 #### Examples
@@ -321,7 +321,7 @@ VariantClear( &amp;var );</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385422(v=VS.85).aspx">ICertView::EnumCertViewColumn</a>
+<a href="https://msdn.microsoft.com/a51162f9-cc3d-4f06-993a-e5c9f57dd8a1">ICertView::EnumCertViewColumn</a>
 
 
 
@@ -329,15 +329,15 @@ VariantClear( &amp;var );</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386220(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Next</a>
+<a href="https://msdn.microsoft.com/658daf9d-0f61-4c93-9688-a7c74464ca89">IEnumCERTVIEWEXTENSION::Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386225(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Reset</a>
+<a href="https://msdn.microsoft.com/7af29b1f-5b43-4ab7-81fa-d03e065f014f">IEnumCERTVIEWEXTENSION::Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386227(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::Skip</a>
+<a href="https://msdn.microsoft.com/b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d">IEnumCERTVIEWEXTENSION::Skip</a>
  
 
  

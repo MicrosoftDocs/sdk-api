@@ -110,15 +110,15 @@ This setting is useful for reducing the amount of bandwidth used, particularly i
 
 
 
-<a href="https://msdn.microsoft.com/e6e21995-5dbd-4893-a9f2-6ce918d3fbc4">IWMPCore::close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563223(v=VS.85).aspx">IWMPCore::close</a>
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3b1b845-7aa5-49d7-a9da-52dea06e51c4">IWMPNetwork::get_maxBandwidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563478(v=VS.85).aspx">IWMPNetwork::get_maxBandwidth</a>
  
 
  

@@ -108,7 +108,7 @@ Each thread has its own APC queue. The queuing of an APC is a request for the th
 
 When a user-mode APC is queued, the thread is not directed to call the APC function unless it is in an alertable state. After the thread is in an alertable state, the thread handles all pending APCs in first in, first out (FIFO) order, and the wait operation returns <b>WAIT_IO_COMPLETION</b>. A thread enters an alertable state by using 
 <a href="https://msdn.microsoft.com/a73cff94-ad63-4110-9f01-6469481c3d55">SleepEx</a>, 
-<a href="https://msdn.microsoft.com/2b1ce22b-8edb-4685-99f4-4fc38eec202a">SignalObjectAndWait</a>, 
+<a href="https://msdn.microsoft.com/en-us/library/ms686293(v=VS.85).aspx">SignalObjectAndWait</a>, 
 <a href="https://msdn.microsoft.com/530b5340-f8b2-4e00-a3ca-87a7c7372482">WaitForSingleObjectEx</a>, 
 <a href="https://msdn.microsoft.com/47a167fb-4714-4353-b924-a161f367673c">WaitForMultipleObjectsEx</a>, or 
 <a href="https://msdn.microsoft.com/1774b721-3ad4-492e-96af-b71de9066f0c">MsgWaitForMultipleObjectsEx</a> to perform an alertable wait operation.

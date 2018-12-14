@@ -58,7 +58,7 @@ The <b>IWMPSettings2</b> interface provides methods that supplement the <b>IWMPS
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSettings2</b> interface inherits from <a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings</a>. <b>IWMPSettings2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSettings2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings</a>. <b>IWMPSettings2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMPSettings2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/890154b7-0aa8-475f-afe9-9ce71997a656">get_defaultAudioLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563650(v=VS.85).aspx">get_defaultAudioLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the locale identifier (LCID) of the default audio language.
@@ -82,7 +82,7 @@ Retrieves the locale identifier (LCID) of the default audio language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07ca80a3-5175-4b1f-b83c-0df41a010cbf">get_mediaAccessRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563651(v=VS.85).aspx">get_mediaAccessRights</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the permissions currently granted for library access.
@@ -91,7 +91,7 @@ Retrieves a value indicating the permissions currently granted for library acces
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/925a4c0b-d613-4248-a341-bfc51d02cb85">requestMediaAccessRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563652(v=VS.85).aspx">requestMediaAccessRights</a>
 </td>
 <td align="left" width="63%">
 Requests a specified level of access to the library.
@@ -100,7 +100,7 @@ Requests a specified level of access to the library.
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPSettings2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings</a> interface.
+Retrieve a pointer to an <b>IWMPSettings2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings</a> interface.
 
 	
 
@@ -110,7 +110,7 @@ Retrieve a pointer to an <b>IWMPSettings2</b> interface by calling the <b>QueryI
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 

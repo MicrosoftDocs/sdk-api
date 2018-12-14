@@ -7,7 +7,7 @@ old-location: p2p\peerdistgetstatusex.htm
 tech.root: P2PSdk
 ms.assetid: 7D8D3B84-F353-4820-B035-5F289085BE7E
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerDistGetStatusEx, PeerDistGetStatusEx function [Peer Networking], p2p.peerdistgetstatusex, peerdist/PeerDistGetStatusEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,7 +91,7 @@ A Group Policy change can result in the Peer Distribution service  moving to an 
 
 
 
-<a href="https://msdn.microsoft.com/d693dc1c-39ce-4a2b-b769-9d370abc3d3c">PEERDIST_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd408036(v=VS.85).aspx">PEERDIST_STATUS</a>
 
 
 

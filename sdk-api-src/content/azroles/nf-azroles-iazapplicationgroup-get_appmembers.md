@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-This property allows the nesting of <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> objects within another <b>IAzApplicationGroup</b> object.
+This property allows the nesting of <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> objects within another <b>IAzApplicationGroup</b> object.
 
 In JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. 
 

@@ -95,7 +95,7 @@ The <b>IFaxStatus::get_RecipientName</b> method allocates the memory required fo
 
 
 
-<a href="https://msdn.microsoft.com/e7a63893-d8df-4253-80b0-3faab13934fd">IFaxStatus::get_Receive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691932(v=VS.85).aspx">IFaxStatus::get_Receive</a>
 
 
 

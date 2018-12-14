@@ -115,7 +115,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The show command is used to set the initial show state of the corresponding object. This is one of the SW_xxx values described in <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>.
+The show command is used to set the initial show state of the corresponding object. This is one of the SW_xxx values described in <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>.
 
 
 

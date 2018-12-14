@@ -121,7 +121,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/1366de90-d3a1-49dd-a9da-a0c466461ec3">XMVectorReciprocalSqrt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421200(v=VS.85).aspx">XMVectorReciprocalSqrt</a>
  
 
  

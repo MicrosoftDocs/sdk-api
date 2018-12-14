@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::GetLogonErrorRedirector
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetLogonErrorRedirector is no longer available. Instead, use IWRdsProtocolConnection::GetLogonErrorRedirector.
 old-location: termserv\iwtsprotocolconnection_getlogonerrorredirector.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 59bd7d50-2903-42b7-b556-4da7b50d8e7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

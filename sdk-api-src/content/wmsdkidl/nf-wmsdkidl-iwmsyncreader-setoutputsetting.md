@@ -76,7 +76,7 @@ Pointer to a <b>null</b>-terminated string containing the name of the setting. F
 
 ### -param Type [in]
 
-Member of the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type. This value specifies the type of data in the buffer at <i>pValue</i>.
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. This value specifies the type of data in the buffer at <i>pValue</i>.
 
 
 ### -param pValue [in]
@@ -159,11 +159,11 @@ No file is open in the synchronous reader.
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b96c84fd-a2e0-4fdb-a9c1-2e42b73f7a3e">IWMSyncReader::GetOutputSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798593(v=VS.85).aspx">IWMSyncReader::GetOutputSetting</a>
  
 
  

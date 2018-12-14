@@ -1,5 +1,5 @@
 ---
-UID: NS:mapi.MapiMessageW
+UID: NS:mapi.__unnamed_struct_6
 title: MapiMessageW
 author: windows-sdk-content
 description: A MapiMessageW structure contains information about a message.
@@ -7,7 +7,7 @@ old-location: mapi\mapimessagew.htm
 tech.root: WindowsMAPI
 ms.assetid: 3C74A9C0-1483-4A97-94EB-19A0D30D9A08
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*lpMapiMessageW, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessageW, MapiMessageW structure, lpMapiMessageW, lpMapiMessageW structure pointer, mapi.mapimessagew, mapi/MapiMessageW, mapi/lpMapiMessageW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -156,41 +156,41 @@ The message has not been read.
 
 ### -field lpOriginator
 
-Type: <b><a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">lpMapiRecipDescW</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">lpMapiRecipDescW</a></b>
 
-Pointer to a <a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a> structure containing information about the sender of the message. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">MapiRecipDescW</a> structure containing information about the sender of the message. 
 
 
 ### -field nRecipCount
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">ULONG</a></b>
 
-The number of <a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a> structures in the array pointed to by the <b>lpRecips</b> member.
+The number of <a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">MapiRecipDescW</a> structures in the array pointed to by the <b>lpRecips</b> member.
 
 If this member is zero, there are no recipients.
 
 
 ### -field lpRecips
 
-Type: <b><a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">lpMapiRecipDescW</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">lpMapiRecipDescW</a></b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a> structures. Each structure contains information about one recipient.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">MapiRecipDescW</a> structures. Each structure contains information about one recipient.
 
 
 ### -field nFileCount
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">ULONG</a></b>
 
-The number of <a href="https://msdn.microsoft.com/CF7C41DF-D361-457F-B038-5C1144E70AA6">MapiFileDescW</a> structures in the array pointed to by the <b>lpFiles</b> member.
+The number of <a href="https://msdn.microsoft.com/en-us/library/Hh707272(v=VS.85).aspx">MapiFileDescW</a> structures in the array pointed to by the <b>lpFiles</b> member.
 
 If this member is zero, there are no file attachments.
 
 
 ### -field lpFiles
 
-Type: <b><a href="https://msdn.microsoft.com/CF7C41DF-D361-457F-B038-5C1144E70AA6">lpMapiFileDescW</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh707272(v=VS.85).aspx">lpMapiFileDescW</a></b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/CF7C41DF-D361-457F-B038-5C1144E70AA6">MapiFileDescW</a> structures. Each structure contains information about one file attachment.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Hh707272(v=VS.85).aspx">MapiFileDescW</a> structures. Each structure contains information about one file attachment.
 
 
 ## -see-also
@@ -202,15 +202,15 @@ Pointer to an array of <a href="https://msdn.microsoft.com/CF7C41DF-D361-457F-B0
 
 
 
-<a href="https://msdn.microsoft.com/CF7C41DF-D361-457F-B038-5C1144E70AA6">MapiFileDescW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh707272(v=VS.85).aspx">MapiFileDescW</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">MapiRecipDescW</a>
  
 
  

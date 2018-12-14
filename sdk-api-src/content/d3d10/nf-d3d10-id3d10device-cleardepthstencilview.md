@@ -68,14 +68,14 @@ Pointer to the depth stencil to be cleared.
 
 ### -param ClearFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Which parts of the buffer to clear. See <a href="https://msdn.microsoft.com/en-us/library/Bb204900(v=VS.85).aspx">D3D10_CLEAR_FLAG</a>.
 
 
 ### -param Depth [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">FLOAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
 
 Clear the depth buffer with this value. This value will be clamped between 0 and 1.
 

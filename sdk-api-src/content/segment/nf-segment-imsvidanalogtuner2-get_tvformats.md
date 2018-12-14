@@ -203,7 +203,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/50d30a45-8cea-454c-b5d2-ff809b8a8206">IMSVidAnalogTuner2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694421(v=VS.85).aspx">IMSVidAnalogTuner2 Interface</a>
  
 
  

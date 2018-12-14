@@ -54,7 +54,7 @@ req.redist:
 
 Creates 
     or modifies a notification port. For information about  notification ports, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371823(v=VS.85).aspx">Receiving Cluster Events</a>.
+    <a href="https://msdn.microsoft.com/6d69cdd8-b29a-40c5-94c6-908b9bea22ef">Receiving Cluster Events</a>.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ A handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.
 
 ### -param Filters [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn622942(v=VS.85).aspx">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the  type of notifications that the port can accept.
+A pointer to the <a href="https://msdn.microsoft.com/E173F5D8-955B-44FF-980E-CEF536A87AF5">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the  type of notifications that the port can accept.
 
 
 ### -param dwFilterCount [in]

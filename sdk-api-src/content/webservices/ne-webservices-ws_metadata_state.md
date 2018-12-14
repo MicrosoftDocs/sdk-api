@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_METADATA_STATE
+UID: NE:webservices.__unnamed_enum_103
 title: WS_METADATA_STATE
 author: windows-sdk-content
 description: The state of the metadata object.
@@ -7,7 +7,7 @@ old-location: wsw\ws_metadata_state.htm
 tech.root: wsw
 ms.assetid: 4d2b8c31-d5ff-4b96-9aaf-57e59d075431
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_METADATA_STATE, WS_METADATA_STATE enumeration [Web Services for Windows], WS_METADATA_STATE_CREATED, WS_METADATA_STATE_FAULTED, WS_METADATA_STATE_RESOLVED, webservices/WS_METADATA_STATE, webservices/WS_METADATA_STATE_CREATED, webservices/WS_METADATA_STATE_FAULTED, webservices/WS_METADATA_STATE_RESOLVED, wsw.ws_metadata_state
 ms.prod: windows-hardware
 ms.technology: windows-devices

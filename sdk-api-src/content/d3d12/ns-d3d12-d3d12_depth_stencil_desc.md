@@ -66,13 +66,13 @@ Specifies whether to enable depth testing. Set this member to <b>TRUE</b> to ena
 
 ### -field DepthWriteMask
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn770358(v=VS.85).aspx">D3D12_DEPTH_WRITE_MASK</a>-typed value that identifies a portion of the depth-stencil buffer that can be modified by depth data.
+A <a href="https://msdn.microsoft.com/28037BEA-3525-4EBC-973B-421C77629ECB">D3D12_DEPTH_WRITE_MASK</a>-typed value that identifies a portion of the depth-stencil buffer that can be modified by depth data.
           
 
 
 ### -field DepthFunc
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn770349(v=VS.85).aspx">D3D12_COMPARISON_FUNC</a>-typed value that identifies a function that compares depth data against existing depth data.
+A <a href="https://msdn.microsoft.com/68223746-59B3-4FDD-B7EF-44557F1C46E3">D3D12_COMPARISON_FUNC</a>-typed value that identifies a function that compares depth data against existing depth data.
           
 
 
@@ -94,13 +94,13 @@ Identify a portion of the depth-stencil buffer for writing stencil data.
 
 ### -field FrontFace
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn770355(v=VS.85).aspx">D3D12_DEPTH_STENCILOP_DESC</a> structure that describes how to use the results of the depth test and the stencil test for pixels whose surface normal is facing towards the camera.
+A <a href="https://msdn.microsoft.com/1E72B486-98E1-4140-80E3-6DF95ECA82DB">D3D12_DEPTH_STENCILOP_DESC</a> structure that describes how to use the results of the depth test and the stencil test for pixels whose surface normal is facing towards the camera.
           
 
 
 ### -field BackFace
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn770355(v=VS.85).aspx">D3D12_DEPTH_STENCILOP_DESC</a> structure that describes how to use the results of the depth test and the stencil test for pixels whose surface normal is facing away from the camera.
+A <a href="https://msdn.microsoft.com/1E72B486-98E1-4140-80E3-6DF95ECA82DB">D3D12_DEPTH_STENCILOP_DESC</a> structure that describes how to use the results of the depth test and the stencil test for pixels whose surface normal is facing away from the camera.
           
 
 
@@ -108,7 +108,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Dn770355(v=VS.85).aspx">D3D1
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn770370(v=VS.85).aspx">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> object contains a depth-stencil-state structure that controls how depth-stencil testing is performed by the output-merger stage.
+A <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> object contains a depth-stencil-state structure that controls how depth-stencil testing is performed by the output-merger stage.
       
 
 This table shows the default values of depth-stencil states.
@@ -199,11 +199,11 @@ The formats that support stenciling are DXGI_FORMAT_D24_UNORM_S8_UINT and DXGI_F
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt186567(v=VS.85).aspx">CD3DX12_DEPTH_STENCIL_DESC</a>
+<a href="https://msdn.microsoft.com/D3DB04C3-4564-45A4-830A-E63B8D308B33">CD3DX12_DEPTH_STENCIL_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

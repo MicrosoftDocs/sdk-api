@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-You can use the <b>DocumentSize</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/fefbba54-e4c7-4d26-a75e-49d3f3dc4f78">DocumentName</a> property of the object to inform users about the size of outbound jobs.
+You can use the <b>DocumentSize</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms691962(v=VS.85).aspx">DocumentName</a> property of the object to inform users about the size of outbound jobs.
 
 
 
@@ -93,7 +93,7 @@ You can use the <b>DocumentSize</b> property of a <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/fefbba54-e4c7-4d26-a75e-49d3f3dc4f78">IFaxStatus::get_DocumentName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691962(v=VS.85).aspx">IFaxStatus::get_DocumentName</a>
  
 
  

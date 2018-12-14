@@ -53,7 +53,7 @@ req.redist:
 
 The <b>IWMProfileManager</b> interface is used to create profiles, load existing profiles, and save profiles. It can be used with both system profiles and application-defined custom profiles. To make changes to a profile, you must load it into a profile object using one of the loading methods of this interface. You can then access the profile data through the use of the interfaces of the profile object.
 
-<b>IWMProfileManager</b> is the default interface of a profile manager object. When you create a new profile manager object using the <a href="https://msdn.microsoft.com/77eea431-74a0-449e-847e-7885ab33bda1">WMCreateProfileManager</a> function, you obtain a pointer to <b>IWMProfileManager</b>.
+<b>IWMProfileManager</b> is the default interface of a profile manager object. When you create a new profile manager object using the <a href="https://msdn.microsoft.com/en-us/library/Dd757762(v=VS.85).aspx">WMCreateProfileManager</a> function, you obtain a pointer to <b>IWMProfileManager</b>.
 
 <div class="alert"><b>Note</b>  When a profile manager object is created it parses all of the system profiles. Creating and releasing a profile manager every time you need to use it will adversely affect performance. You should create a profile manager once in your application and release it only when you no longer need to use it.</div>
 <div> </div>
@@ -77,7 +77,7 @@ The <b>IWMProfileManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb5c2ed4-f733-422e-87e3-8e70c3ee9f1c">CreateEmptyProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757392(v=VS.85).aspx">CreateEmptyProfile</a>
 </td>
 <td align="left" width="63%">
 Creates an empty profile.
@@ -86,7 +86,7 @@ Creates an empty profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/895fa99d-66a5-4f5f-82ce-394264a945f7">GetSystemProfileCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757393(v=VS.85).aspx">GetSystemProfileCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of system profiles.
@@ -95,7 +95,7 @@ Retrieves the number of system profiles.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c645b6cc-e10d-4335-91c4-8bfd430ca76b">LoadProfileByData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757394(v=VS.85).aspx">LoadProfileByData</a>
 </td>
 <td align="left" width="63%">
 Creates a profile object and populates it with the data from an existing profile that has been saved to a string.
@@ -104,7 +104,7 @@ Creates a profile object and populates it with the data from an existing profile
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16104e70-c800-49a6-a9cf-2b4669c865eb">LoadProfileByID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757395(v=VS.85).aspx">LoadProfileByID</a>
 </td>
 <td align="left" width="63%">
 Creates a profile object and populates it with the data from a system profile. Uses the GUID to find the profile data.
@@ -113,7 +113,7 @@ Creates a profile object and populates it with the data from a system profile. U
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5de4bd41-953b-4f50-b495-1d852831ae34">LoadSystemProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757396(v=VS.85).aspx">LoadSystemProfile</a>
 </td>
 <td align="left" width="63%">
 Creates a profile object and populates it with data from a system profile. Uses the profile's index to find the profile data.
@@ -122,7 +122,7 @@ Creates a profile object and populates it with data from a system profile. Uses 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/806def9b-1842-4443-9a63-fba380545018">SaveProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757397(v=VS.85).aspx">SaveProfile</a>
 </td>
 <td align="left" width="63%">
 Saves a custom profile into a string. You can save the profile to disk by copying the string into a .prx file.
@@ -138,31 +138,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/70661d13-737a-4e83-94e6-9a1af07b0369">IWMCodecInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743313(v=VS.85).aspx">IWMCodecInfo</a>
 </td>
 <td>IID_IWMCodecInfo</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/0cfb355e-af68-400d-aa64-57f17e7d936b">IWMCodecInfo2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743314(v=VS.85).aspx">IWMCodecInfo2</a>
 </td>
 <td>IID_IWMCodecInfo2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/fd882612-1f60-4b51-a180-0d34d78c99dd">IWMCodecInfo3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743317(v=VS.85).aspx">IWMCodecInfo3</a>
 </td>
 <td>IID_IWMCodecInfo3</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/eb5d904e-15ee-4066-ab05-c4e133bc89d7">IWMProfileManager2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757386(v=VS.85).aspx">IWMProfileManager2</a>
 </td>
 <td>IID_IWMProfileManager2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/54875162-65fe-4959-b567-38c17ba2894d">IWMProfileManagerLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757389(v=VS.85).aspx">IWMProfileManagerLanguage</a>
 </td>
 <td>IID_IWMProfileManagerLanguage</td>
 </tr>
@@ -177,7 +177,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/eb5d904e-15ee-4066-ab05-c4e133bc89d7">IWMProfileManager2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757386(v=VS.85).aspx">IWMProfileManager2 Interface</a>
 
 
 

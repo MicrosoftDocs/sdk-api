@@ -71,12 +71,12 @@ The <b>SetOutputSetting</b> method specifies a named setting for a particular ou
 
 ### -param pszName [in]
 
-Pointer to a wide-character null-terminated string containing the name. For a list of global constants that represent setting names, see <a href="https://msdn.microsoft.com/effe6c07-e6df-45b0-b865-2a025c466d6f">Output Settings</a>.
+Pointer to a wide-character null-terminated string containing the name. For a list of global constants that represent setting names, see <a href="https://msdn.microsoft.com/en-us/library/Dd757560(v=VS.85).aspx">Output Settings</a>.
 
 
 ### -param Type [in]
 
-Member of the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type that specifies the type of the value.
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type that specifies the type of the value.
 
 
 ### -param pValue [in]
@@ -103,11 +103,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a46da973-8f2f-48b8-9a74-d54e67f68a83">IWMReaderAdvanced2::GetOutputSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757434(v=VS.85).aspx">IWMReaderAdvanced2::GetOutputSetting</a>
  
 
  

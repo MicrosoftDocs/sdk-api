@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_PROXY_PROPERTY_ID
+UID: NE:webservices.__unnamed_enum_97
 title: WS_PROXY_PROPERTY_ID
 author: windows-sdk-content
 description: Optional parameters for configuring the service proxy. With an exception of WS_PROXY_PROPERTY_STATE all the values are only supported for use with WsCreateServiceProxy as part of the WS_PROXY_PROPERTY* parameter.
@@ -7,7 +7,7 @@ old-location: wsw\ws_proxy_property_id.htm
 tech.root: wsw
 ms.assetid: d81944ae-74b9-4eee-b02f-5b1d5c99c358
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_PROXY_FAULT_LANG_ID, WS_PROXY_PROPERTY_CALL_TIMEOUT, WS_PROXY_PROPERTY_ID, WS_PROXY_PROPERTY_ID enumeration [Web Services for Windows], WS_PROXY_PROPERTY_MAX_CALL_POOL_SIZE, WS_PROXY_PROPERTY_MAX_CLOSE_TIMEOUT, WS_PROXY_PROPERTY_MAX_PENDING_CALLS, WS_PROXY_PROPERTY_MESSAGE_PROPERTIES, WS_PROXY_PROPERTY_STATE, webservices/WS_PROXY_FAULT_LANG_ID, webservices/WS_PROXY_PROPERTY_CALL_TIMEOUT, webservices/WS_PROXY_PROPERTY_ID, webservices/WS_PROXY_PROPERTY_MAX_CALL_POOL_SIZE, webservices/WS_PROXY_PROPERTY_MAX_CLOSE_TIMEOUT, webservices/WS_PROXY_PROPERTY_MAX_PENDING_CALLS, webservices/WS_PROXY_PROPERTY_MESSAGE_PROPERTIES, webservices/WS_PROXY_PROPERTY_STATE, wsw.ws_proxy_property_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -90,16 +90,16 @@ The following message properties may be specified:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_HEAP_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_HEAP_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS</a>
 </li>
 </ul>
 
@@ -118,7 +118,7 @@ This property is write only.
 ### -field WS_PROXY_PROPERTY_STATE
 
 The current state of the service proxy.
-                It is of type <a href="https://msdn.microsoft.com/82156e64-ae95-4a4a-aaad-e3dd69832c97">WS_SERVICE_PROXY_STATE</a>.
+                It is of type <a href="https://msdn.microsoft.com/en-us/library/Dd323433(v=VS.85).aspx">WS_SERVICE_PROXY_STATE</a>.
 
 This property is read only.
                 

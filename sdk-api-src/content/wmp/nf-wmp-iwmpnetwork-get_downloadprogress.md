@@ -120,11 +120,11 @@ Use the <b>IWMPEvents::Buffering</b> event to determine when buffering starts or
 
 
 
-<a href="https://msdn.microsoft.com/3e379c92-b400-48ad-a3d3-82ed3cd3f396">IWMPEvents::Buffering</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563312(v=VS.85).aspx">IWMPEvents::Buffering</a>
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
  
 
  

@@ -73,7 +73,7 @@ succeed.
 
 ### -param pbtdiInout [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa362924(v=VS.85).aspx">BLUETOOTH_DEVICE_INFO</a> structure describing the device          being authenticated.
+A pointer to a <a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a> structure describing the device          being authenticated.
 
 
 ### -param pbtOobData [in, optional]
@@ -82,12 +82,12 @@ Pointer to device specific out-of-band data to be provided with this API call.  
           displayed to continue the authentication process.
 If not <b>NULL</b>, no UI is displayed.
 
-<div class="alert"><b>Note</b>  If a callback is registered using <a href="https://msdn.microsoft.com/en-us/library/Cc766820(v=VS.85).aspx">BluetoothRegisterForAuthenticationEx</a>, then a UI will not be displayed.</div>
+<div class="alert"><b>Note</b>  If a callback is registered using <a href="https://msdn.microsoft.com/c9838f27-3450-4d51-be58-ce515d06d5cb">BluetoothRegisterForAuthenticationEx</a>, then a UI will not be displayed.</div>
 <div> </div>
 
 ### -param authenticationRequirement [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Ee844560(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>value that specifies the protection required for authentication.
+An <a href="https://msdn.microsoft.com/644372af-d613-4fd6-adcd-7faf0afb0033">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>value that specifies the protection required for authentication.
 
 
 ## -returns
@@ -144,9 +144,9 @@ The device in pbtdi is already been marked as authenticated.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa362924(v=VS.85).aspx">BLUETOOTH_DEVICE_INFO</a> structure specified by <i>pbtdilInOut</i> must contain the address of a device to authenticate.  If the value of <i>pbtOobData</i> is not <b>NULL</b>, an attempt  will be made to authenticate the remote device with the provided out-of-band data.
+The <a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a> structure specified by <i>pbtdilInOut</i> must contain the address of a device to authenticate.  If the value of <i>pbtOobData</i> is not <b>NULL</b>, an attempt  will be made to authenticate the remote device with the provided out-of-band data.
 
-For all other types of  authentication, the caller should register an authentication callback using <a href="https://msdn.microsoft.com/en-us/library/Cc766820(v=VS.85).aspx">BluetoothRegisterForAuthenticationEx</a> and then respond to the relevant authentication method using <a href="https://msdn.microsoft.com/en-us/library/Cc766821(v=VS.85).aspx">BluetoothSendAuthenticationResponseEx</a>.
+For all other types of  authentication, the caller should register an authentication callback using <a href="https://msdn.microsoft.com/c9838f27-3450-4d51-be58-ce515d06d5cb">BluetoothRegisterForAuthenticationEx</a> and then respond to the relevant authentication method using <a href="https://msdn.microsoft.com/f23f90e3-c86f-44e4-a164-620105b19f08">BluetoothSendAuthenticationResponseEx</a>.
 
 
 #### Examples
@@ -204,7 +204,7 @@ HRESULT WINAPI AuthenticateService(){
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362770(v=VS.85).aspx">BluetoothAuthenticateDevice</a>
+<a href="https://msdn.microsoft.com/9f8ff768-a794-4a61-a215-ae17e9acf620">BluetoothAuthenticateDevice</a>
  
 
  

@@ -100,7 +100,7 @@ This method is used infrequently because the same key seed should be used for mu
 
 
 
-<a href="https://msdn.microsoft.com/fd466cf8-b1f8-49aa-a486-8fd347b29178">IWMDRMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798372(v=VS.85).aspx">IWMDRMWriter Interface</a>
  
 
  

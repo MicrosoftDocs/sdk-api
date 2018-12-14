@@ -1,5 +1,5 @@
 ---
-UID: NS:t2embapi.TTLOADINFO
+UID: NS:t2embapi.__unnamed_struct_0
 title: TTLOADINFO
 author: windows-sdk-content
 description: The TTLOADINFO structure contains the URL from which the embedded font object has been obtained.
@@ -7,7 +7,7 @@ old-location: gdi\ttloadinfo.htm
 tech.root: gdi
 ms.assetid: 7a4beae7-cd30-47e3-b310-d0a79c3c8c36
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: TTLOADINFO, TTLOADINFO structure [Windows GDI], _win32_TTLOADINFO, gdi.ttloadinfo, t2embapi/TTLOADINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,7 +81,7 @@ Pointer to the string containing the current URL.
 
 
 
-<a href="https://msdn.microsoft.com/7e1828bf-c9ed-4120-b91f-b4eb45191e48">TTEMBEDINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd145148(v=VS.85).aspx">TTEMBEDINFO</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncconflicthandler_resolveconflict.htm
 tech.root: offlinefiles
 ms.assetid: eb6fbdcf-1833-4ada-880e-f2dbfce64d99
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesSyncConflictHandler interface [Offline Files],ResolveConflict method, IOfflineFilesSyncConflictHandler.ResolveConflict, IOfflineFilesSyncConflictHandler::ResolveConflict, OFFLINEFILES_CHANGES_LOCAL_ATTRIBUTES, OFFLINEFILES_CHANGES_LOCAL_SIZE, OFFLINEFILES_CHANGES_LOCAL_TIME, OFFLINEFILES_CHANGES_REMOTE_ATTRIBUTES, OFFLINEFILES_CHANGES_REMOTE_SIZE, OFFLINEFILES_CHANGES_REMOTE_TIME, OFFLINEFILES_SYNC_STATE_LOCAL_KNOWN, OFFLINEFILES_SYNC_STATE_REMOTE_KNOWN, ResolveConflict, ResolveConflict method [Offline Files], ResolveConflict method [Offline Files],IOfflineFilesSyncConflictHandler interface, cscobj/IOfflineFilesSyncConflictHandler::ResolveConflict, of.iofflinefilessyncconflicthandler_resolveconflict
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,7 +83,7 @@ The sync state was based on the server state.
 
 ### -param state [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Bb530655(v=VS.85).aspx">OFFLINEFILES_SYNC_STATE</a> enumeration indicating the state of the item in conflict.
+A value from the <a href="https://msdn.microsoft.com/05d1e03e-2db4-4f1e-8813-98c8cf6d03b6">OFFLINEFILES_SYNC_STATE</a> enumeration indicating the state of the item in conflict.
 
 
 ### -param fChangeDetails [in]
@@ -129,7 +129,7 @@ Remote file change time has changed.
 
 ### -param pConflictResolution [out]
 
-Receives the desired resolution code.  Specify a value from the <a href="https://msdn.microsoft.com/en-us/library/Bb530653(v=VS.85).aspx">OFFLINEFILES_SYNC_CONFLICT_RESOLVE</a> enumeration.
+Receives the desired resolution code.  Specify a value from the <a href="https://msdn.microsoft.com/2082b476-cb98-4845-885a-56731f8a4762">OFFLINEFILES_SYNC_CONFLICT_RESOLVE</a> enumeration.
 
 
 ### -param ppszNewName [out]
@@ -154,7 +154,7 @@ If a file of that name exists the Offline Files conflict handler increments <i>N
 <li>samples (Alice v2).doc</li>
 <li>samples (Alice v3).doc</li>
 </ul>
-This description is provided only to illustrate how the Offline Files conflict handler in Sync Center creates new file names.  An implementation of <a href="https://msdn.microsoft.com/en-us/library/Bb530623(v=VS.85).aspx">IOfflineFilesSyncConflictHandler</a> is free to use any name format that it wishes to define.
+This description is provided only to illustrate how the Offline Files conflict handler in Sync Center creates new file names.  An implementation of <a href="https://msdn.microsoft.com/f3d5ed0e-727d-43e1-9d29-2a0a71bb8a64">IOfflineFilesSyncConflictHandler</a> is free to use any name format that it wishes to define.
 
 
 ## -returns
@@ -171,7 +171,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530623(v=VS.85).aspx">IOfflineFilesSyncConflictHandler</a>
+<a href="https://msdn.microsoft.com/f3d5ed0e-727d-43e1-9d29-2a0a71bb8a64">IOfflineFilesSyncConflictHandler</a>
  
 
  

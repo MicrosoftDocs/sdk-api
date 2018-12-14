@@ -4,7 +4,7 @@ title: ITsSbTarget::get_EnvironmentName
 author: windows-sdk-content
 description: Retrieves or specifies the name of the environment associated with the target.
 old-location: termserv\itssbtarget_environmentname.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 84a1b903-a836-4d8e-bde7-609f7f875d8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

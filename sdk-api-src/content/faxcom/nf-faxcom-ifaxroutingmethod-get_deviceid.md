@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-A fax client application can use the <b>IFaxRoutingMethod::get_DeviceId</b> property to uniquely identify a fax port. You can call the <a href="https://msdn.microsoft.com/ae0cc37c-bfc8-4e89-a3a4-b06a3917f835">IFaxRoutingMethod::get_DeviceName</a> property to retrieve the user-friendly name for a port. Note, however, that it is possible for multiple fax ports to have the same user-friendly name.
+A fax client application can use the <b>IFaxRoutingMethod::get_DeviceId</b> property to uniquely identify a fax port. You can call the <a href="https://msdn.microsoft.com/en-us/library/ms690864(v=VS.85).aspx">IFaxRoutingMethod::get_DeviceName</a> property to retrieve the user-friendly name for a port. Note, however, that it is possible for multiple fax ports to have the same user-friendly name.
 
 
 
@@ -93,7 +93,7 @@ A fax client application can use the <b>IFaxRoutingMethod::get_DeviceId</b> prop
 
 
 
-<a href="https://msdn.microsoft.com/ae0cc37c-bfc8-4e89-a3a4-b06a3917f835">IFaxRoutingMethod::get_DeviceName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690864(v=VS.85).aspx">IFaxRoutingMethod::get_DeviceName</a>
 
 
 

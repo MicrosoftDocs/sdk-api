@@ -1,6 +1,7 @@
 {
   "tech": "dwm",
   "headers": [
+    "n/a",
     "winuser.h",
     "dwmapi.h"
   ],

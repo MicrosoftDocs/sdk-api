@@ -157,7 +157,7 @@ For video streams:
 <ul>
 <li>The <b>formattype</b> is not <b>WMFORMAT_VideoInfo</b>.</li>
 <li><b>cbFormat</b> is not equal to sizeof(<b>WMVIDEOINFOHEADER</b>).</li>
-<li>The bit rate specified through <b>IWMStreamConfig</b> is not equal to the value of <b>dwBitrate</b> in the <b>VIDEOINFOHEADER</b>. (Does not apply if <a href="https://msdn.microsoft.com/202be688-e739-4e80-9574-f85b2eb168fc">IWMStreamConfig::SetBitrate</a> was used to set a bit rate of zero.)</li>
+<li>The bit rate specified through <b>IWMStreamConfig</b> is not equal to the value of <b>dwBitrate</b> in the <b>VIDEOINFOHEADER</b>. (Does not apply if <a href="https://msdn.microsoft.com/en-us/library/Dd798564(v=VS.85).aspx">IWMStreamConfig::SetBitrate</a> was used to set a bit rate of zero.)</li>
 <li>On uncompressed video streams, <b>bmiHeader.biSizeImage</b> has been specified incorrectly.</li>
 <li>The rectangle width or height specified in the <b>bmiHeader</b> is not valid for the compression type. (Some types require two- or four-byte alignment.)</li>
 <li>Any member of the <b>rcSource</b> or <b>rcTarget</b> rectangles is negative.</li>
@@ -216,11 +216,11 @@ The maximum number of streams in a profile is 63, as defined by the constant WM_
 
 
 
-<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/743212fd-a1e7-47c5-a220-c203cc2788e6">IWMWriter::SetProfileByID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757508(v=VS.85).aspx">IWMWriter::SetProfileByID</a>
 
 
 

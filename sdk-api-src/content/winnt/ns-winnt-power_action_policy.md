@@ -1,5 +1,5 @@
 ---
-UID: NS:winnt.POWER_ACTION_POLICY
+UID: NS:winnt.__unnamed_struct_21
 title: POWER_ACTION_POLICY
 author: windows-sdk-content
 description: Contains information used to set the system power state.
@@ -7,7 +7,7 @@ old-location: base\power_action_policy_str.htm
 tech.root: power
 ms.assetid: 70739f46-54be-4748-8993-ffee3b2a8b6c
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPOWER_ACTION_POLICY, POWER_ACTION_CRITICAL, POWER_ACTION_DISABLE_WAKES, POWER_ACTION_LIGHTEST_FIRST, POWER_ACTION_LOCK_CONSOLE, POWER_ACTION_OVERRIDE_APPS, POWER_ACTION_POLICY, POWER_ACTION_POLICY structure, POWER_ACTION_QUERY_ALLOWED, POWER_ACTION_UI_ALLOWED, POWER_FORCE_TRIGGER_RESET, POWER_LEVEL_USER_NOTIFY_EXEC, POWER_LEVEL_USER_NOTIFY_SOUND, POWER_LEVEL_USER_NOTIFY_TEXT, POWER_USER_NOTIFY_BUTTON, POWER_USER_NOTIFY_SHUTDOWN, PPOWER_ACTION_POLICY, PPOWER_ACTION_POLICY structure pointer, _win32_power_action_policy_str, base.power_action_policy_str, winnt/POWER_ACTION_POLICY, winnt/PPOWER_ACTION_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

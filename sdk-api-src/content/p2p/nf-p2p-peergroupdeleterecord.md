@@ -7,7 +7,7 @@ old-location: p2p\peergroupdeleterecord.htm
 tech.root: P2PSdk
 ms.assetid: e80fbf7f-2193-4a45-8a7f-46707ae4acfe
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerGroupDeleteRecord, PeerGroupDeleteRecord function [Peer Networking], p2p.peergroupdeleterecord, p2p/PeerGroupDeleteRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

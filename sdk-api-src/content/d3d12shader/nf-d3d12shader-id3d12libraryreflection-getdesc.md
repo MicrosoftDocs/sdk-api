@@ -61,9 +61,9 @@ Fills the library descriptor structure for the library reflection.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960197(v=VS.85).aspx">D3D12_LIBRARY_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/99CB0B61-8494-4591-A3CB-B6DAD19C79ED">D3D12_LIBRARY_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960197(v=VS.85).aspx">D3D12_LIBRARY_DESC</a> structure that receives a description of the library reflection.
+A pointer to a <a href="https://msdn.microsoft.com/99CB0B61-8494-4591-A3CB-B6DAD19C79ED">D3D12_LIBRARY_DESC</a> structure that receives a description of the library reflection.
           
 
 

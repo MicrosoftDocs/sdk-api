@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::GetShadowConnection
 author: windows-sdk-content
 description: Retrieves a reference to the shadow connection object from the protocol.
 old-location: termserv\iwrdsprotocolconnection_getshadowconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1b1059af-f673-47fd-85fc-57df76adfbcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_SERVICE_PROPERTY_ID
+UID: NE:webservices.__unnamed_enum_94
 title: WS_SERVICE_PROPERTY_ID
 author: windows-sdk-content
 description: The optional parameters for configuring the service host. This enumeration is used within the WS_SERVICE_PROPERTY structure when calling WsCreateServiceHost or by itself when calling WsGetServiceHostProperty.
@@ -7,7 +7,7 @@ old-location: wsw\ws_service_property_id.htm
 tech.root: wsw
 ms.assetid: 305fe7ad-e4a2-499a-b34b-e5b7cde53e22
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_SERVICE_PROPERTY_CLOSE_TIMEOUT, WS_SERVICE_PROPERTY_FAULT_DISCLOSURE, WS_SERVICE_PROPERTY_FAULT_LANGID, WS_SERVICE_PROPERTY_HOST_STATE, WS_SERVICE_PROPERTY_HOST_USER_STATE, WS_SERVICE_PROPERTY_ID, WS_SERVICE_PROPERTY_ID enumeration [Web Services for Windows], WS_SERVICE_PROPERTY_METADATA, webservices/WS_SERVICE_PROPERTY_CLOSE_TIMEOUT, webservices/WS_SERVICE_PROPERTY_FAULT_DISCLOSURE, webservices/WS_SERVICE_PROPERTY_FAULT_LANGID, webservices/WS_SERVICE_PROPERTY_HOST_STATE, webservices/WS_SERVICE_PROPERTY_HOST_USER_STATE, webservices/WS_SERVICE_PROPERTY_ID, webservices/WS_SERVICE_PROPERTY_METADATA, wsw.ws_service_property_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,7 +68,7 @@ A void pointer
 
 ### -field WS_SERVICE_PROPERTY_FAULT_DISCLOSURE
 
-A <a href="https://msdn.microsoft.com/1dca9074-b329-4293-8a44-d0ced00ae59e">WS_FAULT_DISCLOSURE</a> value used with <a href="https://msdn.microsoft.com/412a262a-1706-4101-b154-1804408a5b9f">WsCreateServiceHost</a>.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd401879(v=VS.85).aspx">WS_FAULT_DISCLOSURE</a> value used with <a href="https://msdn.microsoft.com/412a262a-1706-4101-b154-1804408a5b9f">WsCreateServiceHost</a>.
                     This property is used to specify the disclosure level of the error object when its converted into a fault. The default is <b>WS_MINIMAL_FAULT_DISCLOSURE</b>.
                 
 
@@ -81,7 +81,7 @@ A LANGID used with <a href="https://msdn.microsoft.com/3793cb79-37b9-4d94-9932-9
 
 ### -field WS_SERVICE_PROPERTY_HOST_STATE
 
-A <a href="https://msdn.microsoft.com/99745db7-6e9c-49fd-a97a-4430a80064bb">WS_SERVICE_HOST_STATE</a> value  used with <a href="https://msdn.microsoft.com/3793cb79-37b9-4d94-9932-9eb3b259b60e">WsGetServiceHostProperty</a> that specifies the current state of the service host.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323424(v=VS.85).aspx">WS_SERVICE_HOST_STATE</a> value  used with <a href="https://msdn.microsoft.com/3793cb79-37b9-4d94-9932-9eb3b259b60e">WsGetServiceHostProperty</a> that specifies the current state of the service host.
                 
 
 The returned value is a snapshot of the current state, so it is

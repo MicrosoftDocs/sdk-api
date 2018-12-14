@@ -4,7 +4,7 @@ title: IWRdsProtocolShadowConnection::DoTarget
 author: windows-sdk-content
 description: Requests that the protocol start the target side of a shadow connection.
 old-location: termserv\iwrdsprotocolshadowconnection_dotarget.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 9fe2e3fb-f368-4b7e-b679-402db900916c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -111,7 +111,7 @@ This property is not a human-readable string, but is guaranteed to be unique per
 
 
 
-<a href="https://msdn.microsoft.com/cd0955cb-602f-4a47-a6f8-6fb2f0c9cb31">IMSVidDevice2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694520(v=VS.85).aspx">IMSVidDevice2 Interface</a>
  
 
  

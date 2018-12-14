@@ -7,7 +7,7 @@ old-location: base\powercreaterequest.htm
 tech.root: power
 ms.assetid: 2122bf00-9e6b-48ab-89b0-f53dd6804902
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: PowerCreateRequest, PowerCreateRequest function, base.powercreaterequest, winbase/PowerCreateRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

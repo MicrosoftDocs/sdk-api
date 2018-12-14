@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706378(v=VS.85).aspx">Turbulence effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/86C1990E-958C-46D7-840A-E4A17F1D1740">Turbulence effect</a>.
         
 
 
@@ -119,7 +119,7 @@ The default value is 0.
 The turbulence noise mode. This property can be either fractal sum or turbulence. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. 
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934353(v=VS.85).aspx">D2D1_TURBULENCE_NOISE</a>.
+The type is <a href="https://msdn.microsoft.com/6D2C57B9-AE6E-43CF-AF76-299BC7FCFC06">D2D1_TURBULENCE_NOISE</a>.
             
 
 The default value is D2D1_TURBULENCE_NOISE_FRACTAL_SUM.

@@ -60,7 +60,7 @@ An <b>IWMProfile3</b> interface is created for each profile object created. You 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMProfile3</b> interface inherits from <a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>. <b>IWMProfile3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMProfile3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>. <b>IWMProfile3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMProfile3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/174a4583-93fb-41cd-ba14-a959a28c1ea3">AddBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757269(v=VS.85).aspx">AddBandwidthSharing</a>
 </td>
 <td align="left" width="63%">
 Adds an existing bandwidth sharing object to the profile.
@@ -84,7 +84,7 @@ Adds an existing bandwidth sharing object to the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab6c9903-95ea-499b-be75-ff57328336f0">CreateNewBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757270(v=VS.85).aspx">CreateNewBandwidthSharing</a>
 </td>
 <td align="left" width="63%">
 Creates a new bandwidth sharing object.
@@ -93,7 +93,7 @@ Creates a new bandwidth sharing object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/801a66fa-b72d-4282-953e-216fb9a56cd7">CreateNewStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757271(v=VS.85).aspx">CreateNewStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Creates a new stream prioritization object.
@@ -102,7 +102,7 @@ Creates a new stream prioritization object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be66ff8b-c883-4329-aaa4-e9549d0cbb9e">GetBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757272(v=VS.85).aspx">GetBandwidthSharing</a>
 </td>
 <td align="left" width="63%">
 Obtains a pointer to the <b>IWMBandwidthSharing</b> interface of an existing bandwidth sharing object.
@@ -111,7 +111,7 @@ Obtains a pointer to the <b>IWMBandwidthSharing</b> interface of an existing ban
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f5a11a7-d81a-4ca1-8b0f-1d561f736523">GetBandwidthSharingCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757273(v=VS.85).aspx">GetBandwidthSharingCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of bandwidth sharing objects that exist in the profile.
@@ -120,7 +120,7 @@ Retrieves the number of bandwidth sharing objects that exist in the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ddab3735-06a1-4e03-9abc-0fca635ef759">GetExpectedPacketCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757378(v=VS.85).aspx">GetExpectedPacketCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the expected number of <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packets</a> for a specified duration.
@@ -129,7 +129,7 @@ Retrieves the expected number of <a href="https://msdn.microsoft.com/en-us/libra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42aea1df-63cd-4eda-86c8-3cebe92d5c82">GetStorageFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757379(v=VS.85).aspx">GetStorageFormat</a>
 </td>
 <td align="left" width="63%">
 Not implemented in this release.
@@ -139,7 +139,7 @@ Not implemented in this release.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09545c1e-8090-4526-9faf-6cb2cb369208">GetStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757380(v=VS.85).aspx">GetStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream prioritization object associated with the profile.
@@ -148,7 +148,7 @@ Retrieves the stream prioritization object associated with the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c0a90aa-154a-49c9-ab8e-0d1c4ce02641">RemoveBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757381(v=VS.85).aspx">RemoveBandwidthSharing</a>
 </td>
 <td align="left" width="63%">
 Removes a bandwidth sharing object from the profile.
@@ -157,7 +157,7 @@ Removes a bandwidth sharing object from the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1522cb9f-ce3f-4183-8779-3ee112efb40b">RemoveStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757382(v=VS.85).aspx">RemoveStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Removes a stream prioritization object from the profile.
@@ -166,7 +166,7 @@ Removes a stream prioritization object from the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43cbb36f-ec00-48e5-9182-b69e8c196ab0">SetStorageFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757383(v=VS.85).aspx">SetStorageFormat</a>
 </td>
 <td align="left" width="63%">
 Not implemented in this release.
@@ -176,7 +176,7 @@ Not implemented in this release.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16dfb205-2a0b-4dc8-a8f2-8981534018f1">SetStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757384(v=VS.85).aspx">SetStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Assigns a stream prioritization object to the profile.
@@ -198,7 +198,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/fd0e48bb-2e5e-4158-9ff1-5b603f219689">IWMBandwidthSharing Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743298(v=VS.85).aspx">IWMBandwidthSharing Interface</a>
 
 
 
@@ -206,11 +206,11 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef8ae275-c36a-492c-b57c-d640044ede93">IWMStreamPrioritization Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798573(v=VS.85).aspx">IWMStreamPrioritization Interface</a>
 
 
 

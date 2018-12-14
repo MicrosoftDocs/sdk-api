@@ -65,7 +65,7 @@ This property is read-only.
 
 
 Note that it is possible for multiple fax ports to have the same user-friendly 
-name. Use the <a href="https://msdn.microsoft.com/6909e37a-0a6c-475f-ab41-c2e1817349f5">IFaxPort::get_DeviceId</a> property to uniquely identify a fax port.
+name. Use the <a href="https://msdn.microsoft.com/en-us/library/ms692379(v=VS.85).aspx">IFaxPort::get_DeviceId</a> property to uniquely identify a fax port.
 
 <b>IFaxPort::get_Name</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -89,7 +89,7 @@ name. Use the <a href="https://msdn.microsoft.com/6909e37a-0a6c-475f-ab41-c2e181
 
 
 
-<a href="https://msdn.microsoft.com/6909e37a-0a6c-475f-ab41-c2e1817349f5">IFaxPort::get_DeviceId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692379(v=VS.85).aspx">IFaxPort::get_DeviceId</a>
 
 
 

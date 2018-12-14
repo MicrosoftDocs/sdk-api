@@ -123,11 +123,11 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/8b253715-a294-4e95-b730-e6efe7f895af">IAudioData Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b06592d-2b9d-4f5a-bf74-331b07a13f0f">IAudioData::GetFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389514(v=VS.85).aspx">IAudioData::GetFormat</a>
  
 
  

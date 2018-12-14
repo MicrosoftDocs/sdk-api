@@ -57,7 +57,7 @@ Enables the caller to control an object pool.
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPoolManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IPoolManager</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>IPoolManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686424(v=VS.85).aspx">ShutdownPool</a>
+<a href="https://msdn.microsoft.com/c374b0a4-d984-4fa6-80a7-8bc4d0aff284">ShutdownPool</a>
 </td>
 <td align="left" width="63%">
 Shuts down the object pool.

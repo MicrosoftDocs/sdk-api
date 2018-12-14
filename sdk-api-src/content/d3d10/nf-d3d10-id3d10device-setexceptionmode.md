@@ -61,7 +61,7 @@ Get the exception-mode flags.
 
 ### -param RaiseFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 A value that contains one or more exception flags; each flag specifies a condition which will cause an exception to be raised. The flags are listed in <a href="https://msdn.microsoft.com/en-us/library/Bb172407(v=VS.85).aspx">D3D10_RAISE_FLAG</a>. A default value of 0 means there are no flags.
 

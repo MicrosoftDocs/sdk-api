@@ -4,7 +4,7 @@ title: IWorkspace::StartRemoteApplication
 author: windows-sdk-content
 description: Starts a RemoteApp program.
 old-location: termserv\iworkspace_startremoteapplication.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a1d7e0c2-90bc-49c9-b7d5-380e13af4bba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

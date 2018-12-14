@@ -61,7 +61,7 @@ Gets an input-parameter description for a shader.
 
 ### -param ParameterIndex [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 A zero-based parameter index.
           
@@ -69,9 +69,9 @@ A zero-based parameter index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960205(v=VS.85).aspx">D3D12_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/FDD227A5-FFB9-46E3-B7F7-BECE785ECD7C">D3D12_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a shader-input-signature description. See <a href="https://msdn.microsoft.com/en-us/library/Dn960205(v=VS.85).aspx">D3D12_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-input-signature description. See <a href="https://msdn.microsoft.com/FDD227A5-FFB9-46E3-B7F7-BECE785ECD7C">D3D12_SIGNATURE_PARAMETER_DESC</a>.
           
 
 

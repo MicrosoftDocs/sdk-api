@@ -61,7 +61,7 @@ Loads unsigned integer  data into the x, y, and z components
 
 ### -param pSource [in]
 
-Address of an <a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a> structure containing the data to load.
+Address of an <a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a> structure containing the data to load.
         
 
 

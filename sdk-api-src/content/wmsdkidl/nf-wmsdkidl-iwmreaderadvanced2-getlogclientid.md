@@ -126,11 +126,11 @@ See the remarks for <b>SetLogClientID</b>.
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/818b7a0e-bbf4-42b2-a5a4-75078834c9f6">IWMReaderAdvanced2::SetLogClientID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757441(v=VS.85).aspx">IWMReaderAdvanced2::SetLogClientID</a>
  
 
  

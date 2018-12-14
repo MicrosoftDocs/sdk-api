@@ -64,7 +64,7 @@ Applications use the <code>GetCurrentService</code> method to retrieve the curre
 
 ### -param lpService [out]
 
-Specifies a pointer to an <a href="https://msdn.microsoft.com/63c20aff-eb30-44fd-bc8d-e155d7014f73">AM_WST_SERVICE</a> enumeration to receive the service currently being used.
+Specifies a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373509(v=VS.85).aspx">AM_WST_SERVICE</a> enumeration to receive the service currently being used.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
  
 
  

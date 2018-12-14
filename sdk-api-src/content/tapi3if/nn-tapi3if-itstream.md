@@ -55,7 +55,7 @@ The
 <b>ITStream</b> interface:
 
 
-<a href="https://msdn.microsoft.com/ac98dd08-4250-40f6-91a8-e1f67b94b51f">CMSPCallBase::CreateStreamObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726500(v=VS.85).aspx">CMSPCallBase::CreateStreamObject</a>
 
 
 

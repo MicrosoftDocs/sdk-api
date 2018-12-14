@@ -124,7 +124,7 @@ The parse time for the MPEG-2 Splitter filter is the current stream position in 
 
 
 
-<a href="https://msdn.microsoft.com/c5f3e153-c92f-4cdf-9aae-336b1f3dd8d6">IAMParse Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319750(v=VS.85).aspx">IAMParse Interface</a>
  
 
  

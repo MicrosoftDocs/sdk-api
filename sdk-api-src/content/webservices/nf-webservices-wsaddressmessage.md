@@ -71,7 +71,7 @@ Pointer to a <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5d
 Pointer to a <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a> structure containing the endpoint  to which to address the message.
 
 <div class="alert"><b>Note</b>  Passing <b>NULL</b> to this parameter indicates that no headers are added to the message.  This provides
-                    a way to set the <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_ID</a> to <b>WS_MESSAGE_PROPERTY_IS_ADDRESSED</b> 
+                    a way to set the <a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_ID</a> to <b>WS_MESSAGE_PROPERTY_IS_ADDRESSED</b> 
                     without modifying the set of headers in the message.
                 </div>
 <div> </div>
@@ -178,8 +178,8 @@ If a non-<b>NULL</b><a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-
             
 
 <ul>
-<li>The header type is set to WS_TO_HEADER (see the <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a> enumeration) and the address is set to the value of the <b>url</b>field of <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>.  If the URL length
-                is zero the <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION</a>-specific 
+<li>The header type is set to WS_TO_HEADER (see the <a href="https://msdn.microsoft.com/en-us/library/Dd401897(v=VS.85).aspx">WS_HEADER_TYPE</a> enumeration) and the address is set to the value of the <b>url</b>field of <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>.  If the URL length
+                is zero the <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION</a>-specific 
                 representation for an anonymous URL is set for the message.
                 </li>
 <li>Each header in the <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> specified in the 

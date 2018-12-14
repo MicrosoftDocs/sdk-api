@@ -63,7 +63,7 @@ The <b>TF_LBBALLOONINFO</b> structure contains information about a language bar 
 
 ### -field style
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629054(v=VS.85).aspx">TfLBBalloonStyle</a> values that specify the type of balloon to display.
+Contains one of the <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle</a> values that specify the type of balloon to display.
 
 
 ### -field bstrText

@@ -89,7 +89,7 @@ The <b>IMSVidOutputDevices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f8386bb-5494-4534-adec-d37ac105a3a4">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694581(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an output device to the collection.
@@ -98,7 +98,7 @@ Adds an output device to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f2203bb-9367-4713-8369-06002a5842e9">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694584(v=VS.85).aspx">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection.
@@ -107,7 +107,7 @@ Retrieves an enumerator for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c4da44cb-84cb-46ae-9898-993802c9bfac">get_Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694582(v=VS.85).aspx">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the collection.
@@ -116,7 +116,7 @@ Retrieves the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/373dd785-3671-4afa-92ac-e61a39a68228">get_Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694583(v=VS.85).aspx">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified item from the collection.
@@ -125,7 +125,7 @@ Retrieves the specified item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40c4bc6b-091b-44b5-a313-5db20842adcf">Remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694585(v=VS.85).aspx">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.

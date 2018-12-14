@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Gets an immediate context, which can play back <a href="https://msdn.microsoft.com/en-us/library/Ff476885(v=VS.85).aspx">command lists</a>. 
+Gets an immediate context, which can play back <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>. 
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Gets an immediate context, which can play back <a href="https://msdn.microsoft.c
 
 ### -param ppImmediateContext [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>**</b>
 
-Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a> interface pointer is initialized.
+Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a> interface pointer is initialized.
 
 
 ## -returns
@@ -79,9 +79,9 @@ This method does not return a value.
 
 
 
-The <b>GetImmediateContext2</b> method returns an <a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a> object that represents an immediate context, which is used to perform rendering that you want immediately submitted to a device. For most apps, an immediate context is the primary object that is used to draw your scene.
+The <b>GetImmediateContext2</b> method returns an <a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a> object that represents an immediate context, which is used to perform rendering that you want immediately submitted to a device. For most apps, an immediate context is the primary object that is used to draw your scene.
 
-The <b>GetImmediateContext2</b> method increments the reference count of the immediate context by one. Therefore, you must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the returned interface pointer when you are done with it to avoid a memory leak.
+The <b>GetImmediateContext2</b> method increments the reference count of the immediate context by one. Therefore, you must call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on the returned interface pointer when you are done with it to avoid a memory leak.
 
 
 
@@ -93,7 +93,7 @@ The <b>GetImmediateContext2</b> method increments the reference count of the imm
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280493(v=VS.85).aspx">ID3D11Device2</a>
+<a href="https://msdn.microsoft.com/C476AA0E-4A49-4E1E-8308-FB72EAD3E30C">ID3D11Device2</a>
  
 
  

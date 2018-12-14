@@ -52,7 +52,7 @@ req.redist:
 
 
 Enumerates the possible states of a 
-   <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a>.
+   <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.
 
 
 ## -enum-fields
@@ -78,7 +78,7 @@ All of the resources in the group are <a href="https://msdn.microsoft.com/en-us/
 
 ### -field ClusterGroupFailed
 
-At least one <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> in the group has failed.
+At least one <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> in the group has failed.
 
 
 ### -field ClusterGroupPartialOnline
@@ -98,7 +98,7 @@ At least one resource in the group is in a pending state. There are no failed re
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
@@ -106,7 +106,7 @@ At least one resource in the group is in a pending state. There are no failed re
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368721(v=VS.85).aspx">State Property of the ClusResGroup Object</a>
+<a href="https://msdn.microsoft.com/7eb8662c-a6ca-46e5-99ee-84e0dd6b0961">State Property of the ClusResGroup Object</a>
  
 
  

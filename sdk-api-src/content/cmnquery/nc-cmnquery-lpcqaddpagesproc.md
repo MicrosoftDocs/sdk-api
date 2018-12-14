@@ -70,7 +70,7 @@ Contains the <b>CLSID</b> of the form that the page should be added to. This mem
 
 ### -param pPage
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675752(v=VS.85).aspx">CQPAGE</a> structure that defines the page to be added.
+Pointer to a <a href="https://msdn.microsoft.com/09e407a2-7a58-483d-8422-4ae40c05b742">CQPAGE</a> structure that defines the page to be added.
 
 
 ## -returns
@@ -87,7 +87,7 @@ Returns an <b>HRESULT</b> value that indicates the success or failure of the pag
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675752(v=VS.85).aspx">CQPAGE</a>
+<a href="https://msdn.microsoft.com/09e407a2-7a58-483d-8422-4ae40c05b742">CQPAGE</a>
 
 
 

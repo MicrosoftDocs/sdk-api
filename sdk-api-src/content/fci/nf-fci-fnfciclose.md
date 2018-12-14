@@ -65,7 +65,7 @@ The <b>FNFCICLOSE</b> macro provides the declaration for the application-defined
 
 #### - err
 
-Pointer to the error code value. This value is  used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+Pointer to the error code value. This value is  used to provide extended error information in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure used to create the FCI context.
 
 
 #### - pv

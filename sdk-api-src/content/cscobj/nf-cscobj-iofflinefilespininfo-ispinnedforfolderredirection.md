@@ -7,7 +7,7 @@ old-location: of\iofflinefilespininfo_ispinnedforfolderredirection.htm
 tech.root: offlinefiles
 ms.assetid: b832f75a-3cd4-4421-a0a5-22c5682cb4c3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForFolderRedirection method, IOfflineFilesPinInfo.IsPinnedForFolderRedirection, IOfflineFilesPinInfo::IsPinnedForFolderRedirection, IsPinnedForFolderRedirection, IsPinnedForFolderRedirection method [Offline Files], IsPinnedForFolderRedirection method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForFolderRedirection, of.iofflinefilespininfo_ispinnedforfolderredirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 When an item is pinned in the Offline Files cache, it is protected from automatic eviction and is guaranteed to be available offline.
 
-This method corresponds to the OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR pin control flag used by the <a href="https://msdn.microsoft.com/en-us/library/Bb530498(v=VS.85).aspx">IOfflineFilesCache::Pin</a> method.
+This method corresponds to the OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR pin control flag used by the <a href="https://msdn.microsoft.com/6005d755-5e1b-4eba-95a2-b6c9c00b1a64">IOfflineFilesCache::Pin</a> method.
 
 
 
@@ -94,11 +94,11 @@ This method corresponds to the OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR pin contro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530498(v=VS.85).aspx">IOfflineFilesCache::Pin</a>
+<a href="https://msdn.microsoft.com/6005d755-5e1b-4eba-95a2-b6c9c00b1a64">IOfflineFilesCache::Pin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530590(v=VS.85).aspx">IOfflineFilesPinInfo</a>
+<a href="https://msdn.microsoft.com/529a529a-fbeb-4414-b4c9-46bfcca4aa7a">IOfflineFilesPinInfo</a>
  
 
  

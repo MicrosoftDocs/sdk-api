@@ -54,7 +54,7 @@ req.redist:
 
 
 Returns the 
-    current state of a <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a>. The <b>PCLUSAPI_GET_CLUSTER_GROUP_STATE</b> type defines a pointer to this function.
+    current state of a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>. The <b>PCLUSAPI_GET_CLUSTER_GROUP_STATE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -113,7 +113,7 @@ The operation was not successful. For more information about the error, call the
 </dl>
 </td>
 <td width="60%">
-All of the resources in the group are <a href="o_gly.htm">online</a>.
+All of the resources in the group are <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">online</a>.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ All of the resources in the group are <a href="o_gly.htm">online</a>.
 </dl>
 </td>
 <td width="60%">
-All of the resources in the group are <a href="o_gly.htm">offline</a> or 
+All of the resources in the group are <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">offline</a> or 
          there are no resources in the group.
 
 </td>
@@ -139,7 +139,7 @@ All of the resources in the group are <a href="o_gly.htm">offline</a> or
 </td>
 <td width="60%">
 At least one <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> in the group has failed (set a state 
-         of <b>ClusterResourceFailed</b> from the <a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a> enumeration).
+         of <b>ClusterResourceFailed</b> from the <a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a> enumeration).
 
 </td>
 </tr>
@@ -152,8 +152,8 @@ At least one <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9b
 </td>
 <td width="60%">
 At least one resource in the group is online. No resources are 
-         <a href="p_gly.htm">pending</a> or 
-         <a href="f_gly.htm">failed</a>.
+         <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">pending</a> or 
+         <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS.85).aspx">failed</a>.
 
 </td>
 </tr>
@@ -182,13 +182,13 @@ At least one resource in the group is in a pending state. There are no failed re
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more 
      information on sizing buffers, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369338(v=VS.85).aspx">Data Size Conventions</a>.
+     <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
 
 Do not call <b>GetClusterGroupState</b> from any 
      resource DLL entry point function. 
      <b>GetClusterGroupState</b> can safely be called from a 
      worker thread. For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -198,15 +198,15 @@ Do not call <b>GetClusterGroupState</b> from any
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309150(v=VS.85).aspx">CLUSTER_GROUP_STATE</a>
+<a href="https://msdn.microsoft.com/1dbc5494-a830-4ee7-b982-48792ad87c51">CLUSTER_GROUP_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a>
+<a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369686(v=VS.85).aspx">Group Management Functions</a>
+<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
 
 
 

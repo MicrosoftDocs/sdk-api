@@ -95,7 +95,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/E2404AA8-1214-4437-B655-EA74140202BA">XMVectorReplicateIntPtr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404804(v=VS.85).aspx">XMVectorReplicateIntPtr</a>
 
 
 
